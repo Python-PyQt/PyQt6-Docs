@@ -1,0 +1,5 @@
+# The product file for PyQt6-Docs.
+name = "PyQt6-Docs"
+
+# This can be removed after release of v6.0.0.
+NextMajorVersion = 6
