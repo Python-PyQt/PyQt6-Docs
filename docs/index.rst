@@ -7,10 +7,7 @@ PyQt5 Reference Guide
     introduction
     contributing
     eol_policy
-    deprecations
-    incompatibilities
     installation
-    building_with_configure
     signals_slots
     qt_properties
     metaobjects
@@ -22,7 +19,6 @@ PyQt5 Reference Guide
     multiinheritance
     gotchas
     designer
-    resources
     pickle
     python_shell
     i18n
