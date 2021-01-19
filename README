@@ -32,15 +32,16 @@ X.Y.Z version number of the new PyQt version.
 
 For each PyQt module (e.g. QtCore), run the following command::
 
-    python sip2rst.py --package PyQt6 module
+    python sip2rst.py MODULE
+
+``MODULE`` is the fully qualified name of the module, e.g. ``PyQt6.QtCore``.
 
 This will update the files in the ``api`` sub-directory of the ``docs``
 directory.
 
 The above command assumes that the PyQt .sip files have been installed in their
-default location and that the ``sip`` executable is on ``PATH``.
-``sip2rst.py`` has command line options to override the default locations if
-necessary.
+default location.  ``sip2rst.py`` has command line options to override the
+default locations if necessary.
 
 
 Re-basing for New Versions of Qt
