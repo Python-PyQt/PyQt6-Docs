@@ -5,6 +5,6 @@
 Modules
 =======
 
-All of these modules are contained within the top-level ``PyQt5`` package.
+All of these modules are contained within the top-level ``PyQt6`` package.
 
 .. sip:module-index::

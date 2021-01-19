@@ -1,11 +1,11 @@
 Support for Qt Properties
 =========================
 
-PyQt5 does not support the setting and getting of Qt properties as if they were
+PyQt6 does not support the setting and getting of Qt properties as if they were
 normal instance attributes.  This is because the name of a property often
 conflicts with the name of the property's getter method.
 
-However, PyQt5 does support the initial setting of properties using keyword
+However, PyQt6 does support the initial setting of properties using keyword
 arguments passed when an instance is created.  For example::
 
     act = QAction("&Save", self, shortcut=QKeySequence.Save,
@@ -14,8 +14,8 @@ arguments passed when an instance is created.  For example::
 The example also demonstrates the use of a keyword argument to connect a
 signal to a slot.
 
-PyQt5 also supports setting the values of properties (and connecting a signal
-to a slot) using the :meth:`~PyQt5.QtCore.QObject.pyqtConfigure` method.  For
+PyQt6 also supports setting the values of properties (and connecting a signal
+to a slot) using the :meth:`~PyQt6.QtCore.QObject.pyqtConfigure` method.  For
 example, the following gives the same results as above::
 
     act = QAction("&Save", self)
@@ -27,11 +27,11 @@ Defining New Qt Properties
 --------------------------
 
 A new Qt property may be defined using the
-:sip:ref:`~PyQt5.QtCore.pyqtProperty` function.  It is used in the same way as
+:sip:ref:`~PyQt6.QtCore.pyqtProperty` function.  It is used in the same way as
 the standard Python ``property()`` function.  In fact, Qt properties defined in
 this way also behave as Python properties.
 
-.. function:: PyQt5.QtCore.pyqtProperty(type[, fget=None[, fset=None[, freset=None[, fdel=None[, doc=None[, designable=True[, scriptable=True[, stored=True[, user=False[, constant=False[, final=False[, notify=None[, revision=0]]]]]]]]]]]]])
+.. function:: PyQt6.QtCore.pyqtProperty(type[, fget=None[, fset=None[, freset=None[, fdel=None[, doc=None[, designable=True[, scriptable=True[, stored=True[, user=False[, constant=False[, final=False[, notify=None[, revision=0]]]]]]]]]]]]])
 
     Create a property that behaves as both a Python property and a Qt property.
 
@@ -68,11 +68,11 @@ this way also behave as Python properties.
     :rtype:
         the property object.
       
-It is also possible to use :sip:ref:`~PyQt5.QtCore.pyqtProperty` as a decorator
+It is also possible to use :sip:ref:`~PyQt6.QtCore.pyqtProperty` as a decorator
 in the same way as the standard Python ``property()`` function.  The following
 example shows how to define an ``int`` property with a getter and setter::
 
-    from PyQt5.QtCore import QObject, pyqtProperty
+    from PyQt6.QtCore import QObject, pyqtProperty
 
     class Foo(QObject):
 

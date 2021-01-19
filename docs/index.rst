@@ -1,4 +1,4 @@
-PyQt5 Reference Guide
+PyQt6 Reference Guide
 =====================
 
 .. toctree::
@@ -8,6 +8,7 @@ PyQt5 Reference Guide
     contributing
     eol_policy
     installation
+    pyqt5_differences
     signals_slots
     qt_properties
     metaobjects

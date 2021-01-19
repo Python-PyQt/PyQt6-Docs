@@ -3,7 +3,7 @@
 Support for OpenGL
 ==================
 
-When compiled against Qt v5.1 or later, PyQt5 implements a set of either
+When compiled against Qt v5.1 or later, PyQt6 implements a set of either
 desktop QOpenGL bindings or OpenGL ES v2 bindings depending on how Qt was
 configured.  This removes the dependency on any third-party OpenGL bindings
 such as :sip:ref:`PyOpenGL`.
@@ -15,6 +15,6 @@ added.
 
 Obtaining an object that implements the bindings for a particular OpenGL
 version and profile is done in the same way as it is done from C++, i.e. by
-calling :meth:`~PyQt5.QtGui.QOpenGLContext.versionFunctions`.  In addition, the
+calling :meth:`~PyQt6.QtGui.QOpenGLContext.versionFunctions`.  In addition, the
 bindings object also contains attributes corresponding to all of the OpenGL
 constants.

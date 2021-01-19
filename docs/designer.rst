@@ -13,12 +13,12 @@ creates the user interface.  Qt also includes the ``QUiLoader`` class that
 allows an application to load a ``.ui`` file and to create the corresponding
 user interface dynamically.
 
-PyQt5 does not wrap the ``QUiLoader`` class but instead includes the
-:sip:ref:`~PyQt5.uic` Python module.  Like ``QUiLoader`` this module can load
+PyQt6 does not wrap the ``QUiLoader`` class but instead includes the
+:sip:ref:`~PyQt6.uic` Python module.  Like ``QUiLoader`` this module can load
 ``.ui`` files to create a user interface dynamically.  Like the :program:`uic`
 utility it can also generate the Python code that will create the user
-interface.  PyQt5's :program:`pyuic5` utility is a command line interface to
-the :sip:ref:`~PyQt5.uic` module.  Both are described in detail in the
+interface.  PyQt6's :program:`pyuic6` utility is a command line interface to
+the :sip:ref:`~PyQt6.uic` module.  Both are described in detail in the
 following sections.
 
 
@@ -35,13 +35,13 @@ in the ``Ui`` namespace.)  We refer to this class as the *form class*.
 
 The class contains a method called ``setupUi()``.  This takes a single argument
 which is the widget in which the user interface is created.  The type of this
-argument (typically :sip:ref:`~PyQt5.QtWidgets.QDialog`,
-:sip:ref:`~PyQt5.QtWidgets.QWidget` or
-:sip:ref:`~PyQt5.QtWidgets.QMainWindow`) is set in Designer.  We refer to
+argument (typically :sip:ref:`~PyQt6.QtWidgets.QDialog`,
+:sip:ref:`~PyQt6.QtWidgets.QWidget` or
+:sip:ref:`~PyQt6.QtWidgets.QMainWindow`) is set in Designer.  We refer to
 this type as the *Qt base class*.
 
 In the following examples we assume that a ``.ui`` file has been created
-containing a dialog and the name of the :sip:ref:`~PyQt5.QtWidgets.QDialog`
+containing a dialog and the name of the :sip:ref:`~PyQt6.QtWidgets.QDialog`
 object is ``ImageDialog``.  We also assume that the name of the file containing
 the generated Python code is :file:`ui_imagedialog.py`.  The generated code can
 then be used in a number of ways.
@@ -50,7 +50,7 @@ The first example shows the direct approach where we simply create a simple
 application to create the dialog::
 
     import sys
-    from PyQt5.QtWidgets import QApplication, QDialog
+    from PyQt6.QtWidgets import QApplication, QDialog
     from ui_imagedialog import Ui_ImageDialog
 
     app = QApplication(sys.argv)
@@ -62,10 +62,10 @@ application to create the dialog::
     sys.exit(app.exec_())
 
 The second example shows the single inheritance approach where we sub-class
-:sip:ref:`~PyQt5.QtWidgets.QDialog` and set up the user interface in the
+:sip:ref:`~PyQt6.QtWidgets.QDialog` and set up the user interface in the
 ``__init__()`` method::
 
-    from PyQt5.QtWidgets import QDialog
+    from PyQt6.QtWidgets import QDialog
     from ui_imagedialog import Ui_ImageDialog
 
     class ImageDialog(QDialog):
@@ -85,7 +85,7 @@ The second example shows the single inheritance approach where we sub-class
 
 The final example shows the multiple inheritance approach::
 
-    from PyQt5.QtGui import QDialog
+    from PyQt6.QtGui import QDialog
     from ui_imagedialog import Ui_ImageDialog
 
     class ImageDialog(QDialog, Ui_ImageDialog):
@@ -105,25 +105,29 @@ The final example shows the multiple inheritance approach::
 For a full description see the Qt Designer Manual in the Qt Documentation.
 
 
-:program:`pyuic5`
+:program:`pyuic6`
 -----------------
 
-The :program:`pyuic5` utility is a command line interface to the
-:sip:ref:`~PyQt5.uic` module.  The command has the following syntax::
+The :program:`pyuic6` utility is a command line interface to the
+:sip:ref:`~PyQt6.uic` module.  The command has the following syntax::
 
-    pyuic5 [options] .ui-file
+    pyuic6 [options] .ui-file
 
 The full set of command line options is:
 
-.. program:: pyuic5
+.. program:: pyuic6
 
 .. cmdoption:: -h, --help
 
     A help message is written to ``stdout``.
 
-.. cmdoption:: --version
+.. cmdoption:: -V, --version
 
     The version number is written to ``stdout``.
+
+.. cmdoption:: -d, --debug
+
+    Show debug output.
 
 .. cmdoption:: -i <N>, --indent <N>
 
@@ -144,30 +148,11 @@ The full set of command line options is:
     creates and displays the GUI when it is executes as a standalone
     application.
 
-.. cmdoption:: --import-from <PACKAGE>
-
-    .. versionadded:: 5.6
-
-    Resource modules are imported using ``from <PACKAGE> import ...`` rather
-    than a simple ``import ...``.
-
-.. cmdoption:: --from-imports
-
-    This is the equivalent of specifying ``--import-from .``.
-
-.. cmdoption:: --resource-suffix <SUFFIX>
-
-    The suffix ``<SUFFIX>`` is appended to the basename of any resource file
-    specified in the ``.ui`` file to create the name of the Python module
-    generated from the resource file by :program:`pyrcc5`.  The default is
-    ``_rc``.  For example if the ``.ui`` file specified a resource file called
-    ``foo.qrc`` then the corresponding Python module is ``foo_rc``.
-
-Note that code generated by :program:`pyuic5` is not guaranteed to be
-compatible with earlier versions of PyQt5.  However, it is guaranteed to be
+Note that code generated by :program:`pyuic6` is not guaranteed to be
+compatible with earlier versions of PyQt6.  However, it is guaranteed to be
 compatible with later versions.  If you have no control over the version of
-PyQt5 the users of your application are using then you should run
-:program:`pyuic5`, or call :func:`~PyQt5.uic.compileUi()`, as part of your
+PyQt6 the users of your application are using then you should run
+:program:`pyuic6`, or call :func:`~PyQt6.uic.compileUi()`, as part of your
 installation process.  Another alternative would be to distribute the ``.ui``
 files (perhaps as part of a resource file) and have your application load them
 dynamically.
@@ -179,7 +164,7 @@ Writing Qt Designer Plugins
 ---------------------------
 
 Qt Designer can be extended by writing plugins.  Normally this is done using
-C++ but PyQt5 also allows you to write plugins in Python.  Most of the time a
+C++ but PyQt6 also allows you to write plugins in Python.  Most of the time a
 plugin is used to expose a custom widget to Designer so that it appears in
 Designer's widget box just like any other widget.  It is possibe to change the
 widget's properties and to connect its signals and slots.
@@ -196,8 +181,8 @@ issues that have to be addressed.
   the ``QDesignerCustomWidgetInterface`` class.  (If the plugin exposes more
   than one custom widget then it must conform to the interface defined by the
   ``QDesignerCustomWidgetCollectionInterface`` class.)  In addition the plugin
-  class must sub-class :sip:ref:`~PyQt5.QtCore.QObject` as well as the
-  interface class.  PyQt5 does not allow Python classes to be sub-classed from
+  class must sub-class :sip:ref:`~PyQt6.QtCore.QObject` as well as the
+  interface class.  PyQt6 does not allow Python classes to be sub-classed from
   more than one Qt class.
 
 - Designer can only connect Qt signals and slots.  It has no understanding of
@@ -206,22 +191,22 @@ issues that have to be addressed.
 - Designer can only edit Qt properties that represent C++ types.  It has no
   understanding of Python attributes or Python types.
 
-PyQt5 provides the following components and features to resolve these issues as
+PyQt6 provides the following components and features to resolve these issues as
 simply as possible.
 
-- PyQt5's QtDesigner module includes additional classes (all of which have a
+- PyQt6's QtDesigner module includes additional classes (all of which have a
   ``QPy`` prefix) that are already sub-classed from the necessary Qt classes.
   This avoids the need to sub-class from more than one Qt class in Python.  For
   example, where a C++ custom widget plugin would sub-class from
-  :sip:ref:`~PyQt5.QtCore.QObject` and ``QDesignerCustomWidgetInterface``, a
+  :sip:ref:`~PyQt6.QtCore.QObject` and ``QDesignerCustomWidgetInterface``, a
   Python custom widget plugin would instead sub-class from
-  :sip:ref:`~PyQt5.QtDesigner.QPyDesignerCustomWidgetPlugin`.
+  :sip:ref:`~PyQt6.QtDesigner.QPyDesignerCustomWidgetPlugin`.
 
-- PyQt5 installs a C++ plugin in Designer's plugin directory.  It conforms to
+- PyQt6 installs a C++ plugin in Designer's plugin directory.  It conforms to
   the interface defined by the ``QDesignerCustomWidgetCollectionInterface``
   class.  It searches a configurable set of directories looking for Python
   plugins that implement a class sub-classed from
-  :sip:ref:`~PyQt5.QtDesigner.QPyDesignerCustomWidgetPlugin`.  Each class
+  :sip:ref:`~PyQt6.QtDesigner.QPyDesignerCustomWidgetPlugin`.  Each class
   that is found is instantiated and the instance created is added to the custom
   widget collection.
 
@@ -237,13 +222,13 @@ simply as possible.
   then it is ignored.
 
 - A Python custom widget may define new Qt signals using
-  :sip:ref:`~PyQt5.QtCore.pyqtSignal`.
+  :sip:ref:`~PyQt6.QtCore.pyqtSignal`.
 
 - A Python method may be defined as a new Qt slot by using the
-  :sip:ref:`~PyQt5.QtCore.pyqtSlot` decorator.
+  :sip:ref:`~PyQt6.QtCore.pyqtSlot` decorator.
 
 - A new Qt property may be defined using the
-  :sip:ref:`~PyQt5.QtCore.pyqtProperty`
+  :sip:ref:`~PyQt6.QtCore.pyqtProperty`
   function.
 
 Note that the ability to define new Qt signals, slots and properties from
@@ -252,6 +237,6 @@ not just that used by Designer.
 
 For a simple but complete and fully documented example of a custom widget that
 defines new Qt signals, slots and properties, and its plugin, look in the
-:file:`examples/designer/plugins` directory of the PyQt5 source package.  The
+:file:`examples/designer/plugins` directory of the PyQt6 source package.  The
 :file:`widgets` subdirectory contains the :file:`pydemo.py` custom widget and
 the :file:`python` subdirectory contains its :file:`pydemoplugin.py` plugin.

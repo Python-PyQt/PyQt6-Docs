@@ -32,8 +32,6 @@ OpenSSL implementaion.
 enums
 -----
 
-.. versionadded:: 5.11
-
 PyQt (or rather SIP) wraps C/C++ enums using a dedicated Python type.  Members
 of the enum are visible at the same scope as the enum itself.
 
@@ -62,26 +60,26 @@ wrapped Qt instances are called in an order that Qt isn't expecting and may
 result in a crash.  However, in practice, this is only likely to be a problem
 when the application is terminating.
 
-As a way of mitigating this possiblity PyQt5 ensures that the C++ destructors
-of any :sip:ref:`~PyQt5.QtCore.QObject` instances owned by Python are invoked
-before the destructor of any :sip:ref:`~PyQt5.QtCore.QCoreApplication` instance
+As a way of mitigating this possiblity PyQt6 ensures that the C++ destructors
+of any :sip:ref:`~PyQt6.QtCore.QObject` instances owned by Python are invoked
+before the destructor of any :sip:ref:`~PyQt6.QtCore.QCoreApplication` instance
 is invoked.  Note however that the order in which the
-:sip:ref:`~PyQt5.QtCore.QObject` destructors are invoked is still random.
+:sip:ref:`~PyQt6.QtCore.QObject` destructors are invoked is still random.
 
 
 Keyword Arguments
 -----------------
 
-PyQt5 supports the use of keyword arguments for optional arguments.  Although
-the PyQt5 and Qt documentation may indicate that an argument has a particular
-name, you may find that PyQt5 actually uses a different name.  This is because
+PyQt6 supports the use of keyword arguments for optional arguments.  Although
+the PyQt6 and Qt documentation may indicate that an argument has a particular
+name, you may find that PyQt6 actually uses a different name.  This is because
 the name of an argument is not part of the Qt API and there is some
 inconsistency in the way that similar arguments are named.  Different versions
 of Qt may use a different name for an argument which wouldn't affect the C++
 API but would break the Python API.
 
-The docstrings that PyQt5 generates for all classes, functions and methods will
-contain the correct argument names.  In a future version of PyQt5 the
+The docstrings that PyQt6 generates for all classes, functions and methods will
+contain the correct argument names.  In a future version of PyQt6 the
 documentation will also be guaranteed to contain the correct argument names.
 
 
@@ -93,54 +91,54 @@ Qt uses the ``QString`` class to represent Unicode strings, and the
 corresponding native object types are ``str`` and ``bytes``.  In Python v2 the
 corresponding native object types are ``unicode`` and ``str``.
 
-PyQt5 does its best to automatically convert between objects of the various
+PyQt6 does its best to automatically convert between objects of the various
 types.  Explicit conversions can be easily made where necessary.
 
-In some cases PyQt5 will not perform automatic conversions where it is
+In some cases PyQt6 will not perform automatic conversions where it is
 necessary to distinguish between different overloaded methods.
 
 For Python v3 the following conversions are done by default.
 
-- If Qt expects a ``char *`` (or a ``const`` version) then PyQt5 will accept a
+- If Qt expects a ``char *`` (or a ``const`` version) then PyQt6 will accept a
   ``str`` that contains only ASCII characters, a ``bytes``, a ``QByteArray``,
   or a Python object that implements the buffer protocol.
 
-- If Qt expects a ``char`` (or a ``const`` version) then PyQt5 will accept the
+- If Qt expects a ``char`` (or a ``const`` version) then PyQt6 will accept the
   same types as for ``char *`` and also require that a single character is
   provided.
 
 - If Qt expects a ``signed char *`` or an ``unsigned char *`` (or a ``const``
-  version) then PyQt5 will accept a ``bytes``.
+  version) then PyQt6 will accept a ``bytes``.
 
 - If Qt expects a ``signed char`` or an ``unsigned char`` (or a ``const``
-  version) then PyQt5 will accept a ``bytes`` of length 1.
+  version) then PyQt6 will accept a ``bytes`` of length 1.
 
-- If Qt expects a ``QString`` then PyQt5 will accept a ``str``, a ``bytes``
+- If Qt expects a ``QString`` then PyQt6 will accept a ``str``, a ``bytes``
   that contains only ASCII characters, a ``QByteArray`` or ``None``.
 
-- If Qt expects a ``QByteArray`` then PyQt5 will also accept a ``bytes``.
+- If Qt expects a ``QByteArray`` then PyQt6 will also accept a ``bytes``.
 
-- If Qt expects a ``QByteArray`` then PyQt5 will also accept a ``str`` that
+- If Qt expects a ``QByteArray`` then PyQt6 will also accept a ``str`` that
   contains only Latin-1 characters.
 
 For Python v2 the following conversions are done by default.
 
 - If Qt expects a ``char *``, ``signed char *`` or an ``unsigned char *`` (or a
-  ``const`` version) then PyQt5 will accept a ``unicode`` that contains only
+  ``const`` version) then PyQt6 will accept a ``unicode`` that contains only
   ASCII characters, a ``str``, a ``QByteArray``, or a Python object that
   implements the buffer protocol.
 
 - If Qt expects a ``char``, ``signed char`` or an ``unsigned char`` (or a
-  ``const`` version) then PyQt5 will accept the same types as for ``char *``,
+  ``const`` version) then PyQt6 will accept the same types as for ``char *``,
   ``signed char *`` and ``unsigned char *`` and also require that a single
   character is provided.
 
-- If Qt expects a ``QString`` then PyQt5 will accept a ``unicode``, a ``str``
+- If Qt expects a ``QString`` then PyQt6 will accept a ``unicode``, a ``str``
   that contains only ASCII characters, a ``QByteArray`` or ``None``.
 
-- If Qt expects a ``QByteArray`` then PyQt5 will accept a ``str``.
+- If Qt expects a ``QByteArray`` then PyQt6 will accept a ``str``.
 
-- If Qt expects a ``QByteArray`` then PyQt5 will accept a ``unicode`` that
+- If Qt expects a ``QByteArray`` then PyQt6 will accept a ``unicode`` that
   contains only Latin-1 characters.
 
 Note that the different behaviour between Python v2 and v3 is due to v3's
@@ -148,8 +146,8 @@ reduced support for the buffer protocol.
 
 Historically ``QString`` distinguishes between empty strings and null strings.
 Current versions of Qt treat null strings as empty strings but there may be
-other C++ code that PyQt5 applications call that maintains the distinction.
-Consequently PyQt5 will convert ``None`` to a null ``QString``.  The reverse
+other C++ code that PyQt6 applications call that maintains the distinction.
+Consequently PyQt6 will convert ``None`` to a null ``QString``.  The reverse
 conversion is not done and both a null and an empty ``QString`` will be
 converted to an empty (i.e. zero length) Python string.
 
@@ -178,14 +176,14 @@ done within class definitions, so the code fragment would be something like::
 
 Sometimes a Qt class instance will maintain a pointer to another instance and
 will eventually call the destructor of that second instance.  The most common
-example is that a :sip:ref:`~PyQt5.QtCore.QObject` (and any of its
+example is that a :sip:ref:`~PyQt6.QtCore.QObject` (and any of its
 sub-classes) keeps pointers to its children and will automatically call their
 destructors.  In these cases, the corresponding Python object will also keep a
 reference to the corresponding child objects.
 
 So, in the following Python fragment, the first
-:sip:ref:`~PyQt5.QtWidgets.QLabel` is not destroyed when the second is
-assigned to ``lab`` because the parent :sip:ref:`~PyQt5.QtWidgets.QWidget`
+:sip:ref:`~PyQt6.QtWidgets.QLabel` is not destroyed when the second is
+assigned to ``lab`` because the parent :sip:ref:`~PyQt6.QtWidgets.QWidget`
 still has a reference to it::
 
     parent = QWidget()
@@ -198,7 +196,7 @@ Multiple Inheritance
 
 It is not possible to define a new Python class that sub-classes from more than
 one Qt class.  The exception is classes specifically intended to act as mixin
-classes such as those (like :sip:ref:`~PyQt5.QtQml.QQmlParserStatus`) that
+classes such as those (like :sip:ref:`~PyQt6.QtQml.QQmlParserStatus`) that
 implement Qt interfaces.
 
 
@@ -214,7 +212,7 @@ instance's virtual member functions will never be called.
 ``None`` and ``NULL``
 ---------------------
 
-Throughout PyQt5, the ``None`` value can be specified wherever ``NULL`` is
+Throughout PyQt6, the ``None`` value can be specified wherever ``NULL`` is
 acceptable to the underlying C++ code.
 
 Equally, ``NULL`` is converted to ``None`` whenever it is returned by the
@@ -224,7 +222,7 @@ underlying C++ code.
 Support for ``void *``
 ----------------------
 
-PyQt5 (actually SIP) represents ``void *`` values as objects of type
+PyQt6 (actually SIP) represents ``void *`` values as objects of type
 :sip:ref:`sip.voidptr`.  Such values are often used to pass the addresses of
 external objects between different Python modules.  To make this easier, a
 Python integer (or anything that Python can convert to an integer) can be used

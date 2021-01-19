@@ -1,19 +1,17 @@
-Installing PyQt5
+Installing PyQt6
 ================
 
-Both the GPL and commercial versions of PyQt5 can be built from source packages
-or installed from binary wheels.  Although this section concentrates on PyQt5
-itself it applies equally to the related projects (i.e. PyQtWebEngine, PyQt3D,
-PyQtChart, PyQtDataVisualization and PyQtPurchasing).
+Both the GPL and commercial versions of PyQt6 can be built from sdists
+or installed from binary wheels.  Although this section concentrates on PyQt6
+itself it applies equally to the add-on projects (i.e. PyQt6-3D and
+PyQt6-NetworkAuth).
 
 
 Understanding the Correct Version to Install
 --------------------------------------------
 
-Historically the version number of PyQt bears no relation to the version of Qt
-supported.  For example it wasn't even true that PyQt4 required Qt v4 as it
-would also build against Qt v5.  People sometimes mistakenly believe that, for
-example, PyQt5 v5.13 is needed when building against Qt v5.13.
+People sometimes mistakenly believe that support for a particular version of Qt
+requires a matching version of PyQt.
 
 Qt uses `semantic versioning <https://semver.org/spec/v2.0.0.html>`__ when
 deciding on the version number of a release.  In summary the major version is
@@ -21,145 +19,152 @@ increased when a release includes incompatible changes, the minor version is
 increased when a release includes compatible changes, and the patch version is
 increased when a release includes no user-visible changes.
 
-With PyQt5 the version number of PyQt5 is tied, to a certain extent, to the
-version of Qt v5 so that:
+With PyQt6 the version number of PyQt6 is tied, to a certain extent, to the
+version of Qt v6 so that:
 
-- The major version will always be **5**.
+- The major version will always be **6**.
 
 - For a particular minor version *n* it will build against any version of Qt
-  v5, but will not support any new features introduced in Qt v5.\ *n+1* or
+  v6, but will not support any new features introduced in Qt v6.\ *n+1* or
   later.
 
-- It will support all the features of supported modules of Qt v5.\ *n* or
+- It will support all the features of supported modules of Qt v6.\ *n* or
   earlier.
 
-- Support for new modules may be added to PyQt5 at any time.  This would result
+- Support for new modules may be added to PyQt6 at any time.  This would result
   in a change of patch version only.
 
-- The major and minor versions of the latest release of PyQt5 will be the same
-  as the latest release of Qt v5.
+- The major and minor versions of the latest release of PyQt6 will be the same
+  as the latest release of Qt v6.
 
-- The patch versions of PyQt5 and Qt v5 are entirely unrelated to each other.
+- The patch versions of PyQt6 and Qt v6 are entirely unrelated to each other.
 
-So, for example, PyQt5 v5.1 will build against Qt v5.2 but will not support any
-new features introduced in Qt v5.2.  PyQt5 v5.1 will support all the features
-of supported modules of Qt v5.0 and those new features introduced in Qt v5.1.
+So, for example, PyQt6 v6.1 will build against Qt v6.2 but will not support any
+new features introduced in Qt v6.2.  PyQt6 v6.1 will support all the features
+of supported modules of Qt v6.0 and those new features introduced in Qt v6.1.
 
-In summary, you should always try and use the latest version of PyQt5 no matter
-what version of Qt v5 you are using.
+In summary, you should always try and use the latest version of PyQt6 no matter
+what version of Qt v6 you are using.
 
 
 Installing from Wheels
 ----------------------
 
 Wheels are the standard Python packaging format for pure Python or binary
-extension modules such as PyQt5.  Only Python v3.5 and later are supported.
-Wheels are provide for 32- and 64-bit Windows, 64-bit macOS and 64-bit Linux.
-These correspond with the platforms for which The Qt Company provide binary
-installers.
+extension modules such as PyQt6.  Wheels are provide for 64-bit Windows, 64-bit
+macOS and 64-bit Linux.  These correspond to the platforms for which The Qt
+Company provide binary installers.
 
-Wheels are installed using the :program:`pip` program that is included with
-current versions of Python.
+Wheels are installed using Python's :program:`pip` program.
 
 
 Installing the GPL Version
 ..........................
 
-To install the wheel for the GPL version of PyQt5, run::
+To install the wheel for the GPL version of PyQt6, run::
 
-    pip install PyQt5
+    pip install PyQt6
 
 This will install the wheel for your platform and your version of Python
 (assuming both are supported).  The wheel will be automatically downloaded from
-PyPI.
+`PyPI <https://pypi.org/project/PyQt6/>`__.
 
-If you get an error message saying that no downloads could be found that
-satisfy the requirement then you are probably using an unsupported version of
-Python.
+You may find that :program:`pip` doesn't download a wheel but instead downloads
+the sdist and tries to build PyQt6 from source.  If it does then the build will
+probably fail with a cryptic error message.  There are a number of reasons for
+this:
 
-The PyQt5 wheel includes the necessary parts of the LGPL version of Qt.  There
-is no need to install Qt yourself.  You can use the :program:`pyqt-bundle`
-program to create a new wheel with a different version of Qt bundled.  See
-:ref:`ref-pyqt-bundle` for the full details of how to do this.
+- your version of Python is unsupported (e.g. v3.5)
+- your version of :program:`pip` is too old and doesn't support the current
+  standards for naming wheels
+- wheels are not provided for your platform (e.g. 32-bit Windows)
+- in order for :program:`pip` to build from source the :file:`bin` directory of
+  a Qt installation must be on :envvar:`PATH`.
 
-The :sip:ref:`~PyQt5.sip` module is packaged as a separate wheel which will be
-downloaded and installed automatically.
+:program:`pip` will also automatically install any dependencies that are
+required.  In the case of PyQt6 itself this will be the PyQt6-Qt and PyQt6-sip
+projects.  The PyQt6-Qt project contains the parts of a standard LGPL Qt
+installation required by PyQt6.  The PyQt6-sip project contains the
+:sip:ref:`~PyQt6.sip` module.
+
+.. note::
+   If you want PyQt6 to use a copy of Qt that you already have installed then
+   you need to build it from source.
 
 To uninstall the GPL version, run::
 
-    pip uninstall PyQt5
+    pip uninstall PyQt6
 
 .. note::
    Qt's support for TLS/SSL will not work on Windows when installing wheels
-   that contain Qt v5.12.4 (or later) with Python v3.7.0 to v3.7.3.  This is
-   because of incompatibilities between the different versions of OpenSSL that
-   these versions require.  All other version combinations should be fine.
+   with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
+   the different versions of OpenSSL that these versions require.  All other
+   version combinations should be fine.
 
 
 Installing the Commercial Version
 .................................
 
-It is not possible to provide wheels for the commercial version in the same way
-they are provided for the GPL version as it is not possible to distribute a
-copy of the commercial version of Qt.  Therefore the :program:`pyqt-bundle`
-program must be used to bundle your own copy of Qt with the provided commercial
-wheels.
+Wheels are also provided for the commercial version of PyQt6 but they must be
+downloaded from your account on the Riverbank Computing website.  Before you
+install the downloaded wheel using :program:`pip` you must ensure you have an
+appropriate Qt license and have decided how you want to distribute your PyQt6
+wheels to your developers.
 
-.. note::
+By default, installing the commercial PyQt6 wheel will do the same as
+installing the GPL wheel, i.e. it will automatically download and install the
+required parts of a standard LGPL Qt installation from PyPI.  There are a
+number of reasons why you might not want to do this:
 
-    The old Riverbank Computing website provided *unlicensed* commercial wheels
-    that required you to download and run the :program:`pyqtlicense` program in
-    order to create a *licensed* wheel.  The new Riverbank Computing website
-    provides pre-licensed wheels and there is no need to run
-    :program:`pyqtlicense`.
+- you have a commercial Qt license and need to make sure that is used with
+  PyQt6
+- you don't allow your developers access to PyPI
+- you want to minimise the number of wheels you need to distribute to your
+  developers.
 
-To uninstall the commercial version, run::
+The solution to all these issues is to use the :program:`pyqt-bundle` program
+to bundle a copy of your own Qt installation with your commercial PyQt6.  This
+will produce a new wheel that you can distribute easily to your developers.
 
-    pip uninstall PyQt5-commercial
+:program:`pyqt-bundle` is part of `PyQt-builder
+<https://pypi.org/project/PyQt-builder/>`__.  To install it, run::
+
+    pip install PyQt-builder
+
+The documentation can be found `here
+<https://www.riverbankcomputing.com/static/Docs/PyQt-builder/pyqtbundle.html>`__.
 
 
 Building and Installing from Source
 -----------------------------------
 
-Starting with PyQt5 v5.14.0 :program:`pip` can be used to download, build and
-install the GPL source packages from the `PyQt5
-<https://pypi.org/project/PyQt5/>`__ project at PyPI.  For this to work your
-:envvar:`PATH` environment variable must contain your Qt installation's ``bin``
-directory.  If you do not do this then you will get a cryptic error message
-from :program:`pip`.
-
-However using :program:`pip` to install from the source package is not
-recommended as it is not possible to configure the installation or to easily
-diagnose any problems.  The rest of these instructions assume that you have
-downloaded the source package from PyPI and will used SIP's
-:program:`sip-install` command line tool to do the build and installation.
-
-If you are using the commercial version of PyQt5 then you should use the
-download instructions which were sent to you when you made your purchase.  You
-must also download your ``pyqt-commercial.sip`` license file.
-
-
-Installing Prerequisites
-........................
-
-`PyQt-builder <https://pypi.org/project/PyQt-builder/>`__ extends the SIP build
-system and can be installed from PyPI by running::
+PyQt6 is built using `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__.
+To install it, run::
 
     pip install PyQt-builder
 
-This will also automatically install SIP if required.
+PyQt-builder is an extension to the `SIP <https://pypi.org/project/sip/>`__
+bindings generator which will be installed automatically.
 
-PyQt-builder extends the build system by adding `options
+The rest of these instructions assume that you have downloaded the PyQt6 sdist
+from `PyPI <https://pypi.org/project/PyQt6/>`__ and will used SIP's
+:program:`sip-install` command line tool to do the build and installation.
+
+If you are using the commercial version of PyQt6 then you should use the
+download instructions which were sent to you when you made your purchase.  You
+must also download your :file:`pyqt-commercial.sip` license file.
+
+PyQt-builder extends SIP's build system by adding `options
 <https://www.riverbankcomputing.com//static/Docs/PyQt-builder/command_line_tools.html>`__
 to SIP's `command line tools
 <https://www.riverbankcomputing.com/static/Docs/sip/command_line_tools.html>`__.
 
-PyQt5 further extends the build system by adding the following options to SIP's
+PyQt6 further extends the build system by adding the following options to SIP's
 command line tools.
 
 .. option:: --confirm-license
 
-    Using this confirms that you accept the terms of the PyQt5 license.  If it
+    Using this confirms that you accept the terms of the PyQt license.  If it
     is omitted then you will be asked for confirmation during configuration.
 
 .. option:: --dbus DIR
@@ -169,7 +174,7 @@ command line tools.
 
 .. option:: --license-dir DIR
 
-    The license files needed by the commercial version of PyQt5 can be found in
+    The license files needed by the commercial version of PyQt6 can be found in
     the directory ``DIR``.
 
 .. option:: --no-dbus-python
@@ -186,8 +191,7 @@ command line tools.
 
 .. option:: --no-tools
 
-    The :program:`pyuic5`, :program:`pyrcc5` and :program:`pylupdate5` tools
-    will not be built.
+    The :program:`pyuic6` and :program:`pylupdate6` tools will not be built.
 
 .. option:: --qt-shared
 
@@ -196,30 +200,31 @@ command line tools.
     unreliable.  This option ignores the result of the check and assumes that
     Qt has been built as shared libraries.
 
-The Mercurial repository containing the latest development version of
-PyQt-builder can be found `here
-<https://www.riverbankcomputing.com/hg/PyQt-builder/>`__.
 
-
-Building the :sip:ref:`~PyQt5.sip` Module
+Building the :sip:ref:`~PyQt6.sip` Module
 .........................................
 
-It is not necessary to install the :sip:ref:`PyQt5.sip` module before building
-PyQt5 but it must be installed before PyQt5 can be used.  
+It is not necessary to install the :sip:ref:`PyQt6.sip` module before building
+PyQt6 but it must be installed before PyQt6 can be used.  
 
 The module is built using :py:mod:`setuptools` and is available from the
-`PyQt5-sip <https://pypi.org/project/PyQt5-sip/>`__ project at PyPI.  It uses
+`PyQt6-sip <https://pypi.org/project/PyQt6-sip/>`__ project at PyPI.  It uses
 :py:mod:`setuptools` as its build system and can be installed by :program:`pip`
 or you can also unpack the sdist and install it by running its
 :program:`setup.py` script.
 
 
-Building PyQt5
+Building PyQt6
 ..............
 
-Once you have downloaded the source package from PyPI, unpack it and change
-directory to its top level directory (i.e. the one containing the
-:file:`pyproject.toml` file.  To build and install PyQt5, run::
+Once you have downloaded the sdist from PyPI, unpack it and change directory to
+its top level directory (i.e. the one containing the :file:`pyproject.toml`
+file.
+
+If you are building the commercial version of PyQt6 then copy the
+:file:`pyqt-commercial.sip` license file to the :file:`sip` sub-directory.
+
+To build and install PyQt6, run::
 
     sip-install
 
@@ -234,32 +239,8 @@ If you want to run :program:`make` seperately then instead run::
     make install
 
 
-Building PyQt5-related Projects
-...............................
+Building PyQt6 Add-on Projects
+..............................
 
-The additional PyQt5 projects (i.e. PyQtWebEngine, PyQt3D, PyQtChart,
-PyQtDataVisualization and PyQtPurchasing) are built and installed in exactly
-the same way as PyQt5 itself.  PyQt5 must be built and installed first.
-
-
-.. _ref-pyqt-bundle:
-
-Bundling Qt Using :program:`pyqt-bundle`
-----------------------------------------
-
-The wheels of the GPL version of PyQt5 and related projects on PyPI bundle a
-copy of the relevant parts of Qt.  This is done so that users can install a
-complete PyQt environment with a single :program:`pip` install.
-
-The wheels of the commercial version of PyQt do not have a copy of Qt bundled
-because it is not possible to distribute a copy of the commercial version of
-Qt.  Therefore a commercial user must bundle their own copy of Qt to create a
-complete wheel.
-
-The :program:`pyqt-bundle` program is provided as a means of bundling the
-relevant parts of a local Qt installation with a wheel, replacing any existing
-copy.  You can also use it to produce a stripped down version of PyQt that
-contains only those modules you actually want to use.  :program:`pyqt-bundle`
-is part of `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__ and is
-documented `here
-<https://www.riverbankcomputing.com//static/Docs/PyQt-builder/pyqtbundle.html>`__.
+The add-on PyQt6 projects are built and installed in exactly the same way as
+PyQt6 itself.  PyQt6 must be built and installed first.

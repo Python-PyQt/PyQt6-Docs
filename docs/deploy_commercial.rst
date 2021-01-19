@@ -1,7 +1,7 @@
-Deploying Commercial PyQt5 Applications
+Deploying Commercial PyQt6 Applications
 =======================================
 
-Deploying commercial PyQt5 applications can be a complicated process for a
+Deploying commercial PyQt6 applications can be a complicated process for a
 number of reasons:
 
 - It is usually better not to rely on pre-requisite packages being already
@@ -12,10 +12,10 @@ number of reasons:
 - Some target platforms (iOS for example) have restrictions on how an 
   application is built in order for it to be included in app stores.
 
-- It is necessary to discourage users from accessing the underlying PyQt5
+- It is necessary to discourage users from accessing the underlying PyQt6
   modules for themselves.  A user that used the modules shipped with your
   application to develop new applications would themselves be considered a
-  developer and would need their own commercial PyQt5 license.
+  developer and would need their own commercial PyQt license.
 
 The recommended solution to all of these issues is to use `pyqtdeploy 
 <https://www.riverbankcomputing.com/software/pyqtdeploy/>`__.

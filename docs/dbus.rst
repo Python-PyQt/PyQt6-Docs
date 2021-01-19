@@ -3,23 +3,23 @@
 DBus Support
 ============
 
-PyQt5 provides two different modules that implement support for DBus.  The
-:sip:ref:`~PyQt5.QtDBus` module provides wrappers for the standard Qt DBus
-classes.  The :sip:ref:`dbus.mainloop.pyqt5` module adds support for the Qt
+PyQt6 provides two different modules that implement support for DBus.  The
+:sip:ref:`~PyQt6.QtDBus` module provides wrappers for the standard Qt DBus
+classes.  The :sip:ref:`dbus.mainloop.pyqt6` module adds support for the Qt
 event loop to the standard ``dbus-python`` Python module.
 
 
-:sip:ref:`~PyQt5.QtDBus`
+:sip:ref:`~PyQt6.QtDBus`
 ------------------------
 
-The :sip:ref:`~PyQt5.QtDBus` module is used in a similar way to the C++ library
+The :sip:ref:`~PyQt6.QtDBus` module is used in a similar way to the C++ library
 it wraps.  The main difference is in the way it supports the demarshalling of
 DBus structures.  C++ relies on the template-based registration of types using
 ``qDBusRegisterMetaType()`` which isn't possible from Python.  Instead a slot
 that accepts a DBus structure in an argument should specify a slot with a
-single :sip:ref:`~PyQt5.QtDBus.QDBusMessage` argument.  The implementation of
+single :sip:ref:`~PyQt6.QtDBus.QDBusMessage` argument.  The implementation of
 the slot should then extract the arguments from the message using its
-:meth:`~PyQt5.QtDBus.QDBusMessage.arguments` method.
+:meth:`~PyQt6.QtDBus.QDBusMessage.arguments` method.
 
 For example, say we have a DBus method called ``setColors()`` that has a single
 argument that is an array of structures of three integers (red, green and
@@ -62,15 +62,15 @@ Note that this technique can be used for arguments of any type, it is only
 require if DBus structures are involved.
 
 
-:sip:ref:`dbus.mainloop.pyqt5`
+:sip:ref:`dbus.mainloop.pyqt6`
 ------------------------------
 
-The :sip:ref:`dbus.mainloop.pyqt5` module provides support for the Qt event
+The :sip:ref:`dbus.mainloop.pyqt6` module provides support for the Qt event
 loop to ``dbus-python``.  The module's API is almost identical to that of the
 :sip:ref:`dbus.mainloop.glib` modules that provides support for the GLib event
 loop.
 
-The :sip:ref:`dbus.mainloop.pyqt5` module contains the following function.
+The :sip:ref:`dbus.mainloop.pyqt6` module contains the following function.
 
 .. function:: DBusQtMainLoop(set_as_default=False)
 
@@ -83,8 +83,8 @@ The :sip:ref:`dbus.mainloop.pyqt5` module contains the following function.
         keyword argument, and not as a positional argument.
 
 The following code fragment is all that is normally needed to set up the
-standard ``dbus-python`` language bindings package to be used with PyQt5::
+standard ``dbus-python`` language bindings package to be used with PyQt6::
 
-    from dbus.mainloop.pyqt5 import DBusQtMainLoop
+    from dbus.mainloop.pyqt6 import DBusQtMainLoop
 
     DBusQtMainLoop(set_as_default=True)

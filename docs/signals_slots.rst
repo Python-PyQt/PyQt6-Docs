@@ -31,7 +31,7 @@ Unbound and Bound Signals
 -------------------------
 
 A signal (specifically an unbound signal) is a class attribute.  When a signal
-is referenced as an attribute of an instance of the class then PyQt5
+is referenced as an attribute of an instance of the class then PyQt6
 automatically binds the instance to the signal in order to create a *bound
 signal*.  This is the same mechanism that Python itself uses to create bound
 methods from class functions.
@@ -57,14 +57,14 @@ wrapped in a special C++ type that allows it to be passed around Qt's meta-type
 system while ensuring that its reference count is properly maintained.
 
 
-Defining New Signals with :sip:ref:`~PyQt5.QtCore.pyqtSignal`
+Defining New Signals with :sip:ref:`~PyQt6.QtCore.pyqtSignal`
 -------------------------------------------------------------
 
-PyQt5 automatically defines signals for all Qt's built-in signals.  New signals
+PyQt6 automatically defines signals for all Qt's built-in signals.  New signals
 can be defined as class attributes using the
-:sip:ref:`~PyQt5.QtCore.pyqtSignal` factory.
+:sip:ref:`~PyQt6.QtCore.pyqtSignal` factory.
 
-.. function:: PyQt5.QtCore.pyqtSignal(types[, name[, revision=0[, arguments=[]]]])
+.. function:: PyQt6.QtCore.pyqtSignal(types[, name[, revision=0[, arguments=[]]]])
 
     Create one or more overloaded unbound signals as a class attribute.
 
@@ -88,7 +88,7 @@ can be defined as class attributes using the
 
 The following example shows the definition of a number of new signals::
 
-    from PyQt5.QtCore import QObject, pyqtSignal
+    from PyQt6.QtCore import QObject, pyqtSignal
 
     class Foo(QObject):
 
@@ -106,17 +106,17 @@ The following example shows the definition of a number of new signals::
         valueChanged = pyqtSignal([int], ['QString'])
 
 New signals should only be defined in sub-classes of
-:sip:ref:`~PyQt5.QtCore.QObject`.  They must be part of the class definition
+:sip:ref:`~PyQt6.QtCore.QObject`.  They must be part of the class definition
 and cannot be dynamically added as class attributes after the class has been
 defined.
 
 New signals defined in this way will be automatically added to the class's
-:sip:ref:`~PyQt5.QtCore.QMetaObject`.  This means that they will appear in Qt
+:sip:ref:`~PyQt6.QtCore.QMetaObject`.  This means that they will appear in Qt
 Designer and can be introspected using the
-:sip:ref:`~PyQt5.QtCore.QMetaObject` API.
+:sip:ref:`~PyQt6.QtCore.QMetaObject` API.
 
 Overloaded signals should be used with care when an argument has a Python type
-that has no corresponding C++ type.  PyQt5 uses the same internal C++ class to
+that has no corresponding C++ type.  PyQt6 uses the same internal C++ class to
 represent such objects and so it is possible to have overloaded signals with
 different Python signatures that are implemented with identical C++ signatures
 with unexpected results.  The following is an example of this::
@@ -133,7 +133,7 @@ Connecting, Disconnecting and Emitting Signals
 Signals are connected to slots using the :meth:`connect` method of a bound
 signal.
 
-.. method:: connect(slot[, type=PyQt5.QtCore.Qt.AutoConnection[, no_receiver_check=False]]) -> PyQt5.QtCore.QMetaObject.Connection
+.. method:: connect(slot[, type=PyQt6.QtCore.Qt.AutoConnection[, no_receiver_check=False]]) -> PyQt6.QtCore.QMetaObject.Connection
 
     Connect a signal to a slot.  An exception will be raised if the connection
     failed.
@@ -147,7 +147,7 @@ signal.
         suppress the check that the underlying C++ receiver instance still
         exists and deliver the signal anyway.
     :return:
-        a :sip:ref:`~PyQt5.QtCore.QMetaObject.Connection` object which can be
+        a :sip:ref:`~PyQt6.QtCore.QMetaObject.Connection` object which can be
         passed to :meth:`disconnect()`.  This is the only way to disconnect a
         connection to a lambda function.
 
@@ -162,7 +162,7 @@ bound signal.
 
     :param slot:
         the optional slot to disconnect from, either a
-        :sip:ref:`~PyQt5.QtCore.QMetaObject.Connection` object returned by
+        :sip:ref:`~PyQt6.QtCore.QMetaObject.Connection` object returned by
         :meth:`connect()`, a Python callable or another bound signal.  If it is
         omitted then all slots connected to the signal are disconnected.
 
@@ -178,7 +178,7 @@ Signals are emitted from using the :meth:`emit` method of a bound signal.
 The following code demonstrates the definition, connection and emit of a
 signal without arguments::
 
-    from PyQt5.QtCore import QObject, pyqtSignal
+    from PyQt6.QtCore import QObject, pyqtSignal
 
     class Foo(QObject):
 
@@ -199,12 +199,12 @@ signal without arguments::
 
 The following code demonstrates the connection of overloaded signals::
 
-    from PyQt5.QtWidgets import QComboBox
+    from PyQt6.QtWidgets import QComboBox
 
     class Bar(QComboBox):
 
         def connect_activated(self):
-            # The PyQt5 documentation will define what the default overload is.
+            # The PyQt6 documentation will define what the default overload is.
             # In this case it is the overload with the single integer argument.
             self.activated.connect(self.handle_int)
 
@@ -226,7 +226,7 @@ Connecting Signals Using Keyword Arguments
 
 It is also possible to connect signals by passing a slot as a keyword argument
 corresponding to the name of the signal when creating an object, or using the
-:meth:`~PyQt5.QtCore.QObject.pyqtConfigure` method.  For example the following
+:meth:`~PyQt6.QtCore.QObject.pyqtConfigure` method.  For example the following
 three fragments are equivalent::
 
     act = QAction("Action", self)
@@ -238,15 +238,15 @@ three fragments are equivalent::
     act.pyqtConfigure(triggered=self.on_triggered)
 
 
-The :sip:ref:`~PyQt5.QtCore.pyqtSlot` Decorator
+The :sip:ref:`~PyQt6.QtCore.pyqtSlot` Decorator
 -----------------------------------------------
 
-Although PyQt5 allows any Python callable to be used as a slot when connecting
+Although PyQt6 allows any Python callable to be used as a slot when connecting
 signals, it is sometimes necessary to explicitly mark a Python method as being
-a Qt slot and to provide a C++ signature for it.  PyQt5 provides the
-:sip:ref:`~PyQt5.QtCore.pyqtSlot` function decorator to do this.
+a Qt slot and to provide a C++ signature for it.  PyQt6 provides the
+:sip:ref:`~PyQt6.QtCore.pyqtSlot` function decorator to do this.
 
-.. function:: PyQt5.QtCore.pyqtSlot(types[, name[, result[, revision=0]]])
+.. function:: PyQt6.QtCore.pyqtSlot(types[, name[, result[, revision=0]]])
 
     Decorate a Python method to create a Qt slot.
 
@@ -269,7 +269,7 @@ reducing the amount of memory used and is slightly faster.
 
 For example::
 
-    from PyQt5.QtCore import QObject, pyqtSlot
+    from PyQt6.QtCore import QObject, pyqtSlot
 
     class Foo(QObject):
 
@@ -296,7 +296,7 @@ For example::
 It is also possible to chain the decorators in order to define a Python method
 several times with different signatures.  For example::
 
-    from PyQt5.QtCore import QObject, pyqtSlot
+    from PyQt6.QtCore import QObject, pyqtSlot
 
     class Foo(QObject):
 
@@ -327,14 +327,14 @@ after the call to ``finished.emit()``, even if a connection is queued.
 Connecting Slots By Name
 ------------------------
 
-PyQt5 supports the :meth:`~Pyt5.QtCore.QMetaObject.connectSlotsByName` function
-that is most commonly used by :program:`pyuic5` generated Python code to
+PyQt6 supports the :meth:`~Pyt6.QtCore.QMetaObject.connectSlotsByName` function
+that is most commonly used by :program:`pyuic6` generated Python code to
 automatically connect signals to slots that conform to a simple naming
 convention.  However, where a class has overloaded Qt signals (ie. with the
-same name but with different arguments) PyQt5 needs additional information in
+same name but with different arguments) PyQt6 needs additional information in
 order to automatically connect the correct signal.
 
-For example the :sip:ref:`~PyQt5.QtWidgets.QSpinBox` class has the following
+For example the :sip:ref:`~PyQt6.QtWidgets.QSpinBox` class has the following
 signals::
 
     void valueChanged(int i);
@@ -342,12 +342,12 @@ signals::
 
 When the value of the spin box changes both of these signals will be emitted.
 If you have implemented a slot called ``on_spinbox_valueChanged`` (which
-assumes that you have given the :sip:ref:`~PyQt5.QtCore.QSpinBox` instance
+assumes that you have given the :sip:ref:`~PyQt6.QtCore.QSpinBox` instance
 the name ``spinbox``) then it will be connected to both variations of the
 signal.  Therefore, when the user changes the value, your slot will be called
 twice - once with an integer argument, and once with a string argument.
 
-The :sip:ref:`~PyQt5.QtCore.pyqtSlot` decorator can be used to specify which of
+The :sip:ref:`~PyQt6.QtCore.pyqtSlot` decorator can be used to specify which of
 the signals should be connected to the slot.
 
 For example, if you were only interested in the integer variant of the signal

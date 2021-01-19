@@ -18,7 +18,7 @@ The technique requires that all the super-class's ``__init__`` methods follow
 the same pattern in the way that they handle unrecognised keyword arguments and
 use ``super()`` to invoke their own super-class's ``__init__`` methods.
 
-PyQt5's classes follow this pattern.
+PyQt6's classes follow this pattern.
 
 See Raymond Hettinger's `Python's super() considered super!
 <http://rhettinger.wordpress.com/2011/05/26/super-considered-super/>`__ blog
@@ -40,7 +40,7 @@ An instance would normally be created in one of the following ways::
 
 This approach has some limitations:
 
-- Only a sub-set of the :sip:ref:`~PyQt5.QtCore.QObject` API is exposed.  For
+- Only a sub-set of the :sip:ref:`~PyQt6.QtCore.QObject` API is exposed.  For
   example you cannot set the value of a Qt property or connect a signal by
   passing appropriate keyword arguments to ``Person.__init__``.
 

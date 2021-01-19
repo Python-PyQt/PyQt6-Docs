@@ -1,16 +1,16 @@
-Support for :sip:ref:`~PyQt5.QtCore.QSettings`
+Support for :sip:ref:`~PyQt6.QtCore.QSettings`
 ==============================================
 
-Qt provies the :sip:ref:`~PyQt5.QtCore.QSettings` class as a platform
+Qt provies the :sip:ref:`~PyQt6.QtCore.QSettings` class as a platform
 independent API for the persistent storage and retrieval of application
 settings.  Settings are retrieved using the
-:meth:`~PyQt5.QtCore.QSettings.value` method.  However the type of the value
+:meth:`~PyQt6.QtCore.QSettings.value` method.  However the type of the value
 returned may not be what is expected.  Some platforms only ever store string
 values which means that the type of the original value is lost.  Therefore a
 setting with an integer value of ``42`` may be retrieved (on some platforms) as
 a string value of ``'42'``.
 
-As a solution to this problem PyQt5's implementation of
+As a solution to this problem PyQt6's implementation of
 :meth:`~PyQt4.QtCore.QSettings.value` takes an optional third argument called
 ``type``.  This is either a Python type object, e.g. ``int``, or a string that
 is the name of a C++ type, e.g. ``'QStringList'``.  The value returned will be
@@ -18,7 +18,7 @@ an object of the requested type.
 
 For example::
 
-    from PyQt5.QtCore import QSettings, QPoint
+    from PyQt6.QtCore import QSettings, QPoint
 
     settings = QSettings('foo', 'foo')
 
@@ -39,7 +39,7 @@ For example::
 When this is executed then the following will be displayed for all platforms::
 
     int_value: 42
-    point_value: PyQt5.QtCore.QPoint(10, 20)
+    point_value: PyQt6.QtCore.QPoint(10, 20)
 
 If the value of the setting is a container (corresponding to either
 ``QVariantList``, ``QVariantMap`` or ``QVariantHash``) then the type is applied
@@ -47,7 +47,7 @@ to the contents of the container.
 
 For example::
 
-    from PyQt5.QtCore import QSettings
+    from PyQt6.QtCore import QSettings
 
     settings = QSettings('foo', 'foo')
 
