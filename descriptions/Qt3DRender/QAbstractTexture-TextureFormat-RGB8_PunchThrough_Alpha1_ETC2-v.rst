@@ -1,0 +1,6 @@
+.. sip:enum-member-description::
+    :status: todo
+    :value: TODO
+    :realname: Qt3DRender::QAbstractTexture::TextureFormat::RGB8_PunchThrough_Alpha1_ETC2
+
+TODO

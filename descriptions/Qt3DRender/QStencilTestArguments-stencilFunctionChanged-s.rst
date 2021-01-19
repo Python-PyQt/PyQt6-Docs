@@ -1,0 +1,7 @@
+.. sip:signal-description::
+    :status: todo
+    :pysig: cb90d25f590f05f7d28c3642e262fd50
+    :realname: Qt3DRender::QStencilTestArguments::stencilFunctionChanged
+    :realsig: (Qt3DRender::QStencilTestArguments::StencilFunction)
+
+TODO

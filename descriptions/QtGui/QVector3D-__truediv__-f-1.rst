@@ -1,0 +1,6 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 2451fbe2ac87895eadecd57941d427da
+    :realsig: (QVector3D,float)
+
+TODO

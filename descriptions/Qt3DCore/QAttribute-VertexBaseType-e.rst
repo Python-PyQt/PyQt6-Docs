@@ -1,0 +1,5 @@
+.. sip:enum-description::
+    :status: todo
+    :realname: Qt3DCore::QAttribute::VertexBaseType
+
+TODO
