@@ -88,18 +88,18 @@ installation required by PyQt6.  The PyQt6-sip project contains the
 :sip:ref:`~PyQt6.sip` module.
 
 .. note::
-   If you want PyQt6 to use a copy of Qt that you already have installed then
-   you need to build it from source.
+    If you want PyQt6 to use a copy of Qt that you already have installed then
+    you need to build it from source.
 
 To uninstall the GPL version, run::
 
     pip uninstall PyQt6
 
 .. note::
-   Qt's support for TLS/SSL will not work on Windows when installing wheels
-   with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
-   the different versions of OpenSSL that these versions require.  All other
-   version combinations should be fine.
+    Qt's support for TLS/SSL will not work on Windows when installing wheels
+    with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
+    the different versions of OpenSSL that these versions require.  All other
+    version combinations should be fine.
 
 
 Installing the Commercial Version
@@ -121,6 +121,12 @@ number of reasons why you might not want to do this:
 - you don't allow your developers access to PyPI
 - you want to minimise the number of wheels you need to distribute to your
   developers.
+
+.. note::
+    Some Qt libraries are licensed under the GPL rather than the LGPL.  If your
+    own application license is compatibile with the LGPL but is incompatible
+    with the GPL then you must make sure you do not use the corresponding PyQt
+    modules (even though you have a commercial PyQt license).
 
 The solution to all these issues is to use the :program:`pyqt-bundle` program
 to bundle a copy of your own Qt installation with your commercial PyQt6.  This
