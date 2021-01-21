@@ -12,7 +12,6 @@ PyQt6 Reference Guide
     signals_slots
     qt_properties
     metaobjects
-    opengl
     qt_interfaces
     pyqt_qvariant
     pyqt_qsettings

@@ -8,7 +8,7 @@ conflicts with the name of the property's getter method.
 However, PyQt6 does support the initial setting of properties using keyword
 arguments passed when an instance is created.  For example::
 
-    act = QAction("&Save", self, shortcut=QKeySequence.Save,
+    act = QAction("&Save", self, shortcut=QKeySequence.StandardKey.Save,
             statusTip="Save the document to disk", triggered=self.save)
 
 The example also demonstrates the use of a keyword argument to connect a
@@ -19,7 +19,7 @@ to a slot) using the :meth:`~PyQt6.QtCore.QObject.pyqtConfigure` method.  For
 example, the following gives the same results as above::
 
     act = QAction("&Save", self)
-    act.pyqtConfigure(shortcut=QKeySequence.Save,
+    act.pyqtConfigure(shortcut=QKeySequence.StandardKey.Save,
             statusTip="Save the document to disk", triggered=self.save)
 
 

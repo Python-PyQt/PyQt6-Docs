@@ -14,10 +14,10 @@ differences between the Qt v6 and Qt v5 APIs.
   both of these as separate types.  PyQt6 instead combines them as a single
   type, using the plural name, as a sub-class of :py:class:`~enum.Flag`.
 - :py:func:`~PyQt5.QtCore.Q_CLASSINFO` has been replaced by the
-  :py:func:`~PyQt6.QtCore.pyqtClassInfo` class decorator.
+  :sip:ref:`~PyQt6.QtCore.pyqtClassInfo` class decorator.
 - :py:func:`~PyQt5.QtCore.Q_ENUM`, :py:func:`~PyQt5.QtCore.Q_ENUMS`,
   :py:func:`~PyQt5.QtCore.Q_FLAG` and :py:func:`~PyQt5.QtCore.Q_FLAGS` have
-  been replaced by the :py:func:`~PyQt6.QtCore.pyqtEnum` enum decorator.
+  been replaced by the :sip:ref:`~PyQt6.QtCore.pyqtEnum` class decorator.
 - All ``exec_()`` and ``print_()`` methods have been removed.
 - :py:attr:`~PyQt5.QtWidgets.qApp` has been removed.
 - The :py:const:`~PyQt5.QtCore.PYQT_CONFIGURATION` dict has been removed.
