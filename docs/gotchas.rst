@@ -29,30 +29,10 @@ platforms (except for Linux) a deployed application must include it's own
 OpenSSL implementaion.
 
 
-enums
------
-
-PyQt (or rather SIP) wraps C/C++ enums using a dedicated Python type.  Members
-of the enum are visible at the same scope as the enum itself.
-
-Qt is making increasing use of C++11 scoped enums and support for them was
-added to SIP v4.19.4.  Scoped enums are implemented using the standard
-:mod:`enum.Enum` Python type.  In this case members of the enum are only
-visible within the scope of the enum.
-
-The difference in visibility is unfortunate as it requires the Python
-programmer to be aware of the nature of the underlying C++ enum.
-
-With SIP v4.19.9 members of traditional C/C++ enums are now also visible within
-the scope of the enum.  It is strongly recommended that enum members are always
-referenced by specifying the scope of the enum.  PyQt6 will not allow any other
-method of access.
-
-
 Crashes On Exit
 ---------------
 
-When the Python interpreter leaves a  *scope* (for example when it returns from
+When the Python interpreter leaves a *scope* (for example when it returns from
 a function) it will potentially garbage collect all objects local to that
 scope.  The order in which it is done is, in effect, random.  Theoretically
 this can cause problems because it may mean that the C++ destructors of any
@@ -79,77 +59,7 @@ of Qt may use a different name for an argument which wouldn't affect the C++
 API but would break the Python API.
 
 The docstrings that PyQt6 generates for all classes, functions and methods will
-contain the correct argument names.  In a future version of PyQt6 the
-documentation will also be guaranteed to contain the correct argument names.
-
-
-Python Strings, Qt Strings and Unicode
---------------------------------------
-
-Qt uses the ``QString`` class to represent Unicode strings, and the
-``QByteArray`` to represent byte arrays or strings.  In Python v3 the
-corresponding native object types are ``str`` and ``bytes``.  In Python v2 the
-corresponding native object types are ``unicode`` and ``str``.
-
-PyQt6 does its best to automatically convert between objects of the various
-types.  Explicit conversions can be easily made where necessary.
-
-In some cases PyQt6 will not perform automatic conversions where it is
-necessary to distinguish between different overloaded methods.
-
-For Python v3 the following conversions are done by default.
-
-- If Qt expects a ``char *`` (or a ``const`` version) then PyQt6 will accept a
-  ``str`` that contains only ASCII characters, a ``bytes``, a ``QByteArray``,
-  or a Python object that implements the buffer protocol.
-
-- If Qt expects a ``char`` (or a ``const`` version) then PyQt6 will accept the
-  same types as for ``char *`` and also require that a single character is
-  provided.
-
-- If Qt expects a ``signed char *`` or an ``unsigned char *`` (or a ``const``
-  version) then PyQt6 will accept a ``bytes``.
-
-- If Qt expects a ``signed char`` or an ``unsigned char`` (or a ``const``
-  version) then PyQt6 will accept a ``bytes`` of length 1.
-
-- If Qt expects a ``QString`` then PyQt6 will accept a ``str``, a ``bytes``
-  that contains only ASCII characters, a ``QByteArray`` or ``None``.
-
-- If Qt expects a ``QByteArray`` then PyQt6 will also accept a ``bytes``.
-
-- If Qt expects a ``QByteArray`` then PyQt6 will also accept a ``str`` that
-  contains only Latin-1 characters.
-
-For Python v2 the following conversions are done by default.
-
-- If Qt expects a ``char *``, ``signed char *`` or an ``unsigned char *`` (or a
-  ``const`` version) then PyQt6 will accept a ``unicode`` that contains only
-  ASCII characters, a ``str``, a ``QByteArray``, or a Python object that
-  implements the buffer protocol.
-
-- If Qt expects a ``char``, ``signed char`` or an ``unsigned char`` (or a
-  ``const`` version) then PyQt6 will accept the same types as for ``char *``,
-  ``signed char *`` and ``unsigned char *`` and also require that a single
-  character is provided.
-
-- If Qt expects a ``QString`` then PyQt6 will accept a ``unicode``, a ``str``
-  that contains only ASCII characters, a ``QByteArray`` or ``None``.
-
-- If Qt expects a ``QByteArray`` then PyQt6 will accept a ``str``.
-
-- If Qt expects a ``QByteArray`` then PyQt6 will accept a ``unicode`` that
-  contains only Latin-1 characters.
-
-Note that the different behaviour between Python v2 and v3 is due to v3's
-reduced support for the buffer protocol.
-
-Historically ``QString`` distinguishes between empty strings and null strings.
-Current versions of Qt treat null strings as empty strings but there may be
-other C++ code that PyQt6 applications call that maintains the distinction.
-Consequently PyQt6 will convert ``None`` to a null ``QString``.  The reverse
-conversion is not done and both a null and an empty ``QString`` will be
-converted to an empty (i.e. zero length) Python string.
+contain the correct argument names.
 
 
 Garbage Collection
@@ -223,22 +133,24 @@ Support for ``void *``
 ----------------------
 
 PyQt6 (actually SIP) represents ``void *`` values as objects of type
-:sip:ref:`sip.voidptr`.  Such values are often used to pass the addresses of
-external objects between different Python modules.  To make this easier, a
-Python integer (or anything that Python can convert to an integer) can be used
-whenever a :sip:ref:`sip.voidptr` is expected.
+:py:class:`~PyQt6.sip.voidptr`.  Such values are often used to pass the
+addresses of external objects between different Python modules.  To make this
+easier, a Python integer (or anything that Python can convert to an integer)
+can be used whenever a :py:class:`~PyQt6.sip.voidptr` is expected.
 
-A :sip:ref:`sip.voidptr` may be converted to a Python integer by using the
-``int()`` builtin function.
+A :py:class:`~PyQt6.sip.voidptr` may be converted to a Python integer by using
+the :py:func:`int` builtin function.
 
-A :sip:ref:`sip.voidptr` may be converted to a Python string by using its
-:meth:`~sip.voidptr.asstring` method.  The :meth:`~sip.voidptr.asstring` method
-takes an optional integer argument which is the length of the data in bytes.
+A :py:class:`~PyQt6.sip.voidptr` may be converted to a Python string by using
+its :py:meth:`~PyQt6.sip.voidptr.asstring` method.  The
+:py:meth:`~PyQt6.sip.voidptr.asstring` method takes an optional integer
+argument which is the length of the data in bytes.
 
-A :sip:ref:`sip.voidptr` may also be given a size (ie. the size of the block
-of memory that is pointed to) by calling its :meth:`~sip.voidptr.setsize`
-method.  If it has a size then it is also able to support Python's buffer
-protocol and behaves like a Python ``memoryview`` object so that the block of
-memory can be treated as a mutable list of bytes.  It also means that the
-Python :sip:ref:`struct` module can be used to unpack and pack binary data
-structures in memory, memory mapped files or shared memory.
+A :py:class:`~PyQt6.sip.voidptr` may also be given a size (i.e. the size of the
+block of memory that is pointed to) by calling its
+:py:meth:`~PyQt6.sip.voidptr.setsize` method.  If it has a size then it is also
+able to support Python's buffer protocol and behaves like a Python
+:py:class:`memoryview` object so that the block of memory can be treated as a
+mutable list of bytes.  It also means that the Python :py:mod:`struct` module
+can be used to unpack and pack binary data structures in memory, memory mapped
+files or shared memory.

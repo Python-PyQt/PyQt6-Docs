@@ -114,7 +114,7 @@ Hopefully the comments are self explanatory::
 
     # Create a component factory and load the QML script.
     component = QQmlComponent(engine)
-    component.loadUrl(QUrl('example.qml'))
+    component.loadUrl(QUrl.fromLocalFile('example.qml'))
 
     # Create an instance of the component.
     person = component.create()
@@ -215,8 +215,7 @@ In order to use attached properties in C++, three steps need to be taken.
   properties object to attach.
 
 - A type that has attached properties needs to be defined as such using the
-  ``QML_DECLARE_TYPEINFO`` macro with the ``QML_HAS_ATTACHED_PROPERTIES``
-  argument.
+  ``QML_ATTACHED`` macro.
 
 - The instance of an attached properties object is retrieved using the
   ``qmlAttachedPropertiesObject()`` template function.  The template type is
