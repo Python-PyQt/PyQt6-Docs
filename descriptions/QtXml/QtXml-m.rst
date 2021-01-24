@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for supporting the DOM interface to XML
 
-TODO
+The :sip:ref:`~PyQt6.QtXml` module contains classes that implement the DOM
+interface to Qt's XML parser.

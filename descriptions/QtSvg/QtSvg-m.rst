@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes providing support for SVG
 
-TODO
+The :sip:ref:`~PyQt6.QtSvg` module contains classes for rendering the contents
+of Structured Vector Graphics (SVG) files.

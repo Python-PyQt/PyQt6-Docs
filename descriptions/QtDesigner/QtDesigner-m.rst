@@ -1,5 +1,7 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes to allow Qt Designer to be extended using Python
 
-TODO
+The :sip:ref:`~PyQt6.QtDesigner` module contains classes to allow Qt Designer
+to be extended using Python.  See :ref:`ref-designer-plugins` for a full
+description of how to do this.

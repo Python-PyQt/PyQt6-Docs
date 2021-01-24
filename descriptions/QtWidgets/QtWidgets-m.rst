@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for creating classic desktop-style UIs
 
-TODO
+The :sip:ref:`~PyQt6.QtWidgets` module contains classes that provide a set of
+UI elements to create classic desktop-style user interfaces.

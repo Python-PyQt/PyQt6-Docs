@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for extending QML applications with Python code
 
-TODO
+The :sip:ref:`~PyQt6.QtQuick` module contains classes that provide the basic
+elements necessary for creating user interfaces with QML.

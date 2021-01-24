@@ -1,5 +1,7 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes to make printing easier and more portable
 
-TODO
+The :sip:ref:`~PyQt6.QtPrintSupport` module contains classes to allow
+applications to print to locally attached and remote printers.  It also enables
+the generation of PostScript and PDF files.

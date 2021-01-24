@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for rendering OpenGL in a widget
 
-TODO
+The :sip:ref:`~PyQt6.QtOpenGLWidgets` module contains classes that allow OpenGL
+to be rendered in a :sip:ref:`~PyQt6.QtWidgets.QWidget`.

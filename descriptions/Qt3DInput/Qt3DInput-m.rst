@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes to handle user input when using Qt3D
 
-TODO
+The :sip:ref:`~PyQt6.Qt3DInput` module contains classes to handle user input in
+applications using Qt3D.

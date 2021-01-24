@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for rendering a QML scene in traditional widgets
 
-TODO
+The :sip:ref:`~PyQt6.QtQuickWidgets` module contains classes that support the
+display of a QML scene in a traditional widget.

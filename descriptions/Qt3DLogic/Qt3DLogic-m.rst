@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes that enable frame synchronization
 
-TODO
+The :sip:ref:`~PyQt6.Qt3DLogic` module contains classes to enable synchronizing
+frames with the Qt3D backend.

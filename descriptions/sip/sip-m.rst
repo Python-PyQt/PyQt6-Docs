@@ -1,5 +1,5 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Utilities for bindings developers and users
 
-TODO
+.. include:: ../../../sip.rst

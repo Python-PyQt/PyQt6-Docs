@@ -1,5 +1,7 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     The core network classes
 
-TODO
+The :sip:ref:`~PyQt6.QtNetwork` module contains classes for writing UDP and TCP
+clients and servers.  It includes classes that implement HTTP clients and
+support DNS lookups.

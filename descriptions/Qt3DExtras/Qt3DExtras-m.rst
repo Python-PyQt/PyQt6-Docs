@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Pre-built elements for use with Qt3D
 
-TODO
+The :sip:ref:`~PyQt6.Qt3DExtras` module contains a number of pre-built elements
+(materials, meshes, geometries, camera controllers etc.) for use with Qt3D.

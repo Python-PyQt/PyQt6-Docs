@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for creating and viewing searchable documentation
 
-TODO
+The :sip:ref:`~PyQt6.QtHelp` module contains classes to enable developers to
+include online help and documentation in their applications.
