@@ -1,10 +1,10 @@
 Using PyQt6 from the Python Shell
 =================================
 
-PyQt6 installs an input hook (using ``PyOS_InputHook``) that processes events
-when an interactive interpreter is waiting for user input.  This means that
-you can, for example, create widgets from the Python shell prompt, interact
-with them, and still being able to enter other Python commands.
+PyQt6 installs an input hook (using :c:func:`PyOS_InputHook`) that processes
+events when an interactive interpreter is waiting for user input.  This means
+that you can, for example, create widgets from the Python shell prompt,
+interact with them, and still being able to enter other Python commands.
 
 For example, if you enter the following in the Python shell::
 

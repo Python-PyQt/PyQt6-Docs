@@ -59,7 +59,7 @@ application to create the dialog::
     ui.setupUi(window)
 
     window.show()
-    sys.exit(app.exec_())
+    sys.exit(app.exec())
 
 The second example shows the single inheritance approach where we sub-class
 :sip:ref:`~PyQt6.QtWidgets.QDialog` and set up the user interface in the
@@ -70,7 +70,7 @@ The second example shows the single inheritance approach where we sub-class
 
     class ImageDialog(QDialog):
         def __init__(self):
-            super(ImageDialog, self).__init__()
+            super().__init__()
 
             # Set up the user interface from Designer.
             self.ui = Ui_ImageDialog()
@@ -90,7 +90,7 @@ The final example shows the multiple inheritance approach::
 
     class ImageDialog(QDialog, Ui_ImageDialog):
         def __init__(self):
-            super(ImageDialog, self).__init__()
+            super().__init__()
 
             # Set up the user interface from Designer.
             self.setupUi(self)
