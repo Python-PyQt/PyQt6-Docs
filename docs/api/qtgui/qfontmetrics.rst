@@ -13,6 +13,12 @@
             :sip:ref:`~PyQt6.QtGui.QFontMetrics`
         :description: QtGui/QFontMetrics-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QFontMetrics.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont`
+            :sip:ref:`~PyQt6.QtGui.QPaintDevice`
+        :description: QtGui/QFontMetrics-__init__-f-2.rst
+
     .. sip:method:: PyQt6.QtGui.QFontMetrics.ascent
         :returns:
             int

@@ -117,6 +117,13 @@
             str
         :description: QtCore/QPointF-__repr__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QPointF.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtCore/QPointF-__rmul__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QPointF.setX
         :args:
             float

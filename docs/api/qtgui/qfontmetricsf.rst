@@ -18,6 +18,12 @@
             :sip:ref:`~PyQt6.QtGui.QFontMetricsF`
         :description: QtGui/QFontMetricsF-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtGui.QFontMetricsF.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont`
+            :sip:ref:`~PyQt6.QtGui.QPaintDevice`
+        :description: QtGui/QFontMetricsF-__init__-f-3.rst
+
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.ascent
         :returns:
             float
