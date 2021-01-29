@@ -23,5 +23,4 @@ PyQt6 Reference Guide
     python_shell
     i18n
     dbus
-    deploy_commercial
     extension_api

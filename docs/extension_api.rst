@@ -8,27 +8,8 @@ ability for other extension modules to build on top of it.
 `QScintilla <https://www.riverbankcomputing.com/software/qscintilla/>`__ is
 such an example.
 
-PyQt6 provides an extension API that can be used by other modules.  This has
-the advantage of sharing code and also enforcing consistent behaviour.  Part of
-the API is accessable from Python and part from C++.
-
-
-Python API
-----------
-
-The Python part of the API is accessible via the :sip:ref:`~PyQt6.QtCore`
-module and is typically used by an extension module's equivalent of PyQt6's
-:program:`configure.py`.
-
-The API consists of :attr:`PyQt6.QtCore.PYQT_CONFIGURATION` which is a dict
-that describes how PyQt6 was configured.  At the moment it contains a single
-value called ``sip_flags`` which is a string containing the ``-t`` and ``-x``
-flags that were passed to the :program:`sip` executable by
-:program:`configure.py`.  Other extension modules must use the same flags in
-their configuration.
-
-This information is also provided by SIP v4's :sip:ref:`~sip.sipconfig` module.
-However this module will not be implemented by SIP v6.
+PyQt6 provides a C++ extension API that can be used by other modules.  This has
+the advantage of sharing code and also enforcing consistent behaviour.
 
 
 C++ API
@@ -37,11 +18,6 @@ C++ API
 The C++ API is a set of functions.  The addresses of each function is obtained
 by calling SIP's :c:func:`sipImportSymbol` function with the name of the
 function required.
-
-Several of the functions are provided as a replacement for SIP v4 features
-(i.e. ``SIP_ANYSLOT``, ``SIP_QOBJECT``, ``SIP_RXOBJ_CON``, ``SIP_RXOBJ_DIS``,
-``SIP_SIGNAL``, ``SIP_SLOT``, ``SIP_SLOT_CON`` and ``SIP_SLOT_DIS``) that are
-not supported by SIP v6.
 
 The functions exported by PyQt6 are as follows:
 
