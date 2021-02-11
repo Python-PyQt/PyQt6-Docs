@@ -34,6 +34,10 @@ import xml.etree.ElementTree as etree
 from collections import namedtuple
 
 
+# The DocBook namespace.
+DB_NS = {'db': 'http://docbook.org/ns/docbook'}
+
+
 def error(message):
     """ Write an error message to stderr and terminate with a non-zero exit
     code.
@@ -143,7 +147,7 @@ class DocBookMetadata:
         except KeyError:
             location = object_name.lower().replace('::', '-')
 
-        return os.path.join(self.name, location + '.docbook')
+        return os.path.join(self.name, location + '.xml')
 
 
 # The DocBook meta-data.
@@ -497,7 +501,7 @@ class Description:
             progress("Reading {}...".format(desc_path))
 
         with open(desc_path) as desc_fd:
-            desc_lines = desc_fd.read().split('\n')
+            desc_lines = desc_fd.read().strip().split('\n')
 
         # The first blank line separates the header from the (optional) body.
         for line_nr, line in enumerate(desc_lines):
@@ -643,6 +647,24 @@ class Description:
 
         return real_sig == self.real_sig
 
+    def save_updates(self):
+        """ Save any updates to the description file. """
+
+        if self._updated:
+            if context.verbose:
+                progress("Updating {}...".format(self._desc_path))
+
+            with open(self._desc_path, 'w') as desc_fd:
+                desc_fd.write('\n'.join(self._header))
+                desc_fd.write('\n')
+
+                if self._body:
+                    desc_fd.write('\n')
+                    desc_fd.write('\n'.join(self._body))
+                    desc_fd.write('\n')
+
+            self._updated = False
+
     def update_description(self, el, targets, docbook, context, digest=None, description_el=None):
         """ Update the description in an element and update the meta-data
         accordingly.
@@ -666,8 +688,6 @@ class Description:
         # at all.  If this is the case then leave without changing anything.
         if len(description_el) == 0:
             return
-
-        self._updated = False
 
         digest.update_from_element(description_el)
         new_digest = str(digest)
@@ -715,18 +735,6 @@ class Description:
                 self._updated = True
         else:
             self.update_rst(':status:', 'review')
-
-        if self._updated:
-            if context.verbose:
-                progress("Updating {}...".format(self._desc_path))
-
-            with open(self._desc_path, 'w') as desc_fd:
-                desc_fd.write('\n'.join(self._header))
-                desc_fd.write('\n')
-
-                if self._body:
-                    desc_fd.write('\n'.join(self._body))
-                    desc_fd.write('\n')
 
     def update_rst(self, name, value):
         """ Update the value of a field. """
@@ -1283,7 +1291,7 @@ class Description:
 
         fmt.write_line(
                 '.. _{}-{}:'.format(
-                        os.path.basename(docbook).replace('.docbook', ''), name))
+                        os.path.basename(docbook).replace('.xml', ''), name))
 
     def _render_text(self, fmt, text_el, scopes, targets, docbook, context, quotes='', escape_backslash=True, leading_blank=True):
         """ Render an element that contains text. """
@@ -1678,8 +1686,8 @@ def generate_docbook(modules, qt_prefix, qt_source):
     os.environ['BUILDDIR'] = docbook_root
 
     # Run qdoc.
-    run(os.path.join(qt_prefix, 'bin', 'qdoc'), '--single-exec', '--outputdir',
-            docbook_root, master_path)
+    run(os.path.join(qt_prefix, 'bin', 'qdoc'), '--docbook-extensions',
+            '--single-exec', '--outputdir', docbook_root, master_path)
 
     return docbook_root
 
@@ -1690,17 +1698,24 @@ def update_module_descriptions(module, context):
     for desc in module.descriptions:
         # Handle each type.
         if desc.object_type == 'a':
-            update_attribute(desc, context)
+            #update_attribute(desc, context)
+            pass
         elif desc.object_type == 'c':
             update_class(desc, context)
         elif desc.object_type in 'fs':
-            update_callable(desc, context)
+            #update_callable(desc, context)
+            pass
         elif desc.object_type == 'e':
-            update_enum(desc, context)
+            #update_enum(desc, context)
+            pass
         elif desc.object_type == 'm':
-            update_module(desc, context)
+            #update_module(desc, context)
+            pass
         elif desc.object_type == 'v':
-            update_enum_member(desc, context)
+            #update_enum_member(desc, context)
+            pass
+
+        desc.save_updates()
 
     module.metadata.clear_cache()
 
@@ -1762,32 +1777,31 @@ def update_class(desc, context):
     if root_el is None:
         return
 
-    for el in root_el.findall(".//class"):
-        # Global classes don't have a full name.
-        name = el.attrib.get('fullname')
-        if name is None:
-            name = el.attrib.get('name')
+    #for el in root_el.findall(".//class"):
+    #    # Global classes don't have a full name.
+    #    name = el.attrib.get('fullname')
+    #    if name is None:
+    #        name = el.attrib.get('name')
 
-        if name == desc.real_name:
-            break
-    else:
-        return
+    #    if name == desc.real_name:
+    #        break
+    #else:
+    #    return
 
-    # Get the 'brief' attribute (which is usually a shorter version of the
-    # 'brief' element of the 'description' element).
+    # Get the first paragraph of the abstract.
     digest = Digest()
-    brief = el.attrib.get('brief')
+    brief = root_el.find('./db:info/db:abstract/db:para', DB_NS)
 
     if brief is not None:
-        digest.update(brief)
+        #digest.update(brief)
 
         if desc.is_todo():
-            desc.update_rst(':brief:', brief)
+            desc.update_rst(':brief:', ''.join(brief.itertext()))
 
-    desc.update_description(el, targets, docbook, context, digest=digest)
+    #desc.update_description(el, targets, docbook, context, digest=digest)
 
     # Update the reference to the original docs.
-    desc.update_rst(':external:', el.attrib.get('href'))
+    #desc.update_rst(':external:', el.attrib.get('href'))
 
 
 def update_enum(desc, context):
@@ -1896,7 +1910,11 @@ def run(*args):
         subprocess.run(args, stderr=subprocess.PIPE, check=True,
                 universal_newlines=True)
     except subprocess.CalledProcessError as e:
-        error(e.stderr)
+        sys.stderr.write(e.stderr)
+        # TODO: qdoc always seems to core dump but only after it's done what we
+        # need.
+        #error("{} returned a non-zero error code".format(args[0]))
+        warning("{} returned a non-zero error code".format(args[0]))
 
 
 if __name__ == '__main__':
