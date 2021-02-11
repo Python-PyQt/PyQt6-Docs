@@ -1,4 +1,4 @@
 syntax: glob
 __pycache__
 html
-webxml
+docbook

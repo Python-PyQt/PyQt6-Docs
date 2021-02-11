@@ -50,9 +50,11 @@ Re-basing for New Versions of Qt
 To update the descriptions of the PyQt API in the ``descriptions`` directory
 for a new version of Qt, run the following command::
 
-    python webxml2rst.py --package PyQt6 --qdoc QDOC --qt-source SRC
+    python docbook2rst.py --package PyQt6 --qt-prefix PREFIX --qt-source SRC
 
-``QDOC`` is the pathname of the ``qdoc`` executable.
+``PREFIX`` is the name of the prefix directory if the Qt installation (i.e. the
+architecture-specific directory containing the ``bin``, ``include`` and ``lib``
+directories).
 
 ``SRC`` is the name of the directory containing the Qt source code.
 
