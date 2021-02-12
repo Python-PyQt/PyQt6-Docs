@@ -155,11 +155,6 @@ class WebXMLMetadata:
 WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
         locations={
             'Q_ARG': 'qmetaobject',
-            'Q_CLASSINFO': 'qobject',
-            'Q_ENUM': 'qobject',
-            'Q_ENUMS': 'qobject',
-            'Q_FLAG': 'qobject',
-            'Q_FLAGS': 'qobject',
             'Q_RETURN_ARG': 'qmetaobject',
             'QT_TR_NOOP': 'qtglobal',
             'QT_TRANSLATE_NOOP': 'qtglobal',
@@ -185,30 +180,36 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'qSNaN': 'qtglobal',
             'qUncompress': 'qbytearray',
             'qWarning': 'qtglobal',
-            'bin': 'qtextstream',
-            'bom': 'qtextstream',
-            'center': 'qtextstream',
-            'dec': 'qtextstream',
-            'endl': 'qtextstream',
-            'fixed': 'qtextstream',
-            'flush': 'qtextstream',
-            'forcepoint': 'qtextstream',
-            'forcesign': 'qtextstream',
-            'hex': 'qtextstream',
-            'left': 'qtextstream',
-            'lowercasebase': 'qtextstream',
-            'lowercasedigits': 'qtextstream',
-            'noforcepoint': 'qtextstream',
-            'noforcesign': 'qtextstream',
-            'noshowbase': 'qtextstream',
-            'oct': 'qtextstream',
-            'reset': 'qtextstream',
-            'right': 'qtextstream',
-            'scientific': 'qtextstream',
-            'showbase': 'qtextstream',
-            'uppercasebase': 'qtextstream',
-            'uppercasedigits': 'qtextstream',
-            'ws': 'qtextstream',
+            'bin': 'qt',
+            'bom': 'qt',
+            'center': 'qt',
+            'convertFromPlainText': 'qt',
+            'dec': 'qt',
+            'endl': 'qt',
+            'fixed': 'qt',
+            'flush': 'qt',
+            'forcepoint': 'qt',
+            'forcesign': 'qt',
+            'hex': 'qt',
+            'left': 'qt',
+            'lowercasebase': 'qt',
+            'lowercasedigits': 'qt',
+            'noforcepoint': 'qt',
+            'noforcesign': 'qt',
+            'noshowbase': 'qt',
+            'oct': 'qt',
+            'reset': 'qt',
+            'right': 'qt',
+            'scientific': 'qt',
+            'showbase': 'qt',
+            'uppercasebase': 'qt',
+            'uppercasedigits': 'qt',
+            'ws': 'qt',
+            'PYQT_VERSION': None,
+            'PYQT_VERSION_STR': None,
+            'pyqtClassInfo': None,
+            'pyqtEnum': None,
+            'pyqtMutexLocker': None,
             'pyqtPickleProtocol': None,
             'pyqtRemoveInputHook': None,
             'pyqtRestoreInputHook': None,
@@ -880,6 +881,12 @@ class Description:
                 # TODO
                 pass
 
+            elif sub_el.tag in ('quotefromfile', 'skipto', 'printuntil'):
+                # These are used to extract text fragments from a file.  The
+                # only know use is to extract C++ code from a Qt source file,
+                # so we just ignore them.
+                pass
+
             else:
                 warning(
                         "{}: unsupported description tag: '{}'".format(webxml,
@@ -1052,9 +1059,13 @@ class Description:
         elif link_type in ('', 'page'):
             # TODO: Look for any WebXML for the page and process it.
             # TODO: Implement :sip:external`` so that the URL isn't hardcoded.
-            text = '`{} <https://doc.qt.io/qt-5/{}>`_'.format(text, href)
+            text = '`{} <https://doc.qt.io/qt-6/{}>`_'.format(text, href)
 
         elif link_type == 'property':
+            # TODO
+            pass
+
+        elif link_type == 'alias':
             # TODO
             pass
 
@@ -1065,6 +1076,9 @@ class Description:
         elif link_type == 'variable':
             # TODO
             pass
+
+        elif link_type == 'external':
+            text = '`{} <{}>`_'.format(text, href)
 
         else:
             warning(

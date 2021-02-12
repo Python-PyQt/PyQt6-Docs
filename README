@@ -27,8 +27,9 @@ The documentation can be found in the ``html`` directory.
 Re-basing for New Versions of PyQt
 ----------------------------------
 
-The ``conf.py`` file in the ``docs`` directory should be updated with the
-X.Y.Z version number of the new PyQt version.
+If the minor version of PyQt has changed then the ``conf.py`` file in the
+``docs`` directory should be updated with the X.Y version number of the new
+PyQt version.
 
 For each PyQt module (e.g. QtCore), run the following command::
 
