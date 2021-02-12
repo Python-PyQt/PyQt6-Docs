@@ -145,6 +145,11 @@
         :description: QtCore/QIODevice-readData-f.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.readLine
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QIODevice-readLine-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QIODevice.readLine
         :args:
             int
         :returns:

@@ -423,13 +423,6 @@
             str
         :description: QtCore/QT_TR_NOOP-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QT_TR_NOOP_UTF8
-        :args:
-            str
-        :returns:
-            str
-        :description: QtCore/QT_TR_NOOP_UTF8-f.rst
-
     .. sip:method:: PyQt6.QtCore.QT_TRANSLATE_NOOP
         :args:
             str
