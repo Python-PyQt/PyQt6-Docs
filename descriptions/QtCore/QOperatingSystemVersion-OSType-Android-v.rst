@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 86edae34432b44e3da730bea2c79b53b
 
-TODO
+The Google Android operating system.

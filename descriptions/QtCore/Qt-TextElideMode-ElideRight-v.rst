@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 06b8b407812251dd6fc4e536572c2c13
 
-TODO
+The ellipsis should appear at the end of the text.

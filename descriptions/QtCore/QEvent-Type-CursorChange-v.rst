@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 183
+    :digest: deec774449a2e7cb776855e0483926a7
 
-TODO
+The widget's cursor has changed.

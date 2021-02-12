@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 38
+    :digest: c0b8d0003d9c6b184abb462391773818
 
-TODO
+The default application palette has changed.

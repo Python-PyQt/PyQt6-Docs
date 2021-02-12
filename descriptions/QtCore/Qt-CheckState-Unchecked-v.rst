@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: eda8f4a18ec3418db581b6dd82ce784a
 
-TODO
+The item is unchecked.

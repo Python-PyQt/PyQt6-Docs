@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000008
     :realname: Qt::ScreenOrientation::InvertedLandscapeOrientation
+    :digest: c058d59d0ff14d19530913916521be9a
 
-TODO
+Inverted landscape orientation, rotated 180 degrees relative to landscape.

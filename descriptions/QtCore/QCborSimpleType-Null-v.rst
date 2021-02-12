@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 22
+    :digest: beb8dac97ff3687b2c14eecb2d378c07
 
-TODO
+Absence of value (null).

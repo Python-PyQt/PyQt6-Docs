@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: b19c2fb91a83988bac888e61b536d937
 
-TODO
+Coordinates are relative to the top-left corner of the object.

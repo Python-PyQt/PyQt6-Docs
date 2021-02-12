@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Wolaytta
+    :digest: 74294fcf7fb8995bad6a0ba9e991eff4
 
-TODO
+Obsolete, please use Wolaytta

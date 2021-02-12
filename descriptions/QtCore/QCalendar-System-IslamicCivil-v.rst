@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: bbc1e3f68e1f6f07e99693469f6ff132
 
-TODO
+The (tabular) Islamic Civil calendar.

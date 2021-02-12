@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 5ce0dc0eda34332be5d992189cf35262
 
-TODO
+A preformatted text mode in which whitespace is reproduced exactly.

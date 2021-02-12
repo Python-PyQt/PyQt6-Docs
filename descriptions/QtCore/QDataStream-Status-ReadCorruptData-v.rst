@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 22600d665b78da5234decf5cd52e5e9a
 
-TODO
+The data stream has read corrupt data.

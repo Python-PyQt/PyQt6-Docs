@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 32
     :realname: Qt::ItemFlag::ItemIsEnabled
+    :digest: 95703e32910980b55087b283a4bc21c2
 
-TODO
+The user can interact with the item.

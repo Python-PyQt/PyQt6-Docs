@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 1d0b8f12050b2cde84dbe4cf4c9a4ea0
 
-TODO
+Mouse move (QMouseEvent).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: ApplicationActivate
+    :digest: aaa053bf882ca63360952bbe1853d3d3
 
-TODO
+This enum has been deprecated. Use  instead.

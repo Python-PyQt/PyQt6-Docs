@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 61
+    :digest: ff2fbf2fa0eb86cf1d4b6694de91ba6a
 
-TODO
+A drag and drop operation is in progress (QDragMoveEvent).

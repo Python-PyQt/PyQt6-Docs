@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Rundi
+    :digest: aa319ccf91aa6d39b56f16eb0337d8ed
 
-TODO
+Obsolete, please use Rundi

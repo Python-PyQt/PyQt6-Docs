@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: fbe083e9430b414700ea1bde3437cc1f
 
-TODO
+The item is checked.

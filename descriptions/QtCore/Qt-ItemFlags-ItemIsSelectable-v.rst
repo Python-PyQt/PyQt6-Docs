@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
     :realname: Qt::ItemFlag::ItemIsSelectable
+    :digest: d02e84b95513571ef33b0c1832ca4463
 
-TODO
+It can be selected.

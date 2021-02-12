@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 171
+    :digest: 837e93fbb6a9fbfce0689f40582b9331
 
-TODO
+Wacom tablet enter proximity event (QTabletEvent), sent to QApplication.

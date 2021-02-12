@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: 9d72b9264edd34f987253eee8709cbca
 
-TODO
+A cursor that is usually used when dragging an item.

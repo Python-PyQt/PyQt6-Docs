@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 42b852ab0a0099c3d1d906714c06303e
 
-TODO
+Widget was hidden (QHideEvent).

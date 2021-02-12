@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: c7e6a5f59ed6f6dfecd3b70475b409ef
 
-TODO
+Mouse enters widget's boundaries (QEnterEvent).

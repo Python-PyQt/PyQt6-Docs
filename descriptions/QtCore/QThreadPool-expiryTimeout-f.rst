@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: e86f45cdfbbfa83f8255736cf5241258
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QThreadPool.setExpiryTimeout`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 25
+    :digest: 401f794a654b64c0c0be3815936b44d1
 
-TODO
+Window was deactivated.

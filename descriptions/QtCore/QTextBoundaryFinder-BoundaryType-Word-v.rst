@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 83edb802ae18fe73f8354d8f8c1fd275
 
-TODO
+Finds a word.

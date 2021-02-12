@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 6eaabffc55c178a753bbe1d1e4b8eef7
 
-TODO
+Checksum calculation based on ISO 3309.

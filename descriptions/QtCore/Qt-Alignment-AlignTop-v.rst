@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0020
     :realname: Qt::AlignmentFlag::AlignTop
+    :digest: 2d3bb3fc3a14862e37245a18ecb803aa
 
-TODO
+Aligns with the top.

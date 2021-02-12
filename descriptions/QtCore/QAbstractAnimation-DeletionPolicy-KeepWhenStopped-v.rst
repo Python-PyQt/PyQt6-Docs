@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 0feb71c2ee30d19d952ed922a130e7ac
 
-TODO
+The animation will not be deleted when stopped.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: cc6b2d9986cc5c2720ecfb9780466641
 
-TODO
+When the file was most recently accessed (e.g. read or written to).

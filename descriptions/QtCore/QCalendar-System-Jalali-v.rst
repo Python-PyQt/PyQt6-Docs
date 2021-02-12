@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 6584c02908fa56d016bee8e4130b7787
 
-TODO
+The Solar Hijri calendar (also called Persian).

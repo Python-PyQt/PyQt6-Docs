@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x60
+    :digest: 8cd11e9206a040809ebb5c8ecf230320
 
-TODO
+An alias to String

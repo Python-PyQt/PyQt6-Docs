@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 7961b942df89df9fae9619b4a5aa1bd1
 
-TODO
+The operation failed because there was not enough memory available to fill the request.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8
     :realname: QTextStream::NumberFlag::UppercaseBase
+    :digest: 0751417a6efc0abd94721179dc0c3c8e
 
-TODO
+Use uppercase versions of base prefixes ("0X", "0B").

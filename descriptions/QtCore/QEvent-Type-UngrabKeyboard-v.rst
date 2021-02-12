@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 189
+    :digest: 61e36313d27e57dcc9444a403042ed57
 
-TODO
+Item loses keyboard grab (QGraphicsItem only).

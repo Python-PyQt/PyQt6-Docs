@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: f472dd05236eab6a1f803ac017ae73ca
 
-TODO
+A Swipe gesture.

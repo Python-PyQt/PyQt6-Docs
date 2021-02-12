@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: NorthKorea
+    :digest: eb2d5813b46326f65f9b5baf3b21adce
 
-TODO
+Obsolete, use ``NorthKorea`` instead

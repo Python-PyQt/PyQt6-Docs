@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 204
+    :digest: bb4473bfcb97b3626230fca6fe6e1899
 
-TODO
+The object needs to fill in its geometry information (QScrollPrepareEvent).

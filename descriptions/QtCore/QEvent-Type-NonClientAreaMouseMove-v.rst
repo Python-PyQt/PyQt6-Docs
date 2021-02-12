@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 173
+    :digest: 3d37edbe63366234dfdeda30942a9975
 
-TODO
+A mouse move occurred outside the client area (QMouseEvent).

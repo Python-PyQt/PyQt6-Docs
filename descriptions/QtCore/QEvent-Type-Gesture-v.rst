@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 198
+    :digest: 88b26e1a7b6ab5d047ebd97f60ebf9f9
 
-TODO
+A gesture was triggered (QGestureEvent).

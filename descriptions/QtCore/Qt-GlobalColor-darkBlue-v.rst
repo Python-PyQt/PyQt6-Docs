@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: 8de85a0448899c5c9a4a7b7e9a776d46
 
-TODO
+Dark blue (#000080)

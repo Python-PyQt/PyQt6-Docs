@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: 970b3843d28eea969bfe1b755c6c2c08
 
-TODO
+The path to installed Qt testcases.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 204695e004bf038d997500ead78e8218
 
-TODO
+Repeat the image until there is no more space. May crop the last image.

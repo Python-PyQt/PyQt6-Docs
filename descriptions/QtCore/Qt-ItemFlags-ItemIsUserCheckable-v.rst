@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
     :realname: Qt::ItemFlag::ItemIsUserCheckable
+    :digest: 13c3eba2986ee8113507980ff39630bd
 
-TODO
+It can be checked or unchecked by the user.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: d7e4c0bb90ffd186f29b5a1b67810b3e
 
-TODO
+Reserved for future definition

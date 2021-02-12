@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0000
     :realname: QItemSelectionModel::SelectionFlag::NoUpdate
+    :digest: f8f625f3a70dd865df0deb2c42582a2e
 
-TODO
+No selection will be made.

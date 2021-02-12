@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 164
+    :digest: df3183253ab6bf15c3b2e70f3438fd3e
 
-TODO
+The cursor enters a graphics scene during a drag and drop operation (QGraphicsSceneDragDropEvent).

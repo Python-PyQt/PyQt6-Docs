@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 79733cc9da414601365b58f5bd43c3c1
 
-TODO
+The operation was aborted.

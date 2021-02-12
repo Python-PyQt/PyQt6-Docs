@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: e4e518068d101b9bf81c1aceb7746ad4
 
-TODO
+Mouse leaves widget's boundaries.

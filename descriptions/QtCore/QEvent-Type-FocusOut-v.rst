@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: fc1e92420176da460868fa1169f86b44
 
-TODO
+Widget or Window loses keyboard focus (QFocusEvent).

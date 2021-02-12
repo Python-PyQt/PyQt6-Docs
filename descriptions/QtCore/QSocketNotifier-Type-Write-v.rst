@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 267d163ec3f6e0c824710a6fcf3d094c
 
-TODO
+Data can be written.

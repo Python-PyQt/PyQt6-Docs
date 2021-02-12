@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 196
+    :digest: 6712af2c9d7741cffbc10915f72c107b
 
-TODO
+End of touch-event sequence (QTouchEvent).

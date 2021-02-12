@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x200
     :realname: Qt::InputMethodHint::ImhPreferLatin
+    :digest: be998644dcc8ff52610043889fe2b0e0
 
-TODO
+Latin characters are preferred (but not required).

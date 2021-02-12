@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 7917d91dd11877ac8c0aadd0522603bb
 
-TODO
+This operation turns clipping off.

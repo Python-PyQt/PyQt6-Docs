@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 111
+    :digest: 08cdfe685aab6b8a65f1ee799f315195
 
-TODO
+The widget should reveal "What's This?" help (QHelpEvent).

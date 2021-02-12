@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: e77be6b3851fab5652be8aa31e6598d7
 
-TODO
+Screen update necessary (QPaintEvent).

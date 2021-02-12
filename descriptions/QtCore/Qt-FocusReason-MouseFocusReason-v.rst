@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 509eadf6b3aa54bdf0db7f60b306517c
 
-TODO
+A mouse action occurred.

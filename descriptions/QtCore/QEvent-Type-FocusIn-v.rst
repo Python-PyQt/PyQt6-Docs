@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 543ab8cea5364d76a0c7200e1b37d9cb
 
-TODO
+Widget or Window gains keyboard focus (QFocusEvent).

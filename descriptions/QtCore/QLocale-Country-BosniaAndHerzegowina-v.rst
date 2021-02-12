@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: BosniaAndHerzegovina
+    :digest: 2cbe909227cf82b74bdad417d4f99454
 
-TODO
+Obsolete, use ``BosniaAndHerzegovina`` instead

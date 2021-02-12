@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 1e54790081318898720931070e55e024
 
-TODO
+Don't round.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QSysInfo::LittleEndian
+    :digest: 7552588e49d9ec0784b20b83370ee99f
 
-TODO
+Least significant byte first

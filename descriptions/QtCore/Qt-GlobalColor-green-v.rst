@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 3fafeb63ae132a4cedf8ca3dcee3ad9c
 
-TODO
+Green (#00ff00)

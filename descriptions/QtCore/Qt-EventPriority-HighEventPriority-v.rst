@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 0156993fe7f05b15d74009ecdac99913
 
-TODO
+Events with this priority are sent before events with  or .

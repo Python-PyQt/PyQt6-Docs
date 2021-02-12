@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: c3a50b8e1457bb2b543b35d73e556ce4
 
-TODO
+A revised Julian calendar used by some Orthodox churches.

@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 0281bb2a03f8f3624f862e1826a39fe8
     :realsig: (QObject*)
+    :digest: d315cd9dd9551162ef3b00cdedc9b101
 
-TODO
+Constructs a new file object with the given *parent*.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Inupiaq
+    :digest: dd36800f2c30704172f105416cb4fc66
 
-TODO
+Obsolete, please use Inupiaq

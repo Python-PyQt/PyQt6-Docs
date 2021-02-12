@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: f9dce83f5633ebce5479f549ccc53378
 
-TODO
+Key release (QKeyEvent).

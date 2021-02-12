@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 5782efdc3e3c99cef8a9c56d53d92973
 
-TODO
+The file could not be opened.

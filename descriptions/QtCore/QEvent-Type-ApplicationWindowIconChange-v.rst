@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 35
+    :digest: cd74dbf403a9d95ba8be490df57ad98c
 
-TODO
+The application's icon has changed.

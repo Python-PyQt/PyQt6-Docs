@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: a2ecf97792c7a0a56acfa7daa3cde46a
 
-TODO
+This enum specifies the coordinate system.

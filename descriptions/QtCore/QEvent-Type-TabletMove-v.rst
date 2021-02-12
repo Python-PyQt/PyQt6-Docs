@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 87
+    :digest: 754bdf9ee822c3db11334ee8f70695d8
 
-TODO
+Wacom tablet move (QTabletEvent).

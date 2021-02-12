@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: f1c0858f2ad43ff203b3e4f1e15f7c09
 
-TODO
+The number is not well formed

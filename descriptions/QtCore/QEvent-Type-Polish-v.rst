@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 75
+    :digest: 80fdaf7bc9b917f8edf10033011ed431
 
-TODO
+The widget is polished.

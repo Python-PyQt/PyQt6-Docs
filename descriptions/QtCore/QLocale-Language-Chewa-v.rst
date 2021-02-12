@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Nyanja
+    :digest: db6cd79ab404672e304cf73a43f28d86
 
-TODO
+Obsolete, please use Nyanja

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: c1162ac748600006f773023539a1b6d5
 
-TODO
+scheduled as often as possible.

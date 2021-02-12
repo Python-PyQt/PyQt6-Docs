@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: SimplifiedHanScript
+    :digest: 4b5217c9265d6fa9ea44c36880e1232c
 
-TODO
+same as

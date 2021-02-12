@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 394b99db45df2f45b0d48ddffcc562af
 
-TODO
+An illegal escape sequence occurred in the input

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: c0eba1e54d90b7afc028473409a4758c
 
-TODO
+The foreground brush (text color, typically) used for items rendered with the default delegate. (QBrush)

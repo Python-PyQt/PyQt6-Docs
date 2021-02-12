@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 59a17c492b2d8d9efcc31765d70d96ad
 
-TODO
+Custom pattern (see QBrush::setTexture()).

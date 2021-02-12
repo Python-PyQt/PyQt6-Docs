@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: TextSelectableByMouse | LinksAccessibleByMouse | LinksAccessibleByKeyboard
     :realname: Qt::TextInteractionFlag::TextBrowserInteraction
+    :digest: ef41fd01e65daaa7376ca1221552f8a7
 
-TODO
+The default for QTextBrowser.

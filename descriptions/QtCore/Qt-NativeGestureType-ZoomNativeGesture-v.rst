@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 7e63564a50c99f3bbdcd224006a8eaaf
 
-TODO
+Specifies the magnification delta in percent.

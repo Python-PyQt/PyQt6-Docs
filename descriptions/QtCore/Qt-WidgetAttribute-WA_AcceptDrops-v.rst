@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 78
+    :digest: 3b01768974eb789356487854d7f9c9aa
 
-TODO
+Allows data from drag and drop operations to be dropped onto the widget (see QWidget::setAcceptDrops()).

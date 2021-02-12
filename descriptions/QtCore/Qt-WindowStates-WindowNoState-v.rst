@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000000
     :realname: Qt::WindowState::WindowNoState
+    :digest: bcb809e3ba733ebbbe11b403dc0fa337
 
-TODO
+The window has no state set (in normal state).

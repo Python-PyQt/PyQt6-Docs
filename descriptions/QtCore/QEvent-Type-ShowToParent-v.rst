@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 26
+    :digest: 3f1232ea8c296e1862e1bd3d97e5777b
 
-TODO
+A child widget has been shown.

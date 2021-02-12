@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 98a92896fd32f86d82103d17c3b6c8f5
 
-TODO
+Show a "Search" button. The keyboard will close when this button is pressed.

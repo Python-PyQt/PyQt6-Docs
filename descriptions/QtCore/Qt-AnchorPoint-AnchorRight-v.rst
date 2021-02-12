@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 258798513e7aa812246001dbb93d08a4
 
-TODO
+The right side of a layout item.

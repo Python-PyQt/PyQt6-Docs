@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
     :realname: Qt::TextInteractionFlag::TextSelectableByMouse
+    :digest: 590ba0f91adb47cbea922cf4cb56f13f
 
-TODO
+Text can be selected with the mouse and copied to the clipboard using a context menu or standard keyboard shortcuts.

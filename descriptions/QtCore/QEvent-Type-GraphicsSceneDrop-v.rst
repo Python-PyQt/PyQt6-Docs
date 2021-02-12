@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 167
+    :digest: a5f724731c7d5e453e9f107afd1895ec
 
-TODO
+A drag and drop operation is completed over a scene (QGraphicsSceneDragDropEvent).

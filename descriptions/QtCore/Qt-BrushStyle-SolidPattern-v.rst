@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: cb167b61875fe3a6a4c23dedb6c11acf
 
-TODO
+Uniform color.

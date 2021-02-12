@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000000
     :realname: QUrl::ComponentFormattingOption::DecodeReserved
+    :digest: d7fab870cc3aa1594359fc04a2856bf3
 
-TODO
+Decode the US-ASCII characters that the URL specification does not allow to appear in the URL. This is the default on the getters of individual components.

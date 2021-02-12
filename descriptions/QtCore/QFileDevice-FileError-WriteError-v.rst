@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 2239258fc6196528d4fe60a8b8290e98
 
-TODO
+An error occurred when writing to the file.

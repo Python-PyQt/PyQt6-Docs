@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000010
     :realname: Qt::ImageConversionFlag::OrderedDither
+    :digest: c62fb6da75a6956ffc385a01942f30bf
 
-TODO
+A faster, ordered dither.

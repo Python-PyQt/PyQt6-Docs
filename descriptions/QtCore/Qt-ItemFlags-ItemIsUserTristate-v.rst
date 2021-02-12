@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 256
     :realname: Qt::ItemFlag::ItemIsUserTristate
+    :digest: 5ef65542c6fc0f8a0d704b256b90ae03
 
-TODO
+The user can cycle through three separate states. This value was added in Qt 5.5.

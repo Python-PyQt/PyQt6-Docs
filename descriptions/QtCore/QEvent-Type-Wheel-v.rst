@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: a96e3626e3111856e3971202e1750be9
 
-TODO
+Mouse wheel rolled (QWheelEvent).

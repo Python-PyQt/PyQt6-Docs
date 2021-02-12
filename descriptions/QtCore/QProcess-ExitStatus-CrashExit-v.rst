@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: d54f0ebdfcdf29e2854a0f18cbce008b
 
-TODO
+The process crashed.
