@@ -34,10 +34,6 @@ import xml.etree.ElementTree as etree
 from collections import namedtuple
 
 
-# The DocBook namespace.
-DB_NS = {'db': 'http://docbook.org/ns/docbook'}
-
-
 def error(message):
     """ Write an error message to stderr and terminate with a non-zero exit
     code.
@@ -61,10 +57,10 @@ def warning(message):
     sys.stderr.write("{}: warning: {}\n".format(program_name, message))
 
 
-class DocBookMetadata:
-    """ Encapsulate the meta-data for a DocBook module. """
+class WebXMLMetadata:
+    """ Encapsulate the meta-data for a WebXML module. """
 
-    all_docbook = []
+    all_webxml = []
 
     def __init__(self, name, qdocconf, more_images=None, locations=None):
         """ Initialise the object. """
@@ -87,18 +83,18 @@ class DocBookMetadata:
         self._locations = {} if locations is None else locations
 
         # Add this to the list of all modules.
-        type(self).all_docbook.append(self)
+        type(self).all_webxml.append(self)
 
-    def create_qdocconf(self, docbook_root, qt_prefix, qt_source):
+    def create_qdocconf(self, webxml_root, qt_prefix, qt_source):
         """ Create the .qdocconf file and return its name. """
 
-        qdocconf = os.path.join(docbook_root, self.name + '.qdocconf')
+        qdocconf = os.path.join(webxml_root, self.name + '.qdocconf')
 
         with open(qdocconf, 'w') as qdocconf_f:
-            qdocconf_f.write('outputformats = DocBook\n')
-            qdocconf_f.write('DocBook.quotinginformation = true\n')
-            qdocconf_f.write('DocBook.nosubdirs = true\n')
-            qdocconf_f.write('DocBook.outputsubdir = {}\n'.format(self.name))
+            qdocconf_f.write('outputformats = WebXML\n')
+            qdocconf_f.write('WebXML.quotinginformation = true\n')
+            qdocconf_f.write('WebXML.nosubdirs = true\n')
+            qdocconf_f.write('WebXML.outputsubdir = {}\n'.format(self.name))
 
             parts = [qt_source]
             parts.extend(self._qdocconf.split('/'))
@@ -120,25 +116,21 @@ class DocBookMetadata:
 
             qdocconf_f.write('\n')
 
-        # Make sure the module has an images sub-directory.
-        os.makedirs(os.path.join(docbook_root, self.name, 'images'),
-                exist_ok=True)
-
         return qdocconf
 
     @classmethod
     def find(cls, name):
-        """ Find the meta-data for a DocBook module. """
+        """ Find the meta-data for a WebXML module. """
 
-        for docbook in cls.all_docbook:
-            if docbook.name == name:
-                return docbook
+        for webxml in cls.all_webxml:
+            if webxml.name == name:
+                return webxml
 
         # This is an internal error.
-        error("unknown DocBook module '{}'".format(name))
+        error("unknown WebXML module '{}'".format(name))
 
-    def get_object_docbook_name(self, object_name):
-        """ Get the name of a DocBook file that contains the given name. """
+    def get_object_webxml_name(self, object_name):
+        """ Get the name of a WebXML file that contains the given name. """
 
         try:
             location = self._locations[object_name]
@@ -147,20 +139,20 @@ class DocBookMetadata:
         except KeyError:
             location = object_name.lower().replace('::', '-')
 
-        return os.path.join(self.name, location + '.xml')
+        return os.path.join(self.name, location + '.webxml')
 
 
-# The DocBook meta-data.
-#DocBookMetadata('qt3d', qdocconf='qt3d/src/doc/qt3d.qdocconf')
-#DocBookMetadata('qtactiveqt',
+# The WebXML meta-data.
+#WebXMLMetadata('qt3d', qdocconf='qt3d/src/doc/qt3d.qdocconf')
+#WebXMLMetadata('qtactiveqt',
 #        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
-#DocBookMetadata('qtandroidextras',
+#WebXMLMetadata('qtandroidextras',
 #        qdocconf='qtandroidextras/src/androidextras/doc/qtandroidextras.qdocconf')
-#DocBookMetadata('qtbluetooth',
+#WebXMLMetadata('qtbluetooth',
 #        qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
-#DocBookMetadata('qtcharts',
+#WebXMLMetadata('qtcharts',
 #        qdocconf='qtcharts/src/charts/doc/qtcharts.qdocconf')
-DocBookMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
+WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
         locations={
             'Q_ARG': 'qmetaobject',
             'Q_CLASSINFO': 'qobject',
@@ -223,13 +215,13 @@ DocBookMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'pyqtSetPickleProtocol': None,
             'pyqtSlot': None,
         })
-#DocBookMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf')
-#DocBookMetadata('qtdatavis3d',
+#WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf')
+#WebXMLMetadata('qtdatavis3d',
 #        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
-#DocBookMetadata('qtdesigner',
+#WebXMLMetadata('qtdesigner',
 #        qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
 #        more_images='qttools/examples/designer/doc')
-#DocBookMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
+#WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
 #        more_images='qtbase/doc/src',
 #        locations={
 #            'qAlpha': 'qcolor',
@@ -241,51 +233,51 @@ DocBookMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
 #            'qRgba': 'qcolor',
 #            'qt_set_sequence_auto_mnemonic': 'qkeysequence',
 #        })
-#DocBookMetadata('qthelp',
+#WebXMLMetadata('qthelp',
 #        qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
-#DocBookMetadata('qtlocation',
+#WebXMLMetadata('qtlocation',
 #        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
-#DocBookMetadata('qtmacextras',
+#WebXMLMetadata('qtmacextras',
 #        qdocconf='qtmacextras/src/macextras/doc/qtmacextras.qdocconf')
-#DocBookMetadata('qtmultimedia',
+#WebXMLMetadata('qtmultimedia',
 #        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
-#DocBookMetadata('qtnetwork',
+#WebXMLMetadata('qtnetwork',
 #        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf')
-#DocBookMetadata('qtnetworkauth',
+#WebXMLMetadata('qtnetworkauth',
 #        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf')
-#DocBookMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
-#DocBookMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
-#DocBookMetadata('qtpositioning',
+#WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
+#WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
+#WebXMLMetadata('qtpositioning',
 #        qdocconf='qtlocation/src/positioning/doc/qtpositioning.qdocconf')
-#DocBookMetadata('qtprintsupport',
+#WebXMLMetadata('qtprintsupport',
 #        qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
-#DocBookMetadata('qtpurchasing',
+#WebXMLMetadata('qtpurchasing',
 #        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
-#DocBookMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf')
-#DocBookMetadata('qtquick',
+#WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf')
+#WebXMLMetadata('qtquick',
 #        qdocconf='qtdeclarative/src/quick/doc/qtquick.qdocconf')
-#DocBookMetadata('qtremoteobjects',
+#WebXMLMetadata('qtremoteobjects',
 #        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
-#DocBookMetadata('qtsensors',
+#WebXMLMetadata('qtsensors',
 #        qdocconf='qtsensors/src/sensors/doc/qtsensors.qdocconf')
-#DocBookMetadata('qtserialport',
+#WebXMLMetadata('qtserialport',
 #        qdocconf='qtserialport/src/serialport/doc/qtserialport.qdocconf')
-#DocBookMetadata('qtsql', qdocconf='qtbase/src/sql/doc/qtsql.qdocconf')
-#DocBookMetadata('qtsvg', qdocconf='qtsvg/src/svg/doc/qtsvg.qdocconf')
-#DocBookMetadata('qttest', qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf')
-#DocBookMetadata('qtwebchannel',
+#WebXMLMetadata('qtsql', qdocconf='qtbase/src/sql/doc/qtsql.qdocconf')
+#WebXMLMetadata('qtsvg', qdocconf='qtsvg/src/svg/doc/qtsvg.qdocconf')
+#WebXMLMetadata('qttest', qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf')
+#WebXMLMetadata('qtwebchannel',
 #        qdocconf='qtwebchannel/src/webchannel/doc/qtwebchannel.qdocconf')
-#DocBookMetadata('qtwebengine',
+#WebXMLMetadata('qtwebengine',
 #        qdocconf='qtwebengine/src/webengine/doc/qtwebengine.qdocconf')
-#DocBookMetadata('qtwebsockets',
+#WebXMLMetadata('qtwebsockets',
 #        qdocconf='qtwebsockets/src/websockets/doc/qtwebsockets.qdocconf')
-#DocBookMetadata('qtwidgets',
+#WebXMLMetadata('qtwidgets',
 #        qdocconf='qtbase/src/widgets/doc/qtwidgets.qdocconf')
-#DocBookMetadata('qtwinextras',
+#WebXMLMetadata('qtwinextras',
 #        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
-#DocBookMetadata('qtx11extras',
+#WebXMLMetadata('qtx11extras',
 #        qdocconf='qtx11extras/src/x11extras/doc/qtx11extras.qdocconf')
-#DocBookMetadata('qtxml',
+#WebXMLMetadata('qtxml',
 #        qdocconf='qtbase/src/xml/doc/qtxml.qdocconf')
 
 
@@ -295,7 +287,7 @@ class ModuleMetadata:
     # The list of all modules.
     all_modules = []
 
-    def __init__(self, name, docbook=None, qt_docs_prefix=''):
+    def __init__(self, name, webxml=None, qt_docs_prefix=''):
         """ Initialise the object. """
 
         # The name of the module.
@@ -304,22 +296,22 @@ class ModuleMetadata:
         # The prefix for links in the online Qt documentation for this module.
         self.qt_docs_prefix = qt_docs_prefix
 
-        if docbook is None:
-            self.docbook = None
+        if webxml is None:
+            self.webxml = None
         else:
-            self.docbook = DocBookMetadata.find(docbook)
+            self.webxml = WebXMLMetadata.find(webxml)
 
-        # TODO: because some DocBook is shared between modules, should the cache
-        # be in the DocBook meta-data and never be cleared?
+        # TODO: because some WebXML is shared between modules, should the cache
+        # be in the WebXML meta-data and never be cleared?
         self.clear_cache()
 
         # Add this to the list of all modules.
         type(self).all_modules.append(self)
 
     def clear_cache(self):
-        """ Clear the cache of parsed DocBook data. """
+        """ Clear the cache of parsed WebXML data. """
 
-        self._docbook_cache = {}
+        self._webxml_cache = {}
 
     @classmethod
     def find(cls, name):
@@ -331,30 +323,30 @@ class ModuleMetadata:
 
         return None
 
-    def docbook_root_element(self, target, context):
-        """ Return a 3-tuple of the root element of the DocBook, the contained
-        targets for an object name and the name of the DocBook file or (None,
+    def webxml_root_element(self, target, context):
+        """ Return a 3-tuple of the root element of the WebXML, the contained
+        targets for an object name and the name of the WebXML file or (None,
         None, None) if none could be found.
         """
 
         result = (None, None, None)
 
-        # The cache is keyed on the name of the .docbook file within the root
+        # The cache is keyed on the name of the .webxml file within the root
         # directory.
-        key = self.docbook.get_object_docbook_name(target)
+        key = self.webxml.get_object_webxml_name(target)
         if key is None:
             return result
 
         # See if we have already handled this file.
         try:
-            return self._docbook_cache[key]
+            return self._webxml_cache[key]
         except KeyError:
             pass
 
         # See if the file exists.
-        docbook_path = os.path.join(context.docbook_root, key)
-        if os.path.isfile(docbook_path):
-            root_el = etree.parse(docbook_path).getroot()
+        webxml_path = os.path.join(context.webxml_root, key)
+        if os.path.isfile(webxml_path):
+            root_el = etree.parse(webxml_path).getroot()
             if root_el is None:
                 error("'{}' is not a valid XML file".format(key))
             else:
@@ -362,62 +354,62 @@ class ModuleMetadata:
         else:
             if context.verbose:
                 progress(
-                        "Unable to find a DocBook file containing '{}'".format(
+                        "Unable to find a WebXML file containing '{}'".format(
                                 target))
 
-        self._docbook_cache[key] = result
+        self._webxml_cache[key] = result
 
         return result
 
 
 # The module meta-data.
-#ModuleMetadata('QAxContainer', docbook='qtactiveqt')
-#ModuleMetadata('Qt3DAnimation', docbook='qt3d', qt_docs_prefix='qt3danimation-')
-#ModuleMetadata('Qt3DCore', docbook='qt3d', qt_docs_prefix='qt3dcore-')
-#ModuleMetadata('Qt3DExtras', docbook='qt3d', qt_docs_prefix='qt3dextras-')
-#ModuleMetadata('Qt3DInput', docbook='qt3d', qt_docs_prefix='qt3dinput-')
-#ModuleMetadata('Qt3DLogic', docbook='qt3d', qt_docs_prefix='qt3dlogic-')
-#ModuleMetadata('Qt3DRender', docbook='qt3d', qt_docs_prefix='qt3drender-')
-#ModuleMetadata('QtAndroidExtras', docbook='qtandroidextras')
-#ModuleMetadata('QtBluetooth', docbook='qtbluetooth')
-#ModuleMetadata('QtChart', docbook='qtcharts')
-ModuleMetadata('QtCore', docbook='qtcore')
-#ModuleMetadata('QtDataVisualization', docbook='qtdatavis3d')
-#ModuleMetadata('QtDBus', docbook='qtdbus')
-#ModuleMetadata('QtDesigner', docbook='qtdesigner')
-#ModuleMetadata('QtGui', docbook='qtgui')
-#ModuleMetadata('QtHelp', docbook='qthelp')
-#ModuleMetadata('QtLocation', docbook='qtlocation')
-#ModuleMetadata('QtMacExtras', docbook='qtmacextras')
-#ModuleMetadata('QtMultimedia', docbook='qtmultimedia')
-#ModuleMetadata('QtMultimediaWidgets', docbook='qtmultimedia')
-#ModuleMetadata('QtNetwork', docbook='qtnetwork')
-#ModuleMetadata('QtNetworkAuth', docbook='qtnetworkauth')
-#ModuleMetadata('QtNfc', docbook='qtnfc')
-#ModuleMetadata('QtOpenGL', docbook='qtopengl')
-#ModuleMetadata('QtPositioning', docbook='qtpositioning')
-#ModuleMetadata('QtPrintSupport', docbook='qtprintsupport')
-#ModuleMetadata('QtPurchasing', docbook='qtpurchasing')
-#ModuleMetadata('QtQml', docbook='qtqml')
-#ModuleMetadata('QtQuick', docbook='qtquick')
-#ModuleMetadata('QtQuickWidgets', docbook='qtquick')
-#ModuleMetadata('QtRemoteObjects', docbook='qtremoteobjects')
-#ModuleMetadata('QtSensors', docbook='qtsensors')
-#ModuleMetadata('QtSerialPort', docbook='qtserialport')
-#ModuleMetadata('QtSql', docbook='qtsql')
-#ModuleMetadata('QtSvg', docbook='qtsvg')
-#ModuleMetadata('QtTest', docbook='qttest')
-#ModuleMetadata('QtWebChannel', docbook='qtwebchannel')
-#ModuleMetadata('QtWebEngine', docbook='qtwebengine')
-#ModuleMetadata('QtWebEngineCore', docbook='qtwebengine')
-#ModuleMetadata('QtWebEngineWidgets', docbook='qtwebengine')
-#ModuleMetadata('QtWebSockets', docbook='qtwebsockets')
-#ModuleMetadata('QtWidgets', docbook='qtwidgets')
-#ModuleMetadata('QtWinExtras', docbook='qtwinextras')
-#ModuleMetadata('QtX11Extras', docbook='qtx11extras')
-#ModuleMetadata('QtXml', docbook='qtxml')
-#ModuleMetadata('sip')
+#ModuleMetadata('QAxContainer', webxml='qtactiveqt')
+#ModuleMetadata('Qt3DAnimation', webxml='qt3d', qt_docs_prefix='qt3danimation-')
+#ModuleMetadata('Qt3DCore', webxml='qt3d', qt_docs_prefix='qt3dcore-')
+#ModuleMetadata('Qt3DExtras', webxml='qt3d', qt_docs_prefix='qt3dextras-')
+#ModuleMetadata('Qt3DInput', webxml='qt3d', qt_docs_prefix='qt3dinput-')
+#ModuleMetadata('Qt3DLogic', webxml='qt3d', qt_docs_prefix='qt3dlogic-')
+#ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
+#ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
+#ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
+#ModuleMetadata('QtChart', webxml='qtcharts')
+ModuleMetadata('QtCore', webxml='qtcore')
+#ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
+#ModuleMetadata('QtDBus', webxml='qtdbus')
+#ModuleMetadata('QtDesigner', webxml='qtdesigner')
+#ModuleMetadata('QtGui', webxml='qtgui')
+#ModuleMetadata('QtHelp', webxml='qthelp')
+#ModuleMetadata('QtLocation', webxml='qtlocation')
+#ModuleMetadata('QtMacExtras', webxml='qtmacextras')
+#ModuleMetadata('QtMultimedia', webxml='qtmultimedia')
+#ModuleMetadata('QtMultimediaWidgets', webxml='qtmultimedia')
+#ModuleMetadata('QtNetwork', webxml='qtnetwork')
+#ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
+#ModuleMetadata('QtNfc', webxml='qtnfc')
+#ModuleMetadata('QtOpenGL', webxml='qtopengl')
+#ModuleMetadata('QtPositioning', webxml='qtpositioning')
+#ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
+#ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
+#ModuleMetadata('QtQml', webxml='qtqml')
+#ModuleMetadata('QtQuick', webxml='qtquick')
+#ModuleMetadata('QtQuickWidgets', webxml='qtquick')
+#ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
+#ModuleMetadata('QtSensors', webxml='qtsensors')
+#ModuleMetadata('QtSerialPort', webxml='qtserialport')
+#ModuleMetadata('QtSql', webxml='qtsql')
+#ModuleMetadata('QtSvg', webxml='qtsvg')
+#ModuleMetadata('QtTest', webxml='qttest')
+#ModuleMetadata('QtWebChannel', webxml='qtwebchannel')
+#ModuleMetadata('QtWebEngine', webxml='qtwebengine')
+#ModuleMetadata('QtWebEngineCore', webxml='qtwebengine')
+#ModuleMetadata('QtWebEngineWidgets', webxml='qtwebengine')
+#ModuleMetadata('QtWebSockets', webxml='qtwebsockets')
+#ModuleMetadata('QtWidgets', webxml='qtwidgets')
+#ModuleMetadata('QtWinExtras', webxml='qtwinextras')
+#ModuleMetadata('QtX11Extras', webxml='qtx11extras')
+#ModuleMetadata('QtXml', webxml='qtxml')
 #ModuleMetadata('lupdate')
+#ModuleMetadata('sip')
 #ModuleMetadata('uic')
 
 
@@ -501,7 +493,7 @@ class Description:
             progress("Reading {}...".format(desc_path))
 
         with open(desc_path) as desc_fd:
-            desc_lines = desc_fd.read().strip().split('\n')
+            desc_lines = desc_fd.read().split('\n')
 
         # The first blank line separates the header from the (optional) body.
         for line_nr, line in enumerate(desc_lines):
@@ -565,12 +557,12 @@ class Description:
 
         self.inline_images = {}
 
-    def find_docbook(self, context):
+    def find_webxml(self, context):
         """ Return a 3-tuple of the root element, all targets defined in the
-        document, and the name of the DocBook file.
+        document, and the name of the WebXML file.
         """
 
-        # Assume the object is in the DocBook file containing the immediate
+        # Assume the object is in the WebXML file containing the immediate
         # scope.
         if self.object_type == 'c':
             target = self.real_name
@@ -585,7 +577,7 @@ class Description:
 
             target = '::'.join(parts)
 
-        return self._module.metadata.docbook_root_element(target, context)
+        return self._module.metadata.webxml_root_element(target, context)
 
     def get_rst(self, name):
         """ Return the value of a field or None if it doesn't exist. """
@@ -647,25 +639,7 @@ class Description:
 
         return real_sig == self.real_sig
 
-    def save_updates(self):
-        """ Save any updates to the description file. """
-
-        if self._updated:
-            if context.verbose:
-                progress("Updating {}...".format(self._desc_path))
-
-            with open(self._desc_path, 'w') as desc_fd:
-                desc_fd.write('\n'.join(self._header))
-                desc_fd.write('\n')
-
-                if self._body:
-                    desc_fd.write('\n')
-                    desc_fd.write('\n'.join(self._body))
-                    desc_fd.write('\n')
-
-            self._updated = False
-
-    def update_description(self, el, targets, docbook, context, digest=None, description_el=None):
+    def update_description(self, el, targets, webxml, context, digest=None, description_el=None):
         """ Update the description in an element and update the meta-data
         accordingly.
         """
@@ -684,10 +658,12 @@ class Description:
 
             description_el = description_els[0]
 
-        # There are lots of cases where docbook doesn't extract any description
+        # There are lots of cases where webxml doesn't extract any description
         # at all.  If this is the case then leave without changing anything.
         if len(description_el) == 0:
             return
+
+        self._updated = False
 
         digest.update_from_element(description_el)
         new_digest = str(digest)
@@ -718,7 +694,7 @@ class Description:
 
                 fmt = Formatter()
                 self.render_container(fmt, description_el, scopes, targets,
-                        docbook, context)
+                        webxml, context)
 
                 # Handle any in-line images.
                 leading_blank = True
@@ -735,6 +711,18 @@ class Description:
                 self._updated = True
         else:
             self.update_rst(':status:', 'review')
+
+        if self._updated:
+            if context.verbose:
+                progress("Updating {}...".format(self._desc_path))
+
+            with open(self._desc_path, 'w') as desc_fd:
+                desc_fd.write('\n'.join(self._header))
+                desc_fd.write('\n')
+
+                if self._body:
+                    desc_fd.write('\n'.join(self._body))
+                    desc_fd.write('\n')
 
     def update_rst(self, name, value):
         """ Update the value of a field. """
@@ -785,20 +773,20 @@ class Description:
 
         fmt.deindent()
 
-    def render_container(self, fmt, container_el, scopes, targets, docbook, context):
+    def render_container(self, fmt, container_el, scopes, targets, webxml, context):
         """ Render a generic container element. """
 
         for sub_el in container_el:
             if sub_el.tag in ('argument', 'italic'):
-                self._render_quoted_text(fmt, sub_el, scopes, targets, docbook,
+                self._render_quoted_text(fmt, sub_el, scopes, targets, webxml,
                         context, '*')
 
             elif sub_el.tag == 'bold':
-                self._render_quoted_text(fmt, sub_el, scopes, targets, docbook,
+                self._render_quoted_text(fmt, sub_el, scopes, targets, webxml,
                         context, '**')
 
             elif sub_el.tag == 'brief':
-                self._render_text(fmt, sub_el, scopes, targets, docbook,
+                self._render_text(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.flush()
 
@@ -811,7 +799,7 @@ class Description:
                 pass
 
             elif sub_el.tag == 'heading':
-                self._render_heading(fmt, sub_el, scopes, targets, docbook,
+                self._render_heading(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'inlineimage':
@@ -823,16 +811,16 @@ class Description:
             elif sub_el.tag == 'legalese':
                 fmt.write_line('.. container:: legalese')
                 fmt.indent()
-                self.render_container(fmt, sub_el, scopes, targets, docbook,
+                self.render_container(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.deindent()
 
             elif sub_el.tag == 'link':
-                self._render_link(fmt, sub_el, scopes, targets, docbook,
+                self._render_link(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'list':
-                self._render_list(fmt, sub_el, scopes, targets, docbook,
+                self._render_list(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'para':
@@ -842,16 +830,16 @@ class Description:
                 if sub_el.text:
                     sub_el.text = sub_el.text.lstrip()
 
-                self._render_text(fmt, sub_el, scopes, targets, docbook,
+                self._render_text(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.flush()
 
             elif sub_el.tag == 'see-also':
-                self._render_see_also(fmt, sub_el, scopes, targets, docbook,
+                self._render_see_also(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'section':
-                self.render_container(fmt, sub_el, scopes, targets, docbook,
+                self.render_container(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'snippet':
@@ -864,7 +852,7 @@ class Description:
                 fmt.write_inline(':sup:`{}`'.format(sub_el.text))
 
             elif sub_el.tag == 'table':
-                self._render_table(fmt, sub_el, scopes, targets, docbook,
+                self._render_table(fmt, sub_el, scopes, targets, webxml,
                         context)
 
             elif sub_el.tag == 'target':
@@ -878,10 +866,10 @@ class Description:
                     is_heading = False
 
                 if not is_heading:
-                    self._render_target_name(fmt, name, docbook)
+                    self._render_target_name(fmt, name, webxml)
 
             elif sub_el.tag == 'teletype':
-                self._render_text(fmt, sub_el, scopes, targets, docbook,
+                self._render_text(fmt, sub_el, scopes, targets, webxml,
                         context, quotes='``', escape_backslash=False)
 
                 if sub_el.tail:
@@ -894,16 +882,16 @@ class Description:
 
             else:
                 warning(
-                        "{}: unsupported description tag: '{}'".format(docbook,
+                        "{}: unsupported description tag: '{}'".format(webxml,
                                 sub_el.tag))
 
             self._render_text_fragment(fmt, sub_el.tail)
 
-    def _render_definition_list(self, fmt, list_el, scopes, targets, docbook, context):
+    def _render_definition_list(self, fmt, list_el, scopes, targets, webxml, context):
         """ Render a list element that is a definition list. """
 
         table = Table()
-        table.set_headings(("Constant", "Description"), docbook)
+        table.set_headings(("Constant", "Description"), webxml)
 
         defs = []
         items = []
@@ -915,19 +903,19 @@ class Description:
                 defs.append(cell)
             elif sub_el.tag == 'item':
                 cell = Formatter()
-                self.render_container(cell, sub_el, scopes, targets, docbook,
+                self.render_container(cell, sub_el, scopes, targets, webxml,
                         context)
                 items.append(cell)
             else:
                 warning(
-                        "{}: ignoring unexpected tag '{}' in definition list".format(docbook, sub_el.tag))
+                        "{}: ignoring unexpected tag '{}' in definition list".format(webxml, sub_el.tag))
 
         for row in zip(defs, items):
             table.rows.append(row)
 
         table.render(fmt)
 
-    def _render_heading(self, fmt, heading_el, scopes, targets, docbook, context):
+    def _render_heading(self, fmt, heading_el, scopes, targets, webxml, context):
         """ Render a heading element. """
 
         level = heading_el.attrib['level']
@@ -940,17 +928,17 @@ class Description:
         else:
             warning(
                     "{}: unsupported section heading level: '{}'".format(
-                            docbook, level))
+                            webxml, level))
 
         # If the heading is in the targets then generate a reference to it.  We
         # don't generate a reference for every heading as there can be
         # duplicate headings even in the same file.
         for name, (title, is_heading) in targets.items():
             if heading_el.text == title and is_heading:
-                self._render_target_name(fmt, name, docbook)
+                self._render_target_name(fmt, name, webxml)
                 break
 
-        self._render_text(fmt, heading_el, scopes, targets, docbook, context)
+        self._render_text(fmt, heading_el, scopes, targets, webxml, context)
         fmt.write_line(under_char * len(fmt.buffer), leading_blank=False)
 
     def _render_inline_image(self, fmt, image_el, context):
@@ -976,7 +964,7 @@ class Description:
         fmt.write_line(
                 '.. image:: ../../../images/' + os.path.basename(image_fn))
 
-    def _render_link(self, fmt, link_el, scopes, targets, docbook, context):
+    def _render_link(self, fmt, link_el, scopes, targets, webxml, context):
         """ Render a link element. """
 
         # The text to render if we can't resolve the link.
@@ -1062,7 +1050,7 @@ class Description:
                 pass
 
         elif link_type in ('', 'page'):
-            # TODO: Look for any DocBook for the page and process it.
+            # TODO: Look for any WebXML for the page and process it.
             # TODO: Implement :sip:external`` so that the URL isn't hardcoded.
             text = '`{} <https://doc.qt.io/qt-5/{}>`_'.format(text, href)
 
@@ -1080,12 +1068,12 @@ class Description:
 
         else:
             warning(
-                    "{}: unsupported link type: '{}'".format(docbook,
+                    "{}: unsupported link type: '{}'".format(webxml,
                             link_type))
 
         fmt.write_inline(text)
 
-    def _render_list(self, fmt, list_el, scopes, targets, docbook, context):
+    def _render_list(self, fmt, list_el, scopes, targets, webxml, context):
         """ Render a list element. """
 
         list_type = list_el.attrib['type']
@@ -1095,7 +1083,7 @@ class Description:
             return
 
         if list_type == 'definition':
-            self._render_definition_list(fmt, list_el, scopes, targets, docbook,
+            self._render_definition_list(fmt, list_el, scopes, targets, webxml,
                     context)
 
             return
@@ -1109,7 +1097,7 @@ class Description:
             item_prefix = '#.'
         else:
             warning(
-                    "{}: unsupported list type: '{}'".format(docbook,
+                    "{}: unsupported list type: '{}'".format(webxml,
                             list_type))
 
             # As good a default as any.
@@ -1118,22 +1106,22 @@ class Description:
         for sub_el in list_el:
             if sub_el.tag == 'item':
                 fmt.indent(ListItemIndenter(item_prefix))
-                self.render_container(fmt, sub_el, scopes, targets, docbook,
+                self.render_container(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.deindent()
             else:
                 warning(
-                        "{}: unsupported list tag: '{}'".format(docbook,
+                        "{}: unsupported list tag: '{}'".format(webxml,
                                 sub_el.tag))
 
-    def _render_quoted_text(self, fmt, text_el, scopes, targets, docbook, context, quotes):
+    def _render_quoted_text(self, fmt, text_el, scopes, targets, webxml, context, quotes):
         """ Render a text element that is implemented by quoting the text. """
 
         # If it is after the start of a word then prepend an escaped space.
         if fmt.buffer and fmt.buffer[-1] != ' ':
             fmt.write_inline('\\ ')
 
-        self._render_text(fmt, text_el, scopes, targets, docbook, context,
+        self._render_text(fmt, text_el, scopes, targets, webxml, context,
                 quotes=quotes)
 
         # If it is before the end of a word then append an escaped space.
@@ -1142,7 +1130,7 @@ class Description:
             if tail_ch.isalpha() or tail_ch.isnumeric():
                 fmt.write_inline('\\ ')
 
-    def _render_see_also(self, fmt, see_also_el, scopes, targets, docbook, context):
+    def _render_see_also(self, fmt, see_also_el, scopes, targets, webxml, context):
         """ Render a see-also element. """
 
         fmt.flush()
@@ -1162,14 +1150,14 @@ class Description:
                 else:
                     need_comma = True
 
-                self._render_link(fmt, sub_el, scopes, targets, docbook,
+                self._render_link(fmt, sub_el, scopes, targets, webxml,
                         context)
             else:
                 warning(
-                        "{}: unsupported see-also tag: '{}'".format(docbook,
+                        "{}: unsupported see-also tag: '{}'".format(webxml,
                                 sub_el.tag))
 
-        # The DocBook may be just plain text.
+        # The WebXML may be just plain text.
         text = see_also_el.text.strip()
         if text:
             if need_comma:
@@ -1257,7 +1245,7 @@ class Description:
                     leading_blank=False)
             fmt.deindent()
 
-    def _render_table(self, fmt, table_el, scopes, targets, docbook, context):
+    def _render_table(self, fmt, table_el, scopes, targets, webxml, context):
         """ Render a table element. """
 
         table = None
@@ -1271,29 +1259,29 @@ class Description:
 
                 table = Table()
 
-                table.parse_header(sub_el, self, scopes, targets, docbook,
+                table.parse_header(sub_el, self, scopes, targets, webxml,
                         context)
             elif sub_el.tag == 'row':
                 if table is None:
                     table = Table()
 
-                table.parse_row(sub_el, self, scopes, targets, docbook, context)
+                table.parse_row(sub_el, self, scopes, targets, webxml, context)
             else:
                 warning(
-                        "{}: unsupported table tag: '{}'".format(docbook,
+                        "{}: unsupported table tag: '{}'".format(webxml,
                                 sub_el.tag))
 
         if table is not None:
             table.render(fmt)
 
-    def _render_target_name(self, fmt, name, docbook):
+    def _render_target_name(self, fmt, name, webxml):
         """ Render the target of a reference. """
 
         fmt.write_line(
                 '.. _{}-{}:'.format(
-                        os.path.basename(docbook).replace('.xml', ''), name))
+                        os.path.basename(webxml).replace('.webxml', ''), name))
 
-    def _render_text(self, fmt, text_el, scopes, targets, docbook, context, quotes='', escape_backslash=True, leading_blank=True):
+    def _render_text(self, fmt, text_el, scopes, targets, webxml, context, quotes='', escape_backslash=True, leading_blank=True):
         """ Render an element that contains text. """
 
         if quotes:
@@ -1306,7 +1294,7 @@ class Description:
                 escape_backslash=escape_backslash, leading_blank=leading_blank)
 
         # Render any sub-elements.
-        self.render_container(fmt, text_el, scopes, targets, docbook, context)
+        self.render_container(fmt, text_el, scopes, targets, webxml, context)
 
         if quotes:
             if quotes == '"':
@@ -1343,7 +1331,7 @@ class Description:
         fn = href.replace('/', os.sep)
         dst = os.path.join(context.images, os.path.basename(fn))
 
-        for image_dir in self._module.metadata.docbook.images:
+        for image_dir in self._module.metadata.webxml.images:
             src = os.path.join(context.qt_source, image_dir, fn)
 
             if os.path.isfile(src):
@@ -1364,13 +1352,13 @@ class Table:
         self.rows = []
         self._has_header = False
 
-    def parse_header(self, header_el, desc, scopes, targets, docbook, context):
+    def parse_header(self, header_el, desc, scopes, targets, webxml, context):
         """ Parse a table header element. """
 
-        self.parse_row(header_el, desc, scopes, targets, docbook, context)
+        self.parse_row(header_el, desc, scopes, targets, webxml, context)
         self._has_header = True
 
-    def parse_row(self, row_el, desc, scopes, targets, docbook, context):
+    def parse_row(self, row_el, desc, scopes, targets, webxml, context):
         """ Parse a table row element. """
 
         cells = []
@@ -1378,12 +1366,12 @@ class Table:
         for sub_el in row_el:
             if sub_el.tag == 'item':
                 cell = Formatter()
-                desc.render_container(cell, sub_el, scopes, targets, docbook,
+                desc.render_container(cell, sub_el, scopes, targets, webxml,
                         context)
                 cells.append(cell)
             else:
                 warning(
-                        "{}: unsupported table item tag: '{}'".format(docbook,
+                        "{}: unsupported table item tag: '{}'".format(webxml,
                                 sub_el.tag))
 
         self.rows.append(cells)
@@ -1460,7 +1448,7 @@ class Table:
 
         fmt.write_line(row_separator, leading_blank=False)
 
-    def set_headings(self, headings, docbook):
+    def set_headings(self, headings, webxml):
         """ Set explicit heading for the table. """
 
         cells = []
@@ -1476,7 +1464,7 @@ class Table:
 
 
 class Digest:
-    """ A digest for DocBook content. """
+    """ A digest for WebXML content. """
 
     def __init__(self):
         """ Initialise the object. """
@@ -1646,29 +1634,29 @@ def get_modules_to_update(requested_modules):
 
     # Return the list of all supported modules.
     return [m for m in Module.all_modules
-            if m.metadata is not None and m.metadata.docbook is not None]
+            if m.metadata is not None and m.metadata.webxml is not None]
 
 
-def generate_docbook(modules, qt_prefix, qt_source):
-    """ Generate the DocBook for a list of modules and return the root
-    directory containing sub-directories for each module.
+def generate_webxml(modules, qt_prefix, qt_source):
+    """ Generate the WebXML for a list of modules and return the root directory
+    containing sub-directories for each module.
     """
 
-    # Create the DocBook root directory if it doesn't already exist.
-    docbook_root = os.path.abspath('docbook')
-    os.makedirs(docbook_root, exist_ok=True)
+    # Create the WebXML root directory if it doesn't already exist.
+    webxml_root = os.path.abspath('webxml')
+    os.makedirs(webxml_root, exist_ok=True)
 
-    # Find all the DocBook modules needed.
-    docbook_needed = set()
+    # Find all the WebXML modules needed.
+    webxml_needed = set()
     for module in modules:
-        docbook_needed.add(module.metadata.docbook)
+        webxml_needed.add(module.metadata.webxml)
 
     # Create the master .qdocconf file containing the names of the individual
     # module .qdocconf files.
-    master_path = os.path.join(docbook_root, 'master.qdocconf')
+    master_path = os.path.join(webxml_root, 'master.qdocconf')
     with open(master_path, 'w') as master_f:
-        for docbook in docbook_needed:
-            qdocconf = docbook.create_qdocconf(docbook_root, qt_prefix,
+        for webxml in webxml_needed:
+            qdocconf = webxml.create_qdocconf(webxml_root, qt_prefix,
                     qt_source)
             master_f.write(qdocconf + '\n')
 
@@ -1683,13 +1671,13 @@ def generate_docbook(modules, qt_prefix, qt_source):
     os.environ['QT_VERSION'] = '1.0.0'
     os.environ['QT_VER'] = '1.0'
     os.environ['QT_VERSION_TAG'] = '100'
-    os.environ['BUILDDIR'] = docbook_root
+    os.environ['BUILDDIR'] = webxml_root
 
     # Run qdoc.
-    run(os.path.join(qt_prefix, 'bin', 'qdoc'), '--docbook-extensions',
-            '--single-exec', '--outputdir', docbook_root, master_path)
+    run(os.path.join(qt_prefix, 'bin', 'qdoc'), '--single-exec', '--outputdir',
+            webxml_root, master_path)
 
-    return docbook_root
+    return webxml_root
 
 
 def update_module_descriptions(module, context):
@@ -1698,24 +1686,17 @@ def update_module_descriptions(module, context):
     for desc in module.descriptions:
         # Handle each type.
         if desc.object_type == 'a':
-            #update_attribute(desc, context)
-            pass
+            update_attribute(desc, context)
         elif desc.object_type == 'c':
             update_class(desc, context)
         elif desc.object_type in 'fs':
-            #update_callable(desc, context)
-            pass
+            update_callable(desc, context)
         elif desc.object_type == 'e':
-            #update_enum(desc, context)
-            pass
+            update_enum(desc, context)
         elif desc.object_type == 'm':
-            #update_module(desc, context)
-            pass
+            update_module(desc, context)
         elif desc.object_type == 'v':
-            #update_enum_member(desc, context)
-            pass
-
-        desc.save_updates()
+            update_enum_member(desc, context)
 
     module.metadata.clear_cache()
 
@@ -1723,20 +1704,20 @@ def update_module_descriptions(module, context):
 def update_attribute(desc, context):
     """ Update, if necessary, the description file for an attribute. """
 
-    root_el, targets, docbook = desc.find_docbook(context)
+    root_el, targets, webxml = desc.find_webxml(context)
     if root_el is None:
         return
 
     # Look for class attributes.
     for el in root_el.findall(".//variable"):
         if el.attrib.get('fullname') == desc.real_name:
-            desc.update_description(el, targets, docbook, context)
+            desc.update_description(el, targets, webxml, context)
             return
 
     # Look for macros.
     for el in root_el.findall(".//function[@meta='macrowithoutparams']"):
         if el.attrib.get('name') == desc.real_name:
-            desc.update_description(el, targets, docbook, context)
+            desc.update_description(el, targets, webxml, context)
             return
 
 
@@ -1747,7 +1728,7 @@ def update_callable(desc, context):
     if desc.real_name is None:
         return
 
-    root_el, targets, docbook = desc.find_docbook(context)
+    root_el, targets, webxml = desc.find_webxml(context)
     if root_el is None:
         return
 
@@ -1767,47 +1748,48 @@ def update_callable(desc, context):
     else:
         return
 
-    desc.update_description(el, targets, docbook, context)
+    desc.update_description(el, targets, webxml, context)
 
 
 def update_class(desc, context):
     """ Update, if necessary, the description file for a class. """
 
-    root_el, targets, docbook = desc.find_docbook(context)
+    root_el, targets, webxml = desc.find_webxml(context)
     if root_el is None:
         return
 
-    #for el in root_el.findall(".//class"):
-    #    # Global classes don't have a full name.
-    #    name = el.attrib.get('fullname')
-    #    if name is None:
-    #        name = el.attrib.get('name')
+    for el in root_el.findall(".//class"):
+        # Global classes don't have a full name.
+        name = el.attrib.get('fullname')
+        if name is None:
+            name = el.attrib.get('name')
 
-    #    if name == desc.real_name:
-    #        break
-    #else:
-    #    return
+        if name == desc.real_name:
+            break
+    else:
+        return
 
-    # Get the first paragraph of the abstract.
+    # Get the 'brief' attribute (which is usually a shorter version of the
+    # 'brief' element of the 'description' element).
     digest = Digest()
-    brief = root_el.find('./db:info/db:abstract/db:para', DB_NS)
+    brief = el.attrib.get('brief')
 
     if brief is not None:
-        #digest.update(brief)
+        digest.update(brief)
 
         if desc.is_todo():
-            desc.update_rst(':brief:', ''.join(brief.itertext()))
+            desc.update_rst(':brief:', brief)
 
-    #desc.update_description(el, targets, docbook, context, digest=digest)
+    desc.update_description(el, targets, webxml, context, digest=digest)
 
     # Update the reference to the original docs.
-    #desc.update_rst(':external:', el.attrib.get('href'))
+    desc.update_rst(':external:', el.attrib.get('href'))
 
 
 def update_enum(desc, context):
     """ Update, if necessary, the description file for an enum. """
 
-    root_el, targets, docbook = desc.find_docbook(context)
+    root_el, targets, webxml = desc.find_webxml(context)
     if root_el is None:
         return
 
@@ -1822,13 +1804,13 @@ def update_enum(desc, context):
     else:
         return
 
-    desc.update_description(el, targets, docbook, context)
+    desc.update_description(el, targets, webxml, context)
 
 
 def update_enum_member(desc, context):
     """ Update, if necessary, the description file for an enum member. """
 
-    root_el, targets, docbook = desc.find_docbook(context)
+    root_el, targets, webxml = desc.find_webxml(context)
     if root_el is None:
         return
 
@@ -1864,7 +1846,7 @@ def update_enum_member(desc, context):
                 # The next 'item' tag is the one we want.
                 use_next_item = True
             elif sub_el.tag == 'item' and use_next_item:
-                desc.update_description(el, targets, docbook, context,
+                desc.update_description(el, targets, webxml, context,
                         description_el=sub_el)
                 break
 
@@ -1910,11 +1892,7 @@ def run(*args):
         subprocess.run(args, stderr=subprocess.PIPE, check=True,
                 universal_newlines=True)
     except subprocess.CalledProcessError as e:
-        sys.stderr.write(e.stderr)
-        # TODO: qdoc always seems to core dump but only after it's done what we
-        # need.
-        #error("{} returned a non-zero error code".format(args[0]))
-        warning("{} returned a non-zero error code".format(args[0]))
+        error(e.stderr)
 
 
 if __name__ == '__main__':
@@ -1977,16 +1955,16 @@ if __name__ == '__main__':
     # Get the list of modules to update.
     modules = get_modules_to_update(args.modules)
 
-    # Generate the DocBook for the modules.
-    docbook_root = generate_docbook(modules, qt_prefix, qt_source)
+    # Generate the WebXML for the modules.
+    webxml_root = generate_webxml(modules, qt_prefix, qt_source)
 
     # The context is a collection of unrelated global read-only values.
     Context = namedtuple('Context',
             ('force', 'images', 'package', 'qt_source', 'snippets', 'verbose',
-                    'docbook_root'))
+                    'webxml_root'))
     context = Context(force=force, images=images, package=package,
             qt_source=qt_source, snippets=snippets, verbose=verbose,
-            docbook_root=docbook_root)
+            webxml_root=webxml_root)
 
     # Update the descriptions for each module.
     for module in modules:
