@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 64a1e5fb21bbbebf6c8e03fbd369c42e
     :realsig: (QGraphicsEffect*)
-    :digest: 78e50d36a38b96214e63bf63d89248c1
+    :digest: 53ad4545ec602af44d2d800f6fe491f6
 
 The  function is for setting the widget's graphics effect.
 
@@ -14,6 +14,6 @@ If *effect* is the installed effect on a different widget,  will remove the effe
 
 **Note:** This function will apply the effect on itself and all its children.
 
-**Note:** Graphics effects are not supported for OpenGL-based widgets, such as QGLWidget, :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` and QQuickWidget.
+**Note:** Graphics effects are not supported for OpenGL-based widgets, such as QGLWidget, :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` and :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.graphicsEffect`.

@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
+    :digest: f94c5360cdb03800e3df9408347d77a0
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickItem.scale`.

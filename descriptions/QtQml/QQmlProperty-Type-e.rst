@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: 5256cdbbd8f67ab45da55922488f7793
 
-TODO
+This enum specifies a type of QML property.

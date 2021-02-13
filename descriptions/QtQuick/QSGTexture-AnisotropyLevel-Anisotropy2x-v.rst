@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 6055c5c2cdd7b42c6eeaa8d2c08d2b1a
 
-TODO
+2x anisotropic filtering.

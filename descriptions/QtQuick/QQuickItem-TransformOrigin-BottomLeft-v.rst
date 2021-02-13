@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: bcd9b1afe141ed03bac2152cb68186ff
 
-TODO
+The bottom-left corner of the item.

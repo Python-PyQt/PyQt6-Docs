@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: aac16ef902d7bdc3398af70d3ac3686b
 
-TODO
+The property is a normal value property.

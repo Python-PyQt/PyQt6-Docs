@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: a784309873b9d850dd57831582e31ca0
 
-TODO
+Texture coordinate

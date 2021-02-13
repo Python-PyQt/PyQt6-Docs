@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: b60ea96bfe723a1e1d4416d74f61cfd1
 
-TODO
+The center of the item.

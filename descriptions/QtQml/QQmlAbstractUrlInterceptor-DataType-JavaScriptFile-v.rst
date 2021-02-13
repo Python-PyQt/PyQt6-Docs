@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 8a778f1ffd20ded46e9814162954b574
 
-TODO
+The URL being intercepted is an import for a Javascript file.

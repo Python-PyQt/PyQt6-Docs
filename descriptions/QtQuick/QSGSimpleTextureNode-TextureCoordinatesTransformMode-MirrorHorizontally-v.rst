@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
     :realname: QSGSimpleTextureNode::TextureCoordinatesTransformFlag::MirrorHorizontally
+    :digest: 5be9f1140bf04a39dad3b378336ff280
 
-TODO
+Texture coordinates are inverted in the horizontal axis with respect to window coordinates

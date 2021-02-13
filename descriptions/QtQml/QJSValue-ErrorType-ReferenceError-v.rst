@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: e3723c64dd674b879a84c192a86310a8
 
-TODO
+A non-existing variable referenced.

@@ -137,7 +137,7 @@ class WebXMLMetadata:
             if location is None:
                 return None
         except KeyError:
-            location = object_name.lower().replace('::', '-')
+            location = object_name.lower().replace('::', '-').replace('_', '-')
 
         return os.path.join(self.name, location + '.webxml')
 
@@ -292,7 +292,13 @@ WebXMLMetadata('qthelp',
 #WebXMLMetadata('qtmultimedia',
 #        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
 WebXMLMetadata('qtnetwork',
-        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf')
+        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf',
+        locations={
+            # The following line doesn't seem to work. (Maybe there is an
+            # unscoped reference?)
+            'QOcspCertificateStatus': 'qocsresponse',
+            'QOcspRevocationReason': 'qocsresponse',
+        })
 #WebXMLMetadata('qtnetworkauth',
 #        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf')
 #WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
@@ -303,9 +309,31 @@ WebXMLMetadata('qtprintsupport',
         qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
 #WebXMLMetadata('qtpurchasing',
 #        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
-#WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf')
-#WebXMLMetadata('qtquick',
-#        qdocconf='qtdeclarative/src/quick/doc/qtquick.qdocconf')
+WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf',
+        locations={
+            'qmlAttachedPropertiesObject': 'qqmlengine',
+            'qmlClearTypeRegistrations': 'qqmlengine',
+            'qmlContext': 'qqmlengine',
+            'qmlEngine': 'qqmlengine',
+            'qmlProtectModule': 'qqmlengine',
+            'qmlRegisterAnonymousType': 'qqmlengine',
+            'qmlRegisterModule': 'qqmlengine',
+            'qmlRegisterRevision': 'qqmlengine',
+            'qmlRegisterSingletonInstance': 'qqmlengine',
+            'qmlRegisterSingletonType': 'qqmlengine',
+            'qmlRegisterType': 'qqmlengine',
+            'qmlRegisterTypeNotAvailable': 'qqmlengine',
+            'qmlRegisterUncreatableMetaObject': 'qqmlengine',
+            'qmlRegisterUncreatableType': 'qqmlengine',
+            'qmlTypeId': 'qqmlengine',
+        })
+WebXMLMetadata('qtquick',
+        qdocconf='qtdeclarative/src/quick/doc/qtquick.qdocconf',
+        locations={
+            'QNativeInterface': 'qnativeinterface-sub-qtquick',
+            'QQuickItem::UpdatePaintNodeData': 'qquickitem',
+            'QSGRenderNode::RenderState': 'qsgrendernode',
+        })
 #WebXMLMetadata('qtremoteobjects',
 #        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
 #WebXMLMetadata('qtsensors',
@@ -450,9 +478,9 @@ ModuleMetadata('QtOpenGL', webxml='qtopengl')
 #ModuleMetadata('QtPositioning', webxml='qtpositioning')
 ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
 #ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
-#ModuleMetadata('QtQml', webxml='qtqml')
-#ModuleMetadata('QtQuick', webxml='qtquick')
-#ModuleMetadata('QtQuickWidgets', webxml='qtquick')
+ModuleMetadata('QtQml', webxml='qtqml')
+ModuleMetadata('QtQuick', webxml='qtquick')
+ModuleMetadata('QtQuickWidgets', webxml='qtquick')
 #ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
 #ModuleMetadata('QtSensors', webxml='qtsensors')
 #ModuleMetadata('QtSerialPort', webxml='qtserialport')
@@ -898,6 +926,12 @@ class Description:
                 self._render_text(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.flush()
+
+            elif sub_el.tag == 'quotefile':
+                # TODO
+                # Include the contents of a file.  At the moment the only known
+                # use is in a non-supported class.
+                pass
 
             elif sub_el.tag == 'see-also':
                 self._render_see_also(fmt, sub_el, scopes, targets, webxml,

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
     :realname: QQuickWindow::CreateTextureOption::TextureCanUseAtlas
+    :digest: 6a86e80c31b30ea5d50ee326d951105b
 
-TODO
+The image can be uploaded into a texture atlas.

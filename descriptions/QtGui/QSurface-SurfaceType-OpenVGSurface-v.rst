@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: 819acaa47e4c76dc73fb55f302a59367
+    :digest: 7a687a748085046d3e2ed4b333ff12d1
 
-The surface is an OpenVG compatible surface and can be used in conjunction with OpenVG contexts.
+The surface is an `OpenVG <https://doc.qt.io/qt-6/qtquick-visualcanvas-adaptations.html#openvg>`_ compatible surface and can be used in conjunction with `OpenVG <https://doc.qt.io/qt-6/qtquick-visualcanvas-adaptations.html#openvg>`_ contexts.

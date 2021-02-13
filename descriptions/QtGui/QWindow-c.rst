@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a window in the underlying windowing system
-    :digest: 65d6f8e5b3b1c7f696e4958d862c209a
+    :digest: 5dc561922d945b0cc89b40376beca372
 
 The :sip:ref:`~PyQt6.QtGui.QWindow` class represents a window in the underlying windowing system.
 
 A window that is supplied a parent becomes a native child window of their parent window.
 
-An application will typically use `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ or QQuickView for its UI, and not :sip:ref:`~PyQt6.QtGui.QWindow` directly. Still, it is possible to render directly to a :sip:ref:`~PyQt6.QtGui.QWindow` with :sip:ref:`~PyQt6.QtGui.QBackingStore` or `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_, when wanting to keep dependencies to a minimum or when wanting to use OpenGL directly. The `Raster Window Example <https://doc.qt.io/qt-6/qtgui-rasterwindow-example.html>`_ and `OpenGL Window Example <https://doc.qt.io/qt-6/qtopengl-openglwindow-example.html>`_ are useful reference examples for how to render to a :sip:ref:`~PyQt6.QtGui.QWindow` using either approach.
+An application will typically use `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ or :sip:ref:`~PyQt6.QtQuick.QQuickView` for its UI, and not :sip:ref:`~PyQt6.QtGui.QWindow` directly. Still, it is possible to render directly to a :sip:ref:`~PyQt6.QtGui.QWindow` with :sip:ref:`~PyQt6.QtGui.QBackingStore` or `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_, when wanting to keep dependencies to a minimum or when wanting to use OpenGL directly. The `Raster Window Example <https://doc.qt.io/qt-6/qtgui-rasterwindow-example.html>`_ and `OpenGL Window Example <https://doc.qt.io/qt-6/qtopengl-openglwindow-example.html>`_ are useful reference examples for how to render to a :sip:ref:`~PyQt6.QtGui.QWindow` using either approach.
 
 .. _qwindow-resource-management:
 

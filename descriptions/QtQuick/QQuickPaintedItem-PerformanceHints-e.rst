@@ -1,5 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: QQuickPaintedItem::PerformanceHint
+    :digest: 738c3ed3d73a27ca6ab61fac9cce564b
 
-TODO
+This enum describes flags that you can enable to improve rendering performance in :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem`. By default, none of these flags are set.

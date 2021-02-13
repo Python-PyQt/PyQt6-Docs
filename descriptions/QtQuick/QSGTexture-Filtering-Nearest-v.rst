@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 0dc24cfafefc758cd8b5167d6f9aca84
 
-TODO
+Sampling returns the nearest texel.

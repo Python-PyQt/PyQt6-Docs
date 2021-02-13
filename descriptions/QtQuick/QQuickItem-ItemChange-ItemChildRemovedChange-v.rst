@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: e06a1840c804bda7d289c58150421352
 
-TODO
+A child was removed. ItemChangeData::item contains the removed child.
