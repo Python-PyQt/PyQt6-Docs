@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Holds formatted text
-    :digest: bc3980eac94b1fff1b6b011153370492
+    :digest: f79c71c9f29126a8c38fd29cf7ebb2fc
 
 The :sip:ref:`~PyQt6.QtGui.QTextDocument` class holds formatted text.
 
@@ -27,4 +27,4 @@ Undo/redo of operations performed on the document can be controlled using the :s
 
 * Text block group format changes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCursor`, :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCursor`, :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_, `Text Object Example <https://doc.qt.io/qt-6/qtsvg-richtext-textobject-example.html>`_.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Default model/view implementation of a table view
-    :digest: b199e70d3ab9307567842627a112b466
+    :digest: ed526d0bbfd82941722d9fb2951c9ccc
 
 The :sip:ref:`~PyQt6.QtWidgets.QTableView` class provides a default model/view implementation of a table view.
 
@@ -46,6 +46,6 @@ Coordinate Systems
 
 For some specialized forms of tables it is useful to be able to convert between row and column indexes and widget coordinates. The :sip:ref:`~PyQt6.QtWidgets.QTableView.rowAt` function provides the y-coordinate within the view of the specified row; the row index can be used to obtain a corresponding y-coordinate with :sip:ref:`~PyQt6.QtWidgets.QTableView.rowViewportPosition`. The :sip:ref:`~PyQt6.QtWidgets.QTableView.columnAt` and :sip:ref:`~PyQt6.QtWidgets.QTableView.columnViewportPosition` functions provide the equivalent conversion operations between x-coordinates and column indexes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTableWidget`, `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Chart Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-chart-example.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTableWidget`, `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Chart Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-chart-example.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_, `Table Model Example <https://doc.qt.io/qt-6/qtsql-tablemodel-example.html>`_.
 
 .. |image-qtableview-resized-png| image:: ../../../images/qtableview-resized.png

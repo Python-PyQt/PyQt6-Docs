@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: ac5fd8542a7b4edbe8052ace0dda83a7
 
-TODO
+A SQL table name

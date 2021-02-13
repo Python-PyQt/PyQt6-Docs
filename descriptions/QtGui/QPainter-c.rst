@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: 1823a2d12154eeb645735a4380161d24
+    :digest: c8e11e8a1fc8bbbab0533f31ba95421f
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -230,7 +230,7 @@ These operations are:
 
 This list gives an indication of which features to safely use in an application where performance is critical. For certain setups, other operations may be fast too, but before making extensive use of them, it is recommended to benchmark and verify them on the system where the software will run in the end. There are also cases where expensive operations are ok to use, for instance when the result is cached in a :sip:ref:`~PyQt6.QtGui.QPixmap`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPaintDevice`, :sip:ref:`~PyQt6.QtGui.QPaintEngine`, `Basic Drawing Example <https://doc.qt.io/qt-6/qtwidgets-painting-basicdrawing-example.html>`_, `Drawing Utility Functions <https://doc.qt.io/qt-6/qdrawutil-h.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPaintDevice`, :sip:ref:`~PyQt6.QtGui.QPaintEngine`, `Qt SVG <https://doc.qt.io/qt-6/qtsvg-index.html>`_, `Basic Drawing Example <https://doc.qt.io/qt-6/qtwidgets-painting-basicdrawing-example.html>`_, `Drawing Utility Functions <https://doc.qt.io/qt-6/qdrawutil-h.html>`_.
 
 .. |image-qpainter-basicdrawing-png| image:: ../../../images/qpainter-basicdrawing.png
 .. |image-qpainter-painterpaths-png| image:: ../../../images/qpainter-painterpaths.png

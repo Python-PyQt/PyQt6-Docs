@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 904f3e9845088ececc79cdd3cb7a4444
 
-TODO
+The notification source is another connection

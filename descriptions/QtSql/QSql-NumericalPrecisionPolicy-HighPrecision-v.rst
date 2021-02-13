@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 65e14825b84ae46fe2f349c3c67e3852
 
-TODO
+Strings will be used to preserve precision.

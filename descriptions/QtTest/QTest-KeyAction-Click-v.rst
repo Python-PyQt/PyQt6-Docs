@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 3d14667602239de01974ef6c7dd31fcf
 
-TODO
+The key is clicked (pressed and released).

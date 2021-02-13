@@ -1,5 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: QSql::ParamTypeFlag
+    :digest: a13ba689cc999c9ea6af568c8f552a47
 
-TODO
+This enum is used to specify the type of a bind parameter.
