@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 23
+    :digest: 6d323c6d3a8478217aad952252b98d0b
 
-TODO
+An internal error occurred

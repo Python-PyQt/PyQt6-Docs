@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all Qt objects
-    :digest: 846d52fd7a7a48ac97f64a90369fa627
+    :digest: 35714374a740853537c61acd7bd14f90
 
 The :sip:ref:`~PyQt6.QtCore.QObject` class is the base class of all Qt objects.
 
@@ -64,7 +64,7 @@ Auto-Connection
 
 Qt's meta-object system provides a mechanism to automatically connect signals and slots between :sip:ref:`~PyQt6.QtCore.QObject` subclasses and their children. As long as objects are defined with suitable object names, and slots follow a simple naming convention, this connection can be performed at run-time by the :sip:ref:`~PyQt6.QtCore.QMetaObject.connectSlotsByName` function.
 
-uic generates code that invokes this function to enable auto-connection to be performed between widgets on forms created with *Qt Designer*. More information about using auto-connection with *Qt Designer* is given in the Using a Designer UI File in Your Application section of the *Qt Designer* manual.
+uic generates code that invokes this function to enable auto-connection to be performed between widgets on forms created with *Qt Designer*. More information about using auto-connection with *Qt Designer* is given in the `Using a Designer UI File in Your Application <https://doc.qt.io/qt-6/designer-using-a-ui-file.html>`_ section of the *Qt Designer* manual.
 
 .. _qobject-dynamic-properties:
 
@@ -73,7 +73,7 @@ Dynamic Properties
 
 From Qt 4.2, dynamic properties can be added to and removed from :sip:ref:`~PyQt6.QtCore.QObject` instances at run-time. Dynamic properties do not need to be declared at compile-time, yet they provide the same advantages as static properties and are manipulated using the same API - using :sip:ref:`~PyQt6.QtCore.QObject.property` to read them and :sip:ref:`~PyQt6.QtCore.QObject.setProperty` to write them.
 
-From Qt 4.3, dynamic properties are supported by Qt Designer, and both standard Qt widgets and user-created forms can be given dynamic properties.
+From Qt 4.3, dynamic properties are supported by `Qt Designer <https://doc.qt.io/qt-6/designer-widget-mode.html#the-property-editor>`_, and both standard Qt widgets and user-created forms can be given dynamic properties.
 
 .. _qobject-internationalization-i18n:
 

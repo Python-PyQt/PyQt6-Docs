@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 301
+    :digest: 5afeaba074ef570dc720caaa855d49f6
 
-TODO
+Redo

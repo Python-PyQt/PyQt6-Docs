@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 8ac7e9e9528d59edab1a77ff818fbf20
 
-TODO
+The called service is not known (``org.freedesktop.DBus.Error.ServiceUnknown``)

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x200
     :realname: QDBusConnection::RegisterOption::ExportNonScriptableSignals
+    :digest: 7861ccd10900abab66152def59e174a5
 
-TODO
+export this object's non-scriptable signals

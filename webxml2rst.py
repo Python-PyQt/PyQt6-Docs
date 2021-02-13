@@ -234,12 +234,24 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'pyqtSetPickleProtocol': None,
             'pyqtSlot': None,
         })
-#WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf')
+WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf',
+        locations={
+            'QPyDBusPendingReply': None,
+            'QPyDBusReply': None,
+        })
 #WebXMLMetadata('qtdatavis3d',
 #        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
-#WebXMLMetadata('qtdesigner',
-#        qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
-#        more_images='qttools/examples/designer/doc')
+WebXMLMetadata('qtdesigner',
+        qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
+        more_images='qttools/examples/designer/doc',
+        locations={
+            'QPyDesignerContainerExtension': None,
+            'QPyDesignerCustomWidgetCollectionPlugin': None,
+            'QPyDesignerCustomWidgetPlugin': None,
+            'QPyDesignerMemberSheetExtension': None,
+            'QPyDesignerPropertySheetExtension': None,
+            'QPyDesignerTaskMenuExtension': None,
+        })
 WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
         more_images='qtbase/doc/src',
         locations={
@@ -423,8 +435,8 @@ class ModuleMetadata:
 #ModuleMetadata('QtCharts', webxml='qtcharts')
 ModuleMetadata('QtCore', webxml='qtcore')
 #ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
-#ModuleMetadata('QtDBus', webxml='qtdbus')
-#ModuleMetadata('QtDesigner', webxml='qtdesigner')
+ModuleMetadata('QtDBus', webxml='qtdbus')
+ModuleMetadata('QtDesigner', webxml='qtdesigner')
 ModuleMetadata('QtGui', webxml='qtgui')
 #ModuleMetadata('QtHelp', webxml='qthelp')
 #ModuleMetadata('QtLocation', webxml='qtlocation')

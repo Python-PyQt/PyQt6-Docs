@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 5874a4c1213c12ef58bc7b13bc48f9ed
 
-TODO
+If another application already has the service name registered, attempt to replace it.

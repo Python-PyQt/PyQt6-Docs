@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 47248cf29dbcc29c0f50ded27fa292c8
+    :digest: 55e509937d010107387f30e937fa8a39
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -88,7 +88,7 @@ Setting keys can contain any Unicode characters. The Windows registry and INI fi
 
 #. Always refer to the same key using the same case. For example, if you refer to a key as "text fonts" in one place in your code, don't refer to it as "Text Fonts" somewhere else.
 
-#. Avoid key names that are identical except for the case. For example, if you have a key called "MainWindow", don't try to save another key as "mainwindow".
+#. Avoid key names that are identical except for the case. For example, if you have a key called "`MainWindow <https://doc.qt.io/qt-6/designer-to-know.html#mainwindow>`_", don't try to save another key as "mainwindow".
 
 #. Do not use slashes ('/' and '\\') in section or key names; the backslash character is used to separate sub keys (see below). On windows '\\' are converted by :sip:ref:`~PyQt6.QtCore.QSettings` to '/', which makes them identical.
 

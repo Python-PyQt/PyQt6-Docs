@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: fd474ddcfa12ae91eadedfece94bdd2b
 
-TODO
+the activation bus, the "alias" for the bus that started the service
