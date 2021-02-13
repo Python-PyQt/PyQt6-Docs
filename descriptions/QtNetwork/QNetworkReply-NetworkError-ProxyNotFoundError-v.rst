@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 103
+    :digest: d4455a6c7c9b9f0e408ca082aa777716
 
-TODO
+the proxy host name was not found (invalid proxy hostname)

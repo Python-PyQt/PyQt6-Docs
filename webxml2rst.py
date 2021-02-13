@@ -283,16 +283,16 @@ WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
             'qUnpremultiply': 'qcolor',
             'qt_set_sequence_auto_mnemonic': 'qkeysequence',
         })
-#WebXMLMetadata('qthelp',
-#        qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
+WebXMLMetadata('qthelp',
+        qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
 #WebXMLMetadata('qtlocation',
 #        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
 #WebXMLMetadata('qtmacextras',
 #        qdocconf='qtmacextras/src/macextras/doc/qtmacextras.qdocconf')
 #WebXMLMetadata('qtmultimedia',
 #        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
-#WebXMLMetadata('qtnetwork',
-#        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf')
+WebXMLMetadata('qtnetwork',
+        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf')
 #WebXMLMetadata('qtnetworkauth',
 #        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf')
 #WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
@@ -438,12 +438,12 @@ ModuleMetadata('QtCore', webxml='qtcore')
 ModuleMetadata('QtDBus', webxml='qtdbus')
 ModuleMetadata('QtDesigner', webxml='qtdesigner')
 ModuleMetadata('QtGui', webxml='qtgui')
-#ModuleMetadata('QtHelp', webxml='qthelp')
+ModuleMetadata('QtHelp', webxml='qthelp')
 #ModuleMetadata('QtLocation', webxml='qtlocation')
 #ModuleMetadata('QtMacExtras', webxml='qtmacextras')
 #ModuleMetadata('QtMultimedia', webxml='qtmultimedia')
 #ModuleMetadata('QtMultimediaWidgets', webxml='qtmultimedia')
-#ModuleMetadata('QtNetwork', webxml='qtnetwork')
+ModuleMetadata('QtNetwork', webxml='qtnetwork')
 #ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
 #ModuleMetadata('QtNfc', webxml='qtnfc')
 #ModuleMetadata('QtOpenGL', webxml='qtopengl')

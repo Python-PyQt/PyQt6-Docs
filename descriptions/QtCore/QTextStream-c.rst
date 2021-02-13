@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenient interface for reading and writing text
-    :digest: 4a0f941f4b896ef45d1fe41e964bdf1b
+    :digest: d0db1c97573ff6a46cf08e0dc67b2dfb
 
 The :sip:ref:`~PyQt6.QtCore.QTextStream` class provides a convenient interface for reading and writing text.
 
@@ -94,4 +94,4 @@ Like ``<iostream>`` in the standard C++ library, :sip:ref:`~PyQt6.QtCore.QTextSt
 
 In addition, Qt provides three global manipulators that take a parameter: :sip:ref:`~PyQt6.QtCore.qSetFieldWidth`, :sip:ref:`~PyQt6.QtCore.qSetPadChar`, and :sip:ref:`~PyQt6.QtCore.qSetRealNumberPrecision`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDataStream`, :sip:ref:`~PyQt6.QtCore.QIODevice`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtCore.QBuffer`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDataStream`, :sip:ref:`~PyQt6.QtCore.QIODevice`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtCore.QBuffer`, :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`.

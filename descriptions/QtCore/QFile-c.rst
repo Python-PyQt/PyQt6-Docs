@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for reading from and writing to files
-    :digest: b9201d182963ad2c262ac08b95236fe9
+    :digest: e24d86e333c9b86fdf8492abdcfd3b61
 
 The :sip:ref:`~PyQt6.QtCore.QFile` class provides an interface for reading from and writing to files.
 
@@ -58,7 +58,7 @@ On Unix, there are some special system files (e.g. in ``/proc``) for which :sip:
 Signals
 -------
 
-Unlike other :sip:ref:`~PyQt6.QtCore.QIODevice` implementations, such as QTcpSocket, :sip:ref:`~PyQt6.QtCore.QFile` does not emit the aboutToClose(), bytesWritten(), or readyRead() signals. This implementation detail means that :sip:ref:`~PyQt6.QtCore.QFile` is not suitable for reading and writing certain types of files, such as device files on Unix platforms.
+Unlike other :sip:ref:`~PyQt6.QtCore.QIODevice` implementations, such as :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtCore.QFile` does not emit the aboutToClose(), bytesWritten(), or readyRead() signals. This implementation detail means that :sip:ref:`~PyQt6.QtCore.QFile` is not suitable for reading and writing certain types of files, such as device files on Unix platforms.
 
 .. _qfile-platform-specific-issues:
 

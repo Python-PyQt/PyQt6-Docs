@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 9d2496c01394f04863ec354dfad3b4be
     :realsig: (const QString&)
+    :digest: ca0dc85967b974a79540f1f072a63c1d
 
-TODO
+Removes the *key* from the settings section in the collection file. Returns true if the value was removed successfully, otherwise false.
+
+.. seealso:: :sip:ref:`~PyQt6.QtHelp.QHelpEngineCore.customValue`, :sip:ref:`~PyQt6.QtHelp.QHelpEngineCore.setCustomValue`.

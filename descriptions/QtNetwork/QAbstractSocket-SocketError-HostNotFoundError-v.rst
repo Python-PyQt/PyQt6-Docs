@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: ae81896fe1089a73d015349037186497
 
-TODO
+The host address was not found.

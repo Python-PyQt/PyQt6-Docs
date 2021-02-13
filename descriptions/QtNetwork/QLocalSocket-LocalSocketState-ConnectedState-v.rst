@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QAbstractSocket::ConnectedState
+    :digest: 6134a068d07160164136f6fe32606fad
 
-TODO
+A connection is established.

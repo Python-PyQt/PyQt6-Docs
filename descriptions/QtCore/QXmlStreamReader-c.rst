@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Fast parser for reading well-formed XML via a simple streaming API
-    :digest: 1dfd4c813cd14cb665dd06678520cf5e
+    :digest: a317290242117b6b85a94f01e5c0cdf9
 
 The :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` class provides a fast parser for reading well-formed XML via a simple streaming API.
 
@@ -40,7 +40,7 @@ Incremental Parsing
 
 :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is an incremental parser. It can handle the case where the document can't be parsed all at once because it arrives in chunks (e.g. from multiple files, or over a network connection). When the reader runs out of data before the complete document has been parsed, it reports a :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.Error.PrematureEndOfDocumentError`. When more data arrives, either because of a call to :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData` or because more data is available through the network :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.device`, the reader recovers from the :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.Error.PrematureEndOfDocumentError` error and continues parsing the new data with the next call to :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.readNext`.
 
-For example, if your application reads data from the network using a network access manager, you would issue a network request to the manager and receive a network reply in return. Since a QNetworkReply is a :sip:ref:`~PyQt6.QtCore.QIODevice`, you connect its :sip:ref:`~PyQt6.QtCore.QIODevice.readyRead` signal to a custom slot, e.g. ``slotReadyRead()`` in the code snippet shown in the discussion for QNetworkAccessManager. In this slot, you read all available data with :sip:ref:`~PyQt6.QtCore.QIODevice.readAll` and pass it to the XML stream reader using :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`. Then you call your custom parsing function that reads the XML events from the reader.
+For example, if your application reads data from the network using a :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`, you would issue a :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest` to the manager and receive a :sip:ref:`~PyQt6.QtNetwork.QNetworkReply` in return. Since a :sip:ref:`~PyQt6.QtNetwork.QNetworkReply` is a :sip:ref:`~PyQt6.QtCore.QIODevice`, you connect its :sip:ref:`~PyQt6.QtCore.QIODevice.readyRead` signal to a custom slot, e.g. ``slotReadyRead()`` in the code snippet shown in the discussion for :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`. In this slot, you read all available data with :sip:ref:`~PyQt6.QtCore.QIODevice.readAll` and pass it to the XML stream reader using :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`. Then you call your custom parsing function that reads the XML events from the reader.
 
 .. _qxmlstreamreader-performance-and-memory-consumption:
 

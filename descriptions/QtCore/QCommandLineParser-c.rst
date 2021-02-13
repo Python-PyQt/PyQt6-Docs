@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Means for handling the command line options
-    :digest: 958e86a70dbd6d33ae114aeb59f412e6
+    :digest: ac956985fcdde9f408f9ae46c4e3e60b
 
 The :sip:ref:`~PyQt6.QtCore.QCommandLineParser` class provides a means for handling the command line options.
 
@@ -42,7 +42,7 @@ How to Use QCommandLineParser in Complex Applications
 
 In practice, additional error checking needs to be performed on the positional arguments and option values. For example, ranges of numbers should be checked.
 
-It is then advisable to introduce a function to do the command line parsing which takes a struct or class receiving the option values returning an enumeration representing the result. The dnslookup example of the QtNetwork module illustrates this:
+It is then advisable to introduce a function to do the command line parsing which takes a struct or class receiving the option values returning an enumeration representing the result. The dnslookup example of the :sip:ref:`~PyQt6.QtNetwork` module illustrates this:
 
 .. literalinclude:: ../../../snippets/qtbase-examples-network-dnslookup-dnslookup.py
     :lines: 57-66

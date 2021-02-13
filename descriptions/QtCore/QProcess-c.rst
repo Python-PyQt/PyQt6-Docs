@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to start external programs and to communicate with them
-    :digest: be9fb8cf8f70ab3f22fbb2e2c059e939
+    :digest: a1472c9a5447fda08f6a2c333c268b41
 
 The `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ class is used to start external programs and to communicate with them.
 
@@ -27,7 +27,7 @@ For example, the following code snippet runs the analog clock example in the Fus
 
 `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ then enters the :sip:ref:`~PyQt6.QtCore.QProcess.ProcessState.Starting` state, and when the program has started, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ enters the :sip:ref:`~PyQt6.QtCore.QProcess.ProcessState.Running` state and emits :sip:ref:`~PyQt6.QtCore.QProcess.started`.
 
-`QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ allows you to treat a process as a sequential I/O device. You can write to and read from the process just as you would access a network connection using QTcpSocket. You can then write to the process's standard input by calling write(), and read the standard output by calling read(), readLine(), and getChar(). Because it inherits :sip:ref:`~PyQt6.QtCore.QIODevice`, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ can also be used as an input source for QXmlReader, or for generating data to be uploaded using QNetworkAccessManager.
+`QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ allows you to treat a process as a sequential I/O device. You can write to and read from the process just as you would access a network connection using :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`. You can then write to the process's standard input by calling write(), and read the standard output by calling read(), readLine(), and getChar(). Because it inherits :sip:ref:`~PyQt6.QtCore.QIODevice`, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ can also be used as an input source for QXmlReader, or for generating data to be uploaded using :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`.
 
 When the process exits, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ reenters the :sip:ref:`~PyQt6.QtCore.QProcess.ProcessState.NotRunning` state (the initial state), and emits :sip:ref:`~PyQt6.QtCore.QProcess.finished`.
 
@@ -81,4 +81,4 @@ Notes for Windows Users
 
 Some Windows commands (for example, ``dir``) are not provided by separate applications, but by the command interpreter itself. If you attempt to use `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ to execute these commands directly, it won't work. One possible solution is to execute the command interpreter itself (``cmd.exe`` on some Windows systems), and ask the interpreter to execute the desired command.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QBuffer`, :sip:ref:`~PyQt6.QtCore.QFile`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QBuffer`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`.

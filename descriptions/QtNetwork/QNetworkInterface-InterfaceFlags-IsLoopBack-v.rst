@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8
     :realname: QNetworkInterface::InterfaceFlag::IsLoopBack
+    :digest: 68f959136bf49bd3ad5f19d6cdea4715
 
-TODO
+the network interface is a loopback interface: that is, it's a virtual interface whose destination is the host computer itself

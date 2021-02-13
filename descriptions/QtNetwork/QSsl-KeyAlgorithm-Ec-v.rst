@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 213838a199e275b5a5194a686e9455eb
 
-TODO
+The Elliptic Curve algorithm.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 448454d33bb25d609f32511cfd4e5109
 
-TODO
+the requested DNS lookup was invalid.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 3a23aa8b27ed8b5e5ef193df5dfeb087
 
-TODO
+Corresponds to the HTTP ETag header and contains a QString representing the last modification state of the contents.

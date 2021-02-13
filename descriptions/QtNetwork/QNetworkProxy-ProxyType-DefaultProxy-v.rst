@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: b367f50ad17e3a393ca2cd816d701d53
 
-TODO
+Proxy is determined based on the application proxy set using :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.setApplicationProxy`

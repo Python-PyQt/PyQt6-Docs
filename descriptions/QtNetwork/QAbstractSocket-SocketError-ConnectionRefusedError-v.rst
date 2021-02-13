@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 75efa90dc7063d5625797c6ff90d5f9e
 
-TODO
+The connection was refused by the peer (or timed out).

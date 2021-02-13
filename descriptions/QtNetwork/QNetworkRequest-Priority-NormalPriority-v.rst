@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: e9af2e88546792c130dda8e5bd923364
 
-TODO
+Normal priority

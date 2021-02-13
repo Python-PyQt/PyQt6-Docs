@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00040
     :realname: QNetworkProxy::Capability::SctpListeningCapability
+    :digest: 03e8a71d3a49277e1ca51634f517ace0
 
-TODO
+Ability to create a listening socket and wait for an incoming SCTP connection from a remote host.

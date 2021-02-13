@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 8cdc19670a643c5793e40ac65df085e5
 
-TODO
+TLSv1.2.

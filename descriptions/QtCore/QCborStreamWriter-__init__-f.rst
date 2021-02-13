@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 7f3af5685d06b3c562a73c51e37f2a3f
     :realsig: (QIODevice*)
-    :digest: e3b165e6a46917fbc2506b2169380cbb
+    :digest: 78e798a31c836a90d6b53bd9e4eb63b1
 
-Creates a :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` object that will write the stream to *device*. The device must be opened before the first :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.append` call is made. This constructor can be used with any class that derives from :sip:ref:`~PyQt6.QtCore.QIODevice`, such as :sip:ref:`~PyQt6.QtCore.QFile`, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ or QTcpSocket.
+Creates a :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` object that will write the stream to *device*. The device must be opened before the first :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.append` call is made. This constructor can be used with any class that derives from :sip:ref:`~PyQt6.QtCore.QIODevice`, such as :sip:ref:`~PyQt6.QtCore.QFile`, `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ or :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`.
 
 :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` has no buffering, so every :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.append` call will result in one or more calls to the device's :sip:ref:`~PyQt6.QtCore.QIODevice.write` method.
 

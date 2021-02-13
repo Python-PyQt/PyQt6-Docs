@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 28
+    :digest: ad9d0c951f48eaecc5ec9f95e7ee2cdc
 
-TODO
+IPv6 address records.
