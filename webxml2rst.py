@@ -334,6 +334,11 @@ WebXMLMetadata('qtquick',
             'QQuickItem::UpdatePaintNodeData': 'qquickitem',
             'QSGRenderNode::RenderState': 'qsgrendernode',
         })
+WebXMLMetadata('qtquick3d',
+        qdocconf='qtquick3d/src/imports/quick3d/doc/qtquick3d.qdocconf',
+        locations={
+            'QQuick3DGeometry::Attribute': 'qquick3dgeometry',
+        })
 #WebXMLMetadata('qtremoteobjects',
 #        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
 #WebXMLMetadata('qtsensors',
@@ -475,17 +480,20 @@ ModuleMetadata('QtNetwork', webxml='qtnetwork')
 #ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
 #ModuleMetadata('QtNfc', webxml='qtnfc')
 ModuleMetadata('QtOpenGL', webxml='qtopengl')
+ModuleMetadata('QtOpenGLWidgets', webxml='qtopengl')
 #ModuleMetadata('QtPositioning', webxml='qtpositioning')
 ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
 #ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
 ModuleMetadata('QtQml', webxml='qtqml')
 ModuleMetadata('QtQuick', webxml='qtquick')
+ModuleMetadata('QtQuick3D', webxml='qtquick3d')
 ModuleMetadata('QtQuickWidgets', webxml='qtquick')
 #ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
 #ModuleMetadata('QtSensors', webxml='qtsensors')
 #ModuleMetadata('QtSerialPort', webxml='qtserialport')
 ModuleMetadata('QtSql', webxml='qtsql')
 ModuleMetadata('QtSvg', webxml='qtsvg')
+ModuleMetadata('QtSvgWidgets', webxml='qtsvg')
 ModuleMetadata('QtTest', webxml='qttest')
 #ModuleMetadata('QtWebChannel', webxml='qtwebchannel')
 #ModuleMetadata('QtWebEngine', webxml='qtwebengine')
