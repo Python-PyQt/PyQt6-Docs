@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a6408fa50c5cac08a0e7e918409d998a
+    :digest: 9195cc9eff3b658536ab3964987c80f3
 
 Each item in the model has a set of data elements associated with it, each with its own role. The roles are used by the view to indicate to the model which type of data it needs. Custom models should return data in these types.
 

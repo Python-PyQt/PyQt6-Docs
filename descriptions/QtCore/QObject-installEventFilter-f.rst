@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 2b9057d9b4a06375acf76e6922f506e2
     :realsig: (QObject*)
-    :digest: 863ab2ca5c08b1d8774cbfc7ca034a05
+    :digest: 008d366064df418b68a530072c753dc0
 
 Installs an event filter *filterObj* on this object. For example:
 
@@ -23,7 +23,7 @@ And here's how to install it on two widgets:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qobject.py
     :lines: 238-243
 
-The QShortcut class, for example, uses this technique to intercept shortcut key presses.
+The :sip:ref:`~PyQt6.QtGui.QShortcut` class, for example, uses this technique to intercept shortcut key presses.
 
 **Warning:** If you delete the receiver object in your :sip:ref:`~PyQt6.QtCore.QObject.eventFilter` function, be sure to return true. If you return false, Qt sends the event to the deleted object and the program will crash.
 

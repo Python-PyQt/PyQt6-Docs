@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Bundles signals from identifiable senders
-    :digest: 6a7ba0cd769264c4a79ebd491c986f96
+    :digest: 7a6ff77f2172eda5e693bdfa416da4d9
 
 The :sip:ref:`~PyQt6.QtCore.QSignalMapper` class bundles signals from identifiable senders.
 
@@ -35,4 +35,4 @@ This class was mostly useful before lambda functions could be used as slots. The
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qsignalmapper-buttonwidget.py
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QObject`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QObject`, :sip:ref:`~PyQt6.QtGui.QActionGroup`.

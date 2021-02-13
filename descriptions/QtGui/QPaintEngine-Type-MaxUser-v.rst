@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 100
+    :digest: 128f8eb35047c8be60d1f9176a99a46d
 
-TODO
+Last user type ID

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a point in the plane using floating point precision
-    :digest: 57a9fb8a80c691421cbefdf0a8ebce0c
+    :digest: d973bc83ca914b5d07173301693f8e45
 
 The :sip:ref:`~PyQt6.QtCore.QPointF` class defines a point in the plane using floating point precision.
 
@@ -16,4 +16,4 @@ A :sip:ref:`~PyQt6.QtCore.QPointF` object can also be used as a vector: Addition
 
 In addition, the :sip:ref:`~PyQt6.QtCore.QPointF` class provides a constructor converting a :sip:ref:`~PyQt6.QtCore.QPoint` object into a :sip:ref:`~PyQt6.QtCore.QPointF` object, and a corresponding :sip:ref:`~PyQt6.QtCore.QPointF.toPoint` function which returns a :sip:ref:`~PyQt6.QtCore.QPoint` copy of *this* point. Finally, :sip:ref:`~PyQt6.QtCore.QPointF` objects can be streamed as well as compared.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QPoint`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QPoint`, :sip:ref:`~PyQt6.QtGui.QPolygonF`.

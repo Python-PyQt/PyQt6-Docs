@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ee1352f1525dfe7d4c24fd078bfc9248
+    :digest: ff7b454569402b281f212e3ae4271cbd
 
-This enum specifies the behavior of the QPixmap::createMaskFromColor() and QImage::createMaskFromColor() functions.
+This enum specifies the behavior of the :sip:ref:`~PyQt6.QtGui.QPixmap.createMaskFromColor` and :sip:ref:`~PyQt6.QtGui.QImage.createMaskFromColor` functions.

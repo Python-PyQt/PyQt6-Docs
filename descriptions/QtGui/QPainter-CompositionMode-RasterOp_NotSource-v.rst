@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 30
+    :digest: f27ea9e977f9265e7861a01e71cfb6bd
 
-TODO
+Does a bitwise operation where the source pixels are inverted (NOT src).

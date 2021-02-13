@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: f4710d132b4d9844bf6d2091e1d04958
+    :digest: 0101570050f4af433317b2c1b7cd2ac2
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -9,7 +9,7 @@ Users normally expect an application to remember its settings (window sizes and 
 
 :sip:ref:`~PyQt6.QtCore.QSettings` is an abstraction around these technologies, enabling you to save and restore application settings in a portable manner. It also supports custom storage formats.
 
-:sip:ref:`~PyQt6.QtCore.QSettings`'s API is based on `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, allowing you to save most value-based types, such as QString, :sip:ref:`~PyQt6.QtCore.QRect`, and QImage, with the minimum of effort.
+:sip:ref:`~PyQt6.QtCore.QSettings`'s API is based on `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, allowing you to save most value-based types, such as QString, :sip:ref:`~PyQt6.QtCore.QRect`, and :sip:ref:`~PyQt6.QtGui.QImage`, with the minimum of effort.
 
 If all you need is a non-persistent memory-based structure, consider using QMap<QString, `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_> instead.
 
@@ -65,14 +65,14 @@ To test whether a given key exists, call :sip:ref:`~PyQt6.QtCore.QSettings.conta
 QVariant and GUI Types
 ----------------------
 
-Because `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ is part of the Qt Core module, it cannot provide conversion functions to data types such as QColor, QImage, and QPixmap, which are part of Qt GUI. In other words, there is no ``toColor()``, ``toImage()``, or ``toPixmap()`` functions in `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_.
+Because `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ is part of the Qt Core module, it cannot provide conversion functions to data types such as :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtGui.QImage`, and :sip:ref:`~PyQt6.QtGui.QPixmap`, which are part of Qt GUI. In other words, there is no ``toColor()``, ``toImage()``, or ``toPixmap()`` functions in `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_.
 
 Instead, you can use the :sip:ref:`~PyQt6.QtCore.QVariant.value` template function. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 54-55
 
-The inverse conversion (e.g., from QColor to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_) is automatic for all data types supported by `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, including GUI-related types:
+The inverse conversion (e.g., from :sip:ref:`~PyQt6.QtGui.QColor` to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_) is automatic for all data types supported by `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, including GUI-related types:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 60-62
@@ -359,4 +359,4 @@ While :sip:ref:`~PyQt6.QtCore.QSettings` attempts to smooth over the differences
 
 * On macOS, permissions to access settings not belonging to the current user (i.e. :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope`) have changed with 10.7 (Lion). Prior to that version, users having admin rights could access these. For 10.7 and 10.8 (Mountain Lion), only root can. However, 10.9 (Mavericks) changes that rule again but only for the native format (plist files).
 
-.. seealso:: `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_.
+.. seealso:: `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, :sip:ref:`~PyQt6.QtGui.QSessionManager`.

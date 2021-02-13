@@ -1,11 +1,11 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::ImageConversionFlag
-    :digest: 330332a705711f23da45e0f70ed524c2
+    :digest: d9fc1655b6ae1567a463c96de1162fa4
 
 The options marked "(default)" are set if no other values from the list are included (since the defaults are zero):
 
-Color/Mono preference (ignored for QBitmap):
+Color/Mono preference (ignored for `QBitmap <https://doc.qt.io/qt-6/gui-changes-qt6.html#qbitmap>`_):
 
 Dithering mode preference:
 

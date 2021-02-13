@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: 29519b938cbf619af5181b2443a4834e
+    :digest: 9fe021bfbdb37ea175c566a2a23da6dc
 
-A custom pattern defined using QPainterPathStroker::setDashPattern().
+A custom pattern defined using :sip:ref:`~PyQt6.QtGui.QPainterPathStroker.setDashPattern`.

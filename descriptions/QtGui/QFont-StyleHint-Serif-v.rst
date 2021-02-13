@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Times
+    :digest: 4d54dfebdeb3abf6d11b4b5b3e766b3a
 
-TODO
+the font matcher prefers serif fonts.

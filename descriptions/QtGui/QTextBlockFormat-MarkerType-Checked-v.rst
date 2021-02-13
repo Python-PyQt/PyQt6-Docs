@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 7668afaef20020a175b3c541ff836487
 
-TODO
+Instead of the list item's bullet, a checked checkbox will be shown.

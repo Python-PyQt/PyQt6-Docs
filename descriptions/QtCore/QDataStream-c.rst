@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Serialization of binary data to a QIODevice
-    :digest: 4f2251f40bebdfeee420111c0f72c7ee
+    :digest: 49ca38683af4946e8e47e850fa1124c8
 
 The :sip:ref:`~PyQt6.QtCore.QDataStream` class provides serialization of binary data to a :sip:ref:`~PyQt6.QtCore.QIODevice`.
 
@@ -23,7 +23,7 @@ Example (read binary data from a stream):
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qdatastream.py
     :lines: 66-71
 
-Each item written to the stream is written in a predefined binary format that varies depending on the item's type. Supported Qt types include QBrush, QColor, :sip:ref:`~PyQt6.QtCore.QDateTime`, QFont, QPixmap, QString, `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ and many others. For the complete list of all Qt types supporting data streaming see `Serializing Qt Data Types <https://doc.qt.io/qt-6/datastreamformat.html>`_.
+Each item written to the stream is written in a predefined binary format that varies depending on the item's type. Supported Qt types include :sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.QDateTime`, `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_, :sip:ref:`~PyQt6.QtGui.QPixmap`, QString, `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ and many others. For the complete list of all Qt types supporting data streaming see `Serializing Qt Data Types <https://doc.qt.io/qt-6/datastreamformat.html>`_.
 
 For integers it is best to always cast to a Qt integer type for writing, and to read back into the same Qt integer type. This ensures that you get integers of the size you want and insulates you from compiler and platform differences.
 
@@ -85,7 +85,7 @@ In addition to the overloaded stream operators documented here, any Qt classes t
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_serialization_qdatastream.py
     :lines: 54-55
 
-For example, here are the stream operators declared as non-members of the QImage class:
+For example, here are the stream operators declared as non-members of the :sip:ref:`~PyQt6.QtGui.QImage` class:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_serialization_qdatastream.py
     :lines: 59-60

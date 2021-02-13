@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 68
+    :digest: 7001ab39ea8d9cfaff6be8e2cd21a83b
 
-TODO
+Delete the entire line.

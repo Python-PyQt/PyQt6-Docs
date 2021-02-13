@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 217
-    :digest: 9724e106f428a559ba16d574790823bd
+    :digest: 100592f0ac41367b5a8858d323b4590a
 
-A native platform surface has been created or is about to be destroyed (QPlatformSurfaceEvent).
+A native platform surface has been created or is about to be destroyed (\ :sip:ref:`~PyQt6.QtGui.QPlatformSurfaceEvent`).

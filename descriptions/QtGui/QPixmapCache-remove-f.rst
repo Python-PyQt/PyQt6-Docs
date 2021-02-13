@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realsig: (const QString&)
+    :digest: 6ffbcb4f350490804601862778058112
 
-TODO
+Removes the pixmap associated with *key* from the cache.

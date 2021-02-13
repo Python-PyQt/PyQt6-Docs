@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: 06582427e05f7673b7a5af4cd31dbb26
+    :digest: 2c0de48576a8a77cda4307b9a560804e
 
-Mouse press again (QMouseEvent).
+Mouse press again (\ :sip:ref:`~PyQt6.QtGui.QMouseEvent`).

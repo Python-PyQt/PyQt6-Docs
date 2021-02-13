@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Converts between numbers and their string representations in various languages
-    :digest: 63855c42eeec1977429eaea15a2f32ce
+    :digest: bc57bafc292d13f99474dcac00ffe598
 
 The :sip:ref:`~PyQt6.QtCore.QLocale` class converts between numbers and their string representations in various languages.
 
@@ -42,8 +42,8 @@ An alternative method for constructing a :sip:ref:`~PyQt6.QtCore.QLocale` object
 
 This constructor converts the locale name to a language/country pair; it does not use the system locale database.
 
-**Note:** For the current keyboard input locale take a look at QInputMethod::locale().
+**Note:** For the current keyboard input locale take a look at :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.
 
 :sip:ref:`~PyQt6.QtCore.QLocale`'s data is based on Common Locale Data Repository v38.
 
-.. seealso:: QString::arg(), QString::toInt(), QString::toDouble().
+.. seealso:: QString::arg(), QString::toInt(), QString::toDouble(), :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.

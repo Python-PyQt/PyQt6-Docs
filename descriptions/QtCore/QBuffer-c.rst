@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: QIODevice interface for a QByteArray
-    :digest: 34180317487ad00e982011c5d9cd62c7
+    :digest: 878d7e637373d985f8dae0edbcf1e364
 
 The :sip:ref:`~PyQt6.QtCore.QBuffer` class provides a :sip:ref:`~PyQt6.QtCore.QIODevice` interface for a :sip:ref:`~PyQt6.QtCore.QByteArray`.
 
@@ -19,7 +19,7 @@ The following code snippet shows how to write data to a :sip:ref:`~PyQt6.QtCore.
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-buffer-buffer.py
     :lines: 76-81
 
-Effectively, we convert the application's QPalette into a byte array. Here's how to read the data from the :sip:ref:`~PyQt6.QtCore.QByteArray`:
+Effectively, we convert the application's :sip:ref:`~PyQt6.QtGui.QPalette` into a byte array. Here's how to read the data from the :sip:ref:`~PyQt6.QtCore.QByteArray`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-buffer-buffer.py
     :lines: 90-95

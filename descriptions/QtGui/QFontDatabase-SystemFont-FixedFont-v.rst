@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 1e83632cfda219c77b859f72d6935c7b
 
-TODO
+The fixed font that the system recommends.

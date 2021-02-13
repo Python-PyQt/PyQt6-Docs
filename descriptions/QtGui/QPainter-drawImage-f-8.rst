@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 3a3fc30f262b7132300f94c4abed4b9c
     :realsig: (int,int,const QImage&,int,int,int,int,Qt::ImageConversionFlags)
+    :digest: ac529871f23bf02b844102c10a1ed6df
 
-TODO
+This is an overloaded function.
+
+Draws an image at (\ *x*, *y*) by copying a part of *image* into the paint device.
+
+(\ *x*, *y*) specifies the top-left point in the paint device that is to be drawn onto. (\ *sx*, *sy*) specifies the top-left point in *image* that is to be drawn. The default is (0, 0).
+
+(\ *sw*, *sh*) specifies the size of the image that is to be drawn. The default, (0, 0) (and negative) means all the way to the bottom-right of the image.

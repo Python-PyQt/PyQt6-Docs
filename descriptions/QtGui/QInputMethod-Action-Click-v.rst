@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 7473b239250564ebcc5187a85fb69474
 
-TODO
+A normal click/tap

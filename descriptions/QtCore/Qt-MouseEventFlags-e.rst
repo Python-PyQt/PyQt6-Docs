@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::MouseEventFlag
-    :digest: a45ae2aae6887756063639e50c699f09
+    :digest: 20ef931c59da8a960c1033fc4091a17e
 
-This enum provides additional information concerning a QMouseEvent.
+This enum provides additional information concerning a :sip:ref:`~PyQt6.QtGui.QMouseEvent`.

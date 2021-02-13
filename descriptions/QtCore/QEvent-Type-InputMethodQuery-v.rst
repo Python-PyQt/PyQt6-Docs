@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 207
-    :digest: 86a310fceef240ce1533e4015b32f779
+    :digest: 286c0d484a2a6f827f757b1ffb2874cd
 
-A input method query event (QInputMethodQueryEvent)
+A input method query event (\ :sip:ref:`~PyQt6.QtGui.QInputMethodQueryEvent`)

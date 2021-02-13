@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Qt::TouchPointMoved
     :realname: QEventPoint::State::Updated
+    :digest: adac49bc131c229d821eb65e6941abb1
 
-TODO
+The event point was updated.

@@ -1,4 +1,7 @@
 .. sip:enum-description::
     :status: todo
+    :digest: ffb19ed8f2ddc6941f566f257f7227aa
 
-TODO
+This enum represent standard key bindings. They can be used to assign platform dependent keyboard shortcuts to a :sip:ref:`~PyQt6.QtGui.QAction`.
+
+Note that the key bindings are platform dependent. The currently bound shortcuts can be queried using :sip:ref:`~PyQt6.QtGui.QKeySequence.keyBindings`.

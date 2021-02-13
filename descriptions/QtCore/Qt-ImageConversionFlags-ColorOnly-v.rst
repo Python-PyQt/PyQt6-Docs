@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x00000003
     :realname: Qt::ImageConversionFlag::ColorOnly
-    :digest: c4c862dfd1a1351c583701a61402479f
+    :digest: 2c4b977d0109448aa4f5ee417e6c776b
 
-The pixmap is dithered/converted to the native display depth.
+The pixmap is dithered/converted to the :sip:ref:`~PyQt6.QtGui.QPixmap.defaultDepth`.

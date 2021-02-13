@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 28
+    :digest: 1250e0e8a4a216f00f965b4acf589c04
 
-TODO
+Does a bitwise NAND operation on the source and destination pixels ((NOT src) OR (NOT dst)).

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Two-dimensional vector using floating point precision
-    :digest: 9b6c340e65ded3f7dbc140fa08543816
+    :digest: 4082f2e69efb8d7567c896e6a2cfe77e
 
 The :sip:ref:`~PyQt6.QtCore.QLineF` class provides a two-dimensional vector using floating point precision.
 
@@ -26,7 +26,7 @@ Constraints
 
 :sip:ref:`~PyQt6.QtCore.QLine` is limited to the minimum and maximum values for the ``int`` type. Operations on a :sip:ref:`~PyQt6.QtCore.QLine` that could potentially result in values outside this range will result in undefined behavior.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QLine`, :sip:ref:`~PyQt6.QtCore.QRectF`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QLine`, :sip:ref:`~PyQt6.QtGui.QPolygonF`, :sip:ref:`~PyQt6.QtCore.QRectF`.
 
 .. |image-qline-point-png| image:: ../../../images/qline-point.png
 .. |image-qline-coordinates-png| image:: ../../../images/qline-coordinates.png

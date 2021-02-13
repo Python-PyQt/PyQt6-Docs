@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 14
-    :digest: 24fd13e187830089c857390f34678400
+    :digest: 69fe42406698e7d23780be05e7bc497a
 
-Widget's size changed (QResizeEvent).
+Widget's size changed (\ :sip:ref:`~PyQt6.QtGui.QResizeEvent`).

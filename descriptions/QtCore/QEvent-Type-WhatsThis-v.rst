@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 111
-    :digest: 08cdfe685aab6b8a65f1ee799f315195
+    :digest: 20e973902fc944e9119faeb0934780be
 
-The widget should reveal "What's This?" help (QHelpEvent).
+The widget should reveal "What's This?" help (\ :sip:ref:`~PyQt6.QtGui.QHelpEvent`).

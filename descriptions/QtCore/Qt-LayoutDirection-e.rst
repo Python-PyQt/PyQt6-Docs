@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: d965c031659d528cfc00483b26de8fec
+    :digest: b23afc27f754df5631cc5ac6e2f0fe69
 
 Specifies the direction of Qt's layouts and text handling.
 
@@ -10,4 +10,4 @@ serves two purposes. When used in conjunction with widgets and layouts, it will 
 
 When  is used in conjunction with text layouting, it will imply that the text directionality is determined from the content of the string to be layouted.
 
-.. seealso:: QString::isRightToLeft(), QGuiApplication::setLayoutDirection()QWidget::setLayoutDirection()QTextOption::setTextDirection().
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication.setLayoutDirection`, :sip:ref:`~PyQt6.QtGui.QTextOption.setTextDirection`, QString::isRightToLeft().

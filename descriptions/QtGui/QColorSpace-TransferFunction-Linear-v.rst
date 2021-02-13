@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: d8086714cc682d88fe3c9568c846d525
 
-TODO
+The linear transfer functions

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 21
+    :digest: 3e00431a144e383e0baeadded601dc6e
 
-TODO
+88 x 125 mm

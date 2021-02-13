@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: fe1460eee1637b181f5b0ed604032031
 
-TODO
+Returns the weight of the matched window system font.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.weight`, :sip:ref:`~PyQt6.QtGui.QFontInfo.bold`.

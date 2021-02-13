@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
     :realname: QImageIOHandler::Transformation::TransformationFlip
+    :digest: 9a83ad7ac572807934e7b57242a7efd6
 
-TODO
+Mirror the image vertically.

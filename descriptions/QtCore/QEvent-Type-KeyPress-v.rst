@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: 76ecc99fcfad1372318bf01e32e044b1
+    :digest: c933848892cf333fc40b508b85630414
 
-Key press (QKeyEvent).
+Key press (\ :sip:ref:`~PyQt6.QtGui.QKeyEvent`).

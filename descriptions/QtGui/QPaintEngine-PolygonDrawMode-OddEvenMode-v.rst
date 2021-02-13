@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 6b4f67a56a699a90176c959cd625dfb9
 
-TODO
+The polygon should be drawn using OddEven fill rule.

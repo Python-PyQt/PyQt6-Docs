@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Means for handling the command line options
-    :digest: 144246e80bf8786bbac0dd65df0c3ee4
+    :digest: ab909b507b7a13ac41f66baa8825404c
 
 The :sip:ref:`~PyQt6.QtCore.QCommandLineParser` class provides a means for handling the command line options.
 
@@ -33,7 +33,7 @@ If your compiler supports the C++11 standard, the three :sip:ref:`~PyQt6.QtCore.
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_tools_qcommandlineparser_main.py
     :lines: 100-111
 
-Known limitation: the parsing of Qt options inside :sip:ref:`~PyQt6.QtCore.QCoreApplication` and subclasses happens before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` exists, so it can't take it into account. This means any option value that looks like a builtin Qt option, will be treated by :sip:ref:`~PyQt6.QtCore.QCoreApplication` as a builtin Qt option. Example: ``--profile -reverse`` will lead to QGuiApplication seeing the -reverse option set, and removing it from :sip:ref:`~PyQt6.QtCore.QCoreApplication.arguments` before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` defines the ``profile`` option and parses the command line.
+Known limitation: the parsing of Qt options inside :sip:ref:`~PyQt6.QtCore.QCoreApplication` and subclasses happens before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` exists, so it can't take it into account. This means any option value that looks like a builtin Qt option, will be treated by :sip:ref:`~PyQt6.QtCore.QCoreApplication` as a builtin Qt option. Example: ``--profile -reverse`` will lead to :sip:ref:`~PyQt6.QtGui.QGuiApplication` seeing the -reverse option set, and removing it from :sip:ref:`~PyQt6.QtCore.QCoreApplication.arguments` before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` defines the ``profile`` option and parses the command line.
 
 .. _qcommandlineparser-how-to-use-qcommandlineparser-in-complex-applications:
 

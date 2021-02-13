@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: 4867e96446b1133be3e344fcf73edc8b
 
-TODO
+Move left one character.

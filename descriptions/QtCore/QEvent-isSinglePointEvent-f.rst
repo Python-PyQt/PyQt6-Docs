@@ -2,6 +2,6 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: 1600fdd9fcd3b5e1924677bc061878e8
+    :digest: eb9a99c728887bd6b8c7e8032e0a2a8f
 
-Returns ``true`` if the event object is a subclass of QSinglePointEvent.
+Returns ``true`` if the event object is a subclass of :sip:ref:`~PyQt6.QtGui.QSinglePointEvent`.

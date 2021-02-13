@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ae36186e232eaa27523924fcb703b1d9
+    :digest: 53e4f32522557faf3dc0c5053dd55210
 
-This enum describes the types of whitespace mode that are used by the QTextDocument class to meet the requirements of different kinds of textual information.
+This enum describes the types of whitespace mode that are used by the :sip:ref:`~PyQt6.QtGui.QTextDocument` class to meet the requirements of different kinds of textual information.

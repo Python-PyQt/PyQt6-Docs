@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Pattern matching using regular expressions
-    :digest: 2f36e4b3c498fe7087020048a4232cdb
+    :digest: 4228fc455d84740a347d53de9326f9ee
 
 The `QRegularExpression <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qregularexpression>`_ class provides pattern matching using regular expressions.
 
@@ -194,7 +194,7 @@ We would like to validate the input with this regular expression *while* the use
 
 * the input does not match the regular expression right now, but it will if more characters will be added to it.
 
-Note that these three cases represent exactly the possible states of a QValidator (see the QValidator::State enum).
+Note that these three cases represent exactly the possible states of a :sip:ref:`~PyQt6.QtGui.QValidator` (see the :sip:ref:`~PyQt6.QtGui.QValidator.State` enum).
 
 In particular, in the last case we want the regular expression engine to report a partial match: we are successfully matching the pattern against the subject string but the matching cannot continue because the end of the subject is encountered. Notice, however, that the matching algorithm should continue and try all possibilities, and in case a complete (non-partial) match is found, then this one should be reported, and the input string accepted as fully valid.
 

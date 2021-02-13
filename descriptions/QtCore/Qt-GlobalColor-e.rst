@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 5cbeb93a9bd58e0aef7d3e4e201e307a
+    :digest: 02229bf200f2453e0bdb5c005d19691f
 
-Qt's predefined QColor objects:
+Qt's predefined :sip:ref:`~PyQt6.QtGui.QColor` objects:
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QColor`.

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 8db90aa99b41667ba153229ed7d89019
+    :digest: 0e48d7966a1bddce2ff05bedd4ced53a
 
 This enum type is used to define some modifier flags. Some of these flags only make sense in the context of printing:
 

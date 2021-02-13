@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 83
-    :digest: 51cc8d05ca6d20c2b06810f76af3f286
+    :digest: 313eba740d4a4dee7d03a1f86d47f1d5
 
-An input method is being used (QInputMethodEvent).
+An input method is being used (\ :sip:ref:`~PyQt6.QtGui.QInputMethodEvent`).

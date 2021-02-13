@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: a82c833cdcd561853469d3d0bfcc05fc
 
-TODO
+The alpha channel is not used.

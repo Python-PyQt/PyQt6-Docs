@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: eb47234a04b3fc48100926bbffaf3554
 
-TODO
+Between ``Button`` and ``Dark``.

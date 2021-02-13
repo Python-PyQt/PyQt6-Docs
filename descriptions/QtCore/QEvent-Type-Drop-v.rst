@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 63
-    :digest: 7c5cf559df13bb5895685af9af74a515
+    :digest: 37a632fe76689762cac4ba327c75b101
 
-A drag and drop operation is completed (QDropEvent).
+A drag and drop operation is completed (\ :sip:ref:`~PyQt6.QtGui.QDropEvent`).

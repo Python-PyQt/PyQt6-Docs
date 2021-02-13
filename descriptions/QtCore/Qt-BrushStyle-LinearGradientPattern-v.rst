@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 15
-    :digest: 35f00c06ba9ae96d1c1a0abee8200cb9
+    :digest: ce2c2894d24a176f9f670d20144a86bc
 
-Linear gradient (set using a dedicated QBrush constructor).
+Linear gradient (set using a dedicated :sip:ref:`~PyQt6.QtGui.QBrush` constructor).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 4f641a4528d7a7aec9a3e12f4fe7ea27
 
-TODO
+Do basic caching for high performance at a low memory cost.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 204
-    :digest: bb4473bfcb97b3626230fca6fe6e1899
+    :digest: 1415aaab13b93fd69db0ef14ca53ab13
 
-The object needs to fill in its geometry information (QScrollPrepareEvent).
+The object needs to fill in its geometry information (\ :sip:ref:`~PyQt6.QtGui.QScrollPrepareEvent`).

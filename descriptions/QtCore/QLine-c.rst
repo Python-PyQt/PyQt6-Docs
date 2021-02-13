@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Two-dimensional vector using integer precision
-    :digest: 0419514203796dd8736d738d5782bab8
+    :digest: c2526f8606187c023deb8ae2914513b9
 
 The :sip:ref:`~PyQt6.QtCore.QLine` class provides a two-dimensional vector using integer precision.
 
@@ -15,7 +15,7 @@ The positions of the line's start and end points can be retrieved using the :sip
 
 Finally, the line can be translated a given offset using the :sip:ref:`~PyQt6.QtCore.QLine.translate` function.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QLineF`, :sip:ref:`~PyQt6.QtCore.QRect`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QLineF`, :sip:ref:`~PyQt6.QtGui.QPolygon`, :sip:ref:`~PyQt6.QtCore.QRect`.
 
 .. |image-qline-point-png| image:: ../../../images/qline-point.png
 .. |image-qline-coordinates-png| image:: ../../../images/qline-coordinates.png

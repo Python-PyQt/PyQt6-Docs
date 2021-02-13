@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00001000
     :realname: QPaintEngine::PaintEngineFeature::ConstantOpacity
+    :digest: 09be18a75bba7d2b56562fce7ef6aaf6
 
-TODO
+The engine supports the feature provided by :sip:ref:`~PyQt6.QtGui.QPainter.setOpacity`.

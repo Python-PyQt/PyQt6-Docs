@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a rectangle in the plane using integer precision
-    :digest: 31759c55ebe99a60ee7ae6a52e32cc6b
+    :digest: ef2f510d4ce8c7b49a3c9aff7b8078bb
 
 The :sip:ref:`~PyQt6.QtCore.QRect` class defines a rectangle in the plane using integer precision.
 
@@ -37,7 +37,7 @@ Finally, :sip:ref:`~PyQt6.QtCore.QRect` objects can be streamed as well as compa
 Rendering
 ---------
 
-When using an anti-aliased painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRect` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
+When using an :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.Antialiasing` painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRect` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
 
 Then, when rendering with a one pixel wide pen the :sip:ref:`~PyQt6.QtCore.QRect`'s boundary line will be rendered to the right and below the mathematical rectangle's boundary line.
 
@@ -79,7 +79,7 @@ Constraints
 
 :sip:ref:`~PyQt6.QtCore.QRect` is limited to the minimum and maximum values for the ``int`` type. Operations on a :sip:ref:`~PyQt6.QtCore.QRect` that could potentially result in values outside this range will result in undefined behavior.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QRectF`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QRectF`, :sip:ref:`~PyQt6.QtGui.QRegion`.
 
 .. |image-qrect-intersect-png| image:: ../../../images/qrect-intersect.png
 .. |image-qrect-unite-png| image:: ../../../images/qrect-unite.png

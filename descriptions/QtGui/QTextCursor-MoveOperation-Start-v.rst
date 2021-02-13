@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 70a95c2e012fe8022965661617ee89f9
 
-TODO
+Move to the start of the document.

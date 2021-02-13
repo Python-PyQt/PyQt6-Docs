@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2
+    :digest: aafcb34c2958baaa872ac301ad9ef40f
 
-TODO
+OpenGL ES 2.0 rendering

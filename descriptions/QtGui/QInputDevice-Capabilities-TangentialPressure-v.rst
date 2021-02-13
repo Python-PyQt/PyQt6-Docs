@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000
     :realname: QInputDevice::Capability::TangentialPressure
+    :digest: 8873174632c17a821c5f4eb6b6ad9da1
 
-TODO
+Indicates that :sip:ref:`~PyQt6.QtGui.QTabletEvent.tangentialPressure` information is available.

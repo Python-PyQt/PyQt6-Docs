@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 209
-    :digest: 6b8c57ce6f5dadcaf38bcab6a6329cfb
+    :digest: 7d799f3d6c6a176fe509e018924bfcd7
 
-Cancellation of touch-event sequence (QTouchEvent).
+Cancellation of touch-event sequence (\ :sip:ref:`~PyQt6.QtGui.QTouchEvent`).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 1a05a81e152aaed04f8c14fddee05c09
 
-TODO
+Underlines draw drawn using :sip:ref:`~PyQt6.QtCore.Qt.PenStyle.DashDotDotLine`.

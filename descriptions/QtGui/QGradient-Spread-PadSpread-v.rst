@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: e134db3b1561cc4f166eff77232775b4
 
-TODO
+The area is filled with the closest stop color. This is the default.

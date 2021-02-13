@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a point in the plane using integer precision
-    :digest: 6825f12155e020cf116d14a72c28c166
+    :digest: f18b2f7c20de99f0cb457c4b4557b5f6
 
 The :sip:ref:`~PyQt6.QtCore.QPoint` class defines a point in the plane using integer precision.
 
@@ -16,4 +16,4 @@ A :sip:ref:`~PyQt6.QtCore.QPoint` object can also be used as a vector: Addition 
 
 In addition, the :sip:ref:`~PyQt6.QtCore.QPoint` class provides the :sip:ref:`~PyQt6.QtCore.QPoint.manhattanLength` function which gives an inexpensive approximation of the length of the :sip:ref:`~PyQt6.QtCore.QPoint` object interpreted as a vector. Finally, :sip:ref:`~PyQt6.QtCore.QPoint` objects can be streamed as well as compared.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QPointF`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QPointF`, :sip:ref:`~PyQt6.QtGui.QPolygon`.

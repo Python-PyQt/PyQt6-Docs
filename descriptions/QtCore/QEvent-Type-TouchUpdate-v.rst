@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 195
-    :digest: ee90d4e77fcac390e5cc811dde5270d4
+    :digest: 078b6660bd613b1f726c5830e1a1b293
 
-Touch-screen event (QTouchEvent).
+Touch-screen event (\ :sip:ref:`~PyQt6.QtGui.QTouchEvent`).

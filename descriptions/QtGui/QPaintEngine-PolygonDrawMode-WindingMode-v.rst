@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 4fa5e06707b9b875281cfc6b31e5b4d8
 
-TODO
+The polygon should be drawn using Winding fill rule.

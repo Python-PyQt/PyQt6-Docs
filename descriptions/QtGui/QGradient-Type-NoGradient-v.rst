@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 42422937ce570de0898f773dff4c780c
 
-TODO
+No gradient is used.

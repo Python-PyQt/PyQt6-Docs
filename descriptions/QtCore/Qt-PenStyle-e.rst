@@ -1,8 +1,8 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0ba49a24e2ac05beb023c5c886d3a9d2
+    :digest: e15c41ea5abd0ac333ce399aa0d3fdfa
 
-This enum type defines the pen styles that can be drawn using QPainter. The styles are:
+This enum type defines the pen styles that can be drawn using :sip:ref:`~PyQt6.QtGui.QPainter`. The styles are:
 
 +--------------------------+-----------------------------+-------------------------+
 | |image-qpen-solid-png|   | |image-qpen-dash-png|       | |image-qpen-dot-png|    |

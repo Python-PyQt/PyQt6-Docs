@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0
+    :digest: be485a0fab757ae4602bf23513ef15b8
 
-TODO
+The default, unspecified rendering method

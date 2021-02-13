@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 196
-    :digest: 6712af2c9d7741cffbc10915f72c107b
+    :digest: 8fb90c855fb710c47fb4d63ae1e2d33d
 
-End of touch-event sequence (QTouchEvent).
+End of touch-event sequence (\ :sip:ref:`~PyQt6.QtGui.QTouchEvent`).

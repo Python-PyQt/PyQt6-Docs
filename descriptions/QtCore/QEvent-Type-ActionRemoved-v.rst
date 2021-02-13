@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 115
-    :digest: 5f2c97eb13f02bfa16c67dff3952d0ea
+    :digest: 123e805eb79048b24b56e2de80446ae9
 
-An action has been removed (QActionEvent).
+An action has been removed (\ :sip:ref:`~PyQt6.QtGui.QActionEvent`).

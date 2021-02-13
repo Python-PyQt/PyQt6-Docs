@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: OldEnglish
+    :digest: 5fc2d9309954efbcfdb7c20da4c3dbde
 
-TODO
+is a synonym for ``OldEnglish``.

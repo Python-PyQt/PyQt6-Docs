@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 31e14a66fc7ae73172d3ab33af80bea1
+    :digest: e047cbaa420c7d84d04f33ce84e07ae9
 
-This enum contains the types of accuracy that can be used by the QTextDocument class when testing for mouse clicks on text documents.
+This enum contains the types of accuracy that can be used by the :sip:ref:`~PyQt6.QtGui.QTextDocument` class when testing for mouse clicks on text documents.

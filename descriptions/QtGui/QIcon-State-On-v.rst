@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: e1636807b7e4f2f63064f7222ebcbc27
 
-TODO
+Display the pixmap when the widget is in an "on" state

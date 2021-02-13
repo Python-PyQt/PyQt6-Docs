@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 87
-    :digest: 754bdf9ee822c3db11334ee8f70695d8
+    :digest: 95b472044f4b34687494c3df2231b36d
 
-Wacom tablet move (QTabletEvent).
+Wacom tablet move (\ :sip:ref:`~PyQt6.QtGui.QTabletEvent`).

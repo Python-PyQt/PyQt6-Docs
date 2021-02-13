@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Acts like a union for the most common Qt data types
-    :digest: 9f9f9b2dcec52cbbc1b12dfae3b0c6e9
+    :digest: 8fb372bb7b3f254bb495c10f57847336
 
 The `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ class acts like a union for the most common Qt data types.
 
@@ -30,12 +30,12 @@ You can even store QList<`QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.ht
 A Note on GUI Types
 -------------------
 
-Because `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ is part of the Qt Core module, it cannot provide conversion functions to data types defined in Qt GUI, such as QColor, QImage, and QPixmap. In other words, there is no ``toColor()`` function. Instead, you can use the :sip:ref:`~PyQt6.QtCore.QVariant.value` or the qvariant_cast() template function. For example:
+Because `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ is part of the Qt Core module, it cannot provide conversion functions to data types defined in Qt GUI, such as :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtGui.QImage`, and :sip:ref:`~PyQt6.QtGui.QPixmap`. In other words, there is no ``toColor()`` function. Instead, you can use the :sip:ref:`~PyQt6.QtCore.QVariant.value` or the qvariant_cast() template function. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qvariant.py
     :lines: 83-85
 
-The inverse conversion (e.g., from QColor to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_) is automatic for all data types supported by `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, including GUI-related types:
+The inverse conversion (e.g., from :sip:ref:`~PyQt6.QtGui.QColor` to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_) is automatic for all data types supported by `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, including GUI-related types:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qvariant.py
     :lines: 90-91

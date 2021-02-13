@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0080
+    :digest: 29ba9ab063514cd284af3146873f1555
 
-TODO
+antialias if possible.

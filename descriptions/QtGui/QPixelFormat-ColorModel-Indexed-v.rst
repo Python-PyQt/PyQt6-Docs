@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: acd4509cf9588d4511d3533b3ea654f5
 
-TODO
+The color model uses a color palette.

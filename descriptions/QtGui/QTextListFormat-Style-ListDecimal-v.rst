@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -4
+    :digest: 7d58b9f3a3232f4c63a65a1b4edbaa81
 
-TODO
+decimal values in ascending order

@@ -240,18 +240,37 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
 #WebXMLMetadata('qtdesigner',
 #        qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
 #        more_images='qttools/examples/designer/doc')
-#WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
-#        more_images='qtbase/doc/src',
-#        locations={
-#            'qAlpha': 'qcolor',
-#            'qBlue': 'qcolor',
-#            'qGray': 'qcolor',
-#            'qGreen': 'qcolor',
-#            'qRed': 'qcolor',
-#            'qRgb': 'qcolor',
-#            'qRgba': 'qcolor',
-#            'qt_set_sequence_auto_mnemonic': 'qkeysequence',
-#        })
+WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
+        more_images='qtbase/doc/src',
+        locations={
+            'QColorConstants::Svg': 'qcolorconstants',
+            'QMatrix2x2': 'qgenericmatrix',
+            'QMatrix2x3': 'qgenericmatrix',
+            'QMatrix2x4': 'qgenericmatrix',
+            'QMatrix3x2': 'qgenericmatrix',
+            'QMatrix3x3': 'qgenericmatrix',
+            'QMatrix3x4': 'qgenericmatrix',
+            'QMatrix4x2': 'qgenericmatrix',
+            'QMatrix4x3': 'qgenericmatrix',
+            'qAlpha': 'qcolor',
+            'qBlue': 'qcolor',
+            'qFuzzyCompare': 'qtransform',
+            'qGray': 'qcolor',
+            'qGreen': 'qcolor',
+            'qPixelFormatAlpha': 'qpixelformat',
+            'qPixelFormatCmyk': 'qpixelformat',
+            'qPixelFormatGrayscale': 'qpixelformat',
+            'qPixelFormatHsl': 'qpixelformat',
+            'qPixelFormatHsv': 'qpixelformat',
+            'qPixelFormatRgba': 'qpixelformat',
+            'qPixelFormatYuv': 'qpixelformat',
+            'qPremultiply': 'qcolor',
+            'qRed': 'qcolor',
+            'qRgb': 'qcolor',
+            'qRgba': 'qcolor',
+            'qUnpremultiply': 'qcolor',
+            'qt_set_sequence_auto_mnemonic': 'qkeysequence',
+        })
 #WebXMLMetadata('qthelp',
 #        qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
 #WebXMLMetadata('qtlocation',
@@ -396,7 +415,7 @@ ModuleMetadata('QtCore', webxml='qtcore')
 #ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
 #ModuleMetadata('QtDBus', webxml='qtdbus')
 #ModuleMetadata('QtDesigner', webxml='qtdesigner')
-#ModuleMetadata('QtGui', webxml='qtgui')
+ModuleMetadata('QtGui', webxml='qtgui')
 #ModuleMetadata('QtHelp', webxml='qthelp')
 #ModuleMetadata('QtLocation', webxml='qtlocation')
 #ModuleMetadata('QtMacExtras', webxml='qtmacextras')
@@ -427,9 +446,9 @@ ModuleMetadata('QtCore', webxml='qtcore')
 #ModuleMetadata('QtWinExtras', webxml='qtwinextras')
 #ModuleMetadata('QtX11Extras', webxml='qtx11extras')
 #ModuleMetadata('QtXml', webxml='qtxml')
-#ModuleMetadata('lupdate')
-#ModuleMetadata('sip')
-#ModuleMetadata('uic')
+ModuleMetadata('lupdate')
+ModuleMetadata('sip')
+ModuleMetadata('uic')
 
 
 class Module:

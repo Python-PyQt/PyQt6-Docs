@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 2c7b03b2323d5e41c18773135c5d3cea
 
-TODO
+Activate "what's this".

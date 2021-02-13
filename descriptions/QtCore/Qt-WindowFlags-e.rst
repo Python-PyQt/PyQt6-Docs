@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::WindowType
-    :digest: a8c1b5b8d02cf51c0b63da738a9414fe
+    :digest: 119b21fb93b312b28b459b06bba13117
 
 This enum type is used to specify various window-system properties for the widget. They are fairly unusual but necessary in a few cases. Some of these flags depend on whether the underlying window manager supports them.
 

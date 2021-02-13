@@ -1,8 +1,8 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 768672bd38135c5b67aa6846920e5a45
+    :digest: 22b9764316751c588c105d9e976ebd7d
 
-This enum type defines the pen join styles supported by Qt, i.e. which joins between two connected lines can be drawn using QPainter.
+This enum type defines the pen join styles supported by Qt, i.e. which joins between two connected lines can be drawn using :sip:ref:`~PyQt6.QtGui.QPainter`.
 
 +------------------------+------------------------+----------------------------+
 | |image-qpen-bevel-png| | |image-qpen-miter-png| | |image-qpen-roundjoin-png| |

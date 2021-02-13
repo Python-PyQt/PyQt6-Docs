@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: dbc0a9851931affde1bf3de275736283
 
-TODO
+The image is stored using 8-bit indexes into a colormap.

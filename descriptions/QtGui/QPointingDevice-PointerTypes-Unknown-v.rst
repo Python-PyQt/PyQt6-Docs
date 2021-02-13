@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
     :realname: QPointingDevice::PointerType::Unknown
+    :digest: e4c9da5e04fe1ea5c39b5278ac9e860b
 
-TODO
+The pointer type is unknown.

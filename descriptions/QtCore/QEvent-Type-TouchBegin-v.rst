@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 194
-    :digest: 1300c9e8655a7393d9aaaa7ca404b7ef
+    :digest: d9390f047e77820bf3f85d8f413d502f
 
-Beginning of a sequence of touch-screen or track-pad events (QTouchEvent).
+Beginning of a sequence of touch-screen or track-pad events (\ :sip:ref:`~PyQt6.QtGui.QTouchEvent`).

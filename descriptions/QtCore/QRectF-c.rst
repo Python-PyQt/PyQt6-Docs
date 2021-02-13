@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a rectangle in the plane using floating point precision
-    :digest: 4a4911309138cb7c5aadc811b3a2776d
+    :digest: 68f45c51f9ecce5534c58c2412c94be8
 
 The :sip:ref:`~PyQt6.QtCore.QRectF` class defines a rectangle in the plane using floating point precision.
 
@@ -37,7 +37,7 @@ Finally, :sip:ref:`~PyQt6.QtCore.QRectF` objects can be streamed as well as comp
 Rendering
 ---------
 
-When using an anti-aliased painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRectF` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
+When using an :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.Antialiasing` painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRectF` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
 
 Then, when rendering with a one pixel wide pen the :sip:ref:`~PyQt6.QtCore.QRectF`'s boundary line will be rendered to the right and below the mathematical rectangle's boundary line.
 
@@ -68,7 +68,7 @@ It is also possible to add offsets to this rectangle's coordinates using the :si
 
 In addition, :sip:ref:`~PyQt6.QtCore.QRectF` provides the :sip:ref:`~PyQt6.QtCore.QRectF.getCoords` function which extracts the position of the rectangle's top-left and bottom-right corner, and the :sip:ref:`~PyQt6.QtCore.QRectF.getRect` function which extracts the rectangle's top-left corner, width and height. Use the :sip:ref:`~PyQt6.QtCore.QRectF.setCoords` and :sip:ref:`~PyQt6.QtCore.QRectF.setRect` function to manipulate the rectangle's coordinates and dimensions in one go.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QRect`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QRect`, :sip:ref:`~PyQt6.QtGui.QRegion`.
 
 .. |image-qrect-intersect-png| image:: ../../../images/qrect-intersect.png
 .. |image-qrect-unite-png| image:: ../../../images/qrect-unite.png

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
     :realname: QGlyphRun::GlyphRunFlag::Overline
+    :digest: cfad8ee86d07047be2b2ef7145b61014
 
-TODO
+Indicates that the glyphs should be visualized together with an overline.

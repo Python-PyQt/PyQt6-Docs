@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 16
-    :digest: 11b9710eb3e82088f383f617f1f66a7a
+    :digest: 71332055cbb50b75477b5660b01dca03
 
-Radial gradient (set using a dedicated QBrush constructor).
+Radial gradient (set using a dedicated :sip:ref:`~PyQt6.QtGui.QBrush` constructor).

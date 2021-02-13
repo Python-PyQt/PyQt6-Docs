@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 3eca4e9f5f8902ae3c75291d77b9e22b
 
-TODO
+The image is invalid.

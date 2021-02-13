@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::MouseButton
-    :digest: fccbd4005ef116a6f37b7affff1bced2
+    :digest: 56e426805cd55263aeea522bb4e2cb67
 
 This enum type describes the different mouse buttons.
 

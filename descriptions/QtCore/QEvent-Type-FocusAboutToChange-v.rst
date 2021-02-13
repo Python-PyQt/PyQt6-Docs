@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 23
-    :digest: 8db31e6ab547c663b225e481ed8851db
+    :digest: 3b3607484cedac1999d54dd83ef6af9e
 
-Widget or Window focus is about to change (QFocusEvent)
+Widget or Window focus is about to change (\ :sip:ref:`~PyQt6.QtGui.QFocusEvent`)

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 208
-    :digest: d7f2f94aa001f1755efc19c230ed412b
+    :digest: c7e09dcf1feaea1d6ad5ea7380534fbd
 
 The screens orientation has changes (QScreenOrientationChangeEvent).

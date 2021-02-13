@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4010
+    :digest: 15ad0da7b163923eb42012f1730e47ed
 
-TODO
+See the :sip:ref:`~PyQt6.QtGui.QTextFrameFormat.BorderStyle` enum.

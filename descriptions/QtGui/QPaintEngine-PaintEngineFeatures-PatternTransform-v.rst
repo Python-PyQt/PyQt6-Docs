@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000002
     :realname: QPaintEngine::PaintEngineFeature::PatternTransform
+    :digest: 4118b2a3cd52ae8b5af3866dae45e2b8
 
-TODO
+The engine has support for transforming brush patterns.

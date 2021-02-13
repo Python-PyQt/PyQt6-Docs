@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: ef15d7576dc727e4464d9fadd85c17f1
 
-TODO
+This alters the text to be rendered with the first character of each word as an uppercase character.
