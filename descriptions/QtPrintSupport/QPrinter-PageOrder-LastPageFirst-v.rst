@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 25d900acc006e74f6e1fda2cbb91fe40
 
-TODO
+the highest-numbered page should be printed first.

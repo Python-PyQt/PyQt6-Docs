@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8D98
+    :digest: ebac98bac76d185302033110b845e935
 
-TODO
+Equivalent to GL_RGB_INTEGER

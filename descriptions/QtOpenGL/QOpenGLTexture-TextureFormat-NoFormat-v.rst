@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 6b51306ff5b74c1f0211c4d0ba182ebf
 
-TODO
+Equivalent to GL_NONE

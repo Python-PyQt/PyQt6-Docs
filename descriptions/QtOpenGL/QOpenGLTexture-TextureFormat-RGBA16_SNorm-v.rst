@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8F9B
+    :digest: eb545d00b273bf955f14f220fda0e3bd
 
-TODO
+Equivalent to GL_RGBA16_SNORM

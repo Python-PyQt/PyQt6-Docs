@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of objects that can be painted on with QPainter
-    :digest: 276ccdee294d65d3a29ae797c256c68d
+    :digest: efbf360adb4f848a9d14eeff8d3c7ca4
 
 The :sip:ref:`~PyQt6.QtGui.QPaintDevice` class is the base class of objects that can be painted on with :sip:ref:`~PyQt6.QtGui.QPainter`.
 
 A paint device is an abstraction of a two-dimensional space that can be drawn on using a :sip:ref:`~PyQt6.QtGui.QPainter`. Its default coordinate system has its origin located at the top-left position. X increases to the right and Y increases downwards. The unit is one pixel.
 
-The drawing capabilities of :sip:ref:`~PyQt6.QtGui.QPaintDevice` are currently implemented by the `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, :sip:ref:`~PyQt6.QtGui.QImage`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QPicture`, and QPrinter subclasses.
+The drawing capabilities of :sip:ref:`~PyQt6.QtGui.QPaintDevice` are currently implemented by the `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, :sip:ref:`~PyQt6.QtGui.QImage`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QPicture`, and :sip:ref:`~PyQt6.QtPrintSupport.QPrinter` subclasses.
 
 To implement support for a new backend, you must derive from :sip:ref:`~PyQt6.QtGui.QPaintDevice` and reimplement the virtual :sip:ref:`~PyQt6.QtGui.QPaintDevice.paintEngine` function to tell :sip:ref:`~PyQt6.QtGui.QPainter` which paint engine should be used to draw on this particular device. Note that you also must create a corresponding paint engine to be able to draw on the device, i.e derive from :sip:ref:`~PyQt6.QtGui.QPaintEngine` and reimplement its virtual functions.
 

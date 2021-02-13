@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a native OpenGL context, enabling OpenGL rendering on a QSurface
-    :digest: f63cd87d2f2767817575a3373e222c97
+    :digest: 6dbcb263680a321f214e086177997826
 
 The `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ class represents a native OpenGL context, enabling OpenGL rendering on a :sip:ref:`~PyQt6.QtGui.QSurface`.
 
@@ -11,11 +11,11 @@ A context can be made current against a given surface by calling :sip:ref:`~PyQt
 
 If the context is temporarily not needed, such as when the application is not rendering, it can be useful to delete it in order to free resources. You can connect to the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.aboutToBeDestroyed` signal to clean up any resources that have been allocated with different ownership from the `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ itself.
 
-Once a `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ has been made current, you can render to it in a platform independent way by using Qt's OpenGL enablers such as QOpenGLFunctions, QOpenGLBuffer, QOpenGLShaderProgram, and QOpenGLFramebufferObject. It is also possible to use the platform's OpenGL API directly, without using the Qt enablers, although potentially at the cost of portability. The latter is necessary when wanting to use OpenGL 1.x or OpenGL ES 1.x.
+Once a `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ has been made current, you can render to it in a platform independent way by using Qt's OpenGL enablers such as QOpenGLFunctions, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram`, and :sip:ref:`~PyQt6.QtOpenGL.QOpenGLFramebufferObject`. It is also possible to use the platform's OpenGL API directly, without using the Qt enablers, although potentially at the cost of portability. The latter is necessary when wanting to use OpenGL 1.x or OpenGL ES 1.x.
 
 For more information about the OpenGL API, refer to the official `OpenGL documentation <http://www.opengl.org>`_.
 
-For an example of how to use `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ see the OpenGL Window example.
+For an example of how to use `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ see the `OpenGL Window <https://doc.qt.io/qt-6/qtopengl-openglwindow-example.html>`_ example.
 
 .. _qopenglcontext-thread-affinity:
 
@@ -38,4 +38,4 @@ Default Framebuffer
 
 On certain platforms, a framebuffer other than 0 might be the default frame buffer depending on the current surface. Instead of calling glBindFramebuffer(0), it is recommended that you use glBindFramebuffer(ctx->\ :sip:ref:`~PyQt6.QtGui.QOpenGLContext.defaultFramebufferObject`), to ensure that your application is portable between different platforms. However, if you use QOpenGLFunctions::glBindFramebuffer(), this is done automatically for you.
 
-.. seealso:: QOpenGLFunctions.
+.. seealso:: QOpenGLFunctions, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLFramebufferObject`.

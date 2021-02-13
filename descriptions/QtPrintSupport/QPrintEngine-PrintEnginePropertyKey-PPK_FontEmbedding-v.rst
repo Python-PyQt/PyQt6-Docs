@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: e869a44cf24fc11f97929eaebaf46f84
 
-TODO
+A boolean value indicating whether data for the document's fonts should be embedded in the data sent to the printer.

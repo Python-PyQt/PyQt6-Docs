@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 5f8ef9a7039a747a5e697fd71ec458a9
 
-TODO
+An integer specifying the number of copies to print.

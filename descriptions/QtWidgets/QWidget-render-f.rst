@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fb15fff4590d6fe7ba294e27399ddf10
     :realsig: (QPaintDevice*,const QPoint&,const QRegion&,QWidget::RenderFlags)
-    :digest: 5b4962ea9ff9774bdadd4b33ee7c17b8
+    :digest: ce79c339c463911ea6aaf23bdba17a95
 
 Renders the *sourceRegion* of this widget into the *target* using *renderFlags* to determine how to render. Rendering starts at *targetOffset* in the *target*. For example:
 
@@ -16,4 +16,4 @@ Ensure that you call :sip:ref:`~PyQt6.QtGui.QPainter.end` for the *target* devic
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_kernel_qwidget.py
     :lines: 99-102
 
-**Note:** To obtain the contents of a QOpenGLWidget, use QOpenGLWidget::grabFramebuffer() instead.
+**Note:** To obtain the contents of a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`, use :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.grabFramebuffer` instead.

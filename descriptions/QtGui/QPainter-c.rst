@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: 278f7822903061a25863b19900d572c3
+    :digest: 1823a2d12154eeb645735a4380161d24
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -99,7 +99,7 @@ Text drawing is done using :sip:ref:`~PyQt6.QtGui.QPainter.drawText`. When you n
 Drawing Pixmaps and Images
 --------------------------
 
-There are functions to draw pixmaps/images, namely :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` and :sip:ref:`~PyQt6.QtGui.QPainter.drawTiledPixmap`. Both :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap` and :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` produce the same result, except that :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap` is faster on-screen while :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` may be faster on a QPrinter or other devices.
+There are functions to draw pixmaps/images, namely :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` and :sip:ref:`~PyQt6.QtGui.QPainter.drawTiledPixmap`. Both :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap` and :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` produce the same result, except that :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap` is faster on-screen while :sip:ref:`~PyQt6.QtGui.QPainter.drawImage` may be faster on a :sip:ref:`~PyQt6.QtPrintSupport.QPrinter` or other devices.
 
 There is a :sip:ref:`~PyQt6.QtGui.QPainter.drawPicture` function that draws the contents of an entire :sip:ref:`~PyQt6.QtGui.QPicture`. The :sip:ref:`~PyQt6.QtGui.QPainter.drawPicture` function is the only function that disregards all the painter's settings as :sip:ref:`~PyQt6.QtGui.QPicture` has its own settings.
 
@@ -210,7 +210,7 @@ The backends we focus on as high-performance engines are:
 
 * Raster - This backend implements all rendering in pure software and is always used to render into QImages. For optimal performance only use the format types :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32_Premultiplied`, :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB32` or :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16`. Any other format, including :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32`, has significantly worse performance. This engine is used by default for `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ and :sip:ref:`~PyQt6.QtGui.QPixmap`.
 
-* OpenGL 2.0 (ES) - This backend is the primary backend for hardware accelerated graphics. It can be run on desktop machines and embedded devices supporting the OpenGL 2.0 or OpenGL/ES 2.0 specification. This includes most graphics chips produced in the last couple of years. The engine can be enabled by using :sip:ref:`~PyQt6.QtGui.QPainter` onto a QOpenGLWidget.
+* OpenGL 2.0 (ES) - This backend is the primary backend for hardware accelerated graphics. It can be run on desktop machines and embedded devices supporting the OpenGL 2.0 or OpenGL/ES 2.0 specification. This includes most graphics chips produced in the last couple of years. The engine can be enabled by using :sip:ref:`~PyQt6.QtGui.QPainter` onto a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`.
 
 These operations are:
 

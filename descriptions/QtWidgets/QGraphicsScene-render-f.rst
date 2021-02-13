@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 83b33bce1fe6e1874db5a88f4c0b5efb
     :realsig: (QPainter*,const QRectF&,const QRectF&,Qt::AspectRatioMode)
-    :digest: ef063385b2cdd527a89ae83cba692905
+    :digest: 4e5eb270dfa4557df490aa42f2434a45
 
-Renders the *source* rect from scene into *target*, using *painter*. This function is useful for capturing the contents of the scene onto a paint device, such as a :sip:ref:`~PyQt6.QtGui.QImage` (e.g., to take a screenshot), or for printing with QPrinter. For example:
+Renders the *source* rect from scene into *target*, using *painter*. This function is useful for capturing the contents of the scene onto a paint device, such as a :sip:ref:`~PyQt6.QtGui.QImage` (e.g., to take a screenshot), or for printing with :sip:ref:`~PyQt6.QtPrintSupport.QPrinter`. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_graphicsview_qgraphicsscene.py
     :lines: 63-70

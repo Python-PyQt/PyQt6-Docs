@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8513
+    :digest: 0a9851d3d307f2c6e47e96b2758c4385
 
-TODO
+A cubemap texture. Equivalent to GL_TEXTURE_CUBE_MAP

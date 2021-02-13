@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8235
+    :digest: 39a459aad62694f69789790caf358efe
 
-TODO
+Equivalent to GL_R32I

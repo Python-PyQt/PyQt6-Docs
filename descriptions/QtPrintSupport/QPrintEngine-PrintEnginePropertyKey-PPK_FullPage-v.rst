@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: c1620c56b3fabeb175086bb049a78777
 
-TODO
+A boolean describing if the printer should be full page or not.

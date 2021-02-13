@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8815
+    :digest: a95a85872be52cffdc568f7b82f93fab
 
-TODO
+Equivalent to GL_RGB32F

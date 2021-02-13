@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8D7D
+    :digest: 7782fcebb309c6daef6b06c373fb0d4e
 
-TODO
+Equivalent to GL_RGB8UI

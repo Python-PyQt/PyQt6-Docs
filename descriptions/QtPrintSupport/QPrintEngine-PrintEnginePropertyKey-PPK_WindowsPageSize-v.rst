@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 2088c56b977e4f5ba42c82ef957be295
 
-TODO
+An integer specifying a DM_PAPER entry on Windows.

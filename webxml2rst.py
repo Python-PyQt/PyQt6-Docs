@@ -296,11 +296,11 @@ WebXMLMetadata('qtnetwork',
 #WebXMLMetadata('qtnetworkauth',
 #        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf')
 #WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
-#WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
+WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
 #WebXMLMetadata('qtpositioning',
 #        qdocconf='qtlocation/src/positioning/doc/qtpositioning.qdocconf')
-#WebXMLMetadata('qtprintsupport',
-#        qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
+WebXMLMetadata('qtprintsupport',
+        qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
 #WebXMLMetadata('qtpurchasing',
 #        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
 #WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf')
@@ -446,9 +446,9 @@ ModuleMetadata('QtHelp', webxml='qthelp')
 ModuleMetadata('QtNetwork', webxml='qtnetwork')
 #ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
 #ModuleMetadata('QtNfc', webxml='qtnfc')
-#ModuleMetadata('QtOpenGL', webxml='qtopengl')
+ModuleMetadata('QtOpenGL', webxml='qtopengl')
 #ModuleMetadata('QtPositioning', webxml='qtpositioning')
-#ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
+ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
 #ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
 #ModuleMetadata('QtQml', webxml='qtqml')
 #ModuleMetadata('QtQuick', webxml='qtquick')

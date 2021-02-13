@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 17
+    :digest: 17893bce44b7bfbfcff1bec5956e233f
 
-TODO
+A list of integer QVariants describing the set of supported resolutions that the printer has.

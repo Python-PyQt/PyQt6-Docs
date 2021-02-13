@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000040
     :realname: QOpenGLTexture::Feature::TextureBuffer
+    :digest: 0e12ceade3beafacdd7d0bdf4b7f37b3
 
-TODO
+Support for textures that use OpenGL buffer objects as their data source

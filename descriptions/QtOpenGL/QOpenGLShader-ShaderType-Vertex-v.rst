@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0001
     :realname: QOpenGLShader::ShaderTypeBit::Vertex
+    :digest: 76c85711791c276c7491f047d1adf68f
 
-TODO
+Vertex shader written in the OpenGL Shading Language (GLSL).

@@ -1,5 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: QOpenGLDebugMessage::Source
+    :digest: ad5f6c5d230cb388ace389e7eca3dc5f
 
-TODO
+The Source enum defines the source of the debug message.

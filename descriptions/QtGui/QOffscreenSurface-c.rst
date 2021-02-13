@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents an offscreen surface in the underlying platform
-    :digest: 5e2e44d93b20a6c85c1b43361c793a4c
+    :digest: 7a7317b5faf64af85ccb9df47edf6843
 
 The :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` class represents an offscreen surface in the underlying platform.
 
@@ -9,7 +9,7 @@ The :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` class represents an offscreen surf
 
 Even though the surface is typically renderable, the surface's pixels are not accessible. :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` should only be used to create OpenGL resources such as textures or framebuffer objects.
 
-An application will typically use :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` to perform some time-consuming tasks in a separate thread in order to avoid stalling the main rendering thread. Resources created in the :sip:ref:`~PyQt6.QtGui.QOffscreenSurface`'s context can be shared with the main OpenGL context. Some common use cases are asynchronous texture uploads or rendering into a QOpenGLFramebufferObject.
+An application will typically use :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` to perform some time-consuming tasks in a separate thread in order to avoid stalling the main rendering thread. Resources created in the :sip:ref:`~PyQt6.QtGui.QOffscreenSurface`'s context can be shared with the main OpenGL context. Some common use cases are asynchronous texture uploads or rendering into a :sip:ref:`~PyQt6.QtOpenGL.QOpenGLFramebufferObject`.
 
 How the offscreen surface is implemented depends on the underlying platform, but it will typically use a pixel buffer (pbuffer). If the platform doesn't implement or support offscreen surfaces, :sip:ref:`~PyQt6.QtGui.QOffscreenSurface` will use an invisible :sip:ref:`~PyQt6.QtGui.QWindow` internally.
 
