@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 75
+    :digest: ab85a12cdb96fc0bd384c207d97980f5
 
-TODO
+The mask of a tool tip.

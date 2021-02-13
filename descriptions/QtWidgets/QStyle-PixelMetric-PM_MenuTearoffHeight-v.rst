@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: badf244429e94f81565d9aeba5fbf7a5
 
-TODO
+Height of a tear off area in a :sip:ref:`~PyQt6.QtWidgets.QMenu`.

@@ -309,8 +309,18 @@ WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
 #        qdocconf='qtwebengine/src/webengine/doc/qtwebengine.qdocconf')
 #WebXMLMetadata('qtwebsockets',
 #        qdocconf='qtwebsockets/src/websockets/doc/qtwebsockets.qdocconf')
-#WebXMLMetadata('qtwidgets',
-#        qdocconf='qtbase/src/widgets/doc/qtwidgets.qdocconf')
+WebXMLMetadata('qtwidgets',
+        qdocconf='qtbase/src/widgets/doc/qtwidgets.qdocconf',
+        locations={
+            'QWIDGETSIZE_MAX': 'qwidget',
+            'qDrawBorderPixmap': 'qdrawutil-h',
+            'qDrawPlainRect': 'qdrawutil-h',
+            'qDrawShadeLine': 'qdrawutil-h',
+            'qDrawShadePanel': 'qdrawutil-h',
+            'qDrawShadeRect': 'qdrawutil-h',
+            'qDrawWinButton': 'qdrawutil-h',
+            'qDrawWinPanel': 'qdrawutil-h',
+        })
 #WebXMLMetadata('qtwinextras',
 #        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
 #WebXMLMetadata('qtx11extras',
@@ -410,7 +420,7 @@ class ModuleMetadata:
 #ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
 #ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
 #ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
-#ModuleMetadata('QtChart', webxml='qtcharts')
+#ModuleMetadata('QtCharts', webxml='qtcharts')
 ModuleMetadata('QtCore', webxml='qtcore')
 #ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
 #ModuleMetadata('QtDBus', webxml='qtdbus')
@@ -442,7 +452,7 @@ ModuleMetadata('QtGui', webxml='qtgui')
 #ModuleMetadata('QtWebEngineCore', webxml='qtwebengine')
 #ModuleMetadata('QtWebEngineWidgets', webxml='qtwebengine')
 #ModuleMetadata('QtWebSockets', webxml='qtwebsockets')
-#ModuleMetadata('QtWidgets', webxml='qtwidgets')
+ModuleMetadata('QtWidgets', webxml='qtwidgets')
 #ModuleMetadata('QtWinExtras', webxml='qtwinextras')
 #ModuleMetadata('QtX11Extras', webxml='qtx11extras')
 #ModuleMetadata('QtXml', webxml='qtxml')
@@ -845,6 +855,11 @@ class Description:
 
             elif sub_el.tag == 'image':
                 self._render_image(fmt, sub_el, context)
+
+            elif sub_el.tag == 'index':
+                # This only seems to be used once (maybe it's a bug) and the
+                # element text is discarded, so we do the same.
+                pass
 
             elif sub_el.tag == 'legalese':
                 fmt.write_line('.. container:: legalese')

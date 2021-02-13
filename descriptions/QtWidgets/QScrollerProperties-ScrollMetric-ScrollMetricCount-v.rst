@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: fc1f140d844b78ad4fc6e4c738705a3e
 
-TODO
+This is always the last entry.

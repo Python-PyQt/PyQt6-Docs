@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 87
+    :digest: fdc4401eb4fd78f3ae36925267063cd2
 
-TODO
+Determines if the tool bar is movable by default.

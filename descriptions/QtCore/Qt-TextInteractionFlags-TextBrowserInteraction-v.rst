@@ -2,6 +2,6 @@
     :status: todo
     :value: TextSelectableByMouse | LinksAccessibleByMouse | LinksAccessibleByKeyboard
     :realname: Qt::TextInteractionFlag::TextBrowserInteraction
-    :digest: ef41fd01e65daaa7376ca1221552f8a7
+    :digest: bdf246f7f9c6b1466d6a0aad295b9e4d
 
-The default for QTextBrowser.
+The default for :sip:ref:`~PyQt6.QtWidgets.QTextBrowser`.

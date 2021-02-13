@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 25
+    :digest: 8556b884f9cd98967e5ad73f97498d78
 
-TODO
+Area for the actual disclosure item in a tree branch.

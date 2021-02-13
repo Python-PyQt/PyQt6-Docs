@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 29
+    :digest: e87cc1a3b45a808689ef09f159d9cddc
 
-TODO
+Check mark used in a menu.

@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x00000012
     :realname: Qt::WindowType::SubWindow
-    :digest: e981a83eb71144de9c68a931cf1e436b
+    :digest: ab2ff36f2ca921efbfefe63f3c49534e
 
-Indicates that this widget is a sub-window, such as a QMdiSubWindow widget.
+Indicates that this widget is a sub-window, such as a :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow` widget.

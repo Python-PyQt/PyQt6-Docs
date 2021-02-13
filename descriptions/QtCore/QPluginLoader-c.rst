@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Loads a plugin at run-time
-    :digest: 4df7713a80db359d39f4e49e0133dd5d
+    :digest: 81d2da9d0b7d9e9d0744c487d184d57f
 
 The :sip:ref:`~PyQt6.QtCore.QPluginLoader` class loads a plugin at run-time.
 
@@ -21,4 +21,4 @@ See How to Create Qt Plugins for more information about how to make your applica
 
 Note that the :sip:ref:`~PyQt6.QtCore.QPluginLoader` cannot be used if your application is statically linked against Qt. In this case, you will also have to link to plugins statically. You can use :sip:ref:`~PyQt6.QtCore.QLibrary` if you need to load dynamic libraries in a statically linked application.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QLibrary`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QLibrary`, `Plug & Paint Example <https://doc.qt.io/qt-6/qtwidgets-tools-plugandpaint-app-example.html>`_.

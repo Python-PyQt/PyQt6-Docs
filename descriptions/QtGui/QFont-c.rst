@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies a query for a font used for drawing text
-    :digest: b3475c4bd420fcb6ba61dd4fa9d2d477
+    :digest: 0f3ce89b01a85a1ba27b8a472a174866
 
 The `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_ class specifies a query for a font used for drawing text.
 
@@ -90,4 +90,4 @@ To find out font metrics use a :sip:ref:`~PyQt6.QtGui.QFontMetrics` object, e.g.
 
 For more general information on fonts, see the `comp.fonts FAQ <https://doc.qt.io/qt-6/http://nwalsh.com/comp.fonts/FAQ/>`_. Information on encodings can be found from `Roman Czyborra's <https://doc.qt.io/qt-6/http://czyborra.com/>`_ page.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontMetrics`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, `QFontDatabase <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfontdatabase>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontMetrics`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, `QFontDatabase <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfontdatabase>`_, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.

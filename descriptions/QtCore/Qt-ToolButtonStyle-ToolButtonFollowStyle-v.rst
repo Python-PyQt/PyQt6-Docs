@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: b6d7196db5e343a11e68ef235d7f9a74
+    :digest: 455693498f2e5e04ec6deb0f871c7290
 
-Follow the style.
+Follow the :sip:ref:`~PyQt6.QtWidgets.QStyle.StyleHint.SH_ToolButtonStyle`.

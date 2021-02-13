@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7af10642cf7a07a3af50e68868c07473
+    :digest: 83c61aafaa1e95c7e89d3228bcfe1be2
 
 .. image:: ../../../images/palette.png
 

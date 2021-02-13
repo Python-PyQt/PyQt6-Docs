@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x1
     :realname: Qt::InputMethodHint::ImhHiddenText
-    :digest: 2f7e769291a999170899a45de133217a
+    :digest: ca3b113d1402ecefe53d54fb4ec26188
 
-The input method should not show the characters while typing. This is automatically set when setting QLineEdit::echoMode to ``Password``. Note that setting ``ImhHiddenText`` does not change the echo mode.
+The input method should not show the characters while typing. This is automatically set when setting :sip:ref:`~PyQt6.QtWidgets.QLineEdit.echoMode` to ``Password``. Note that setting ``ImhHiddenText`` does not change the echo mode.

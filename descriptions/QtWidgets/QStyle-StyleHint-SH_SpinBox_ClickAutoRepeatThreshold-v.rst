@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 83
+    :digest: fce1e7a99de013e2daeef5a7f4835549
 
-TODO
+Auto-repeat threshold for spinbox mouse clicks.

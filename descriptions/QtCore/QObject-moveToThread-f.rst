@@ -2,7 +2,7 @@
     :status: todo
     :pysig: f66b8fe5c9a42a71784b0410e54eafff
     :realsig: (QThread*)
-    :digest: 3f04732ed596c28c06c093a9fd1a868e
+    :digest: d5c7144407b8cbc86e79486534790089
 
 Changes the thread affinity for this object and its children. The object cannot be moved if it has a parent. Event processing will continue in the *targetThread*.
 

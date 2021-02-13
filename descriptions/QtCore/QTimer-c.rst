@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Repetitive and single-shot timers
-    :digest: e1aaca5bbb27416440ef09434bbdd05c
+    :digest: 2d1fdcb0b740288725df5fff8a3a52c7
 
 The :sip:ref:`~PyQt6.QtCore.QTimer` class provides repetitive and single-shot timers.
 
 The :sip:ref:`~PyQt6.QtCore.QTimer` class provides a high-level programming interface for timers. To use it, create a :sip:ref:`~PyQt6.QtCore.QTimer`, connect its :sip:ref:`~PyQt6.QtCore.QTimer.timeout` signal to the appropriate slots, and call :sip:ref:`~PyQt6.QtCore.QTimer.start`. From then on, it will emit the :sip:ref:`~PyQt6.QtCore.QTimer.timeout` signal at constant intervals.
 
-Example for a one second (1000 millisecond) timer (from the Analog Clock example):
+Example for a one second (1000 millisecond) timer (from the `Analog Clock <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_ example):
 
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-widgets-analogclock-analogclock.py
     :lines: 66-66
@@ -64,4 +64,4 @@ Another alternative is :sip:ref:`~PyQt6.QtCore.QBasicTimer`. It is typically les
 
 Some operating systems limit the number of timers that may be used; Qt tries to work around these limitations.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QBasicTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QBasicTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_, `Analog Clock Example <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_, `Wiggly Example <https://doc.qt.io/qt-6/qtwidgets-widgets-wiggly-example.html>`_.

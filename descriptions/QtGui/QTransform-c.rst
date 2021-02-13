@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies 2D transformations of a coordinate system
-    :digest: f6ca2d49b4342dbd59edbd53fb4f1fca
+    :digest: 4c5574a482d1a7761a9e05385bcb091b
 
 The :sip:ref:`~PyQt6.QtGui.QTransform` class specifies 2D transformations of a coordinate system.
 
@@ -65,7 +65,7 @@ Here's the combined transformations example using basic matrix operations:
 |                                                |     :lines: 108-132                                                                 |
 +------------------------------------------------+-------------------------------------------------------------------------------------+
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_, `Affine Transformations Example <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_, `Transformations Example <https://doc.qt.io/qt-6/qtwidgets-painting-transformations-example.html>`_.
 
 .. |image-qtransform-simpletransformation-png| image:: ../../../images/qtransform-simpletransformation.png
 .. |image-qtransform-combinedtransformation-png| image:: ../../../images/qtransform-combinedtransformation.png

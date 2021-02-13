@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to create keyboard shortcuts
-    :digest: 9017a83aa2d6017bd8d5d36721d7afa9
+    :digest: 5e6bc2d257f9046d8f8b92af75f6beaf
 
 The :sip:ref:`~PyQt6.QtGui.QShortcut` class is used to create keyboard shortcuts.
 
@@ -11,7 +11,7 @@ The :sip:ref:`~PyQt6.QtGui.QShortcut` class provides a way of connecting keyboar
 
 In widget applications, certain widgets can use '&' in front of a character. This will automatically create a mnemonic (a shortcut) for that character, e.g. "E&xit" will create the shortcut Alt+X (use '&&' to display an actual ampersand). The widget might consume and perform an action on a given shortcut. On X11 the ampersand will not be shown and the character will be underlined. On Windows, shortcuts are normally not displayed until the user presses the Alt key, but this is a setting the user can change. On Mac, shortcuts are disabled by default. Call :sip:ref:`~PyQt6.QtGui.qt_set_sequence_auto_mnemonic` to enable them. However, because mnemonic shortcuts do not fit in with Aqua's guidelines, Qt will not show the shortcut character underlined.
 
-For applications that use menus, it may be more convenient to use the convenience functions provided in the QMenu class to assign keyboard shortcuts to menu items as they are created. Alternatively, shortcuts may be associated with other types of actions in the :sip:ref:`~PyQt6.QtGui.QAction` class.
+For applications that use menus, it may be more convenient to use the convenience functions provided in the :sip:ref:`~PyQt6.QtWidgets.QMenu` class to assign keyboard shortcuts to menu items as they are created. Alternatively, shortcuts may be associated with other types of actions in the :sip:ref:`~PyQt6.QtGui.QAction` class.
 
 The simplest way to create a shortcut for a particular widget is to construct the shortcut with a key sequence. For example:
 

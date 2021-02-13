@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 48
+    :digest: 8c1348779409a371140e5946cc632cfd
 
-TODO
+The panel for a menu.

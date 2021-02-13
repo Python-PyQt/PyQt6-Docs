@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00001000
     :realname: QDialogButtonBox::StandardButton::SaveAll
+    :digest: 10fcecc618e3230da66bbdaaed591516
 
-TODO
+A "Save All" button defined with the :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.ButtonRole.AcceptRole`.

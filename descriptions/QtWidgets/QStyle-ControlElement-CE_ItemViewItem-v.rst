@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 45
+    :digest: 242ab866bd7cc528de4698383f9e87f7
 
-TODO
+An item inside an item view.

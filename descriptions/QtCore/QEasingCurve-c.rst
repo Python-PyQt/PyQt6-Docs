@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Easing curves for controlling animation
-    :digest: 7c60012f36640fa4aac7adc653dba68e
+    :digest: 9857ce88694e01906c2943e858762424
 
 The :sip:ref:`~PyQt6.QtCore.QEasingCurve` class provides easing curves for controlling animation.
 
@@ -23,4 +23,4 @@ When using a :sip:ref:`~PyQt6.QtCore.QPropertyAnimation`, the associated easing 
 
 The ability to set an amplitude, overshoot, or period depends on the :sip:ref:`~PyQt6.QtCore.QEasingCurve` type. Amplitude access is available to curves that behave as springs such as elastic and bounce curves. Changing the amplitude changes the height of the curve. Period access is only available to elastic curves and setting a higher period slows the rate of bounce. Only curves that have "boomerang" behaviors such as the :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type.InBack`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type.OutBack`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type.InOutBack`, and :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type.OutInBack` have overshoot settings. These curves will interpolate beyond the end points and return to the end point, acting similar to a boomerang.
 
-The Easing Curves Example contains samples of :sip:ref:`~PyQt6.QtCore.QEasingCurve` types and lets you change the curve settings.
+The `Easing Curves Example <https://doc.qt.io/qt-6/qtwidgets-animation-easing-example.html>`_ contains samples of :sip:ref:`~PyQt6.QtCore.QEasingCurve` types and lets you change the curve settings.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Colors based on RGB, HSV or CMYK values
-    :digest: c5562db29086118f598f77890c93fd93
+    :digest: adf1f3ddf2f95eb9f394f1caaa6d2fd5
 
 The :sip:ref:`~PyQt6.QtGui.QColor` class provides colors based on RGB, HSV or CMYK values.
 

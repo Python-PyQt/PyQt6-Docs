@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::WindowType
-    :digest: 119b21fb93b312b28b459b06bba13117
+    :digest: 69cedb1521344bd909cbfe22969ac15f
 
 This enum type is used to specify various window-system properties for the widget. They are fairly unusual but necessary in a few cases. Some of these flags depend on whether the underlying window manager supports them.
 
@@ -19,4 +19,4 @@ The ``CustomizeWindowHint`` flag is used to enable customization of the window c
 
 **Note:** On Windows, this will work only for frameless or full-screen windows.
 
-.. seealso:: QWidget::windowFlagsWindow Flags Example.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.windowFlags`, `Window Flags Example <https://doc.qt.io/qt-6/qtwidgets-widgets-windowflags-example.html>`_.

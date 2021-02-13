@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to start external programs and to communicate with them
-    :digest: 48691220afc27f3a0411a6cb65668a46
+    :digest: be9fb8cf8f70ab3f22fbb2e2c059e939
 
 The `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ class is used to start external programs and to communicate with them.
 
@@ -67,7 +67,7 @@ Synchronous Process API
 
 * :sip:ref:`~PyQt6.QtCore.QProcess.waitForFinished` blocks until the process has finished.
 
-Calling these functions from the main thread (the thread that calls QApplication::exec()) may cause your user interface to freeze.
+Calling these functions from the main thread (the thread that calls :sip:ref:`~PyQt6.QtWidgets.QApplication.exec`) may cause your user interface to freeze.
 
 The following example runs ``gzip`` to compress the string "Qt rocks!", without an event loop:
 

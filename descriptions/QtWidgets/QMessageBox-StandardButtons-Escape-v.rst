@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000200
     :realname: QMessageBox::StandardButton::Escape
+    :digest: 2bcd0bf6a83bc897e3b56a154cad2636
 
-TODO
+Call :sip:ref:`~PyQt6.QtWidgets.QMessageBox.setEscapeButton` instead.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: aca2da9a921159e5bbcb3d26240ae5bb
 
-TODO
+This frame around a default button, e.g. in a dialog.

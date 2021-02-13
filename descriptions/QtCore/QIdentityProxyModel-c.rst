@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Proxies its source model unmodified
-    :digest: f51b80e224eb03952b97ede6696b1e3b
+    :digest: c1fadb9baa0542cb98d552c7a6b844cc
 
 The :sip:ref:`~PyQt6.QtCore.QIdentityProxyModel` class proxies its source model unmodified.
 
@@ -14,4 +14,4 @@ This also provides a way to change the data in the case where a source model is 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_gui_itemviews_qidentityproxymodel.py
     :lines: 54-75
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.

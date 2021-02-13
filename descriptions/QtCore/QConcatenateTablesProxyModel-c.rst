@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Proxies multiple source models, concatenating their rows
-    :digest: 6bfe2a82d001687ff58d43301a665f83
+    :digest: 97a32cb4288138399471a99f86ba4507
 
 The :sip:ref:`~PyQt6.QtCore.QConcatenateTablesProxyModel` class proxies multiple source models, concatenating their rows.
 
@@ -17,4 +17,4 @@ This proxy does not inherit from :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel` be
 
 Only flat models (lists and tables) are supported, tree models are not.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`, :sip:ref:`~PyQt6.QtCore.QIdentityProxyModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtCore.QIdentityProxyModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.

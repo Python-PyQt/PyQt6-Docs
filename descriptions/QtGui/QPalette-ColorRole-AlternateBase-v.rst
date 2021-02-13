@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 16
-    :digest: e95f986bd62d6f7fdab619714b65a78f
+    :digest: ce4fd64917ff06897c11f049474159ea
 
-Used as the alternate background color in views with alternating row colors (see QAbstractItemView::setAlternatingRowColors()).
+Used as the alternate background color in views with alternating row colors (see :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.setAlternatingRowColors`).

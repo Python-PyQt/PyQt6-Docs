@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: 6e64d27dbe4ef774ee79db45a9b820b3
 
-TODO
+The label within a tab.

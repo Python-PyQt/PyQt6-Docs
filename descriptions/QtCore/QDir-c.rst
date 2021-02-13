@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to directory structures and their contents
-    :digest: 285da28f3a67749b05db7912ddad551b
+    :digest: 8859b18c023ec9dec221a7bb41961fe9
 
 The :sip:ref:`~PyQt6.QtCore.QDir` class provides access to directory structures and their contents.
 
@@ -127,4 +127,4 @@ A program that lists all the files in the current directory (excluding symbolic 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qdir-listfiles-main.py
     :lines: 54-73
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`, `Find Files Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-findfiles-example.html>`_.

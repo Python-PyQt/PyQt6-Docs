@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
+    :digest: 2c335ae204c276f966e4d8d7c7407618
 
-TODO
+The floppy icon.

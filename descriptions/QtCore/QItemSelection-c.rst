@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Manages information about selected items in a model
-    :digest: 5ab2d4ec50a8050fd492804c10dc4f9a
+    :digest: 5b7aa4972523b7223ed03e3b87e319af
 
 The :sip:ref:`~PyQt6.QtCore.QItemSelection` class manages information about selected items in a model.
 
 A :sip:ref:`~PyQt6.QtCore.QItemSelection` describes the items in a model that have been selected by the user. A :sip:ref:`~PyQt6.QtCore.QItemSelection` is basically a list of selection ranges, see :sip:ref:`~PyQt6.QtCore.QItemSelectionRange`. It provides functions for creating and manipulating selections, and selecting a range of items from a model.
 
-The :sip:ref:`~PyQt6.QtCore.QItemSelection` class is one of the Model/View Classes and is part of Qt's model/view framework.
+The :sip:ref:`~PyQt6.QtCore.QItemSelection` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_.
 
 An item selection can be constructed and initialized to contain a range of items from an existing model. The following example constructs a selection that contains a range of items from the given ``model``, beginning at the ``topLeft``, and ending at the ``bottomRight``.
 
@@ -23,4 +23,4 @@ An empty item selection can be constructed, and later populated as required. So,
 
 Use :sip:ref:`~PyQt6.QtCore.QItemSelection.merge` to merge one item selection into another without making overlapping ranges. Use :sip:ref:`~PyQt6.QtCore.QItemSelection.split` to split one selection range into smaller ranges based on a another selection range.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QItemSelectionModel`, Model/View Programming.
+.. seealso:: `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtCore.QItemSelectionModel`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a gesture event
-    :digest: b5e100f8380bee22eb3af1375bdbbd7e
+    :digest: a4c31fc44b3ff405a58366e12a5318bb
 
 The :sip:ref:`~PyQt6.QtGui.QNativeGestureEvent` class contains parameters that describe a gesture event.
 
@@ -21,4 +21,4 @@ In addition, BeginNativeGesture and EndNativeGesture are sent before and after g
 
 BeginNativeGesture ZoomNativeGesture ZoomNativeGesture ZoomNativeGesture EndNativeGesture
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.NativeGestureType`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.NativeGestureType`, :sip:ref:`~PyQt6.QtWidgets.QGestureEvent`.

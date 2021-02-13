@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ddb0f977c873e5856bcac68ceea1a74c
+    :digest: ad6ac8a9f9b329cced14ccda419682da
 
 This enum describes how an action should be moved into the application menu on macOS.
 

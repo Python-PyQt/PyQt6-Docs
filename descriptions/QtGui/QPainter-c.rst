@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: 4ae6a3f8df4d41569de7893b8b45d2fa
+    :digest: 278f7822903061a25863b19900d572c3
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -51,7 +51,7 @@ There are several settings that you can customize to make :sip:ref:`~PyQt6.QtGui
 
 * :sip:ref:`~PyQt6.QtGui.QPainter.viewTransformEnabled` tells whether view transformation is enabled.
 
-Note that some of these settings mirror settings in some paint devices, e.g. QWidget::font(). The :sip:ref:`~PyQt6.QtGui.QPainter.begin` function (or equivalently the :sip:ref:`~PyQt6.QtGui.QPainter` constructor) copies these attributes from the paint device.
+Note that some of these settings mirror settings in some paint devices, e.g. :sip:ref:`~PyQt6.QtWidgets.QWidget.font`. The :sip:ref:`~PyQt6.QtGui.QPainter.begin` function (or equivalently the :sip:ref:`~PyQt6.QtGui.QPainter` constructor) copies these attributes from the paint device.
 
 You can at any time save the :sip:ref:`~PyQt6.QtGui.QPainter`'s state by calling the :sip:ref:`~PyQt6.QtGui.QPainter.save` function which saves all the available settings on an internal stack. The :sip:ref:`~PyQt6.QtGui.QPainter.restore` function pops them back.
 
@@ -66,31 +66,31 @@ The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides the :sip:ref:`~PyQt6.Qt
 
 All of these functions have both integer and floating point versions.
 
-+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-| |image-qpainter-basicdrawing-png| | **Basic Drawing Example**                                                                                                                         |
-|                                   |                                                                                                                                                   |
-|                                   | The Basic Drawing example shows how to display basic graphics primitives in a variety of styles using the :sip:ref:`~PyQt6.QtGui.QPainter` class. |
-+-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image-qpainter-basicdrawing-png| | **Basic Drawing Example**                                                                                                                                                                                                  |
+|                                   |                                                                                                                                                                                                                            |
+|                                   | The `Basic Drawing <https://doc.qt.io/qt-6/qtwidgets-painting-basicdrawing-example.html>`_ example shows how to display basic graphics primitives in a variety of styles using the :sip:ref:`~PyQt6.QtGui.QPainter` class. |
++-----------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 If you need to draw a complex shape, especially if you need to do so repeatedly, consider creating a :sip:ref:`~PyQt6.QtGui.QPainterPath` and drawing it using :sip:ref:`~PyQt6.QtGui.QPainter.drawPath`.
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
-| **Painter Paths example**                                                                                                                            | |image-qpainter-painterpaths-png| |
-|                                                                                                                                                      |                                   |
-| The :sip:ref:`~PyQt6.QtGui.QPainterPath` class provides a container for painting operations, enabling graphical shapes to be constructed and reused. |                                   |
-|                                                                                                                                                      |                                   |
-| The Painter Paths example shows how painter paths can be used to build complex shapes for rendering.                                                 |                                   |
-+------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
+| **Painter Paths example**                                                                                                                                                     | |image-qpainter-painterpaths-png| |
+|                                                                                                                                                                               |                                   |
+| The :sip:ref:`~PyQt6.QtGui.QPainterPath` class provides a container for painting operations, enabling graphical shapes to be constructed and reused.                          |                                   |
+|                                                                                                                                                                               |                                   |
+| The `Painter Paths <https://doc.qt.io/qt-6/qtwidgets-painting-painterpaths-example.html>`_ example shows how painter paths can be used to build complex shapes for rendering. |                                   |
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------+
 
 :sip:ref:`~PyQt6.QtGui.QPainter` also provides the :sip:ref:`~PyQt6.QtGui.QPainter.fillPath` function which fills the given :sip:ref:`~PyQt6.QtGui.QPainterPath` with the given :sip:ref:`~PyQt6.QtGui.QBrush`, and the :sip:ref:`~PyQt6.QtGui.QPainter.strokePath` function that draws the outline of the given path (i.e. strokes the path).
 
-See also the Vector Deformation example which shows how to use advanced vector techniques to draw text using a :sip:ref:`~PyQt6.QtGui.QPainterPath`, the Gradients example which shows the different types of gradients that are available in Qt, and the Path Stroking example which shows Qt's built-in dash patterns and shows how custom patterns can be used to extend the range of available patterns.
+See also the `Vector Deformation <https://doc.qt.io/qt-6/qtwidgets-painting-deform-example.html>`_ example which shows how to use advanced vector techniques to draw text using a :sip:ref:`~PyQt6.QtGui.QPainterPath`, the `Gradients <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_ example which shows the different types of gradients that are available in Qt, and the `Path Stroking <https://doc.qt.io/qt-6/qtwidgets-painting-pathstroke-example.html>`_ example which shows Qt's built-in dash patterns and shows how custom patterns can be used to extend the range of available patterns.
 
-+----------------------------------------+--------------------------------+-----------------------------------+
-| Vector Deformation                     | Gradients                      | Path Stroking                     |
-+========================================+================================+===================================+
-| |image-qpainter-vectordeformation-png| | |image-qpainter-gradients-png| | |image-qpainter-pathstroking-png| |
-+----------------------------------------+--------------------------------+-----------------------------------+
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+
+| `Vector Deformation <https://doc.qt.io/qt-6/qtwidgets-painting-deform-example.html>`_ | `Gradients <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_ | `Path Stroking <https://doc.qt.io/qt-6/qtwidgets-painting-pathstroke-example.html>`_ |
++=======================================================================================+=================================================================================+======================================================================================+
+| |image-qpainter-vectordeformation-png|                                                | |image-qpainter-gradients-png|                                                  | |image-qpainter-pathstroking-png|                                                    |
++---------------------------------------------------------------------------------------+---------------------------------------------------------------------------------+--------------------------------------------------------------------------------------+
 
 Text drawing is done using :sip:ref:`~PyQt6.QtGui.QPainter.drawText`. When you need fine-grained positioning, :sip:ref:`~PyQt6.QtGui.QPainter.boundingRect` tells you where a given :sip:ref:`~PyQt6.QtGui.QPainter.drawText` command will draw.
 
@@ -121,13 +121,13 @@ To get the optimal rendering result using :sip:ref:`~PyQt6.QtGui.QPainter`, you 
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling the rendering quality through its :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` enum and the support for floating point precision: All the functions for drawing primitives has a floating point version. These are often used in combination with the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` render hint.
 
-+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| |image-qpainter-concentriccircles-png| | **Concentric Circles Example**                                                                                                                                         |
-|                                        |                                                                                                                                                                        |
-|                                        | The Concentric Circles example shows the improved rendering quality that can be obtained using floating point precision and anti-aliasing when drawing custom widgets. |
-|                                        |                                                                                                                                                                        |
-|                                        | The application's main window displays several widgets which are drawn using the various combinations of precision and anti-aliasing.                                  |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image-qpainter-concentriccircles-png| | **Concentric Circles Example**                                                                                                                                                                                                                       |
+|                                        |                                                                                                                                                                                                                                                      |
+|                                        | The `Concentric Circles <https://doc.qt.io/qt-6/qtwidgets-painting-concentriccircles-example.html>`_ example shows the improved rendering quality that can be obtained using floating point precision and anti-aliasing when drawing custom widgets. |
+|                                        |                                                                                                                                                                                                                                                      |
+|                                        | The application's main window displays several widgets which are drawn using the various combinations of precision and anti-aliasing.                                                                                                                |
++----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 The :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` enum specifies flags to :sip:ref:`~PyQt6.QtGui.QPainter` that may or may not be respected by any given engine. :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should antialias edges of primitives if possible, :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should antialias text if possible, and the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should use a smooth pixmap transformation algorithm.
 
@@ -146,15 +146,15 @@ Normally, the :sip:ref:`~PyQt6.QtGui.QPainter` operates on the device's own coor
 | |image-qpainter-clock-png| | |image-qpainter-rotation-png|           | |image-qpainter-scale-png|             | |image-qpainter-translation-png|           |
 +----------------------------+-----------------------------------------+----------------------------------------+--------------------------------------------+
 
-The most commonly used transformations are scaling, rotation, translation and shearing. Use the :sip:ref:`~PyQt6.QtGui.QPainter.scale` function to scale the coordinate system by a given offset, the :sip:ref:`~PyQt6.QtGui.QPainter.rotate` function to rotate it clockwise and :sip:ref:`~PyQt6.QtGui.QPainter.translate` to translate it (i.e. adding a given offset to the points). You can also twist the coordinate system around the origin using the :sip:ref:`~PyQt6.QtGui.QPainter.shear` function. See the Affine Transformations example for a visualization of a sheared coordinate system.
+The most commonly used transformations are scaling, rotation, translation and shearing. Use the :sip:ref:`~PyQt6.QtGui.QPainter.scale` function to scale the coordinate system by a given offset, the :sip:ref:`~PyQt6.QtGui.QPainter.rotate` function to rotate it clockwise and :sip:ref:`~PyQt6.QtGui.QPainter.translate` to translate it (i.e. adding a given offset to the points). You can also twist the coordinate system around the origin using the :sip:ref:`~PyQt6.QtGui.QPainter.shear` function. See the `Affine Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_ example for a visualization of a sheared coordinate system.
 
-See also the Transformations example which shows how transformations influence the way that :sip:ref:`~PyQt6.QtGui.QPainter` renders graphics primitives. In particular it shows how the order of transformations affects the result.
+See also the `Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-transformations-example.html>`_ example which shows how transformations influence the way that :sip:ref:`~PyQt6.QtGui.QPainter` renders graphics primitives. In particular it shows how the order of transformations affects the result.
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+
-| **Affine Transformations Example**                                                                                                                                                                                              | |image-qpainter-affinetransformations-png| |
-|                                                                                                                                                                                                                                 |                                            |
-| The Affine Transformations example shows Qt's ability to perform affine transformations on painting operations. The demo also allows the user to experiment with the transformation operations and see the results immediately. |                                            |
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+
+| **Affine Transformations Example**                                                                                                                                                                                                                                                                 | |image-qpainter-affinetransformations-png| |
+|                                                                                                                                                                                                                                                                                                    |                                            |
+| The `Affine Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_ example shows Qt's ability to perform affine transformations on painting operations. The demo also allows the user to experiment with the transformation operations and see the results immediately. |                                            |
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+
 
 All the tranformation operations operate on the transformation :sip:ref:`~PyQt6.QtGui.QPainter.worldTransform`. A matrix transforms a point in the plane to another point. For more information about the transformation matrix, see the `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_ and :sip:ref:`~PyQt6.QtGui.QTransform` documentation.
 
@@ -184,11 +184,11 @@ The two most common forms of composition are :sip:ref:`~PyQt6.QtGui.QPainter.Com
 
 Note that composition transformation operates pixelwise. For that reason, there is a difference between using the graphic primitive itself and its bounding rectangle: The bounding rect contains pixels with alpha == 0 (i.e the pixels surrounding the primitive). These pixels will overwrite the other image's pixels, effectively clearing those, while the primitive only overwrites its own area.
 
-+--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| |image-qpainter-compositiondemo-png| | **Composition Modes Example**                                                                                                                                     |
-|                                      |                                                                                                                                                                   |
-|                                      | The Composition Modes example, available in Qt's examples directory, allows you to experiment with the various composition modes and see the results immediately. |
-+--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| |image-qpainter-compositiondemo-png| | **Composition Modes Example**                                                                                                                                                                                                             |
+|                                      |                                                                                                                                                                                                                                           |
+|                                      | The `Composition Modes <https://doc.qt.io/qt-6/qtwidgets-painting-composition-example.html>`_ example, available in Qt's examples directory, allows you to experiment with the various composition modes and see the results immediately. |
++--------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 Limitations
 -----------
@@ -208,7 +208,7 @@ Performance
 
 The backends we focus on as high-performance engines are:
 
-* Raster - This backend implements all rendering in pure software and is always used to render into QImages. For optimal performance only use the format types :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32_Premultiplied`, :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB32` or :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16`. Any other format, including :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32`, has significantly worse performance. This engine is used by default for QWidget and :sip:ref:`~PyQt6.QtGui.QPixmap`.
+* Raster - This backend implements all rendering in pure software and is always used to render into QImages. For optimal performance only use the format types :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32_Premultiplied`, :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB32` or :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16`. Any other format, including :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32`, has significantly worse performance. This engine is used by default for `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ and :sip:ref:`~PyQt6.QtGui.QPixmap`.
 
 * OpenGL 2.0 (ES) - This backend is the primary backend for hardware accelerated graphics. It can be run on desktop machines and embedded devices supporting the OpenGL 2.0 or OpenGL/ES 2.0 specification. This includes most graphics chips produced in the last couple of years. The engine can be enabled by using :sip:ref:`~PyQt6.QtGui.QPainter` onto a QOpenGLWidget.
 
@@ -226,11 +226,11 @@ These operations are:
 
 * Rounded rectangle filling using solid color and two-color linear gradients fills.
 
-* 3x3 patched pixmaps, via qDrawBorderPixmap.
+* 3x3 patched pixmaps, via .
 
 This list gives an indication of which features to safely use in an application where performance is critical. For certain setups, other operations may be fast too, but before making extensive use of them, it is recommended to benchmark and verify them on the system where the software will run in the end. There are also cases where expensive operations are ok to use, for instance when the result is cached in a :sip:ref:`~PyQt6.QtGui.QPixmap`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPaintDevice`, :sip:ref:`~PyQt6.QtGui.QPaintEngine`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPaintDevice`, :sip:ref:`~PyQt6.QtGui.QPaintEngine`, `Basic Drawing Example <https://doc.qt.io/qt-6/qtwidgets-painting-basicdrawing-example.html>`_, `Drawing Utility Functions <https://doc.qt.io/qt-6/qdrawutil-h.html>`_.
 
 .. |image-qpainter-basicdrawing-png| image:: ../../../images/qpainter-basicdrawing.png
 .. |image-qpainter-painterpaths-png| image:: ../../../images/qpainter-painterpaths.png

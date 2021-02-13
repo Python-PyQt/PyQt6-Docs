@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 158
-    :digest: 47d8178584219ce162f321a1d29d6628
+    :digest: cd7aca72ddc263eed5eb140b186b934c
 
-Mouse press again (double click) in a graphics scene (QGraphicsSceneMouseEvent).
+Mouse press again (double click) in a graphics scene (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneMouseEvent`).

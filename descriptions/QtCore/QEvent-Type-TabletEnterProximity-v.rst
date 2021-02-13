@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 171
-    :digest: 5c63698d989acb0bfd16d10a802421fc
+    :digest: a16eccf5a6d1a6349895dec97f3404ff
 
-Wacom tablet enter proximity event (\ :sip:ref:`~PyQt6.QtGui.QTabletEvent`), sent to QApplication.
+Wacom tablet enter proximity event (\ :sip:ref:`~PyQt6.QtGui.QTabletEvent`), sent to :sip:ref:`~PyQt6.QtWidgets.QApplication`.

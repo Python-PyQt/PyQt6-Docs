@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 41
+    :digest: 77245fb0ed6d3b2bbc0380b0d5afb6a3
 
-TODO
+A plain `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_.

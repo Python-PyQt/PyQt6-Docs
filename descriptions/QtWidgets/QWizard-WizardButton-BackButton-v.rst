@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: bd8d8f64240e5dcfda93b9fa2d2f93d1
 
-TODO
+The Back button (Go Back on macOS)

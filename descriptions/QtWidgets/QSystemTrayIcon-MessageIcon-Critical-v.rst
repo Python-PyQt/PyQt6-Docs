@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: ae714ab514dbedad9227453c28841dd4
 
-TODO
+A critical warning icon is shown.

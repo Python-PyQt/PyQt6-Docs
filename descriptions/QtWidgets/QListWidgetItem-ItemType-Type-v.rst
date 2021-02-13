@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: a1f3a35f4f279209b16ed583ccda16fd
 
-TODO
+The default type for list widget items.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000080
     :realname: QWizard::WizardOption::HaveNextButtonOnLastPage
+    :digest: 8ce0a7609131f26215ea9b814bc14247
 
-TODO
+Show the (disabled) Next button on the last page.

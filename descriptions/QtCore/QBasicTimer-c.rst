@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Timer events for objects
-    :digest: 3354ec737d34ae5e32c722e6978223a3
+    :digest: 3b8b5d52da350663a7ad92e027150ffb
 
 The :sip:ref:`~PyQt6.QtCore.QBasicTimer` class provides timer events for objects.
 
@@ -11,6 +11,6 @@ To use this class, create a :sip:ref:`~PyQt6.QtCore.QBasicTimer`, and call its :
 
 Objects of this class cannot be copied, but can be moved, so you can maintain a list of basic timers by holding them in container that supports move-only types, e.g. std::vector.
 
-The Wiggly example uses :sip:ref:`~PyQt6.QtCore.QBasicTimer` to repaint a widget at regular intervals.
+The `Wiggly <https://doc.qt.io/qt-6/qtwidgets-widgets-wiggly-example.html>`_ example uses :sip:ref:`~PyQt6.QtCore.QBasicTimer` to repaint a widget at regular intervals.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_, `Wiggly Example <https://doc.qt.io/qt-6/qtwidgets-widgets-wiggly-example.html>`_.

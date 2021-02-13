@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 32
+    :digest: 0ea105b5fec0ecba617119c7e25c1474
 
-TODO
+Scroll bar line decrease indicator (i.e., scroll up).

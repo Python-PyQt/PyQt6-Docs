@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Range checking of floating-point numbers
-    :digest: 2a8908efff41a609fc72d1031acaf148
+    :digest: 9057b345b3b9aa76dfe81b074e2a0c9d
 
 The :sip:ref:`~PyQt6.QtGui.QDoubleValidator` class provides range checking of floating-point numbers.
 
@@ -13,4 +13,4 @@ You can set the acceptable range in one call with :sip:ref:`~PyQt6.QtGui.QDouble
 
 **Note:** The QLocale::NumberOptions set on the locale() also affect the way the number is interpreted. For example, since :sip:ref:`~PyQt6.QtCore.QLocale.NumberOptions.RejectGroupSeparator` is not set by default, the validator will accept group separators. It is thus recommended to use :sip:ref:`~PyQt6.QtCore.QLocale.toDouble` to obtain the numeric value.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, :sip:ref:`~PyQt6.QtCore.QLocale.toDouble`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, :sip:ref:`~PyQt6.QtCore.QLocale.toDouble`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

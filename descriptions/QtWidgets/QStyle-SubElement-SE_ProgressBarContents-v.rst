@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 13
+    :digest: 1a7dc257b5dd1463d2d0311aaeb94dca
 
-TODO
+Area for the progress indicator.

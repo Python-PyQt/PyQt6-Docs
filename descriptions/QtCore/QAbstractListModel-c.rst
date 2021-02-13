@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract model that can be subclassed to create one-dimensional list models
-    :digest: 24a291bbe1df2f99b3f186c00ca8f04f
+    :digest: 5929c6671bb26f062bd236fe54574d92
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractListModel` class provides an abstract model that can be subclassed to create one-dimensional list models.
 
@@ -9,7 +9,7 @@ The :sip:ref:`~PyQt6.QtCore.QAbstractListModel` class provides an abstract model
 
 Since the model provides a more specialized interface than :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, it is not suitable for use with tree views; you will need to subclass :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` if you want to provide a model for that purpose. If you need to use a number of list models to manage data, it may be more appropriate to subclass :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` instead.
 
-Simple models can be created by subclassing this class and implementing the minimum number of required functions. For example, we could implement a simple read-only QStringList-based model that provides a list of strings to a QListView widget. In such a case, we only need to implement the rowCount() function to return the number of items in the list, and the data() function to retrieve items from the list.
+Simple models can be created by subclassing this class and implementing the minimum number of required functions. For example, we could implement a simple read-only QStringList-based model that provides a list of strings to a :sip:ref:`~PyQt6.QtWidgets.QListView` widget. In such a case, we only need to implement the rowCount() function to return the number of items in the list, and the data() function to retrieve items from the list.
 
 Since the model represents a one-dimensional structure, the rowCount() function returns the total number of items in the model. The columnCount() function is implemented for interoperability with all kinds of views, but by default informs views that the model contains only one column.
 
@@ -32,6 +32,6 @@ Models that provide interfaces to resizable list-like data structures can provid
 
 * A removeRows() implementation must call beginRemoveRows() *before* the rows are removed from the data structure, and it must call endRemoveRows() *immediately afterwards*.
 
-**Note:** Some general guidelines for subclassing models are available in the Model Subclassing Reference.
+**Note:** Some general guidelines for subclassing models are available in the `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractTableModel`, Model ClassesModel Subclassing ReferenceQAbstractItemView.
+.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, :sip:ref:`~PyQt6.QtCore.QAbstractTableModel`, `Item Views Puzzle Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-puzzle-example.html>`_.

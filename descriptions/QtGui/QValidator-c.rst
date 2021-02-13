@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Validation of input text
-    :digest: 87d1c35022f5ad4088c61a40a3074d9b
+    :digest: 670f98cb1934497d9e879425dc295562
 
 The :sip:ref:`~PyQt6.QtGui.QValidator` class provides validation of input text.
 
@@ -21,10 +21,10 @@ Here are some examples:
 
 * For a spin box that accepts lengths, "11cm" and "1in" are :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`, "11" and the empty string are :sip:ref:`~PyQt6.QtGui.QValidator.State.Intermediate`, and "http://example.com" and "hour" are :sip:ref:`~PyQt6.QtGui.QValidator.State.Invalid`.
 
-:sip:ref:`~PyQt6.QtGui.QValidator.fixup` is provided for validators that can repair some user errors. The default implementation does nothing. QLineEdit, for example, will call :sip:ref:`~PyQt6.QtGui.QValidator.fixup` if the user presses Enter (or Return) and the content is not currently valid. This allows the :sip:ref:`~PyQt6.QtGui.QValidator.fixup` function the opportunity of performing some magic to make an :sip:ref:`~PyQt6.QtGui.QValidator.State.Invalid` string :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`.
+:sip:ref:`~PyQt6.QtGui.QValidator.fixup` is provided for validators that can repair some user errors. The default implementation does nothing. :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, for example, will call :sip:ref:`~PyQt6.QtGui.QValidator.fixup` if the user presses Enter (or Return) and the content is not currently valid. This allows the :sip:ref:`~PyQt6.QtGui.QValidator.fixup` function the opportunity of performing some magic to make an :sip:ref:`~PyQt6.QtGui.QValidator.State.Invalid` string :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`.
 
 A validator has a locale, set with :sip:ref:`~PyQt6.QtGui.QValidator.setLocale`. It is typically used to parse localized data. For example, :sip:ref:`~PyQt6.QtGui.QIntValidator` and :sip:ref:`~PyQt6.QtGui.QDoubleValidator` use it to parse localized representations of integers and doubles.
 
-:sip:ref:`~PyQt6.QtGui.QValidator` is typically used with QLineEdit, QSpinBox and QComboBox.
+:sip:ref:`~PyQt6.QtGui.QValidator` is typically used with :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox` and `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator`, :sip:ref:`~PyQt6.QtGui.QDoubleValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator`, :sip:ref:`~PyQt6.QtGui.QDoubleValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

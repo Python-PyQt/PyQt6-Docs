@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 25
+    :digest: 0abe862381f20389f6d9ab534b5b7b35
 
-TODO
+Allows popups as a combobox drop-down menu.

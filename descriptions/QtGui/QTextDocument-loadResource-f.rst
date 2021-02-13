@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6d0326a171f9010df7bb3ffa33de1b6a
     :realsig: (int,const QUrl&)
-    :digest: 4fd207d6e5e5aa272343ae11a01518f5
+    :digest: 702e0365caad2d4d9f123c93a5fdeada
 
 Loads data of the specified *type* from the resource with the given *name*.
 
@@ -10,4 +10,4 @@ This function is called by the rich text engine to request data that isn't direc
 
 When called by Qt, *type* is one of the values of :sip:ref:`~PyQt6.QtGui.QTextDocument.ResourceType`.
 
-If the :sip:ref:`~PyQt6.QtGui.QTextDocument` is a child object of a :sip:ref:`~PyQt6.QtCore.QObject` that has an invokable  method such as QTextEdit, QTextBrowser or a :sip:ref:`~PyQt6.QtGui.QTextDocument` itself then the default implementation tries to retrieve the data from the parent.
+If the :sip:ref:`~PyQt6.QtGui.QTextDocument` is a child object of a :sip:ref:`~PyQt6.QtCore.QObject` that has an invokable  method such as :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QTextBrowser` or a :sip:ref:`~PyQt6.QtGui.QTextDocument` itself then the default implementation tries to retrieve the data from the parent.

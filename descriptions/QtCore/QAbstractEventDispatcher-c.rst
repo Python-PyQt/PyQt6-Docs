@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface to manage Qt's event queue
-    :digest: ffc4cad63e4978a7307e7d94924780f2
+    :digest: cb11d33f2cfe243f85e1dc19f5beb10e
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher` class provides an interface to manage Qt's event queue.
 
-An event dispatcher receives events from the window system and other sources. It then sends them to the :sip:ref:`~PyQt6.QtCore.QCoreApplication` or QApplication instance for processing and delivery. :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher` provides fine-grained control over event delivery.
+An event dispatcher receives events from the window system and other sources. It then sends them to the :sip:ref:`~PyQt6.QtCore.QCoreApplication` or :sip:ref:`~PyQt6.QtWidgets.QApplication` instance for processing and delivery. :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher` provides fine-grained control over event delivery.
 
 For simple control of event processing use :sip:ref:`~PyQt6.QtCore.QCoreApplication.processEvents`.
 

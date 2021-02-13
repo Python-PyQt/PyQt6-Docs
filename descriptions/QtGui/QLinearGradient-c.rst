@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used in combination with QBrush to specify a linear gradient brush
-    :digest: b398fca0a18b7b9ee8e13a9dc71466d8
+    :digest: 892a87b4306fc98fa452e2a4ba230005
 
 The :sip:ref:`~PyQt6.QtGui.QLinearGradient` class is used in combination with :sip:ref:`~PyQt6.QtGui.QBrush` to specify a linear gradient brush.
 
@@ -17,7 +17,7 @@ The colors in a gradient is defined using stop points of the QGradientStop type,
 
 In addition to the functions inherited from :sip:ref:`~PyQt6.QtGui.QGradient`, the :sip:ref:`~PyQt6.QtGui.QLinearGradient` class provides the :sip:ref:`~PyQt6.QtGui.QLinearGradient.finalStop` function which returns the final stop point of the gradient, and the :sip:ref:`~PyQt6.QtGui.QLinearGradient.start` function returning the start point of the gradient.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QRadialGradient`, :sip:ref:`~PyQt6.QtGui.QConicalGradient`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QRadialGradient`, :sip:ref:`~PyQt6.QtGui.QConicalGradient`, `The Gradients Example <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_.
 
 .. |image-qlineargradient-pad-png| image:: ../../../images/qlineargradient-pad.png
 .. |image-qlineargradient-reflect-png| image:: ../../../images/qlineargradient-reflect.png

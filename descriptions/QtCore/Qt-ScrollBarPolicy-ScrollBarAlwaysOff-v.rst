@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: 779b15a6a098ae68ced941d6ffc112b2
+    :digest: 06f9dc08bd38d138419930a7a637e201
 
-QAbstractScrollArea never shows a scroll bar.
+:sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea` never shows a scroll bar.

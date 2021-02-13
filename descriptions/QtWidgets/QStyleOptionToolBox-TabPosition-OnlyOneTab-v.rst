@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: e9c861c9645d8032e7fe9822c1ef80da
 
-TODO
+There is only one tab in the toolbox.

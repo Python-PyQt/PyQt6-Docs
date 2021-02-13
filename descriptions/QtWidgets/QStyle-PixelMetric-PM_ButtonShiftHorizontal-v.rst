@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: b67512f9d0fe45230869c3483b10176a
 
-TODO
+Horizontal contents shift of a button when the button is down.

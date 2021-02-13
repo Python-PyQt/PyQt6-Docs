@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies a clip region for a painter
-    :digest: 98935fa472986a498626c1a7e06517c8
+    :digest: 71663028a4cde934288286937d5b0a1b
 
 The :sip:ref:`~PyQt6.QtGui.QRegion` class specifies a clip region for a painter.
 
-:sip:ref:`~PyQt6.QtGui.QRegion` is used with :sip:ref:`~PyQt6.QtGui.QPainter.setClipRegion` to limit the paint area to what needs to be painted. There is also a QWidget::repaint() function that takes a :sip:ref:`~PyQt6.QtGui.QRegion` parameter. :sip:ref:`~PyQt6.QtGui.QRegion` is the best tool for minimizing the amount of screen area to be updated by a repaint.
+:sip:ref:`~PyQt6.QtGui.QRegion` is used with :sip:ref:`~PyQt6.QtGui.QPainter.setClipRegion` to limit the paint area to what needs to be painted. There is also a :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint` function that takes a :sip:ref:`~PyQt6.QtGui.QRegion` parameter. :sip:ref:`~PyQt6.QtGui.QRegion` is the best tool for minimizing the amount of screen area to be updated by a repaint.
 
 This class is not suitable for constructing shapes for rendering, especially as outlines. Use :sip:ref:`~PyQt6.QtGui.QPainterPath` to create paths and shapes for use with :sip:ref:`~PyQt6.QtGui.QPainter`.
 

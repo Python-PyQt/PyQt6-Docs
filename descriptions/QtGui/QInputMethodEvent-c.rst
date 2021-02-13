@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Parameters for input method events
-    :digest: 18452ff189eec9ae0c41de5515f0729b
+    :digest: 6473d9eb7ae29c5d1e681f550b9fc6a7
 
 The :sip:ref:`~PyQt6.QtGui.QInputMethodEvent` class provides parameters for input method events.
 
 Input method events are sent to widgets when an input method is used to enter text into a widget. Input methods are widely used to enter text for languages with non-Latin alphabets.
 
-Note that when creating custom text editing widgets, the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_InputMethodEnabled` window attribute must be set explicitly (using the QWidget::setAttribute() function) in order to receive input method events.
+Note that when creating custom text editing widgets, the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_InputMethodEnabled` window attribute must be set explicitly (using the :sip:ref:`~PyQt6.QtWidgets.QWidget.setAttribute` function) in order to receive input method events.
 
 The events are of interest to authors of keyboard entry widgets who want to be able to correctly handle languages with complex character input. Text input in such languages is usually a three step process:
 
@@ -29,9 +29,9 @@ If the :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.commitString` should replace par
 
 A number of attributes control the visual appearance of the preedit string (the visual appearance of text outside the preedit string is controlled by the widget only). The :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.AttributeType.AttributeType` enum describes the different attributes that can be set.
 
-A class implementing QWidget::inputMethodEvent() or QGraphicsItem::inputMethodEvent() should at least understand and honor the :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.AttributeType.TextFormat` and :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.AttributeType.Cursor` attributes.
+A class implementing :sip:ref:`~PyQt6.QtWidgets.QWidget.inputMethodEvent` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.inputMethodEvent` should at least understand and honor the :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.AttributeType.TextFormat` and :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.AttributeType.Cursor` attributes.
 
-Since input methods need to be able to query certain properties from the widget or graphics item, subclasses must also implement QWidget::inputMethodQuery() and QGraphicsItem::inputMethodQuery(), respectively.
+Since input methods need to be able to query certain properties from the widget or graphics item, subclasses must also implement :sip:ref:`~PyQt6.QtWidgets.QWidget.inputMethodQuery` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.inputMethodQuery`, respectively.
 
 When receiving an input method event, the text widget has to performs the following steps:
 

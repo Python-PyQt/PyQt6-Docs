@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Date and time functions
-    :digest: 80a84bd32ba888d8520e3aeb0009a696
+    :digest: 23868850464ff734eb9606bbed9ee590
 
 The :sip:ref:`~PyQt6.QtCore.QDateTime` class provides date and time functions.
 
@@ -66,4 +66,4 @@ Offsets From UTC
 
 There is no explicit size restriction on an offset from UTC, but there is an implicit limit imposed when using the :sip:ref:`~PyQt6.QtCore.QDateTime.toString` and :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` methods which use a [+|-]hh:mm format, effectively limiting the range to +/- 99 hours and 59 minutes and whole minutes only. Note that currently no time zone lies outside the range of +/- 14 hours.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDate`, :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QTimeZone`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDate`, :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit`, :sip:ref:`~PyQt6.QtCore.QTimeZone`.

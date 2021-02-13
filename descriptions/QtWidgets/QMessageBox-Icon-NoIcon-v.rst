@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: aecf2cffef18ee0f0f8d514e79f77210
 
-TODO
+the message box does not have any icon.

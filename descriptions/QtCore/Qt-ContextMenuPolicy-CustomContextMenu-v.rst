@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: d00cfc6420df53a6d00391ae2e42ce57
+    :digest: b7d0f413066a0cd17f55ffe2122d8ffe
 
-the widget emits the QWidget::customContextMenuRequested() signal.
+the widget emits the :sip:ref:`~PyQt6.QtWidgets.QWidget.customContextMenuRequested` signal.

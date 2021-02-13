@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 5b29482105442ab8f18835c84bd0b907
     :realsig: (QPaintDevice*)
-    :digest: 2c5092453d4aabb5c534cec3c39c5f18
+    :digest: c140a7d540c5312337ed84d404573719
 
 Constructs a painter that begins painting the paint *device* immediately.
 
-This constructor is convenient for short-lived painters, e.g. in a QWidget::paintEvent() and should be used only once. The constructor calls :sip:ref:`~PyQt6.QtGui.QPainter.begin` for you and the :sip:ref:`~PyQt6.QtGui.QPainter` destructor automatically calls :sip:ref:`~PyQt6.QtGui.QPainter.end`.
+This constructor is convenient for short-lived painters, e.g. in a :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` and should be used only once. The constructor calls :sip:ref:`~PyQt6.QtGui.QPainter.begin` for you and the :sip:ref:`~PyQt6.QtGui.QPainter` destructor automatically calls :sip:ref:`~PyQt6.QtGui.QPainter.end`.
 
 Here's an example using :sip:ref:`~PyQt6.QtGui.QPainter.begin` and :sip:ref:`~PyQt6.QtGui.QPainter.end`:
 

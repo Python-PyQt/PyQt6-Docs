@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for proxy item models that can do sorting, filtering or other data processing tasks
-    :digest: 62ef37654f7a50a7f021aa4e41987820
+    :digest: 38201d0d57d4ff8e4a069a14a4b86abd
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel` class provides a base class for proxy item models that can do sorting, filtering or other data processing tasks.
 
@@ -15,4 +15,4 @@ To subclass :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`, you need to implement 
 
 **Note:** If the source model is deleted or no source model is specified, the proxy model operates on a empty placeholder model.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_.

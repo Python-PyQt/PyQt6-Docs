@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x02
     :realname: QDockWidget::DockWidgetFeature::DockWidgetMovable
+    :digest: 1479af3aa1ad5ce9123241e2b9335f96
 
-TODO
+The dock widget can be moved between docks by the user.

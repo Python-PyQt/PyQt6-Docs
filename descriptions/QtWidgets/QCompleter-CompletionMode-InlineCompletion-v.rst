@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: f2483b97b3f3c43159d394a74e533c4d
 
-TODO
+Completions appear inline (as selected text).

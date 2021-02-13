@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 66
+    :digest: 731217c6e16ea6062718eaed6afcf965
 
-TODO
+Typing causes a menu to be search for relevant items, otherwise only mnemnonic is considered.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 14
+    :digest: 77e9bf8617fdf320777f4876063e2c13
 
-TODO
+The offset between the tickmarks and the slider.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 0101570050f4af433317b2c1b7cd2ac2
+    :digest: 47248cf29dbcc29c0f50ded27fa292c8
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -167,7 +167,7 @@ If you want to use INI files on all platforms instead of the native API, you can
 
 Note that type information is not preserved when reading settings from INI files; all values will be returned as QString.
 
-The Settings Editor example lets you experiment with different settings location and with fallbacks turned on or off.
+The `Settings Editor <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_ example lets you experiment with different settings location and with fallbacks turned on or off.
 
 .. _qsettings-restoring-the-state-of-a-gui-application:
 
@@ -182,7 +182,7 @@ Restoring the State of a GUI Application
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 164-172
 
-See Window Geometry for a discussion on why it is better to call QWidget::resize() and QWidget::move() rather than QWidget::setGeometry() to restore a window's geometry.
+See `Window Geometry <https://doc.qt.io/qt-6/application-windows.html#window-geometry>`_ for a discussion on why it is better to call :sip:ref:`~PyQt6.QtWidgets.QWidget.resize` and :sip:ref:`~PyQt6.QtWidgets.QWidget.move` rather than :sip:ref:`~PyQt6.QtWidgets.QWidget.setGeometry` to restore a window's geometry.
 
 The ``readSettings()`` and ``writeSettings()`` functions must be called from the main window's constructor and close event handler as follows:
 
@@ -198,7 +198,7 @@ The ``readSettings()`` and ``writeSettings()`` functions must be called from the
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 187-195
 
-See the Application example for a self-contained example that uses :sip:ref:`~PyQt6.QtCore.QSettings`.
+See the `Application <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_ example for a self-contained example that uses :sip:ref:`~PyQt6.QtCore.QSettings`.
 
 .. _qsettings-accessing-settings-from-multiple-threads-or-processes-simultaneously:
 
@@ -359,4 +359,4 @@ While :sip:ref:`~PyQt6.QtCore.QSettings` attempts to smooth over the differences
 
 * On macOS, permissions to access settings not belonging to the current user (i.e. :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope`) have changed with 10.7 (Lion). Prior to that version, users having admin rights could access these. For 10.7 and 10.8 (Mountain Lion), only root can. However, 10.9 (Mavericks) changes that rule again but only for the native format (plist files).
 
-.. seealso:: `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, :sip:ref:`~PyQt6.QtGui.QSessionManager`.
+.. seealso:: `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.

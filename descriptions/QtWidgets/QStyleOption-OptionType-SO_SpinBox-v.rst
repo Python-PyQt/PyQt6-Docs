@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xf0002
+    :digest: 013f301f422d524145b6a9573dcd88f3
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionSpinBox`

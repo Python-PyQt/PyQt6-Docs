@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Validator that ensures a string contains a valid integer within a specified range
-    :digest: 29ac936be8a9e00c0e411535ad018c8c
+    :digest: bd0b34006c60739e0fa5d408e30d7045
 
 The :sip:ref:`~PyQt6.QtGui.QIntValidator` class provides a validator that ensures a string contains a valid integer within a specified range.
 
@@ -23,4 +23,4 @@ The minimum and maximum values are set in one call with :sip:ref:`~PyQt6.QtGui.Q
 
 **Note:** The QLocale::NumberOptions set on the locale() also affect the way the number is interpreted. For example, since :sip:ref:`~PyQt6.QtCore.QLocale.NumberOptions.RejectGroupSeparator` is not set by default, the validator will accept group separators. It is thus recommended to use :sip:ref:`~PyQt6.QtCore.QLocale.toInt` to obtain the numeric value.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QDoubleValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, :sip:ref:`~PyQt6.QtCore.QLocale.toInt`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QDoubleValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, :sip:ref:`~PyQt6.QtCore.QLocale.toInt`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

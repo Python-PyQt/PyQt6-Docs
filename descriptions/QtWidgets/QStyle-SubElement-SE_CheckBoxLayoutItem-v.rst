@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 32
+    :digest: b72abb515e5600584cebe07cebf37a12
 
-TODO
+Area that counts for the parent layout.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000020
     :realname: QFileDialog::Option::HideNameFilterDetails
+    :digest: d5024478aa19abd066490548ee613f1f
 
-TODO
+Indicates if the file name filter details are hidden or not.

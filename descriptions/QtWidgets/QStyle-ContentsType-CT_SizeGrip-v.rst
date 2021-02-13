@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
+    :digest: df272e45f5c4c44caae10236731a6309
 
-TODO
+A size grip, like :sip:ref:`~PyQt6.QtWidgets.QSizeGrip`.

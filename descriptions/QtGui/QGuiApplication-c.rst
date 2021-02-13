@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Manages the GUI application's control flow and main settings
-    :digest: 52235c4d6efb1a3c9c5aaa97b4c74844
+    :digest: 296041ee8789047920ec9a758d83a768
 
 The :sip:ref:`~PyQt6.QtGui.QGuiApplication` class manages the GUI application's control flow and main settings.
 
 :sip:ref:`~PyQt6.QtGui.QGuiApplication` contains the main event loop, where all events from the window system and other sources are processed and dispatched. It also handles the application's initialization and finalization, and provides session management. In addition, :sip:ref:`~PyQt6.QtGui.QGuiApplication` handles most of the system-wide and application-wide settings.
 
-For any GUI application using Qt, there is precisely **one** :sip:ref:`~PyQt6.QtGui.QGuiApplication` object no matter whether the application has 0, 1, 2 or more windows at any given time. For non-GUI Qt applications, use :sip:ref:`~PyQt6.QtCore.QCoreApplication` instead, as it does not depend on the Qt GUI module. For QWidget based Qt applications, use QApplication instead, as it provides some functionality needed for creating QWidget instances.
+For any GUI application using Qt, there is precisely **one** :sip:ref:`~PyQt6.QtGui.QGuiApplication` object no matter whether the application has 0, 1, 2 or more windows at any given time. For non-GUI Qt applications, use :sip:ref:`~PyQt6.QtCore.QCoreApplication` instead, as it does not depend on the Qt GUI module. For `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ based Qt applications, use :sip:ref:`~PyQt6.QtWidgets.QApplication` instead, as it provides some functionality needed for creating `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ instances.
 
 The :sip:ref:`~PyQt6.QtGui.QGuiApplication` object is accessible through the instance() function, which returns a pointer equivalent to the global qApp pointer.
 

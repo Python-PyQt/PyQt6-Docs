@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Information about the fonts available in the underlying window system
-    :digest: fd2be847f7bc05092a3f1da8e20a6f0d
+    :digest: 16e7f7d513253512c257fdf8b60d1187
 
 The `QFontDatabase <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfontdatabase>`_ class provides information about the fonts available in the underlying window system.
 
@@ -24,4 +24,4 @@ Example:
 
 This example gets the list of font families, the list of styles for each family, and the point sizes that are available for each combination of family and style, displaying this information in a tree view.
 
-.. seealso:: `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontMetrics`.
+.. seealso:: `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontMetrics`, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 37
+    :digest: fba46002dd81265d0198c45cd3d1c822
 
-TODO
+Scroll bar last line indicator (i.e., end).

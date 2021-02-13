@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines how a QPainter should draw lines and outlines of shapes
-    :digest: 68deab2e7768602f7d58588a8ff8582e
+    :digest: c60c11d9555f7ed6fd05076844a0e1ab
 
 The :sip:ref:`~PyQt6.QtGui.QPen` class defines how a :sip:ref:`~PyQt6.QtGui.QPainter` should draw lines and outlines of shapes.
 
@@ -98,12 +98,12 @@ When the :sip:ref:`~PyQt6.QtCore.Qt.PenJoinStyle.MiterJoin` style is applied, it
 The :sip:ref:`~PyQt6.QtGui.QPen.miterLimit` must be specified in units of the pens width, e.g. a miter limit of 5 in width 10 is 50 pixels long. The default miter limit is 2, i.e. twice the pen width in pixels.
 
 +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
-| |image-qpen-demo-png| | **The Path Stroking Example**                                                                                                                    |
+| |image-qpen-demo-png| | **`The Path Stroking Example <https://doc.qt.io/qt-6/qtwidgets-painting-pathstroke-example.html>`_**                                             |
 |                       |                                                                                                                                                  |
 |                       | The Path Stroking example shows Qt's built-in dash patterns and shows how custom patterns can be used to extend the range of available patterns. |
 +-----------------------+--------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QBrush`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QBrush`, `Path Stroking Example <https://doc.qt.io/qt-6/qtwidgets-painting-pathstroke-example.html>`_, `Scribble Example <https://doc.qt.io/qt-6/qtwidgets-widgets-scribble-example.html>`_.
 
 .. |image-qpen-solid-png| image:: ../../../images/qpen-solid.png
 .. |image-qpen-dash-png| image:: ../../../images/qpen-dash.png

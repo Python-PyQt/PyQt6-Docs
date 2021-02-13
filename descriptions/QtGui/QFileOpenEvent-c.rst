@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Event that will be sent when there is a request to open a file or a URL
-    :digest: 8ea99d45870586d2aec2a72b5e98cfd3
+    :digest: d27d1eda26882ccaf170e3adfc262c13
 
 The :sip:ref:`~PyQt6.QtGui.QFileOpenEvent` class provides an event that will be sent when there is a request to open a file or a URL.
 
@@ -23,7 +23,7 @@ For example, the following ``Info.plist`` file declares that the application can
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-qfileopenevent-Info.plist
     :lines: 54-70
 
-The following implementation of a QApplication subclass prints the path to the file that was, for example, dropped on the Dock icon of the application.
+The following implementation of a :sip:ref:`~PyQt6.QtWidgets.QApplication` subclass prints the path to the file that was, for example, dropped on the Dock icon of the application.
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-qfileopenevent-main.py
     :lines: 54-76

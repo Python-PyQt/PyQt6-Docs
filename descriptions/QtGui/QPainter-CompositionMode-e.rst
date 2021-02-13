@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0ae5f1fc120bd3bf3eac51dbf50148ce
+    :digest: e936c17f4a490faa3a0a559fd72e1889
 
 Defines the modes supported for digital image compositing. Composition modes are used to specify how the pixels in one image, the source, are merged with the pixel in another image, the destination.
 
@@ -16,4 +16,4 @@ Several composition modes require an alpha channel in the source or target image
 
 When a composition mode is set it applies to all painting operator, pens, brushes, gradients and pixmap/image drawing.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter.compositionMode`, :sip:ref:`~PyQt6.QtGui.QPainter.setCompositionMode`, Composition Modes.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter.compositionMode`, :sip:ref:`~PyQt6.QtGui.QPainter.setCompositionMode`, Composition Modes, `Image Composition Example <https://doc.qt.io/qt-6/qtwidgets-painting-imagecomposition-example.html>`_.

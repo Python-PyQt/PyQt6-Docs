@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 6fe82b46c794e082d82b330676b4d3c0
 
-TODO
+Used to input floating point numbers with double precision accuracy.

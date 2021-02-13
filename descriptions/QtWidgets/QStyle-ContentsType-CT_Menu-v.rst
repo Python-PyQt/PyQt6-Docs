@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: f9bfceff1a988f6c824e160e2f44eaf3
 
-TODO
+A menu, like :sip:ref:`~PyQt6.QtWidgets.QMenu`.

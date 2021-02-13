@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 168
-    :digest: 734d59bca9b7dfb38283bba195d9441d
+    :digest: 56ab148c5aba2fd19ab698a3ba889636
 
-Mouse wheel rolled in a graphics scene (QGraphicsSceneWheelEvent).
+Mouse wheel rolled in a graphics scene (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneWheelEvent`).

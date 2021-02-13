@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 2df57490071f1a31e592fa4a8736862a
 
-TODO
+The view supports both dragging and dropping

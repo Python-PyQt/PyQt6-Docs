@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scalable icons in different modes and states
-    :digest: 4b5821557db8fd3448ba73ab7a81cd59
+    :digest: d5e6cca8dd643da683738d2083dd4f6b
 
 The :sip:ref:`~PyQt6.QtGui.QIcon` class provides scalable icons in different modes and states.
 
@@ -28,14 +28,14 @@ When you retrieve a pixmap using pixmap(\ :sip:ref:`~PyQt6.QtCore.QSize`, Mode, 
 Making Classes that Use QIcon
 -----------------------------
 
-If you write your own widgets that have an option to set a small pixmap, consider allowing a :sip:ref:`~PyQt6.QtGui.QIcon` to be set for that pixmap. The Qt class QToolButton is an example of such a widget.
+If you write your own widgets that have an option to set a small pixmap, consider allowing a :sip:ref:`~PyQt6.QtGui.QIcon` to be set for that pixmap. The Qt class :sip:ref:`~PyQt6.QtWidgets.QToolButton` is an example of such a widget.
 
 Provide a method to set a :sip:ref:`~PyQt6.QtGui.QIcon`, and when you draw the icon, choose whichever pixmap is appropriate for the current state of your widget. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_image_qicon.py
     :lines: 81-89
 
-You might also make use of the ``Active`` mode, perhaps making your widget ``Active`` when the mouse is over the widget (see QWidget::enterEvent()), while the mouse is pressed pending the release that will activate the function, or when it is the currently selected item. If the widget can be toggled, the "On" mode might be used to draw a different icon.
+You might also make use of the ``Active`` mode, perhaps making your widget ``Active`` when the mouse is over the widget (see :sip:ref:`~PyQt6.QtWidgets.QWidget.enterEvent`), while the mouse is pressed pending the release that will activate the function, or when it is the currently selected item. If the widget can be toggled, the "On" mode might be used to draw a different icon.
 
 .. image:: ../../../images/icon.png
 
@@ -83,4 +83,4 @@ Your icon theme directory would then look something like this:
     │       └── appointment-new.png
     └── index.theme
 
-.. seealso:: GUI Design Handbook: Iconic LabelIcons Example.
+.. seealso:: `GUI Design Handbook: Iconic Label <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Icons Example <https://doc.qt.io/qt-6/qtwidgets-widgets-icons-example.html>`_.

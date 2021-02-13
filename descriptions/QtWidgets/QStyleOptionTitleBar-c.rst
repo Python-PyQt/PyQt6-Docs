@@ -1,5 +1,14 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Used to describe the parameters for drawing a title bar
+    :digest: a904cd6f91c35ea62ae83c8c1ebbb22d
 
-TODO
+The :sip:ref:`~PyQt6.QtWidgets.QStyleOptionTitleBar` class is used to describe the parameters for drawing a title bar.
+
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionTitleBar` contains all the information that :sip:ref:`~PyQt6.QtWidgets.QStyle` functions need to draw the title bar of a :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`.
+
+For performance reasons, there are few member functions and the access to the member variables is direct (i.e., using the ``.`` or ``->`` operator). This makes the structures straightforward to use and emphasizes that these are simply parameters used by the style functions.
+
+For an example demonstrating how style options can be used, see the `Styles <https://doc.qt.io/qt-6/qtwidgets-widgets-styles-example.html>`_ example.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`, :sip:ref:`~PyQt6.QtWidgets.QStyleOptionComplex`, :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`.

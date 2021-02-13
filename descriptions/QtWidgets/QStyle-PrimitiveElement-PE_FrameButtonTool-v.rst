@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: f56a1572deb6f6e64fb25951893907a4
 
-TODO
+Panel frame for a tool button.

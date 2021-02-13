@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: abdf2af72637c3db4948c840fd75dcde
 
-TODO
+Area for the focus indicator.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: 8b5699fa2440ecc1a2476f78170c868a
 
-TODO
+Returns the vertical stretch factor of the size policy.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.setVerticalStretch`, :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.horizontalStretch`, :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.verticalPolicy`.

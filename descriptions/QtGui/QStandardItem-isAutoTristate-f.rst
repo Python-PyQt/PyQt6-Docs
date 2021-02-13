@@ -2,9 +2,9 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: 05bb7835be8c1256c8c2a96f7351edd2
+    :digest: de1febe181303a1cbd9b23423e3a5274
 
-Returns whether the item is tristate and is controlled by QTreeWidget.
+Returns whether the item is tristate and is controlled by :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`.
 
 The default value is false.
 

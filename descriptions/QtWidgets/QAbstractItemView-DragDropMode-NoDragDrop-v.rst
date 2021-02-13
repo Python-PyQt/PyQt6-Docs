@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 1694d0df431054acb213275ba273d944
 
-TODO
+Does not support dragging or dropping.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 162
-    :digest: 697b19ee515e7278f9457bf5c471a8ad
+    :digest: 39cab238f2f0a6ce061987cf518fa5ff
 
-The mouse cursor leaves a hover item in a graphics scene (QGraphicsSceneHoverEvent).
+The mouse cursor leaves a hover item in a graphics scene (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneHoverEvent`).

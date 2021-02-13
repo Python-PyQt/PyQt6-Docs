@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 187
-    :digest: e543b786cf619e307b619b59c866da2f
+    :digest: 0ae6851300fe8fce740987515a997b95
 
-Item loses mouse grab (QGraphicsItem, QQuickItem).
+Item loses mouse grab (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`, QQuickItem).

@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::InputMethodHint
-    :digest: 0c273c89667da1779863f82e9e270a71
+    :digest: 2947323d99c14a093e50c6f2478a68c2
 
 Flags that alter the behavior:
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Container for painting operations, enabling graphical shapes to be constructed and reused
-    :digest: cabe95fdc2bbbefd71da799682111698
+    :digest: e86a574c8e289ede79d09cc7fa422e29
 
 The :sip:ref:`~PyQt6.QtGui.QPainterPath` class provides a container for painting operations, enabling graphical shapes to be constructed and reused.
 
@@ -70,17 +70,17 @@ The :sip:ref:`~PyQt6.QtGui.QPainterPath.toFillPolygon` and :sip:ref:`~PyQt6.QtGu
 Examples
 --------
 
-Qt provides the Painter Paths Example and the Vector Deformation example which are located in Qt's example directory.
+Qt provides the `Painter Paths Example <https://doc.qt.io/qt-6/qtwidgets-painting-painterpaths-example.html>`_ and the `Vector Deformation example <https://doc.qt.io/qt-6/qtwidgets-painting-deform-example.html>`_ which are located in Qt's example directory.
 
-The Painter Paths Example shows how painter paths can be used to build complex shapes for rendering and lets the user experiment with the filling and stroking. The Vector Deformation Example shows how to use :sip:ref:`~PyQt6.QtGui.QPainterPath` to draw text.
+The `Painter Paths Example <https://doc.qt.io/qt-6/qtwidgets-painting-painterpaths-example.html>`_ shows how painter paths can be used to build complex shapes for rendering and lets the user experiment with the filling and stroking. The `Vector Deformation Example <https://doc.qt.io/qt-6/qtwidgets-painting-deform-example.html>`_ shows how to use :sip:ref:`~PyQt6.QtGui.QPainterPath` to draw text.
 
-+----------------------------------+-------------------------------+
-| Painter Paths Example            | Vector Deformation Example    |
-+==================================+===============================+
-| |image-qpainterpath-example-png| | |image-qpainterpath-demo-png| |
-+----------------------------------+-------------------------------+
++------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
+| `Painter Paths Example <https://doc.qt.io/qt-6/qtwidgets-painting-painterpaths-example.html>`_ | `Vector Deformation Example <https://doc.qt.io/qt-6/qtwidgets-painting-deform-example.html>`_ |
++================================================================================================+===============================================================================================+
+| |image-qpainterpath-example-png|                                                               | |image-qpainterpath-demo-png|                                                                 |
++------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------+
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainterPathStroker`, :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QRegion`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainterPathStroker`, :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QRegion`, `Painter Paths Example <https://doc.qt.io/qt-6/qtwidgets-painting-painterpaths-example.html>`_.
 
 .. |image-qpainterpath-construction-png| image:: ../../../images/qpainterpath-construction.png
 .. |image-qt-fillrule-oddeven-png| image:: ../../../images/qt-fillrule-oddeven.png

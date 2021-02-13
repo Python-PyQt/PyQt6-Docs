@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 36e772c3b682199a4952243e56cec1c0
 
-TODO
+A push button, like :sip:ref:`~PyQt6.QtWidgets.QPushButton`.

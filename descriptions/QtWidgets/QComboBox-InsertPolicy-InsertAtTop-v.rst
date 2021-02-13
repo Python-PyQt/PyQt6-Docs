@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 874eaf4b664a154786359fb615e8a759
 
-TODO
+The string will be inserted as the first item in the combobox.

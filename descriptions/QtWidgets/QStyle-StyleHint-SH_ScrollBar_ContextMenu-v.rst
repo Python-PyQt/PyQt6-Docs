@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 62
+    :digest: 4a152ee7d985441e2d049a50728c66fe
 
-TODO
+Whether or not a scroll bar has a context menu.

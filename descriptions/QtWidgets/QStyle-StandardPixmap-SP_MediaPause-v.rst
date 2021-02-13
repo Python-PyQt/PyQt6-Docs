@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 63
+    :digest: 7b1cc5aad74aed2c38a3a451de829fbb
 
-TODO
+Icon indicating that media should pause playback.

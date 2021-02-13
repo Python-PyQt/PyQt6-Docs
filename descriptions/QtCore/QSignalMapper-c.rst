@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Bundles signals from identifiable senders
-    :digest: 7a6ff77f2172eda5e693bdfa416da4d9
+    :digest: c0c61682b815de085c08dc2a933da251
 
 The :sip:ref:`~PyQt6.QtCore.QSignalMapper` class bundles signals from identifiable senders.
 
@@ -29,10 +29,10 @@ The only function that we need to implement is the constructor:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qsignalmapper-buttonwidget.py
 
-A list of texts is passed to the constructor. A signal mapper is constructed and for each text in the list a QPushButton is created. We connect each button's ``clicked()`` signal to the signal mapper's :sip:ref:`~PyQt6.QtCore.QSignalMapper.map` slot, and create a mapping in the signal mapper from each button to the button's text. Finally we connect the signal mapper's :sip:ref:`~PyQt6.QtCore.QSignalMapper.mappedString` signal to the custom widget's ``clicked()`` signal. When the user clicks a button, the custom widget will emit a single ``clicked()`` signal whose argument is the text of the button the user clicked.
+A list of texts is passed to the constructor. A signal mapper is constructed and for each text in the list a :sip:ref:`~PyQt6.QtWidgets.QPushButton` is created. We connect each button's ``clicked()`` signal to the signal mapper's :sip:ref:`~PyQt6.QtCore.QSignalMapper.map` slot, and create a mapping in the signal mapper from each button to the button's text. Finally we connect the signal mapper's :sip:ref:`~PyQt6.QtCore.QSignalMapper.mappedString` signal to the custom widget's ``clicked()`` signal. When the user clicks a button, the custom widget will emit a single ``clicked()`` signal whose argument is the text of the button the user clicked.
 
 This class was mostly useful before lambda functions could be used as slots. The example above can be rewritten simpler without :sip:ref:`~PyQt6.QtCore.QSignalMapper` by connecting to a lambda function.
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qsignalmapper-buttonwidget.py
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QObject`, :sip:ref:`~PyQt6.QtGui.QActionGroup`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QObject`, :sip:ref:`~PyQt6.QtWidgets.QButtonGroup`, :sip:ref:`~PyQt6.QtGui.QActionGroup`.

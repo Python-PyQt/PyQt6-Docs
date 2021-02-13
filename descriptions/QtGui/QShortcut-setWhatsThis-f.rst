@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 90f0163045e4171cd96f4f8182f018f6
+    :digest: 2691e033c1e9c50bbff4068c29aeab85
 
 Sets the shortcut's "What's This?" help *text*.
 
@@ -14,4 +14,4 @@ By default, the help text is an empty string.
 
 This function has no effect in applications that don't use widgets.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QShortcut.whatsThis`, :sip:ref:`~PyQt6.QtGui.QAction.setWhatsThis`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QShortcut.whatsThis`, :sip:ref:`~PyQt6.QtWidgets.QWhatsThis.inWhatsThisMode`, :sip:ref:`~PyQt6.QtGui.QAction.setWhatsThis`.

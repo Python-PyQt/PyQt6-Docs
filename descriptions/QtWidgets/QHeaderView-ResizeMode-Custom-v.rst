@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Fixed
+    :digest: 093ed1c5a3582da396cc4c35e09066a9
 
-TODO
+Use Fixed instead.

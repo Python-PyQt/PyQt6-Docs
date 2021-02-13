@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
+    :digest: a41b7139544c781f17eaec0d09cde59c
 
-TODO
+Sets the cancel button's text to *cancelButtonText*. If the text is set to QString() then it will cause the cancel button to be hidden and deleted.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QProgressDialog.setCancelButton`.

@@ -1,17 +1,17 @@
 .. sip:class-description::
     :status: todo
     :brief: Holds formatted text
-    :digest: 4e2a99fc4b0fb7be2c7f536f3b6c1b24
+    :digest: bc3980eac94b1fff1b6b011153370492
 
 The :sip:ref:`~PyQt6.QtGui.QTextDocument` class holds formatted text.
 
-:sip:ref:`~PyQt6.QtGui.QTextDocument` is a container for structured rich text documents, providing support for styled text and various types of document elements, such as lists, tables, frames, and images. They can be created for use in a QTextEdit, or used independently.
+:sip:ref:`~PyQt6.QtGui.QTextDocument` is a container for structured rich text documents, providing support for styled text and various types of document elements, such as lists, tables, frames, and images. They can be created for use in a :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, or used independently.
 
 Each document element is described by an associated format object. Each format object is treated as a unique object by QTextDocuments, and can be passed to :sip:ref:`~PyQt6.QtGui.QTextDocument.objectForFormat` to obtain the document element that it is applied to.
 
 A :sip:ref:`~PyQt6.QtGui.QTextDocument` can be edited programmatically using a :sip:ref:`~PyQt6.QtGui.QTextCursor`, and its contents can be examined by traversing the document structure. The entire document structure is stored as a hierarchy of document elements beneath the root frame, found with the :sip:ref:`~PyQt6.QtGui.QTextDocument.rootFrame` function. Alternatively, if you just want to iterate over the textual contents of the document you can use :sip:ref:`~PyQt6.QtGui.QTextDocument.begin`, :sip:ref:`~PyQt6.QtGui.QTextDocument.end`, and :sip:ref:`~PyQt6.QtGui.QTextDocument.findBlock` to retrieve text blocks that you can examine and iterate over.
 
-The layout of a document is determined by the :sip:ref:`~PyQt6.QtGui.QTextDocument.documentLayout`; you can create your own :sip:ref:`~PyQt6.QtGui.QAbstractTextDocumentLayout` subclass and set it using :sip:ref:`~PyQt6.QtGui.QTextDocument.setDocumentLayout` if you want to use your own layout logic. The document's title and other meta-information can be obtained by calling the :sip:ref:`~PyQt6.QtGui.QTextDocument.metaInformation` function. For documents that are exposed to users through the QTextEdit class, the document title is also available via the QTextEdit::documentTitle() function.
+The layout of a document is determined by the :sip:ref:`~PyQt6.QtGui.QTextDocument.documentLayout`; you can create your own :sip:ref:`~PyQt6.QtGui.QAbstractTextDocumentLayout` subclass and set it using :sip:ref:`~PyQt6.QtGui.QTextDocument.setDocumentLayout` if you want to use your own layout logic. The document's title and other meta-information can be obtained by calling the :sip:ref:`~PyQt6.QtGui.QTextDocument.metaInformation` function. For documents that are exposed to users through the :sip:ref:`~PyQt6.QtWidgets.QTextEdit` class, the document title is also available via the :sip:ref:`~PyQt6.QtWidgets.QTextEdit.documentTitle` function.
 
 The :sip:ref:`~PyQt6.QtGui.QTextDocument.toPlainText` and :sip:ref:`~PyQt6.QtGui.QTextDocument.toHtml` convenience functions allow you to retrieve the contents of the document as plain text and HTML. The document's text can be searched using the :sip:ref:`~PyQt6.QtGui.QTextDocument.find` functions.
 
@@ -27,4 +27,4 @@ Undo/redo of operations performed on the document can be controlled using the :s
 
 * Text block group format changes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCursor`, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCursor`, :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.

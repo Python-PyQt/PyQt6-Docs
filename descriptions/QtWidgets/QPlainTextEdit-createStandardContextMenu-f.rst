@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 0bee5ee99a425921db962be70be70688
     :realsig: ()
+    :digest: 8946e4f229c3b0ae10986a404f173223
 
-TODO
+This function creates the standard context menu which is shown when the user clicks on the text edit with the right mouse button. It is called from the default :sip:ref:`~PyQt6.QtWidgets.QPlainTextEdit.contextMenuEvent` handler. The popup menu's ownership is transferred to the caller.
+
+We recommend that you use the (\ :sip:ref:`~PyQt6.QtCore.QPoint`) version instead which will enable the actions that are sensitive to where the user clicked.

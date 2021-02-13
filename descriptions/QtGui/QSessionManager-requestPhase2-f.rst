@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: f4a13c85f867505cd91649d2fc7a0917
+    :digest: 2a8ec136a826434d07820ceb3ac6cb3e
 
 Requests a second session management phase for the application. The application may then return immediately from the :sip:ref:`~PyQt6.QtGui.QGuiApplication.commitDataRequest` or QApplication::saveStateRequest() function, and they will be called again once most or all other applications have finished their session management.
 

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 156
-    :digest: 0fe769f8070f2df0ead84d443cfbef42
+    :digest: a473998f20a63861062e72493dc2e20f
 
-Mouse press in a graphics scene (QGraphicsSceneMouseEvent).
+Mouse press in a graphics scene (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneMouseEvent`).

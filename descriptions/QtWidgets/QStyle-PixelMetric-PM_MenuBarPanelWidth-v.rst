@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 33
+    :digest: 8515ebde58f5a703f8a3933dd643a2d2
 
-TODO
+Frame width of a menu bar, defaults to .

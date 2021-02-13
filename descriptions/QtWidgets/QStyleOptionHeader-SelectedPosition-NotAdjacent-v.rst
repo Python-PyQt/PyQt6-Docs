@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 3f2497e07947513220603d052f8dd601
 
-TODO
+Not adjacent to the selected section

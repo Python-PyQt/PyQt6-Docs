@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 7fff1b485b7cca6f41ac4f83c61f2b5f
 
-TODO
+Frame width of a dock window.

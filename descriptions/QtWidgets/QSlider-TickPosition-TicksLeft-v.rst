@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: TicksAbove
+    :digest: 049d9693a1796bb4e34b91a309b5cbed
 
-TODO
+Draw tick marks to the left of the (vertical) slider

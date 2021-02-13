@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Hardware-independent image representation that allows direct access to the pixel data, and can be used as a paint device
-    :digest: 5023d935e879d768fb9b54db49b36216
+    :digest: 2f9f59988937a902b3eec131a2950541
 
 The :sip:ref:`~PyQt6.QtGui.QImage` class provides a hardware-independent image representation that allows direct access to the pixel data, and can be used as a paint device.
 
@@ -162,7 +162,7 @@ There are also functions for changing attributes of an image in-place:
 | :sip:ref:`~PyQt6.QtGui.QImage.setColorCount`    | Resizes the color table. Only monochrome and 8-bit formats.                                                       |
 +-------------------------------------------------+-------------------------------------------------------------------------------------------------------------------+
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageReader`, :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QPixmap`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageReader`, :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QPixmap`, `Image Composition Example <https://doc.qt.io/qt-6/qtwidgets-painting-imagecomposition-example.html>`_, `Image Viewer Example <https://doc.qt.io/qt-6/qtwidgets-widgets-imageviewer-example.html>`_, `Scribble Example <https://doc.qt.io/qt-6/qtwidgets-widgets-scribble-example.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.
 
 .. |image-qimage-32bit_scaled-png| image:: ../../../images/qimage-32bit_scaled.png
 .. |image-qimage-8bit_scaled-png| image:: ../../../images/qimage-8bit_scaled.png

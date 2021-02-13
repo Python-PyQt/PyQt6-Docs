@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 26
+    :digest: deaf9ba747099ddd3e04dadade5dfca4
 
-TODO
+The title bar has no border.

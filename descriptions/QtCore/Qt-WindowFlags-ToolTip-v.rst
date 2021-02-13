@@ -2,6 +2,6 @@
     :status: todo
     :value: Popup | Sheet
     :realname: Qt::WindowType::ToolTip
-    :digest: 7e245f7f534a64a3e93be7785443263e
+    :digest: 8cf7a5155a199e75e190636ed2de8e3e
 
-Indicates that the widget is a tooltip. This is used internally to implement tooltips.
+Indicates that the widget is a tooltip. This is used internally to implement :sip:ref:`~PyQt6.QtWidgets.QWidget.toolTip`.

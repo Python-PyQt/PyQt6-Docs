@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Data model for the local filesystem
-    :digest: 99b379e87a09d914ab0447385b077f23
+    :digest: 736c3151466e144ae016a5f5bc6b535a
 
 The :sip:ref:`~PyQt6.QtGui.QFileSystemModel` class provides a data model for the local filesystem.
 
@@ -9,7 +9,7 @@ This class provides access to the local filesystem, providing functions for rena
 
 :sip:ref:`~PyQt6.QtGui.QFileSystemModel` can be accessed using the standard interface provided by :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, but it also provides some convenience functions that are specific to a directory model. The :sip:ref:`~PyQt6.QtGui.QFileSystemModel.fileInfo`, :sip:ref:`~PyQt6.QtGui.QFileSystemModel.isDir`, :sip:ref:`~PyQt6.QtGui.QFileSystemModel.fileName` and :sip:ref:`~PyQt6.QtGui.QFileSystemModel.filePath` functions provide information about the underlying files and directories related to items in the model. Directories can be created and removed using :sip:ref:`~PyQt6.QtGui.QFileSystemModel.mkdir`, :sip:ref:`~PyQt6.QtGui.QFileSystemModel.rmdir`.
 
-**Note:** :sip:ref:`~PyQt6.QtGui.QFileSystemModel` requires an instance of QApplication.
+**Note:** :sip:ref:`~PyQt6.QtGui.QFileSystemModel` requires an instance of :sip:ref:`~PyQt6.QtWidgets.QApplication`.
 
 .. _qfilesystemmodel-example-usage:
 
@@ -44,4 +44,4 @@ Caching and Performance
 
 :sip:ref:`~PyQt6.QtGui.QFileSystemModel` keeps a cache with file information. The cache is automatically kept up to date using the :sip:ref:`~PyQt6.QtCore.QFileSystemWatcher`.
 
-.. seealso:: Model Classes.
+.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_.

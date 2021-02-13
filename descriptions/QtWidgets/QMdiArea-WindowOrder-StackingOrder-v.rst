@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: ba1c44c8ef72604bbba2af426a3857de
 
-TODO
+The windows are returned in the order in which they are stacked, with the top-most window being last in the list.

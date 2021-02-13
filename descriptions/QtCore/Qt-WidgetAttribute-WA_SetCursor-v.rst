@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 38
-    :digest: 5bb52636e38b525741a34fdf54c8dd07
+    :digest: a2e2f8fdce07c9bc8660552de672c4ee
 
-Indicates that the widget has a cursor of its own. This flag is set or cleared by QWidget::setCursor() and QWidget::unsetCursor().
+Indicates that the widget has a cursor of its own. This flag is set or cleared by :sip:ref:`~PyQt6.QtWidgets.QWidget.setCursor` and :sip:ref:`~PyQt6.QtWidgets.QWidget.unsetCursor`.

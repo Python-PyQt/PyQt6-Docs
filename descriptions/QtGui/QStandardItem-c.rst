@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Item for use with the QStandardItemModel class
-    :digest: 622e13d74bf65e758c4b061f6f255a4f
+    :digest: e34942b179e17ed3be06785b214a5dea
 
 The :sip:ref:`~PyQt6.QtGui.QStandardItem` class provides an item for use with the :sip:ref:`~PyQt6.QtGui.QStandardItemModel` class.
 
@@ -36,4 +36,4 @@ Reimplement :sip:ref:`~PyQt6.QtGui.QStandardItem.read` and :sip:ref:`~PyQt6.QtGu
 
 Reimplement operator<() if you want to control the semantics of item comparison. operator<() determines the sorted order when sorting items with :sip:ref:`~PyQt6.QtGui.QStandardItem.sortChildren` or with :sip:ref:`~PyQt6.QtGui.QStandardItemModel.sort`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QStandardItemModel`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QStandardItemModel`, `Item View Convenience Classes <https://doc.qt.io/qt-6/model-view-programming.html#item-view-convenience-classes>`_, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_.

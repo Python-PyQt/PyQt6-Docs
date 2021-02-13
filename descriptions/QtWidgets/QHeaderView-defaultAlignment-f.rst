@@ -2,5 +2,6 @@
     :status: todo
     :pysig: ec2d4c0b45d7d89e82cb6a6e4667a2c1
     :realsig: () const
+    :digest: 98420c3c590e861aa00974fef340acd0
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QHeaderView.setDefaultAlignment`.

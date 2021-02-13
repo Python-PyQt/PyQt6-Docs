@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a2866dd441140a7b8f9b57c3a6c0883e
+    :digest: bebfc58a5c817e52aca2f8760d70bfb0
 
 This enum describes the different locations that can be queried using methods such as :sip:ref:`~PyQt6.QtCore.QStandardPaths.writableLocation`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.standardLocations`, and :sip:ref:`~PyQt6.QtCore.QStandardPaths.displayName`.
 
@@ -148,6 +148,6 @@ The paths above should not be relied upon, as they may change according to OS co
 
 **Note:** On Android, reading/writing to  needs the READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE permission granted.
 
-**Note:** On iOS, if you do pass ``QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).last()`` as argument to QFileDialog::setDirectory(), a native image picker dialog will be used for accessing the user's photo album. The filename returned can be loaded using :sip:ref:`~PyQt6.QtCore.QFile` and related APIs. This feature was added in Qt 5.5.
+**Note:** On iOS, if you do pass ``QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).last()`` as argument to :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setDirectory`, a native image picker dialog will be used for accessing the user's photo album. The filename returned can be loaded using :sip:ref:`~PyQt6.QtCore.QFile` and related APIs. This feature was added in Qt 5.5.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QStandardPaths.writableLocation`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.standardLocations`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.displayName`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.locate`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.locateAll`.

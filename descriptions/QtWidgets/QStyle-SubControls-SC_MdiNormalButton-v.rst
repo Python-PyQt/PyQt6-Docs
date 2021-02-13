@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000002
     :realname: QStyle::SubControl::SC_MdiNormalButton
+    :digest: 20e988550b98d1b783a7e9bb0568660a
 
-TODO
+The normal button for a MDI subwindow in the menu bar.

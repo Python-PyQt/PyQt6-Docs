@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: ec87d10218d8aada765a381c15e2cb73
+    :digest: fe35d090b1ee5de888b25c36e22d822f
 
-the widget's QWidget::contextMenuEvent() handler is called.
+the widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.contextMenuEvent` handler is called.

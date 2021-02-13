@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used in combination with QBrush to specify a radial gradient brush
-    :digest: b0d0895552ee105729d1726f7ae25432
+    :digest: c230282441433e0b43d40977daf37d5c
 
 The :sip:ref:`~PyQt6.QtGui.QRadialGradient` class is used in combination with :sip:ref:`~PyQt6.QtGui.QBrush` to specify a radial gradient brush.
 
@@ -21,7 +21,7 @@ The colors in a gradient is defined using stop points of the QGradientStop type,
 
 In addition to the functions inherited from :sip:ref:`~PyQt6.QtGui.QGradient`, the :sip:ref:`~PyQt6.QtGui.QRadialGradient` class provides the :sip:ref:`~PyQt6.QtGui.QRadialGradient.center`, :sip:ref:`~PyQt6.QtGui.QRadialGradient.focalPoint` and :sip:ref:`~PyQt6.QtGui.QRadialGradient.radius` functions returning the gradient's center, focal point and radius respectively.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QLinearGradient`, :sip:ref:`~PyQt6.QtGui.QConicalGradient`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QLinearGradient`, :sip:ref:`~PyQt6.QtGui.QConicalGradient`, `The Gradients Example <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_.
 
 .. |image-qradialgradient-pad-png| image:: ../../../images/qradialgradient-pad.png
 .. |image-qradialgradient-reflect-png| image:: ../../../images/qradialgradient-reflect.png

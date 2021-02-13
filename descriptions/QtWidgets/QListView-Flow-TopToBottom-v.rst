@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: db76f402f6d400e656996934acd717be
 
-TODO
+The items are laid out in the view from the top to the bottom.

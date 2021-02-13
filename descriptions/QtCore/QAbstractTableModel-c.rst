@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract model that can be subclassed to create table models
-    :digest: 42170173b6e0d46af45fe31688389f87
+    :digest: 59c6b837696dbc2100a2d2561d8ced03
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` class provides an abstract model that can be subclassed to create table models.
 
 :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` provides a standard interface for models that represent their data as a two-dimensional array of items. It is not used directly, but must be subclassed.
 
-Since the model provides a more specialized interface than :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, it is not suitable for use with tree views, although it can be used to provide data to a QListView. If you need to represent a simple list of items, and only need a model to contain a single column of data, subclassing the :sip:ref:`~PyQt6.QtCore.QAbstractListModel` may be more appropriate.
+Since the model provides a more specialized interface than :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, it is not suitable for use with tree views, although it can be used to provide data to a :sip:ref:`~PyQt6.QtWidgets.QListView`. If you need to represent a simple list of items, and only need a model to contain a single column of data, subclassing the :sip:ref:`~PyQt6.QtCore.QAbstractListModel` may be more appropriate.
 
 The rowCount() and columnCount() functions return the dimensions of the table. To retrieve a model index corresponding to an item in the model, use :sip:ref:`~PyQt6.QtCore.QAbstractTableModel.index` and provide only the row and column numbers.
 
@@ -30,6 +30,6 @@ Models that provide interfaces to resizable data structures can provide implemen
 
 * A removeColumns() implementation must call beginRemoveColumns() *before* the columns are removed from the data structure, and it must call endRemoveColumns() *immediately afterwards*.
 
-**Note:** Some general guidelines for subclassing models are available in the Model Subclassing Reference.
+**Note:** Some general guidelines for subclassing models are available in the `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtCore.QAbstractListModel`, Model Classes.
+.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtCore.QAbstractListModel`, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.

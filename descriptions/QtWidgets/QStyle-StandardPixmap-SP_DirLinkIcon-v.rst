@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 23
+    :digest: cd7912238ee834aa1a1787592d682813
 
-TODO
+The link to directory icon.

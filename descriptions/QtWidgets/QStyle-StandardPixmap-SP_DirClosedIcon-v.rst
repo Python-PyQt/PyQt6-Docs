@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 22
+    :digest: 07829f2b3ff30f103a13395d14a034b5
 
-TODO
+The closed directory icon.

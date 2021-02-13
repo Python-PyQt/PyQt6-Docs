@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 53
+    :digest: 6644445baacf560bfc7a51491238ff5f
 
-TODO
+Area for the scroll left button on a tab bar with scroll buttons.

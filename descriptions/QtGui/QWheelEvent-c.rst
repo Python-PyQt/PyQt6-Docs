@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a wheel event
-    :digest: 5a489a794c2793c8bec7a74a63f085fb
+    :digest: a62c6767fdabe6db41ef3cdaf044863e
 
 The :sip:ref:`~PyQt6.QtGui.QWheelEvent` class contains parameters that describe a wheel event.
 
@@ -11,8 +11,8 @@ The functions position() and globalPosition() return the mouse cursor's location
 
 A wheel event contains a special accept flag that indicates whether the receiver wants the event. You should call ignore() if you do not handle the wheel event; this ensures that it will be sent to the parent widget.
 
-The QWidget::setEnabled() function can be used to enable or disable mouse and keyboard events for a widget.
+The :sip:ref:`~PyQt6.QtWidgets.QWidget.setEnabled` function can be used to enable or disable mouse and keyboard events for a widget.
 
-The event handler QWidget::wheelEvent() receives wheel events.
+The event handler :sip:ref:`~PyQt6.QtWidgets.QWidget.wheelEvent` receives wheel events.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QMouseEvent`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QMouseEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.grabMouse`.

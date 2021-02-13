@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to define syntax highlighting rules, and in addition you can use the class to query a document's current formatting or user data
-    :digest: bb309d5373cb7553f355438ffd5b0748
+    :digest: fe2d8e4dbdc053cdae0827e8a06f0bd8
 
 The :sip:ref:`~PyQt6.QtGui.QSyntaxHighlighter` class allows you to define syntax highlighting rules, and in addition you can use the class to query a document's current formatting or user data.
 
@@ -36,4 +36,4 @@ In the example above, we first set the current block state to 0. Then, if the pr
 
 In addition you can query the current formatting and user data using the :sip:ref:`~PyQt6.QtGui.QSyntaxHighlighter.format` and :sip:ref:`~PyQt6.QtGui.QSyntaxHighlighter.currentBlockUserData` functions respectively. You can also attach user data to the current text block using the :sip:ref:`~PyQt6.QtGui.QSyntaxHighlighter.setCurrentBlockUserData` function. :sip:ref:`~PyQt6.QtGui.QTextBlockUserData` can be used to store custom settings. In the case of syntax highlighting, it is in particular interesting as cache storage for information that you may figure out while parsing the paragraph's text. For an example, see the :sip:ref:`~PyQt6.QtGui.QSyntaxHighlighter.setCurrentBlockUserData` documentation.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, `Syntax Highlighter Example <https://doc.qt.io/qt-6/qtwidgets-richtext-syntaxhighlighter-example.html>`_.

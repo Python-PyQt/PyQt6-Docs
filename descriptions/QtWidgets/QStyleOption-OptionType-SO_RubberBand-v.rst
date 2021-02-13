@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 13
+    :digest: 3f0e60e157d804b5b53239fbc2753786
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionRubberBand`

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all Qt objects
-    :digest: 8e127f309e1119bd0bbb12cfaa566e2a
+    :digest: 846d52fd7a7a48ac97f64a90369fa627
 
 The :sip:ref:`~PyQt6.QtCore.QObject` class is the base class of all Qt objects.
 
@@ -19,7 +19,7 @@ Last but not least, :sip:ref:`~PyQt6.QtCore.QObject` provides the basic timer su
 
 Notice that the Q_OBJECT macro is mandatory for any object that implements signals, slots or properties. You also need to run the Meta Object Compiler on the source file. We strongly recommend the use of this macro in all subclasses of :sip:ref:`~PyQt6.QtCore.QObject` regardless of whether or not they actually use signals, slots and properties, since failure to do so may lead certain functions to exhibit strange behavior.
 
-All Qt widgets inherit :sip:ref:`~PyQt6.QtCore.QObject`. The convenience function :sip:ref:`~PyQt6.QtCore.QObject.isWidgetType` returns whether an object is actually a widget. It is much faster than qobject_cast<QWidget \*>(\ *obj*) or *obj*->\ :sip:ref:`~PyQt6.QtCore.QObject.inherits`\ ("QWidget").
+All Qt widgets inherit :sip:ref:`~PyQt6.QtCore.QObject`. The convenience function :sip:ref:`~PyQt6.QtCore.QObject.isWidgetType` returns whether an object is actually a widget. It is much faster than qobject_cast<`QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ \*>(\ *obj*) or *obj*->\ :sip:ref:`~PyQt6.QtCore.QObject.inherits`\ ("`QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_").
 
 Some :sip:ref:`~PyQt6.QtCore.QObject` functions, e.g. :sip:ref:`~PyQt6.QtCore.QObject.children`, return a QObjectList. QObjectList is a typedef for QList<\ :sip:ref:`~PyQt6.QtCore.QObject` \*>.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 67
+    :digest: de52d48edb0591c1c256966787ca6527
 
-TODO
+Icon indicating that media should seek backward.

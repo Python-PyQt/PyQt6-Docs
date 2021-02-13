@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 78
-    :digest: 3b01768974eb789356487854d7f9c9aa
+    :digest: c7b12fbebe88701c0d3f5b8b33a13e3f
 
-Allows data from drag and drop operations to be dropped onto the widget (see QWidget::setAcceptDrops()).
+Allows data from drag and drop operations to be dropped onto the widget (see :sip:ref:`~PyQt6.QtWidgets.QWidget.setAcceptDrops`).

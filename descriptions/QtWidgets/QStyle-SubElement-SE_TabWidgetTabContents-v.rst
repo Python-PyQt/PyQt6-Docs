@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: b7bedc20e2a3d646830848cbd0209a31
 
-TODO
+Area for the contents of the tab widget.

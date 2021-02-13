@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 4f8e030ef5753744e457e1761121014d
+    :digest: e82cf017f89eee446cb1774c1c82a91a
 
-This enum is used to describe parts of a window frame. It is returned by QGraphicsWidget::windowFrameSectionAt() to describe what section of the window frame is under the mouse.
+This enum is used to describe parts of a window frame. It is returned by :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.windowFrameSectionAt` to describe what section of the window frame is under the mouse.
 
-.. seealso:: QGraphicsWidget::windowFrameEvent()QGraphicsWidget::paintWindowFrame()QGraphicsWidget::windowFrameSectionAt().
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.windowFrameEvent`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.paintWindowFrame`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.windowFrameSectionAt`.

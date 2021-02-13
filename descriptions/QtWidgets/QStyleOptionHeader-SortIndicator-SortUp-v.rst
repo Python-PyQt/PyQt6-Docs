@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: fbd73b9324e2f355925b7033e193ad37
 
-TODO
+Draw an up indicator

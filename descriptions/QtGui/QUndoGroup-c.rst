@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Group of QUndoStack objects
-    :digest: d2f1bf9d7535f17acca8c4d33777e761
+    :digest: d4b4de592b0a1a004a5612d23fe1514f
 
 The :sip:ref:`~PyQt6.QtGui.QUndoGroup` class is a group of :sip:ref:`~PyQt6.QtGui.QUndoStack` objects.
 
@@ -17,4 +17,4 @@ It is the programmer's responsibility to specify which stack is active by callin
 
 When a stack is added to a group using :sip:ref:`~PyQt6.QtGui.QUndoGroup.addStack`, the group does not take ownership of the stack. This means the stack has to be deleted separately from the group. When a stack is deleted, it is automatically removed from a group. A stack may belong to only one group. Adding it to another group will cause it to be removed from the previous group.
 
-A :sip:ref:`~PyQt6.QtGui.QUndoGroup` is also useful in conjunction with QUndoView. If a QUndoView is set to watch a group using QUndoView::setGroup(), it will update itself to display the active stack.
+A :sip:ref:`~PyQt6.QtGui.QUndoGroup` is also useful in conjunction with :sip:ref:`~PyQt6.QtWidgets.QUndoView`. If a :sip:ref:`~PyQt6.QtWidgets.QUndoView` is set to watch a group using :sip:ref:`~PyQt6.QtWidgets.QUndoView.setGroup`, it will update itself to display the active stack.

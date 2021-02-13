@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000004
     :realname: QStyle::SubControl::SC_SpinBoxFrame
+    :digest: e7d8e023f077a7ffe3579909e5b929ea
 
-TODO
+Spin widget frame.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 3c0dde8f2778e749fb1f2e2c29b6d180
 
-TODO
+The model is sorted case sensitively.

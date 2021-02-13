@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -1
+    :digest: 198d96b5a14f4b9e36495dc371f64a3c
 
-TODO
+The button is invalid.

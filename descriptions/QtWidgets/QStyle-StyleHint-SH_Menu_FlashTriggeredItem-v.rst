@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 81
+    :digest: 5b51b1483cb2412f552a3fe0408f6132
 
-TODO
+Flash triggered item.

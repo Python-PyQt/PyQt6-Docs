@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: ab9b8b8c653e003501eb1cfdb505e30f
 
-TODO
+One or two pixel space between the menu bar and the dockarea, as done on Windows.

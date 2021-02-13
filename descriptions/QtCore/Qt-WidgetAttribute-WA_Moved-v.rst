@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 43
-    :digest: bc0d6015a11d747accd7f3d21aa7c8b5
+    :digest: c6c54f514393d79b6e1c97cbe0bad9a9
 
-Indicates that the widget has an explicit position. This is set/cleared by QWidget::move() and by QWidget::setGeometry().
+Indicates that the widget has an explicit position. This is set/cleared by :sip:ref:`~PyQt6.QtWidgets.QWidget.move` and by :sip:ref:`~PyQt6.QtWidgets.QWidget.setGeometry`.

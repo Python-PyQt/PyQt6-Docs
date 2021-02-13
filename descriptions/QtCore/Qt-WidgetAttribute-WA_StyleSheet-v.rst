@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 97
-    :digest: c9dbdd5ce79d816edabeecbbb6a2bb85
+    :digest: 3bcba9aa18a6d0511b48808025a6efbd
 
-Indicates that the widget is styled using a style sheet.  is set whenever a widget is subject to a style sheet, even if the style sheet did not affect the widget appearance.
+Indicates that the widget is styled using a `style sheet <https://doc.qt.io/qt-6/stylesheet.html>`_.  is set whenever a widget is subject to a style sheet, even if the style sheet did not affect the widget appearance.

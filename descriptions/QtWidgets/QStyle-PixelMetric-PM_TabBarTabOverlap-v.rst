@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: 997c9e7bd76de8f76bb2c28f37dfab54
 
-TODO
+Number of pixels the tabs should overlap. (Currently only used in styles, not inside of :sip:ref:`~PyQt6.QtWidgets.QTabBar`)

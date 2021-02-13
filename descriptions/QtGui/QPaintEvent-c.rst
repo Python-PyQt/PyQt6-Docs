@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains event parameters for paint events
-    :digest: 12687cff39eb32423f62ff495d225a47
+    :digest: b6c5d8e15c9d357be4f1130b036be2a2
 
 The :sip:ref:`~PyQt6.QtGui.QPaintEvent` class contains event parameters for paint events.
 
@@ -18,4 +18,4 @@ Painting is clipped to :sip:ref:`~PyQt6.QtGui.QPaintEvent.region` during the pro
 
 As a result, the value returned by :sip:ref:`~PyQt6.QtGui.QPainter.clipRegion` on a newly-constructed :sip:ref:`~PyQt6.QtGui.QPainter` will not reflect the clip region that is used by the paint system.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtWidgets.QWidget.update`, :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint`, :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent`.

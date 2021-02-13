@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 20d51ba112c8960bb358ceb475180e45
 
-TODO
+Panel frame for dock windows and toolbars.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000
     :realname: QGraphicsItem::GraphicsItemFlag::ItemNegativeZStacksBehindParent
+    :digest: ea42052f68d0f7fc5043deb1275c5a2d
 
-TODO
+The item automatically stacks behind it's parent if it's z-value is negative. This flag enables :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.setZValue` to toggle . This flag was introduced in Qt 4.6.

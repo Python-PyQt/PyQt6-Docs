@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 42
+    :digest: f838ad9028f8bf904fb908301b2d0d74
 
-TODO
+An arrow in a :sip:ref:`~PyQt6.QtWidgets.QColumnView`.

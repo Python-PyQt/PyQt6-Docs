@@ -2,7 +2,7 @@
     :status: todo
     :pysig: eb52e02d20fc8287fb17099bbada8bd0
     :realsig: (QObject*,Qt::ConnectionType,QGenericReturnArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument) const
-    :digest: 176eee4c70b34454208b166936d6ac47
+    :digest: e0f720f3207b2a31cbdf6506087b2a00
 
 Invokes this method on the object *object*. Returns ``true`` if the member could be invoked. Returns ``false`` if there is no such member or the parameters did not match.
 
@@ -18,7 +18,7 @@ The return value of this method call is placed in *returnValue*. If the invocati
 
 :sip:ref:`~PyQt6.QtCore.QGenericArgument` and :sip:ref:`~PyQt6.QtCore.QGenericReturnArgument` are internal helper classes. Because signals and slots can be dynamically invoked, you must enclose the arguments using the :sip:ref:`~PyQt6.QtCore.Q_ARG` and :sip:ref:`~PyQt6.QtCore.Q_RETURN_ARG` macros. :sip:ref:`~PyQt6.QtCore.Q_ARG` takes a type name and a const reference of that type; :sip:ref:`~PyQt6.QtCore.Q_RETURN_ARG` takes a type name and a non-const reference.
 
-To asynchronously invoke the animateClick() slot on a QPushButton:
+To asynchronously invoke the animateClick() slot on a :sip:ref:`~PyQt6.QtWidgets.QPushButton`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qmetaobject.py
     :lines: 126-128

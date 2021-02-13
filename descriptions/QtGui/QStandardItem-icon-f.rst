@@ -2,8 +2,8 @@
     :status: todo
     :pysig: f5b85c72b4283a4f1ccf0d2952d942b0
     :realsig: () const
-    :digest: b774423396e05b60f7e20c90107a5ab5
+    :digest: f308d1a11a9fe11e1dc349945d8c6671
 
 Returns the item's icon.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QStandardItem.setIcon`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QStandardItem.setIcon`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.iconSize`.

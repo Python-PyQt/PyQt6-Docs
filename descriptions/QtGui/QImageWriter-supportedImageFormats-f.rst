@@ -2,7 +2,7 @@
     :status: todo
     :pysig: a9de941641bfc9e1529fe64f342cdb3e
     :realsig: ()
-    :digest: 7c4e89ea3e03eeb4e0d5a130e888139d
+    :digest: 1fa83f41cc6203051fad038f6a9e7508
 
 Returns the list of image formats supported by :sip:ref:`~PyQt6.QtGui.QImageWriter`.
 
@@ -30,6 +30,6 @@ By default, Qt can write the following formats:
 
 Reading and writing SVG files is supported through the Qt SVG module. The Qt Image Formats module provides support for additional image formats.
 
-Note that the QApplication instance must be created before this function is called.
+Note that the :sip:ref:`~PyQt6.QtWidgets.QApplication` instance must be created before this function is called.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QImageWriter.setFormat`, :sip:ref:`~PyQt6.QtGui.QImageReader.supportedImageFormats`, QImageIOPlugin.

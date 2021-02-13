@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 50
+    :digest: a92e4946df1fc0265cec7feb06ec2603
 
-TODO
+Icon arrow pointing up.

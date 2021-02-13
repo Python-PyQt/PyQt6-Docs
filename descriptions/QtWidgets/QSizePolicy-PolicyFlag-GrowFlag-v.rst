@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 60f31bfc323213e05c2cdc62b5aab511
 
-TODO
+The widget can grow beyond its size hint if necessary.

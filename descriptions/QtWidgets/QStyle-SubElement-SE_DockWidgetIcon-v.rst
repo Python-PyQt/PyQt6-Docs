@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: 736d77cf594abbed6276b448d9cf2443
 
-TODO
+The icon of a dock widget.

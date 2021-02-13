@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used in combination with QBrush to specify a conical gradient brush
-    :digest: 26a28925be3d19814b153e0534d1d63d
+    :digest: a9b9ca425aa43e1eaf449d117d52bd56
 
 The :sip:ref:`~PyQt6.QtGui.QConicalGradient` class is used in combination with :sip:ref:`~PyQt6.QtGui.QBrush` to specify a conical gradient brush.
 
@@ -15,4 +15,4 @@ In addition to the functions inherited from :sip:ref:`~PyQt6.QtGui.QGradient`, t
 
 Note that the setSpread() function has no effect for conical gradients. The reason is that the conical gradient is closed by definition, i.e. the conical gradient fills the entire circle from 0 - 360 degrees, while the boundary of a radial or a linear gradient can be specified through its radius or final stop points, respectively.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QLinearGradient`, :sip:ref:`~PyQt6.QtGui.QRadialGradient`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QLinearGradient`, :sip:ref:`~PyQt6.QtGui.QRadialGradient`, `The Gradients Example <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_.

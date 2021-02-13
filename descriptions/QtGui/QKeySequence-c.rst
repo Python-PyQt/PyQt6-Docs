@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a key sequence as used by shortcuts
-    :digest: ef5a5e5459f1dc021c2fddb087f4dc60
+    :digest: eb3749f3ecf626a64fca79b01a0a1530
 
 The :sip:ref:`~PyQt6.QtGui.QKeySequence` class encapsulates a key sequence as used by shortcuts.
 
@@ -212,6 +212,6 @@ For example, the key sequence, Ctrl X followed by Ctrl C, can be specified using
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_kernel_qkeysequence.py
     :lines: 73-75
 
-**Warning:** A QApplication instance must have been constructed before a :sip:ref:`~PyQt6.QtGui.QKeySequence` is created; otherwise, your application may crash.
+**Warning:** A :sip:ref:`~PyQt6.QtWidgets.QApplication` instance must have been constructed before a :sip:ref:`~PyQt6.QtGui.QKeySequence` is created; otherwise, your application may crash.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QShortcut`.

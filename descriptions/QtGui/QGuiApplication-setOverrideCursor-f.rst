@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fbf8e5c29e1757a3ecfc032c2ea4a1af
     :realsig: (const QCursor&)
-    :digest: eb7bc92a4cda1eaab5d9b02d29a20a22
+    :digest: 6c209ef567dd93d2a7012796e86b01a0
 
 Sets the application override cursor to *cursor*.
 
@@ -19,4 +19,4 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_kernel_qguiapplication_x11.py
     :lines: 62-64
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication.overrideCursor`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.restoreOverrideCursor`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.changeOverrideCursor`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication.overrideCursor`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.restoreOverrideCursor`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.changeOverrideCursor`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setCursor`.

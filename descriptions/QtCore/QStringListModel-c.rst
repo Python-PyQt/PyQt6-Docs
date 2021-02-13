@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Model that supplies strings to views
-    :digest: 5f699a6380bdfc1781f775f0aba6f181
+    :digest: 7deeb4f7642a34cb7c64ac6e231c7780
 
 The :sip:ref:`~PyQt6.QtCore.QStringListModel` class provides a model that supplies strings to views.
 
-:sip:ref:`~PyQt6.QtCore.QStringListModel` is an editable model that can be used for simple cases where you need to display a number of strings in a view widget, such as a QListView or a QComboBox.
+:sip:ref:`~PyQt6.QtCore.QStringListModel` is an editable model that can be used for simple cases where you need to display a number of strings in a view widget, such as a :sip:ref:`~PyQt6.QtWidgets.QListView` or a `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_.
 
 The model provides all the standard functions of an editable model, representing the data in the string list as a model with one column and a number of rows equal to the number of items in the list.
 
@@ -18,4 +18,4 @@ An example usage of :sip:ref:`~PyQt6.QtCore.QStringListModel`:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qstringlistmodel-main.py
     :lines: 65-68
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractListModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QAbstractListModel`, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_.

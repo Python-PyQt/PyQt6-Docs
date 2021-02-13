@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 77593d6856eea2596bc5a34b742b1a21
 
-TODO
+The item is an exclusive check item (like a radio button).

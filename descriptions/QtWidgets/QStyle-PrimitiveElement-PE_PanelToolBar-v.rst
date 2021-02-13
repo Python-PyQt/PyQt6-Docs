@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 17
+    :digest: 9badc14c1a14173482bbad0252141700
 
-TODO
+The panel for a toolbar.

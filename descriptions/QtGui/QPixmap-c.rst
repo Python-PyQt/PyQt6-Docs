@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Off-screen image representation that can be used as a paint device
-    :digest: 72db96775d37284e284fdefda5dd810b
+    :digest: f7a4fc43e070fa7c1d9a5aae67a7494e
 
 The :sip:ref:`~PyQt6.QtGui.QPixmap` class is an off-screen image representation that can be used as a paint device.
 
 Qt provides four classes for handling image data: :sip:ref:`~PyQt6.QtGui.QImage`, :sip:ref:`~PyQt6.QtGui.QPixmap`, `QBitmap <https://doc.qt.io/qt-6/gui-changes-qt6.html#qbitmap>`_ and :sip:ref:`~PyQt6.QtGui.QPicture`. :sip:ref:`~PyQt6.QtGui.QImage` is designed and optimized for I/O, and for direct pixel access and manipulation, while :sip:ref:`~PyQt6.QtGui.QPixmap` is designed and optimized for showing images on screen. `QBitmap <https://doc.qt.io/qt-6/gui-changes-qt6.html#qbitmap>`_ is only a convenience class that inherits :sip:ref:`~PyQt6.QtGui.QPixmap`, ensuring a depth of 1. The :sip:ref:`~PyQt6.QtGui.QPixmap.isQBitmap` function returns ``true`` if a :sip:ref:`~PyQt6.QtGui.QPixmap` object is really a bitmap, otherwise returns ``false``. Finally, the :sip:ref:`~PyQt6.QtGui.QPicture` class is a paint device that records and replays :sip:ref:`~PyQt6.QtGui.QPainter` commands.
 
-A :sip:ref:`~PyQt6.QtGui.QPixmap` can easily be displayed on the screen using QLabel or one of QAbstractButton's subclasses (such as QPushButton and QToolButton). QLabel has a pixmap property, whereas QAbstractButton has an icon property.
+A :sip:ref:`~PyQt6.QtGui.QPixmap` can easily be displayed on the screen using :sip:ref:`~PyQt6.QtWidgets.QLabel` or one of `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_'s subclasses (such as :sip:ref:`~PyQt6.QtWidgets.QPushButton` and :sip:ref:`~PyQt6.QtWidgets.QToolButton`). :sip:ref:`~PyQt6.QtWidgets.QLabel` has a pixmap property, whereas `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_ has an icon property.
 
 :sip:ref:`~PyQt6.QtGui.QPixmap` objects can be passed around by value since the :sip:ref:`~PyQt6.QtGui.QPixmap` class uses implicit data sharing. For more information, see the `Implicit Data Sharing <https://doc.qt.io/qt-6/implicit-sharing.html>`_ documentation. :sip:ref:`~PyQt6.QtGui.QPixmap` objects can also be streamed.
 

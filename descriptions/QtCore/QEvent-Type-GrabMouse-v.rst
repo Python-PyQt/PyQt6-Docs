@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 186
-    :digest: 6389c2dca5533c7ebb689b464b2ac5de
+    :digest: 6ba1a43950841b9beed4fe6731e7cf99
 
-Item gains mouse grab (QGraphicsItem only).
+Item gains mouse grab (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` only).

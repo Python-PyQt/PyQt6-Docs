@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Date functions
-    :digest: 5dacc605bdd33182032098bfe713e42f
+    :digest: 7c409d6962c54814bf4c3a82903f2060
 
 The :sip:ref:`~PyQt6.QtCore.QDate` class provides date functions.
 
@@ -37,4 +37,4 @@ Dates are stored internally as a Julian Day number, an integer count of every da
 
 The range of Julian Day numbers that :sip:ref:`~PyQt6.QtCore.QDate` can represent is, for technical reasons, limited to between -784350574879 and 784354017364, which means from before 2 billion BCE to after 2 billion CE. This is more than seven times as wide as the range of dates a :sip:ref:`~PyQt6.QtCore.QDateTime` can represent.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QDateTime`, :sip:ref:`~PyQt6.QtCore.QCalendar`, :sip:ref:`~PyQt6.QtCore.QDateTime.YearRange`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QDateTime`, :sip:ref:`~PyQt6.QtCore.QCalendar`, :sip:ref:`~PyQt6.QtCore.QDateTime.YearRange`, :sip:ref:`~PyQt6.QtWidgets.QDateEdit`, :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit`, :sip:ref:`~PyQt6.QtWidgets.QCalendarWidget`.

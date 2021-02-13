@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Mouse cursor with an arbitrary shape
-    :digest: 6a21da54e20a61889a097a2d056f38cc
+    :digest: 17d4ef1a74fe85a94edf0b642613a667
 
 The `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ class provides a mouse cursor with an arbitrary shape.
 
@@ -9,7 +9,7 @@ This class is mainly used to create mouse cursors that are associated with parti
 
 Qt has a number of standard cursor shapes, but you can also make custom cursor shapes based on a `QBitmap <https://doc.qt.io/qt-6/gui-changes-qt6.html#qbitmap>`_, a mask and a hotspot.
 
-To associate a cursor with a widget, use QWidget::setCursor(). To associate a cursor with all widgets (normally for a short period of time), use :sip:ref:`~PyQt6.QtGui.QGuiApplication.setOverrideCursor`.
+To associate a cursor with a widget, use :sip:ref:`~PyQt6.QtWidgets.QWidget.setCursor`. To associate a cursor with all widgets (normally for a short period of time), use :sip:ref:`~PyQt6.QtGui.QGuiApplication.setOverrideCursor`.
 
 To set a cursor shape use :sip:ref:`~PyQt6.QtGui.QCursor.setShape` or use the `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ constructor which takes the shape as argument, or you can use one of the predefined cursors defined in the :sip:ref:`~PyQt6.QtCore.Qt.CursorShape` enum.
 
@@ -52,7 +52,7 @@ On X11, Qt supports the `Xcursor <https://doc.qt.io/qt-6/http://www.xfree86.org/
 |                              | :sip:ref:`~PyQt6.QtCore.Qt.CursorShape.DragLinkCursor`     | ``dnd-link`` or ``link`` |                               |                                                          |                          |
 +------------------------------+------------------------------------------------------------+--------------------------+-------------------------------+----------------------------------------------------------+--------------------------+
 
-.. seealso:: QWidgetGUI Design Handbook: Cursors.
+.. seealso:: `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, `GUI Design Handbook: Cursors <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
 
 .. |image-cursor-arrow-png| image:: ../../../images/cursor-arrow.png
 .. |image-cursor-sizev-png| image:: ../../../images/cursor-sizev.png

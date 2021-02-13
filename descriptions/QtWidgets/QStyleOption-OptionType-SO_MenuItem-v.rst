@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: e72218443a32d75a889364ee2682e171
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionMenuItem`

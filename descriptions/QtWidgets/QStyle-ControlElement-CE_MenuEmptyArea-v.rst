@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: 45d93d5ae994787b6807b20995e07f99
 
-TODO
+The area in a menu without menu items.

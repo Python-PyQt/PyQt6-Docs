@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstraction for user commands that can be added to different user interface components
-    :digest: 399462e6ac3db7b119a8bba4e5764507
+    :digest: 17b24a7db90593c9f3959d256324412d
 
 The :sip:ref:`~PyQt6.QtGui.QAction` class provides an abstraction for user commands that can be added to different user interface components.
 
@@ -23,8 +23,8 @@ Once a :sip:ref:`~PyQt6.QtGui.QAction` has been created, it should be added to t
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-mainwindows-application-mainwindow.py
     :lines: 180-186
 
-Actions are added to widgets using QWidget::addAction() or QGraphicsWidget::addAction(). Note that an action must be added to a widget before it can be used. This is also true when the shortcut should be global (i.e., :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.ApplicationShortcut` as :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext`).
+Actions are added to widgets using :sip:ref:`~PyQt6.QtWidgets.QWidget.addAction` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.addAction`. Note that an action must be added to a widget before it can be used. This is also true when the shortcut should be global (i.e., :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.ApplicationShortcut` as :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext`).
 
-Actions can be created as independent objects. But they may also be created during the construction of menus. The QMenu class contains convenience functions for creating actions suitable for use as menu items.
+Actions can be created as independent objects. But they may also be created during the construction of menus. The :sip:ref:`~PyQt6.QtWidgets.QMenu` class contains convenience functions for creating actions suitable for use as menu items.
 
-.. seealso:: QMenuQToolBarQt Widgets - Application Example.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenu`, :sip:ref:`~PyQt6.QtWidgets.QToolBar`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.

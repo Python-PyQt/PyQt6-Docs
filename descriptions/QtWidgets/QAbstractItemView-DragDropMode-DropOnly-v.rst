@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 910569540f2be55108a527a7adea28e7
 
-TODO
+The view accepts drops

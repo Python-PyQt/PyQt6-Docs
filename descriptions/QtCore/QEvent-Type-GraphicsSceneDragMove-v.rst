@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 165
-    :digest: 5baa3098f2be9f9aa3a9a0c37aaaf26b
+    :digest: a3b7993aa635de3536b5bef6e38b9904
 
-A drag and drop operation is in progress over a scene (QGraphicsSceneDragDropEvent).
+A drag and drop operation is in progress over a scene (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneDragDropEvent`).

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Format independent interface for reading images from files or other devices
-    :digest: 8193014843eda1f64b192c3e4fcacf91
+    :digest: 22b8980563e99e8144b1f12d1eb5e0e6
 
 The :sip:ref:`~PyQt6.QtGui.QImageReader` class provides a format independent interface for reading images from files or other devices.
 
@@ -18,7 +18,7 @@ If any error occurs when reading the image, :sip:ref:`~PyQt6.QtGui.QImageReader.
 Formats
 -------
 
-Call :sip:ref:`~PyQt6.QtGui.QImageReader.supportedImageFormats` for a list of formats that :sip:ref:`~PyQt6.QtGui.QImageReader` can read. :sip:ref:`~PyQt6.QtGui.QImageReader` supports all built-in image formats, in addition to any image format plugins that support reading. Call :sip:ref:`~PyQt6.QtGui.QImageReader.supportedMimeTypes` to obtain a list of supported MIME types, which for example can be passed to QFileDialog::setMimeTypeFilters().
+Call :sip:ref:`~PyQt6.QtGui.QImageReader.supportedImageFormats` for a list of formats that :sip:ref:`~PyQt6.QtGui.QImageReader` can read. :sip:ref:`~PyQt6.QtGui.QImageReader` supports all built-in image formats, in addition to any image format plugins that support reading. Call :sip:ref:`~PyQt6.QtGui.QImageReader.supportedMimeTypes` to obtain a list of supported MIME types, which for example can be passed to :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setMimeTypeFilters`.
 
 :sip:ref:`~PyQt6.QtGui.QImageReader` autodetects the image format by default, by looking at the provided (optional) format string, the file name suffix, and the data stream contents. You can enable or disable this feature, by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setAutoDetectImageFormat`.
 

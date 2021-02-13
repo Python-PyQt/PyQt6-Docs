@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 1b7cee5b2b8d6fd8bf3a89ebdba1245e
+    :digest: d5f2e87d481e5abf0ed7bc7547994e6b
 
 This enum type defines the various policies a widget can have with respect to showing a context menu.

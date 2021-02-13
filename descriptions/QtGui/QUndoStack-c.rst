@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Stack of QUndoCommand objects
-    :digest: c0f0ca5b1c38e5f8b9237043e91fdbfa
+    :digest: 7a6f779867a7a806f17d7a593234617b
 
 The :sip:ref:`~PyQt6.QtGui.QUndoStack` class is a stack of :sip:ref:`~PyQt6.QtGui.QUndoCommand` objects.
 
@@ -51,4 +51,4 @@ A command can be marked obsolete with the :sip:ref:`~PyQt6.QtGui.QUndoCommand.se
 
 If a command is set obsolete and the clean index is greater than or equal to the current command index, then the clean index will be reset when the command is deleted from the stack.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QUndoCommand`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QUndoCommand`, :sip:ref:`~PyQt6.QtWidgets.QUndoView`.

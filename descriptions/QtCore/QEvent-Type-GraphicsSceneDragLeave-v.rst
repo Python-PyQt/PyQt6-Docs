@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 166
-    :digest: 4f48c6cc37e8b74942d51f2a7d408fc6
+    :digest: 4b043efca5386a17336725cbe779beba
 
-The cursor leaves a graphics scene during a drag and drop operation (QGraphicsSceneDragDropEvent).
+The cursor leaves a graphics scene during a drag and drop operation (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneDragDropEvent`).

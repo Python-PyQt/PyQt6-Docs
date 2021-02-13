@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Means for handling the command line options
-    :digest: ab909b507b7a13ac41f66baa8825404c
+    :digest: 958e86a70dbd6d33ae114aeb59f412e6
 
 The :sip:ref:`~PyQt6.QtCore.QCommandLineParser` class provides a means for handling the command line options.
 
@@ -60,7 +60,7 @@ A special case to consider here are GUI applications on Windows and mobile platf
 
 On Windows, :sip:ref:`~PyQt6.QtCore.QCommandLineParser` uses message boxes to display usage information and errors if no console window can be obtained.
 
-For other platforms, it is recommended to display help texts and error messages using a QMessageBox. To preserve the formatting of the help text, rich text with ``<pre>`` elements should be used:
+For other platforms, it is recommended to display help texts and error messages using a :sip:ref:`~PyQt6.QtWidgets.QMessageBox`. To preserve the formatting of the help text, rich text with ``<pre>`` elements should be used:
 
 ::
 

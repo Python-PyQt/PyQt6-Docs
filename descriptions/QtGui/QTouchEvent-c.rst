@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a touch event
-    :digest: d15a6f46d4c40c73a17ad8dcf3b35417
+    :digest: 9a14b794fc82f31d6f452f3af2e098d4
 
 The :sip:ref:`~PyQt6.QtGui.QTouchEvent` class contains parameters that describe a touch event.
 
@@ -10,9 +10,9 @@ The :sip:ref:`~PyQt6.QtGui.QTouchEvent` class contains parameters that describe 
 Enabling Touch Events
 ---------------------
 
-Touch events occur when pressing, releasing, or moving one or more touch points on a touch device (such as a touch-screen or track-pad). To receive touch events, widgets have to have the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents` attribute set and graphics items need to have the acceptTouchEvents attribute set to true.
+Touch events occur when pressing, releasing, or moving one or more touch points on a touch device (such as a touch-screen or track-pad). To receive touch events, widgets have to have the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents` attribute set and graphics items need to have the :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.setAcceptTouchEvents` attribute set to true.
 
-When using QAbstractScrollArea based widgets, you should enable the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents` attribute on the scroll area's viewport.
+When using :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea` based widgets, you should enable the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents` attribute on the scroll area's :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea.viewport`.
 
 Similarly to :sip:ref:`~PyQt6.QtGui.QMouseEvent`, Qt automatically grabs each touch point on the first press inside a widget, and the widget will receive all updates for the touch point until it is released. Note that it is possible for a widget to receive events for numerous touch points, and that multiple widgets may be receiving touch events at the same time.
 
@@ -21,7 +21,7 @@ Similarly to :sip:ref:`~PyQt6.QtGui.QMouseEvent`, Qt automatically grabs each to
 Event Handling
 --------------
 
-All touch events are of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin`, :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchUpdate`, :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchEnd` or :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchCancel`. Reimplement QWidget::event() or QAbstractScrollArea::viewportEvent() for widgets and QGraphicsItem::sceneEvent() for items in a graphics view to receive touch events.
+All touch events are of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin`, :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchUpdate`, :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchEnd` or :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchCancel`. Reimplement :sip:ref:`~PyQt6.QtWidgets.QWidget.event` or :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea.viewportEvent` for widgets and :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.sceneEvent` for items in a graphics view to receive touch events.
 
 Unlike widgets, QWindows receive touch events always, there is no need to opt in. When working directly with a :sip:ref:`~PyQt6.QtGui.QWindow`, it is enough to reimplement :sip:ref:`~PyQt6.QtGui.QWindow.touchEvent`.
 
@@ -49,7 +49,7 @@ By default, :sip:ref:`~PyQt6.QtGui.QGuiApplication` translates the first touch p
 Touch Point Grouping
 --------------------
 
-As mentioned above, it is possible that several widgets can be receiving QTouchEvents at the same time. However, Qt makes sure to never send duplicate :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin` events to the same widget, which could theoretically happen during propagation if, for example, the user touched 2 separate widgets in a QGroupBox and both widgets ignored the :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin` event.
+As mentioned above, it is possible that several widgets can be receiving QTouchEvents at the same time. However, Qt makes sure to never send duplicate :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin` events to the same widget, which could theoretically happen during propagation if, for example, the user touched 2 separate widgets in a :sip:ref:`~PyQt6.QtWidgets.QGroupBox` and both widgets ignored the :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchBegin` event.
 
 To avoid this, Qt will group new touch points together using the following rules:
 
@@ -71,10 +71,10 @@ Mouse Events and Touch Event Synthesizing
 Caveats
 -------
 
-* As mentioned above, enabling touch events means multiple widgets can be receiving touch events simultaneously. Combined with the default QWidget::event() handling for QTouchEvents, this gives you great flexibility in designing touch user interfaces. Be aware of the implications. For example, it is possible that the user is moving a QSlider with one finger and pressing a QPushButton with another. The signals emitted by these widgets will be interleaved.
+* As mentioned above, enabling touch events means multiple widgets can be receiving touch events simultaneously. Combined with the default :sip:ref:`~PyQt6.QtWidgets.QWidget.event` handling for QTouchEvents, this gives you great flexibility in designing touch user interfaces. Be aware of the implications. For example, it is possible that the user is moving a :sip:ref:`~PyQt6.QtWidgets.QSlider` with one finger and pressing a :sip:ref:`~PyQt6.QtWidgets.QPushButton` with another. The signals emitted by these widgets will be interleaved.
 
-* Recursion into the event loop using one of the exec() methods (e.g., QDialog::exec() or QMenu::exec()) in a :sip:ref:`~PyQt6.QtGui.QTouchEvent` event handler is not supported. Since there are multiple event recipients, recursion may cause problems, including but not limited to lost events and unexpected infinite recursion.
+* Recursion into the event loop using one of the exec() methods (e.g., :sip:ref:`~PyQt6.QtWidgets.QDialog.exec` or :sip:ref:`~PyQt6.QtWidgets.QMenu.exec`) in a :sip:ref:`~PyQt6.QtGui.QTouchEvent` event handler is not supported. Since there are multiple event recipients, recursion may cause problems, including but not limited to lost events and unexpected infinite recursion.
 
-* QTouchEvents are not affected by a mouse grab or an active pop-up widget. The behavior of QTouchEvents is undefined when opening a pop-up or grabbing the mouse while there are more than one active touch points.
+* QTouchEvents are not affected by a :sip:ref:`~PyQt6.QtWidgets.QWidget.grabMouse` or an :sip:ref:`~PyQt6.QtWidgets.QApplication.activePopupWidget`. The behavior of QTouchEvents is undefined when opening a pop-up or grabbing the mouse while there are more than one active touch points.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QEventPoint`, :sip:ref:`~PyQt6.QtGui.QEventPoint.States`, :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QEventPoint`, :sip:ref:`~PyQt6.QtGui.QEventPoint.States`, :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.acceptTouchEvents`.

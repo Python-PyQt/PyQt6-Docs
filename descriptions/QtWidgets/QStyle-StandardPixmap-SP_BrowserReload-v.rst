@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 59
+    :digest: dacfaaaa7f1fd0cfe6bffbf33c95ccd6
 
-TODO
+Icon indicating that the current page should be reloaded.

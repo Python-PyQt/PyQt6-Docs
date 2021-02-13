@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: General information about fonts
-    :digest: 0bfe1df5531e2e57614e675d4dd4c34e
+    :digest: 4a5f54b6abcef4dc7f0f8aa82bd5d05f
 
 The :sip:ref:`~PyQt6.QtGui.QFontInfo` class provides general information about fonts.
 
@@ -15,7 +15,7 @@ There are three ways to create a :sip:ref:`~PyQt6.QtGui.QFontInfo` object.
 
    (Note: If you use a printer font the values returned may be inaccurate. Printer fonts are not always accessible so the nearest screen font is used if a printer font is supplied.)
 
-#. QWidget::fontInfo() returns the font info for a widget's font. This is equivalent to calling :sip:ref:`~PyQt6.QtGui.QFontInfo`\ (widget->font()). If the widget's font is changed later, the font info object is *not* updated.
+#. :sip:ref:`~PyQt6.QtWidgets.QWidget.fontInfo` returns the font info for a widget's font. This is equivalent to calling :sip:ref:`~PyQt6.QtGui.QFontInfo`\ (widget->`font() <https://doc.qt.io/qt-6/stylesheet-reference.html#font>`_). If the widget's font is changed later, the font info object is *not* updated.
 
 #. :sip:ref:`~PyQt6.QtGui.QPainter.fontInfo` returns the font info for a painter's current font. If the painter's font is changed later, the font info object is *not* updated.
 

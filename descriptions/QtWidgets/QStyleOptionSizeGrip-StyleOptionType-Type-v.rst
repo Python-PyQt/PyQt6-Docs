@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: SO_SizeGrip
+    :digest: 843d37510023ffc27e31da442a86bb6a
 
-TODO
+The type of style option provided (\ :sip:ref:`~PyQt6.QtWidgets.QStyleOption.OptionType.SO_TabBarBase` for this class).

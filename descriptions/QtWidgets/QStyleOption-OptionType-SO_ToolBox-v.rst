@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 87af770e7ec50c984660ed5e410d5bf7
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionToolBox`

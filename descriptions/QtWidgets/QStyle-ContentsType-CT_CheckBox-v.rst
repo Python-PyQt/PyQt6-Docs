@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: df60c9940a8bcc083234a7c0b33ccb8d
 
-TODO
+A check box, like :sip:ref:`~PyQt6.QtWidgets.QCheckBox`.

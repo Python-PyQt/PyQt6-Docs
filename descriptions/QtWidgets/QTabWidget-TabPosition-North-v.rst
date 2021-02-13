@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 8952311c71c4fe94d501b2ad323e4831
 
-TODO
+The tabs are drawn above the pages.

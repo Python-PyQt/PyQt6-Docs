@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 696cc76d6c67ad645249c325b2e389bc
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionHeader`

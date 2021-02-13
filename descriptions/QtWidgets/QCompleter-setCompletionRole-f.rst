@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: c9ecd13f2edd559ec2a958b46456056c
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QCompleter.completionRole`.

@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 694df81ccfbea5df263c989702dae8c6
     :realsig: (QString&,int&) const
+    :digest: 160648ce74f84f1a6d9b5b1c7446ba73
 
-TODO
+This virtual function is called by the :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox` to determine whether *input* is valid. The *pos* parameter indicates the position in the string. Reimplemented in the various subclasses.

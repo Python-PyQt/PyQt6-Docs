@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 47
+    :digest: 6ad6e2b78d0841ed937d189b30fb1a77
 
-TODO
+Area for a view item's focus rect.
