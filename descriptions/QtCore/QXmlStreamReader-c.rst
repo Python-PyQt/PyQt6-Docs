@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Fast parser for reading well-formed XML via a simple streaming API
-    :digest: 25716e1d2c0915b2a8c09df3375abc09
+    :digest: 1dfd4c813cd14cb665dd06678520cf5e
 
 The :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` class provides a fast parser for reading well-formed XML via a simple streaming API.
 
-:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` provides a simple streaming API to parse well-formed XML. It is an alternative to first loading the complete XML into a DOM tree (see QDomDocument). :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` reads data either from a :sip:ref:`~PyQt6.QtCore.QIODevice` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.setDevice`), or from a raw :sip:ref:`~PyQt6.QtCore.QByteArray` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`).
+:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` provides a simple streaming API to parse well-formed XML. It is an alternative to first loading the complete XML into a DOM tree (see :sip:ref:`~PyQt6.QtXml.QDomDocument`). :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` reads data either from a :sip:ref:`~PyQt6.QtCore.QIODevice` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.setDevice`), or from a raw :sip:ref:`~PyQt6.QtCore.QByteArray` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`).
 
 Qt provides :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter` for writing XML.
 
@@ -20,7 +20,7 @@ A typical loop with :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` looks like this:
 
 If an error occurs while parsing, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.atEnd` and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.hasError` return true, and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.error` returns the error that occurred. The functions :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.errorString`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.lineNumber`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.columnNumber`, and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.characterOffset` are for constructing an appropriate error or warning message. To simplify application code, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` contains a :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.raiseError` mechanism that lets you raise custom errors that trigger the same error handling described.
 
-The QXmlStream Bookmarks Example illustrates how to use the recursive descent technique to read an XML bookmark file (XBEL) with a stream reader.
+The `QXmlStream Bookmarks Example <https://doc.qt.io/qt-6/qtxml-streambookmarks-example.html>`_ illustrates how to use the recursive descent technique to read an XML bookmark file (XBEL) with a stream reader.
 
 .. _qxmlstreamreader-namespaces:
 

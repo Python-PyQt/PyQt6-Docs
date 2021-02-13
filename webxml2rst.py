@@ -325,8 +325,8 @@ WebXMLMetadata('qtwidgets',
 #        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
 #WebXMLMetadata('qtx11extras',
 #        qdocconf='qtx11extras/src/x11extras/doc/qtx11extras.qdocconf')
-#WebXMLMetadata('qtxml',
-#        qdocconf='qtbase/src/xml/doc/qtxml.qdocconf')
+WebXMLMetadata('qtxml',
+        qdocconf='qtbase/src/xml/doc/qtxml.qdocconf')
 
 
 class ModuleMetadata:
@@ -455,7 +455,7 @@ ModuleMetadata('QtGui', webxml='qtgui')
 ModuleMetadata('QtWidgets', webxml='qtwidgets')
 #ModuleMetadata('QtWinExtras', webxml='qtwinextras')
 #ModuleMetadata('QtX11Extras', webxml='qtx11extras')
-#ModuleMetadata('QtXml', webxml='qtxml')
+ModuleMetadata('QtXml', webxml='qtxml')
 ModuleMetadata('lupdate')
 ModuleMetadata('sip')
 ModuleMetadata('uic')

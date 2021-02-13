@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: XML writer with a simple streaming API
-    :digest: 681fc994c3d71597c80e4948bd224f0b
+    :digest: b0b515d4dc574e6bd736e7d4a48c866c
 
 The :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter` class provides an XML writer with a simple streaming API.
 
@@ -34,4 +34,4 @@ Other functions are :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter.writeCDATA`, :sip:r
 
 If an error occurs while writing to the underlying device, :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter.hasError` starts returning true and subsequent writes are ignored.
 
-The QXmlStream Bookmarks Example illustrates how to use a stream writer to write an XML bookmark file (XBEL) that was previously read in by a :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`.
+The `QXmlStream Bookmarks Example <https://doc.qt.io/qt-6/qtxml-streambookmarks-example.html>`_ illustrates how to use a stream writer to write an XML bookmark file (XBEL) that was previously read in by a :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`.
