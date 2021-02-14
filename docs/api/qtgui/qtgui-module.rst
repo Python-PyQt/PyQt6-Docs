@@ -109,13 +109,6 @@
             int
         :description: QtGui/qGreen-f-1.rst
 
-    .. sip:method:: PyQt6.QtGui.qIsGray
-        :args:
-            int
-        :returns:
-            bool
-        :description: QtGui/qIsGray-f.rst
-
     .. sip:method:: PyQt6.QtGui.qPixelFormatAlpha
         :args:
             int

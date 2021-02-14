@@ -270,17 +270,6 @@
             bool
         :description: QtCore/qEnvironmentVariableIsSet-f.rst
 
-    .. sip:method:: PyQt6.QtCore.qErrnoWarning
-        :args:
-            str
-        :description: QtCore/qErrnoWarning-f.rst
-
-    .. sip:method:: PyQt6.QtCore.qErrnoWarning
-        :args:
-            int
-            str
-        :description: QtCore/qErrnoWarning-f-1.rst
-
     .. sip:method:: PyQt6.QtCore.qFatal
         :args:
             str
@@ -349,13 +338,6 @@
             bool
         :description: QtCore/qIsNaN-f.rst
 
-    .. sip:method:: PyQt6.QtCore.qIsNull
-        :args:
-            float
-        :returns:
-            bool
-        :description: QtCore/qIsNull-f.rst
-
     .. sip:method:: PyQt6.QtCore.qQNaN
         :returns:
             float
@@ -405,11 +387,6 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTextStreamManipulator`
         :description: QtCore/qSetRealNumberPrecision-f.rst
-
-    .. sip:method:: PyQt6.QtCore.qSharedBuild
-        :returns:
-            bool
-        :description: QtCore/qSharedBuild-f.rst
 
     .. sip:method:: PyQt6.QtCore.qSNaN
         :returns:
