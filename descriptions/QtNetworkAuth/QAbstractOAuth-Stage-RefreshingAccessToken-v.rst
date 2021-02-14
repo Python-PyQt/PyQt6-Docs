@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: db4621f83306debcdbd8bf18c63c2961
 
-TODO
+Preparing the access token refresh.

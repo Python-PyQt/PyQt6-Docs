@@ -2,5 +2,10 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
+    :digest: 34b7f7e58d162e2c6242df5fc70febd3
 
-TODO
+Sets the new refresh token *refreshToken* to be used.
+
+A custom refresh token can be used to refresh the access token via this method and then the access token can be refreshed via :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.refreshAccessToken`.
+
+.. seealso:: :sip:ref:`~PyQt6.QtNetworkAuth.QAbstractOAuth2.refreshToken`.

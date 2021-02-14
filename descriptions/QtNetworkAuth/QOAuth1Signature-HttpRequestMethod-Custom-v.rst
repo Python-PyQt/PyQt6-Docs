@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 4c80fd158dac0e454253f087d15b2332
 
-TODO
+Identifies a custom method.

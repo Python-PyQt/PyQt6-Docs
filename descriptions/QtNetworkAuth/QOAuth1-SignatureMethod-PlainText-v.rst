@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 211d1ad7c6b239335a6f394cc544fabb
 
-TODO
+`PLAINTEXT <https://tools.ietf.org/html/rfc5849#section-3.4.4>`_ signature method.
