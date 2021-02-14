@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QConeGeometry::setBottomRadius
     :realsig: (float)
+    :digest: e9ff8b0de0e36f144af5b2ee6f967a65
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QConeGeometry.bottomRadius`.

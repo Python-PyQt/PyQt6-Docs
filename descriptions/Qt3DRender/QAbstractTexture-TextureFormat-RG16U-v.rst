@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x823A
     :realname: Qt3DRender::QAbstractTexture::TextureFormat::RG16U
+    :digest: 5174697477842796649a5d85d7cb55ff
 
-TODO
+GL_RG16UI

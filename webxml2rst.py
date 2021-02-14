@@ -146,7 +146,22 @@ class WebXMLMetadata:
 
 
 # The WebXML meta-data.
-#WebXMLMetadata('qt3d', qdocconf='src/doc/qt3d.qdocconf')
+WebXMLMetadata('qt3d', qdocconf='src/core/doc/qt3d.qdocconf',
+        locations={
+            'Qt3DAnimation::QAbstractChannelMapping': 'qt3danimation',
+            'Qt3DAnimation::QChannelComponent': 'qt3danimation',
+            'Qt3DAnimation::QClock': 'qt3danimation',
+            'Qt3DAnimation::QSkeletonMapping': 'qt3danimation',
+            'Qt3DCore::QNodeIdTypePair': 'qt3dcore',
+            'Qt3DExtras::QAbstractSpriteSheet': 'qt3dextras',
+            'Qt3DExtras::QSpriteGrid': 'qt3dextras',
+            'Qt3DExtras::QSpriteSheet': 'qt3dextras',
+            'Qt3DExtras::QSpriteSheetItem': 'qt3dextras',
+            'Qt3DExtras::Qt3DWindow': 'qt3dextras',
+            'Qt3DRender::PropertyReaderInterface': 'qt3drender',
+            'PYQT_3D_VERSION': None,
+            'PYQT_3D_VERSION_STR': None,
+        })
 #WebXMLMetadata('qtactiveqt',
 #        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
 #WebXMLMetadata('qtandroidextras',
@@ -310,6 +325,8 @@ WebXMLMetadata('qtnetworkauth',
             # some circumstances.
             'QOAuthHttpServerReplyHandler': None,
             'QOAuthOobReplyHandler': None,
+            'PYQT_NETWORKAUTH_VERSION': None,
+            'PYQT_NETWORKAUTH_VERSION_STR': None,
         })
 #WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
 WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
@@ -467,12 +484,12 @@ class ModuleMetadata:
 
 # The module meta-data.
 #ModuleMetadata('QAxContainer', webxml='qtactiveqt')
-#ModuleMetadata('Qt3DAnimation', webxml='qt3d', qt_docs_prefix='qt3danimation-')
-#ModuleMetadata('Qt3DCore', webxml='qt3d', qt_docs_prefix='qt3dcore-')
-#ModuleMetadata('Qt3DExtras', webxml='qt3d', qt_docs_prefix='qt3dextras-')
-#ModuleMetadata('Qt3DInput', webxml='qt3d', qt_docs_prefix='qt3dinput-')
-#ModuleMetadata('Qt3DLogic', webxml='qt3d', qt_docs_prefix='qt3dlogic-')
-#ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
+ModuleMetadata('Qt3DAnimation', webxml='qt3d', qt_docs_prefix='qt3danimation-')
+ModuleMetadata('Qt3DCore', webxml='qt3d', qt_docs_prefix='qt3dcore-')
+ModuleMetadata('Qt3DExtras', webxml='qt3d', qt_docs_prefix='qt3dextras-')
+ModuleMetadata('Qt3DInput', webxml='qt3d', qt_docs_prefix='qt3dinput-')
+ModuleMetadata('Qt3DLogic', webxml='qt3d', qt_docs_prefix='qt3dlogic-')
+ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
 #ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
 #ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
 #ModuleMetadata('QtCharts', webxml='qtcharts')

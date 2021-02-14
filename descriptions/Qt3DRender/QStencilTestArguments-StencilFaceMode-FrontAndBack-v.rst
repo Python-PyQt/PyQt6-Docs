@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0408
     :realname: Qt3DRender::QStencilTestArguments::StencilFaceMode::FrontAndBack
+    :digest: 19695d06a766c9ff40051f81754844bc
 
-TODO
+Arguments are applied to both front- and back-facing polygons.

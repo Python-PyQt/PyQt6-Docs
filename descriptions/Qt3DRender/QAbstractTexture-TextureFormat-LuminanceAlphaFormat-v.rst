@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x190A
     :realname: Qt3DRender::QAbstractTexture::TextureFormat::LuminanceAlphaFormat
+    :digest: eec4a3ff633ef1280f43e18a6c73126f
 
-TODO
+0x190A

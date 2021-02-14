@@ -3,5 +3,6 @@
     :pysig: 46a7bdf6ff0ff3a292573662f7d8a6a2
     :realname: Qt3DRender::QShaderProgramBuilder::setTessellationEvaluationShaderGraph
     :realsig: (const QUrl&)
+    :digest: 9f4d1bc0713518e9be341863fc5e2a39
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderGraph`.

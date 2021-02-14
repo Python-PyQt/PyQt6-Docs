@@ -3,5 +3,6 @@
     :pysig: 59d522e2b645f1f78264c495a0d39146
     :realname: Qt3DExtras::QExtrudedTextGeometry::setFont
     :realsig: (const QFont&)
+    :digest: 99890d9c538fbb5ce952182d8782af88
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QExtrudedTextGeometry.font`.

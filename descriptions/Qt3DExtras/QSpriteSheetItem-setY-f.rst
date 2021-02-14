@@ -3,5 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DExtras::QSpriteSheetItem::setY
     :realsig: (int)
+    :digest: 1dd5a44efca58e87cf45e4453a1f7a02
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QSpriteSheetItem.y`.

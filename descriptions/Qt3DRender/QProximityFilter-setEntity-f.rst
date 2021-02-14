@@ -3,5 +3,6 @@
     :pysig: 4fb88d9ec23b1a8b7c68562fcad0cc74
     :realname: Qt3DRender::QProximityFilter::setEntity
     :realsig: (Qt3DCore::QEntity*)
+    :digest: 31080d707b978c5a0393bddcd050d77a
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QProximityFilter.entity`.

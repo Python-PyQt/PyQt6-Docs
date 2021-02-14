@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0001
     :realname: Qt3DRender::QGeometryRenderer::PrimitiveType::Lines
+    :digest: 45ad50f0ae13087ebd05f7c98a56d6d3
 
-TODO
+List of lines

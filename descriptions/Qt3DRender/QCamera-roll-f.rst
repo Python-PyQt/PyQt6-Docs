@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DRender::QCamera::roll
     :realsig: (float)
+    :digest: 4692af2bd6b727432527bc59a3722d90
 
-TODO
+Adjusts the camera roll by *angle* in degrees.

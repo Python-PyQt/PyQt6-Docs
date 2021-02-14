@@ -3,5 +3,6 @@
     :pysig: 30985e3a4dd64cc7ba58e0a7032868a2
     :realname: Qt3DInput::QButtonAxisInput::setButtons
     :realsig: (const QList<int>&)
+    :digest: 1defcd3414faec4e14e20db8587b3605
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DInput.QButtonAxisInput.buttons`.

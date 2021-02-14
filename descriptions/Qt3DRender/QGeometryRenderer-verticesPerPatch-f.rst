@@ -3,5 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DRender::QGeometryRenderer::verticesPerPatch
     :realsig: () const
+    :digest: b0aa66bc80f54e39ce3cb178d7d63409
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QGeometryRenderer.setVerticesPerPatch`.

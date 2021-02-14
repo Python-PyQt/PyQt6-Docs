@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x88E8
     :realname: Qt3DCore::QBuffer::UsageType::DynamicDraw
+    :digest: 9d0311e8bec22bfc180411f76b587064
 
-TODO
+GL_DYNAMIC_DRAW

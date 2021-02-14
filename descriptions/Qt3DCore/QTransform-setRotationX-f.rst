@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DCore::QTransform::setRotationX
     :realsig: (float)
+    :digest: 9a91258a68f7380e4636d4bd73ed4e72
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DCore.QTransform.rotationX`.

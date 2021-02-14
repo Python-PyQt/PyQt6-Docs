@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0405
     :realname: Qt3DRender::QRasterMode::FaceMode::Back
+    :digest: 8f15c7fa3e45456e0c69706c3ac39f6f
 
-TODO
+Applies to back faces only

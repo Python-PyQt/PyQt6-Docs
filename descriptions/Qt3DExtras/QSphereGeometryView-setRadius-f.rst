@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QSphereGeometryView::setRadius
     :realsig: (float)
+    :digest: 703550342372334b492a37f2f4379409
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QSphereGeometryView.radius`.

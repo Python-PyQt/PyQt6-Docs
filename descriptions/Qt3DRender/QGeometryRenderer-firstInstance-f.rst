@@ -3,5 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DRender::QGeometryRenderer::firstInstance
     :realsig: () const
+    :digest: 172f017e087b4afe39cc37de2ec24088
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QGeometryRenderer.setFirstInstance`.

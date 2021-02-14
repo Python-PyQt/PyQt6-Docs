@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 17
     :realname: Qt3DRender::QRenderTargetOutput::AttachmentPoint::Stencil
+    :digest: 331055a96ebf04cb0c99ed33f20d0b1e
 
-TODO
+Stencil attachment point

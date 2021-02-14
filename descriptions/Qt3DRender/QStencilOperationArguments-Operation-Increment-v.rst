@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1E02
     :realname: Qt3DRender::QStencilOperationArguments::Operation::Increment
+    :digest: fdd69720e158b912ca6fded3b8a6e085
 
-TODO
+Increment current value with saturation.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x000E
     :realname: Qt3DRender::QGeometryRenderer::PrimitiveType::Patches
+    :digest: 621871f1c63622368e8bcef2d89a1061
 
-TODO
+Only primitive type accepted by tesselation shader where a patch consists of arbitrary number of vertices

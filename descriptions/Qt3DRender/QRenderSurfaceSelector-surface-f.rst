@@ -3,5 +3,6 @@
     :pysig: 2b9057d9b4a06375acf76e6922f506e2
     :realname: Qt3DRender::QRenderSurfaceSelector::surface
     :realsig: () const
+    :digest: 533bf57d7ab5bb62c7256c150ec2979d
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QRenderSurfaceSelector.setSurface`.

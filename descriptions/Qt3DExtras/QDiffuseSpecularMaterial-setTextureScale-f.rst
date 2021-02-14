@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QDiffuseSpecularMaterial::setTextureScale
     :realsig: (float)
+    :digest: d25fac5746baa8d4a14508fe8716b451
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QDiffuseSpecularMaterial.textureScale`.

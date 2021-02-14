@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
     :realname: Qt3DRender::QTextureImage::Status::Error
+    :digest: 52755321ad7cca16ad242b9687370eea
 
-TODO
+The texture image loading confronted an error.

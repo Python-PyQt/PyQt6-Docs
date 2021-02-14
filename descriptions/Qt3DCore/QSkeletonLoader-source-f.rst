@@ -3,5 +3,6 @@
     :pysig: 46a7bdf6ff0ff3a292573662f7d8a6a2
     :realname: Qt3DCore::QSkeletonLoader::source
     :realsig: () const
+    :digest: f53b5164fde3f8ad805fd671a3376706
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DCore.QSkeletonLoader.setSource`.

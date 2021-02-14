@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8054
     :realname: Qt3DRender::QAbstractTexture::TextureFormat::RGB16_UNorm
+    :digest: 041627c6b6cd484148215b020b4a3bac
 
-TODO
+GL_RGB16

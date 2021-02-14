@@ -3,5 +3,6 @@
     :pysig: c72b19194398ec5f8a4fc9e6573bf436
     :realname: Qt3DCore::QJoint::removeChildJoint
     :realsig: (Qt3DCore::QJoint*)
+    :digest: acbce3eecfe50ffbb6e0757005c360ef
 
-TODO
+Removes *joint* from this joint's list of children. The child joint is not destroyed.

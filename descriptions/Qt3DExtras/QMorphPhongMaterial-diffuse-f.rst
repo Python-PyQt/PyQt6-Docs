@@ -3,5 +3,6 @@
     :pysig: c558c8ca1b418d1b4912fdf1d515ba57
     :realname: Qt3DExtras::QMorphPhongMaterial::diffuse
     :realsig: () const
+    :digest: 506523f0ecc3f10b96a97019850e3a37
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QMorphPhongMaterial.setDiffuse`.

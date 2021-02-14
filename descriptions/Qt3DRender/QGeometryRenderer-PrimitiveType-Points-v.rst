@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0000
     :realname: Qt3DRender::QGeometryRenderer::PrimitiveType::Points
+    :digest: e995fd9ae305419065a7c3a5823e6ac3
 
-TODO
+List of points
