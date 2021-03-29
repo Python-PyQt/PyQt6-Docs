@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0010
     :realname: QItemSelectionModel::SelectionFlag::Current
+    :digest: 4b7f2191b331315186d1cc19d81dec69
 
-TODO
+The current selection will be updated.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: be10eaee8dbac281b2040a00261bf224
 
-TODO
+Area for a toolbox tab's icon and label.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8054
+    :digest: 06324bb543b588539ff4eb27d2b90f29
 
-TODO
+Equivalent to GL_RGB16

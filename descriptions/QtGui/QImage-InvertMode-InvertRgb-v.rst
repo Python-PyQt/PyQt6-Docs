@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9f261eada3e3c4e7dfbb33134889cab9
 
-TODO
+Invert only the RGB values and leave the alpha channel unchanged.

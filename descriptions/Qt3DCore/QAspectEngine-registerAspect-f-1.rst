@@ -3,5 +3,6 @@
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realname: Qt3DCore::QAspectEngine::registerAspect
     :realsig: (const QString&)
+    :digest: e49b838e7620a054a8478b7684f4793b
 
-TODO
+Registers a new aspect to the AspectManager based on its *name* Uses the currently set aspect factory to create the actual aspect instance.

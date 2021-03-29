@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 110
+    :digest: 39d2e5168238d2cea29cd15412846b06
 
-TODO
+A tooltip was requested (\ :sip:ref:`~PyQt6.QtGui.QHelpEvent`).

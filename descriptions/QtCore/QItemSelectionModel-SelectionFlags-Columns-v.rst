@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0040
     :realname: QItemSelectionModel::SelectionFlag::Columns
+    :digest: a6fed1fc058db59b7c66ce0fb659407d
 
-TODO
+All indexes will be expanded to span columns.

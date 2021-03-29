@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: d757f76981deec0968518809d0f5c59a
 
-TODO
+Maximize button on title bars.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 30
+    :digest: a6779ed63fd536df46c824290c4cddfa
 
-TODO
+The "end" icon in a file dialog.

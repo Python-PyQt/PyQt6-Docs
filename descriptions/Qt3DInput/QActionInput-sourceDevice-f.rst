@@ -3,5 +3,6 @@
     :pysig: 48fdd0622aa9e121f7ffc515d0ba458d
     :realname: Qt3DInput::QActionInput::sourceDevice
     :realsig: () const
+    :digest: 17b204a9bee9fc90ff419d0576c98480
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DInput.QActionInput.setSourceDevice`.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0005
     :realname: Qt3DCore::QGeometryView::PrimitiveType::TriangleStrip
+    :digest: 1fbe06f50e6ce1367faf34e009cf813b
 
-TODO
+List of connected triangles

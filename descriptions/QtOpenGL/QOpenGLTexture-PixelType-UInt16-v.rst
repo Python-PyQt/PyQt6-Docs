@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1403
+    :digest: 585cdb19b1bb439b9177adfd44b0784a
 
-TODO
+Equivalent to GL_UNSIGNED_SHORT

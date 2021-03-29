@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: cfa325393dfcb4941c9fc302dbfeb824
 
-TODO
+SQL statement syntax error.

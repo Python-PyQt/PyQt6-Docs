@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 8c28f1b5324e6caca2800a941040cf48
 
-TODO
+The string is inserted in the alphabetic order in the combobox.

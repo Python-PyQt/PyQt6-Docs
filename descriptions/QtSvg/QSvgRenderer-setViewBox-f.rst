@@ -2,5 +2,6 @@
     :status: todo
     :pysig: f036f485eb055d6ec1bb498745801d23
     :realsig: (const QRect&)
+    :digest: 84dc2ae3544a6f77ba984226051571d9
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtSvg.QSvgRenderer.viewBox`.

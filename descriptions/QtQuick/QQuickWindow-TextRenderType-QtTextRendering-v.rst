@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 699b7ceda982864ef119f6be282a2585
 
-TODO
+Use Qt's own rasterization algorithm.

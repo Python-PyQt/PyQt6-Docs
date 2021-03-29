@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 37
+    :digest: 384870d419ad87ca21d36e4ff6d1f0fe
 
-TODO
+The default application layout direction has changed.

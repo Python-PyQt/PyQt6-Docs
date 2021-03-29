@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 00d722d56c808b3c5d4fa1ed5bb092f3
 
-TODO
+The primaries are undefined or does not match any predefined sets.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
     :realname: Qt::MatchFlag::MatchCaseSensitive
+    :digest: 60095b463e06b2beaa4ec350e13b06c4
 
-TODO
+The search is case sensitive.

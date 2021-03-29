@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Odia
+    :digest: 2f8c8abcc7ff59b72abf291b17455e7e
 
-TODO
+Obsolete, please use Odia

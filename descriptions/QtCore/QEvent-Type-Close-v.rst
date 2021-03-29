@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: 4a955e5076cb59401d55a1398ecea386
 
-TODO
+Widget was closed (\ :sip:ref:`~PyQt6.QtGui.QCloseEvent`).

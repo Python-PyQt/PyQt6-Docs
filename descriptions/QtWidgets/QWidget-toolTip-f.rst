@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
+    :digest: f77bccbbbbcfc87583d591989004d44f
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.setToolTip`.

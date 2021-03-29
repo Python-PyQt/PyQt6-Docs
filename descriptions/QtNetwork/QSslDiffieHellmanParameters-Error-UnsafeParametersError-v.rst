@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: df63232df2e2eada027c859297ddf03e
 
-TODO
+The Diffie-Hellman parameters are unsafe and should not be used.

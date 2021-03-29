@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 198
+    :digest: 41b855e4ed38425dd551fa7ac9bb671b
 
-TODO
+A gesture was triggered (\ :sip:ref:`~PyQt6.QtWidgets.QGestureEvent`).

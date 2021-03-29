@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: d591c68a456d3f8f67f348a068bf9c32
 
-TODO
+No token has been retrieved.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Navajo
+    :digest: 564b6cb570fe29b981de6e0740d80a7c
 
-TODO
+Obsolete, please use Navajo

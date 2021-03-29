@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
     :realname: Qt::TextInteractionFlag::TextEditable
+    :digest: fed984891e75f82488ce9e2b18eb06e3
 
-TODO
+The text is fully editable.

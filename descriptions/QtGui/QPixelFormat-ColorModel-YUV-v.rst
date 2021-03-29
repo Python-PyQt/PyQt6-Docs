@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: cda9564ba9d59990ed3bdc19275b1a45
 
-TODO
+The color model is YUV.

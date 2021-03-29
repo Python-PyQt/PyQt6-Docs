@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: d087e5d3ff5e5f667f6879336662da08
 
-TODO
+Indicates that the widget has mouse tracking enabled. See QWidget::mouseTracking.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 35
+    :digest: f04c05b887c604082124c4a59d1890be
 
-TODO
+The contents view icon in a file dialog.

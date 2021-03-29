@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: ecc9bda7f07014f9fb68698d01718ec8
 
-TODO
+Lighter than ``Button`` color.

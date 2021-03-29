@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 36
+    :digest: 8433fc2a35b719de6440286576b8cf6a
 
-TODO
+The handle of a toolbar.

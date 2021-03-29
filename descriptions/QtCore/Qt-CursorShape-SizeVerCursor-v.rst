@@ -1,5 +1,8 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: d41d8cd98f00b204e9800998ecf8427e
 
-TODO
+|image-cursor-sizev-png| A cursor used for elements that are used to vertically resize top-level windows.
+
+.. |image-cursor-sizev-png| image:: ../../../images/cursor-sizev.png

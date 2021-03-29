@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 98
+    :digest: 6c3010f5acb7de627beb7f47ba8345d4
 
-TODO
+Show the widget without making it active.

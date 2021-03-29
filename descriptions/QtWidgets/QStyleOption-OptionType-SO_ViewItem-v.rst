@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: bbbe64987934525ae04319d6a87a819d
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionViewItem` (used in Interviews)

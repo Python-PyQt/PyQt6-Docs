@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0405
     :realname: Qt3DRender::QStencilOperationArguments::FaceMode::Back
+    :digest: a51d0cd9b75bebbc091bf8de20dd9554
 
-TODO
+Arguments are applied to back-facing polygons.

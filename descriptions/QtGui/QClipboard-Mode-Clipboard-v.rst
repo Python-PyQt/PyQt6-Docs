@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 01ab11687f520db0455a6087efc39865
 
-TODO
+indicates that data should be stored and retrieved from the global clipboard.

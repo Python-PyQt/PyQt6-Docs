@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: ff0b9fe10f49cee8ca32c46c886f3889
 
-TODO
+Qt does not support the requested image format.

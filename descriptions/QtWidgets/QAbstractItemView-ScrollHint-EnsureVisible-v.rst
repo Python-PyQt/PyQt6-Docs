@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 1219f6bc647cf3e68b630c778ed44657
 
-TODO
+Scroll to ensure that the item is visible.

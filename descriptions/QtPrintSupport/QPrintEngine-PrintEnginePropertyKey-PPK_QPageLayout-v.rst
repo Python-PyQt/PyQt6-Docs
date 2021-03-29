@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 29
+    :digest: f62dccc723dc5ef78e225e4b77fd57a7
 
-TODO
+Set the page layout using a :sip:ref:`~PyQt6.QtGui.QPageLayout` object.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 27
+    :digest: a67e33d9a49cc2c690cbe785df21f2c0
 
-TODO
+Resize handle for dock windows.

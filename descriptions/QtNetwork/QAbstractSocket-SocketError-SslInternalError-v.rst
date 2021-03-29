@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: e5507572f3e9e31ce72272c4314fe85b
 
-TODO
+The SSL library being used reported an internal error. This is probably the result of a bad installation or misconfiguration of the library.

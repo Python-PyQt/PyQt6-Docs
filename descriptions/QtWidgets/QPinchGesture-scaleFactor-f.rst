@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
+    :digest: 15ccb0784c44e3edb3c0f75249ccd161
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.setScaleFactor`.

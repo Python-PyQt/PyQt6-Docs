@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 0ec470e0f11b308282ab433b3a2701be
 
-TODO
+One dash, two dots, one dash, two dots.

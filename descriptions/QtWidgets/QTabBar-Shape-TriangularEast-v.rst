@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 9b6dc279ec30293c632ececa4013a7fc
 
-TODO
+Triangular tabs on the right of the pages.

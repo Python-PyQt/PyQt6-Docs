@@ -1,6 +1,9 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: A square planar mesh
     :realname: Qt3DExtras::QPlaneGeometryView
+    :digest: d1fcea7ca371178e85703b8996fb81df
 
-TODO
+\* \* \* \* \* \* \*
+
+A square planar mesh.

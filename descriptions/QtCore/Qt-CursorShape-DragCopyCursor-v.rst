@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: c43be253f8203e65df68a97f496e26f6
 
-TODO
+A cursor that is usually used when dragging an item to copy it.

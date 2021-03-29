@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: b89e4212d1dc6302dbfb55b577ed34eb
 
-TODO
+No icon is shown.

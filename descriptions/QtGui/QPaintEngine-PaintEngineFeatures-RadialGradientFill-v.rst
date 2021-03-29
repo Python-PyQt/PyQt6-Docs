@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000020
     :realname: QPaintEngine::PaintEngineFeature::RadialGradientFill
+    :digest: 2a70578f5d26a61017c682caee5ace27
 
-TODO
+The engine supports radial gradient fills.

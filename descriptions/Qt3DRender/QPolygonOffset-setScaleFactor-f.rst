@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DRender::QPolygonOffset::setScaleFactor
     :realsig: (float)
+    :digest: 072d61ba1f643e346321acc8abb52b42
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QPolygonOffset.scaleFactor`.

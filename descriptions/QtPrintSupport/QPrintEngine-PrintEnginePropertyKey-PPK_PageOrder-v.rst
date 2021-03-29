@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 8fd687fe8d184482ae715e04ce61304b
 
-TODO
+Specifies a :sip:ref:`~PyQt6.QtPrintSupport.QPrinter.PageOrder` value.

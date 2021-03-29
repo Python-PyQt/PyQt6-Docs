@@ -3,5 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DExtras::QCylinderMesh::setSlices
     :realsig: (int)
+    :digest: 22c9b3d0471b4fe3603500277025c99b
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QCylinderMesh.slices`.

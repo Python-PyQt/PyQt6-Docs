@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: c7f574b78fabec8ac7b36f030b956f56
 
-TODO
+The type of :sip:ref:`~PyQt6.QtQuick.QSGNode`

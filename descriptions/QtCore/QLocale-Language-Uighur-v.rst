@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Uyghur
+    :digest: 2db70157f2cbfc0f039406cf5f358b90
 
-TODO
+Obsolete, please use Uyghur

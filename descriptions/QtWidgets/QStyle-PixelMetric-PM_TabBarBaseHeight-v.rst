@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 22
+    :digest: 72b3a7679416106bef36ddcdd270d3a4
 
-TODO
+Height of the area between the tab bar and the tab pages.

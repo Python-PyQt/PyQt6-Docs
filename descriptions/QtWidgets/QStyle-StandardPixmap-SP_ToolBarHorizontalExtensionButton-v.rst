@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 27
+    :digest: 1425ddb00b50de4f0ae8d2bedeca9b91
 
-TODO
+Extension button for horizontal toolbars.

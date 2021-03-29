@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01000000
     :realname: Qt::MouseButton::ExtraButton22
+    :digest: 567cf10e2e319fa60049c6934ef026c2
 
-TODO
+The 25th non-wheel Mouse Button.

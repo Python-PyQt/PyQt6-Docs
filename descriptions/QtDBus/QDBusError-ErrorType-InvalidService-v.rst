@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 4c4ff7d99de96a001b05ec779efdf10e
 
-TODO
+The service requested is invalid.

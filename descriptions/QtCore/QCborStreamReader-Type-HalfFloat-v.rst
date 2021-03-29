@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xf9
+    :digest: 207a221d55921749cc30dd138eeab6fb
 
-TODO
+An alias to Float16.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 197d1f5c5d5fb16eb8daaf3d220964bf
 
-TODO
+The data stream is operating normally.

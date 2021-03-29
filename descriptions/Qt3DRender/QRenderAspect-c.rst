@@ -1,6 +1,7 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Class
     :realname: Qt3DRender::QRenderAspect
+    :digest: eab587a4d953f722f49d85332ff4b5e3
 
-TODO
+The :sip:ref:`~PyQt6.Qt3DRender.QRenderAspect` class.

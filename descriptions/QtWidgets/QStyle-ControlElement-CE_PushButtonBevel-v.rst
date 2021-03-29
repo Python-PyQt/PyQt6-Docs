@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 29df3091c90049c36d490521b240813c
 
-TODO
+The bevel and default indicator of a :sip:ref:`~PyQt6.QtWidgets.QPushButton`.

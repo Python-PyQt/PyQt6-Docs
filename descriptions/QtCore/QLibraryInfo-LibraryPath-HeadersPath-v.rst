@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 143173ba026247f63921f738998a76bf
 
-TODO
+The path to all headers.

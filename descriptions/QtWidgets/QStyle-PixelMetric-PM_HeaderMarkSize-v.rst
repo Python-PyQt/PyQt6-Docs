@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 47
+    :digest: f9fbb5f540ad2dfee3b53a9f097f6693
 
-TODO
+The size of the sort indicator in a header.

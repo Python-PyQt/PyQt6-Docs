@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 70866f7b72d586c338496c68ee5dc02e
 
-TODO
+The lookup was successful.

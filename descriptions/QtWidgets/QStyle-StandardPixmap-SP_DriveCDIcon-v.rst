@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 1256b092d6d7df9a2be78558b882707d
 
-TODO
+The CD icon.

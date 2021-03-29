@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 8664a4020169b15094cdd84989c76115
 
-TODO
+The property is invalid.

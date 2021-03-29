@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 45
+    :digest: 64f2e52f68776a4d5a3b85a784113681
 
-TODO
+Width of a minimized MDI window.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: eaf1ca9b30c8f53e07d76d5aa555b20c
 
-TODO
+The "My computer" icon.

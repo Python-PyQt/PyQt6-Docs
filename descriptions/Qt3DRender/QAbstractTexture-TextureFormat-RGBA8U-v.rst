@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8D7C
     :realname: Qt3DRender::QAbstractTexture::TextureFormat::RGBA8U
+    :digest: be4bd82ba031a3ad055da65e776bbf69
 
-TODO
+GL_RGBA8UI

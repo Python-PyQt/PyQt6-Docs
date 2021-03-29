@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 8e883ae809176627cfc6abc92593a508
 
-TODO
+Does a bitwise OR operation on the source and destination pixels (src OR dst).

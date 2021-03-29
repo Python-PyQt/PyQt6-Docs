@@ -1,5 +1,22 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Grid layout for managing widgets in Graphics View
+    :digest: e265a6335f2269125850de2fac9c1538
 
-TODO
+The :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout` class provides a grid layout for managing widgets in Graphics View.
+
+The most common way to use :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout` is to construct an object on the heap with no parent, add widgets and layouts by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.addItem`, and finally assign the layout to a widget by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.setLayout`. :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout` automatically computes the dimensions of the grid as you add items.
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_graphicsview_qgraphicsgridlayout.py
+    :lines: 54-64
+
+The layout takes ownership of the items. In some cases when the layout item also inherits from :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` (such as `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_) there will be a ambiguity in ownership because the layout item belongs to two ownership hierarchies. See the documentation of :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem.setOwnedByLayout` how to handle this. You can access each item in the layout by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.count` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.itemAt`. Calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.removeAt` will remove an item from the layout, without destroying it.
+
+.. _qgraphicsgridlayout-size-hints-and-size-policies-in-qgraphicsgridlayout:
+
+Size Hints and Size Policies in QGraphicsGridLayout
+---------------------------------------------------
+
+:sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout` respects each item's size hints and size policies, and when a cell in the grid has more space than the items can fill, each item is arranged according to the layout's alignment for that item. You can set an alignment for each item by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.setAlignment`, and check the alignment for any item by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.alignment`. You can also set the alignment for an entire row or column by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.setRowAlignment` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout.setColumnAlignment` respectively. By default, items are aligned to the top left.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout`, `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_.

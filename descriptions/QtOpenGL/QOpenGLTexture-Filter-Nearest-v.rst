@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2600
+    :digest: 37c6804c2243ef9bf56880c0fb64ea4f
 
-TODO
+Equivalent to GL_NEAREST

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0005
+    :digest: 1973a27570c85acd4dc082efcb7f8a87
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QFrame` draws a vertical line that frames nothing (useful as separator)

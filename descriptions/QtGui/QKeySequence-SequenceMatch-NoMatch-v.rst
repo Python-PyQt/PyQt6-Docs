@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 71daa5ed76ffaa1e485f3cf923de9aa9
 
-TODO
+The key sequences are different; not even partially matching.

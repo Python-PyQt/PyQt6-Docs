@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xf002
+    :digest: 42a873b19491cd56cf117541b7c95f80
 
-TODO
+:sip:ref:`~PyQt6.QtWidgets.QStyle.StyleHint.SH_TextControl_FocusIndicatorTextCharFormat`

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Active
+    :digest: e4a5bb09610d194ea758bd8d48d2a3f0
 
-TODO
+synonym for Active

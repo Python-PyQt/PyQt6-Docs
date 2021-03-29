@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 3bb3600b32785dba818fa3d825acf83e
 
-TODO
+The event was sent by some other means (i.e. not by the mouse or keyboard).

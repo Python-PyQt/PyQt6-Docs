@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: b935109248afa437344ff557c016af8f
 
-TODO
+A tab stopping at a certain delimiter-character

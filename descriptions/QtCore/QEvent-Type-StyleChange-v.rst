@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 100
+    :digest: bf1fb1fc2571a56a9415c05167fa0e0e
 
-TODO
+Widget's style has been changed.

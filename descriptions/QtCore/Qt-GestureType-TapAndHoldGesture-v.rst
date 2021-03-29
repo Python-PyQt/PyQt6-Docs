@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: f4a9e7368711f5443bec00bed711480e
 
-TODO
+A Tap-And-Hold (Long-Tap) gesture.

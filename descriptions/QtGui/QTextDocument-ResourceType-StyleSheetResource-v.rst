@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: aa501f270a95e3572500f09fb5938eda
 
-TODO
+The resource contains CSS.

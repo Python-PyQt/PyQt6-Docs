@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 132
+    :digest: 63b27e05540f5af0b0ea7854d0e2106d
 
-TODO
+A Windows-specific activation event has occurred.

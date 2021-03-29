@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 34d254f56a14686897dfc015e2375b33
 
-TODO
+Paste.

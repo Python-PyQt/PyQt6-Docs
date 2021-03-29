@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 28
+    :digest: 771089d952d587148173ad9ba290594f
 
-TODO
+The close button of a dock widget.

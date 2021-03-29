@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8368
+    :digest: b286dd9bf33e4896bf63130434ab2ccc
 
-TODO
+Equivalent to GL_UNSIGNED_INT_2_10_10_10_REV

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 101
+    :digest: d0c9d445f1892a16d28cf91b9f9dab16
 
-TODO
+the connection to the proxy server was refused (the proxy server is not accepting requests)

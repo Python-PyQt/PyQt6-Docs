@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: 1d0f7c42c920b04f2348526099501e63
 
-TODO
+An illegal UTF8 sequence occurred in the input

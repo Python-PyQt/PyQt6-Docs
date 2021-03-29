@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 4b99ff73a8a869319570237b5c57ab03
     :realsig: (const QString&) const
+    :digest: 999a5d05a651df754ed402d4dce93faf
 
-TODO
+Returns the path name of a file in the temporary directory. Does *not* check if the file actually exists in the directory. Redundant multiple separators or "." and ".." directories in *fileName* are not removed (see :sip:ref:`~PyQt6.QtCore.QDir.cleanPath`). Absolute paths are not allowed.

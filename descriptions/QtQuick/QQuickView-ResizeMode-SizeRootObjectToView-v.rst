@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: f2879e3926ccd82df25e502d4b79f2d4
 
-TODO
+The view will automatically resize the root item to the size of the view.

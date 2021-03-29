@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: f89941dd290c16e2e1ff4d76d7a449f8
 
-TODO
+After the blit operation, bind the default framebuffer.

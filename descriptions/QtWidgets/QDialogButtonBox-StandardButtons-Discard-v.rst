@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00800000
     :realname: QDialogButtonBox::StandardButton::Discard
+    :digest: cd8e9941737d166c01009d007b8e34fc
 
-TODO
+A "Discard" or "Don't Save" button, depending on the platform, defined with the :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.ButtonRole.DestructiveRole`.

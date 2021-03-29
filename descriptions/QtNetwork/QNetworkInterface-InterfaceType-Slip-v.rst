@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: e0f53052804ea6d9b8957def131546e1
 
-TODO
+Serial Line Internet Protocol interfaces.

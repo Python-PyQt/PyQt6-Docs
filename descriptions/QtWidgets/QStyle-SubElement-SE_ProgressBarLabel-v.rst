@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 14
+    :digest: b13e956732bf598c5afd2ca4578e1d14
 
-TODO
+Area for the text label.

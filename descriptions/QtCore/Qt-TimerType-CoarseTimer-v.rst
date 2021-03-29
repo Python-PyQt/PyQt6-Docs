@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: d60066f7cb24bf87ad7e4cafad0e6832
 
-TODO
+Coarse timers try to keep accuracy within 5% of the desired interval

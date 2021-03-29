@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Menu
     :realname: QStyleOptionToolButton::ToolButtonFeature::MenuButtonPopup
+    :digest: 4747cb8a89a4fdb021101129f20e553f
 
-TODO
+The button should display an arrow to indicate that a menu is present.

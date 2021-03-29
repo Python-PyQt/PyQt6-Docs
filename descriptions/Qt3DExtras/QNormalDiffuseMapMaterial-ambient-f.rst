@@ -3,5 +3,6 @@
     :pysig: c558c8ca1b418d1b4912fdf1d515ba57
     :realname: Qt3DExtras::QNormalDiffuseMapMaterial::ambient
     :realsig: () const
+    :digest: 1a078adcc9a14f3a7c019852167e5184
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.setAmbient`.

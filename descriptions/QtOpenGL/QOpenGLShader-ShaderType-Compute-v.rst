@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0020
     :realname: QOpenGLShader::ShaderTypeBit::Compute
+    :digest: 0064fac1f2e52740c98138b2535dd39b
 
-TODO
+Compute shaders written in the OpenGL shading language (GLSL) (requires OpenGL >= 4.3 or OpenGL ES >= 3.1).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 75afc84466d687bd467b3f6bd9246c3f
 
-TODO
+a synonym for ``TypeWriter``.

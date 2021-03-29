@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9d72ccc07a5fd947130b24fbbc2de3d7
 
-TODO
+The default calendar, used internationally.

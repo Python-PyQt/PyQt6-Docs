@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 4b310177530cb96b20e8b16599d512e6
 
-TODO
+The key is released.

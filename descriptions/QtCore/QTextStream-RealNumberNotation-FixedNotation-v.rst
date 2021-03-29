@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: adea82007e64a2ec50ef8823b2bcb7d8
 
-TODO
+Fixed-point notation (``printf()``'s ``%f`` flag).

@@ -3,5 +3,6 @@
     :pysig: 7d75ff8f21395783cc8dd0456ddbfe57
     :realname: Qt3DRender::QShaderImage::setAccess
     :realsig: (Qt3DRender::QShaderImage::Access)
+    :digest: 3461fabf0679759beef8a50986fe6721
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QShaderImage.access`.

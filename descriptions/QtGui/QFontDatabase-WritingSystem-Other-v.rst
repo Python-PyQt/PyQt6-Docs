@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Symbol
+    :digest: 5b555437d9a643ad986861e97db05f50
 
-TODO
+(the same as Symbol)

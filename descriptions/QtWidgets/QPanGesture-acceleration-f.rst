@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
+    :digest: efefc3fb41392a5d381bdb7a38459733
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPanGesture.setAcceleration`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8231
+    :digest: 9d106eff29261a83d8adfed05767ddb3
 
-TODO
+Equivalent to GL_R8I

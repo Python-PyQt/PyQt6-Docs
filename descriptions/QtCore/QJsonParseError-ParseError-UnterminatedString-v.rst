@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 5e7e792657e6c5d80515b79e808800ad
 
-TODO
+A string wasn't terminated with a quote

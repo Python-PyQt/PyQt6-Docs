@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: 88804b5629f21ff5830e88c7033d5291
 
-TODO
+The progress indicator of a :sip:ref:`~PyQt6.QtWidgets.QProgressBar`.

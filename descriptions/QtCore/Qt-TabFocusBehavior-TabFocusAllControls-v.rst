@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xff
+    :digest: afb00ef07723ecc0e1c0a3088a93c4fb
 
-TODO
+iterate all controls and widgets.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: a5db827e74eb27cae203cccb48e49d87
 
-TODO
+The bottom side of a layout item.

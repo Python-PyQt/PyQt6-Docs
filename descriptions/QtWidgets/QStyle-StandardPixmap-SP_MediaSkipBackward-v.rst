@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 65
+    :digest: 6f7d7d42bfe15e046f1cb86f0a9bfd95
 
-TODO
+Icon indicating that media should skip backward.

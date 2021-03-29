@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 7c66114d47fd58d8946b6898ee20ba3d
 
-TODO
+Width of a chunk in a progress bar indicator.

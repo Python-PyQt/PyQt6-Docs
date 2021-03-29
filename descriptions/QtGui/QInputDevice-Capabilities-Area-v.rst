@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0002
     :realname: QInputDevice::Capability::Area
+    :digest: 18117d8ac043ef0341daf2f1fbedf7da
 
-TODO
+Indicates that touch area information is available, meaning that :sip:ref:`~PyQt6.QtGui.QEventPoint.ellipseDiameters` in the touch points return valid values.

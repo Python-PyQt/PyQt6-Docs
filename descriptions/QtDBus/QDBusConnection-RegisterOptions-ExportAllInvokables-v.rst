@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: ExportScriptableInvokables|ExportNonScriptableInvokables
     :realname: QDBusConnection::RegisterOption::ExportAllInvokables
+    :digest: 6156ee0f8bede24b41fc4c3e956b5a35
 
-TODO
+export all of this object's invokables

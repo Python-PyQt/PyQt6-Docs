@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 2f07ad28e1e6adc22b923c7c2e1bbc54
     :realsig: () const
+    :digest: ba608edfafdbc06c26919ddd4a3a18df
 
-TODO
+Returns the reasons for the boundary finder to have chosen the current position as a boundary.

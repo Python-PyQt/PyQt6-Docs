@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 86bbec471a4c7fc1c0763531c46906df
 
-TODO
+unregister this node and all its sub-tree

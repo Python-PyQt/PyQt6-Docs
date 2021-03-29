@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 2efb70e20af1140893d1204ed6896c56
 
-TODO
+The sRGB transfer function, composed of linear and gamma parts

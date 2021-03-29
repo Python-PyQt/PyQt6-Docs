@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 8acaaf58bb648112a6c50bae27addb7d
 
-TODO
+Selecting single items.

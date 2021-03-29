@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 5fb2c52973d4657fc1681f4784bd9fb3
 
-TODO
+The string is *clearly* invalid.

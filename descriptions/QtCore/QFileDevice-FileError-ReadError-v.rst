@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 527786fef7228eaf1b28f18a7d757cd9
 
-TODO
+An error occurred when reading from the file.

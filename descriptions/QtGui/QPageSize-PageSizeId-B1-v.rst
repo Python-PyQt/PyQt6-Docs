@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: f61bb916c144be73fb22a875d3e78664
 
-TODO
+707 x 1000 mm

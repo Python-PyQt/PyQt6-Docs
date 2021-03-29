@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 41
+    :digest: 60496e48a4ce5712d3a3a4295a989c79
 
-TODO
+Icon for a standard Help button in a :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`.

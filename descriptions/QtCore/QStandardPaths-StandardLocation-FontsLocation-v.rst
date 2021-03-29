@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 30c0cf865631979aa096925daf3e2cf5
 
-TODO
+Returns the directory containing user's fonts. This is a generic value. Note that installing fonts may require additional, platform-specific operations.

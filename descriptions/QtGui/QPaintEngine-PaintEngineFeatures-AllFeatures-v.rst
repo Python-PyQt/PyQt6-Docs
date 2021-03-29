@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xffffffff
     :realname: QPaintEngine::PaintEngineFeature::AllFeatures
+    :digest: 12135530eae6084a1720cd6d5b0859f1
 
-TODO
+All of the above features. This enum value is usually used as a bit mask.

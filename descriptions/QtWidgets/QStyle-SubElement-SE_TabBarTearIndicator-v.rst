@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 9976e81bb56bcc7b463c30da4c842532
 
-TODO
+Deprecated. Use  instead.

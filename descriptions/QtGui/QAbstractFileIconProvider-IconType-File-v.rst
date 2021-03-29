@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: e6dc96d228171b24e105fac79e7de39a
 
-TODO
+The icon used for generic text file types

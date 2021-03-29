@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: cfe292d5ad22cc4bf5fdb6198873af09
 
-TODO
+Extremely dense brush pattern.

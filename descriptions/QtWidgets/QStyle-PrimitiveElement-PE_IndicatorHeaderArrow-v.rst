@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 28
+    :digest: 2e5e6e8ff31d8e2d0b1fcb1b5de1969b
 
-TODO
+Arrow used to indicate sorting on a list or table header.

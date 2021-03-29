@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9b9c018bc8ae22b1f2474b467edb6d33
 
-TODO
+The icon used for the computing device as a whole

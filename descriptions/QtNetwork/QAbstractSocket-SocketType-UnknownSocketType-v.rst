@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -1
+    :digest: 65e01daec9fadeba0acccb92b6feb659
 
-TODO
+Other than TCP, UDP and SCTP

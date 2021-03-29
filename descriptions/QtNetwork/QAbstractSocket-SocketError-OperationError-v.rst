@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 19
+    :digest: b53392deb205eca8c2979117dd9d5155
 
-TODO
+An operation was attempted while the socket was in a state that did not permit it.

@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
+    :digest: b237c62239158413f4df491f2b821d64
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtQml.QJSEngine.uiLanguage`.

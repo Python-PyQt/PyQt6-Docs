@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 34
+    :digest: a5c30faac55292e9f25b3e65f2ad9fce
 
-TODO
+The window's icon has changed.

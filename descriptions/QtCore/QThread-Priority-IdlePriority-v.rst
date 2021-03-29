@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: be39a30574505c3f6600875d88fb0b83
 
-TODO
+scheduled only when no other threads are running.

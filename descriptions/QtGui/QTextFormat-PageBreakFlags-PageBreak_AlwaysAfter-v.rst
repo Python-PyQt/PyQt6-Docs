@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x010
     :realname: QTextFormat::PageBreakFlag::PageBreak_AlwaysAfter
+    :digest: 994b883c723e6cfef8774e9c07d70be0
 
-TODO
+A new page is always started after the paragraph/table

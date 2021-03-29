@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 9ac52892633c0bc0af36f6947cde7bdd
 
-TODO
+The data displayed for the item in "What's This?" mode. (QString)

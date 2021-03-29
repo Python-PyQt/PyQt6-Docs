@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
     :realname: Qt3DAnimation::QAnimationClipLoader::Status::NotReady
+    :digest: ca0dd54e292708ae25c02b738f3ff18a
 
-TODO
+The clip has not been loaded yet

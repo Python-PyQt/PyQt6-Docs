@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 103
+    :digest: d8a91d45d27cd0f3ac69353e63d4c336
 
-TODO
+Determines the delay before visible character is masked with password character, in milliseconds. This enum value was added in Qt 5.4.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 30af1deb6f1b23ab11d7fd3098a63440
 
-TODO
+The file could not be renamed.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 37ce3219f14a90e7dc70eb138a08f7c6
 
-TODO
+The string is inserted before the current item in the combobox.

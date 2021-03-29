@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 10c7382489ba20c9a1ff3fc7e1335bd5
 
-TODO
+The color model is Grayscale.

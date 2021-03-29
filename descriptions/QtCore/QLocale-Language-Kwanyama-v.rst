@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Kuanyama
+    :digest: a76ae3e3b0b96901f6087afdac007c8b
 
-TODO
+Obsolete, please use Kuanyama

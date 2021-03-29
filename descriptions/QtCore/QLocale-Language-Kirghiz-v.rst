@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Kyrgyz
+    :digest: b994201d38b31b4c7a74472cd14b652c
 
-TODO
+Obsolete, please use Kyrgyz

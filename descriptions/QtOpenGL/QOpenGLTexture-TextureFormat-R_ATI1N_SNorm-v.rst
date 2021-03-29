@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8DBC
+    :digest: b13b148c94ffec8c0078e4a19e5d398c
 
-TODO
+Equivalent to GL_COMPRESSED_SIGNED_RED_RGTC1

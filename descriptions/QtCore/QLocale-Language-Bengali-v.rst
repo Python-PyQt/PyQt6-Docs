@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Bangla
+    :digest: d178b884288a17468557774089dbb8a7
 
-TODO
+Obsolete, please use Bangla

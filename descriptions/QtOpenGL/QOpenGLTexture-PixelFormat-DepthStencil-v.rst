@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x84F9
+    :digest: 5834b29305309534d5141d3f8c6048f2
 
-TODO
+Equivalent to GL_DEPTH_STENCIL

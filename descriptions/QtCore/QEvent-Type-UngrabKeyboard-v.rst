@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 189
+    :digest: 98e0984c74bd45927d99e11a091d2091
 
-TODO
+Item loses keyboard grab (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` only).

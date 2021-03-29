@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 76
+    :digest: 2be81f39a53570b18b92552b479b4642
 
-TODO
+Widget layout needs to be redone.

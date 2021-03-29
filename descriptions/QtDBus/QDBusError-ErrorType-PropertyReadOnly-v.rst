@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 22
+    :digest: c075cfcc7f9154cde25246dd075116cc
 
-TODO
+The property set failed because the property is read-only (``org.freedesktop.DBus.Error.PropertyReadOnly``)

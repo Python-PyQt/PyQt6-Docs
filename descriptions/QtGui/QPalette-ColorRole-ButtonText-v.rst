@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 0ae9c367152091d38283cf7a943e066a
 
-TODO
+A foreground color used with the ``Button`` color.

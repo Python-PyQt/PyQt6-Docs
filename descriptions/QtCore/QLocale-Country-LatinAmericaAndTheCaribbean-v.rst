@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: LatinAmerica
+    :digest: 1738f74680275c738c11ab028170ad0c
 
-TODO
+Obsolete, use ``LatinAmerica`` instead

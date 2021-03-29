@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 7e592a6755e113c89d5412ba22593342
 
-TODO
+A child was added. ItemChangeData::item contains the added child.

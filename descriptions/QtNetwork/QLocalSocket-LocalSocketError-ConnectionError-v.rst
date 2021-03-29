@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QAbstractSocket::NetworkError
+    :digest: 8da453511deb109f5aaabcb4192594e7
 
-TODO
+An error occurred with the connection.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 51658c0359847d5b46c3fd976dd7e38c
 
-TODO
+Normal 2D rendering with depth buffer disabled

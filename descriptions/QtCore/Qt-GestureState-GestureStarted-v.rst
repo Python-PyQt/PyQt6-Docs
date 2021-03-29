@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 69af240282140c46cf7700d8e78b5d1c
 
-TODO
+A continuous gesture has started.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 91dbfc52ef68576565431934b115dab7
 
-TODO
+The controls for expanding and collapsing will be shown if the item contains children.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 21
+    :digest: 951437a040051c15a156985925dd6c53
 
-TODO
+Mouse tracking in menu bars.

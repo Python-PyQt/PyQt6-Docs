@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: c7754abbb10e56cb104ddd2a1dcd0b67
 
-TODO
+A tool button, like :sip:ref:`~PyQt6.QtWidgets.QToolButton`.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: RemovePassword | 0x4
     :realname: QUrl::UrlFormattingOption::RemoveUserInfo
+    :digest: 8bc847056da42c92bc1b89c0a6c654ad
 
-TODO
+Any user information in the URL is removed.

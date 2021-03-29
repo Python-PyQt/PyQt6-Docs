@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 32ee03fdb3172c861f6cb296723cf97a
 
-TODO
+Another reason, usually application-specific.

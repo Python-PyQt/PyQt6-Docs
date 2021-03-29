@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 109
+    :digest: 5f34c159d563d8e4c84d275322be483d
 
-TODO
+Since Qt 5.12

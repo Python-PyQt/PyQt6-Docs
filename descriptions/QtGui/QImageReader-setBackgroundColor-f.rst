@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 16a840407bcc3e0a0c7d7df60dad57e9
     :realsig: (const QColor&)
+    :digest: f42f363c78c12a0d44fa90b23b195990
 
-TODO
+Sets the background color to *color*. Image formats that support this operation are expected to initialize the background to *color* before reading an image.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageReader.backgroundColor`, :sip:ref:`~PyQt6.QtGui.QImageReader.read`.

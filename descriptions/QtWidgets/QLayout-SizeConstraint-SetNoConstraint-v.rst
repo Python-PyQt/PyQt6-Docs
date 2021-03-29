@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: bf395bc239ddbb9d347951ca5444b0f1
 
-TODO
+The widget is not constrained.

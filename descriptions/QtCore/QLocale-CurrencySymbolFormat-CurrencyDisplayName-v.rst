@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 21e0d264aa6dbcf99bbce5064f0fcf9e
 
-TODO
+a user readable name of the currency.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 125
+    :digest: 87fe4db3acfd4365f5865c1a173ca18d
 
-TODO
+Send to toplevel widgets when the application leaves "What's This?" mode.

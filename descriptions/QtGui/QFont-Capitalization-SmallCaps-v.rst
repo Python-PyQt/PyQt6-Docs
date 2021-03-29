@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: dd8d170657ac12bdf478201e8785e2d9
 
-TODO
+This alters the text to be rendered in small-caps type.

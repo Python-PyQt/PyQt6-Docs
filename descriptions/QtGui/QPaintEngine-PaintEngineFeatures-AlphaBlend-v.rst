@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000080
     :realname: QPaintEngine::PaintEngineFeature::AlphaBlend
+    :digest: 3ff43bb85e9fb368c3cf52eebe677b5a
 
-TODO
+The engine can alpha blend primitives.

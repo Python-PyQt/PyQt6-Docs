@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 0a0c97abb0d81763cfcc79965cf11dc5
 
-TODO
+An unknown or unsupported operating system.

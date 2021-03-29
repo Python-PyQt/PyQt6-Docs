@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 118
+    :digest: a117055fc59c6c0b2babcc09f07d804e
 
-TODO
+A link in a widget's "What's This?" help was clicked.

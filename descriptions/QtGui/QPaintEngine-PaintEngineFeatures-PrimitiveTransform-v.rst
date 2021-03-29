@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000001
     :realname: QPaintEngine::PaintEngineFeature::PrimitiveTransform
+    :digest: cbea40a791c5ef1bea04b5956404faf1
 
-TODO
+The engine has support for transforming drawing primitives.

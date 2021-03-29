@@ -3,5 +3,6 @@
     :pysig: 8224e02cbaee26cd693672e89d274370
     :realname: Qt3DRender::QStencilOperationArguments::setStencilTestFailureOperation
     :realsig: (Qt3DRender::QStencilOperationArguments::Operation)
+    :digest: 8b016ea5ef747e56b90c2afa6cea7d87
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QStencilOperationArguments.stencilTestFailureOperation`.

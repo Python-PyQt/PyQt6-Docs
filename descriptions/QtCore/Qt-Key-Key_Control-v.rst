@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01000021
+    :digest: cd02a8f7374d956d47ff2e97fdb11cbe
 
-TODO
+On macOS, this corresponds to the Command keys.

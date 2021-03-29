@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: c2d90430f030c22abd6b2d4f0b524222
 
-TODO
+This enum specifies different error cases

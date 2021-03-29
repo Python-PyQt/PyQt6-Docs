@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 61178895257f88fd5b45695dadb2f78f
 
-TODO
+The resulting image is transformed using bilinear filtering.

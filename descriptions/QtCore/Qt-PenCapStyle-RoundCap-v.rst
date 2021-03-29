@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x20
+    :digest: bfbb38799f440dcd92d50130d9ef1289
 
-TODO
+a rounded line end.

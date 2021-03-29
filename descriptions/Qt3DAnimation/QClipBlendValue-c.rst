@@ -1,6 +1,7 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Class used for including a clip in a blend tree
     :realname: Qt3DAnimation::QClipBlendValue
+    :digest: 47cefab166ce377014abc5e46fb15318
 
-TODO
+Class used for including a clip in a blend tree.

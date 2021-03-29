@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 6dccccd500ae46298c52527978ed4067
 
-TODO
+The tabs are drawn with a rounded look. This is the default shape.

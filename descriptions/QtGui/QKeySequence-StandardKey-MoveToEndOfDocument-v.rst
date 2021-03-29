@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 43
+    :digest: af11ee87b47c5f8e6da7f9a7987fb6de
 
-TODO
+Move cursor to end of document.

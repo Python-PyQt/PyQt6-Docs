@@ -3,5 +3,6 @@
     :pysig: 9f4790878da532dc045f21dab7a64a17
     :realname: Qt3DExtras::QNormalDiffuseMapMaterial::setNormal
     :realsig: (Qt3DRender::QAbstractTexture*)
+    :digest: 5c4652533158111ab04d4aaf7ab9992d
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.normal`.

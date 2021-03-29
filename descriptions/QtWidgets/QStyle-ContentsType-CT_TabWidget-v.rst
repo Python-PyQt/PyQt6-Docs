@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 17
+    :digest: 709ecd0180879717787a8bbc85522a24
 
-TODO
+A tab widget, like :sip:ref:`~PyQt6.QtWidgets.QTabWidget`.

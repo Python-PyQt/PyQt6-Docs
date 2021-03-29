@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 20127006faa7145932eacf6900800289
 
-TODO
+The color format is considered as 8-bit integer in R, G, B and alpha channels.

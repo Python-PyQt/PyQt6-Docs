@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 318
+    :digest: a853d2644ebf8ff246fbce1e0f9c265a
 
-TODO
+same as Frisian

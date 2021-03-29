@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 198f5ebe1c5e54c34a134273deb4783b
 
-TODO
+A mode where the facing pages in the preview is viewed.

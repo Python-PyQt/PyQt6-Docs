@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: MendeScript
+    :digest: 45dba46e16338e2e1888fe664e6ecb90
 
-TODO
+Obsolete, please use

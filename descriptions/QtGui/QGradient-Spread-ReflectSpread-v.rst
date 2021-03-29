@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: b7ef28fd5d945c9d68b6dad79f12e201
 
-TODO
+The gradient is reflected outside the gradient area.

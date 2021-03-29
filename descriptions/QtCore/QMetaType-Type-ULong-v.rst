@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 35
+    :digest: 861353752029ef2b7e5d699a154df094
 
-TODO
+``unsigned long``

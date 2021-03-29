@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 14
+    :digest: a59277611bc891e6be604f3801ab2dfd
 
-TODO
+Generic panel with a button bevel.

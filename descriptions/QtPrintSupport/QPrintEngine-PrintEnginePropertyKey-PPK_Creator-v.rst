@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 24c66e3312a35836aa243eed69e3b9ba
 
-TODO
+A string describing the document's creator.

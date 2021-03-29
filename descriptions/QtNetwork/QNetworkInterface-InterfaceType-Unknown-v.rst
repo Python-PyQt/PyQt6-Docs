@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 2c5218c5018054b471ea0a63a4e600ed
 
-TODO
+The interface type could not be determined or is not one of the other listed types.

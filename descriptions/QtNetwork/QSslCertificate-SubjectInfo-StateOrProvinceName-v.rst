@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: c526aeec40aaef320257a636a1f88ca6
 
-TODO
+"ST" The state or province.

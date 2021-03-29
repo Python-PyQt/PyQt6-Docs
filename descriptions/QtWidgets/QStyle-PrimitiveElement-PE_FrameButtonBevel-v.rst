@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: c29f390bfd16a0673937967a47d39d75
 
-TODO
+Panel frame for a button bevel.

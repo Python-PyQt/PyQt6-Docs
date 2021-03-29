@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 89d5c587166d3512f7e7cb87cb860477
 
-TODO
+Panel frame for line edits.

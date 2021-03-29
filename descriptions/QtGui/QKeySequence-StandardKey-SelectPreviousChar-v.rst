@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 45
+    :digest: b768e8ddf06bdd1b9b738e5d80a6bd3d
 
-TODO
+Extend selection to previous character.

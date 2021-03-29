@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
     :realname: QPointingDevice::PointerType::Eraser
+    :digest: eec91ed824d9644c6c3f49dddcef45e8
 
-TODO
+The other end of the stylus (if it has a virtual eraser on the other end).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0800
+    :digest: 45298dc1e9ad874949dd68c9adaa6d24
 
-TODO
+avoid subpixel antialiasing on the fonts if possible.

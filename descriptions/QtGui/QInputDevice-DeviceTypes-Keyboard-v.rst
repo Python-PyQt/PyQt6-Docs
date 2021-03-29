@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1000
     :realname: QInputDevice::DeviceType::Keyboard
+    :digest: 6658b59d57760164bf4e1b3da2b162ff
 
-TODO
+A keyboard.

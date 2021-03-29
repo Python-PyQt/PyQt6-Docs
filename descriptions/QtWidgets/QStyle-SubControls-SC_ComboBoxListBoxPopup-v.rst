@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000008
     :realname: QStyle::SubControl::SC_ComboBoxListBoxPopup
+    :digest: 8d351d0aa070cb50871537b00e5e6cb4
 
-TODO
+The reference rectangle for the combobox popup. Used to calculate the position of the popup.

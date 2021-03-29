@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: 2227a8ab45fb04092f169b717374661c
 
-TODO
+The object path points to an object that does not exist (``org.freedesktop.DBus.Error.UnknownObject``)

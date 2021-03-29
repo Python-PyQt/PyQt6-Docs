@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 21
+    :digest: ad9df230b94be10258050b15a921234e
 
-TODO
+Area for the left corner widget in a tab widget.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: cd726e767b82e3cc314797b82c606e04
 
-TODO
+Connection error.

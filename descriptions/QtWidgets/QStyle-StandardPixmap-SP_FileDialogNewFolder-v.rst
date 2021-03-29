@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 32
+    :digest: b31b69018756fcc65f56ab4bb8474490
 
-TODO
+The "create new folder" icon in a file dialog.

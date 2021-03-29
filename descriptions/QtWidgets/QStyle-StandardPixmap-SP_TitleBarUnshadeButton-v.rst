@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 93a4585245a163aa4349f9d3aaa093af
 
-TODO
+Unshade button on title bars.

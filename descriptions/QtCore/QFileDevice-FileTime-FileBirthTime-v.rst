@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 5735270e7dc89899ac008cce9b6ccece
 
-TODO
+When the file was created (may not be not supported on UNIX).

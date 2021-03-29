@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 8c174061958c4ad10ce95b71a0d2be5d
 
-TODO
+Set for the first scroll event of a scroll activity.

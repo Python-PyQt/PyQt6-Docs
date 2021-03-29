@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
     :realname: Qt3DCore::QSkeletonLoader::Status::Ready
+    :digest: 1428a114fe105b2237ccfcb714735568
 
-TODO
+The skeleton was successfully loaded

@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QAbstractCameraController::setAcceleration
     :realsig: (float)
+    :digest: fc476d455452bc534cc807f8b3de8cf6
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QAbstractCameraController.acceleration`.

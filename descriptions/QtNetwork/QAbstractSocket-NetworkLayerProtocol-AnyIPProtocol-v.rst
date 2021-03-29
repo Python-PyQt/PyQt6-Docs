@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 66ee6fc0ed72efd5c4da94e217a17e13
 
-TODO
+Either IPv4 or IPv6

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0200
+    :digest: da45fbde9bfd69d8f770eee3812b8a4e
 
-TODO
+If it's impossible to stay within the given bounds, it prints outside.

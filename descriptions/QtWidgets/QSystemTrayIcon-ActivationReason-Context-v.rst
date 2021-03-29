@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: f514af3708bdaeacc125c2aac98401cb
 
-TODO
+The context menu for the system tray entry was requested

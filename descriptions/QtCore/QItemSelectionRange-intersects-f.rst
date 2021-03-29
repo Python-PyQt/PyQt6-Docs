@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 09daed10001a7a7d211614b3125cbd69
     :realsig: (const QItemSelectionRange&) const
+    :digest: f79196c234a314b270b7a9c1ad875390
 
-TODO
+Returns ``true`` if this selection range intersects (overlaps with) the *other* range given; otherwise returns ``false``.

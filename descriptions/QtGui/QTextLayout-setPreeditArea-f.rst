@@ -2,5 +2,8 @@
     :status: todo
     :pysig: d4d85079d3c184e4c59bdc73add11325
     :realsig: (int,const QString&)
+    :digest: 987c5e1b90043574ac2ee5e51fd4e5e2
 
-TODO
+Sets the *position* and *text* of the area in the layout that is processed before editing occurs. The layout is invalidated and must be laid out again.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextLayout.preeditAreaPosition`, :sip:ref:`~PyQt6.QtGui.QTextLayout.preeditAreaText`.

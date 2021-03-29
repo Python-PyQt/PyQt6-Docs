@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 92cdb220fe49edbc646cb99cd6dd7447
 
-TODO
+The path to general architecture-dependent Qt data.

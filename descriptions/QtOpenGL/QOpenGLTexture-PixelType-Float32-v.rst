@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1406
+    :digest: 0eca7c51c5452620d9ddd131884026c4
 
-TODO
+Equivalent to GL_FLOAT

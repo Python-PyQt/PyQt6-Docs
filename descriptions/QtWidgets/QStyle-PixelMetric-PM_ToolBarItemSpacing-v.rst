@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 54
+    :digest: 034f66e7f4d2c651b467712fab6db102
 
-TODO
+Spacing between toolbar items.

@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: 71adf4b9d0c787eb15ce0e08519cc2e7
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGroupBox.alignment`.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: f3ba99f4afaeef1c55757c3ced46e49d
 
-TODO
+Returns the number of child item rows that the item has.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QStandardItem.setRowCount`, :sip:ref:`~PyQt6.QtGui.QStandardItem.columnCount`.

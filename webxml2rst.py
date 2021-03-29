@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Riverbank Computing Limited
+# Copyright (c) 2021, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -68,8 +68,8 @@ class WebXMLMetadata:
         # The name of the module.
         self.name = name
 
-        # The name of the .qdocconf file relative to the Qt source directory
-        # using POSIX path separators.
+        # The name of the .qdocconf file relative to the source directory using
+        # POSIX path separators.
         self._qdocconf = qdocconf
 
         # The names of directories containing 'images' sub-directories.  It
@@ -82,10 +82,13 @@ class WebXMLMetadata:
         # derived from the object name.
         self._locations = {} if locations is None else locations
 
+        # The name of the source directory. This will be set later.
+        self.source_dir = None
+
         # Add this to the list of all modules.
         type(self).all_webxml.append(self)
 
-    def create_qdocconf(self, webxml_root, qt_source):
+    def create_qdocconf(self, webxml_root, qt_prefix):
         """ Create the .qdocconf file and return its name. """
 
         qdocconf = os.path.join(webxml_root, self.name + '.qdocconf')
@@ -96,17 +99,14 @@ class WebXMLMetadata:
             qdocconf_f.write('WebXML.nosubdirs = true\n')
             qdocconf_f.write('WebXML.outputsubdir = {}\n'.format(self.name))
 
-            parts = [qt_source]
+            parts = [self.source_dir]
             parts.extend(self._qdocconf.split('/'))
             qdocconf_f.write('include({})\n'.format(os.path.join(*parts)))
 
             # Note that this is hardcoded for Linux at the moment.
-            plat_prefix = 'gcc_64'
             plat_mkspec = 'linux-g++'
 
-            qt_prefix = os.path.join(qt_source, plat_prefix)
             qt_include = os.path.join(qt_prefix, 'include')
-
             qdocconf_f.write('includepaths +=')
             qdocconf_f.write(' -I ' + qt_include)
             qdocconf_f.write(
@@ -140,146 +140,263 @@ class WebXMLMetadata:
             if location is None:
                 return None
         except KeyError:
-            location = object_name.lower().replace('::', '-')
+            location = object_name.lower().replace('::', '-').replace('_', '-')
 
         return os.path.join(self.name, location + '.webxml')
 
 
 # The WebXML meta-data.
-WebXMLMetadata('qt3d', qdocconf='qt3d/src/doc/qt3d.qdocconf')
-WebXMLMetadata('qtactiveqt',
-        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
-WebXMLMetadata('qtandroidextras',
-        qdocconf='qtandroidextras/src/androidextras/doc/qtandroidextras.qdocconf')
-WebXMLMetadata('qtbluetooth',
-        qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
-WebXMLMetadata('qtcharts',
-        qdocconf='qtcharts/src/charts/doc/qtcharts.qdocconf')
+WebXMLMetadata('qt3d', qdocconf='src/core/doc/qt3d.qdocconf',
+        locations={
+            'Qt3DAnimation::QAbstractChannelMapping': 'qt3danimation',
+            'Qt3DAnimation::QChannelComponent': 'qt3danimation',
+            'Qt3DAnimation::QClock': 'qt3danimation',
+            'Qt3DAnimation::QSkeletonMapping': 'qt3danimation',
+            'Qt3DCore::QNodeIdTypePair': 'qt3dcore',
+            'Qt3DExtras::QAbstractSpriteSheet': 'qt3dextras',
+            'Qt3DExtras::QSpriteGrid': 'qt3dextras',
+            'Qt3DExtras::QSpriteSheet': 'qt3dextras',
+            'Qt3DExtras::QSpriteSheetItem': 'qt3dextras',
+            'Qt3DExtras::Qt3DWindow': 'qt3dextras',
+            'Qt3DRender::PropertyReaderInterface': 'qt3drender',
+            'PYQT_3D_VERSION': None,
+            'PYQT_3D_VERSION_STR': None,
+        })
+#WebXMLMetadata('qtactiveqt',
+#        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
+#WebXMLMetadata('qtandroidextras',
+#        qdocconf='qtandroidextras/src/androidextras/doc/qtandroidextras.qdocconf')
+#WebXMLMetadata('qtbluetooth',
+#        qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
+#WebXMLMetadata('qtcharts',
+#        qdocconf='qtcharts/src/charts/doc/qtcharts.qdocconf')
 WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
         locations={
             'Q_ARG': 'qmetaobject',
-            'Q_CLASSINFO': 'qobject',
-            'Q_ENUM': 'qobject',
-            'Q_ENUMS': 'qobject',
-            'Q_FLAG': 'qobject',
-            'Q_FLAGS': 'qobject',
             'Q_RETURN_ARG': 'qmetaobject',
             'QT_TR_NOOP': 'qtglobal',
             'QT_TRANSLATE_NOOP': 'qtglobal',
             'QT_VERSION': 'qtglobal',
             'QT_VERSION_STR': 'qtglobal',
+            'QCalendar::YearMonthDay': 'qcalendar',
+            'QCborKnownTags': 'qtcborcommon',
             'QCborSimpleType': 'qtcborcommon',
+            'QIODeviceBase': None,
+            'QStringConverterBase': None,
             'QtMsgType': 'qtglobal',
             'qAbs': 'qtglobal',
+            'qAddPostRoutine': 'qcoreapplication',
+            'qAddPreRoutine': 'qcoreapplication',
             'qChecksum': 'qbytearray',
             'qCompress': 'qbytearray',
             'qCritical': 'qtglobal',
+            'qEnvironmentVariable': 'qtglobal',
+            'qEnvironmentVariableIntValue': 'qtglobal',
+            'qEnvironmentVariableIsEmpty': 'qtglobal',
+            'qEnvironmentVariableIsSet': 'qtglobal',
             'qFatal': 'qtglobal',
             'qFloatDistance': 'qtglobal',
+            'qFormatLogMessage': 'qtglobal',
             'qFuzzyCompare': 'qtglobal',
             'qInf': 'qtglobal',
             'qInfo': 'qtglobal',
+            'qInstallMessageHandler': 'qtglobal',
             'qIsFinite': 'qtglobal',
             'qIsInf': 'qtglobal',
             'qIsNaN': 'qtglobal',
             'qQNaN': 'qtglobal',
+            'qRemovePostRoutine': 'qcoreapplication',
+            'qRound': 'qtglobal',
+            'qRound64': 'qtglobal',
             'qSetFieldWidth': 'qtextstream',
+            'qSetMessagePattern': 'qtglobal',
+            'qSetPadChar': 'qtextstream',
             'qSetRealNumberPrecision': 'qtextstream',
             'qSNaN': 'qtglobal',
             'qUncompress': 'qbytearray',
+            'qVersion': 'qtglobal',
             'qWarning': 'qtglobal',
-            'bin': 'qtextstream',
-            'bom': 'qtextstream',
-            'center': 'qtextstream',
-            'dec': 'qtextstream',
-            'endl': 'qtextstream',
-            'fixed': 'qtextstream',
-            'flush': 'qtextstream',
-            'forcepoint': 'qtextstream',
-            'forcesign': 'qtextstream',
-            'hex': 'qtextstream',
-            'left': 'qtextstream',
-            'lowercasebase': 'qtextstream',
-            'lowercasedigits': 'qtextstream',
-            'noforcepoint': 'qtextstream',
-            'noforcesign': 'qtextstream',
-            'noshowbase': 'qtextstream',
-            'oct': 'qtextstream',
-            'reset': 'qtextstream',
-            'right': 'qtextstream',
-            'scientific': 'qtextstream',
-            'showbase': 'qtextstream',
-            'uppercasebase': 'qtextstream',
-            'uppercasedigits': 'qtextstream',
-            'ws': 'qtextstream',
+            'bin': 'qt',
+            'bom': 'qt',
+            'center': 'qt',
+            'convertFromPlainText': 'qt',
+            'dec': 'qt',
+            'endl': 'qt',
+            'fixed': 'qt',
+            'flush': 'qt',
+            'forcepoint': 'qt',
+            'forcesign': 'qt',
+            'hex': 'qt',
+            'left': 'qt',
+            'lowercasebase': 'qt',
+            'lowercasedigits': 'qt',
+            'noforcepoint': 'qt',
+            'noforcesign': 'qt',
+            'noshowbase': 'qt',
+            'oct': 'qt',
+            'reset': 'qt',
+            'right': 'qt',
+            'scientific': 'qt',
+            'showbase': 'qt',
+            'uppercasebase': 'qt',
+            'uppercasedigits': 'qt',
+            'ws': 'qt',
+            'PYQT_VERSION': None,
+            'PYQT_VERSION_STR': None,
+            'PyQtMutexLocker': None,
+            'pyqtClassInfo': None,
+            'pyqtEnum': None,
             'pyqtPickleProtocol': None,
             'pyqtRemoveInputHook': None,
             'pyqtRestoreInputHook': None,
             'pyqtSetPickleProtocol': None,
             'pyqtSlot': None,
         })
-WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf')
-WebXMLMetadata('qtdatavis3d',
-        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
+WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf',
+        locations={
+            'QPyDBusPendingReply': None,
+            'QPyDBusReply': None,
+        })
+#WebXMLMetadata('qtdatavis3d',
+#        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
 WebXMLMetadata('qtdesigner',
         qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
-        more_images='qttools/examples/designer/doc')
+        more_images='qttools/examples/designer/doc',
+        locations={
+            'QPyDesignerContainerExtension': None,
+            'QPyDesignerCustomWidgetCollectionPlugin': None,
+            'QPyDesignerCustomWidgetPlugin': None,
+            'QPyDesignerMemberSheetExtension': None,
+            'QPyDesignerPropertySheetExtension': None,
+            'QPyDesignerTaskMenuExtension': None,
+        })
 WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
         more_images='qtbase/doc/src',
         locations={
+            'QColorConstants::Svg': 'qcolorconstants',
+            'QMatrix2x2': 'qgenericmatrix',
+            'QMatrix2x3': 'qgenericmatrix',
+            'QMatrix2x4': 'qgenericmatrix',
+            'QMatrix3x2': 'qgenericmatrix',
+            'QMatrix3x3': 'qgenericmatrix',
+            'QMatrix3x4': 'qgenericmatrix',
+            'QMatrix4x2': 'qgenericmatrix',
+            'QMatrix4x3': 'qgenericmatrix',
             'qAlpha': 'qcolor',
             'qBlue': 'qcolor',
+            'qFuzzyCompare': 'qtransform',
             'qGray': 'qcolor',
             'qGreen': 'qcolor',
+            'qPixelFormatAlpha': 'qpixelformat',
+            'qPixelFormatCmyk': 'qpixelformat',
+            'qPixelFormatGrayscale': 'qpixelformat',
+            'qPixelFormatHsl': 'qpixelformat',
+            'qPixelFormatHsv': 'qpixelformat',
+            'qPixelFormatRgba': 'qpixelformat',
+            'qPixelFormatYuv': 'qpixelformat',
+            'qPremultiply': 'qcolor',
             'qRed': 'qcolor',
             'qRgb': 'qcolor',
             'qRgba': 'qcolor',
+            'qUnpremultiply': 'qcolor',
             'qt_set_sequence_auto_mnemonic': 'qkeysequence',
         })
 WebXMLMetadata('qthelp',
         qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
-WebXMLMetadata('qtlocation',
-        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
-WebXMLMetadata('qtmacextras',
-        qdocconf='qtmacextras/src/macextras/doc/qtmacextras.qdocconf')
-WebXMLMetadata('qtmultimedia',
-        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
+#WebXMLMetadata('qtlocation',
+#        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
+#WebXMLMetadata('qtmacextras',
+#        qdocconf='qtmacextras/src/macextras/doc/qtmacextras.qdocconf')
+#WebXMLMetadata('qtmultimedia',
+#        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
 WebXMLMetadata('qtnetwork',
-        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf')
+        qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf',
+        locations={
+            # The following line doesn't seem to work. (Maybe there is an
+            # unscoped reference?)
+            'QOcspCertificateStatus': 'qocsresponse',
+            'QOcspRevocationReason': 'qocsresponse',
+        })
 WebXMLMetadata('qtnetworkauth',
-        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf')
-WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
+        qdocconf='src/oauth/doc/qtnetworkauth.qdocconf',
+        locations={
+            # Both of these are marked as internal (and have no documentation)
+            # but they are wrapped as it's not clear if they might be needed in
+            # some circumstances.
+            'QOAuthHttpServerReplyHandler': None,
+            'QOAuthOobReplyHandler': None,
+            'PYQT_NETWORKAUTH_VERSION': None,
+            'PYQT_NETWORKAUTH_VERSION_STR': None,
+        })
+#WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
 WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
-WebXMLMetadata('qtpositioning',
-        qdocconf='qtlocation/src/positioning/doc/qtpositioning.qdocconf')
+#WebXMLMetadata('qtpositioning',
+#        qdocconf='qtlocation/src/positioning/doc/qtpositioning.qdocconf')
 WebXMLMetadata('qtprintsupport',
         qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
-WebXMLMetadata('qtpurchasing',
-        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
-WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf')
+#WebXMLMetadata('qtpurchasing',
+#        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
+WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf',
+        locations={
+            'qmlAttachedPropertiesObject': 'qqmlengine',
+            'qmlClearTypeRegistrations': 'qqmlengine',
+            'qmlContext': 'qqmlengine',
+            'qmlEngine': 'qqmlengine',
+            'qmlProtectModule': 'qqmlengine',
+            'qmlRegisterAnonymousType': 'qqmlengine',
+            'qmlRegisterModule': 'qqmlengine',
+            'qmlRegisterRevision': 'qqmlengine',
+            'qmlRegisterSingletonInstance': 'qqmlengine',
+            'qmlRegisterSingletonType': 'qqmlengine',
+            'qmlRegisterType': 'qqmlengine',
+            'qmlRegisterTypeNotAvailable': 'qqmlengine',
+            'qmlRegisterUncreatableMetaObject': 'qqmlengine',
+            'qmlRegisterUncreatableType': 'qqmlengine',
+            'qmlTypeId': 'qqmlengine',
+        })
 WebXMLMetadata('qtquick',
-        qdocconf='qtdeclarative/src/quick/doc/qtquick.qdocconf')
-WebXMLMetadata('qtremoteobjects',
-        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
-WebXMLMetadata('qtsensors',
-        qdocconf='qtsensors/src/sensors/doc/qtsensors.qdocconf')
-WebXMLMetadata('qtserialport',
-        qdocconf='qtserialport/src/serialport/doc/qtserialport.qdocconf')
+        qdocconf='qtdeclarative/src/quick/doc/qtquick.qdocconf',
+        locations={
+            'QNativeInterface': 'qnativeinterface-sub-qtquick',
+            'QQuickItem::UpdatePaintNodeData': 'qquickitem',
+            'QSGRenderNode::RenderState': 'qsgrendernode',
+        })
+WebXMLMetadata('qtquick3d',
+        qdocconf='qtquick3d/src/imports/quick3d/doc/qtquick3d.qdocconf',
+        locations={
+            'QQuick3DGeometry::Attribute': 'qquick3dgeometry',
+        })
+#WebXMLMetadata('qtremoteobjects',
+#        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
+#WebXMLMetadata('qtsensors',
+#        qdocconf='qtsensors/src/sensors/doc/qtsensors.qdocconf')
+#WebXMLMetadata('qtserialport',
+#        qdocconf='qtserialport/src/serialport/doc/qtserialport.qdocconf')
 WebXMLMetadata('qtsql', qdocconf='qtbase/src/sql/doc/qtsql.qdocconf')
 WebXMLMetadata('qtsvg', qdocconf='qtsvg/src/svg/doc/qtsvg.qdocconf')
 WebXMLMetadata('qttest', qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf')
-WebXMLMetadata('qtwebchannel',
-        qdocconf='qtwebchannel/src/webchannel/doc/qtwebchannel.qdocconf')
-WebXMLMetadata('qtwebengine',
-        qdocconf='qtwebengine/src/webengine/doc/qtwebengine.qdocconf')
-WebXMLMetadata('qtwebsockets',
-        qdocconf='qtwebsockets/src/websockets/doc/qtwebsockets.qdocconf')
+#WebXMLMetadata('qtwebchannel',
+#        qdocconf='qtwebchannel/src/webchannel/doc/qtwebchannel.qdocconf')
+#WebXMLMetadata('qtwebengine',
+#        qdocconf='qtwebengine/src/webengine/doc/qtwebengine.qdocconf')
+#WebXMLMetadata('qtwebsockets',
+#        qdocconf='qtwebsockets/src/websockets/doc/qtwebsockets.qdocconf')
 WebXMLMetadata('qtwidgets',
-        qdocconf='qtbase/src/widgets/doc/qtwidgets.qdocconf')
-WebXMLMetadata('qtwinextras',
-        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
-WebXMLMetadata('qtx11extras',
-        qdocconf='qtx11extras/src/x11extras/doc/qtx11extras.qdocconf')
+        qdocconf='qtbase/src/widgets/doc/qtwidgets.qdocconf',
+        locations={
+            'QWIDGETSIZE_MAX': 'qwidget',
+            'qDrawBorderPixmap': 'qdrawutil-h',
+            'qDrawPlainRect': 'qdrawutil-h',
+            'qDrawShadeLine': 'qdrawutil-h',
+            'qDrawShadePanel': 'qdrawutil-h',
+            'qDrawShadeRect': 'qdrawutil-h',
+            'qDrawWinButton': 'qdrawutil-h',
+            'qDrawWinPanel': 'qdrawutil-h',
+        })
+#WebXMLMetadata('qtwinextras',
+#        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
+#WebXMLMetadata('qtx11extras',
+#        qdocconf='qtx11extras/src/x11extras/doc/qtx11extras.qdocconf')
 WebXMLMetadata('qtxml',
         qdocconf='qtbase/src/xml/doc/qtxml.qdocconf')
 
@@ -366,58 +483,57 @@ class ModuleMetadata:
 
 
 # The module meta-data.
-ModuleMetadata('QAxContainer', webxml='qtactiveqt')
+#ModuleMetadata('QAxContainer', webxml='qtactiveqt')
 ModuleMetadata('Qt3DAnimation', webxml='qt3d', qt_docs_prefix='qt3danimation-')
 ModuleMetadata('Qt3DCore', webxml='qt3d', qt_docs_prefix='qt3dcore-')
 ModuleMetadata('Qt3DExtras', webxml='qt3d', qt_docs_prefix='qt3dextras-')
 ModuleMetadata('Qt3DInput', webxml='qt3d', qt_docs_prefix='qt3dinput-')
 ModuleMetadata('Qt3DLogic', webxml='qt3d', qt_docs_prefix='qt3dlogic-')
 ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
-ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
-ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
-ModuleMetadata('QtChart', webxml='qtcharts')
+#ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
+#ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
+#ModuleMetadata('QtCharts', webxml='qtcharts')
 ModuleMetadata('QtCore', webxml='qtcore')
-ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
+#ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
 ModuleMetadata('QtDBus', webxml='qtdbus')
 ModuleMetadata('QtDesigner', webxml='qtdesigner')
 ModuleMetadata('QtGui', webxml='qtgui')
 ModuleMetadata('QtHelp', webxml='qthelp')
-ModuleMetadata('QtLocation', webxml='qtlocation')
-ModuleMetadata('QtMacExtras', webxml='qtmacextras')
-ModuleMetadata('QtMultimedia', webxml='qtmultimedia')
-ModuleMetadata('QtMultimediaWidgets', webxml='qtmultimedia')
+#ModuleMetadata('QtLocation', webxml='qtlocation')
+#ModuleMetadata('QtMacExtras', webxml='qtmacextras')
+#ModuleMetadata('QtMultimedia', webxml='qtmultimedia')
+#ModuleMetadata('QtMultimediaWidgets', webxml='qtmultimedia')
 ModuleMetadata('QtNetwork', webxml='qtnetwork')
 ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
-ModuleMetadata('QtNfc', webxml='qtnfc')
+#ModuleMetadata('QtNfc', webxml='qtnfc')
 ModuleMetadata('QtOpenGL', webxml='qtopengl')
-ModuleMetadata('QtPositioning', webxml='qtpositioning')
+ModuleMetadata('QtOpenGLWidgets', webxml='qtopengl')
+#ModuleMetadata('QtPositioning', webxml='qtpositioning')
 ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
-ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
+#ModuleMetadata('QtPurchasing', webxml='qtpurchasing')
 ModuleMetadata('QtQml', webxml='qtqml')
 ModuleMetadata('QtQuick', webxml='qtquick')
+ModuleMetadata('QtQuick3D', webxml='qtquick3d')
 ModuleMetadata('QtQuickWidgets', webxml='qtquick')
-ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
-ModuleMetadata('QtSensors', webxml='qtsensors')
-ModuleMetadata('QtSerialPort', webxml='qtserialport')
+#ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
+#ModuleMetadata('QtSensors', webxml='qtsensors')
+#ModuleMetadata('QtSerialPort', webxml='qtserialport')
 ModuleMetadata('QtSql', webxml='qtsql')
 ModuleMetadata('QtSvg', webxml='qtsvg')
+ModuleMetadata('QtSvgWidgets', webxml='qtsvg')
 ModuleMetadata('QtTest', webxml='qttest')
-ModuleMetadata('QtWebChannel', webxml='qtwebchannel')
-ModuleMetadata('QtWebEngine', webxml='qtwebengine')
-ModuleMetadata('QtWebEngineCore', webxml='qtwebengine')
-ModuleMetadata('QtWebEngineWidgets', webxml='qtwebengine')
-ModuleMetadata('QtWebSockets', webxml='qtwebsockets')
+#ModuleMetadata('QtWebChannel', webxml='qtwebchannel')
+#ModuleMetadata('QtWebEngine', webxml='qtwebengine')
+#ModuleMetadata('QtWebEngineCore', webxml='qtwebengine')
+#ModuleMetadata('QtWebEngineWidgets', webxml='qtwebengine')
+#ModuleMetadata('QtWebSockets', webxml='qtwebsockets')
 ModuleMetadata('QtWidgets', webxml='qtwidgets')
-ModuleMetadata('QtWinExtras', webxml='qtwinextras')
-ModuleMetadata('QtX11Extras', webxml='qtx11extras')
+#ModuleMetadata('QtWinExtras', webxml='qtwinextras')
+#ModuleMetadata('QtX11Extras', webxml='qtx11extras')
 ModuleMetadata('QtXml', webxml='qtxml')
-ModuleMetadata('QtXmlPatterns', webxml='qtxml')
-ModuleMetadata('Qt')
+ModuleMetadata('lupdate')
 ModuleMetadata('sip')
 ModuleMetadata('uic')
-ModuleMetadata('Enginio')
-ModuleMetadata('QtWebKit')
-ModuleMetadata('QtWebKitWidgets')
 
 
 class Module:
@@ -815,6 +931,11 @@ class Description:
             elif sub_el.tag == 'image':
                 self._render_image(fmt, sub_el, context)
 
+            elif sub_el.tag == 'index':
+                # This only seems to be used once (maybe it's a bug) and the
+                # element text is discarded, so we do the same.
+                pass
+
             elif sub_el.tag == 'legalese':
                 fmt.write_line('.. container:: legalese')
                 fmt.indent()
@@ -840,6 +961,12 @@ class Description:
                 self._render_text(fmt, sub_el, scopes, targets, webxml,
                         context)
                 fmt.flush()
+
+            elif sub_el.tag == 'quotefile':
+                # TODO
+                # Include the contents of a file.  At the moment the only known
+                # use is in a non-supported class.
+                pass
 
             elif sub_el.tag == 'see-also':
                 self._render_see_also(fmt, sub_el, scopes, targets, webxml,
@@ -885,6 +1012,12 @@ class Description:
 
             elif sub_el.tag == 'underline':
                 # TODO
+                pass
+
+            elif sub_el.tag in ('quotefromfile', 'skipto', 'printuntil'):
+                # These are used to extract text fragments from a file.  The
+                # only know use is to extract C++ code from a Qt source file,
+                # so we just ignore them.
                 pass
 
             else:
@@ -1059,9 +1192,13 @@ class Description:
         elif link_type in ('', 'page'):
             # TODO: Look for any WebXML for the page and process it.
             # TODO: Implement :sip:external`` so that the URL isn't hardcoded.
-            text = '`{} <https://doc.qt.io/qt-5/{}>`_'.format(text, href)
+            text = '`{} <https://doc.qt.io/qt-6/{}>`_'.format(text, href)
 
         elif link_type == 'property':
+            # TODO
+            pass
+
+        elif link_type == 'alias':
             # TODO
             pass
 
@@ -1072,6 +1209,9 @@ class Description:
         elif link_type == 'variable':
             # TODO
             pass
+
+        elif link_type == 'external':
+            text = '`{} <{}>`_'.format(text, href)
 
         else:
             warning(
@@ -1195,9 +1335,10 @@ class Description:
         snippet = snippet_el.attrib['path']
 
         # Snippets can only be uniquely identified by their path relative to
-        # the Qt source directory.
+        # the source directory.
+        source_dir = self._module.webxml.source_dir
         snippet_name = os.path.relpath(snippet,
-                os.path.realpath(context.qt_source)).replace(os.sep, '-')
+                os.path.realpath(source_dir)).replace(os.sep, '-')
 
         for ext in ('.cpp', '.h'):
             if snippet_name.endswith(ext):
@@ -1337,9 +1478,10 @@ class Description:
 
         fn = href.replace('/', os.sep)
         dst = os.path.join(context.images, os.path.basename(fn))
+        source_dir = self._module.webxml.source_dir
 
         for image_dir in self._module.metadata.webxml.images:
-            src = os.path.join(context.qt_source, image_dir, fn)
+            src = os.path.join(source_dir, image_dir, fn)
 
             if os.path.isfile(src):
                 shutil.copyfile(src, dst)
@@ -1644,7 +1786,7 @@ def get_modules_to_update(requested_modules):
             if m.metadata is not None and m.metadata.webxml is not None]
 
 
-def generate_webxml(modules, qdoc, qt_source):
+def generate_webxml(modules, qt_prefix):
     """ Generate the WebXML for a list of modules and return the root directory
     containing sub-directories for each module.
     """
@@ -1663,11 +1805,11 @@ def generate_webxml(modules, qdoc, qt_source):
     master_path = os.path.join(webxml_root, 'master.qdocconf')
     with open(master_path, 'w') as master_f:
         for webxml in webxml_needed:
-            qdocconf = webxml.create_qdocconf(webxml_root, qt_source)
+            qdocconf = webxml.create_qdocconf(webxml_root, qt_prefix)
             master_f.write(qdocconf + '\n')
 
     # Configure the environment.
-    versioned_dir = os.path.dirname(qt_source)
+    versioned_dir = os.path.dirname(qt_prefix)
     qt_version = os.path.basename(versioned_dir)
     qt_install_docs = os.path.join(os.path.dirname(versioned_dir), 'Docs',
             'Qt-' + qt_version)
@@ -1680,7 +1822,8 @@ def generate_webxml(modules, qdoc, qt_source):
     os.environ['BUILDDIR'] = webxml_root
 
     # Run qdoc.
-    run(qdoc, '--single-exec', '--outputdir', webxml_root, master_path)
+    run(os.path.join(qt_prefix, 'bin', 'qdoc'), '--single-exec', '--outputdir',
+            webxml_root, master_path)
 
     return webxml_root
 
@@ -1921,11 +2064,18 @@ if __name__ == '__main__':
     arg_parser.add_argument('--package', metavar='NAME', default='',
             help="the name of the optional top-level package")
 
-    arg_parser.add_argument('--qdoc', metavar='FILE', default='qdoc',
-            help="the name of the qdoc executable")
+    arg_parser.add_argument('--qt-prefix', metavar='DIR', required=True,
+            help="the name of the Qt prefix directory")
 
     arg_parser.add_argument('--qt-source', metavar='DIR', required=True,
             help="the directory containing the Qt sources")
+
+    arg_parser.add_argument('--qt-source-3d', metavar='DIR', required=True,
+            help="the directory containing the Qt-3D sources")
+
+    arg_parser.add_argument('--qt-source-networkauth', metavar='DIR',
+            required=True,
+            help="the directory containing the Qt-NetworkAuth sources")
 
     arg_parser.add_argument('--snippets', metavar='DIR',
             default='snippets',
@@ -1944,11 +2094,22 @@ if __name__ == '__main__':
     descriptions = os.path.abspath(args.descriptions)
     force = args.force
     images = os.path.abspath(args.images)
-    qdoc = os.path.abspath(args.qdoc)
+    qt_prefix = os.path.abspath(args.qt_prefix)
     qt_source = os.path.abspath(args.qt_source)
+    qt_source_3d = os.path.abspath(args.qt_source_3d)
+    qt_source_networkauth = os.path.abspath(args.qt_source_networkauth)
     package = args.package
     snippets = os.path.abspath(args.snippets)
     verbose = args.verbose
+
+    # Set the name of the source directories.
+    for webxml in WebXMLMetadata.all_webxml:
+        if webxml.name == 'qt3d':
+            webxml.source_dir = qt_source_3d
+        elif webxml.name == 'qtnetworkauth':
+            webxml.source_dir = qt_source_networkauth
+        else:
+            webxml.source_dir = qt_source
 
     # Make sure the images and snippets directories exist.
     os.makedirs(images, exist_ok=True)
@@ -1961,15 +2122,14 @@ if __name__ == '__main__':
     modules = get_modules_to_update(args.modules)
 
     # Generate the WebXML for the modules.
-    webxml_root = generate_webxml(modules, qdoc, qt_source)
+    webxml_root = generate_webxml(modules, qt_prefix)
 
     # The context is a collection of unrelated global read-only values.
     Context = namedtuple('Context',
-            ('force', 'images', 'package', 'qt_source', 'snippets', 'verbose',
+            ('force', 'images', 'package', 'snippets', 'verbose',
                     'webxml_root'))
     context = Context(force=force, images=images, package=package,
-            qt_source=qt_source, snippets=snippets, verbose=verbose,
-            webxml_root=webxml_root)
+            snippets=snippets, verbose=verbose, webxml_root=webxml_root)
 
     # Update the descriptions for each module.
     for module in modules:

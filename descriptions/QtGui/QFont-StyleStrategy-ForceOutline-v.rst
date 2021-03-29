@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0010
+    :digest: f9c2e52fdfdbe1c802ba4c90dca1f722
 
-TODO
+forces the use of outline fonts.

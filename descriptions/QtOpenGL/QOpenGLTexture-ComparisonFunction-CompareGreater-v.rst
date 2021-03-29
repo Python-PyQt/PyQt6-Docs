@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0204
+    :digest: 5115831ab951bdd2e6b75939946097bc
 
-TODO
+Equivalent to GL_GREATER.

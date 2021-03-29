@@ -3,5 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DRender::QGeometryRenderer::setRestartIndexValue
     :realsig: (int)
+    :digest: ee6441a7079f0f02a82d87fee01e3a51
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DRender.QGeometryRenderer.restartIndexValue`.

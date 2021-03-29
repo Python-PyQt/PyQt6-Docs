@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: ad875b491a4939e78bda306aa1c1f56d
 
-TODO
+How to vertically align a group box's text label.

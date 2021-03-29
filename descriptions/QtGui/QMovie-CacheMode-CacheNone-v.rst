@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 106c8fcda176fc07187d99cbbb5d2459
 
-TODO
+No frames are cached (the default).

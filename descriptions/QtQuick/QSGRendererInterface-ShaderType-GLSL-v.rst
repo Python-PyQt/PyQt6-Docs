@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 7539302583c56e9accb788440525b2c0
 
-TODO
+GLSL or GLSL ES

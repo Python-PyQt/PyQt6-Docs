@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: a8108f8e6134b7fdb60797ee12935791
 
-TODO
+macOS's Quartz2D ()

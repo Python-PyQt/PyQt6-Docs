@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: fe1ec59bec2047add0b00af1976af947
 
-TODO
+The top edge of the object is vertically aligned with the base line.

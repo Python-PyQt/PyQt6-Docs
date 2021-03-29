@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x88E4
+    :digest: a53d898cc57c26cc8cf62ebdb14b91bc
 
-TODO
+The data will be set once and used many times for drawing operations.

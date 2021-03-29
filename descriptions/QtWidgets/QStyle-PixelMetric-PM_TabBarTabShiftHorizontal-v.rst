@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 49
+    :digest: 7b9641fa6df6906fad1dcc0481fe2965
 
-TODO
+Horizontal pixel shift when a tab is selected.

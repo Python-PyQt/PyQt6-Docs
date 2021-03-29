@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2024
+    :digest: a5aa579e693988f11a6da030df8004f2
 
-TODO
+Specifies the (optional) tool tip to be displayed for a fragment of text.

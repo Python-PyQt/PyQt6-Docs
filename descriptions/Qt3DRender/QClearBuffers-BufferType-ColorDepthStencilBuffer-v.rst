@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: ColorBuffer | DepthStencilBuffer
     :realname: Qt3DRender::QClearBuffers::BufferType::ColorDepthStencilBuffer
+    :digest: 6747d658bdd6ee314e48bfd077776ae2
 
-TODO
+Clear color, depth and stencil buffers

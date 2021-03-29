@@ -27,8 +27,9 @@ The documentation can be found in the ``html`` directory.
 Re-basing for New Versions of PyQt
 ----------------------------------
 
-The ``conf.py`` file in the ``docs`` directory should be updated with the
-X.Y.Z version number of the new PyQt version.
+If the minor version of PyQt has changed then the ``conf.py`` file in the
+``docs`` directory should be updated with the X.Y version number of the new
+PyQt version.
 
 For each PyQt module (e.g. QtCore), run the following command::
 
@@ -50,11 +51,14 @@ Re-basing for New Versions of Qt
 To update the descriptions of the PyQt API in the ``descriptions`` directory
 for a new version of Qt, run the following command::
 
-    python webxml2rst.py --package PyQt6 --qdoc QDOC --qt-source SRC
+    python docbook2rst.py --package PyQt6 --qt-prefix PREFIX --qt-source SRC --qt-source-3d SRC --qt-source-networkauth SRC
 
-``QDOC`` is the pathname of the ``qdoc`` executable.
+``PREFIX`` is the name of the prefix directory if the Qt installation (i.e. the
+architecture-specific directory containing the ``bin``, ``include`` and ``lib``
+directories).
 
-``SRC`` is the name of the directory containing the Qt source code.
+``SRC`` is the name of a directory containing the source code for Qt, Qt-3D or
+Qt-NetworkAuth.
 
 This will *not* overwrite any hand-written changes to the descriptions.
 

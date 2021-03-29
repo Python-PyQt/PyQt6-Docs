@@ -2,5 +2,12 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
+    :digest: 1ca096fcb507a49a8a2c9c1624c531b6
 
-TODO
+Returns ``true`` if settings can be written using this :sip:ref:`~PyQt6.QtCore.QSettings` object; returns ``false`` otherwise.
+
+One reason why  might return false is if :sip:ref:`~PyQt6.QtCore.QSettings` operates on a read-only file.
+
+**Warning:** This function is not perfectly reliable, because the file permissions can change at any time.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSettings.fileName`, :sip:ref:`~PyQt6.QtCore.QSettings.status`, :sip:ref:`~PyQt6.QtCore.QSettings.sync`.

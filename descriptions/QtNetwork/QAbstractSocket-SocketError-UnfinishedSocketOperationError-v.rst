@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: 71ac70d56060d2f390fe7e7b8e221ea3
 
-TODO
+Used by QAbstractSocketEngine only, The last operation attempted has not finished yet (still in progress in the background).

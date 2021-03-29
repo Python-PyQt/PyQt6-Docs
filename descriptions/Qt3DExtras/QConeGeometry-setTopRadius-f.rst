@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QConeGeometry::setTopRadius
     :realsig: (float)
+    :digest: 5dd55825078739b8f44f961388afa134
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QConeGeometry.topRadius`.

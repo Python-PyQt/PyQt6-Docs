@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: c7385fb4c99aabcaf1b6d9a6670d41e6
 
-TODO
+Right align buttons in the print dialog, as done on Windows.

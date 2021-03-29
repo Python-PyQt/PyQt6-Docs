@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 112
+    :digest: 3bf0bfdbb6c207d06e3d9511d6327ac9
 
-TODO
+A status tip is requested (\ :sip:ref:`~PyQt6.QtGui.QStatusTipEvent`).

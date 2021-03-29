@@ -3,5 +3,6 @@
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realname: Qt3DExtras::QCuboidMesh::setXExtent
     :realsig: (float)
+    :digest: 1c71494d236ec1fd8bac885d50019582
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QCuboidMesh.xExtent`.

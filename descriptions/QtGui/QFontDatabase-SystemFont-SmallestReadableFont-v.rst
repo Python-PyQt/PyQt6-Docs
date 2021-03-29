@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 3e7d20458eb6986a37adab10aee5ce99
 
-TODO
+The smallest readable system font.

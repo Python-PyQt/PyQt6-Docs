@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 457944bcf4ea71a742490c27dba6138e
 
-TODO
+The data displayed in the status bar. (QString)

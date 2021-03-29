@@ -2,5 +2,6 @@
     :status: todo
     :pysig: cb74bf91099239f57a50e90157e2a1e5
     :realsig: () const
+    :digest: 3bbfa192efb18199e10ea2fec63bbb5c
 
-TODO
+Returns ``DocumentNode``.

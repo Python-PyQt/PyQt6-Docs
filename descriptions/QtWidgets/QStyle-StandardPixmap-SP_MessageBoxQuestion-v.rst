@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: 9ba4e681dd92d0d574ec8e6e14852eb0
 
-TODO
+The "question" icon.

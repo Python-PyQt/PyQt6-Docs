@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: f09c5800319bb9bb448159353039ab35
 
-TODO
+Selecting only rows.

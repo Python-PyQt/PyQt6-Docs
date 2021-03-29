@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1908
+    :digest: ec211c3d050b26285c67534d370b8f85
 
-TODO
+Equivalent to GL_RGBA

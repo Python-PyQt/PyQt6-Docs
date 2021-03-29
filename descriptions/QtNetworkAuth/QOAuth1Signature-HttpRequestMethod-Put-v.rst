@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 2cc79a6900583194643b29c15341ad79
 
-TODO
+PUT method.

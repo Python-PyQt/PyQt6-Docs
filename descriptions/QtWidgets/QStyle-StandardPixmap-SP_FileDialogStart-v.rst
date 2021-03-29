@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 29
+    :digest: 593f9dbd555db77554941ace7b802f0f
 
-TODO
+The "start" icon in a file dialog.

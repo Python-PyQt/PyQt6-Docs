@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xffffffff
     :realname: QTextEdit::AutoFormattingFlag::AutoAll
+    :digest: f27cccf5f3a5d02486d62da78ddc197a
 
-TODO
+Apply all automatic formatting. Currently only automatic bullet lists are supported.

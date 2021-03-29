@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: a9dacdc96fdcdab5153b03958945c044
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator.setBottom`.

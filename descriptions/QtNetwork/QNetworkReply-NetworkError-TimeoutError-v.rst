@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: a818979ced24a577c636aea6c5a920b7
 
-TODO
+the connection to the remote server timed out

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: 13b4f8922308c1e8fc6c37e3793f0809
 
-TODO
+Mouse wheel rolled (\ :sip:ref:`~PyQt6.QtGui.QWheelEvent`).

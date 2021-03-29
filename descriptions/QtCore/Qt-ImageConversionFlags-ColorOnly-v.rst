@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000003
     :realname: Qt::ImageConversionFlag::ColorOnly
+    :digest: 2c4b977d0109448aa4f5ee417e6c776b
 
-TODO
+The pixmap is dithered/converted to the :sip:ref:`~PyQt6.QtGui.QPixmap.defaultDepth`.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: 598680c897e7bc43a71a58f34706a43c
 
-TODO
+Returns the height of the image.
+
+.. seealso:: Image Information.

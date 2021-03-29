@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 9a4b472e729a37d8f93fba72f768a853
 
-TODO
+The underlying native surface will be destroyed immediately after this event

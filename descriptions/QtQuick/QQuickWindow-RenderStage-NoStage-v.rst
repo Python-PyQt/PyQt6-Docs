@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: b842a32cf32dacce9243fdef3064a9f7
 
-TODO
+As soon as possible. This value was added in Qt 5.6.

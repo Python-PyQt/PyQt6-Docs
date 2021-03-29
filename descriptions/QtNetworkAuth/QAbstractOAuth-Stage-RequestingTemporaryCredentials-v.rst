@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: b0ca69464c55f91aaca60cab2330ba08
 
-TODO
+Preparing the temporary credentials request.

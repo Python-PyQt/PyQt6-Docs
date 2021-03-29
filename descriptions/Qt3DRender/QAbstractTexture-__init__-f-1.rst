@@ -3,5 +3,6 @@
     :pysig: 0c7f7f9700fd08886b4680cc67ce77eb
     :realname: Qt3DRender::QAbstractTexture::__init__
     :realsig: (Qt3DRender::QAbstractTexture::Target,Qt3DCore::QNode*)
+    :digest: 5902630488500213b3ff63ef95850f68
 
-TODO
+The constructor creates a new QAbstractTexture::QAbstractTexture instance with the specified *target* and *parent*.

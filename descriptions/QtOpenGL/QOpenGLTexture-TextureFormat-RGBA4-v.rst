@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x8056
+    :digest: a55468ee0dad0b9be1155c70fe5eb5ed
 
-TODO
+Equivalent to GL_RGBA4

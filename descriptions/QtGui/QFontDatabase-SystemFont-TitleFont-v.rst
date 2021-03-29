@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 72fc91b0b4818bee0a265c72b4d52b74
 
-TODO
+The system standard font for titles.

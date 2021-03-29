@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9a098b437bf1332a6297affe7d6da2be
 
-TODO
+An SQL ``WHERE`` statement (e.g., ``WHERE f = 5``).

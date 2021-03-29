@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: d71b87f146d852b7333426c06b10542d
 
-TODO
+A standard warning icon is shown.

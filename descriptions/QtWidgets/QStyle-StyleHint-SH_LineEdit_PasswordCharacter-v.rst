@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 35
+    :digest: fb93539982cd9ad7397102c31ef4575a
 
-TODO
+The Unicode character to be used for passwords.

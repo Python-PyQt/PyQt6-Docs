@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0DE0
+    :digest: eb0ab81f15620999dffae472bf1e20e2
 
-TODO
+A 1-dimensional texture. Equivalent to GL_TEXTURE_1D.

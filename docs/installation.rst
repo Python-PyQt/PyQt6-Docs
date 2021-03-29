@@ -1,8 +1,8 @@
 Installing PyQt6
 ================
 
-Both the GPL and commercial versions of PyQt6 can be built from sdists
-or installed from binary wheels.  Although this section concentrates on PyQt6
+Both the GPL and commercial versions of PyQt6 can be built from sdists or
+installed from binary wheels.  Although this section concentrates on PyQt6
 itself it applies equally to the add-on projects (i.e. PyQt6-3D and
 PyQt6-NetworkAuth).
 
@@ -180,8 +180,10 @@ command line tools.
 
 .. option:: --license-dir DIR
 
-    The license files needed by the commercial version of PyQt6 can be found in
-    the directory ``DIR``.
+    The :file:`pyqt-commercial,sip` license file needed by the commercial
+    version of PyQt6 can be found in the directory ``DIR``.  By default it is
+    assumed that you have copied it to the :file:`sip` sub-directory of the 
+    unpacked sdist.
 
 .. option:: --no-dbus-python
 

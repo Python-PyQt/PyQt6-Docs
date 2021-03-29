@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 500
+    :digest: ac96863cc875cdd8cc8e120f127d1629
 
-TODO
+Create a preview in default style

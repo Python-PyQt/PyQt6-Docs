@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1FE4
+    :digest: d2ffd8155d159b515adba82e7ab14482
 
-TODO
+Corresponds to the :sip:ref:`~PyQt6.QtGui.QFont.StyleStrategy` property

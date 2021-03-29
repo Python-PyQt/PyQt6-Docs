@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 179484a735aa54b757a7180dc17f3dbc
 
-TODO
+Out of memory (``org.freedesktop.DBus.Error.NoMemory``)

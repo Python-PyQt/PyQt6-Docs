@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: bedf4ea0d52807430cfd3f483f0b8df7
 
-TODO
+Key release (\ :sip:ref:`~PyQt6.QtGui.QKeyEvent`).

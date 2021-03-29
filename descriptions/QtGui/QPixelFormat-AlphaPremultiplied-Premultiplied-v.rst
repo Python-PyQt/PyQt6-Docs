@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 555971b19fd33e7e8e7aeaabaca595c0
 
-TODO
+The alpha channel is multiplied into the color channels.

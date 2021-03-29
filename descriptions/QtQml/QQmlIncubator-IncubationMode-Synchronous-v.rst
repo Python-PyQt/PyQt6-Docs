@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: bde612c605c3f715987acd858d2df332
 
-TODO
+The object will be created synchronously.

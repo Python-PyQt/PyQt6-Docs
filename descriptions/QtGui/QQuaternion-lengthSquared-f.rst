@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
+    :digest: 08c7cd5ad5fb2bc170b4d2c5a79ea46b
 
-TODO
+Returns the squared length of the quaternion.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QQuaternion.length`, :sip:ref:`~PyQt6.QtGui.QQuaternion.dotProduct`.

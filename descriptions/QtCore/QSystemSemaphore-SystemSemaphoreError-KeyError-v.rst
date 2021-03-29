@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 2a4b0955db8bcc78f9dd5135dbd2bf8f
 
-TODO
+The operation failed because of an invalid key.

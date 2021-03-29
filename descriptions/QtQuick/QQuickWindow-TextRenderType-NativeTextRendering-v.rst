@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 4ebd11db535161f85b12033abc457c4f
 
-TODO
+Use the operating system's native rasterizer for text.

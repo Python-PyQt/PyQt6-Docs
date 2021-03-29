@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 70
+    :digest: 26ffaef9af580bf511d779abcd183e92
 
-TODO
+Margin of the dock window title.

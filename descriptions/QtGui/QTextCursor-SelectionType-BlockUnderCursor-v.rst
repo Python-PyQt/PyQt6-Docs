@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 31cc0987ffe76e5868b2bc3142fd79fa
 
-TODO
+Selects the block of text under the cursor.

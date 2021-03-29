@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1
     :realname: QRegularExpression::WildcardConversionOption::UnanchoredWildcardConversion
+    :digest: ccc987cee02536eefab127d76c4244fe
 
-TODO
+The conversion will not anchor the pattern. This allows for partial string matches of wildcard expressions.

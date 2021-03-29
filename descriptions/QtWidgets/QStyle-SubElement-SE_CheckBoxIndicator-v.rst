@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 78305fa9dc48ab4bac1903e3744b9011
 
-TODO
+Area for the state indicator (e.g., check mark).

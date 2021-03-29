@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 128
+    :digest: 66a54c3338b2bbe5658c71eb9f905dec
 
-TODO
+The mouse cursor leaves a hover widget (\ :sip:ref:`~PyQt6.QtGui.QHoverEvent`).

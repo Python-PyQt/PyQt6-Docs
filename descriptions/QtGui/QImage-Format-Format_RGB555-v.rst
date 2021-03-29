@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: 682228083024bfbc8d4cc6368481e497
 
-TODO
+The image is stored using a 16-bit RGB format (5-5-5). The unused most significant bit is always zero.

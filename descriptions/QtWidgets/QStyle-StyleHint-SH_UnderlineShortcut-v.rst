@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 41
+    :digest: 53d212d894eed07bcf16f65e6d86965e
 
-TODO
+Whether shortcuts are underlined.

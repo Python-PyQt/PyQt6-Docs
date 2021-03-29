@@ -3644,3 +3644,195 @@
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowNoState
             :description: QtCore/Qt-WindowStates-WindowNoState-v.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.bin
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-bin-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.bom
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-bom-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.center
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-center-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.dec
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-dec-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.endl
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-endl-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.fixed
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-fixed-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.flush
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-flush-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.forcepoint
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-forcepoint-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.forcesign
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-forcesign-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.hex
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-hex-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.left
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-left-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.lowercasebase
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-lowercasebase-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.lowercasedigits
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-lowercasedigits-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.noforcepoint
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-noforcepoint-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.noforcesign
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-noforcesign-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.noshowbase
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-noshowbase-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.oct
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-oct-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.reset
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-reset-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.right
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-right-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.scientific
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-scientific-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.showbase
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-showbase-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.uppercasebase
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-uppercasebase-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.uppercasedigits
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-uppercasedigits-f.rst
+
+    .. sip:method:: PyQt6.QtCore.Qt.ws
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTextStream`
+        :static:
+        :description: QtCore/Qt-ws-f.rst

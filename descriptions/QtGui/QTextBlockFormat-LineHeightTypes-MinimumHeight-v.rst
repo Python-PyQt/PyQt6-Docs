@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 7429d059facf464b56784a3c314742b7
 
-TODO
+This sets the minimum line height (in pixels).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 16c8e77bbd298e7aec9a2dbc4cb134af
 
-TODO
+The name of a single existing file.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: eea6487f52d3bf79f1cdc503a0ba180f
 
-TODO
+At the beginining of the header

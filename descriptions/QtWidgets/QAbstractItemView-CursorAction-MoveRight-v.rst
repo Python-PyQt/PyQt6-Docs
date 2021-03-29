@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 237d0b9400c7173057047e3514794f3d
 
-TODO
+Move to the item right of the current item.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
+    :digest: 744aba0c4f055b34838e3876d54fe3b9
 
-TODO
+Returns the inline object's descent.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextInlineObject.setDescent`, :sip:ref:`~PyQt6.QtGui.QTextInlineObject.ascent`, :sip:ref:`~PyQt6.QtGui.QTextInlineObject.width`, :sip:ref:`~PyQt6.QtGui.QTextInlineObject.rect`.

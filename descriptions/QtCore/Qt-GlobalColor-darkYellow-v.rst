@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 69ece356a55a031877e673fd7a459df3
 
-TODO
+Dark yellow (#808000)

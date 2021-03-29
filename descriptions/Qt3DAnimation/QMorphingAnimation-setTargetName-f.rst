@@ -3,5 +3,6 @@
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realname: Qt3DAnimation::QMorphingAnimation::setTargetName
     :realsig: (const QString)
+    :digest: b17e5f86f2370a1ffc35c6a30e8aa08b
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DAnimation.QMorphingAnimation.targetName`.

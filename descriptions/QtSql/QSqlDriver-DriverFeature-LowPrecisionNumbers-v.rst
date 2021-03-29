@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 52708c0d19b8f5ec7b49ebf76eb6d1b4
 
-TODO
+Whether the driver allows fetching numerical values with low precision.

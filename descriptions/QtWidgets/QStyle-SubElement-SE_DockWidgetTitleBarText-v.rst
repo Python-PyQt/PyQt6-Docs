@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 30
+    :digest: 3506ac6deecd666109285703d3e17a85
 
-TODO
+The text bounds of the dock widgets title.

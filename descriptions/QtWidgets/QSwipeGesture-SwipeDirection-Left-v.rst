@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 3cce7b078ae6a5cdb58b1beb9028ecf6
 
-TODO
+The gesture involved a horizontal motion to the left.

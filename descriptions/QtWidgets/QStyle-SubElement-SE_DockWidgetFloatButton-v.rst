@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 29
+    :digest: d8930aa80876065862dd68de3aadfa58
 
-TODO
+The float button of a dock widget.

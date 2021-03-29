@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 63
+    :digest: 330d1365482cbca6babd0ef111897665
 
-TODO
+Default large icon size

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 2e81dab659ccf3c1948d20616f6f4618
 
-TODO
+The gesture recognizer will only trigger on middle mouse button events.
