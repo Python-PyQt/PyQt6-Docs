@@ -12,7 +12,7 @@ differences between the Qt v6 and Qt v5 APIs.
   using enum values that can be combined as a set of flags.  The name of the
   class is often the plural form of the name of the enum.  PyQt5 implements
   both of these as separate types.  PyQt6 instead combines them as a single
-  type, using the plural name, as a sub-class of :py:class:`~enum.Flag`.
+  type, using the name of the enum, as a sub-class of :py:class:`~enum.Flag`.
 - :py:func:`~PyQt5.QtCore.Q_CLASSINFO` has been replaced by the
   :sip:ref:`~PyQt6.QtCore.pyqtClassInfo` class decorator.
 - :py:func:`~PyQt5.QtCore.Q_ENUM`, :py:func:`~PyQt5.QtCore.Q_ENUMS`,
