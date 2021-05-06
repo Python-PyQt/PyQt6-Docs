@@ -17,10 +17,10 @@
     .. sip:method:: PyQt6.QtGui.QFileOpenEvent.openFile
         :args:
             :sip:ref:`~PyQt6.QtCore.QFile`
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtGui/QFileOpenEvent-openFile-f.rst
+        :description: QtGui/QFileOpenEvent-openFile-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileOpenEvent.url
         :returns:

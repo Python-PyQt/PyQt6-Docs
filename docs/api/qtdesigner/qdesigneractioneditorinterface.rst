@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerActionEditorInterface.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = {}
-        :description: QtDesigner/QDesignerActionEditorInterface-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = {}
+        :description: QtDesigner/QDesignerActionEditorInterface-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerActionEditorInterface.core
         :returns:

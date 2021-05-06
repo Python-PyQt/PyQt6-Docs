@@ -3,26 +3,26 @@
 .. sip:class:: PyQt6.QtNetwork.QHostAddress
     :description: QtNetwork/QHostAddress-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QHostAddress.ConversionMode
-        :description: QtNetwork/QHostAddress-ConversionMode-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag
+        :description: QtNetwork/QHostAddress-ConversionModeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.ConvertLocalHost
-            :description: QtNetwork/QHostAddress-ConversionMode-ConvertLocalHost-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.ConvertLocalHost
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-ConvertLocalHost-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.ConvertUnspecifiedAddress
-            :description: QtNetwork/QHostAddress-ConversionMode-ConvertUnspecifiedAddress-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.ConvertUnspecifiedAddress
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-ConvertUnspecifiedAddress-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.ConvertV4CompatToIPv4
-            :description: QtNetwork/QHostAddress-ConversionMode-ConvertV4CompatToIPv4-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.ConvertV4CompatToIPv4
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-ConvertV4CompatToIPv4-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.ConvertV4MappedToIPv4
-            :description: QtNetwork/QHostAddress-ConversionMode-ConvertV4MappedToIPv4-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.ConvertV4MappedToIPv4
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-ConvertV4MappedToIPv4-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.StrictConversion
-            :description: QtNetwork/QHostAddress-ConversionMode-StrictConversion-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.StrictConversion
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-StrictConversion-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionMode.TolerantConversion
-            :description: QtNetwork/QHostAddress-ConversionMode-TolerantConversion-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.TolerantConversion
+            :description: QtNetwork/QHostAddress-ConversionModeFlag-TolerantConversion-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QHostAddress.SpecialAddress
         :description: QtNetwork/QHostAddress-SpecialAddress-e.rst
@@ -106,10 +106,10 @@
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isEqual
         :args:
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-            mode: :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionMode` = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionMode.TolerantConversion`
+            mode: :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionModeFlag` = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.TolerantConversion`
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-isEqual-f.rst
+        :description: QtNetwork/QHostAddress-isEqual-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isGlobal
         :returns:

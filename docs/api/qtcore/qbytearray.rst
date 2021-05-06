@@ -18,26 +18,26 @@
         .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64DecodingStatus.Ok
             :description: QtCore/QByteArray-Base64DecodingStatus-Ok-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QByteArray.Base64Options
-        :description: QtCore/QByteArray-Base64Options-e.rst
+    .. sip:enum:: PyQt6.QtCore.QByteArray.Base64Option
+        :description: QtCore/QByteArray-Base64Option-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.AbortOnBase64DecodingErrors
-            :description: QtCore/QByteArray-Base64Options-AbortOnBase64DecodingErrors-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.AbortOnBase64DecodingErrors
+            :description: QtCore/QByteArray-Base64Option-AbortOnBase64DecodingErrors-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.Base64Encoding
-            :description: QtCore/QByteArray-Base64Options-Base64Encoding-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding
+            :description: QtCore/QByteArray-Base64Option-Base64Encoding-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.Base64UrlEncoding
-            :description: QtCore/QByteArray-Base64Options-Base64UrlEncoding-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.Base64UrlEncoding
+            :description: QtCore/QByteArray-Base64Option-Base64UrlEncoding-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.IgnoreBase64DecodingErrors
-            :description: QtCore/QByteArray-Base64Options-IgnoreBase64DecodingErrors-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.IgnoreBase64DecodingErrors
+            :description: QtCore/QByteArray-Base64Option-IgnoreBase64DecodingErrors-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.KeepTrailingEquals
-            :description: QtCore/QByteArray-Base64Options-KeepTrailingEquals-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.KeepTrailingEquals
+            :description: QtCore/QByteArray-Base64Option-KeepTrailingEquals-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Options.OmitTrailingEquals
-            :description: QtCore/QByteArray-Base64Options-OmitTrailingEquals-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QByteArray.Base64Option.OmitTrailingEquals
+            :description: QtCore/QByteArray-Base64Option-OmitTrailingEquals-v.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__init__
         :description: QtCore/QByteArray-__init__-f.rst
@@ -186,20 +186,20 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.fromBase64
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options.Base64Encoding`
+            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QByteArray-fromBase64-f.rst
+        :description: QtCore/QByteArray-fromBase64-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromBase64Encoding
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options.Base64Encoding`
+            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray.FromBase64Result`
         :static:
-        :description: QtCore/QByteArray-fromBase64Encoding-f.rst
+        :description: QtCore/QByteArray-fromBase64Encoding-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromHex
         :args:
@@ -600,10 +600,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toBase64
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Options.Base64Encoding`
+            options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-toBase64-f.rst
+        :description: QtCore/QByteArray-toBase64-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toDouble
         :returns:

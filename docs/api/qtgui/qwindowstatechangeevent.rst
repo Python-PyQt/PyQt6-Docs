@@ -11,5 +11,5 @@
 
     .. sip:method:: PyQt6.QtGui.QWindowStateChangeEvent.oldState
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindowStateChangeEvent-oldState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindowStateChangeEvent-oldState-f-1.rst

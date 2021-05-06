@@ -21,16 +21,16 @@
             int
             rowSpan: int = 1
             columnSpan: int = 1
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGridLayout-addItem-f-1.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGridLayout-addItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.addLayout
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QLayout`
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGridLayout-addLayout-f.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGridLayout-addLayout-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.addLayout
         :args:
@@ -39,8 +39,8 @@
             int
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGridLayout-addLayout-f-1.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGridLayout-addLayout-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.addWidget
         :args:
@@ -52,8 +52,8 @@
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGridLayout-addWidget-f-1.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGridLayout-addWidget-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.addWidget
         :args:
@@ -62,8 +62,8 @@
             int
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGridLayout-addWidget-f-2.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGridLayout-addWidget-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.cellRect
         :args:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QGridLayout-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QGridLayout-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.getItemPosition
         :args:
@@ -203,8 +203,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.setDefaultPositioning
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QGridLayout-setDefaultPositioning-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QGridLayout-setDefaultPositioning-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGridLayout.setGeometry
         :args:

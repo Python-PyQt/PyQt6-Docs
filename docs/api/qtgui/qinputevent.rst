@@ -16,13 +16,13 @@
 
     .. sip:method:: PyQt6.QtGui.QInputEvent.deviceType
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QInputDevice.DeviceTypes`
-        :description: QtGui/QInputEvent-deviceType-f.rst
+            :sip:ref:`~PyQt6.QtGui.QInputDevice.DeviceType`
+        :description: QtGui/QInputEvent-deviceType-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtGui/QInputEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtGui/QInputEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputEvent.timestamp
         :returns:

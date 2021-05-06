@@ -4,26 +4,26 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QWidget`
     :description: QtDesigner/QDesignerFormWindowInterface-c.rst
 
-    .. sip:enum:: PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature
-        :description: QtDesigner/QDesignerFormWindowInterface-Feature-e.rst
+    .. sip:enum:: PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag
+        :description: QtDesigner/QDesignerFormWindowInterface-FeatureFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature.DefaultFeature
-            :description: QtDesigner/QDesignerFormWindowInterface-Feature-DefaultFeature-v.rst
+        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag.DefaultFeature
+            :description: QtDesigner/QDesignerFormWindowInterface-FeatureFlag-DefaultFeature-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature.EditFeature
-            :description: QtDesigner/QDesignerFormWindowInterface-Feature-EditFeature-v.rst
+        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag.EditFeature
+            :description: QtDesigner/QDesignerFormWindowInterface-FeatureFlag-EditFeature-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature.GridFeature
-            :description: QtDesigner/QDesignerFormWindowInterface-Feature-GridFeature-v.rst
+        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag.GridFeature
+            :description: QtDesigner/QDesignerFormWindowInterface-FeatureFlag-GridFeature-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature.TabOrderFeature
-            :description: QtDesigner/QDesignerFormWindowInterface-Feature-TabOrderFeature-v.rst
+        .. sip:enum-member:: PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag.TabOrderFeature
+            :description: QtDesigner/QDesignerFormWindowInterface-FeatureFlag-TabOrderFeature-v.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = {}
-        :description: QtDesigner/QDesignerFormWindowInterface-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = {}
+        :description: QtDesigner/QDesignerFormWindowInterface-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.absoluteDir
         :returns:
@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.features
         :returns:
-            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature`
-        :description: QtDesigner/QDesignerFormWindowInterface-features-f.rst
+            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag`
+        :description: QtDesigner/QDesignerFormWindowInterface-features-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.fileName
         :returns:
@@ -129,10 +129,10 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.hasFeature
         :args:
-            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature`
+            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag`
         :returns:
             bool
-        :description: QtDesigner/QDesignerFormWindowInterface-hasFeature-f.rst
+        :description: QtDesigner/QDesignerFormWindowInterface-hasFeature-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.includeHints
         :returns:
@@ -231,8 +231,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setFeatures
         :args:
-            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature`
-        :description: QtDesigner/QDesignerFormWindowInterface-setFeatures-f.rst
+            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag`
+        :description: QtDesigner/QDesignerFormWindowInterface-setFeatures-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setFileName
         :args:
@@ -291,8 +291,8 @@
 
     .. sip:signal:: PyQt6.QtDesigner.QDesignerFormWindowInterface.featureChanged
         :args:
-            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.Feature`
-        :description: QtDesigner/QDesignerFormWindowInterface-featureChanged-s.rst
+            :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.FeatureFlag`
+        :description: QtDesigner/QDesignerFormWindowInterface-featureChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDesigner.QDesignerFormWindowInterface.fileNameChanged
         :args:

@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QClearBuffers.setClearColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DRender/QClearBuffers-setClearColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DRender/QClearBuffers-setClearColor-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QClearBuffers.setClearDepthValue
         :args:
@@ -93,8 +93,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QClearBuffers.clearColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DRender/QClearBuffers-clearColorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DRender/QClearBuffers-clearColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QClearBuffers.clearDepthValueChanged
         :args:

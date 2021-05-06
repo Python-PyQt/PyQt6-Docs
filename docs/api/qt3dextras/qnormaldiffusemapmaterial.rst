@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.setAmbient
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseMapMaterial-setAmbient-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseMapMaterial-setAmbient-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.setDiffuse
         :args:
@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.setSpecular
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseMapMaterial-setSpecular-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseMapMaterial-setSpecular-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.setTextureScale
         :args:
@@ -71,8 +71,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.ambientChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseMapMaterial-ambientChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseMapMaterial-ambientChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.diffuseChanged
         :args:
@@ -91,8 +91,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.specularChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseMapMaterial-specularChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseMapMaterial-specularChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.textureScaleChanged
         :args:

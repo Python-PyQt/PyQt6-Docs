@@ -153,8 +153,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListView.itemAlignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QListView-itemAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QListView-itemAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.layoutMode
         :returns:
@@ -179,10 +179,10 @@
     .. sip:method:: PyQt6.QtWidgets.QListView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QListView-moveCursor-f.rst
+        :description: QtWidgets/QListView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.movement
         :returns:
@@ -268,8 +268,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListView.setItemAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QListView-setItemAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QListView-setItemAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.setLayoutMode
         :args:
@@ -311,8 +311,8 @@
     .. sip:method:: PyQt6.QtWidgets.QListView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QListView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QListView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.setSelectionRectVisible
         :args:
@@ -351,8 +351,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListView.startDrag
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QListView-startDrag-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QListView-startDrag-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.timerEvent
         :args:

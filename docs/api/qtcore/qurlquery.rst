@@ -30,10 +30,10 @@
     .. sip:method:: PyQt6.QtCore.QUrlQuery.allQueryItemValues
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             List[str]
-        :description: QtCore/QUrlQuery-allQueryItemValues-f.rst
+        :description: QtCore/QUrlQuery-allQueryItemValues-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.clear
         :description: QtCore/QUrlQuery-clear-f.rst
@@ -88,25 +88,25 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.query
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrlQuery-query-f.rst
+        :description: QtCore/QUrlQuery-query-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryItems
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             List[Tuple[str, str]]
-        :description: QtCore/QUrlQuery-queryItems-f.rst
+        :description: QtCore/QUrlQuery-queryItems-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryItemValue
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrlQuery-queryItemValue-f.rst
+        :description: QtCore/QUrlQuery-queryItemValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryPairDelimiter
         :returns:
@@ -151,7 +151,7 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.toString
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrlQuery-toString-f.rst
+        :description: QtCore/QUrlQuery-toString-f-1.rst

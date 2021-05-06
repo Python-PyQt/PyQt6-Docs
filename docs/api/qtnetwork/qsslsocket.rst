@@ -36,10 +36,22 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtNetwork/QSslSocket-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.activeBackend
+        :returns:
+            str
+        :static:
+        :description: QtNetwork/QSslSocket-activeBackend-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.atEnd
         :returns:
             bool
         :description: QtNetwork/QSslSocket-atEnd-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.availableBackends
+        :returns:
+            List[str]
+        :static:
+        :description: QtNetwork/QSslSocket-availableBackends-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.bytesAvailable
         :returns:
@@ -63,26 +75,26 @@
         :args:
             str
             int
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
             protocol: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.AnyIPProtocol`
-        :description: QtNetwork/QSslSocket-connectToHost-f.rst
+        :description: QtNetwork/QSslSocket-connectToHost-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.connectToHostEncrypted
         :args:
             str
             int
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
             protocol: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.AnyIPProtocol`
-        :description: QtNetwork/QSslSocket-connectToHostEncrypted-f.rst
+        :description: QtNetwork/QSslSocket-connectToHostEncrypted-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.connectToHostEncrypted
         :args:
             str
             int
             str
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
             protocol: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.AnyIPProtocol`
-        :description: QtNetwork/QSslSocket-connectToHostEncrypted-f-1.rst
+        :description: QtNetwork/QSslSocket-connectToHostEncrypted-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.continueInterruptedHandshake
         :description: QtNetwork/QSslSocket-continueInterruptedHandshake-f.rst
@@ -108,10 +120,45 @@
             Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
         :description: QtNetwork/QSslSocket-ignoreSslErrors-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.implementedClasses
+        :args:
+            backendName: str = ''
+        :returns:
+            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.ImplementedClass`]
+        :static:
+        :description: QtNetwork/QSslSocket-implementedClasses-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.isClassImplemented
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSsl.ImplementedClass`
+            backendName: str = ''
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QSslSocket-isClassImplemented-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.isEncrypted
         :returns:
             bool
         :description: QtNetwork/QSslSocket-isEncrypted-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.isFeatureSupported
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSsl.SupportedFeature`
+            backendName: str = ''
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QSslSocket-isFeatureSupported-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.isProtocolSupported
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`
+            backendName: str = ''
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QSslSocket-isProtocolSupported-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.localCertificate
         :returns:
@@ -188,6 +235,14 @@
             :sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`
         :description: QtNetwork/QSslSocket-sessionProtocol-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.setActiveBackend
+        :args:
+            str
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QSslSocket-setActiveBackend-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.setLocalCertificate
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSslCertificate`
@@ -246,10 +301,10 @@
         :args:
             PyQt6.sip.voidptr
             state: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QSslSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QSslSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.setSocketOption
         :args:
@@ -315,6 +370,22 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.startServerEncryption
         :description: QtNetwork/QSslSocket-startServerEncryption-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.supportedFeatures
+        :args:
+            backendName: str = ''
+        :returns:
+            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.SupportedFeature`]
+        :static:
+        :description: QtNetwork/QSslSocket-supportedFeatures-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslSocket.supportedProtocols
+        :args:
+            backendName: str = ''
+        :returns:
+            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`]
+        :static:
+        :description: QtNetwork/QSslSocket-supportedProtocols-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.supportsSsl
         :returns:

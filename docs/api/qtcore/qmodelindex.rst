@@ -37,8 +37,8 @@
 
     .. sip:method:: PyQt6.QtCore.QModelIndex.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QModelIndex-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QModelIndex-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QModelIndex.__ge__
         :args:

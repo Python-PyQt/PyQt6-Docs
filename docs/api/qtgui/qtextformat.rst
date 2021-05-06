@@ -42,17 +42,17 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.ObjectTypes.UserObject
             :description: QtGui/QTextFormat-ObjectTypes-UserObject-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QTextFormat.PageBreakFlags
-        :description: QtGui/QTextFormat-PageBreakFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QTextFormat.PageBreakFlag
+        :description: QtGui/QTextFormat-PageBreakFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlags.PageBreak_AlwaysAfter
-            :description: QtGui/QTextFormat-PageBreakFlags-PageBreak_AlwaysAfter-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlag.PageBreak_AlwaysAfter
+            :description: QtGui/QTextFormat-PageBreakFlag-PageBreak_AlwaysAfter-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlags.PageBreak_AlwaysBefore
-            :description: QtGui/QTextFormat-PageBreakFlags-PageBreak_AlwaysBefore-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlag.PageBreak_AlwaysBefore
+            :description: QtGui/QTextFormat-PageBreakFlag-PageBreak_AlwaysBefore-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlags.PageBreak_Auto
-            :description: QtGui/QTextFormat-PageBreakFlags-PageBreak_Auto-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.PageBreakFlag.PageBreak_Auto
+            :description: QtGui/QTextFormat-PageBreakFlag-PageBreak_Auto-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QTextFormat.Property
         :description: QtGui/QTextFormat-Property-e.rst
@@ -116,9 +116,6 @@
 
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFamilies
             :description: QtGui/QTextFormat-Property-FontFamilies-v.rst
-
-        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFamily
-            :description: QtGui/QTextFormat-Property-FontFamily-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFixedPitch
             :description: QtGui/QTextFormat-Property-FontFixedPitch-v.rst
@@ -590,13 +587,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextFormat-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setForeground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextFormat-setForeground-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setLayoutDirection
         :args:

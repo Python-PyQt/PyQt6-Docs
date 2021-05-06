@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.buttons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsSceneWheelEvent-buttons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsSceneWheelEvent-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.delta
         :returns:
@@ -16,13 +16,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtWidgets/QGraphicsSceneWheelEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtWidgets/QGraphicsSceneWheelEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QGraphicsSceneWheelEvent-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QGraphicsSceneWheelEvent-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.pos
         :returns:

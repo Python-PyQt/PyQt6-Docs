@@ -21,6 +21,12 @@
             bool
         :description: QtQuick/QQuickGraphicsConfiguration-isDepthBufferEnabledFor2D-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.preferredInstanceExtensions
+        :returns:
+            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :static:
+        :description: QtQuick/QQuickGraphicsConfiguration-preferredInstanceExtensions-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setDepthBufferFor2D
         :args:
             bool

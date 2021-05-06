@@ -3,26 +3,26 @@
 .. sip:class:: PyQt6.QtCore.QTextBoundaryFinder
     :description: QtCore/QTextBoundaryFinder-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons
-        :description: QtCore/QTextBoundaryFinder-BoundaryReasons-e.rst
+    .. sip:enum:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason
+        :description: QtCore/QTextBoundaryFinder-BoundaryReason-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.BreakOpportunity
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-BreakOpportunity-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.BreakOpportunity
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-BreakOpportunity-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.EndOfItem
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-EndOfItem-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.EndOfItem
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-EndOfItem-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.MandatoryBreak
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-MandatoryBreak-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.MandatoryBreak
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-MandatoryBreak-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.NotAtBoundary
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-NotAtBoundary-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.NotAtBoundary
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-NotAtBoundary-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.SoftHyphen
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-SoftHyphen-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.SoftHyphen
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-SoftHyphen-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons.StartOfItem
-            :description: QtCore/QTextBoundaryFinder-BoundaryReasons-StartOfItem-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason.StartOfItem
+            :description: QtCore/QTextBoundaryFinder-BoundaryReason-StartOfItem-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QTextBoundaryFinder.BoundaryType
         :description: QtCore/QTextBoundaryFinder-BoundaryType-e.rst
@@ -55,8 +55,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.boundaryReasons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QTextBoundaryFinder.BoundaryReasons`
-        :description: QtCore/QTextBoundaryFinder-boundaryReasons-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTextBoundaryFinder.BoundaryReason`
+        :description: QtCore/QTextBoundaryFinder-boundaryReasons-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.isAtBoundary
         :returns:

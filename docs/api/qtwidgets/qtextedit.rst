@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea`
     :description: QtWidgets/QTextEdit-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QTextEdit.AutoFormatting
-        :description: QtWidgets/QTextEdit-AutoFormatting-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag
+        :description: QtWidgets/QTextEdit-AutoFormattingFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormatting.AutoAll
-            :description: QtWidgets/QTextEdit-AutoFormatting-AutoAll-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag.AutoAll
+            :description: QtWidgets/QTextEdit-AutoFormattingFlag-AutoAll-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormatting.AutoBulletList
-            :description: QtWidgets/QTextEdit-AutoFormatting-AutoBulletList-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag.AutoBulletList
+            :description: QtWidgets/QTextEdit-AutoFormattingFlag-AutoBulletList-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormatting.AutoNone
-            :description: QtWidgets/QTextEdit-AutoFormatting-AutoNone-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag.AutoNone
+            :description: QtWidgets/QTextEdit-AutoFormattingFlag-AutoNone-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QTextEdit.LineWrapMode
         :description: QtWidgets/QTextEdit-LineWrapMode-e.rst
@@ -49,8 +49,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QTextEdit-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QTextEdit-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.anchorAt
         :args:
@@ -66,8 +66,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.autoFormatting
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QTextEdit.AutoFormatting`
-        :description: QtWidgets/QTextEdit-autoFormatting-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag`
+        :description: QtWidgets/QTextEdit-autoFormatting-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.canInsertFromMimeData
         :args:
@@ -199,18 +199,18 @@
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.find
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QTextEdit-find-f.rst
+        :description: QtWidgets/QTextEdit-find-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.find
         :args:
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QTextEdit-find-f-1.rst
+        :description: QtWidgets/QTextEdit-find-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.focusInEvent
         :args:
@@ -261,18 +261,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QTextEdit-inputMethodQuery-f.rst
+        :description: QtWidgets/QTextEdit-inputMethodQuery-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
             Any
         :returns:
             Any
-        :description: QtWidgets/QTextEdit-inputMethodQuery-f-1.rst
+        :description: QtWidgets/QTextEdit-inputMethodQuery-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.insertFromMimeData
         :args:
@@ -410,13 +410,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QTextEdit-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QTextEdit-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setAutoFormatting
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QTextEdit.AutoFormatting`
-        :description: QtWidgets/QTextEdit-setAutoFormatting-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QTextEdit.AutoFormattingFlag`
+        :description: QtWidgets/QTextEdit-setAutoFormatting-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setCurrentCharFormat
         :args:
@@ -530,13 +530,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTextEdit-setTextColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTextEdit-setTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextCursor
         :args:
@@ -545,8 +545,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextInteractionFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QTextEdit-setTextInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QTextEdit-setTextInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setUndoRedoEnabled
         :args:
@@ -590,8 +590,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.textInteractionFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QTextEdit-textInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QTextEdit-textInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.timerEvent
         :args:
@@ -605,10 +605,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.toMarkdown
         :args:
-            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownDialectGitHub`
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
         :returns:
             str
-        :description: QtWidgets/QTextEdit-toMarkdown-f.rst
+        :description: QtWidgets/QTextEdit-toMarkdown-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.toPlainText
         :returns:

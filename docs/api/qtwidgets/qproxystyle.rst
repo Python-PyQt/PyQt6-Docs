@@ -85,8 +85,8 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
-        :description: QtWidgets/QProxyStyle-hitTestComplexControl-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
+        :description: QtWidgets/QProxyStyle-hitTestComplexControl-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.itemPixmapRect
         :args:
@@ -110,14 +110,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.layoutSpacing
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             option: :sip:ref:`~PyQt6.QtWidgets.QStyleOption` = None
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             int
-        :description: QtWidgets/QProxyStyle-layoutSpacing-f.rst
+        :description: QtWidgets/QProxyStyle-layoutSpacing-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.pixelMetric
         :args:
@@ -197,11 +197,11 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QStyle.ComplexControl`
             :sip:ref:`~PyQt6.QtWidgets.QStyleOptionComplex`
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QProxyStyle-subControlRect-f.rst
+        :description: QtWidgets/QProxyStyle-subControlRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.subElementRect
         :args:

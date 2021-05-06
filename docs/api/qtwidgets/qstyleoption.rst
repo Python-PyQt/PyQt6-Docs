@@ -113,7 +113,7 @@
         :description: QtWidgets/QStyleOption-rect-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOption.state
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.State`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.StateFlag`
         :description: QtWidgets/QStyleOption-state-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOption.styleObject

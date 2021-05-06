@@ -66,6 +66,9 @@
         .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.ComparisonFunction.CompareNever
             :description: QtOpenGL/QOpenGLTexture-ComparisonFunction-CompareNever-v.rst
 
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.ComparisonFunction.CompareNotEqual
+            :description: QtOpenGL/QOpenGLTexture-ComparisonFunction-CompareNotEqual-v.rst
+
     .. sip:enum:: PyQt6.QtOpenGL.QOpenGLTexture.ComparisonMode
         :description: QtOpenGL/QOpenGLTexture-ComparisonMode-e.rst
 
@@ -117,56 +120,56 @@
         .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.DepthStencilMode.StencilMode
             :description: QtOpenGL/QOpenGLTexture-DepthStencilMode-StencilMode-v.rst
 
-    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLTexture.Features
-        :description: QtOpenGL/QOpenGLTexture-Features-e.rst
+    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLTexture.Feature
+        :description: QtOpenGL/QOpenGLTexture-Feature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.AnisotropicFiltering
-            :description: QtOpenGL/QOpenGLTexture-Features-AnisotropicFiltering-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.AnisotropicFiltering
+            :description: QtOpenGL/QOpenGLTexture-Feature-AnisotropicFiltering-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.ImmutableMultisampleStorage
-            :description: QtOpenGL/QOpenGLTexture-Features-ImmutableMultisampleStorage-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.ImmutableMultisampleStorage
+            :description: QtOpenGL/QOpenGLTexture-Feature-ImmutableMultisampleStorage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.ImmutableStorage
-            :description: QtOpenGL/QOpenGLTexture-Features-ImmutableStorage-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.ImmutableStorage
+            :description: QtOpenGL/QOpenGLTexture-Feature-ImmutableStorage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.NPOTTextureRepeat
-            :description: QtOpenGL/QOpenGLTexture-Features-NPOTTextureRepeat-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.NPOTTextureRepeat
+            :description: QtOpenGL/QOpenGLTexture-Feature-NPOTTextureRepeat-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.NPOTTextures
-            :description: QtOpenGL/QOpenGLTexture-Features-NPOTTextures-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.NPOTTextures
+            :description: QtOpenGL/QOpenGLTexture-Feature-NPOTTextures-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.StencilTexturing
-            :description: QtOpenGL/QOpenGLTexture-Features-StencilTexturing-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.StencilTexturing
+            :description: QtOpenGL/QOpenGLTexture-Feature-StencilTexturing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.Swizzle
-            :description: QtOpenGL/QOpenGLTexture-Features-Swizzle-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.Swizzle
+            :description: QtOpenGL/QOpenGLTexture-Feature-Swizzle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.Texture1D
-            :description: QtOpenGL/QOpenGLTexture-Features-Texture1D-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.Texture1D
+            :description: QtOpenGL/QOpenGLTexture-Feature-Texture1D-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.Texture3D
-            :description: QtOpenGL/QOpenGLTexture-Features-Texture3D-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.Texture3D
+            :description: QtOpenGL/QOpenGLTexture-Feature-Texture3D-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureArrays
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureArrays-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureArrays
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureArrays-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureBuffer
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureBuffer-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureBuffer
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureBuffer-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureComparisonOperators
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureComparisonOperators-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureComparisonOperators
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureComparisonOperators-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureCubeMapArrays
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureCubeMapArrays-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureCubeMapArrays
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureCubeMapArrays-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureMipMapLevel
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureMipMapLevel-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureMipMapLevel
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureMipMapLevel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureMultisample
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureMultisample-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureMultisample
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureMultisample-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Features.TextureRectangle
-            :description: QtOpenGL/QOpenGLTexture-Features-TextureRectangle-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLTexture.Feature.TextureRectangle
+            :description: QtOpenGL/QOpenGLTexture-Feature-TextureRectangle-v.rst
 
     .. sip:enum:: PyQt6.QtOpenGL.QOpenGLTexture.Filter
         :description: QtOpenGL/QOpenGLTexture-Filter-e.rst
@@ -928,11 +931,11 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.hasFeature
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Features`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Feature`
         :returns:
             bool
         :static:
-        :description: QtOpenGL/QOpenGLTexture-hasFeature-f.rst
+        :description: QtOpenGL/QOpenGLTexture-hasFeature-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.height
         :returns:
@@ -1067,8 +1070,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtOpenGL/QOpenGLTexture-setBorderColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtOpenGL/QOpenGLTexture-setBorderColor-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.setComparisonFunction
         :args:

@@ -867,17 +867,17 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.CurrencySymbolFormat.CurrencySymbol
             :description: QtCore/QLocale-CurrencySymbolFormat-CurrencySymbol-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QLocale.DataSizeFormats
-        :description: QtCore/QLocale-DataSizeFormats-e.rst
+    .. sip:enum:: PyQt6.QtCore.QLocale.DataSizeFormat
+        :description: QtCore/QLocale-DataSizeFormat-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormats.DataSizeIecFormat
-            :description: QtCore/QLocale-DataSizeFormats-DataSizeIecFormat-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormat.DataSizeIecFormat
+            :description: QtCore/QLocale-DataSizeFormat-DataSizeIecFormat-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormats.DataSizeSIFormat
-            :description: QtCore/QLocale-DataSizeFormats-DataSizeSIFormat-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormat.DataSizeSIFormat
+            :description: QtCore/QLocale-DataSizeFormat-DataSizeSIFormat-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormats.DataSizeTraditionalFormat
-            :description: QtCore/QLocale-DataSizeFormats-DataSizeTraditionalFormat-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.DataSizeFormat.DataSizeTraditionalFormat
+            :description: QtCore/QLocale-DataSizeFormat-DataSizeTraditionalFormat-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QLocale.FloatingPointPrecisionOption
         :description: QtCore/QLocale-FloatingPointPrecisionOption-e.rst
@@ -1959,29 +1959,29 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.MeasurementSystem.MetricSystem
             :description: QtCore/QLocale-MeasurementSystem-MetricSystem-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QLocale.NumberOptions
-        :description: QtCore/QLocale-NumberOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QLocale.NumberOption
+        :description: QtCore/QLocale-NumberOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.DefaultNumberOptions
-            :description: QtCore/QLocale-NumberOptions-DefaultNumberOptions-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.DefaultNumberOptions
+            :description: QtCore/QLocale-NumberOption-DefaultNumberOptions-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.IncludeTrailingZeroesAfterDot
-            :description: QtCore/QLocale-NumberOptions-IncludeTrailingZeroesAfterDot-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.IncludeTrailingZeroesAfterDot
+            :description: QtCore/QLocale-NumberOption-IncludeTrailingZeroesAfterDot-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.OmitGroupSeparator
-            :description: QtCore/QLocale-NumberOptions-OmitGroupSeparator-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.OmitGroupSeparator
+            :description: QtCore/QLocale-NumberOption-OmitGroupSeparator-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.OmitLeadingZeroInExponent
-            :description: QtCore/QLocale-NumberOptions-OmitLeadingZeroInExponent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.OmitLeadingZeroInExponent
+            :description: QtCore/QLocale-NumberOption-OmitLeadingZeroInExponent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.RejectGroupSeparator
-            :description: QtCore/QLocale-NumberOptions-RejectGroupSeparator-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.RejectGroupSeparator
+            :description: QtCore/QLocale-NumberOption-RejectGroupSeparator-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.RejectLeadingZeroInExponent
-            :description: QtCore/QLocale-NumberOptions-RejectLeadingZeroInExponent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.RejectLeadingZeroInExponent
+            :description: QtCore/QLocale-NumberOption-RejectLeadingZeroInExponent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOptions.RejectTrailingZeroesAfterDot
-            :description: QtCore/QLocale-NumberOptions-RejectTrailingZeroesAfterDot-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.NumberOption.RejectTrailingZeroesAfterDot
+            :description: QtCore/QLocale-NumberOption-RejectTrailingZeroesAfterDot-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QLocale.QuotationStyle
         :description: QtCore/QLocale-QuotationStyle-e.rst
@@ -2478,6 +2478,30 @@
         :static:
         :description: QtCore/QLocale-c-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLocale.codeToCountry
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :static:
+        :description: QtCore/QLocale-codeToCountry-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.codeToLanguage
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+        :static:
+        :description: QtCore/QLocale-codeToLanguage-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.codeToScript
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Script`
+        :static:
+        :description: QtCore/QLocale-codeToScript-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLocale.collation
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale`
@@ -2487,6 +2511,14 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :description: QtCore/QLocale-country-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.countryToCode
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QLocale-countryToCode-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.countryToString
         :args:
@@ -2558,10 +2590,10 @@
         :args:
             int
             precision: int = 2
-            format: :sip:ref:`~PyQt6.QtCore.QLocale.DataSizeFormats` = :sip:ref:`~PyQt6.QtCore.QLocale.DataSizeFormats.DataSizeIecFormat`
+            format: :sip:ref:`~PyQt6.QtCore.QLocale.DataSizeFormat` = :sip:ref:`~PyQt6.QtCore.QLocale.DataSizeFormat.DataSizeIecFormat`
         :returns:
             str
-        :description: QtCore/QLocale-formattedDataSize-f.rst
+        :description: QtCore/QLocale-formattedDataSize-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.groupSeparator
         :returns:
@@ -2577,6 +2609,14 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale.Language`
         :description: QtCore/QLocale-language-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.languageToCode
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QLocale-languageToCode-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.languageToString
         :args:
@@ -2638,8 +2678,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.numberOptions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QLocale.NumberOptions`
-        :description: QtCore/QLocale-numberOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLocale.NumberOption`
+        :description: QtCore/QLocale-numberOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.percent
         :returns:
@@ -2669,6 +2709,14 @@
             :sip:ref:`~PyQt6.QtCore.QLocale.Script`
         :description: QtCore/QLocale-script-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLocale.scriptToCode
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Script`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QLocale-scriptToCode-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLocale.scriptToString
         :args:
             :sip:ref:`~PyQt6.QtCore.QLocale.Script`
@@ -2685,8 +2733,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.setNumberOptions
         :args:
-            :sip:ref:`~PyQt6.QtCore.QLocale.NumberOptions`
-        :description: QtCore/QLocale-setNumberOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLocale.NumberOption`
+        :description: QtCore/QLocale-setNumberOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.standaloneDayName
         :args:

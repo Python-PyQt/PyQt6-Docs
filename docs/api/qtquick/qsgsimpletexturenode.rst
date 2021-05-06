@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtQuick.QSGGeometryNode`
     :description: QtQuick/QSGSimpleTextureNode-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode
-        :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformMode-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag
+        :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode.MirrorHorizontally
-            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformMode-MirrorHorizontally-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag.MirrorHorizontally
+            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformFlag-MirrorHorizontally-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode.MirrorVertically
-            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformMode-MirrorVertically-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag.MirrorVertically
+            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformFlag-MirrorVertically-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode.NoTransform
-            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformMode-NoTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag.NoTransform
+            :description: QtQuick/QSGSimpleTextureNode-TextureCoordinatesTransformFlag-NoTransform-v.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGSimpleTextureNode.__init__
         :description: QtQuick/QSGSimpleTextureNode-__init__-f.rst
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGSimpleTextureNode.setTextureCoordinatesTransform
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode`
-        :description: QtQuick/QSGSimpleTextureNode-setTextureCoordinatesTransform-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag`
+        :description: QtQuick/QSGSimpleTextureNode-setTextureCoordinatesTransform-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGSimpleTextureNode.sourceRect
         :returns:
@@ -92,5 +92,5 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGSimpleTextureNode.textureCoordinatesTransform
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformMode`
-        :description: QtQuick/QSGSimpleTextureNode-textureCoordinatesTransform-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGSimpleTextureNode.TextureCoordinatesTransformFlag`
+        :description: QtQuick/QSGSimpleTextureNode-textureCoordinatesTransform-f-1.rst

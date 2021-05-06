@@ -3,26 +3,26 @@
 .. sip:class:: PyQt6.QtNetwork.QNetworkInterface
     :description: QtNetwork/QNetworkInterface-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags
-        :description: QtNetwork/QNetworkInterface-InterfaceFlags-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag
+        :description: QtNetwork/QNetworkInterface-InterfaceFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.CanBroadcast
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-CanBroadcast-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.CanBroadcast
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-CanBroadcast-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.CanMulticast
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-CanMulticast-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.CanMulticast
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-CanMulticast-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.IsLoopBack
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-IsLoopBack-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.IsLoopBack
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-IsLoopBack-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.IsPointToPoint
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-IsPointToPoint-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.IsPointToPoint
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-IsPointToPoint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.IsRunning
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-IsRunning-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.IsRunning
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-IsRunning-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags.IsUp
-            :description: QtNetwork/QNetworkInterface-InterfaceFlags-IsUp-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag.IsUp
+            :description: QtNetwork/QNetworkInterface-InterfaceFlag-IsUp-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QNetworkInterface.InterfaceType
         :description: QtNetwork/QNetworkInterface-InterfaceType-e.rst
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.flags
         :returns:
-            :sip:ref:`~PyQt6.QtNetwork.QNetworkInterface.InterfaceFlags`
-        :description: QtNetwork/QNetworkInterface-flags-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkInterface.InterfaceFlag`
+        :description: QtNetwork/QNetworkInterface-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.hardwareAddress
         :returns:

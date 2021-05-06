@@ -3,74 +3,32 @@
 .. sip:class:: PyQt6.QtCore.QUrl
     :description: QtCore/QUrl-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QUrl.ComponentFormattingOptions
-        :description: QtCore/QUrl-ComponentFormattingOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QUrl.ComponentFormattingOption
+        :description: QtCore/QUrl-ComponentFormattingOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.DecodeReserved
-            :description: QtCore/QUrl-ComponentFormattingOptions-DecodeReserved-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.DecodeReserved
+            :description: QtCore/QUrl-ComponentFormattingOption-DecodeReserved-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.EncodeDelimiters
-            :description: QtCore/QUrl-ComponentFormattingOptions-EncodeDelimiters-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.EncodeDelimiters
+            :description: QtCore/QUrl-ComponentFormattingOption-EncodeDelimiters-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.EncodeReserved
-            :description: QtCore/QUrl-ComponentFormattingOptions-EncodeReserved-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.EncodeReserved
+            :description: QtCore/QUrl-ComponentFormattingOption-EncodeReserved-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.EncodeSpaces
-            :description: QtCore/QUrl-ComponentFormattingOptions-EncodeSpaces-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.EncodeSpaces
+            :description: QtCore/QUrl-ComponentFormattingOption-EncodeSpaces-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.EncodeUnicode
-            :description: QtCore/QUrl-ComponentFormattingOptions-EncodeUnicode-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.EncodeUnicode
+            :description: QtCore/QUrl-ComponentFormattingOption-EncodeUnicode-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded
-            :description: QtCore/QUrl-ComponentFormattingOptions-FullyDecoded-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded
+            :description: QtCore/QUrl-ComponentFormattingOption-FullyDecoded-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyEncoded
-            :description: QtCore/QUrl-ComponentFormattingOptions-FullyEncoded-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyEncoded
+            :description: QtCore/QUrl-ComponentFormattingOption-FullyEncoded-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded
-            :description: QtCore/QUrl-ComponentFormattingOptions-PrettyDecoded-v.rst
-
-    .. sip:enum:: PyQt6.QtCore.QUrl.FormattingOptions
-        :description: QtCore/QUrl-FormattingOptions-e.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.None_
-            :description: QtCore/QUrl-FormattingOptions-None_-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.NormalizePathSegments
-            :description: QtCore/QUrl-FormattingOptions-NormalizePathSegments-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.PreferLocalFile
-            :description: QtCore/QUrl-FormattingOptions-PreferLocalFile-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveAuthority
-            :description: QtCore/QUrl-FormattingOptions-RemoveAuthority-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveFilename
-            :description: QtCore/QUrl-FormattingOptions-RemoveFilename-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveFragment
-            :description: QtCore/QUrl-FormattingOptions-RemoveFragment-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemovePassword
-            :description: QtCore/QUrl-FormattingOptions-RemovePassword-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemovePath
-            :description: QtCore/QUrl-FormattingOptions-RemovePath-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemovePort
-            :description: QtCore/QUrl-FormattingOptions-RemovePort-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveQuery
-            :description: QtCore/QUrl-FormattingOptions-RemoveQuery-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveScheme
-            :description: QtCore/QUrl-FormattingOptions-RemoveScheme-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.RemoveUserInfo
-            :description: QtCore/QUrl-FormattingOptions-RemoveUserInfo-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.FormattingOptions.StripTrailingSlash
-            :description: QtCore/QUrl-FormattingOptions-StripTrailingSlash-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded
+            :description: QtCore/QUrl-ComponentFormattingOption-PrettyDecoded-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QUrl.ParsingMode
         :description: QtCore/QUrl-ParsingMode-e.rst
@@ -84,14 +42,56 @@
         .. sip:enum-member:: PyQt6.QtCore.QUrl.ParsingMode.TolerantMode
             :description: QtCore/QUrl-ParsingMode-TolerantMode-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QUrl.UserInputResolutionOptions
-        :description: QtCore/QUrl-UserInputResolutionOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QUrl.UrlFormattingOption
+        :description: QtCore/QUrl-UrlFormattingOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.UserInputResolutionOptions.AssumeLocalFile
-            :description: QtCore/QUrl-UserInputResolutionOptions-AssumeLocalFile-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.None_
+            :description: QtCore/QUrl-UrlFormattingOption-None_-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QUrl.UserInputResolutionOptions.DefaultResolution
-            :description: QtCore/QUrl-UserInputResolutionOptions-DefaultResolution-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.NormalizePathSegments
+            :description: QtCore/QUrl-UrlFormattingOption-NormalizePathSegments-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.PreferLocalFile
+            :description: QtCore/QUrl-UrlFormattingOption-PreferLocalFile-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveAuthority
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveAuthority-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveFilename
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveFilename-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveFragment
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveFragment-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemovePassword
+            :description: QtCore/QUrl-UrlFormattingOption-RemovePassword-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemovePath
+            :description: QtCore/QUrl-UrlFormattingOption-RemovePath-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemovePort
+            :description: QtCore/QUrl-UrlFormattingOption-RemovePort-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveQuery
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveQuery-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveScheme
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveScheme-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.RemoveUserInfo
+            :description: QtCore/QUrl-UrlFormattingOption-RemoveUserInfo-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UrlFormattingOption.StripTrailingSlash
+            :description: QtCore/QUrl-UrlFormattingOption-StripTrailingSlash-v.rst
+
+    .. sip:enum:: PyQt6.QtCore.QUrl.UserInputResolutionOption
+        :description: QtCore/QUrl-UserInputResolutionOption-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UserInputResolutionOption.AssumeLocalFile
+            :description: QtCore/QUrl-UserInputResolutionOption-AssumeLocalFile-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.UserInputResolutionOption.DefaultResolution
+            :description: QtCore/QUrl-UserInputResolutionOption-DefaultResolution-v.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__init__
         :description: QtCore/QUrl-__init__-f.rst
@@ -109,17 +109,17 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.adjusted
         :args:
-            :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions`
+            :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-        :description: QtCore/QUrl-adjusted-f.rst
+        :description: QtCore/QUrl-adjusted-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.authority
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-authority-f.rst
+        :description: QtCore/QUrl-authority-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.clear
         :description: QtCore/QUrl-clear-f.rst
@@ -141,17 +141,17 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.fileName
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-fileName-f.rst
+        :description: QtCore/QUrl-fileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fragment
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-fragment-f.rst
+        :description: QtCore/QUrl-fragment-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromAce
         :args:
@@ -199,11 +199,11 @@
         :args:
             str
             workingDirectory: str = ''
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOptions.DefaultResolution`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOption` = :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOption.DefaultResolution`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :static:
-        :description: QtCore/QUrl-fromUserInput-f.rst
+        :description: QtCore/QUrl-fromUserInput-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__ge__
         :args:
@@ -229,10 +229,10 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.host
         :args:
-            :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions`
+            :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption`
         :returns:
             str
-        :description: QtCore/QUrl-host-f.rst
+        :description: QtCore/QUrl-host-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.idnWhitelist
         :returns:
@@ -282,10 +282,10 @@
     .. sip:method:: PyQt6.QtCore.QUrl.matches
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions`
+            :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption`
         :returns:
             bool
-        :description: QtCore/QUrl-matches-f.rst
+        :description: QtCore/QUrl-matches-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__ne__
         :args:
@@ -296,17 +296,17 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.password
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-password-f.rst
+        :description: QtCore/QUrl-password-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.path
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-path-f.rst
+        :description: QtCore/QUrl-path-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.port
         :args:
@@ -317,10 +317,10 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.query
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-query-f.rst
+        :description: QtCore/QUrl-query-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__repr__
         :returns:
@@ -429,17 +429,17 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.toDisplayString
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
         :returns:
             str
-        :description: QtCore/QUrl-toDisplayString-f.rst
+        :description: QtCore/QUrl-toDisplayString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toEncoded
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyEncoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyEncoded`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QUrl-toEncoded-f.rst
+        :description: QtCore/QUrl-toEncoded-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toLocalFile
         :returns:
@@ -458,37 +458,37 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.toString
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
         :returns:
             str
-        :description: QtCore/QUrl-toString-f.rst
+        :description: QtCore/QUrl-toString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toStringList
         :args:
             Iterable[:sip:ref:`~PyQt6.QtCore.QUrl`]
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
         :returns:
             List[str]
         :static:
-        :description: QtCore/QUrl-toStringList-f.rst
+        :description: QtCore/QUrl-toStringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.url
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.FormattingOptions` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
         :returns:
             str
-        :description: QtCore/QUrl-url-f.rst
+        :description: QtCore/QUrl-url-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.userInfo
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.PrettyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-userInfo-f.rst
+        :description: QtCore/QUrl-userInfo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.userName
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`
         :returns:
             str
-        :description: QtCore/QUrl-userName-f.rst
+        :description: QtCore/QUrl-userName-f-1.rst

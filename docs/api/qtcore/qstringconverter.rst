@@ -40,14 +40,14 @@
     .. sip:method:: PyQt6.QtCore.QStringConverter.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QStringConverter.Encoding`
-            :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flags`
-        :description: QtCore/QStringConverter-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag`
+        :description: QtCore/QStringConverter-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.__init__
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flags`
-        :description: QtCore/QStringConverter-__init__-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag`
+        :description: QtCore/QStringConverter-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.hasError
         :returns:

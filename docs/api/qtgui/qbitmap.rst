@@ -50,11 +50,11 @@
     .. sip:method:: PyQt6.QtGui.QBitmap.fromImage
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QBitmap`
         :static:
-        :description: QtGui/QBitmap-fromImage-f.rst
+        :description: QtGui/QBitmap-fromImage-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QBitmap.fromPixmap
         :args:

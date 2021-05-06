@@ -3,23 +3,23 @@
 .. sip:class:: PyQt6.QtGui.QEventPoint
     :description: QtGui/QEventPoint-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QEventPoint.States
-        :description: QtGui/QEventPoint-States-e.rst
+    .. sip:enum:: PyQt6.QtGui.QEventPoint.State
+        :description: QtGui/QEventPoint-State-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.States.Pressed
-            :description: QtGui/QEventPoint-States-Pressed-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.State.Pressed
+            :description: QtGui/QEventPoint-State-Pressed-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.States.Released
-            :description: QtGui/QEventPoint-States-Released-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.State.Released
+            :description: QtGui/QEventPoint-State-Released-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.States.Stationary
-            :description: QtGui/QEventPoint-States-Stationary-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.State.Stationary
+            :description: QtGui/QEventPoint-State-Stationary-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.States.Unknown
-            :description: QtGui/QEventPoint-States-Unknown-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.State.Unknown
+            :description: QtGui/QEventPoint-State-Unknown-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.States.Updated
-            :description: QtGui/QEventPoint-States-Updated-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QEventPoint.State.Updated
+            :description: QtGui/QEventPoint-State-Updated-v.rst
 
     .. sip:method:: PyQt6.QtGui.QEventPoint.__init__
         :args:
@@ -29,10 +29,10 @@
     .. sip:method:: PyQt6.QtGui.QEventPoint.__init__
         :args:
             int
-            :sip:ref:`~PyQt6.QtGui.QEventPoint.States`
+            :sip:ref:`~PyQt6.QtGui.QEventPoint.State`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtGui/QEventPoint-__init__-f-1.rst
+        :description: QtGui/QEventPoint-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QEventPoint.device
         :returns:
@@ -160,8 +160,8 @@
 
     .. sip:method:: PyQt6.QtGui.QEventPoint.state
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QEventPoint.States`
-        :description: QtGui/QEventPoint-state-f.rst
+            :sip:ref:`~PyQt6.QtGui.QEventPoint.State`
+        :description: QtGui/QEventPoint-state-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QEventPoint.swap
         :args:

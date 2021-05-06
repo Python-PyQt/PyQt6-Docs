@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QGraphicsWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QGraphicsWidget-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.actions
         :returns:
@@ -334,8 +334,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.setWindowFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QGraphicsWidget-setWindowFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QGraphicsWidget-setWindowFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.setWindowFrameMargins
         :args:
@@ -416,8 +416,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.windowFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QGraphicsWidget-windowFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QGraphicsWidget-windowFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.windowFrameEvent
         :args:
@@ -450,8 +450,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.windowType
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QGraphicsWidget-windowType-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QGraphicsWidget-windowType-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsWidget.geometryChanged
         :description: QtWidgets/QGraphicsWidget-geometryChanged-s.rst

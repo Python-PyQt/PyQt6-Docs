@@ -52,14 +52,14 @@
         .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileError.WriteError
             :description: QtCore/QFileDevice-FileError-WriteError-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QFileDevice.FileHandleFlags
-        :description: QtCore/QFileDevice-FileHandleFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QFileDevice.FileHandleFlag
+        :description: QtCore/QFileDevice-FileHandleFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileHandleFlags.AutoCloseHandle
-            :description: QtCore/QFileDevice-FileHandleFlags-AutoCloseHandle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileHandleFlag.AutoCloseHandle
+            :description: QtCore/QFileDevice-FileHandleFlag-AutoCloseHandle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileHandleFlags.DontCloseHandle
-            :description: QtCore/QFileDevice-FileHandleFlags-DontCloseHandle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileHandleFlag.DontCloseHandle
+            :description: QtCore/QFileDevice-FileHandleFlag-DontCloseHandle-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QFileDevice.FileTime
         :description: QtCore/QFileDevice-FileTime-e.rst
@@ -76,53 +76,53 @@
         .. sip:enum-member:: PyQt6.QtCore.QFileDevice.FileTime.FileModificationTime
             :description: QtCore/QFileDevice-FileTime-FileModificationTime-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QFileDevice.MemoryMapFlags
-        :description: QtCore/QFileDevice-MemoryMapFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QFileDevice.MemoryMapFlag
+        :description: QtCore/QFileDevice-MemoryMapFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.MemoryMapFlags.MapPrivateOption
-            :description: QtCore/QFileDevice-MemoryMapFlags-MapPrivateOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.MemoryMapFlag.MapPrivateOption
+            :description: QtCore/QFileDevice-MemoryMapFlag-MapPrivateOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.MemoryMapFlags.NoOptions
-            :description: QtCore/QFileDevice-MemoryMapFlags-NoOptions-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.MemoryMapFlag.NoOptions
+            :description: QtCore/QFileDevice-MemoryMapFlag-NoOptions-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QFileDevice.Permissions
-        :description: QtCore/QFileDevice-Permissions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QFileDevice.Permission
+        :description: QtCore/QFileDevice-Permission-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ExeGroup
-            :description: QtCore/QFileDevice-Permissions-ExeGroup-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ExeGroup
+            :description: QtCore/QFileDevice-Permission-ExeGroup-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ExeOther
-            :description: QtCore/QFileDevice-Permissions-ExeOther-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ExeOther
+            :description: QtCore/QFileDevice-Permission-ExeOther-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ExeOwner
-            :description: QtCore/QFileDevice-Permissions-ExeOwner-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ExeOwner
+            :description: QtCore/QFileDevice-Permission-ExeOwner-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ExeUser
-            :description: QtCore/QFileDevice-Permissions-ExeUser-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ExeUser
+            :description: QtCore/QFileDevice-Permission-ExeUser-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ReadGroup
-            :description: QtCore/QFileDevice-Permissions-ReadGroup-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ReadGroup
+            :description: QtCore/QFileDevice-Permission-ReadGroup-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ReadOther
-            :description: QtCore/QFileDevice-Permissions-ReadOther-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ReadOther
+            :description: QtCore/QFileDevice-Permission-ReadOther-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ReadOwner
-            :description: QtCore/QFileDevice-Permissions-ReadOwner-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ReadOwner
+            :description: QtCore/QFileDevice-Permission-ReadOwner-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.ReadUser
-            :description: QtCore/QFileDevice-Permissions-ReadUser-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.ReadUser
+            :description: QtCore/QFileDevice-Permission-ReadUser-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.WriteGroup
-            :description: QtCore/QFileDevice-Permissions-WriteGroup-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.WriteGroup
+            :description: QtCore/QFileDevice-Permission-WriteGroup-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.WriteOther
-            :description: QtCore/QFileDevice-Permissions-WriteOther-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.WriteOther
+            :description: QtCore/QFileDevice-Permission-WriteOther-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.WriteOwner
-            :description: QtCore/QFileDevice-Permissions-WriteOwner-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.WriteOwner
+            :description: QtCore/QFileDevice-Permission-WriteOwner-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permissions.WriteUser
-            :description: QtCore/QFileDevice-Permissions-WriteUser-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QFileDevice.Permission.WriteUser
+            :description: QtCore/QFileDevice-Permission-WriteUser-v.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.atEnd
         :returns:
@@ -168,15 +168,15 @@
         :args:
             int
             int
-            flags: :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlags` = :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlags.NoOptions`
+            flags: :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlag` = :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlag.NoOptions`
         :returns:
             sip.voidptr
-        :description: QtCore/QFileDevice-map-f.rst
+        :description: QtCore/QFileDevice-map-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.permissions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
-        :description: QtCore/QFileDevice-permissions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :description: QtCore/QFileDevice-permissions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.pos
         :returns:
@@ -221,10 +221,10 @@
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.setPermissions
         :args:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
-        :description: QtCore/QFileDevice-setPermissions-f.rst
+        :description: QtCore/QFileDevice-setPermissions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.size
         :returns:

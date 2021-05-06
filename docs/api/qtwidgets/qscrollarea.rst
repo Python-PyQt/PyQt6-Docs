@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QScrollArea.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QScrollArea-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QScrollArea-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScrollArea.ensureVisible
         :args:
@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QScrollArea.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QScrollArea-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QScrollArea-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScrollArea.setWidget
         :args:

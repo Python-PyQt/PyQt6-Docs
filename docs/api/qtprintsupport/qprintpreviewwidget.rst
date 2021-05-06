@@ -31,15 +31,15 @@
     .. sip:method:: PyQt6.QtPrintSupport.QPrintPreviewWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtPrintSupport/QPrintPreviewWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtPrintSupport/QPrintPreviewWidget-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintPreviewWidget.__init__
         :args:
             :sip:ref:`~PyQt6.QtPrintSupport.QPrinter`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtPrintSupport/QPrintPreviewWidget-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtPrintSupport/QPrintPreviewWidget-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintPreviewWidget.currentPage
         :returns:

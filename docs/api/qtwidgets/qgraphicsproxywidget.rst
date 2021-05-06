@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsProxyWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QGraphicsProxyWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QGraphicsProxyWidget-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsProxyWidget.contextMenuEvent
         :args:
@@ -106,10 +106,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsProxyWidget.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QGraphicsProxyWidget-inputMethodQuery-f.rst
+        :description: QtWidgets/QGraphicsProxyWidget-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsProxyWidget.itemChange
         :args:

@@ -38,19 +38,19 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintDialog.options
         :returns:
-            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions`
-        :description: QtPrintSupport/QPrintDialog-options-f.rst
+            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption`
+        :description: QtPrintSupport/QPrintDialog-options-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintDialog.setOption
         :args:
-            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions`
+            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption`
             on: bool = True
-        :description: QtPrintSupport/QPrintDialog-setOption-f.rst
+        :description: QtPrintSupport/QPrintDialog-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintDialog.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions`
-        :description: QtPrintSupport/QPrintDialog-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption`
+        :description: QtPrintSupport/QPrintDialog-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintDialog.setVisible
         :args:
@@ -59,10 +59,10 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrintDialog.testOption
         :args:
-            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions`
+            :sip:ref:`~PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption`
         :returns:
             bool
-        :description: QtPrintSupport/QPrintDialog-testOption-f.rst
+        :description: QtPrintSupport/QPrintDialog-testOption-f-1.rst
 
     .. sip:signal:: PyQt6.QtPrintSupport.QPrintDialog.accepted
         :description: QtPrintSupport/QPrintDialog-accepted-s.rst

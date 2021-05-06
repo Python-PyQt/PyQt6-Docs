@@ -3,17 +3,17 @@
 .. sip:class:: PyQt6.QtCore.QRegularExpression
     :description: QtCore/QRegularExpression-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QRegularExpression.MatchOptions
-        :description: QtCore/QRegularExpression-MatchOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QRegularExpression.MatchOption
+        :description: QtCore/QRegularExpression-MatchOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOptions.AnchorAtOffsetMatchOption
-            :description: QtCore/QRegularExpression-MatchOptions-AnchorAtOffsetMatchOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOption.AnchorAtOffsetMatchOption
+            :description: QtCore/QRegularExpression-MatchOption-AnchorAtOffsetMatchOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOptions.DontCheckSubjectStringMatchOption
-            :description: QtCore/QRegularExpression-MatchOptions-DontCheckSubjectStringMatchOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOption.DontCheckSubjectStringMatchOption
+            :description: QtCore/QRegularExpression-MatchOption-DontCheckSubjectStringMatchOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOptions.NoMatchOption
-            :description: QtCore/QRegularExpression-MatchOptions-NoMatchOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchOption.NoMatchOption
+            :description: QtCore/QRegularExpression-MatchOption-NoMatchOption-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QRegularExpression.MatchType
         :description: QtCore/QRegularExpression-MatchType-e.rst
@@ -30,41 +30,41 @@
         .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.MatchType.PartialPreferFirstMatch
             :description: QtCore/QRegularExpression-MatchType-PartialPreferFirstMatch-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QRegularExpression.PatternOptions
-        :description: QtCore/QRegularExpression-PatternOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QRegularExpression.PatternOption
+        :description: QtCore/QRegularExpression-PatternOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.CaseInsensitiveOption
-            :description: QtCore/QRegularExpression-PatternOptions-CaseInsensitiveOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.CaseInsensitiveOption
+            :description: QtCore/QRegularExpression-PatternOption-CaseInsensitiveOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.DontCaptureOption
-            :description: QtCore/QRegularExpression-PatternOptions-DontCaptureOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.DontCaptureOption
+            :description: QtCore/QRegularExpression-PatternOption-DontCaptureOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.DotMatchesEverythingOption
-            :description: QtCore/QRegularExpression-PatternOptions-DotMatchesEverythingOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.DotMatchesEverythingOption
+            :description: QtCore/QRegularExpression-PatternOption-DotMatchesEverythingOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.ExtendedPatternSyntaxOption
-            :description: QtCore/QRegularExpression-PatternOptions-ExtendedPatternSyntaxOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.ExtendedPatternSyntaxOption
+            :description: QtCore/QRegularExpression-PatternOption-ExtendedPatternSyntaxOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.InvertedGreedinessOption
-            :description: QtCore/QRegularExpression-PatternOptions-InvertedGreedinessOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.InvertedGreedinessOption
+            :description: QtCore/QRegularExpression-PatternOption-InvertedGreedinessOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.MultilineOption
-            :description: QtCore/QRegularExpression-PatternOptions-MultilineOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.MultilineOption
+            :description: QtCore/QRegularExpression-PatternOption-MultilineOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.NoPatternOption
-            :description: QtCore/QRegularExpression-PatternOptions-NoPatternOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.NoPatternOption
+            :description: QtCore/QRegularExpression-PatternOption-NoPatternOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOptions.UseUnicodePropertiesOption
-            :description: QtCore/QRegularExpression-PatternOptions-UseUnicodePropertiesOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.PatternOption.UseUnicodePropertiesOption
+            :description: QtCore/QRegularExpression-PatternOption-UseUnicodePropertiesOption-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QRegularExpression.WildcardConversionOptions
-        :description: QtCore/QRegularExpression-WildcardConversionOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QRegularExpression.WildcardConversionOption
+        :description: QtCore/QRegularExpression-WildcardConversionOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.WildcardConversionOptions.DefaultWildcardConversion
-            :description: QtCore/QRegularExpression-WildcardConversionOptions-DefaultWildcardConversion-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.WildcardConversionOption.DefaultWildcardConversion
+            :description: QtCore/QRegularExpression-WildcardConversionOption-DefaultWildcardConversion-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.WildcardConversionOptions.UnanchoredWildcardConversion
-            :description: QtCore/QRegularExpression-WildcardConversionOptions-UnanchoredWildcardConversion-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QRegularExpression.WildcardConversionOption.UnanchoredWildcardConversion
+            :description: QtCore/QRegularExpression-WildcardConversionOption-UnanchoredWildcardConversion-v.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__init__
         :description: QtCore/QRegularExpression-__init__-f.rst
@@ -77,8 +77,8 @@
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__init__
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOptions` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOptions.NoPatternOption`
-        :description: QtCore/QRegularExpression-__init__-f-2.rst
+            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOption.NoPatternOption`
+        :description: QtCore/QRegularExpression-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.anchoredPattern
         :args:
@@ -117,21 +117,21 @@
         :args:
             str
             cs: :sip:ref:`~PyQt6.QtCore.Qt.CaseSensitivity` = :sip:ref:`~PyQt6.QtCore.Qt.CaseSensitivity.CaseInsensitive`
-            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOptions` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOptions.DefaultWildcardConversion`
+            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOption.DefaultWildcardConversion`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
         :static:
-        :description: QtCore/QRegularExpression-fromWildcard-f.rst
+        :description: QtCore/QRegularExpression-fromWildcard-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.globalMatch
         :args:
             str
             offset: int = 0
             matchType: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType.NormalMatch`
-            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions.NoMatchOption`
+            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption.NoMatchOption`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatchIterator`
-        :description: QtCore/QRegularExpression-globalMatch-f.rst
+        :description: QtCore/QRegularExpression-globalMatch-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__hash__
         :returns:
@@ -148,10 +148,10 @@
             str
             offset: int = 0
             matchType: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType.NormalMatch`
-            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions.NoMatchOption`
+            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption.NoMatchOption`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatch`
-        :description: QtCore/QRegularExpression-match-f.rst
+        :description: QtCore/QRegularExpression-match-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.namedCaptureGroups
         :returns:
@@ -180,8 +180,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.patternOptions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOptions`
-        :description: QtCore/QRegularExpression-patternOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOption`
+        :description: QtCore/QRegularExpression-patternOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__repr__
         :returns:
@@ -195,8 +195,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.setPatternOptions
         :args:
-            :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOptions`
-        :description: QtCore/QRegularExpression-setPatternOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression.PatternOption`
+        :description: QtCore/QRegularExpression-setPatternOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.swap
         :args:
@@ -206,8 +206,8 @@
     .. sip:method:: PyQt6.QtCore.QRegularExpression.wildcardToRegularExpression
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOptions` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOptions.DefaultWildcardConversion`
+            options: :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.WildcardConversionOption.DefaultWildcardConversion`
         :returns:
             str
         :static:
-        :description: QtCore/QRegularExpression-wildcardToRegularExpression-f.rst
+        :description: QtCore/QRegularExpression-wildcardToRegularExpression-f-1.rst

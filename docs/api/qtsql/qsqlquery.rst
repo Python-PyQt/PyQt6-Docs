@@ -36,8 +36,8 @@
     .. sip:method:: PyQt6.QtSql.QSqlQuery.addBindValue
         :args:
             Any
-            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamType` = :sip:ref:`~PyQt6.QtSql.QSql.ParamType.In`
-        :description: QtSql/QSqlQuery-addBindValue-f.rst
+            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag` = :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag.In`
+        :description: QtSql/QSqlQuery-addBindValue-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.at
         :returns:
@@ -48,15 +48,15 @@
         :args:
             str
             Any
-            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamType` = :sip:ref:`~PyQt6.QtSql.QSql.ParamType.In`
-        :description: QtSql/QSqlQuery-bindValue-f.rst
+            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag` = :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag.In`
+        :description: QtSql/QSqlQuery-bindValue-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.bindValue
         :args:
             int
             Any
-            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamType` = :sip:ref:`~PyQt6.QtSql.QSql.ParamType.In`
-        :description: QtSql/QSqlQuery-bindValue-f-1.rst
+            type: :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag` = :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag.In`
+        :description: QtSql/QSqlQuery-bindValue-f-3.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValue
         :args:

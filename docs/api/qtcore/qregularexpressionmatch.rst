@@ -94,8 +94,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.matchOptions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions`
-        :description: QtCore/QRegularExpressionMatch-matchOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption`
+        :description: QtCore/QRegularExpressionMatch-matchOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.matchType
         :returns:

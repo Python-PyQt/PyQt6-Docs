@@ -41,6 +41,11 @@
             int
         :description: QtWidgets/QCommandLinkButton-heightForWidth-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.initStyleOption
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QStyleOptionButton`
+        :description: QtWidgets/QCommandLinkButton-initStyleOption-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.minimumSizeHint
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`

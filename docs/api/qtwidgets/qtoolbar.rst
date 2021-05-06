@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.allowedAreas
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
-        :description: QtWidgets/QToolBar-allowedAreas-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
+        :description: QtWidgets/QToolBar-allowedAreas-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.changeEvent
         :args:
@@ -138,10 +138,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.isAreaAllowed
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
         :returns:
             bool
-        :description: QtWidgets/QToolBar-isAreaAllowed-f.rst
+        :description: QtWidgets/QToolBar-isAreaAllowed-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.isFloatable
         :returns:
@@ -160,8 +160,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QToolBar-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QToolBar-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.paintEvent
         :args:
@@ -170,8 +170,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.setAllowedAreas
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
-        :description: QtWidgets/QToolBar-setAllowedAreas-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
+        :description: QtWidgets/QToolBar-setAllowedAreas-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.setFloatable
         :args:
@@ -190,8 +190,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QToolBar-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QToolBar-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.setToolButtonStyle
         :args:
@@ -222,8 +222,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QToolBar.allowedAreasChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
-        :description: QtWidgets/QToolBar-allowedAreasChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
+        :description: QtWidgets/QToolBar-allowedAreasChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QToolBar.iconSizeChanged
         :args:
@@ -237,8 +237,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QToolBar.orientationChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QToolBar-orientationChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QToolBar-orientationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QToolBar.toolButtonStyleChanged
         :args:

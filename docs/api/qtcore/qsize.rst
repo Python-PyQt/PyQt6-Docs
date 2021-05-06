@@ -129,6 +129,13 @@
             str
         :description: QtCore/QSize-__repr__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSize.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSize`
+        :description: QtCore/QSize-__rmul__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QSize.scale
         :args:
             :sip:ref:`~PyQt6.QtCore.QSize`

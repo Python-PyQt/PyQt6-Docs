@@ -7,15 +7,15 @@
     .. sip:method:: PyQt6.QtWidgets.QSplashScreen.__init__
         :args:
             pixmap: :sip:ref:`~PyQt6.QtGui.QPixmap` = QPixmap()
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QSplashScreen-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QSplashScreen-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplashScreen.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QScreen`
             pixmap: :sip:ref:`~PyQt6.QtGui.QPixmap` = QPixmap()
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QSplashScreen-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QSplashScreen-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplashScreen.clearMessage
         :description: QtWidgets/QSplashScreen-clearMessage-f.rst
@@ -63,9 +63,9 @@
     .. sip:method:: PyQt6.QtWidgets.QSplashScreen.showMessage
         :args:
             str
-            alignment: int = :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignLeft`
-            color: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.black`
-        :description: QtWidgets/QSplashScreen-showMessage-f.rst
+            alignment: int = :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft`
+            color: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.black`
+        :description: QtWidgets/QSplashScreen-showMessage-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QSplashScreen.messageChanged
         :args:

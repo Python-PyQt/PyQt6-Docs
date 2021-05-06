@@ -23,8 +23,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
-            orientations: :sip:ref:`~PyQt6.QtCore.Qt.Orientations` = Qt.Horizontal|Qt.Vertical
-        :description: QtWidgets/QGraphicsAnchorLayout-addAnchors-f.rst
+            orientations: :sip:ref:`~PyQt6.QtCore.Qt.Orientation` = Qt.Horizontal|Qt.Vertical
+        :description: QtWidgets/QGraphicsAnchorLayout-addAnchors-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsAnchorLayout.addCornerAnchors
         :args:

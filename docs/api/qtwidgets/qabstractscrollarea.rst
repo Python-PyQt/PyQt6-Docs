@@ -24,8 +24,8 @@
     .. sip:method:: PyQt6.QtWidgets.QAbstractScrollArea.addScrollBarWidget
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QAbstractScrollArea-addScrollBarWidget-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QAbstractScrollArea-addScrollBarWidget-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractScrollArea.contextMenuEvent
         :args:
@@ -129,10 +129,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractScrollArea.scrollBarWidgets
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
-        :description: QtWidgets/QAbstractScrollArea-scrollBarWidgets-f.rst
+        :description: QtWidgets/QAbstractScrollArea-scrollBarWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractScrollArea.scrollContentsBy
         :args:

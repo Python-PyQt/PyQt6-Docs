@@ -19,13 +19,13 @@
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.canDropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QAbstractProxyModel-canDropMimeData-f.rst
+        :description: QtCore/QAbstractProxyModel-canDropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.canFetchMore
         :args:
@@ -52,13 +52,13 @@
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QAbstractProxyModel-dropMimeData-f.rst
+        :description: QtCore/QAbstractProxyModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.fetchMore
         :args:
@@ -69,8 +69,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QAbstractProxyModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QAbstractProxyModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.hasChildren
         :args:
@@ -82,11 +82,11 @@
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QAbstractProxyModel-headerData-f.rst
+        :description: QtCore/QAbstractProxyModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.itemData
         :args:
@@ -155,12 +155,12 @@
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtCore/QAbstractProxyModel-setHeaderData-f.rst
+        :description: QtCore/QAbstractProxyModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.setItemData
         :args:
@@ -209,13 +209,13 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.supportedDragActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QAbstractProxyModel-supportedDragActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QAbstractProxyModel-supportedDragActions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QAbstractProxyModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QAbstractProxyModel-supportedDropActions-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QAbstractProxyModel.sourceModelChanged
         :description: QtCore/QAbstractProxyModel-sourceModelChanged-s.rst

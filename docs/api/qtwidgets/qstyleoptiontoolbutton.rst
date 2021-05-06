@@ -16,33 +16,33 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.StyleOptionVersion.Version
             :description: QtWidgets/QStyleOptionToolButton-StyleOptionVersion-Version-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures
-        :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature
+        :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.Arrow
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-Arrow-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.Arrow
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-Arrow-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.HasMenu
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-HasMenu-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.HasMenu
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-HasMenu-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.Menu
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-Menu-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.Menu
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-Menu-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.MenuButtonPopup
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-MenuButtonPopup-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.MenuButtonPopup
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-MenuButtonPopup-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.None_
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-None_-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.None_
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-None_-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures.PopupDelay
-            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeatures-PopupDelay-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature.PopupDelay
+            :description: QtWidgets/QStyleOptionToolButton-ToolButtonFeature-PopupDelay-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolButton.arrowType
         :type: :sip:ref:`~PyQt6.QtCore.Qt.ArrowType`
         :description: QtWidgets/QStyleOptionToolButton-arrowType-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolButton.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionToolButton.ToolButtonFeature`
         :description: QtWidgets/QStyleOptionToolButton-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolButton.font

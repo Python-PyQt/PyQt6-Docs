@@ -88,11 +88,11 @@
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtSql/QSqlQueryModel-headerData-f.rst
+        :description: QtSql/QSqlQueryModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.indexInQuery
         :args:
@@ -159,12 +159,12 @@
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtSql/QSqlQueryModel-setHeaderData-f.rst
+        :description: QtSql/QSqlQueryModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.setLastError
         :args:

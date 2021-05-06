@@ -11,27 +11,27 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceCode
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceCode
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             str
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceFile
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             str
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceFile-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceFile-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShader
         :args:
@@ -42,27 +42,27 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceCode
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceCode
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             str
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceFile
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             str
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceFile-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceFile-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.attributeLocation
         :args:
@@ -236,8 +236,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setAttributeValue
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtOpenGL/QOpenGLShaderProgram-setAttributeValue-f-4.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtOpenGL/QOpenGLShaderProgram-setAttributeValue-f-16.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setAttributeValue
         :args:
@@ -266,8 +266,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setAttributeValue
         :args:
             str
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtOpenGL/QOpenGLShaderProgram-setAttributeValue-f-9.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtOpenGL/QOpenGLShaderProgram-setAttributeValue-f-17.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setAttributeValue
         :args:
@@ -365,8 +365,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setUniformValue
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtOpenGL/QOpenGLShaderProgram-setUniformValue-f-5.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtOpenGL/QOpenGLShaderProgram-setUniformValue-f-46.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setUniformValue
         :args:
@@ -485,8 +485,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setUniformValue
         :args:
             str
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtOpenGL/QOpenGLShaderProgram-setUniformValue-f-25.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtOpenGL/QOpenGLShaderProgram-setUniformValue-f-47.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.setUniformValue
         :args:

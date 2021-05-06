@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QGraphicsEffect`
     :description: QtWidgets/QGraphicsBlurEffect-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints
-        :description: QtWidgets/QGraphicsBlurEffect-BlurHints-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint
+        :description: QtWidgets/QGraphicsBlurEffect-BlurHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints.AnimationHint
-            :description: QtWidgets/QGraphicsBlurEffect-BlurHints-AnimationHint-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint.AnimationHint
+            :description: QtWidgets/QGraphicsBlurEffect-BlurHint-AnimationHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints.PerformanceHint
-            :description: QtWidgets/QGraphicsBlurEffect-BlurHints-PerformanceHint-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint.PerformanceHint
+            :description: QtWidgets/QGraphicsBlurEffect-BlurHint-PerformanceHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints.QualityHint
-            :description: QtWidgets/QGraphicsBlurEffect-BlurHints-QualityHint-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint.QualityHint
+            :description: QtWidgets/QGraphicsBlurEffect-BlurHint-QualityHint-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsBlurEffect.__init__
         :args:
@@ -23,8 +23,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsBlurEffect.blurHints
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints`
-        :description: QtWidgets/QGraphicsBlurEffect-blurHints-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint`
+        :description: QtWidgets/QGraphicsBlurEffect-blurHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsBlurEffect.blurRadius
         :returns:
@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsBlurEffect.setBlurHints
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints`
-        :description: QtWidgets/QGraphicsBlurEffect-setBlurHints-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint`
+        :description: QtWidgets/QGraphicsBlurEffect-setBlurHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsBlurEffect.setBlurRadius
         :args:
@@ -55,8 +55,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsBlurEffect.blurHintsChanged
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHints`
-        :description: QtWidgets/QGraphicsBlurEffect-blurHintsChanged-s.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsBlurEffect.BlurHint`
+        :description: QtWidgets/QGraphicsBlurEffect-blurHintsChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsBlurEffect.blurRadiusChanged
         :args:

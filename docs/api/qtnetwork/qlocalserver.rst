@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtNetwork/QLocalServer-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QLocalServer.SocketOptions
-        :description: QtNetwork/QLocalServer-SocketOptions-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QLocalServer.SocketOption
+        :description: QtNetwork/QLocalServer-SocketOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOptions.GroupAccessOption
-            :description: QtNetwork/QLocalServer-SocketOptions-GroupAccessOption-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.GroupAccessOption
+            :description: QtNetwork/QLocalServer-SocketOption-GroupAccessOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOptions.OtherAccessOption
-            :description: QtNetwork/QLocalServer-SocketOptions-OtherAccessOption-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.OtherAccessOption
+            :description: QtNetwork/QLocalServer-SocketOption-OtherAccessOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOptions.UserAccessOption
-            :description: QtNetwork/QLocalServer-SocketOptions-UserAccessOption-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.UserAccessOption
+            :description: QtNetwork/QLocalServer-SocketOption-UserAccessOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOptions.WorldAccessOption
-            :description: QtNetwork/QLocalServer-SocketOptions-WorldAccessOption-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.WorldAccessOption
+            :description: QtNetwork/QLocalServer-SocketOption-WorldAccessOption-v.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.__init__
         :args:
@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.setSocketOptions
         :args:
-            :sip:ref:`~PyQt6.QtNetwork.QLocalServer.SocketOptions`
-        :description: QtNetwork/QLocalServer-setSocketOptions-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QLocalServer.SocketOption`
+        :description: QtNetwork/QLocalServer-setSocketOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.socketDescriptor
         :returns:
@@ -111,8 +111,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.socketOptions
         :returns:
-            :sip:ref:`~PyQt6.QtNetwork.QLocalServer.SocketOptions`
-        :description: QtNetwork/QLocalServer-socketOptions-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QLocalServer.SocketOption`
+        :description: QtNetwork/QLocalServer-socketOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.waitForNewConnection
         :args:

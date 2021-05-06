@@ -4,32 +4,32 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtOpenGL/QOpenGLShader-c.rst
 
-    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType
-        :description: QtOpenGL/QOpenGLShader-ShaderType-e.rst
+    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit
+        :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-e.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.Compute
-            :description: QtOpenGL/QOpenGLShader-ShaderType-Compute-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.Compute
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-Compute-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.Fragment
-            :description: QtOpenGL/QOpenGLShader-ShaderType-Fragment-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.Fragment
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-Fragment-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.Geometry
-            :description: QtOpenGL/QOpenGLShader-ShaderType-Geometry-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.Geometry
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-Geometry-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.TessellationControl
-            :description: QtOpenGL/QOpenGLShader-ShaderType-TessellationControl-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.TessellationControl
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-TessellationControl-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.TessellationEvaluation
-            :description: QtOpenGL/QOpenGLShader-ShaderType-TessellationEvaluation-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.TessellationEvaluation
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-TessellationEvaluation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderType.Vertex
-            :description: QtOpenGL/QOpenGLShader-ShaderType-Vertex-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit.Vertex
+            :description: QtOpenGL/QOpenGLShader-ShaderTypeBit-Vertex-v.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.__init__
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtOpenGL/QOpenGLShader-__init__-f.rst
+        :description: QtOpenGL/QOpenGLShader-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.compileSourceCode
         :args:
@@ -54,12 +54,12 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.hasOpenGLShaders
         :args:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
             context: :sip:ref:`~PyQt6.QtGui.QOpenGLContext` = None
         :returns:
             bool
         :static:
-        :description: QtOpenGL/QOpenGLShader-hasOpenGLShaders-f.rst
+        :description: QtOpenGL/QOpenGLShader-hasOpenGLShaders-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.isCompiled
         :returns:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.shaderType
         :returns:
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderType`
-        :description: QtOpenGL/QOpenGLShader-shaderType-f.rst
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
+        :description: QtOpenGL/QOpenGLShader-shaderType-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.sourceCode
         :returns:

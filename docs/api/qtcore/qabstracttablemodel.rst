@@ -12,20 +12,20 @@
     .. sip:method:: PyQt6.QtCore.QAbstractTableModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QAbstractTableModel-dropMimeData-f.rst
+        :description: QtCore/QAbstractTableModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractTableModel.flags
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QAbstractTableModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QAbstractTableModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractTableModel.index
         :args:

@@ -20,8 +20,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QProgressBar-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QProgressBar-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.event
         :args:
@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QProgressBar-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QProgressBar-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.paintEvent
         :args:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QProgressBar-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QProgressBar-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setFormat
         :args:
@@ -103,8 +103,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QProgressBar-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QProgressBar-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setRange
         :args:

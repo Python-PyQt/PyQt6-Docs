@@ -4,26 +4,26 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QDialog`
     :description: QtWidgets/QFontDialog-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions
-        :description: QtWidgets/QFontDialog-FontDialogOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QFontDialog.FontDialogOption
+        :description: QtWidgets/QFontDialog-FontDialogOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.DontUseNativeDialog
-            :description: QtWidgets/QFontDialog-FontDialogOptions-DontUseNativeDialog-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.DontUseNativeDialog
+            :description: QtWidgets/QFontDialog-FontDialogOption-DontUseNativeDialog-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.MonospacedFonts
-            :description: QtWidgets/QFontDialog-FontDialogOptions-MonospacedFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.MonospacedFonts
+            :description: QtWidgets/QFontDialog-FontDialogOption-MonospacedFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.NoButtons
-            :description: QtWidgets/QFontDialog-FontDialogOptions-NoButtons-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.NoButtons
+            :description: QtWidgets/QFontDialog-FontDialogOption-NoButtons-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.NonScalableFonts
-            :description: QtWidgets/QFontDialog-FontDialogOptions-NonScalableFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.NonScalableFonts
+            :description: QtWidgets/QFontDialog-FontDialogOption-NonScalableFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.ProportionalFonts
-            :description: QtWidgets/QFontDialog-FontDialogOptions-ProportionalFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.ProportionalFonts
+            :description: QtWidgets/QFontDialog-FontDialogOption-ProportionalFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOptions.ScalableFonts
-            :description: QtWidgets/QFontDialog-FontDialogOptions-ScalableFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontDialog.FontDialogOption.ScalableFonts
+            :description: QtWidgets/QFontDialog-FontDialogOption-ScalableFonts-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.__init__
         :args:
@@ -73,12 +73,12 @@
             :sip:ref:`~PyQt6.QtGui.QFont`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             caption: str = ''
-            options: :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOptions` = QFontDialog.FontDialogOptions()
+            options: :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption` = QFontDialog.FontDialogOptions()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QFont`
             bool
         :static:
-        :description: QtWidgets/QFontDialog-getFont-f-1.rst
+        :description: QtWidgets/QFontDialog-getFont-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.open
         :description: QtWidgets/QFontDialog-open-f.rst
@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.options
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOptions`
-        :description: QtWidgets/QFontDialog-options-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption`
+        :description: QtWidgets/QFontDialog-options-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.selectedFont
         :returns:
@@ -105,14 +105,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption`
             on: bool = True
-        :description: QtWidgets/QFontDialog-setOption-f.rst
+        :description: QtWidgets/QFontDialog-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOptions`
-        :description: QtWidgets/QFontDialog-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption`
+        :description: QtWidgets/QFontDialog-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.setVisible
         :args:
@@ -121,10 +121,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption`
         :returns:
             bool
-        :description: QtWidgets/QFontDialog-testOption-f.rst
+        :description: QtWidgets/QFontDialog-testOption-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFontDialog.currentFontChanged
         :args:

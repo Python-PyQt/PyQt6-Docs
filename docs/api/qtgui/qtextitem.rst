@@ -3,20 +3,20 @@
 .. sip:class:: PyQt6.QtGui.QTextItem
     :description: QtGui/QTextItem-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QTextItem.RenderFlags
-        :description: QtGui/QTextItem-RenderFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QTextItem.RenderFlag
+        :description: QtGui/QTextItem-RenderFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlags.Overline
-            :description: QtGui/QTextItem-RenderFlags-Overline-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlag.Overline
+            :description: QtGui/QTextItem-RenderFlag-Overline-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlags.RightToLeft
-            :description: QtGui/QTextItem-RenderFlags-RightToLeft-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlag.RightToLeft
+            :description: QtGui/QTextItem-RenderFlag-RightToLeft-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlags.StrikeOut
-            :description: QtGui/QTextItem-RenderFlags-StrikeOut-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlag.StrikeOut
+            :description: QtGui/QTextItem-RenderFlag-StrikeOut-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlags.Underline
-            :description: QtGui/QTextItem-RenderFlags-Underline-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextItem.RenderFlag.Underline
+            :description: QtGui/QTextItem-RenderFlag-Underline-v.rst
 
     .. sip:method:: PyQt6.QtGui.QTextItem.__init__
         :description: QtGui/QTextItem-__init__-f.rst
@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextItem.renderFlags
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QTextItem.RenderFlags`
-        :description: QtGui/QTextItem-renderFlags-f.rst
+            :sip:ref:`~PyQt6.QtGui.QTextItem.RenderFlag`
+        :description: QtGui/QTextItem-renderFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextItem.text
         :returns:

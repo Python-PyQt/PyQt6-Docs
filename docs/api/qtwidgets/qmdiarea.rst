@@ -4,11 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea`
     :description: QtWidgets/QMdiArea-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QMdiArea.AreaOptions
-        :description: QtWidgets/QMdiArea-AreaOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QMdiArea.AreaOption
+        :description: QtWidgets/QMdiArea-AreaOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMdiArea.AreaOptions.DontMaximizeSubWindowOnActivation
-            :description: QtWidgets/QMdiArea-AreaOptions-DontMaximizeSubWindowOnActivation-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMdiArea.AreaOption.DontMaximizeSubWindowOnActivation
+            :description: QtWidgets/QMdiArea-AreaOption-DontMaximizeSubWindowOnActivation-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QMdiArea.ViewMode
         :description: QtWidgets/QMdiArea-ViewMode-e.rst
@@ -55,10 +55,10 @@
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.addSubWindow
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`
-        :description: QtWidgets/QMdiArea-addSubWindow-f.rst
+        :description: QtWidgets/QMdiArea-addSubWindow-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.background
         :returns:
@@ -142,8 +142,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QMdiArea-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QMdiArea-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.setDocumentMode
         :args:
@@ -152,9 +152,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QMdiArea.AreaOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QMdiArea.AreaOption`
             on: bool = True
-        :description: QtWidgets/QMdiArea-setOption-f.rst
+        :description: QtWidgets/QMdiArea-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.setTabPosition
         :args:
@@ -225,10 +225,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QMdiArea.AreaOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QMdiArea.AreaOption`
         :returns:
             bool
-        :description: QtWidgets/QMdiArea-testOption-f.rst
+        :description: QtWidgets/QMdiArea-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.tileSubWindows
         :description: QtWidgets/QMdiArea-tileSubWindows-f.rst

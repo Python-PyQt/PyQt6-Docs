@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextBlockFormat-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextBlockFormat-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.bottomMargin
         :returns:
@@ -102,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.pageBreakPolicy
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QTextFormat.PageBreakFlags`
-        :description: QtGui/QTextBlockFormat-pageBreakPolicy-f.rst
+            :sip:ref:`~PyQt6.QtGui.QTextFormat.PageBreakFlag`
+        :description: QtGui/QTextBlockFormat-pageBreakPolicy-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.rightMargin
         :returns:
@@ -112,8 +112,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextBlockFormat-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextBlockFormat-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.setBottomMargin
         :args:
@@ -153,8 +153,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.setPageBreakPolicy
         :args:
-            :sip:ref:`~PyQt6.QtGui.QTextFormat.PageBreakFlags`
-        :description: QtGui/QTextBlockFormat-setPageBreakPolicy-f.rst
+            :sip:ref:`~PyQt6.QtGui.QTextFormat.PageBreakFlag`
+        :description: QtGui/QTextBlockFormat-setPageBreakPolicy-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.setRightMargin
         :args:

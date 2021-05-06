@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QComboBox`
     :description: QtWidgets/QFontComboBox-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QFontComboBox.FontFilters
-        :description: QtWidgets/QFontComboBox-FontFilters-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QFontComboBox.FontFilter
+        :description: QtWidgets/QFontComboBox-FontFilter-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilters.AllFonts
-            :description: QtWidgets/QFontComboBox-FontFilters-AllFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilter.AllFonts
+            :description: QtWidgets/QFontComboBox-FontFilter-AllFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilters.MonospacedFonts
-            :description: QtWidgets/QFontComboBox-FontFilters-MonospacedFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilter.MonospacedFonts
+            :description: QtWidgets/QFontComboBox-FontFilter-MonospacedFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilters.NonScalableFonts
-            :description: QtWidgets/QFontComboBox-FontFilters-NonScalableFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilter.NonScalableFonts
+            :description: QtWidgets/QFontComboBox-FontFilter-NonScalableFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilters.ProportionalFonts
-            :description: QtWidgets/QFontComboBox-FontFilters-ProportionalFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilter.ProportionalFonts
+            :description: QtWidgets/QFontComboBox-FontFilter-ProportionalFonts-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilters.ScalableFonts
-            :description: QtWidgets/QFontComboBox-FontFilters-ScalableFonts-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QFontComboBox.FontFilter.ScalableFonts
+            :description: QtWidgets/QFontComboBox-FontFilter-ScalableFonts-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.__init__
         :args:
@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.fontFilters
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QFontComboBox.FontFilters`
-        :description: QtWidgets/QFontComboBox-fontFilters-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QFontComboBox.FontFilter`
+        :description: QtWidgets/QFontComboBox-fontFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setCurrentFont
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setFontFilters
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QFontComboBox.FontFilters`
-        :description: QtWidgets/QFontComboBox-setFontFilters-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QFontComboBox.FontFilter`
+        :description: QtWidgets/QFontComboBox-setFontFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setWritingSystem
         :args:

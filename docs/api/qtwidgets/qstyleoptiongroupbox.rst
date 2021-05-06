@@ -17,7 +17,7 @@
             :description: QtWidgets/QStyleOptionGroupBox-StyleOptionVersion-Version-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature`
         :description: QtWidgets/QStyleOptionGroupBox-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.lineWidth
@@ -33,11 +33,11 @@
         :description: QtWidgets/QStyleOptionGroupBox-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.textAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionGroupBox-textAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.textColor
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
         :description: QtWidgets/QStyleOptionGroupBox-textColor-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionGroupBox.__init__

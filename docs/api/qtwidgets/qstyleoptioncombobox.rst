@@ -41,7 +41,7 @@
         :description: QtWidgets/QStyleOptionComboBox-popupRect-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionComboBox.textAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionComboBox-textAlignment-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionComboBox.__init__

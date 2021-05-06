@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QListWidgetItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QListWidgetItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.font
         :returns:
@@ -116,8 +116,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QListWidgetItem-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QListWidgetItem-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setCheckState
         :args:
@@ -132,8 +132,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QListWidgetItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QListWidgetItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setFont
         :args:
@@ -142,8 +142,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QListWidgetItem-setForeground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QListWidgetItem-setForeground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setHidden
         :args:

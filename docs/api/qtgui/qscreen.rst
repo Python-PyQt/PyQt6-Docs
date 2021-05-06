@@ -6,11 +6,11 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.angleBetween
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
         :returns:
             int
-        :description: QtGui/QScreen-angleBetween-f.rst
+        :description: QtGui/QScreen-angleBetween-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.availableGeometry
         :returns:
@@ -60,17 +60,17 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.isLandscape
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
         :returns:
             bool
-        :description: QtGui/QScreen-isLandscape-f.rst
+        :description: QtGui/QScreen-isLandscape-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.isPortrait
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
         :returns:
             bool
-        :description: QtGui/QScreen-isPortrait-f.rst
+        :description: QtGui/QScreen-isPortrait-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.logicalDotsPerInch
         :returns:
@@ -94,12 +94,12 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.mapBetween
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
             :sip:ref:`~PyQt6.QtCore.QRect`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QScreen-mapBetween-f.rst
+        :description: QtGui/QScreen-mapBetween-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.model
         :returns:
@@ -113,13 +113,13 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.nativeOrientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QScreen-nativeOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QScreen-nativeOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QScreen-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QScreen-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.physicalDotsPerInch
         :returns:
@@ -143,8 +143,8 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.primaryOrientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QScreen-primaryOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QScreen-primaryOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.refreshRate
         :returns:
@@ -163,12 +163,12 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.transformBetween
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
             :sip:ref:`~PyQt6.QtCore.QRect`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTransform`
-        :description: QtGui/QScreen-transformBetween-f.rst
+        :description: QtGui/QScreen-transformBetween-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.virtualGeometry
         :returns:
@@ -209,8 +209,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QScreen.orientationChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QScreen-orientationChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QScreen-orientationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QScreen.physicalDotsPerInchChanged
         :args:
@@ -224,8 +224,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QScreen.primaryOrientationChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QScreen-primaryOrientationChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QScreen-primaryOrientationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QScreen.refreshRateChanged
         :args:

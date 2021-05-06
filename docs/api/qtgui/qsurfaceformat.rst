@@ -3,20 +3,20 @@
 .. sip:class:: PyQt6.QtGui.QSurfaceFormat
     :description: QtGui/QSurfaceFormat-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QSurfaceFormat.FormatOptions
-        :description: QtGui/QSurfaceFormat-FormatOptions-e.rst
+    .. sip:enum:: PyQt6.QtGui.QSurfaceFormat.FormatOption
+        :description: QtGui/QSurfaceFormat-FormatOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOptions.DebugContext
-            :description: QtGui/QSurfaceFormat-FormatOptions-DebugContext-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.DebugContext
+            :description: QtGui/QSurfaceFormat-FormatOption-DebugContext-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOptions.DeprecatedFunctions
-            :description: QtGui/QSurfaceFormat-FormatOptions-DeprecatedFunctions-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.DeprecatedFunctions
+            :description: QtGui/QSurfaceFormat-FormatOption-DeprecatedFunctions-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOptions.ResetNotification
-            :description: QtGui/QSurfaceFormat-FormatOptions-ResetNotification-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.ResetNotification
+            :description: QtGui/QSurfaceFormat-FormatOption-ResetNotification-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOptions.StereoBuffers
-            :description: QtGui/QSurfaceFormat-FormatOptions-StereoBuffers-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.StereoBuffers
+            :description: QtGui/QSurfaceFormat-FormatOption-StereoBuffers-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QSurfaceFormat.OpenGLContextProfile
         :description: QtGui/QSurfaceFormat-OpenGLContextProfile-e.rst
@@ -65,8 +65,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.__init__
         :args:
-            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOptions`
-        :description: QtGui/QSurfaceFormat-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption`
+        :description: QtGui/QSurfaceFormat-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.__init__
         :args:
@@ -135,8 +135,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.options
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOptions`
-        :description: QtGui/QSurfaceFormat-options-f.rst
+            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption`
+        :description: QtGui/QSurfaceFormat-options-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.profile
         :returns:
@@ -201,14 +201,14 @@
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.setOption
         :args:
-            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOptions`
+            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption`
             on: bool = True
-        :description: QtGui/QSurfaceFormat-setOption-f.rst
+        :description: QtGui/QSurfaceFormat-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOptions`
-        :description: QtGui/QSurfaceFormat-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption`
+        :description: QtGui/QSurfaceFormat-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.setProfile
         :args:
@@ -278,10 +278,10 @@
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.testOption
         :args:
-            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOptions`
+            :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption`
         :returns:
             bool
-        :description: QtGui/QSurfaceFormat-testOption-f.rst
+        :description: QtGui/QSurfaceFormat-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.version
         :returns:

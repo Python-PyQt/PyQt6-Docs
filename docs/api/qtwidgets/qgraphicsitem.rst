@@ -117,59 +117,59 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemChange.ItemZValueHasChanged
             :description: QtWidgets/QGraphicsItem-GraphicsItemChange-ItemZValueHasChanged-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags
-        :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag
+        :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemAcceptsInputMethod
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemAcceptsInputMethod-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemAcceptsInputMethod
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemAcceptsInputMethod-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemClipsChildrenToShape
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemClipsChildrenToShape-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemClipsChildrenToShape
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemClipsChildrenToShape-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemClipsToShape
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemClipsToShape-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemClipsToShape
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemClipsToShape-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemContainsChildrenInShape
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemContainsChildrenInShape-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemContainsChildrenInShape
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemContainsChildrenInShape-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemDoesntPropagateOpacityToChildren
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemDoesntPropagateOpacityToChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemDoesntPropagateOpacityToChildren
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemDoesntPropagateOpacityToChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemHasNoContents
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemHasNoContents-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemHasNoContents
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemHasNoContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIgnoresParentOpacity
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIgnoresParentOpacity-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIgnoresParentOpacity
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIgnoresParentOpacity-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIgnoresTransformations
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIgnoresTransformations-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIgnoresTransformations
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIgnoresTransformations-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIsFocusable
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIsFocusable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIsFocusable
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIsFocusable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIsMovable
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIsMovable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIsMovable
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIsMovable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIsPanel
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIsPanel-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIsPanel
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIsPanel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIsSelectable
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemIsSelectable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemIsSelectable
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemIsSelectable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemNegativeZStacksBehindParent
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemNegativeZStacksBehindParent-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemNegativeZStacksBehindParent
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemNegativeZStacksBehindParent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemSendsGeometryChanges
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemSendsGeometryChanges-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemSendsGeometryChanges
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemSendsGeometryChanges-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemSendsScenePositionChanges
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemSendsScenePositionChanges-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemSendsScenePositionChanges
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemSendsScenePositionChanges-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemStacksBehindParent
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemStacksBehindParent-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemStacksBehindParent
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemStacksBehindParent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemUsesExtendedStyleOption
-            :description: QtWidgets/QGraphicsItem-GraphicsItemFlags-ItemUsesExtendedStyleOption-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag.ItemUsesExtendedStyleOption
+            :description: QtWidgets/QGraphicsItem-GraphicsItemFlag-ItemUsesExtendedStyleOption-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QGraphicsItem.PanelModality
         :description: QtWidgets/QGraphicsItem-PanelModality-e.rst
@@ -207,8 +207,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.acceptedMouseButtons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsItem-acceptedMouseButtons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsItem-acceptedMouseButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.acceptHoverEvents
         :returns:
@@ -375,8 +375,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags`
-        :description: QtWidgets/QGraphicsItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag`
+        :description: QtWidgets/QGraphicsItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.focusInEvent
         :args:
@@ -449,15 +449,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.inputMethodHints
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints`
-        :description: QtWidgets/QGraphicsItem-inputMethodHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint`
+        :description: QtWidgets/QGraphicsItem-inputMethodHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QGraphicsItem-inputMethodQuery-f.rst
+        :description: QtWidgets/QGraphicsItem-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.installSceneEventFilter
         :args:
@@ -1116,8 +1116,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setAcceptedMouseButtons
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsItem-setAcceptedMouseButtons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsItem-setAcceptedMouseButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setAcceptHoverEvents
         :args:
@@ -1168,14 +1168,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags`
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag`
             enabled: bool = True
-        :description: QtWidgets/QGraphicsItem-setFlag-f.rst
+        :description: QtWidgets/QGraphicsItem-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags`
-        :description: QtWidgets/QGraphicsItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlag`
+        :description: QtWidgets/QGraphicsItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setFocus
         :args:
@@ -1199,8 +1199,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setInputMethodHints
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints`
-        :description: QtWidgets/QGraphicsItem-setInputMethodHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint`
+        :description: QtWidgets/QGraphicsItem-setInputMethodHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setOpacity
         :args:

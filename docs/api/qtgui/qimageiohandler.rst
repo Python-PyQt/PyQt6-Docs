@@ -60,32 +60,32 @@
         .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.ImageOption.SupportedSubTypes
             :description: QtGui/QImageIOHandler-ImageOption-SupportedSubTypes-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QImageIOHandler.Transformations
-        :description: QtGui/QImageIOHandler-Transformations-e.rst
+    .. sip:enum:: PyQt6.QtGui.QImageIOHandler.Transformation
+        :description: QtGui/QImageIOHandler-Transformation-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationFlip
-            :description: QtGui/QImageIOHandler-Transformations-TransformationFlip-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationFlip
+            :description: QtGui/QImageIOHandler-Transformation-TransformationFlip-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationFlipAndRotate90
-            :description: QtGui/QImageIOHandler-Transformations-TransformationFlipAndRotate90-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationFlipAndRotate90
+            :description: QtGui/QImageIOHandler-Transformation-TransformationFlipAndRotate90-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationMirror
-            :description: QtGui/QImageIOHandler-Transformations-TransformationMirror-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationMirror
+            :description: QtGui/QImageIOHandler-Transformation-TransformationMirror-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationMirrorAndRotate90
-            :description: QtGui/QImageIOHandler-Transformations-TransformationMirrorAndRotate90-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationMirrorAndRotate90
+            :description: QtGui/QImageIOHandler-Transformation-TransformationMirrorAndRotate90-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationNone
-            :description: QtGui/QImageIOHandler-Transformations-TransformationNone-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationNone
+            :description: QtGui/QImageIOHandler-Transformation-TransformationNone-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationRotate180
-            :description: QtGui/QImageIOHandler-Transformations-TransformationRotate180-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationRotate180
+            :description: QtGui/QImageIOHandler-Transformation-TransformationRotate180-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationRotate270
-            :description: QtGui/QImageIOHandler-Transformations-TransformationRotate270-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationRotate270
+            :description: QtGui/QImageIOHandler-Transformation-TransformationRotate270-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformations.TransformationRotate90
-            :description: QtGui/QImageIOHandler-Transformations-TransformationRotate90-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QImageIOHandler.Transformation.TransformationRotate90
+            :description: QtGui/QImageIOHandler-Transformation-TransformationRotate90-v.rst
 
     .. sip:method:: PyQt6.QtGui.QImageIOHandler.__init__
         :description: QtGui/QImageIOHandler-__init__-f.rst

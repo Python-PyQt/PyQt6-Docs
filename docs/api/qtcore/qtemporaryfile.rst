@@ -61,10 +61,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.open
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtCore/QTemporaryFile-open-f-1.rst
+        :description: QtCore/QTemporaryFile-open-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.rename
         :args:

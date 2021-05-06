@@ -7,20 +7,20 @@
     .. sip:method:: PyQt6.QtWidgets.QLabel.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QLabel-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QLabel-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.__init__
         :args:
             str
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QLabel-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QLabel-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLabel-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLabel-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.buddy
         :returns:
@@ -141,6 +141,11 @@
             :sip:ref:`~PyQt6.QtGui.QPixmap`
         :description: QtWidgets/QLabel-pixmap-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QLabel.resourceProvider
+        :returns:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :description: QtWidgets/QLabel-resourceProvider-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QLabel.selectedText
         :returns:
             str
@@ -153,8 +158,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLabel-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLabel-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setBuddy
         :args:
@@ -201,6 +206,11 @@
             :sip:ref:`~PyQt6.QtGui.QPixmap`
         :description: QtWidgets/QLabel-setPixmap-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QLabel.setResourceProvider
+        :args:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :description: QtWidgets/QLabel-setResourceProvider-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QLabel.setScaledContents
         :args:
             bool
@@ -224,8 +234,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setTextInteractionFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QLabel-setTextInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QLabel-setTextInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setWordWrap
         :args:
@@ -249,8 +259,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.textInteractionFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QLabel-textInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QLabel-textInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.wordWrap
         :returns:

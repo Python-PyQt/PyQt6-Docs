@@ -40,10 +40,10 @@
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.open
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtCore/QSaveFile-open-f.rst
+        :description: QtCore/QSaveFile-open-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.setDirectWriteFallback
         :args:

@@ -91,8 +91,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QFormLayout-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QFormLayout-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.fieldGrowthPolicy
         :returns:
@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.formAlignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QFormLayout-formAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QFormLayout-formAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.getItemPosition
         :args:
@@ -205,8 +205,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.labelAlignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QFormLayout-labelAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QFormLayout-labelAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.labelForField
         :args:
@@ -259,8 +259,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.setFormAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QFormLayout-setFormAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QFormLayout-setFormAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.setGeometry
         :args:
@@ -281,8 +281,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.setLabelAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QFormLayout-setLabelAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QFormLayout-setLabelAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.setLayout
         :args:

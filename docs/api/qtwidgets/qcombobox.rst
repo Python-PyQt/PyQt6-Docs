@@ -122,18 +122,18 @@
         :args:
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.UserRole`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = Qt.MatchExactly|Qt.MatchCaseSensitive
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchExactly|Qt.MatchCaseSensitive
         :returns:
             int
-        :description: QtWidgets/QComboBox-findData-f.rst
+        :description: QtWidgets/QComboBox-findData-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.findText
         :args:
             str
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = Qt.MatchExactly|Qt.MatchCaseSensitive
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchExactly|Qt.MatchCaseSensitive
         :returns:
             int
-        :description: QtWidgets/QComboBox-findText-f.rst
+        :description: QtWidgets/QComboBox-findText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.focusInEvent
         :args:
@@ -175,18 +175,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QComboBox-inputMethodQuery-f.rst
+        :description: QtWidgets/QComboBox-inputMethodQuery-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
             Any
         :returns:
             Any
-        :description: QtWidgets/QComboBox-inputMethodQuery-f-1.rst
+        :description: QtWidgets/QComboBox-inputMethodQuery-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.insertItem
         :args:

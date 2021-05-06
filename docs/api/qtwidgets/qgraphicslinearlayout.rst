@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem` = None
-        :description: QtWidgets/QGraphicsLinearLayout-__init__-f-1.rst
+        :description: QtWidgets/QGraphicsLinearLayout-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.addItem
         :args:
@@ -29,8 +29,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsLinearLayout-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsLinearLayout-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.count
         :returns:
@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QGraphicsLinearLayout-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QGraphicsLinearLayout-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.removeAt
         :args:
@@ -84,8 +84,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.setAlignment
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsLinearLayout-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsLinearLayout-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.setGeometry
         :args:
@@ -100,8 +100,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QGraphicsLinearLayout-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QGraphicsLinearLayout-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLinearLayout.setSpacing
         :args:

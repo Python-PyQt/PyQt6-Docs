@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsColorizeEffect.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtWidgets/QGraphicsColorizeEffect-setColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QGraphicsColorizeEffect-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsColorizeEffect.setStrength
         :args:
@@ -36,8 +36,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsColorizeEffect.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtWidgets/QGraphicsColorizeEffect-colorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QGraphicsColorizeEffect-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsColorizeEffect.strengthChanged
         :args:

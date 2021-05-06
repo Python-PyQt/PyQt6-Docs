@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtWidgets/QGraphicsEffect-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags
-        :description: QtWidgets/QGraphicsEffect-ChangeFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag
+        :description: QtWidgets/QGraphicsEffect-ChangeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags.SourceAttached
-            :description: QtWidgets/QGraphicsEffect-ChangeFlags-SourceAttached-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag.SourceAttached
+            :description: QtWidgets/QGraphicsEffect-ChangeFlag-SourceAttached-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags.SourceBoundingRectChanged
-            :description: QtWidgets/QGraphicsEffect-ChangeFlags-SourceBoundingRectChanged-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag.SourceBoundingRectChanged
+            :description: QtWidgets/QGraphicsEffect-ChangeFlag-SourceBoundingRectChanged-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags.SourceDetached
-            :description: QtWidgets/QGraphicsEffect-ChangeFlags-SourceDetached-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag.SourceDetached
+            :description: QtWidgets/QGraphicsEffect-ChangeFlag-SourceDetached-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags.SourceInvalidated
-            :description: QtWidgets/QGraphicsEffect-ChangeFlags-SourceInvalidated-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag.SourceInvalidated
+            :description: QtWidgets/QGraphicsEffect-ChangeFlag-SourceInvalidated-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QGraphicsEffect.PixmapPadMode
         :description: QtWidgets/QGraphicsEffect-PixmapPadMode-e.rst
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsEffect.sourceChanged
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsEffect.ChangeFlags`
-        :description: QtWidgets/QGraphicsEffect-sourceChanged-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsEffect.ChangeFlag`
+        :description: QtWidgets/QGraphicsEffect-sourceChanged-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsEffect.sourceIsPixmap
         :returns:

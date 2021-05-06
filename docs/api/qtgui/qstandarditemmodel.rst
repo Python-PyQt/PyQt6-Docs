@@ -59,29 +59,29 @@
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtGui/QStandardItemModel-dropMimeData-f.rst
+        :description: QtGui/QStandardItemModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.findItems
         :args:
             str
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags.MatchExactly`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag.MatchExactly`
             column: int = 0
         :returns:
             List[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
-        :description: QtGui/QStandardItemModel-findItems-f.rst
+        :description: QtGui/QStandardItemModel-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.flags
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtGui/QStandardItemModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtGui/QStandardItemModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.hasChildren
         :args:
@@ -93,11 +93,11 @@
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtGui/QStandardItemModel-headerData-f.rst
+        :description: QtGui/QStandardItemModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.horizontalHeaderItem
         :args:
@@ -277,12 +277,12 @@
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtGui/QStandardItemModel-setHeaderData-f.rst
+        :description: QtGui/QStandardItemModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setHorizontalHeaderItem
         :args:
@@ -360,8 +360,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtGui/QStandardItemModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtGui/QStandardItemModel-supportedDropActions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.takeColumn
         :args:

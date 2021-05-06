@@ -58,10 +58,10 @@
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`
             int
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
         :returns:
             bool
-        :description: QtWidgets/QTreeWidget-dropMimeData-f.rst
+        :description: QtWidgets/QTreeWidget-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.editItem
         :args:
@@ -84,11 +84,11 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.findItems
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags`
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
             column: int = 0
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
-        :description: QtWidgets/QTreeWidget-findItems-f.rst
+        :description: QtWidgets/QTreeWidget-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.headerItem
         :returns:
@@ -234,8 +234,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`
             int
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QTreeWidget-setCurrentItem-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QTreeWidget-setCurrentItem-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setHeaderItem
         :args:
@@ -277,8 +277,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QTreeWidget-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTreeWidget-supportedDropActions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.takeTopLevelItem
         :args:

@@ -41,13 +41,13 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.setCool
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-setCool-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-setCool-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.setDiffuse
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-setDiffuse-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-setDiffuse-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.setShininess
         :args:
@@ -56,13 +56,13 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.setSpecular
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-setSpecular-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-setSpecular-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.setWarm
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-setWarm-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-setWarm-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QGoochMaterial.shininess
         :returns:
@@ -91,13 +91,13 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QGoochMaterial.coolChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-coolChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-coolChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QGoochMaterial.diffuseChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-diffuseChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-diffuseChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QGoochMaterial.shininessChanged
         :args:
@@ -106,10 +106,10 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QGoochMaterial.specularChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-specularChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-specularChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QGoochMaterial.warmChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QGoochMaterial-warmChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QGoochMaterial-warmChanged-s-1.rst

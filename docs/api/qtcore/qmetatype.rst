@@ -258,32 +258,32 @@
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.Type.VoidStar
             :description: QtCore/QMetaType-Type-VoidStar-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QMetaType.TypeFlags
-        :description: QtCore/QMetaType-TypeFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QMetaType.TypeFlag
+        :description: QtCore/QMetaType-TypeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.IsEnumeration
-            :description: QtCore/QMetaType-TypeFlags-IsEnumeration-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsEnumeration
+            :description: QtCore/QMetaType-TypeFlag-IsEnumeration-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.IsPointer
-            :description: QtCore/QMetaType-TypeFlags-IsPointer-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsPointer
+            :description: QtCore/QMetaType-TypeFlag-IsPointer-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.IsQmlList
-            :description: QtCore/QMetaType-TypeFlags-IsQmlList-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsQmlList
+            :description: QtCore/QMetaType-TypeFlag-IsQmlList-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.IsUnsignedEnumeration
-            :description: QtCore/QMetaType-TypeFlags-IsUnsignedEnumeration-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsUnsignedEnumeration
+            :description: QtCore/QMetaType-TypeFlag-IsUnsignedEnumeration-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.NeedsConstruction
-            :description: QtCore/QMetaType-TypeFlags-NeedsConstruction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsConstruction
+            :description: QtCore/QMetaType-TypeFlag-NeedsConstruction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.NeedsDestruction
-            :description: QtCore/QMetaType-TypeFlags-NeedsDestruction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsDestruction
+            :description: QtCore/QMetaType-TypeFlag-NeedsDestruction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.PointerToQObject
-            :description: QtCore/QMetaType-TypeFlags-PointerToQObject-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.PointerToQObject
+            :description: QtCore/QMetaType-TypeFlag-PointerToQObject-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlags.RelocatableType
-            :description: QtCore/QMetaType-TypeFlags-RelocatableType-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.RelocatableType
+            :description: QtCore/QMetaType-TypeFlag-RelocatableType-v.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.__init__
         :description: QtCore/QMetaType-__init__-f.rst
@@ -325,8 +325,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMetaType.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QMetaType.TypeFlags`
-        :description: QtCore/QMetaType-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.QMetaType.TypeFlag`
+        :description: QtCore/QMetaType-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.fromName
         :args:
@@ -335,6 +335,11 @@
             :sip:ref:`~PyQt6.QtCore.QMetaType`
         :static:
         :description: QtCore/QMetaType-fromName-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.hasRegisteredDataStreamOperators
+        :returns:
+            bool
+        :description: QtCore/QMetaType-hasRegisteredDataStreamOperators-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.hasRegisteredDebugStreamOperator
         :returns:

@@ -42,8 +42,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.loadHints
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHints`
-        :description: QtCore/QPluginLoader-loadHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHint`
+        :description: QtCore/QPluginLoader-loadHints-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.setFileName
         :args:
@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.setLoadHints
         :args:
-            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHints`
-        :description: QtCore/QPluginLoader-setLoadHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHint`
+        :description: QtCore/QPluginLoader-setLoadHints-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.staticInstances
         :returns:

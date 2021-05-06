@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QProgressDialog-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QProgressDialog-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.__init__
         :args:
@@ -17,8 +17,8 @@
             int
             int
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QProgressDialog-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QProgressDialog-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.autoClose
         :returns:

@@ -153,10 +153,10 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignCenter`
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignCenter`
             mode: :sip:ref:`~PyQt6.QtGui.QIcon.Mode` = :sip:ref:`~PyQt6.QtGui.QIcon.Mode.Normal`
             state: :sip:ref:`~PyQt6.QtGui.QIcon.State` = :sip:ref:`~PyQt6.QtGui.QIcon.State.Off`
-        :description: QtGui/QIcon-paint-f.rst
+        :description: QtGui/QIcon-paint-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.paint
         :args:
@@ -165,10 +165,10 @@
             int
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignCenter`
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignCenter`
             mode: :sip:ref:`~PyQt6.QtGui.QIcon.Mode` = :sip:ref:`~PyQt6.QtGui.QIcon.Mode.Normal`
             state: :sip:ref:`~PyQt6.QtGui.QIcon.State` = :sip:ref:`~PyQt6.QtGui.QIcon.State.Off`
-        :description: QtGui/QIcon-paint-f-1.rst
+        :description: QtGui/QIcon-paint-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.pixmap
         :args:

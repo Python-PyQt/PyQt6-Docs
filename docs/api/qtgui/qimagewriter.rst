@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setTransformation
         :args:
-            :sip:ref:`~PyQt6.QtGui.QImageIOHandler.Transformations`
-        :description: QtGui/QImageWriter-setTransformation-f.rst
+            :sip:ref:`~PyQt6.QtGui.QImageIOHandler.Transformation`
+        :description: QtGui/QImageWriter-setTransformation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.subType
         :returns:
@@ -173,8 +173,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.transformation
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QImageIOHandler.Transformations`
-        :description: QtGui/QImageWriter-transformation-f.rst
+            :sip:ref:`~PyQt6.QtGui.QImageIOHandler.Transformation`
+        :description: QtGui/QImageWriter-transformation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.write
         :args:

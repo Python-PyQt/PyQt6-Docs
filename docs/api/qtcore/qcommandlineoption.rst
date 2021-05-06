@@ -3,14 +3,14 @@
 .. sip:class:: PyQt6.QtCore.QCommandLineOption
     :description: QtCore/QCommandLineOption-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QCommandLineOption.Flags
-        :description: QtCore/QCommandLineOption-Flags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QCommandLineOption.Flag
+        :description: QtCore/QCommandLineOption-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flags.HiddenFromHelp
-            :description: QtCore/QCommandLineOption-Flags-HiddenFromHelp-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flag.HiddenFromHelp
+            :description: QtCore/QCommandLineOption-Flag-HiddenFromHelp-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flags.ShortOptionStyle
-            :description: QtCore/QCommandLineOption-Flags-ShortOptionStyle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flag.ShortOptionStyle
+            :description: QtCore/QCommandLineOption-Flag-ShortOptionStyle-v.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
@@ -55,8 +55,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QCommandLineOption.Flags`
-        :description: QtCore/QCommandLineOption-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.QCommandLineOption.Flag`
+        :description: QtCore/QCommandLineOption-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.names
         :returns:
@@ -80,8 +80,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.QCommandLineOption.Flags`
-        :description: QtCore/QCommandLineOption-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.QCommandLineOption.Flag`
+        :description: QtCore/QCommandLineOption-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setValueName
         :args:

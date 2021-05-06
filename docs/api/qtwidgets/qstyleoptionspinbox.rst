@@ -25,7 +25,7 @@
         :description: QtWidgets/QStyleOptionSpinBox-frame-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionSpinBox.stepEnabled
-        :type: :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag`
         :description: QtWidgets/QStyleOptionSpinBox-stepEnabled-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionSpinBox.__init__

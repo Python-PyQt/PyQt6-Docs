@@ -73,17 +73,17 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtSql/QSqlTableModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtSql/QSqlTableModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtSql/QSqlTableModel-headerData-f.rst
+        :description: QtSql/QSqlTableModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.indexInQuery
         :args:

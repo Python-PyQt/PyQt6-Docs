@@ -24,9 +24,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QHeaderView-__init__-f.rst
+        :description: QtWidgets/QHeaderView-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.cascadingSectionResizes
         :returns:
@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.defaultAlignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QHeaderView-defaultAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QHeaderView-defaultAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.defaultSectionSize
         :returns:
@@ -70,10 +70,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.headerDataChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             int
             int
-        :description: QtWidgets/QHeaderView-headerDataChanged-f.rst
+        :description: QtWidgets/QHeaderView-headerDataChanged-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.hiddenSectionCount
         :returns:
@@ -143,6 +143,11 @@
         :returns:
             bool
         :description: QtWidgets/QHeaderView-isSectionHidden-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QHeaderView.isSortIndicatorClearable
+        :returns:
+            bool
+        :description: QtWidgets/QHeaderView-isSortIndicatorClearable-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.isSortIndicatorShown
         :returns:
@@ -221,10 +226,10 @@
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QHeaderView-moveCursor-f.rst
+        :description: QtWidgets/QHeaderView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.moveSection
         :args:
@@ -239,8 +244,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QHeaderView-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QHeaderView-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.paintEvent
         :args:
@@ -393,8 +398,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.setDefaultAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QHeaderView-setDefaultAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QHeaderView-setDefaultAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.setDefaultSectionSize
         :args:
@@ -474,14 +479,19 @@
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QHeaderView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QHeaderView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.setSortIndicator
         :args:
             int
             :sip:ref:`~PyQt6.QtCore.Qt.SortOrder`
         :description: QtWidgets/QHeaderView-setSortIndicator-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QHeaderView.setSortIndicatorClearable
+        :args:
+            bool
+        :description: QtWidgets/QHeaderView-setSortIndicatorClearable-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.setSortIndicatorShown
         :args:
@@ -635,3 +645,8 @@
             int
             :sip:ref:`~PyQt6.QtCore.Qt.SortOrder`
         :description: QtWidgets/QHeaderView-sortIndicatorChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtWidgets.QHeaderView.sortIndicatorClearableChanged
+        :args:
+            bool
+        :description: QtWidgets/QHeaderView-sortIndicatorClearableChanged-s.rst

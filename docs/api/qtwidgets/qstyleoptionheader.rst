@@ -63,11 +63,11 @@
         :description: QtWidgets/QStyleOptionHeader-icon-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.iconAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionHeader-iconAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.orientation
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
         :description: QtWidgets/QStyleOptionHeader-orientation-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.position
@@ -91,7 +91,7 @@
         :description: QtWidgets/QStyleOptionHeader-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.textAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionHeader-textAlignment-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionHeader.__init__

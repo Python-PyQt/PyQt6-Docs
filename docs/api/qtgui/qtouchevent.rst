@@ -8,9 +8,9 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             device: :sip:ref:`~PyQt6.QtGui.QPointingDevice` = None
-            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers.NoModifier`
+            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.NoModifier`
             touchPoints: Iterable[:sip:ref:`~PyQt6.QtGui.QEventPoint`] = []
-        :description: QtGui/QTouchEvent-__init__-f.rst
+        :description: QtGui/QTouchEvent-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTouchEvent.clone
         :returns:
@@ -39,5 +39,5 @@
 
     .. sip:method:: PyQt6.QtGui.QTouchEvent.touchPointStates
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QEventPoint.States`
-        :description: QtGui/QTouchEvent-touchPointStates-f.rst
+            :sip:ref:`~PyQt6.QtGui.QEventPoint.State`
+        :description: QtGui/QTouchEvent-touchPointStates-f-1.rst

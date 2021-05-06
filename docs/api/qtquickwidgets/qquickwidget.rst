@@ -181,8 +181,8 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setClearColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtQuickWidgets/QQuickWidget-setClearColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuickWidgets/QQuickWidget-setClearColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setFormat
         :args:

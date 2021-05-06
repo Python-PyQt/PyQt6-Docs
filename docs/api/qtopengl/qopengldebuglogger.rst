@@ -20,31 +20,31 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.disableMessages
         :args:
-            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources.AnySource`
-            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types.AnyType`
-            severities: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severities` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severities.AnySeverity`
-        :description: QtOpenGL/QOpenGLDebugLogger-disableMessages-f.rst
+            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.AnySource`
+            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.AnyType`
+            severities: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity.AnySeverity`
+        :description: QtOpenGL/QOpenGLDebugLogger-disableMessages-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.disableMessages
         :args:
             Iterable[int]
-            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources.AnySource`
-            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types.AnyType`
-        :description: QtOpenGL/QOpenGLDebugLogger-disableMessages-f-1.rst
+            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.AnySource`
+            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.AnyType`
+        :description: QtOpenGL/QOpenGLDebugLogger-disableMessages-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.enableMessages
         :args:
-            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources.AnySource`
-            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types.AnyType`
-            severities: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severities` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severities.AnySeverity`
-        :description: QtOpenGL/QOpenGLDebugLogger-enableMessages-f.rst
+            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.AnySource`
+            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.AnyType`
+            severities: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity.AnySeverity`
+        :description: QtOpenGL/QOpenGLDebugLogger-enableMessages-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.enableMessages
         :args:
             Iterable[int]
-            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources.AnySource`
-            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Types.AnyType`
-        :description: QtOpenGL/QOpenGLDebugLogger-enableMessages-f-1.rst
+            sources: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.AnySource`
+            types: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.AnyType`
+        :description: QtOpenGL/QOpenGLDebugLogger-enableMessages-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.initialize
         :returns:
@@ -83,8 +83,8 @@
         :args:
             str
             id: int = 0
-            source: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Sources.ApplicationSource`
-        :description: QtOpenGL/QOpenGLDebugLogger-pushGroup-f.rst
+            source: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.ApplicationSource`
+        :description: QtOpenGL/QOpenGLDebugLogger-pushGroup-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.startLogging
         :args:

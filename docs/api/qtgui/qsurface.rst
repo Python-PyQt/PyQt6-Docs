@@ -15,6 +15,9 @@
     .. sip:enum:: PyQt6.QtGui.QSurface.SurfaceType
         :description: QtGui/QSurface-SurfaceType-e.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QSurface.SurfaceType.Direct3DSurface
+            :description: QtGui/QSurface-SurfaceType-Direct3DSurface-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QSurface.SurfaceType.MetalSurface
             :description: QtGui/QSurface-SurfaceType-MetalSurface-v.rst
 

@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidgetItem.controlTypes
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-        :description: QtWidgets/QWidgetItem-controlTypes-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+        :description: QtWidgets/QWidgetItem-controlTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidgetItem.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QWidgetItem-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QWidgetItem-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidgetItem.geometry
         :returns:

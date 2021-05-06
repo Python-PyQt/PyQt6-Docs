@@ -102,10 +102,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QGraphicsTextItem-inputMethodQuery-f.rst
+        :description: QtWidgets/QGraphicsTextItem-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.isObscuredBy
         :args:
@@ -170,8 +170,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDefaultTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDocument
         :args:
@@ -210,8 +210,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setTextInteractionFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QGraphicsTextItem-setTextInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QGraphicsTextItem-setTextInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setTextWidth
         :args:
@@ -235,8 +235,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.textInteractionFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QGraphicsTextItem-textInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QGraphicsTextItem-textInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.textWidth
         :returns:

@@ -115,8 +115,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtGui/QStandardItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtGui/QStandardItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.font
         :returns:
@@ -297,8 +297,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QStandardItem-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QStandardItem-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setCheckable
         :args:
@@ -356,8 +356,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtGui/QStandardItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtGui/QStandardItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setFont
         :args:
@@ -366,8 +366,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QStandardItem-setForeground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QStandardItem-setForeground-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setIcon
         :args:
@@ -401,8 +401,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setTextAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QStandardItem-setTextAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QStandardItem-setTextAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setToolTip
         :args:
@@ -464,8 +464,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.textAlignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QStandardItem-textAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QStandardItem-textAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.toolTip
         :returns:

@@ -91,15 +91,15 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.open
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtCore/QIODevice-open-f.rst
+        :description: QtCore/QIODevice-open-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.openMode
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
-        :description: QtCore/QIODevice-openMode-f.rst
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
+        :description: QtCore/QIODevice-openMode-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.peek
         :args:
@@ -195,8 +195,8 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setOpenMode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
-        :description: QtCore/QIODevice-setOpenMode-f.rst
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
+        :description: QtCore/QIODevice-setOpenMode-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setTextModeEnabled
         :args:

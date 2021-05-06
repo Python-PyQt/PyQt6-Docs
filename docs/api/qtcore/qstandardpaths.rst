@@ -3,14 +3,14 @@
 .. sip:class:: PyQt6.QtCore.QStandardPaths
     :description: QtCore/QStandardPaths-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QStandardPaths.LocateOptions
-        :description: QtCore/QStandardPaths-LocateOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QStandardPaths.LocateOption
+        :description: QtCore/QStandardPaths-LocateOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.LocateOptions.LocateDirectory
-            :description: QtCore/QStandardPaths-LocateOptions-LocateDirectory-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.LocateOption.LocateDirectory
+            :description: QtCore/QStandardPaths-LocateOption-LocateDirectory-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.LocateOptions.LocateFile
-            :description: QtCore/QStandardPaths-LocateOptions-LocateFile-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile
+            :description: QtCore/QStandardPaths-LocateOption-LocateFile-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QStandardPaths.StandardLocation
         :description: QtCore/QStandardPaths-StandardLocation-e.rst
@@ -98,21 +98,21 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation`
             str
-            options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOptions` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOptions.LocateFile`
+            options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile`
         :returns:
             str
         :static:
-        :description: QtCore/QStandardPaths-locate-f.rst
+        :description: QtCore/QStandardPaths-locate-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.locateAll
         :args:
             :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation`
             str
-            options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOptions` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOptions.LocateFile`
+            options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile`
         :returns:
             List[str]
         :static:
-        :description: QtCore/QStandardPaths-locateAll-f.rst
+        :description: QtCore/QStandardPaths-locateAll-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.setTestModeEnabled
         :args:

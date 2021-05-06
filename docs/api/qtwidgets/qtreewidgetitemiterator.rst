@@ -3,68 +3,68 @@
 .. sip:class:: PyQt6.QtWidgets.QTreeWidgetItemIterator
     :description: QtWidgets/QTreeWidgetItemIterator-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags
-        :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag
+        :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.All
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-All-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-All-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Checked
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Checked-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Checked
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Checked-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Disabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Disabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Disabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Disabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.DragDisabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-DragDisabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.DragDisabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-DragDisabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.DragEnabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-DragEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.DragEnabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-DragEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.DropDisabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-DropDisabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.DropDisabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-DropDisabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.DropEnabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-DropEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.DropEnabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-DropEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Editable
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Editable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Editable
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Editable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Enabled
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Enabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Enabled
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Enabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.HasChildren
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-HasChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.HasChildren
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-HasChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Hidden
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Hidden-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Hidden
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Hidden-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.NoChildren
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-NoChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.NoChildren
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-NoChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.NotChecked
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-NotChecked-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.NotChecked
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-NotChecked-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.NotEditable
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-NotEditable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.NotEditable
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-NotEditable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.NotHidden
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-NotHidden-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.NotHidden
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-NotHidden-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.NotSelectable
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-NotSelectable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.NotSelectable
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-NotSelectable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Selectable
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Selectable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Selectable
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Selectable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Selected
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Selected-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Selected
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Selected-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.Unselected
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-Unselected-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.Unselected
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-Unselected-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.UserFlag
-            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlags-UserFlag-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.UserFlag
+            :description: QtWidgets/QTreeWidgetItemIterator-IteratorFlag-UserFlag-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
         :args:
@@ -74,14 +74,14 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`
-            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.All`
-        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All`
+        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`
-            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlags.All`
-        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-2.rst
+            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All`
+        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__iadd__
         :args:

@@ -117,8 +117,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.filterMode
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags`
-        :description: QtWidgets/QCompleter-filterMode-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
+        :description: QtWidgets/QCompleter-filterMode-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.maxVisibleItems
         :returns:
@@ -181,8 +181,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.setFilterMode
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags`
-        :description: QtWidgets/QCompleter-setFilterMode-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
+        :description: QtWidgets/QCompleter-setFilterMode-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.setMaxVisibleItems
         :args:

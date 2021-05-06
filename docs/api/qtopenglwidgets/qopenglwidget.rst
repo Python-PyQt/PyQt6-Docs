@@ -16,8 +16,8 @@
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtOpenGLWidgets/QOpenGLWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtOpenGLWidgets/QOpenGLWidget-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.context
         :returns:

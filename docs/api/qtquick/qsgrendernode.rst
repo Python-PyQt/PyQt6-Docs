@@ -4,52 +4,52 @@
     :inherits: :sip:ref:`~PyQt6.QtQuick.QSGNode`
     :description: QtQuick/QSGRenderNode-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGRenderNode.RenderingFlags
-        :description: QtQuick/QSGRenderNode-RenderingFlags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGRenderNode.RenderingFlag
+        :description: QtQuick/QSGRenderNode-RenderingFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlags.BoundedRectRendering
-            :description: QtQuick/QSGRenderNode-RenderingFlags-BoundedRectRendering-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlag.BoundedRectRendering
+            :description: QtQuick/QSGRenderNode-RenderingFlag-BoundedRectRendering-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlags.DepthAwareRendering
-            :description: QtQuick/QSGRenderNode-RenderingFlags-DepthAwareRendering-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlag.DepthAwareRendering
+            :description: QtQuick/QSGRenderNode-RenderingFlag-DepthAwareRendering-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlags.OpaqueRendering
-            :description: QtQuick/QSGRenderNode-RenderingFlags-OpaqueRendering-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.RenderingFlag.OpaqueRendering
+            :description: QtQuick/QSGRenderNode-RenderingFlag-OpaqueRendering-v.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGRenderNode.StateFlags
-        :description: QtQuick/QSGRenderNode-StateFlags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGRenderNode.StateFlag
+        :description: QtQuick/QSGRenderNode-StateFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.BlendState
-            :description: QtQuick/QSGRenderNode-StateFlags-BlendState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.BlendState
+            :description: QtQuick/QSGRenderNode-StateFlag-BlendState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.ColorState
-            :description: QtQuick/QSGRenderNode-StateFlags-ColorState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.ColorState
+            :description: QtQuick/QSGRenderNode-StateFlag-ColorState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.CullState
-            :description: QtQuick/QSGRenderNode-StateFlags-CullState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.CullState
+            :description: QtQuick/QSGRenderNode-StateFlag-CullState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.DepthState
-            :description: QtQuick/QSGRenderNode-StateFlags-DepthState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.DepthState
+            :description: QtQuick/QSGRenderNode-StateFlag-DepthState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.RenderTargetState
-            :description: QtQuick/QSGRenderNode-StateFlags-RenderTargetState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.RenderTargetState
+            :description: QtQuick/QSGRenderNode-StateFlag-RenderTargetState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.ScissorState
-            :description: QtQuick/QSGRenderNode-StateFlags-ScissorState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.ScissorState
+            :description: QtQuick/QSGRenderNode-StateFlag-ScissorState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.StencilState
-            :description: QtQuick/QSGRenderNode-StateFlags-StencilState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.StencilState
+            :description: QtQuick/QSGRenderNode-StateFlag-StencilState-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlags.ViewportState
-            :description: QtQuick/QSGRenderNode-StateFlags-ViewportState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRenderNode.StateFlag.ViewportState
+            :description: QtQuick/QSGRenderNode-StateFlag-ViewportState-v.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.__init__
         :description: QtQuick/QSGRenderNode-__init__-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.changedStates
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.StateFlags`
-        :description: QtQuick/QSGRenderNode-changedStates-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.StateFlag`
+        :description: QtQuick/QSGRenderNode-changedStates-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.clipList
         :returns:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.RenderingFlags`
-        :description: QtQuick/QSGRenderNode-flags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.RenderingFlag`
+        :description: QtQuick/QSGRenderNode-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.inheritedOpacity
         :returns:

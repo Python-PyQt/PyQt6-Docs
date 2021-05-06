@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerObjectInspectorInterface.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = {}
-        :description: QtDesigner/QDesignerObjectInspectorInterface-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = {}
+        :description: QtDesigner/QDesignerObjectInspectorInterface-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerObjectInspectorInterface.core
         :returns:

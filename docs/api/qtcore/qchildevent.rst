@@ -10,6 +10,12 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtCore/QChildEvent-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QChildEvent.__init__
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtCore.QObject`
+        :description: QtCore/QChildEvent-__init__-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QChildEvent.added
         :returns:
             bool

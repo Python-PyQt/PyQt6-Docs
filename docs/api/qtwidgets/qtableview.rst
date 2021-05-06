@@ -143,10 +143,10 @@
     .. sip:method:: PyQt6.QtWidgets.QTableView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QTableView-moveCursor-f.rst
+        :description: QtWidgets/QTableView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableView.paintEvent
         :args:
@@ -303,8 +303,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTableView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QTableView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QTableView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableView.setSelectionModel
         :args:

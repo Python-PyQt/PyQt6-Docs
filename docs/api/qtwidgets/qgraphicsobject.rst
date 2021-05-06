@@ -19,8 +19,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsObject.grabGesture
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlags` = Qt.GestureFlags()
-        :description: QtWidgets/QGraphicsObject-grabGesture-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlag` = Qt.GestureFlags()
+        :description: QtWidgets/QGraphicsObject-grabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsObject.ungrabGesture
         :args:

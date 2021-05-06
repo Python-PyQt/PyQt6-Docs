@@ -3,29 +3,29 @@
 .. sip:class:: PyQt6.QtNetwork.QNetworkProxy
     :description: QtNetwork/QNetworkProxy-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QNetworkProxy.Capabilities
-        :description: QtNetwork/QNetworkProxy-Capabilities-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QNetworkProxy.Capability
+        :description: QtNetwork/QNetworkProxy-Capability-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.CachingCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-CachingCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.CachingCapability
+            :description: QtNetwork/QNetworkProxy-Capability-CachingCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.HostNameLookupCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-HostNameLookupCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.HostNameLookupCapability
+            :description: QtNetwork/QNetworkProxy-Capability-HostNameLookupCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.ListeningCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-ListeningCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.ListeningCapability
+            :description: QtNetwork/QNetworkProxy-Capability-ListeningCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.SctpListeningCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-SctpListeningCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.SctpListeningCapability
+            :description: QtNetwork/QNetworkProxy-Capability-SctpListeningCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.SctpTunnelingCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-SctpTunnelingCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.SctpTunnelingCapability
+            :description: QtNetwork/QNetworkProxy-Capability-SctpTunnelingCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.TunnelingCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-TunnelingCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.TunnelingCapability
+            :description: QtNetwork/QNetworkProxy-Capability-TunnelingCapability-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capabilities.UdpTunnelingCapability
-            :description: QtNetwork/QNetworkProxy-Capabilities-UdpTunnelingCapability-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkProxy.Capability.UdpTunnelingCapability
+            :description: QtNetwork/QNetworkProxy-Capability-UdpTunnelingCapability-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QNetworkProxy.ProxyType
         :description: QtNetwork/QNetworkProxy-ProxyType-e.rst
@@ -73,8 +73,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.capabilities
         :returns:
-            :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.Capabilities`
-        :description: QtNetwork/QNetworkProxy-capabilities-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.Capability`
+        :description: QtNetwork/QNetworkProxy-capabilities-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.__eq__
         :args:
@@ -149,8 +149,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setCapabilities
         :args:
-            :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.Capabilities`
-        :description: QtNetwork/QNetworkProxy-setCapabilities-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.Capability`
+        :description: QtNetwork/QNetworkProxy-setCapabilities-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setHeader
         :args:

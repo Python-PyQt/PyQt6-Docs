@@ -4,45 +4,45 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QWidget`
     :description: QtWidgets/QMainWindow-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QMainWindow.DockOptions
-        :description: QtWidgets/QMainWindow-DockOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QMainWindow.DockOption
+        :description: QtWidgets/QMainWindow-DockOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.AllowNestedDocks
-            :description: QtWidgets/QMainWindow-DockOptions-AllowNestedDocks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.AllowNestedDocks
+            :description: QtWidgets/QMainWindow-DockOption-AllowNestedDocks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.AllowTabbedDocks
-            :description: QtWidgets/QMainWindow-DockOptions-AllowTabbedDocks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.AllowTabbedDocks
+            :description: QtWidgets/QMainWindow-DockOption-AllowTabbedDocks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.AnimatedDocks
-            :description: QtWidgets/QMainWindow-DockOptions-AnimatedDocks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.AnimatedDocks
+            :description: QtWidgets/QMainWindow-DockOption-AnimatedDocks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.ForceTabbedDocks
-            :description: QtWidgets/QMainWindow-DockOptions-ForceTabbedDocks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.ForceTabbedDocks
+            :description: QtWidgets/QMainWindow-DockOption-ForceTabbedDocks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.GroupedDragging
-            :description: QtWidgets/QMainWindow-DockOptions-GroupedDragging-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.GroupedDragging
+            :description: QtWidgets/QMainWindow-DockOption-GroupedDragging-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOptions.VerticalTabs
-            :description: QtWidgets/QMainWindow-DockOptions-VerticalTabs-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMainWindow.DockOption.VerticalTabs
+            :description: QtWidgets/QMainWindow-DockOption-VerticalTabs-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QMainWindow-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QMainWindow-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addDockWidget
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
-        :description: QtWidgets/QMainWindow-addDockWidget-f.rst
+        :description: QtWidgets/QMainWindow-addDockWidget-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addDockWidget
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QMainWindow-addDockWidget-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QMainWindow-addDockWidget-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addToolBar
         :args:
@@ -58,14 +58,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addToolBar
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
             :sip:ref:`~PyQt6.QtWidgets.QToolBar`
-        :description: QtWidgets/QMainWindow-addToolBar-f-2.rst
+        :description: QtWidgets/QMainWindow-addToolBar-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addToolBarBreak
         :args:
-            area: :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas` = :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas.TopToolBarArea`
-        :description: QtWidgets/QMainWindow-addToolBarBreak-f.rst
+            area: :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea` = :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea.TopToolBarArea`
+        :description: QtWidgets/QMainWindow-addToolBarBreak-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.centralWidget
         :returns:
@@ -81,8 +81,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.Corner`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QMainWindow-corner-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QMainWindow-corner-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.createPopupMenu
         :returns:
@@ -91,15 +91,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.dockOptions
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QMainWindow.DockOptions`
-        :description: QtWidgets/QMainWindow-dockOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QMainWindow.DockOption`
+        :description: QtWidgets/QMainWindow-dockOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.dockWidgetArea
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QMainWindow-dockWidgetArea-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QMainWindow-dockWidgetArea-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.documentMode
         :returns:
@@ -175,8 +175,8 @@
         :args:
             Iterable[:sip:ref:`~PyQt6.QtWidgets.QDockWidget`]
             Iterable[int]
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QMainWindow-resizeDocks-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QMainWindow-resizeDocks-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.restoreDockWidget
         :args:
@@ -213,8 +213,8 @@
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setCorner
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.Corner`
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QMainWindow-setCorner-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QMainWindow-setCorner-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setDockNestingEnabled
         :args:
@@ -223,8 +223,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setDockOptions
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QMainWindow.DockOptions`
-        :description: QtWidgets/QMainWindow-setDockOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QMainWindow.DockOption`
+        :description: QtWidgets/QMainWindow-setDockOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setDocumentMode
         :args:
@@ -253,9 +253,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setTabPosition
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
             :sip:ref:`~PyQt6.QtWidgets.QTabWidget.TabPosition`
-        :description: QtWidgets/QMainWindow-setTabPosition-f.rst
+        :description: QtWidgets/QMainWindow-setTabPosition-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.setTabShape
         :args:
@@ -276,8 +276,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QMainWindow-splitDockWidget-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QMainWindow-splitDockWidget-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.statusBar
         :returns:
@@ -299,10 +299,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.tabPosition
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QTabWidget.TabPosition`
-        :description: QtWidgets/QMainWindow-tabPosition-f.rst
+        :description: QtWidgets/QMainWindow-tabPosition-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.tabShape
         :returns:
@@ -318,8 +318,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QToolBar`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`
-        :description: QtWidgets/QMainWindow-toolBarArea-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`
+        :description: QtWidgets/QMainWindow-toolBarArea-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.toolBarBreak
         :args:

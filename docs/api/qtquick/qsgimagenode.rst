@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtQuick.QSGGeometryNode`
     :description: QtQuick/QSGImageNode-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode
-        :description: QtQuick/QSGImageNode-TextureCoordinatesTransformMode-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag
+        :description: QtQuick/QSGImageNode-TextureCoordinatesTransformFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode.MirrorHorizontally
-            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformMode-MirrorHorizontally-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag.MirrorHorizontally
+            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformFlag-MirrorHorizontally-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode.MirrorVertically
-            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformMode-MirrorVertically-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag.MirrorVertically
+            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformFlag-MirrorVertically-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode.NoTransform
-            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformMode-NoTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag.NoTransform
+            :description: QtQuick/QSGImageNode-TextureCoordinatesTransformFlag-NoTransform-v.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGImageNode.anisotropyLevel
         :returns:
@@ -42,9 +42,9 @@
             :sip:ref:`~PyQt6.QtQuick.QSGTexture`
             :sip:ref:`~PyQt6.QtCore.QRectF`
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode`
+            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag`
         :static:
-        :description: QtQuick/QSGImageNode-rebuildGeometry-f.rst
+        :description: QtQuick/QSGImageNode-rebuildGeometry-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGImageNode.rect
         :returns:
@@ -104,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGImageNode.setTextureCoordinatesTransform
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode`
-        :description: QtQuick/QSGImageNode-setTextureCoordinatesTransform-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag`
+        :description: QtQuick/QSGImageNode-setTextureCoordinatesTransform-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGImageNode.sourceRect
         :returns:
@@ -119,5 +119,5 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGImageNode.textureCoordinatesTransform
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformMode`
-        :description: QtQuick/QSGImageNode-textureCoordinatesTransform-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGImageNode.TextureCoordinatesTransformFlag`
+        :description: QtQuick/QSGImageNode-textureCoordinatesTransform-f-1.rst

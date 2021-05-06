@@ -90,55 +90,55 @@
         :args:
             type
             name: str = ''
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QObject-findChild-f.rst
+        :description: QtCore/QObject-findChild-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChild
         :args:
             tuple
             name: str = ''
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QObject-findChild-f-1.rst
+        :description: QtCore/QObject-findChild-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             type
             name: str = ''
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f.rst
+        :description: QtCore/QObject-findChildren-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             tuple
             name: str = ''
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f-1.rst
+        :description: QtCore/QObject-findChildren-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             type
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f-2.rst
+        :description: QtCore/QObject-findChildren-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             tuple
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f-3.rst
+        :description: QtCore/QObject-findChildren-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.__getattr__
         :args:

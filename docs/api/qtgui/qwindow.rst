@@ -66,8 +66,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.contentOrientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QWindow-contentOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QWindow-contentOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.create
         :description: QtGui/QWindow-create-f.rst
@@ -104,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtGui/QWindow-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtGui/QWindow-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.focusInEvent
         :args:
@@ -348,8 +348,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.reportContentOrientationChange
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QWindow-reportContentOrientationChange-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QWindow-reportContentOrientationChange-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.requestActivate
         :description: QtGui/QWindow-requestActivate-f.rst
@@ -400,14 +400,14 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
             on: bool = True
-        :description: QtGui/QWindow-setFlag-f.rst
+        :description: QtGui/QWindow-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtGui/QWindow-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtGui/QWindow-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setFormat
         :args:
@@ -559,13 +559,13 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.setWindowState
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindow-setWindowState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindow-setWindowState-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setWindowStates
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindow-setWindowStates-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindow-setWindowStates-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setX
         :args:
@@ -614,10 +614,10 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.startSystemResize
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Edges`
+            :sip:ref:`~PyQt6.QtCore.Qt.Edge`
         :returns:
             bool
-        :description: QtGui/QWindow-startSystemResize-f.rst
+        :description: QtGui/QWindow-startSystemResize-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.surfaceType
         :returns:
@@ -646,8 +646,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.type
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtGui/QWindow-type-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtGui/QWindow-type-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.unsetCursor
         :description: QtGui/QWindow-unsetCursor-f.rst
@@ -669,13 +669,13 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.windowState
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindow-windowState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindow-windowState-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.windowStates
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindow-windowStates-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindow-windowStates-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.winId
         :returns:
@@ -697,8 +697,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QWindow.contentOrientationChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientations`
-        :description: QtGui/QWindow-contentOrientationChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
+        :description: QtGui/QWindow-contentOrientationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QWindow.focusObjectChanged
         :args:
@@ -762,8 +762,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QWindow.windowStateChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtGui/QWindow-windowStateChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtGui/QWindow-windowStateChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QWindow.windowTitleChanged
         :args:

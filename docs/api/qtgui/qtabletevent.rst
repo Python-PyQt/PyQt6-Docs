@@ -16,10 +16,10 @@
             float
             float
             float
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtGui/QTabletEvent-__init__-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtGui/QTabletEvent-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTabletEvent.clone
         :returns:

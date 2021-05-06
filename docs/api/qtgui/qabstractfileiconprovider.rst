@@ -27,11 +27,11 @@
         .. sip:enum-member:: PyQt6.QtGui.QAbstractFileIconProvider.IconType.Trashcan
             :description: QtGui/QAbstractFileIconProvider-IconType-Trashcan-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QAbstractFileIconProvider.Options
-        :description: QtGui/QAbstractFileIconProvider-Options-e.rst
+    .. sip:enum:: PyQt6.QtGui.QAbstractFileIconProvider.Option
+        :description: QtGui/QAbstractFileIconProvider-Option-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QAbstractFileIconProvider.Options.DontUseCustomDirectoryIcons
-            :description: QtGui/QAbstractFileIconProvider-Options-DontUseCustomDirectoryIcons-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QAbstractFileIconProvider.Option.DontUseCustomDirectoryIcons
+            :description: QtGui/QAbstractFileIconProvider-Option-DontUseCustomDirectoryIcons-v.rst
 
     .. sip:method:: PyQt6.QtGui.QAbstractFileIconProvider.__init__
         :description: QtGui/QAbstractFileIconProvider-__init__-f.rst
@@ -52,13 +52,13 @@
 
     .. sip:method:: PyQt6.QtGui.QAbstractFileIconProvider.options
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QAbstractFileIconProvider.Options`
-        :description: QtGui/QAbstractFileIconProvider-options-f.rst
+            :sip:ref:`~PyQt6.QtGui.QAbstractFileIconProvider.Option`
+        :description: QtGui/QAbstractFileIconProvider-options-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAbstractFileIconProvider.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtGui.QAbstractFileIconProvider.Options`
-        :description: QtGui/QAbstractFileIconProvider-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtGui.QAbstractFileIconProvider.Option`
+        :description: QtGui/QAbstractFileIconProvider-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAbstractFileIconProvider.type
         :args:

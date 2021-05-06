@@ -146,8 +146,8 @@
     .. sip:method:: PyQt6.QtCore.QItemSelection.merge
         :args:
             :sip:ref:`~PyQt6.QtCore.QItemSelection`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtCore/QItemSelection-merge-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtCore/QItemSelection-merge-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelection.move
         :args:

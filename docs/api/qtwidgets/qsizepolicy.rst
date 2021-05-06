@@ -3,53 +3,53 @@
 .. sip:class:: PyQt6.QtWidgets.QSizePolicy
     :description: QtWidgets/QSizePolicy-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QSizePolicy.ControlTypes
-        :description: QtWidgets/QSizePolicy-ControlTypes-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QSizePolicy.ControlType
+        :description: QtWidgets/QSizePolicy-ControlType-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.ButtonBox
-            :description: QtWidgets/QSizePolicy-ControlTypes-ButtonBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.ButtonBox
+            :description: QtWidgets/QSizePolicy-ControlType-ButtonBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.CheckBox
-            :description: QtWidgets/QSizePolicy-ControlTypes-CheckBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.CheckBox
+            :description: QtWidgets/QSizePolicy-ControlType-CheckBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.ComboBox
-            :description: QtWidgets/QSizePolicy-ControlTypes-ComboBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.ComboBox
+            :description: QtWidgets/QSizePolicy-ControlType-ComboBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.DefaultType
-            :description: QtWidgets/QSizePolicy-ControlTypes-DefaultType-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.DefaultType
+            :description: QtWidgets/QSizePolicy-ControlType-DefaultType-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.Frame
-            :description: QtWidgets/QSizePolicy-ControlTypes-Frame-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.Frame
+            :description: QtWidgets/QSizePolicy-ControlType-Frame-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.GroupBox
-            :description: QtWidgets/QSizePolicy-ControlTypes-GroupBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.GroupBox
+            :description: QtWidgets/QSizePolicy-ControlType-GroupBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.Label
-            :description: QtWidgets/QSizePolicy-ControlTypes-Label-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.Label
+            :description: QtWidgets/QSizePolicy-ControlType-Label-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.Line
-            :description: QtWidgets/QSizePolicy-ControlTypes-Line-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.Line
+            :description: QtWidgets/QSizePolicy-ControlType-Line-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.LineEdit
-            :description: QtWidgets/QSizePolicy-ControlTypes-LineEdit-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.LineEdit
+            :description: QtWidgets/QSizePolicy-ControlType-LineEdit-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.PushButton
-            :description: QtWidgets/QSizePolicy-ControlTypes-PushButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.PushButton
+            :description: QtWidgets/QSizePolicy-ControlType-PushButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.RadioButton
-            :description: QtWidgets/QSizePolicy-ControlTypes-RadioButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.RadioButton
+            :description: QtWidgets/QSizePolicy-ControlType-RadioButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.Slider
-            :description: QtWidgets/QSizePolicy-ControlTypes-Slider-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.Slider
+            :description: QtWidgets/QSizePolicy-ControlType-Slider-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.SpinBox
-            :description: QtWidgets/QSizePolicy-ControlTypes-SpinBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.SpinBox
+            :description: QtWidgets/QSizePolicy-ControlType-SpinBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.TabWidget
-            :description: QtWidgets/QSizePolicy-ControlTypes-TabWidget-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.TabWidget
+            :description: QtWidgets/QSizePolicy-ControlType-TabWidget-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlTypes.ToolButton
-            :description: QtWidgets/QSizePolicy-ControlTypes-ToolButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QSizePolicy.ControlType.ToolButton
+            :description: QtWidgets/QSizePolicy-ControlType-ToolButton-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QSizePolicy.Policy
         :description: QtWidgets/QSizePolicy-Policy-e.rst
@@ -107,13 +107,13 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.Policy`
             :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.Policy`
-            type: :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes` = :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes.DefaultType`
-        :description: QtWidgets/QSizePolicy-__init__-f-3.rst
+            type: :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType` = :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType.DefaultType`
+        :description: QtWidgets/QSizePolicy-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.controlType
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-        :description: QtWidgets/QSizePolicy-controlType-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+        :description: QtWidgets/QSizePolicy-controlType-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.__eq__
         :args:
@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSizePolicy-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSizePolicy-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.__hash__
         :returns:
@@ -166,8 +166,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.setControlType
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-        :description: QtWidgets/QSizePolicy-setControlType-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+        :description: QtWidgets/QSizePolicy-setControlType-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSizePolicy.setHeightForWidth
         :args:

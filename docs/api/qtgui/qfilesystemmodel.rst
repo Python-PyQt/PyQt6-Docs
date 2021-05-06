@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
     :description: QtGui/QFileSystemModel-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QFileSystemModel.Options
-        :description: QtGui/QFileSystemModel-Options-e.rst
+    .. sip:enum:: PyQt6.QtGui.QFileSystemModel.Option
+        :description: QtGui/QFileSystemModel-Option-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Options.DontResolveSymlinks
-            :description: QtGui/QFileSystemModel-Options-DontResolveSymlinks-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Option.DontResolveSymlinks
+            :description: QtGui/QFileSystemModel-Option-DontResolveSymlinks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Options.DontUseCustomDirectoryIcons
-            :description: QtGui/QFileSystemModel-Options-DontUseCustomDirectoryIcons-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Option.DontUseCustomDirectoryIcons
+            :description: QtGui/QFileSystemModel-Option-DontUseCustomDirectoryIcons-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Options.DontWatchForChanges
-            :description: QtGui/QFileSystemModel-Options-DontWatchForChanges-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Option.DontWatchForChanges
+            :description: QtGui/QFileSystemModel-Option-DontWatchForChanges-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QFileSystemModel.Roles
         :description: QtGui/QFileSystemModel-Roles-e.rst
@@ -61,13 +61,13 @@
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtGui/QFileSystemModel-dropMimeData-f.rst
+        :description: QtGui/QFileSystemModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.event
         :args:
@@ -111,15 +111,15 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.filter
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QDir.Filters`
-        :description: QtGui/QFileSystemModel-filter-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.Filter`
+        :description: QtGui/QFileSystemModel-filter-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.flags
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtGui/QFileSystemModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtGui/QFileSystemModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.hasChildren
         :args:
@@ -131,11 +131,11 @@
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtGui/QFileSystemModel-headerData-f.rst
+        :description: QtGui/QFileSystemModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.iconProvider
         :returns:
@@ -217,8 +217,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.options
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Options`
-        :description: QtGui/QFileSystemModel-options-f.rst
+            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Option`
+        :description: QtGui/QFileSystemModel-options-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.parent
         :args:
@@ -231,8 +231,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
-        :description: QtGui/QFileSystemModel-permissions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :description: QtGui/QFileSystemModel-permissions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.remove
         :args:
@@ -286,8 +286,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setFilter
         :args:
-            :sip:ref:`~PyQt6.QtCore.QDir.Filters`
-        :description: QtGui/QFileSystemModel-setFilter-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.Filter`
+        :description: QtGui/QFileSystemModel-setFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setIconProvider
         :args:
@@ -306,14 +306,14 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setOption
         :args:
-            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Options`
+            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Option`
             on: bool = True
-        :description: QtGui/QFileSystemModel-setOption-f.rst
+        :description: QtGui/QFileSystemModel-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Options`
-        :description: QtGui/QFileSystemModel-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Option`
+        :description: QtGui/QFileSystemModel-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setReadOnly
         :args:
@@ -356,15 +356,15 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtGui/QFileSystemModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtGui/QFileSystemModel-supportedDropActions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.testOption
         :args:
-            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Options`
+            :sip:ref:`~PyQt6.QtGui.QFileSystemModel.Option`
         :returns:
             bool
-        :description: QtGui/QFileSystemModel-testOption-f.rst
+        :description: QtGui/QFileSystemModel-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.timerEvent
         :args:

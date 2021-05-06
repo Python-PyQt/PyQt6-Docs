@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpacerItem.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSpacerItem-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSpacerItem-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSpacerItem.geometry
         :returns:

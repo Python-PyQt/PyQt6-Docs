@@ -19,23 +19,23 @@
         .. sip:enum-member:: PyQt6.QtCore.QTextStream.FieldAlignment.AlignRight
             :description: QtCore/QTextStream-FieldAlignment-AlignRight-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QTextStream.NumberFlags
-        :description: QtCore/QTextStream-NumberFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QTextStream.NumberFlag
+        :description: QtCore/QTextStream-NumberFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlags.ForcePoint
-            :description: QtCore/QTextStream-NumberFlags-ForcePoint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlag.ForcePoint
+            :description: QtCore/QTextStream-NumberFlag-ForcePoint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlags.ForceSign
-            :description: QtCore/QTextStream-NumberFlags-ForceSign-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlag.ForceSign
+            :description: QtCore/QTextStream-NumberFlag-ForceSign-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlags.ShowBase
-            :description: QtCore/QTextStream-NumberFlags-ShowBase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlag.ShowBase
+            :description: QtCore/QTextStream-NumberFlag-ShowBase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlags.UppercaseBase
-            :description: QtCore/QTextStream-NumberFlags-UppercaseBase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlag.UppercaseBase
+            :description: QtCore/QTextStream-NumberFlag-UppercaseBase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlags.UppercaseDigits
-            :description: QtCore/QTextStream-NumberFlags-UppercaseDigits-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QTextStream.NumberFlag.UppercaseDigits
+            :description: QtCore/QTextStream-NumberFlag-UppercaseDigits-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QTextStream.RealNumberNotation
         :description: QtCore/QTextStream-RealNumberNotation-e.rst
@@ -75,8 +75,8 @@
     .. sip:method:: PyQt6.QtCore.QTextStream.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
-        :description: QtCore/QTextStream-__init__-f-2.rst
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
+        :description: QtCore/QTextStream-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTextStream.atEnd
         :returns:
@@ -163,8 +163,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTextStream.numberFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QTextStream.NumberFlags`
-        :description: QtCore/QTextStream-numberFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTextStream.NumberFlag`
+        :description: QtCore/QTextStream-numberFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTextStream.padChar
         :returns:
@@ -267,8 +267,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTextStream.setNumberFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.QTextStream.NumberFlags`
-        :description: QtCore/QTextStream-setNumberFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTextStream.NumberFlag`
+        :description: QtCore/QTextStream-setNumberFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTextStream.setPadChar
         :args:

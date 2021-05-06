@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtCore/QEventLoop-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QEventLoop.ProcessEventFlags
-        :description: QtCore/QEventLoop-ProcessEventFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag
+        :description: QtCore/QEventLoop-ProcessEventsFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventFlags.AllEvents
-            :description: QtCore/QEventLoop-ProcessEventFlags-AllEvents-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.AllEvents
+            :description: QtCore/QEventLoop-ProcessEventsFlag-AllEvents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventFlags.ExcludeSocketNotifiers
-            :description: QtCore/QEventLoop-ProcessEventFlags-ExcludeSocketNotifiers-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.ExcludeSocketNotifiers
+            :description: QtCore/QEventLoop-ProcessEventsFlag-ExcludeSocketNotifiers-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventFlags.ExcludeUserInputEvents
-            :description: QtCore/QEventLoop-ProcessEventFlags-ExcludeUserInputEvents-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.ExcludeUserInputEvents
+            :description: QtCore/QEventLoop-ProcessEventsFlag-ExcludeUserInputEvents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventFlags.WaitForMoreEvents
-            :description: QtCore/QEventLoop-ProcessEventFlags-WaitForMoreEvents-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.WaitForMoreEvents
+            :description: QtCore/QEventLoop-ProcessEventsFlag-WaitForMoreEvents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventFlags.X11ExcludeTimers
-            :description: QtCore/QEventLoop-ProcessEventFlags-X11ExcludeTimers-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.X11ExcludeTimers
+            :description: QtCore/QEventLoop-ProcessEventsFlag-X11ExcludeTimers-v.rst
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.__init__
         :args:
@@ -36,10 +36,10 @@
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.exec
         :args:
-            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags.AllEvents`
+            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag.AllEvents`
         :returns:
             int
-        :description: QtCore/QEventLoop-exec-f.rst
+        :description: QtCore/QEventLoop-exec-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.exit
         :args:
@@ -53,16 +53,16 @@
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.processEvents
         :args:
-            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags.AllEvents`
+            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag.AllEvents`
         :returns:
             bool
-        :description: QtCore/QEventLoop-processEvents-f.rst
+        :description: QtCore/QEventLoop-processEvents-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.processEvents
         :args:
-            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags`
+            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag`
             int
-        :description: QtCore/QEventLoop-processEvents-f-1.rst
+        :description: QtCore/QEventLoop-processEvents-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QEventLoop.quit
         :description: QtCore/QEventLoop-quit-f.rst

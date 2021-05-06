@@ -351,8 +351,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabTextColor
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTabBar-setTabTextColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTabBar-setTabTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabToolTip
         :args:

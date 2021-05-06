@@ -27,8 +27,8 @@
             :sip:ref:`~PyQt6.QtGui.QContextMenuEvent.Reason`
             :sip:ref:`~PyQt6.QtCore.QPoint`
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers.NoModifier`
-        :description: QtGui/QContextMenuEvent-__init__-f-1.rst
+            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.NoModifier`
+        :description: QtGui/QContextMenuEvent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QContextMenuEvent.clone
         :returns:

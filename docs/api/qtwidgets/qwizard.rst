@@ -37,59 +37,59 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardButton.Stretch
             :description: QtWidgets/QWizard-WizardButton-Stretch-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QWizard.WizardOptions
-        :description: QtWidgets/QWizard-WizardOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QWizard.WizardOption
+        :description: QtWidgets/QWizard-WizardOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.CancelButtonOnLeft
-            :description: QtWidgets/QWizard-WizardOptions-CancelButtonOnLeft-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.CancelButtonOnLeft
+            :description: QtWidgets/QWizard-WizardOption-CancelButtonOnLeft-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.DisabledBackButtonOnLastPage
-            :description: QtWidgets/QWizard-WizardOptions-DisabledBackButtonOnLastPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.DisabledBackButtonOnLastPage
+            :description: QtWidgets/QWizard-WizardOption-DisabledBackButtonOnLastPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.ExtendedWatermarkPixmap
-            :description: QtWidgets/QWizard-WizardOptions-ExtendedWatermarkPixmap-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.ExtendedWatermarkPixmap
+            :description: QtWidgets/QWizard-WizardOption-ExtendedWatermarkPixmap-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton1
-            :description: QtWidgets/QWizard-WizardOptions-HaveCustomButton1-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton1
+            :description: QtWidgets/QWizard-WizardOption-HaveCustomButton1-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton2
-            :description: QtWidgets/QWizard-WizardOptions-HaveCustomButton2-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton2
+            :description: QtWidgets/QWizard-WizardOption-HaveCustomButton2-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton3
-            :description: QtWidgets/QWizard-WizardOptions-HaveCustomButton3-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton3
+            :description: QtWidgets/QWizard-WizardOption-HaveCustomButton3-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveFinishButtonOnEarlyPages
-            :description: QtWidgets/QWizard-WizardOptions-HaveFinishButtonOnEarlyPages-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveFinishButtonOnEarlyPages
+            :description: QtWidgets/QWizard-WizardOption-HaveFinishButtonOnEarlyPages-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveHelpButton
-            :description: QtWidgets/QWizard-WizardOptions-HaveHelpButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveHelpButton
+            :description: QtWidgets/QWizard-WizardOption-HaveHelpButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HaveNextButtonOnLastPage
-            :description: QtWidgets/QWizard-WizardOptions-HaveNextButtonOnLastPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HaveNextButtonOnLastPage
+            :description: QtWidgets/QWizard-WizardOption-HaveNextButtonOnLastPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.HelpButtonOnRight
-            :description: QtWidgets/QWizard-WizardOptions-HelpButtonOnRight-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.HelpButtonOnRight
+            :description: QtWidgets/QWizard-WizardOption-HelpButtonOnRight-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.IgnoreSubTitles
-            :description: QtWidgets/QWizard-WizardOptions-IgnoreSubTitles-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.IgnoreSubTitles
+            :description: QtWidgets/QWizard-WizardOption-IgnoreSubTitles-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.IndependentPages
-            :description: QtWidgets/QWizard-WizardOptions-IndependentPages-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.IndependentPages
+            :description: QtWidgets/QWizard-WizardOption-IndependentPages-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.NoBackButtonOnLastPage
-            :description: QtWidgets/QWizard-WizardOptions-NoBackButtonOnLastPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoBackButtonOnLastPage
+            :description: QtWidgets/QWizard-WizardOption-NoBackButtonOnLastPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.NoBackButtonOnStartPage
-            :description: QtWidgets/QWizard-WizardOptions-NoBackButtonOnStartPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoBackButtonOnStartPage
+            :description: QtWidgets/QWizard-WizardOption-NoBackButtonOnStartPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.NoCancelButton
-            :description: QtWidgets/QWizard-WizardOptions-NoCancelButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoCancelButton
+            :description: QtWidgets/QWizard-WizardOption-NoCancelButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.NoCancelButtonOnLastPage
-            :description: QtWidgets/QWizard-WizardOptions-NoCancelButtonOnLastPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoCancelButtonOnLastPage
+            :description: QtWidgets/QWizard-WizardOption-NoCancelButtonOnLastPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOptions.NoDefaultButton
-            :description: QtWidgets/QWizard-WizardOptions-NoDefaultButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoDefaultButton
+            :description: QtWidgets/QWizard-WizardOption-NoDefaultButton-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QWizard.WizardPixmap
         :description: QtWidgets/QWizard-WizardPixmap-e.rst
@@ -124,8 +124,8 @@
     .. sip:method:: PyQt6.QtWidgets.QWizard.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QWizard-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QWizard-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.addPage
         :args:
@@ -207,8 +207,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.options
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions`
-        :description: QtWidgets/QWizard-options-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption`
+        :description: QtWidgets/QWizard-options-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.page
         :args:
@@ -279,14 +279,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption`
             on: bool = True
-        :description: QtWidgets/QWizard-setOption-f.rst
+        :description: QtWidgets/QWizard-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions`
-        :description: QtWidgets/QWizard-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption`
+        :description: QtWidgets/QWizard-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setPage
         :args:
@@ -352,10 +352,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption`
         :returns:
             bool
-        :description: QtWidgets/QWizard-testOption-f.rst
+        :description: QtWidgets/QWizard-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.titleFormat
         :returns:

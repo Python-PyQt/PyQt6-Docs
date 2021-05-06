@@ -18,8 +18,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneContextMenuEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtWidgets/QGraphicsSceneContextMenuEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtWidgets/QGraphicsSceneContextMenuEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneContextMenuEvent.pos
         :returns:

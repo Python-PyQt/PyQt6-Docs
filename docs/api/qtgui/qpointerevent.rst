@@ -50,8 +50,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPointerEvent.pointerType
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QPointingDevice.PointerTypes`
-        :description: QtGui/QPointerEvent-pointerType-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPointingDevice.PointerType`
+        :description: QtGui/QPointerEvent-pointerType-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPointerEvent.pointingDevice
         :returns:

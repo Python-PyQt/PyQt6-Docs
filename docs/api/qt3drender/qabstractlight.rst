@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractLight.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DRender/QAbstractLight-setColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DRender/QAbstractLight-setColor-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractLight.setIntensity
         :args:
@@ -43,8 +43,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QAbstractLight.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DRender/QAbstractLight-colorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DRender/QAbstractLight-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QAbstractLight.intensityChanged
         :args:

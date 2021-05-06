@@ -4,26 +4,26 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QDialog`
     :description: QtPrintSupport/QAbstractPrintDialog-c.rst
 
-    .. sip:enum:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions
-        :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-e.rst
+    .. sip:enum:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption
+        :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintCollateCopies
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintCollateCopies-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintCollateCopies
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintCollateCopies-v.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintCurrentPage
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintCurrentPage-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintCurrentPage
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintCurrentPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintPageRange
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintPageRange-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintPageRange
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintPageRange-v.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintSelection
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintSelection-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintSelection
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintSelection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintShowPageSize
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintShowPageSize-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintShowPageSize
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintShowPageSize-v.rst
 
-        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOptions.PrintToFile
-            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOptions-PrintToFile-v.rst
+        .. sip:enum-member:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintDialogOption.PrintToFile
+            :description: QtPrintSupport/QAbstractPrintDialog-PrintDialogOption-PrintToFile-v.rst
 
     .. sip:enum:: PyQt6.QtPrintSupport.QAbstractPrintDialog.PrintRange
         :description: QtPrintSupport/QAbstractPrintDialog-PrintRange-e.rst

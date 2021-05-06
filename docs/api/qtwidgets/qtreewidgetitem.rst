@@ -144,8 +144,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QTreeWidgetItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QTreeWidgetItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.font
         :args:
@@ -244,8 +244,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setBackground
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTreeWidgetItem-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTreeWidgetItem-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setCheckState
         :args:
@@ -282,8 +282,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QTreeWidgetItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QTreeWidgetItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setFont
         :args:
@@ -294,8 +294,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setForeground
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTreeWidgetItem-setForeground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTreeWidgetItem-setForeground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setHidden
         :args:

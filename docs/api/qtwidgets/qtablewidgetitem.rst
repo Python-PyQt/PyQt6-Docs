@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QTableWidgetItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QTableWidgetItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.font
         :returns:
@@ -113,8 +113,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTableWidgetItem-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTableWidgetItem-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setCheckState
         :args:
@@ -129,8 +129,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtWidgets/QTableWidgetItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtWidgets/QTableWidgetItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setFont
         :args:
@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTableWidgetItem-setForeground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTableWidgetItem-setForeground-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setIcon
         :args:

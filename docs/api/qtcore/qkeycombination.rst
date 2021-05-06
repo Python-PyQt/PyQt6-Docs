@@ -15,15 +15,15 @@
 
     .. sip:method:: PyQt6.QtCore.QKeyCombination.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Modifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.Modifier`
             key: :sip:ref:`~PyQt6.QtCore.Qt.Key` = :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_unknown`
-        :description: QtCore/QKeyCombination-__init__-f-2.rst
+        :description: QtCore/QKeyCombination-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QKeyCombination.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             key: :sip:ref:`~PyQt6.QtCore.Qt.Key` = :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_unknown`
-        :description: QtCore/QKeyCombination-__init__-f-3.rst
+        :description: QtCore/QKeyCombination-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QKeyCombination.__eq__
         :args:
@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtCore.QKeyCombination.keyboardModifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtCore/QKeyCombination-keyboardModifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtCore/QKeyCombination-keyboardModifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QKeyCombination.__ne__
         :args:

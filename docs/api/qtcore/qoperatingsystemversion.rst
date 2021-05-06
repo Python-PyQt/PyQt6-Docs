@@ -27,6 +27,18 @@
         .. sip:enum-member:: PyQt6.QtCore.QOperatingSystemVersion.OSType.Windows
             :description: QtCore/QOperatingSystemVersion-OSType-Windows-v.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Android10
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Android10-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Android11
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Android11-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.AndroidJellyBean
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
         :const:
@@ -86,6 +98,18 @@
         :const:
         :static:
         :description: QtCore/QOperatingSystemVersion-AndroidOreo-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.AndroidOreo_MR1
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-AndroidOreo_MR1-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.AndroidPie
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-AndroidPie-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSBigSur
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
@@ -241,3 +265,8 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion.OSType`
         :description: QtCore/QOperatingSystemVersion-type-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.version
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QVersionNumber`
+        :description: QtCore/QOperatingSystemVersion-version-f.rst

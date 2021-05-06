@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerWidgetBoxInterface.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtDesigner/QDesignerWidgetBoxInterface-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtDesigner/QDesignerWidgetBoxInterface-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerWidgetBoxInterface.fileName
         :returns:

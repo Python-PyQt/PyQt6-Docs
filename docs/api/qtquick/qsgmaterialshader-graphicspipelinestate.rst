@@ -63,20 +63,20 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor.Zero
             :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendFactor-Zero-v.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMask
-        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMask-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMask.A
-            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMask-A-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent.A
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-A-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMask.B
-            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMask-B-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent.B
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-B-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMask.G
-            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMask-G-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent.G
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-G-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMask.R
-            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMask-R-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent.R
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-R-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.CullMode
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-CullMode-e.rst

@@ -3,26 +3,26 @@
 .. sip:class:: PyQt6.QtGui.QTextOption
     :description: QtGui/QTextOption-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QTextOption.Flags
-        :description: QtGui/QTextOption-Flags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QTextOption.Flag
+        :description: QtGui/QTextOption-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.AddSpaceForLineAndParagraphSeparators
-            :description: QtGui/QTextOption-Flags-AddSpaceForLineAndParagraphSeparators-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.AddSpaceForLineAndParagraphSeparators
+            :description: QtGui/QTextOption-Flag-AddSpaceForLineAndParagraphSeparators-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.IncludeTrailingSpaces
-            :description: QtGui/QTextOption-Flags-IncludeTrailingSpaces-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.IncludeTrailingSpaces
+            :description: QtGui/QTextOption-Flag-IncludeTrailingSpaces-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.ShowDocumentTerminator
-            :description: QtGui/QTextOption-Flags-ShowDocumentTerminator-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.ShowDocumentTerminator
+            :description: QtGui/QTextOption-Flag-ShowDocumentTerminator-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.ShowLineAndParagraphSeparators
-            :description: QtGui/QTextOption-Flags-ShowLineAndParagraphSeparators-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.ShowLineAndParagraphSeparators
+            :description: QtGui/QTextOption-Flag-ShowLineAndParagraphSeparators-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.ShowTabsAndSpaces
-            :description: QtGui/QTextOption-Flags-ShowTabsAndSpaces-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.ShowTabsAndSpaces
+            :description: QtGui/QTextOption-Flag-ShowTabsAndSpaces-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flags.SuppressColors
-            :description: QtGui/QTextOption-Flags-SuppressColors-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.SuppressColors
+            :description: QtGui/QTextOption-Flag-SuppressColors-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QTextOption.TabType
         :description: QtGui/QTextOption-TabType-e.rst
@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextOption.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextOption-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextOption-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.__init__
         :args:
@@ -72,23 +72,23 @@
 
     .. sip:method:: PyQt6.QtGui.QTextOption.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextOption-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextOption-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.flags
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QTextOption.Flags`
-        :description: QtGui/QTextOption-flags-f.rst
+            :sip:ref:`~PyQt6.QtGui.QTextOption.Flag`
+        :description: QtGui/QTextOption-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextOption-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextOption-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtGui.QTextOption.Flags`
-        :description: QtGui/QTextOption-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtGui.QTextOption.Flag`
+        :description: QtGui/QTextOption-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.setTabArray
         :args:

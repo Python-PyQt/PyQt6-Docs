@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDataWidgetMapper.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QDataWidgetMapper-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QDataWidgetMapper-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDataWidgetMapper.removeMapping
         :args:
@@ -110,8 +110,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDataWidgetMapper.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QDataWidgetMapper-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QDataWidgetMapper-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDataWidgetMapper.setRootIndex
         :args:

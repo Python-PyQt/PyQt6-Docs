@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QDialog`
     :description: QtWidgets/QColorDialog-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QColorDialog.ColorDialogOptions
-        :description: QtWidgets/QColorDialog-ColorDialogOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption
+        :description: QtWidgets/QColorDialog-ColorDialogOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOptions.DontUseNativeDialog
-            :description: QtWidgets/QColorDialog-ColorDialogOptions-DontUseNativeDialog-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.DontUseNativeDialog
+            :description: QtWidgets/QColorDialog-ColorDialogOption-DontUseNativeDialog-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOptions.NoButtons
-            :description: QtWidgets/QColorDialog-ColorDialogOptions-NoButtons-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.NoButtons
+            :description: QtWidgets/QColorDialog-ColorDialogOption-NoButtons-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOptions.ShowAlphaChannel
-            :description: QtWidgets/QColorDialog-ColorDialogOptions-ShowAlphaChannel-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.ShowAlphaChannel
+            :description: QtWidgets/QColorDialog-ColorDialogOption-ShowAlphaChannel-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.__init__
         :args:
@@ -23,9 +23,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QColorDialog-__init__-f-1.rst
+        :description: QtWidgets/QColorDialog-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.changeEvent
         :args:
@@ -58,14 +58,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.getColor
         :args:
-            initial: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.white`
+            initial: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.white`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             title: str = ''
-            options: :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOptions` = QColorDialog.ColorDialogOptions()
+            options: :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption` = QColorDialog.ColorDialogOptions()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColor`
         :static:
-        :description: QtWidgets/QColorDialog-getColor-f.rst
+        :description: QtWidgets/QColorDialog-getColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.open
         :description: QtWidgets/QColorDialog-open-f.rst
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.options
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOptions`
-        :description: QtWidgets/QColorDialog-options-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption`
+        :description: QtWidgets/QColorDialog-options-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.selectedColor
         :returns:
@@ -87,33 +87,33 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setCurrentColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtWidgets/QColorDialog-setCurrentColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QColorDialog-setCurrentColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setCustomColor
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :static:
-        :description: QtWidgets/QColorDialog-setCustomColor-f.rst
+        :description: QtWidgets/QColorDialog-setCustomColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption`
             on: bool = True
-        :description: QtWidgets/QColorDialog-setOption-f.rst
+        :description: QtWidgets/QColorDialog-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOptions`
-        :description: QtWidgets/QColorDialog-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption`
+        :description: QtWidgets/QColorDialog-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setStandardColor
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :static:
-        :description: QtWidgets/QColorDialog-setStandardColor-f.rst
+        :description: QtWidgets/QColorDialog-setStandardColor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.setVisible
         :args:
@@ -130,17 +130,17 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption`
         :returns:
             bool
-        :description: QtWidgets/QColorDialog-testOption-f.rst
+        :description: QtWidgets/QColorDialog-testOption-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QColorDialog.colorSelected
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtWidgets/QColorDialog-colorSelected-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QColorDialog-colorSelected-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QColorDialog.currentColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtWidgets/QColorDialog-currentColorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QColorDialog-currentColorChanged-s-1.rst

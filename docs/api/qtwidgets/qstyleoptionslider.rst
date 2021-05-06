@@ -21,7 +21,7 @@
         :description: QtWidgets/QStyleOptionSlider-dialWrapping-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionSlider.keyboardModifiers
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :description: QtWidgets/QStyleOptionSlider-keyboardModifiers-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionSlider.maximum
@@ -37,7 +37,7 @@
         :description: QtWidgets/QStyleOptionSlider-notchTarget-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionSlider.orientation
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
         :description: QtWidgets/QStyleOptionSlider-orientation-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionSlider.pageStep

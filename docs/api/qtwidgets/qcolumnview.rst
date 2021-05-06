@@ -54,10 +54,10 @@
     .. sip:method:: PyQt6.QtWidgets.QColumnView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QColumnView-moveCursor-f.rst
+        :description: QtWidgets/QColumnView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColumnView.previewWidget
         :returns:
@@ -124,8 +124,8 @@
     .. sip:method:: PyQt6.QtWidgets.QColumnView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QColumnView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QColumnView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColumnView.setSelectionModel
         :args:

@@ -3,50 +3,50 @@
 .. sip:class:: PyQt6.QtCore.Qt
     :description: QtCore/Qt-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.Alignment
-        :description: QtCore/Qt-Alignment-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.AlignmentFlag
+        :description: QtCore/Qt-AlignmentFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignAbsolute
-            :description: QtCore/Qt-Alignment-AlignAbsolute-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignAbsolute
+            :description: QtCore/Qt-AlignmentFlag-AlignAbsolute-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignBaseline
-            :description: QtCore/Qt-Alignment-AlignBaseline-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignBaseline
+            :description: QtCore/Qt-AlignmentFlag-AlignBaseline-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignBottom
-            :description: QtCore/Qt-Alignment-AlignBottom-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignBottom
+            :description: QtCore/Qt-AlignmentFlag-AlignBottom-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignCenter
-            :description: QtCore/Qt-Alignment-AlignCenter-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignCenter
+            :description: QtCore/Qt-AlignmentFlag-AlignCenter-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignHCenter
-            :description: QtCore/Qt-Alignment-AlignHCenter-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignHCenter
+            :description: QtCore/Qt-AlignmentFlag-AlignHCenter-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignHorizontal_Mask
-            :description: QtCore/Qt-Alignment-AlignHorizontal_Mask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignHorizontal_Mask
+            :description: QtCore/Qt-AlignmentFlag-AlignHorizontal_Mask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignJustify
-            :description: QtCore/Qt-Alignment-AlignJustify-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignJustify
+            :description: QtCore/Qt-AlignmentFlag-AlignJustify-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignLeading
-            :description: QtCore/Qt-Alignment-AlignLeading-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignLeading
+            :description: QtCore/Qt-AlignmentFlag-AlignLeading-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignLeft
-            :description: QtCore/Qt-Alignment-AlignLeft-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft
+            :description: QtCore/Qt-AlignmentFlag-AlignLeft-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignRight
-            :description: QtCore/Qt-Alignment-AlignRight-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignRight
+            :description: QtCore/Qt-AlignmentFlag-AlignRight-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignTop
-            :description: QtCore/Qt-Alignment-AlignTop-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignTop
+            :description: QtCore/Qt-AlignmentFlag-AlignTop-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignTrailing
-            :description: QtCore/Qt-Alignment-AlignTrailing-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignTrailing
+            :description: QtCore/Qt-AlignmentFlag-AlignTrailing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignVCenter
-            :description: QtCore/Qt-Alignment-AlignVCenter-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignVCenter
+            :description: QtCore/Qt-AlignmentFlag-AlignVCenter-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Alignment.AlignVertical_Mask
-            :description: QtCore/Qt-Alignment-AlignVertical_Mask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.AlignmentFlag.AlignVertical_Mask
+            :description: QtCore/Qt-AlignmentFlag-AlignVertical_Mask-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.AnchorPoint
         :description: QtCore/Qt-AnchorPoint-e.rst
@@ -147,20 +147,20 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_UseStyleSheetPropagationInWidgetStyles
             :description: QtCore/Qt-ApplicationAttribute-AA_UseStyleSheetPropagationInWidgetStyles-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.ApplicationStates
-        :description: QtCore/Qt-ApplicationStates-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.ApplicationState
+        :description: QtCore/Qt-ApplicationState-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationStates.ApplicationActive
-            :description: QtCore/Qt-ApplicationStates-ApplicationActive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationState.ApplicationActive
+            :description: QtCore/Qt-ApplicationState-ApplicationActive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationStates.ApplicationHidden
-            :description: QtCore/Qt-ApplicationStates-ApplicationHidden-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationState.ApplicationHidden
+            :description: QtCore/Qt-ApplicationState-ApplicationHidden-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationStates.ApplicationInactive
-            :description: QtCore/Qt-ApplicationStates-ApplicationInactive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationState.ApplicationInactive
+            :description: QtCore/Qt-ApplicationState-ApplicationInactive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationStates.ApplicationSuspended
-            :description: QtCore/Qt-ApplicationStates-ApplicationSuspended-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationState.ApplicationSuspended
+            :description: QtCore/Qt-ApplicationState-ApplicationSuspended-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.ArrowType
         :description: QtCore/Qt-ArrowType-e.rst
@@ -504,62 +504,62 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.DayOfWeek.Wednesday
             :description: QtCore/Qt-DayOfWeek-Wednesday-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.DockWidgetAreas
-        :description: QtCore/Qt-DockWidgetAreas-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.DockWidgetArea
+        :description: QtCore/Qt-DockWidgetArea-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.AllDockWidgetAreas
-            :description: QtCore/Qt-DockWidgetAreas-AllDockWidgetAreas-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.AllDockWidgetAreas
+            :description: QtCore/Qt-DockWidgetArea-AllDockWidgetAreas-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.BottomDockWidgetArea
-            :description: QtCore/Qt-DockWidgetAreas-BottomDockWidgetArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.BottomDockWidgetArea
+            :description: QtCore/Qt-DockWidgetArea-BottomDockWidgetArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.LeftDockWidgetArea
-            :description: QtCore/Qt-DockWidgetAreas-LeftDockWidgetArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.LeftDockWidgetArea
+            :description: QtCore/Qt-DockWidgetArea-LeftDockWidgetArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.NoDockWidgetArea
-            :description: QtCore/Qt-DockWidgetAreas-NoDockWidgetArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.NoDockWidgetArea
+            :description: QtCore/Qt-DockWidgetArea-NoDockWidgetArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.RightDockWidgetArea
-            :description: QtCore/Qt-DockWidgetAreas-RightDockWidgetArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.RightDockWidgetArea
+            :description: QtCore/Qt-DockWidgetArea-RightDockWidgetArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetAreas.TopDockWidgetArea
-            :description: QtCore/Qt-DockWidgetAreas-TopDockWidgetArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DockWidgetArea.TopDockWidgetArea
+            :description: QtCore/Qt-DockWidgetArea-TopDockWidgetArea-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.DropActions
-        :description: QtCore/Qt-DropActions-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.DropAction
+        :description: QtCore/Qt-DropAction-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.ActionMask
-            :description: QtCore/Qt-DropActions-ActionMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.ActionMask
+            :description: QtCore/Qt-DropAction-ActionMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.CopyAction
-            :description: QtCore/Qt-DropActions-CopyAction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.CopyAction
+            :description: QtCore/Qt-DropAction-CopyAction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.IgnoreAction
-            :description: QtCore/Qt-DropActions-IgnoreAction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.IgnoreAction
+            :description: QtCore/Qt-DropAction-IgnoreAction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.LinkAction
-            :description: QtCore/Qt-DropActions-LinkAction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.LinkAction
+            :description: QtCore/Qt-DropAction-LinkAction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.MoveAction
-            :description: QtCore/Qt-DropActions-MoveAction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.MoveAction
+            :description: QtCore/Qt-DropAction-MoveAction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.DropActions.TargetMoveAction
-            :description: QtCore/Qt-DropActions-TargetMoveAction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.DropAction.TargetMoveAction
+            :description: QtCore/Qt-DropAction-TargetMoveAction-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.Edges
-        :description: QtCore/Qt-Edges-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.Edge
+        :description: QtCore/Qt-Edge-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Edges.BottomEdge
-            :description: QtCore/Qt-Edges-BottomEdge-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Edge.BottomEdge
+            :description: QtCore/Qt-Edge-BottomEdge-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Edges.LeftEdge
-            :description: QtCore/Qt-Edges-LeftEdge-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Edge.LeftEdge
+            :description: QtCore/Qt-Edge-LeftEdge-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Edges.RightEdge
-            :description: QtCore/Qt-Edges-RightEdge-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Edge.RightEdge
+            :description: QtCore/Qt-Edge-RightEdge-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Edges.TopEdge
-            :description: QtCore/Qt-Edges-TopEdge-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Edge.TopEdge
+            :description: QtCore/Qt-Edge-TopEdge-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.EnterKeyType
         :description: QtCore/Qt-EnterKeyType-e.rst
@@ -609,14 +609,14 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.FillRule.WindingFill
             :description: QtCore/Qt-FillRule-WindingFill-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.FindChildOptions
-        :description: QtCore/Qt-FindChildOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.FindChildOption
+        :description: QtCore/Qt-FindChildOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively
-            :description: QtCore/Qt-FindChildOptions-FindChildrenRecursively-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively
+            :description: QtCore/Qt-FindChildOption-FindChildrenRecursively-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.FindChildOptions.FindDirectChildrenOnly
-            :description: QtCore/Qt-FindChildOptions-FindDirectChildrenOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.FindChildOption.FindDirectChildrenOnly
+            :description: QtCore/Qt-FindChildOption-FindDirectChildrenOnly-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.FocusPolicy
         :description: QtCore/Qt-FocusPolicy-e.rst
@@ -666,17 +666,17 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.FocusReason.TabFocusReason
             :description: QtCore/Qt-FocusReason-TabFocusReason-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.GestureFlags
-        :description: QtCore/Qt-GestureFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.GestureFlag
+        :description: QtCore/Qt-GestureFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlags.DontStartGestureOnChildren
-            :description: QtCore/Qt-GestureFlags-DontStartGestureOnChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlag.DontStartGestureOnChildren
+            :description: QtCore/Qt-GestureFlag-DontStartGestureOnChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlags.IgnoredGesturesPropagateToParent
-            :description: QtCore/Qt-GestureFlags-IgnoredGesturesPropagateToParent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlag.IgnoredGesturesPropagateToParent
+            :description: QtCore/Qt-GestureFlag-IgnoredGesturesPropagateToParent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlags.ReceivePartialGestures
-            :description: QtCore/Qt-GestureFlags-ReceivePartialGestures-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.GestureFlag.ReceivePartialGestures
+            :description: QtCore/Qt-GestureFlag-ReceivePartialGestures-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.GestureState
         :description: QtCore/Qt-GestureState-e.rst
@@ -804,182 +804,182 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.HitTestAccuracy.FuzzyHit
             :description: QtCore/Qt-HitTestAccuracy-FuzzyHit-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.ImageConversionFlags
-        :description: QtCore/Qt-ImageConversionFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.ImageConversionFlag
+        :description: QtCore/Qt-ImageConversionFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor
-            :description: QtCore/Qt-ImageConversionFlags-AutoColor-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor
+            :description: QtCore/Qt-ImageConversionFlag-AutoColor-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.AutoDither
-            :description: QtCore/Qt-ImageConversionFlags-AutoDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.AutoDither
+            :description: QtCore/Qt-ImageConversionFlag-AutoDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.AvoidDither
-            :description: QtCore/Qt-ImageConversionFlags-AvoidDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.AvoidDither
+            :description: QtCore/Qt-ImageConversionFlag-AvoidDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.ColorOnly
-            :description: QtCore/Qt-ImageConversionFlags-ColorOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.ColorOnly
+            :description: QtCore/Qt-ImageConversionFlag-ColorOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.DiffuseAlphaDither
-            :description: QtCore/Qt-ImageConversionFlags-DiffuseAlphaDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.DiffuseAlphaDither
+            :description: QtCore/Qt-ImageConversionFlag-DiffuseAlphaDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.DiffuseDither
-            :description: QtCore/Qt-ImageConversionFlags-DiffuseDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.DiffuseDither
+            :description: QtCore/Qt-ImageConversionFlag-DiffuseDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.MonoOnly
-            :description: QtCore/Qt-ImageConversionFlags-MonoOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.MonoOnly
+            :description: QtCore/Qt-ImageConversionFlag-MonoOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.NoFormatConversion
-            :description: QtCore/Qt-ImageConversionFlags-NoFormatConversion-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.NoFormatConversion
+            :description: QtCore/Qt-ImageConversionFlag-NoFormatConversion-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.NoOpaqueDetection
-            :description: QtCore/Qt-ImageConversionFlags-NoOpaqueDetection-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.NoOpaqueDetection
+            :description: QtCore/Qt-ImageConversionFlag-NoOpaqueDetection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.OrderedAlphaDither
-            :description: QtCore/Qt-ImageConversionFlags-OrderedAlphaDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.OrderedAlphaDither
+            :description: QtCore/Qt-ImageConversionFlag-OrderedAlphaDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.OrderedDither
-            :description: QtCore/Qt-ImageConversionFlags-OrderedDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.OrderedDither
+            :description: QtCore/Qt-ImageConversionFlag-OrderedDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.PreferDither
-            :description: QtCore/Qt-ImageConversionFlags-PreferDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.PreferDither
+            :description: QtCore/Qt-ImageConversionFlag-PreferDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.ThresholdAlphaDither
-            :description: QtCore/Qt-ImageConversionFlags-ThresholdAlphaDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.ThresholdAlphaDither
+            :description: QtCore/Qt-ImageConversionFlag-ThresholdAlphaDither-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlags.ThresholdDither
-            :description: QtCore/Qt-ImageConversionFlags-ThresholdDither-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ImageConversionFlag.ThresholdDither
+            :description: QtCore/Qt-ImageConversionFlag-ThresholdDither-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.InputMethodHints
-        :description: QtCore/Qt-InputMethodHints-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.InputMethodHint
+        :description: QtCore/Qt-InputMethodHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhDate
-            :description: QtCore/Qt-InputMethodHints-ImhDate-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhDate
+            :description: QtCore/Qt-InputMethodHint-ImhDate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhDialableCharactersOnly
-            :description: QtCore/Qt-InputMethodHints-ImhDialableCharactersOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhDialableCharactersOnly
+            :description: QtCore/Qt-InputMethodHint-ImhDialableCharactersOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhDigitsOnly
-            :description: QtCore/Qt-InputMethodHints-ImhDigitsOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhDigitsOnly
+            :description: QtCore/Qt-InputMethodHint-ImhDigitsOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhEmailCharactersOnly
-            :description: QtCore/Qt-InputMethodHints-ImhEmailCharactersOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhEmailCharactersOnly
+            :description: QtCore/Qt-InputMethodHint-ImhEmailCharactersOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhExclusiveInputMask
-            :description: QtCore/Qt-InputMethodHints-ImhExclusiveInputMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhExclusiveInputMask
+            :description: QtCore/Qt-InputMethodHint-ImhExclusiveInputMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhFormattedNumbersOnly
-            :description: QtCore/Qt-InputMethodHints-ImhFormattedNumbersOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhFormattedNumbersOnly
+            :description: QtCore/Qt-InputMethodHint-ImhFormattedNumbersOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhHiddenText
-            :description: QtCore/Qt-InputMethodHints-ImhHiddenText-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhHiddenText
+            :description: QtCore/Qt-InputMethodHint-ImhHiddenText-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhLatinOnly
-            :description: QtCore/Qt-InputMethodHints-ImhLatinOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhLatinOnly
+            :description: QtCore/Qt-InputMethodHint-ImhLatinOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhLowercaseOnly
-            :description: QtCore/Qt-InputMethodHints-ImhLowercaseOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhLowercaseOnly
+            :description: QtCore/Qt-InputMethodHint-ImhLowercaseOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhMultiLine
-            :description: QtCore/Qt-InputMethodHints-ImhMultiLine-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhMultiLine
+            :description: QtCore/Qt-InputMethodHint-ImhMultiLine-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhNoAutoUppercase
-            :description: QtCore/Qt-InputMethodHints-ImhNoAutoUppercase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhNoAutoUppercase
+            :description: QtCore/Qt-InputMethodHint-ImhNoAutoUppercase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhNoEditMenu
-            :description: QtCore/Qt-InputMethodHints-ImhNoEditMenu-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhNoEditMenu
+            :description: QtCore/Qt-InputMethodHint-ImhNoEditMenu-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhNone
-            :description: QtCore/Qt-InputMethodHints-ImhNone-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhNone
+            :description: QtCore/Qt-InputMethodHint-ImhNone-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhNoPredictiveText
-            :description: QtCore/Qt-InputMethodHints-ImhNoPredictiveText-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhNoPredictiveText
+            :description: QtCore/Qt-InputMethodHint-ImhNoPredictiveText-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhNoTextHandles
-            :description: QtCore/Qt-InputMethodHints-ImhNoTextHandles-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhNoTextHandles
+            :description: QtCore/Qt-InputMethodHint-ImhNoTextHandles-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhPreferLatin
-            :description: QtCore/Qt-InputMethodHints-ImhPreferLatin-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhPreferLatin
+            :description: QtCore/Qt-InputMethodHint-ImhPreferLatin-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhPreferLowercase
-            :description: QtCore/Qt-InputMethodHints-ImhPreferLowercase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhPreferLowercase
+            :description: QtCore/Qt-InputMethodHint-ImhPreferLowercase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhPreferNumbers
-            :description: QtCore/Qt-InputMethodHints-ImhPreferNumbers-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhPreferNumbers
+            :description: QtCore/Qt-InputMethodHint-ImhPreferNumbers-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhPreferUppercase
-            :description: QtCore/Qt-InputMethodHints-ImhPreferUppercase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhPreferUppercase
+            :description: QtCore/Qt-InputMethodHint-ImhPreferUppercase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhSensitiveData
-            :description: QtCore/Qt-InputMethodHints-ImhSensitiveData-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhSensitiveData
+            :description: QtCore/Qt-InputMethodHint-ImhSensitiveData-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhTime
-            :description: QtCore/Qt-InputMethodHints-ImhTime-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhTime
+            :description: QtCore/Qt-InputMethodHint-ImhTime-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhUppercaseOnly
-            :description: QtCore/Qt-InputMethodHints-ImhUppercaseOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhUppercaseOnly
+            :description: QtCore/Qt-InputMethodHint-ImhUppercaseOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHints.ImhUrlCharactersOnly
-            :description: QtCore/Qt-InputMethodHints-ImhUrlCharactersOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodHint.ImhUrlCharactersOnly
+            :description: QtCore/Qt-InputMethodHint-ImhUrlCharactersOnly-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.InputMethodQueries
-        :description: QtCore/Qt-InputMethodQueries-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.InputMethodQuery
+        :description: QtCore/Qt-InputMethodQuery-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImAbsolutePosition
-            :description: QtCore/Qt-InputMethodQueries-ImAbsolutePosition-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImAbsolutePosition
+            :description: QtCore/Qt-InputMethodQuery-ImAbsolutePosition-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImAnchorPosition
-            :description: QtCore/Qt-InputMethodQueries-ImAnchorPosition-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImAnchorPosition
+            :description: QtCore/Qt-InputMethodQuery-ImAnchorPosition-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImAnchorRectangle
-            :description: QtCore/Qt-InputMethodQueries-ImAnchorRectangle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImAnchorRectangle
+            :description: QtCore/Qt-InputMethodQuery-ImAnchorRectangle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImCurrentSelection
-            :description: QtCore/Qt-InputMethodQueries-ImCurrentSelection-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImCurrentSelection
+            :description: QtCore/Qt-InputMethodQuery-ImCurrentSelection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImCursorPosition
-            :description: QtCore/Qt-InputMethodQueries-ImCursorPosition-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImCursorPosition
+            :description: QtCore/Qt-InputMethodQuery-ImCursorPosition-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImCursorRectangle
-            :description: QtCore/Qt-InputMethodQueries-ImCursorRectangle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImCursorRectangle
+            :description: QtCore/Qt-InputMethodQuery-ImCursorRectangle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImEnabled
-            :description: QtCore/Qt-InputMethodQueries-ImEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImEnabled
+            :description: QtCore/Qt-InputMethodQuery-ImEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImEnterKeyType
-            :description: QtCore/Qt-InputMethodQueries-ImEnterKeyType-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImEnterKeyType
+            :description: QtCore/Qt-InputMethodQuery-ImEnterKeyType-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImFont
-            :description: QtCore/Qt-InputMethodQueries-ImFont-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImFont
+            :description: QtCore/Qt-InputMethodQuery-ImFont-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImHints
-            :description: QtCore/Qt-InputMethodQueries-ImHints-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImHints
+            :description: QtCore/Qt-InputMethodQuery-ImHints-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImInputItemClipRectangle
-            :description: QtCore/Qt-InputMethodQueries-ImInputItemClipRectangle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImInputItemClipRectangle
+            :description: QtCore/Qt-InputMethodQuery-ImInputItemClipRectangle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImMaximumTextLength
-            :description: QtCore/Qt-InputMethodQueries-ImMaximumTextLength-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImMaximumTextLength
+            :description: QtCore/Qt-InputMethodQuery-ImMaximumTextLength-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImPlatformData
-            :description: QtCore/Qt-InputMethodQueries-ImPlatformData-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImPlatformData
+            :description: QtCore/Qt-InputMethodQuery-ImPlatformData-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImPreferredLanguage
-            :description: QtCore/Qt-InputMethodQueries-ImPreferredLanguage-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImPreferredLanguage
+            :description: QtCore/Qt-InputMethodQuery-ImPreferredLanguage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImQueryAll
-            :description: QtCore/Qt-InputMethodQueries-ImQueryAll-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImQueryAll
+            :description: QtCore/Qt-InputMethodQuery-ImQueryAll-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImQueryInput
-            :description: QtCore/Qt-InputMethodQueries-ImQueryInput-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImQueryInput
+            :description: QtCore/Qt-InputMethodQuery-ImQueryInput-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImSurroundingText
-            :description: QtCore/Qt-InputMethodQueries-ImSurroundingText-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImSurroundingText
+            :description: QtCore/Qt-InputMethodQuery-ImSurroundingText-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImTextAfterCursor
-            :description: QtCore/Qt-InputMethodQueries-ImTextAfterCursor-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImTextAfterCursor
+            :description: QtCore/Qt-InputMethodQuery-ImTextAfterCursor-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQueries.ImTextBeforeCursor
-            :description: QtCore/Qt-InputMethodQueries-ImTextBeforeCursor-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImTextBeforeCursor
+            :description: QtCore/Qt-InputMethodQuery-ImTextBeforeCursor-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.ItemDataRole
         :description: QtCore/Qt-ItemDataRole-e.rst
@@ -1032,38 +1032,38 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ItemDataRole.WhatsThisRole
             :description: QtCore/Qt-ItemDataRole-WhatsThisRole-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.ItemFlags
-        :description: QtCore/Qt-ItemFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.ItemFlag
+        :description: QtCore/Qt-ItemFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsAutoTristate
-            :description: QtCore/Qt-ItemFlags-ItemIsAutoTristate-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsAutoTristate
+            :description: QtCore/Qt-ItemFlag-ItemIsAutoTristate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsDragEnabled
-            :description: QtCore/Qt-ItemFlags-ItemIsDragEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsDragEnabled
+            :description: QtCore/Qt-ItemFlag-ItemIsDragEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsDropEnabled
-            :description: QtCore/Qt-ItemFlags-ItemIsDropEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsDropEnabled
+            :description: QtCore/Qt-ItemFlag-ItemIsDropEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsEditable
-            :description: QtCore/Qt-ItemFlags-ItemIsEditable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsEditable
+            :description: QtCore/Qt-ItemFlag-ItemIsEditable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsEnabled
-            :description: QtCore/Qt-ItemFlags-ItemIsEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsEnabled
+            :description: QtCore/Qt-ItemFlag-ItemIsEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsSelectable
-            :description: QtCore/Qt-ItemFlags-ItemIsSelectable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsSelectable
+            :description: QtCore/Qt-ItemFlag-ItemIsSelectable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsUserCheckable
-            :description: QtCore/Qt-ItemFlags-ItemIsUserCheckable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsUserCheckable
+            :description: QtCore/Qt-ItemFlag-ItemIsUserCheckable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemIsUserTristate
-            :description: QtCore/Qt-ItemFlags-ItemIsUserTristate-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemIsUserTristate
+            :description: QtCore/Qt-ItemFlag-ItemIsUserTristate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.ItemNeverHasChildren
-            :description: QtCore/Qt-ItemFlags-ItemNeverHasChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.ItemNeverHasChildren
+            :description: QtCore/Qt-ItemFlag-ItemNeverHasChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlags.NoItemFlags
-            :description: QtCore/Qt-ItemFlags-NoItemFlags-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemFlag.NoItemFlags
+            :description: QtCore/Qt-ItemFlag-NoItemFlags-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.ItemSelectionMode
         :description: QtCore/Qt-ItemSelectionMode-e.rst
@@ -2499,32 +2499,32 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_ZoomOut
             :description: QtCore/Qt-Key-Key_ZoomOut-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.KeyboardModifiers
-        :description: QtCore/Qt-KeyboardModifiers-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.KeyboardModifier
+        :description: QtCore/Qt-KeyboardModifier-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.AltModifier
-            :description: QtCore/Qt-KeyboardModifiers-AltModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.AltModifier
+            :description: QtCore/Qt-KeyboardModifier-AltModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.ControlModifier
-            :description: QtCore/Qt-KeyboardModifiers-ControlModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.ControlModifier
+            :description: QtCore/Qt-KeyboardModifier-ControlModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.GroupSwitchModifier
-            :description: QtCore/Qt-KeyboardModifiers-GroupSwitchModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.GroupSwitchModifier
+            :description: QtCore/Qt-KeyboardModifier-GroupSwitchModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.KeyboardModifierMask
-            :description: QtCore/Qt-KeyboardModifiers-KeyboardModifierMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.KeyboardModifierMask
+            :description: QtCore/Qt-KeyboardModifier-KeyboardModifierMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.KeypadModifier
-            :description: QtCore/Qt-KeyboardModifiers-KeypadModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.KeypadModifier
+            :description: QtCore/Qt-KeyboardModifier-KeypadModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.MetaModifier
-            :description: QtCore/Qt-KeyboardModifiers-MetaModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.MetaModifier
+            :description: QtCore/Qt-KeyboardModifier-MetaModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.NoModifier
-            :description: QtCore/Qt-KeyboardModifiers-NoModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.NoModifier
+            :description: QtCore/Qt-KeyboardModifier-NoModifier-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifiers.ShiftModifier
-            :description: QtCore/Qt-KeyboardModifiers-ShiftModifier-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.KeyboardModifier.ShiftModifier
+            :description: QtCore/Qt-KeyboardModifier-ShiftModifier-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.LayoutDirection
         :description: QtCore/Qt-LayoutDirection-e.rst
@@ -2547,167 +2547,167 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.MaskMode.MaskOutColor
             :description: QtCore/Qt-MaskMode-MaskOutColor-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.MatchFlags
-        :description: QtCore/Qt-MatchFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.MatchFlag
+        :description: QtCore/Qt-MatchFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchCaseSensitive
-            :description: QtCore/Qt-MatchFlags-MatchCaseSensitive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchCaseSensitive
+            :description: QtCore/Qt-MatchFlag-MatchCaseSensitive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchContains
-            :description: QtCore/Qt-MatchFlags-MatchContains-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchContains
+            :description: QtCore/Qt-MatchFlag-MatchContains-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchEndsWith
-            :description: QtCore/Qt-MatchFlags-MatchEndsWith-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchEndsWith
+            :description: QtCore/Qt-MatchFlag-MatchEndsWith-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchExactly
-            :description: QtCore/Qt-MatchFlags-MatchExactly-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchExactly
+            :description: QtCore/Qt-MatchFlag-MatchExactly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchFixedString
-            :description: QtCore/Qt-MatchFlags-MatchFixedString-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchFixedString
+            :description: QtCore/Qt-MatchFlag-MatchFixedString-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchRecursive
-            :description: QtCore/Qt-MatchFlags-MatchRecursive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchRecursive
+            :description: QtCore/Qt-MatchFlag-MatchRecursive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchRegularExpression
-            :description: QtCore/Qt-MatchFlags-MatchRegularExpression-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchRegularExpression
+            :description: QtCore/Qt-MatchFlag-MatchRegularExpression-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchStartsWith
-            :description: QtCore/Qt-MatchFlags-MatchStartsWith-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchStartsWith
+            :description: QtCore/Qt-MatchFlag-MatchStartsWith-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchWildcard
-            :description: QtCore/Qt-MatchFlags-MatchWildcard-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchWildcard
+            :description: QtCore/Qt-MatchFlag-MatchWildcard-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlags.MatchWrap
-            :description: QtCore/Qt-MatchFlags-MatchWrap-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MatchFlag.MatchWrap
+            :description: QtCore/Qt-MatchFlag-MatchWrap-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.Modifiers
-        :description: QtCore/Qt-Modifiers-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.Modifier
+        :description: QtCore/Qt-Modifier-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifiers.ALT
-            :description: QtCore/Qt-Modifiers-ALT-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifier.ALT
+            :description: QtCore/Qt-Modifier-ALT-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifiers.CTRL
-            :description: QtCore/Qt-Modifiers-CTRL-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifier.CTRL
+            :description: QtCore/Qt-Modifier-CTRL-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifiers.META
-            :description: QtCore/Qt-Modifiers-META-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifier.META
+            :description: QtCore/Qt-Modifier-META-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifiers.MODIFIER_MASK
-            :description: QtCore/Qt-Modifiers-MODIFIER_MASK-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifier.MODIFIER_MASK
+            :description: QtCore/Qt-Modifier-MODIFIER_MASK-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifiers.SHIFT
-            :description: QtCore/Qt-Modifiers-SHIFT-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Modifier.SHIFT
+            :description: QtCore/Qt-Modifier-SHIFT-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.MouseButtons
-        :description: QtCore/Qt-MouseButtons-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.MouseButton
+        :description: QtCore/Qt-MouseButton-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.AllButtons
-            :description: QtCore/Qt-MouseButtons-AllButtons-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.AllButtons
+            :description: QtCore/Qt-MouseButton-AllButtons-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.BackButton
-            :description: QtCore/Qt-MouseButtons-BackButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.BackButton
+            :description: QtCore/Qt-MouseButton-BackButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton1
-            :description: QtCore/Qt-MouseButtons-ExtraButton1-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton1
+            :description: QtCore/Qt-MouseButton-ExtraButton1-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton10
-            :description: QtCore/Qt-MouseButtons-ExtraButton10-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton10
+            :description: QtCore/Qt-MouseButton-ExtraButton10-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton11
-            :description: QtCore/Qt-MouseButtons-ExtraButton11-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton11
+            :description: QtCore/Qt-MouseButton-ExtraButton11-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton12
-            :description: QtCore/Qt-MouseButtons-ExtraButton12-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton12
+            :description: QtCore/Qt-MouseButton-ExtraButton12-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton13
-            :description: QtCore/Qt-MouseButtons-ExtraButton13-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton13
+            :description: QtCore/Qt-MouseButton-ExtraButton13-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton14
-            :description: QtCore/Qt-MouseButtons-ExtraButton14-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton14
+            :description: QtCore/Qt-MouseButton-ExtraButton14-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton15
-            :description: QtCore/Qt-MouseButtons-ExtraButton15-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton15
+            :description: QtCore/Qt-MouseButton-ExtraButton15-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton16
-            :description: QtCore/Qt-MouseButtons-ExtraButton16-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton16
+            :description: QtCore/Qt-MouseButton-ExtraButton16-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton17
-            :description: QtCore/Qt-MouseButtons-ExtraButton17-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton17
+            :description: QtCore/Qt-MouseButton-ExtraButton17-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton18
-            :description: QtCore/Qt-MouseButtons-ExtraButton18-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton18
+            :description: QtCore/Qt-MouseButton-ExtraButton18-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton19
-            :description: QtCore/Qt-MouseButtons-ExtraButton19-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton19
+            :description: QtCore/Qt-MouseButton-ExtraButton19-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton2
-            :description: QtCore/Qt-MouseButtons-ExtraButton2-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton2
+            :description: QtCore/Qt-MouseButton-ExtraButton2-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton20
-            :description: QtCore/Qt-MouseButtons-ExtraButton20-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton20
+            :description: QtCore/Qt-MouseButton-ExtraButton20-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton21
-            :description: QtCore/Qt-MouseButtons-ExtraButton21-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton21
+            :description: QtCore/Qt-MouseButton-ExtraButton21-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton22
-            :description: QtCore/Qt-MouseButtons-ExtraButton22-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton22
+            :description: QtCore/Qt-MouseButton-ExtraButton22-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton23
-            :description: QtCore/Qt-MouseButtons-ExtraButton23-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton23
+            :description: QtCore/Qt-MouseButton-ExtraButton23-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton24
-            :description: QtCore/Qt-MouseButtons-ExtraButton24-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton24
+            :description: QtCore/Qt-MouseButton-ExtraButton24-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton3
-            :description: QtCore/Qt-MouseButtons-ExtraButton3-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton3
+            :description: QtCore/Qt-MouseButton-ExtraButton3-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton4
-            :description: QtCore/Qt-MouseButtons-ExtraButton4-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton4
+            :description: QtCore/Qt-MouseButton-ExtraButton4-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton5
-            :description: QtCore/Qt-MouseButtons-ExtraButton5-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton5
+            :description: QtCore/Qt-MouseButton-ExtraButton5-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton6
-            :description: QtCore/Qt-MouseButtons-ExtraButton6-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton6
+            :description: QtCore/Qt-MouseButton-ExtraButton6-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton7
-            :description: QtCore/Qt-MouseButtons-ExtraButton7-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton7
+            :description: QtCore/Qt-MouseButton-ExtraButton7-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton8
-            :description: QtCore/Qt-MouseButtons-ExtraButton8-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton8
+            :description: QtCore/Qt-MouseButton-ExtraButton8-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ExtraButton9
-            :description: QtCore/Qt-MouseButtons-ExtraButton9-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ExtraButton9
+            :description: QtCore/Qt-MouseButton-ExtraButton9-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.ForwardButton
-            :description: QtCore/Qt-MouseButtons-ForwardButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.ForwardButton
+            :description: QtCore/Qt-MouseButton-ForwardButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.LeftButton
-            :description: QtCore/Qt-MouseButtons-LeftButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.LeftButton
+            :description: QtCore/Qt-MouseButton-LeftButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.MiddleButton
-            :description: QtCore/Qt-MouseButtons-MiddleButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.MiddleButton
+            :description: QtCore/Qt-MouseButton-MiddleButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.NoButton
-            :description: QtCore/Qt-MouseButtons-NoButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.NoButton
+            :description: QtCore/Qt-MouseButton-NoButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.RightButton
-            :description: QtCore/Qt-MouseButtons-RightButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.RightButton
+            :description: QtCore/Qt-MouseButton-RightButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.TaskButton
-            :description: QtCore/Qt-MouseButtons-TaskButton-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.TaskButton
+            :description: QtCore/Qt-MouseButton-TaskButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.XButton1
-            :description: QtCore/Qt-MouseButtons-XButton1-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.XButton1
+            :description: QtCore/Qt-MouseButton-XButton1-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButtons.XButton2
-            :description: QtCore/Qt-MouseButtons-XButton2-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseButton.XButton2
+            :description: QtCore/Qt-MouseButton-XButton2-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.MouseEventFlags
-        :description: QtCore/Qt-MouseEventFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.MouseEventFlag
+        :description: QtCore/Qt-MouseEventFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseEventFlags.MouseEventCreatedDoubleClick
-            :description: QtCore/Qt-MouseEventFlags-MouseEventCreatedDoubleClick-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.MouseEventFlag.MouseEventCreatedDoubleClick
+            :description: QtCore/Qt-MouseEventFlag-MouseEventCreatedDoubleClick-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.MouseEventSource
         :description: QtCore/Qt-MouseEventSource-e.rst
@@ -2766,14 +2766,14 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.NavigationMode.NavigationModeNone
             :description: QtCore/Qt-NavigationMode-NavigationModeNone-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.Orientations
-        :description: QtCore/Qt-Orientations-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.Orientation
+        :description: QtCore/Qt-Orientation-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Orientations.Horizontal
-            :description: QtCore/Qt-Orientations-Horizontal-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Orientation.Horizontal
+            :description: QtCore/Qt-Orientation-Horizontal-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.Orientations.Vertical
-            :description: QtCore/Qt-Orientations-Vertical-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Orientation.Vertical
+            :description: QtCore/Qt-Orientation-Vertical-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.PenCapStyle
         :description: QtCore/Qt-PenCapStyle-e.rst
@@ -2829,23 +2829,23 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.PenStyle.SolidLine
             :description: QtCore/Qt-PenStyle-SolidLine-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.ScreenOrientations
-        :description: QtCore/Qt-ScreenOrientations-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.ScreenOrientation
+        :description: QtCore/Qt-ScreenOrientation-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientations.InvertedLandscapeOrientation
-            :description: QtCore/Qt-ScreenOrientations-InvertedLandscapeOrientation-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientation.InvertedLandscapeOrientation
+            :description: QtCore/Qt-ScreenOrientation-InvertedLandscapeOrientation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientations.InvertedPortraitOrientation
-            :description: QtCore/Qt-ScreenOrientations-InvertedPortraitOrientation-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientation.InvertedPortraitOrientation
+            :description: QtCore/Qt-ScreenOrientation-InvertedPortraitOrientation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientations.LandscapeOrientation
-            :description: QtCore/Qt-ScreenOrientations-LandscapeOrientation-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientation.LandscapeOrientation
+            :description: QtCore/Qt-ScreenOrientation-LandscapeOrientation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientations.PortraitOrientation
-            :description: QtCore/Qt-ScreenOrientations-PortraitOrientation-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientation.PortraitOrientation
+            :description: QtCore/Qt-ScreenOrientation-PortraitOrientation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientations.PrimaryOrientation
-            :description: QtCore/Qt-ScreenOrientations-PrimaryOrientation-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ScreenOrientation.PrimaryOrientation
+            :description: QtCore/Qt-ScreenOrientation-PrimaryOrientation-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.ScrollBarPolicy
         :description: QtCore/Qt-ScrollBarPolicy-e.rst
@@ -3003,32 +3003,32 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.TextFormat.RichText
             :description: QtCore/Qt-TextFormat-RichText-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.TextInteractionFlags
-        :description: QtCore/Qt-TextInteractionFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.TextInteractionFlag
+        :description: QtCore/Qt-TextInteractionFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.LinksAccessibleByKeyboard
-            :description: QtCore/Qt-TextInteractionFlags-LinksAccessibleByKeyboard-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.LinksAccessibleByKeyboard
+            :description: QtCore/Qt-TextInteractionFlag-LinksAccessibleByKeyboard-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.LinksAccessibleByMouse
-            :description: QtCore/Qt-TextInteractionFlags-LinksAccessibleByMouse-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.LinksAccessibleByMouse
+            :description: QtCore/Qt-TextInteractionFlag-LinksAccessibleByMouse-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.NoTextInteraction
-            :description: QtCore/Qt-TextInteractionFlags-NoTextInteraction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.NoTextInteraction
+            :description: QtCore/Qt-TextInteractionFlag-NoTextInteraction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.TextBrowserInteraction
-            :description: QtCore/Qt-TextInteractionFlags-TextBrowserInteraction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.TextBrowserInteraction
+            :description: QtCore/Qt-TextInteractionFlag-TextBrowserInteraction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.TextEditable
-            :description: QtCore/Qt-TextInteractionFlags-TextEditable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.TextEditable
+            :description: QtCore/Qt-TextInteractionFlag-TextEditable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.TextEditorInteraction
-            :description: QtCore/Qt-TextInteractionFlags-TextEditorInteraction-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.TextEditorInteraction
+            :description: QtCore/Qt-TextInteractionFlag-TextEditorInteraction-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.TextSelectableByKeyboard
-            :description: QtCore/Qt-TextInteractionFlags-TextSelectableByKeyboard-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.TextSelectableByKeyboard
+            :description: QtCore/Qt-TextInteractionFlag-TextSelectableByKeyboard-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlags.TextSelectableByMouse
-            :description: QtCore/Qt-TextInteractionFlags-TextSelectableByMouse-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TextInteractionFlag.TextSelectableByMouse
+            :description: QtCore/Qt-TextInteractionFlag-TextSelectableByMouse-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.TileRule
         :description: QtCore/Qt-TileRule-e.rst
@@ -3069,26 +3069,26 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.TimeSpec.UTC
             :description: QtCore/Qt-TimeSpec-UTC-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.ToolBarAreas
-        :description: QtCore/Qt-ToolBarAreas-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.ToolBarArea
+        :description: QtCore/Qt-ToolBarArea-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.AllToolBarAreas
-            :description: QtCore/Qt-ToolBarAreas-AllToolBarAreas-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.AllToolBarAreas
+            :description: QtCore/Qt-ToolBarArea-AllToolBarAreas-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.BottomToolBarArea
-            :description: QtCore/Qt-ToolBarAreas-BottomToolBarArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.BottomToolBarArea
+            :description: QtCore/Qt-ToolBarArea-BottomToolBarArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.LeftToolBarArea
-            :description: QtCore/Qt-ToolBarAreas-LeftToolBarArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.LeftToolBarArea
+            :description: QtCore/Qt-ToolBarArea-LeftToolBarArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.NoToolBarArea
-            :description: QtCore/Qt-ToolBarAreas-NoToolBarArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.NoToolBarArea
+            :description: QtCore/Qt-ToolBarArea-NoToolBarArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.RightToolBarArea
-            :description: QtCore/Qt-ToolBarAreas-RightToolBarArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.RightToolBarArea
+            :description: QtCore/Qt-ToolBarArea-RightToolBarArea-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarAreas.TopToolBarArea
-            :description: QtCore/Qt-ToolBarAreas-TopToolBarArea-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ToolBarArea.TopToolBarArea
+            :description: QtCore/Qt-ToolBarArea-TopToolBarArea-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.ToolButtonStyle
         :description: QtCore/Qt-ToolButtonStyle-e.rst
@@ -3108,23 +3108,23 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ToolButtonStyle.ToolButtonTextUnderIcon
             :description: QtCore/Qt-ToolButtonStyle-ToolButtonTextUnderIcon-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.TouchPointStates
-        :description: QtCore/Qt-TouchPointStates-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.TouchPointState
+        :description: QtCore/Qt-TouchPointState-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointStates.TouchPointMoved
-            :description: QtCore/Qt-TouchPointStates-TouchPointMoved-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointState.TouchPointMoved
+            :description: QtCore/Qt-TouchPointState-TouchPointMoved-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointStates.TouchPointPressed
-            :description: QtCore/Qt-TouchPointStates-TouchPointPressed-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointState.TouchPointPressed
+            :description: QtCore/Qt-TouchPointState-TouchPointPressed-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointStates.TouchPointReleased
-            :description: QtCore/Qt-TouchPointStates-TouchPointReleased-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointState.TouchPointReleased
+            :description: QtCore/Qt-TouchPointState-TouchPointReleased-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointStates.TouchPointStationary
-            :description: QtCore/Qt-TouchPointStates-TouchPointStationary-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointState.TouchPointStationary
+            :description: QtCore/Qt-TouchPointState-TouchPointStationary-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointStates.TouchPointUnknownState
-            :description: QtCore/Qt-TouchPointStates-TouchPointUnknownState-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.TouchPointState.TouchPointUnknownState
+            :description: QtCore/Qt-TouchPointState-TouchPointUnknownState-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.TransformationMode
         :description: QtCore/Qt-TransformationMode-e.rst
@@ -3465,123 +3465,6 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.WidgetAttribute.WA_X11OpenGLOverlay
             :description: QtCore/Qt-WidgetAttribute-WA_X11OpenGLOverlay-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.WindowFlags
-        :description: QtCore/Qt-WindowFlags-e.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.BypassGraphicsProxyWidget
-            :description: QtCore/Qt-WindowFlags-BypassGraphicsProxyWidget-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.BypassWindowManagerHint
-            :description: QtCore/Qt-WindowFlags-BypassWindowManagerHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.CoverWindow
-            :description: QtCore/Qt-WindowFlags-CoverWindow-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.CustomizeWindowHint
-            :description: QtCore/Qt-WindowFlags-CustomizeWindowHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Desktop
-            :description: QtCore/Qt-WindowFlags-Desktop-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Dialog
-            :description: QtCore/Qt-WindowFlags-Dialog-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Drawer
-            :description: QtCore/Qt-WindowFlags-Drawer-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.ForeignWindow
-            :description: QtCore/Qt-WindowFlags-ForeignWindow-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.FramelessWindowHint
-            :description: QtCore/Qt-WindowFlags-FramelessWindowHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.MacWindowToolBarButtonHint
-            :description: QtCore/Qt-WindowFlags-MacWindowToolBarButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.MaximizeUsingFullscreenGeometryHint
-            :description: QtCore/Qt-WindowFlags-MaximizeUsingFullscreenGeometryHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.MSWindowsFixedSizeDialogHint
-            :description: QtCore/Qt-WindowFlags-MSWindowsFixedSizeDialogHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.MSWindowsOwnDC
-            :description: QtCore/Qt-WindowFlags-MSWindowsOwnDC-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.NoDropShadowWindowHint
-            :description: QtCore/Qt-WindowFlags-NoDropShadowWindowHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Popup
-            :description: QtCore/Qt-WindowFlags-Popup-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Sheet
-            :description: QtCore/Qt-WindowFlags-Sheet-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.SplashScreen
-            :description: QtCore/Qt-WindowFlags-SplashScreen-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.SubWindow
-            :description: QtCore/Qt-WindowFlags-SubWindow-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Tool
-            :description: QtCore/Qt-WindowFlags-Tool-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.ToolTip
-            :description: QtCore/Qt-WindowFlags-ToolTip-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Widget
-            :description: QtCore/Qt-WindowFlags-Widget-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.Window
-            :description: QtCore/Qt-WindowFlags-Window-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowCloseButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowCloseButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowContextHelpButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowContextHelpButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowDoesNotAcceptFocus
-            :description: QtCore/Qt-WindowFlags-WindowDoesNotAcceptFocus-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowFullscreenButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowFullscreenButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowMaximizeButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowMaximizeButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowMinimizeButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowMinimizeButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowMinMaxButtonsHint
-            :description: QtCore/Qt-WindowFlags-WindowMinMaxButtonsHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowOverridesSystemGestures
-            :description: QtCore/Qt-WindowFlags-WindowOverridesSystemGestures-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowShadeButtonHint
-            :description: QtCore/Qt-WindowFlags-WindowShadeButtonHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowStaysOnBottomHint
-            :description: QtCore/Qt-WindowFlags-WindowStaysOnBottomHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowStaysOnTopHint
-            :description: QtCore/Qt-WindowFlags-WindowStaysOnTopHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowSystemMenuHint
-            :description: QtCore/Qt-WindowFlags-WindowSystemMenuHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowTitleHint
-            :description: QtCore/Qt-WindowFlags-WindowTitleHint-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowTransparentForInput
-            :description: QtCore/Qt-WindowFlags-WindowTransparentForInput-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.WindowType_Mask
-            :description: QtCore/Qt-WindowFlags-WindowType_Mask-v.rst
-
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowFlags.X11BypassWindowManagerHint
-            :description: QtCore/Qt-WindowFlags-X11BypassWindowManagerHint-v.rst
-
     .. sip:enum:: PyQt6.QtCore.Qt.WindowFrameSection
         :description: QtCore/Qt-WindowFrameSection-e.rst
 
@@ -3627,23 +3510,140 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowModality.WindowModal
             :description: QtCore/Qt-WindowModality-WindowModal-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.Qt.WindowStates
-        :description: QtCore/Qt-WindowStates-e.rst
+    .. sip:enum:: PyQt6.QtCore.Qt.WindowState
+        :description: QtCore/Qt-WindowState-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowActive
-            :description: QtCore/Qt-WindowStates-WindowActive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowState.WindowActive
+            :description: QtCore/Qt-WindowState-WindowActive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowFullScreen
-            :description: QtCore/Qt-WindowStates-WindowFullScreen-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowState.WindowFullScreen
+            :description: QtCore/Qt-WindowState-WindowFullScreen-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowMaximized
-            :description: QtCore/Qt-WindowStates-WindowMaximized-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowState.WindowMaximized
+            :description: QtCore/Qt-WindowState-WindowMaximized-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowMinimized
-            :description: QtCore/Qt-WindowStates-WindowMinimized-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowState.WindowMinimized
+            :description: QtCore/Qt-WindowState-WindowMinimized-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowStates.WindowNoState
-            :description: QtCore/Qt-WindowStates-WindowNoState-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowState.WindowNoState
+            :description: QtCore/Qt-WindowState-WindowNoState-v.rst
+
+    .. sip:enum:: PyQt6.QtCore.Qt.WindowType
+        :description: QtCore/Qt-WindowType-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.BypassGraphicsProxyWidget
+            :description: QtCore/Qt-WindowType-BypassGraphicsProxyWidget-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.BypassWindowManagerHint
+            :description: QtCore/Qt-WindowType-BypassWindowManagerHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.CoverWindow
+            :description: QtCore/Qt-WindowType-CoverWindow-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.CustomizeWindowHint
+            :description: QtCore/Qt-WindowType-CustomizeWindowHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Desktop
+            :description: QtCore/Qt-WindowType-Desktop-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Dialog
+            :description: QtCore/Qt-WindowType-Dialog-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Drawer
+            :description: QtCore/Qt-WindowType-Drawer-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.ForeignWindow
+            :description: QtCore/Qt-WindowType-ForeignWindow-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.FramelessWindowHint
+            :description: QtCore/Qt-WindowType-FramelessWindowHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.MacWindowToolBarButtonHint
+            :description: QtCore/Qt-WindowType-MacWindowToolBarButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.MaximizeUsingFullscreenGeometryHint
+            :description: QtCore/Qt-WindowType-MaximizeUsingFullscreenGeometryHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.MSWindowsFixedSizeDialogHint
+            :description: QtCore/Qt-WindowType-MSWindowsFixedSizeDialogHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.MSWindowsOwnDC
+            :description: QtCore/Qt-WindowType-MSWindowsOwnDC-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.NoDropShadowWindowHint
+            :description: QtCore/Qt-WindowType-NoDropShadowWindowHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Popup
+            :description: QtCore/Qt-WindowType-Popup-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Sheet
+            :description: QtCore/Qt-WindowType-Sheet-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.SplashScreen
+            :description: QtCore/Qt-WindowType-SplashScreen-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.SubWindow
+            :description: QtCore/Qt-WindowType-SubWindow-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Tool
+            :description: QtCore/Qt-WindowType-Tool-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.ToolTip
+            :description: QtCore/Qt-WindowType-ToolTip-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Widget
+            :description: QtCore/Qt-WindowType-Widget-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Window
+            :description: QtCore/Qt-WindowType-Window-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowCloseButtonHint
+            :description: QtCore/Qt-WindowType-WindowCloseButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowContextHelpButtonHint
+            :description: QtCore/Qt-WindowType-WindowContextHelpButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowDoesNotAcceptFocus
+            :description: QtCore/Qt-WindowType-WindowDoesNotAcceptFocus-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowFullscreenButtonHint
+            :description: QtCore/Qt-WindowType-WindowFullscreenButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowMaximizeButtonHint
+            :description: QtCore/Qt-WindowType-WindowMaximizeButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowMinimizeButtonHint
+            :description: QtCore/Qt-WindowType-WindowMinimizeButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowMinMaxButtonsHint
+            :description: QtCore/Qt-WindowType-WindowMinMaxButtonsHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowOverridesSystemGestures
+            :description: QtCore/Qt-WindowType-WindowOverridesSystemGestures-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowShadeButtonHint
+            :description: QtCore/Qt-WindowType-WindowShadeButtonHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowStaysOnBottomHint
+            :description: QtCore/Qt-WindowType-WindowStaysOnBottomHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowStaysOnTopHint
+            :description: QtCore/Qt-WindowType-WindowStaysOnTopHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowSystemMenuHint
+            :description: QtCore/Qt-WindowType-WindowSystemMenuHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowTitleHint
+            :description: QtCore/Qt-WindowType-WindowTitleHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowTransparentForInput
+            :description: QtCore/Qt-WindowType-WindowTransparentForInput-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.WindowType_Mask
+            :description: QtCore/Qt-WindowType-WindowType_Mask-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.X11BypassWindowManagerHint
+            :description: QtCore/Qt-WindowType-X11BypassWindowManagerHint-v.rst
 
     .. sip:method:: PyQt6.QtCore.Qt.bin
         :args:

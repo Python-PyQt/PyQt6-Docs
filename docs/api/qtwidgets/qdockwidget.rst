@@ -4,41 +4,41 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QWidget`
     :description: QtWidgets/QDockWidget-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures
-        :description: QtWidgets/QDockWidget-DockWidgetFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature
+        :description: QtWidgets/QDockWidget-DockWidgetFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures.DockWidgetClosable
-            :description: QtWidgets/QDockWidget-DockWidgetFeatures-DockWidgetClosable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetClosable
+            :description: QtWidgets/QDockWidget-DockWidgetFeature-DockWidgetClosable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures.DockWidgetFloatable
-            :description: QtWidgets/QDockWidget-DockWidgetFeatures-DockWidgetFloatable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetFloatable
+            :description: QtWidgets/QDockWidget-DockWidgetFeature-DockWidgetFloatable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures.DockWidgetMovable
-            :description: QtWidgets/QDockWidget-DockWidgetFeatures-DockWidgetMovable-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetMovable
+            :description: QtWidgets/QDockWidget-DockWidgetFeature-DockWidgetMovable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures.DockWidgetVerticalTitleBar
-            :description: QtWidgets/QDockWidget-DockWidgetFeatures-DockWidgetVerticalTitleBar-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature.DockWidgetVerticalTitleBar
+            :description: QtWidgets/QDockWidget-DockWidgetFeature-DockWidgetVerticalTitleBar-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures.NoDockWidgetFeatures
-            :description: QtWidgets/QDockWidget-DockWidgetFeatures-NoDockWidgetFeatures-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDockWidget.DockWidgetFeature.NoDockWidgetFeatures
+            :description: QtWidgets/QDockWidget-DockWidgetFeature-NoDockWidgetFeatures-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QDockWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QDockWidget-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.__init__
         :args:
             str
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QDockWidget-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QDockWidget-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.allowedAreas
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QDockWidget-allowedAreas-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-allowedAreas-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.changeEvent
         :args:
@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.features
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures`
-        :description: QtWidgets/QDockWidget-features-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeature`
+        :description: QtWidgets/QDockWidget-features-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.initStyleOption
         :args:
@@ -69,10 +69,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.isAreaAllowed
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
         :returns:
             bool
-        :description: QtWidgets/QDockWidget-isAreaAllowed-f.rst
+        :description: QtWidgets/QDockWidget-isAreaAllowed-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.isFloating
         :returns:
@@ -86,13 +86,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.setAllowedAreas
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QDockWidget-setAllowedAreas-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-setAllowedAreas-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.setFeatures
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures`
-        :description: QtWidgets/QDockWidget-setFeatures-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeature`
+        :description: QtWidgets/QDockWidget-setFeatures-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.setFloating
         :args:
@@ -126,18 +126,18 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QDockWidget.allowedAreasChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QDockWidget-allowedAreasChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-allowedAreasChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDockWidget.dockLocationChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas`
-        :description: QtWidgets/QDockWidget-dockLocationChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-dockLocationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDockWidget.featuresChanged
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeatures`
-        :description: QtWidgets/QDockWidget-featuresChanged-s.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDockWidget.DockWidgetFeature`
+        :description: QtWidgets/QDockWidget-featuresChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDockWidget.topLevelChanged
         :args:

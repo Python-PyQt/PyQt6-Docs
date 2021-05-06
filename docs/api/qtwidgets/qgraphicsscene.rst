@@ -13,20 +13,20 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.ItemIndexMethod.NoIndex
             :description: QtWidgets/QGraphicsScene-ItemIndexMethod-NoIndex-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsScene.SceneLayers
-        :description: QtWidgets/QGraphicsScene-SceneLayers-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsScene.SceneLayer
+        :description: QtWidgets/QGraphicsScene-SceneLayer-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayers.AllLayers
-            :description: QtWidgets/QGraphicsScene-SceneLayers-AllLayers-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayer.AllLayers
+            :description: QtWidgets/QGraphicsScene-SceneLayer-AllLayers-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayers.BackgroundLayer
-            :description: QtWidgets/QGraphicsScene-SceneLayers-BackgroundLayer-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayer.BackgroundLayer
+            :description: QtWidgets/QGraphicsScene-SceneLayer-BackgroundLayer-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayers.ForegroundLayer
-            :description: QtWidgets/QGraphicsScene-SceneLayers-ForegroundLayer-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayer.ForegroundLayer
+            :description: QtWidgets/QGraphicsScene-SceneLayer-ForegroundLayer-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayers.ItemLayer
-            :description: QtWidgets/QGraphicsScene-SceneLayers-ItemLayer-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsScene.SceneLayer.ItemLayer
+            :description: QtWidgets/QGraphicsScene-SceneLayer-ItemLayer-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.__init__
         :args:
@@ -61,11 +61,11 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addEllipse
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsEllipseItem`
-        :description: QtWidgets/QGraphicsScene-addEllipse-f.rst
+        :description: QtWidgets/QGraphicsScene-addEllipse-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addEllipse
         :args:
@@ -73,11 +73,11 @@
             float
             float
             float
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsEllipseItem`
-        :description: QtWidgets/QGraphicsScene-addEllipse-f-1.rst
+        :description: QtWidgets/QGraphicsScene-addEllipse-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addItem
         :args:
@@ -87,10 +87,10 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addLine
         :args:
             :sip:ref:`~PyQt6.QtCore.QLineF`
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLineItem`
-        :description: QtWidgets/QGraphicsScene-addLine-f.rst
+        :description: QtWidgets/QGraphicsScene-addLine-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addLine
         :args:
@@ -98,19 +98,19 @@
             float
             float
             float
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLineItem`
-        :description: QtWidgets/QGraphicsScene-addLine-f-1.rst
+        :description: QtWidgets/QGraphicsScene-addLine-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addPath
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsPathItem`
-        :description: QtWidgets/QGraphicsScene-addPath-f.rst
+        :description: QtWidgets/QGraphicsScene-addPath-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addPixmap
         :args:
@@ -122,20 +122,20 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addPolygon
         :args:
             :sip:ref:`~PyQt6.QtGui.QPolygonF`
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsPolygonItem`
-        :description: QtWidgets/QGraphicsScene-addPolygon-f.rst
+        :description: QtWidgets/QGraphicsScene-addPolygon-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsRectItem`
-        :description: QtWidgets/QGraphicsScene-addRect-f.rst
+        :description: QtWidgets/QGraphicsScene-addRect-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addRect
         :args:
@@ -143,11 +143,11 @@
             float
             float
             float
-            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
-            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
+            pen: Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QPen()
+            brush: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = QBrush()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsRectItem`
-        :description: QtWidgets/QGraphicsScene-addRect-f-1.rst
+        :description: QtWidgets/QGraphicsScene-addRect-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addSimpleText
         :args:
@@ -168,10 +168,10 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.addWidget
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsProxyWidget`
-        :description: QtWidgets/QGraphicsScene-addWidget-f.rst
+        :description: QtWidgets/QGraphicsScene-addWidget-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.advance
         :description: QtWidgets/QGraphicsScene-advance-f.rst
@@ -326,16 +326,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QGraphicsScene-inputMethodQuery-f.rst
+        :description: QtWidgets/QGraphicsScene-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.invalidate
         :args:
             rect: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF()
-            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers.AllLayers`
-        :description: QtWidgets/QGraphicsScene-invalidate-f.rst
+            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer.AllLayers`
+        :description: QtWidgets/QGraphicsScene-invalidate-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.invalidate
         :args:
@@ -343,8 +343,8 @@
             float
             float
             float
-            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers.AllLayers`
-        :description: QtWidgets/QGraphicsScene-invalidate-f-1.rst
+            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer.AllLayers`
+        :description: QtWidgets/QGraphicsScene-invalidate-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.isActive
         :returns:
@@ -531,8 +531,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.setBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsScene-setBackgroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsScene-setBackgroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.setBspTreeDepth
         :args:
@@ -562,8 +562,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.setForegroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsScene-setForegroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsScene-setForegroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.setItemIndexMethod
         :args:

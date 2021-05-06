@@ -252,10 +252,10 @@
     .. sip:method:: PyQt6.QtGui.QImage.convertedTo
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
-        :description: QtGui/QImage-convertedTo-f.rst
+        :description: QtGui/QImage-convertedTo-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.convertedToColorSpace
         :args:
@@ -267,8 +267,8 @@
     .. sip:method:: PyQt6.QtGui.QImage.convertTo
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QImage-convertTo-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QImage-convertTo-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.convertToColorSpace
         :args:
@@ -278,19 +278,19 @@
     .. sip:method:: PyQt6.QtGui.QImage.convertToFormat
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
-        :description: QtGui/QImage-convertToFormat-f.rst
+        :description: QtGui/QImage-convertToFormat-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.convertToFormat
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
             Iterable[int]
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
-        :description: QtGui/QImage-convertToFormat-f-1.rst
+        :description: QtGui/QImage-convertToFormat-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.copy
         :args:
@@ -311,10 +311,10 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.createAlphaMask
         :args:
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
-        :description: QtGui/QImage-createAlphaMask-f.rst
+        :description: QtGui/QImage-createAlphaMask-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.createHeuristicMask
         :args:
@@ -365,8 +365,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fill
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-fill-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QImage-fill-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.fill
         :args:
@@ -676,15 +676,15 @@
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-setPixelColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QImage-setPixelColor-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-setPixelColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QImage-setPixelColor-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setText
         :args:

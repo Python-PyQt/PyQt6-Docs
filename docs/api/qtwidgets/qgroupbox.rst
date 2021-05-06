@@ -17,8 +17,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGroupBox-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGroupBox-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.changeEvent
         :args:

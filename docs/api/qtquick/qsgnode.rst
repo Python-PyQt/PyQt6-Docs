@@ -3,44 +3,44 @@
 .. sip:class:: PyQt6.QtQuick.QSGNode
     :description: QtQuick/QSGNode-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGNode.DirtyState
-        :description: QtQuick/QSGNode-DirtyState-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGNode.DirtyStateBit
+        :description: QtQuick/QSGNode-DirtyStateBit-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyGeometry
-            :description: QtQuick/QSGNode-DirtyState-DirtyGeometry-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyGeometry
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyGeometry-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyMaterial
-            :description: QtQuick/QSGNode-DirtyState-DirtyMaterial-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyMaterial
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyMaterial-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyMatrix
-            :description: QtQuick/QSGNode-DirtyState-DirtyMatrix-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyMatrix
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyMatrix-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyNodeAdded
-            :description: QtQuick/QSGNode-DirtyState-DirtyNodeAdded-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyNodeAdded
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyNodeAdded-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyNodeRemoved
-            :description: QtQuick/QSGNode-DirtyState-DirtyNodeRemoved-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyNodeRemoved
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyNodeRemoved-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyState.DirtyOpacity
-            :description: QtQuick/QSGNode-DirtyState-DirtyOpacity-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.DirtyStateBit.DirtyOpacity
+            :description: QtQuick/QSGNode-DirtyStateBit-DirtyOpacity-v.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGNode.Flags
-        :description: QtQuick/QSGNode-Flags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGNode.Flag
+        :description: QtQuick/QSGNode-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flags.OwnedByParent
-            :description: QtQuick/QSGNode-Flags-OwnedByParent-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flag.OwnedByParent
+            :description: QtQuick/QSGNode-Flag-OwnedByParent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flags.OwnsGeometry
-            :description: QtQuick/QSGNode-Flags-OwnsGeometry-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flag.OwnsGeometry
+            :description: QtQuick/QSGNode-Flag-OwnsGeometry-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flags.OwnsMaterial
-            :description: QtQuick/QSGNode-Flags-OwnsMaterial-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flag.OwnsMaterial
+            :description: QtQuick/QSGNode-Flag-OwnsMaterial-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flags.OwnsOpaqueMaterial
-            :description: QtQuick/QSGNode-Flags-OwnsOpaqueMaterial-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flag.OwnsOpaqueMaterial
+            :description: QtQuick/QSGNode-Flag-OwnsOpaqueMaterial-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flags.UsePreprocess
-            :description: QtQuick/QSGNode-Flags-UsePreprocess-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGNode.Flag.UsePreprocess
+            :description: QtQuick/QSGNode-Flag-UsePreprocess-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QSGNode.NodeType
         :description: QtQuick/QSGNode-NodeType-e.rst
@@ -87,8 +87,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flags`
-        :description: QtQuick/QSGNode-flags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flag`
+        :description: QtQuick/QSGNode-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.insertChildNodeAfter
         :args:
@@ -119,8 +119,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.markDirty
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGNode.DirtyState`
-        :description: QtQuick/QSGNode-markDirty-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGNode.DirtyStateBit`
+        :description: QtQuick/QSGNode-markDirty-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.nextSibling
         :returns:
@@ -155,15 +155,15 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flags`
+            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flag`
             enabled: bool = True
-        :description: QtQuick/QSGNode-setFlag-f.rst
+        :description: QtQuick/QSGNode-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flags`
+            :sip:ref:`~PyQt6.QtQuick.QSGNode.Flag`
             enabled: bool = True
-        :description: QtQuick/QSGNode-setFlags-f.rst
+        :description: QtQuick/QSGNode-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGNode.type
         :returns:

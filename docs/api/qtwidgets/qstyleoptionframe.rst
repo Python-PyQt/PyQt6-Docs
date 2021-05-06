@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`
     :description: QtWidgets/QStyleOptionFrame-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures
-        :description: QtWidgets/QStyleOptionFrame-FrameFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature
+        :description: QtWidgets/QStyleOptionFrame-FrameFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures.Flat
-            :description: QtWidgets/QStyleOptionFrame-FrameFeatures-Flat-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature.Flat
+            :description: QtWidgets/QStyleOptionFrame-FrameFeature-Flat-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures.None_
-            :description: QtWidgets/QStyleOptionFrame-FrameFeatures-None_-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature.None_
+            :description: QtWidgets/QStyleOptionFrame-FrameFeature-None_-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures.Rounded
-            :description: QtWidgets/QStyleOptionFrame-FrameFeatures-Rounded-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature.Rounded
+            :description: QtWidgets/QStyleOptionFrame-FrameFeature-Rounded-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyleOptionFrame.StyleOptionType
         :description: QtWidgets/QStyleOptionFrame-StyleOptionType-e.rst
@@ -29,7 +29,7 @@
             :description: QtWidgets/QStyleOptionFrame-StyleOptionVersion-Version-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionFrame.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionFrame.FrameFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionFrame.FrameFeature`
         :description: QtWidgets/QStyleOptionFrame-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionFrame.frameShape

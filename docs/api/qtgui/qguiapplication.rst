@@ -23,9 +23,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.applicationState
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ApplicationStates`
+            :sip:ref:`~PyQt6.QtCore.Qt.ApplicationState`
         :static:
-        :description: QtGui/QGuiApplication-applicationState-f.rst
+        :description: QtGui/QGuiApplication-applicationState-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.changeOverrideCursor
         :args:
@@ -123,9 +123,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.keyboardModifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :static:
-        :description: QtGui/QGuiApplication-keyboardModifiers-f.rst
+        :description: QtGui/QGuiApplication-keyboardModifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.layoutDirection
         :returns:
@@ -141,9 +141,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.mouseButtons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
         :static:
-        :description: QtGui/QGuiApplication-mouseButtons-f.rst
+        :description: QtGui/QGuiApplication-mouseButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.notify
         :args:
@@ -179,9 +179,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.queryKeyboardModifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :static:
-        :description: QtGui/QGuiApplication-queryKeyboardModifiers-f.rst
+        :description: QtGui/QGuiApplication-queryKeyboardModifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.quitOnLastWindowClosed
         :returns:
@@ -312,8 +312,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QGuiApplication.applicationStateChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.ApplicationStates`
-        :description: QtGui/QGuiApplication-applicationStateChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ApplicationState`
+        :description: QtGui/QGuiApplication-applicationStateChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QGuiApplication.commitDataRequest
         :args:

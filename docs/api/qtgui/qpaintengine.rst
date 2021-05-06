@@ -3,113 +3,113 @@
 .. sip:class:: PyQt6.QtGui.QPaintEngine
     :description: QtGui/QPaintEngine-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QPaintEngine.DirtyFlags
-        :description: QtGui/QPaintEngine-DirtyFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QPaintEngine.DirtyFlag
+        :description: QtGui/QPaintEngine-DirtyFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.AllDirty
-            :description: QtGui/QPaintEngine-DirtyFlags-AllDirty-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.AllDirty
+            :description: QtGui/QPaintEngine-DirtyFlag-AllDirty-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyBackground
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyBackground-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyBackground
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyBackground-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyBackgroundMode
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyBackgroundMode-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyBackgroundMode
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyBackgroundMode-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyBrush
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyBrush-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyBrush
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyBrush-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyBrushOrigin
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyBrushOrigin-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyBrushOrigin
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyBrushOrigin-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyClipEnabled
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyClipEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyClipEnabled
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyClipEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyClipPath
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyClipPath-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyClipPath
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyClipPath-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyClipRegion
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyClipRegion-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyClipRegion
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyClipRegion-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyCompositionMode
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyCompositionMode-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyCompositionMode
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyCompositionMode-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyFont
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyFont-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyFont
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyFont-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyHints
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyHints-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyHints
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyHints-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyOpacity
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyOpacity-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyOpacity
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyOpacity-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyPen
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyPen-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyPen
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyPen-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlags.DirtyTransform
-            :description: QtGui/QPaintEngine-DirtyFlags-DirtyTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.DirtyFlag.DirtyTransform
+            :description: QtGui/QPaintEngine-DirtyFlag-DirtyTransform-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures
-        :description: QtGui/QPaintEngine-PaintEngineFeatures-e.rst
+    .. sip:enum:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature
+        :description: QtGui/QPaintEngine-PaintEngineFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.AllFeatures
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-AllFeatures-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.AllFeatures
+            :description: QtGui/QPaintEngine-PaintEngineFeature-AllFeatures-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.AlphaBlend
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-AlphaBlend-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.AlphaBlend
+            :description: QtGui/QPaintEngine-PaintEngineFeature-AlphaBlend-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.Antialiasing
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-Antialiasing-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.Antialiasing
+            :description: QtGui/QPaintEngine-PaintEngineFeature-Antialiasing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.BlendModes
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-BlendModes-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.BlendModes
+            :description: QtGui/QPaintEngine-PaintEngineFeature-BlendModes-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.BrushStroke
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-BrushStroke-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.BrushStroke
+            :description: QtGui/QPaintEngine-PaintEngineFeature-BrushStroke-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.ConicalGradientFill
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-ConicalGradientFill-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.ConicalGradientFill
+            :description: QtGui/QPaintEngine-PaintEngineFeature-ConicalGradientFill-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.ConstantOpacity
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-ConstantOpacity-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.ConstantOpacity
+            :description: QtGui/QPaintEngine-PaintEngineFeature-ConstantOpacity-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.LinearGradientFill
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-LinearGradientFill-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.LinearGradientFill
+            :description: QtGui/QPaintEngine-PaintEngineFeature-LinearGradientFill-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.MaskedBrush
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-MaskedBrush-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.MaskedBrush
+            :description: QtGui/QPaintEngine-PaintEngineFeature-MaskedBrush-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.ObjectBoundingModeGradients
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-ObjectBoundingModeGradients-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.ObjectBoundingModeGradients
+            :description: QtGui/QPaintEngine-PaintEngineFeature-ObjectBoundingModeGradients-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PainterPaths
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PainterPaths-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PainterPaths
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PainterPaths-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PaintOutsidePaintEvent
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PaintOutsidePaintEvent-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PaintOutsidePaintEvent
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PaintOutsidePaintEvent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PatternBrush
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PatternBrush-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PatternBrush
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PatternBrush-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PatternTransform
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PatternTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PatternTransform
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PatternTransform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PerspectiveTransform
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PerspectiveTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PerspectiveTransform
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PerspectiveTransform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PixmapTransform
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PixmapTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PixmapTransform
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PixmapTransform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PorterDuff
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PorterDuff-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PorterDuff
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PorterDuff-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.PrimitiveTransform
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-PrimitiveTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.PrimitiveTransform
+            :description: QtGui/QPaintEngine-PaintEngineFeature-PrimitiveTransform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.RadialGradientFill
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-RadialGradientFill-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.RadialGradientFill
+            :description: QtGui/QPaintEngine-PaintEngineFeature-RadialGradientFill-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeatures.RasterOpModes
-            :description: QtGui/QPaintEngine-PaintEngineFeatures-RasterOpModes-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPaintEngine.PaintEngineFeature.RasterOpModes
+            :description: QtGui/QPaintEngine-PaintEngineFeature-RasterOpModes-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QPaintEngine.PolygonDrawMode
         :description: QtGui/QPaintEngine-PolygonDrawMode-e.rst
@@ -188,8 +188,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPaintEngine.__init__
         :args:
-            features: :sip:ref:`~PyQt6.QtGui.QPaintEngine.PaintEngineFeatures` = QPaintEngine.PaintEngineFeatures()
-        :description: QtGui/QPaintEngine-__init__-f.rst
+            features: :sip:ref:`~PyQt6.QtGui.QPaintEngine.PaintEngineFeature` = QPaintEngine.PaintEngineFeatures()
+        :description: QtGui/QPaintEngine-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPaintEngine.begin
         :args:
@@ -213,8 +213,8 @@
             :sip:ref:`~PyQt6.QtCore.QRectF`
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPaintEngine-drawImage-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPaintEngine-drawImage-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPaintEngine.drawLines
         :args:
@@ -290,10 +290,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPaintEngine.hasFeature
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPaintEngine.PaintEngineFeatures`
+            :sip:ref:`~PyQt6.QtGui.QPaintEngine.PaintEngineFeature`
         :returns:
             bool
-        :description: QtGui/QPaintEngine-hasFeature-f.rst
+        :description: QtGui/QPaintEngine-hasFeature-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPaintEngine.isActive
         :returns:

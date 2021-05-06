@@ -40,10 +40,10 @@
 
     .. sip:method:: PyQt6.QtCore.QBuffer.open
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtCore/QBuffer-open-f.rst
+        :description: QtCore/QBuffer-open-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QBuffer.pos
         :returns:

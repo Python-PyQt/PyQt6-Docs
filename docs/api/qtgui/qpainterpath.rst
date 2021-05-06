@@ -340,13 +340,6 @@
             float
         :description: QtGui/QPainterPath-moveTo-f-1.rst
 
-    .. sip:method:: PyQt6.QtGui.QPainterPath.__mul__
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QTransform`
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QPainterPath`
-        :description: QtGui/QPainterPath-__mul__-f.rst
-
     .. sip:method:: PyQt6.QtGui.QPainterPath.__ne__
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`

@@ -138,6 +138,11 @@
             int
         :description: Qt3DRender/QGeometryRenderer-setRestartIndexValue-f.rst
 
+    .. sip:method:: PyQt6.Qt3DRender.QGeometryRenderer.setSortIndex
+        :args:
+            float
+        :description: Qt3DRender/QGeometryRenderer-setSortIndex-f.rst
+
     .. sip:method:: PyQt6.Qt3DRender.QGeometryRenderer.setVertexCount
         :args:
             int
@@ -147,6 +152,11 @@
         :args:
             int
         :description: Qt3DRender/QGeometryRenderer-setVerticesPerPatch-f.rst
+
+    .. sip:method:: PyQt6.Qt3DRender.QGeometryRenderer.sortIndex
+        :returns:
+            float
+        :description: Qt3DRender/QGeometryRenderer-sortIndex-f.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QGeometryRenderer.vertexCount
         :returns:
@@ -202,6 +212,11 @@
         :args:
             int
         :description: Qt3DRender/QGeometryRenderer-restartIndexValueChanged-s.rst
+
+    .. sip:signal:: PyQt6.Qt3DRender.QGeometryRenderer.sortIndexChanged
+        :args:
+            float
+        :description: Qt3DRender/QGeometryRenderer-sortIndexChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QGeometryRenderer.vertexCountChanged
         :args:

@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QPersistentModelIndex-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QPersistentModelIndex-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ge__
         :args:

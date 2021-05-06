@@ -161,16 +161,16 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.processEvents
         :args:
-            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags.AllEvents`
+            flags: :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag` = :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag.AllEvents`
         :static:
-        :description: QtCore/QCoreApplication-processEvents-f.rst
+        :description: QtCore/QCoreApplication-processEvents-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.processEvents
         :args:
-            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags`
+            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag`
             int
         :static:
-        :description: QtCore/QCoreApplication-processEvents-f-1.rst
+        :description: QtCore/QCoreApplication-processEvents-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.quit
         :static:

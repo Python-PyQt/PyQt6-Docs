@@ -302,9 +302,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setSslOption
         :args:
-            :sip:ref:`~PyQt6.QtNetwork.QSsl.SslOptions`
+            :sip:ref:`~PyQt6.QtNetwork.QSsl.SslOption`
             bool
-        :description: QtNetwork/QSslConfiguration-setSslOption-f.rst
+        :description: QtNetwork/QSslConfiguration-setSslOption-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.supportedCiphers
         :returns:
@@ -331,7 +331,7 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.testSslOption
         :args:
-            :sip:ref:`~PyQt6.QtNetwork.QSsl.SslOptions`
+            :sip:ref:`~PyQt6.QtNetwork.QSsl.SslOption`
         :returns:
             bool
-        :description: QtNetwork/QSslConfiguration-testSslOption-f.rst
+        :description: QtNetwork/QSslConfiguration-testSslOption-f-1.rst

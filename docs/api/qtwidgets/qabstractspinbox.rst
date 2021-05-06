@@ -25,17 +25,17 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.CorrectionMode.CorrectToPreviousValue
             :description: QtWidgets/QAbstractSpinBox-CorrectionMode-CorrectToPreviousValue-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled
-        :description: QtWidgets/QAbstractSpinBox-StepEnabled-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag
+        :description: QtWidgets/QAbstractSpinBox-StepEnabledFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled.StepDownEnabled
-            :description: QtWidgets/QAbstractSpinBox-StepEnabled-StepDownEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag.StepDownEnabled
+            :description: QtWidgets/QAbstractSpinBox-StepEnabledFlag-StepDownEnabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled.StepNone
-            :description: QtWidgets/QAbstractSpinBox-StepEnabled-StepNone-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag.StepNone
+            :description: QtWidgets/QAbstractSpinBox-StepEnabledFlag-StepNone-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled.StepUpEnabled
-            :description: QtWidgets/QAbstractSpinBox-StepEnabled-StepUpEnabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag.StepUpEnabled
+            :description: QtWidgets/QAbstractSpinBox-StepEnabledFlag-StepUpEnabled-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QAbstractSpinBox.StepType
         :description: QtWidgets/QAbstractSpinBox-StepType-e.rst
@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QAbstractSpinBox-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QAbstractSpinBox-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.buttonSymbols
         :returns:
@@ -130,10 +130,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QAbstractSpinBox-inputMethodQuery-f.rst
+        :description: QtWidgets/QAbstractSpinBox-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.interpretText
         :description: QtWidgets/QAbstractSpinBox-interpretText-f.rst
@@ -213,8 +213,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QAbstractSpinBox-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QAbstractSpinBox-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.setButtonSymbols
         :args:
@@ -286,8 +286,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.stepEnabled
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled`
-        :description: QtWidgets/QAbstractSpinBox-stepEnabled-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag`
+        :description: QtWidgets/QAbstractSpinBox-stepEnabled-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.stepUp
         :description: QtWidgets/QAbstractSpinBox-stepUp-f.rst

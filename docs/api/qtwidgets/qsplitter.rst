@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QSplitter-__init__-f-1.rst
+        :description: QtWidgets/QSplitter-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.addWidget
         :args:
@@ -123,8 +123,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSplitter-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSplitter-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.refresh
         :description: QtWidgets/QSplitter-refresh-f.rst
@@ -177,8 +177,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSplitter-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSplitter-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.setRubberBand
         :args:

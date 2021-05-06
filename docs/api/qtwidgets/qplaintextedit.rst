@@ -203,18 +203,18 @@
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.find
         :args:
             str
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QPlainTextEdit-find-f.rst
+        :description: QtWidgets/QPlainTextEdit-find-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.find
         :args:
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QPlainTextEdit-find-f-1.rst
+        :description: QtWidgets/QPlainTextEdit-find-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.firstVisibleBlock
         :returns:
@@ -250,18 +250,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QPlainTextEdit-inputMethodQuery-f.rst
+        :description: QtWidgets/QPlainTextEdit-inputMethodQuery-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
             Any
         :returns:
             Any
-        :description: QtWidgets/QPlainTextEdit-inputMethodQuery-f-1.rst
+        :description: QtWidgets/QPlainTextEdit-inputMethodQuery-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.insertFromMimeData
         :args:
@@ -464,8 +464,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setTextInteractionFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QPlainTextEdit-setTextInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QPlainTextEdit-setTextInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setUndoRedoEnabled
         :args:
@@ -499,8 +499,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.textInteractionFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlags`
-        :description: QtWidgets/QPlainTextEdit-textInteractionFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.TextInteractionFlag`
+        :description: QtWidgets/QPlainTextEdit-textInteractionFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.timerEvent
         :args:

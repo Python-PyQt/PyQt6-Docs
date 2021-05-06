@@ -13,6 +13,12 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlListReference.__init__
         :args:
+            Any
+            engine: :sip:ref:`~PyQt6.QtQml.QQmlEngine` = None
+        :description: QtQml/QQmlListReference-__init__-f-3.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlListReference.__init__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
             str
             engine: :sip:ref:`~PyQt6.QtQml.QQmlEngine` = None

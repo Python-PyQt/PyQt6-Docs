@@ -216,6 +216,14 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.__init__
         :args:
+            Iterable[str]
+            pointSize: int = -1
+            weight: int = -1
+            italic: bool = False
+        :description: QtGui/QFont-__init__-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.__init__
+        :args:
             str
             pointSize: int = -1
             weight: int = -1

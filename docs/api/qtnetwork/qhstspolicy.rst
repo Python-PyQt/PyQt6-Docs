@@ -3,11 +3,11 @@
 .. sip:class:: PyQt6.QtNetwork.QHstsPolicy
     :description: QtNetwork/QHstsPolicy-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QHstsPolicy.PolicyFlags
-        :description: QtNetwork/QHstsPolicy-PolicyFlags-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QHstsPolicy.PolicyFlag
+        :description: QtNetwork/QHstsPolicy-PolicyFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QHstsPolicy.PolicyFlags.IncludeSubDomains
-            :description: QtNetwork/QHstsPolicy-PolicyFlags-IncludeSubDomains-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QHstsPolicy.PolicyFlag.IncludeSubDomains
+            :description: QtNetwork/QHstsPolicy-PolicyFlag-IncludeSubDomains-v.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__init__
         :description: QtNetwork/QHstsPolicy-__init__-f.rst
@@ -20,10 +20,10 @@
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__init__
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            :sip:ref:`~PyQt6.QtNetwork.QHstsPolicy.PolicyFlags`
+            :sip:ref:`~PyQt6.QtNetwork.QHstsPolicy.PolicyFlag`
             str
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtNetwork/QHstsPolicy-__init__-f-2.rst
+        :description: QtNetwork/QHstsPolicy-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__eq__
         :args:
@@ -39,10 +39,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.host
         :args:
-            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`
         :returns:
             str
-        :description: QtNetwork/QHstsPolicy-host-f.rst
+        :description: QtNetwork/QHstsPolicy-host-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.includesSubDomains
         :returns:

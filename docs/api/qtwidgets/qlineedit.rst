@@ -60,8 +60,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLineEdit-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLineEdit-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.backspace
         :description: QtWidgets/QLineEdit-backspace-f.rst
@@ -239,18 +239,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QLineEdit-inputMethodQuery-f.rst
+        :description: QtWidgets/QLineEdit-inputMethodQuery-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
             Any
         :returns:
             Any
-        :description: QtWidgets/QLineEdit-inputMethodQuery-f-1.rst
+        :description: QtWidgets/QLineEdit-inputMethodQuery-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.insert
         :args:
@@ -363,8 +363,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLineEdit-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLineEdit-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setClearButtonEnabled
         :args:

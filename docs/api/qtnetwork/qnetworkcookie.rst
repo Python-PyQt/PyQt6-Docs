@@ -12,6 +12,21 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkCookie.RawForm.NameAndValueOnly
             :description: QtNetwork/QNetworkCookie-RawForm-NameAndValueOnly-v.rst
 
+    .. sip:enum:: PyQt6.QtNetwork.QNetworkCookie.SameSite
+        :description: QtNetwork/QNetworkCookie-SameSite-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkCookie.SameSite.Default
+            :description: QtNetwork/QNetworkCookie-SameSite-Default-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkCookie.SameSite.Lax
+            :description: QtNetwork/QNetworkCookie-SameSite-Lax-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkCookie.SameSite.None_
+            :description: QtNetwork/QNetworkCookie-SameSite-None_-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkCookie.SameSite.Strict
+            :description: QtNetwork/QNetworkCookie-SameSite-Strict-v.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`
@@ -92,6 +107,11 @@
             str
         :description: QtNetwork/QNetworkCookie-path-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.sameSitePolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkCookie.SameSite`
+        :description: QtNetwork/QNetworkCookie-sameSitePolicy-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setDomain
         :args:
             str
@@ -116,6 +136,11 @@
         :args:
             str
         :description: QtNetwork/QNetworkCookie-setPath-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setSameSitePolicy
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkCookie.SameSite`
+        :description: QtNetwork/QNetworkCookie-setSameSitePolicy-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setSecure
         :args:

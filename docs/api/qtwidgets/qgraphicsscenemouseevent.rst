@@ -6,39 +6,39 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.button
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-button-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsSceneMouseEvent-button-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.buttonDownPos
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownPos-f.rst
+        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownPos-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.buttonDownScenePos
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownScenePos-f.rst
+        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownScenePos-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.buttonDownScreenPos
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownScreenPos-f.rst
+        :description: QtWidgets/QGraphicsSceneMouseEvent-buttonDownScreenPos-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.buttons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-buttons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsSceneMouseEvent-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.flags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseEventFlags`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseEventFlag`
+        :description: QtWidgets/QGraphicsSceneMouseEvent-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.lastPos
         :returns:
@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtWidgets/QGraphicsSceneMouseEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtWidgets/QGraphicsSceneMouseEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneMouseEvent.pos
         :returns:

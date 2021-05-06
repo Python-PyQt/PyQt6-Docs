@@ -83,14 +83,14 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.connectToServer
         :args:
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
-        :description: QtNetwork/QLocalSocket-connectToServer-f.rst
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
+        :description: QtNetwork/QLocalSocket-connectToServer-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.connectToServer
         :args:
             str
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
-        :description: QtNetwork/QLocalSocket-connectToServer-f-1.rst
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
+        :description: QtNetwork/QLocalSocket-connectToServer-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.disconnectFromServer
         :description: QtNetwork/QLocalSocket-disconnectFromServer-f.rst
@@ -122,10 +122,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.open
         :args:
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QLocalSocket-open-f.rst
+        :description: QtNetwork/QLocalSocket-open-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.readBufferSize
         :returns:
@@ -158,10 +158,10 @@
         :args:
             PyQt6.sip.voidptr
             state: :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.LocalSocketState` = :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.LocalSocketState.ConnectedState`
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QLocalSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QLocalSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.skipData
         :args:

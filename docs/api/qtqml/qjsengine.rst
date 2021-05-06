@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtQml/QJSEngine-c.rst
 
-    .. sip:enum:: PyQt6.QtQml.QJSEngine.Extensions
-        :description: QtQml/QJSEngine-Extensions-e.rst
+    .. sip:enum:: PyQt6.QtQml.QJSEngine.Extension
+        :description: QtQml/QJSEngine-Extension-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extensions.AllExtensions
-            :description: QtQml/QJSEngine-Extensions-AllExtensions-v.rst
+        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extension.AllExtensions
+            :description: QtQml/QJSEngine-Extension-AllExtensions-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extensions.ConsoleExtension
-            :description: QtQml/QJSEngine-Extensions-ConsoleExtension-v.rst
+        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extension.ConsoleExtension
+            :description: QtQml/QJSEngine-Extension-ConsoleExtension-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extensions.GarbageCollectionExtension
-            :description: QtQml/QJSEngine-Extensions-GarbageCollectionExtension-v.rst
+        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extension.GarbageCollectionExtension
+            :description: QtQml/QJSEngine-Extension-GarbageCollectionExtension-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extensions.TranslationExtension
-            :description: QtQml/QJSEngine-Extensions-TranslationExtension-v.rst
+        .. sip:enum-member:: PyQt6.QtQml.QJSEngine.Extension.TranslationExtension
+            :description: QtQml/QJSEngine-Extension-TranslationExtension-v.rst
 
     .. sip:enum:: PyQt6.QtQml.QJSEngine.ObjectOwnership
         :description: QtQml/QJSEngine-ObjectOwnership-e.rst
@@ -35,6 +35,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtQml/QJSEngine-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSEngine.catchError
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSValue`
+        :description: QtQml/QJSEngine-catchError-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.collectGarbage
         :description: QtQml/QJSEngine-collectGarbage-f.rst
@@ -54,6 +59,11 @@
             :sip:ref:`~PyQt6.QtQml.QJSValue`
         :description: QtQml/QJSEngine-globalObject-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSEngine.hasError
+        :returns:
+            bool
+        :description: QtQml/QJSEngine-hasError-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSEngine.importModule
         :args:
             str
@@ -63,9 +73,9 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.installExtensions
         :args:
-            :sip:ref:`~PyQt6.QtQml.QJSEngine.Extensions`
+            :sip:ref:`~PyQt6.QtQml.QJSEngine.Extension`
             object: Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str] = QJSValue()
-        :description: QtQml/QJSEngine-installExtensions-f.rst
+        :description: QtQml/QJSEngine-installExtensions-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.isInterrupted
         :returns:
@@ -135,6 +145,11 @@
         :args:
             str
         :description: QtQml/QJSEngine-throwError-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSEngine.throwError
+        :args:
+            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str]
+        :description: QtQml/QJSEngine-throwError-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.throwError
         :args:

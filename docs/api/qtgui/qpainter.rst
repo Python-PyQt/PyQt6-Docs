@@ -120,26 +120,29 @@
         .. sip:enum-member:: PyQt6.QtGui.QPainter.CompositionMode.RasterOp_SourceXorDestination
             :description: QtGui/QPainter-CompositionMode-RasterOp_SourceXorDestination-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QPainter.PixmapFragmentHints
-        :description: QtGui/QPainter-PixmapFragmentHints-e.rst
+    .. sip:enum:: PyQt6.QtGui.QPainter.PixmapFragmentHint
+        :description: QtGui/QPainter-PixmapFragmentHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPainter.PixmapFragmentHints.OpaqueHint
-            :description: QtGui/QPainter-PixmapFragmentHints-OpaqueHint-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.PixmapFragmentHint.OpaqueHint
+            :description: QtGui/QPainter-PixmapFragmentHint-OpaqueHint-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QPainter.RenderHints
-        :description: QtGui/QPainter-RenderHints-e.rst
+    .. sip:enum:: PyQt6.QtGui.QPainter.RenderHint
+        :description: QtGui/QPainter-RenderHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHints.Antialiasing
-            :description: QtGui/QPainter-RenderHints-Antialiasing-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.Antialiasing
+            :description: QtGui/QPainter-RenderHint-Antialiasing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHints.LosslessImageRendering
-            :description: QtGui/QPainter-RenderHints-LosslessImageRendering-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.LosslessImageRendering
+            :description: QtGui/QPainter-RenderHint-LosslessImageRendering-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHints.SmoothPixmapTransform
-            :description: QtGui/QPainter-RenderHints-SmoothPixmapTransform-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.SmoothPixmapTransform
+            :description: QtGui/QPainter-RenderHint-SmoothPixmapTransform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHints.TextAntialiasing
-            :description: QtGui/QPainter-RenderHints-TextAntialiasing-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.TextAntialiasing
+            :description: QtGui/QPainter-RenderHint-TextAntialiasing-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.VerticalSubpixelPositioning
+            :description: QtGui/QPainter-RenderHint-VerticalSubpixelPositioning-v.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.__init__
         :description: QtGui/QPainter-__init__-f.rst
@@ -390,32 +393,32 @@
             :sip:ref:`~PyQt6.QtCore.QRectF`
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-4.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPainter-drawImage-f-9.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawImage
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-5.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPainter-drawImage-f-10.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawImage
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-6.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPainter-drawImage-f-11.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawImage
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-7.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPainter-drawImage-f-12.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawImage
         :args:
@@ -426,8 +429,8 @@
             sy: int = 0
             sw: int = -1
             sh: int = -1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlags.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-8.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QPainter-drawImage-f-13.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLine
         :args:
@@ -641,8 +644,8 @@
         :args:
             List[:sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragment`]
             :sip:ref:`~PyQt6.QtGui.QPixmap`
-            hints: :sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragmentHints` = QPainter.PixmapFragmentHints()
-        :description: QtGui/QPainter-drawPixmapFragments-f.rst
+            hints: :sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragmentHint` = QPainter.PixmapFragmentHints()
+        :description: QtGui/QPainter-drawPixmapFragments-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPoint
         :args:
@@ -936,32 +939,32 @@
     .. sip:method:: PyQt6.QtGui.QPainter.fillPath
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillPath-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillPath-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-15.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-16.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-17.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-18.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
@@ -1005,8 +1008,8 @@
             int
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-10.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-19.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
@@ -1014,8 +1017,8 @@
             int
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-11.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-fillRect-f-20.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
@@ -1091,8 +1094,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.renderHints
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
-        :description: QtGui/QPainter-renderHints-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
+        :description: QtGui/QPainter-renderHints-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.resetTransform
         :description: QtGui/QPainter-resetTransform-f.rst
@@ -1116,8 +1119,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setBackground-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-setBackground-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setBackgroundMode
         :args:
@@ -1126,8 +1129,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-setBrush-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setBrush
         :args:
@@ -1210,13 +1213,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-setPen-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-setPen-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
@@ -1225,15 +1228,15 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.setRenderHint
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
             on: bool = True
-        :description: QtGui/QPainter-setRenderHint-f.rst
+        :description: QtGui/QPainter-setRenderHint-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setRenderHints
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
             on: bool = True
-        :description: QtGui/QPainter-setRenderHints-f.rst
+        :description: QtGui/QPainter-setRenderHints-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setTransform
         :args:
@@ -1292,15 +1295,15 @@
     .. sip:method:: PyQt6.QtGui.QPainter.strokePath
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-strokePath-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QPainter-strokePath-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.testRenderHint
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
         :returns:
             bool
-        :description: QtGui/QPainter-testRenderHint-f.rst
+        :description: QtGui/QPainter-testRenderHint-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.transform
         :returns:

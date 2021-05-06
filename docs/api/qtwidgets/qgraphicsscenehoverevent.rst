@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneHoverEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtWidgets/QGraphicsSceneHoverEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtWidgets/QGraphicsSceneHoverEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneHoverEvent.pos
         :returns:

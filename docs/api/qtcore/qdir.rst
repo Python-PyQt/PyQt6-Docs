@@ -3,107 +3,107 @@
 .. sip:class:: PyQt6.QtCore.QDir
     :description: QtCore/QDir-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QDir.Filters
-        :description: QtCore/QDir-Filters-e.rst
+    .. sip:enum:: PyQt6.QtCore.QDir.Filter
+        :description: QtCore/QDir-Filter-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.AccessMask
-            :description: QtCore/QDir-Filters-AccessMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.AccessMask
+            :description: QtCore/QDir-Filter-AccessMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.AllDirs
-            :description: QtCore/QDir-Filters-AllDirs-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.AllDirs
+            :description: QtCore/QDir-Filter-AllDirs-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.AllEntries
-            :description: QtCore/QDir-Filters-AllEntries-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.AllEntries
+            :description: QtCore/QDir-Filter-AllEntries-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.CaseSensitive
-            :description: QtCore/QDir-Filters-CaseSensitive-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.CaseSensitive
+            :description: QtCore/QDir-Filter-CaseSensitive-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Dirs
-            :description: QtCore/QDir-Filters-Dirs-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Dirs
+            :description: QtCore/QDir-Filter-Dirs-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Drives
-            :description: QtCore/QDir-Filters-Drives-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Drives
+            :description: QtCore/QDir-Filter-Drives-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Executable
-            :description: QtCore/QDir-Filters-Executable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Executable
+            :description: QtCore/QDir-Filter-Executable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Files
-            :description: QtCore/QDir-Filters-Files-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Files
+            :description: QtCore/QDir-Filter-Files-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Hidden
-            :description: QtCore/QDir-Filters-Hidden-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Hidden
+            :description: QtCore/QDir-Filter-Hidden-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Modified
-            :description: QtCore/QDir-Filters-Modified-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Modified
+            :description: QtCore/QDir-Filter-Modified-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.NoDot
-            :description: QtCore/QDir-Filters-NoDot-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.NoDot
+            :description: QtCore/QDir-Filter-NoDot-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.NoDotAndDotDot
-            :description: QtCore/QDir-Filters-NoDotAndDotDot-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.NoDotAndDotDot
+            :description: QtCore/QDir-Filter-NoDotAndDotDot-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.NoDotDot
-            :description: QtCore/QDir-Filters-NoDotDot-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.NoDotDot
+            :description: QtCore/QDir-Filter-NoDotDot-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.NoFilter
-            :description: QtCore/QDir-Filters-NoFilter-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.NoFilter
+            :description: QtCore/QDir-Filter-NoFilter-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.NoSymLinks
-            :description: QtCore/QDir-Filters-NoSymLinks-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.NoSymLinks
+            :description: QtCore/QDir-Filter-NoSymLinks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.PermissionMask
-            :description: QtCore/QDir-Filters-PermissionMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.PermissionMask
+            :description: QtCore/QDir-Filter-PermissionMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Readable
-            :description: QtCore/QDir-Filters-Readable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Readable
+            :description: QtCore/QDir-Filter-Readable-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.System
-            :description: QtCore/QDir-Filters-System-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.System
+            :description: QtCore/QDir-Filter-System-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.TypeMask
-            :description: QtCore/QDir-Filters-TypeMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.TypeMask
+            :description: QtCore/QDir-Filter-TypeMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.Filters.Writable
-            :description: QtCore/QDir-Filters-Writable-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.Filter.Writable
+            :description: QtCore/QDir-Filter-Writable-v.rst
 
-    .. sip:enum:: PyQt6.QtCore.QDir.SortFlags
-        :description: QtCore/QDir-SortFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QDir.SortFlag
+        :description: QtCore/QDir-SortFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.DirsFirst
-            :description: QtCore/QDir-SortFlags-DirsFirst-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.DirsFirst
+            :description: QtCore/QDir-SortFlag-DirsFirst-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.DirsLast
-            :description: QtCore/QDir-SortFlags-DirsLast-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.DirsLast
+            :description: QtCore/QDir-SortFlag-DirsLast-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.IgnoreCase
-            :description: QtCore/QDir-SortFlags-IgnoreCase-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.IgnoreCase
+            :description: QtCore/QDir-SortFlag-IgnoreCase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.LocaleAware
-            :description: QtCore/QDir-SortFlags-LocaleAware-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.LocaleAware
+            :description: QtCore/QDir-SortFlag-LocaleAware-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Name
-            :description: QtCore/QDir-SortFlags-Name-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Name
+            :description: QtCore/QDir-SortFlag-Name-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.NoSort
-            :description: QtCore/QDir-SortFlags-NoSort-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.NoSort
+            :description: QtCore/QDir-SortFlag-NoSort-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Reversed
-            :description: QtCore/QDir-SortFlags-Reversed-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Reversed
+            :description: QtCore/QDir-SortFlag-Reversed-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Size
-            :description: QtCore/QDir-SortFlags-Size-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Size
+            :description: QtCore/QDir-SortFlag-Size-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.SortByMask
-            :description: QtCore/QDir-SortFlags-SortByMask-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.SortByMask
+            :description: QtCore/QDir-SortFlag-SortByMask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Time
-            :description: QtCore/QDir-SortFlags-Time-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Time
+            :description: QtCore/QDir-SortFlag-Time-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Type
-            :description: QtCore/QDir-SortFlags-Type-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Type
+            :description: QtCore/QDir-SortFlag-Type-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlags.Unsorted
-            :description: QtCore/QDir-SortFlags-Unsorted-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDir.SortFlag.Unsorted
+            :description: QtCore/QDir-SortFlag-Unsorted-v.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__init__
         :args:
@@ -119,9 +119,9 @@
         :args:
             str
             str
-            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlags` = QDir.SortFlags(QDir.Name|QDir.IgnoreCase)
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.AllEntries`
-        :description: QtCore/QDir-__init__-f-2.rst
+            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = QDir.SortFlags(QDir.Name|QDir.IgnoreCase)
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.AllEntries`
+        :description: QtCore/QDir-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.absoluteFilePath
         :args:
@@ -204,37 +204,37 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.entryInfoList
         :args:
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.NoFilter`
-            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlags` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlags.NoSort`
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
+            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f.rst
+        :description: QtCore/QDir-entryInfoList-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryInfoList
         :args:
             Iterable[str]
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.NoFilter`
-            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlags` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlags.NoSort`
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
+            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f-1.rst
+        :description: QtCore/QDir-entryInfoList-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.NoFilter`
-            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlags` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlags.NoSort`
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
+            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             List[str]
-        :description: QtCore/QDir-entryList-f.rst
+        :description: QtCore/QDir-entryList-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
             Iterable[str]
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.NoFilter`
-            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlags` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlags.NoSort`
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
+            sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             List[str]
-        :description: QtCore/QDir-entryList-f-1.rst
+        :description: QtCore/QDir-entryList-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__eq__
         :args:
@@ -264,8 +264,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.filter
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QDir.Filters`
-        :description: QtCore/QDir-filter-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.Filter`
+        :description: QtCore/QDir-filter-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.fromNativeSeparators
         :args:
@@ -316,10 +316,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.isEmpty
         :args:
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = QDir.Filters(QDir.AllEntries|QDir.NoDotAndDotDot)
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = QDir.Filters(QDir.AllEntries|QDir.NoDotAndDotDot)
         :returns:
             bool
-        :description: QtCore/QDir-isEmpty-f.rst
+        :description: QtCore/QDir-isEmpty-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.isReadable
         :returns:
@@ -497,8 +497,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.setFilter
         :args:
-            :sip:ref:`~PyQt6.QtCore.QDir.Filters`
-        :description: QtCore/QDir-setFilter-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.Filter`
+        :description: QtCore/QDir-setFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.setNameFilters
         :args:
@@ -519,13 +519,13 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.setSorting
         :args:
-            :sip:ref:`~PyQt6.QtCore.QDir.SortFlags`
-        :description: QtCore/QDir-setSorting-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.SortFlag`
+        :description: QtCore/QDir-setSorting-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.sorting
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QDir.SortFlags`
-        :description: QtCore/QDir-sorting-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.SortFlag`
+        :description: QtCore/QDir-sorting-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.swap
         :args:

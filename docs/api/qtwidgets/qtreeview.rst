@@ -274,10 +274,10 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QTreeView-moveCursor-f.rst
+        :description: QtWidgets/QTreeView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.paintEvent
         :args:
@@ -447,8 +447,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QTreeView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QTreeView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.setSelectionModel
         :args:

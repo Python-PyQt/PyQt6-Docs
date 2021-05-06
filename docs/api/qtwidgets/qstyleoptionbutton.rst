@@ -4,26 +4,26 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`
     :description: QtWidgets/QStyleOptionButton-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures
-        :description: QtWidgets/QStyleOptionButton-ButtonFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature
+        :description: QtWidgets/QStyleOptionButton-ButtonFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.AutoDefaultButton
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-AutoDefaultButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.AutoDefaultButton
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-AutoDefaultButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.CommandLinkButton
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-CommandLinkButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.CommandLinkButton
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-CommandLinkButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.DefaultButton
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-DefaultButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.DefaultButton
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-DefaultButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.Flat
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-Flat-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.Flat
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-Flat-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.HasMenu
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-HasMenu-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.HasMenu
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-HasMenu-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures.None_
-            :description: QtWidgets/QStyleOptionButton-ButtonFeatures-None_-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature.None_
+            :description: QtWidgets/QStyleOptionButton-ButtonFeature-None_-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyleOptionButton.StyleOptionType
         :description: QtWidgets/QStyleOptionButton-StyleOptionType-e.rst
@@ -38,7 +38,7 @@
             :description: QtWidgets/QStyleOptionButton-StyleOptionVersion-Version-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionButton.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionButton.ButtonFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionButton.ButtonFeature`
         :description: QtWidgets/QStyleOptionButton-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionButton.icon

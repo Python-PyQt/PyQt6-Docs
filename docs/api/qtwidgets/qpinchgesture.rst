@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QGesture`
     :description: QtWidgets/QPinchGesture-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QPinchGesture.ChangeFlags
-        :description: QtWidgets/QPinchGesture-ChangeFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QPinchGesture.ChangeFlag
+        :description: QtWidgets/QPinchGesture-ChangeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlags.CenterPointChanged
-            :description: QtWidgets/QPinchGesture-ChangeFlags-CenterPointChanged-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlag.CenterPointChanged
+            :description: QtWidgets/QPinchGesture-ChangeFlag-CenterPointChanged-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlags.RotationAngleChanged
-            :description: QtWidgets/QPinchGesture-ChangeFlags-RotationAngleChanged-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlag.RotationAngleChanged
+            :description: QtWidgets/QPinchGesture-ChangeFlag-RotationAngleChanged-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlags.ScaleFactorChanged
-            :description: QtWidgets/QPinchGesture-ChangeFlags-ScaleFactorChanged-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QPinchGesture.ChangeFlag.ScaleFactorChanged
+            :description: QtWidgets/QPinchGesture-ChangeFlag-ScaleFactorChanged-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.__init__
         :args:
@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.changeFlags
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlags`
-        :description: QtWidgets/QPinchGesture-changeFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlag`
+        :description: QtWidgets/QPinchGesture-changeFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.lastCenterPoint
         :returns:
@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.setChangeFlags
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlags`
-        :description: QtWidgets/QPinchGesture-setChangeFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlag`
+        :description: QtWidgets/QPinchGesture-setChangeFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.setLastCenterPoint
         :args:
@@ -98,8 +98,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.setTotalChangeFlags
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlags`
-        :description: QtWidgets/QPinchGesture-setTotalChangeFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlag`
+        :description: QtWidgets/QPinchGesture-setTotalChangeFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.setTotalRotationAngle
         :args:
@@ -118,8 +118,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.totalChangeFlags
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlags`
-        :description: QtWidgets/QPinchGesture-totalChangeFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.ChangeFlag`
+        :description: QtWidgets/QPinchGesture-totalChangeFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPinchGesture.totalRotationAngle
         :returns:

@@ -47,19 +47,19 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
-        :description: QtWidgets/QCommonStyle-hitTestComplexControl-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
+        :description: QtWidgets/QCommonStyle-hitTestComplexControl-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommonStyle.layoutSpacing
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             option: :sip:ref:`~PyQt6.QtWidgets.QStyleOption` = None
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             int
-        :description: QtWidgets/QCommonStyle-layoutSpacing-f.rst
+        :description: QtWidgets/QCommonStyle-layoutSpacing-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommonStyle.pixelMetric
         :args:
@@ -129,11 +129,11 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QStyle.ComplexControl`
             :sip:ref:`~PyQt6.QtWidgets.QStyleOptionComplex`
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QCommonStyle-subControlRect-f.rst
+        :description: QtWidgets/QCommonStyle-subControlRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommonStyle.subElementRect
         :args:

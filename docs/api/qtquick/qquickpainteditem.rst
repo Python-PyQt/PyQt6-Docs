@@ -4,11 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtQuick.QQuickItem`
     :description: QtQuick/QQuickPaintedItem-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QQuickPaintedItem.PerformanceHints
-        :description: QtQuick/QQuickPaintedItem-PerformanceHints-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QQuickPaintedItem.PerformanceHint
+        :description: QtQuick/QQuickPaintedItem-PerformanceHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickPaintedItem.PerformanceHints.FastFBOResizing
-            :description: QtQuick/QQuickPaintedItem-PerformanceHints-FastFBOResizing-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickPaintedItem.PerformanceHint.FastFBOResizing
+            :description: QtQuick/QQuickPaintedItem-PerformanceHint-FastFBOResizing-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QQuickPaintedItem.RenderTarget
         :description: QtQuick/QQuickPaintedItem-RenderTarget-e.rst
@@ -80,8 +80,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.performanceHints
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHints`
-        :description: QtQuick/QQuickPaintedItem-performanceHints-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHint`
+        :description: QtQuick/QQuickPaintedItem-performanceHints-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.releaseResources
         :description: QtQuick/QQuickPaintedItem-releaseResources-f.rst
@@ -111,8 +111,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.setFillColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtQuick/QQuickPaintedItem-setFillColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuick/QQuickPaintedItem-setFillColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.setMipmap
         :args:
@@ -126,14 +126,14 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.setPerformanceHint
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHints`
+            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHint`
             enabled: bool = True
-        :description: QtQuick/QQuickPaintedItem-setPerformanceHint-f.rst
+        :description: QtQuick/QQuickPaintedItem-setPerformanceHint-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.setPerformanceHints
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHints`
-        :description: QtQuick/QQuickPaintedItem-setPerformanceHints-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QQuickPaintedItem.PerformanceHint`
+        :description: QtQuick/QQuickPaintedItem-setPerformanceHints-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickPaintedItem.setRenderTarget
         :args:

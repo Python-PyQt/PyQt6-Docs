@@ -3,20 +3,20 @@
 .. sip:class:: PyQt6.QtQuick.QSGMaterialShader.RenderState
     :description: QtQuick/QSGMaterialShader-RenderState-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates
-        :description: QtQuick/QSGMaterialShader-RenderState-DirtyStates-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState
+        :description: QtQuick/QSGMaterialShader-RenderState-DirtyState-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates.DirtyAll
-            :description: QtQuick/QSGMaterialShader-RenderState-DirtyStates-DirtyAll-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState.DirtyAll
+            :description: QtQuick/QSGMaterialShader-RenderState-DirtyState-DirtyAll-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates.DirtyCachedMaterialData
-            :description: QtQuick/QSGMaterialShader-RenderState-DirtyStates-DirtyCachedMaterialData-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState.DirtyCachedMaterialData
+            :description: QtQuick/QSGMaterialShader-RenderState-DirtyState-DirtyCachedMaterialData-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates.DirtyMatrix
-            :description: QtQuick/QSGMaterialShader-RenderState-DirtyStates-DirtyMatrix-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState.DirtyMatrix
+            :description: QtQuick/QSGMaterialShader-RenderState-DirtyState-DirtyMatrix-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates.DirtyOpacity
-            :description: QtQuick/QSGMaterialShader-RenderState-DirtyStates-DirtyOpacity-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState.DirtyOpacity
+            :description: QtQuick/QSGMaterialShader-RenderState-DirtyState-DirtyOpacity-v.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.RenderState.__init__
         :description: QtQuick/QSGMaterialShader-RenderState-__init__-f.rst
@@ -48,8 +48,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.RenderState.dirtyStates
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyStates`
-        :description: QtQuick/QSGMaterialShader-RenderState-dirtyStates-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.RenderState.DirtyState`
+        :description: QtQuick/QSGMaterialShader-RenderState-dirtyStates-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.RenderState.isMatrixDirty
         :returns:

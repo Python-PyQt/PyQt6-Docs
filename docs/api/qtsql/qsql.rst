@@ -27,20 +27,20 @@
         .. sip:enum-member:: PyQt6.QtSql.QSql.NumericalPrecisionPolicy.LowPrecisionInt64
             :description: QtSql/QSql-NumericalPrecisionPolicy-LowPrecisionInt64-v.rst
 
-    .. sip:enum:: PyQt6.QtSql.QSql.ParamType
-        :description: QtSql/QSql-ParamType-e.rst
+    .. sip:enum:: PyQt6.QtSql.QSql.ParamTypeFlag
+        :description: QtSql/QSql-ParamTypeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamType.Binary
-            :description: QtSql/QSql-ParamType-Binary-v.rst
+        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamTypeFlag.Binary
+            :description: QtSql/QSql-ParamTypeFlag-Binary-v.rst
 
-        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamType.In
-            :description: QtSql/QSql-ParamType-In-v.rst
+        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamTypeFlag.In
+            :description: QtSql/QSql-ParamTypeFlag-In-v.rst
 
-        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamType.InOut
-            :description: QtSql/QSql-ParamType-InOut-v.rst
+        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamTypeFlag.InOut
+            :description: QtSql/QSql-ParamTypeFlag-InOut-v.rst
 
-        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamType.Out
-            :description: QtSql/QSql-ParamType-Out-v.rst
+        .. sip:enum-member:: PyQt6.QtSql.QSql.ParamTypeFlag.Out
+            :description: QtSql/QSql-ParamTypeFlag-Out-v.rst
 
     .. sip:enum:: PyQt6.QtSql.QSql.TableType
         :description: QtSql/QSql-TableType-e.rst

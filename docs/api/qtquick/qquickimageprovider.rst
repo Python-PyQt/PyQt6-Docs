@@ -7,13 +7,13 @@
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.__init__
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.ImageType`
-            flags: :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flags` = QQmlImageProviderBase.Flags()
-        :description: QtQuick/QQuickImageProvider-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flag` = QQmlImageProviderBase.Flags()
+        :description: QtQuick/QQuickImageProvider-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flags`
-        :description: QtQuick/QQuickImageProvider-flags-f.rst
+            :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flag`
+        :description: QtQuick/QQuickImageProvider-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.imageType
         :returns:

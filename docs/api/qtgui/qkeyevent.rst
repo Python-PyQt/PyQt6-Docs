@@ -8,17 +8,17 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             text: str = ''
             autorep: bool = False
             count: int = 1
-        :description: QtGui/QKeyEvent-__init__-f.rst
+        :description: QtGui/QKeyEvent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             int
             int
             int
@@ -26,7 +26,7 @@
             autorep: bool = False
             count: int = 1
             device: :sip:ref:`~PyQt6.QtGui.QInputDevice` = QInputDevice.primaryKeyboard()
-        :description: QtGui/QKeyEvent-__init__-f-1.rst
+        :description: QtGui/QKeyEvent-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.clone
         :returns:
@@ -74,8 +74,8 @@
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtGui/QKeyEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtGui/QKeyEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.nativeModifiers
         :returns:

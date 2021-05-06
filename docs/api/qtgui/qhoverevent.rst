@@ -9,9 +9,9 @@
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers.NoModifier`
+            modifiers: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.NoModifier`
             device: :sip:ref:`~PyQt6.QtGui.QPointingDevice` = QPointingDevice.primaryPointingDevice()
-        :description: QtGui/QHoverEvent-__init__-f.rst
+        :description: QtGui/QHoverEvent-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QHoverEvent.clone
         :returns:

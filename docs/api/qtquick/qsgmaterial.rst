@@ -3,23 +3,23 @@
 .. sip:class:: PyQt6.QtQuick.QSGMaterial
     :description: QtQuick/QSGMaterial-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGMaterial.Flags
-        :description: QtQuick/QSGMaterial-Flags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterial.Flag
+        :description: QtQuick/QSGMaterial-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flags.Blending
-            :description: QtQuick/QSGMaterial-Flags-Blending-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.Blending
+            :description: QtQuick/QSGMaterial-Flag-Blending-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flags.CustomCompileStep
-            :description: QtQuick/QSGMaterial-Flags-CustomCompileStep-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.CustomCompileStep
+            :description: QtQuick/QSGMaterial-Flag-CustomCompileStep-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flags.RequiresDeterminant
-            :description: QtQuick/QSGMaterial-Flags-RequiresDeterminant-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.RequiresDeterminant
+            :description: QtQuick/QSGMaterial-Flag-RequiresDeterminant-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flags.RequiresFullMatrix
-            :description: QtQuick/QSGMaterial-Flags-RequiresFullMatrix-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.RequiresFullMatrix
+            :description: QtQuick/QSGMaterial-Flag-RequiresFullMatrix-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flags.RequiresFullMatrixExceptTranslate
-            :description: QtQuick/QSGMaterial-Flags-RequiresFullMatrixExceptTranslate-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.RequiresFullMatrixExceptTranslate
+            :description: QtQuick/QSGMaterial-Flag-RequiresFullMatrixExceptTranslate-v.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterial.__init__
         :description: QtQuick/QSGMaterial-__init__-f.rst
@@ -40,14 +40,14 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterial.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterial.Flags`
-        :description: QtQuick/QSGMaterial-flags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterial.Flag`
+        :description: QtQuick/QSGMaterial-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterial.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterial.Flags`
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterial.Flag`
             enabled: bool = True
-        :description: QtQuick/QSGMaterial-setFlag-f.rst
+        :description: QtQuick/QSGMaterial-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterial.type
         :returns:

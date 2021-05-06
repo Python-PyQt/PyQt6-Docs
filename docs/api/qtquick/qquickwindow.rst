@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtGui.QWindow`
     :description: QtQuick/QQuickWindow-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions
-        :description: QtQuick/QQuickWindow-CreateTextureOptions-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption
+        :description: QtQuick/QQuickWindow-CreateTextureOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions.TextureCanUseAtlas
-            :description: QtQuick/QQuickWindow-CreateTextureOptions-TextureCanUseAtlas-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureCanUseAtlas
+            :description: QtQuick/QQuickWindow-CreateTextureOption-TextureCanUseAtlas-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions.TextureHasAlphaChannel
-            :description: QtQuick/QQuickWindow-CreateTextureOptions-TextureHasAlphaChannel-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureHasAlphaChannel
+            :description: QtQuick/QQuickWindow-CreateTextureOption-TextureHasAlphaChannel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions.TextureHasMipmaps
-            :description: QtQuick/QQuickWindow-CreateTextureOptions-TextureHasMipmaps-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureHasMipmaps
+            :description: QtQuick/QQuickWindow-CreateTextureOption-TextureHasMipmaps-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions.TextureIsOpaque
-            :description: QtQuick/QQuickWindow-CreateTextureOptions-TextureIsOpaque-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureIsOpaque
+            :description: QtQuick/QQuickWindow-CreateTextureOption-TextureIsOpaque-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOptions.TextureOwnsGLTexture
-            :description: QtQuick/QQuickWindow-CreateTextureOptions-TextureOwnsGLTexture-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureOwnsGLTexture
+            :description: QtQuick/QQuickWindow-CreateTextureOption-TextureOwnsGLTexture-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QQuickWindow.RenderStage
         :description: QtQuick/QQuickWindow-RenderStage-e.rst
@@ -106,10 +106,10 @@
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.createTextureFromImage
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage`
-            :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOptions`
+            :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOption`
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QSGTexture`
-        :description: QtQuick/QQuickWindow-createTextureFromImage-f-1.rst
+        :description: QtQuick/QQuickWindow-createTextureFromImage-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.effectiveDevicePixelRatio
         :returns:
@@ -265,8 +265,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtQuick/QQuickWindow-setColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuick/QQuickWindow-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.setDefaultAlphaBuffer
         :args:
@@ -378,8 +378,8 @@
 
     .. sip:signal:: PyQt6.QtQuick.QQuickWindow.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtQuick/QQuickWindow-colorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuick/QQuickWindow-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtQuick.QQuickWindow.frameSwapped
         :description: QtQuick/QQuickWindow-frameSwapped-s.rst

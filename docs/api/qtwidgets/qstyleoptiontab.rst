@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`
     :description: QtWidgets/QStyleOptionTab-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidgets
-        :description: QtWidgets/QStyleOptionTab-CornerWidgets-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidget
+        :description: QtWidgets/QStyleOptionTab-CornerWidget-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidgets.LeftCornerWidget
-            :description: QtWidgets/QStyleOptionTab-CornerWidgets-LeftCornerWidget-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidget.LeftCornerWidget
+            :description: QtWidgets/QStyleOptionTab-CornerWidget-LeftCornerWidget-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidgets.NoCornerWidgets
-            :description: QtWidgets/QStyleOptionTab-CornerWidgets-NoCornerWidgets-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidget.NoCornerWidgets
+            :description: QtWidgets/QStyleOptionTab-CornerWidget-NoCornerWidgets-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidgets.RightCornerWidget
-            :description: QtWidgets/QStyleOptionTab-CornerWidgets-RightCornerWidget-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.CornerWidget.RightCornerWidget
+            :description: QtWidgets/QStyleOptionTab-CornerWidget-RightCornerWidget-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.SelectedPosition
         :description: QtWidgets/QStyleOptionTab-SelectedPosition-e.rst
@@ -40,14 +40,14 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.StyleOptionVersion.Version
             :description: QtWidgets/QStyleOptionTab-StyleOptionVersion-Version-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.TabFeatures
-        :description: QtWidgets/QStyleOptionTab-TabFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature
+        :description: QtWidgets/QStyleOptionTab-TabFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeatures.HasFrame
-            :description: QtWidgets/QStyleOptionTab-TabFeatures-HasFrame-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature.HasFrame
+            :description: QtWidgets/QStyleOptionTab-TabFeature-HasFrame-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeatures.None_
-            :description: QtWidgets/QStyleOptionTab-TabFeatures-None_-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature.None_
+            :description: QtWidgets/QStyleOptionTab-TabFeature-None_-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyleOptionTab.TabPosition
         :description: QtWidgets/QStyleOptionTab-TabPosition-e.rst
@@ -65,7 +65,7 @@
             :description: QtWidgets/QStyleOptionTab-TabPosition-OnlyOneTab-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.cornerWidgets
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionTab.CornerWidgets`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionTab.CornerWidget`
         :description: QtWidgets/QStyleOptionTab-cornerWidgets-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.documentMode
@@ -73,7 +73,7 @@
         :description: QtWidgets/QStyleOptionTab-documentMode-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionTab.TabFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionTab.TabFeature`
         :description: QtWidgets/QStyleOptionTab-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.icon

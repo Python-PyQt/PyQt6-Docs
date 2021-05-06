@@ -4,29 +4,29 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtGui/QTextDocument-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QTextDocument.FindFlags
-        :description: QtGui/QTextDocument-FindFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QTextDocument.FindFlag
+        :description: QtGui/QTextDocument-FindFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlags.FindBackward
-            :description: QtGui/QTextDocument-FindFlags-FindBackward-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlag.FindBackward
+            :description: QtGui/QTextDocument-FindFlag-FindBackward-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlags.FindCaseSensitively
-            :description: QtGui/QTextDocument-FindFlags-FindCaseSensitively-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlag.FindCaseSensitively
+            :description: QtGui/QTextDocument-FindFlag-FindCaseSensitively-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlags.FindWholeWords
-            :description: QtGui/QTextDocument-FindFlags-FindWholeWords-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.FindFlag.FindWholeWords
+            :description: QtGui/QTextDocument-FindFlag-FindWholeWords-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QTextDocument.MarkdownFeatures
-        :description: QtGui/QTextDocument-MarkdownFeatures-e.rst
+    .. sip:enum:: PyQt6.QtGui.QTextDocument.MarkdownFeature
+        :description: QtGui/QTextDocument-MarkdownFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownDialectCommonMark
-            :description: QtGui/QTextDocument-MarkdownFeatures-MarkdownDialectCommonMark-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectCommonMark
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownDialectCommonMark-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownDialectGitHub
-            :description: QtGui/QTextDocument-MarkdownFeatures-MarkdownDialectGitHub-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownDialectGitHub-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownNoHTML
-            :description: QtGui/QTextDocument-MarkdownFeatures-MarkdownNoHTML-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownNoHTML
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownNoHTML-v.rst
 
     .. sip:enum:: PyQt6.QtGui.QTextDocument.MetaInformation
         :description: QtGui/QTextDocument-MetaInformation-e.rst
@@ -170,6 +170,12 @@
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtGui/QTextDocument-defaultFont-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextDocument.defaultResourceProvider
+        :returns:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :static:
+        :description: QtGui/QTextDocument-defaultResourceProvider-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextDocument.defaultStyleSheet
         :returns:
             str
@@ -205,37 +211,37 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f.rst
+        :description: QtGui/QTextDocument-find-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.find
         :args:
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
             position: int = 0
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f-1.rst
+        :description: QtGui/QTextDocument-find-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.find
         :args:
             str
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f-2.rst
+        :description: QtGui/QTextDocument-find-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.find
         :args:
             str
             position: int = 0
-            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlags` = QTextDocument.FindFlags()
+            options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f-3.rst
+        :description: QtGui/QTextDocument-find-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.findBlock
         :args:
@@ -379,6 +385,11 @@
             Any
         :description: QtGui/QTextDocument-resource-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextDocument.resourceProvider
+        :returns:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :description: QtGui/QTextDocument-resourceProvider-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextDocument.revision
         :returns:
             int
@@ -408,6 +419,12 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtGui/QTextDocument-setDefaultFont-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextDocument.setDefaultResourceProvider
+        :args:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :static:
+        :description: QtGui/QTextDocument-setDefaultResourceProvider-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setDefaultStyleSheet
         :args:
@@ -442,8 +459,8 @@
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMarkdown
         :args:
             str
-            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownDialectGitHub`
-        :description: QtGui/QTextDocument-setMarkdown-f.rst
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :description: QtGui/QTextDocument-setMarkdown-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMaximumBlockCount
         :args:
@@ -470,6 +487,11 @@
         :args:
             str
         :description: QtGui/QTextDocument-setPlainText-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextDocument.setResourceProvider
+        :args:
+            Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], Any]
+        :description: QtGui/QTextDocument-setResourceProvider-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setSubScriptBaseline
         :args:
@@ -523,10 +545,10 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.toMarkdown
         :args:
-            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeatures.MarkdownDialectGitHub`
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
         :returns:
             str
-        :description: QtGui/QTextDocument-toMarkdown-f.rst
+        :description: QtGui/QTextDocument-toMarkdown-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.toPlainText
         :returns:

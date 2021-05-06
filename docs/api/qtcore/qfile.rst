@@ -113,32 +113,32 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.open
         :args:
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
         :returns:
             bool
-        :description: QtCore/QFile-open-f.rst
+        :description: QtCore/QFile-open-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.open
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
-            handleFlags: :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlags` = :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlags.DontCloseHandle`
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
+            handleFlags: :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlag` = :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlag.DontCloseHandle`
         :returns:
             bool
-        :description: QtCore/QFile-open-f-1.rst
+        :description: QtCore/QFile-open-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.permissions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
-        :description: QtCore/QFile-permissions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :description: QtCore/QFile-permissions-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.permissions
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :static:
-        :description: QtCore/QFile-permissions-f-1.rst
+        :description: QtCore/QFile-permissions-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.remove
         :returns:
@@ -192,19 +192,19 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.setPermissions
         :args:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
-        :description: QtCore/QFile-setPermissions-f.rst
+        :description: QtCore/QFile-setPermissions-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.setPermissions
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-setPermissions-f-1.rst
+        :description: QtCore/QFile-setPermissions-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.size
         :returns:

@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtCore/QLibrary-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QLibrary.LoadHints
-        :description: QtCore/QLibrary-LoadHints-e.rst
+    .. sip:enum:: PyQt6.QtCore.QLibrary.LoadHint
+        :description: QtCore/QLibrary-LoadHint-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHints.DeepBindHint
-            :description: QtCore/QLibrary-LoadHints-DeepBindHint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHint.DeepBindHint
+            :description: QtCore/QLibrary-LoadHint-DeepBindHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHints.ExportExternalSymbolsHint
-            :description: QtCore/QLibrary-LoadHints-ExportExternalSymbolsHint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHint.ExportExternalSymbolsHint
+            :description: QtCore/QLibrary-LoadHint-ExportExternalSymbolsHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHints.LoadArchiveMemberHint
-            :description: QtCore/QLibrary-LoadHints-LoadArchiveMemberHint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHint.LoadArchiveMemberHint
+            :description: QtCore/QLibrary-LoadHint-LoadArchiveMemberHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHints.PreventUnloadHint
-            :description: QtCore/QLibrary-LoadHints-PreventUnloadHint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHint.PreventUnloadHint
+            :description: QtCore/QLibrary-LoadHint-PreventUnloadHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHints.ResolveAllSymbolsHint
-            :description: QtCore/QLibrary-LoadHints-ResolveAllSymbolsHint-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QLibrary.LoadHint.ResolveAllSymbolsHint
+            :description: QtCore/QLibrary-LoadHint-ResolveAllSymbolsHint-v.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.__init__
         :args:
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLibrary.loadHints
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHints`
-        :description: QtCore/QLibrary-loadHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHint`
+        :description: QtCore/QLibrary-loadHints-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
@@ -135,8 +135,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setLoadHints
         :args:
-            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHints`
-        :description: QtCore/QLibrary-setLoadHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLibrary.LoadHint`
+        :description: QtCore/QLibrary-setLoadHints-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.unload
         :returns:

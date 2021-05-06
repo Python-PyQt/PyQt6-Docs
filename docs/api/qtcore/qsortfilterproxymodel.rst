@@ -46,13 +46,13 @@
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QSortFilterProxyModel-dropMimeData-f.rst
+        :description: QtCore/QSortFilterProxyModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.dynamicSortFilter
         :returns:
@@ -104,8 +104,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QSortFilterProxyModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QSortFilterProxyModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.hasChildren
         :args:
@@ -117,11 +117,11 @@
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QSortFilterProxyModel-headerData-f.rst
+        :description: QtCore/QSortFilterProxyModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.index
         :args:
@@ -214,10 +214,10 @@
             int
             Any
             hits: int = 1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QSortFilterProxyModel-match-f.rst
+        :description: QtCore/QSortFilterProxyModel-match-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.mimeData
         :args:
@@ -325,12 +325,12 @@
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtCore/QSortFilterProxyModel-setHeaderData-f.rst
+        :description: QtCore/QSortFilterProxyModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setRecursiveFilteringEnabled
         :args:
@@ -401,8 +401,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QSortFilterProxyModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QSortFilterProxyModel-supportedDropActions-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QSortFilterProxyModel.autoAcceptChildRowsChanged
         :args:

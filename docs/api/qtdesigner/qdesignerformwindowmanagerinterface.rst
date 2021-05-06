@@ -123,10 +123,10 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowManagerInterface.createFormWindow
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
         :returns:
             :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface`
-        :description: QtDesigner/QDesignerFormWindowManagerInterface-createFormWindow-f.rst
+        :description: QtDesigner/QDesignerFormWindowManagerInterface-createFormWindow-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowManagerInterface.formWindow
         :args:

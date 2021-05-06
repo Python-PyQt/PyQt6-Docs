@@ -3,44 +3,44 @@
 .. sip:class:: PyQt6.QtCore.QDirIterator
     :description: QtCore/QDirIterator-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QDirIterator.IteratorFlags
-        :description: QtCore/QDirIterator-IteratorFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QDirIterator.IteratorFlag
+        :description: QtCore/QDirIterator-IteratorFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlags.FollowSymlinks
-            :description: QtCore/QDirIterator-IteratorFlags-FollowSymlinks-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlag.FollowSymlinks
+            :description: QtCore/QDirIterator-IteratorFlag-FollowSymlinks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlags.NoIteratorFlags
-            :description: QtCore/QDirIterator-IteratorFlags-NoIteratorFlags-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags
+            :description: QtCore/QDirIterator-IteratorFlag-NoIteratorFlags-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlags.Subdirectories
-            :description: QtCore/QDirIterator-IteratorFlags-Subdirectories-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QDirIterator.IteratorFlag.Subdirectories
+            :description: QtCore/QDirIterator-IteratorFlag-Subdirectories-v.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QDir`
-            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
+        :description: QtCore/QDirIterator-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
             str
-            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
+        :description: QtCore/QDirIterator-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.QDir.Filters`
-            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QDir.Filter`
+            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
+        :description: QtCore/QDirIterator-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
             str
             Iterable[str]
-            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filters` = :sip:ref:`~PyQt6.QtCore.QDir.Filters.NoFilter`
-            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlags.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-3.rst
+            filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
+            flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
+        :description: QtCore/QDirIterator-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.fileInfo
         :returns:

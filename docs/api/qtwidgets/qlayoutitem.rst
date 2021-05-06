@@ -5,8 +5,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.__init__
         :args:
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QLayoutItem-__init__-f.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QLayoutItem-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.__init__
         :args:
@@ -15,18 +15,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLayoutItem-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLayoutItem-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.controlTypes
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-        :description: QtWidgets/QLayoutItem-controlTypes-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+        :description: QtWidgets/QLayoutItem-controlTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QLayoutItem-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QLayoutItem-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.geometry
         :returns:
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QLayoutItem-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLayoutItem-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayoutItem.setGeometry
         :args:

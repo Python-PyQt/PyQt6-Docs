@@ -26,12 +26,20 @@
             int
         :description: QtQml/QQmlPropertyMap-count-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.freeze
+        :description: QtQml/QQmlPropertyMap-freeze-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.__getitem__
         :args:
             str
         :returns:
             Any
         :description: QtQml/QQmlPropertyMap-__getitem__-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
+        :args:
+            Dict[str, Any]
+        :description: QtQml/QQmlPropertyMap-insert-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
         :args:

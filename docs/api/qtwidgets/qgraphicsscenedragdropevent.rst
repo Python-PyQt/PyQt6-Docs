@@ -9,13 +9,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.buttons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-buttons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.dropAction
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-dropAction-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-dropAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.mimeData
         :returns:
@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.modifiers
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-modifiers-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-modifiers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.pos
         :returns:
@@ -34,13 +34,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.possibleActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-possibleActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-possibleActions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.proposedAction
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-proposedAction-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-proposedAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.scenePos
         :returns:
@@ -54,8 +54,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.setDropAction
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QGraphicsSceneDragDropEvent-setDropAction-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QGraphicsSceneDragDropEvent-setDropAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneDragDropEvent.source
         :returns:

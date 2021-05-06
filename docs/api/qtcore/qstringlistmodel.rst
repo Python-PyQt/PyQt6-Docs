@@ -34,8 +34,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QStringListModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QStringListModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.insertRows
         :args:
@@ -124,5 +124,5 @@
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QStringListModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QStringListModel-supportedDropActions-f-1.rst

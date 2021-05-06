@@ -18,6 +18,12 @@
 
     .. sip:method:: PyQt6.QtCore.QSocketNotifier.__init__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QSocketNotifier.Type`
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtCore/QSocketNotifier-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QSocketNotifier.__init__
+        :args:
             PyQt6.sip.voidptr
             :sip:ref:`~PyQt6.QtCore.QSocketNotifier.Type`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -35,10 +41,20 @@
             bool
         :description: QtCore/QSocketNotifier-isEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSocketNotifier.isValid
+        :returns:
+            bool
+        :description: QtCore/QSocketNotifier-isValid-f.rst
+
     .. sip:method:: PyQt6.QtCore.QSocketNotifier.setEnabled
         :args:
             bool
         :description: QtCore/QSocketNotifier-setEnabled-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSocketNotifier.setSocket
+        :args:
+            PyQt6.sip.voidptr
+        :description: QtCore/QSocketNotifier-setSocket-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSocketNotifier.socket
         :returns:

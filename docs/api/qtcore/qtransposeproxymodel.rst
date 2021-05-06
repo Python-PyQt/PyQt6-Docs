@@ -19,11 +19,11 @@
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QTransposeProxyModel-headerData-f.rst
+        :description: QtCore/QTransposeProxyModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.index
         :args:
@@ -130,12 +130,12 @@
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtCore/QTransposeProxyModel-setHeaderData-f.rst
+        :description: QtCore/QTransposeProxyModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.setItemData
         :args:

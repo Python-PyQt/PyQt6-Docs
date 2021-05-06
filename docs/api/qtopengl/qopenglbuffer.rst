@@ -15,26 +15,26 @@
         .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.Access.WriteOnly
             :description: QtOpenGL/QOpenGLBuffer-Access-WriteOnly-v.rst
 
-    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags
-        :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-e.rst
+    .. sip:enum:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag
+        :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeFlushExplicit
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeFlushExplicit-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeFlushExplicit
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeFlushExplicit-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeInvalidate
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeInvalidate-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeInvalidate
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeInvalidate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeInvalidateBuffer
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeInvalidateBuffer-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeInvalidateBuffer
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeInvalidateBuffer-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeRead
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeRead-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeRead
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeRead-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeUnsynchronized
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeUnsynchronized-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeUnsynchronized
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeUnsynchronized-v.rst
 
-        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags.RangeWrite
-            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlags-RangeWrite-v.rst
+        .. sip:enum-member:: PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag.RangeWrite
+            :description: QtOpenGL/QOpenGLBuffer-RangeAccessFlag-RangeWrite-v.rst
 
     .. sip:enum:: PyQt6.QtOpenGL.QOpenGLBuffer.Type
         :description: QtOpenGL/QOpenGLBuffer-Type-e.rst
@@ -144,10 +144,10 @@
         :args:
             int
             int
-            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlags`
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag`
         :returns:
             sip.voidptr
-        :description: QtOpenGL/QOpenGLBuffer-mapRange-f.rst
+        :description: QtOpenGL/QOpenGLBuffer-mapRange-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.read
         :args:

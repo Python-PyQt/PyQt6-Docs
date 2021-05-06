@@ -72,10 +72,10 @@
             int
             int
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
         :returns:
             bool
-        :description: QtWidgets/QTableWidget-dropMimeData-f.rst
+        :description: QtWidgets/QTableWidget-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.editItem
         :args:
@@ -92,10 +92,10 @@
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.findItems
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags`
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
-        :description: QtWidgets/QTableWidget-findItems-f.rst
+        :description: QtWidgets/QTableWidget-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.horizontalHeaderItem
         :args:
@@ -258,8 +258,8 @@
         :args:
             int
             int
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QTableWidget-setCurrentCell-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QTableWidget-setCurrentCell-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setCurrentItem
         :args:
@@ -269,8 +269,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setCurrentItem
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QTableWidget-setCurrentItem-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QTableWidget-setCurrentItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setHorizontalHeaderItem
         :args:
@@ -330,8 +330,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QTableWidget-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTableWidget-supportedDropActions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.takeHorizontalHeaderItem
         :args:

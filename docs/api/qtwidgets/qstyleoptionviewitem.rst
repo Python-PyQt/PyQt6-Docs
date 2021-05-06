@@ -31,26 +31,26 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.StyleOptionVersion.Version
             :description: QtWidgets/QStyleOptionViewItem-StyleOptionVersion-Version-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures
-        :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature
+        :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.Alternate
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-Alternate-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.Alternate
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-Alternate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.HasCheckIndicator
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-HasCheckIndicator-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.HasCheckIndicator
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-HasCheckIndicator-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.HasDecoration
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-HasDecoration-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.HasDecoration
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-HasDecoration-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.HasDisplay
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-HasDisplay-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.HasDisplay
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-HasDisplay-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.None_
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-None_-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.None_
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-None_-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures.WrapText
-            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeatures-WrapText-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.WrapText
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-WrapText-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemPosition
         :description: QtWidgets/QStyleOptionViewItem-ViewItemPosition-e.rst
@@ -71,7 +71,7 @@
             :description: QtWidgets/QStyleOptionViewItem-ViewItemPosition-OnlyOne-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.backgroundBrush
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :type: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
         :description: QtWidgets/QStyleOptionViewItem-backgroundBrush-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.checkState
@@ -79,7 +79,7 @@
         :description: QtWidgets/QStyleOptionViewItem-checkState-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.decorationAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionViewItem-decorationAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.decorationPosition
@@ -91,11 +91,11 @@
         :description: QtWidgets/QStyleOptionViewItem-decorationSize-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.displayAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionViewItem-displayAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.features
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeatures`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature`
         :description: QtWidgets/QStyleOptionViewItem-features-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.font

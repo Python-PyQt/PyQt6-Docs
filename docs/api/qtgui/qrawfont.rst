@@ -12,17 +12,17 @@
         .. sip:enum-member:: PyQt6.QtGui.QRawFont.AntialiasingType.SubPixelAntialiasing
             :description: QtGui/QRawFont-AntialiasingType-SubPixelAntialiasing-v.rst
 
-    .. sip:enum:: PyQt6.QtGui.QRawFont.LayoutFlags
-        :description: QtGui/QRawFont-LayoutFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QRawFont.LayoutFlag
+        :description: QtGui/QRawFont-LayoutFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlags.KernedAdvances
-            :description: QtGui/QRawFont-LayoutFlags-KernedAdvances-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlag.KernedAdvances
+            :description: QtGui/QRawFont-LayoutFlag-KernedAdvances-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlags.SeparateAdvances
-            :description: QtGui/QRawFont-LayoutFlags-SeparateAdvances-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlag.SeparateAdvances
+            :description: QtGui/QRawFont-LayoutFlag-SeparateAdvances-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlags.UseDesignMetrics
-            :description: QtGui/QRawFont-LayoutFlags-UseDesignMetrics-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QRawFont.LayoutFlag.UseDesignMetrics
+            :description: QtGui/QRawFont-LayoutFlag-UseDesignMetrics-v.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.__init__
         :description: QtGui/QRawFont-__init__-f.rst
@@ -56,10 +56,10 @@
     .. sip:method:: PyQt6.QtGui.QRawFont.advancesForGlyphIndexes
         :args:
             Iterable[int]
-            :sip:ref:`~PyQt6.QtGui.QRawFont.LayoutFlags`
+            :sip:ref:`~PyQt6.QtGui.QRawFont.LayoutFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtGui/QRawFont-advancesForGlyphIndexes-f-1.rst
+        :description: QtGui/QRawFont-advancesForGlyphIndexes-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.alphaMapForGlyph
         :args:

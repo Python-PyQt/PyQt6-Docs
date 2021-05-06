@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject` :sip:ref:`~PyQt6.QtQml.QQmlParserStatus`
     :description: QtQuick/QQuickItem-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QQuickItem.Flags
-        :description: QtQuick/QQuickItem-Flags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QQuickItem.Flag
+        :description: QtQuick/QQuickItem-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flags.ItemAcceptsDrops
-            :description: QtQuick/QQuickItem-Flags-ItemAcceptsDrops-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemAcceptsDrops
+            :description: QtQuick/QQuickItem-Flag-ItemAcceptsDrops-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flags.ItemAcceptsInputMethod
-            :description: QtQuick/QQuickItem-Flags-ItemAcceptsInputMethod-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemAcceptsInputMethod
+            :description: QtQuick/QQuickItem-Flag-ItemAcceptsInputMethod-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flags.ItemClipsChildrenToShape
-            :description: QtQuick/QQuickItem-Flags-ItemClipsChildrenToShape-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemClipsChildrenToShape
+            :description: QtQuick/QQuickItem-Flag-ItemClipsChildrenToShape-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flags.ItemHasContents
-            :description: QtQuick/QQuickItem-Flags-ItemHasContents-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemHasContents
+            :description: QtQuick/QQuickItem-Flag-ItemHasContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flags.ItemIsFocusScope
-            :description: QtQuick/QQuickItem-Flags-ItemIsFocusScope-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemIsFocusScope
+            :description: QtQuick/QQuickItem-Flag-ItemIsFocusScope-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QQuickItem.ItemChange
         :description: QtQuick/QQuickItem-ItemChange-e.rst
@@ -95,8 +95,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.acceptedMouseButtons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtQuick/QQuickItem-acceptedMouseButtons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtQuick/QQuickItem-acceptedMouseButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.acceptHoverEvents
         :returns:
@@ -211,8 +211,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flags`
-        :description: QtQuick/QQuickItem-flags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flag`
+        :description: QtQuick/QQuickItem-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.focusInEvent
         :args:
@@ -305,10 +305,10 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtQuick/QQuickItem-inputMethodQuery-f.rst
+        :description: QtQuick/QQuickItem-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.isAncestorOf
         :args:
@@ -514,8 +514,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setAcceptedMouseButtons
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtQuick/QQuickItem-setAcceptedMouseButtons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtQuick/QQuickItem-setAcceptedMouseButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setAcceptHoverEvents
         :args:
@@ -569,14 +569,14 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flags`
+            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flag`
             enabled: bool = True
-        :description: QtQuick/QQuickItem-setFlag-f.rst
+        :description: QtQuick/QQuickItem-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flags`
-        :description: QtQuick/QQuickItem-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QQuickItem.Flag`
+        :description: QtQuick/QQuickItem-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setFocus
         :args:
@@ -736,8 +736,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.updateInputMethod
         :args:
-            queries: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries.ImQueryInput`
-        :description: QtQuick/QQuickItem-updateInputMethod-f.rst
+            queries: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery.ImQueryInput`
+        :description: QtQuick/QQuickItem-updateInputMethod-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.updatePaintNode
         :args:

@@ -3,23 +3,23 @@
 .. sip:class:: PyQt6.QtGui.QGlyphRun
     :description: QtGui/QGlyphRun-c.rst
 
-    .. sip:enum:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags
-        :description: QtGui/QGlyphRun-GlyphRunFlags-e.rst
+    .. sip:enum:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag
+        :description: QtGui/QGlyphRun-GlyphRunFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags.Overline
-            :description: QtGui/QGlyphRun-GlyphRunFlags-Overline-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag.Overline
+            :description: QtGui/QGlyphRun-GlyphRunFlag-Overline-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags.RightToLeft
-            :description: QtGui/QGlyphRun-GlyphRunFlags-RightToLeft-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag.RightToLeft
+            :description: QtGui/QGlyphRun-GlyphRunFlag-RightToLeft-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags.SplitLigature
-            :description: QtGui/QGlyphRun-GlyphRunFlags-SplitLigature-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag.SplitLigature
+            :description: QtGui/QGlyphRun-GlyphRunFlag-SplitLigature-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags.StrikeOut
-            :description: QtGui/QGlyphRun-GlyphRunFlags-StrikeOut-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag.StrikeOut
+            :description: QtGui/QGlyphRun-GlyphRunFlag-StrikeOut-v.rst
 
-        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlags.Underline
-            :description: QtGui/QGlyphRun-GlyphRunFlags-Underline-v.rst
+        .. sip:enum-member:: PyQt6.QtGui.QGlyphRun.GlyphRunFlag.Underline
+            :description: QtGui/QGlyphRun-GlyphRunFlag-Underline-v.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.__init__
         :description: QtGui/QGlyphRun-__init__-f.rst
@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.flags
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlags`
-        :description: QtGui/QGlyphRun-flags-f.rst
+            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlag`
+        :description: QtGui/QGlyphRun-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.glyphIndexes
         :returns:
@@ -93,14 +93,14 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlags`
+            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlag`
             enabled: bool = True
-        :description: QtGui/QGlyphRun-setFlag-f.rst
+        :description: QtGui/QGlyphRun-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlags`
-        :description: QtGui/QGlyphRun-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtGui.QGlyphRun.GlyphRunFlag`
+        :description: QtGui/QGlyphRun-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setGlyphIndexes
         :args:

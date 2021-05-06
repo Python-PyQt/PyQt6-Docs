@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGRectangleNode.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: QtQuick/QSGRectangleNode-setColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuick/QSGRectangleNode-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRectangleNode.setRect
         :args:

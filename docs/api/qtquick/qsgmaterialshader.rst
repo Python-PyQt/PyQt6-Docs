@@ -3,11 +3,11 @@
 .. sip:class:: PyQt6.QtQuick.QSGMaterialShader
     :description: QtQuick/QSGMaterialShader-c.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.Flags
-        :description: QtQuick/QSGMaterialShader-Flags-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.Flag
+        :description: QtQuick/QSGMaterialShader-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.Flags.UpdatesGraphicsPipelineState
-            :description: QtQuick/QSGMaterialShader-Flags-UpdatesGraphicsPipelineState-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.Flag.UpdatesGraphicsPipelineState
+            :description: QtQuick/QSGMaterialShader-Flag-UpdatesGraphicsPipelineState-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.Stage
         :description: QtQuick/QSGMaterialShader-Stage-e.rst
@@ -23,19 +23,19 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flags`
-        :description: QtQuick/QSGMaterialShader-flags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flag`
+        :description: QtQuick/QSGMaterialShader-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.setFlag
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flags`
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flag`
             on: bool = True
-        :description: QtQuick/QSGMaterialShader-setFlag-f.rst
+        :description: QtQuick/QSGMaterialShader-setFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.setFlags
         :args:
-            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flags`
-        :description: QtQuick/QSGMaterialShader-setFlags-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flag`
+        :description: QtQuick/QSGMaterialShader-setFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.setShaderFileName
         :args:

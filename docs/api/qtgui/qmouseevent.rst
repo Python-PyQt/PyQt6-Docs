@@ -8,22 +8,22 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             device: :sip:ref:`~PyQt6.QtGui.QPointingDevice` = QPointingDevice.primaryPointingDevice()
-        :description: QtGui/QMouseEvent-__init__-f.rst
+        :description: QtGui/QMouseEvent-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QMouseEvent.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             device: :sip:ref:`~PyQt6.QtGui.QPointingDevice` = QPointingDevice.primaryPointingDevice()
-        :description: QtGui/QMouseEvent-__init__-f-1.rst
+        :description: QtGui/QMouseEvent-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QMouseEvent.__init__
         :args:
@@ -31,11 +31,11 @@
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             device: :sip:ref:`~PyQt6.QtGui.QPointingDevice` = QPointingDevice.primaryPointingDevice()
-        :description: QtGui/QMouseEvent-__init__-f-2.rst
+        :description: QtGui/QMouseEvent-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QMouseEvent.clone
         :returns:

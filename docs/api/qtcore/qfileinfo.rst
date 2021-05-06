@@ -258,15 +258,15 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.permission
         :args:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
-        :description: QtCore/QFileInfo-permission-f.rst
+        :description: QtCore/QFileInfo-permission-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.permissions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions`
-        :description: QtCore/QFileInfo-permissions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :description: QtCore/QFileInfo-permissions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.refresh
         :description: QtCore/QFileInfo-refresh-f.rst

@@ -6,9 +6,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             :sip:ref:`~PyQt6.QtWidgets.QSplitter`
-        :description: QtWidgets/QSplitterHandle-__init__-f.rst
+        :description: QtWidgets/QSplitterHandle-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.closestLegalPosition
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSplitterHandle-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSplitterHandle-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.paintEvent
         :args:
@@ -66,8 +66,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QSplitterHandle-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QSplitterHandle-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitterHandle.sizeHint
         :returns:

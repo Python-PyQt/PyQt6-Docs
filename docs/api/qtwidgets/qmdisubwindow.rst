@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QWidget`
     :description: QtWidgets/QMdiSubWindow-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOptions
-        :description: QtWidgets/QMdiSubWindow-SubWindowOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOption
+        :description: QtWidgets/QMdiSubWindow-SubWindowOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOptions.RubberBandMove
-            :description: QtWidgets/QMdiSubWindow-SubWindowOptions-RubberBandMove-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOption.RubberBandMove
+            :description: QtWidgets/QMdiSubWindow-SubWindowOption-RubberBandMove-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOptions.RubberBandResize
-            :description: QtWidgets/QMdiSubWindow-SubWindowOptions-RubberBandResize-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QMdiSubWindow.SubWindowOption.RubberBandResize
+            :description: QtWidgets/QMdiSubWindow-SubWindowOption-RubberBandResize-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QMdiSubWindow-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QMdiSubWindow-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.changeEvent
         :args:
@@ -151,9 +151,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow.SubWindowOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow.SubWindowOption`
             on: bool = True
-        :description: QtWidgets/QMdiSubWindow-setOption-f.rst
+        :description: QtWidgets/QMdiSubWindow-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.setSystemMenu
         :args:
@@ -188,10 +188,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow.SubWindowOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow.SubWindowOption`
         :returns:
             bool
-        :description: QtWidgets/QMdiSubWindow-testOption-f.rst
+        :description: QtWidgets/QMdiSubWindow-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiSubWindow.timerEvent
         :args:
@@ -208,6 +208,6 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QMdiSubWindow.windowStateChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtWidgets/QMdiSubWindow-windowStateChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtWidgets/QMdiSubWindow-windowStateChanged-s-1.rst

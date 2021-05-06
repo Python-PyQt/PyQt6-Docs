@@ -139,6 +139,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_0
             :description: QtCore/QDataStream-Version-Qt_6_0-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_1
+            :description: QtCore/QDataStream-Version-Qt_6_1-v.rst
+
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :description: QtCore/QDataStream-__init__-f.rst
 
@@ -155,8 +158,8 @@
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode`
-        :description: QtCore/QDataStream-__init__-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
+        :description: QtCore/QDataStream-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.abortTransaction
         :description: QtCore/QDataStream-abortTransaction-f.rst

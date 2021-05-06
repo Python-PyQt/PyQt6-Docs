@@ -70,29 +70,29 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.DropIndicatorPosition.OnViewport
             :description: QtWidgets/QAbstractItemView-DropIndicatorPosition-OnViewport-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers
-        :description: QtWidgets/QAbstractItemView-EditTriggers-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger
+        :description: QtWidgets/QAbstractItemView-EditTrigger-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.AllEditTriggers
-            :description: QtWidgets/QAbstractItemView-EditTriggers-AllEditTriggers-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.AllEditTriggers
+            :description: QtWidgets/QAbstractItemView-EditTrigger-AllEditTriggers-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.AnyKeyPressed
-            :description: QtWidgets/QAbstractItemView-EditTriggers-AnyKeyPressed-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.AnyKeyPressed
+            :description: QtWidgets/QAbstractItemView-EditTrigger-AnyKeyPressed-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.CurrentChanged
-            :description: QtWidgets/QAbstractItemView-EditTriggers-CurrentChanged-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.CurrentChanged
+            :description: QtWidgets/QAbstractItemView-EditTrigger-CurrentChanged-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.DoubleClicked
-            :description: QtWidgets/QAbstractItemView-EditTriggers-DoubleClicked-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.DoubleClicked
+            :description: QtWidgets/QAbstractItemView-EditTrigger-DoubleClicked-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.EditKeyPressed
-            :description: QtWidgets/QAbstractItemView-EditTriggers-EditKeyPressed-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.EditKeyPressed
+            :description: QtWidgets/QAbstractItemView-EditTrigger-EditKeyPressed-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.NoEditTriggers
-            :description: QtWidgets/QAbstractItemView-EditTriggers-NoEditTriggers-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.NoEditTriggers
+            :description: QtWidgets/QAbstractItemView-EditTrigger-NoEditTriggers-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTriggers.SelectedClicked
-            :description: QtWidgets/QAbstractItemView-EditTriggers-SelectedClicked-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QAbstractItemView.EditTrigger.SelectedClicked
+            :description: QtWidgets/QAbstractItemView-EditTrigger-SelectedClicked-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QAbstractItemView.ScrollHint
         :description: QtWidgets/QAbstractItemView-ScrollHint-e.rst
@@ -226,8 +226,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.defaultDropAction
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QAbstractItemView-defaultDropAction-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QAbstractItemView-defaultDropAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.dirtyRegionOffset
         :returns:
@@ -282,11 +282,11 @@
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.edit
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTriggers`
+            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTrigger`
             :sip:ref:`~PyQt6.QtCore.QEvent`
         :returns:
             bool
-        :description: QtWidgets/QAbstractItemView-edit-f-1.rst
+        :description: QtWidgets/QAbstractItemView-edit-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.editorDestroyed
         :args:
@@ -295,8 +295,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.editTriggers
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTriggers`
-        :description: QtWidgets/QAbstractItemView-editTriggers-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTrigger`
+        :description: QtWidgets/QAbstractItemView-editTriggers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.event
         :args:
@@ -389,10 +389,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QAbstractItemView-inputMethodQuery-f.rst
+        :description: QtWidgets/QAbstractItemView-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.isIndexHidden
         :args:
@@ -472,10 +472,10 @@
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtWidgets/QAbstractItemView-moveCursor-f.rst
+        :description: QtWidgets/QAbstractItemView-moveCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.openPersistentEditor
         :args:
@@ -560,8 +560,8 @@
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
             event: :sip:ref:`~PyQt6.QtCore.QEvent` = None
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QAbstractItemView-selectionCommand-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QAbstractItemView-selectionCommand-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.selectionMode
         :returns:
@@ -595,8 +595,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setDefaultDropAction
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QAbstractItemView-setDefaultDropAction-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QAbstractItemView-setDefaultDropAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setDirtyRegion
         :args:
@@ -625,8 +625,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setEditTriggers
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTriggers`
-        :description: QtWidgets/QAbstractItemView-setEditTriggers-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.EditTrigger`
+        :description: QtWidgets/QAbstractItemView-setEditTriggers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setHorizontalScrollMode
         :args:
@@ -674,8 +674,8 @@
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setSelection
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QAbstractItemView-setSelection-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QAbstractItemView-setSelection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setSelectionBehavior
         :args:
@@ -740,8 +740,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.startDrag
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QAbstractItemView-startDrag-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QAbstractItemView-startDrag-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.state
         :returns:

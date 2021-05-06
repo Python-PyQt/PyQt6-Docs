@@ -4,41 +4,41 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtCore/QItemSelectionModel-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags
-        :description: QtCore/QItemSelectionModel-SelectionFlags-e.rst
+    .. sip:enum:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag
+        :description: QtCore/QItemSelectionModel-SelectionFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Clear
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Clear-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Clear
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Clear-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.ClearAndSelect
-            :description: QtCore/QItemSelectionModel-SelectionFlags-ClearAndSelect-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.ClearAndSelect
+            :description: QtCore/QItemSelectionModel-SelectionFlag-ClearAndSelect-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Columns
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Columns-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Columns
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Columns-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Current
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Current-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Current
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Current-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Deselect
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Deselect-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Deselect
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Deselect-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.NoUpdate
-            :description: QtCore/QItemSelectionModel-SelectionFlags-NoUpdate-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.NoUpdate
+            :description: QtCore/QItemSelectionModel-SelectionFlag-NoUpdate-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Rows
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Rows-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Rows
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Rows-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Select
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Select-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Select
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Select-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.SelectCurrent
-            :description: QtCore/QItemSelectionModel-SelectionFlags-SelectCurrent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.SelectCurrent
+            :description: QtCore/QItemSelectionModel-SelectionFlag-SelectCurrent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.Toggle
-            :description: QtCore/QItemSelectionModel-SelectionFlags-Toggle-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.Toggle
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Toggle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlags.ToggleCurrent
-            :description: QtCore/QItemSelectionModel-SelectionFlags-ToggleCurrent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QItemSelectionModel.SelectionFlag.ToggleCurrent
+            :description: QtCore/QItemSelectionModel-SelectionFlag-ToggleCurrent-v.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.__init__
         :args:
@@ -126,14 +126,14 @@
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.select
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtCore/QItemSelectionModel-select-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtCore/QItemSelectionModel-select-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.select
         :args:
             :sip:ref:`~PyQt6.QtCore.QItemSelection`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtCore/QItemSelectionModel-select-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtCore/QItemSelectionModel-select-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.selectedColumns
         :args:
@@ -162,8 +162,8 @@
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.setCurrentIndex
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtCore/QItemSelectionModel-setCurrentIndex-f.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtCore/QItemSelectionModel-setCurrentIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.setModel
         :args:

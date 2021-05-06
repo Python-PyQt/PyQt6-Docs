@@ -17,11 +17,11 @@
             :description: QtWidgets/QStyleOptionComplex-StyleOptionVersion-Version-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionComplex.activeSubControls
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
         :description: QtWidgets/QStyleOptionComplex-activeSubControls-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionComplex.subControls
-        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
+        :type: :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
         :description: QtWidgets/QStyleOptionComplex-subControls-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionComplex.__init__

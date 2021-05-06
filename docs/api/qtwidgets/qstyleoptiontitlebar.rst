@@ -25,7 +25,7 @@
         :description: QtWidgets/QStyleOptionTitleBar-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTitleBar.titleBarFlags
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
         :description: QtWidgets/QStyleOptionTitleBar-titleBarFlags-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTitleBar.titleBarState

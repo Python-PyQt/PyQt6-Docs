@@ -952,92 +952,92 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StandardPixmap.SP_VistaShield
             :description: QtWidgets/QStyle-StandardPixmap-SP_VistaShield-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyle.State
-        :description: QtWidgets/QStyle-State-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyle.StateFlag
+        :description: QtWidgets/QStyle-StateFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Active
-            :description: QtWidgets/QStyle-State-State_Active-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Active
+            :description: QtWidgets/QStyle-StateFlag-State_Active-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_AutoRaise
-            :description: QtWidgets/QStyle-State-State_AutoRaise-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_AutoRaise
+            :description: QtWidgets/QStyle-StateFlag-State_AutoRaise-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Bottom
-            :description: QtWidgets/QStyle-State-State_Bottom-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Bottom
+            :description: QtWidgets/QStyle-StateFlag-State_Bottom-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Children
-            :description: QtWidgets/QStyle-State-State_Children-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Children
+            :description: QtWidgets/QStyle-StateFlag-State_Children-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_DownArrow
-            :description: QtWidgets/QStyle-State-State_DownArrow-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_DownArrow
+            :description: QtWidgets/QStyle-StateFlag-State_DownArrow-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Editing
-            :description: QtWidgets/QStyle-State-State_Editing-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Editing
+            :description: QtWidgets/QStyle-StateFlag-State_Editing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Enabled
-            :description: QtWidgets/QStyle-State-State_Enabled-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Enabled
+            :description: QtWidgets/QStyle-StateFlag-State_Enabled-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_FocusAtBorder
-            :description: QtWidgets/QStyle-State-State_FocusAtBorder-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_FocusAtBorder
+            :description: QtWidgets/QStyle-StateFlag-State_FocusAtBorder-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_HasFocus
-            :description: QtWidgets/QStyle-State-State_HasFocus-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_HasFocus
+            :description: QtWidgets/QStyle-StateFlag-State_HasFocus-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Horizontal
-            :description: QtWidgets/QStyle-State-State_Horizontal-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Horizontal
+            :description: QtWidgets/QStyle-StateFlag-State_Horizontal-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Item
-            :description: QtWidgets/QStyle-State-State_Item-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Item
+            :description: QtWidgets/QStyle-StateFlag-State_Item-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_KeyboardFocusChange
-            :description: QtWidgets/QStyle-State-State_KeyboardFocusChange-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_KeyboardFocusChange
+            :description: QtWidgets/QStyle-StateFlag-State_KeyboardFocusChange-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Mini
-            :description: QtWidgets/QStyle-State-State_Mini-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Mini
+            :description: QtWidgets/QStyle-StateFlag-State_Mini-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_MouseOver
-            :description: QtWidgets/QStyle-State-State_MouseOver-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_MouseOver
+            :description: QtWidgets/QStyle-StateFlag-State_MouseOver-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_NoChange
-            :description: QtWidgets/QStyle-State-State_NoChange-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_NoChange
+            :description: QtWidgets/QStyle-StateFlag-State_NoChange-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_None
-            :description: QtWidgets/QStyle-State-State_None-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_None
+            :description: QtWidgets/QStyle-StateFlag-State_None-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Off
-            :description: QtWidgets/QStyle-State-State_Off-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Off
+            :description: QtWidgets/QStyle-StateFlag-State_Off-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_On
-            :description: QtWidgets/QStyle-State-State_On-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_On
+            :description: QtWidgets/QStyle-StateFlag-State_On-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Open
-            :description: QtWidgets/QStyle-State-State_Open-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Open
+            :description: QtWidgets/QStyle-StateFlag-State_Open-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Raised
-            :description: QtWidgets/QStyle-State-State_Raised-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Raised
+            :description: QtWidgets/QStyle-StateFlag-State_Raised-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_ReadOnly
-            :description: QtWidgets/QStyle-State-State_ReadOnly-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_ReadOnly
+            :description: QtWidgets/QStyle-StateFlag-State_ReadOnly-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Selected
-            :description: QtWidgets/QStyle-State-State_Selected-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Selected
+            :description: QtWidgets/QStyle-StateFlag-State_Selected-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Sibling
-            :description: QtWidgets/QStyle-State-State_Sibling-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Sibling
+            :description: QtWidgets/QStyle-StateFlag-State_Sibling-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Small
-            :description: QtWidgets/QStyle-State-State_Small-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Small
+            :description: QtWidgets/QStyle-StateFlag-State_Small-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Sunken
-            :description: QtWidgets/QStyle-State-State_Sunken-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Sunken
+            :description: QtWidgets/QStyle-StateFlag-State_Sunken-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Top
-            :description: QtWidgets/QStyle-State-State_Top-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Top
+            :description: QtWidgets/QStyle-StateFlag-State_Top-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_UpArrow
-            :description: QtWidgets/QStyle-State-State_UpArrow-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_UpArrow
+            :description: QtWidgets/QStyle-StateFlag-State_UpArrow-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.State.State_Window
-            :description: QtWidgets/QStyle-State-State_Window-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StateFlag.State_Window
+            :description: QtWidgets/QStyle-StateFlag-State_Window-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyle.StyleHint
         :description: QtWidgets/QStyle-StyleHint-e.rst
@@ -1312,6 +1312,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_TabBar_Alignment
             :description: QtWidgets/QStyle-StyleHint-SH_TabBar_Alignment-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_TabBar_AllowWheelScrolling
+            :description: QtWidgets/QStyle-StyleHint-SH_TabBar_AllowWheelScrolling-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_TabBar_ChangeCurrentDelay
             :description: QtWidgets/QStyle-StyleHint-SH_TabBar_ChangeCurrentDelay-v.rst
 
@@ -1393,137 +1396,137 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_Workspace_FillSpaceOnMaximize
             :description: QtWidgets/QStyle-StyleHint-SH_Workspace_FillSpaceOnMaximize-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QStyle.SubControls
-        :description: QtWidgets/QStyle-SubControls-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QStyle.SubControl
+        :description: QtWidgets/QStyle-SubControl-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_All
-            :description: QtWidgets/QStyle-SubControls-SC_All-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_All
+            :description: QtWidgets/QStyle-SubControl-SC_All-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ComboBoxArrow
-            :description: QtWidgets/QStyle-SubControls-SC_ComboBoxArrow-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ComboBoxArrow
+            :description: QtWidgets/QStyle-SubControl-SC_ComboBoxArrow-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ComboBoxEditField
-            :description: QtWidgets/QStyle-SubControls-SC_ComboBoxEditField-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ComboBoxEditField
+            :description: QtWidgets/QStyle-SubControl-SC_ComboBoxEditField-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ComboBoxFrame
-            :description: QtWidgets/QStyle-SubControls-SC_ComboBoxFrame-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ComboBoxFrame
+            :description: QtWidgets/QStyle-SubControl-SC_ComboBoxFrame-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ComboBoxListBoxPopup
-            :description: QtWidgets/QStyle-SubControls-SC_ComboBoxListBoxPopup-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ComboBoxListBoxPopup
+            :description: QtWidgets/QStyle-SubControl-SC_ComboBoxListBoxPopup-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_CustomBase
-            :description: QtWidgets/QStyle-SubControls-SC_CustomBase-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_CustomBase
+            :description: QtWidgets/QStyle-SubControl-SC_CustomBase-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_DialGroove
-            :description: QtWidgets/QStyle-SubControls-SC_DialGroove-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_DialGroove
+            :description: QtWidgets/QStyle-SubControl-SC_DialGroove-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_DialHandle
-            :description: QtWidgets/QStyle-SubControls-SC_DialHandle-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_DialHandle
+            :description: QtWidgets/QStyle-SubControl-SC_DialHandle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_DialTickmarks
-            :description: QtWidgets/QStyle-SubControls-SC_DialTickmarks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_DialTickmarks
+            :description: QtWidgets/QStyle-SubControl-SC_DialTickmarks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_GroupBoxCheckBox
-            :description: QtWidgets/QStyle-SubControls-SC_GroupBoxCheckBox-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_GroupBoxCheckBox
+            :description: QtWidgets/QStyle-SubControl-SC_GroupBoxCheckBox-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_GroupBoxContents
-            :description: QtWidgets/QStyle-SubControls-SC_GroupBoxContents-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_GroupBoxContents
+            :description: QtWidgets/QStyle-SubControl-SC_GroupBoxContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_GroupBoxFrame
-            :description: QtWidgets/QStyle-SubControls-SC_GroupBoxFrame-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_GroupBoxFrame
+            :description: QtWidgets/QStyle-SubControl-SC_GroupBoxFrame-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_GroupBoxLabel
-            :description: QtWidgets/QStyle-SubControls-SC_GroupBoxLabel-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_GroupBoxLabel
+            :description: QtWidgets/QStyle-SubControl-SC_GroupBoxLabel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_MdiCloseButton
-            :description: QtWidgets/QStyle-SubControls-SC_MdiCloseButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_MdiCloseButton
+            :description: QtWidgets/QStyle-SubControl-SC_MdiCloseButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_MdiMinButton
-            :description: QtWidgets/QStyle-SubControls-SC_MdiMinButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_MdiMinButton
+            :description: QtWidgets/QStyle-SubControl-SC_MdiMinButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_MdiNormalButton
-            :description: QtWidgets/QStyle-SubControls-SC_MdiNormalButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_MdiNormalButton
+            :description: QtWidgets/QStyle-SubControl-SC_MdiNormalButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_None
-            :description: QtWidgets/QStyle-SubControls-SC_None-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_None
+            :description: QtWidgets/QStyle-SubControl-SC_None-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarAddLine
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarAddLine-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarAddLine
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarAddLine-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarAddPage
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarAddPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarAddPage
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarAddPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarFirst
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarFirst-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarFirst
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarFirst-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarGroove
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarGroove-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarGroove
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarGroove-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarLast
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarLast-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarLast
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarLast-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarSlider
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarSlider-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarSlider
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarSlider-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarSubLine
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarSubLine-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarSubLine
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarSubLine-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ScrollBarSubPage
-            :description: QtWidgets/QStyle-SubControls-SC_ScrollBarSubPage-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ScrollBarSubPage
+            :description: QtWidgets/QStyle-SubControl-SC_ScrollBarSubPage-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SliderGroove
-            :description: QtWidgets/QStyle-SubControls-SC_SliderGroove-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SliderGroove
+            :description: QtWidgets/QStyle-SubControl-SC_SliderGroove-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SliderHandle
-            :description: QtWidgets/QStyle-SubControls-SC_SliderHandle-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SliderHandle
+            :description: QtWidgets/QStyle-SubControl-SC_SliderHandle-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SliderTickmarks
-            :description: QtWidgets/QStyle-SubControls-SC_SliderTickmarks-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SliderTickmarks
+            :description: QtWidgets/QStyle-SubControl-SC_SliderTickmarks-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SpinBoxDown
-            :description: QtWidgets/QStyle-SubControls-SC_SpinBoxDown-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SpinBoxDown
+            :description: QtWidgets/QStyle-SubControl-SC_SpinBoxDown-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SpinBoxEditField
-            :description: QtWidgets/QStyle-SubControls-SC_SpinBoxEditField-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SpinBoxEditField
+            :description: QtWidgets/QStyle-SubControl-SC_SpinBoxEditField-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SpinBoxFrame
-            :description: QtWidgets/QStyle-SubControls-SC_SpinBoxFrame-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SpinBoxFrame
+            :description: QtWidgets/QStyle-SubControl-SC_SpinBoxFrame-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_SpinBoxUp
-            :description: QtWidgets/QStyle-SubControls-SC_SpinBoxUp-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_SpinBoxUp
+            :description: QtWidgets/QStyle-SubControl-SC_SpinBoxUp-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarCloseButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarCloseButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarCloseButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarCloseButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarContextHelpButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarContextHelpButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarContextHelpButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarContextHelpButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarLabel
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarLabel-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarLabel
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarLabel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarMaxButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarMaxButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarMaxButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarMaxButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarMinButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarMinButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarMinButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarMinButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarNormalButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarNormalButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarNormalButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarNormalButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarShadeButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarShadeButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarShadeButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarShadeButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarSysMenu
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarSysMenu-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarSysMenu
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarSysMenu-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_TitleBarUnshadeButton
-            :description: QtWidgets/QStyle-SubControls-SC_TitleBarUnshadeButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_TitleBarUnshadeButton
+            :description: QtWidgets/QStyle-SubControl-SC_TitleBarUnshadeButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ToolButton
-            :description: QtWidgets/QStyle-SubControls-SC_ToolButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ToolButton
+            :description: QtWidgets/QStyle-SubControl-SC_ToolButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControls.SC_ToolButtonMenu
-            :description: QtWidgets/QStyle-SubControls-SC_ToolButtonMenu-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.SubControl.SC_ToolButtonMenu
+            :description: QtWidgets/QStyle-SubControl-SC_ToolButtonMenu-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QStyle.SubElement
         :description: QtWidgets/QStyle-SubElement-e.rst
@@ -1711,24 +1714,24 @@
     .. sip:method:: PyQt6.QtWidgets.QStyle.alignedRect
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.LayoutDirection`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
             :sip:ref:`~PyQt6.QtCore.QSize`
             :sip:ref:`~PyQt6.QtCore.QRect`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
         :static:
-        :description: QtWidgets/QStyle-alignedRect-f.rst
+        :description: QtWidgets/QStyle-alignedRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.combinedLayoutSpacing
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             option: :sip:ref:`~PyQt6.QtWidgets.QStyleOption` = None
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             int
-        :description: QtWidgets/QStyle-combinedLayoutSpacing-f.rst
+        :description: QtWidgets/QStyle-combinedLayoutSpacing-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.drawComplexControl
         :args:
@@ -1789,8 +1792,8 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
-        :description: QtWidgets/QStyle-hitTestComplexControl-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
+        :description: QtWidgets/QStyle-hitTestComplexControl-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.itemPixmapRect
         :args:
@@ -1814,14 +1817,19 @@
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.layoutSpacing
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             option: :sip:ref:`~PyQt6.QtWidgets.QStyleOption` = None
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             int
-        :description: QtWidgets/QStyle-layoutSpacing-f.rst
+        :description: QtWidgets/QStyle-layoutSpacing-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QStyle.name
+        :returns:
+            str
+        :description: QtWidgets/QStyle-name-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.pixelMetric
         :args:
@@ -1925,11 +1933,11 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QStyle.ComplexControl`
             :sip:ref:`~PyQt6.QtWidgets.QStyleOptionComplex`
-            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControls`
+            :sip:ref:`~PyQt6.QtWidgets.QStyle.SubControl`
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QStyle-subControlRect-f.rst
+        :description: QtWidgets/QStyle-subControlRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.subElementRect
         :args:
@@ -1953,11 +1961,11 @@
     .. sip:method:: PyQt6.QtWidgets.QStyle.visualAlignment
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.LayoutDirection`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :static:
-        :description: QtWidgets/QStyle-visualAlignment-f.rst
+        :description: QtWidgets/QStyle-visualAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.visualPos
         :args:

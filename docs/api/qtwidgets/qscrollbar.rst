@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QScrollBar.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QScrollBar-__init__-f-1.rst
+        :description: QtWidgets/QScrollBar-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScrollBar.contextMenuEvent
         :args:

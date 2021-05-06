@@ -15,68 +15,68 @@
         .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.BusType.SystemBus
             :description: QtDBus/QDBusConnection-BusType-SystemBus-v.rst
 
-    .. sip:enum:: PyQt6.QtDBus.QDBusConnection.ConnectionCapabilities
-        :description: QtDBus/QDBusConnection-ConnectionCapabilities-e.rst
+    .. sip:enum:: PyQt6.QtDBus.QDBusConnection.ConnectionCapability
+        :description: QtDBus/QDBusConnection-ConnectionCapability-e.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.ConnectionCapabilities.UnixFileDescriptorPassing
-            :description: QtDBus/QDBusConnection-ConnectionCapabilities-UnixFileDescriptorPassing-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.ConnectionCapability.UnixFileDescriptorPassing
+            :description: QtDBus/QDBusConnection-ConnectionCapability-UnixFileDescriptorPassing-v.rst
 
-    .. sip:enum:: PyQt6.QtDBus.QDBusConnection.RegisterOptions
-        :description: QtDBus/QDBusConnection-RegisterOptions-e.rst
+    .. sip:enum:: PyQt6.QtDBus.QDBusConnection.RegisterOption
+        :description: QtDBus/QDBusConnection-RegisterOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAdaptors
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAdaptors-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAdaptors
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAdaptors-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllContents
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllContents-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllContents
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllInvokables
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllInvokables-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllInvokables
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllInvokables-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllProperties
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllProperties-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllProperties
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllProperties-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllSignal
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllSignal-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllSignal
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllSignal-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllSignals
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllSignals-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllSignals
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllSignals-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAllSlots
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportAllSlots-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAllSlots
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportAllSlots-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportChildObjects
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportChildObjects-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportChildObjects
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportChildObjects-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportNonScriptableContents
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportNonScriptableContents-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportNonScriptableContents
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportNonScriptableContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportNonScriptableInvokables
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportNonScriptableInvokables-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportNonScriptableInvokables
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportNonScriptableInvokables-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportNonScriptableProperties
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportNonScriptableProperties-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportNonScriptableProperties
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportNonScriptableProperties-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportNonScriptableSignals
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportNonScriptableSignals-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportNonScriptableSignals
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportNonScriptableSignals-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportNonScriptableSlots
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportNonScriptableSlots-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportNonScriptableSlots
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportNonScriptableSlots-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportScriptableContents
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportScriptableContents-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportScriptableContents
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportScriptableContents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportScriptableInvokables
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportScriptableInvokables-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportScriptableInvokables
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportScriptableInvokables-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportScriptableProperties
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportScriptableProperties-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportScriptableProperties
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportScriptableProperties-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportScriptableSignals
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportScriptableSignals-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportScriptableSignals
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportScriptableSignals-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportScriptableSlots
-            :description: QtDBus/QDBusConnection-RegisterOptions-ExportScriptableSlots-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportScriptableSlots
+            :description: QtDBus/QDBusConnection-RegisterOption-ExportScriptableSlots-v.rst
 
     .. sip:enum:: PyQt6.QtDBus.QDBusConnection.UnregisterMode
         :description: QtDBus/QDBusConnection-UnregisterMode-e.rst
@@ -167,8 +167,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectionCapabilities
         :returns:
-            :sip:ref:`~PyQt6.QtDBus.QDBusConnection.ConnectionCapabilities`
-        :description: QtDBus/QDBusConnection-connectionCapabilities-f.rst
+            :sip:ref:`~PyQt6.QtDBus.QDBusConnection.ConnectionCapability`
+        :description: QtDBus/QDBusConnection-connectionCapabilities-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectToBus
         :args:
@@ -282,20 +282,20 @@
         :args:
             str
             :sip:ref:`~PyQt6.QtCore.QObject`
-            options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOptions` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAdaptors`
+            options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAdaptors`
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-registerObject-f.rst
+        :description: QtDBus/QDBusConnection-registerObject-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.registerObject
         :args:
             str
             str
             :sip:ref:`~PyQt6.QtCore.QObject`
-            options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOptions` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOptions.ExportAdaptors`
+            options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAdaptors`
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-registerObject-f-1.rst
+        :description: QtDBus/QDBusConnection-registerObject-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.registerService
         :args:

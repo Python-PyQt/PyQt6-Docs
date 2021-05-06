@@ -77,12 +77,12 @@
 
     .. sip:method:: PyQt6.QtGui.QInputMethod.queryFocusObject
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
             Any
         :returns:
             Any
         :static:
-        :description: QtGui/QInputMethod-queryFocusObject-f.rst
+        :description: QtGui/QInputMethod-queryFocusObject-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputMethod.reset
         :description: QtGui/QInputMethod-reset-f.rst
@@ -107,8 +107,8 @@
 
     .. sip:method:: PyQt6.QtGui.QInputMethod.update
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
-        :description: QtGui/QInputMethod-update-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
+        :description: QtGui/QInputMethod-update-f-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QInputMethod.anchorRectangleChanged
         :description: QtGui/QInputMethod-anchorRectangleChanged-s.rst

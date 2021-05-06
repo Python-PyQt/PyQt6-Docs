@@ -4,23 +4,23 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject` :sip:ref:`~PyQt6.QtGui.QPaintDevice`
     :description: QtWidgets/QWidget-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QWidget.RenderFlags
-        :description: QtWidgets/QWidget-RenderFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QWidget.RenderFlag
+        :description: QtWidgets/QWidget-RenderFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlags.DrawChildren
-            :description: QtWidgets/QWidget-RenderFlags-DrawChildren-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlag.DrawChildren
+            :description: QtWidgets/QWidget-RenderFlag-DrawChildren-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlags.DrawWindowBackground
-            :description: QtWidgets/QWidget-RenderFlags-DrawWindowBackground-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlag.DrawWindowBackground
+            :description: QtWidgets/QWidget-RenderFlag-DrawWindowBackground-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlags.IgnoreMask
-            :description: QtWidgets/QWidget-RenderFlags-IgnoreMask-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QWidget.RenderFlag.IgnoreMask
+            :description: QtWidgets/QWidget-RenderFlag-IgnoreMask-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QWidget-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QWidget-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.acceptDrops
         :returns:
@@ -155,11 +155,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QWindow`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
         :static:
-        :description: QtWidgets/QWidget-createWindowContainer-f.rst
+        :description: QtWidgets/QWidget-createWindowContainer-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.cursor
         :returns:
@@ -312,8 +312,8 @@
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabGesture
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlags` = Qt.GestureFlags()
-        :description: QtWidgets/QWidget-grabGesture-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlag` = Qt.GestureFlags()
+        :description: QtWidgets/QWidget-grabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabKeyboard
         :description: QtWidgets/QWidget-grabKeyboard-f.rst
@@ -396,15 +396,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.inputMethodHints
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints`
-        :description: QtWidgets/QWidget-inputMethodHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint`
+        :description: QtWidgets/QWidget-inputMethodHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QWidget-inputMethodQuery-f.rst
+        :description: QtWidgets/QWidget-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.insertAction
         :args:
@@ -741,13 +741,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.overrideWindowFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QWidget-overrideWindowFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QWidget-overrideWindowFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.overrideWindowState
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtWidgets/QWidget-overrideWindowState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtWidgets/QWidget-overrideWindowState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.paintEngine
         :returns:
@@ -808,16 +808,16 @@
             :sip:ref:`~PyQt6.QtGui.QPaintDevice`
             targetOffset: :sip:ref:`~PyQt6.QtCore.QPoint` = QPoint()
             sourceRegion: :sip:ref:`~PyQt6.QtGui.QRegion` = QRegion()
-            flags: :sip:ref:`~PyQt6.QtWidgets.QWidget.RenderFlags` = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
-        :description: QtWidgets/QWidget-render-f.rst
+            flags: :sip:ref:`~PyQt6.QtWidgets.QWidget.RenderFlag` = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
+        :description: QtWidgets/QWidget-render-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.render
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
             targetOffset: :sip:ref:`~PyQt6.QtCore.QPoint` = QPoint()
             sourceRegion: :sip:ref:`~PyQt6.QtGui.QRegion` = QRegion()
-            flags: :sip:ref:`~PyQt6.QtWidgets.QWidget.RenderFlags` = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
-        :description: QtWidgets/QWidget-render-f-1.rst
+            flags: :sip:ref:`~PyQt6.QtWidgets.QWidget.RenderFlag` = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
+        :description: QtWidgets/QWidget-render-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.repaint
         :description: QtWidgets/QWidget-repaint-f.rst
@@ -1035,8 +1035,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setInputMethodHints
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints`
-        :description: QtWidgets/QWidget-setInputMethodHints-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint`
+        :description: QtWidgets/QWidget-setInputMethodHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setLayout
         :args:
@@ -1123,8 +1123,8 @@
     .. sip:method:: PyQt6.QtWidgets.QWidget.setParent
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QWidget-setParent-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QWidget-setParent-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setScreen
         :args:
@@ -1224,14 +1224,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowFlag
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
             on: bool = True
-        :description: QtWidgets/QWidget-setWindowFlag-f.rst
+        :description: QtWidgets/QWidget-setWindowFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowFlags
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QWidget-setWindowFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QWidget-setWindowFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowIcon
         :args:
@@ -1265,8 +1265,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowState
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtWidgets/QWidget-setWindowState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtWidgets/QWidget-setWindowState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowTitle
         :args:
@@ -1405,8 +1405,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.updateMicroFocus
         :args:
-            query: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries.ImQueryAll`
-        :description: QtWidgets/QWidget-updateMicroFocus-f.rst
+            query: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery.ImQueryAll`
+        :description: QtWidgets/QWidget-updateMicroFocus-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.updatesEnabled
         :returns:
@@ -1445,8 +1445,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.windowFlags
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QWidget-windowFlags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QWidget-windowFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.windowHandle
         :returns:
@@ -1480,8 +1480,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.windowState
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowStates`
-        :description: QtWidgets/QWidget-windowState-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowState`
+        :description: QtWidgets/QWidget-windowState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.windowTitle
         :returns:
@@ -1490,8 +1490,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.windowType
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags`
-        :description: QtWidgets/QWidget-windowType-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtWidgets/QWidget-windowType-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.winId
         :returns:

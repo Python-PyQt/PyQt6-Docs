@@ -141,6 +141,27 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.EncodingFormat.Pem
             :description: QtNetwork/QSsl-EncodingFormat-Pem-v.rst
 
+    .. sip:enum:: PyQt6.QtNetwork.QSsl.ImplementedClass
+        :description: QtNetwork/QSsl-ImplementedClass-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.Certificate
+            :description: QtNetwork/QSsl-ImplementedClass-Certificate-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.DiffieHellman
+            :description: QtNetwork/QSsl-ImplementedClass-DiffieHellman-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.Dtls
+            :description: QtNetwork/QSsl-ImplementedClass-Dtls-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.EllipticCurve
+            :description: QtNetwork/QSsl-ImplementedClass-EllipticCurve-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.Key
+            :description: QtNetwork/QSsl-ImplementedClass-Key-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.Socket
+            :description: QtNetwork/QSsl-ImplementedClass-Socket-v.rst
+
     .. sip:enum:: PyQt6.QtNetwork.QSsl.KeyAlgorithm
         :description: QtNetwork/QSsl-KeyAlgorithm-e.rst
 
@@ -168,32 +189,32 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.KeyType.PublicKey
             :description: QtNetwork/QSsl-KeyType-PublicKey-v.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QSsl.SslOptions
-        :description: QtNetwork/QSsl-SslOptions-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QSsl.SslOption
+        :description: QtNetwork/QSsl-SslOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableCompression
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableCompression-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableCompression
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableCompression-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableEmptyFragments
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableEmptyFragments-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableEmptyFragments
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableEmptyFragments-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableLegacyRenegotiation
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableLegacyRenegotiation-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableLegacyRenegotiation
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableLegacyRenegotiation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableServerCipherPreference
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableServerCipherPreference-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableServerCipherPreference
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableServerCipherPreference-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableServerNameIndication
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableServerNameIndication-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableServerNameIndication
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableServerNameIndication-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableSessionPersistence
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableSessionPersistence-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableSessionPersistence
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableSessionPersistence-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableSessionSharing
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableSessionSharing-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableSessionSharing
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableSessionSharing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOptions.SslOptionDisableSessionTickets
-            :description: QtNetwork/QSsl-SslOptions-SslOptionDisableSessionTickets-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslOption.SslOptionDisableSessionTickets
+            :description: QtNetwork/QSsl-SslOption-SslOptionDisableSessionTickets-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QSsl.SslProtocol
         :description: QtNetwork/QSsl-SslProtocol-e.rst
@@ -242,3 +263,27 @@
 
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SslProtocol.UnknownProtocol
             :description: QtNetwork/QSsl-SslProtocol-UnknownProtocol-v.rst
+
+    .. sip:enum:: PyQt6.QtNetwork.QSsl.SupportedFeature
+        :description: QtNetwork/QSsl-SupportedFeature-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.Alerts
+            :description: QtNetwork/QSsl-SupportedFeature-Alerts-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.CertificateVerification
+            :description: QtNetwork/QSsl-SupportedFeature-CertificateVerification-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.ClientSideAlpn
+            :description: QtNetwork/QSsl-SupportedFeature-ClientSideAlpn-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.Ocsp
+            :description: QtNetwork/QSsl-SupportedFeature-Ocsp-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.Psk
+            :description: QtNetwork/QSsl-SupportedFeature-Psk-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.ServerSideAlpn
+            :description: QtNetwork/QSsl-SupportedFeature-ServerSideAlpn-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.SupportedFeature.SessionTicket
+            :description: QtNetwork/QSsl-SupportedFeature-SessionTicket-v.rst

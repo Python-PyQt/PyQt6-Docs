@@ -88,8 +88,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.controlTypes
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes`
-        :description: QtWidgets/QLayout-controlTypes-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType`
+        :description: QtWidgets/QLayout-controlTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.count
         :returns:
@@ -98,8 +98,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QLayout-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QLayout-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.geometry
         :returns:
@@ -192,26 +192,31 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOptions.FindChildrenRecursively`
+            options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QLayoutItem`
-        :description: QtWidgets/QLayout-replaceWidget-f.rst
+        :description: QtWidgets/QLayout-replaceWidget-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QLayout.setAlignment
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QLayout-setAlignment-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.setAlignment
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :returns:
             bool
-        :description: QtWidgets/QLayout-setAlignment-f.rst
+        :description: QtWidgets/QLayout-setAlignment-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.setAlignment
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QLayout`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :returns:
             bool
-        :description: QtWidgets/QLayout-setAlignment-f-1.rst
+        :description: QtWidgets/QLayout-setAlignment-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.setContentsMargins
         :args:
@@ -289,6 +294,9 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtWidgets/QLayout-totalSizeHint-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QLayout.unsetContentsMargins
+        :description: QtWidgets/QLayout-unsetContentsMargins-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.update
         :description: QtWidgets/QLayout-update-f.rst

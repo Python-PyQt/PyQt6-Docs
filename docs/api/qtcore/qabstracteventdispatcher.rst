@@ -39,10 +39,10 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractEventDispatcher.processEvents
         :args:
-            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventFlags`
+            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag`
         :returns:
             bool
-        :description: QtCore/QAbstractEventDispatcher-processEvents-f.rst
+        :description: QtCore/QAbstractEventDispatcher-processEvents-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractEventDispatcher.registeredTimers
         :args:

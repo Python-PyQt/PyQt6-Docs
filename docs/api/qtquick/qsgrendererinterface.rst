@@ -102,26 +102,26 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.VulkanInstanceResource
             :description: QtQuick/QSGRendererInterface-Resource-VulkanInstanceResource-v.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationTypes
-        :description: QtQuick/QSGRendererInterface-ShaderCompilationTypes-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationType
+        :description: QtQuick/QSGRendererInterface-ShaderCompilationType-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationTypes.OfflineCompilation
-            :description: QtQuick/QSGRendererInterface-ShaderCompilationTypes-OfflineCompilation-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationType.OfflineCompilation
+            :description: QtQuick/QSGRendererInterface-ShaderCompilationType-OfflineCompilation-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationTypes.RuntimeCompilation
-            :description: QtQuick/QSGRendererInterface-ShaderCompilationTypes-RuntimeCompilation-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationType.RuntimeCompilation
+            :description: QtQuick/QSGRendererInterface-ShaderCompilationType-RuntimeCompilation-v.rst
 
-    .. sip:enum:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceTypes
-        :description: QtQuick/QSGRendererInterface-ShaderSourceTypes-e.rst
+    .. sip:enum:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceType
+        :description: QtQuick/QSGRendererInterface-ShaderSourceType-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceTypes.ShaderByteCode
-            :description: QtQuick/QSGRendererInterface-ShaderSourceTypes-ShaderByteCode-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceType.ShaderByteCode
+            :description: QtQuick/QSGRendererInterface-ShaderSourceType-ShaderByteCode-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceTypes.ShaderSourceFile
-            :description: QtQuick/QSGRendererInterface-ShaderSourceTypes-ShaderSourceFile-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceType.ShaderSourceFile
+            :description: QtQuick/QSGRendererInterface-ShaderSourceType-ShaderSourceFile-v.rst
 
-        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceTypes.ShaderSourceString
-            :description: QtQuick/QSGRendererInterface-ShaderSourceTypes-ShaderSourceString-v.rst
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.ShaderSourceType.ShaderSourceString
+            :description: QtQuick/QSGRendererInterface-ShaderSourceType-ShaderSourceString-v.rst
 
     .. sip:enum:: PyQt6.QtQuick.QSGRendererInterface.ShaderType
         :description: QtQuick/QSGRendererInterface-ShaderType-e.rst
@@ -169,13 +169,13 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGRendererInterface.shaderCompilationType
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationTypes`
-        :description: QtQuick/QSGRendererInterface-shaderCompilationType-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.ShaderCompilationType`
+        :description: QtQuick/QSGRendererInterface-shaderCompilationType-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRendererInterface.shaderSourceType
         :returns:
-            :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.ShaderSourceTypes`
-        :description: QtQuick/QSGRendererInterface-shaderSourceType-f.rst
+            :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.ShaderSourceType`
+        :description: QtQuick/QSGRendererInterface-shaderSourceType-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRendererInterface.shaderType
         :returns:

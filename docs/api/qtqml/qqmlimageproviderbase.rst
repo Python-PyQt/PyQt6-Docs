@@ -4,11 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtQml/QQmlImageProviderBase-c.rst
 
-    .. sip:enum:: PyQt6.QtQml.QQmlImageProviderBase.Flags
-        :description: QtQml/QQmlImageProviderBase-Flags-e.rst
+    .. sip:enum:: PyQt6.QtQml.QQmlImageProviderBase.Flag
+        :description: QtQml/QQmlImageProviderBase-Flag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtQml.QQmlImageProviderBase.Flags.ForceAsynchronousImageLoading
-            :description: QtQml/QQmlImageProviderBase-Flags-ForceAsynchronousImageLoading-v.rst
+        .. sip:enum-member:: PyQt6.QtQml.QQmlImageProviderBase.Flag.ForceAsynchronousImageLoading
+            :description: QtQml/QQmlImageProviderBase-Flag-ForceAsynchronousImageLoading-v.rst
 
     .. sip:enum:: PyQt6.QtQml.QQmlImageProviderBase.ImageType
         :description: QtQml/QQmlImageProviderBase-ImageType-e.rst
@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlImageProviderBase.flags
         :returns:
-            :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flags`
-        :description: QtQml/QQmlImageProviderBase-flags-f.rst
+            :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.Flag`
+        :description: QtQml/QQmlImageProviderBase-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlImageProviderBase.imageType
         :returns:

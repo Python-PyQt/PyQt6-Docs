@@ -23,8 +23,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatchIterator.matchOptions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOptions`
-        :description: QtCore/QRegularExpressionMatchIterator-matchOptions-f.rst
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption`
+        :description: QtCore/QRegularExpressionMatchIterator-matchOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatchIterator.matchType
         :returns:

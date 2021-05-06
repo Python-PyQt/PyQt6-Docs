@@ -41,7 +41,7 @@
         :description: QtWidgets/QStyleOptionProgressBar-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionProgressBar.textAlignment
-        :type: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
+        :type: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtWidgets/QStyleOptionProgressBar-textAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionProgressBar.textVisible

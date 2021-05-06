@@ -19,22 +19,22 @@
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QIdentityProxyModel-dropMimeData-f.rst
+        :description: QtCore/QIdentityProxyModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QIdentityProxyModel-headerData-f.rst
+        :description: QtCore/QIdentityProxyModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.index
         :args:
@@ -97,10 +97,10 @@
             int
             Any
             hits: int = 1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QIdentityProxyModel-match-f.rst
+        :description: QtCore/QIdentityProxyModel-match-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.moveColumns
         :args:

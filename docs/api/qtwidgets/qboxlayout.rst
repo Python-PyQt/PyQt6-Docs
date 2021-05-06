@@ -66,8 +66,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             stretch: int = 0
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QBoxLayout-addWidget-f.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QBoxLayout-addWidget-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QBoxLayout.count
         :returns:
@@ -81,8 +81,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QBoxLayout.expandingDirections
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QBoxLayout-expandingDirections-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QBoxLayout-expandingDirections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QBoxLayout.hasHeightForWidth
         :returns:
@@ -132,8 +132,8 @@
             int
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             stretch: int = 0
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QBoxLayout-insertWidget-f.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QBoxLayout-insertWidget-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QBoxLayout.invalidate
         :description: QtWidgets/QBoxLayout-invalidate-f.rst

@@ -88,13 +88,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPaintEngineState.renderHints
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
-        :description: QtGui/QPaintEngineState-renderHints-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
+        :description: QtGui/QPaintEngineState-renderHints-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPaintEngineState.state
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QPaintEngine.DirtyFlags`
-        :description: QtGui/QPaintEngineState-state-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPaintEngine.DirtyFlag`
+        :description: QtGui/QPaintEngineState-state-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPaintEngineState.transform
         :returns:

@@ -56,10 +56,10 @@
         :args:
             int
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
         :returns:
             bool
-        :description: QtWidgets/QListWidget-dropMimeData-f.rst
+        :description: QtWidgets/QListWidget-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.editItem
         :args:
@@ -76,10 +76,10 @@
     .. sip:method:: PyQt6.QtWidgets.QListWidget.findItems
         :args:
             str
-            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags`
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
-        :description: QtWidgets/QListWidget-findItems-f.rst
+        :description: QtWidgets/QListWidget-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.indexFromItem
         :args:
@@ -214,8 +214,8 @@
     .. sip:method:: PyQt6.QtWidgets.QListWidget.setCurrentItem
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QListWidget-setCurrentItem-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QListWidget-setCurrentItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.setCurrentRow
         :args:
@@ -225,8 +225,8 @@
     .. sip:method:: PyQt6.QtWidgets.QListWidget.setCurrentRow
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlags`
-        :description: QtWidgets/QListWidget-setCurrentRow-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QItemSelectionModel.SelectionFlag`
+        :description: QtWidgets/QListWidget-setCurrentRow-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.setItemWidget
         :args:
@@ -251,8 +251,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtWidgets/QListWidget-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QListWidget-supportedDropActions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.takeItem
         :args:

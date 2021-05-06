@@ -14,8 +14,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextTableFormat-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextTableFormat-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.borderCollapse
         :returns:
@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtGui/QTextTableFormat-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGui/QTextTableFormat-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.setBorderCollapse
         :args:

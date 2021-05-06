@@ -17,13 +17,13 @@
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.canDropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QConcatenateTablesProxyModel-canDropMimeData-f.rst
+        :description: QtCore/QConcatenateTablesProxyModel-canDropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.columnCount
         :args:
@@ -43,29 +43,29 @@
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QConcatenateTablesProxyModel-dropMimeData-f.rst
+        :description: QtCore/QConcatenateTablesProxyModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.flags
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QConcatenateTablesProxyModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QConcatenateTablesProxyModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QConcatenateTablesProxyModel-headerData-f.rst
+        :description: QtCore/QConcatenateTablesProxyModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.index
         :args:

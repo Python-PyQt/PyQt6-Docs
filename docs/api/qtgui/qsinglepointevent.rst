@@ -6,13 +6,13 @@
 
     .. sip:method:: PyQt6.QtGui.QSinglePointEvent.button
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtGui/QSinglePointEvent-button-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtGui/QSinglePointEvent-button-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSinglePointEvent.buttons
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons`
-        :description: QtGui/QSinglePointEvent-buttons-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
+        :description: QtGui/QSinglePointEvent-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSinglePointEvent.clone
         :returns:

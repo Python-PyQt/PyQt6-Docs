@@ -13,11 +13,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers`
+            :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             text: str = ''
             autorep: bool = False
             count: int = 1
-        :description: Qt3DInput/QKeyEvent-__init__-f-1.rst
+        :description: Qt3DInput/QKeyEvent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyEvent.count
         :returns:

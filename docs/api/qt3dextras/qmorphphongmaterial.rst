@@ -26,13 +26,13 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QMorphPhongMaterial.setAmbient
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-setAmbient-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-setAmbient-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QMorphPhongMaterial.setDiffuse
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-setDiffuse-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-setDiffuse-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QMorphPhongMaterial.setInterpolator
         :args:
@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QMorphPhongMaterial.setSpecular
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-setSpecular-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-setSpecular-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QMorphPhongMaterial.shininess
         :returns:
@@ -61,13 +61,13 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QMorphPhongMaterial.ambientChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-ambientChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-ambientChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QMorphPhongMaterial.diffuseChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-diffuseChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-diffuseChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QMorphPhongMaterial.interpolatorChanged
         :args:
@@ -81,5 +81,5 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QMorphPhongMaterial.specularChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QMorphPhongMaterial-specularChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QMorphPhongMaterial-specularChanged-s-1.rst

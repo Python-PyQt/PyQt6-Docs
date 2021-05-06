@@ -55,65 +55,65 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.ButtonRole.YesRole
             :description: QtWidgets/QDialogButtonBox-ButtonRole-YesRole-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons
-        :description: QtWidgets/QDialogButtonBox-StandardButtons-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton
+        :description: QtWidgets/QDialogButtonBox-StandardButton-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Abort
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Abort-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Abort
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Abort-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Apply
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Apply-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Apply
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Apply-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Cancel
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Cancel-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Cancel
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Cancel-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Close
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Close-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Close
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Close-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Discard
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Discard-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Discard
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Discard-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Help
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Help-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Help
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Help-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Ignore
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Ignore-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Ignore
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Ignore-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.No
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-No-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.No
+            :description: QtWidgets/QDialogButtonBox-StandardButton-No-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.NoButton
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-NoButton-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.NoButton
+            :description: QtWidgets/QDialogButtonBox-StandardButton-NoButton-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.NoToAll
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-NoToAll-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.NoToAll
+            :description: QtWidgets/QDialogButtonBox-StandardButton-NoToAll-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Ok
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Ok-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Ok
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Ok-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Open
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Open-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Open
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Open-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Reset
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Reset-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Reset
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Reset-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.RestoreDefaults
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-RestoreDefaults-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.RestoreDefaults
+            :description: QtWidgets/QDialogButtonBox-StandardButton-RestoreDefaults-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Retry
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Retry-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Retry
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Retry-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Save
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Save-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Save
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Save-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.SaveAll
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-SaveAll-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.SaveAll
+            :description: QtWidgets/QDialogButtonBox-StandardButton-SaveAll-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.Yes
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-Yes-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.Yes
+            :description: QtWidgets/QDialogButtonBox-StandardButton-Yes-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButtons.YesToAll
-            :description: QtWidgets/QDialogButtonBox-StandardButtons-YesToAll-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDialogButtonBox.StandardButton.YesToAll
+            :description: QtWidgets/QDialogButtonBox-StandardButton-YesToAll-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.__init__
         :args:
@@ -122,29 +122,29 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDialogButtonBox-__init__-f-1.rst
+        :description: QtWidgets/QDialogButtonBox-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.__init__
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDialogButtonBox-__init__-f-2.rst
+        :description: QtWidgets/QDialogButtonBox-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.__init__
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDialogButtonBox-__init__-f-3.rst
+        :description: QtWidgets/QDialogButtonBox-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.addButton
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QPushButton`
-        :description: QtWidgets/QDialogButtonBox-addButton-f.rst
+        :description: QtWidgets/QDialogButtonBox-addButton-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.addButton
         :args:
@@ -162,10 +162,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.button
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QPushButton`
-        :description: QtWidgets/QDialogButtonBox-button-f.rst
+        :description: QtWidgets/QDialogButtonBox-button-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.buttonRole
         :args:
@@ -201,8 +201,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QDialogButtonBox-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QDialogButtonBox-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.removeButton
         :args:
@@ -216,25 +216,25 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QDialogButtonBox-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QDialogButtonBox-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.setStandardButtons
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
-        :description: QtWidgets/QDialogButtonBox-setStandardButtons-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
+        :description: QtWidgets/QDialogButtonBox-setStandardButtons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.standardButton
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractButton`
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
-        :description: QtWidgets/QDialogButtonBox-standardButton-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
+        :description: QtWidgets/QDialogButtonBox-standardButton-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.standardButtons
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButtons`
-        :description: QtWidgets/QDialogButtonBox-standardButtons-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.StandardButton`
+        :description: QtWidgets/QDialogButtonBox-standardButtons-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDialogButtonBox.accepted
         :description: QtWidgets/QDialogButtonBox-accepted-s.rst

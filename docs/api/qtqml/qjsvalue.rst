@@ -27,6 +27,15 @@
         .. sip:enum-member:: PyQt6.QtQml.QJSValue.ErrorType.URIError
             :description: QtQml/QJSValue-ErrorType-URIError-v.rst
 
+    .. sip:enum:: PyQt6.QtQml.QJSValue.ObjectConversionBehavior
+        :description: QtQml/QJSValue-ObjectConversionBehavior-e.rst
+
+        .. sip:enum-member:: PyQt6.QtQml.QJSValue.ObjectConversionBehavior.ConvertJSObjects
+            :description: QtQml/QJSValue-ObjectConversionBehavior-ConvertJSObjects-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQml.QJSValue.ObjectConversionBehavior.RetainJSObjects
+            :description: QtQml/QJSValue-ObjectConversionBehavior-RetainJSObjects-v.rst
+
     .. sip:enum:: PyQt6.QtQml.QJSValue.SpecialValue
         :description: QtQml/QJSValue-SpecialValue-e.rst
 
@@ -229,6 +238,11 @@
             float
         :description: QtQml/QJSValue-toNumber-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSValue.toPrimitive
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`
+        :description: QtQml/QJSValue-toPrimitive-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSValue.toQObject
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
@@ -248,3 +262,10 @@
         :returns:
             Any
         :description: QtQml/QJSValue-toVariant-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSValue.toVariant
+        :args:
+            :sip:ref:`~PyQt6.QtQml.QJSValue.ObjectConversionBehavior`
+        :returns:
+            Any
+        :description: QtQml/QJSValue-toVariant-f-1.rst

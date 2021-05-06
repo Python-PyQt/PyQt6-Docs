@@ -341,8 +341,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setTextOutline
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextCharFormat-setTextOutline-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextCharFormat-setTextOutline-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setToolTip
         :args:
@@ -351,8 +351,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setUnderlineColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextCharFormat-setUnderlineColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextCharFormat-setUnderlineColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setUnderlineStyle
         :args:

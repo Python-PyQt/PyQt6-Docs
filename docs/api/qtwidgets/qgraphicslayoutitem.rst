@@ -197,8 +197,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.Policy`
             :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.Policy`
-            controlType: :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes` = :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlTypes.DefaultType`
-        :description: QtWidgets/QGraphicsLayoutItem-setSizePolicy-f-1.rst
+            controlType: :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType` = :sip:ref:`~PyQt6.QtWidgets.QSizePolicy.ControlType.DefaultType`
+        :description: QtWidgets/QGraphicsLayoutItem-setSizePolicy-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLayoutItem.sizeHint
         :args:

@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtDBus/QDBusServiceWatcher-c.rst
 
-    .. sip:enum:: PyQt6.QtDBus.QDBusServiceWatcher.WatchMode
-        :description: QtDBus/QDBusServiceWatcher-WatchMode-e.rst
+    .. sip:enum:: PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag
+        :description: QtDBus/QDBusServiceWatcher-WatchModeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchMode.WatchForOwnerChange
-            :description: QtDBus/QDBusServiceWatcher-WatchMode-WatchForOwnerChange-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag.WatchForOwnerChange
+            :description: QtDBus/QDBusServiceWatcher-WatchModeFlag-WatchForOwnerChange-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchMode.WatchForRegistration
-            :description: QtDBus/QDBusServiceWatcher-WatchMode-WatchForRegistration-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag.WatchForRegistration
+            :description: QtDBus/QDBusServiceWatcher-WatchModeFlag-WatchForRegistration-v.rst
 
-        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchMode.WatchForUnregistration
-            :description: QtDBus/QDBusServiceWatcher-WatchMode-WatchForUnregistration-v.rst
+        .. sip:enum-member:: PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag.WatchForUnregistration
+            :description: QtDBus/QDBusServiceWatcher-WatchModeFlag-WatchForUnregistration-v.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.__init__
         :args:
@@ -25,9 +25,9 @@
         :args:
             str
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
-            watchMode: :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchMode` = :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchMode.WatchForOwnerChange`
+            watchMode: :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag` = :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag.WatchForOwnerChange`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDBus/QDBusServiceWatcher-__init__-f-1.rst
+        :description: QtDBus/QDBusServiceWatcher-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.addWatchedService
         :args:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.setWatchMode
         :args:
-            :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchMode`
-        :description: QtDBus/QDBusServiceWatcher-setWatchMode-f.rst
+            :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag`
+        :description: QtDBus/QDBusServiceWatcher-setWatchMode-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.watchedServices
         :returns:
@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.watchMode
         :returns:
-            :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchMode`
-        :description: QtDBus/QDBusServiceWatcher-watchMode-f.rst
+            :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag`
+        :description: QtDBus/QDBusServiceWatcher-watchMode-f-1.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusServiceWatcher.serviceOwnerChanged
         :args:

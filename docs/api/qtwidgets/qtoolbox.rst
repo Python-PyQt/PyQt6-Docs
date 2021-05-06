@@ -7,8 +7,8 @@
     .. sip:method:: PyQt6.QtWidgets.QToolBox.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QToolBox-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QToolBox-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.addItem
         :args:

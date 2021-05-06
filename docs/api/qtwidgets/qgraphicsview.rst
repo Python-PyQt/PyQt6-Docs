@@ -4,14 +4,14 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea`
     :description: QtWidgets/QGraphicsView-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.CacheMode
-        :description: QtWidgets/QGraphicsView-CacheMode-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.CacheModeFlag
+        :description: QtWidgets/QGraphicsView-CacheModeFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.CacheMode.CacheBackground
-            :description: QtWidgets/QGraphicsView-CacheMode-CacheBackground-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.CacheModeFlag.CacheBackground
+            :description: QtWidgets/QGraphicsView-CacheModeFlag-CacheBackground-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.CacheMode.CacheNone
-            :description: QtWidgets/QGraphicsView-CacheMode-CacheNone-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.CacheModeFlag.CacheNone
+            :description: QtWidgets/QGraphicsView-CacheModeFlag-CacheNone-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.DragMode
         :description: QtWidgets/QGraphicsView-DragMode-e.rst
@@ -25,14 +25,14 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.DragMode.ScrollHandDrag
             :description: QtWidgets/QGraphicsView-DragMode-ScrollHandDrag-v.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlags
-        :description: QtWidgets/QGraphicsView-OptimizationFlags-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlag
+        :description: QtWidgets/QGraphicsView-OptimizationFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlags.DontAdjustForAntialiasing
-            :description: QtWidgets/QGraphicsView-OptimizationFlags-DontAdjustForAntialiasing-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlag.DontAdjustForAntialiasing
+            :description: QtWidgets/QGraphicsView-OptimizationFlag-DontAdjustForAntialiasing-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlags.DontSavePainterState
-            :description: QtWidgets/QGraphicsView-OptimizationFlags-DontSavePainterState-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QGraphicsView.OptimizationFlag.DontSavePainterState
+            :description: QtWidgets/QGraphicsView-OptimizationFlag-DontSavePainterState-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QGraphicsView.ViewportAnchor
         :description: QtWidgets/QGraphicsView-ViewportAnchor-e.rst
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.alignment
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsView-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsView-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.backgroundBrush
         :returns:
@@ -87,8 +87,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.cacheMode
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.CacheMode`
-        :description: QtWidgets/QGraphicsView-cacheMode-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.CacheModeFlag`
+        :description: QtWidgets/QGraphicsView-cacheMode-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.centerOn
         :args:
@@ -229,16 +229,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.inputMethodQuery
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQueries`
+            :sip:ref:`~PyQt6.QtCore.Qt.InputMethodQuery`
         :returns:
             Any
-        :description: QtWidgets/QGraphicsView-inputMethodQuery-f.rst
+        :description: QtWidgets/QGraphicsView-inputMethodQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.invalidateScene
         :args:
             rect: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF()
-            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayers.AllLayers`
-        :description: QtWidgets/QGraphicsView-invalidateScene-f.rst
+            layers: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer` = :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.SceneLayer.AllLayers`
+        :description: QtWidgets/QGraphicsView-invalidateScene-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.isInteractive
         :returns:
@@ -444,8 +444,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.optimizationFlags
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlags`
-        :description: QtWidgets/QGraphicsView-optimizationFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlag`
+        :description: QtWidgets/QGraphicsView-optimizationFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.paintEvent
         :args:
@@ -462,8 +462,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.renderHints
         :returns:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
-        :description: QtWidgets/QGraphicsView-renderHints-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
+        :description: QtWidgets/QGraphicsView-renderHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.resetCachedContent
         :description: QtWidgets/QGraphicsView-resetCachedContent-f.rst
@@ -520,18 +520,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setAlignment
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsView-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsView-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsView-setBackgroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsView-setBackgroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setCacheMode
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.CacheMode`
-        :description: QtWidgets/QGraphicsView-setCacheMode-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.CacheModeFlag`
+        :description: QtWidgets/QGraphicsView-setCacheMode-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setDragMode
         :args:
@@ -540,8 +540,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setForegroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsView-setForegroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsView-setForegroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setInteractive
         :args:
@@ -550,25 +550,25 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setOptimizationFlag
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlags`
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlag`
             enabled: bool = True
-        :description: QtWidgets/QGraphicsView-setOptimizationFlag-f.rst
+        :description: QtWidgets/QGraphicsView-setOptimizationFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setOptimizationFlags
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlags`
-        :description: QtWidgets/QGraphicsView-setOptimizationFlags-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.OptimizationFlag`
+        :description: QtWidgets/QGraphicsView-setOptimizationFlags-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setRenderHint
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
             on: bool = True
-        :description: QtWidgets/QGraphicsView-setRenderHint-f.rst
+        :description: QtWidgets/QGraphicsView-setRenderHint-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setRenderHints
         :args:
-            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints`
-        :description: QtWidgets/QGraphicsView-setRenderHints-f.rst
+            :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint`
+        :description: QtWidgets/QGraphicsView-setRenderHints-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setResizeAnchor
         :args:

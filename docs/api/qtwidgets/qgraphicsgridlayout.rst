@@ -14,8 +14,8 @@
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGraphicsGridLayout-addItem-f.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGraphicsGridLayout-addItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.addItem
         :args:
@@ -24,22 +24,22 @@
             int
             int
             int
-            alignment: :sip:ref:`~PyQt6.QtCore.Qt.Alignment` = Qt.Alignment()
-        :description: QtWidgets/QGraphicsGridLayout-addItem-f-1.rst
+            alignment: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag` = Qt.Alignment()
+        :description: QtWidgets/QGraphicsGridLayout-addItem-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.alignment
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-alignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-alignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.columnAlignment
         :args:
             int
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-columnAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-columnAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.columnCount
         :returns:
@@ -123,8 +123,8 @@
         :args:
             int
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-rowAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-rowAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.rowCount
         :returns:
@@ -169,14 +169,14 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.setAlignment
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-setAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-setAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.setColumnAlignment
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-setColumnAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-setColumnAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.setColumnFixedWidth
         :args:
@@ -227,8 +227,8 @@
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.setRowAlignment
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Alignment`
-        :description: QtWidgets/QGraphicsGridLayout-setRowAlignment-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QGraphicsGridLayout-setRowAlignment-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsGridLayout.setRowFixedHeight
         :args:

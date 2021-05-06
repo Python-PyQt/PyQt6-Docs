@@ -4,17 +4,17 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QDialog`
     :description: QtWidgets/QInputDialog-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QInputDialog.InputDialogOptions
-        :description: QtWidgets/QInputDialog-InputDialogOptions-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QInputDialog.InputDialogOption
+        :description: QtWidgets/QInputDialog-InputDialogOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOptions.NoButtons
-            :description: QtWidgets/QInputDialog-InputDialogOptions-NoButtons-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOption.NoButtons
+            :description: QtWidgets/QInputDialog-InputDialogOption-NoButtons-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOptions.UseListViewForComboBoxItems
-            :description: QtWidgets/QInputDialog-InputDialogOptions-UseListViewForComboBoxItems-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOption.UseListViewForComboBoxItems
+            :description: QtWidgets/QInputDialog-InputDialogOption-UseListViewForComboBoxItems-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOptions.UsePlainTextEditForTextInput
-            :description: QtWidgets/QInputDialog-InputDialogOptions-UsePlainTextEditForTextInput-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QInputDialog.InputDialogOption.UsePlainTextEditForTextInput
+            :description: QtWidgets/QInputDialog-InputDialogOption-UsePlainTextEditForTextInput-v.rst
 
     .. sip:enum:: PyQt6.QtWidgets.QInputDialog.InputMode
         :description: QtWidgets/QInputDialog-InputMode-e.rst
@@ -31,8 +31,8 @@
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-        :description: QtWidgets/QInputDialog-__init__-f.rst
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+        :description: QtWidgets/QInputDialog-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.cancelButtonText
         :returns:
@@ -83,13 +83,13 @@
             min: float = -2147483647
             max: float = 2147483647
             decimals: int = 1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
             step: float = 1
         :returns:
             float
             bool
         :static:
-        :description: QtWidgets/QInputDialog-getDouble-f.rst
+        :description: QtWidgets/QInputDialog-getDouble-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.getInt
         :args:
@@ -100,12 +100,12 @@
             min: int = -2147483647
             max: int = 2147483647
             step: int = 1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
         :returns:
             int
             bool
         :static:
-        :description: QtWidgets/QInputDialog-getInt-f.rst
+        :description: QtWidgets/QInputDialog-getInt-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.getItem
         :args:
@@ -115,13 +115,13 @@
             Iterable[str]
             current: int = 0
             editable: bool = True
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints.ImhNone`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint.ImhNone`
         :returns:
             str
             bool
         :static:
-        :description: QtWidgets/QInputDialog-getItem-f.rst
+        :description: QtWidgets/QInputDialog-getItem-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.getMultiLineText
         :args:
@@ -129,13 +129,13 @@
             str
             str
             text: str = ''
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints.ImhNone`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint.ImhNone`
         :returns:
             str
             bool
         :static:
-        :description: QtWidgets/QInputDialog-getMultiLineText-f.rst
+        :description: QtWidgets/QInputDialog-getMultiLineText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.getText
         :args:
@@ -144,13 +144,13 @@
             str
             echo: :sip:ref:`~PyQt6.QtWidgets.QLineEdit.EchoMode` = :sip:ref:`~PyQt6.QtWidgets.QLineEdit.EchoMode.Normal`
             text: str = ''
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags` = Qt.WindowFlags()
-            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHints.ImhNone`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
+            inputMethodHints: :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint` = :sip:ref:`~PyQt6.QtCore.Qt.InputMethodHint.ImhNone`
         :returns:
             str
             bool
         :static:
-        :description: QtWidgets/QInputDialog-getText-f.rst
+        :description: QtWidgets/QInputDialog-getText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.inputMode
         :returns:
@@ -207,8 +207,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.options
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOptions`
-        :description: QtWidgets/QInputDialog-options-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOption`
+        :description: QtWidgets/QInputDialog-options-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.setCancelButtonText
         :args:
@@ -299,14 +299,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.setOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOption`
             on: bool = True
-        :description: QtWidgets/QInputDialog-setOption-f.rst
+        :description: QtWidgets/QInputDialog-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.setOptions
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOptions`
-        :description: QtWidgets/QInputDialog-setOptions-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOption`
+        :description: QtWidgets/QInputDialog-setOptions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.setTextEchoMode
         :args:
@@ -330,10 +330,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.testOption
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOptions`
+            :sip:ref:`~PyQt6.QtWidgets.QInputDialog.InputDialogOption`
         :returns:
             bool
-        :description: QtWidgets/QInputDialog-testOption-f.rst
+        :description: QtWidgets/QInputDialog-testOption-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.textEchoMode
         :returns:

@@ -458,6 +458,11 @@
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
         :description: QtCore/QEvent-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QEvent.__init__
+        :args:
+            int
+        :description: QtCore/QEvent-__init__-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QEvent.accept
         :description: QtCore/QEvent-accept-f.rst
 

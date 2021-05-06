@@ -42,6 +42,24 @@
         .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TangentSemantic
             :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TangentSemantic-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TargetBinormalSemantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TargetBinormalSemantic-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TargetNormalSemantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TargetNormalSemantic-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TargetPositionSemantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TargetPositionSemantic-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TargetTangentSemantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TargetTangentSemantic-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TexCoord0Semantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TexCoord0Semantic-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TexCoord1Semantic
+            :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TexCoord1Semantic-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic.TexCoordSemantic
             :description: QtQuick3D/QQuick3DGeometry-Attribute-Semantic-TexCoordSemantic-v.rst
 

@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QIODevice`
     :description: QtNetwork/QAbstractSocket-c.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.BindMode
-        :description: QtNetwork/QAbstractSocket-BindMode-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.BindFlag
+        :description: QtNetwork/QAbstractSocket-BindFlag-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindMode.DefaultForPlatform
-            :description: QtNetwork/QAbstractSocket-BindMode-DefaultForPlatform-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindFlag.DefaultForPlatform
+            :description: QtNetwork/QAbstractSocket-BindFlag-DefaultForPlatform-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindMode.DontShareAddress
-            :description: QtNetwork/QAbstractSocket-BindMode-DontShareAddress-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindFlag.DontShareAddress
+            :description: QtNetwork/QAbstractSocket-BindFlag-DontShareAddress-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindMode.ReuseAddressHint
-            :description: QtNetwork/QAbstractSocket-BindMode-ReuseAddressHint-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindFlag.ReuseAddressHint
+            :description: QtNetwork/QAbstractSocket-BindFlag-ReuseAddressHint-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindMode.ShareAddress
-            :description: QtNetwork/QAbstractSocket-BindMode-ShareAddress-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.BindFlag.ShareAddress
+            :description: QtNetwork/QAbstractSocket-BindFlag-ShareAddress-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol
         :description: QtNetwork/QAbstractSocket-NetworkLayerProtocol-e.rst
@@ -34,14 +34,14 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.UnknownNetworkLayerProtocol
             :description: QtNetwork/QAbstractSocket-NetworkLayerProtocol-UnknownNetworkLayerProtocol-v.rst
 
-    .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.PauseModes
-        :description: QtNetwork/QAbstractSocket-PauseModes-e.rst
+    .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.PauseMode
+        :description: QtNetwork/QAbstractSocket-PauseMode-e.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.PauseModes.PauseNever
-            :description: QtNetwork/QAbstractSocket-PauseModes-PauseNever-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.PauseMode.PauseNever
+            :description: QtNetwork/QAbstractSocket-PauseMode-PauseNever-v.rst
 
-        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.PauseModes.PauseOnSslErrors
-            :description: QtNetwork/QAbstractSocket-PauseModes-PauseOnSslErrors-v.rst
+        .. sip:enum-member:: PyQt6.QtNetwork.QAbstractSocket.PauseMode.PauseOnSslErrors
+            :description: QtNetwork/QAbstractSocket-PauseMode-PauseOnSslErrors-v.rst
 
     .. sip:enum:: PyQt6.QtNetwork.QAbstractSocket.SocketError
         :description: QtNetwork/QAbstractSocket-SocketError-e.rst
@@ -196,19 +196,19 @@
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.bind
         :args:
             port: int = 0
-            mode: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindMode` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindMode.DefaultForPlatform`
+            mode: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindFlag` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindFlag.DefaultForPlatform`
         :returns:
             bool
-        :description: QtNetwork/QAbstractSocket-bind-f.rst
+        :description: QtNetwork/QAbstractSocket-bind-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.bind
         :args:
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
             port: int = 0
-            mode: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindMode` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindMode.DefaultForPlatform`
+            mode: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindFlag` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.BindFlag.DefaultForPlatform`
         :returns:
             bool
-        :description: QtNetwork/QAbstractSocket-bind-f-1.rst
+        :description: QtNetwork/QAbstractSocket-bind-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.bytesAvailable
         :returns:
@@ -227,16 +227,16 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
             int
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
-        :description: QtNetwork/QAbstractSocket-connectToHost-f.rst
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
+        :description: QtNetwork/QAbstractSocket-connectToHost-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.connectToHost
         :args:
             str
             int
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
             protocol: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.AnyIPProtocol`
-        :description: QtNetwork/QAbstractSocket-connectToHost-f-1.rst
+        :description: QtNetwork/QAbstractSocket-connectToHost-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.disconnectFromHost
         :description: QtNetwork/QAbstractSocket-disconnectFromHost-f.rst
@@ -273,8 +273,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.pauseMode
         :returns:
-            :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.PauseModes`
-        :description: QtNetwork/QAbstractSocket-pauseMode-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.PauseMode`
+        :description: QtNetwork/QAbstractSocket-pauseMode-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.peerAddress
         :returns:
@@ -335,8 +335,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setPauseMode
         :args:
-            :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.PauseModes`
-        :description: QtNetwork/QAbstractSocket-setPauseMode-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.PauseMode`
+        :description: QtNetwork/QAbstractSocket-setPauseMode-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setPeerAddress
         :args:
@@ -372,10 +372,10 @@
         :args:
             PyQt6.sip.voidptr
             state: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
-            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.ReadWrite`
+            mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setSocketError
         :args:

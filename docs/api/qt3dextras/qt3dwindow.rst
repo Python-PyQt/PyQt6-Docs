@@ -7,7 +7,8 @@
     .. sip:method:: PyQt6.Qt3DExtras.Qt3DWindow.__init__
         :args:
             screen: :sip:ref:`~PyQt6.QtGui.QScreen` = None
-        :description: Qt3DExtras/Qt3DWindow-__init__-f.rst
+            api: :sip:ref:`~PyQt6.Qt3DRender.API` = :sip:ref:`~PyQt6.Qt3DRender.API.RHI`
+        :description: Qt3DExtras/Qt3DWindow-__init__-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.Qt3DWindow.activeFrameGraph
         :returns:

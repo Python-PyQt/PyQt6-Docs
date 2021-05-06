@@ -4,41 +4,41 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox`
     :description: QtWidgets/QDateTimeEdit-c.rst
 
-    .. sip:enum:: PyQt6.QtWidgets.QDateTimeEdit.Sections
-        :description: QtWidgets/QDateTimeEdit-Sections-e.rst
+    .. sip:enum:: PyQt6.QtWidgets.QDateTimeEdit.Section
+        :description: QtWidgets/QDateTimeEdit-Section-e.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.AmPmSection
-            :description: QtWidgets/QDateTimeEdit-Sections-AmPmSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.AmPmSection
+            :description: QtWidgets/QDateTimeEdit-Section-AmPmSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.DateSections_Mask
-            :description: QtWidgets/QDateTimeEdit-Sections-DateSections_Mask-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.DateSections_Mask
+            :description: QtWidgets/QDateTimeEdit-Section-DateSections_Mask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.DaySection
-            :description: QtWidgets/QDateTimeEdit-Sections-DaySection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.DaySection
+            :description: QtWidgets/QDateTimeEdit-Section-DaySection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.HourSection
-            :description: QtWidgets/QDateTimeEdit-Sections-HourSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.HourSection
+            :description: QtWidgets/QDateTimeEdit-Section-HourSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.MinuteSection
-            :description: QtWidgets/QDateTimeEdit-Sections-MinuteSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.MinuteSection
+            :description: QtWidgets/QDateTimeEdit-Section-MinuteSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.MonthSection
-            :description: QtWidgets/QDateTimeEdit-Sections-MonthSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.MonthSection
+            :description: QtWidgets/QDateTimeEdit-Section-MonthSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.MSecSection
-            :description: QtWidgets/QDateTimeEdit-Sections-MSecSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.MSecSection
+            :description: QtWidgets/QDateTimeEdit-Section-MSecSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.NoSection
-            :description: QtWidgets/QDateTimeEdit-Sections-NoSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.NoSection
+            :description: QtWidgets/QDateTimeEdit-Section-NoSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.SecondSection
-            :description: QtWidgets/QDateTimeEdit-Sections-SecondSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.SecondSection
+            :description: QtWidgets/QDateTimeEdit-Section-SecondSection-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.TimeSections_Mask
-            :description: QtWidgets/QDateTimeEdit-Sections-TimeSections_Mask-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.TimeSections_Mask
+            :description: QtWidgets/QDateTimeEdit-Section-TimeSections_Mask-v.rst
 
-        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Sections.YearSection
-            :description: QtWidgets/QDateTimeEdit-Sections-YearSection-v.rst
+        .. sip:enum-member:: PyQt6.QtWidgets.QDateTimeEdit.Section.YearSection
+            :description: QtWidgets/QDateTimeEdit-Section-YearSection-v.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.__init__
         :args:
@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.currentSection
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
-        :description: QtWidgets/QDateTimeEdit-currentSection-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
+        :description: QtWidgets/QDateTimeEdit-currentSection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.currentSectionIndex
         :returns:
@@ -128,8 +128,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.displayedSections
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
-        :description: QtWidgets/QDateTimeEdit-displayedSections-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
+        :description: QtWidgets/QDateTimeEdit-displayedSections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.displayFormat
         :returns:
@@ -216,8 +216,8 @@
         :args:
             int
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
-        :description: QtWidgets/QDateTimeEdit-sectionAt-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
+        :description: QtWidgets/QDateTimeEdit-sectionAt-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.sectionCount
         :returns:
@@ -226,10 +226,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.sectionText
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
         :returns:
             str
-        :description: QtWidgets/QDateTimeEdit-sectionText-f.rst
+        :description: QtWidgets/QDateTimeEdit-sectionText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setCalendar
         :args:
@@ -248,8 +248,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setCurrentSection
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
-        :description: QtWidgets/QDateTimeEdit-setCurrentSection-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
+        :description: QtWidgets/QDateTimeEdit-setCurrentSection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setCurrentSectionIndex
         :args:
@@ -315,8 +315,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setSelectedSection
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Sections`
-        :description: QtWidgets/QDateTimeEdit-setSelectedSection-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit.Section`
+        :description: QtWidgets/QDateTimeEdit-setSelectedSection-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setTime
         :args:
@@ -346,8 +346,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.stepEnabled
         :returns:
-            :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabled`
-        :description: QtWidgets/QDateTimeEdit-stepEnabled-f.rst
+            :sip:ref:`~PyQt6.QtWidgets.QAbstractSpinBox.StepEnabledFlag`
+        :description: QtWidgets/QDateTimeEdit-stepEnabled-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.textFromDateTime
         :args:

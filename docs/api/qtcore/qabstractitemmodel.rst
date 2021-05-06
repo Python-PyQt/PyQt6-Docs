@@ -4,20 +4,20 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtCore/QAbstractItemModel-c.rst
 
-    .. sip:enum:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions
-        :description: QtCore/QAbstractItemModel-CheckIndexOptions-e.rst
+    .. sip:enum:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOption
+        :description: QtCore/QAbstractItemModel-CheckIndexOption-e.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions.DoNotUseParent
-            :description: QtCore/QAbstractItemModel-CheckIndexOptions-DoNotUseParent-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOption.DoNotUseParent
+            :description: QtCore/QAbstractItemModel-CheckIndexOption-DoNotUseParent-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions.IndexIsValid
-            :description: QtCore/QAbstractItemModel-CheckIndexOptions-IndexIsValid-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOption.IndexIsValid
+            :description: QtCore/QAbstractItemModel-CheckIndexOption-IndexIsValid-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions.NoOption
-            :description: QtCore/QAbstractItemModel-CheckIndexOptions-NoOption-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOption.NoOption
+            :description: QtCore/QAbstractItemModel-CheckIndexOption-NoOption-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions.ParentIsInvalid
-            :description: QtCore/QAbstractItemModel-CheckIndexOptions-ParentIsInvalid-v.rst
+        .. sip:enum-member:: PyQt6.QtCore.QAbstractItemModel.CheckIndexOption.ParentIsInvalid
+            :description: QtCore/QAbstractItemModel-CheckIndexOption-ParentIsInvalid-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QAbstractItemModel.LayoutChangeHint
         :description: QtCore/QAbstractItemModel-LayoutChangeHint-e.rst
@@ -99,13 +99,13 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.canDropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-canDropMimeData-f.rst
+        :description: QtCore/QAbstractItemModel-canDropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.canFetchMore
         :args:
@@ -129,10 +129,10 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.checkIndex
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            options: :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions` = :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.CheckIndexOptions.NoOption`
+            options: :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.CheckIndexOption` = :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.CheckIndexOption.NoOption`
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-checkIndex-f.rst
+        :description: QtCore/QAbstractItemModel-checkIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.clearItemData
         :args:
@@ -178,13 +178,13 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.dropMimeData
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
             int
             int
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-dropMimeData-f.rst
+        :description: QtCore/QAbstractItemModel-dropMimeData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.encodeData
         :args:
@@ -222,8 +222,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`
-        :description: QtCore/QAbstractItemModel-flags-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`
+        :description: QtCore/QAbstractItemModel-flags-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.hasChildren
         :args:
@@ -244,11 +244,11 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.headerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`
         :returns:
             Any
-        :description: QtCore/QAbstractItemModel-headerData-f.rst
+        :description: QtCore/QAbstractItemModel-headerData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.index
         :args:
@@ -306,10 +306,10 @@
             int
             Any
             hits: int = 1
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlags` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QAbstractItemModel-match-f.rst
+        :description: QtCore/QAbstractItemModel-match-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.mimeData
         :args:
@@ -446,12 +446,12 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.setHeaderData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-setHeaderData-f.rst
+        :description: QtCore/QAbstractItemModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.setItemData
         :args:
@@ -490,13 +490,13 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.supportedDragActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QAbstractItemModel-supportedDragActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QAbstractItemModel-supportedDragActions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.supportedDropActions
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.DropActions`
-        :description: QtCore/QAbstractItemModel-supportedDropActions-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtCore/QAbstractItemModel-supportedDropActions-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QAbstractItemModel.columnsAboutToBeInserted
         :args:
@@ -553,10 +553,10 @@
 
     .. sip:signal:: PyQt6.QtCore.QAbstractItemModel.headerDataChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
             int
             int
-        :description: QtCore/QAbstractItemModel-headerDataChanged-s.rst
+        :description: QtCore/QAbstractItemModel-headerDataChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QAbstractItemModel.layoutAboutToBeChanged
         :args:

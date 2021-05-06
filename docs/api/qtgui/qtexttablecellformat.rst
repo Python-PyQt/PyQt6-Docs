@@ -84,8 +84,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setBorderBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextTableCellFormat-setBorderBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextTableCellFormat-setBorderBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setBorderStyle
         :args:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setBottomBorderBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextTableCellFormat-setBottomBorderBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextTableCellFormat-setBottomBorderBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setBottomBorderStyle
         :args:
@@ -119,8 +119,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setLeftBorderBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextTableCellFormat-setLeftBorderBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextTableCellFormat-setLeftBorderBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setLeftBorderStyle
         :args:
@@ -144,8 +144,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setRightBorderBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextTableCellFormat-setRightBorderBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextTableCellFormat-setRightBorderBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setRightBorderStyle
         :args:
@@ -164,8 +164,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setTopBorderBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextTableCellFormat-setTopBorderBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextTableCellFormat-setTopBorderBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableCellFormat.setTopBorderStyle
         :args:

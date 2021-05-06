@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseSpecularMapMaterial.setAmbient
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseSpecularMapMaterial-setAmbient-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseSpecularMapMaterial-setAmbient-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QNormalDiffuseSpecularMapMaterial.setDiffuse
         :args:
@@ -71,8 +71,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseSpecularMapMaterial.ambientChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`]
-        :description: Qt3DExtras/QNormalDiffuseSpecularMapMaterial-ambientChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: Qt3DExtras/QNormalDiffuseSpecularMapMaterial-ambientChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QNormalDiffuseSpecularMapMaterial.diffuseChanged
         :args:

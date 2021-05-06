@@ -100,8 +100,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSlider.orientation
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QAbstractSlider-orientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QAbstractSlider-orientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSlider.pageStep
         :returns:
@@ -135,8 +135,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSlider.setOrientation
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.Orientations`
-        :description: QtWidgets/QAbstractSlider-setOrientation-f.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
+        :description: QtWidgets/QAbstractSlider-setOrientation-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSlider.setPageStep
         :args:

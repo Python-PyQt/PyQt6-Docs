@@ -174,6 +174,11 @@
             :sip:ref:`~PyQt6.QtCore.QMetaProperty`
         :description: QtQml/QQmlProperty-property-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlProperty.propertyMetaType
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :description: QtQml/QQmlProperty-propertyMetaType-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlProperty.propertyType
         :returns:
             int
