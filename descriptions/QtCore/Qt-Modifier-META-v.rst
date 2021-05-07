@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Qt::MetaModifier
+    :digest: e05b975a3a8756dce95128f0b3c1ab67
 
-TODO
+The Meta keys.

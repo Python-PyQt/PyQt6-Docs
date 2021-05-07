@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x10
+    :digest: 3e6798d41f8197609ab8684a02142975
 
-TODO
+This type is an enumeration.

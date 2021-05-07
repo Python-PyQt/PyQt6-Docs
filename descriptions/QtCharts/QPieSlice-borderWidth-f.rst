@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: ()
+    :digest: d3362192218b40d4fe9319cb9464684d
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QPieSlice.setBorderWidth`.

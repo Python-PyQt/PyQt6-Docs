@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
+    :digest: da863fdda0fffb1c7ba722d2e4ff2391
 
-TODO
+The tool button is an arrow.

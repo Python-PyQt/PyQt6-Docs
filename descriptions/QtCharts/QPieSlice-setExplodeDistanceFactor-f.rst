@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
+    :digest: 6e6fe7f17f9dd446796c1a405d045bd4
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QPieSlice.explodeDistanceFactor`.

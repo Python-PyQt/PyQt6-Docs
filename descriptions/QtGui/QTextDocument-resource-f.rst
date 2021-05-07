@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6d0326a171f9010df7bb3ffa33de1b6a
     :realsig: (int,const QUrl&) const
-    :digest: 4b9d8de04f6b4f1451b00c1eff5853ea
+    :digest: d3bd451086a2d81ac86c0ff1e19b2009
 
 Returns data of the specified *type* from the resource with the given *name*.
 
@@ -10,4 +10,6 @@ This function is called by the rich text engine to request data that isn't direc
 
 Resources are cached internally in the document. If a resource can not be found in the cache, :sip:ref:`~PyQt6.QtGui.QTextDocument.loadResource` is called to try to load the resource. :sip:ref:`~PyQt6.QtGui.QTextDocument.loadResource` should then use :sip:ref:`~PyQt6.QtGui.QTextDocument.addResource` to add the resource to the cache.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument.ResourceType`.
+If :sip:ref:`~PyQt6.QtGui.QTextDocument.loadResource` does not load the resource, then the :sip:ref:`~PyQt6.QtGui.QTextDocument.resourceProvider` and lastly the :sip:ref:`~PyQt6.QtGui.QTextDocument.defaultResourceProvider` will be called, if set. Note that the result from the provider will not be added automatically to the cache.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument.ResourceType`, :sip:ref:`~PyQt6.QtGui.QTextDocument.resourceProvider`.

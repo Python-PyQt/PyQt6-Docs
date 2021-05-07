@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x001
+    :digest: 09c70116288038a3bc7fc7bc8e4df329
 
-TODO
+The page is always broken before the paragraph/table

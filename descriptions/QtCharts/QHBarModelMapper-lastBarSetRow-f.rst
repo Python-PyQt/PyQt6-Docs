@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: 1a16506f383131899f0ed69b7ac540ea
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QHBarModelMapper.setLastBarSetRow`.

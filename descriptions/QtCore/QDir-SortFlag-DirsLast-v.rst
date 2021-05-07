@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x20
+    :digest: 76bff52138504e7437f9faeb90f21ed7
 
-TODO
+Put the files first, then the directories.

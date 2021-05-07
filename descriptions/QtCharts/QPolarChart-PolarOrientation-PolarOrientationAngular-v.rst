@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2
+    :digest: 091e8f4ed1c9b7066ff4b065fda4affa
 
-TODO
+An angular axis, where the values are placed around the chart.

@@ -1,5 +1,16 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Vertical model mapper for bar series
+    :digest: aedf4b34aa6e2d3fbaeaf2264842083e
 
-TODO
+The :sip:ref:`~PyQt6.QtCharts.QVBarModelMapper` class is a vertical model mapper for bar series.
+
+Model mappers enable using a data model derived from the :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` class as a data source for a chart. A vertical model mapper is used to create a connection between a data model and :sip:ref:`~PyQt6.QtCharts.QAbstractBarSeries`, so that each column in the data model defines a bar set and each row maps to a category in a bar series.
+
+Both model and bar series properties can be used to manipulate the data. The model mapper keeps the bar series and the data model in sync.
+
+The model mapper ensures that all the bar sets in the bar series have equal sizes. Therefore, adding or removing a value from a bar set causes the same change to be made in all the bar sets in the bar series.
+
+For more information, see `BarModelMapper Example <https://doc.qt.io/qt-6/qtcharts-barmodelmapper-example.html>`_.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QHBarModelMapper`.

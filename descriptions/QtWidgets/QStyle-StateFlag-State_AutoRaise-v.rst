@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00001000
+    :digest: 57ef0a5b624f5f01a89975a7ef6d188c
 
-TODO
+Used to indicate if auto-raise appearance should be used on a tool button.

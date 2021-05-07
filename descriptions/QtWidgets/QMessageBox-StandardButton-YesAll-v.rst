@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: YesToAll
+    :digest: b438c9d7ae2034bd1de96ca8ff71e28b
 
-TODO
+Use  instead.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The window for displaying a graphical QML scene
-    :digest: 3ad895a207bd1f7b7352666c5fd2dd1f
+    :digest: 261021f257c5329548b0e250f8ea6539
 
 The :sip:ref:`~PyQt6.QtQuick.QQuickWindow` class provides the window for displaying a graphical QML scene.
 

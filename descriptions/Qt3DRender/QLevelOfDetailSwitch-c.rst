@@ -2,7 +2,7 @@
     :status: todo
     :brief: Provides a way of enabling child entities based on distance or screen size
     :realname: Qt3DRender::QLevelOfDetailSwitch
-    :digest: e6454abb0acc91afc5111c6f6e708688
+    :digest: 7fd10f172ad1ad4d1d94c5b40151023b
 
 Provides a way of enabling child entities based on distance or screen size.
 

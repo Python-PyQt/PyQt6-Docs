@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: c08c2e6c491b548d0d0f396c72c18187
 
-TODO
+The label is centered within the slice and rotated to be parallel with the normal of the slice's arc.

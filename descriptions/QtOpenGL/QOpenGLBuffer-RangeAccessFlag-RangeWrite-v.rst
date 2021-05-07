@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0002
+    :digest: 68f2d7ea33b6fdf520f031d95fc387c9
 
-TODO
+The buffer will be mapped for writing.

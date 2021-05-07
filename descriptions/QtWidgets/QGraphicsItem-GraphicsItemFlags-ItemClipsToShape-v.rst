@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x8
     :realname: QGraphicsItem::GraphicsItemFlag::ItemClipsToShape
-    :digest: c8d063483c89ee56d46103e76802cd17
+    :digest: eb4a1f4bb1043e7fb1cd7f0edf639b0f
 
-The item clips to its own shape. The item cannot draw or receive mouse, tablet, drag and drop or hover events outside its shape. It is disabled by default. This behavior is enforced by QGraphicsView::drawItems() or QGraphicsScene::drawItems(). This flag was introduced in Qt 4.3.
+The item clips to its own shape. The item cannot draw or receive mouse, tablet, drag and drop or hover events outside its shape. It is disabled by default. This behavior is enforced by  or . This flag was introduced in Qt 4.3.

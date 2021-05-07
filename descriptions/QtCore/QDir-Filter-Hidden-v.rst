@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: f4072d6fe562c9547c5055286e7d041c
 
-TODO
+List hidden files (on Unix, files starting with a ".").

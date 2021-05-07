@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0010
+    :digest: 6955de4268dc139887d59fcf2a4e343d
 
-TODO
+A transparent circle with cross-hairs as found on a :sip:ref:`~PyQt6.QtGui.QInputDevice.DeviceType` device.

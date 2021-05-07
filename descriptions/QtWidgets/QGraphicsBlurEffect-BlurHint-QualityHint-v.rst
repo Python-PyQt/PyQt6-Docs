@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
+    :digest: f107453f9373ff718c62174db9edce03
 
-TODO
+Indicates that rendering quality is the most important factor, at the potential cost of lower performance.

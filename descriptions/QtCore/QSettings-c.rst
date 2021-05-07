@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 55e509937d010107387f30e937fa8a39
+    :digest: 47248cf29dbcc29c0f50ded27fa292c8
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -9,9 +9,9 @@ Users normally expect an application to remember its settings (window sizes and 
 
 :sip:ref:`~PyQt6.QtCore.QSettings` is an abstraction around these technologies, enabling you to save and restore application settings in a portable manner. It also supports custom storage formats.
 
-:sip:ref:`~PyQt6.QtCore.QSettings`'s API is based on `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, allowing you to save most value-based types, such as QString, :sip:ref:`~PyQt6.QtCore.QRect`, and :sip:ref:`~PyQt6.QtGui.QImage`, with the minimum of effort.
+:sip:ref:`~PyQt6.QtCore.QSettings`'s API is based on :sip:ref:`~PyQt6.QtCore.QVariant`, allowing you to save most value-based types, such as QString, :sip:ref:`~PyQt6.QtCore.QRect`, and :sip:ref:`~PyQt6.QtGui.QImage`, with the minimum of effort.
 
-If all you need is a non-persistent memory-based structure, consider using QMap<QString, `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_> instead.
+If all you need is a non-persistent memory-based structure, consider using QMap<QString, :sip:ref:`~PyQt6.QtCore.QVariant`> instead.
 
 .. _qsettings-basic-usage:
 
@@ -41,7 +41,7 @@ If you use :sip:ref:`~PyQt6.QtCore.QSettings` from many places in your applicati
 
 (Here, we also specify the organization's Internet domain. When the Internet domain is set, it is used on macOS and iOS instead of the organization name, since macOS and iOS applications conventionally use Internet domains to identify themselves. If no domain is set, a fake domain is derived from the organization name. See the :ref:`qsettings-platform-specific-notes` below for details.)
 
-:sip:ref:`~PyQt6.QtCore.QSettings` stores settings. Each setting consists of a QString that specifies the setting's name (the *key*) and a `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ that stores the data associated with the key. To write a setting, use :sip:ref:`~PyQt6.QtCore.QSettings.setValue`. For example:
+:sip:ref:`~PyQt6.QtCore.QSettings` stores settings. Each setting consists of a QString that specifies the setting's name (the *key*) and a :sip:ref:`~PyQt6.QtCore.QVariant` that stores the data associated with the key. To write a setting, use :sip:ref:`~PyQt6.QtCore.QSettings.setValue`. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 80-80
@@ -53,7 +53,7 @@ You can get a setting's value back using :sip:ref:`~PyQt6.QtCore.QSettings.value
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 82-82
 
-If there is no setting with the specified name, :sip:ref:`~PyQt6.QtCore.QSettings` returns a null `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ (which can be converted to the integer 0). You can specify another default value by passing a second argument to :sip:ref:`~PyQt6.QtCore.QSettings.value`:
+If there is no setting with the specified name, :sip:ref:`~PyQt6.QtCore.QSettings` returns a null :sip:ref:`~PyQt6.QtCore.QVariant` (which can be converted to the integer 0). You can specify another default value by passing a second argument to :sip:ref:`~PyQt6.QtCore.QSettings.value`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 86-86
@@ -65,14 +65,14 @@ To test whether a given key exists, call :sip:ref:`~PyQt6.QtCore.QSettings.conta
 QVariant and GUI Types
 ----------------------
 
-Because `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ is part of the Qt Core module, it cannot provide conversion functions to data types such as :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtGui.QImage`, and :sip:ref:`~PyQt6.QtGui.QPixmap`, which are part of Qt GUI. In other words, there is no ``toColor()``, ``toImage()``, or ``toPixmap()`` functions in `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_.
+Because :sip:ref:`~PyQt6.QtCore.QVariant` is part of the Qt Core module, it cannot provide conversion functions to data types such as :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtGui.QImage`, and :sip:ref:`~PyQt6.QtGui.QPixmap`, which are part of Qt GUI. In other words, there is no ``toColor()``, ``toImage()``, or ``toPixmap()`` functions in :sip:ref:`~PyQt6.QtCore.QVariant`.
 
 Instead, you can use the :sip:ref:`~PyQt6.QtCore.QVariant.value` template function. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 54-55
 
-The inverse conversion (e.g., from :sip:ref:`~PyQt6.QtGui.QColor` to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_) is automatic for all data types supported by `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, including GUI-related types:
+The inverse conversion (e.g., from :sip:ref:`~PyQt6.QtGui.QColor` to :sip:ref:`~PyQt6.QtCore.QVariant`) is automatic for all data types supported by :sip:ref:`~PyQt6.QtCore.QVariant`, including GUI-related types:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 60-62
@@ -88,7 +88,7 @@ Setting keys can contain any Unicode characters. The Windows registry and INI fi
 
 #. Always refer to the same key using the same case. For example, if you refer to a key as "text fonts" in one place in your code, don't refer to it as "Text Fonts" somewhere else.
 
-#. Avoid key names that are identical except for the case. For example, if you have a key called "`MainWindow <https://doc.qt.io/qt-6/designer-to-know.html#mainwindow>`_", don't try to save another key as "mainwindow".
+#. Avoid key names that are identical except for the case. For example, if you have a key called "MainWindow", don't try to save another key as "mainwindow".
 
 #. Do not use slashes ('/' and '\\') in section or key names; the backslash character is used to separate sub keys (see below). On windows '\\' are converted by :sip:ref:`~PyQt6.QtCore.QSettings` to '/', which makes them identical.
 
@@ -359,4 +359,4 @@ While :sip:ref:`~PyQt6.QtCore.QSettings` attempts to smooth over the differences
 
 * On macOS, permissions to access settings not belonging to the current user (i.e. :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope`) have changed with 10.7 (Lion). Prior to that version, users having admin rights could access these. For 10.7 and 10.8 (Mountain Lion), only root can. However, 10.9 (Mavericks) changes that rule again but only for the native format (plist files).
 
-.. seealso:: `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QVariant`, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.

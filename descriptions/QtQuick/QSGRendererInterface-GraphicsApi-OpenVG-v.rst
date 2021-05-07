@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: 84e3c858ebaf94bd51949087a19fda53
+    :digest: 9ee4772abf0873ab2f84300a3828396c
 
-`OpenVG <https://doc.qt.io/qt-6/qtquick-visualcanvas-adaptations.html#openvg>`_ via EGL
+via EGL

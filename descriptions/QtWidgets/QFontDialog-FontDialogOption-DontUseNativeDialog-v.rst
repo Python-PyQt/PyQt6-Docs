@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000002
+    :digest: c8e056c007170a7907a5510b626f8281
 
-TODO
+Use Qt's standard font dialog on the Mac instead of Apple's native font panel.

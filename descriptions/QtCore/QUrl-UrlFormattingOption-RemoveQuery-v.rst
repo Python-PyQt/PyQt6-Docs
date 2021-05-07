@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x40
+    :digest: 47396e8fe3be4c830c0d3feb10ef33cd
 
-TODO
+The query part of the URL (following a '?' character) is removed.

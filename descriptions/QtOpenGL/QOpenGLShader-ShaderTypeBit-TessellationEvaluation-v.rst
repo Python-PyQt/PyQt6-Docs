@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0010
+    :digest: 531e3fee8593a1d3f68875a83f8ae103
 
-TODO
+Tessellation evaluation shaders written in the OpenGL shading language (GLSL) (requires OpenGL >= 4.0 or OpenGL ES >= 3.2).

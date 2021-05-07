@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x02000000
+    :digest: 3f571f44b028e251fb0259e725d3654e
 
-TODO
+A Shift key on the keyboard is pressed.

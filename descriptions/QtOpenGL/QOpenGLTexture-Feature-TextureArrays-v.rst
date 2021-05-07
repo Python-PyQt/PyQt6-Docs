@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000008
+    :digest: 0b8f36b4b73a1c9ba56c47f0b2a687b0
 
-TODO
+Support for texture targets with array layers

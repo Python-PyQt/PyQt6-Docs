@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: cc7865d12a9b81610c2f3286090e98b1
+    :digest: 4d2c2e62d7f51de5cdb19b483a2f200f
+
+Use :sip:ref:`~PyQt6.QtGui.QTextCharFormat.fontFamilies` instead.
 
 Returns the text format's font family.
 

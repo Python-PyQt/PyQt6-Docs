@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for supporting pixmaps and threaded image requests in QML
-    :digest: 4f277a48c0975fb3c093fbeb38cd917c
+    :digest: 986929971e5aa871481c784f00c76e7d
 
 The :sip:ref:`~PyQt6.QtQuick.QQuickImageProvider` class provides an interface for supporting pixmaps and threaded image requests in QML.
 
@@ -57,7 +57,7 @@ To force asynchronous image loading, even for image sources that do not have the
 
 Asynchronous loading for image providers that provide :sip:ref:`~PyQt6.QtGui.QPixmap` is only supported in platforms that have the ThreadedPixmaps feature, in platforms where pixmaps can only be created in the main thread (i.e. ThreadedPixmaps is not supported) if `asynchronous <https://doc.qt.io/qt-6/qml-qtquick-image.html#asynchronous-prop>`_ is set to ``true``, the value is ignored and the image is loaded synchronously.
 
-Asynchronous image loading for providers of type other than :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase.ImageType.ImageResponse` are executed on a single thread per engine basis. That means that a slow image provider will block the loading of any other request. To avoid that we suggest using :sip:ref:`~PyQt6.QtQuick.QQuickAsyncImageProvider` and implement threading on the provider side via a ``QThreadPool`` or similar. See the `Image Response Provider Example <https://doc.qt.io/qt-6/qtquick-imageresponseprovider-example.html>`_ for a complete implementation.
+Asynchronous image loading for providers of type other than ImageResponse are executed on a single thread per engine basis. That means that a slow image provider will block the loading of any other request. To avoid that we suggest using :sip:ref:`~PyQt6.QtQuick.QQuickAsyncImageProvider` and implement threading on the provider side via a ``QThreadPool`` or similar. See the `Image Response Provider Example <https://doc.qt.io/qt-6/qtquick-imageresponseprovider-example.html>`_ for a complete implementation.
 
 .. _qquickimageprovider-image-caching:
 

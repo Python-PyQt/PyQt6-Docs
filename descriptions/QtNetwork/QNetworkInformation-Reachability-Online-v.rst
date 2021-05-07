@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 35aa68dcb7a9ca6832254a264d225478
 
-TODO
+Indicates that the system is connected to a network and able to access the Internet.

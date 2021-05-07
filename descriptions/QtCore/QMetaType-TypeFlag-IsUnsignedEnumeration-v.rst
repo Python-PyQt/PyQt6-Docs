@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: 8756684ebf4db35772de4d705b6410c9
 
-TODO
+If the type is an Enumeration, its underlying type is unsigned.

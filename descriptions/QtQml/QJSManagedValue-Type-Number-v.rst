@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: a1a1d6582d33a870fdabd222a6509db1
 
-TODO
+The ``number`` type

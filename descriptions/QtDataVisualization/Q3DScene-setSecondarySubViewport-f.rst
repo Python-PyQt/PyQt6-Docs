@@ -2,5 +2,6 @@
     :status: todo
     :pysig: f036f485eb055d6ec1bb498745801d23
     :realsig: (const QRect&)
+    :digest: 08cd32bb21f2c6f5706d6f6faf63f1bb
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DScene.secondarySubViewport`.

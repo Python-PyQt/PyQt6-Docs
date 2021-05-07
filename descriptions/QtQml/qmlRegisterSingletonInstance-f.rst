@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1071d7a5200197d917c07c65ac597f15
     :realsig: (const char*,int,int,const char*,QObject*)
-    :digest: 902b28debcb3f47d6bfe3378a29783e5
+    :digest: 28a2f6d14790812673f6d51075e9cf8a
 
 This function is used to register a singleton object *cppObject*, with a particular *uri* and *typeName*. Its version is a combination of *versionMajor* and *versionMinor*.
 
@@ -13,6 +13,8 @@ Use this function to register an object of the given type T as a singleton type.
 A :sip:ref:`~PyQt6.QtCore.QObject` singleton type may be referenced via the type name with which it was registered; in turn this type name may be used as the target in a `Connections <https://doc.qt.io/qt-6/qml-qtqml-connections.html>`_ type, or like any other type ID. However, there's one exception: a :sip:ref:`~PyQt6.QtCore.QObject` singleton type property can't be aliased because the singleton type name does not identify an object within the same component as any other item.
 
 **Note:** *cppObject* must outlive the QML engine in which it is used. Moreover, cppObject must have the same thread affinity as the engine. If you want separate singleton instances for multiple engines, you need to use :sip:ref:`~PyQt6.QtQml.qmlRegisterSingletonType`. See Threads and QObjects for more information about thread safety.
+
+**NOTE:** qmlRegisterSingleton can only be used when all types of that module are registered procedurally.
 
 Usage:
 

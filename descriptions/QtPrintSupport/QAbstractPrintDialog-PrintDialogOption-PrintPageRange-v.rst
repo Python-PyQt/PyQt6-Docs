@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0004
+    :digest: fbd014338f7eb8ae0b6dba7dea991c35
 
-TODO
+The page range selection option is enabled.

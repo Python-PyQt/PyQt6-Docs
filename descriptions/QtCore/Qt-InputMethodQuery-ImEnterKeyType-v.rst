@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000
+    :digest: 1dc73c6b87df18d6662cf82c2272b645
 
-TODO
+The Enter key type.

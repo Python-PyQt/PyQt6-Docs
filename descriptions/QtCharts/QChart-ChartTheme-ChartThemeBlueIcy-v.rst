@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: c254885944df76f8f33d30d46dc7faec
 
-TODO
+The icy blue theme.

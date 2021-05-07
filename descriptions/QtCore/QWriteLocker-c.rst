@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenience class that simplifies locking and unlocking read-write locks for write access
-    :digest: 25f10c3e4f32a7a707413778a4ab97d6
+    :digest: 23fd8fe6b99d1aeca7fa6500ce61c1bf
 
 The :sip:ref:`~PyQt6.QtCore.QWriteLocker` class is a convenience class that simplifies locking and unlocking read-write locks for write access.
 

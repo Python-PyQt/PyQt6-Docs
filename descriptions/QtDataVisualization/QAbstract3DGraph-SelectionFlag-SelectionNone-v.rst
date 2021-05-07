@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 4924141caef0924171fcb309e7c9cb7b
 
-TODO
+Selection mode disabled.

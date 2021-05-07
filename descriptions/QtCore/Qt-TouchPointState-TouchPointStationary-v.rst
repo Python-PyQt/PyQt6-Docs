@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x04
+    :digest: 68465a81ac4239d85a7807b00097b39f
 
-TODO
+The touch point did not move.

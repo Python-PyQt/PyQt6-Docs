@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Qt::ShiftModifier
+    :digest: 3ebb1463f94f010a776e79ede92b348c
 
-TODO
+The Shift keys provided on all standard keyboards.

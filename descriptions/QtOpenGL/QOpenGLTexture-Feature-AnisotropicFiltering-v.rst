@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000400
+    :digest: ef3953b49aa59770516618b2a37fe45b
 
-TODO
+Support for anisotropic texture filtering

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: In | Out
+    :digest: 6493d5431959dcc1c12b174975e8237a
 
-TODO
+The bind parameter is used to put data into the database; it will be overwritten with output data on executing a query.

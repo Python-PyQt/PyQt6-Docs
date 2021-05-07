@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 61569f2965b7a369eb10b6d75d410d11
     :realsig: (int,int)
-    :digest: 8d0bb1f73786473d197707e62b557686
+    :digest: c30cc047bc910aa613e4913486270900
 
 This signal is emitted when the mouse cursor enters a cell. The cell is specified by *row* and *column*.
 

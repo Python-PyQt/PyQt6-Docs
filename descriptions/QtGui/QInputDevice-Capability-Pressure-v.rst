@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0004
+    :digest: 2491644caa49c1b914be0dd48b626aee
 
-TODO
+Indicates that pressure information is available, meaning that :sip:ref:`~PyQt6.QtGui.QEventPoint.pressure` returns a valid value.

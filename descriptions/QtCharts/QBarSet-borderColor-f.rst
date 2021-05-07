@@ -2,5 +2,8 @@
     :status: todo
     :pysig: c558c8ca1b418d1b4912fdf1d515ba57
     :realsig: ()
+    :digest: 9f2043078d88533f642cc4599166bd9f
 
-TODO
+Returns the line color for the bar set.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QBarSet.setBorderColor`.

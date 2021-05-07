@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 5a12b780ee1e540fd7652ba2355831a0
     :realsig: (QNetworkProxyFactory*)
-    :digest: 1cd8779cb3aba10096b0d05048dbb0d3
+    :digest: 4b041a474c5debe3971199f781d7f92c
 
 Sets the application-wide proxy factory to be *factory*. This function will take ownership of that object and will delete it when necessary.
 

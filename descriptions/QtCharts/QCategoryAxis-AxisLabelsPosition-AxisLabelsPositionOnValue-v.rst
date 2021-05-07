@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1
+    :digest: 25db1c815483fdb3618f86cca821bbbe
 
-TODO
+Labels are positioned to the high end limit of the category.

@@ -2,6 +2,6 @@
     :status: todo
     :pysig: da16842b86f85e3c2b94c07e594c554d
     :realsig: (QByteArrayView)
-    :digest: de78d189bc8dfe0bc923bea42e1a0ca6
+    :digest: 5e6fa968679c9fc8468c25b5053b520a
 
-Returns a `QMetaType <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qmetatype>`_ matching *typeName*. The returned object is not valid if the typeName is not known to `QMetaType <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qmetatype>`_
+Returns a :sip:ref:`~PyQt6.QtCore.QMetaType` matching *typeName*. The returned object is not valid if the  is not known to :sip:ref:`~PyQt6.QtCore.QMetaType`

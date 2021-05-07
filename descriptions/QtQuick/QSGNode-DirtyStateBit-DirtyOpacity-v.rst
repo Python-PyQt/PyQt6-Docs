@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4000
+    :digest: 608648ad16c24ff046e79c23eccede3e
 
-TODO
+The opacity of a :sip:ref:`~PyQt6.QtQuick.QSGOpacityNode` has changed.

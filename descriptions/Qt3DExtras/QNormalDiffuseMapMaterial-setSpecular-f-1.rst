@@ -3,5 +3,6 @@
     :pysig: 02caa0744812cb36143414e851288c26
     :realname: Qt3DExtras::QNormalDiffuseMapMaterial::setSpecular
     :realsig: (const QColor&)
+    :digest: b1edd1ed58d579cd93c8988916b4fdad
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QNormalDiffuseMapMaterial.specular`.

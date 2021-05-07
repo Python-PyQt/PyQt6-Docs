@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 181e1b498abf268d30da4e84d99db062
 
-TODO
+A medium dark theme with yellow as the base color.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0004
+    :digest: 0b53654cee0c8036292bdea17e37cc24
 
-TODO
+Used to indicate that the cached material state has changed and must be updated.

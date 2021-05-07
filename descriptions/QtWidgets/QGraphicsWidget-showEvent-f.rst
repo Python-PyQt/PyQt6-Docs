@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7905de75ba1096b008e853dc1ed418eb
     :realsig: (QShowEvent*)
-    :digest: 673e89c82f918ce81c14572c7c4d4ee9
+    :digest: f17ab2a568c3dceed80db8a447312998
 
 This event handler, for :sip:ref:`~PyQt6.QtCore.QEvent.Type.Show` events, is delivered before the widget has been shown, for example, setVisible(true) has been called for the widget or one of its ancestors when the widget was previously hidden.
 

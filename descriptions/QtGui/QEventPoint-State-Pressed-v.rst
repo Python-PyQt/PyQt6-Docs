@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Qt::TouchPointPressed
+    :digest: 363fd0efd285d765687a0b2c811ab2c1
 
-TODO
+The touch point or button is pressed.

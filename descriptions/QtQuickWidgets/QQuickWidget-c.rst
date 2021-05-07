@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for displaying a Qt Quick user interface
-    :digest: b52f3da295624002a1bb033d720495a6
+    :digest: 70f84aa6eb087a341c42da8e20075e83
 
 The :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` class provides a widget for displaying a Qt Quick user interface.
 
@@ -52,7 +52,7 @@ This limitation only applies when there are other widgets underneath the :sip:re
 Support when not using OpenGL
 -----------------------------
 
-In addition to OpenGL, the ``software`` backend of Qt Quick also supports :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`. Other backends, for example `OpenVG <https://doc.qt.io/qt-6/qtquick-visualcanvas-adaptations.html#openvg>`_, are not compatible however and attempting to construct a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` will lead to problems.
+In addition to OpenGL, the ``software`` backend of Qt Quick also supports :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`. Other backends, for example OpenVG, are not compatible however and attempting to construct a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` will lead to problems.
 
 .. _qquickwidget-tab-key-handling:
 

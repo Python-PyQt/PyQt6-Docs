@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: db9606f4581694e53c6bb99fe8ce4a4e
 
-TODO
+export this object's non-scriptable slots

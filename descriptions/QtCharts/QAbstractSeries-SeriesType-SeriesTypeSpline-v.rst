@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: d97a5be023f6729918dc73703ae807d4
 
-TODO
+A spline chart.

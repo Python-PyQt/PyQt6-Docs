@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
+    :digest: 18149052a5f8be344d6fdd063ad669bb
 
-TODO
+Identical to the animated property.

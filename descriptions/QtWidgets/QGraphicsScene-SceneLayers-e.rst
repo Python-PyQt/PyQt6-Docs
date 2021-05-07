@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QGraphicsScene::SceneLayer
-    :digest: 273cd763880a0d2f2c0ff0cf163dedb3
+    :digest: 90c11c72fd38dd0af9a1e867ed2bde9a
 
 This enum describes the rendering layers in a :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene`. When :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene` draws the scene contents, it renders each of these layers separately, in order.
 

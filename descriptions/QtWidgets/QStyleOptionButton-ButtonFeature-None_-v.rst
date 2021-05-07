@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00
     :realname: QStyleOptionButton::ButtonFeature::None
+    :digest: 10aa387f881b0d6d8ee0bbd530168855
 
-TODO
+Indicates a normal push button.

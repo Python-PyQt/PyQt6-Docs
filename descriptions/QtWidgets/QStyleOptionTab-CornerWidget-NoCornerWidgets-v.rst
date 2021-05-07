@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00
+    :digest: aa3b074f76e65e3ab9fb50f37c931353
 
-TODO
+There are no corner widgets

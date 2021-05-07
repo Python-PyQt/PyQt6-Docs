@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 33b7f5fe93fb1719aeffb2bfbfb506a0
 
-TODO
+The sand brown theme.

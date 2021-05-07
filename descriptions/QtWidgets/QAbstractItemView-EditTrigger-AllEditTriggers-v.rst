@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: f9f2f8826e9680ede59b9a55cf91a538
 
-TODO
+Editing starts for all above actions.

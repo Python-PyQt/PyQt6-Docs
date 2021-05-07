@@ -2,7 +2,7 @@
     :status: todo
     :brief: Provides an abstract class that should be the base of all material component classes in a scene
     :realname: Qt3DRender::QMaterial
-    :digest: 41289cde511d445600c268aeefa8dcb2
+    :digest: b5f4017d26cbb401a661fa64e53112cd
 
 Provides an abstract class that should be the base of all material component classes in a scene.
 
@@ -12,7 +12,7 @@ In itself, a :sip:ref:`~PyQt6.Qt3DRender.QMaterial` doesn't do anything. It's on
 
 In practice, it often happens that a single QEffect is being referenced by several :sip:ref:`~PyQt6.Qt3DRender.QMaterial` components. This allows to only create the effect, techniques, passes and shaders once while allowing to specify the material by adding QParameter instances.
 
-A QParameter defined on a :sip:ref:`~PyQt6.Qt3DRender.QMaterial` is overridden by a QParameter (of the same name) defined in a QTechniqueFilter or a QRenderPassFilter.
+A QParameter defined on a :sip:ref:`~PyQt6.Qt3DRender.QMaterial` overrides parameter (of the same name) defined in a QEffect, QTechnique and QRenderPass, but are overridden by parameter in QRenderPassFilter and QTechniqueFilter.
 
 ::
 

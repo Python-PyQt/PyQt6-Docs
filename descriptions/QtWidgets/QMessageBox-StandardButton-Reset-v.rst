@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x04000000
+    :digest: bac9fb0654dab02d36304e3531209502
 
-TODO
+A "Reset" button defined with the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.ButtonRole.ResetRole`.

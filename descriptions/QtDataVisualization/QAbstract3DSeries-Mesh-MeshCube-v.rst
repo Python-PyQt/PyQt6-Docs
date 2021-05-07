@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: fb77e008dabacbebec552756085cddc0
 
-TODO
+Basic cube.

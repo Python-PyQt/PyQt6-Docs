@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x08000000
+    :digest: fc81f2eb3a0ea32b6cbda371af79320b
 
-TODO
+An Alt key on the keyboard is pressed.

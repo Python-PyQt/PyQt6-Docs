@@ -2,7 +2,7 @@
     :status: todo
     :brief: QComponent to issue work for the compute shader on GPU
     :realname: Qt3DRender::QComputeCommand
-    :digest: c7e8235cca4fca3c9bcbd67816672e13
+    :digest: 1034d234a47a32ea4197f5aaf046b345
 
 QComponent to issue work for the compute shader on GPU.
 

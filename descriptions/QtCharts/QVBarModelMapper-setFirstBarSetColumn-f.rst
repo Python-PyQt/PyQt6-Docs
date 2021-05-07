@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: cb4113c3c1a421797625dcd4c18e666b
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QVBarModelMapper.firstBarSetColumn`.

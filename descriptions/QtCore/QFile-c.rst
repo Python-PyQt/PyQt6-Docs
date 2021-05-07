@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for reading from and writing to files
-    :digest: e24d86e333c9b86fdf8492abdcfd3b61
+    :digest: ffb64d117a47c4054c84935c09510fb1
 
 The :sip:ref:`~PyQt6.QtCore.QFile` class provides an interface for reading from and writing to files.
 
@@ -25,7 +25,7 @@ The following example reads a text file line by line:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-file-file.py
     :lines: 67-74
 
-The :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenMode.Text` flag passed to :sip:ref:`~PyQt6.QtCore.QFile.open` tells Qt to convert Windows-style line terminators ("\\r\\n") into C++-style terminators ("\\n"). By default, :sip:ref:`~PyQt6.QtCore.QFile` assumes binary, i.e. it doesn't perform any conversion on the bytes stored in the file.
+The QIODevice::Text flag passed to :sip:ref:`~PyQt6.QtCore.QFile.open` tells Qt to convert Windows-style line terminators ("\\r\\n") into C++-style terminators ("\\n"). By default, :sip:ref:`~PyQt6.QtCore.QFile` assumes binary, i.e. it doesn't perform any conversion on the bytes stored in the file.
 
 .. _qfile-using-streams-to-read-files:
 

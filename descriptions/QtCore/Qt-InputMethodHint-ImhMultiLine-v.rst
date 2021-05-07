@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x400
+    :digest: e0278b959f4a1d4da6c9836402d9006d
 
-TODO
+Multiple lines can be entered into the text field.

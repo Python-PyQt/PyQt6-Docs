@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0400
+    :digest: 9319344aac150ed650d67c7d8b252bf2
 
-TODO
+The file is readable by the user.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xffff
+    :digest: 8a3c7cb85c5712696b6d083317115a9f
 
-TODO
+All layers; this value represents a combination of all three layers.

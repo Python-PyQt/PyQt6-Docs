@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x02000000
+    :digest: 0577f40226272ffe9a3e9ec7bff15657
 
-TODO
+An "Apply" button defined with the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.ButtonRole.ApplyRole`.

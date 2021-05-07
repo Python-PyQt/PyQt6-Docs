@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000100
+    :digest: 9fab58ecb8c86d7c6c6b53ac5d810c0c
 
-TODO
+Gives the window a thin dialog border on Windows. This style is traditionally used for fixed-size dialogs.

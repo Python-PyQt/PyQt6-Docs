@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: d2062433d5cf9384790aa5099905e8b7
+    :digest: 18208e687be2958398c32230769ee42f
 
 Returns true if the type of the current element is a map (that is, if :sip:ref:`~PyQt6.QtCore.QCborStreamReader.type` returns :sip:ref:`~PyQt6.QtCore.QCborStreamReader.Type.Map`). If this function returns true, you may call :sip:ref:`~PyQt6.QtCore.QCborStreamReader.enterContainer` to begin parsing that container.
 

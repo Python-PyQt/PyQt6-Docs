@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 140d0f6bb5bdafa8a9be72121a5d9996
     :realsig: (const QVariant&)
-    :digest: e9c0b2111cd32d1c07f8f619a524ada9
+    :digest: 01132a7477d294f5c704e58c476da60f
 
-Creates a :sip:ref:`~PyQt6.QtCore.QJsonDocument` from the `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ *variant*.
+Creates a :sip:ref:`~PyQt6.QtCore.QJsonDocument` from the :sip:ref:`~PyQt6.QtCore.QVariant` *variant*.
 
 If the *variant* contains any other type than a QVariantMap, QVariantHash, QVariantList or QStringList, the returned document is invalid.
 

@@ -2,10 +2,10 @@
     :status: todo
     :pysig: a29ebb5461372b347ff3abc2a8a150d2
     :realsig: (const QCollatorSortKey&) const
-    :digest: 7b44e7d1c312a86360082b2b96548030
+    :digest: e3ca8c89046b1e7a98e8d8011bc23b98
 
-Compares this key to *otherKey*.
+Compares this key to *otherKey*, which must have been created by the same :sip:ref:`~PyQt6.QtCore.QCollator`'s sortKey() as this key. The comparison is performed in accordance with that :sip:ref:`~PyQt6.QtCore.QCollator`'s sort order.
 
-Returns a negative value if the key is less than *otherKey*, 0 if the key is equal to *otherKey* or a positive value if the key is greater than *otherKey*.
+Returns a negative value if this key sorts before *otherKey*, 0 if the two keys are equal or a positive value if this key sorts after *otherKey*.
 
 .. seealso:: operator<().

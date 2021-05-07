@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0100
+    :digest: 73315353f1d530a94f61c94104823337
 
-TODO
+This hint specifies that the gesture framework should consume the filtered event and not deliver it to the receiver.

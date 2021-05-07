@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1000
+    :digest: e0359dba170bf71703372ac7187b0ade
 
-TODO
+Indicates that :sip:ref:`~PyQt6.QtGui.QTabletEvent.yTilt` information is available for the Y-axis.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
+    :digest: dc7a9b63798ccba7ef82bac9c6cf5ae5
 
-TODO
+Indicates a flat push button.

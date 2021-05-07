@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: DrawWireframe | DrawSurface
+    :digest: 07c1786dc942888ff07d77d83c5e190f
 
-TODO
+Both the surface and grid are drawn.

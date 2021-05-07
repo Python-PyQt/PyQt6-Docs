@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to widgets reusable to integrate fulltext search as well as to index and search documentation
-    :digest: b239ab3ae1896ed5e678546f35c149b5
+    :digest: 7c4be3ce61f272f8bad75bce86301a19
 
 The :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine` class provides access to widgets reusable to integrate fulltext search as well as to index and search documentation.
 
@@ -9,7 +9,7 @@ Before the search engine can be used, one has to instantiate at least a :sip:ref
 
 After starting the indexing process the signal :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.indexingStarted` is emitted and on the end of the indexing process the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.indexingFinished` is emitted. To stop the indexing one can call :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.cancelIndexing`.
 
-When the indexing process has finished, the search engine can be used to search through the index for a given term using the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.search` function. When the search input is passed to the search engine, the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchingStarted` signal is emitted. When the search finishes, the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchingFinished` signal is emitted. The search process can be stopped by calling :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.cancelSearching`.
+When the indexing process has finished, the search engine can be used to search through the index for a given term using the  function. When the search input is passed to the search engine, the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchingStarted` signal is emitted. When the search finishes, the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchingFinished` signal is emitted. The search process can be stopped by calling :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.cancelSearching`.
 
 If the search succeeds, :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchingFinished` is called with the search result count to fetch the search results from the search engine. Calling the :sip:ref:`~PyQt6.QtHelp.QHelpSearchEngine.searchResults` function with a range returns a list of :sip:ref:`~PyQt6.QtHelp.QHelpSearchResult` objects within the range. The results consist of the document title and URL, as well as a snippet from the document that contains the best match for the search input.
 

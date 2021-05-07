@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000001
+    :digest: 25bf223f10c96cf49b4e8fffe1c63db2
 
-TODO
+System menu button (i.e., restore, close, etc.).

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0001
+    :digest: 1c5baf7e479454c4d399d0ea7fa6327c
 
-TODO
+A mouse or something acting like a mouse (the core pointer on X11).

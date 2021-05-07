@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
+    :digest: 27d9c00fea91026a1e0609c5418fb019
 
-TODO
+Tessellation control shaders written in the OpenGL shading language (GLSL) (requires OpenGL >= 4.0 or OpenGL ES >= 3.2).

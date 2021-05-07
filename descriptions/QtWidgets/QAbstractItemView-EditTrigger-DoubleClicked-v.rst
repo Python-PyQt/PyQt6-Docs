@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 46b0a450d9739ba06d32a0742a4fa1da
 
-TODO
+Editing starts when an item is double clicked.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 27ca050dd4a000daba88f21e2fe7f93d
     :realsig: (QIODeviceBase::OpenMode)
-    :digest: acbbce9df783d72f2f4d9ca1ad22d0b5
+    :digest: 37b40f0ea3bb5ef99908f2b577671169
 
 Attempts to make a connection to :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.serverName`. :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.setServerName` must be called before you open the connection. Alternatively you can use (const QString &name, OpenMode openMode);
 

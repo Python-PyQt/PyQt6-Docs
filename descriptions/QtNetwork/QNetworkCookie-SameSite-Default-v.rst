@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 20c4b510a8d6835bd7e93fc07ae34392
 
-TODO
+is not set. Can be interpreted as None or Lax by the browser.

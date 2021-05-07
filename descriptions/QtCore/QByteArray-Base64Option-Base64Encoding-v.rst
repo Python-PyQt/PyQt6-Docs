@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 77b94a204e9e1dbc3b0971f74edbd570
 
-TODO
+(default) The regular Base64 alphabet, called simply "base64"

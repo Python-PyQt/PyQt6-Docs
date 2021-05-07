@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00080000
+    :digest: 96f3c8acc5be5d7d92449c765662ba05
 
-TODO
+Informs the window system that this window is used only for output (displaying something) and does not take input. Therefore input events should pass through as if it wasn't there.

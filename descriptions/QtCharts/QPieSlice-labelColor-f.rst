@@ -2,5 +2,6 @@
     :status: todo
     :pysig: c558c8ca1b418d1b4912fdf1d515ba57
     :realsig: ()
+    :digest: 7fd06f52a7d24008ca3fe71e80d2905f
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QPieSlice.setLabelColor`.

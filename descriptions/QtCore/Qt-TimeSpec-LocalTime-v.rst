@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: a81a2c3640c7556de6179075e24a4519
+    :digest: f5f2b9ee300c337c308f37194389c1be
 
-Locale dependent time (Timezones and Daylight Savings Time).
+Local time, controlled by a system time-zone setting.

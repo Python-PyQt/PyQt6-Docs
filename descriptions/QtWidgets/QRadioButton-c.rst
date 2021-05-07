@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Radio button with a text label
-    :digest: 19f5b13fe32795890d9704548bf706f3
+    :digest: 66b3048d0b710279e1fa39125b11027e
 
 The :sip:ref:`~PyQt6.QtWidgets.QRadioButton` widget provides a radio button with a text label.
 

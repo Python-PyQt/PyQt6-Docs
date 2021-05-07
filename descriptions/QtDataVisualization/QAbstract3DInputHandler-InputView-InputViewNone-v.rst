@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 787f03c923970d7afdfc573f58366f51
 
-TODO
+Mouse or touch not on a view.

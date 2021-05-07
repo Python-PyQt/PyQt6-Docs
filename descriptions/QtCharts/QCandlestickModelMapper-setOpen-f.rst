@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: 85a661b8c74b4c9025b6440b40adeb78
 
-TODO
+Sets the row/column of the model that contains the *open* values of the sets in the series. Default value is -1 (invalid mapping).
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QCandlestickModelMapper.open`.

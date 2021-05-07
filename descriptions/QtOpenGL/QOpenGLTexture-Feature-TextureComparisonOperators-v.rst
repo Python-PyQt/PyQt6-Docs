@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00004000
+    :digest: 1f22a7814c0be6748dc83645606f6698
 
-TODO
+Support for texture comparison operators

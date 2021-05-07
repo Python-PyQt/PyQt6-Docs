@@ -2,11 +2,11 @@
     :status: todo
     :brief: Encapsulates a Technique
     :realname: Qt3DRender::QTechnique
-    :digest: f42f9b1b6deee7f02fa05c262c2a75fd
+    :digest: 19baf875af34636ad16836f6fc9daf37
 
 Encapsulates a Technique.
 
-A :sip:ref:`~PyQt6.Qt3DRender.QTechnique` specifies a set of :sip:ref:`~PyQt6.Qt3DRender.QRenderPass` objects, :sip:ref:`~PyQt6.Qt3DRender.QFilterKey` objects, :sip:ref:`~PyQt6.Qt3DRender.QParameter` objects and a :sip:ref:`~PyQt6.Qt3DRender.QGraphicsApiFilter`, which together define a rendering technique the given graphics API can render. The filter keys are used by :sip:ref:`~PyQt6.Qt3DRender.QTechniqueFilter` to select specific techniques at specific parts of the FrameGraph. If two QParameter instances with the same name are specified in a :sip:ref:`~PyQt6.Qt3DRender.QTechnique` and a QRenderPass, the one in Technique overrides the one used in the QRenderPass.
+A :sip:ref:`~PyQt6.Qt3DRender.QTechnique` specifies a set of :sip:ref:`~PyQt6.Qt3DRender.QRenderPass` objects, :sip:ref:`~PyQt6.Qt3DRender.QFilterKey` objects, :sip:ref:`~PyQt6.Qt3DRender.QParameter` objects and a :sip:ref:`~PyQt6.Qt3DRender.QGraphicsApiFilter`, which together define a rendering technique the given graphics API can render. The filter keys are used by :sip:ref:`~PyQt6.Qt3DRender.QTechniqueFilter` to select specific techniques at specific parts of the FrameGraph. A QParameter defined on a :sip:ref:`~PyQt6.Qt3DRender.QTechnique` overrides parameter (of the same name) defined in QRenderPass, but are overridden by parameter in QRenderPassFilter, QTechniqueFilter, QMaterial and QEffect.
 
 When creating an QEffect that targets several versions of a graphics API, it is useful to create several :sip:ref:`~PyQt6.Qt3DRender.QTechnique` nodes each with a :sip:ref:`~PyQt6.Qt3DRender.QTechnique.graphicsApiFilter` set to match one of the targeted GL versions. At runtime, the Qt3D renderer will select the most appropriate :sip:ref:`~PyQt6.Qt3DRender.QTechnique` based on which graphics API versions are supported and (if specified) the QFilterKey nodes that satisfy a given QTechniqueFilter in the FrameGraph.
 

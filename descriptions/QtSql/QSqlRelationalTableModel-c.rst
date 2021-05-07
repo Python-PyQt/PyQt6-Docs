@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Editable data model for a single database table, with foreign key support
-    :digest: 49c3fadc1e1c9576e8bc68d63f768538
+    :digest: 10a9b9c387f8026014ce9d2c769efde0
 
 The :sip:ref:`~PyQt6.QtSql.QSqlRelationalTableModel` class provides an editable data model for a single database table, with foreign key support.
 

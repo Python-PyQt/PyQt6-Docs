@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1000
+    :digest: ffba5fd528b4b7d4ac1df70ba4ffacf4
 
-TODO
+The item supports input methods typically used for Asian languages. This flag was introduced in Qt 4.6.

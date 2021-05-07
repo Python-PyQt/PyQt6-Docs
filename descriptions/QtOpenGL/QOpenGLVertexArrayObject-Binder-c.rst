@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: QOpenGLVertexArrayObject::Binder class is a convenience class to help with the binding and releasing of OpenGL Vertex Array Objects
-    :digest: dd65c1e9ca30466ef9883217b3ad27e6
+    :digest: 5fc8c16d4468bee769ef64df1a8b0bd8
 
 The :sip:ref:`~PyQt6.QtOpenGL.QOpenGLVertexArrayObject.Binder` class is a convenience class to help with the binding and releasing of OpenGL Vertex Array Objects.
 

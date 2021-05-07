@@ -1,17 +1,17 @@
 .. sip:class-description::
     :status: todo
     :brief: Font metrics information
-    :digest: b3e579868838e26b86aa54708f3419ef
+    :digest: 65d8b8695dd27504acaebddf426f1c5d
 
 The :sip:ref:`~PyQt6.QtGui.QFontMetrics` class provides font metrics information.
 
 :sip:ref:`~PyQt6.QtGui.QFontMetrics` functions calculate the size of characters and strings for a given font. There are three ways you can create a :sip:ref:`~PyQt6.QtGui.QFontMetrics` object:
 
-#. Calling the :sip:ref:`~PyQt6.QtGui.QFontMetrics` constructor with a `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_ creates a font metrics object for a screen-compatible font, i.e. the font cannot be a printer font. If the font is changed later, the font metrics object is *not* updated.
+#. Calling the :sip:ref:`~PyQt6.QtGui.QFontMetrics` constructor with a :sip:ref:`~PyQt6.QtGui.QFont` creates a font metrics object for a screen-compatible font, i.e. the font cannot be a printer font. If the font is changed later, the font metrics object is *not* updated.
 
    (Note: If you use a printer font the values returned may be inaccurate. Printer fonts are not always accessible so the nearest screen font is used if a printer font is supplied.)
 
-#. :sip:ref:`~PyQt6.QtWidgets.QWidget.fontMetrics` returns the font metrics for a widget's font. This is equivalent to :sip:ref:`~PyQt6.QtGui.QFontMetrics`\ (widget->`font() <https://doc.qt.io/qt-6/stylesheet-reference.html#font>`_). If the widget's font is changed later, the font metrics object is *not* updated.
+#. :sip:ref:`~PyQt6.QtWidgets.QWidget.fontMetrics` returns the font metrics for a widget's font. This is equivalent to :sip:ref:`~PyQt6.QtGui.QFontMetrics`\ (widget->font()). If the widget's font is changed later, the font metrics object is *not* updated.
 
 #. :sip:ref:`~PyQt6.QtGui.QPainter.fontMetrics` returns the font metrics for a painter's current font. If the painter's font is changed later, the font metrics object is *not* updated.
 
@@ -30,4 +30,4 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_text_qfontmetrics.py
     :lines: 59-62
 
-.. seealso:: `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_, :sip:ref:`~PyQt6.QtGui.QFontInfo`, `QFontDatabase <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfontdatabase>`_, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontDatabase`, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.

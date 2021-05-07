@@ -3,5 +3,6 @@
     :pysig: 02caa0744812cb36143414e851288c26
     :realname: Qt3DExtras::QGoochMaterial::setDiffuse
     :realsig: (const QColor&)
+    :digest: 71894aa82ea8038821f3c0a4a9b362fc
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.Qt3DExtras.QGoochMaterial.diffuse`.

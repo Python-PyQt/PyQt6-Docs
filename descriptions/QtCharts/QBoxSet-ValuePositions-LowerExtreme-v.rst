@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 67c4dc398f442fed7a9f5159e90c8eb3
 
-TODO
+The smallest value of the box-and-whiskers item.

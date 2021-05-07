@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: ea00dfcb88d45ba421aaf19527d03a39
 
-TODO
+A light theme with gray as the base color.

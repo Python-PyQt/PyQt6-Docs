@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 930c02c5381eddceb4765781e6c6366f
     :realsig: (const QString&)
-    :digest: 5bb83c6bdf80438878f86f95492ac414
+    :digest: eac65d7dd25e9db2fa7a4d4dc6059bfa
 
 Sets database-specific *options*. This must be done before the connection is opened, otherwise it has no effect. Another possibility is to close the connection, call , and :sip:ref:`~PyQt6.QtSql.QSqlDatabase.open` the connection again.
 
@@ -52,19 +52,21 @@ The format of the *options* string is a semicolon separated list of option names
 | * SQL_ATTR_LOGIN_TIMEOUT | * OCI_ATTR_PREFETCH_MEMORY |
 +--------------------------+----------------------------+
 
-+-------------------------------+-------------------------+
-| SQLite                        | Interbase               |
-+===============================+=========================+
-| * QSQLITE_BUSY_TIMEOUT        | * ISC_DPB_LC_CTYPE      |
-|                               |                         |
-| * QSQLITE_OPEN_READONLY       | * ISC_DPB_SQL_ROLE_NAME |
-|                               |                         |
-| * QSQLITE_OPEN_URI            |                         |
-|                               |                         |
-| * QSQLITE_ENABLE_SHARED_CACHE |                         |
-|                               |                         |
-| * QSQLITE_ENABLE_REGEXP       |                         |
-+-------------------------------+-------------------------+
++----------------------------------------+-------------------------+
+| SQLite                                 | Interbase               |
++========================================+=========================+
+| * QSQLITE_BUSY_TIMEOUT                 | * ISC_DPB_LC_CTYPE      |
+|                                        |                         |
+| * QSQLITE_OPEN_READONLY                | * ISC_DPB_SQL_ROLE_NAME |
+|                                        |                         |
+| * QSQLITE_OPEN_URI                     |                         |
+|                                        |                         |
+| * QSQLITE_ENABLE_SHARED_CACHE          |                         |
+|                                        |                         |
+| * QSQLITE_ENABLE_REGEXP                |                         |
+|                                        |                         |
+| * QSQLITE_NO_USE_EXTENDED_RESULT_CODES |                         |
++----------------------------------------+-------------------------+
 
 Examples:
 

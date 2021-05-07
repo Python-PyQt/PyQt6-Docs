@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 524b1a5c9d574fa2c581bf621b6c99c5
     :realsig: (const QString&,QIODeviceBase::OpenMode)
-    :digest: f964f39f0d949c90a4f1af2af4a87ade
+    :digest: c528fcab1e0ce90dcbd5d6cbb6bb1a75
 
 Starts the command *command* in a new process. The OpenMode is set to *mode*.
 
@@ -23,6 +23,6 @@ Literal quotes in the *command* string are represented by triple quotes. For exa
 
 After the *command* string has been split and unquoted, this function behaves like :sip:ref:`~PyQt6.QtCore.QProcess.start`.
 
-On operating systems where the system API for passing command line arguments to a subprocess natively uses a single string (Windows), one can conceive command lines which cannot be passed via `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_'s portable list-based API. In these rare cases you need to use :sip:ref:`~PyQt6.QtCore.QProcess.setProgram` and setNativeArguments() instead of this function.
+On operating systems where the system API for passing command line arguments to a subprocess natively uses a single string (Windows), one can conceive command lines which cannot be passed via :sip:ref:`~PyQt6.QtCore.QProcess`'s portable list-based API. In these rare cases you need to use :sip:ref:`~PyQt6.QtCore.QProcess.setProgram` and setNativeArguments() instead of this function.
 
 .. seealso:: splitCommand(), :sip:ref:`~PyQt6.QtCore.QProcess.start`.

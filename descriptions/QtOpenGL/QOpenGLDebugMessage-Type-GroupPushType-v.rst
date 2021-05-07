@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000080
+    :digest: 760a12f2a1d788397153a5060f716060
 
-TODO
+The message represents a debug group push operation.

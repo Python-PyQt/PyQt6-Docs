@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0020
+    :digest: 48b4bb85299e05d164990e29160885bf
 
-TODO
+A stylus with a thumbwheel to adjust :sip:ref:`~PyQt6.QtGui.QTabletEvent.tangentialPressure`.

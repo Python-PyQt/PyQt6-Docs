@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0100
+    :digest: 4deee3ed1237aa08ce3cca7da8b4ea25
 
-TODO
+The file is executable by the user.

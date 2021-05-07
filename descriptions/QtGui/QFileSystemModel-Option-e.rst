@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: b45d8bc443a17a6a3cbbe6d677b47714
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFileSystemModel.resolveSymlinks`.

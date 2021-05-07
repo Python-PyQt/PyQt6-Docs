@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000020
+    :digest: 4e9400b9ffbddb418190dd2e754818e5
 
-TODO
+Shade button.

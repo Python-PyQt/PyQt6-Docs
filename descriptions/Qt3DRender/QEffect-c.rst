@@ -2,7 +2,7 @@
     :status: todo
     :brief: Base class for effects in a Qt 3D scene
     :realname: Qt3DRender::QEffect
-    :digest: d9d6de9037f1e0d320f784a1dab9319b
+    :digest: 5a360c70edb2b825390b0f5402921b3d
 
 The base class for effects in a Qt 3D scene.
 
@@ -36,6 +36,6 @@ An :sip:ref:`~PyQt6.Qt3DRender.QEffect` instance should be shared among several 
     // Add the technique to the effect
     effect->addTechnique(gl3Technique);
 
-A QParameter defined on an Effect is overridden by a QParameter (of the same name) defined in a QMaterial, QTechniqueFilter, QRenderPassFilter.
+A QParameter defined on a :sip:ref:`~PyQt6.Qt3DRender.QEffect` overrides parameter (of the same name) defined in QTechnique and QRenderPass, but are overridden by parameter in QRenderPassFilter, QTechniqueFilter and QMaterial.
 
 .. seealso:: QMaterial, QTechnique, QParameter.

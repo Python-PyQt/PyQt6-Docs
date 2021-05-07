@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0800
+    :digest: 0e484920deab3f1794f03baac34f02c9
 
-TODO
+Whether clipping is enabled or not is dirty and needs to be updated.

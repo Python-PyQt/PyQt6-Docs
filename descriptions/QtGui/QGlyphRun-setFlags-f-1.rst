@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 09701ad219d1f688a2479b4a35137791
     :realsig: (QGlyphRun::GlyphRunFlags)
+    :digest: c35c11b512aefc5f8cd5246573a5d911
 
-TODO
+Sets the flags of this :sip:ref:`~PyQt6.QtGui.QGlyphRun` to *flags*.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QGlyphRun.setFlag`, :sip:ref:`~PyQt6.QtGui.QGlyphRun.flags`.

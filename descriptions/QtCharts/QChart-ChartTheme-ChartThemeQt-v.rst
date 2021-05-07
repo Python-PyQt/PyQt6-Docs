@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 44ad775e719b1d6c0dc0fcb02e903675
 
-TODO
+The Qt theme.

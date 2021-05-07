@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a touch event
-    :digest: 9a14b794fc82f31d6f452f3af2e098d4
+    :digest: f2021da47c3363550842b0b320f16bf4
 
 The :sip:ref:`~PyQt6.QtGui.QTouchEvent` class contains parameters that describe a touch event.
 
@@ -31,9 +31,9 @@ Some systems may send an event of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.Touch
 
 The pointCount() and point() functions can be used to access and iterate individual touch points.
 
-The  function returns a list of all touch points contained in the event. Note that this list may be empty, for example in case of a :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchCancel` event. Each point is an instance of the :sip:ref:`~PyQt6.QtGui.QEventPoint` class. The :sip:ref:`~PyQt6.QtGui.QEventPoint.States` enum describes the different states that a touch point may have.
+The points() function returns a list of all touch points contained in the event. Note that this list may be empty, for example in case of a :sip:ref:`~PyQt6.QtCore.QEvent.Type.TouchCancel` event. Each point is an instance of the :sip:ref:`~PyQt6.QtGui.QEventPoint` class. The :sip:ref:`~PyQt6.QtGui.QEventPoint.State` enum describes the different states that a touch point may have.
 
-**Note:** The list of  will never be partial: A touch event will always contain a touch point for each existing physical touch contacts targetting the window or widget to which the event is sent. For instance, assuming that all touches target the same window or widget, an event with a condition of .count()==2 is guaranteed to imply that the number of fingers touching the touchscreen or touchpad is exactly two.
+**Note:** The list of points() will never be partial: A touch event will always contain a touch point for each existing physical touch contacts targetting the window or widget to which the event is sent. For instance, assuming that all touches target the same window or widget, an event with a condition of points().count()==2 is guaranteed to imply that the number of fingers touching the touchscreen or touchpad is exactly two.
 
 .. _qtouchevent-event-delivery-and-propagation:
 
@@ -77,4 +77,4 @@ Caveats
 
 * QTouchEvents are not affected by a :sip:ref:`~PyQt6.QtWidgets.QWidget.grabMouse` or an :sip:ref:`~PyQt6.QtWidgets.QApplication.activePopupWidget`. The behavior of QTouchEvents is undefined when opening a pop-up or grabbing the mouse while there are more than one active touch points.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QEventPoint`, :sip:ref:`~PyQt6.QtGui.QEventPoint.States`, :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.acceptTouchEvents`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QEventPoint`, :sip:ref:`~PyQt6.QtGui.QEventPoint.State`, :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AcceptTouchEvents`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.acceptTouchEvents`.

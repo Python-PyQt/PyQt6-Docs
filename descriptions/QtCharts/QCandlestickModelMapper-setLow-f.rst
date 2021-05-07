@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: f5e3d8361d4421479f87dcf0d01fe07a
 
-TODO
+Sets the row/column of the model that contains the *low* values of the sets in the series. Default value is -1 (invalid mapping).
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QCandlestickModelMapper.low`.

@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x1
     :realname: QNetworkInterface::InterfaceFlag::IsUp
-    :digest: b4066ebedc4efb1b701a0ef8b1814239
+    :digest: 8f7e79f3d1b7c127e791ad0f7bf6ff52
 
-the network interface is active
+the network interface is "up" - enabled by administrative action

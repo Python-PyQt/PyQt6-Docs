@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 10e872425c19a889993f2239558a341c
     :realsig: (QSqlQuery::BatchExecutionMode)
-    :digest: 904fcc56cf4724a6662ef55a8b36b685
+    :digest: 20809c817ed79684216b9d6ed5dbae32
 
 Executes a previously prepared SQL query in a batch. All the bound parameters have to be lists of variants. If the database doesn't support batch executions, the driver will simulate it using conventional :sip:ref:`~PyQt6.QtSql.QSqlQuery.exec` calls.
 
@@ -18,7 +18,7 @@ The example above inserts four new rows into ``myTable``:
 .. literalinclude:: ../../../snippets/qtbase-src-sql-doc-snippets-code-src_sql_kernel_qsqlquery_snippet.py
     :lines: 56-59
 
-To bind NULL values, a null `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ of the relevant type has to be added to the bound QVariantList; for example, ``QVariant(QMetaType::QString)`` should be used if you are using strings.
+To bind NULL values, a null :sip:ref:`~PyQt6.QtCore.QVariant` of the relevant type has to be added to the bound QVariantList; for example, ``QVariant(QMetaType::QString)`` should be used if you are using strings.
 
 **Note:** Every bound QVariantList must contain the same amount of variants.
 

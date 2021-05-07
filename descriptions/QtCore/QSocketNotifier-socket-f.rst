@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 4ace415a94e978d871810e1b2f0597f3
     :realsig: () const
-    :digest: cb4acc14cb086566fa99d3a2ab596a05
+    :digest: eeba869c3bddab45c205314d6ff2f2ee
 
-Returns the socket identifier specified to the constructor.
+Returns the socket identifier assigned to this object.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QSocketNotifier.type`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSocketNotifier.setSocket`, :sip:ref:`~PyQt6.QtCore.QSocketNotifier.isValid`, :sip:ref:`~PyQt6.QtCore.QSocketNotifier.type`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: 19e60eac39e0c0448cc236c537aaf48c
 
-TODO
+Editing starts when the platform edit key has been pressed over an item.

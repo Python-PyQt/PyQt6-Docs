@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0002
+    :digest: 376cb0a93b75ef9f384ca9d4f59e1c3d
 
-TODO
+The node's virtual :sip:ref:`~PyQt6.QtQuick.QSGNode.preprocess` function will be called before rendering starts.

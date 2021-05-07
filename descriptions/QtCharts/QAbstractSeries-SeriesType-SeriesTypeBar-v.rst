@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: fb0f91c71ed06a2dce32fcbba9f7f527
 
-TODO
+A vertical bar chart.

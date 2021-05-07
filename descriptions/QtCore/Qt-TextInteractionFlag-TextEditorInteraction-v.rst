@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: TextSelectableByMouse | TextSelectableByKeyboard | TextEditable
+    :digest: 20c98ece7462b24478ea4bbc4d0bce00
 
-TODO
+The default for a text editor.

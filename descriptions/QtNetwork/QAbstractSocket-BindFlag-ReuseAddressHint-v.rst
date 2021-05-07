@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4
+    :digest: 044bc7da57cbafc9302bb323415df235
 
-TODO
+Provides a hint to :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket` that it should try to rebind the service even if the address and port are already bound by another socket. On Windows and Unix, this is equivalent to the SO_REUSEADDR socket option.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x02
+    :digest: ebf178c934ba3afe9202a066b106993e
 
-TODO
+Pre-compiled bytecode supported

@@ -2,6 +2,6 @@
     :status: todo
     :brief: A QAbstractTexture with a TargetRectangle target format
     :realname: Qt3DRender::QTextureRectangle
-    :digest: 566cd66444ac7ab285b1bb72e2bcc2bf
+    :digest: 8f85d30cb894cf2daf6b98e766f874ba
 
-A QAbstractTexture with a :sip:ref:`~PyQt6.Qt3DRender.QAbstractTexture.Target.TargetRectangle` target format.
+A QAbstractTexture with a TargetRectangle target format.

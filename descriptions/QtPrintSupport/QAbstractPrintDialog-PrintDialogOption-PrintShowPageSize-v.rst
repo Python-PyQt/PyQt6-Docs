@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
+    :digest: b597a4fcd14b920eb02cc2699731cb41
 
-TODO
+Show the page size + margins page only if this is enabled.

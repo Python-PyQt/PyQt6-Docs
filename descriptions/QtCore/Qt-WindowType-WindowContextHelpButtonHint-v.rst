@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00010000
+    :digest: 7fc2cde2dc7d2d707cf4ad2d119e79fb
 
-TODO
+Adds a context help button to dialogs. On some platforms this implies  for it to work.

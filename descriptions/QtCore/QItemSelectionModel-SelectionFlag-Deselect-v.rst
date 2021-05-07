@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0004
+    :digest: ac56702df53bf367ad842cf518c70ae3
 
-TODO
+All specified indexes will be deselected.

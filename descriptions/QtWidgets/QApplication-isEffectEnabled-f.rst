@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 578b364e043aa443c3eb1e158644a80d
     :realsig: (Qt::UIEffect)
-    :digest: 78f10c45d0f67a8bbc4d87acac12348d
+    :digest: d171651e095e308bfd4c1e333e520841
 
 Returns ``true`` if *effect* is enabled; otherwise returns ``false``.
 

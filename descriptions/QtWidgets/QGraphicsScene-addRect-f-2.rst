@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 8f0685e0fa5a651ce1760e7fe91fa3c5
     :realsig: (const QRectF&,const QPen&,const QBrush&)
+    :digest: 988f2ed37202db1daf879d196147cf1c
 
-TODO
+Creates and adds a rectangle item to the scene, and returns the item pointer. The geometry of the rectangle is defined by *rect*, and its pen and brush are initialized to *pen* and *brush*.
+
+Note that the item's geometry is provided in item coordinates, and its position is initialized to (0, 0). For example, if a :sip:ref:`~PyQt6.QtCore.QRect`\ (50, 50, 100, 100) is added, its top-left corner will be at (50, 50) relative to the origin in the item's coordinate system.
+
+If the item is visible (i.e., :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.isVisible` returns ``true``), :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene` will emit :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.changed` once control goes back to the event loop.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addEllipse`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addLine`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addPixmap`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addPixmap`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addText`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addItem`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addWidget`.

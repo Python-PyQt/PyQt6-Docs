@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: ea1d0e533d2588eaab53d443de4954f1
 
-TODO
+A horizontal stacked bar chart.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x3
+    :digest: 88c860cca47d37137b3095bf838416d5
 
-TODO
+All animation types are enabled in the chart.

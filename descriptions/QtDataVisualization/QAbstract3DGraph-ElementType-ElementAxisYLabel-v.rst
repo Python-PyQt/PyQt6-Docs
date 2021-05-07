@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: f7c4d39b410fc5d4272cac3c2ffb9a98
 
-TODO
+The y-axis label.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 9e3e54e1f0b752dbe395632442d8762f
 
-TODO
+Shadows are rendered in low quality with softened edges.

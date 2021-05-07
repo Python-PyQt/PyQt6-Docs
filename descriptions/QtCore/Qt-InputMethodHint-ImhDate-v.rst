@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x80
+    :digest: 25a8f9fdb23e2272a78d230ff27000d1
 
-TODO
+The text editor functions as a date field.

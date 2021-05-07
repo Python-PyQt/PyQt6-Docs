@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 652621a8963491ab929370307f2477f5
 
-TODO
+No transformation should be applied.

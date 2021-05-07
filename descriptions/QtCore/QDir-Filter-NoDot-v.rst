@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000
+    :digest: 5becefda66a41f7ae80a375711ebeebe
 
-TODO
+Do not list the special entry ".".

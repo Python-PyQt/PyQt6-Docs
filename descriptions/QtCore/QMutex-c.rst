@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access serialization between threads
-    :digest: cd9d12f11c85e7e5562228550dfaedfc
+    :digest: b0e33c6c7f5c94b5f9939e20e0e9564e
 
 The :sip:ref:`~PyQt6.QtCore.QMutex` class provides access serialization between threads.
 
@@ -33,4 +33,4 @@ When you call :sip:ref:`~PyQt6.QtCore.QMutex.lock` in a thread, other threads th
 
 :sip:ref:`~PyQt6.QtCore.QMutex` is optimized to be fast in the non-contended case. It will not allocate memory if there is no contention on that mutex. It is constructed and destroyed with almost no overhead, which means it is fine to have many mutexes as part of other classes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QRecursiveMutex`, QMutexLocker, :sip:ref:`~PyQt6.QtCore.QReadWriteLock`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QWaitCondition`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QRecursiveMutex`, :sip:ref:`~PyQt6.QtCore.QReadWriteLock`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QWaitCondition`.

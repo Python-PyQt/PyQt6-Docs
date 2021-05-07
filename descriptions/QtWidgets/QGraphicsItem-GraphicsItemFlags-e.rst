@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QGraphicsItem::GraphicsItemFlag
-    :digest: 9013b1140d1ae4b9ad7746d5788cb38e
+    :digest: 094c909e1d8bf3a5b8281bbd2243bfef
 
 This enum describes different flags that you can set on an item to toggle different features in the item's behavior.
 

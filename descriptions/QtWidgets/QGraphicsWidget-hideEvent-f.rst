@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 35f2abd91a1c7c0f976e61da95cebf96
     :realsig: (QHideEvent*)
-    :digest: 19eec5f174cffd986f749fa4f0ca9d34
+    :digest: ef3767243d569162becd7bdc5b6d8023
 
 This event handler, for :sip:ref:`~PyQt6.QtCore.QEvent.Type.Hide` events, is delivered after the widget has been hidden, for example, setVisible(false) has been called for the widget or one of its ancestors when the widget was previously shown.
 

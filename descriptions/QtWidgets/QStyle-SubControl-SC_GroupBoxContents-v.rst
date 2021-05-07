@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000004
+    :digest: 6096daeac41283ba77e0ef99a8dc5db8
 
-TODO
+The group box contents.

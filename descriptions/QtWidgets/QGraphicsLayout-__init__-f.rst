@@ -2,10 +2,10 @@
     :status: todo
     :pysig: ab3888eade72cb6f218c6ae3184ac4f8
     :realsig: (QGraphicsLayoutItem*)
-    :digest: 1147adf8cba5ae1acf490d9fafcb7687
+    :digest: 174a52f8fbaa3da64b2bf6a9c1b36685
 
-Contructs a `QGraphicsLayout <https://doc.qt.io/qt-6/graphicsview.html#qgraphicslayout>`_ object.
+Contructs a :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayout` object.
 
 *parent* is passed to :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`'s constructor and the :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem`'s isLayout argument is set to *true*.
 
-If *parent* is a `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_ the layout will be installed on that widget. (Note that installing a layout will delete the old one installed.)
+If *parent* is a :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget` the layout will be installed on that widget. (Note that installing a layout will delete the old one installed.)

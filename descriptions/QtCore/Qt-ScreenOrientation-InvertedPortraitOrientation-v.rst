@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000004
+    :digest: 7d67e3fdf85a401d9d7f3db8f4cdd648
 
-TODO
+Inverted portrait orientation, rotated 180 degrees relative to portrait.

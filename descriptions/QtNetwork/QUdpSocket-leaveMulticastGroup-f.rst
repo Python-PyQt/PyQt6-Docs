@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 38da605de61b832a9dd48e47488be7fd
     :realsig: (const QHostAddress&)
-    :digest: 111967a5b99797183186e5c9edca922a
+    :digest: 4cea5789f3da2a91d65d7aed3123466c
 
-Leaves the multicast group specified by *groupAddress* on the default interface chosen by the operating system. The socket must be in :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.BoundState`, otherwise an error occurs.
+Leaves the multicast group specified by *groupAddress* on the default interface chosen by the operating system. The socket must be in BoundState, otherwise an error occurs.
 
 This function returns ``true`` if successful; otherwise it returns ``false`` and sets the socket error accordingly.
 

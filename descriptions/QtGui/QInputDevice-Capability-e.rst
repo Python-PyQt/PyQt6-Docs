@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: 40178ef1e414cbb9df53eafe76d32dbe
 
-TODO
+Indicates what kind of information the input device or its driver can provide.

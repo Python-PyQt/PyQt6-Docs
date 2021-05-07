@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00001000
+    :digest: b674a540266e021149f0ca7ad1001f64
 
-TODO
+The 13th non-wheel Mouse Button.

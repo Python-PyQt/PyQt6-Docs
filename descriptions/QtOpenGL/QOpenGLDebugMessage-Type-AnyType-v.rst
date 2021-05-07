@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0xffffffff
+    :digest: 8ac2ed6cc5975c5a20c51b27f9b1ad8d
 
-TODO
+This value corresponds to a mask of all possible message types.

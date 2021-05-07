@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 7856d80b754b5d432384aeb7ededad0f
 
-TODO
+Cookies will only be sent in a first-party context.

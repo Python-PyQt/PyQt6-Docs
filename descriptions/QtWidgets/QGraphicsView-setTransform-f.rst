@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7c0574595c80995729d7956d73f9fa01
     :realsig: (const QTransform&,bool)
-    :digest: 40dd7b70f6cd401a66a4e19d02f64a4e
+    :digest: ac7f1492ec2344bad1c6f49c0087b7e3
 
 Sets the view's current transformation matrix to *matrix*.
 

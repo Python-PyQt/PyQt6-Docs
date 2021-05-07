@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000002
+    :digest: 3b8071fa8d60c05c6a07f11bf4824c31
 
-TODO
+Used to indicate if a button is raised.

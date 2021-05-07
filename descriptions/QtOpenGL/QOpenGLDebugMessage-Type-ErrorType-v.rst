@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000001
+    :digest: 1193f927c57d04f4162ffcdc2f06980a
 
-TODO
+The message represents an error.

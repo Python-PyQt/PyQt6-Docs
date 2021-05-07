@@ -2,13 +2,13 @@
     :status: todo
     :pysig: 53f67762c018ef3e3feef56f0bb203e8
     :realsig: (const QString&,quint16,QIODeviceBase::OpenMode,QAbstractSocket::NetworkLayerProtocol)
-    :digest: 0e407872274d4d1317f9ef0bd1db31fd
+    :digest: ac7831c8a2356092e5b3d04ed4db1c1c
 
 Starts an encrypted connection to the device *hostName* on *port*, using *mode* as the OpenMode. This is equivalent to calling :sip:ref:`~PyQt6.QtNetwork.QSslSocket.connectToHost` to establish the connection, followed by a call to :sip:ref:`~PyQt6.QtNetwork.QSslSocket.startClientEncryption`. The *protocol* parameter can be used to specify which network protocol to use (eg. IPv4 or IPv6).
 
-:sip:ref:`~PyQt6.QtNetwork.QSslSocket` first enters the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.HostLookupState`. Then, after entering either the event loop or one of the waitFor...() functions, it enters the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectingState`, emits connected(), and then initiates the SSL client handshake. At each state change, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` emits signal stateChanged().
+:sip:ref:`~PyQt6.QtNetwork.QSslSocket` first enters the HostLookupState. Then, after entering either the event loop or one of the waitFor...() functions, it enters the ConnectingState, emits connected(), and then initiates the SSL client handshake. At each state change, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` emits signal stateChanged().
 
-After initiating the SSL client handshake, if the identity of the peer can't be established, signal :sip:ref:`~PyQt6.QtNetwork.QSslSocket.sslErrors` is emitted. If you want to ignore the errors and continue connecting, you must call :sip:ref:`~PyQt6.QtNetwork.QSslSocket.ignoreSslErrors`, either from inside a slot function connected to the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.sslErrors` signal, or prior to entering encrypted mode. If :sip:ref:`~PyQt6.QtNetwork.QSslSocket.ignoreSslErrors` is not called, the connection is dropped, signal disconnected() is emitted, and :sip:ref:`~PyQt6.QtNetwork.QSslSocket` returns to the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.UnconnectedState`.
+After initiating the SSL client handshake, if the identity of the peer can't be established, signal :sip:ref:`~PyQt6.QtNetwork.QSslSocket.sslErrors` is emitted. If you want to ignore the errors and continue connecting, you must call :sip:ref:`~PyQt6.QtNetwork.QSslSocket.ignoreSslErrors`, either from inside a slot function connected to the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.sslErrors` signal, or prior to entering encrypted mode. If :sip:ref:`~PyQt6.QtNetwork.QSslSocket.ignoreSslErrors` is not called, the connection is dropped, signal disconnected() is emitted, and :sip:ref:`~PyQt6.QtNetwork.QSslSocket` returns to the UnconnectedState.
 
 If the SSL handshake is successful, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` emits :sip:ref:`~PyQt6.QtNetwork.QSslSocket.encrypted`.
 

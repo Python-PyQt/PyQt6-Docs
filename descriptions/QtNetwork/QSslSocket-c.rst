@@ -1,20 +1,20 @@
 .. sip:class-description::
     :status: todo
     :brief: SSL encrypted socket for both clients and servers
-    :digest: f182058bc3afdadad8ae93cf1e2c15f7
+    :digest: b46565b77cd6c0ab8b3d959d13da6534
 
 The :sip:ref:`~PyQt6.QtNetwork.QSslSocket` class provides an SSL encrypted socket for both clients and servers.
 
 :sip:ref:`~PyQt6.QtNetwork.QSslSocket` establishes a secure, encrypted TCP connection you can use for transmitting encrypted data. It can operate in both client and server mode, and it supports modern SSL protocols, including SSL 3 and TLS 1.2. By default, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` uses only SSL protocols which are considered to be secure (\ :sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol.SecureProtocols`), but you can change the SSL protocol by calling :sip:ref:`~PyQt6.QtNetwork.QSslSocket.setProtocol` as long as you do it before the handshake has started.
 
-SSL encryption operates on top of the existing TCP stream after the socket enters the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`. There are two simple ways to establish a secure connection using :sip:ref:`~PyQt6.QtNetwork.QSslSocket`: With an immediate SSL handshake, or with a delayed SSL handshake occurring after the connection has been established in unencrypted mode.
+SSL encryption operates on top of the existing TCP stream after the socket enters the ConnectedState. There are two simple ways to establish a secure connection using :sip:ref:`~PyQt6.QtNetwork.QSslSocket`: With an immediate SSL handshake, or with a delayed SSL handshake occurring after the connection has been established in unencrypted mode.
 
 The most common way to use :sip:ref:`~PyQt6.QtNetwork.QSslSocket` is to construct an object and start a secure connection by calling :sip:ref:`~PyQt6.QtNetwork.QSslSocket.connectToHostEncrypted`. This method starts an immediate SSL handshake once the connection has been established.
 
 .. literalinclude:: ../../../snippets/qtbase-src-network-doc-snippets-code-src_network_ssl_qsslsocket.py
     :lines: 54-57
 
-As with a plain :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` enters the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.HostLookupState`, :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectingState`, and finally the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`, if the connection is successful. The handshake then starts automatically, and if it succeeds, the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.encrypted` signal is emitted to indicate the socket has entered the encrypted state and is ready for use.
+As with a plain :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtNetwork.QSslSocket` enters the HostLookupState, ConnectingState, and finally the ConnectedState, if the connection is successful. The handshake then starts automatically, and if it succeeds, the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.encrypted` signal is emitted to indicate the socket has entered the encrypted state and is ready for use.
 
 Note that data can be written to the socket immediately after the return from :sip:ref:`~PyQt6.QtNetwork.QSslSocket.connectToHostEncrypted` (i.e., before the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.encrypted` signal is emitted). The data is queued in :sip:ref:`~PyQt6.QtNetwork.QSslSocket` until after the :sip:ref:`~PyQt6.QtNetwork.QSslSocket.encrypted` signal is emitted.
 

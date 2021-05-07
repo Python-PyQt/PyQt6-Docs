@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2000
+    :digest: cc4e888db56d766758845cb66111394b
 
-TODO
+The file is writable by the owner of the file.

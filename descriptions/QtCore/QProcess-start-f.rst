@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 27ca050dd4a000daba88f21e2fe7f93d
     :realsig: (QIODeviceBase::OpenMode)
-    :digest: 74bf947acf62e579f843d9eaa71dc659
+    :digest: 0ebdc58edd9539bb97b83eafb3e11192
 
 This is an overloaded function.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000000
+    :digest: 033b3f1cf8315947976ce271ef65a90b
 
-TODO
+(default) - A high-quality dither using error diffusion.

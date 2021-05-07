@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 02caa0744812cb36143414e851288c26
     :realsig: (const QColor&)
+    :digest: 538c573eabbd63e3d0021dc987112906
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DTheme.backgroundColor`.

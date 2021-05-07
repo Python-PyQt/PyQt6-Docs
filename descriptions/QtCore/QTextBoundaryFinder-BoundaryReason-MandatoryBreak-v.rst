@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x80
+    :digest: 3f0aea77d98c5ab9ed85918279a64be0
 
-TODO
+Since 5.0. The boundary finder is at the end of line (can occur for a Line boundary type only).

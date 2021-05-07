@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x40
+    :digest: 24f5e9b01943e926575d349109f7b9ad
 
-TODO
+Paint a line through the text.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x01
+    :digest: 0c368cd7f8d0dadd0bbb92fe969ba3af
 
-TODO
+Indicates this item should visually clip its children so that they are rendered only within the boundaries of this item.

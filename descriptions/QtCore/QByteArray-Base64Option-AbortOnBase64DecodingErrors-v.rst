@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 411ee6d359ea75f420221be8c3461952
 
-TODO
+When decoding Base64-encoded data, stops at the first decoding error. This enum value has been added in Qt 5.15.

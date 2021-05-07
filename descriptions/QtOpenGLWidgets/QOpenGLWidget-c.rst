@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for rendering OpenGL graphics
-    :digest: a026ad22abb8f983caf32aaccf6b3be4
+    :digest: fab812cf58dc00d815d88ae6d3ecd8a9
 
 The :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` class is a widget for rendering OpenGL graphics.
 
@@ -109,7 +109,7 @@ Multisampling support requires support for multisampled renderbuffers and frameb
 Threading
 ---------
 
-Performing offscreen rendering on worker threads, for example to generate textures that are then used in the GUI/main thread in :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL`, are supported by exposing the widget's `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ so that additional contexts sharing with it can be created on each thread.
+Performing offscreen rendering on worker threads, for example to generate textures that are then used in the GUI/main thread in :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL`, are supported by exposing the widget's :sip:ref:`~PyQt6.QtGui.QOpenGLContext` so that additional contexts sharing with it can be created on each thread.
 
 Drawing directly to the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`'s framebuffer outside the GUI/main thread is possible by reimplementing :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintEvent` to do nothing. The context's thread affinity has to be changed via :sip:ref:`~PyQt6.QtCore.QObject.moveToThread`. After that, :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.makeCurrent` and :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.doneCurrent` are usable on the worker thread. Be careful to move the context back to the GUI/main thread afterwards.
 
@@ -122,13 +122,13 @@ Extra care has to be taken to avoid using the framebuffer when the GUI/main thre
 Context Sharing
 ---------------
 
-When multiple `QOpenGLWidgets <https://doc.qt.io/qt-6/opengl-changes-qt6.html#qopenglwidgets>`_ are added as children to the same top-level widget, their contexts will share with each other. This does not apply for :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` instances that belong to different windows.
+When multiple QOpenGLWidgets are added as children to the same top-level widget, their contexts will share with each other. This does not apply for :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` instances that belong to different windows.
 
-This means that all `QOpenGLWidgets <https://doc.qt.io/qt-6/opengl-changes-qt6.html#qopenglwidgets>`_ in the same window can access each other's sharable resources, like textures, and there is no need for an extra "global share" context.
+This means that all QOpenGLWidgets in the same window can access each other's sharable resources, like textures, and there is no need for an extra "global share" context.
 
 To set up sharing between :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` instances belonging to different windows, set the :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_ShareOpenGLContexts` application attribute before instantiating :sip:ref:`~PyQt6.QtWidgets.QApplication`. This will trigger sharing between all :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` instances without any further steps.
 
-Creating extra `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ instances that share resources like textures with the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`'s context is also possible. Simply pass the pointer returned from :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.context` to :sip:ref:`~PyQt6.QtGui.QOpenGLContext.setShareContext` before calling :sip:ref:`~PyQt6.QtGui.QOpenGLContext.create`. The resulting context can also be used on a different thread, allowing threaded generation of textures and asynchronous texture uploads.
+Creating extra :sip:ref:`~PyQt6.QtGui.QOpenGLContext` instances that share resources like textures with the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`'s context is also possible. Simply pass the pointer returned from :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.context` to :sip:ref:`~PyQt6.QtGui.QOpenGLContext.setShareContext` before calling :sip:ref:`~PyQt6.QtGui.QOpenGLContext.create`. The resulting context can also be used on a different thread, allowing threaded generation of textures and asynchronous texture uploads.
 
 Note that :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` expects a standard conformant implementation of resource sharing when it comes to the underlying graphics drivers. For example, some drivers, in particular for mobile and embedded hardware, have issues with setting up sharing between an existing context and others that are created later. Some other drivers may behave in unexpected ways when trying to utilize shared resources between different threads.
 
@@ -146,7 +146,7 @@ A typical subclass will therefore often look like the following when it comes to
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 124-174
 
-This is naturally not the only possible solution. One alternative is to use the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.aboutToBeDestroyed` signal of `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_. By connecting a slot, using direct connection, to this signal, it is possible to perform cleanup whenever the underlying native context handle, or the entire `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ instance, is going to be released. The following snippet is in principle equivalent to the previous one:
+This is naturally not the only possible solution. One alternative is to use the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.aboutToBeDestroyed` signal of :sip:ref:`~PyQt6.QtGui.QOpenGLContext`. By connecting a slot, using direct connection, to this signal, it is possible to perform cleanup whenever the underlying native context handle, or the entire :sip:ref:`~PyQt6.QtGui.QOpenGLContext` instance, is going to be released. The following snippet is in principle equivalent to the previous one:
 
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 178-191

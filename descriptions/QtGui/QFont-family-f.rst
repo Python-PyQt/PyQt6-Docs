@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 2a1fd82037c8b1173bba2ca04c3f1292
+    :digest: 8964e67786dcd3eb7d295767b34bbbdd
 
-Returns the requested font family name, i.e. the name set in the constructor or the last setFont() call.
+Returns the requested font family name. This will always be the same as the first entry in the :sip:ref:`~PyQt6.QtGui.QFont.families` call.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.setFamily`, :sip:ref:`~PyQt6.QtGui.QFont.substitutes`, :sip:ref:`~PyQt6.QtGui.QFont.substitute`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.setFamily`, :sip:ref:`~PyQt6.QtGui.QFont.substitutes`, :sip:ref:`~PyQt6.QtGui.QFont.substitute`, :sip:ref:`~PyQt6.QtGui.QFont.setFamilies`, :sip:ref:`~PyQt6.QtGui.QFont.families`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4
+    :digest: fcbb8d3a70b3acb77b049a29a04a5789
 
-TODO
+The center point held by :sip:ref:`~PyQt6.QtWidgets.QPinchGesture.centerPoint` changed.

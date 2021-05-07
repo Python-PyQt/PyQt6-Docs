@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Container that treats a group of items as a single item
-    :digest: 3a1eb1dabc896c96f64b6d4518de86e1
+    :digest: dba1e2b252237f32c59aefdf21fe816a
 
 The :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` class provides a container that treats a group of items as a single item.
 
@@ -9,7 +9,7 @@ A :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` is a special type of compound i
 
 If all you want is to store items inside other items, you can use any :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` directly by passing a suitable parent to setParentItem().
 
-The :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup.boundingRect` function of :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` returns the bounding rectangle of all items in the item group. :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` ignores the :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.GraphicsItemFlags.ItemIgnoresTransformations` flag on its children (i.e., with respect to the geometry of the group item, the children are treated as if they were transformable).
+The :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup.boundingRect` function of :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` returns the bounding rectangle of all items in the item group. :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` ignores the ItemIgnoresTransformations flag on its children (i.e., with respect to the geometry of the group item, the children are treated as if they were transformable).
 
 There are two ways to construct an item group. The easiest and most common approach is to pass a list of items (e.g., all selected items) to :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.createItemGroup`, which returns a new :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` item. The other approach is to manually construct a :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup` item, add it to the scene calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.addItem`, and then add items to the group manually, one at a time by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup.addToGroup`. To dismantle ("ungroup") an item group, you can either call :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene.destroyItemGroup`, or you can manually remove all items from the group by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsItemGroup.removeFromGroup`.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x08
+    :digest: 39fa456f6e188f91208f6ab029339df1
 
-TODO
+There is a delay to showing the menu.

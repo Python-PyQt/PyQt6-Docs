@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000080
+    :digest: 51e28998693f09c26c1ec3fdb247a8d0
 
-TODO
+Used to indicate if the widget is laid out horizontally, for example. a tool bar.

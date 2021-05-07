@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x10
+    :digest: 77a25d0b4a4ee904545cf0bde03bb82a
 
-TODO
+Indicates that the item has a decoration role.

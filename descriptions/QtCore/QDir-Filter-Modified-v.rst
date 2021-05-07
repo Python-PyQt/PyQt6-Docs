@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x080
+    :digest: 0959b33aba86755772c9c38b964e97d7
 
-TODO
+Only list files that have been modified (ignored on Unix).

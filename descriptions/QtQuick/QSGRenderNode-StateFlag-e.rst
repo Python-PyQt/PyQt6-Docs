@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: 3f919137a951c8b61f0ba444d7fc6b50
 
-TODO
+This enum is a bit mask identifying several states.

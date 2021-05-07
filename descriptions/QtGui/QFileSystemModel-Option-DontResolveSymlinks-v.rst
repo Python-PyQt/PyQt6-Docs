@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000002
+    :digest: eda75d4af6368d21bbcef62947503710
 
-TODO
+Don't resolve symlinks in the file system model. By default, symlinks are resolved.

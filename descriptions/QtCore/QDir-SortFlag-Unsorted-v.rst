@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x03
+    :digest: 762b1bb22a74d049af9c92591710a11c
 
-TODO
+Do not sort.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 9f62e2f5eb647f68268ac97fbc7b0e7b
 
-TODO
+A medium light theme with blue as the base color.

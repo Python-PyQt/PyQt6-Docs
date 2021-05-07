@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 29c792e5c0c9259c8aad24709e504061
     :realsig: () const
+    :digest: f72a4dcef4bf577846b720329bf0ae53
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QChart.setAnimationEasingCurve`.

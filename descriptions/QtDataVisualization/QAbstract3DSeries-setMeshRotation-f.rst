@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 893c335706200abc185454b9c518acce
     :realsig: (const QQuaternion&)
+    :digest: 7ef8b0469e99a5ffff531640c7154d5a
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DSeries.meshRotation`.

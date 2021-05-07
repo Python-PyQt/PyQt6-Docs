@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000000
+    :digest: 9f9d81fd837b3c81baf3efdd1453566e
 
-TODO
+No modifier key is pressed.

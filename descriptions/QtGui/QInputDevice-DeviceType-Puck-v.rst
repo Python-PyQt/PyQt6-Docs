@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
+    :digest: 3f0d344441676e3cafb6241d231b720f
 
-TODO
+A device that is similar to a flat mouse with a transparent circle with cross-hairs.

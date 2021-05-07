@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4
+    :digest: 57f9b105adcd4a5b04e258f416100b88
 
-TODO
+The bounding rect of the source has changed.

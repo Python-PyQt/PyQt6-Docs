@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
+    :digest: 12173d1dbee5f63264f5b41a6d26b2ad
 
-TODO
+Sets the row/column of the model that contains the *timestamp* values of the sets in the series. Default value is -1 (invalid mapping).
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QCandlestickModelMapper.timestamp`.

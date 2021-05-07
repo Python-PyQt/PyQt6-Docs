@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QNetworkInterface::InterfaceFlag
-    :digest: b7e4c5ed6b8f63f5fd563f4161422f1f
+    :digest: 30cc53a405ca0d393f9d51305a0d5ae6
 
 Specifies the flags associated with this network interface. The possible values are:
 

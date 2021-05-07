@@ -2,7 +2,7 @@
     :status: todo
     :brief: Component providing simple animation playback capabilities
     :realname: Qt3DAnimation::QClipAnimator
-    :digest: de7e0c3e8fa4778185b5092bc4684414
+    :digest: 7982440da7f89a503d3b93d2b3ddfc0d
 
 :sip:ref:`~PyQt6.Qt3DAnimation.QClipAnimator` is a component providing simple animation playback capabilities.
 

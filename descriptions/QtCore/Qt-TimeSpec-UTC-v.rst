@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: 5bf6a6785cbd33f05c9e08e143e16f4d
+    :digest: 229c6ed554a5a3b6adfa899f5afe4b0b
 
-Coordinated Universal Time, replaces Greenwich Mean Time.
+Coordinated Universal Time.

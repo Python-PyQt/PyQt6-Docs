@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 9504a2bdc4fb325d94ccc90c2e586497
 
-TODO
+A scatter chart.

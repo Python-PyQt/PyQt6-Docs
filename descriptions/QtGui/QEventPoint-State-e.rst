@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: f0ed43c5b2dc95f1380fab9bdc263c0c
 
-TODO
+Specifies the state of this event point.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 36080ac8dbb72076607a14924d2352db
     :realsig: () const
-    :digest: e627473df85e516cbfe570db88fbb449
+    :digest: 2dbbfb0ffa401b6b200ce46451675d1d
 
 Returns the complete OR-ed together combination of QFile::Permissions for the file.
 

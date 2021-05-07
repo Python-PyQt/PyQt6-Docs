@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00002000
+    :digest: c221168f3e5162739c202b5feb99c103
 
-TODO
+An "Open" button defined with the :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.ButtonRole.AcceptRole`.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0
     :realname: QStyleOptionToolBar::ToolBarFeature::None
+    :digest: 7ae27db21d283aeff46985d9b92e828d
 
-TODO
+The toolbar cannot be moved. The default value.

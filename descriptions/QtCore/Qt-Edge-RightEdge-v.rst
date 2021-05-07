@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00004
+    :digest: 5e63283d7534f49bc78bb5c27dfb87f9
 
-TODO
+The right edge of the rectangle.

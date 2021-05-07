@@ -2,8 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
-    :digest: 3c383607268abc0612c58bfddefab591
+    :digest: 480ffbeacd4dcb341f8210f171ca975a
 
-Selects the given *column* in the table view if the current :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.SelectionMode.SelectionMode` and :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.SelectionBehavior.SelectionBehavior` allows columns to be selected.
+Selects the given *column* in the table view if the current SelectionMode and SelectionBehavior allows columns to be selected.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTableView.selectRow`.

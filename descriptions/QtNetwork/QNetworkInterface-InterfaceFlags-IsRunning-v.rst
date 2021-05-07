@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x2
     :realname: QNetworkInterface::InterfaceFlag::IsRunning
-    :digest: d61da6eb033955af7bca350e8ed06af7
+    :digest: 22e12e67575b42ffae786d566967b39a
 
-the network interface has resources allocated
+the network interface is operational: configured "up" and (typically) physically connected to a network

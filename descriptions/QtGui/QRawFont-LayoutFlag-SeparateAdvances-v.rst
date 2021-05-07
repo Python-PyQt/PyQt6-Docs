@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 8de671b05997286789df889ed13b8b6c
 
-TODO
+Will calculate the advance for each glyph separately.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 64
+    :digest: 39402c74d7b639093bd0c7eda1ba6335
 
-TODO
+Searches the entire hierarchy.

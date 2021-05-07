@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 64c6791968330dde33ffafd96cfaf4bd
 
-TODO
+Data type for :sip:ref:`~PyQt6.QtDataVisualization.Q3DSurface`.

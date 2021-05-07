@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 6df5a2e1f45daad682f5401fb618603e
 
-TODO
+The search term matches the end of the item.

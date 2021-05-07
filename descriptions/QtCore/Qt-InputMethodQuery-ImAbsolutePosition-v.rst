@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x400
+    :digest: 6e1ccddf01e1291c7bb3959a73807ce9
 
-TODO
+The logical position of the cursor within the entire document.

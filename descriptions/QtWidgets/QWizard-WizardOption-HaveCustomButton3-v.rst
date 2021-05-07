@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00008000
+    :digest: db9b467567959553fa4bbbe9d1afb7f5
 
-TODO
+Show the third user-defined button (\ :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton3`).

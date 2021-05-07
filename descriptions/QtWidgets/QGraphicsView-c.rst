@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for displaying the contents of a QGraphicsScene
-    :digest: aaaccf9143e467391f2d41f0466260c9
+    :digest: a363f7d584057705c2389d6a1ff6264c
 
 The :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` class provides a widget for displaying the contents of a :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene`.
 
@@ -18,7 +18,7 @@ You can explicitly scroll to any position on the scene by using the scroll bars,
 
 :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` visualizes the scene by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.render`. By default, the items are drawn onto the viewport by using a regular :sip:ref:`~PyQt6.QtGui.QPainter`, and using default render hints. To change the default render hints that :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` passes to :sip:ref:`~PyQt6.QtGui.QPainter` when painting items, you can call :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.setRenderHints`.
 
-By default, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides a regular `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ for the viewport widget. You can access this widget by calling viewport(), or you can replace it by calling setViewport(). To render using OpenGL, simply call setViewport(new :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`). :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` takes ownership of the viewport widget.
+By default, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides a regular :sip:ref:`~PyQt6.QtWidgets.QWidget` for the viewport widget. You can access this widget by calling viewport(), or you can replace it by calling setViewport(). To render using OpenGL, simply call setViewport(new :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`). :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` takes ownership of the viewport widget.
 
 :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` supports affine transformations, using :sip:ref:`~PyQt6.QtGui.QTransform`. You can either pass a matrix to :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.setTransform`, or you can call one of the convenience functions :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.rotate`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.scale`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.translate` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.shear`. The most two common transformations are scaling, which is used to implement zooming, and rotation. :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` keeps the center of the view fixed during a transformation. Because of the scene alignment (setAligment()), translating the view will have no visual impact.
 

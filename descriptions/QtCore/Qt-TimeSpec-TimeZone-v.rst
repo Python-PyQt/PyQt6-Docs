@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: 4c1aab67e24bd9369b3ea5333e9ce2fe
+    :digest: a1fc940836af350cedc5f1366715e17b
 
-A named time zone using a specific set of Daylight Savings rules.
+A named time zone.

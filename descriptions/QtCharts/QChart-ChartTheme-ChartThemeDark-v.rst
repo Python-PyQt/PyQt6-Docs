@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 0123eccd93d38669eb1a973d8bf429ce
 
-TODO
+The dark theme.

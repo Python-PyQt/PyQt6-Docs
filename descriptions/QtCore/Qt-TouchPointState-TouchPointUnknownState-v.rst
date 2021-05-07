@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00
+    :digest: 2a9db271f82f7c6118e23df9d4ea6e4b
 
-TODO
+The state of the touch point is not known.

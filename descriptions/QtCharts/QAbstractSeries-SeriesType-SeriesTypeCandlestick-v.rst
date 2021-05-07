@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: dff7304cf14d91eb775e1929c7f03e49
 
-TODO
+A candlestick chart.

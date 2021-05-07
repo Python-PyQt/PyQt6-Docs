@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00001000
+    :digest: a969697aaeb95d0f803ff6ae5c0120dc
 
-TODO
+Gives the window a title bar.

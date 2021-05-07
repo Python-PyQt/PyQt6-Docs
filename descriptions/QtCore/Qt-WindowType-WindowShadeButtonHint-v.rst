@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00020000
+    :digest: 8b4e02ee5d831aceea68859e0a035733
 
-TODO
+Adds a shade button in place of the minimize button if the underlying window manager supports it.

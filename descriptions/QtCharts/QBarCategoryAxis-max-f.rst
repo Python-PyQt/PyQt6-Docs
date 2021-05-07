@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
+    :digest: 242a3c900d32dad01341d3d403f33d7b
 
-TODO
+Returns the maximum category.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis.setMax`.

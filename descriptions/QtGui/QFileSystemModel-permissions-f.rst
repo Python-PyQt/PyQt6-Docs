@@ -2,6 +2,6 @@
     :status: todo
     :pysig: fb363c739364ac190e16166e74908a28
     :realsig: (const QModelIndex&) const
-    :digest: 01ed3298523a54642d8242a3ba762354
+    :digest: f10ff56d1ff69a9d9f7e6633071b4894
 
-Returns the complete OR-ed together combination of :sip:ref:`~PyQt6.QtCore.QFileDevice.Permissions.Permission` for the *index*.
+Returns the complete OR-ed together combination of QFile::Permission for the *index*.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0020
+    :digest: 7256f7cd837e357403d6e5b0458b67d8
 
-TODO
+The file is writable by the group.

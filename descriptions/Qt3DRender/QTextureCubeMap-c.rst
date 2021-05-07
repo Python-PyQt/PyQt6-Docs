@@ -2,6 +2,6 @@
     :status: todo
     :brief: A QAbstractTexture with a TargetCubeMap target format
     :realname: Qt3DRender::QTextureCubeMap
-    :digest: 7efc8c48101778b3095a307981525c33
+    :digest: 4f66c7194bd2d82f1d5b5323eafb2c81
 
-A QAbstractTexture with a :sip:ref:`~PyQt6.Qt3DRender.QAbstractTexture.Target.TargetCubeMap` target format.
+A QAbstractTexture with a TargetCubeMap target format.

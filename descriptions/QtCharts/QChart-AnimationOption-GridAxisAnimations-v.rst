@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1
+    :digest: fe57d324535207e9bf5df056943f129a
 
-TODO
+Grid axis animation is enabled in the chart.
