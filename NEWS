@@ -1,3 +1,6 @@
+v6.1.0 7th May 2021
+  - Rebased on Qt v6.1.0 and PyQt v6.1.0.
+
 v6.0.1 14th February 2021
   - Rebased on Qt v6.0.1.
 
