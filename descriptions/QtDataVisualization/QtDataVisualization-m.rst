@@ -1,5 +1,9 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status: done
+    :brief:  Classes to support the visualization of data in 3D
 
-TODO
+The :sip:ref:`~PyQt6.QtDataVisualization` module provides a way to visualize
+data in 3D as bar, scatter, and surface graphs.  It is especially useful for
+visualizing depth maps and large quantities of rapidly changing data, such as
+data received from multiple sensors.  The look and feel of graphs can be
+customized by using themes or by adding custom items and labels to them.

@@ -1,5 +1,8 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status: done
+    :brief:  Classes to support the creation of 2D charts
 
-TODO
+The :sip:ref:`~PyQt6.QtCharts` module provides a set of easy to use chart
+components.  Chart types include line and spline charts, area and scatter
+charts, bar charts, pie charts, box-and-whiskers charts, candlestick charts,
+and polar charts.
