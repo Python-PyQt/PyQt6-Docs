@@ -82,13 +82,10 @@ class WebXMLMetadata:
         # derived from the object name.
         self._locations = {} if locations is None else locations
 
-        # The name of the source directory. This will be set later.
-        self.source_dir = None
-
         # Add this to the list of all modules.
         type(self).all_webxml.append(self)
 
-    def create_qdocconf(self, webxml_root, qt_prefix):
+    def create_qdocconf(self, webxml_root, qt_prefix, qt_source):
         """ Create the .qdocconf file and return its name. """
 
         qdocconf = os.path.join(webxml_root, self.name + '.qdocconf')
@@ -99,7 +96,7 @@ class WebXMLMetadata:
             qdocconf_f.write('WebXML.nosubdirs = true\n')
             qdocconf_f.write('WebXML.outputsubdir = {}\n'.format(self.name))
 
-            parts = [self.source_dir]
+            parts = [qt_source]
             parts.extend(self._qdocconf.split('/'))
             qdocconf_f.write('include({})\n'.format(os.path.join(*parts)))
 
@@ -146,7 +143,7 @@ class WebXMLMetadata:
 
 
 # The WebXML meta-data.
-WebXMLMetadata('qt3d', qdocconf='src/core/doc/qt3d.qdocconf',
+WebXMLMetadata('qt3d', qdocconf='qt3d/src/core/doc/qt3d.qdocconf',
         locations={
             'Qt3DAnimation::QAbstractChannelMapping': 'qt3danimation',
             'Qt3DAnimation::QChannelComponent': 'qt3danimation',
@@ -168,8 +165,8 @@ WebXMLMetadata('qt3d', qdocconf='src/core/doc/qt3d.qdocconf',
 #        qdocconf='qtandroidextras/src/androidextras/doc/qtandroidextras.qdocconf')
 #WebXMLMetadata('qtbluetooth',
 #        qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
-#WebXMLMetadata('qtcharts',
-#        qdocconf='qtcharts/src/charts/doc/qtcharts.qdocconf')
+WebXMLMetadata('qtcharts',
+        qdocconf='qtcharts/src/charts/doc/qtcharts.qdocconf')
 WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
         locations={
             'Q_ARG': 'qmetaobject',
@@ -257,8 +254,8 @@ WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf',
             'QPyDBusPendingReply': None,
             'QPyDBusReply': None,
         })
-#WebXMLMetadata('qtdatavis3d',
-#        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
+WebXMLMetadata('qtdatavis3d',
+        qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf')
 WebXMLMetadata('qtdesigner',
         qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
         more_images='qttools/examples/designer/doc',
@@ -318,7 +315,7 @@ WebXMLMetadata('qtnetwork',
             'QOcspRevocationReason': 'qocsresponse',
         })
 WebXMLMetadata('qtnetworkauth',
-        qdocconf='src/oauth/doc/qtnetworkauth.qdocconf',
+        qdocconf='qtnetworkauth/src/oauth/doc/qtnetworkauth.qdocconf',
         locations={
             # Both of these are marked as internal (and have no documentation)
             # but they are wrapped as it's not clear if they might be needed in
@@ -492,9 +489,9 @@ ModuleMetadata('Qt3DLogic', webxml='qt3d', qt_docs_prefix='qt3dlogic-')
 ModuleMetadata('Qt3DRender', webxml='qt3d', qt_docs_prefix='qt3drender-')
 #ModuleMetadata('QtAndroidExtras', webxml='qtandroidextras')
 #ModuleMetadata('QtBluetooth', webxml='qtbluetooth')
-#ModuleMetadata('QtCharts', webxml='qtcharts')
+ModuleMetadata('QtCharts', webxml='qtcharts')
 ModuleMetadata('QtCore', webxml='qtcore')
-#ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
+ModuleMetadata('QtDataVisualization', webxml='qtdatavis3d')
 ModuleMetadata('QtDBus', webxml='qtdbus')
 ModuleMetadata('QtDesigner', webxml='qtdesigner')
 ModuleMetadata('QtGui', webxml='qtgui')
@@ -1336,9 +1333,8 @@ class Description:
 
         # Snippets can only be uniquely identified by their path relative to
         # the source directory.
-        source_dir = self._module.webxml.source_dir
         snippet_name = os.path.relpath(snippet,
-                os.path.realpath(source_dir)).replace(os.sep, '-')
+                os.path.realpath(context.qt_source)).replace(os.sep, '-')
 
         for ext in ('.cpp', '.h'):
             if snippet_name.endswith(ext):
@@ -1478,10 +1474,9 @@ class Description:
 
         fn = href.replace('/', os.sep)
         dst = os.path.join(context.images, os.path.basename(fn))
-        source_dir = self._module.webxml.source_dir
 
         for image_dir in self._module.metadata.webxml.images:
-            src = os.path.join(source_dir, image_dir, fn)
+            src = os.path.join(context.qt_source, image_dir, fn)
 
             if os.path.isfile(src):
                 shutil.copyfile(src, dst)
@@ -1786,7 +1781,7 @@ def get_modules_to_update(requested_modules):
             if m.metadata is not None and m.metadata.webxml is not None]
 
 
-def generate_webxml(modules, qt_prefix):
+def generate_webxml(modules, qt_prefix, qt_source):
     """ Generate the WebXML for a list of modules and return the root directory
     containing sub-directories for each module.
     """
@@ -1805,7 +1800,8 @@ def generate_webxml(modules, qt_prefix):
     master_path = os.path.join(webxml_root, 'master.qdocconf')
     with open(master_path, 'w') as master_f:
         for webxml in webxml_needed:
-            qdocconf = webxml.create_qdocconf(webxml_root, qt_prefix)
+            qdocconf = webxml.create_qdocconf(webxml_root, qt_prefix,
+                    qt_source)
             master_f.write(qdocconf + '\n')
 
     # Configure the environment.
@@ -2067,16 +2063,6 @@ if __name__ == '__main__':
     arg_parser.add_argument('--qt-prefix', metavar='DIR', required=True,
             help="the name of the Qt prefix directory")
 
-    arg_parser.add_argument('--qt-source', metavar='DIR', required=True,
-            help="the directory containing the Qt sources")
-
-    arg_parser.add_argument('--qt-source-3d', metavar='DIR', required=True,
-            help="the directory containing the Qt-3D sources")
-
-    arg_parser.add_argument('--qt-source-networkauth', metavar='DIR',
-            required=True,
-            help="the directory containing the Qt-NetworkAuth sources")
-
     arg_parser.add_argument('--snippets', metavar='DIR',
             default='snippets',
             help="the name of the directory where any code snippets can be found")
@@ -2095,21 +2081,11 @@ if __name__ == '__main__':
     force = args.force
     images = os.path.abspath(args.images)
     qt_prefix = os.path.abspath(args.qt_prefix)
-    qt_source = os.path.abspath(args.qt_source)
-    qt_source_3d = os.path.abspath(args.qt_source_3d)
-    qt_source_networkauth = os.path.abspath(args.qt_source_networkauth)
     package = args.package
     snippets = os.path.abspath(args.snippets)
     verbose = args.verbose
 
-    # Set the name of the source directories.
-    for webxml in WebXMLMetadata.all_webxml:
-        if webxml.name == 'qt3d':
-            webxml.source_dir = qt_source_3d
-        elif webxml.name == 'qtnetworkauth':
-            webxml.source_dir = qt_source_networkauth
-        else:
-            webxml.source_dir = qt_source
+    qt_source = os.path.join(os.path.dirname(qt_prefix), 'Src')
 
     # Make sure the images and snippets directories exist.
     os.makedirs(images, exist_ok=True)
@@ -2122,14 +2098,15 @@ if __name__ == '__main__':
     modules = get_modules_to_update(args.modules)
 
     # Generate the WebXML for the modules.
-    webxml_root = generate_webxml(modules, qt_prefix)
+    webxml_root = generate_webxml(modules, qt_prefix, qt_source)
 
     # The context is a collection of unrelated global read-only values.
     Context = namedtuple('Context',
-            ('force', 'images', 'package', 'snippets', 'verbose',
+            ('force', 'images', 'package', 'qt_source', 'snippets', 'verbose',
                     'webxml_root'))
     context = Context(force=force, images=images, package=package,
-            snippets=snippets, verbose=verbose, webxml_root=webxml_root)
+            qt_source=qt_source, snippets=snippets, verbose=verbose,
+            webxml_root=webxml_root)
 
     # Update the descriptions for each module.
     for module in modules:
