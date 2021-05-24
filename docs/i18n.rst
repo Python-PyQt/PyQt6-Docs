@@ -46,6 +46,12 @@ The full set of command line options is:
 
     The version number is written to ``stdout``.
 
+.. cmdoption:: --exclude PATTERN
+
+    a UNIX shell-style pattern that is matched against the source files found
+    when recursively searching a directory.  If a source file matches then it
+    is excluded.  This option may be specified any number of times.
+
 .. cmdoption:: --no-obsolete
 
     All obsolete messages from the translation files will be discarded.  An
