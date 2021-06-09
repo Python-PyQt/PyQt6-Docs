@@ -1,5 +1,5 @@
-PyQt6 Reference Guide
-=====================
+Reference Guide
+===============
 
 .. toctree::
     :maxdepth: 2

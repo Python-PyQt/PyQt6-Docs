@@ -61,7 +61,7 @@ html_theme = 'riverbank'
 html_theme_path = [sphinx_root]
 
 # The name for this set of Sphinx documents.
-html_title = "PyQt v{} Reference Guide".format(version)
+html_title = "PyQt Documentation v{}".format(release)
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PyQtdoc'
