@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ddb2a144775b206bd4d8e4b8f0f1affe
+    :digest: 7b900aa06ac042b78f9e93b4b3874b20
 
 .. seealso:: :sip:ref:`~PyQt6.QtNetwork.QNetworkInformation.reachability`.

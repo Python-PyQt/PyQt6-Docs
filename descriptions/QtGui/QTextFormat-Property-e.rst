@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a5797ae533ae280481d50a67a4c5064c
+    :digest: 2e517db111065c9d74e8ae6fe4b3558f
 
 This enum describes the different properties a format can have.
 
@@ -9,8 +9,6 @@ Paragraph and character properties
 Paragraph properties
 
 Character properties
-
-List properties
 
 Table and frame properties
 

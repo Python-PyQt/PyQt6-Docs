@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access serialization between threads
-    :digest: 1a65daf9b6d835302ffa77ebd7802652
+    :digest: b404297ca65c5dd4f644fc67e915e95d
 
 The :sip:ref:`~PyQt6.QtCore.QRecursiveMutex` class provides access serialization between threads.
 
@@ -13,4 +13,4 @@ The :sip:ref:`~PyQt6.QtCore.QRecursiveMutex` class is a mutex, like :sip:ref:`~P
 
 * Or use a recursive mutex, so it doesn't matter that the first public function has already locked the mutex when the second one wishes to do so.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QMutex`, :sip:ref:`~PyQt6.QtCore.QReadWriteLock`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QWaitCondition`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QMutex`, QMutexLocker, :sip:ref:`~PyQt6.QtCore.QReadWriteLock`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QWaitCondition`.

@@ -1,13 +1,11 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::WindowType
-    :digest: 69cedb1521344bd909cbfe22969ac15f
+    :digest: 06e44b238577dc73a42c093307713586
 
 This enum type is used to specify various window-system properties for the widget. They are fairly unusual but necessary in a few cases. Some of these flags depend on whether the underlying window manager supports them.
 
 The main types are
-
-Indicates that this widget is the desktop.
 
 There are also a number of flags which you can use to customize the appearance of top-level windows. These have no effect on other windows:
 

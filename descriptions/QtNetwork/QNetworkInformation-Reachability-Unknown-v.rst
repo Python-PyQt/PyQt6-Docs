@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: 2258c2833df9525b5005182f1224776f
+    :digest: a4c37b12ca5d25722459bf036b019bdd
 
-If this value is returned then we may be connected but the OS has still not confirmed full connectivity, or this features is not supported.
+If this value is returned then we may be connected but the OS has still not confirmed full connectivity, or this feature is not supported.

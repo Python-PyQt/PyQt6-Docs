@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 9ded2533eac5cb41396fc1246c736daa
     :realsig: (Qt::HighDpiScaleFactorRoundingPolicy)
-    :digest: e8bb53971df92557884d0b794cf20dee
+    :digest: 20b6bbfc5da1023a4b08e4dce64b1032
 
 Sets the high-DPI scale factor rounding policy for the application. The *policy* decides how non-integer scale factors (such as Windows 150%) are handled.
 
@@ -12,6 +12,6 @@ If rounding is wanted, then which type of rounding should be decided next. Mathe
 
 This function must be called before creating the application object. The :sip:ref:`~PyQt6.QtGui.QGuiApplication.highDpiScaleFactorRoundingPolicy` accessor will reflect the environment, if set.
 
-The default value is Qt::HighDpiScaleFactorRoundingPolicy::PassThrough.
+The default value is :sip:ref:`~PyQt6.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.PassThrough`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication.highDpiScaleFactorRoundingPolicy`.
