@@ -513,10 +513,23 @@
     .. sip:signal:: PyQt6.QtMultimedia.QCamera.focusModeChanged
         :description: QtMultimedia/QCamera-focusModeChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtMultimedia.QCamera.focusPointChanged
+        :description: QtMultimedia/QCamera-focusPointChanged-s.rst
+
     .. sip:signal:: PyQt6.QtMultimedia.QCamera.isoSensitivityChanged
         :args:
             int
         :description: QtMultimedia/QCamera-isoSensitivityChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QCamera.manualExposureTimeChanged
+        :args:
+            float
+        :description: QtMultimedia/QCamera-manualExposureTimeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QCamera.manualIsoSensitivityChanged
+        :args:
+            int
+        :description: QtMultimedia/QCamera-manualIsoSensitivityChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QCamera.maximumZoomFactorChanged
         :args:
