@@ -1,3 +1,6 @@
+v6.2.0 30th September 2021
+  - Rebased on Qt v6.2.0 and PyQt v6.2.0.
+
 v6.1.1 9th June 2021
   - Documented the --exclude option to pylupdate6 and the corresponding API
     change.
