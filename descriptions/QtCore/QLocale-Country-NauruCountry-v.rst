@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: NauruTerritory
+    :digest: 098cd64b50abeb11bf07fff6103d0430
 
-TODO
+Osbolete alias for ``NauruTerritory``

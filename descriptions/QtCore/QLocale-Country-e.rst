@@ -1,7 +1,11 @@
 .. sip:enum-description::
     :status: todo
-    :digest: c498e005bf91cd2b5fba6f43611b86b5
+    :digest: 289e54f94a027fd441a37c7ae6687437
 
-This enumerated type is used to specify a country.
+This enumerated type is used to identify a territory.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QLocale.country`, :sip:ref:`~PyQt6.QtCore.QLocale.countryToString`.
+An individual territory may be a province of a country, a country (by far the most common case) or a larger geographic entity, to which some localization details are specific.
+
+**Note:** Use the Territory alias for this enumeration where possible. The Country enum shall be renamed to Territory at a later release.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QLocale.territory`, :sip:ref:`~PyQt6.QtCore.QLocale.territoryToString`, :sip:ref:`~PyQt6.QtCore.QLocale.codeToTerritory`, :sip:ref:`~PyQt6.QtCore.QLocale.territoryToCode`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 506b97dbe495f921bc9e29e6dd571f65
 
-TODO
+The marker is a rotated rectangle.

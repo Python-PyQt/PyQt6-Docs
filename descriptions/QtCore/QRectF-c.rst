@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
-    :brief: Defines a rectangle in the plane using floating point precision
-    :digest: 68f45c51f9ecce5534c58c2412c94be8
+    :brief: Defines a finite rectangle in the plane using floating point precision
+    :digest: 0d58a6c278ca8f2114dfeac33bfebfe4
 
-The :sip:ref:`~PyQt6.QtCore.QRectF` class defines a rectangle in the plane using floating point precision.
+The :sip:ref:`~PyQt6.QtCore.QRectF` class defines a finite rectangle in the plane using floating point precision.
 
 A rectangle is normally expressed as a top-left corner and a size. The size (width and height) of a :sip:ref:`~PyQt6.QtCore.QRectF` is always equivalent to the mathematical rectangle that forms the basis for its rendering.
 
@@ -37,7 +37,7 @@ Finally, :sip:ref:`~PyQt6.QtCore.QRectF` objects can be streamed as well as comp
 Rendering
 ---------
 
-When using an :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.Antialiasing` painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRectF` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
+When using an :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.Antialiasing` painter, the boundary line of a :sip:ref:`~PyQt6.QtCore.QRectF` will be rendered symmetrically on both sides of the mathematical rectangle's boundary line. But when using an aliased painter (the default) other rules apply.
 
 Then, when rendering with a one pixel wide pen the :sip:ref:`~PyQt6.QtCore.QRectF`'s boundary line will be rendered to the right and below the mathematical rectangle's boundary line.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for defining custom texture data
-    :digest: d0a3c2d5fc8a27318a96fa3d64ffd1ae
+    :digest: be39008a502d247cf596a93e01779e1f
 
 Base class for defining custom texture data.
 
@@ -62,15 +62,14 @@ In Qt 6 the default approach is to use automatic registration with the help of t
     QML_IMPORT_NAME = Example
     QML_IMPORT_MAJOR_VERSION = 1
 
-Alternatively, with CMake the equivalent is:
+With CMake, automatic registration is the default behavior, so no special settings are needed beyond basic QML module setup:
 
 ::
 
-    set_target_properties(application PROPERTIES
-        QT_QML_MODULE_VERSION 1.0
-        QT_QML_MODULE_URI Example
+    qt_add_qml_module(application
+        URI Example
+        VERSION 1.0
     )
-    qt6_qml_type_registration(application)
 
 The class implementation should add QML_NAMED_ELEMENT:
 

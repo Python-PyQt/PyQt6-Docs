@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0d6cb4c3d462167d2502185cf0c91010
+    :digest: 7005d8f89ffa90a7a1ad2bca3121ad83
 
 This enum describes the possible High-DPI scale factor rounding policies, which decide how non-integer scale factors (such as Windows 150%) are handled.
 

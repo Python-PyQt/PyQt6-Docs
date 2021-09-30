@@ -1,8 +1,10 @@
 .. sip:enum-description::
     :status: todo
-    :digest: bed8a0409c03cc47108dbb58f0049c8e
+    :digest: 477c19e5161230ad952d5b17cb7ddeb6
 
 This enum type specifies the storage format used by :sip:ref:`~PyQt6.QtCore.QSettings`.
+
+On Unix,  and  mean the same thing, except that the file extension is different (``.conf`` for , ``.ini`` for ).
 
 The INI file format is a Windows file format that Qt supports on all platforms. In the absence of an INI standard, we try to follow what Microsoft does, with the following exceptions:
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Menu widget for use in menu bars, context menus, and other popup menus
-    :digest: 8614264b85766543a8018ec2267b45b9
+    :digest: e8a8bd34c62e3c93befff7a7045b46f7
 
 The :sip:ref:`~PyQt6.QtWidgets.QMenu` class provides a menu widget for use in menu bars, context menus, and other popup menus.
 
@@ -28,7 +28,7 @@ A :sip:ref:`~PyQt6.QtWidgets.QMenu` can also provide a tear-off menu. A tear-off
 
 Widgets can be inserted into menus with the :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` class. Instances of this class are used to hold widgets, and are inserted into menus with the :sip:ref:`~PyQt6.QtWidgets.QMenu.addAction` overload that takes a :sip:ref:`~PyQt6.QtGui.QAction`. If the :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` fires the :sip:ref:`~PyQt6.QtWidgets.QMenu.triggered` signal, the menu will close.
 
-**Warning:** To make :sip:ref:`~PyQt6.QtWidgets.QMenu` visible on the screen, :sip:ref:`~PyQt6.QtWidgets.QMenu.exec` or :sip:ref:`~PyQt6.QtWidgets.QMenu.popup` should be used instead of show().
+**Warning:** To make :sip:ref:`~PyQt6.QtWidgets.QMenu` visible on the screen, :sip:ref:`~PyQt6.QtWidgets.QMenu.exec` or :sip:ref:`~PyQt6.QtWidgets.QMenu.popup` should be used instead of show() or setVisible(). To hide or disable the menu in the menubar, or in another menu to which it was added as a submenu, use the respective properties of :sip:ref:`~PyQt6.QtWidgets.QMenu.menuAction` instead.
 
 .. _qmenu-qmenu-on-macos-with-qt-build-against-cocoa:
 

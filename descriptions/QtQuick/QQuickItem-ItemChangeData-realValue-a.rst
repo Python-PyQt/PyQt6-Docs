@@ -1,7 +1,7 @@
 .. sip:attribute-description::
     :status: todo
-    :digest: e901157f2bb0384b77938cf5fcb8b40b
+    :digest: 06287097f9f2ead27f6d58f00f12781a
 
-Contains supplimentary information to the :sip:ref:`~PyQt6.QtQuick.QQuickItem.itemChange` function.
+The numeric value that has changed: :sip:ref:`~PyQt6.QtQuick.QQuickItem.opacity`, :sip:ref:`~PyQt6.QtQuick.QQuickItem.rotation`, or :sip:ref:`~PyQt6.QtGui.QScreen.devicePixelRatio`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickItem.ItemChange`.

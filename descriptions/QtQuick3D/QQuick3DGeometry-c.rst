@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for defining custom geometry
-    :digest: 6e6dc69c8c4d5101e410a6693c12dbb5
+    :digest: 3d889f40000e8f6b6c68e387b2c4d0ce
 
 Base class for defining custom geometry.
 
@@ -63,15 +63,14 @@ In Qt 6 the default approach is to use automatic registration with the help of t
     QML_IMPORT_NAME = Example
     QML_IMPORT_MAJOR_VERSION = 1
 
-Alternatively, with CMake the equivalent is:
+With CMake, automatic registration is the default behavior, so no special settings are needed beyond basic QML module setup:
 
 ::
 
-    set_target_properties(application PROPERTIES
-        QT_QML_MODULE_VERSION 1.0
-        QT_QML_MODULE_URI Example
+    qt_add_qml_module(application
+        URI Example
+        VERSION 1.0
     )
-    qt6_qml_type_registration(application)
 
 The class implementation should add QML_NAMED_ELEMENT:
 
@@ -106,7 +105,7 @@ At minimum, a custom geometry should have the following specified:
 
 * an attribute with PositionSemantic.
 
-These are sufficient to render the mesh. For indexed drawing, the index buffer data and an attribute with IndexSemantic needs to be specified as well. In order to support picking (input), the class must specify the bounding volume using :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.setBounds`. For proper lighting, an attribute with NormalSemantic is needed. When the material uses texturing, at least one set of UV coordinates must be provided and described in an TexCoordSemantic attribute. Some materials may require tangents and binormals as well.
+These are sufficient to render the mesh. For indexed drawing, the index buffer data and an attribute with IndexSemantic needs to be specified as well. In order to support picking (input), the class must specify the bounding volume using :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.setBounds`. For proper lighting, an attribute with NormalSemantic is needed. When the material uses texturing, at least one set of UV coordinates must be provided and described in an TexCoord0Semantic or TexCoord1Semantic attribute. Some materials may require tangents and binormals as well.
 
 As a concrete, minimal example, the following class would provide geometry for a single triangle:
 

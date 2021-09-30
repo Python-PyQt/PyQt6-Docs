@@ -1,7 +1,7 @@
 .. sip:attribute-description::
     :status: todo
-    :digest: e901157f2bb0384b77938cf5fcb8b40b
+    :digest: a9d8a2bf2078cef2c2a045959be7d0ef
 
-Contains supplimentary information to the :sip:ref:`~PyQt6.QtQuick.QQuickItem.itemChange` function.
+The item that has been added or removed as a :sip:ref:`~PyQt6.QtQuick.QQuickItem.childItems`, or the new :sip:ref:`~PyQt6.QtQuick.QQuickItem.parentItem`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickItem.ItemChange`.

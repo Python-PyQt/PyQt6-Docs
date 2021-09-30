@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: a410a5760795a827ffea4f0fa6025838
 
-TODO
+Triangular markers are used. Marker size is determined by font size.

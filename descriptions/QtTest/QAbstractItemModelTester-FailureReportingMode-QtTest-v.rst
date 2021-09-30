@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: 78298b68ad323f8dd016a18634dd73db
+    :digest: 30973cccb99b27316d05dbcf68bb1a64
 
-The failures will be reported through :sip:ref:`~PyQt6.QtTest`'s logging mechanism.
+The failures will be reported as :sip:ref:`~PyQt6.QtTest` test failures.

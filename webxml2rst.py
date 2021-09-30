@@ -161,8 +161,6 @@ WebXMLMetadata('qt3d', qdocconf='qt3d/src/core/doc/qt3d.qdocconf',
         })
 #WebXMLMetadata('qtactiveqt',
 #        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
-#WebXMLMetadata('qtandroidextras',
-#        qdocconf='qtandroidextras/src/androidextras/doc/qtandroidextras.qdocconf')
 #WebXMLMetadata('qtbluetooth',
 #        qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
 WebXMLMetadata('qtcharts',
@@ -302,8 +300,6 @@ WebXMLMetadata('qthelp',
         qdocconf='qttools/src/assistant/help/doc/qthelp.qdocconf')
 #WebXMLMetadata('qtlocation',
 #        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
-#WebXMLMetadata('qtmacextras',
-#        qdocconf='qtmacextras/src/macextras/doc/qtmacextras.qdocconf')
 #WebXMLMetadata('qtmultimedia',
 #        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
 WebXMLMetadata('qtnetwork',
@@ -331,8 +327,6 @@ WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
 #        qdocconf='qtlocation/src/positioning/doc/qtpositioning.qdocconf')
 WebXMLMetadata('qtprintsupport',
         qdocconf='qtbase/src/printsupport/doc/qtprintsupport.qdocconf')
-#WebXMLMetadata('qtpurchasing',
-#        qdocconf='qtpurchasing/src/purchasing/doc/qtpurchasing.qdocconf')
 WebXMLMetadata('qtqml', qdocconf='qtdeclarative/src/qml/doc/qtqml.qdocconf',
         locations={
             'qmlAttachedPropertiesObject': 'qqmlengine',
@@ -359,7 +353,7 @@ WebXMLMetadata('qtquick',
             'QSGRenderNode::RenderState': 'qsgrendernode',
         })
 WebXMLMetadata('qtquick3d',
-        qdocconf='qtquick3d/src/imports/quick3d/doc/qtquick3d.qdocconf',
+        qdocconf='qtquick3d/src/quick3d/doc/qtquick3d.qdocconf',
         locations={
             'QQuick3DGeometry::Attribute': 'qquick3dgeometry',
         })
@@ -390,10 +384,6 @@ WebXMLMetadata('qtwidgets',
             'qDrawWinButton': 'qdrawutil-h',
             'qDrawWinPanel': 'qdrawutil-h',
         })
-#WebXMLMetadata('qtwinextras',
-#        qdocconf='qtwinextras/src/winextras/doc/qtwinextras.qdocconf')
-#WebXMLMetadata('qtx11extras',
-#        qdocconf='qtx11extras/src/x11extras/doc/qtx11extras.qdocconf')
 WebXMLMetadata('qtxml',
         qdocconf='qtbase/src/xml/doc/qtxml.qdocconf')
 

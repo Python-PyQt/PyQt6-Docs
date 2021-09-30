@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Converts between numbers and their string representations in various languages
-    :digest: bc57bafc292d13f99474dcac00ffe598
+    :digest: eb4068bfa4e5320fd159e5d1d163b395
 
 The :sip:ref:`~PyQt6.QtCore.QLocale` class converts between numbers and their string representations in various languages.
 
-:sip:ref:`~PyQt6.QtCore.QLocale` is initialized with a language/country pair in its constructor and offers number-to-string and string-to-number conversion functions similar to those in QString.
+:sip:ref:`~PyQt6.QtCore.QLocale` is constructed for a specified language, optional script and territory. It offers various facilities for formatting data as text, localized appropriately, and for reading data out of localized text.
 
 Example:
 
@@ -16,8 +16,6 @@ Example:
 
 * If a :sip:ref:`~PyQt6.QtCore.QLocale` object is constructed with the default constructor, it will use the default locale's settings.
 
-* QString::toInt(), QString::toDouble(), etc., interpret the string according to the default locale. If this fails, it falls back on the "C" locale.
-
 * QString::arg() uses the default locale to format a number when its position specifier in the format string contains an 'L', e.g. "%L1".
 
 The following example illustrates how to use :sip:ref:`~PyQt6.QtCore.QLocale` directly:
@@ -25,25 +23,28 @@ The following example illustrates how to use :sip:ref:`~PyQt6.QtCore.QLocale` di
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qlocale.py
     :lines: 64-82
 
-When a language/country pair is specified in the constructor, one of three things can happen:
-
-* If the language/country pair is found in the database, it is used.
-
-* If the language is found but the country is not, or if the country is ``AnyCountry``, the language is used with the most appropriate available country (for example, Germany for German),
-
-* If neither the language nor the country are found, :sip:ref:`~PyQt6.QtCore.QLocale` defaults to the default locale (see :sip:ref:`~PyQt6.QtCore.QLocale.setDefault`).
-
-Use :sip:ref:`~PyQt6.QtCore.QLocale.language` and :sip:ref:`~PyQt6.QtCore.QLocale.country` to determine the actual language and country values used.
-
 An alternative method for constructing a :sip:ref:`~PyQt6.QtCore.QLocale` object is by specifying the locale name.
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qlocale.py
     :lines: 87-88
 
-This constructor converts the locale name to a language/country pair; it does not use the system locale database.
+This constructor reads the language, script and/or territory from the given name, accepting either uderscore or dash as separator (and ignoring any trailing ``.codeset`` or ``@variant`` suffix).
 
 **Note:** For the current keyboard input locale take a look at :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.
 
-:sip:ref:`~PyQt6.QtCore.QLocale`'s data is based on Common Locale Data Repository v38.
+:sip:ref:`~PyQt6.QtCore.QLocale`'s data is based on Common Locale Data Repository v39.
 
-.. seealso:: QString::arg(), QString::toInt(), QString::toDouble(), :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.
+.. _qlocale-matching-combinations-of-language-script-and-territory:
+
+Matching combinations of language, script and territory
+-------------------------------------------------------
+
+:sip:ref:`~PyQt6.QtCore.QLocale` has data, derived from CLDR, for many combinations of language, script and territory, but not all. If it is constructed with all three of these key values specified (treating ``AnyLanguage``, ``AnyScript`` or ``AnyTerritory`` as unspecified) and :sip:ref:`~PyQt6.QtCore.QLocale` has data for the given combination, this data is used. Otherwise, :sip:ref:`~PyQt6.QtCore.QLocale` does its best to find a sensible combination of language, script and territory, for which it does have data, that matches those that were specified.
+
+The CLDR provides tables of likely combinations, which are used to fill in any unspecified key or keys; if :sip:ref:`~PyQt6.QtCore.QLocale` has data for the result of such a likely combination, that is used. If no language is specified, and none can be determined from script and territory, or if :sip:ref:`~PyQt6.QtCore.QLocale` has no data for the language, the "C" locale (when reading the keys from a string) or default locale (otherwise) is used.
+
+When :sip:ref:`~PyQt6.QtCore.QLocale` has no data for the keys specified, with likely keys filled in where unspecified, but does have data for the resulting language, a fall-back is sought, based on ignoring either territory, script or both (in that order). This results in a :sip:ref:`~PyQt6.QtCore.QLocale` which may not match what was asked for, but provides localization that's as suitable as the available data permits, for the keys specified.
+
+Use :sip:ref:`~PyQt6.QtCore.QLocale.language`, :sip:ref:`~PyQt6.QtCore.QLocale.script` and :sip:ref:`~PyQt6.QtCore.QLocale.territory` to determine the actual keys used.
+
+.. seealso:: QString::arg(), :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: TuvaluTerritory
+    :digest: f225c151ca58cafcc56fd9ca9dd0b299
 
-TODO
+Osbolete alias for ``TuvaluTerritory``

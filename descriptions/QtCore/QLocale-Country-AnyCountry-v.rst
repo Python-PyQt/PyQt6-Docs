@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: AnyTerritory
+    :digest: 637ce6503765a6cad46ebea0c983f2be
 
-TODO
+Osbolete alias for ``AnyTerritory``

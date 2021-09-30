@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The basic functionality for item view classes
-    :digest: 17f485ffb8800208ee0f4313d941c15a
+    :digest: 4ae294a721176a2b3a91a0bf9e1bd986
 
 The :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView` class provides the basic functionality for item view classes.
 
@@ -16,7 +16,7 @@ The :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView` class provides the basic funct
 +-------------------+---------------------------------------------------------------------------------------------+
 | Shift+Arrow keys  | Changes the current item and selects it. The previously selected item(s) is not deselected. |
 +-------------------+---------------------------------------------------------------------------------------------+
-| Ctr+Space         | Toggles selection of the current item.                                                      |
+| Ctrl+Space        | Toggles selection of the current item.                                                      |
 +-------------------+---------------------------------------------------------------------------------------------+
 | Tab/Backtab       | Changes the current item to the next/previous item.                                         |
 +-------------------+---------------------------------------------------------------------------------------------+

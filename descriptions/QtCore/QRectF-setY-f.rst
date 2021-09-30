@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
-    :digest: 0e6106de8f0a4e66d7841683bf896c3b
+    :digest: 22f321d38811b46b7223e9a2cf68868e
 
-Sets the top edge of the rectangle to the given *y* coordinate. May change the height, but will never change the bottom edge of the rectangle.
+Sets the top edge of the rectangle to the given finite *y* coordinate. May change the height, but will never change the bottom edge of the rectangle.
 
 Equivalent to :sip:ref:`~PyQt6.QtCore.QRectF.setTop`.
 

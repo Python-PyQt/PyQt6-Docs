@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: 736743c627e44c4a7f172835e5107ee7
+    :digest: 97aa5d2a59969fb417088d9d965bb09a
 
-Sent after a swipe movements.
+Sent after a swipe movement.

@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x00000008
     :realname: Qt::ImageConversionFlag::DiffuseAlphaDither
-    :digest: e259aa97ff2d07a71de11f32b5cad953
+    :digest: 34690279eed0c7a4326d1002a34e5ed3
 
-A high-quality dither using error diffusion. Color matching versus dithering preference:
+A high-quality dither using error diffusion.

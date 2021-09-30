@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: d4b8c64511ae4f881d6aeb697909dbba
 
-TODO
+The marker is a triangle.

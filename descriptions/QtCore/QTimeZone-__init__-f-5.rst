@@ -2,5 +2,10 @@
     :status: todo
     :pysig: c7bfc1cba36c8b80550b3d1b7d3cc3a7
     :realsig: (const QByteArray&,int,const QString&,const QString&,QLocale::Territory,const QString&)
+    :digest: a1cc44f2e20c23738b83f5842ad1a7d9
 
-TODO
+Creates a custom time zone with an ID of *ianaId* and an offset from UTC of *offsetSeconds*. The *name* will be the name used by :sip:ref:`~PyQt6.QtCore.QTimeZone.displayName` for the :sip:ref:`~PyQt6.QtCore.QTimeZone.NameType.LongName`, the *abbreviation* will be used by :sip:ref:`~PyQt6.QtCore.QTimeZone.displayName` for the :sip:ref:`~PyQt6.QtCore.QTimeZone.NameType.ShortName` and by :sip:ref:`~PyQt6.QtCore.QTimeZone.abbreviation`, and the optional *territory* will be used by :sip:ref:`~PyQt6.QtCore.QTimeZone.territory`. The *comment* is an optional note that may be displayed in a GUI to assist users in selecting a time zone.
+
+The *ianaId* must not be one of the available system IDs returned by :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds`. The *offsetSeconds* from UTC must be in the range -14 hours to +14 hours.
+
+If the custom time zone does not have a specific territory then set it to the default value of :sip:ref:`~PyQt6.QtCore.QLocale.Country.AnyTerritory`.

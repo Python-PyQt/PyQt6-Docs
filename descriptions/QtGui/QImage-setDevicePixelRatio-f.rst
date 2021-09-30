@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
-    :digest: 966d25b6edbc3404e5ac0f260bdd0166
+    :digest: 9cb76273aaf0f8d662a605c89ad1231e
 
 Sets the device pixel ratio for the image. This is the ratio between image pixels and device-independent pixels.
 
@@ -12,4 +12,4 @@ QPainters that are opened on the image will be scaled. For example, painting on 
 
 Code paths in Qt that calculate layout geometry based on the image size will take the ratio into account: :sip:ref:`~PyQt6.QtCore.QSize` layoutSize = image.\ :sip:ref:`~PyQt6.QtGui.QImage.size` / image.\ :sip:ref:`~PyQt6.QtGui.QImage.devicePixelRatio` The net effect of this is that the image is displayed as high-DPI image rather than a large image (see Drawing High Resolution Versions of Pixmaps and Images).
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QImage.devicePixelRatio`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QImage.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QImage.deviceIndependentSize`.

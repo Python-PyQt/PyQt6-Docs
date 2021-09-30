@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a category, or 'area' in the logging infrastructure
-    :digest: 7435cff23ec4bb725833c65a036c31bb
+    :digest: 223fa5b914bc288cfc05090ffe7b8ffc
 
 The :sip:ref:`~PyQt6.QtCore.QLoggingCategory` class represents a category, or 'area' in the logging infrastructure.
 
@@ -54,7 +54,9 @@ Both the :sip:ref:`~PyQt6.QtCore.QLoggingCategory` constructor and the Q_LOGGING
 
 logs messages of type ``QtWarningMsg``, ``QtCriticalMsg``, ``QtFatalMsg``, but ignores messages of type ``QtDebugMsg`` and ``QtInfoMsg``.
 
-If no argument is passed, all messages are logged.
+If no argument is passed, all messages are logged. Only Qt internal categories which start with ``qt`` are handled differently: For these, only messages of type ``QtInfoMsg``, ``QtWarningMsg``, and ``QtCriticalMsg`` are logged by default.
+
+**Note:** Logging categories are not affected by your C++ build configuration. That is, whether messages are printed does not change depending on whether the code is compiled with debug symbols ('Debug Build'), optimizations ('Release Build'), or some other combination.
 
 .. _qloggingcategory-configuring-categories:
 

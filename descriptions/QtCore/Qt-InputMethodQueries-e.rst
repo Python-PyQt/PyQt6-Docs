@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt::InputMethodQuery
-    :digest: 63a2d77ad09d9911d16b8c30f4daa871
+    :digest: 8c0d42b4c55312e5fc5656c7abd51991
 
 Masks:
 

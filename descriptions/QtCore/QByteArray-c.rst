@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Array of bytes
-    :digest: 3b5bd05374a8e53de91fabb85ae20067
+    :digest: 4932f85f57f3884bf76993cc64500407
 
 The :sip:ref:`~PyQt6.QtCore.QByteArray` class provides an array of bytes.
 
@@ -112,14 +112,14 @@ Other overloads accept a start-pointer and a byte-count; these use the given num
 Spacing Characters
 ..................
 
-A frequent requirement is to remove spacing characters from a byte array ('\\n', '\\t', ' ', etc.). If you want to remove spacing from both ends of a :sip:ref:`~PyQt6.QtCore.QByteArray`, use :sip:ref:`~PyQt6.QtCore.QByteArray.trimmed`. If you want to also replace each run of spacing characters with a single space character within the byte array, use :sip:ref:`~PyQt6.QtCore.QByteArray.simplified`. Only ASCII spacing characters are recognized for these purposes.
+A frequent requirement is to remove spacing characters from a byte array (``'\n'``, ``'\t'``, ``' '``, etc.). If you want to remove spacing from both ends of a :sip:ref:`~PyQt6.QtCore.QByteArray`, use :sip:ref:`~PyQt6.QtCore.QByteArray.trimmed`. If you want to also replace each run of spacing characters with a single space character within the byte array, use :sip:ref:`~PyQt6.QtCore.QByteArray.simplified`. Only ASCII spacing characters are recognized for these purposes.
 
 .. _qbytearray-number-string-conversions:
 
 Number-String Conversions
 .........................
 
-Functions that perform conversions between numeric data types and strings are performed in the C locale, regardless of the user's locale settings. Use :sip:ref:`~PyQt6.QtCore.QLocale` to perform locale-aware conversions between numbers and strings.
+Functions that perform conversions between numeric data types and string representations are performed in the C locale, regardless of the user's locale settings. Use :sip:ref:`~PyQt6.QtCore.QLocale` to perform locale-aware conversions between numbers and strings.
 
 .. _qbytearray-character-case:
 

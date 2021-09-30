@@ -2,10 +2,10 @@
     :status: todo
     :pysig: 70fdb46d124e02d8a4f903d26e7c1cfc
     :realsig: (const QPointF&) const
-    :digest: d24f623f415f95525450fc87a83862b4
+    :digest: 26a0330f959580163ad14dd90c8ff21d
 
-Returns true if this item contains *point*, which is in local coordinates; returns false otherwise.
+Returns ``true`` if this item contains *point*, which is in local coordinates; returns ``false`` otherwise.
 
-This function can be overwritten in order to handle point collisions in items with custom shapes. The default implementation checks if the point is inside the item's bounding rect.
+This function can be overridden in order to handle point collisions in items with custom shapes. The default implementation checks whether the point is inside :sip:ref:`~PyQt6.QtQuick.QQuickItem.containmentMask` if it is set, or inside the bounding box otherwise.
 
-Note that this method is generally used to check whether the item is under the mouse cursor, and for that reason, the implementation of this function should be as light-weight as possible.
+**Note:** This method is used for hit-testing each :sip:ref:`~PyQt6.QtGui.QEventPoint` during event delivery, so the implementation should be kept as lightweight as possible.

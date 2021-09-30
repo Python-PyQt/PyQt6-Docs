@@ -2,10 +2,12 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 9a965b95fe42ef1b74198f0a421c738b
+    :digest: 884a9a444c00222e992280390824371a
 
 Sets the fixed string used to filter the contents of the source model to the given *pattern*.
 
 This method will reset the regular expression options but respect case sensitivity.
+
+**Note:** Calling this method updates the regular expression, thereby breaking the binding for :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.filterRegularExpression`. However it has no effect on the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.filterCaseSensitivity` bindings.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.setFilterCaseSensitivity`, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.setFilterRegularExpression`, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.setFilterWildcard`, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.filterRegularExpression`.

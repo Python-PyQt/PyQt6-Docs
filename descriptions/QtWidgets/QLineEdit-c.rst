@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: One-line text editor
-    :digest: a36e6bdc3ef97e23dba57d212f5f3eb6
+    :digest: 66aa3085b64697dfbb71fb0e24ae9cd7
 
 The :sip:ref:`~PyQt6.QtWidgets.QLineEdit` widget is a one-line text editor.
 
@@ -19,7 +19,7 @@ You can change the text with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText` or :s
 
 When the text changes the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textChanged` signal is emitted; when the text changes other than by calling :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText` the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textEdited` signal is emitted; when the cursor is moved the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.cursorPositionChanged` signal is emitted; and when the Return or Enter key is pressed the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed` signal is emitted.
 
-When editing is finished, either because the line edit lost focus or Return/Enter is pressed the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal is emitted.
+When editing is finished, either because the line edit lost focus or Return/Enter is pressed the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal is emitted. Note that if focus is lost without any changes done, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal won't be emitted.
 
 Note that if there is a validator set on the line edit, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed`/\ :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signals will only be emitted if the validator returns :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`.
 
@@ -75,4 +75,4 @@ The default key bindings are described below. The line edit also provides a cont
 
 Any other key sequence that represents a valid character, will cause the character to be inserted into the line edit.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QLabel`, `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_, `GUI Design Handbook: Field, Entry <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QComboBox`, `GUI Design Handbook: Field, Entry <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

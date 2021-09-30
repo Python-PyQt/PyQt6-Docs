@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 2ad7e11a0093c3a3d1b24dad3de9a81e
 
-TODO
+Star shaped markers are used. Marker size is determined by font size.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies 2D transformations of a coordinate system
-    :digest: 4c5574a482d1a7761a9e05385bcb091b
+    :digest: 7e466cdf5694a313aacea52f184e8c79
 
 The :sip:ref:`~PyQt6.QtGui.QTransform` class specifies 2D transformations of a coordinate system.
 
@@ -58,12 +58,26 @@ The various matrix elements can be set when constructing the matrix, or by using
 
 Translation is the simplest transformation. Setting ``dx`` and ``dy`` will move the coordinate system ``dx`` units along the X axis and ``dy`` units along the Y axis. Scaling can be done by setting ``m11`` and ``m22``. For example, setting ``m11`` to 2 and ``m22`` to 1.5 will double the height and increase the width by 50%. The identity matrix has ``m11``, ``m22``, and ``m33`` set to 1 (all others are set to 0) mapping a point to itself. Shearing is controlled by ``m12`` and ``m21``. Setting these elements to values different from zero will twist the coordinate system. Rotation is achieved by setting both the shearing factors and the scaling factors. Perspective transformation is achieved by setting both the projection factors and the scaling factors.
 
+.. _qtransform-combining-transforms:
+
+Combining Transforms
+....................
+
 Here's the combined transformations example using basic matrix operations:
 
 +------------------------------------------------+-------------------------------------------------------------------------------------+
 | |image-qtransform-combinedtransformation2-png| | .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-transform-main.py |
 |                                                |     :lines: 108-132                                                                 |
 +------------------------------------------------+-------------------------------------------------------------------------------------+
+
+The combined transform first scales each operand, then rotates it, and finally translates it, just as in the order in which the product of its factors is written. This means the point to which the transforms are applied is implicitly multiplied on the left with the transform to its right.
+
+.. _qtransform-relation-to-matrix-notation:
+
+Relation to Matrix Notation
+...........................
+
+The matrix notation in :sip:ref:`~PyQt6.QtGui.QTransform` is the transpose of a commonly-taught convention which represents transforms and points as matrices and vectors. That convention multiplies its matrix on the left and column vector to the right. In other words, when several transforms are applied to a point, the right-most matrix acts directly on the vector first. Then the next matrix to the left acts on the result of the first operation - and so on. As a result, that convention multiplies the matrices that make up a composite transform in the reverse of the order in :sip:ref:`~PyQt6.QtGui.QTransform`, as you can see in :ref:`qtransform-combining-transforms`. Transposing the matrices, and combining them to the right of a row vector that represents the point, lets the matrices of transforms appear, in their product, in the order in which we think of the transforms being applied to the point.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QPainter`, `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_, `Affine Transformations Example <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_, `Transformations Example <https://doc.qt.io/qt-6/qtwidgets-painting-transformations-example.html>`_.
 

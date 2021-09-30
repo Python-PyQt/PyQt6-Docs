@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
-    :digest: a0ae1c29cb84aa3d534dd9016f0b1b25
+    :digest: 2fd2a1acc57796e651b083232c43a118
 
 Sets the device pixel ratio for the pixmap. This is the ratio between image pixels and device-independent pixels.
 
@@ -12,4 +12,4 @@ QPainters that are opened on the pixmap will be scaled. For example, painting on
 
 Code paths in Qt that calculate layout geometry based on the pixmap size will take the ratio into account: :sip:ref:`~PyQt6.QtCore.QSize` layoutSize = pixmap.\ :sip:ref:`~PyQt6.QtGui.QPixmap.size` / pixmap.\ :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio` The net effect of this is that the pixmap is displayed as high-DPI pixmap rather than a large pixmap (see Drawing High Resolution Versions of Pixmaps and Images).
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QPixmap.deviceIndependentSize`.

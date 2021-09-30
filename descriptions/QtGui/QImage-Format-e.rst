@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 63fb591ad9369769c4fee4ee9496d399
+    :digest: 83846c3dbd0d81b5980136ffa0db4def
 
 The following image formats are available in Qt. See the notes after the table.
 

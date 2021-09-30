@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 0222541eefb25af4386c5601c68ff978
     :realsig: () const
-    :digest: 3a59645b7815d28b355345c420165d0f
+    :digest: d797e7df60005af0419e946470f95474
 
 Returns the button state when the event was generated.
 
-The button state is a combination of :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons.LeftButton`, :sip:ref:`~PyQt6.QtCore.Qt.MouseButtons.RightButton`, and Qt::MidButton using the OR operator.
+The button state is a combination of :sip:ref:`~PyQt6.QtCore.Qt.MouseButton.LeftButton`, :sip:ref:`~PyQt6.QtCore.Qt.MouseButton.RightButton`, and :sip:ref:`~PyQt6.QtCore.Qt.MouseButton.MiddleButton` using the OR operator.
 
 For mouse move or :sip:ref:`~PyQt6.QtCore.QEvent.Type.TabletMove` events, this is all buttons that are pressed down.
 

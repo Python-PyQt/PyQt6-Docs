@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: f130fbc41d068f5095eea97fcaee713b
+    :digest: 18102d133538dbf614b6b43b7bec1cb6
 
 Use this enum for JavaScript language-specific types of Error objects.
 

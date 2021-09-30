@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realsig: ()
-    :digest: 8f26348373a9ec1a872907825c9d47c4
+    :digest: 7d115a21b63a8f3d94d88e8259025236
 
 Returns the product version of the operating system in string form. If the version could not be determined, this function returns "unknown".
 
@@ -25,10 +25,6 @@ Typical returned values are (note: list not exhaustive):
 * "16.10" (Ubuntu 16.10)
 
 * "3.1" (watchOS 3.1)
-
-* "7 SP 1" (Windows 7 Service Pack 1)
-
-* "8.1" (Windows 8.1)
 
 * "10" (Windows 10)
 

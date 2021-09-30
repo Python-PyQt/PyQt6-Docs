@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Environment for evaluating JavaScript code
-    :digest: 6e16988f0dbaddd99d156c7b9e4a88e9
+    :digest: d1bb0ae76bd005f77418ac8056ded84d
 
 The :sip:ref:`~PyQt6.QtQml.QJSEngine` class provides an environment for evaluating JavaScript code.
 
@@ -56,6 +56,43 @@ Modules can also use functionality from other modules using import statements:
     export function addTwice(left, right)
     {
         return sum(left, right) * 2;
+    }
+
+Modules don't have to be files. They can be values registered with :sip:ref:`~PyQt6.QtQml.QJSEngine.registerModule`:
+
+::
+
+    import version from "version";
+
+    export function getVersion()
+    {
+        return version;
+    }
+
+::
+
+    QJSValue version(610);
+    myEngine.registerModule("version", version);
+    QJSValue module = myEngine.importModule("./myprint.mjs");
+    QJSValue getVersion = module.property("getVersion");
+    QJSValue result = getVersion.call();
+
+Named exports are supported, but because they are treated as members of an object, the default export must be an ECMAScript object. Most of the newXYZ functions in :sip:ref:`~PyQt6.QtQml.QJSValue` will return an object.
+
+::
+
+    QJSValue name("Qt6");
+    QJSValue obj = myEngine.newObject();
+    obj.setProperty("name", name);
+    myEngine.registerModule("info", obj);
+
+::
+
+    import { name } from "info";
+
+    export function getName()
+    {
+        return name;
     }
 
 .. _qjsengine-engine-configuration:

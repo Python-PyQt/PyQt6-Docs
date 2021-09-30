@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ee4163cc141154e5c0774a9f9c667938
     :realsig: (const QString&)
-    :digest: dfe6e047f11b308d1073e43f058c5ff7
+    :digest: 90787e1f212e94a39dfc3a84aece6019
 
 Imports the module located at *fileName* and returns a module namespace object that contains all exported variables, constants and functions as properties.
 
@@ -13,3 +13,5 @@ Subsequent imports of the same module will return the previously imported instan
 The specified *fileName* will internally be normalized using :sip:ref:`~PyQt6.QtCore.QFileInfo.canonicalFilePath`. That means that multiple imports of the same file on disk using different relative paths will load the file only once.
 
 **Note:** If an exception is thrown during the loading of the module, the return value will be the exception (typically an ``Error`` object; see :sip:ref:`~PyQt6.QtQml.QJSValue.isError`).
+
+.. seealso:: :sip:ref:`~PyQt6.QtQml.QJSEngine.registerModule`.

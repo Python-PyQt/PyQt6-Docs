@@ -1,7 +1,9 @@
 .. sip:enum-description::
     :status: todo
-    :digest: bb9f60c659c7f5f8f9ea6a76d910ec99
+    :digest: b32fce934a7b07425592eedf00c329c0
 
 **Note:** For ``ISODate`` formats, each ``y``, ``M`` and ``d`` represents a single digit of the year, month, and day used to specify the date. Each ``H``, ``m``, and ``s`` represents a single digit of the hour (up to 24), minute and second used to specify the time. An hour of 24, with zero for all other time fields, is understood as the start of the next day. A ``.zzz`` stands for a fractional part suffix on the preceding field, which may be separated from that field either by a comma ``','`` or the dot ``'.'`` shown. Precision beyond milliseconds is accepted but discarded, rounding to the nearest representable millisecond. The presence of a literal ``T`` character is used to separate the date and time when both are specified. For the ``TextDate`` and ``RFC2822Date`` formats, ``ddd`` stands for the first three letters of the name of the day of the week and ``MMM`` stands for the first three letters of the month name. The names of days and months are always in English (C locale) regardless of user preferences or system settings. The other format characters have the same meaning as for the  format, except that 24 is not accepted as an hour. Parts of a format enclosed in square brackets ``[...]`` are optional; the square brackets do not form part of the format. The plus-or-minus character ``'±'`` here stands for either sign character, ``'-'`` for minus or ``'+'`` for plus.
+
+**Note:** Zone offsets are measured positive to the east of Greenwich, negative to the west, as is usual for UTC-based offset notations (conflicting with some GMT-based zones-names, such as ``Etc/GMT+3``, which use the opposite convention).
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDate.toString`, :sip:ref:`~PyQt6.QtCore.QTime.toString`, :sip:ref:`~PyQt6.QtCore.QDateTime.toString`, :sip:ref:`~PyQt6.QtCore.QDate.fromString`, :sip:ref:`~PyQt6.QtCore.QTime.fromString`, :sip:ref:`~PyQt6.QtCore.QDateTime.fromString`.

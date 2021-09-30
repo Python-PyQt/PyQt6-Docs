@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Date and time functions
-    :digest: 23868850464ff734eb9606bbed9ee590
+    :digest: fbc07a969eb1bd5038aa7b921b9c4877
 
 The :sip:ref:`~PyQt6.QtCore.QDateTime` class provides date and time functions.
 
 A :sip:ref:`~PyQt6.QtCore.QDateTime` object encodes a calendar date and a clock time (a "datetime"). It combines features of the :sip:ref:`~PyQt6.QtCore.QDate` and :sip:ref:`~PyQt6.QtCore.QTime` classes. It can read the current datetime from the system clock. It provides functions for comparing datetimes and for manipulating a datetime by adding a number of seconds, days, months, or years.
 
-:sip:ref:`~PyQt6.QtCore.QDateTime` can describe datetimes with respect to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`, to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC`, to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` or to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`, in conjunction with the :sip:ref:`~PyQt6.QtCore.QTimeZone` class. For example, a time zone of "Europe/Berlin" will apply the daylight-saving rules as used in Germany since 1970. In contrast, an offset from UTC of +3600 seconds is one hour ahead of UTC (usually written in ISO standard notation as "UTC+01:00"), with no daylight-saving offset or changes. When using either local time or a specified time zone, time-zone transitions such as the starts and ends of daylight-saving time (DST; but see below) are taken into account. The choice of system used to represent a datetime is described as its "timespec".
+:sip:ref:`~PyQt6.QtCore.QDateTime` can describe datetimes with respect to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`, to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC`, to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` or to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`, in conjunction with the :sip:ref:`~PyQt6.QtCore.QTimeZone` class. For example, a time zone of "Europe/Berlin" will apply the daylight-saving rules as used in Germany. In contrast, an offset from UTC of +3600 seconds is one hour ahead of UTC (usually written in ISO standard notation as "UTC+01:00"), with no daylight-saving offset or changes. When using either local time or a specified time zone, time-zone transitions such as the starts and ends of daylight-saving time (DST; but see below) are taken into account. The choice of system used to represent a datetime is described as its "timespec".
 
 A :sip:ref:`~PyQt6.QtCore.QDateTime` object is typically created either by giving a date and time explicitly in the constructor, or by using a static function such as :sip:ref:`~PyQt6.QtCore.QDateTime.currentDateTime` or :sip:ref:`~PyQt6.QtCore.QDateTime.fromMSecsSinceEpoch`. The date and time can be changed with :sip:ref:`~PyQt6.QtCore.QDateTime.setDate` and :sip:ref:`~PyQt6.QtCore.QDateTime.setTime`. A datetime can also be set using the :sip:ref:`~PyQt6.QtCore.QDateTime.setMSecsSinceEpoch` function that takes the time, in milliseconds, since 00:00:00 on January 1, 1970. The :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` function returns a :sip:ref:`~PyQt6.QtCore.QDateTime`, given a string and a date format used to interpret the date within the string.
 
@@ -57,13 +57,13 @@ Daylight-Saving Time (DST)
 
 :sip:ref:`~PyQt6.QtCore.QDateTime` takes into account transitions between Standard Time and Daylight-Saving Time. For example, if the transition is at 2am and the clock goes forward to 3am, then there is a "missing" hour from 02:00:00 to 02:59:59.999 which :sip:ref:`~PyQt6.QtCore.QDateTime` considers to be invalid. Any date arithmetic performed will take this missing hour into account and return a valid result. For example, adding one minute to 01:59:59 will get 03:00:00.
 
-The range of valid dates taking DST into account is 1970-01-01 to the present, and rules are in place for handling DST correctly until 2037-12-31, but these could change. For dates after 2037, :sip:ref:`~PyQt6.QtCore.QDateTime` makes a *best guess* using the rules for year 2037, but we can't guarantee accuracy; indeed, for *any* future date, the time-zone may change its rules before that date comes around. For dates before 1970, :sip:ref:`~PyQt6.QtCore.QDateTime` doesn't take DST changes into account, even if the system's time zone database provides that information, although it does take into account changes to the time-zone's standard offset, where this information is available.
+For date-times that the system ``time_t`` can represent (from 1901-12-14 to 2038-01-18 on systems with 32-bit ``time_t``; for the full range :sip:ref:`~PyQt6.QtCore.QDateTime` can represent if the type is 64-bit), the standard system APIs are used to determine local time's offset from UTC. For date-times not handled by these system APIs, :sip:ref:`~PyQt6.QtCore.QTimeZone.systemTimeZone` is used. In either case, the offset information used depends on the system and may be incomplete or, for past times, historically inaccurate. In any case, for future dates, the local time zone's offsets and DST rules may change before that date comes around.
 
 .. _qdatetime-offsets-from-utc:
 
 Offsets From UTC
 ................
 
-There is no explicit size restriction on an offset from UTC, but there is an implicit limit imposed when using the :sip:ref:`~PyQt6.QtCore.QDateTime.toString` and :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` methods which use a [+|-]hh:mm format, effectively limiting the range to +/- 99 hours and 59 minutes and whole minutes only. Note that currently no time zone lies outside the range of +/- 14 hours.
+There is no explicit size restriction on an offset from UTC, but there is an implicit limit imposed when using the :sip:ref:`~PyQt6.QtCore.QDateTime.toString` and :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` methods which use a [+|-]hh:mm format, effectively limiting the range to +/- 99 hours and 59 minutes and whole minutes only. Note that currently no time zone has an offset outside the range of ±14 hours and all known offsets are multiples of five minutes.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDate`, :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit`, :sip:ref:`~PyQt6.QtCore.QTimeZone`.

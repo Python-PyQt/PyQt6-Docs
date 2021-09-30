@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: de409c8987a2105c53fea76be4c5ee96
+    :digest: 10d6e402ab9cbe222c9cec00bbb3ddcb
 
 This enum describes the shape used when rendering legend marker items.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for displaying a Qt Quick user interface
-    :digest: 70f84aa6eb087a341c42da8e20075e83
+    :digest: e92e936c9dc2213097ba21357823cfe5
 
 The :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` class provides a widget for displaying a Qt Quick user interface.
 
@@ -19,7 +19,9 @@ To receive errors related to loading and executing QML with :sip:ref:`~PyQt6.QtQ
 
 :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` also manages sizing of the view and root object. By default, the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.resizeMode` is :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.ResizeMode.SizeViewToRootObject`, which will load the component and resize it to the size of the view. Alternatively the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.resizeMode` may be set to :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.ResizeMode.SizeRootObjectToView` which will resize the view to the size of the root object.
 
-**Note:** :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` is an alternative to using :sip:ref:`~PyQt6.QtQuick.QQuickView` and :sip:ref:`~PyQt6.QtWidgets.QWidget.createWindowContainer`. The restrictions on stacking order do not apply, making :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` the more flexible alternative, behaving more like an ordinary widget. This comes at the expense of performance. Unlike :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuick.QQuickView`, :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` involves rendering into OpenGL framebuffer objects. This will naturally carry a minor performance hit.
+**Note:** :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` is an alternative to using :sip:ref:`~PyQt6.QtQuick.QQuickView` and :sip:ref:`~PyQt6.QtWidgets.QWidget.createWindowContainer`. The restrictions on stacking order do not apply, making :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` the more flexible alternative, behaving more like an ordinary widget.
+
+**Note:** However, the above mentioned advantages come at the expense of performance. Unlike :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuick.QQuickView`, :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` requires rendering into OpenGL framebuffer objects, which needs to be enforced by calling :sip:ref:`~PyQt6.QtQuick.QQuickWindow.setGraphicsApi`\ (\ :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.GraphicsApi.OpenGLRhi`) at startup. This will naturally carry a minor performance hit.
 
 **Note:** Using :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` disables the threaded render loop on all platforms. This means that some of the benefits of threaded rendering, for example `Animator <https://doc.qt.io/qt-6/qml-qtquick-animator.html>`_ classes and vsync driven animations, will not be available.
 

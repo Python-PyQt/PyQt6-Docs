@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 09e612eb66bcc1ae6053c82846817e48
     :realsig: () const
-    :digest: 63e9b047cb5c98b9dff09bc8272e0d11
+    :digest: 7208376971a1110b4d24767a6cdaa300
 
 Returns the current cursor shape for the item. The mouse cursor will assume this shape when it's over this item. See the :sip:ref:`~PyQt6.QtCore.Qt.CursorShape` for a range of useful shapes.
 
@@ -13,4 +13,4 @@ An editor item might want to use an I-beam cursor:
 
 If no cursor has been set, the cursor of the item beneath is used.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.setCursor`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.hasCursor`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.unsetCursor`, :sip:ref:`~PyQt6.QtWidgets.QWidget.cursor`, QApplication::overrideCursor().
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.setCursor`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.hasCursor`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.unsetCursor`, :sip:ref:`~PyQt6.QtWidgets.QWidget.cursor`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.overrideCursor`.

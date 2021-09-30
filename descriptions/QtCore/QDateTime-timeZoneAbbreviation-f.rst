@@ -2,18 +2,20 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 19c9fb307f60666cefa509f27806c229
+    :digest: a7f68a6f941530a1d7d2529d1305c6b7
 
-Returns the Time Zone Abbreviation for the datetime.
+Returns the Time Zone Abbreviation for this datetime.
 
-If the :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` is :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC` this will be "UTC".
+The returned string depends on :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`:
 
-If the :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` is :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` this will be in the format "UTC[+-]00:00".
+* For :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC` it is "UTC".
 
-If the :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` is :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime` then the host system is queried for the correct abbreviation.
+* For :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` it will be in the format "UTC[+-]00:00".
 
-Note that abbreviations may or may not be localized.
+* For :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`, the host system is queried.
 
-Note too that the abbreviation is not guaranteed to be a unique value, i.e. different time zones may have the same abbreviation.
+* For :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`, the associated :sip:ref:`~PyQt6.QtCore.QTimeZone` object is queried.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`.
+**Note:** The abbreviation is not guaranteed to be unique, i.e. different time zones may have the same abbreviation. For :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime` and :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`, when returned by the host system, the abbreviation may be localized.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`, :sip:ref:`~PyQt6.QtCore.QTimeZone.abbreviation`.
