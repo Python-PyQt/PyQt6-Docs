@@ -1,5 +1,7 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes for accessing a system's hardware sensors
 
-TODO
+The :sip:ref:`~PyQt6.QtSensors` module contains classes that provide access to
+a system's hardware sensors including accelerometers, altimeters, ambient light
+and temperature sensors, gyroscopes and magnetometers.

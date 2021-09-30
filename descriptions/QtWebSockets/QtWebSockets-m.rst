@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status:    done
+    :brief:     Classes that implement the WebSocket protocol
 
-TODO
+The :sip:ref:`~PyQt6.QtWebSockets` module contains classes that implement the
+WebSocket protocol described in RFC 6455.
