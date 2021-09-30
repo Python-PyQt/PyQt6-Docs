@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x110e
+    :digest: 80615512e3b81ed8d69413af41150f90
 
-TODO
+Audio/Video Remote Control Profile (AVRCP) UUID (service & profile)

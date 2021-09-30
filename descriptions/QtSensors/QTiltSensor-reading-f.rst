@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 6bf8828b9c6dacc8a72deb6220d38575
     :realsig: () const
+    :digest: 3a15a0c1fbe3bd29c6c53677d2639a85
 
-TODO
+Returns the reading class for this sensor.
+
+.. seealso:: :sip:ref:`~PyQt6.QtSensors.QSensor.reading`.

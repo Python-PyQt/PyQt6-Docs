@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x80
+    :digest: 484d40a5f394281926b451b9fbb25bda
 
-TODO
+CTS (Clear To Send).

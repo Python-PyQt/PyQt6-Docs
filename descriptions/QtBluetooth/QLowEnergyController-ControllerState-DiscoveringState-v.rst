@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 8a11e9a628a53151264366330d28cc6f
 
-TODO
+The controller is retrieving the list of services offered by the remote device.

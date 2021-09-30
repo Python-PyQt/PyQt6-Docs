@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0007
+    :digest: ddcde529bdc9af0ec3ea7a285f0ef3ed
 
-TODO
+Attribute protocol UUID

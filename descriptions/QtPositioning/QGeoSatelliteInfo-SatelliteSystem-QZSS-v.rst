@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x05
+    :digest: fc687d36f6b3dffda0cf9370181f36c4
 
-TODO
+Quasi-Zenith Satellite System (Japan).

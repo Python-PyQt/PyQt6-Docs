@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2800
+    :digest: bf9bdce7cf9ca58fff8d2bf3998ad452
 
-TODO
+The service is a primary service.

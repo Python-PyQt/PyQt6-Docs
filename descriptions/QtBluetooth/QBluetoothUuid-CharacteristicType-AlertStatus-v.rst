@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a3f
+    :digest: 3f8ef3b0ea2faa55dc86ba88e1d68107
 
-TODO
+The Alert Status characteristic defines the Status of alert.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0080
+    :digest: d91346156e9e1faead62bc7d0573d98b
 
-TODO
+The device provides information services.

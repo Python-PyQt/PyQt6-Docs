@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 3ca50bf45077dee8645998013b2e8367
     :realsig: (QPageLayout::Orientation)
-    :digest: 15c97848e6e9798980e9a616de8b23b2
+    :digest: c20ebbe687a1ca47554cc3f70a19e80e
 
 Sets the page *orientation*.
 

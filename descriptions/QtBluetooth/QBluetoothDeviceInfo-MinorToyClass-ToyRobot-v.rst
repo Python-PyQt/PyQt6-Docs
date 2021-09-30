@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 03d7f667e6e3becc594739115549e8e7
 
-TODO
+A toy robot.

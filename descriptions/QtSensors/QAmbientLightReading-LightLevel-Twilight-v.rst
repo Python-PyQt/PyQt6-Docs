@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: dad827c2e080ea215948e47ee9d7f5b4
 
-TODO
+It is moderately dark.

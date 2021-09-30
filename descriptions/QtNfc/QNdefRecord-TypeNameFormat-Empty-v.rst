@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00
+    :digest: 56aaa86cbe9674d7fc68374115a36427
 
-TODO
+An empty NDEF record, the record does not contain a payload

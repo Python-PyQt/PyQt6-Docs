@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: 15308977049cca54fd2d4e4511a45200
 
-TODO
+Enables animated scrolling. Disabled by default.

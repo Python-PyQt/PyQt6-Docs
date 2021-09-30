@@ -2,5 +2,6 @@
     :status: todo
     :pysig: a6506990c511ca936dfb6f00999972ee
     :realsig: (const QWebEngineScript&)
+    :digest: 4378a37709a48f86d843822c8cfb3c31
 
-TODO
+Inserts the script *s* into the collection.

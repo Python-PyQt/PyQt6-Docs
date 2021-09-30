@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 45293116b3849bfd1224d57619b7b15a
 
-TODO
+An unidentified proprietary target tag.

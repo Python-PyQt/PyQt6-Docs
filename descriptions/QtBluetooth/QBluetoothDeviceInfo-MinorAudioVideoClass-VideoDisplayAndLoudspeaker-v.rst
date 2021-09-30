@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: 866aba494f48b73ff63a66b683bffe72
 
-TODO
+A video display with built-in loudspeaker.

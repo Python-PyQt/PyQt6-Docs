@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: RemoteServiceDiscovered
+    :digest: c1d0dafccca90117cf81cd103c700daf
 
-TODO
+Deprecated. Was renamed to .

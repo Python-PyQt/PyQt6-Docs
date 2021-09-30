@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 19792371c6e53e66817132bb231f6cf7
 
-TODO
+Navigation initiated by refreshing the page.

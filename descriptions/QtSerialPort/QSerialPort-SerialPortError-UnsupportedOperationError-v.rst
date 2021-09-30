@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: f0d5eb2a351e4f6d3261e6053dc0e989
 
-TODO
+The requested device operation is not supported or prohibited by the running operating system.

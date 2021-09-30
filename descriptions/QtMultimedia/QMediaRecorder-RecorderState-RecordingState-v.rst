@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 3200c7ed698156823e9fabe2a5de04f3
 
-TODO
+The recording is requested.

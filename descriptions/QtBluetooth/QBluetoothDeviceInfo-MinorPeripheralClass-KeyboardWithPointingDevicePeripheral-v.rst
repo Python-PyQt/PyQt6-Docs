@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x30
+    :digest: 88bbc45d48000e18735fe8cf3d1f580d
 
-TODO
+A keyboard with built-in pointing device.

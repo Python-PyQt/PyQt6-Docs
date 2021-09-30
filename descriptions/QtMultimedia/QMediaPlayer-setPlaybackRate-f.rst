@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
+    :digest: b8eced2fed82cdc3b04b4d0bf1d9764e
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.playbackRate`.

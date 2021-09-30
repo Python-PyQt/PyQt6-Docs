@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 46a7bdf6ff0ff3a292573662f7d8a6a2
     :realsig: () const
+    :digest: 73edfec806e5a9eb10aba5732e39145d
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWebEngineWidgets.QWebEngineView.setUrl`.

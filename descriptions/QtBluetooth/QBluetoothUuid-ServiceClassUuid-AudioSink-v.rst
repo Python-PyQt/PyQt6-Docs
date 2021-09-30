@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x110b
+    :digest: f4c488ba01c3451fa44035cbdc495368
 
-TODO
+Advanced Audio Distribution Profile (A2DP) UUID (service)

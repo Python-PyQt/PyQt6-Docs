@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1134
+    :digest: fb48c85898724d316bbd43234c7d79e4
 
-TODO
+Message Access Profile (MAP) UUID (profile)

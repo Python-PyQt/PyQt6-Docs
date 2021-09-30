@@ -2,5 +2,6 @@
     :status: todo
     :pysig: a6506990c511ca936dfb6f00999972ee
     :realsig: (const QWebEngineScript&)
+    :digest: 07516e8702afb4119583120fb9416f22
 
-TODO
+Constructs a user script using the contents of *other*.

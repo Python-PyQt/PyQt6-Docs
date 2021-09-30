@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: df2896019984a7de025972907ca48e9f
 
-TODO
+An uncategorized peripheral device.

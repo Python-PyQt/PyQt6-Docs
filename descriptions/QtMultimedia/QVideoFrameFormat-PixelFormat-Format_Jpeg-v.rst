@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 29
+    :digest: b77e07703eef3501879e7c8ce1e3adf3
 
-TODO
+The frame is stored in compressed Jpeg format.

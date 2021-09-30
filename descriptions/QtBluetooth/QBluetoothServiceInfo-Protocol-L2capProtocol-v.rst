@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: c370f9112740b6750404c551605ac11b
 
-TODO
+The service uses the L2CAP socket protocol. This protocol is not supported for direct socket connections on Android.

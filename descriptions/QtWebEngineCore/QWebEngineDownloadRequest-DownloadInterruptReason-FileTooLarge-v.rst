@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 6bfb09c3d6c811f19833fde564bfc2eb
 
-TODO
+The file size exceeds the file system limitation.

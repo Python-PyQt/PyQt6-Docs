@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a77
+    :digest: 6421053f642fc3e7acc1566491175aef
 
-TODO
+This characteristic states the power of electromagnetic radiation in watt per square meter.

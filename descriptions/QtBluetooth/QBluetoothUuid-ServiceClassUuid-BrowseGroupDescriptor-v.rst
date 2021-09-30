@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1001
+    :digest: 4e88e88e90285ee607fd676fb50b1a84
 
-TODO
+Browser group descriptor (service)

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: d715e770a098d28acea419c8eda1dc02
 
-TODO
+The user has granted permission.

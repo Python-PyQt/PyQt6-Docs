@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
+    :digest: a5ae6de3b946262dada2c2d51fd52fb7
 
-TODO
+A video conferencing device.

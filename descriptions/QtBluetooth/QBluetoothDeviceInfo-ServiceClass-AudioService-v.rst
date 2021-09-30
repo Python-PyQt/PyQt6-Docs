@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0020
+    :digest: b9d3a604da3792ada31acf9db434a4eb
 
-TODO
+The device provides audio services.

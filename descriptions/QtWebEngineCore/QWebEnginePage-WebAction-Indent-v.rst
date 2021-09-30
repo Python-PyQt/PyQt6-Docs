@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 41
+    :digest: 4ebaba7a4277b92ec3eef414a2938d0b
 
-TODO
+Indents the lines containing the selection or the cursor. Requires ``contenteditable="true"``. (Added in Qt 5.10)

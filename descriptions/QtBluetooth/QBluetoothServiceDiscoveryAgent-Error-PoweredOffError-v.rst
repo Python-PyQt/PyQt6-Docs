@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QBluetoothDeviceDiscoveryAgent::PoweredOffError
+    :digest: 24062013e6e70abddb8cef2a5a202700
 
-TODO
+The Bluetooth adaptor is powered off, power it on before doing discovery.

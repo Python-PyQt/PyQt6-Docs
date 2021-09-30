@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 1a48bdddba04efba2b409d0c2947d539
 
-TODO
+Paste content from the clipboard.

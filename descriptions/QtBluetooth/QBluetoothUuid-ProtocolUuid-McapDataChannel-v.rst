@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x001F
+    :digest: 5f445720b37fcc3be851bc87b51b7f99
 
-TODO
+Multi-Channel Adaptation Protocol UUID

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 9627a8665b3a5af68c711cbabb191b56
 
-TODO
+Navigate forward in the history of navigated links.

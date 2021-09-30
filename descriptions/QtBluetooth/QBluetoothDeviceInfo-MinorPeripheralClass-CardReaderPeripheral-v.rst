@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x06
+    :digest: 65634eac8cd0b7659cfe4fcc11a99e27
 
-TODO
+A card reader peripheral.

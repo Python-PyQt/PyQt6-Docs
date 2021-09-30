@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: d9bbd62d54d2057c3a53baf929d11a65
 
-TODO
+Error state that occurs if the connection to the source is lost after it is initialized.

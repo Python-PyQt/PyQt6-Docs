@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0
+    :digest: 3ffe38e2c81da2721df0beeb67badde1
 
-TODO
+The type of the Bluetooth device cannot be determined.

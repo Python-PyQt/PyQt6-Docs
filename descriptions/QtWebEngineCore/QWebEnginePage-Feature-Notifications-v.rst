@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9a399f8965113dc7cae9eeffb45caebd
 
-TODO
+Web notifications for the end-user.

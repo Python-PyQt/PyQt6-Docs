@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 78bc4142a652728752bcf9bc7127151a
 
-TODO
+An error occurred during operation, such as failure of loading the source.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QBluetoothDeviceDiscoveryAgent::NoError
+    :digest: 9294fd423d318b78d0eea150273cbf8e
 
-TODO
+No error has occurred.

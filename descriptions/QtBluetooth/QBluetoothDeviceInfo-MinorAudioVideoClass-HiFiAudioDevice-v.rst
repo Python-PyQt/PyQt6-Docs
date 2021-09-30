@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: c0961178c3cfdd83f50023dbab448bd6
 
-TODO
+A HiFi audio device.

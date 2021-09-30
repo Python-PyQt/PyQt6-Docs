@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: b088751f92c64e1ae7ca79eb1500bc6e
 
-TODO
+Navigation initiated by a history action.

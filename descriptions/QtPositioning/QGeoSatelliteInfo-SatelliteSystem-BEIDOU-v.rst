@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x04
+    :digest: 9552cb9bca61a163c168103e22efc434
 
-TODO
+BeiDou navigation satellite system (China).

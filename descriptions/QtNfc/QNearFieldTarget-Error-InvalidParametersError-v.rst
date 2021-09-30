@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 1b20de4eb1a781377fdba89baadbe561
 
-TODO
+Invalid parameters were passed to a tag type specific function.

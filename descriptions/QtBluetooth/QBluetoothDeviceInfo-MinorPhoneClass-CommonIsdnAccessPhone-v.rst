@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 17e749610d7882ccb578fcef7f6e5401
 
-TODO
+A device that provides ISDN access.

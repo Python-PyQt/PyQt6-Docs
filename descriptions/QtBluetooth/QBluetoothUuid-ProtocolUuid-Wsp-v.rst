@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x000E
+    :digest: ad894d069c764d7046639c8321484212
 
-TODO
+WSP UUID

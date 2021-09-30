@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 9064598f6881fe97156ec2e9c47c55cf
     :realsig: (const QString&) const
+    :digest: 709a9996ab0af95f9905d0547d808391
 
-TODO
+Returns the value of the backend-specific property named *name*, if present. Otherwise the returned value will be invalid.
+
+.. seealso:: :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource.setBackendProperty`.

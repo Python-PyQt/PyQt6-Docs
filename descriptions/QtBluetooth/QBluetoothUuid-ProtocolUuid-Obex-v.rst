@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0008
+    :digest: bc91f6e336ca5384f7fd43afaf1e971a
 
-TODO
+OBEX protocol UUID

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0
+    :digest: da2fde3352ac1d72fae96600a9a8bfee
 
-TODO
+The descriptor type is unknown.

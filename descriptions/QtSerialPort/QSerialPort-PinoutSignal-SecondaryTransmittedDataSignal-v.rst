@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: dbb65c534e6bfea06ec038cf47e17b37
 
-TODO
+STD (Secondary Transmitted Data).

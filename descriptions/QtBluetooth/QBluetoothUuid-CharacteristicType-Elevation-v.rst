@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a6c
+    :digest: 8f84ad77bc9f93219c5cc219999e3bc0
 
-TODO
+The Elevation characteristic states the elevation above/below sea level.

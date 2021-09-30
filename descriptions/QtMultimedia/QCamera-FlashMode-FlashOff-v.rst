@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: b1916c72b580747cfac9f70b0d62606a
 
-TODO
+Flash is Off.

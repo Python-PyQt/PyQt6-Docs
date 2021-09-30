@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: b22e9b1a94d79eeaaf085e3966bf1271
 
-TODO
+Enables displaying the built-in error pages of Chromium. Enabled by default.

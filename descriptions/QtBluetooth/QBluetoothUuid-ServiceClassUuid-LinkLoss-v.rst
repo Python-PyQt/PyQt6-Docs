@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1803
+    :digest: 1f91e2fe3c8ec03bf5068920ba3d47a4
 
-TODO
+Link Loss UUID (service). The service defines behavior when a link is lost between two devices.

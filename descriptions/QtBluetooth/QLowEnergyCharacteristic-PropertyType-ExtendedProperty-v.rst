@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x80
+    :digest: dbc4d745c4fd4fdc519c69ddb88d0485
 
-TODO
+Additional characteristic properties are defined in the characteristic's extended properties descriptor.

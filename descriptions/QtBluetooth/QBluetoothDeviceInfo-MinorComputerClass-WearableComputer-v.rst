@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 723015ef719b63fea76a869bb4a3069d
 
-TODO
+A wearable computer.

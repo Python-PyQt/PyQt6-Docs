@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 82fc41c0dcc63b49ee0406e659db5882
 
-TODO
+Portrait exposure mode.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x180a
+    :digest: b0937737eba1c2c950110b5518aeec76
 
-TODO
+Device Information UUID (service). The Device Information Service exposes manufacturer and/or vendor information about a device.

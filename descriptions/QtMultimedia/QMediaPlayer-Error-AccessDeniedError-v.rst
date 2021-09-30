@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 24fc68055dfae16432530858a0ac0761
 
-TODO
+There are not the appropriate permissions to play a media resource.

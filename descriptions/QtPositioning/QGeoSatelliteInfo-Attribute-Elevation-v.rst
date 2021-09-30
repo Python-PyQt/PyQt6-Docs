@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: dd83bd43d53856a443e9c740bf15dac0
 
-TODO
+The elevation of the satellite, in degrees.

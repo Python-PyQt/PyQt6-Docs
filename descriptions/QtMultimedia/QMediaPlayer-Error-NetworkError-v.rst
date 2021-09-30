@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: b56868880ce997978c81fc185f336bbc
 
-TODO
+A network error occurred.

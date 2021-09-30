@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0016
+    :digest: ed0788f5e0ec64350f8c7677e43895a6
 
-TODO
+Hardcopy Cable Replacement Profile UUID

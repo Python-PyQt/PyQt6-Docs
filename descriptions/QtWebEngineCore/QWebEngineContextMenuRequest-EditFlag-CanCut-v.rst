@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4
+    :digest: 1b3ebee99d25be97d92570acaade89bd
 
-TODO
+Cut is available.

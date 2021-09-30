@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: 73a3e0fbf569c5c06e49e714d2f0eed5
 
-TODO
+Context is richly editable.

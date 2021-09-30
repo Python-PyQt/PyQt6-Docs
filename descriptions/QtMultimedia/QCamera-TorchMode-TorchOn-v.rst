@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 5525b4154ac3d7a233ffff3be9cd8dd0
 
-TODO
+Torch is On.

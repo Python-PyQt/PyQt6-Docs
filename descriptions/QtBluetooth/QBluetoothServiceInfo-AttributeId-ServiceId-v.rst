@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0003
+    :digest: a80c147010e77674446bcba76ab8497c
 
-TODO
+UUID that uniquely identifies the service.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 4b5e0875c9630927f94282c29fafac74
 
-TODO
+Auto white balance mode.

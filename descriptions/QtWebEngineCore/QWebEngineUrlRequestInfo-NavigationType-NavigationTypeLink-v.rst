@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: bd57a0300a5648f14a5ccb23a63cd38e
 
-TODO
+Navigation initiated by clicking a link.

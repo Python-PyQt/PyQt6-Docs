@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x113a
+    :digest: e00c26886bf58550c750ed7ed7e2e5b4
 
-TODO
+Multi-Profile Specification UUID (profile)

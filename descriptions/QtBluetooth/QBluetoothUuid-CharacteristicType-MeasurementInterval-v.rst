@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a21
+    :digest: 1750fb0ecf939f2a3ebaa42fb24a6d56
 
-TODO
+The Measurement Interval characteristic defines the time between measurements.

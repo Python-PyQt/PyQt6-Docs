@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 37133f9f721490bb6c4ec2a7d835dd6b
 
-TODO
+A video codec is required

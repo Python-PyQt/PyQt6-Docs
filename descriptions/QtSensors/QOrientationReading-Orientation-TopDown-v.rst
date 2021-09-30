@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: c259de6be5c040df5de7e90fba00064c
 
-TODO
+The Top edge of the device is pointing down.

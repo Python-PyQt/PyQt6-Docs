@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: aaef7d069146aa5797f70b77daa497fc
 
-TODO
+Video devices, such as cameras.

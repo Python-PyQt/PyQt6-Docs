@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: 366c3beedc74f5cb03942f86c76de15b
 
-TODO
+A device that does not fit into any of the other device classes.

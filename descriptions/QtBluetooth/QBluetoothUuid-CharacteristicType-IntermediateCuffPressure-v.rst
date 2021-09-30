@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a36
+    :digest: 7ff511db0e466c3029a30a501ed26449
 
-TODO
+This characteristic has the same format as the Blood Pressure Measurement characteristic.

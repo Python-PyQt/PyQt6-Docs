@@ -1,5 +1,6 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: A request id handle
+    :digest: 112984e3674b0e182e914716bcb051cc
 
-TODO
+A request id handle.

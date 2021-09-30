@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a76
+    :digest: 95db6f3476d96a16320ba04ac496cf71
 
-TODO
+This characteristic exposes the UV index.

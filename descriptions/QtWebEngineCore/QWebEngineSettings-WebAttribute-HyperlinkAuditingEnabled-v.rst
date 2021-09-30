@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: cd5e334e631c825274e11157dc6c961e
 
-TODO
+Enables support for the ``ping`` attribute for hyperlinks. Disabled by default.

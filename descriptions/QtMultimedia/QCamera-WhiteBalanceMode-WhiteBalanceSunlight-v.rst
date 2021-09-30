@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 45ee622eae249892e43c0a1bcbc48940
 
-TODO
+Sunlight white balance mode.

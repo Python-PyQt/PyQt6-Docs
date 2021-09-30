@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: 771788ecfa4f18b2883301cc2d798c86
 
-TODO
+General network failure.

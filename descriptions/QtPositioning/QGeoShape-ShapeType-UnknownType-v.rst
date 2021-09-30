@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: ee6df1b702fc9e34bc957f34cd8d8c76
 
-TODO
+A shape of unknown type

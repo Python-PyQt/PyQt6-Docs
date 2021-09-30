@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 10a41a067185121796c0469e0148153f
 
-TODO
+A pair of glasses.

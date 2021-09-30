@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: de13ff215ebe6d0f2a50120d737a0612
 
-TODO
+An unidentified error occurred.

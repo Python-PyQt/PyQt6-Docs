@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: 80935423a20485ea25a0def22ed04621
 
-TODO
+The Face of the device is pointing down.

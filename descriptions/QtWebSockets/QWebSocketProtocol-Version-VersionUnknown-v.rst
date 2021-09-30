@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -1
+    :digest: 70872ab9a68c75505d56c9c9145e7900
 
-TODO
+Unknown or unspecified version.

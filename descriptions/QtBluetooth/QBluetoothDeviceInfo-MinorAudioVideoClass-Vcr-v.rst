@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: a2c41ccb20dae8c23c7240062c61a296
 
-TODO
+A video cassette recorder.

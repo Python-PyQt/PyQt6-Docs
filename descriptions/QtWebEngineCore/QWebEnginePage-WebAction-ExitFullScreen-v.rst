@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 27
+    :digest: a19a763168457d5728c6eeaa126eac55
 
-TODO
+Exit the fullscreen mode. (Added in Qt 5.6)

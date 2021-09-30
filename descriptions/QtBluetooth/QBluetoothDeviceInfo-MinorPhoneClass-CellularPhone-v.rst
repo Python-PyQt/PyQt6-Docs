@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: b84343b4a176d7ad531ed730824134c0
 
-TODO
+A cellular phone.

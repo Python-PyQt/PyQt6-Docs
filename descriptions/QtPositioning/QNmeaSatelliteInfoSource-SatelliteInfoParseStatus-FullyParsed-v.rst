@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: cc5e3cb87b20b3854cb8b05ebc148944
 
-TODO
+Satellite information was fully collected and parsed.

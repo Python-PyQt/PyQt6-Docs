@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 793912516350fa9cf73d70c8dd4cd83a
 
-TODO
+Unknown reason or not interrupted.

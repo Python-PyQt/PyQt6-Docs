@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: f68717197852a48d771020a2bcafe10b
 
-TODO
+An input output error occurred.

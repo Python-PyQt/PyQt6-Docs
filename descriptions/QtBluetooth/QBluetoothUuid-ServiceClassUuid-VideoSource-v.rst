@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1303
+    :digest: ae08ef307d8a7fed9195662f82d24a0a
 
-TODO
+Video Distribution Profile (VDP) UUID (service)

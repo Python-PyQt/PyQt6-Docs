@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00
+    :digest: 4632da6766c50548f9fd5b69669bc543
 
-TODO
+The service does not require any security.

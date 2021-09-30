@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x111a
+    :digest: 754617f923364b238f47293f35c1e107
 
-TODO
+Basic Imaging Profile (BIP) UUID (profile)

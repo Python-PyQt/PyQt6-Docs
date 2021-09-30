@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 498f135f3dd1a9a42f3b40175737bf37
 
-TODO
+A computer device or PDA.

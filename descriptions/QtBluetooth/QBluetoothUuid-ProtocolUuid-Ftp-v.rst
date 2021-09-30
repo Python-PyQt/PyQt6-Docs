@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x000A
+    :digest: cc36a2b91cc241ddbcdaf30893b914f5
 
-TODO
+FTP protocol UUID

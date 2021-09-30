@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: cbcf259148fca729258eb84cff357e8f
 
-TODO
+An "other" subresource.

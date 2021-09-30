@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 3112bf59192857c98adcd8876c54ef4a
 
-TODO
+Shade white balance mode.

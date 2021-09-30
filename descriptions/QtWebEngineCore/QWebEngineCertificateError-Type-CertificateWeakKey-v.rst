@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -211
+    :digest: 6b4bbd62b7d8f049f72a63b5e288b249
 
-TODO
+The certificate contains a weak key.

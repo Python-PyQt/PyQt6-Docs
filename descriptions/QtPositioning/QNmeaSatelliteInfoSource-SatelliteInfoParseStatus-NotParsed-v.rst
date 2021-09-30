@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 5b9e5eb4b526dee51f93d415c4efb98c
 
-TODO
+The data does not contain information about satellites.

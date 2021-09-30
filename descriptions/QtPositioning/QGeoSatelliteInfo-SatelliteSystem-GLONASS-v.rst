@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x02
+    :digest: 0bdf382bed85b8bb0227dc2d42184de7
 
-TODO
+Global Positioning System (Russia).

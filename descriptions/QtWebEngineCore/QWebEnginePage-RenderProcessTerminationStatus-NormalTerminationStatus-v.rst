@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 5c2fc428b15258734c7bc5194225b8d5
 
-TODO
+The render process terminated normally.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: a565f12a937b905296bf54371ba793f2
 
-TODO
+Hardware flow control (RTS/CTS).

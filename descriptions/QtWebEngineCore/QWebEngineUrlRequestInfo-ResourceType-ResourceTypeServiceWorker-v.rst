@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: c0469981274b9b01ea558fe2a7d42a5b
 
-TODO
+The main resource of a service worker.

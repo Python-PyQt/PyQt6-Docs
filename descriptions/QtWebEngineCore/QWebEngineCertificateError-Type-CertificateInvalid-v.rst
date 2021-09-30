@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -207
+    :digest: 1eba99cfed425e5d3d5629e1d5a4eae3
 
-TODO
+The certificate is invalid.

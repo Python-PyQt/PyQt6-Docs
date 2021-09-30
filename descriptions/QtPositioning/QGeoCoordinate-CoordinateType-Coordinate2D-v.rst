@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 5e170e0dba32cc38a4e8f533b3d69629
 
-TODO
+A coordinate with valid latitude and longitude values.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a83
+    :digest: b0c037168f6d59c64c2791eac121f34c
 
-TODO
+This characteristic states the second metabolic threshold.

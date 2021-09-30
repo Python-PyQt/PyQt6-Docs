@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 13
+    :digest: 1fdebeb866f17db365b60868acfec381
 
-TODO
+Fireworks mode. Since 5.5

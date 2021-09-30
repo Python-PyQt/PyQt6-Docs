@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: da311b4ee2c22be480e10bf2b994531c
 
-TODO
+A settop box.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: ebdf6f3f353cce4b485e5b12a7120619
 
-TODO
+A toy doll or action figure.

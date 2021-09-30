@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 3ca5a54b85a236e7e5a502e258e483c0
 
-TODO
+No error. Used for testing.

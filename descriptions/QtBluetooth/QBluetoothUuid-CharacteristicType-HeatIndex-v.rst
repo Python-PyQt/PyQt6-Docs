@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a7a
+    :digest: 899076a25be3814d7b0635f7f34b405a
 
-TODO
+This characteristic provides a heat index in degree Celsius.

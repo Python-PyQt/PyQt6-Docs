@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 38400
+    :digest: 279679932caaff313cf006cbb0d68746
 
-TODO
+38400 baud.

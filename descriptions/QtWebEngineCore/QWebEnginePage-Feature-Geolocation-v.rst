@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 6d6d0933e37ab6814c975e25fea7810d
 
-TODO
+Location hardware or service.

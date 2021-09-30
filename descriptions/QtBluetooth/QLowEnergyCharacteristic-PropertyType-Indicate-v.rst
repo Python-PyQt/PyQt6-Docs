@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x20
+    :digest: cd82825aba14db0cfd1d70a7e7aeed55
 
-TODO
+Permits indications of characteristic values.

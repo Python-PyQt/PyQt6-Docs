@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 16
+    :digest: d25b214a3b688fe834db7273b4e187de
 
-TODO
+Barcode mode. Since 5.5

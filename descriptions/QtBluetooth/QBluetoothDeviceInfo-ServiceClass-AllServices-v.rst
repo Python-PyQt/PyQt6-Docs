@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x07ff
+    :digest: 2431f58493c154c91c282c001355a29c
 
-TODO
+The device provides services of all types.

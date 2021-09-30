@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 2d6e045319424d0a4e382c0b1ea74013
 
-TODO
+The navigation request resulted from a reload action.

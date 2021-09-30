@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a5d
+    :digest: 2681d844072a2877f7f0bdb77befb792
 
-TODO
+The Sensor Location characteristic is used to expose the location of the sensor.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 0c294a2289ad3bb1c5229bc2fa816693
 
-TODO
+The current satellite information could not be retrieved within the specified timeout.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 36
+    :digest: 256c167c482297e24ba0968f45e82d2c
 
-TODO
+Access forbidden by the server.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 2caf9a6ba84d4b766771fee0bcabdc5c
 
-TODO
+An I/O error occurred while writing the data.

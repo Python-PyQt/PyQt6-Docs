@@ -2,5 +2,17 @@
     :status: todo
     :pysig: 30abb1de6f61e3fb45b37bea7fd11ba3
     :realsig: (const QList<QSslError>&)
+    :digest: f63f10ad3c10f5b72c3125387deea0f7
 
-TODO
+This is an overloaded function.
+
+This method tells :sip:ref:`~PyQt6.QtWebSockets.QWebSocket` to ignore the errors given in *errors*.
+
+Note that you can set the expected certificate in the SSL error: If, for instance, you want to connect to a server that uses a self-signed certificate, consider the following snippet:
+
+.. literalinclude:: ../../../snippets/qtwebsockets-src-websockets-doc-snippets-src_websockets_ssl_qwebsocket.py
+    :lines: 30-37
+
+Multiple calls to this function will replace the list of errors that were passed in previous calls. You can clear the list of errors you want to ignore by calling this function with an empty list.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWebSockets.QWebSocket.sslErrors`.

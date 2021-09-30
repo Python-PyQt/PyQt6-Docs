@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: c44d705a2a2fe5ac47832851b48b7098
 
-TODO
+The client and the server have different protocol versions.

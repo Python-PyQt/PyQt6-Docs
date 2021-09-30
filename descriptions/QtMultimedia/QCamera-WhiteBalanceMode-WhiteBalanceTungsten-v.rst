@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 3bdcb149fc3223294ad49766e3ebf87a
 
-TODO
+Tungsten (incandescent) white balance mode.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 05461202e3bdbb967647d92ceb508ec6
 
-TODO
+Performs a full service discovery.

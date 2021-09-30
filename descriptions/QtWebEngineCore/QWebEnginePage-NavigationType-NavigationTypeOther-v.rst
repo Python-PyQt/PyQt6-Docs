@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: f6d166fcb0074185f855afc8f07e1fb0
 
-TODO
+The navigation request was triggered by other means not covered by the above.

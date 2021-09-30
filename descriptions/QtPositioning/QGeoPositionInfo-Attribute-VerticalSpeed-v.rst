@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 9fb29ddffd617abfad242a696a7e61e2
 
-TODO
+The vertical speed, in meters/sec.

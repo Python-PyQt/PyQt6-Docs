@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 9df3778b42180f07777616cf39bc5bbe
 
-TODO
+The azimuth to true north, in degrees.

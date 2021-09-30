@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 3dd9f2fb552f6376f5f55132d2be40e4
 
-TODO
+Download has been cancelled.

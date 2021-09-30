@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 442e06a0dbb995b7fdf37ca14e5a6361
 
-TODO
+The file cannot be written locally, due to access restrictions.

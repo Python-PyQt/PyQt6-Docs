@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 81e283275df46d1fe2275440565f24b3
 
-TODO
+The message indicates there has been an error.

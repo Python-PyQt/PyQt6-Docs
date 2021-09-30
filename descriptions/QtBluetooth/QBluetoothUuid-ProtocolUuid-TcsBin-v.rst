@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x0005
+    :digest: 220f4f778d2fb6a151629e37c8e103e4
 
-TODO
+Telephony Control Specification UUID

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1107
+    :digest: b9f480934036b6d0f4e4bb250d91f06f
 
-TODO
+Synchronization Profile UUID (profile)

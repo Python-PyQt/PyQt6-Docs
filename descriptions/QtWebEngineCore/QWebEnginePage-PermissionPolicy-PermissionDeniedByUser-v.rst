@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 9c13f81f3659f089c0126847c831296a
 
-TODO
+The user has denied permission.

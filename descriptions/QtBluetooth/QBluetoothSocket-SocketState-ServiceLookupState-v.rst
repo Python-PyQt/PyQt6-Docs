@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: dd3958f505c9a239bc85ea24bc7d4dd9
 
-TODO
+Socket is querying connection parameters.

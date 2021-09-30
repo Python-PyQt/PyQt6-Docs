@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 2e813c364e7fc66490600004e761ebd5
 
-TODO
+Undo the last editing action.

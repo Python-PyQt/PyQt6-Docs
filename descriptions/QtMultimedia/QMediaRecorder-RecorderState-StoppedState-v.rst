@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: f8d7302abd2213e661c58ebe33fce859
 
-TODO
+The recorder is not active.

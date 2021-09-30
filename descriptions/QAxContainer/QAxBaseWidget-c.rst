@@ -1,5 +1,6 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Static properties and signals for QAxWidget
+    :digest: 6decb8fae827e2496a9cb84880722e00
 
-TODO
+:sip:ref:`~PyQt6.QAxContainer.QAxBaseWidget` provides static properties and signals for :sip:ref:`~PyQt6.QAxContainer.QAxWidget`.

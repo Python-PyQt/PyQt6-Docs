@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: c2a99ae680316886cec31c0134d84410
 
-TODO
+The render process terminated with with a non-zero exit status.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x80
+    :digest: ad9a5af1f1808162da8b9ea800fd2092
 
-TODO
+Media controls are shown.

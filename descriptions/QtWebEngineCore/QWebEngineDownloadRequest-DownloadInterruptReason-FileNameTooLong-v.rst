@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: 5cf51786d19b3bcfd3f151aa8a995da5
 
-TODO
+The directory or file name is too long.

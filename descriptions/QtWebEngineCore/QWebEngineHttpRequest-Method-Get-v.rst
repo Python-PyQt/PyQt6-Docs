@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 1764f0dd66514d23cc0b13945005ec52
 
-TODO
+The GET method.

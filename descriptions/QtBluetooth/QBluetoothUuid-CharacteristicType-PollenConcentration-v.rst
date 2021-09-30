@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2a75
+    :digest: fb1759601298a1c27cb74dd9dd86c52e
 
-TODO
+The characteristic exposes the pollen concentration count per cubic meter.

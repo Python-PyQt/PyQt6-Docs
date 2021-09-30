@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 33
+    :digest: deb7ceecd69d0e24ba4a8402b984d32d
 
-TODO
+The server does not have the requested data.

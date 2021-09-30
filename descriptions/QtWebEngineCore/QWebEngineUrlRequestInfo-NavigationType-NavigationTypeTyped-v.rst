@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 36e951f2b64edae277156e8a986a8f1d
 
-TODO
+Navigation explicitly initiated by typing a URL.

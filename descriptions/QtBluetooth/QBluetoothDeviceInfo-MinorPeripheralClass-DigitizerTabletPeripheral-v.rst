@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x05
+    :digest: bd977d576558fec6b6d4f8a645590161
 
-TODO
+A digitizer tablet peripheral.

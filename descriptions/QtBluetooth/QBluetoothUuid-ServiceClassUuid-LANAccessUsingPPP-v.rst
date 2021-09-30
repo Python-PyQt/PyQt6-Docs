@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x1102
+    :digest: 1dd4bba58de2b1ca75c8065a83f6d8c1
 
-TODO
+LAN Access Profile UUID (service & profile)

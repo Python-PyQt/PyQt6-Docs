@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x20
+    :digest: 0f2e16904e9b88f5b4f873126275988e
 
-TODO
+A pointing device, for example a mouse.

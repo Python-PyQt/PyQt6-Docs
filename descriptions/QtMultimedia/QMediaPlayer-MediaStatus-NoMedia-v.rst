@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 089e659cdf5450ff3d44a12d418e014c
 
-TODO
+The is no current media. The player is in the :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.PlaybackState.StoppedState`.

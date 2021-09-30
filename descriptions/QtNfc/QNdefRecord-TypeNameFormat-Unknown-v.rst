@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x05
+    :digest: 68ae5e9bb784392e0ea275eb2a495fb9
 
-TODO
+The type of the record is unknown and should be treated similar to content with MIME type 'application/octet-stream' without further context

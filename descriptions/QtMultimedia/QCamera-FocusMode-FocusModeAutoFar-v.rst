@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 0bcbc6edd3ad106fdd289f6ae563c65c
 
-TODO
+Continuous auto focus mode on objects far away.

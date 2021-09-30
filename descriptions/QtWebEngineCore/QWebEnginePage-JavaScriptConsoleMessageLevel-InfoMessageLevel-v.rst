@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: e59949546f7f585d599a8b585cd6307d
 
-TODO
+The message is purely informative and can safely be ignored.
