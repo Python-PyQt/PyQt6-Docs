@@ -23,6 +23,13 @@
             bool
         :description: QtQuick/QQuickItemGrabResult-saveToFile-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickItemGrabResult.saveToFile
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            bool
+        :description: QtQuick/QQuickItemGrabResult-saveToFile-f-1.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickItemGrabResult.url
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`

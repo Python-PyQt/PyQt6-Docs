@@ -13,6 +13,9 @@
         .. sip:enum-member:: PyQt6.QtCharts.QAbstractAxis.AxisType.AxisTypeCategory
             :description: QtCharts/QAbstractAxis-AxisType-AxisTypeCategory-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCharts.QAbstractAxis.AxisType.AxisTypeColor
+            :description: QtCharts/QAbstractAxis-AxisType-AxisTypeColor-v.rst
+
         .. sip:enum-member:: PyQt6.QtCharts.QAbstractAxis.AxisType.AxisTypeDateTime
             :description: QtCharts/QAbstractAxis-AxisType-AxisTypeDateTime-v.rst
 
@@ -97,6 +100,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtCharts/QAbstractAxis-labelsFont-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QAbstractAxis.labelsTruncated
+        :returns:
+            bool
+        :description: QtCharts/QAbstractAxis-labelsTruncated-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.labelsVisible
         :returns:
@@ -269,6 +277,11 @@
             visible: bool = True
         :description: QtCharts/QAbstractAxis-setTitleVisible-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setTruncateLabels
+        :args:
+            truncateLabels: bool = True
+        :description: QtCharts/QAbstractAxis-setTruncateLabels-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setVisible
         :args:
             visible: bool = True
@@ -316,6 +329,11 @@
         :returns:
             str
         :description: QtCharts/QAbstractAxis-titleText-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QAbstractAxis.truncateLabels
+        :returns:
+            bool
+        :description: QtCharts/QAbstractAxis-truncateLabels-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.type
         :returns:
@@ -366,6 +384,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtCharts/QAbstractAxis-labelsFontChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.labelsTruncatedChanged
+        :args:
+            bool
+        :description: QtCharts/QAbstractAxis-labelsTruncatedChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.labelsVisibleChanged
         :args:
@@ -446,6 +469,11 @@
         :args:
             bool
         :description: QtCharts/QAbstractAxis-titleVisibleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.truncateLabelsChanged
+        :args:
+            bool
+        :description: QtCharts/QAbstractAxis-truncateLabelsChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.visibleChanged
         :args:

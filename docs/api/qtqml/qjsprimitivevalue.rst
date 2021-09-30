@@ -132,6 +132,16 @@
             bool
         :description: QtQml/QJSPrimitiveValue-__ne__-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__neg__
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`
+        :description: QtQml/QJSPrimitiveValue-__neg__-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__pos__
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`
+        :description: QtQml/QJSPrimitiveValue-__pos__-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.strictlyEquals
         :args:
             :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`

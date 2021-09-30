@@ -50,6 +50,13 @@
             str
         :description: QtQml/QQmlContext-nameForObject-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlContext.objectForName
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QObject`
+        :description: QtQml/QQmlContext-objectForName-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlContext.parentContext
         :returns:
             :sip:ref:`~PyQt6.QtQml.QQmlContext`

@@ -4,6 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QEvent`
     :description: QtWidgets/QGraphicsSceneEvent-c.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneEvent.timestamp
+        :returns:
+            int
+        :description: QtWidgets/QGraphicsSceneEvent-timestamp-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneEvent.widget
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`

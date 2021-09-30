@@ -39,6 +39,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLibraryInfo.LibraryPath.Qml2ImportsPath
             :description: QtCore/QLibraryInfo-LibraryPath-Qml2ImportsPath-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLibraryInfo.LibraryPath.QmlImportsPath
+            :description: QtCore/QLibraryInfo-LibraryPath-QmlImportsPath-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLibraryInfo.LibraryPath.SettingsPath
             :description: QtCore/QLibraryInfo-LibraryPath-SettingsPath-v.rst
 

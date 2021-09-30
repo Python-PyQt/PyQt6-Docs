@@ -214,6 +214,11 @@
             bool
         :description: QtCore/QFileInfo-isWritable-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QFileInfo.junctionTarget
+        :returns:
+            str
+        :description: QtCore/QFileInfo-junctionTarget-f.rst
+
     .. sip:method:: PyQt6.QtCore.QFileInfo.lastModified
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`

@@ -47,6 +47,19 @@
             int
         :description: QtCharts/QBarSet-count-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QBarSet.deselectAllBars
+        :description: QtCharts/QBarSet-deselectAllBars-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.deselectBar
+        :args:
+            int
+        :description: QtCharts/QBarSet-deselectBar-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.deselectBars
+        :args:
+            Iterable[int]
+        :description: QtCharts/QBarSet-deselectBars-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QBarSet.__getitem__
         :args:
             int
@@ -59,6 +72,13 @@
             int
             float
         :description: QtCharts/QBarSet-insert-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.isBarSelected
+        :args:
+            int
+        :returns:
+            bool
+        :description: QtCharts/QBarSet-isBarSelected-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.label
         :returns:
@@ -109,6 +129,35 @@
             float
         :description: QtCharts/QBarSet-replace-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QBarSet.selectAllBars
+        :description: QtCharts/QBarSet-selectAllBars-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.selectBar
+        :args:
+            int
+        :description: QtCharts/QBarSet-selectBar-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.selectBars
+        :args:
+            Iterable[int]
+        :description: QtCharts/QBarSet-selectBars-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.selectedBars
+        :returns:
+            List[int]
+        :description: QtCharts/QBarSet-selectedBars-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.selectedColor
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColor`
+        :description: QtCharts/QBarSet-selectedColor-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.setBarSelected
+        :args:
+            int
+            bool
+        :description: QtCharts/QBarSet-setBarSelected-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QBarSet.setBorderColor
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
@@ -149,10 +198,20 @@
             Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
         :description: QtCharts/QBarSet-setPen-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QBarSet.setSelectedColor
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBarSet-setSelectedColor-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QBarSet.sum
         :returns:
             float
         :description: QtCharts/QBarSet-sum-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QBarSet.toggleSelection
+        :args:
+            Iterable[int]
+        :description: QtCharts/QBarSet-toggleSelection-f.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.borderColorChanged
         :args:
@@ -209,6 +268,16 @@
         :args:
             int
         :description: QtCharts/QBarSet-released-s.rst
+
+    .. sip:signal:: PyQt6.QtCharts.QBarSet.selectedBarsChanged
+        :args:
+            Iterable[int]
+        :description: QtCharts/QBarSet-selectedBarsChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtCharts.QBarSet.selectedColorChanged
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBarSet-selectedColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.valueChanged
         :args:

@@ -16,8 +16,20 @@
         .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapeFromSeries
             :description: QtCharts/QLegend-MarkerShape-MarkerShapeFromSeries-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapePentagon
+            :description: QtCharts/QLegend-MarkerShape-MarkerShapePentagon-v.rst
+
         .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapeRectangle
             :description: QtCharts/QLegend-MarkerShape-MarkerShapeRectangle-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapeRotatedRectangle
+            :description: QtCharts/QLegend-MarkerShape-MarkerShapeRotatedRectangle-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapeStar
+            :description: QtCharts/QLegend-MarkerShape-MarkerShapeStar-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QLegend.MarkerShape.MarkerShapeTriangle
+            :description: QtCharts/QLegend-MarkerShape-MarkerShapeTriangle-v.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.alignment
         :returns:
@@ -64,6 +76,11 @@
         :returns:
             bool
         :description: QtCharts/QLegend-isBackgroundVisible-f.rst
+
+    .. sip:method:: PyQt6.QtCharts.QLegend.isInteractive
+        :returns:
+            bool
+        :description: QtCharts/QLegend-isInteractive-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.labelBrush
         :returns:
@@ -134,6 +151,11 @@
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtCharts/QLegend-setFont-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QLegend.setInteractive
+        :args:
+            bool
+        :description: QtCharts/QLegend-setInteractive-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QLegend.setLabelBrush
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
@@ -174,6 +196,11 @@
             bool
         :description: QtCharts/QLegend-showToolTips-f.rst
 
+    .. sip:signal:: PyQt6.QtCharts.QLegend.attachedToChartChanged
+        :args:
+            bool
+        :description: QtCharts/QLegend-attachedToChartChanged-s.rst
+
     .. sip:signal:: PyQt6.QtCharts.QLegend.backgroundVisibleChanged
         :args:
             bool
@@ -193,6 +220,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtCharts/QLegend-fontChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtCharts.QLegend.interactiveChanged
+        :args:
+            bool
+        :description: QtCharts/QLegend-interactiveChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.labelColorChanged
         :args:

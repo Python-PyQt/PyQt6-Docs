@@ -122,6 +122,11 @@
             object
         :description: QtCore/QMetaMethod-invoke-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaMethod.isConst
+        :returns:
+            bool
+        :description: QtCore/QMetaMethod-isConst-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaMethod.isValid
         :returns:
             bool

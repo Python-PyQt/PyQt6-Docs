@@ -25,6 +25,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QInputDevice.Capability.NormalizedPosition
             :description: QtGui/QInputDevice-Capability-NormalizedPosition-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QInputDevice.Capability.PixelScroll
+            :description: QtGui/QInputDevice-Capability-PixelScroll-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QInputDevice.Capability.Position
             :description: QtGui/QInputDevice-Capability-Position-v.rst
 

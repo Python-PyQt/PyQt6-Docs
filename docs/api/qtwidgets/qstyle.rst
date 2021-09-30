@@ -370,6 +370,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_LayoutVerticalSpacing
             :description: QtWidgets/QStyle-PixelMetric-PM_LayoutVerticalSpacing-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_LineEditIconSize
+            :description: QtWidgets/QStyle-PixelMetric-PM_LineEditIconSize-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_ListViewIconSize
             :description: QtWidgets/QStyle-PixelMetric-PM_ListViewIconSize-v.rst
 

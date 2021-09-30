@@ -222,6 +222,11 @@
         :static:
         :description: QtCore/QMetaObject-invokeMethod-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaObject.metaType
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :description: QtCore/QMetaObject-metaType-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaObject.method
         :args:
             int

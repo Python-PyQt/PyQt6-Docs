@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtCharts.QChartView.RubberBand
         :description: QtCharts/QChartView-RubberBand-e.rst
 
+        .. sip:enum-member:: PyQt6.QtCharts.QChartView.RubberBand.ClickThroughRubberBand
+            :description: QtCharts/QChartView-RubberBand-ClickThroughRubberBand-v.rst
+
         .. sip:enum-member:: PyQt6.QtCharts.QChartView.RubberBand.HorizontalRubberBand
             :description: QtCharts/QChartView-RubberBand-HorizontalRubberBand-v.rst
 

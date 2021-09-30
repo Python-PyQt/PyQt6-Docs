@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtNetwork.QLocalServer.SocketOption
         :description: QtNetwork/QLocalServer-SocketOption-e.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.AbstractNamespaceOption
+            :description: QtNetwork/QLocalServer-SocketOption-AbstractNamespaceOption-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QLocalServer.SocketOption.GroupAccessOption
             :description: QtNetwork/QLocalServer-SocketOption-GroupAccessOption-v.rst
 

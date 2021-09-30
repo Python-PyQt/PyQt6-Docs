@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtNetwork.QNetworkInformation.Feature
         :description: QtNetwork/QNetworkInformation-Feature-e.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInformation.Feature.CaptivePortal
+            :description: QtNetwork/QNetworkInformation-Feature-CaptivePortal-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkInformation.Feature.Reachability
             :description: QtNetwork/QNetworkInformation-Feature-Reachability-v.rst
 
@@ -45,6 +48,11 @@
         :static:
         :description: QtNetwork/QNetworkInformation-instance-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.isBehindCaptivePortal
+        :returns:
+            bool
+        :description: QtNetwork/QNetworkInformation-isBehindCaptivePortal-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.load
         :args:
             str
@@ -72,6 +80,11 @@
         :returns:
             bool
         :description: QtNetwork/QNetworkInformation-supports-f.rst
+
+    .. sip:signal:: PyQt6.QtNetwork.QNetworkInformation.isBehindCaptivePortalChanged
+        :args:
+            bool
+        :description: QtNetwork/QNetworkInformation-isBehindCaptivePortalChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QNetworkInformation.reachabilityChanged
         :args:

@@ -189,6 +189,11 @@
     .. sip:method:: PyQt6.QtQml.QQmlEngine.trimComponentCache
         :description: QtQml/QQmlEngine-trimComponentCache-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlEngine.urlInterceptors
+        :returns:
+            List[:sip:ref:`~PyQt6.QtQml.QQmlAbstractUrlInterceptor`]
+        :description: QtQml/QQmlEngine-urlInterceptors-f.rst
+
     .. sip:signal:: PyQt6.QtQml.QQmlEngine.exit
         :args:
             int

@@ -972,6 +972,9 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImQueryInput
             :description: QtCore/Qt-InputMethodQuery-ImQueryInput-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImReadOnly
+            :description: QtCore/Qt-InputMethodQuery-ImReadOnly-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.Qt.InputMethodQuery.ImSurroundingText
             :description: QtCore/Qt-InputMethodQuery-ImSurroundingText-v.rst
 

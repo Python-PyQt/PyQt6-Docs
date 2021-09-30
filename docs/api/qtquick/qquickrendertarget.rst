@@ -18,6 +18,16 @@
             bool
         :description: QtQuick/QQuickRenderTarget-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromOpenGLRenderBuffer
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtCore.QSize`
+            sampleCount: int = 1
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
+        :static:
+        :description: QtQuick/QQuickRenderTarget-fromOpenGLRenderBuffer-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromOpenGLTexture
         :args:
             int

@@ -14,6 +14,11 @@
             int
         :description: QtWidgets/QGraphicsSceneWheelEvent-delta-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.isInverted
+        :returns:
+            bool
+        :description: QtWidgets/QGraphicsSceneWheelEvent-isInverted-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.modifiers
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
@@ -23,6 +28,16 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.Orientation`
         :description: QtWidgets/QGraphicsSceneWheelEvent-orientation-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.phase
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.ScrollPhase`
+        :description: QtWidgets/QGraphicsSceneWheelEvent-phase-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.pixelDelta
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtWidgets/QGraphicsSceneWheelEvent-pixelDelta-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSceneWheelEvent.pos
         :returns:

@@ -170,6 +170,11 @@
             bool
         :description: QtQml/QJSValue-isUndefined-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSValue.isUrl
+        :returns:
+            bool
+        :description: QtQml/QJSValue-isUrl-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSValue.isVariant
         :returns:
             bool

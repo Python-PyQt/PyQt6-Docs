@@ -122,18 +122,18 @@
         :args:
             Any
             role: int = :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.UserRole`
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchExactly|Qt.MatchCaseSensitive
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = static_cast<QFlags<Qt.MatchFlag>>(Qt.MatchExactly|Qt.MatchCaseSensitive)
         :returns:
             int
-        :description: QtWidgets/QComboBox-findData-f-1.rst
+        :description: QtWidgets/QComboBox-findData-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.findText
         :args:
             str
-            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchExactly|Qt.MatchCaseSensitive
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = static_cast<QFlags<Qt.MatchFlag>>(Qt.MatchExactly|Qt.MatchCaseSensitive)
         :returns:
             int
-        :description: QtWidgets/QComboBox-findText-f-1.rst
+        :description: QtWidgets/QComboBox-findText-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.focusInEvent
         :args:

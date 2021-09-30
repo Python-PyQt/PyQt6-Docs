@@ -112,6 +112,11 @@
             int
         :description: QtQml/QQmlProperty-index-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlProperty.isBindable
+        :returns:
+            bool
+        :description: QtQml/QQmlProperty-isBindable-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlProperty.isDesignable
         :returns:
             bool

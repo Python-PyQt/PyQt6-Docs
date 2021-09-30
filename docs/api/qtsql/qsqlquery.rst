@@ -236,6 +236,11 @@
             int
         :description: QtSql/QSqlQuery-size-f.rst
 
+    .. sip:method:: PyQt6.QtSql.QSqlQuery.swap
+        :args:
+            :sip:ref:`~PyQt6.QtSql.QSqlQuery`
+        :description: QtSql/QSqlQuery-swap-f.rst
+
     .. sip:method:: PyQt6.QtSql.QSqlQuery.value
         :args:
             int

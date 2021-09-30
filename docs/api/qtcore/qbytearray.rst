@@ -613,10 +613,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toHex
         :args:
-            separator: str = '\x00'
+            separator: str = '\000'
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-toHex-f.rst
+        :description: QtCore/QByteArray-toHex-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toInt
         :args:

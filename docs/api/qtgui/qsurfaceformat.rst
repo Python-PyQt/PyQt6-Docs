@@ -12,6 +12,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.DeprecatedFunctions
             :description: QtGui/QSurfaceFormat-FormatOption-DeprecatedFunctions-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.ProtectedContent
+            :description: QtGui/QSurfaceFormat-FormatOption-ProtectedContent-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QSurfaceFormat.FormatOption.ResetNotification
             :description: QtGui/QSurfaceFormat-FormatOption-ResetNotification-v.rst
 

@@ -55,6 +55,15 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QLocalSocket.LocalSocketState.UnconnectedState
             :description: QtNetwork/QLocalSocket-LocalSocketState-UnconnectedState-v.rst
 
+    .. sip:enum:: PyQt6.QtNetwork.QLocalSocket.SocketOption
+        :description: QtNetwork/QLocalSocket-SocketOption-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalSocket.SocketOption.AbstractNamespaceOption
+            :description: QtNetwork/QLocalSocket-SocketOption-AbstractNamespaceOption-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QLocalSocket.SocketOption.NoOptions
+            :description: QtNetwork/QLocalSocket-SocketOption-NoOptions-v.rst
+
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -163,6 +172,11 @@
             bool
         :description: QtNetwork/QLocalSocket-setSocketDescriptor-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QLocalSocket.setSocketOptions
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.SocketOption`
+        :description: QtNetwork/QLocalSocket-setSocketOptions-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.skipData
         :args:
             int
@@ -174,6 +188,11 @@
         :returns:
             PyQt6.sip.voidptr
         :description: QtNetwork/QLocalSocket-socketDescriptor-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QLocalSocket.socketOptions
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QLocalSocket.SocketOption`
+        :description: QtNetwork/QLocalSocket-socketOptions-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.state
         :returns:

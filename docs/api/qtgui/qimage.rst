@@ -79,6 +79,18 @@
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGB888
             :description: QtGui/QImage-Format-Format_RGB888-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA16FPx4
+            :description: QtGui/QImage-Format-Format_RGBA16FPx4-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA16FPx4_Premultiplied
+            :description: QtGui/QImage-Format-Format_RGBA16FPx4_Premultiplied-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA32FPx4
+            :description: QtGui/QImage-Format-Format_RGBA32FPx4-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA32FPx4_Premultiplied
+            :description: QtGui/QImage-Format-Format_RGBA32FPx4_Premultiplied-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA64
             :description: QtGui/QImage-Format-Format_RGBA64-v.rst
 
@@ -90,6 +102,12 @@
 
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBA8888_Premultiplied
             :description: QtGui/QImage-Format-Format_RGBA8888_Premultiplied-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBX16FPx4
+            :description: QtGui/QImage-Format-Format_RGBX16FPx4-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBX32FPx4
+            :description: QtGui/QImage-Format-Format_RGBX32FPx4-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_RGBX64
             :description: QtGui/QImage-Format-Format_RGBX64-v.rst
@@ -336,6 +354,11 @@
             int
         :description: QtGui/QImage-depth-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QImage.deviceIndependentSize
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtGui/QImage-deviceIndependentSize-f.rst
+
     .. sip:method:: PyQt6.QtGui.QImage.devicePixelRatio
         :returns:
             float
@@ -360,6 +383,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fill
         :args:
+            int
+        :description: QtGui/QImage-fill-f-2.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.fill
+        :args:
             :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`
         :description: QtGui/QImage-fill-f.rst
 
@@ -367,11 +395,6 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
         :description: QtGui/QImage-fill-f-3.rst
-
-    .. sip:method:: PyQt6.QtGui.QImage.fill
-        :args:
-            int
-        :description: QtGui/QImage-fill-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.format
         :returns:

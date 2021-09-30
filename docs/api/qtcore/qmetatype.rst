@@ -261,6 +261,9 @@
     .. sip:enum:: PyQt6.QtCore.QMetaType.TypeFlag
         :description: QtCore/QMetaType-TypeFlag-e.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsConst
+            :description: QtCore/QMetaType-TypeFlag-IsConst-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.IsEnumeration
             :description: QtCore/QMetaType-TypeFlag-IsEnumeration-v.rst
 

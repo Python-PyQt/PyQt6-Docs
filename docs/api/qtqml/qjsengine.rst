@@ -116,6 +116,13 @@
             :sip:ref:`~PyQt6.QtQml.QJSValue`
         :description: QtQml/QJSEngine-newQObject-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSEngine.newSymbol
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSValue`
+        :description: QtQml/QJSEngine-newSymbol-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSEngine.objectOwnership
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
@@ -123,6 +130,14 @@
             :sip:ref:`~PyQt6.QtQml.QJSEngine.ObjectOwnership`
         :static:
         :description: QtQml/QJSEngine-objectOwnership-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSEngine.registerModule
+        :args:
+            str
+            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str]
+        :returns:
+            bool
+        :description: QtQml/QJSEngine-registerModule-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.setInterrupted
         :args:

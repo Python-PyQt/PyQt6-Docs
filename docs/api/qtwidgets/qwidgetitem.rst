@@ -46,6 +46,13 @@
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtWidgets/QWidgetItem-maximumSize-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QWidgetItem.minimumHeightForWidth
+        :args:
+            int
+        :returns:
+            int
+        :description: QtWidgets/QWidgetItem-minimumHeightForWidth-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QWidgetItem.minimumSize
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`

@@ -61,6 +61,11 @@
             int
         :description: QtCore/QThreadPool-setStackSize-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QThreadPool.setThreadPriority
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QThread.Priority`
+        :description: QtCore/QThreadPool-setThreadPriority-f.rst
+
     .. sip:method:: PyQt6.QtCore.QThreadPool.stackSize
         :returns:
             int
@@ -77,6 +82,11 @@
             Callable[[], None]
             priority: int = 0
         :description: QtCore/QThreadPool-start-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QThreadPool.threadPriority
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QThread.Priority`
+        :description: QtCore/QThreadPool-threadPriority-f.rst
 
     .. sip:method:: PyQt6.QtCore.QThreadPool.tryStart
         :args:

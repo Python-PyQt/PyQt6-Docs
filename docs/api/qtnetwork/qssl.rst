@@ -153,6 +153,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.Dtls
             :description: QtNetwork/QSsl-ImplementedClass-Dtls-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.DtlsCookie
+            :description: QtNetwork/QSsl-ImplementedClass-DtlsCookie-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.ImplementedClass.EllipticCurve
             :description: QtNetwork/QSsl-ImplementedClass-EllipticCurve-v.rst
 

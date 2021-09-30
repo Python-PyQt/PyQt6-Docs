@@ -198,6 +198,11 @@
             Any
         :description: QtNetwork/QNetworkRequest-attribute-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.decompressedSafetyCheckThreshold
+        :returns:
+            int
+        :description: QtNetwork/QNetworkRequest-decompressedSafetyCheckThreshold-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.__eq__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
@@ -268,6 +273,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.Attribute`
             Any
         :description: QtNetwork/QNetworkRequest-setAttribute-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setDecompressedSafetyCheckThreshold
+        :args:
+            int
+        :description: QtNetwork/QNetworkRequest-setDecompressedSafetyCheckThreshold-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setHeader
         :args:

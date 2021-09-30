@@ -39,6 +39,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.AnyCountry
             :description: QtCore/QLocale-Country-AnyCountry-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.AnyTerritory
+            :description: QtCore/QLocale-Country-AnyTerritory-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.Argentina
             :description: QtCore/QLocale-Country-Argentina-v.rst
 
@@ -528,6 +531,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.NauruCountry
             :description: QtCore/QLocale-Country-NauruCountry-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.NauruTerritory
+            :description: QtCore/QLocale-Country-NauruTerritory-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.Nepal
             :description: QtCore/QLocale-Country-Nepal-v.rst
 
@@ -765,6 +771,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.TokelauCountry
             :description: QtCore/QLocale-Country-TokelauCountry-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.TokelauTerritory
+            :description: QtCore/QLocale-Country-TokelauTerritory-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.Tonga
             :description: QtCore/QLocale-Country-Tonga-v.rst
 
@@ -788,6 +797,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.TuvaluCountry
             :description: QtCore/QLocale-Country-TuvaluCountry-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.TuvaluTerritory
+            :description: QtCore/QLocale-Country-TuvaluTerritory-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Country.Uganda
             :description: QtCore/QLocale-Country-Uganda-v.rst
@@ -2502,6 +2514,14 @@
         :static:
         :description: QtCore/QLocale-codeToScript-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLocale.codeToTerritory
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :static:
+        :description: QtCore/QLocale-codeToTerritory-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLocale.collation
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale`
@@ -2664,6 +2684,11 @@
             str
         :description: QtCore/QLocale-nativeLanguageName-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLocale.nativeTerritoryName
+        :returns:
+            str
+        :description: QtCore/QLocale-nativeTerritoryName-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLocale.__ne__
         :args:
             :sip:ref:`~PyQt6.QtCore.QLocale`
@@ -2762,6 +2787,27 @@
             :sip:ref:`~PyQt6.QtCore.QLocale`
         :static:
         :description: QtCore/QLocale-system-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.territory
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :description: QtCore/QLocale-territory-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.territoryToCode
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QLocale-territoryToCode-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.territoryToString
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QLocale-territoryToString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.textDirection
         :returns:

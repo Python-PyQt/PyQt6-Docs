@@ -41,3 +41,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QMouseEvent`
         :description: QtGui/QMouseEvent-clone-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QMouseEvent.flags
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.MouseEventFlag`
+        :description: QtGui/QMouseEvent-flags-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QMouseEvent.pos
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGui/QMouseEvent-pos-f.rst

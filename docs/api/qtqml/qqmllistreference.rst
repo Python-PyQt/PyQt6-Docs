@@ -100,6 +100,11 @@
             bool
         :description: QtQml/QQmlListReference-isValid-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlListReference.__len__
+        :returns:
+            int
+        :description: QtQml/QQmlListReference-__len__-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlListReference.listElementType
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMetaObject`

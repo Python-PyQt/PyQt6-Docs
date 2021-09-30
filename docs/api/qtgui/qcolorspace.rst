@@ -119,6 +119,11 @@
             Iterable[int]
         :description: QtGui/QColorSpace-__init__-f-8.rst
 
+    .. sip:method:: PyQt6.QtGui.QColorSpace.description
+        :returns:
+            str
+        :description: QtGui/QColorSpace-description-f.rst
+
     .. sip:method:: PyQt6.QtGui.QColorSpace.__eq__
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
@@ -160,6 +165,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.Primaries`
         :description: QtGui/QColorSpace-primaries-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.setDescription
+        :args:
+            str
+        :description: QtGui/QColorSpace-setDescription-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setPrimaries
         :args:

@@ -41,6 +41,9 @@
             :sip:ref:`~PyQt6.QtCore.QEvent`
         :description: QtWidgets/QToolButton-changeEvent-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QToolButton.checkStateSet
+        :description: QtWidgets/QToolButton-checkStateSet-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QToolButton.defaultAction
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`

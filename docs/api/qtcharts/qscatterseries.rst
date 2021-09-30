@@ -10,8 +10,20 @@
         .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapeCircle
             :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapeCircle-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapePentagon
+            :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapePentagon-v.rst
+
         .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapeRectangle
             :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapeRectangle-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapeRotatedRectangle
+            :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapeRotatedRectangle-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapeStar
+            :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapeStar-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCharts.QScatterSeries.MarkerShape.MarkerShapeTriangle
+            :description: QtCharts/QScatterSeries-MarkerShape-MarkerShapeTriangle-v.rst
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.__init__
         :args:

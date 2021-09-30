@@ -54,9 +54,9 @@
             int
             str
             str
-            country: :sip:ref:`~PyQt6.QtCore.QLocale.Country` = :sip:ref:`~PyQt6.QtCore.QLocale.Country.AnyCountry`
+            territory: :sip:ref:`~PyQt6.QtCore.QLocale.Country` = :sip:ref:`~PyQt6.QtCore.QLocale.Country.AnyTerritory`
             comment: str = ''
-        :description: QtCore/QTimeZone-__init__-f-4.rst
+        :description: QtCore/QTimeZone-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.abbreviation
         :args:
@@ -230,6 +230,11 @@
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
         :description: QtCore/QTimeZone-systemTimeZoneId-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.territory
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Country`
+        :description: QtCore/QTimeZone-territory-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.transitions
         :args:

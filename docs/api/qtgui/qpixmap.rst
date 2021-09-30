@@ -99,6 +99,11 @@
     .. sip:method:: PyQt6.QtGui.QPixmap.detach
         :description: QtGui/QPixmap-detach-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPixmap.deviceIndependentSize
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtGui/QPixmap-deviceIndependentSize-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPixmap.devicePixelRatio
         :returns:
             float
