@@ -1,14 +1,12 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 477c19e5161230ad952d5b17cb7ddeb6
+    :digest: bed8a0409c03cc47108dbb58f0049c8e
 
 This enum type specifies the storage format used by :sip:ref:`~PyQt6.QtCore.QSettings`.
 
-On Unix,  and  mean the same thing, except that the file extension is different (``.conf`` for , ``.ini`` for ).
-
 The INI file format is a Windows file format that Qt supports on all platforms. In the absence of an INI standard, we try to follow what Microsoft does, with the following exceptions:
 
-* If you store types that `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ can't convert to QString (e.g., :sip:ref:`~PyQt6.QtCore.QPoint`, :sip:ref:`~PyQt6.QtCore.QRect`, and :sip:ref:`~PyQt6.QtCore.QSize`), Qt uses an ``@``-based syntax to encode the type. For example:
+* If you store types that :sip:ref:`~PyQt6.QtCore.QVariant` can't convert to QString (e.g., :sip:ref:`~PyQt6.QtCore.QPoint`, :sip:ref:`~PyQt6.QtCore.QRect`, and :sip:ref:`~PyQt6.QtCore.QSize`), Qt uses an ``@``-based syntax to encode the type. For example:
 
   .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
       :lines: 106-106

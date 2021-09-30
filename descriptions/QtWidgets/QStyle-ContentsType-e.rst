@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 9179d7256235e8d1d5d8fde8d00373cf
+    :digest: 04da1010b716e8314f58b05191ad337b
 
 This enum describes the available contents types. These are used to calculate sizes for the contents of various widgets.
 

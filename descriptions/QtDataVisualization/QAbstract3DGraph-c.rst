@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Window and render loop for graphs
-    :digest: 8db3daace789d8b79dc70935bde8f71a
+    :digest: 14bf2f6b7170bdb4a193030c87c1467f
 
 The :sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DGraph` class provides a window and render loop for graphs.
 
@@ -9,7 +9,7 @@ This class subclasses a :sip:ref:`~PyQt6.QtGui.QWindow` and provides render loop
 
 You should not need to use this class directly, but one of its subclasses instead.
 
-Anti-aliasing is turned on by default on C++, except in OpenGL ES2 environments, where anti-aliasing is not supported by Qt Data Visualization. To specify non-default anti-aliasing for a graph, give a custom surface format as a constructor parameter. You can use the convenience function ``QtDataVisualization::qDefaultSurfaceFormat()`` to create the surface format object.
+Anti-aliasing is turned on by default on C++, except in OpenGL ES2 environments, where anti-aliasing is not supported by Qt Data Visualization. To specify non-default anti-aliasing for a graph, give a custom surface format as a constructor parameter. You can use the convenience function ``qDefaultSurfaceFormat()`` to create the surface format object.
 
 **Note:** :sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DGraph` sets window flag ``Qt::FramelessWindowHint`` on by default. If you want to display graph windows as standalone windows with regular window frame, clear this flag after constructing the graph. For example:
 

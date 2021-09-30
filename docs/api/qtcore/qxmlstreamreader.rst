@@ -114,8 +114,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.attributes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QXmlStreamAttribute`]
-        :description: QtCore/QXmlStreamReader-attributes-f.rst
+            :sip:ref:`~PyQt6.QtCore.QXmlStreamAttributes`
+        :description: QtCore/QXmlStreamReader-attributes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.characterOffset
         :returns:

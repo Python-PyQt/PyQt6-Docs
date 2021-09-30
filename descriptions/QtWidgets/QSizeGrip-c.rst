@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Resize handle for resizing top-level windows
-    :digest: d1e473a3c040c9bbfe856ba615fb2c3a
+    :digest: 9a51400f02d470e9c40ad146a0bdf02c
 
 The :sip:ref:`~PyQt6.QtWidgets.QSizeGrip` class provides a resize handle for resizing top-level windows.
 
@@ -13,11 +13,13 @@ Note that :sip:ref:`~PyQt6.QtWidgets.QStatusBar` already uses this widget, so if
 
 On some platforms the size grip automatically hides itself when the window is shown full screen or maximised.
 
+**Note:** On macOS, size grips are no longer part of the human interface guideline, and won't show unless used in a :sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`. Set another style on size grips that you want to be visible in main windows.
+
 +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 | |image-fusion-statusbar-sizegrip-png| | A size grip widget at the bottom-right corner of a main window, shown in the `Fusion widget style <https://doc.qt.io/qt-6/gallery.html>`_. |
 +---------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
 
-The :sip:ref:`~PyQt6.QtWidgets.QSizeGrip` class inherits `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ and reimplements the :sip:ref:`~PyQt6.QtWidgets.QWidget.mousePressEvent` and :sip:ref:`~PyQt6.QtWidgets.QWidget.mouseMoveEvent` functions to feature the resize functionality, and the :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` function to render the size grip widget.
+The :sip:ref:`~PyQt6.QtWidgets.QSizeGrip` class inherits :sip:ref:`~PyQt6.QtWidgets.QWidget` and reimplements the :sip:ref:`~PyQt6.QtWidgets.QWidget.mousePressEvent` and :sip:ref:`~PyQt6.QtWidgets.QWidget.mouseMoveEvent` functions to feature the resize functionality, and the :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` function to render the size grip widget.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QStatusBar`, :sip:ref:`~PyQt6.QtWidgets.QWidget.windowState`.
 

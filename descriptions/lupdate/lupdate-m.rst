@@ -8,7 +8,7 @@ translations of messages in Python source (:file:`.py`) files and Qt Designer
 source (:file:`.ui`) files.
 
 
-.. py:function:: PyQt6.lupdate.lupdate(sources, translation_files, no_obsolete=False, no_summary=True, verbose=False)
+.. py:function:: PyQt6.lupdate.lupdate(sources, translation_files, no_obsolete=False, no_summary=True, verbose=False, excludes=None)
 
     Create or update a sequence of translation files from a sequence of Python
     source files, Qt Designer Source files or directories containing source
@@ -34,3 +34,7 @@ source (:file:`.ui`) files.
     :param bool verbose:
         specifies that progress messages should be displayed to
         :py:data:`~sys.stdout`.
+    :param list[str] excludes:
+        a list of UNIX shell-style patterns that are matched against the source
+        files found when recursively searching a directory.  If a source file
+        matches then it is excluded.

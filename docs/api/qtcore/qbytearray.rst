@@ -53,12 +53,6 @@
             str
         :description: QtCore/QByteArray-__init__-f-2.rst
 
-    .. sip:method:: PyQt6.QtCore.QByteArray.__init__
-        :args:
-            str
-            size: int = -1
-        :description: QtCore/QByteArray-__init__-f-3.rst
-
     .. sip:method:: PyQt6.QtCore.QByteArray.__add__
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`

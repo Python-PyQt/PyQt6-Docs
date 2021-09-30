@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Riverbank Computing Limited
+# Copyright (c) 2021, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -1379,6 +1379,9 @@ def declaration(env, fq_py_name, obj_type, include_scope=False, anchor=None, dec
     py_name = parts[-1]
 
     desc = addnodes.desc()
+
+    # This is needed by Sphinx v4.
+    desc['domain'] = 'sip'
 
     # This determines the HTML class of the description list.
     desc['objtype'] = obj_type

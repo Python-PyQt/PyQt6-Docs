@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeAttributes
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QXmlStreamAttribute`]
-        :description: QtCore/QXmlStreamWriter-writeAttributes-f.rst
+            :sip:ref:`~PyQt6.QtCore.QXmlStreamAttributes`
+        :description: QtCore/QXmlStreamWriter-writeAttributes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeCDATA
         :args:

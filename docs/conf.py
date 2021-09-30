@@ -34,7 +34,7 @@ copyright = '{0}, Riverbank Computing Limited, The Qt Company'.format(
 # The short X.Y version.
 version = '6.1'
 # The full version, including alpha/beta/rc tags.
-release = version
+release = '6.1.1'
 
 # The number of columns in a table of class names.
 sip_class_table_columns = 4
@@ -61,7 +61,7 @@ html_theme = 'riverbank'
 html_theme_path = [sphinx_root]
 
 # The name for this set of Sphinx documents.
-html_title = "PyQt v{} Reference Guide".format(version)
+html_title = "PyQt Documentation v{}".format(release)
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'PyQtdoc'
