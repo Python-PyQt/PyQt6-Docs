@@ -7,6 +7,15 @@
     .. sip:enum:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.DiscoveryMethod
         :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-DiscoveryMethod-e.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.DiscoveryMethod.ClassicMethod
+            :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-DiscoveryMethod-ClassicMethod-v.rst
+
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.DiscoveryMethod.LowEnergyMethod
+            :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-DiscoveryMethod-LowEnergyMethod-v.rst
+
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.DiscoveryMethod.NoMethod
+            :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-DiscoveryMethod-NoMethod-v.rst
+
     .. sip:enum:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.Error
         :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-Error-e.rst
 

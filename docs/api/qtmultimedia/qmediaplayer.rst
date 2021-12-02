@@ -22,6 +22,15 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.Error.ResourceError
             :description: QtMultimedia/QMediaPlayer-Error-ResourceError-v.rst
 
+    .. sip:enum:: PyQt6.QtMultimedia.QMediaPlayer.Loops
+        :description: QtMultimedia/QMediaPlayer-Loops-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.Loops.Infinite
+            :description: QtMultimedia/QMediaPlayer-Loops-Infinite-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.Loops.Once
+            :description: QtMultimedia/QMediaPlayer-Loops-Once-v.rst
+
     .. sip:enum:: PyQt6.QtMultimedia.QMediaPlayer.MediaStatus
         :description: QtMultimedia/QMediaPlayer-MediaStatus-e.rst
 
@@ -136,6 +145,11 @@
             bool
         :description: QtMultimedia/QMediaPlayer-isSeekable-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.loops
+        :returns:
+            int
+        :description: QtMultimedia/QMediaPlayer-loops-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.mediaStatus
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.MediaStatus`
@@ -186,6 +200,11 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QAudioOutput`
         :description: QtMultimedia/QMediaPlayer-setAudioOutput-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setLoops
+        :args:
+            int
+        :description: QtMultimedia/QMediaPlayer-setLoops-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setPlaybackRate
         :args:
@@ -285,6 +304,9 @@
         :args:
             bool
         :description: QtMultimedia/QMediaPlayer-hasVideoChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.loopsChanged
+        :description: QtMultimedia/QMediaPlayer-loopsChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.mediaStatusChanged
         :args:

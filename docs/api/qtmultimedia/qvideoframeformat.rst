@@ -78,6 +78,9 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_SamplerExternalOES
             :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_SamplerExternalOES-v.rst
 
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_SamplerRect
+            :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_SamplerRect-v.rst
+
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_UYVY
             :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_UYVY-v.rst
 
