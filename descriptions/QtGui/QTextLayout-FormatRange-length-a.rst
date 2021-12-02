@@ -1,5 +1,5 @@
 .. sip:attribute-description::
     :status: todo
-    :digest: c6d18c8938cdb7ac4ea7474089ca4125
+    :digest: e6619fa5f559a8098646856b14925585
 
-Specifies the numer of characters the format range spans.
+Specifies the number of characters the format range spans.

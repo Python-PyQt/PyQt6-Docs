@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Simple CBOR stream decoder, operating on either a QByteArray or QIODevice
-    :digest: 8236e9ff7f484e72aab7a01cbab13360
+    :digest: b922ef20f52344dd03d15290c3c01d3e
 
 The :sip:ref:`~PyQt6.QtCore.QCborStreamReader` class is a simple CBOR stream decoder, operating on either a :sip:ref:`~PyQt6.QtCore.QByteArray` or :sip:ref:`~PyQt6.QtCore.QIODevice`.
 
-This class can be used to decode a stream of CBOR content directly from either a :sip:ref:`~PyQt6.QtCore.QByteArray` or a :sip:ref:`~PyQt6.QtCore.QIODevice`. CBOR is the Concise Binary Object Representation, a very compact form of binary data encoding that is compatible with JSON. It was created by the IETF Constrained RESTful Environments (CoRE) WG, which has used it in many new RFCs. It is meant to be used alongside the `CoAP protocol <https://tools.ietf.org/html/rfc7252>`_.
+This class can be used to decode a stream of CBOR content directly from either a :sip:ref:`~PyQt6.QtCore.QByteArray` or a :sip:ref:`~PyQt6.QtCore.QIODevice`. CBOR is the Concise Binary Object Representation, a very compact form of binary data encoding that is compatible with JSON. It was created by the IETF Constrained RESTful Environments (CoRE) WG, which has used it in many new RFCs. It is meant to be used alongside the CoAP protocol.
 
 :sip:ref:`~PyQt6.QtCore.QCborStreamReader` provides a StAX-like API, similar to that of :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`. Using it requires a bit of knowledge of CBOR encoding. For a simpler API, see QCborValue and especially the decoding function QCborValue::fromCbor().
 
@@ -80,6 +80,6 @@ Dealing with invalid or incomplete CBOR streams
 
 Most errors detected by :sip:ref:`~PyQt6.QtCore.QCborStreamReader` during normal item parsing are not recoverable. The code using :sip:ref:`~PyQt6.QtCore.QCborStreamReader` may opt to handle the data that was properly decoded or it can opt to discard the entire data.
 
-The only recoverable error is :sip:ref:`~PyQt6.QtCore.QCborError.Code.EndOfFile`, which indicates that more data is required in order to complete the parsing. This situation is useful when data is being read from an asynchronous source, such as a pipe (`QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_) or a socket (\ :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtNetwork.QUdpSocket`, :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`, etc.). When more data arrives, the surrounding code needs to call either :sip:ref:`~PyQt6.QtCore.QCborStreamReader.addData`, if parsing from a :sip:ref:`~PyQt6.QtCore.QByteArray`, or :sip:ref:`~PyQt6.QtCore.QCborStreamReader.reparse`, if it is instead reading directly a the QIDOevice that now has more data available (see :sip:ref:`~PyQt6.QtCore.QCborStreamReader.setDevice`).
+The only recoverable error is :sip:ref:`~PyQt6.QtCore.QCborError.Code.EndOfFile`, which indicates that more data is required in order to complete the parsing. This situation is useful when data is being read from an asynchronous source, such as a pipe (\ :sip:ref:`~PyQt6.QtCore.QProcess`) or a socket (\ :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtNetwork.QUdpSocket`, :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`, etc.). When more data arrives, the surrounding code needs to call either :sip:ref:`~PyQt6.QtCore.QCborStreamReader.addData`, if parsing from a :sip:ref:`~PyQt6.QtCore.QByteArray`, or :sip:ref:`~PyQt6.QtCore.QCborStreamReader.reparse`, if it is instead reading directly a the QIDOevice that now has more data available (see :sip:ref:`~PyQt6.QtCore.QCborStreamReader.setDevice`).
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamWriter`, QCborValue, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 4025d4b058085720856b36eaa7fe05b0
+    :digest: d11048717164078ed6c507313a0a3681
 
 Changes the output of the default message handler.
 
@@ -55,8 +55,10 @@ The default *pattern* is "%{if-category}%{category}: %{endif}%{message}".
 
 The *pattern* can also be changed at runtime by setting the QT_MESSAGE_PATTERN environment variable; if both qSetMessagePattern() is called and QT_MESSAGE_PATTERN is set, the environment variable takes precedence.
 
+**Note:** The information for the placeholders ``category``, ``file``, ``function`` and ``line`` is only recorded in debug builds. Alternatively, ``QT_MESSAGELOGCONTEXT`` can be defined explicitly. For more information refer to the :sip:ref:`~PyQt6.QtCore.QMessageLogContext` documentation.
+
 **Note:** The message pattern only applies to unstructured logging, such as the default ``stderr`` output. Structured logging such as systemd will record the message as is, along with as much structured information as can be captured.
 
 Custom message handlers can use :sip:ref:`~PyQt6.QtCore.qFormatLogMessage` to take *pattern* into account.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.qInstallMessageHandler`, :sip:ref:`~PyQt6.QtCore.QLoggingCategory`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.qInstallMessageHandler`, :sip:ref:`~PyQt6.QtCore.QLoggingCategory`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`.

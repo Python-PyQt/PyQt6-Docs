@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 87a007924d1b6c89350097194e6e80b9
+    :digest: 834b5d0a6e2e80710db3ac2a3d8ffe4a
 
 This enum describes the various primitive elements. A primitive element is a common GUI element, such as a checkbox indicator or button bevel.
 

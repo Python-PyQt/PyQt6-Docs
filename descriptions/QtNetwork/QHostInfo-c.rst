@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Static functions for host name lookups
-    :digest: 876eaca2386ff64bc838ef2765581e93
+    :digest: ca8c7e564c8f71371d6d577416cfee96
 
 The :sip:ref:`~PyQt6.QtNetwork.QHostInfo` class provides static functions for host name lookups.
 
@@ -27,10 +27,10 @@ If you want a blocking lookup, use the :sip:ref:`~PyQt6.QtNetwork.QHostInfo.from
 
 To retrieve the name of the local host, use the static :sip:ref:`~PyQt6.QtNetwork.QHostInfo.localHostName` function.
 
-:sip:ref:`~PyQt6.QtNetwork.QHostInfo` uses the mechanisms provided by the operating system to perform the lookup. As per {https://tools.ietf.org/html/rfc6724}{RFC 6724} there is no guarantee that all IP addresses registered for a domain or host will be returned.
+:sip:ref:`~PyQt6.QtNetwork.QHostInfo` uses the mechanisms provided by the operating system to perform the lookup. As per RFC 6724 there is no guarantee that all IP addresses registered for a domain or host will be returned.
 
 **Note:** Since Qt 4.6.1 :sip:ref:`~PyQt6.QtNetwork.QHostInfo` is using multiple threads for DNS lookup instead of one dedicated DNS thread. This improves performance, but also changes the order of signal emissions when using :sip:ref:`~PyQt6.QtNetwork.QHostInfo.lookupHost` compared to previous versions of Qt.
 
 **Note:** Since Qt 4.6.3 :sip:ref:`~PyQt6.QtNetwork.QHostInfo` is using a small internal 60 second DNS cache for performance improvements.
 
-.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket`, `RFC 3492 <http://www.rfc-editor.org/rfc/rfc3492.txt>`_, `RFC 6724 <https://tools.ietf.org/html/rfc6724>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket`.

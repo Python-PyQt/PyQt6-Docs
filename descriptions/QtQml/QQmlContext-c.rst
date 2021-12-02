@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a context within a QML engine
-    :digest: ad83d85c8d0d5dcaaf886c2a516eb18f
+    :digest: daa7143b2b0678422fd1ac8de1c16824
 
 The :sip:ref:`~PyQt6.QtQml.QQmlContext` class defines a context within a QML engine.
 
@@ -17,10 +17,10 @@ Each :sip:ref:`~PyQt6.QtQml.QQmlContext` contains a set of properties, distinct 
     context->setContextProperty("myModel", &modelData);
 
     QQmlComponent component(&engine);
-    component.setData("import QtQuick 2.0\nListView { model: myModel }", QUrl());
+    component.setData("import QtQuick 2.0; ListView { model: myModel }", QUrl());
     QObject *window = component.create(context);
 
-Note it is the responsibility of the creator to delete any :sip:ref:`~PyQt6.QtQml.QQmlContext` it constructs. If the ``context`` object in the example is no longer needed when the ``window`` component instance is destroyed, the ``context`` must be destroyed explicitly. The simplest way to ensure this is to set ``window`` as the parent of ``context``.
+**Note:** It is the responsibility of the creator to delete any :sip:ref:`~PyQt6.QtQml.QQmlContext` it constructs. If the ``context`` object in the example is no longer needed when the ``window`` component instance is destroyed, the ``context`` must be destroyed explicitly. The simplest way to ensure this is to set ``window`` as the parent of ``context``.
 
 To simplify binding and maintaining larger data sets, a context object can be set on a :sip:ref:`~PyQt6.QtQml.QQmlContext`. All the properties of the context object are available by name in the context, as though they were all individually added through calls to :sip:ref:`~PyQt6.QtQml.QQmlContext.setContextProperty`. Changes to the property's values are detected through the property's notify signal. Setting a context object is both faster and easier than manually adding and maintaining context property values.
 
@@ -28,10 +28,10 @@ The following example has the same effect as the previous one, but it uses a con
 
 ::
 
-    class MyDataSet : ... {
-        ...
+    class MyDataSet : public QObject {
+        // ...
         Q_PROPERTY(QAbstractItemModel *myModel READ model NOTIFY modelChanged)
-        ...
+        // ...
     };
 
     MyDataSet myDataSet;
@@ -40,7 +40,7 @@ The following example has the same effect as the previous one, but it uses a con
     context->setContextObject(&myDataSet);
 
     QQmlComponent component(&engine);
-    component.setData("import QtQuick 2.0\nListView { model: myModel }", QUrl());
+    component.setData("import QtQuick 2.0; ListView { model: myModel }", QUrl());
     component.create(context);
 
 All properties added explicitly by :sip:ref:`~PyQt6.QtQml.QQmlContext.setContextProperty` take precedence over the context object's properties.
@@ -60,10 +60,10 @@ The following example defines two contexts - ``context1`` and ``context2``. The 
     QQmlContext *context1 = new QQmlContext(engine.rootContext());
     QQmlContext *context2 = new QQmlContext(context1);
 
-    context1->setContextProperty("a", 12);
-    context1->setContextProperty("b", 12);
+    context1->setContextProperty("a", 9001);
+    context1->setContextProperty("b", 9001);
 
-    context2->setContextProperty("b", 15);
+    context2->setContextProperty("b", 42);
 
 While QML objects instantiated in a context are not strictly owned by that context, their bindings are. If a context is destroyed, the property bindings of outstanding QML objects will stop evaluating.
 

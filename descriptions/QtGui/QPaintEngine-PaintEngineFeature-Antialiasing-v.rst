@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x00000400
-    :digest: 8e13acf3adc863c11cdfa36df9ce7dcf
+    :digest: 82ae1516fee1b0de4a297a3f14dadfa7
 
-The engine can use antialising to improve the appearance of rendered primitives.
+The engine can use antialiasing to improve the appearance of rendered primitives.

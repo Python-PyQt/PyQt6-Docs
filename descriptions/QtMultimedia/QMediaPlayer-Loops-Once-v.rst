@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: c49b9c0f1845aa28c6674bc6bfb36664
 
-TODO
+Play the media once (the default).

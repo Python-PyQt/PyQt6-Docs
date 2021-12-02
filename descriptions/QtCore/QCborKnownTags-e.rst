@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 22b7437763a462c1a304b24e765ad1fa
+    :digest: 0594a4eaa7e7a4ff4512b8e34cd3b9bb
 
 This enum contains a list of CBOR tags, known at the time of the Qt implementation. This list is not meant to be complete and contains only tags that are either backed by an RFC or specifically used by the Qt implementation.
 

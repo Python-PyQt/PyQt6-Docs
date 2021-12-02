@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 120b2f5aa8876e74ec25403045444e84
     :realsig: (QCryptographicHash::Algorithm,const QByteArray&,const QByteArray&,int,quint64)
-    :digest: aadc5ba558733e1c5861fe5568086b7e
+    :digest: 25313bc88b83296b2a2791a857872581
 
-Returns a hash computed using the PBKDF1-algorithm as defined in `RFC 8018 <https://tools.ietf.org/html/rfc8018#section-5.1>`_.
+Returns a hash computed using the PBKDF1-algorithm as defined in RFC 8018, section 5.1.
 
 The function takes the *data* and *salt*, and then hashes it repeatedly for *iterations* iterations using the specified hash *algorithm*. If the resulting hash is longer than *dkLen* then it is truncated before it is returned.
 

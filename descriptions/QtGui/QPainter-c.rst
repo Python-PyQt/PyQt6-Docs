@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: c8e11e8a1fc8bbbab0533f31ba95421f
+    :digest: df849302ee49323f70149d34d65629e2
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -119,7 +119,7 @@ Rendering Quality
 
 To get the optimal rendering result using :sip:ref:`~PyQt6.QtGui.QPainter`, you should use the platform independent :sip:ref:`~PyQt6.QtGui.QImage` as paint device; i.e. using :sip:ref:`~PyQt6.QtGui.QImage` will ensure that the result has an identical pixel representation on any platform.
 
-The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling the rendering quality through its :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` enum and the support for floating point precision: All the functions for drawing primitives has a floating point version. These are often used in combination with the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` render hint.
+The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling the rendering quality through its :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` enum and the support for floating point precision: All the functions for drawing primitives has a floating point version. These are often used in combination with the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` render hint.
 
 +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | |image-qpainter-concentriccircles-png| | **Concentric Circles Example**                                                                                                                                                                                                                       |
@@ -129,7 +129,7 @@ The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling 
 |                                        | The application's main window displays several widgets which are drawn using the various combinations of precision and anti-aliasing.                                                                                                                |
 +----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-The :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` enum specifies flags to :sip:ref:`~PyQt6.QtGui.QPainter` that may or may not be respected by any given engine. :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should antialias edges of primitives if possible, :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should antialias text if possible, and the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHints.RenderHint` indicates that the engine should use a smooth pixmap transformation algorithm.
+The :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` enum specifies flags to :sip:ref:`~PyQt6.QtGui.QPainter` that may or may not be respected by any given engine. :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should antialias edges of primitives if possible, :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should antialias text if possible, and the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should use a smooth pixmap transformation algorithm.
 
 The :sip:ref:`~PyQt6.QtGui.QPainter.renderHints` function returns a flag that specifies the rendering hints that are set for this painter. Use the :sip:ref:`~PyQt6.QtGui.QPainter.setRenderHint` function to set or clear the currently set RenderHints.
 
@@ -156,7 +156,7 @@ See also the `Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-transfo
 | The `Affine Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_ example shows Qt's ability to perform affine transformations on painting operations. The demo also allows the user to experiment with the transformation operations and see the results immediately. |                                            |
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------+
 
-All the tranformation operations operate on the transformation :sip:ref:`~PyQt6.QtGui.QPainter.worldTransform`. A matrix transforms a point in the plane to another point. For more information about the transformation matrix, see the `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_ and :sip:ref:`~PyQt6.QtGui.QTransform` documentation.
+All the transformation operations operate on the transformation :sip:ref:`~PyQt6.QtGui.QPainter.worldTransform`. A matrix transforms a point in the plane to another point. For more information about the transformation matrix, see the `Coordinate System <https://doc.qt.io/qt-6/coordsys.html>`_ and :sip:ref:`~PyQt6.QtGui.QTransform` documentation.
 
 The :sip:ref:`~PyQt6.QtGui.QPainter.setWorldTransform` function can replace or add to the currently set :sip:ref:`~PyQt6.QtGui.QPainter.worldTransform`. The :sip:ref:`~PyQt6.QtGui.QPainter.resetTransform` function resets any transformations that were made using :sip:ref:`~PyQt6.QtGui.QPainter.translate`, :sip:ref:`~PyQt6.QtGui.QPainter.scale`, :sip:ref:`~PyQt6.QtGui.QPainter.shear`, :sip:ref:`~PyQt6.QtGui.QPainter.rotate`, :sip:ref:`~PyQt6.QtGui.QPainter.setWorldTransform`, :sip:ref:`~PyQt6.QtGui.QPainter.setViewport` and :sip:ref:`~PyQt6.QtGui.QPainter.setWindow` functions. The :sip:ref:`~PyQt6.QtGui.QPainter.deviceTransform` returns the matrix that transforms from logical coordinates to device coordinates of the platform dependent paint device. The latter function is only needed when using platform painting commands on the platform dependent handle, and the platform does not do transformations nativly.
 
@@ -208,7 +208,7 @@ Performance
 
 The backends we focus on as high-performance engines are:
 
-* Raster - This backend implements all rendering in pure software and is always used to render into QImages. For optimal performance only use the format types :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32_Premultiplied`, :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB32` or :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16`. Any other format, including :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32`, has significantly worse performance. This engine is used by default for `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ and :sip:ref:`~PyQt6.QtGui.QPixmap`.
+* Raster - This backend implements all rendering in pure software and is always used to render into QImages. For optimal performance only use the format types :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32_Premultiplied`, :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB32` or :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16`. Any other format, including :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_ARGB32`, has significantly worse performance. This engine is used by default for :sip:ref:`~PyQt6.QtWidgets.QWidget` and :sip:ref:`~PyQt6.QtGui.QPixmap`.
 
 * OpenGL 2.0 (ES) - This backend is the primary backend for hardware accelerated graphics. It can be run on desktop machines and embedded devices supporting the OpenGL 2.0 or OpenGL/ES 2.0 specification. This includes most graphics chips produced in the last couple of years. The engine can be enabled by using :sip:ref:`~PyQt6.QtGui.QPainter` onto a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`.
 
