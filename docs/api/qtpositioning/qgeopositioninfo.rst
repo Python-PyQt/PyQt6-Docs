@@ -9,6 +9,9 @@
         .. sip:enum-member:: PyQt6.QtPositioning.QGeoPositionInfo.Attribute.Direction
             :description: QtPositioning/QGeoPositionInfo-Attribute-Direction-v.rst
 
+        .. sip:enum-member:: PyQt6.QtPositioning.QGeoPositionInfo.Attribute.DirectionAccuracy
+            :description: QtPositioning/QGeoPositionInfo-Attribute-DirectionAccuracy-v.rst
+
         .. sip:enum-member:: PyQt6.QtPositioning.QGeoPositionInfo.Attribute.GroundSpeed
             :description: QtPositioning/QGeoPositionInfo-Attribute-GroundSpeed-v.rst
 

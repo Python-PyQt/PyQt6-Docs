@@ -45,6 +45,11 @@
             bool
         :description: QtNetwork/QTcpServer-listen-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QTcpServer.listenBacklogSize
+        :returns:
+            int
+        :description: QtNetwork/QTcpServer-listenBacklogSize-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.maxPendingConnections
         :returns:
             int
@@ -80,6 +85,11 @@
         :returns:
             int
         :description: QtNetwork/QTcpServer-serverPort-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QTcpServer.setListenBacklogSize
+        :args:
+            int
+        :description: QtNetwork/QTcpServer-setListenBacklogSize-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.setMaxPendingConnections
         :args:

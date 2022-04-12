@@ -1,3 +1,10 @@
+v6.3.0 12th April 2022
+  - Rebased on Qt v6.3.0 and PyQt v6.3.0.
+  - SIP v6.6 is required.
+
+v6.2.1 2nd December 2022
+  - Rebased on Qt v6.2.2 and PyQt v6.2.2.
+
 v6.2.0 30th September 2021
   - Rebased on Qt v6.2.0 and PyQt v6.2.0.
 

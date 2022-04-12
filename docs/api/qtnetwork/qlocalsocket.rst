@@ -148,6 +148,13 @@
             bytes
         :description: QtNetwork/QLocalSocket-readData-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QLocalSocket.readLineData
+        :args:
+            int
+        :returns:
+            bytes
+        :description: QtNetwork/QLocalSocket-readLineData-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.serverName
         :returns:
             str

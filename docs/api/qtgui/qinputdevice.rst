@@ -154,6 +154,12 @@
             str
         :description: QtGui/QInputDevice-seatName-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QInputDevice.seatNames
+        :returns:
+            List[str]
+        :static:
+        :description: QtGui/QInputDevice-seatNames-f.rst
+
     .. sip:method:: PyQt6.QtGui.QInputDevice.systemId
         :returns:
             int

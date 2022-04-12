@@ -325,6 +325,12 @@
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtNetwork/QNetworkReply-redirected-s.rst
 
+    .. sip:signal:: PyQt6.QtNetwork.QNetworkReply.requestSent
+        :description: QtNetwork/QNetworkReply-requestSent-s.rst
+
+    .. sip:signal:: PyQt6.QtNetwork.QNetworkReply.socketStartedConnecting
+        :description: QtNetwork/QNetworkReply-socketStartedConnecting-s.rst
+
     .. sip:signal:: PyQt6.QtNetwork.QNetworkReply.sslErrors
         :args:
             Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslError`]

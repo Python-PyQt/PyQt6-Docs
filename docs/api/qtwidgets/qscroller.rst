@@ -76,18 +76,18 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+            int
         :static:
-        :description: QtWidgets/QScroller-grabbedGesture-f.rst
+        :description: QtWidgets/QScroller-grabbedGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScroller.grabGesture
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
             scrollGestureType: :sip:ref:`~PyQt6.QtWidgets.QScroller.ScrollerGestureType` = :sip:ref:`~PyQt6.QtWidgets.QScroller.ScrollerGestureType.TouchGesture`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+            int
         :static:
-        :description: QtWidgets/QScroller-grabGesture-f.rst
+        :description: QtWidgets/QScroller-grabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScroller.handleInput
         :args:

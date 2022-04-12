@@ -141,11 +141,19 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.fromRfc4122
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-fromRfc4122-f.rst
+        :description: QtCore/QUuid-fromRfc4122-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QUuid.fromString
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QUuid`
+        :static:
+        :description: QtCore/QUuid-fromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__ge__
         :args:

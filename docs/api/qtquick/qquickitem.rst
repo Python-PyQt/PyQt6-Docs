@@ -22,6 +22,12 @@
         .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemIsFocusScope
             :description: QtQuick/QQuickItem-Flag-ItemIsFocusScope-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemIsViewport
+            :description: QtQuick/QQuickItem-Flag-ItemIsViewport-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.Flag.ItemObservesViewport
+            :description: QtQuick/QQuickItem-Flag-ItemObservesViewport-v.rst
+
     .. sip:enum:: PyQt6.QtQuick.QQuickItem.ItemChange
         :description: QtQuick/QQuickItem-ItemChange-e.rst
 
@@ -196,6 +202,12 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QDropEvent`
         :description: QtQuick/QQuickItem-dropEvent-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickItem.dumpItemTree
+        :description: QtQuick/QQuickItem-dumpItemTree-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickItem.ensurePolished
+        :description: QtQuick/QQuickItem-ensurePolished-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.event
         :args:
@@ -749,6 +761,11 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.updatePolish
         :description: QtQuick/QQuickItem-updatePolish-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickItem.viewportItem
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QQuickItem`
+        :description: QtQuick/QQuickItem-viewportItem-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.wheelEvent
         :args:

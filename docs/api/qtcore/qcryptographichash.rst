@@ -82,13 +82,13 @@
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.addData
         :args:
-            bytes
-        :description: QtCore/QCryptographicHash-addData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QCryptographicHash-addData-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.addData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QCryptographicHash-addData-f-1.rst
+            bytes
+        :description: QtCore/QCryptographicHash-addData-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.addData
         :args:
@@ -99,12 +99,12 @@
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.hash
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtCore.QCryptographicHash.Algorithm`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QCryptographicHash-hash-f.rst
+        :description: QtCore/QCryptographicHash-hash-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.hashLength
         :args:
@@ -121,3 +121,8 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtCore/QCryptographicHash-result-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCryptographicHash.resultView
+        :returns:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QCryptographicHash-resultView-f.rst

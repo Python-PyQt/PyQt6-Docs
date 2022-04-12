@@ -43,6 +43,14 @@
 
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.boundingRect
         :args:
+            str
+            :sip:ref:`~PyQt6.QtGui.QTextOption`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :description: QtGui/QFontMetricsF-boundingRect-f-2.rst
+
+    .. sip:method:: PyQt6.QtGui.QFontMetricsF.boundingRect
+        :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
             int
             str
@@ -95,6 +103,14 @@
         :returns:
             float
         :description: QtGui/QFontMetricsF-height-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFontMetricsF.horizontalAdvance
+        :args:
+            str
+            :sip:ref:`~PyQt6.QtGui.QTextOption`
+        :returns:
+            float
+        :description: QtGui/QFontMetricsF-horizontalAdvance-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.horizontalAdvance
         :args:
@@ -200,6 +216,14 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRectF`
         :description: QtGui/QFontMetricsF-tightBoundingRect-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFontMetricsF.tightBoundingRect
+        :args:
+            str
+            :sip:ref:`~PyQt6.QtGui.QTextOption`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :description: QtGui/QFontMetricsF-tightBoundingRect-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.underlinePos
         :returns:

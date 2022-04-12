@@ -33,3 +33,16 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtMultimedia/QVideoSink-videoSize-f.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QVideoSink.subtitleTextChanged
+        :args:
+            str
+        :description: QtMultimedia/QVideoSink-subtitleTextChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QVideoSink.videoFrameChanged
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame`
+        :description: QtMultimedia/QVideoSink-videoFrameChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QVideoSink.videoSizeChanged
+        :description: QtMultimedia/QVideoSink-videoSizeChanged-s.rst

@@ -31,6 +31,9 @@
     .. sip:enum:: PyQt6.QtGui.QTextDocument.MetaInformation
         :description: QtGui/QTextDocument-MetaInformation-e.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MetaInformation.CssMedia
+            :description: QtGui/QTextDocument-MetaInformation-CssMedia-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MetaInformation.DocumentTitle
             :description: QtGui/QTextDocument-MetaInformation-DocumentTitle-v.rst
 

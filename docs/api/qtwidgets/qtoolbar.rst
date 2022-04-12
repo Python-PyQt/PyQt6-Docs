@@ -42,43 +42,6 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
         :description: QtWidgets/QToolBar-actionGeometry-f.rst
 
-    .. sip:method:: PyQt6.QtWidgets.QToolBar.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QToolBar-addAction-f.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QToolBar.addAction
-        :args:
-            str
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QToolBar-addAction-f-1.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QToolBar.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QToolBar-addAction-f-2.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QToolBar.addAction
-        :args:
-            str
-            PYQT_SLOT
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QToolBar-addAction-f-3.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QToolBar.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
-            PYQT_SLOT
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QToolBar-addAction-f-4.rst
-
     .. sip:method:: PyQt6.QtWidgets.QToolBar.addSeparator
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`

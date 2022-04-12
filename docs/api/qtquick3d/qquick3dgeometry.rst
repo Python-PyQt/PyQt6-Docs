@@ -42,6 +42,15 @@
             :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.ComponentType`
         :description: QtQuick3D/QQuick3DGeometry-addAttribute-f-1.rst
 
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.addSubset
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+            name: str = ''
+        :description: QtQuick3D/QQuick3DGeometry-addSubset-f.rst
+
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.attribute
         :args:
             int
@@ -119,6 +128,46 @@
         :returns:
             int
         :description: QtQuick3D/QQuick3DGeometry-stride-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetBoundsMax
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+        :description: QtQuick3D/QQuick3DGeometry-subsetBoundsMax-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetBoundsMin
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+        :description: QtQuick3D/QQuick3DGeometry-subsetBoundsMin-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetCount
+        :returns:
+            int
+        :description: QtQuick3D/QQuick3DGeometry-subsetCount-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetCount
+        :args:
+            int
+        :returns:
+            int
+        :description: QtQuick3D/QQuick3DGeometry-subsetCount-f-1.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetName
+        :args:
+            int
+        :returns:
+            str
+        :description: QtQuick3D/QQuick3DGeometry-subsetName-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.subsetOffset
+        :args:
+            int
+        :returns:
+            int
+        :description: QtQuick3D/QQuick3DGeometry-subsetOffset-f.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.vertexData
         :returns:

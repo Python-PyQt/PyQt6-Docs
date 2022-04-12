@@ -21,6 +21,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.CacheSaveControlAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-CacheSaveControlAttribute-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.ConnectionCacheExpiryTimeoutSecondsAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-ConnectionCacheExpiryTimeoutSecondsAttribute-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.ConnectionEncryptedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-ConnectionEncryptedAttribute-v.rst
 
@@ -41,6 +44,9 @@
 
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.Http2AllowedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-Http2AllowedAttribute-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.Http2CleartextAllowedAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-Http2CleartextAllowedAttribute-v.rst
 
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.Http2DirectAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-Http2DirectAttribute-v.rst

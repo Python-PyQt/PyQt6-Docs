@@ -69,6 +69,11 @@
             bool
         :description: QtNetwork/QLocalServer-listen-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QLocalServer.listenBacklogSize
+        :returns:
+            int
+        :description: QtNetwork/QLocalServer-listenBacklogSize-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.maxPendingConnections
         :returns:
             int
@@ -96,6 +101,11 @@
         :returns:
             str
         :description: QtNetwork/QLocalServer-serverName-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QLocalServer.setListenBacklogSize
+        :args:
+            int
+        :description: QtNetwork/QLocalServer-setListenBacklogSize-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.setMaxPendingConnections
         :args:

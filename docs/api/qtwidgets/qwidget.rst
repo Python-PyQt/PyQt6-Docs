@@ -52,8 +52,80 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
             :sip:ref:`~PyQt6.QtGui.QAction`
         :description: QtWidgets/QWidget-addAction-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QIcon`
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-2.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            str
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-3.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QIcon`
+            str
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-4.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            str
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-5.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QIcon`
+            str
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-6.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            str
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-7.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QIcon`
+            str
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-8.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addActions
         :args:
@@ -311,9 +383,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabGesture
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+            int
             flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlag` = Qt.GestureFlags()
-        :description: QtWidgets/QWidget-grabGesture-f-1.rst
+        :description: QtWidgets/QWidget-grabGesture-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabKeyboard
         :description: QtWidgets/QWidget-grabKeyboard-f.rst
@@ -1367,8 +1439,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.ungrabGesture
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
-        :description: QtWidgets/QWidget-ungrabGesture-f.rst
+            int
+        :description: QtWidgets/QWidget-ungrabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.unsetCursor
         :description: QtWidgets/QWidget-unsetCursor-f.rst

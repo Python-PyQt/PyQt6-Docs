@@ -1,6 +1,7 @@
 :orphan:
 
 .. sip:class:: PyQt6.QtCore.QOperatingSystemVersion
+    :inherits: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
     :description: QtCore/QOperatingSystemVersion-c.rst
 
     .. sip:enum:: PyQt6.QtCore.QOperatingSystemVersion.OSType
@@ -135,6 +136,12 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-MacOSMojave-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSMonterey
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-MacOSMonterey-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSSierra
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
         :const:
@@ -164,6 +171,54 @@
         :const:
         :static:
         :description: QtCore/QOperatingSystemVersion-Windows10-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_1809
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_1809-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_1903
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_1903-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_1909
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_1909-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_2004
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_2004-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_20H2
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_20H2-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_21H1
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_21H1-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_21H2
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_21H2-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows11
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows11-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows7
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
@@ -207,34 +262,6 @@
             :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion.OSType`
         :static:
         :description: QtCore/QOperatingSystemVersion-currentType-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.__ge__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
-        :returns:
-            bool
-        :description: QtCore/QOperatingSystemVersion-__ge__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.__gt__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
-        :returns:
-            bool
-        :description: QtCore/QOperatingSystemVersion-__gt__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.__le__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
-        :returns:
-            bool
-        :description: QtCore/QOperatingSystemVersion-__le__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.__lt__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
-        :returns:
-            bool
-        :description: QtCore/QOperatingSystemVersion-__lt__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.majorVersion
         :returns:

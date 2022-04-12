@@ -370,6 +370,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_LayoutVerticalSpacing
             :description: QtWidgets/QStyle-PixelMetric-PM_LayoutVerticalSpacing-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_LineEditIconMargin
+            :description: QtWidgets/QStyle-PixelMetric-PM_LineEditIconMargin-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.PixelMetric.PM_LineEditIconSize
             :description: QtWidgets/QStyle-PixelMetric-PM_LineEditIconSize-v.rst
 
@@ -919,6 +922,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StandardPixmap.SP_RestoreDefaultsButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_RestoreDefaultsButton-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StandardPixmap.SP_TabCloseButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_TabCloseButton-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StandardPixmap.SP_TitleBarCloseButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_TitleBarCloseButton-v.rst
 
@@ -1303,6 +1309,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_SpinBox_KeyPressAutoRepeatRate
             :description: QtWidgets/QStyle-StyleHint-SH_SpinBox_KeyPressAutoRepeatRate-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_SpinBox_SelectOnStep
+            :description: QtWidgets/QStyle-StyleHint-SH_SpinBox_SelectOnStep-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_SpinBox_StepModifier
             :description: QtWidgets/QStyle-StyleHint-SH_SpinBox_StepModifier-v.rst
 
@@ -1332,6 +1341,9 @@
 
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_TabBar_SelectMouseType
             :description: QtWidgets/QStyle-StyleHint-SH_TabBar_SelectMouseType-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_Table_AlwaysDrawLeftTopGridLines
+            :description: QtWidgets/QStyle-StyleHint-SH_Table_AlwaysDrawLeftTopGridLines-v.rst
 
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_Table_GridLineColor
             :description: QtWidgets/QStyle-StyleHint-SH_Table_GridLineColor-v.rst

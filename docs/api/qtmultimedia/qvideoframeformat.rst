@@ -111,6 +111,9 @@
     .. sip:enum:: PyQt6.QtMultimedia.QVideoFrameFormat.YCbCrColorSpace
         :description: QtMultimedia/QVideoFrameFormat-YCbCrColorSpace-e.rst
 
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.YCbCrColorSpace.YCbCr_BT2020
+            :description: QtMultimedia/QVideoFrameFormat-YCbCrColorSpace-YCbCr_BT2020-v.rst
+
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.YCbCrColorSpace.YCbCr_BT601
             :description: QtMultimedia/QVideoFrameFormat-YCbCrColorSpace-YCbCr_BT601-v.rst
 
@@ -207,6 +210,14 @@
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat`
         :static:
         :description: QtMultimedia/QVideoFrameFormat-pixelFormatFromImageFormat-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.pixelFormatToString
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat`
+        :returns:
+            str
+        :static:
+        :description: QtMultimedia/QVideoFrameFormat-pixelFormatToString-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.planeCount
         :returns:

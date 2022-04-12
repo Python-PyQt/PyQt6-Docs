@@ -160,15 +160,15 @@
 
     .. sip:method:: PyQt6.QtCore.QJsonValue.toObject
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, str]]
-        :description: QtCore/QJsonValue-toObject-f.rst
+            Dict[str, :sip:ref:`~PyQt6.QtCore.QJsonValue`]
+        :description: QtCore/QJsonValue-toObject-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonValue.toObject
         :args:
             Dict[str, Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, str]]
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, str]]
-        :description: QtCore/QJsonValue-toObject-f-1.rst
+            Dict[str, :sip:ref:`~PyQt6.QtCore.QJsonValue`]
+        :description: QtCore/QJsonValue-toObject-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonValue.toString
         :returns:

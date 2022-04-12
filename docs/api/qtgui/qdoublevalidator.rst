@@ -36,6 +36,11 @@
             int
         :description: QtGui/QDoubleValidator-decimals-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QDoubleValidator.fixup
+        :args:
+            str
+        :description: QtGui/QDoubleValidator-fixup-f.rst
+
     .. sip:method:: PyQt6.QtGui.QDoubleValidator.notation
         :returns:
             :sip:ref:`~PyQt6.QtGui.QDoubleValidator.Notation`

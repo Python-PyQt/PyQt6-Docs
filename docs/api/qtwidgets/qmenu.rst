@@ -39,45 +39,6 @@
             :sip:ref:`~PyQt6.QtGui.QAction`
         :description: QtWidgets/QMenu-activeAction-f.rst
 
-    .. sip:method:: PyQt6.QtWidgets.QMenu.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addAction-f.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenu.addAction
-        :args:
-            str
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addAction-f-1.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenu.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addAction-f-2.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenu.addAction
-        :args:
-            str
-            PYQT_SLOT
-            shortcut: Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int] = 0
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addAction-f-3.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenu.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
-            PYQT_SLOT
-            shortcut: Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int] = 0
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addAction-f-4.rst
-
     .. sip:method:: PyQt6.QtWidgets.QMenu.addMenu
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`
@@ -261,6 +222,14 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
         :description: QtWidgets/QMenu-menuAction-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QMenu.menuInAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QMenu`
+        :static:
+        :description: QtWidgets/QMenu-menuInAction-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.mouseMoveEvent
         :args:

@@ -88,6 +88,11 @@
             str
         :description: QtDataVisualization/QSurface3DSeries-setTextureFile-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QSurface3DSeries.setWireframeColor
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtDataVisualization/QSurface3DSeries-setWireframeColor-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QSurface3DSeries.texture
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
@@ -97,6 +102,11 @@
         :returns:
             str
         :description: QtDataVisualization/QSurface3DSeries-textureFile-f.rst
+
+    .. sip:method:: PyQt6.QtDataVisualization.QSurface3DSeries.wireframeColor
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColor`
+        :description: QtDataVisualization/QSurface3DSeries-wireframeColor-f.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QSurface3DSeries.dataProxyChanged
         :args:
@@ -132,3 +142,8 @@
         :args:
             str
         :description: QtDataVisualization/QSurface3DSeries-textureFileChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtDataVisualization.QSurface3DSeries.wireframeColorChanged
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtDataVisualization/QSurface3DSeries-wireframeColorChanged-s.rst

@@ -318,6 +318,11 @@
             bool
         :description: QtCore/QByteArray-isUpper-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.isValidUtf8
+        :returns:
+            bool
+        :description: QtCore/QByteArray-isValidUtf8-f.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.last
         :args:
             int

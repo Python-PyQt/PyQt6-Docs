@@ -3,6 +3,15 @@
 .. sip:class:: PyQt6.QtCore.QUrl
     :description: QtCore/QUrl-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QUrl.AceProcessingOption
+        :description: QtCore/QUrl-AceProcessingOption-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.AceProcessingOption.AceTransitionalProcessing
+            :description: QtCore/QUrl-AceProcessingOption-AceTransitionalProcessing-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QUrl.AceProcessingOption.IgnoreIDNWhitelist
+            :description: QtCore/QUrl-AceProcessingOption-IgnoreIDNWhitelist-v.rst
+
     .. sip:enum:: PyQt6.QtCore.QUrl.ComponentFormattingOption
         :description: QtCore/QUrl-ComponentFormattingOption-e.rst
 
@@ -156,10 +165,11 @@
     .. sip:method:: PyQt6.QtCore.QUrl.fromAce
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.AceProcessingOption` = {}
         :returns:
             str
         :static:
-        :description: QtCore/QUrl-fromAce-f.rst
+        :description: QtCore/QUrl-fromAce-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromEncoded
         :args:
@@ -422,10 +432,11 @@
     .. sip:method:: PyQt6.QtCore.QUrl.toAce
         :args:
             str
+            options: :sip:ref:`~PyQt6.QtCore.QUrl.AceProcessingOption` = {}
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QUrl-toAce-f.rst
+        :description: QtCore/QUrl-toAce-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toDisplayString
         :args:

@@ -25,6 +25,11 @@
             List[:sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DAxis`]
         :description: QtDataVisualization/Q3DBars-axes-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.barSeriesMargin
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtDataVisualization/Q3DBars-barSeriesMargin-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.barSpacing
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
@@ -91,6 +96,11 @@
             List[:sip:ref:`~PyQt6.QtDataVisualization.QBar3DSeries`]
         :description: QtDataVisualization/Q3DBars-seriesList-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.setBarSeriesMargin
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtDataVisualization/Q3DBars-setBarSeriesMargin-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.setBarSpacing
         :args:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
@@ -140,6 +150,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtDataVisualization.QValue3DAxis`
         :description: QtDataVisualization/Q3DBars-valueAxis-f.rst
+
+    .. sip:signal:: PyQt6.QtDataVisualization.Q3DBars.barSeriesMarginChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtDataVisualization/Q3DBars-barSeriesMarginChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DBars.barSpacingChanged
         :args:

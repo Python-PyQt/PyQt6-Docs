@@ -11,6 +11,11 @@
             :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
         :description: QtQuick/QQuickRenderTarget-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.devicePixelRatio
+        :returns:
+            float
+        :description: QtQuick/QQuickRenderTarget-devicePixelRatio-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.__eq__
         :args:
             :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
@@ -49,3 +54,8 @@
         :returns:
             bool
         :description: QtQuick/QQuickRenderTarget-__ne__-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.setDevicePixelRatio
+        :args:
+            float
+        :description: QtQuick/QQuickRenderTarget-setDevicePixelRatio-f.rst

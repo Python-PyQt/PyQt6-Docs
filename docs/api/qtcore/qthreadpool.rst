@@ -83,6 +83,16 @@
             priority: int = 0
         :description: QtCore/QThreadPool-start-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QThreadPool.startOnReservedThread
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRunnable`
+        :description: QtCore/QThreadPool-startOnReservedThread-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QThreadPool.startOnReservedThread
+        :args:
+            Callable[[], None]
+        :description: QtCore/QThreadPool-startOnReservedThread-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QThreadPool.threadPriority
         :returns:
             :sip:ref:`~PyQt6.QtCore.QThread.Priority`

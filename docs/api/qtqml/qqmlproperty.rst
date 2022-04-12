@@ -238,6 +238,11 @@
             bool
         :description: QtQml/QQmlProperty-reset-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlProperty.swap
+        :args:
+            :sip:ref:`~PyQt6.QtQml.QQmlProperty`
+        :description: QtQml/QQmlProperty-swap-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlProperty.type
         :returns:
             :sip:ref:`~PyQt6.QtQml.QQmlProperty.Type`

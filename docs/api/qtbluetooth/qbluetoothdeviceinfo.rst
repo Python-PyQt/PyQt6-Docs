@@ -33,6 +33,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.Field.RSSI
             :description: QtBluetooth/QBluetoothDeviceInfo-Field-RSSI-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.Field.ServiceData
+            :description: QtBluetooth/QBluetoothDeviceInfo-Field-ServiceData-v.rst
+
     .. sip:enum:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.MajorDeviceClass
         :description: QtBluetooth/QBluetoothDeviceInfo-MajorDeviceClass-e.rst
 
@@ -457,6 +460,23 @@
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothDeviceInfo.ServiceClass`
         :description: QtBluetooth/QBluetoothDeviceInfo-serviceClasses-f.rst
 
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceData
+        :returns:
+            Dict[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceData-f.rst
+
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceData
+        :args:
+            :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceData-f-1.rst
+
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceIds
+        :returns:
+            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceIds-f.rst
+
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceUuids
         :returns:
             List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
@@ -494,6 +514,14 @@
         :args:
             int
         :description: QtBluetooth/QBluetoothDeviceInfo-setRssi-f.rst
+
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setServiceData
+        :args:
+            :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :returns:
+            bool
+        :description: QtBluetooth/QBluetoothDeviceInfo-setServiceData-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setServiceUuids
         :args:

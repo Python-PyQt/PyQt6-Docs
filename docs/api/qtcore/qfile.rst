@@ -120,6 +120,14 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.open
         :args:
+            :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :returns:
+            bool
+        :description: QtCore/QFile-open-f-4.rst
+
+    .. sip:method:: PyQt6.QtCore.QFile.open
+        :args:
             int
             :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag`
             handleFlags: :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlag` = :sip:ref:`~PyQt6.QtCore.QFileDevice.FileHandleFlag.DontCloseHandle`

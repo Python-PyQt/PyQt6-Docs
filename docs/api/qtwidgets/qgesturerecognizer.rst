@@ -52,9 +52,9 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QGestureRecognizer`
         :returns:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+            int
         :static:
-        :description: QtWidgets/QGestureRecognizer-registerRecognizer-f.rst
+        :description: QtWidgets/QGestureRecognizer-registerRecognizer-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureRecognizer.reset
         :args:
@@ -63,6 +63,6 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureRecognizer.unregisterRecognizer
         :args:
-            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+            int
         :static:
-        :description: QtWidgets/QGestureRecognizer-unregisterRecognizer-f.rst
+        :description: QtWidgets/QGestureRecognizer-unregisterRecognizer-f-1.rst

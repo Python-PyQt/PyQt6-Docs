@@ -27,6 +27,21 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrame.MapMode.WriteOnly
             :description: QtMultimedia/QVideoFrame-MapMode-WriteOnly-v.rst
 
+    .. sip:enum:: PyQt6.QtMultimedia.QVideoFrame.RotationAngle
+        :description: QtMultimedia/QVideoFrame-RotationAngle-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrame.RotationAngle.Rotation0
+            :description: QtMultimedia/QVideoFrame-RotationAngle-Rotation0-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrame.RotationAngle.Rotation180
+            :description: QtMultimedia/QVideoFrame-RotationAngle-Rotation180-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrame.RotationAngle.Rotation270
+            :description: QtMultimedia/QVideoFrame-RotationAngle-Rotation270-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrame.RotationAngle.Rotation90
+            :description: QtMultimedia/QVideoFrame-RotationAngle-Rotation90-v.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.__init__
         :description: QtMultimedia/QVideoFrame-__init__-f.rst
 
@@ -115,6 +130,11 @@
             int
         :description: QtMultimedia/QVideoFrame-mappedBytes-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.mirrored
+        :returns:
+            bool
+        :description: QtMultimedia/QVideoFrame-mirrored-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.__ne__
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame`
@@ -139,10 +159,25 @@
             int
         :description: QtMultimedia/QVideoFrame-planeCount-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.rotationAngle
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame.RotationAngle`
+        :description: QtMultimedia/QVideoFrame-rotationAngle-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setEndTime
         :args:
             int
         :description: QtMultimedia/QVideoFrame-setEndTime-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setMirrored
+        :args:
+            bool
+        :description: QtMultimedia/QVideoFrame-setMirrored-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setRotationAngle
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame.RotationAngle`
+        :description: QtMultimedia/QVideoFrame-setRotationAngle-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setStartTime
         :args:

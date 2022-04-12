@@ -33,26 +33,6 @@
             :sip:ref:`~PyQt6.QtGui.QAction`
         :description: QtWidgets/QMenuBar-activeAction-f.rst
 
-    .. sip:method:: PyQt6.QtWidgets.QMenuBar.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenuBar-addAction-f.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenuBar.addAction
-        :args:
-            str
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenuBar-addAction-f-1.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QMenuBar.addAction
-        :args:
-            str
-            PYQT_SLOT
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenuBar-addAction-f-2.rst
-
     .. sip:method:: PyQt6.QtWidgets.QMenuBar.addMenu
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`

@@ -72,6 +72,20 @@
             List[str]
         :description: QtCore/QRegularExpressionMatch-capturedTexts-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasCaptured
+        :args:
+            int
+        :returns:
+            bool
+        :description: QtCore/QRegularExpressionMatch-hasCaptured-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasCaptured
+        :args:
+            str
+        :returns:
+            bool
+        :description: QtCore/QRegularExpressionMatch-hasCaptured-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasMatch
         :returns:
             bool

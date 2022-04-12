@@ -3,8 +3,19 @@
 .. sip:class:: PyQt6.QtCore.QProcessEnvironment
     :description: QtCore/QProcessEnvironment-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QProcessEnvironment.Initialization
+        :description: QtCore/QProcessEnvironment-Initialization-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcessEnvironment.Initialization.InheritFromParent
+            :description: QtCore/QProcessEnvironment-Initialization-InheritFromParent-v.rst
+
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.__init__
         :description: QtCore/QProcessEnvironment-__init__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QProcessEnvironment.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QProcessEnvironment.Initialization`
+        :description: QtCore/QProcessEnvironment-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.__init__
         :args:
@@ -27,6 +38,11 @@
         :returns:
             bool
         :description: QtCore/QProcessEnvironment-__eq__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QProcessEnvironment.inheritsFromParent
+        :returns:
+            bool
+        :description: QtCore/QProcessEnvironment-inheritsFromParent-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.insert
         :args:

@@ -21,6 +21,11 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.autoScaleY
+        :returns:
+            bool
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-autoScaleY-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.heightMap
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
@@ -36,6 +41,11 @@
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-maxXValue-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.maxYValue
+        :returns:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-maxYValue-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.maxZValue
         :returns:
             float
@@ -46,10 +56,20 @@
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-minXValue-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.minYValue
+        :returns:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-minYValue-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.minZValue
         :returns:
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-minZValue-f.rst
+
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setAutoScaleY
+        :args:
+            bool
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setAutoScaleY-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setHeightMap
         :args:
@@ -66,6 +86,11 @@
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setMaxXValue-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setMaxYValue
+        :args:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setMaxYValue-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setMaxZValue
         :args:
             float
@@ -75,6 +100,11 @@
         :args:
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setMinXValue-f.rst
+
+    .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setMinYValue
+        :args:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setMinYValue-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setMinZValue
         :args:
@@ -88,6 +118,11 @@
             float
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setValueRanges-f.rst
+
+    .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.autoScaleYChanged
+        :args:
+            bool
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-autoScaleYChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.heightMapChanged
         :args:
@@ -104,6 +139,11 @@
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-maxXValueChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.maxYValueChanged
+        :args:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-maxYValueChanged-s.rst
+
     .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.maxZValueChanged
         :args:
             float
@@ -113,6 +153,11 @@
         :args:
             float
         :description: QtDataVisualization/QHeightMapSurfaceDataProxy-minXValueChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.minYValueChanged
+        :args:
+            float
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-minYValueChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.minZValueChanged
         :args:

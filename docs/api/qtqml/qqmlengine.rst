@@ -38,6 +38,9 @@
     .. sip:method:: PyQt6.QtQml.QQmlEngine.clearComponentCache
         :description: QtQml/QQmlEngine-clearComponentCache-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlEngine.clearSingletons
+        :description: QtQml/QQmlEngine-clearSingletons-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlEngine.contextForObject
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`

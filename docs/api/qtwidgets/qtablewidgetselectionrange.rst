@@ -29,10 +29,24 @@
             int
         :description: QtWidgets/QTableWidgetSelectionRange-columnCount-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QTableWidgetSelectionRange.__eq__
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QTableWidgetSelectionRange`
+        :returns:
+            bool
+        :description: QtWidgets/QTableWidgetSelectionRange-__eq__-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetSelectionRange.leftColumn
         :returns:
             int
         :description: QtWidgets/QTableWidgetSelectionRange-leftColumn-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QTableWidgetSelectionRange.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QTableWidgetSelectionRange`
+        :returns:
+            bool
+        :description: QtWidgets/QTableWidgetSelectionRange-__ne__-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetSelectionRange.rightColumn
         :returns:

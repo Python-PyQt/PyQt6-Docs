@@ -31,6 +31,11 @@
             float
         :description: QtDataVisualization/QBar3DSeries-meshAngle-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.rowColors
+        :returns:
+            List[:sip:ref:`~PyQt6.QtGui.QColor`]
+        :description: QtDataVisualization/QBar3DSeries-rowColors-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.selectedBar
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPoint`
@@ -46,6 +51,11 @@
             float
         :description: QtDataVisualization/QBar3DSeries-setMeshAngle-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.setRowColors
+        :args:
+            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtDataVisualization/QBar3DSeries-setRowColors-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.setSelectedBar
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
@@ -60,6 +70,11 @@
         :args:
             float
         :description: QtDataVisualization/QBar3DSeries-meshAngleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtDataVisualization.QBar3DSeries.rowColorsChanged
+        :args:
+            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtDataVisualization/QBar3DSeries-rowColorsChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QBar3DSeries.selectedBarChanged
         :args:

@@ -385,6 +385,14 @@
             bool
         :description: QtCore/QDir-mkdir-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QDir.mkdir
+        :args:
+            str
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :returns:
+            bool
+        :description: QtCore/QDir-mkdir-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QDir.mkpath
         :args:
             str

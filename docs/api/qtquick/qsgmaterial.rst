@@ -12,6 +12,9 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.CustomCompileStep
             :description: QtQuick/QSGMaterial-Flag-CustomCompileStep-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.NoBatching
+            :description: QtQuick/QSGMaterial-Flag-NoBatching-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterial.Flag.RequiresDeterminant
             :description: QtQuick/QSGMaterial-Flag-RequiresDeterminant-v.rst
 

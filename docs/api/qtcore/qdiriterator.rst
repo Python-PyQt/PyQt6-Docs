@@ -67,6 +67,11 @@
             str
         :description: QtCore/QDirIterator-next-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QDirIterator.nextFileInfo
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QFileInfo`
+        :description: QtCore/QDirIterator-nextFileInfo-f.rst
+
     .. sip:method:: PyQt6.QtCore.QDirIterator.path
         :returns:
             str

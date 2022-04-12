@@ -102,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.object
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, str]]
-        :description: QtCore/QJsonDocument-object-f.rst
+            Dict[str, :sip:ref:`~PyQt6.QtCore.QJsonValue`]
+        :description: QtCore/QJsonDocument-object-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.setArray
         :args:

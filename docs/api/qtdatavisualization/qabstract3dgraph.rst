@@ -153,6 +153,13 @@
             bool
         :description: QtDataVisualization/QAbstract3DGraph-hasContext-f.rst
 
+    .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.hasSeries
+        :args:
+            :sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DSeries`
+        :returns:
+            bool
+        :description: QtDataVisualization/QAbstract3DGraph-hasSeries-f.rst
+
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.horizontalAspectRatio
         :returns:
             float

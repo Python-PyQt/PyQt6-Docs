@@ -29,6 +29,23 @@
             int
         :description: QtCore/QCollator-compare-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QCollator.defaultCompare
+        :args:
+            str
+            str
+        :returns:
+            int
+        :static:
+        :description: QtCore/QCollator-defaultCompare-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCollator.defaultSortKey
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QCollatorSortKey`
+        :static:
+        :description: QtCore/QCollator-defaultSortKey-f.rst
+
     .. sip:method:: PyQt6.QtCore.QCollator.ignorePunctuation
         :returns:
             bool

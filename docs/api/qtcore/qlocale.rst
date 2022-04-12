@@ -1320,6 +1320,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kabyle
             :description: QtCore/QLocale-Language-Kabyle-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kaingang
+            :description: QtCore/QLocale-Language-Kaingang-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kako
             :description: QtCore/QLocale-Language-Kako-v.rst
 
@@ -1565,6 +1568,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Ngomba
             :description: QtCore/QLocale-Language-Ngomba-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Nheengatu
+            :description: QtCore/QLocale-Language-Nheengatu-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.NigerianPidgin
             :description: QtCore/QLocale-Language-NigerianPidgin-v.rst
@@ -1955,6 +1961,39 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Zulu
             :description: QtCore/QLocale-Language-Zulu-v.rst
+
+    .. sip:enum:: PyQt6.QtCore.QLocale.LanguageCodeType
+        :description: QtCore/QLocale-LanguageCodeType-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.AnyLanguageCode
+            :description: QtCore/QLocale-LanguageCodeType-AnyLanguageCode-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639
+            :description: QtCore/QLocale-LanguageCodeType-ISO639-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Alpha2
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Alpha2-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Alpha3
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Alpha3-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Part1
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Part1-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Part2
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Part2-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Part2B
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Part2B-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Part2T
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Part2T-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.ISO639Part3
+            :description: QtCore/QLocale-LanguageCodeType-ISO639Part3-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.LanguageCodeType.LegacyLanguageCode
+            :description: QtCore/QLocale-LanguageCodeType-LegacyLanguageCode-v.rst
 
     .. sip:enum:: PyQt6.QtCore.QLocale.MeasurementSystem
         :description: QtCore/QLocale-MeasurementSystem-e.rst
@@ -2501,10 +2540,11 @@
     .. sip:method:: PyQt6.QtCore.QLocale.codeToLanguage
         :args:
             str
+            codeTypes: :sip:ref:`~PyQt6.QtCore.QLocale.LanguageCodeType` = :sip:ref:`~PyQt6.QtCore.QLocale.LanguageCodeType.AnyLanguageCode`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale.Language`
         :static:
-        :description: QtCore/QLocale-codeToLanguage-f.rst
+        :description: QtCore/QLocale-codeToLanguage-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.codeToScript
         :args:
@@ -2633,10 +2673,11 @@
     .. sip:method:: PyQt6.QtCore.QLocale.languageToCode
         :args:
             :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+            codeTypes: :sip:ref:`~PyQt6.QtCore.QLocale.LanguageCodeType` = :sip:ref:`~PyQt6.QtCore.QLocale.LanguageCodeType.AnyLanguageCode`
         :returns:
             str
         :static:
-        :description: QtCore/QLocale-languageToCode-f.rst
+        :description: QtCore/QLocale-languageToCode-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.languageToString
         :args:

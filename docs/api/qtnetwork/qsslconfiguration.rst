@@ -74,10 +74,21 @@
         :static:
         :description: QtNetwork/QSslConfiguration-defaultConfiguration-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.defaultDtlsConfiguration
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :static:
+        :description: QtNetwork/QSslConfiguration-defaultDtlsConfiguration-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.diffieHellmanParameters
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QSslDiffieHellmanParameters`
         :description: QtNetwork/QSslConfiguration-diffieHellmanParameters-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.dtlsCookieVerificationEnabled
+        :returns:
+            bool
+        :description: QtNetwork/QSslConfiguration-dtlsCookieVerificationEnabled-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.ellipticCurves
         :returns:
@@ -235,10 +246,21 @@
         :static:
         :description: QtNetwork/QSslConfiguration-setDefaultConfiguration-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setDefaultDtlsConfiguration
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :static:
+        :description: QtNetwork/QSslConfiguration-setDefaultDtlsConfiguration-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setDiffieHellmanParameters
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSslDiffieHellmanParameters`
         :description: QtNetwork/QSslConfiguration-setDiffieHellmanParameters-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setDtlsCookieVerificationEnabled
+        :args:
+            bool
+        :description: QtNetwork/QSslConfiguration-setDtlsCookieVerificationEnabled-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setEllipticCurves
         :args:

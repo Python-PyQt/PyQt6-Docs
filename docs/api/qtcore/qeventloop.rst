@@ -19,9 +19,6 @@
         .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.WaitForMoreEvents
             :description: QtCore/QEventLoop-ProcessEventsFlag-WaitForMoreEvents-v.rst
 
-        .. sip:enum-member:: PyQt6.QtCore.QEventLoop.ProcessEventsFlag.X11ExcludeTimers
-            :description: QtCore/QEventLoop-ProcessEventsFlag-X11ExcludeTimers-v.rst
-
     .. sip:method:: PyQt6.QtCore.QEventLoop.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None

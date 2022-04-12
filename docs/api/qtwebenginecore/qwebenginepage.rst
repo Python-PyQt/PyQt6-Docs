@@ -40,6 +40,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.FileSelectionMode.FileSelectOpenMultiple
             :description: QtWebEngineCore/QWebEnginePage-FileSelectionMode-FileSelectOpenMultiple-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.FileSelectionMode.FileSelectSave
+            :description: QtWebEngineCore/QWebEnginePage-FileSelectionMode-FileSelectSave-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.FileSelectionMode.FileSelectUploadFolder
             :description: QtWebEngineCore/QWebEnginePage-FileSelectionMode-FileSelectUploadFolder-v.rst
 

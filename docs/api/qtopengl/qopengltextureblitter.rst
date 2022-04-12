@@ -75,6 +75,11 @@
             bool
         :description: QtOpenGL/QOpenGLTextureBlitter-supportsExternalOESTarget-f.rst
 
+    .. sip:method:: PyQt6.QtOpenGL.QOpenGLTextureBlitter.supportsRectangleTarget
+        :returns:
+            bool
+        :description: QtOpenGL/QOpenGLTextureBlitter-supportsRectangleTarget-f.rst
+
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTextureBlitter.targetTransform
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
