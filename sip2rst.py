@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Riverbank Computing Limited
+# Copyright (c) 2022, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -34,7 +34,8 @@ import xml.etree.ElementTree as etree
 
 # These are undocumented internals until SIP implements a proper documentation
 # system.
-from sipbuild.code_generator import generateXML, parse, set_globals
+from sipbuild.code_generator import generateXML, py2c, set_globals, transform
+from sipbuild.generator import parse
 
 
 class FixedIndenter:
@@ -220,7 +221,8 @@ class Overload:
         self.returns = []
 
 
-def generate_rst(module, package, descriptions, api, sip_file, verbose):
+def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
+        verbose):
     """ Generate the reST for a single module. """
 
     # Create the module-specific api directory.
@@ -236,9 +238,17 @@ def generate_rst(module, package, descriptions, api, sip_file, verbose):
             # Use SIP to create the XML API description.
             xml_file = os.path.join(xml_dir, module + '.xml')
 
-            parsed = parse(sip_file, False, None, None, ['PyQt_OpenGL_ES2'],
-                    False)
-            generateXML(parsed[0], xml_file)
+            encoding = 'UTF-8'
+
+            spec, _ = parse(sip_file, hex_version=0x600000, encoding=encoding,
+                    abi_version='13.0', tags=[],
+                    disabled_features=['PyQt_OpenGL_ES2'],
+                    protected_is_public=False, include_dirs=include_dirs,
+                    strict=False)
+
+            pt = py2c(spec, encoding)
+            transform(pt, False)
+            generateXML(pt, xml_file)
 
             # Read the XML.
             module_el = etree.parse(xml_file).getroot()
@@ -929,6 +939,7 @@ if __name__ == '__main__':
         clean_descriptions(module, descriptions, verbose)
 
     # Configure SIP.
-    set_globals(0x600000, '6.0.0', 13, 0, 'PyQt6.sip', Exception, include_dirs)
+    set_globals(0x600000, '6.0.0', 13, 0, 'PyQt6.sip', Exception)
 
-    generate_rst(module, package, descriptions, api, sip_file, verbose)
+    generate_rst(module, package, descriptions, api, sip_file, include_dirs,
+            verbose)
