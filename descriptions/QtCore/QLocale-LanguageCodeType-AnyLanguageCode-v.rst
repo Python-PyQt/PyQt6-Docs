@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: -1
+    :digest: 7c45c001178d5b6ebba347b1ad51a6a2
 
-TODO
+Specifies that any code can be used.

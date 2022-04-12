@@ -2,7 +2,9 @@
     :status: todo
     :pysig: d3a40dd5018cf0bd70eb2a21fbf40146
     :realsig: (QEvent::Type,const QPointF&,const QPointF&,Qt::KeyboardModifiers,const QPointingDevice*)
-    :digest: 3bc5fb8b0c5976117881a77cdbbd460f
+    :digest: c53295ba12eecda9a9bc13c4c616eee6
+
+Use the other constructor instead (global position is required).
 
 Constructs a hover event object originating from *device*.
 

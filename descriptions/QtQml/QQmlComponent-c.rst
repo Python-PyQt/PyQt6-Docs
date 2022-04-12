@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a QML component definition
-    :digest: 47a7acd7472172f14aa41d028c0e04a7
+    :digest: 93bff892ef72ebd6b8525b453a6450d8
 
 The :sip:ref:`~PyQt6.QtQml.QQmlComponent` class encapsulates a QML component definition.
 
@@ -51,11 +51,12 @@ The following example shows how to load a QML file from a network resource. Afte
     {
         // ...
         component = new QQmlComponent(engine, QUrl("http://www.example.com/main.qml"));
-        if (component->isLoading())
-            QObject::connect(component, SIGNAL(statusChanged(QQmlComponent::Status)),
-                             this, SLOT(continueLoading()));
-        else
+        if (component->isLoading()) {
+            QObject::connect(component, &QQmlComponent::statusChanged,
+                             this, &MyApplication::continueLoading);
+        } else {
             continueLoading();
+        }
     }
 
     void MyApplication::continueLoading()

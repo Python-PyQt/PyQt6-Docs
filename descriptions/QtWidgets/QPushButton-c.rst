@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Command button
-    :digest: 89bf7ac16c3b5b4ac1c6434511cbc4dc
+    :digest: acb449bdc52bcc7fa25859e028e50edd
 
 The :sip:ref:`~PyQt6.QtWidgets.QPushButton` widget provides a command button.
 
@@ -48,6 +48,6 @@ A variation of a command button is a menu button. These provide not just one com
 
 Other classes of buttons are option buttons (see :sip:ref:`~PyQt6.QtWidgets.QRadioButton`) and check boxes (see :sip:ref:`~PyQt6.QtWidgets.QCheckBox`).
 
-In Qt, the `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_ base class provides most of the modes and other API, and :sip:ref:`~PyQt6.QtWidgets.QPushButton` provides GUI logic. See `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_ for more information about the API.
+In Qt, the :sip:ref:`~PyQt6.QtWidgets.QAbstractButton` base class provides most of the modes and other API, and :sip:ref:`~PyQt6.QtWidgets.QPushButton` provides GUI logic. See :sip:ref:`~PyQt6.QtWidgets.QAbstractButton` for more information about the API.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, `GUI Design Handbook: Push Button <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`.

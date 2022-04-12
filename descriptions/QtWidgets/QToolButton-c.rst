@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Quick-access button to commands or options, usually used inside a QToolBar
-    :digest: 5d1935460fc4275c9d288d9f6b4ce1a3
+    :digest: e5732efd3ec52d98381a123b6a395ae1
 
 The :sip:ref:`~PyQt6.QtWidgets.QToolButton` class provides a quick-access button to commands or options, usually used inside a :sip:ref:`~PyQt6.QtWidgets.QToolBar`.
 
@@ -25,6 +25,6 @@ A tool button can offer additional choices in a popup menu. The popup menu can b
 | Qt Assistant's toolbar contains tool buttons that are associated with actions used in other parts of the main window. |
 +-----------------------------------------------------------------------------------------------------------------------+
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolBar`, :sip:ref:`~PyQt6.QtWidgets.QMainWindow`, :sip:ref:`~PyQt6.QtGui.QAction`, `GUI Design Handbook: Push Button <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolBar`, :sip:ref:`~PyQt6.QtWidgets.QMainWindow`, :sip:ref:`~PyQt6.QtGui.QAction`.
 
 .. |image-assistant-toolbar-png| image:: ../../../images/assistant-toolbar.png

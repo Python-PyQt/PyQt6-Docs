@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1c56e8d7528709ac6c79e4c126f04f71
     :realsig: (const QString&,const QJSValue&)
-    :digest: 70a105c97cdf927002bad536b0e1a56c
+    :digest: 1b0e37450493c1a62c398f090d55f784
 
 Sets the value of this :sip:ref:`~PyQt6.QtQml.QJSValue`'s property with the given *name* to the given *value*.
 

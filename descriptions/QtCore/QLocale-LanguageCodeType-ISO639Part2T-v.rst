@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1 << 2
+    :digest: d99a1701cd21ec1aa5892fa9a5b96023
 
-TODO
+ISO 639 Part 2 terminological Alpha 3 code.

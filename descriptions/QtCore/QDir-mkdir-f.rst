@@ -2,12 +2,10 @@
     :status: todo
     :pysig: 9d2496c01394f04863ec354dfad3b4be
     :realsig: (const QString&) const
-    :digest: e04a13e65c0f5a2e75911961c0ba8901
+    :digest: ade439596a47efb8921ba9e16ec7160f
 
-Creates a sub-directory called *dirName*.
+This is an overloaded function.
 
-Returns ``true`` on success; otherwise returns ``false``.
+Creates a sub-directory called *dirName* with default permissions.
 
-If the directory already exists when this function is called, it will return false.
-
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir.rmdir`.
+On POSIX systems the default is to grant all permissions allowed by ``umask``. On Windows, the new directory inherits its permissions from its parent directory.

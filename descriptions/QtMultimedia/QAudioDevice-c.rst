@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Information about audio devices and their functionality
-    :digest: cd7caafcb278c61eca836b794fd28ad3
+    :digest: 12d36e0f779f19ac0ea29d5ef88877b8
 
 The :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` class provides an information about audio devices and their functionality.
 
@@ -11,10 +11,10 @@ A :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` is used by Qt to construct classes
 
 You can also query each device for the formats it supports. A format in this context is a set consisting of a channel count, sample rate, and sample type. A format is represented by the :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat` class.
 
-The values supported by the device for each of these parameters can be fetched with :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.minimumChannelCount`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.maximumChannelCount`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.minimumSampleRate`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.maximumSampleRate` and :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.supportedSampleFormats`. The combinations supported are dependent on the audio device capabilities. If you need a specific format, you can check if the device supports it with :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.isFormatSupported`, or fetch a supported format that is as close as possible to the format with nearestFormat(). For instance:
+The values supported by the device for each of these parameters can be fetched with :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.minimumChannelCount`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.maximumChannelCount`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.minimumSampleRate`, :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.maximumSampleRate` and :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.supportedSampleFormats`. The combinations supported are dependent on the audio device capabilities. If you need a specific format, you can check if the device supports it with :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice.isFormatSupported`. For instance:
 
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
-    :lines: 201-204
+    :lines: 151-170
 
 The set of available devices can be retrieved from the :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices` class.
 
@@ -25,4 +25,4 @@ For instance:
 
 In this code sample, we loop through all devices that are able to output sound, i.e., play an audio stream in a supported format. For each device we find, we simply print the deviceName().
 
-.. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QAudioSink`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource`.
+.. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QAudioSink`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource`, :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat`.

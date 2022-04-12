@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6e862321188e0284d08325e12acf151e
     :realsig: () const
-    :digest: f30c7a600ecd995f5f835c10c1dc442d
+    :digest: 2af5e6cdfacf3d13a305ce0bfdf83ba7
 
 Returns the Client Characteristic Configuration Descriptor or an invalid `QLowEnergyDescriptor <https://doc.qt.io/qt-6/qtbluetooth-changes-qt6.html#qlowenergydescriptor>`_ instance if no Client Characteristic Configuration Descriptor exists.
 
@@ -22,5 +22,7 @@ Enabling e.g. notification for a characteristic named ``mycharacteristic`` in a 
     myservice->writeDescriptor(cccd, QLowEnergyCharacteristic::CCCDEnableNotification);
 
 **Note:** Calling ``characteristic.clientCharacteristicConfiguration()`` is equivalent to calling ``characteristic.descriptor(QBluetoothUuid::DescriptorType::ClientCharacteristicConfiguration)``.
+
+**Note:** It is not recommended to use both notifications and indications on the same characteristic. This applies to both server-side when setting up the characteristics, as well as client-side when enabling them. The bluetooth stack behavior differs from platform to platform and the cross-platform behavior will likely be inconsistent. As an example a Bluez Linux client might unconditionally try to enable both mechanisms if both are supported, whereas a macOS client might unconditionally enable just the notifications. If both are needed consider creating two separate characteristics.
 
 .. seealso:: :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic.descriptor`.

@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal menu bar
-    :digest: cb25e8a8425d1db9b9a1456aa5904ae8
+    :digest: fad1e58f88f0366cb4d302ace5b590c0
 
 The :sip:ref:`~PyQt6.QtWidgets.QMenuBar` class provides a horizontal menu bar.
 
-A menu bar consists of a list of pull-down menu items. You add menu items with :sip:ref:`~PyQt6.QtWidgets.QMenuBar.addMenu`. For example, asuming that ``menubar`` is a pointer to a :sip:ref:`~PyQt6.QtWidgets.QMenuBar` and ``fileMenu`` is a pointer to a :sip:ref:`~PyQt6.QtWidgets.QMenu`, the following statement inserts the menu into the menu bar:
+A menu bar consists of a list of pull-down menu items. You add menu items with :sip:ref:`~PyQt6.QtWidgets.QMenuBar.addMenu`. For example, assuming that ``menubar`` is a pointer to a :sip:ref:`~PyQt6.QtWidgets.QMenuBar` and ``fileMenu`` is a pointer to a :sip:ref:`~PyQt6.QtWidgets.QMenu`, the following statement inserts the menu into the menu bar:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qmenubar.py
     :lines: 54-54
@@ -76,4 +76,4 @@ Examples
 
 The `Menus <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_ example shows how to use :sip:ref:`~PyQt6.QtWidgets.QMenuBar` and :sip:ref:`~PyQt6.QtWidgets.QMenu`. The other `main window application examples <https://doc.qt.io/qt-6/examples-mainwindow.html>`_ also provide menus using these classes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenu`, :sip:ref:`~PyQt6.QtGui.QShortcut`, :sip:ref:`~PyQt6.QtGui.QAction`, `Introduction to Apple Human Interface Guidelines <http://developer.apple.com/documentation/UserExperience/Conceptual/AppleHIGuidelines/XHIGIntro/XHIGIntro.html>`_, `GUI Design Handbook: Menu Bar <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenu`, :sip:ref:`~PyQt6.QtGui.QShortcut`, :sip:ref:`~PyQt6.QtGui.QAction`, `Introduction to Apple Human Interface Guidelines <http://developer.apple.com/documentation/UserExperience/Conceptual/AppleHIGuidelines/XHIGIntro/XHIGIntro.html>`_, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.

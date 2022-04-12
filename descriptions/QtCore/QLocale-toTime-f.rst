@@ -2,9 +2,13 @@
     :status: todo
     :pysig: 851b74792d703d1281d06e84be3dbf88
     :realsig: (const QString&,QLocale::FormatType) const
-    :digest: 021a23c3bc3127224ceae5d35384db31
+    :digest: 77527f1464a9fcc125e9628c9f0a723e
 
-Parses the time string given in *string* and returns the time. The format of the time string is chosen according to the *format* parameter (see :sip:ref:`~PyQt6.QtCore.QLocale.timeFormat`).
+Reads *string* as a time in a locale-specific *format*.
+
+Parses *string* and returns the time it represents. The format of the time string is chosen according to the *format* parameter (see :sip:ref:`~PyQt6.QtCore.QLocale.timeFormat`).
+
+**Note:** Any am/pm indicators used must match :sip:ref:`~PyQt6.QtCore.QLocale.amText` or :sip:ref:`~PyQt6.QtCore.QLocale.pmText`, ignoring case.
 
 If the time could not be parsed, returns an invalid time.
 

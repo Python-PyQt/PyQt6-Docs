@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 28
-    :digest: 729066d7be479265ef8f342ca136402e
+    :digest: 288f6189ed265494f00c060f24690021
 
-The frame is stored in external OES texture format.
+The frame is stored in external OES texture format. This is currently only being used on Android.

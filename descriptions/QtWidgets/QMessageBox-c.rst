@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Modal dialog for informing the user or for asking the user a question and receiving an answer
-    :digest: e141e2b477b1e4053e846c8a2ec6c112
+    :digest: be1bf8c6d8421d40f0e4f57d3b2a783e
 
 The :sip:ref:`~PyQt6.QtWidgets.QMessageBox` class provides a modal dialog for informing the user or for asking the user a question and receiving an answer.
 
@@ -114,10 +114,10 @@ The escape button (the button activated when Esc is pressed) can be specified us
 
 #. If there is only one button, it is the button activated when Esc is pressed.
 
-#. If there is a :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButtons.Cancel` button, it is the button activated when Esc is pressed.
+#. If there is a :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.Cancel` button, it is the button activated when Esc is pressed.
 
 #. If there is exactly one button having either :sip:ref:`~PyQt6.QtWidgets.QMessageBox.ButtonRole.RejectRole` or the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.ButtonRole.NoRole`, it is the button activated when Esc is pressed.
 
 When an escape button can't be determined using these rules, pressing Esc has no effect.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, `GUI Design Handbook: Message Box <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.

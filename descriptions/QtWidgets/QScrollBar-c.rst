@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical or horizontal scroll bar
-    :digest: 4b8c6d6212e7f4868d529ddd427df20a
+    :digest: fec48a67b6a54ae4612a95616a93f092
 
 The :sip:ref:`~PyQt6.QtWidgets.QScrollBar` widget provides a vertical or horizontal scroll bar.
 
@@ -65,6 +65,6 @@ The slider itself can be controlled by using the :sip:ref:`~PyQt6.QtWidgets.QAbs
 
 Most GUI styles use the pageStep() value to calculate the size of the slider.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollArea`, :sip:ref:`~PyQt6.QtWidgets.QSlider`, :sip:ref:`~PyQt6.QtWidgets.QDial`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, `GUI Design Handbook: Scroll Bar <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollArea`, :sip:ref:`~PyQt6.QtWidgets.QSlider`, :sip:ref:`~PyQt6.QtWidgets.QDial`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.
 
 .. |image-qscrollbar-values-png| image:: ../../../images/qscrollbar-values.png

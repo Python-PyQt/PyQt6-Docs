@@ -1,23 +1,23 @@
 .. sip:class-description::
     :status: todo
     :brief: Mouse cursor with an arbitrary shape
-    :digest: 17d4ef1a74fe85a94edf0b642613a667
+    :digest: 6f1c134ba81ba8e9c13a977b96ea7641
 
-The `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ class provides a mouse cursor with an arbitrary shape.
+The :sip:ref:`~PyQt6.QtGui.QCursor` class provides a mouse cursor with an arbitrary shape.
 
 This class is mainly used to create mouse cursors that are associated with particular widgets and to get and set the position of the mouse cursor.
 
-Qt has a number of standard cursor shapes, but you can also make custom cursor shapes based on a `QBitmap <https://doc.qt.io/qt-6/gui-changes-qt6.html#qbitmap>`_, a mask and a hotspot.
+Qt has a number of standard cursor shapes, but you can also make custom cursor shapes based on a :sip:ref:`~PyQt6.QtGui.QBitmap`, a mask and a hotspot.
 
 To associate a cursor with a widget, use :sip:ref:`~PyQt6.QtWidgets.QWidget.setCursor`. To associate a cursor with all widgets (normally for a short period of time), use :sip:ref:`~PyQt6.QtGui.QGuiApplication.setOverrideCursor`.
 
-To set a cursor shape use :sip:ref:`~PyQt6.QtGui.QCursor.setShape` or use the `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ constructor which takes the shape as argument, or you can use one of the predefined cursors defined in the :sip:ref:`~PyQt6.QtCore.Qt.CursorShape` enum.
+To set a cursor shape use :sip:ref:`~PyQt6.QtGui.QCursor.setShape` or use the :sip:ref:`~PyQt6.QtGui.QCursor` constructor which takes the shape as argument, or you can use one of the predefined cursors defined in the :sip:ref:`~PyQt6.QtCore.Qt.CursorShape` enum.
 
-If you want to create a cursor with your own bitmap, either use the `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ constructor which takes a bitmap and a mask or the constructor which takes a pixmap as arguments.
+If you want to create a cursor with your own bitmap, either use the :sip:ref:`~PyQt6.QtGui.QCursor` constructor which takes a bitmap and a mask or the constructor which takes a pixmap as arguments.
 
 To set or get the position of the mouse cursor use the static methods :sip:ref:`~PyQt6.QtGui.QCursor.pos` and :sip:ref:`~PyQt6.QtGui.QCursor.setPos`.
 
-**Note:** It is possible to create a `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ before :sip:ref:`~PyQt6.QtGui.QGuiApplication`, but it is not useful except as a place-holder for a real `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ created after :sip:ref:`~PyQt6.QtGui.QGuiApplication`. Attempting to use a `QCursor <https://doc.qt.io/qt-6/gui-changes-qt6.html#qcursor>`_ that was created before :sip:ref:`~PyQt6.QtGui.QGuiApplication` will result in a crash.
+**Note:** It is possible to create a :sip:ref:`~PyQt6.QtGui.QCursor` before :sip:ref:`~PyQt6.QtGui.QGuiApplication`, but it is not useful except as a place-holder for a real :sip:ref:`~PyQt6.QtGui.QCursor` created after :sip:ref:`~PyQt6.QtGui.QGuiApplication`. Attempting to use a :sip:ref:`~PyQt6.QtGui.QCursor` that was created before :sip:ref:`~PyQt6.QtGui.QGuiApplication` will result in a crash.
 
 .. _qcursor-a-note-for-x11-users:
 
@@ -52,7 +52,7 @@ On X11, Qt supports the `Xcursor <https://doc.qt.io/qt-6/http://www.xfree86.org/
 |                              | :sip:ref:`~PyQt6.QtCore.Qt.CursorShape.DragLinkCursor`     | ``dnd-link`` or ``link`` |                               |                                                          |                          |
 +------------------------------+------------------------------------------------------------+--------------------------+-------------------------------+----------------------------------------------------------+--------------------------+
 
-.. seealso:: `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, `GUI Design Handbook: Cursors <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget`.
 
 .. |image-cursor-arrow-png| image:: ../../../images/cursor-arrow.png
 .. |image-cursor-sizev-png| image:: ../../../images/cursor-sizev.png

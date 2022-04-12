@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: a58675f3c43dfbc6a8220d8e8a2a948a
+    :digest: 54990b0f58dc0656827f83b20166e32e
 
 Clears the engine's internal component cache.
 
@@ -16,4 +16,4 @@ Once the component cache has been cleared, components must be loaded before any 
 
 As a general rule of thumb, make sure that no objects created from QML components are alive when you clear the component cache.
 
-.. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlEngine.trimComponentCache`.
+.. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlEngine.trimComponentCache`, :sip:ref:`~PyQt6.QtQml.QQmlEngine.clearSingletons`.

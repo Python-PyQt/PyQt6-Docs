@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Feedback on the progress of a slow operation
-    :digest: a895f226ac18421d58f221e02405fdec
+    :digest: e6e1ebdd3b093cc50dfcac51251aff28
 
 The :sip:ref:`~PyQt6.QtWidgets.QProgressDialog` class provides feedback on the progress of a slow operation.
 
@@ -37,4 +37,4 @@ In both modes the progress dialog may be customized by replacing the child widge
 
 .. image:: ../../../images/fusion-progressdialog.png
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialog`, :sip:ref:`~PyQt6.QtWidgets.QProgressBar`, `GUI Design Handbook: Progress Indicator <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Find Files Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-findfiles-example.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialog`, :sip:ref:`~PyQt6.QtWidgets.QProgressBar`, `Find Files Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-findfiles-example.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.

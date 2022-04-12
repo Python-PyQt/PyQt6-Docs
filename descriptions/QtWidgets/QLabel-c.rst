@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Text or image display
-    :digest: e4abf4f4dd93e32b7d7f882ae14b4abb
+    :digest: 8911998b63bdf171a48c9665caf9e25b
 
 The :sip:ref:`~PyQt6.QtWidgets.QLabel` widget provides a text or image display.
 
@@ -45,6 +45,6 @@ A :sip:ref:`~PyQt6.QtWidgets.QLabel` is often used as a label for an interactive
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qlabel.py
     :lines: 62-64
 
-In this example, keyboard focus is transferred to the label's buddy (the :sip:ref:`~PyQt6.QtWidgets.QLineEdit`) when the user presses Alt+P. If the buddy was a button (inheriting from `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_), triggering the mnemonic would emulate a button click.
+In this example, keyboard focus is transferred to the label's buddy (the :sip:ref:`~PyQt6.QtWidgets.QLineEdit`) when the user presses Alt+P. If the buddy was a button (inheriting from :sip:ref:`~PyQt6.QtWidgets.QAbstractButton`), triggering the mnemonic would emulate a button click.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QMovie`, `GUI Design Handbook: Label <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QMovie`.

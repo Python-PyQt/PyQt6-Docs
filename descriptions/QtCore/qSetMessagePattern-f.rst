@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: d11048717164078ed6c507313a0a3681
+    :digest: 293119d62cbf19565ac9a042cf0b4227
 
 Changes the output of the default message handler.
 
@@ -51,7 +51,7 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_global_qlogging.py
     :lines: 54-54
 
-The default *pattern* is "%{if-category}%{category}: %{endif}%{message}".
+The default *pattern* is ``%{if-category}%{category}: %{endif}%{message}``.
 
 The *pattern* can also be changed at runtime by setting the QT_MESSAGE_PATTERN environment variable; if both qSetMessagePattern() is called and QT_MESSAGE_PATTERN is set, the environment variable takes precedence.
 

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a6df2dfcdb11215e3097723953bcbaf6
+    :digest: 656f928bef73319001abeaa3067217cb
 
 This enum describes the various available pixel metrics. A pixel metric is a style dependent size represented by a single pixel value.
 

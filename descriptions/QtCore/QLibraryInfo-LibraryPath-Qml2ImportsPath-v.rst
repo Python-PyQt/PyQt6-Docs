@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QmlImportsPath
-    :digest: a710548f2f4c2bc37539cbd46108f7f4
+    :digest: a04d4e50b820a32459acb4d13e28782f
 
-The path to installed QML extensions to import.
+This value is deprecated. Use  instead.

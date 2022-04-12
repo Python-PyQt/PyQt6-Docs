@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of dialog windows
-    :digest: 817e4225119e3318e1192015ad77625f
+    :digest: 28d60e2dac272611994729abfdcfeb53
 
 The :sip:ref:`~PyQt6.QtWidgets.QDialog` class is the base class of dialog windows.
 
@@ -90,4 +90,4 @@ A modeless dialog:
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-dialogs-dialogs.py
     :lines: 77-88
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, :sip:ref:`~PyQt6.QtWidgets.QTabWidget`, `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `GUI Design Handbook: Dialogs, Standard <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Extension Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-extension-example.html>`_, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, :sip:ref:`~PyQt6.QtWidgets.QTabWidget`, :sip:ref:`~PyQt6.QtWidgets.QWidget`, :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `Extension Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-extension-example.html>`_, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

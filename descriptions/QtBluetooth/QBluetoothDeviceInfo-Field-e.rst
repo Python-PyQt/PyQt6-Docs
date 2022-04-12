@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: dbe315192618b651842cdad1aa4ccd7b
+    :digest: 28528a7c84e050b51b0d899de080df40
 
 This enum is used in conjuntion with the :sip:ref:`~PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.deviceUpdated` signal and indicates the field that changed.

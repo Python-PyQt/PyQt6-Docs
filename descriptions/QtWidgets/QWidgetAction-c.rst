@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Extends QAction by an interface for inserting custom widgets into action based containers, such as toolbars
-    :digest: 4f7d25922f46d917ee8412d8cd373420
+    :digest: 852bc76918e366b38eb3a17262f3c7e7
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` class extends :sip:ref:`~PyQt6.QtGui.QAction` by an interface for inserting custom widgets into action based containers, such as toolbars.
 
-Most actions in an application are represented as items in menus or buttons in toolbars. However sometimes more complex widgets are necessary. For example a zoom action in a word processor may be realized using a `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_ in a :sip:ref:`~PyQt6.QtWidgets.QToolBar`, presenting a range of different zoom levels. :sip:ref:`~PyQt6.QtWidgets.QToolBar` provides :sip:ref:`~PyQt6.QtWidgets.QToolBar.insertWidget` as convenience function for inserting a single widget. However if you want to implement an action that uses custom widgets for visualization in multiple containers then you have to subclass :sip:ref:`~PyQt6.QtWidgets.QWidgetAction`.
+Most actions in an application are represented as items in menus or buttons in toolbars. However sometimes more complex widgets are necessary. For example a zoom action in a word processor may be realized using a :sip:ref:`~PyQt6.QtWidgets.QComboBox` in a :sip:ref:`~PyQt6.QtWidgets.QToolBar`, presenting a range of different zoom levels. :sip:ref:`~PyQt6.QtWidgets.QToolBar` provides :sip:ref:`~PyQt6.QtWidgets.QToolBar.insertWidget` as convenience function for inserting a single widget. However if you want to implement an action that uses custom widgets for visualization in multiple containers then you have to subclass :sip:ref:`~PyQt6.QtWidgets.QWidgetAction`.
 
 If a :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` is added for example to a :sip:ref:`~PyQt6.QtWidgets.QToolBar` then :sip:ref:`~PyQt6.QtWidgets.QWidgetAction.createWidget` is called. Reimplementations of that function should create a new custom widget with the specified parent.
 
@@ -23,6 +23,6 @@ Note that it is up to the widget to activate the action, for example by reimplem
 
 #. Due to Apple's design, mouse tracking on the widget currently does not work.
 
-#. Connecting the triggered() signal to a slot that opens a modal dialog will cause a crash in macOS 10.4 (known bug acknowledged by Apple), a workaround is to use a QueuedConnection instead of a DirectConnection.
+#. Connecting the  signal to a slot that opens a modal dialog will cause a crash in macOS 10.4 (known bug acknowledged by Apple), a workaround is to use a QueuedConnection instead of a DirectConnection.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QAction`, :sip:ref:`~PyQt6.QtGui.QActionGroup`, `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QAction`, :sip:ref:`~PyQt6.QtGui.QActionGroup`, :sip:ref:`~PyQt6.QtWidgets.QWidget`.

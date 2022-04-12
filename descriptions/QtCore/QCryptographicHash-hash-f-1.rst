@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 12dc451d8fb5e0d2d0d4a224f1abc206
     :realsig: (QByteArrayView,QCryptographicHash::Algorithm)
+    :digest: 3768f49e69a59d028ecb11c8f55b7fc3
 
-TODO
+Returns the hash of *data* using *method*.
+
+**Note:** In Qt versions prior to 6.3, this function took :sip:ref:`~PyQt6.QtCore.QByteArray`, not QByteArrayView.

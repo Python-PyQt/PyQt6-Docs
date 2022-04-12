@@ -2,11 +2,11 @@
     :status: todo
     :pysig: e991172c6cc0c0ddc36c3e82e4c9e036
     :realsig: (QQmlContext*)
-    :digest: c8130f0e94f0717ef1e59915b8052ed9
+    :digest: 38b356e5222f881294550619f61ebc2e
 
-This method provides advanced control over component instance creation. In general, programmers should use :sip:ref:`~PyQt6.QtQml.QQmlComponent.create` to create object instances.
+Create an object instance from this component, within the specified *context*. Returns ``nullptr`` if creation failed.
 
-Create an object instance from this component. Returns ``nullptr`` if creation failed. *publicContext* specifies the context within which to create the object instance.
+**Note:** This method provides advanced control over component instance creation. In general, programmers should use :sip:ref:`~PyQt6.QtQml.QQmlComponent.create` to create object instances.
 
 When :sip:ref:`~PyQt6.QtQml.QQmlComponent` constructs an instance, it occurs in three steps:
 

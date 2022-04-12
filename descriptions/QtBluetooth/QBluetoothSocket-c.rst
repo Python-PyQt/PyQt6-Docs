@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Enables connection to a Bluetooth device running a bluetooth server
-    :digest: 57b8e8a17cc10dc24b0cb83eaadbee76
+    :digest: 2b4127a9afdcbb6af136ab9b7c8c4ebe
 
 The :sip:ref:`~PyQt6.QtBluetooth.QBluetoothSocket` class enables connection to a Bluetooth device running a bluetooth server.
 
@@ -18,3 +18,5 @@ If the :sip:ref:`~PyQt6.QtBluetooth.QBluetoothServiceInfo.Protocol` is not suppo
 **Note:** :sip:ref:`~PyQt6.QtBluetooth.QBluetoothSocket` does not support synchronous read and write operations. Functions such as waitForReadyRead() and waitForBytesWritten() are not implemented. I/O operations should be performed using readyRead(), read() and write().
 
 On iOS, this class cannot be used because the platform does not expose an API which may permit access to :sip:ref:`~PyQt6.QtBluetooth.QBluetoothSocket` related features.
+
+**Note:** On macOS Monterey (12) the socket data flow is paused when a modal dialogue is executing, or an event tracking mode is entered (for example by long-pressing a Window close button). This may change in the future releases of macOS.

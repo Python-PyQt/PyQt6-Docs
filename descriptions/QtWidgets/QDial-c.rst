@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Rounded range control (like a speedometer or potentiometer)
-    :digest: 91050437f6c3c7c1545c5d5f33f4394d
+    :digest: f2519e7892e69cea344a9a94c6a61980
 
 The :sip:ref:`~PyQt6.QtWidgets.QDial` class provides a rounded range control (like a speedometer or potentiometer).
 
@@ -21,6 +21,6 @@ Like the slider, the dial makes the :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider` 
 
 The dial's keyboard interface is fairly simple: The left/up and right/down arrow keys adjust the dial's :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.value` by the defined :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.singleStep`, Page Up and Page Down by the defined :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.pageStep`, and the Home and End keys set the value to the defined :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.minimum` and :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.maximum` values.
 
-If you are using the mouse wheel to adjust the dial, the increment value is determined by the lesser value of :sip:ref:`~PyQt6.QtWidgets.QApplication.wheelScrollLines` multipled by :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.singleStep`, and :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.pageStep`.
+If you are using the mouse wheel to adjust the dial, the increment value is determined by the lesser value of :sip:ref:`~PyQt6.QtWidgets.QApplication.wheelScrollLines` multiplied by :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.singleStep`, and :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.pageStep`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollBar`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QSlider`, `GUI Design Handbook: Slider <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollBar`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QSlider`, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.

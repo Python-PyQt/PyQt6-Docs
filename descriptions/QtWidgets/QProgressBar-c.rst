@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal or vertical progress bar
-    :digest: 353094cb8ce3827f80234cdddc6bbd25
+    :digest: 0b6bd533a6462e96ce926d488cb8b6d6
 
 The :sip:ref:`~PyQt6.QtWidgets.QProgressBar` widget provides a horizontal or vertical progress bar.
 
@@ -15,4 +15,4 @@ You can specify the minimum and maximum number of steps with :sip:ref:`~PyQt6.Qt
 
 If minimum and maximum both are set to 0, the bar shows a busy indicator instead of a percentage of steps. This is useful, for example, when using :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` to download items when they are unable to determine the size of the item being downloaded.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `GUI Design Handbook: Progress Indicator <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`.

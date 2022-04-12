@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 58231f3216b3f0a281a1edb4716b0c0a
     :realsig: (const QString&,const QStringList&,QIODeviceBase::OpenMode)
-    :digest: b1369382858ae117d2dfd08f6f88709c
+    :digest: f149ac0a3b1bc993dcc2be665a857fdb
 
-Starts the given *program* in a new process, passing the command line arguments in *arguments*.
+Starts the given *program* in a new process, passing the command line arguments in *arguments*. See :sip:ref:`~PyQt6.QtCore.QProcess.setProgram` for information about how :sip:ref:`~PyQt6.QtCore.QProcess` searches for the executable to be run.
 
 The :sip:ref:`~PyQt6.QtCore.QProcess` object will immediately enter the Starting state. If the process starts successfully, :sip:ref:`~PyQt6.QtCore.QProcess` will emit :sip:ref:`~PyQt6.QtCore.QProcess.started`; otherwise, :sip:ref:`~PyQt6.QtCore.QProcess.errorOccurred` will be emitted.
 

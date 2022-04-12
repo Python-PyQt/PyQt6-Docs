@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: e84d39d7fd0c86a00ae1522c57030a74
+    :digest: 337cb3954c2332a4c41d034ddc48c0a1
 
-The high-resolution performance counter provided by Windows. This clock is monotonic and does not overflow.
+The performance counter provided by Windows. This clock is monotonic and does not overflow.

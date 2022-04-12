@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 08941018608c98de7e4ed174f5fbaa23
+    :digest: 12f4d2f41678edd0d2d9303d113caf6a
 
 Attribute codes for the :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest` and :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`.
 

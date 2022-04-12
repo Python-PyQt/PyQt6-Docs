@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x4
-    :digest: 7cc33d2c81050f1ba7a55ded9e2fca86
+    :digest: d02d869422faecaae0b200dd8e31cf4b
 
-Indicates that content from this scheme should be allowed to load resources from schemes with the ``Local`` flag.
+Indicates that content from this scheme should be allowed to load resources from schemes with the ``LocalScheme`` flag.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Way to manipulate a key-value pairs in a URL's query
-    :digest: 732eb8f6a4426ff99005e7bbfe61930a
+    :digest: f1b638960d94aefaca8d08ca9c243c67
 
 The :sip:ref:`~PyQt6.QtCore.QUrlQuery` class provides a way to manipulate a key-value pairs in a URL's query.
 
@@ -20,7 +20,11 @@ The encoded query string can be obtained again using :sip:ref:`~PyQt6.QtCore.QUr
 Encoding
 --------
 
-All of the getter methods in :sip:ref:`~PyQt6.QtCore.QUrlQuery` support an optional parameter of type QUrl::ComponentFormattingOptions, including :sip:ref:`~PyQt6.QtCore.QUrlQuery.query`, which dictate how to encode the data in question. Except for :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded`, the returned value must still be considered a percent-encoded string, as there are certain values which cannot be expressed in decoded form (like control characters, byte sequences not decodable to UTF-8). For that reason, the percent character is always represented by the string "%25".
+All of the getter methods in :sip:ref:`~PyQt6.QtCore.QUrlQuery` support an optional parameter of type QUrl::ComponentFormattingOptions, including :sip:ref:`~PyQt6.QtCore.QUrlQuery.query`, which dictate how to encode the data in question. Except for :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded`, the returned value must still be considered a percent-encoded string, as there are certain values which cannot be expressed in decoded form (like control characters, byte sequences not decodable to UTF-8). For that reason, the percent character is always represented by the string "%25".
+
+All of the setter methods and the query methods like :sip:ref:`~PyQt6.QtCore.QUrlQuery.hasQueryItem` in :sip:ref:`~PyQt6.QtCore.QUrlQuery` take encoded forms only. Unlike in :sip:ref:`~PyQt6.QtCore.QUrl`, there's no optional parameter to specify that the strings being passed are decoded. If improperly-encoded strings are passed to the setter or query methods, :sip:ref:`~PyQt6.QtCore.QUrlQuery` will attempt to recover instead of failing. That is to say, all functions in this class parse their string arguments as if the {{\ :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`}} decoding mode was specified.
+
+Application code should strive to always ensure proper encoding and not rely on TolerantMode parsing fixing the strings. Notably, all user input must be first percent-encoded using :sip:ref:`~PyQt6.QtCore.QUrl.toPercentEncoding` or similar functions before being passed to the functions in this class.
 
 .. _qurlquery-handling-of-spaces-and-plus:
 
@@ -38,9 +42,9 @@ To support encoding like that of HTML forms, :sip:ref:`~PyQt6.QtCore.QUrlQuery` 
 Full decoding
 .............
 
-With :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded` formatting, all percent-encoded sequences will be decoded fully and the '%' character is used to represent itself. :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded` should be used with care, since it may cause data loss. See the documentation of :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded` for information on what data may be lost.
+With :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded` formatting, all percent-encoded sequences will be decoded fully and the '%' character is used to represent itself. :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded` should be used with care, since it may cause data loss. See the documentation of :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded` for information on what data may be lost.
 
-This formatting mode should be used only when dealing with text presented to the user in contexts where percent-encoding is not desired. Note that :sip:ref:`~PyQt6.QtCore.QUrlQuery` setters and query methods do not support the counterpart :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode` parsing, so using :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOptions.FullyDecoded` to obtain a listing of keys may result in keys not found in the object.
+This formatting mode should be used only when dealing with text presented to the user in contexts where percent-encoding is not desired. Note that :sip:ref:`~PyQt6.QtCore.QUrlQuery` setters and query methods do not support the counterpart :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode` parsing, so using :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyDecoded` to obtain a listing of keys may result in keys not found in the object.
 
 .. _qurlquery-non-standard-delimiters:
 

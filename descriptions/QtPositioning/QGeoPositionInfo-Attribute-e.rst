@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 024b22bef8b32cf9a66d9080fb86310d
+    :digest: 83e3e586b7c421cefff63c7b813e97dd
 
 Defines the attributes for positional information.
 

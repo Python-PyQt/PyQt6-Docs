@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: 0x0010
-    :digest: d74612c14f28bf8f785ff4f1e9ee8f85
+    :value: NoBatching
+    :digest: ffaebf1ca40f3399fe61a750de345f35
 
-Starting with Qt 5.2, the scene graph will not always call QSGMaterialShader::compile() when its shader program is compiled and linked. Set this flag to enforce that the function is called.
+In Qt 6 this flag is identical to . Prefer using  instead.

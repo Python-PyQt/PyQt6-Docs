@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3be02a385602d5f7a6caad7706a1c60c
+    :digest: 166b1a9435da54c40d4392be90c4a1f6
 
 This enum contains the different clock types that :sip:ref:`~PyQt6.QtCore.QElapsedTimer` may use.
 
@@ -20,15 +20,6 @@ This is the system's monotonic clock, expressed in milliseconds since an arbitra
 
 This clock does not overflow.
 
-TickCounter
-...........
-
-The tick counter clock type is based on the system's or the processor's tick counter, multiplied by the duration of a tick. This clock type is used on Windows platforms. If the high-precision performance counter is available on Windows, the ``\ :sip:ref:`~PyQt6.QtCore.QElapsedTimer.ClockType.PerformanceCounter``` clock type is used instead.
-
-The :sip:ref:`~PyQt6.QtCore.QElapsedTimer.ClockType.TickCounter` clock type is the only clock type that may overflow. Windows Vista and Windows Server 2008 support the extended 64-bit tick counter, which allows avoiding the overflow.
-
-On Windows systems, the clock overflows after 2^32 milliseconds, which corresponds to roughly 49.7 days. This means two processes' reckoning of the time since the reference may be different by multiples of 2^32 milliseconds. When comparing such values, it's recommended that the high 32 bits of the millisecond count be masked off.
-
 MachAbsoluteTime
 ................
 
@@ -39,7 +30,7 @@ This clock is monotonic and does not overflow.
 PerformanceCounter
 ..................
 
-This clock uses the Windows functions ``QueryPerformanceCounter`` and ``QueryPerformanceFrequency`` to access the system's high-precision performance counter. Since this counter may not be available on all systems, :sip:ref:`~PyQt6.QtCore.QElapsedTimer` will fall back to the ``\ :sip:ref:`~PyQt6.QtCore.QElapsedTimer.ClockType.TickCounter``` clock automatically, if this clock cannot be used.
+This clock uses the Windows functions ``QueryPerformanceCounter`` and ``QueryPerformanceFrequency`` to access the system's performance counter.
 
 This clock is monotonic and does not overflow.
 

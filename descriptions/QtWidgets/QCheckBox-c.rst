@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Checkbox with a text label
-    :digest: 32375b4986d67c51f77e79ecec62d497
+    :digest: 027627b11c0a6ccfe2b111ade2cfd349
 
 The :sip:ref:`~PyQt6.QtWidgets.QCheckBox` widget provides a checkbox with a text label.
 
@@ -28,7 +28,7 @@ In this example, the shortcut is *Alt+A*. See the QShortcut documentation for de
 
 Important inherited functions: text(), setText(), text(), pixmap(), setPixmap(), accel(), setAccel(), isToggleButton(), setDown(), isDown(), isOn(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, autoRepeat(), isExclusiveToggle(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), toggled(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, and :sip:ref:`~PyQt6.QtWidgets.QCheckBox.stateChanged`.
 
-.. seealso:: `QAbstractButton <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qabstractbutton>`_, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`, `GUI Design Handbook: Check Box <https://doc.qt.io/qt-6/guibooks.html#fowler>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QAbstractButton`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`.
 
 .. |image-checkboxes-exclusive-png| image:: ../../../images/checkboxes-exclusive.png
 .. |image-checkboxes-non-exclusive-png| image:: ../../../images/checkboxes-non-exclusive.png

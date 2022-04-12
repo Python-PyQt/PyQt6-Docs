@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ee4163cc141154e5c0774a9f9c667938
     :realsig: (const QString&) const
-    :digest: 226bfd550f1ecf477fe105c2b7552f60
+    :digest: e8e308969248500bab63736668b5467a
 
 Returns the value of this :sip:ref:`~PyQt6.QtQml.QJSValue`'s property with the given *name*. If no such property exists, an undefined :sip:ref:`~PyQt6.QtQml.QJSValue` is returned.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Icon for an application in the system tray
-    :digest: b1d0105ecb7803cd2ad9ba38c82f00b0
+    :digest: cf4395895fd3aec9ddd92013c2b3b830
 
 The :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` class provides an icon for an application in the system tray.
 
@@ -13,9 +13,9 @@ The :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` class can be used on the followi
 
 * All supported versions of Windows.
 
-* All window managers and independent tray implementations for X11 that implement the `http://standards.freedesktop.org/systemtray-spec/systemtray-spec-0.2.html freedesktop.org <http://standards.freedesktop.org/systemtray-spec/systemtray-spec-0.2.html freedesktop.org>`_ XEmbed system tray specification.
+* All Linux desktop environments that implement the D-Bus `StatusNotifierItem specification <http://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/StatusNotifierItem>`_, including KDE, Gnome, Xfce, LXQt, and DDE.
 
-* All X11 desktop environments that implement the D-Bus `http://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/StatusNotifierItem <http://www.freedesktop.org/wiki/Specifications/StatusNotifierItem/StatusNotifierItem>`_ specification, including recent versions of KDE and Unity.
+* All window managers and independent tray implementations for X11 that implement the `freedesktop.org XEmbed system tray specification <http://standards.freedesktop.org/systemtray-spec/systemtray-spec-0.2.html>`_.
 
 * All supported versions of macOS.
 

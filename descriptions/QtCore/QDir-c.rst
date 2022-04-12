@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to directory structures and their contents
-    :digest: 8859b18c023ec9dec221a7bb41961fe9
+    :digest: 66d1e3da143428a303d1d0fd658aa2dc
 
 The :sip:ref:`~PyQt6.QtCore.QDir` class provides access to directory structures and their contents.
 
@@ -16,7 +16,7 @@ Examples of absolute paths:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qdir.py
     :lines: 58-59
 
-On Windows, the second example above will be translated to ``C:\Documents and Settings`` when used to access files.
+On Windows, the second example above will be translated to ``C:\Users`` when used to access files.
 
 Examples of relative paths:
 

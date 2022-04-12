@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1eef66a026ef49fb16c6bad28df55d16
     :realsig: (const QString&,QObject*,const char*)
-    :digest: 074f7ab1735501c34920837d1e6e3a43
+    :digest: b5669e4978f93bd8c5542b916e7c9cb8
 
 Sets the handler for the given *scheme* to be the handler *method* provided by the *receiver* object.
 
@@ -16,6 +16,8 @@ The provided method must be implemented as a slot that only accepts a single :si
 If  is used to set a new handler for a scheme which already has a handler, the existing handler is simply replaced with the new one. Since :sip:ref:`~PyQt6.QtGui.QDesktopServices` does not take ownership of handlers, no objects are deleted when a handler is replaced.
 
 Note that the handler will always be called from within the same thread that calls :sip:ref:`~PyQt6.QtGui.QDesktopServices.openUrl`.
+
+You must call :sip:ref:`~PyQt6.QtGui.QDesktopServices.unsetUrlHandler` before destroying the handler object, so the destruction of the handler object does not overlap with concurrent invocations of :sip:ref:`~PyQt6.QtGui.QDesktopServices.openUrl` using it.
 
 iOS
 ---

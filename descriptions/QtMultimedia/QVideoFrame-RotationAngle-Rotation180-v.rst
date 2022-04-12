@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 180
+    :digest: 32367c5b3d777eb1d2efea8ae6945f72
 
-TODO
+The frame should be rotated by 180 degrees

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Radio button with a text label
-    :digest: 66b3048d0b710279e1fa39125b11027e
+    :digest: 1f7cb32dbad5c9a5f9612f4e0234966e
 
 The :sip:ref:`~PyQt6.QtWidgets.QRadioButton` widget provides a radio button with a text label.
 
@@ -22,4 +22,4 @@ In this example the shortcut is *Alt+c*. See the QShortcut documentation for det
 
 Important inherited members: text(), setText(), text(), setDown(), isDown(), autoRepeat(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), and toggled().
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, `GUI Design Handbook: Radio Button <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Group Box Example <https://doc.qt.io/qt-6/qtwidgets-widgets-groupbox-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, `Group Box Example <https://doc.qt.io/qt-6/qtwidgets-widgets-groupbox-example.html>`_.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: One-line text editor
-    :digest: 66aa3085b64697dfbb71fb0e24ae9cd7
+    :digest: a21d9c9aa2486e1d3ce109840ba1e415
 
 The :sip:ref:`~PyQt6.QtWidgets.QLineEdit` widget is a one-line text editor.
 
@@ -75,4 +75,4 @@ The default key bindings are described below. The line edit also provides a cont
 
 Any other key sequence that represents a valid character, will cause the character to be inserted into the line edit.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QComboBox`, `GUI Design Handbook: Field, Entry <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QComboBox`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

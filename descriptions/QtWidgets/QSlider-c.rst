@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical or horizontal slider
-    :digest: 3affc082b0291bd6ef634c893a9b8ba1
+    :digest: a03daff9213afae7853939a5f4dfc0a8
 
 The :sip:ref:`~PyQt6.QtWidgets.QSlider` widget provides a vertical or horizontal slider.
 
@@ -43,4 +43,4 @@ A slider accepts focus on Tab and provides both a mouse wheel and a keyboard int
 
 * End moves to the end (maximum).
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollBar`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QDial`, `GUI Design Handbook: Slider <https://doc.qt.io/qt-6/guibooks.html#fowler>`_, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QScrollBar`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QDial`, `Sliders Example <https://doc.qt.io/qt-6/qtwidgets-widgets-sliders-example.html>`_.

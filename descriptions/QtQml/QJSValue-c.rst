@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Acts as a container for Qt/JavaScript data types
-    :digest: d7f9e6189b1b09828999b7e4c0226edb
+    :digest: 4c466170aea18e2d479e8bca38da7037
 
 The :sip:ref:`~PyQt6.QtQml.QJSValue` class acts as a container for Qt/JavaScript data types.
 
-:sip:ref:`~PyQt6.QtQml.QJSValue` supports the types defined in the `ECMA-262 <https://doc.qt.io/qt-6/http://www.ecma-international.org/publications/standards/Ecma-262.htm>`_ standard: The primitive types, which are Undefined, Null, Boolean, Number, and String; and the Object and Array types. Additionally, built-in support is provided for Qt/C++ types such as `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ and :sip:ref:`~PyQt6.QtCore.QObject`.
+:sip:ref:`~PyQt6.QtQml.QJSValue` supports the types defined in the `ECMA-262 <https://doc.qt.io/qt-6/http://www.ecma-international.org/publications/standards/Ecma-262.htm>`_ standard: The primitive types, which are Undefined, Null, Boolean, Number, and String; and the Object and Array types. Additionally, built-in support is provided for Qt/C++ types such as :sip:ref:`~PyQt6.QtCore.QVariant` and :sip:ref:`~PyQt6.QtCore.QObject`.
 
 For the object-based types (including Date and RegExp), use the newT() functions in :sip:ref:`~PyQt6.QtQml.QJSEngine` (e.g. :sip:ref:`~PyQt6.QtQml.QJSEngine.newObject`) to create a :sip:ref:`~PyQt6.QtQml.QJSValue` of the desired type. For the primitive types, use one of the :sip:ref:`~PyQt6.QtQml.QJSValue` constructor overloads. For other types, e.g. registered gadget types such as :sip:ref:`~PyQt6.QtCore.QPoint`, you can use QJSEngine::toScriptValue.
 

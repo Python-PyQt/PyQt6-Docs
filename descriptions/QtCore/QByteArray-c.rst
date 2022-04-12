@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Array of bytes
-    :digest: 4932f85f57f3884bf76993cc64500407
+    :digest: aa2612d6e5d34691c6553bdcbb381cb8
 
 The :sip:ref:`~PyQt6.QtCore.QByteArray` class provides an array of bytes.
 
@@ -126,7 +126,7 @@ Functions that perform conversions between numeric data types and string represe
 Character Case
 ..............
 
-In :sip:ref:`~PyQt6.QtCore.QByteArray`, the notion of uppercase and lowercase and of case-independent comparison is limited to ASCII. Non-ASCII characters are treated as caseless, since their case depends on encoding. This affects functions that support a case insensitive option or that change the case of their arguments. Functions that this affects include :sip:ref:`~PyQt6.QtCore.QByteArray.contains`, :sip:ref:`~PyQt6.QtCore.QByteArray.indexOf`, :sip:ref:`~PyQt6.QtCore.QByteArray.lastIndexOf`, :sip:ref:`~PyQt6.QtCore.QByteArray.isLower`, :sip:ref:`~PyQt6.QtCore.QByteArray.isUpper`, :sip:ref:`~PyQt6.QtCore.QByteArray.toLower` and :sip:ref:`~PyQt6.QtCore.QByteArray.toUpper`.
+In :sip:ref:`~PyQt6.QtCore.QByteArray`, the notion of uppercase and lowercase and of case-independent comparison is limited to ASCII. Non-ASCII characters are treated as caseless, since their case depends on encoding. This affects functions that support a case insensitive option or that change the case of their arguments. Functions that this affects include :sip:ref:`~PyQt6.QtCore.QByteArray.compare`, :sip:ref:`~PyQt6.QtCore.QByteArray.isLower`, :sip:ref:`~PyQt6.QtCore.QByteArray.isUpper`, :sip:ref:`~PyQt6.QtCore.QByteArray.toLower` and :sip:ref:`~PyQt6.QtCore.QByteArray.toUpper`.
 
 This issue does not apply to QStrings since they represent characters using Unicode.
 

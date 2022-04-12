@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 119
+    :digest: e51c634c5853ebb8d972f3da5f91ac34
 
-TODO
+Whether changing the value using the buttons or up/down keys automatically selects the text.

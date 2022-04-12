@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 92
-    :digest: 4d22dd6ad55042b74472ed2f3be9ee6c
+    :digest: 44e96c7a6e5d66ae0ff70a12e589fe69
 
-The size of buttons on a title bar. This enum value has been introduced in Qt 5.8.
+The size of buttons on a title bar.
