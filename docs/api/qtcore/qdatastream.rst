@@ -362,10 +362,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
-            Any
+            :sip:ref:`~PyQt6.QtCore.QVariant`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__lshift__-f-24.rst
+        :description: QtCore/QDataStream-__lshift__-f-27.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:

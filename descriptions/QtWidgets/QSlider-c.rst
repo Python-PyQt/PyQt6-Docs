@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical or horizontal slider
-    :digest: 5265988a9b705b5a7c2f8617c7080594
+    :digest: 3affc082b0291bd6ef634c893a9b8ba1
 
 The :sip:ref:`~PyQt6.QtWidgets.QSlider` widget provides a vertical or horizontal slider.
 
@@ -39,7 +39,7 @@ A slider accepts focus on Tab and provides both a mouse wheel and a keyboard int
 
 * PageDown moves down one page.
 
-* Home moves to the start (mininum).
+* Home moves to the start (minimum).
 
 * End moves to the end (maximum).
 

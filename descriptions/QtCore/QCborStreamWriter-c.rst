@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Simple CBOR encoder operating on a one-way stream
-    :digest: ad9a6a8f48f24d7101c065016e653917
+    :digest: 1895392f71b6f07a3cfa43bc2d79aa46
 
 The :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` class is a simple CBOR encoder operating on a one-way stream.
 
-This class can be used to quickly encode a stream of CBOR content directly to either a :sip:ref:`~PyQt6.QtCore.QByteArray` or :sip:ref:`~PyQt6.QtCore.QIODevice`. CBOR is the Concise Binary Object Representation, a very compact form of binary data encoding that is compatible with JSON. It was created by the IETF Constrained RESTful Environments (CoRE) WG, which has used it in many new RFCs. It is meant to be used alongside the `CoAP protocol <https://tools.ietf.org/html/rfc7252>`_.
+This class can be used to quickly encode a stream of CBOR content directly to either a :sip:ref:`~PyQt6.QtCore.QByteArray` or :sip:ref:`~PyQt6.QtCore.QIODevice`. CBOR is the Concise Binary Object Representation, a very compact form of binary data encoding that is compatible with JSON. It was created by the IETF Constrained RESTful Environments (CoRE) WG, which has used it in many new RFCs. It is meant to be used alongside the CoAP protocol.
 
 :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` provides a StAX-like API, similar to that of :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter`. It is rather low-level and requires a bit of knowledge of CBOR encoding. For a simpler API, see QCborValue and especially the encoding function QCborValue::toCbor().
 
@@ -23,7 +23,7 @@ The following example encodes the equivalent of this JSON content:
 CBOR support
 ------------
 
-:sip:ref:`~PyQt6.QtCore.QCborStreamWriter` supports all CBOR features required to create canonical and strict streams. It implements almost all of the features specified in `RFC 7049 <https://tools.ietf.org/html/rfc7049>`_.
+:sip:ref:`~PyQt6.QtCore.QCborStreamWriter` supports all CBOR features required to create canonical and strict streams. It implements almost all of the features specified in RFC 7049.
 
 The following table lists the CBOR features that :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` supports.
 
@@ -70,7 +70,7 @@ The following table lists the CBOR features that :sip:ref:`~PyQt6.QtCore.QCborSt
 Canonical CBOR encoding
 .......................
 
-Canonical CBOR encoding is defined by `Section 3.9 of RFC 7049 <https://tools.ietf.org/html/rfc7049#section-3.9>`_. Canonical encoding is not a requirement for Qt's CBOR decoding functionality, but it may be required for some protocols. In particular, protocols that require the ability to reproduce the same stream identically may require this.
+Canonical CBOR encoding is defined by Section 3.9 of RFC 7049. Canonical encoding is not a requirement for Qt's CBOR decoding functionality, but it may be required for some protocols. In particular, protocols that require the ability to reproduce the same stream identically may require this.
 
 In order to be considered "canonical", a CBOR stream must meet the following requirements:
 
@@ -89,7 +89,7 @@ In order to be considered "canonical", a CBOR stream must meet the following req
 Strict CBOR mode
 ................
 
-Strict mode is defined by `Section 3.10 of RFC 7049 <https://tools.ietf.org/html/rfc7049#section-3.10>`_. As for Canonical encoding above, :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` makes it possible to create strict CBOR streams, but does not require them or validate that the output is so.
+Strict mode is defined by Section 3.10 of RFC 7049. As for Canonical encoding above, :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` makes it possible to create strict CBOR streams, but does not require them or validate that the output is so.
 
 * Keys in a map must be unique. :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` performs no validation of map keys.
 

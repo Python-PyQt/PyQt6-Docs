@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Menu widget for use in menu bars, context menus, and other popup menus
-    :digest: e8a8bd34c62e3c93befff7a7045b46f7
+    :digest: a2d52fea7096cfbb34fc78a063c400a2
 
 The :sip:ref:`~PyQt6.QtWidgets.QMenu` class provides a menu widget for use in menu bars, context menus, and other popup menus.
 
@@ -20,7 +20,7 @@ The existing actions held by a menu can be found with actions().
 
 There are four kinds of action items: separators, actions that show a submenu, widgets, and actions that perform an action. Separators are inserted with :sip:ref:`~PyQt6.QtWidgets.QMenu.addSeparator`, submenus with :sip:ref:`~PyQt6.QtWidgets.QMenu.addMenu`, and all other items are considered action items.
 
-When inserting action items you usually specify a receiver and a slot. The receiver will be notifed whenever the item is :sip:ref:`~PyQt6.QtGui.QAction.triggered`. In addition, :sip:ref:`~PyQt6.QtWidgets.QMenu` provides two signals, :sip:ref:`~PyQt6.QtWidgets.QMenu.triggered` and :sip:ref:`~PyQt6.QtWidgets.QMenu.hovered`, which signal the :sip:ref:`~PyQt6.QtGui.QAction` that was triggered from the menu.
+When inserting action items you usually specify a receiver and a slot. The receiver will be notified whenever the item is :sip:ref:`~PyQt6.QtGui.QAction.triggered`. In addition, :sip:ref:`~PyQt6.QtWidgets.QMenu` provides two signals, :sip:ref:`~PyQt6.QtWidgets.QMenu.triggered` and :sip:ref:`~PyQt6.QtWidgets.QMenu.hovered`, which signal the :sip:ref:`~PyQt6.QtGui.QAction` that was triggered from the menu.
 
 You clear a menu with :sip:ref:`~PyQt6.QtWidgets.QMenu.clear` and remove individual action items with removeAction().
 

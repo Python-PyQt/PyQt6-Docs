@@ -231,6 +231,11 @@
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyController.Error`
         :description: QtBluetooth/QLowEnergyController-errorOccurred-s.rst
 
+    .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyController.mtuChanged
+        :args:
+            int
+        :description: QtBluetooth/QLowEnergyController-mtuChanged-s.rst
+
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyController.serviceDiscovered
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`

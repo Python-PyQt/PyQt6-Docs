@@ -434,12 +434,26 @@
             str
         :description: QtCore/QUrl-toDisplayString-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QUrl.toDisplayString
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption`
+        :returns:
+            str
+        :description: QtCore/QUrl-toDisplayString-f-2.rst
+
     .. sip:method:: PyQt6.QtCore.QUrl.toEncoded
         :args:
             options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.FullyEncoded`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtCore/QUrl-toEncoded-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QUrl.toEncoded
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QUrl-toEncoded-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toLocalFile
         :returns:
@@ -462,6 +476,13 @@
         :returns:
             str
         :description: QtCore/QUrl-toString-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QUrl.toString
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption`
+        :returns:
+            str
+        :description: QtCore/QUrl-toString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toStringList
         :args:

@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all user interface objects
-    :digest: 2eff49d4615366f3957d2ff7eaddcdec
+    :digest: ed8ae139158a03262bc0d395ee12c0a6
 
-The `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ class is the base class of all user interface objects.
+The :sip:ref:`~PyQt6.QtWidgets.QWidget` class is the base class of all user interface objects.
 
 The widget is the atom of the user interface: it receives mouse, keyboard and other events from the window system, and paints a representation of itself on the screen. Every widget is rectangular, and they are sorted in a Z-order. A widget is clipped by its parent and by the widgets in front of it.
 
@@ -15,7 +15,7 @@ Every widget's constructor accepts one or two standard arguments:
 
 #. ``Qt::WindowFlags f = { }`` (where available) sets the window flags; the default is suitable for almost all widgets, but to get, for example, a window without a window system frame, you must use special flags.
 
-`QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ has many member functions, but some of them have little direct functionality; for example, `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ has a font property, but never uses this itself. There are many subclasses which provide real functionality, such as :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`, and :sip:ref:`~PyQt6.QtWidgets.QTabWidget`.
+:sip:ref:`~PyQt6.QtWidgets.QWidget` has many member functions, but some of them have little direct functionality; for example, :sip:ref:`~PyQt6.QtWidgets.QWidget` has a font property, but never uses this itself. There are many subclasses which provide real functionality, such as :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`, and :sip:ref:`~PyQt6.QtWidgets.QTabWidget`.
 
 .. _qwidget-top-level-and-child-widgets:
 
@@ -30,7 +30,7 @@ Non-window widgets are child widgets, displayed within their parent widgets. Mos
 
 The diagram above shows a :sip:ref:`~PyQt6.QtWidgets.QGroupBox` widget being used to hold various child widgets in a layout provided by :sip:ref:`~PyQt6.QtWidgets.QGridLayout`. The :sip:ref:`~PyQt6.QtWidgets.QLabel` child widgets have been outlined to indicate their full sizes.
 
-If you want to use a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ to hold child widgets you will usually want to add a layout to the parent `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_. See `Layout Management <https://doc.qt.io/qt-6/layout.html>`_ for more information.
+If you want to use a :sip:ref:`~PyQt6.QtWidgets.QWidget` to hold child widgets you will usually want to add a layout to the parent :sip:ref:`~PyQt6.QtWidgets.QWidget`. See `Layout Management <https://doc.qt.io/qt-6/layout.html>`_ for more information.
 
 .. _qwidget-composite-widgets:
 
@@ -39,14 +39,14 @@ Composite Widgets
 
 When a widget is used as a container to group a number of child widgets, it is known as a composite widget. These can be created by constructing a widget with the required visual properties - a :sip:ref:`~PyQt6.QtWidgets.QFrame`, for example - and adding child widgets to it, usually managed by a layout. The above diagram shows such a composite widget that was created using Qt Designer.
 
-Composite widgets can also be created by subclassing a standard widget, such as `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt `Tutorials <https://doc.qt.io/qt-6/qtwidgets-index.html#tutorials>`_.
+Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt `Tutorials <https://doc.qt.io/qt-6/qtwidgets-index.html#tutorials>`_.
 
 .. _qwidget-custom-widgets-and-painting:
 
 Custom Widgets and Painting
 ---------------------------
 
-Since `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ is a subclass of :sip:ref:`~PyQt6.QtGui.QPaintDevice`, subclasses can be used to display custom content that is composed using a series of painting operations with an instance of the :sip:ref:`~PyQt6.QtGui.QPainter` class. This approach contrasts with the canvas-style approach used by the `Graphics View Framework <https://doc.qt.io/qt-6/graphicsview.html>`_ where items are added to a scene by the application and are rendered by the framework itself.
+Since :sip:ref:`~PyQt6.QtWidgets.QWidget` is a subclass of :sip:ref:`~PyQt6.QtGui.QPaintDevice`, subclasses can be used to display custom content that is composed using a series of painting operations with an instance of the :sip:ref:`~PyQt6.QtGui.QPainter` class. This approach contrasts with the canvas-style approach used by the `Graphics View Framework <https://doc.qt.io/qt-6/graphicsview.html>`_ where items are added to a scene by the application and are rendered by the framework itself.
 
 Each widget performs all painting operations from within its :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` function. This is called whenever the widget needs to be redrawn, either as a result of some external change or when requested by the application.
 
@@ -76,7 +76,7 @@ If your widget only contains child widgets, you probably do not need to implemen
 
 The `Scribble example <https://doc.qt.io/qt-6/qtwidgets-widgets-scribble-example.html>`_ implements a wider set of events to handle mouse movement, button presses, and window resizing.
 
-You will need to supply the behavior and content for your own widgets, but here is a brief overview of the events that are relevant to `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, starting with the most common ones:
+You will need to supply the behavior and content for your own widgets, but here is a brief overview of the events that are relevant to :sip:ref:`~PyQt6.QtWidgets.QWidget`, starting with the most common ones:
 
 * :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` is called whenever the widget needs to be repainted. Every widget displaying custom content must implement it. Painting using a :sip:ref:`~PyQt6.QtGui.QPainter` can only take place in a :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` or a function called by a :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent`.
 
@@ -165,7 +165,7 @@ The use of widget style sheets is described in more detail in the `Qt Style Shee
 Transparency and Double Buffering
 ---------------------------------
 
-Since Qt 4.0, `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ automatically double-buffers its painting, so there is no need to write double-buffering code in :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` to avoid flicker.
+Since Qt 4.0, :sip:ref:`~PyQt6.QtWidgets.QWidget` automatically double-buffers its painting, so there is no need to write double-buffering code in :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` to avoid flicker.
 
 Since Qt 4.1, the contents of parent widgets are propagated by default to each of their children as long as :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_PaintOnScreen` is not set. Custom widgets can be written to take advantage of this feature by updating irregular regions (to create non-rectangular child widgets), or painting with colors that have less than full alpha component. The following diagram shows how attributes and properties of a custom widget can be fine-tuned to achieve different effects.
 
@@ -205,6 +205,8 @@ Platform notes:
 * X11: This feature relies on the use of an X server that supports ARGB visuals and a compositing window manager.
 
 * Windows: The widget needs to have the :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.FramelessWindowHint` window flag set for the translucency to work.
+
+* macOS: The widget needs to have the :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.FramelessWindowHint` window flag set for the translucency to work.
 
 .. _qwidget-native-widgets-vs-alien-widgets:
 

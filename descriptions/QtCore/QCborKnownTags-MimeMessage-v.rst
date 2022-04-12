@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 36
-    :digest: cc797cc5020be5afd5ecbaf33a0920b6
+    :digest: 6806d211ab6eff07abe69b960a87a52c
 
-Indicates that the string contains a MIME message (according to `https://tools.ietf.org/html/rfc2045 <https://tools.ietf.org/html/rfc2045>`_){RFC 2045}.
+Indicates that the string contains a MIME message (according to RFC 2045).

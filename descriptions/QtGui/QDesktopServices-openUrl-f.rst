@@ -2,7 +2,7 @@
     :status: todo
     :pysig: e29038ad9f0ea4ee5e1065bf7926b1f2
     :realsig: (const QUrl&)
-    :digest: d064ca3845411b458bceb8c5f6c32fd5
+    :digest: 1ed1589e964c60e867fc812f061e5e8b
 
 Opens the given *url* in the appropriate Web browser for the user's desktop environment, and returns ``true`` if successful; otherwise returns ``false``.
 
@@ -24,7 +24,7 @@ For example, the following URL contains a recipient (``user@foo.com``), a subjec
 
 **Warning:** A return value of ``true`` indicates that the application has successfully requested the operating system to open the URL in an external application. The external application may still fail to launch or fail to open the requested URL. This result will not be reported back to the application.
 
-**Warning:** URLs passed to this function on iOS will not load unless their schemes are listed in the ``LSApplicationQueriesSchemes`` key of the application's Info.plist file. For more information, see the Apple Developer Documentation for `canOpenURL(_:) <https://developer.apple.com/documentation/uikit/uiapplication/1622952-canopenurl>`_. For example, the following lines enable URLs with the HTTPS scheme:
+**Warning:** URLs passed to this function on iOS will not load unless their schemes are listed in the ``LSApplicationQueriesSchemes`` key of the application's Info.plist file. For more information, see the Apple Developer Documentation for canOpenURL:. For example, the following lines enable URLs with the HTTPS scheme:
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 97-100

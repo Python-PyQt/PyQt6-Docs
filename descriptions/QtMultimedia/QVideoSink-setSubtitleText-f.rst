@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: e08f87a007b35c9af3e87a88553b6200
+    :digest: baf99ac3a76f694bd4185c404c89f80a
 
-Sets the current subtitle text to *subtitle*.
+Sets the current *subtitle* text.
 
 .. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QVideoSink.subtitleText`.

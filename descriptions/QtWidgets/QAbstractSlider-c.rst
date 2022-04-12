@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Integer value within a range
-    :digest: 3ba2fb0da4ecefd988b834090900e956
+    :digest: e8cb1097b61348d81faf112633aef5b4
 
 The :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider` class provides an integer value within a range.
 
@@ -38,7 +38,7 @@ Unity (1) may be viewed as a third step size. :sip:ref:`~PyQt6.QtWidgets.QAbstra
 +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.sliderReleased`  | the user releases the slider.                                                                          |
 +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
-| :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.actionTriggered` | a slider action was triggerd.                                                                          |
+| :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.actionTriggered` | a slider action was triggered.                                                                         |
 +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.rangeChanged`    | a the range has changed.                                                                               |
 +-------------------------------------------------------------+--------------------------------------------------------------------------------------------------------+

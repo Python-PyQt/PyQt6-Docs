@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 38
-    :digest: 9cfad731831f911e875bc57dbe7c95ec
+    :digest: 76d439e6858d96364c0842a3b02d02c4
 
-Whether a tab bar should suggest a size to prevent scoll arrows.
+Whether a tab bar should suggest a size to prevent scroll arrows.

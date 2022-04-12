@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QDir::Filter
-    :digest: a2a66386884d5c6fd6428543cb2fdd59
+    :digest: c35b578166f4d0cf8ede2645a3701d22
 
 This enum describes the filtering options available to :sip:ref:`~PyQt6.QtCore.QDir`; e.g. for :sip:ref:`~PyQt6.QtCore.QDir.entryList` and :sip:ref:`~PyQt6.QtCore.QDir.entryInfoList`. The filter value is specified by combining values from the following list using the bitwise OR operator:
 
@@ -11,4 +11,4 @@ A default constructed :sip:ref:`~PyQt6.QtCore.QDir` will not filter out files ba
 
 For example, setting the ``Readable``, ``Writable``, and ``Files`` flags allows all files to be listed for which the application has read access, write access or both. If the ``Dirs`` and ``Drives`` flags are also included in this combination then all drives, directories, all files that the application can read, write, or execute, and symlinks to such files/directories can be listed.
 
-To retrieve the permissons for a directory, use the :sip:ref:`~PyQt6.QtCore.QDir.entryInfoList` function to get the associated :sip:ref:`~PyQt6.QtCore.QFileInfo` objects and then use the QFileInfo::permissons() to obtain the permissions and ownership for each file.
+To retrieve the permissions for a directory, use the :sip:ref:`~PyQt6.QtCore.QDir.entryInfoList` function to get the associated :sip:ref:`~PyQt6.QtCore.QFileInfo` objects and then use the :sip:ref:`~PyQt6.QtCore.QFileInfo.permissions` to obtain the permissions and ownership for each file.

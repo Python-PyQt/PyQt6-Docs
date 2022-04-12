@@ -2,6 +2,6 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 9acb482e7ad1af1ab00b1916a268937e
+    :digest: b28459e08971b967d037c93db8337e21
 
-This signal gets emitted whenever the roation of the item changes.
+This signal gets emitted whenever the rotation of the item changes.

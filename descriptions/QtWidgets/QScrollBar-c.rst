@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical or horizontal scroll bar
-    :digest: 9d10ebbe40b283aa210f77fcd9a6e8d2
+    :digest: 4b8c6d6212e7f4868d529ddd427df20a
 
 The :sip:ref:`~PyQt6.QtWidgets.QScrollBar` widget provides a vertical or horizontal scroll bar.
 
@@ -57,7 +57,7 @@ A scroll bar can be controlled by the keyboard, but it has a default focusPolicy
 
 * PageDown moves down one page.
 
-* Home moves to the start (mininum).
+* Home moves to the start (minimum).
 
 * End moves to the end (maximum).
 

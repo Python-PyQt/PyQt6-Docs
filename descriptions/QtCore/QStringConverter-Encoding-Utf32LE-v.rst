@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 5
-    :digest: 2baa60be4e7f642e08e96daab9530788
+    :digest: a0e1f198075abfc550af587d43e253c3
 
-Create a converter to or from litte endian UTF-32.
+Create a converter to or from little-endian UTF-32.

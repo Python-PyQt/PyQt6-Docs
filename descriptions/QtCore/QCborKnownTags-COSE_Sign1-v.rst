@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 18
-    :digest: 0112a379d66ce750f09b63f933a0aa63
+    :digest: 22bf32e6a7c70cc45eca96909029a202
 
-A ``Sign1`` map as specified by `RFC 8152 <https://tools.ietf.org/html/rfc8152>`_ (CBOR Object Signing and Encryption).
+A ``Sign1`` map as specified by RFC 8152 (CBOR Object Signing and Encryption).

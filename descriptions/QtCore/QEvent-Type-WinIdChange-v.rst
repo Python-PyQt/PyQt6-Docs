@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 203
-    :digest: d1b4089ed0d399bec60316bc3c4c1232
+    :digest: 3a45de41f7ddb234e8f7563e97b8d449
 
-The window system identifer for this native widget has changed.
+The window system identifier for this native widget has changed.

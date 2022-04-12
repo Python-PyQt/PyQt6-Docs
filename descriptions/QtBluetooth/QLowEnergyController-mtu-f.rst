@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: 8fb91aedcd51579a35e5ea1cf5e38efa
+    :digest: 010ebd4cb361f366f37a249f0aaefc66
 
 Returns the MTU size.
 
@@ -11,3 +11,5 @@ During connection setup, the ATT MTU size is negotiated. This method provides th
 Before the connection setup and MTU negotiation, the default value of ``23`` will be returned.
 
 Not every platform exposes the MTU value. On those platforms (e.g. Linux) this function always returns ``-1``.
+
+If the controller is in the :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyController.Role.PeripheralRole`, there might be several central devices connected to it. In those cases this function returns the MTU of the last connection that was negotiated.

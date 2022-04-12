@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used in combination with QBrush to specify gradient fills
-    :digest: 587765779cd26e9e46dc8a521a7645e6
+    :digest: aa72e03a216b8a642f1fbb74e2bd7162
 
 The :sip:ref:`~PyQt6.QtGui.QGradient` class is used in combination with :sip:ref:`~PyQt6.QtGui.QBrush` to specify gradient fills.
 
@@ -37,7 +37,7 @@ A gradient can have an arbitrary number of stop points. The following would crea
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-brush-brush.py
     :lines: 66-69
 
-It is possible to repeat or reflect the gradient outside its area by specifiying the :sip:ref:`~PyQt6.QtGui.QGradient.Spread` using the :sip:ref:`~PyQt6.QtGui.QGradient.setSpread` function. The default is to pad the outside area with the color at the closest stop point. The currently set :sip:ref:`~PyQt6.QtGui.QGradient.Spread` can be retrieved using the :sip:ref:`~PyQt6.QtGui.QGradient.spread` function. The :sip:ref:`~PyQt6.QtGui.QGradient.Spread` enum defines three different methods:
+It is possible to repeat or reflect the gradient outside its area by specifying the :sip:ref:`~PyQt6.QtGui.QGradient.Spread` using the :sip:ref:`~PyQt6.QtGui.QGradient.setSpread` function. The default is to pad the outside area with the color at the closest stop point. The currently set :sip:ref:`~PyQt6.QtGui.QGradient.Spread` can be retrieved using the :sip:ref:`~PyQt6.QtGui.QGradient.spread` function. The :sip:ref:`~PyQt6.QtGui.QGradient.Spread` enum defines three different methods:
 
 +----------------------------------------------------+-------------------------------------------------------+--------------------------------------------------------+
 | |image-qradialgradient-pad-png|                    | |image-qradialgradient-repeat-png|                    | |image-qradialgradient-reflect-png|                    |
@@ -49,7 +49,7 @@ Note that the :sip:ref:`~PyQt6.QtGui.QGradient.setSpread` function only has effe
 
 The gradient coordinates can be specified in logical coordinates, relative to device coordinates, or relative to object bounding box coordinates. The :sip:ref:`~PyQt6.QtGui.QGradient.CoordinateMode` can be set using the :sip:ref:`~PyQt6.QtGui.QGradient.setCoordinateMode` function. The default is :sip:ref:`~PyQt6.QtGui.QGradient.CoordinateMode.LogicalMode`, where the gradient coordinates are specified in the same way as the object coordinates. To retrieve the currently set :sip:ref:`~PyQt6.QtGui.QGradient.CoordinateMode` use :sip:ref:`~PyQt6.QtGui.QGradient.coordinateMode`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QBrush`, The Gradients Example.
+.. seealso:: `The Gradients Example <https://doc.qt.io/qt-6/qtwidgets-painting-gradients-example.html>`_, :sip:ref:`~PyQt6.QtGui.QBrush`.
 
 .. |image-qgradient-linear-png| image:: ../../../images/qgradient-linear.png
 .. |image-qgradient-radial-png| image:: ../../../images/qgradient-radial.png
