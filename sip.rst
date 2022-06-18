@@ -1,4 +1,4 @@
-The main purpose of the :sip:ref:`~PyQt6.sip` module is to provide
+The main purpose of the :py:mod:`~PyQt6.sip` module is to provide
 functionality common to all SIP generated bindings.  It is loaded automatically
 and most of the time you will completely ignore it.  However, it does expose
 some functionality that can be used by applications.
@@ -6,14 +6,60 @@ some functionality that can be used by applications.
 
 .. py:class:: PyQt6.sip.array
 
-    This is the type object for the type SIP uses to represent an array of a
-    limited number of C/C++ types.  Typically the memory is not owned by Python
-    so that it is not freed when the object is garbage collected.  An
-    :py:class:`~PyQt6.sip.array` object can be created from a
-    :py:class:`~PyQt6.sip.voidptr` object by calling
-    :py:func:`~PyQt6.sip.voidptr.asarray`.  This allows the
-    underlying memory (interpreted as a sequence of unsigned bytes) to be
-    processed much more quickly.
+    This is the type object for the type SIP uses to represent an array of
+    wrapped C/C++ instances.  (It can also present an array of a limited number
+    of basic C/C++ types but such arrays cannot, at the moment, be created from
+    Python.)
+
+    Arrays can be indexed and elements can be modified in situ.  Arrays cannot
+    be resized.  Arrays support the buffer protocol.
+
+    .. py:method:: __init__(type, nr_elements)
+
+        :param type:
+            the type of an array element.
+        :param nr_elements:
+            the number of elements in the array.
+
+        For a C++ class each element of the array is created by calling the 
+        class's argumentless constructor.  For a C structure then the memory is
+        simply allocated on the heap.
+
+    .. py:method:: __getitem__(idx)
+
+        This returns the element at a given index.  It is not a copy of the
+        element.  If this is called a number of times for the same index then a
+        different Python object will be returned each time but each will refer
+        to the same C/C++ instance.
+
+        :param idx:
+            is the index which may either be an integer, an object that
+            implements ``__index__()`` or a slice object.
+        :return:
+            the element.  If the index is an integer then the item will be a
+            single object of the type of the array.  If the index is a slice
+            object then the item will be a new
+            :py:class:`~PyQt6.sip.array` object containing the
+            chosen subset of the original array.
+
+    .. py:method:: __len__()
+
+        This returns the length of the array.
+        
+        :return:
+            the number of elements in the array.
+
+    .. py:method:: __setitem__(idx, item)
+
+        This updates the array at a given index.
+
+        :param idx:
+            is the index which may either be an integer, an object that
+            implements ``__index__()`` or a slice object.
+        :param item:
+            is the item that will be assigned to the element currently at the
+            index.  It must have the same type as the element it is being
+            assigned to.
 
 
 .. py:function:: PyQt6.sip.assign(obj, other)
@@ -162,7 +208,7 @@ some functionality that can be used by applications.
     This is a Python integer object that represents the SIP version number as
     a 3 part hexadecimal number (e.g. v5.0.0 is represented as ``0x050000``).
     Note that it is not the version number of the
-    :sip:ref:`~PyQt6.sip` module.
+    :py:mod:`~PyQt6.sip` module.
 
 
 .. py:data:: PyQt6.sip.SIP_VERSION_STR
@@ -170,7 +216,7 @@ some functionality that can be used by applications.
     This is a Python string object that defines the SIP version number as
     represented as a string.  For development versions it will contain 
     ``.dev``.  Note that it is not the version number of the
-    :sip:ref:`~PyQt6.sip` module.
+    :py:mod:`~PyQt6.sip` module.
 
 
 .. py:function:: PyQt6.sip.transferback(obj)
@@ -245,13 +291,6 @@ some functionality that can be used by applications.
             slice object then the item will be a new
             :py:class:`~PyQt6.sip.voidptr` object defining the
             subset of the memory corresponding to the slice.
-
-    .. py:method:: __hex__()
-
-        This returns the address as a hexadecimal string.
-
-        :return:
-            the hexadecimal string address.
 
     .. py:method:: __int__()
 
