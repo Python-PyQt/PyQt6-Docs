@@ -2,8 +2,10 @@
     :status: todo
     :pysig: 00b4f16d3ac18f5c2a9fc758b066fab5
     :realsig: () const
-    :digest: e38844da0f98db120462462dea30f3f8
+    :digest: a9de6419cf573d5aacc5f0757f71d82d
 
-the order currently used for sorting
+Returns the order currently used for sorting
 
-This returns the most recently used sort order.
+This returns the most recently used sort order. The default value is :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.AscendingOrder`.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort`.

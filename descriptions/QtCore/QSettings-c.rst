@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 47248cf29dbcc29c0f50ded27fa292c8
+    :digest: 78bff730f2797b895b148303c23be551
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -165,7 +165,7 @@ If you want to use INI files on all platforms instead of the native API, you can
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 124-125
 
-Note that type information is not preserved when reading settings from INI files; all values will be returned as QString.
+Note that INI files lose the distinction between numeric data and the strings used to encode them, so values written as numbers shall be read back as QString. The numeric value can be recovered using QString::toInt(), QString::toDouble() and related functions.
 
 The `Settings Editor <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_ example lets you experiment with different settings location and with fallbacks turned on or off.
 

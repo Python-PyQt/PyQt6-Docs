@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Fast way to calculate elapsed times
-    :digest: d95c5c3ab24896bbdcf76e80bb817a23
+    :digest: dee5ef716027ba8f9cbfae2330e14d09
 
 The :sip:ref:`~PyQt6.QtCore.QElapsedTimer` class provides a fast way to calculate elapsed times.
 
@@ -35,14 +35,5 @@ Reference Clocks
 On the other hand, this means :sip:ref:`~PyQt6.QtCore.QElapsedTimer` values can only be compared with other values that use the same reference. This is especially true if the time since the reference is extracted from the :sip:ref:`~PyQt6.QtCore.QElapsedTimer` object (\ :sip:ref:`~PyQt6.QtCore.QElapsedTimer.msecsSinceReference`) and serialised. These values should never be exchanged across the network or saved to disk, since there's no telling whether the computer node receiving the data is the same as the one originating it or if it has rebooted since.
 
 It is, however, possible to exchange the value with other processes running on the same machine, provided that they also use the same reference clock. :sip:ref:`~PyQt6.QtCore.QElapsedTimer` will always use the same clock, so it's safe to compare with the value coming from another process in the same machine. If comparing to values produced by other APIs, you should check that the clock used is the same as :sip:ref:`~PyQt6.QtCore.QElapsedTimer` (see :sip:ref:`~PyQt6.QtCore.QElapsedTimer.clockType`).
-
-.. _qelapsedtimer-32-bit-overflows:
-
-32-bit overflows
-................
-
-Some of the clocks used by :sip:ref:`~PyQt6.QtCore.QElapsedTimer` have a limited range and may overflow after hitting the upper limit (usually 32-bit). :sip:ref:`~PyQt6.QtCore.QElapsedTimer` deals with this overflow issue and presents a consistent timing. However, when extracting the time since reference from :sip:ref:`~PyQt6.QtCore.QElapsedTimer`, two different processes in the same machine may have different understanding of how much time has actually elapsed.
-
-The information on which clocks types may overflow and how to remedy that issue is documented along with the clock types.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`.

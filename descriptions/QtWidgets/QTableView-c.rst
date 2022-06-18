@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Default model/view implementation of a table view
-    :digest: ed526d0bbfd82941722d9fb2951c9ccc
+    :digest: f15c173e7126ca7dad4635223db00ba9
 
 The :sip:ref:`~PyQt6.QtWidgets.QTableView` class provides a default model/view implementation of a table view.
 
@@ -25,7 +25,7 @@ You can navigate the cells in the table by clicking on a cell with the mouse, or
 Visual Appearance
 -----------------
 
-The table has a vertical header that can be obtained using the :sip:ref:`~PyQt6.QtWidgets.QTableView.verticalHeader` function, and a horizontal header that is available through the :sip:ref:`~PyQt6.QtWidgets.QTableView.horizontalHeader` function. The height of each row in the table can be found by using :sip:ref:`~PyQt6.QtWidgets.QTableView.rowHeight`; similarly, the width of columns can be found using :sip:ref:`~PyQt6.QtWidgets.QTableView.columnWidth`. Since both of these are plain widgets, you can hide either of them using their hide() functions.
+The table has a vertical header that can be obtained using the :sip:ref:`~PyQt6.QtWidgets.QTableView.verticalHeader` function, and a horizontal header that is available through the :sip:ref:`~PyQt6.QtWidgets.QTableView.horizontalHeader` function. The height of each row in the table can be found by using :sip:ref:`~PyQt6.QtWidgets.QTableView.rowHeight`; similarly, the width of columns can be found using :sip:ref:`~PyQt6.QtWidgets.QTableView.columnWidth`. Since both of these are plain widgets, you can hide either of them using their hide() functions. Each header is configured with its :sip:ref:`~PyQt6.QtWidgets.QHeaderView.highlightSections` and :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionsClickable` properties set to ``true``.
 
 Rows and columns can be hidden and shown with :sip:ref:`~PyQt6.QtWidgets.QTableView.hideRow`, :sip:ref:`~PyQt6.QtWidgets.QTableView.hideColumn`, :sip:ref:`~PyQt6.QtWidgets.QTableView.showRow`, and :sip:ref:`~PyQt6.QtWidgets.QTableView.showColumn`. They can be selected with :sip:ref:`~PyQt6.QtWidgets.QTableView.selectRow` and :sip:ref:`~PyQt6.QtWidgets.QTableView.selectColumn`. The table will show a grid depending on the :sip:ref:`~PyQt6.QtWidgets.QTableView.showGrid` property.
 

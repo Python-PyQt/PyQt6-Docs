@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4
     :realname: Qt::DockWidgetArea::TopDockWidgetArea
+    :digest: 16fc40c6752b78c62292bfcbda265daf
 
-TODO
+The top dock area of a :sip:ref:`~PyQt6.QtWidgets.QMainWindow`.

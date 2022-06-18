@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 477c19e5161230ad952d5b17cb7ddeb6
+    :digest: ca495d629a133676c63b8eb10ca80dcc
 
 This enum type specifies the storage format used by :sip:ref:`~PyQt6.QtCore.QSettings`.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to manipulate a widget's properties which is displayed in Qt Designer's property editor
-    :digest: ea6088cfc7b9be27e7b4ccfa812075cb
+    :digest: bea20a23987e62efcb2dff742c0c23b2
 
 The :sip:ref:`~PyQt6.QtDesigner.QDesignerPropertySheetExtension` class allows you to manipulate a widget's properties which is displayed in Qt Designer's property editor.
 
@@ -24,7 +24,7 @@ Keep the following limitations in mind:
 
 * The data types used by the property sheet for some properties are opaque custom :sip:ref:`~PyQt6.QtCore.QVariant` types containing additional information instead of plain Qt data types. For example, this is the case for enumerations, flags, icons, pixmaps and strings.
 
-* *Qt Designer*'s property editor has no implementation for handling Q_PROPERTY types for custom types that have been declared with .
+* *Qt Designer*'s property editor has no implementation for handling Q_PROPERTY types for custom types that have been declared with Q_DECLARE_METATYPE().
 
 To create a property sheet extension, your extension class must inherit from both :sip:ref:`~PyQt6.QtCore.QObject` and :sip:ref:`~PyQt6.QtDesigner.QDesignerPropertySheetExtension`. Then, since we are implementing an interface, we must ensure that it's made known to the meta object system using the Q_INTERFACES() macro:
 
