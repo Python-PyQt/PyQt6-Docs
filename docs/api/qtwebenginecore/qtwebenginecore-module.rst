@@ -12,3 +12,18 @@
         :type: str
         :const:
         :description: QtWebEngineCore/PYQT_WEBENGINE_VERSION_STR-a.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineChromiumSecurityPatchVersion
+        :returns:
+            str
+        :description: QtWebEngineCore/qWebEngineChromiumSecurityPatchVersion-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineChromiumVersion
+        :returns:
+            str
+        :description: QtWebEngineCore/qWebEngineChromiumVersion-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineVersion
+        :returns:
+            str
+        :description: QtWebEngineCore/qWebEngineVersion-f.rst

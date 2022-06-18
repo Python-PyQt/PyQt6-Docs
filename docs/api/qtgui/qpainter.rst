@@ -317,6 +317,16 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawConvexPolygon
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QPainter-drawConvexPolygon-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawConvexPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGui/QPainter-drawConvexPolygon-f-5.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawConvexPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
             ...
         :description: QtGui/QPainter-drawConvexPolygon-f-2.rst
 
@@ -464,23 +474,23 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QLineF`]
-        :description: QtGui/QPainter-drawLines-f.rst
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :description: QtGui/QPainter-drawLines-f-8.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtGui/QPainter-drawLines-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QPainter-drawLines-f-9.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QLine`]
-        :description: QtGui/QPainter-drawLines-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QLine`
+        :description: QtGui/QPainter-drawLines-f-10.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QPoint`]
-        :description: QtGui/QPainter-drawLines-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGui/QPainter-drawLines-f-11.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
@@ -642,10 +652,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPixmapFragments
         :args:
-            List[:sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragment`]
+            :sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragment`
             :sip:ref:`~PyQt6.QtGui.QPixmap`
             hints: :sip:ref:`~PyQt6.QtGui.QPainter.PixmapFragmentHint` = QPainter.PixmapFragmentHints()
-        :description: QtGui/QPainter-drawPixmapFragments-f-1.rst
+        :description: QtGui/QPainter-drawPixmapFragments-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPoint
         :args:
@@ -676,6 +686,16 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawPoints
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QPainter-drawPoints-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPoints
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGui/QPainter-drawPoints-f-5.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPoints
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
             ...
         :description: QtGui/QPainter-drawPoints-f-2.rst
 
@@ -687,27 +707,39 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
-            :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawPolygon-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
-        :args:
             :sip:ref:`~PyQt6.QtGui.QPolygonF`
             fillRule: :sip:ref:`~PyQt6.QtCore.Qt.FillRule` = :sip:ref:`~PyQt6.QtCore.Qt.FillRule.OddEvenFill`
         :description: QtGui/QPainter-drawPolygon-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
-            :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawPolygon-f-2.rst
-
-    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
-        :args:
             :sip:ref:`~PyQt6.QtGui.QPolygon`
             fillRule: :sip:ref:`~PyQt6.QtCore.Qt.FillRule` = :sip:ref:`~PyQt6.QtCore.Qt.FillRule.OddEvenFill`
         :description: QtGui/QPainter-drawPolygon-f-3.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+            fillRule: :sip:ref:`~PyQt6.QtCore.Qt.FillRule` = :sip:ref:`~PyQt6.QtCore.Qt.FillRule.OddEvenFill`
+        :description: QtGui/QPainter-drawPolygon-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+            ...
+        :description: QtGui/QPainter-drawPolygon-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+            fillRule: :sip:ref:`~PyQt6.QtCore.Qt.FillRule` = :sip:ref:`~PyQt6.QtCore.Qt.FillRule.OddEvenFill`
+        :description: QtGui/QPainter-drawPolygon-f-5.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+            ...
+        :description: QtGui/QPainter-drawPolygon-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
         :args:
@@ -718,6 +750,16 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QPolygon`
         :description: QtGui/QPainter-drawPolyline-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QPainter-drawPolyline-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGui/QPainter-drawPolyline-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
         :args:
@@ -751,13 +793,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRects
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QRectF`]
-        :description: QtGui/QPainter-drawRects-f.rst
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :description: QtGui/QPainter-drawRects-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRects
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QRect`]
-        :description: QtGui/QPainter-drawRects-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QRect`
+        :description: QtGui/QPainter-drawRects-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRects
         :args:

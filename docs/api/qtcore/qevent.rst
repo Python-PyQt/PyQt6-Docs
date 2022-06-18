@@ -514,5 +514,5 @@
 
     .. sip:method:: PyQt6.QtCore.QEvent.type
         :returns:
-            int
-        :description: QtCore/QEvent-type-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEvent.Type`
+        :description: QtCore/QEvent-type-f-1.rst

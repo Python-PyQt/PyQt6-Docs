@@ -274,6 +274,11 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtGui/QPolygon-replace-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPolygon.resize
+        :args:
+            int
+        :description: QtGui/QPolygon-resize-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPolygon.__setitem__
         :args:
             int

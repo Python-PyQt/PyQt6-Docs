@@ -207,6 +207,11 @@
             :sip:ref:`~PyQt6.QtCore.QXmlStreamAttribute`
         :description: QtCore/QXmlStreamAttributes-replace-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.resize
+        :args:
+            int
+        :description: QtCore/QXmlStreamAttributes-resize-f.rst
+
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.__setitem__
         :args:
             int

@@ -25,8 +25,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGesture.gestureType
         :returns:
-            int
-        :description: QtWidgets/QGesture-gestureType-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+        :description: QtWidgets/QGesture-gestureType-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGesture.hasHotSpot
         :returns:
