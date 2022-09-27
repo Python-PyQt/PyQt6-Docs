@@ -18,14 +18,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsObject.grabGesture
         :args:
-            int
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
             flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlag` = Qt.GestureFlags()
-        :description: QtWidgets/QGraphicsObject-grabGesture-f-2.rst
+        :description: QtWidgets/QGraphicsObject-grabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsObject.ungrabGesture
         :args:
-            int
-        :description: QtWidgets/QGraphicsObject-ungrabGesture-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+        :description: QtWidgets/QGraphicsObject-ungrabGesture-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsObject.updateMicroFocus
         :description: QtWidgets/QGraphicsObject-updateMicroFocus-f.rst

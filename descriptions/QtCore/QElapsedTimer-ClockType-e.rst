@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 166b1a9435da54c40d4392be90c4a1f6
+    :digest: 1930c6fe3de1ad2709f5e9892a9648d7
 
 This enum contains the different clock types that :sip:ref:`~PyQt6.QtCore.QElapsedTimer` may use.
 
@@ -18,20 +18,18 @@ MonotonicClock
 
 This is the system's monotonic clock, expressed in milliseconds since an arbitrary point in the past. This clock type is used on Unix systems which support POSIX monotonic clocks (``_POSIX_MONOTONIC_CLOCK``).
 
-This clock does not overflow.
-
 MachAbsoluteTime
 ................
 
 This clock type is based on the absolute time presented by Mach kernels, such as that found on macOS. This clock type is presented separately from :sip:ref:`~PyQt6.QtCore.QElapsedTimer.ClockType.MonotonicClock` since macOS and iOS are also Unix systems and may support a POSIX monotonic clock with values differing from the Mach absolute time.
 
-This clock is monotonic and does not overflow.
+This clock is monotonic.
 
 PerformanceCounter
 ..................
 
 This clock uses the Windows functions ``QueryPerformanceCounter`` and ``QueryPerformanceFrequency`` to access the system's performance counter.
 
-This clock is monotonic and does not overflow.
+This clock is monotonic.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QElapsedTimer.clockType`, :sip:ref:`~PyQt6.QtCore.QElapsedTimer.isMonotonic`.

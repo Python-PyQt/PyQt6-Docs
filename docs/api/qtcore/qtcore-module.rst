@@ -343,6 +343,16 @@
             float
         :description: QtCore/qQNaN-f.rst
 
+    .. sip:method:: PyQt6.QtCore.qRegisterResourceData
+        :args:
+            int
+            bytes
+            bytes
+            bytes
+        :returns:
+            bool
+        :description: QtCore/qRegisterResourceData-f.rst
+
     .. sip:method:: PyQt6.QtCore.qRemovePostRoutine
         :args:
             callable
@@ -421,6 +431,16 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtCore/qUncompress-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.qUnregisterResourceData
+        :args:
+            int
+            bytes
+            bytes
+            bytes
+        :returns:
+            bool
+        :description: QtCore/qUnregisterResourceData-f.rst
 
     .. sip:method:: PyQt6.QtCore.qVersion
         :returns:

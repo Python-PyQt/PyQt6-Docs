@@ -198,6 +198,11 @@
             bool
         :description: QtCharts/QXYSeries-pointLabelsVisible-f.rst
 
+    .. sip:method:: PyQt6.QtCharts.QXYSeries.points
+        :returns:
+            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtCharts/QXYSeries-points-f.rst
+
     .. sip:method:: PyQt6.QtCharts.QXYSeries.pointsConfiguration
         :returns:
             Dict[int, Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]

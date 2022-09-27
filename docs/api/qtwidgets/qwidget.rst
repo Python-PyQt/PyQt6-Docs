@@ -383,9 +383,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabGesture
         :args:
-            int
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
             flags: :sip:ref:`~PyQt6.QtCore.Qt.GestureFlag` = Qt.GestureFlags()
-        :description: QtWidgets/QWidget-grabGesture-f-2.rst
+        :description: QtWidgets/QWidget-grabGesture-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabKeyboard
         :description: QtWidgets/QWidget-grabKeyboard-f.rst
@@ -1439,8 +1439,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.ungrabGesture
         :args:
-            int
-        :description: QtWidgets/QWidget-ungrabGesture-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+        :description: QtWidgets/QWidget-ungrabGesture-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.unsetCursor
         :description: QtWidgets/QWidget-unsetCursor-f.rst

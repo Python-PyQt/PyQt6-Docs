@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x2
+    :digest: 545896c4c9d76f832464ef35f5a39aa5
 
-TODO
+The right dock area of a :sip:ref:`~PyQt6.QtWidgets.QMainWindow`.

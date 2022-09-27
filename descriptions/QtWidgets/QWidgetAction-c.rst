@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Extends QAction by an interface for inserting custom widgets into action based containers, such as toolbars
-    :digest: 852bc76918e366b38eb3a17262f3c7e7
+    :digest: 4f7d25922f46d917ee8412d8cd373420
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` class extends :sip:ref:`~PyQt6.QtGui.QAction` by an interface for inserting custom widgets into action based containers, such as toolbars.
 
@@ -23,6 +23,6 @@ Note that it is up to the widget to activate the action, for example by reimplem
 
 #. Due to Apple's design, mouse tracking on the widget currently does not work.
 
-#. Connecting the  signal to a slot that opens a modal dialog will cause a crash in macOS 10.4 (known bug acknowledged by Apple), a workaround is to use a QueuedConnection instead of a DirectConnection.
+#. Connecting the triggered() signal to a slot that opens a modal dialog will cause a crash in macOS 10.4 (known bug acknowledged by Apple), a workaround is to use a QueuedConnection instead of a DirectConnection.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QAction`, :sip:ref:`~PyQt6.QtGui.QActionGroup`, :sip:ref:`~PyQt6.QtWidgets.QWidget`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: df849302ee49323f70149d34d65629e2
+    :digest: 3007e4241825f6d7d5b4f6ebd055387b
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -226,7 +226,7 @@ These operations are:
 
 * Rounded rectangle filling using solid color and two-color linear gradients fills.
 
-* 3x3 patched pixmaps, via .
+* 3x3 patched pixmaps, via :sip:ref:`~PyQt6.QtWidgets.qDrawBorderPixmap`.
 
 This list gives an indication of which features to safely use in an application where performance is critical. For certain setups, other operations may be fast too, but before making extensive use of them, it is recommended to benchmark and verify them on the system where the software will run in the end. There are also cases where expensive operations are ok to use, for instance when the result is cached in a :sip:ref:`~PyQt6.QtGui.QPixmap`.
 

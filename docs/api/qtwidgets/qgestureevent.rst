@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.accept
         :args:
-            int
-        :description: QtWidgets/QGestureEvent-accept-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+        :description: QtWidgets/QGestureEvent-accept-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.activeGestures
         :returns:
@@ -39,10 +39,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.gesture
         :args:
-            int
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QGesture`
-        :description: QtWidgets/QGestureEvent-gesture-f-1.rst
+        :description: QtWidgets/QGestureEvent-gesture-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.gestures
         :returns:
@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.ignore
         :args:
-            int
-        :description: QtWidgets/QGestureEvent-ignore-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
+        :description: QtWidgets/QGestureEvent-ignore-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.isAccepted
         :returns:
@@ -76,10 +76,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.isAccepted
         :args:
-            int
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
         :returns:
             bool
-        :description: QtWidgets/QGestureEvent-isAccepted-f-3.rst
+        :description: QtWidgets/QGestureEvent-isAccepted-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.mapToGraphicsScene
         :args:
@@ -101,9 +101,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.setAccepted
         :args:
-            int
+            :sip:ref:`~PyQt6.QtCore.Qt.GestureType`
             bool
-        :description: QtWidgets/QGestureEvent-setAccepted-f-3.rst
+        :description: QtWidgets/QGestureEvent-setAccepted-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.widget
         :returns:

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all user interface objects
-    :digest: ed8ae139158a03262bc0d395ee12c0a6
+    :digest: 1de3e4b7f220bfcb7b4a7bf884327576
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidget` class is the base class of all user interface objects.
 
@@ -39,7 +39,7 @@ Composite Widgets
 
 When a widget is used as a container to group a number of child widgets, it is known as a composite widget. These can be created by constructing a widget with the required visual properties - a :sip:ref:`~PyQt6.QtWidgets.QFrame`, for example - and adding child widgets to it, usually managed by a layout. The above diagram shows such a composite widget that was created using Qt Designer.
 
-Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt `Tutorials <https://doc.qt.io/qt-6/qtwidgets-index.html#tutorials>`_.
+Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt Tutorials.
 
 .. _qwidget-custom-widgets-and-painting:
 

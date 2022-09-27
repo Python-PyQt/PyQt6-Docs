@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract base for custom QML extension plugins
-    :digest: f63f160b555be7690462a77ed496fd00
+    :digest: 3a64a8c246c7a20b9f695d44671463d8
 
 The :sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin` class provides an abstract base for custom QML extension plugins.
 
-:sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin` is a plugin interface that makes it possible to create QML extensions that can be loaded dynamically into QML applications. These extensions allow custom QML types to be made available to the QML engine.
+:sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin` is a plugin interface that lets you create QML extensions that can be loaded dynamically into QML applications. These extensions allow custom QML types to be made available to the QML engine.
 
 To write a QML extension plugin:
 
@@ -13,15 +13,28 @@ To write a QML extension plugin:
 
 #. Use the QML_ELEMENT and QML_NAMED_ELEMENT() macros to declare QML types.
 
-#. Write a project file for the plugin. Add:
+#. Configure your build file.
 
-   * ``CONFIG += qmltypes`` to instruct the build system to generate QML types.
+   CMake:
 
-   * ``QML_IMPORT_NAME = <my.import.name>`` to specify the import name.
+   ::
 
-   * ``QML_IMPORT_MAJOR_VERSION = <version>`` to specify the import major version.
+       qt_add_qml_module(<target>
+           URI <my.import.name>
+           VERSION 1.0
+           QML_FILES <app.qml>
+           NO_RESOURCE_TARGET_PATH
+       )
 
-#. Create a `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_ to describe the plugin
+   qmake:
+
+   ::
+
+       CONFIG += qmltypes
+       QML_IMPORT_NAME = <my.import.name>
+       QML_IMPORT_MAJOR_VERSION = <version>
+
+#. If you're using qmake, create a `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_ to describe the plugin. Note that CMake will, by default, automatically generate the `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_.
 
 QML extension plugins are for either application-specific or library-like plugins. Library plugins should limit themselves to registering types, as any manipulation of the engine's root context may cause conflicts or other issues in the library user's code.
 
@@ -40,23 +53,37 @@ Then add the following snippet of code in the implementation of any function tha
 
 .. _qqmlengineextensionplugin-timeexample-qml-extension-plugin:
 
-TimeExample QML extension plugin
+TimeExample QML Extension Plugin
 --------------------------------
 
 Suppose there is a new ``TimeModel`` C++ class that should be made available as a new QML type. It provides the current time through ``hour`` and ``minute`` properties. It declares a QML type called ``Time`` via QML_NAMED_ELEMENT().
 
 .. literalinclude:: ../../../snippets/qtdeclarative-examples-qml-qmlextensionplugins-timemodel.py
 
-To make this type available, we create a plugin class named ``QExampleQmlPlugin`` which is a subclass of :sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin`. It uses the Q_PLUGIN_METADATA() macro in the class definition to register the plugin with the Qt meta object system using a unique identifier for the plugin.
+To make this type available, create a plugin class named ``QExampleQmlPlugin``, which is a subclass of :sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin`. It uses the Q_PLUGIN_METADATA() macro in the class definition to register the plugin with the Qt meta object system using a unique identifier for the plugin.
 
 .. literalinclude:: ../../../snippets/qtdeclarative-examples-qml-qmlextensionplugins-plugin.py
 
-.. _qqmlengineextensionplugin-project-settings-for-the-plugin:
+.. _qqmlengineextensionplugin-build-settings-for-the-plugin:
 
-Project settings for the plugin
--------------------------------
+Build Settings for the Plugin
+-----------------------------
 
-Additionally, the project file (``.pro``) defines the project as a plugin library, specifies it should be built into the ``imports/TimeExample`` directory, and registers the plugin target name and various other details:
+The build file defines the project as a plugin library, specifies it should be built into the ``imports/TimeExample`` directory, and registers the plugin target name.
+
+.. _qqmlengineextensionplugin-using-cmake:
+
+Using CMake:
+............
+
+.. literalinclude:: ../../../snippets/qtdeclarative-examples-qml-qmlextensionplugins-CMakeLists.txt
+
+.. literalinclude:: ../../../snippets/qtdeclarative-examples-qml-qmlextensionplugins-CMakeLists.txt
+
+.. _qqmlengineextensionplugin-using-qmake:
+
+Using qmake:
+............
 
 ::
 
@@ -72,20 +99,24 @@ Additionally, the project file (``.pro``) defines the project as a plugin librar
 
     SOURCES += qexampleqmlplugin.cpp
 
-This registers the ``TimeModel`` class with the import ``TimeExample 1.0``, as a QML type called ``Time``. The `Defining QML Types from C++ <https://doc.qt.io/qt-6/qtqml-cppintegration-definetypes.html>`_ article has more information about registering C++ types for usage in QML.
+This registers the ``TimeModel`` class, with the import ``TimeExample 1.0``, as a QML type called ``Time``. The `Defining QML Types from C++ <https://doc.qt.io/qt-6/qtqml-cppintegration-definetypes.html>`_ article has more information about registering C++ types for usage in QML.
 
 .. _qqmlengineextensionplugin-plugin-definition-in-the-qmldir:
 
-Plugin definition in the qmldir
+Plugin Definition in the qmldir
 -------------------------------
 
-Finally, a `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_ is required in the ``imports/TimeExample`` directory to describe the plugin and the types that it exports. The plugin includes a ``Clock.qml`` file along with the ``qmlqtimeexampleplugin`` that is built by the project (as shown above in the ``.pro`` file) so both of these need to be specified in the ``qmldir`` file:
+Finally, a `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_ is required in the ``imports/TimeExample`` directory to describe the plugin and the types that it exports. The plugin includes a ``Clock.qml`` file along with the ``qmlqtimeexampleplugin`` that is built by the project.
 
-To make things easier for this example, the TimeExample source directory is in ``imports/TimeExample``, and we build in-source. However, the structure of the source directory is not so important, as the ``qmldir`` file can specify paths to installed QML files.
+CMake will, by default, automatically generate this file. For more information, see `Auto-generating qmldir and typeinfo files <https://doc.qt.io/qt-6/qt-add-qml-module.html#auto-generating-qmldir-and-typeinfo-files>`_.
 
-What is important is the name of the directory that the qmldir is installed into. When the user imports our module, the QML engine uses the `module identifier <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html#contents-of-a-module-definition-qmldir-file>`_ (``TimeExample``) to find the plugin, and so the directory in which it is installed must match the module identifier.
+When using qmake, specify the following in the ``qmldir`` file:
 
-Once the project is built and installed, the new ``Time`` component is accessible by any QML component that imports the ``TimeExample`` module
+To make things easier for this example, the TimeExample source directory is in ``imports/TimeExample``, and we build in-source. However, the structure of the source directory is not important, as the ``qmldir`` file can specify paths to installed QML files.
+
+What is important is the name of the directory that the qmldir is installed into. When the user imports our module, the QML engine uses the `module identifier <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html#contents-of-a-module-definition-qmldir-file>`_ (``TimeExample``) to find the plugin, so the directory in which it is installed must match the module identifier.
+
+Once the project is built and installed, the new ``Time`` component is accessible by any QML component that imports the ``TimeExample`` module.
 
 .. literalinclude:: ../../../snippets/qtdeclarative-examples-qml-qmlextensionplugins-plugins.qml
 
