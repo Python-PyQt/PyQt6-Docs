@@ -32,9 +32,9 @@ copyright = '{0}, Riverbank Computing Limited, The Qt Company'.format(
 # |release|, also used in various other places throughout the built documents.
 #
 # The short X.Y version.
-version = '6.3'
+version = '6.4'
 # The full version, including alpha/beta/rc tags.
-release = '6.3.1'
+release = '6.4.0'
 
 # The number of columns in a table of class names.
 sip_class_table_columns = 4
