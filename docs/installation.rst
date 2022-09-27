@@ -74,7 +74,7 @@ the sdist and tries to build PyQt6 from source.  If it does then the build will
 probably fail with a cryptic error message.  There are a number of reasons for
 this:
 
-- your version of Python is unsupported (e.g. v3.5)
+- your version of Python is unsupported (e.g. v3.6)
 - your version of :program:`pip` is too old and doesn't support the current
   standards for naming wheels
 - wheels are not provided for your platform (e.g. 32-bit Windows)
@@ -82,8 +82,8 @@ this:
   a Qt installation must be on :envvar:`PATH`.
 
 :program:`pip` will also automatically install any dependencies that are
-required.  In the case of PyQt6 itself this will be the PyQt6-Qt and PyQt6-sip
-projects.  The PyQt6-Qt project contains the parts of a standard LGPL Qt
+required.  In the case of PyQt6 itself this will be the PyQt6-Qt6 and PyQt6-sip
+projects.  The PyQt6-Qt6 project contains the parts of a standard LGPL Qt
 installation required by PyQt6.  The PyQt6-sip project contains the
 :sip:ref:`~PyQt6.sip` module.
 
@@ -100,6 +100,19 @@ To uninstall the GPL version, run::
     with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
     the different versions of OpenSSL that these versions require.  All other
     version combinations should be fine.
+
+.. note::
+    The Qt libraries in the Linux wheel of the PyQt6-Qt6 project require
+    OpenSSL v1.1 however some Linux distributions (specifically Ubuntu 22.04 at
+    the time of writing) include the incompatible OpenSSL v3.
+
+    The required version of OpenSSL can be downloaded from the Ubuntu 20.04
+    repository by clicking `here
+    <http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb>`__.
+
+    The downloaded ``.deb`` file can then be installed by running::
+
+        sudo apt install /path/to/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
 
 
 Installing the Commercial Version
