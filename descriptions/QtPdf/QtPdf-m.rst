@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status: done
+    :brief:  Support for rendering PDF documents
 
-TODO
+The :sip:ref:`~PyQt6.QtPdf` module contains functions and classes for rendering
+PDF documents.

@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status: done
+    :brief:  A PDF viewer widget
 
-TODO
+The :sip:ref:`~PyQt6.QtPdfWidgets` module contains a PDF viewer widget used in
+conjunction with the :sip:ref:`~PyQt6.QtPdf` module.
