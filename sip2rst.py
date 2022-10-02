@@ -34,8 +34,8 @@ import xml.etree.ElementTree as etree
 
 # These are undocumented internals until SIP implements a proper documentation
 # system.
-from sipbuild.code_generator import generateXML, py2c, set_globals, transform
-from sipbuild.generator import parse
+from sipbuild.code_generator import generateXML, py2c, set_globals
+from sipbuild.generator import parse, resolve
 
 
 class FixedIndenter:
@@ -246,8 +246,9 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
                     protected_is_public=False, include_dirs=include_dirs,
                     strict=False)
 
+            resolve(spec)
+
             pt = py2c(spec, encoding)
-            transform(pt, False)
             generateXML(pt, xml_file)
 
             # Read the XML.
