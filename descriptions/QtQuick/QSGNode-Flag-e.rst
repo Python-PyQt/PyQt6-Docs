@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7e98f98abc59fc1868dadef7c8f0748f
+    :digest: 587ba5068a9bdecdbd08cbb15b0e585b
 
-The  enum describes flags on the :sip:ref:`~PyQt6.QtQuick.QSGNode`
+The QSGNode::Flag enum describes flags on the :sip:ref:`~PyQt6.QtQuick.QSGNode`

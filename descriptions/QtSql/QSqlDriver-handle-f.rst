@@ -2,9 +2,9 @@
     :status: todo
     :pysig: ed36a1ef76a59ee3f15180e0441188ad
     :realsig: () const
-    :digest: f5bd0ef21caf111dbc05976100bdd9e2
+    :digest: 5b7696cf71092e869404a1ae43d5064e
 
-Returns the low-level database handle wrapped in a `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ or an invalid variant if there is no handle.
+Returns the low-level database handle wrapped in a :sip:ref:`~PyQt6.QtCore.QVariant` or an invalid variant if there is no handle.
 
 **Warning:** Use this with uttermost care and only if you know what you're doing.
 
@@ -19,7 +19,7 @@ This example retrieves the handle for a connection to sqlite:
 .. literalinclude:: ../../../snippets/qtbase-src-sql-doc-snippets-code-src_sql_kernel_qsqldriver.py
     :lines: 64-72
 
-This snippet returns the handle for  or MySQL:
+This snippet returns the handle for PostgreSQL or MySQL:
 
 .. literalinclude:: ../../../snippets/qtbase-src-sql-doc-snippets-code-src_sql_kernel_qsqldriver.py
     :lines: 76-88

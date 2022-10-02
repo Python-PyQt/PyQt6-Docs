@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 24
-    :digest: 9976e81bb56bcc7b463c30da4c842532
+    :digest: 3d9395ae4632c71dd2363a0733d38e07
 
-Deprecated. Use  instead.
+Deprecated. Use SE_TabBarTearIndicatorLeft instead.

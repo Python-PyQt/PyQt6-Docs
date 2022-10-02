@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: 42902809a17e10c1cabf978c8a7d0242
+    :digest: 7d7043acb8e980d287a3450648048147
 
-The alpha of the destination is used to blend it on top of the source pixels. This mode is the inverse of .
+The alpha of the destination is used to blend it on top of the source pixels. This mode is the inverse of CompositionMode_SourceOver.

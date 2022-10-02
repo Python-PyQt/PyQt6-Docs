@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Item for use with the QListWidget item view class
-    :digest: f58e117e30f0a30b99a80d331680f37f
+    :digest: 5ecfe30b818b30cf4d4ed2d318d9d9d4
 
 The :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem` class provides an item for use with the :sip:ref:`~PyQt6.QtWidgets.QListWidget` item view class.
 
@@ -16,7 +16,7 @@ List items can be inserted automatically into a list, when they are constructed,
 
 Alternatively, list items can also be created without a parent widget, and later inserted into a list using :sip:ref:`~PyQt6.QtWidgets.QListWidget.insertItem`.
 
-List items are typically used to display :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.text` and an :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.icon`. These are set with the :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setText` and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setIcon` functions. The appearance of the text can be customized with :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setFont`, :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setForeground`, and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setBackground`. Text in list items can be aligned using the :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setTextAlignment` function. Tooltips, status tips and "What's This?" help can be added to list items with :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setToolTip`, :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setStatusTip`, and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setWhatsThis`.
+List items are typically used to display :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.text` and an :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.icon`. These are set with the :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setText` and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setIcon` functions. The appearance of the text can be customized with :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setFont`, :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setForeground`, and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setBackground`. Text in list items can be aligned using the setTextAlignment() function. Tooltips, status tips and "What's This?" help can be added to list items with :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setToolTip`, :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setStatusTip`, and :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.setWhatsThis`.
 
 By default, items are enabled, selectable, checkable, and can be the source of drag and drop operations.
 

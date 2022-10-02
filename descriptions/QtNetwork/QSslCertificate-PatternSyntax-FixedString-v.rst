@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: 58c8445bfab55fb87ba9296fd64bb32a
+    :digest: fadc1e73f93301f9f365a4932670cd9f
 
-The pattern is a fixed string. This is equivalent to using the  pattern on a string in which all metacharacters are escaped using escape(). This is the default.
+The pattern is a fixed string. This is equivalent to using the RegularExpression pattern on a string in which all metacharacters are escaped using escape(). This is the default.

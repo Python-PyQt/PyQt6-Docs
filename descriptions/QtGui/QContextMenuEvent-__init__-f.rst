@@ -2,7 +2,9 @@
     :status: todo
     :pysig: c6368d92cf89818d3532cb87b7380050
     :realsig: (QContextMenuEvent::Reason,const QPoint&)
-    :digest: 83b9b11dff67ad497a0a160a1b823166
+    :digest: 564b032facab8d352e161d70ae7665ff
+
+Use the other constructor instead (global position is required).
 
 Constructs a context menu event object with the accept parameter flag set to false.
 

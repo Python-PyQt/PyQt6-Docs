@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 81e0924ce8a94a47a0a87c7ffcda73a8
     :realsig: (const QQuickRenderTarget&)
-    :digest: 12d1a04c1ceb3dd6cb99d5b2254ae230
+    :digest: 3c0cd5a455065b34a9325f9c99fa0e12
 
 Sets the render target for this window to be *target*.
 
@@ -20,8 +20,6 @@ For example, assuming the scenegraph is using Vulkan to render, one can redirect
 This function is very often used in combination with :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl` and an invisible :sip:ref:`~PyQt6.QtQuick.QQuickWindow`, in order to render Qt Quick content into a texture, without creating an on-screen native window for this :sip:ref:`~PyQt6.QtQuick.QQuickWindow`.
 
 When the desired target, or associated data, such as the size, changes, call this function with a new :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`. Constructing :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget` instances and calling this function is cheap, but be aware that setting a new *target* with a different native object or other data may lead to potentially expensive initialization steps when the scenegraph is about to render the next frame. Therefore change the target only when necessary.
-
-**Note:** This function should not be used when using the ``software`` backend. Instead, use :sip:ref:`~PyQt6.QtQuick.QQuickWindow.grabWindow` to render the content into a :sip:ref:`~PyQt6.QtGui.QImage`.
 
 **Note:** The window does not take ownership of any native objects referenced in *target*.
 

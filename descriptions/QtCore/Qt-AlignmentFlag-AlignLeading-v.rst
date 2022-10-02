@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: AlignLeft
-    :digest: 58e3c4196d2cf76f2827e38218f0ec0b
+    :digest: 5647a9119d75da928e1f5fda82a547c9
 
-Synonym for .
+Synonym for Qt::AlignLeft.

@@ -1,4 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x1004
-    :digest: d41d8cd98f00b204e9800998ecf8427e
+    :digest: acc1467cd3e8b69dc01c9b3ebda942e1
+
+QPalette

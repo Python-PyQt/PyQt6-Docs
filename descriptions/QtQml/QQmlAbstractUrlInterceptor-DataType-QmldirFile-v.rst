@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: a00e8bf6afda88042f7a2ee0f69624a4
+    :digest: 2298200a92520901dc03eee284188234
 
-The URL being intercepted is for a Qmldir file. Intercepting this, but not the , allows for swapping out entire sub trees.
+The URL being intercepted is for a Qmldir file. Intercepting this, but not the QmlFile, allows for swapping out entire sub trees.

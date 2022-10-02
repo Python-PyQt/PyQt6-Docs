@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realsig: ()
-    :digest: 7d115a21b63a8f3d94d88e8259025236
+    :digest: 95d9b2dc47c805e52e259a39fb8abdb6
 
 Returns the product version of the operating system in string form. If the version could not be determined, this function returns "unknown".
 
@@ -10,25 +10,21 @@ It will return the Android, iOS, macOS, Windows full-product versions on those s
 
 Typical returned values are (note: list not exhaustive):
 
-* "2016.09" (Amazon Linux AMI 2016.09)
+* "12" (Android 12)
 
-* "7.1" (Android Nougat)
+* "36" (Fedora 36)
 
-* "25" (Fedora 25)
+* "15.5" (iOS 15.5)
 
-* "10.1" (iOS 10.1)
+* "12.4" (macOS Monterey)
 
-* "10.12" (macOS Sierra)
+* "22.04" (Ubuntu 22.04)
 
-* "10.0" (tvOS 10)
+* "8.6" (watchOS 8.6)
 
-* "16.10" (Ubuntu 16.10)
+* "11" (Windows 11)
 
-* "3.1" (watchOS 3.1)
-
-* "10" (Windows 10)
-
-* "Server 2016" (Windows Server 2016)
+* "Server 2022" (Windows Server 2022)
 
 On Linux systems, it will try to determine the distribution version and will return that. This is also done on Debian/kFreeBSD, so this function will return Debian version in that case.
 

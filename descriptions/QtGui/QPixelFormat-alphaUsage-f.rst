@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 2e441b58670b7464efda498086f11a94
     :realsig: () const
-    :digest: 4196b809c5cc322aba004554571c8c7e
+    :digest: 7d46449b4fabfea054a18e2d9f7939c2
 
-Accessor function for .
+Accessor function for alphaUsage.

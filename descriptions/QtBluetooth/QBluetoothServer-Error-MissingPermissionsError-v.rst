@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: a71c2c8740435d85f337a12cb6400f04
 
-TODO
+The operating system requests permissions which were not granted by the user.

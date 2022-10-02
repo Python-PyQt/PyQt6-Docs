@@ -1,4 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x1016
-    :digest: d41d8cd98f00b204e9800998ecf8427e
+    :digest: 479a62dbb2e07d358bda42c2ed783422
+
+QPolygonF

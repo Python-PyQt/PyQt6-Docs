@@ -3,6 +3,6 @@
     :pysig: 6759ccee8a38ba05b37b17515d594c8c
     :realname: Qt3DRender::QShaderData::propertyReader
     :realsig: () const
-    :digest: bb4f7d320236914c8d159d358b78dee8
+    :digest: 1399bb52b2fc4f19c6cd36a83399c724
 
- Returns the PropertyReaderInterfacePtr for this shader data
+QShaderData::propertyReader Returns the PropertyReaderInterfacePtr for this shader data

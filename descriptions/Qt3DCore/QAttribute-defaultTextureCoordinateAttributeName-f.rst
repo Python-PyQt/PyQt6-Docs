@@ -3,6 +3,6 @@
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realname: Qt3DCore::QAttribute::defaultTextureCoordinateAttributeName
     :realsig: ()
-    :digest: d68f3d011f5a9c9246506b7adce48d9e
+    :digest: 66b23f7492b0473df1c9d37bbc721dbc
 
- Returns the name of the default texture coordinate attribute
+QAttribute::defaultTextureCoordinateAttributeName Returns the name of the default texture coordinate attribute

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: CustomSource
-    :digest: b286bca42e24a84f15ed6f8806a838bf
+    :digest: 82fcad92d66d94d3c699b093b4a223eb
 
-The highest valid  value, currently
+The highest valid PaperSource value, currently CustomSource

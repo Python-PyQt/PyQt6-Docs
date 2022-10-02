@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 6792fb1320618d3c767b738421abbdcd
+    :digest: 36fc9c71fc42b8921486d86e372b06f7
 
 The type of time zone name.

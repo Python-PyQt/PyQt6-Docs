@@ -2,11 +2,11 @@
     :status: todo
     :pysig: ee4163cc141154e5c0774a9f9c667938
     :realsig: (const QString&) const
-    :digest: e8e308969248500bab63736668b5467a
+    :digest: 2bddfa1dc4dd7ffd2c9c78cfa894357d
 
 Returns the value of this :sip:ref:`~PyQt6.QtQml.QJSValue`'s property with the given *name*. If no such property exists, an undefined :sip:ref:`~PyQt6.QtQml.QJSValue` is returned.
 
-If the property is implemented using a getter function (i.e. has the PropertyGetter flag set), calling  has side-effects on the script engine, since the getter function will be called (possibly resulting in an uncaught script exception). If an exception occurred,  returns the value that was thrown (typically an ``Error`` object).
+If the property is implemented using a getter function (i.e. has the PropertyGetter flag set), calling property() has side-effects on the script engine, since the getter function will be called (possibly resulting in an uncaught script exception). If an exception occurred, property() returns the value that was thrown (typically an ``Error`` object).
 
 To access array elements, use the setProperty(quint32 arrayIndex, const QJSValue &value) overload instead.
 

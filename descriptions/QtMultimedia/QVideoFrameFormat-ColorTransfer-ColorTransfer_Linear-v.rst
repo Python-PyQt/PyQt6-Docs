@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: c30d96d077a1a029fcc96c42ee9d00e4
 
-TODO
+Color values are linear

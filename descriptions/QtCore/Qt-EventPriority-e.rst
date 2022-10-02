@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 9aae73a0a10daf6b672fd02fff22da11
+    :digest: d1573d305b6e57f7fa2a820abbbe69a4
 
 This enum can be used to specify event priorities.
 

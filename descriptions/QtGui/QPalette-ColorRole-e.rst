@@ -1,10 +1,10 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 83c61aafaa1e95c7e89d3228bcfe1be2
+    :digest: e0dc290684dd7c725a2dd6f130b058d1
 
 .. image:: ../../../images/palette.png
 
-The  enum defines the different symbolic color roles used in current GUIs.
+The ColorRole enum defines the different symbolic color roles used in current GUIs.
 
 The central roles are:
 

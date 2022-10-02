@@ -2,13 +2,13 @@
     :status: todo
     :pysig: 5cd04cdbb9ebf068a865ec63c9099761
     :realsig: ()
-    :digest: 01ec615b80919ff1f1259a80b2811b33
+    :digest: 21e5ba96effdd4c0a5709434b32c287c
 
 Enters the main event loop and waits until exit() is called, and then returns the value that was set to exit() (which is 0 if exit() is called via quit()).
 
 It is necessary to call this function to start event handling. The main event loop receives events from the window system and dispatches these to the application widgets.
 
-Generally, no user interaction can take place before calling .
+Generally, no user interaction can take place before calling exec().
 
 To make your application perform idle processing, e.g., executing a special function whenever there are no pending events, use a :sip:ref:`~PyQt6.QtCore.QTimer` with 0 timeout. More advanced idle processing schemes can be achieved using processEvents().
 

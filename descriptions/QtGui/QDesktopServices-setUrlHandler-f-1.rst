@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1eef66a026ef49fb16c6bad28df55d16
     :realsig: (const QString&,QObject*,const char*)
-    :digest: b5669e4978f93bd8c5542b916e7c9cb8
+    :digest: 5f2502189b162e75f059117c32c47608
 
 Sets the handler for the given *scheme* to be the handler *method* provided by the *receiver* object.
 
@@ -13,7 +13,7 @@ The provided method must be implemented as a slot that only accepts a single :si
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 60-67
 
-If  is used to set a new handler for a scheme which already has a handler, the existing handler is simply replaced with the new one. Since :sip:ref:`~PyQt6.QtGui.QDesktopServices` does not take ownership of handlers, no objects are deleted when a handler is replaced.
+If setUrlHandler() is used to set a new handler for a scheme which already has a handler, the existing handler is simply replaced with the new one. Since :sip:ref:`~PyQt6.QtGui.QDesktopServices` does not take ownership of handlers, no objects are deleted when a handler is replaced.
 
 Note that the handler will always be called from within the same thread that calls :sip:ref:`~PyQt6.QtGui.QDesktopServices.openUrl`.
 

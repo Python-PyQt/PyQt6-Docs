@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x08000000
     :realname: Qt::WindowType::WindowCloseButtonHint
-    :digest: 7b34d084a8c7e0ece31eeb5cc7c2db8b
+    :digest: f0fd8544e7e2dada9d7efe688aa30e0c
 
-Adds a close button. On some platforms this implies  for it to work.
+Adds a close button. On some platforms this implies Qt::WindowSystemMenuHint for it to work.

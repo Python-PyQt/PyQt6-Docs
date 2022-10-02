@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: cb0333edcf5cb2e095cca5111b2804e3
+    :digest: d6cf1a93c4f590a1ab2d8d6a2cb14841
 
 This enum type defines the shapes of frame available.
 

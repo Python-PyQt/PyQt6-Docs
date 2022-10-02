@@ -2,6 +2,12 @@
     :status: todo
     :pysig: 9d2496c01394f04863ec354dfad3b4be
     :realsig: (const QString&)
-    :digest: 2065f3403b077a6136434e2eff2f49d3
+    :digest: 12fb7551ab634c3630404904e2e7249f
 
-This is just a simplified version of :sip:ref:`~PyQt6.QtCore.QFile.rename` because we know a few extra details about what kind of file we have. The documentation is hidden from the user because :sip:ref:`~PyQt6.QtCore.QFile.rename` should be enough.
+Renames the current temporary file to *newName* and returns true if it succeeded.
+
+This function has an important difference compared to :sip:ref:`~PyQt6.QtCore.QFile.rename`: it will not perform a copy+delete if the low-level system call to rename the file fails, something that could happen if *newName* specifies a file in a different volume or filesystem than the temporary file was created on. In other words, :sip:ref:`~PyQt6.QtCore.QTemporaryFile` only supports atomic file renaming.
+
+This functionality is intended to support materializing the destination file with all contents already present, so another process cannot see an incomplete file in the process of being written. The :sip:ref:`~PyQt6.QtCore.QSaveFile` class can be used for a similar purpose too, particularly if the destination file is not temporary.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSaveFile`, :sip:ref:`~PyQt6.QtCore.QSaveFile.commit`, :sip:ref:`~PyQt6.QtCore.QFile.rename`.

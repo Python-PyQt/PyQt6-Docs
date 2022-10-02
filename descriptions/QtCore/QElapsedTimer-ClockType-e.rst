@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 1930c6fe3de1ad2709f5e9892a9648d7
+    :digest: 3528abcd1d32f50c5d29c14145173fb2
 
 This enum contains the different clock types that :sip:ref:`~PyQt6.QtCore.QElapsedTimer` may use.
 
@@ -21,7 +21,7 @@ This is the system's monotonic clock, expressed in milliseconds since an arbitra
 MachAbsoluteTime
 ................
 
-This clock type is based on the absolute time presented by Mach kernels, such as that found on macOS. This clock type is presented separately from :sip:ref:`~PyQt6.QtCore.QElapsedTimer.ClockType.MonotonicClock` since macOS and iOS are also Unix systems and may support a POSIX monotonic clock with values differing from the Mach absolute time.
+This clock type is based on the absolute time presented by Mach kernels, such as that found on macOS. This clock type is presented separately from MonotonicClock since macOS and iOS are also Unix systems and may support a POSIX monotonic clock with values differing from the Mach absolute time.
 
 This clock is monotonic.
 

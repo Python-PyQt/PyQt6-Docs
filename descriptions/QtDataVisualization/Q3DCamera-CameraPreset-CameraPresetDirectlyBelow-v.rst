@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 23
-    :digest: 6580dfd951dd8cd4c79c44c38a75c57e
+    :digest: ce879c4a520635116cab1bf3358112e6
 
-Acts as  for positive-only bars.
+Acts as CameraPresetFrontLow for positive-only bars.

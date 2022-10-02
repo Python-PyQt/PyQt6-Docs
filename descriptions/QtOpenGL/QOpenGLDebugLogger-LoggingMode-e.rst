@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 832b5ce435e120e566f69740fd863e59
+    :digest: b8ded3d2f76a39b433e49788d11c8aa9
 
-The  enum defines the logging mode of the logger object.
+The LoggingMode enum defines the logging mode of the logger object.

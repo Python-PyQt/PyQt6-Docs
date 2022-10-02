@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x00010000
     :realname: Qt::WindowType::WindowContextHelpButtonHint
-    :digest: 7fc2cde2dc7d2d707cf4ad2d119e79fb
+    :digest: 4e65df324b801a2c0dddf3161d2f397c
 
-Adds a context help button to dialogs. On some platforms this implies  for it to work.
+Adds a context help button to dialogs. On some platforms this implies Qt::WindowSystemMenuHint for it to work.

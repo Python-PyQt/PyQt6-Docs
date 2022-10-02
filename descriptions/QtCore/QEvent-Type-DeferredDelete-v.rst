@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 52
-    :digest: 9e4af1e6f007e9b1315f885f9b2c2337
+    :digest: 14b0e39015433b9d3921061b17deaf36
 
-The object will be deleted after it has cleaned up ()
+The object will be deleted after it has cleaned up (QDeferredDeleteEvent)

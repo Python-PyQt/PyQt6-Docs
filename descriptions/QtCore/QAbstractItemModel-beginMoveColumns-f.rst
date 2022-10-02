@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 54a5e8e51a9370586327f84486918a43
     :realsig: (const QModelIndex&,int,int,const QModelIndex&,int)
-    :digest: 4c12404c2dbbcd6348c5525a5a2c6059
+    :digest: 85adf659e0ba405dc1e816c05a5a47e4
 
 Begins a column move operation.
 
-When reimplementing a subclass, this method simplifies moving entities in your model. This method is responsible for moving persistent indexes in the model, which you would otherwise be required to do yourself. Using  and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endMoveColumns` is an alternative to emitting :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutAboutToBeChanged` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutChanged` directly along with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.changePersistentIndex`.
+When reimplementing a subclass, this method simplifies moving entities in your model. This method is responsible for moving persistent indexes in the model, which you would otherwise be required to do yourself. Using beginMoveColumns and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endMoveColumns` is an alternative to emitting :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutAboutToBeChanged` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutChanged` directly along with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.changePersistentIndex`.
 
 The *sourceParent* index corresponds to the parent from which the columns are moved; *sourceFirst* and *sourceLast* are the first and last column numbers of the columns to be moved. The *destinationParent* index corresponds to the parent into which those columns are moved. The *destinationChild* is the column to which the columns will be moved. That is, the index at column *sourceFirst* in *sourceParent* will become column *destinationChild* in *destinationParent*, followed by all other columns up to *sourceLast*.
 

@@ -2,7 +2,9 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
-    :digest: 3bc636bd43a90a5eca1c95bce098b77d
+    :digest: 751172156ef61289ff990084d8094b8d
+
+Use the overload that takes a Qt::Alignment argument.
 
 Sets the text alignment for the item's text to the *alignment* specified.
 

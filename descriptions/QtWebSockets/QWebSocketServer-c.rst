@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Implements a WebSocket-based server
-    :digest: 1a8f4419218583011be89e75cda7568d
+    :digest: fa87b791a7883aada2dd8e020afd57c2
 
 Implements a WebSocket-based server.
 
@@ -15,7 +15,7 @@ When listening for connections, the address and port on which the server is list
 
 Calling :sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer.close` makes :sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer` stop listening for incoming connections.
 
-:sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer` currently does not support `WebSocket Extensions <https://doc.qt.io/qt-6/https://datatracker.ietf.org/doc/html/rfc6455#section-9>`_ and `WebSocket Subprotocols <https://doc.qt.io/qt-6/https://datatracker.ietf.org/doc/html/rfc6455#section-1.9>`_.
+:sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer` currently does not support `WebSocket Extensions <https://doc.qt.io/qt-6/https://datatracker.ietf.org/doc/html/rfc6455#section-9>`_.
 
 **Note:** When working with self-signed certificates, `Firefox bug 594502 <https://doc.qt.io/qt-6/https://bugzilla.mozilla.org/show_bug.cgi?id=594502>`_ prevents `Firefox <https://doc.qt.io/qt-6/https://www.mozilla.org/firefox>`_ to connect to a secure WebSocket server. To work around this problem, first browse to the secure WebSocket server using HTTPS. FireFox will indicate that the certificate is invalid. From here on, the certificate can be added to the exceptions. After this, the secure WebSockets connection should work.
 

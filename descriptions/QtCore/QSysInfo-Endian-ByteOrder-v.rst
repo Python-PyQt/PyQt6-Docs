@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: BigEndian or LittleEndian
-    :digest: bbf3fd84e75e0ec0707e0f87ca0d7da3
+    :digest: 86a183c1e285072f6d9685467d27fdb3
 
-Equals  or , depending on the platform's byte order.
+Equals BigEndian or LittleEndian, depending on the platform's byte order.

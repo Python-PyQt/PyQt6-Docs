@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 2616ac66bf53897ad1d6f2df04cbc25f
+    :digest: 09d03c911c74d74fb2d86f6aa590389b
 
-The  enum defines modifiers to the way a wildcard glob pattern gets converted to a regular expression pattern.
+The WildcardConversionOption enum defines modifiers to the way a wildcard glob pattern gets converted to a regular expression pattern.

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 06e44b238577dc73a42c093307713586
+    :digest: 82331307fb5bdc800011aecd81b1d4d4
 
 This enum type is used to specify various window-system properties for the widget. They are fairly unusual but necessary in a few cases. Some of these flags depend on whether the underlying window manager supports them.
 

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: RemoteServiceDiscovering
-    :digest: c1d0dafccca90117cf81cd103c700daf
+    :digest: 67ebaeb503ad2706cb3578840f397883
 
-Deprecated. Was renamed to .
+Deprecated. Was renamed to RemoteServiceDiscovering.

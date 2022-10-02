@@ -2,6 +2,6 @@
     :status: todo
     :value: NoBatching
     :realname: QSGMaterial::Flag::CustomCompileStep
-    :digest: ffaebf1ca40f3399fe61a750de345f35
+    :digest: 58e0d4fd3b9ef5926093f53f86d94c4c
 
-In Qt 6 this flag is identical to . Prefer using  instead.
+In Qt 6 this flag is identical to NoBatching. Prefer using NoBatching instead.

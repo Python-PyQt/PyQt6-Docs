@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0664a42d27be5e73a039cc8174b41e09
+    :digest: 9bbb2073aa4b64e08c59f9ff7783c2ae
 
 Predefined positions for camera.

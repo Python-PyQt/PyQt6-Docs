@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 35aefdedbe548776cc5f045c083eb82d
+    :digest: 61681d71cea2d4a4b57fdf0531d89934
 
 This enum type describes additional flags that can be used when subscribing to a gesture.
 

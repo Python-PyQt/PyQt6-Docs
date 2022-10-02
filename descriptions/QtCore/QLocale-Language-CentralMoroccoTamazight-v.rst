@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: CentralAtlasTamazight
-    :digest: 45dba46e16338e2e1888fe664e6ecb90
+    :digest: aa0e886a218a1c8e542b0317226dc13d
 
-Obsolete, please use
+Obsolete, please use CentralAtlasTamazight

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Enables Qt Designer to access and construct custom widgets
-    :digest: 252dadb27bbcf440ca45456534b8d7d1
+    :digest: 51ebd22c62656c9560f263e886952bfd
 
 The :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` class enables Qt Designer to access and construct custom widgets.
 
@@ -28,6 +28,36 @@ This macro ensures that *Qt Designer* can access and construct the custom widget
 When implementing a custom widget plugin, you build it as a separate library. If you want to include several custom widget plugins in the same library, you must in addition subclass :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetCollectionInterface`.
 
 **Warning:** If your custom widget plugin contains :sip:ref:`~PyQt6.QtCore.QVariant` properties, be aware that only the following types are supported:
+
+* QVariant::ByteArray
+
+* QVariant::Bool
+
+* QVariant::Color
+
+* QVariant::Cursor
+
+* QVariant::Date
+
+* QVariant::DateTime
+
+* QVariant::Double
+
+* QVariant::Int
+
+* QVariant::Point
+
+* QVariant::Rect
+
+* QVariant::Size
+
+* QVariant::SizePolicy
+
+* QVariant::String
+
+* QVariant::Time
+
+* QVariant::UInt
 
 For a complete example using the :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` class, see the `Custom Widget Example <https://doc.qt.io/qt-6/qtdesigner-customwidgetplugin-example.html>`_. The example shows how to create a custom widget plugin for *Qt Designer*.
 

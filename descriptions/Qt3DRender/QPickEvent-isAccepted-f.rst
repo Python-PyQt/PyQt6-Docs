@@ -3,6 +3,6 @@
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realname: Qt3DRender::QPickEvent::isAccepted
     :realsig: () const
-    :digest: cff9b193865ed7dce6441021f6574949
+    :digest: 2c1ed4d76d2f63176a1a10e863902f80
 
- Returns true if the event has been accepted
+QPickEvent::isAccepted Returns true if the event has been accepted

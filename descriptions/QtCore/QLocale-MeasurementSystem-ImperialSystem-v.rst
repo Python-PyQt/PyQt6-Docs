@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: ImperialUSSystem
-    :digest: 5a57d587190289c50b747e058b791c34
+    :digest: c373b4e0eab9255b545bb0970cb83fb4
 
-Provided for compatibility. Same as
+Provided for compatibility. Same as ImperialUSSystem

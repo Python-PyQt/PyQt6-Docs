@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 5
-    :digest: 480350d3afe77db3729a672820f9d8e4
+    :digest: e984155c809cae9470e417791e752fc5
 
-Clickable area, defaults to .
+Clickable area, defaults to SE_CheckBoxFocusRect.

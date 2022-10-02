@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 1fd8e9d8771f0c843ef996b2252c1a95
+    :digest: 8f0b49eb5a8dfc3ea5f00e20d88a1441
 
 This enum describes the types of connection that can be used between signals and slots. In particular, it determines whether a particular signal is delivered to a slot immediately or queued for delivery at a later time.
 

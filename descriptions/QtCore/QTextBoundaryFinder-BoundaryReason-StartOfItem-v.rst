@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x20
-    :digest: d60555abd86e7bc7d18d20735775703c
+    :digest: d0ad65193b92bbeb695913a68bb34946
 
-Since 5.0. The boundary finder is at the start of a grapheme, a word, a sentence, or a line.
+The boundary finder is at the start of a grapheme, a word, a sentence, or a line.

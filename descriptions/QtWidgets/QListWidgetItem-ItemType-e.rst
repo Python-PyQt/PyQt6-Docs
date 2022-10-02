@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: f5ad49b22b283363cf53a01b3818f8cc
+    :digest: 7c113252416aa6edb5ba9cd448bf28bb
 
 This enum describes the types that are used to describe list widget items.
 

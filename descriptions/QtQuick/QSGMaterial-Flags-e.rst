@@ -1,4 +1,4 @@
 .. sip:enum-description::
     :status: todo
     :realname: QSGMaterial::Flag
-    :digest: 2f3c17da0733991d06a836aa6940764d
+    :digest: e67212881671360b9e7471e9b2e44e1f

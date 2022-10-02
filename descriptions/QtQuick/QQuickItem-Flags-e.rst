@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QQuickItem::Flag
-    :digest: 90035faade00e304a4eb73e701ef6f5f
+    :digest: 0dde56907a330a739d575da84b270944
 
 This enum type is used to specify various item properties.
 

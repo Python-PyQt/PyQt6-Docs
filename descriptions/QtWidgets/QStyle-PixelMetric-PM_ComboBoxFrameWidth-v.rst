@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 7
-    :digest: 9fa9c7096a59cb50cd533c9f56235e08
+    :digest: 09f889b5f6be692134ef1245664633ad
 
-Frame width of a combo box, defaults to .
+Frame width of a combo box, defaults to PM_DefaultFrameWidth.

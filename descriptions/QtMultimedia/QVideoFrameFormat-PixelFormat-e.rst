@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 5caefb0e80935fde81a40d9c38d6a669
+    :digest: e8570aed0cf5c7cf32108b0dfae6da02
 
 Enumerates video data types.

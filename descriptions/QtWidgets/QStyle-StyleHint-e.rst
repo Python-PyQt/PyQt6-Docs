@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0d31ed9dfe70220cdbbfedcb6669f965
+    :digest: edda0b6cb811be304aed0f87318ab0df
 
 This enum describes the available style hints. A style hint is a general look and/or feel hint.
 

@@ -2,6 +2,6 @@
     :status: todo
     :value: YesToAll
     :realname: QMessageBox::StandardButton::YesAll
-    :digest: b438c9d7ae2034bd1de96ca8ff71e28b
+    :digest: 195a4ac15d32c01a20225c23abeeefe0
 
-Use  instead.
+Use YesToAll instead.

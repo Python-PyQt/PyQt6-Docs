@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to the window system clipboard
-    :digest: bd94aa93eb42a162f22600b602265df8
+    :digest: 40abc17e18e14d56c43009f22be64e65
 
 The :sip:ref:`~PyQt6.QtGui.QClipboard` class provides access to the window system clipboard.
 
@@ -50,5 +50,12 @@ Notes for Windows and macOS Users
 * Windows and macOS do not support the global mouse selection; they only supports the global clipboard, i.e. they only add text to the clipboard when an explicit copy or cut is made.
 
 * Windows and macOS does not have the concept of ownership; the clipboard is a fully global resource so all applications are notified of changes.
+
+.. _qclipboard-notes-for-android-users:
+
+Notes for Android Users
+-----------------------
+
+On Android only these mime types are supported: text/plain, text/html, and text/uri-list.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication`.

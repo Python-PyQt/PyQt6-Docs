@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 53a0c869db4018c54df2d54d53ae165b
     :realsig: (QEvent::Type,const QPointF&,Qt::MouseButton,Qt::MouseButtons,Qt::KeyboardModifiers,const QPointingDevice*)
-    :digest: 152b32d2cb818dbf940f9330ca05209e
+    :digest: 369a93d0029bbe0a1cd1e7526d3879a4
+
+Use another constructor instead (global position is required).
 
 Constructs a mouse event object originating from *device*.
 

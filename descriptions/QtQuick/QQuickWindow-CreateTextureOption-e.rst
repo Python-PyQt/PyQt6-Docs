@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 2becd20245982249ddefed175c3e9114
+    :digest: c9f80810e10b905efca714ffdd944478
 
-The  enums are used to customize a texture is wrapped.
+The CreateTextureOption enums are used to customize a texture is wrapped.

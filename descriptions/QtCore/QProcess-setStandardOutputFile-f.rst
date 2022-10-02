@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7f7efeca02d72c35dfd231a41f8373a3
     :realsig: (const QString&,QIODeviceBase::OpenMode)
-    :digest: 456f1fa79d9c5dd8ba8d2a7e49b13eff
+    :digest: 6ae3788df4a89f807f669bc420fbd6bd
 
 Redirects the process' standard output to the file *fileName*. When the redirection is in place, the standard output read channel is closed: reading from it using read() will always fail, as will :sip:ref:`~PyQt6.QtCore.QProcess.readAllStandardOutput`.
 
@@ -12,6 +12,6 @@ If the file *fileName* doesn't exist at the moment :sip:ref:`~PyQt6.QtCore.QProc
 
 If the file exists and *mode* is QIODevice::Truncate, the file will be truncated. Otherwise (if *mode* is QIODevice::Append), the file will be appended to.
 
-Calling  after the process has started has no effect.
+Calling setStandardOutputFile() after the process has started has no effect.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QProcess.setStandardInputFile`, :sip:ref:`~PyQt6.QtCore.QProcess.setStandardErrorFile`, :sip:ref:`~PyQt6.QtCore.QProcess.setStandardOutputProcess`.

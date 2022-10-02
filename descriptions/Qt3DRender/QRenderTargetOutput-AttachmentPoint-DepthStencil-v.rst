@@ -2,6 +2,6 @@
     :status: todo
     :value: 18
     :realname: Qt3DRender::QRenderTargetOutput::AttachmentPoint::DepthStencil
-    :digest: 81907c5e154de39bcf9d581f47f40b55
+    :digest: 14228d365888641211c1657ad4c3daf9
 
-attachment point
+DepthStencil attachment point

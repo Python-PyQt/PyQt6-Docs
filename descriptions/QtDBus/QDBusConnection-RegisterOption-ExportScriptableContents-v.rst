@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0xf0
-    :digest: 2b644229e4613aa3fe7ab0f956081f6d
+    :digest: 910bc679555f86bb0ecc30704bc83582
 
-shorthand form for  |  |
+shorthand form for ExportScriptableSlots | ExportScriptableSignals | ExportScriptableProperties

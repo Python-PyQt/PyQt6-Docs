@@ -3,6 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DRender::QPickTriangleEvent::triangleIndex
     :realsig: () const
-    :digest: 6aa9db7b2fc1466dce5b2f211a4c3b7d
+    :digest: acfc3312f51b66a84a3e1896eeb098c0
 
- Returns the index of the picked triangle
+QPickTriangleEvent::triangleIndex Returns the index of the picked triangle

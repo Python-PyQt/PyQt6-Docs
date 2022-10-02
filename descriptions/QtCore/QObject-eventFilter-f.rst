@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 06b6748bc0d5f7fc977b4321a5de7d3a
     :realsig: (QObject*,QEvent*)
-    :digest: 565ed5937799a0a3b241bff98e9b70d0
+    :digest: 4f95969e85fb066156bad8552c5a59e5
 
 Filters events if this object has been installed as an event filter for the *watched* object.
 
@@ -13,7 +13,7 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qobject.py
     :lines: 100-134
 
-Notice in the example above that unhandled events are passed to the base class's  function, since the base class might have reimplemented  for its own internal purposes.
+Notice in the example above that unhandled events are passed to the base class's eventFilter() function, since the base class might have reimplemented eventFilter() for its own internal purposes.
 
 Some events, such as :sip:ref:`~PyQt6.QtCore.QEvent.Type.ShortcutOverride` must be explicitly accepted (by calling :sip:ref:`~PyQt6.QtCore.QEvent.accept` on them) in order to prevent propagation.
 

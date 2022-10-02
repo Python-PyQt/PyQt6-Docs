@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: QSGImageNode::TextureCoordinatesTransformFlag
-    :digest: 1f02ad26c2c561c7f6f6268db07cfb6f
+    :digest: 7946a107dee5e9dee9773ccd3a4ae9f8
 
-The  enum is used to specify the mode used to generate texture coordinates for a textured quad.
+The TextureCoordinatesTransformFlag enum is used to specify the mode used to generate texture coordinates for a textured quad.

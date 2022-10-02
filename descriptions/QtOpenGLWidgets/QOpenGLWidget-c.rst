@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for rendering OpenGL graphics
-    :digest: fab812cf58dc00d815d88ae6d3ecd8a9
+    :digest: ab30a967bc49f2acf896d3a06531a2ab
 
 The :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` class is a widget for rendering OpenGL graphics.
 
@@ -61,7 +61,7 @@ OpenGL Function Calls, Headers and QOpenGLFunctions
 
 When making OpenGL function calls, it is strongly recommended to avoid calling the functions directly. Instead, prefer using QOpenGLFunctions (when making portable applications) or the versioned variants (for example, QOpenGLFunctions_3_2_Core and similar, when targeting modern, desktop-only OpenGL). This way the application will work correctly in all Qt build configurations, including the ones that perform dynamic OpenGL implementation loading which means applications are not directly linking to an GL implementation and thus direct function calls are not feasible.
 
-In :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` the current context is always accessible by caling :sip:ref:`~PyQt6.QtGui.QOpenGLContext.currentContext`. From this context an already initialized, ready-to-be-used QOpenGLFunctions instance is retrievable by calling QOpenGLContext::functions(). An alternative to prefixing every GL call is to inherit from QOpenGLFunctions and call QOpenGLFunctions::initializeOpenGLFunctions() in :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.initializeGL`.
+In :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` the current context is always accessible by calling :sip:ref:`~PyQt6.QtGui.QOpenGLContext.currentContext`. From this context an already initialized, ready-to-be-used QOpenGLFunctions instance is retrievable by calling QOpenGLContext::functions(). An alternative to prefixing every GL call is to inherit from QOpenGLFunctions and call QOpenGLFunctions::initializeOpenGLFunctions() in :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.initializeGL`.
 
 As for the OpenGL headers, note that in most cases there will be no need to directly include any headers like GL.h. The OpenGL-related Qt headers will include qopengl.h which will in turn include an appropriate header for the system. This might be an OpenGL ES 3.x or 2.0 header, the highest version that is available, or a system-provided gl.h. In addition, a copy of the extension headers (called glext.h on some systems) is provided as part of Qt both for OpenGL and OpenGL ES. These will get included automatically on platforms where feasible. This means that constants and function pointer typedefs from ARB, EXT, OES extensions are automatically available.
 
@@ -70,7 +70,7 @@ As for the OpenGL headers, note that in most cases there will be no need to dire
 Code Examples
 -------------
 
-To get started, the simplest :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` subclass could like like the following:
+To get started, the simplest :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` subclass could look like the following:
 
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 54-84
@@ -146,21 +146,21 @@ A typical subclass will therefore often look like the following when it comes to
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 124-174
 
-This is naturally not the only possible solution. One alternative is to use the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.aboutToBeDestroyed` signal of :sip:ref:`~PyQt6.QtGui.QOpenGLContext`. By connecting a slot, using direct connection, to this signal, it is possible to perform cleanup whenever the underlying native context handle, or the entire :sip:ref:`~PyQt6.QtGui.QOpenGLContext` instance, is going to be released. The following snippet is in principle equivalent to the previous one:
+This works for most cases, but not fully ideal as a generic solution. When the widget is reparented so that it ends up in an entirely different top-level window, something more is needed: by connecting to the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.aboutToBeDestroyed` signal of :sip:ref:`~PyQt6.QtGui.QOpenGLContext`, cleanup can be performed whenever the OpenGL context is about to be released.
+
+**Note:** For widgets that change their associated top-level window multiple times during their lifetime, a combined cleanup approach, as demonstrated in the code snippet below, is essential. Whenever the widget or a parent of it gets reparented so that the top-level window becomes different, the widget's associated context is destroyed and a new one is created. This is then followed by a call to :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.initializeGL` where all OpenGL resources must get reinitialized. Due to this the only option to perform proper cleanup is to connect to the context's aboutToBeDestroyed() signal. Note that the context in question may not be the current one when the signal gets emitted. Therefore it is good practice to call :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.makeCurrent` in the connected slot. Additionally, the same cleanup steps must be performed from the derived class' destructor, since the slot or lambda connected to the signal may not invoked when the widget is being destroyed.
 
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 178-191
 
-**Note:** For widgets that change their associated top-level window multiple times during their lifetime, a combined approach is essential. Whenever the widget or a parent of it gets reparented so that the top-level window becomes different, the widget's associated context is destroyed and a new one is created. This is then followed by a call to :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.initializeGL` where all OpenGL resources must get reinitialized. Due to this the only option to perform proper cleanup is to connect to the context's aboutToBeDestroyed() signal. Note that the context in question may not be the current one when the signal gets emitted. Therefore it is good practice to call :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.makeCurrent` in the connected slot. Additionally, the same cleanup steps must be performed from the derived class' destructor, since the slot connected to the signal will not get invoked when the widget is being destroyed.
-
-**Note:** When :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_ShareOpenGLContexts` is set, the widget's context never changes, not even when reparenting because the widget's associated texture is guaranteed to be accessible also from the new top-level's context.
+**Note:** When :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_ShareOpenGLContexts` is set, the widget's context never changes, not even when reparenting because the widget's associated texture is going to be accessible also from the new top-level's context. Therefore, acting on the aboutToBeDestroyed() signal of the context is not mandatory with this flag set.
 
 Proper cleanup is especially important due to context sharing. Even though each :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`'s associated context is destroyed together with the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`, the sharable resources in that context, like textures, will stay valid until the top-level window, in which the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` lived, is destroyed. Additionally, settings like :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_ShareOpenGLContexts` and some Qt modules may trigger an even wider scope for sharing contexts, potentially leading to keeping the resources in question alive for the entire lifetime of the application. Therefore the safest and most robust is always to perform explicit cleanup for all resources and resource wrappers used in the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`.
 
-.. _qopenglwidget-limitations:
+.. _qopenglwidget-limitations-and-other-considerations:
 
-Limitations
------------
+Limitations and Other Considerations
+------------------------------------
 
 Putting other widgets underneath and making the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` transparent will not lead to the expected results: The widgets underneath will not be visible. This is because in practice the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` is drawn before all other regular, non-OpenGL widgets, and so see-through type of solutions are not feasible. Other type of layouts, like having widgets on top of the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`, will function as expected.
 
@@ -171,6 +171,10 @@ Note that this does not apply when there are no other widgets underneath and the
 :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` supports multiple update behaviors, just like :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow`. In preserved mode the rendered content from the previous :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` call is available in the next one, allowing incremental rendering. In non-preserved mode the content is lost and :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` implementations are expected to redraw everything in the view.
 
 Before Qt 5.5 the default behavior of :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` was to preserve the rendered contents between :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` calls. Since Qt 5.5 the default behavior is non-preserved because this provides better performance and the majority of applications have no need for the previous content. This also resembles the semantics of an OpenGL-based :sip:ref:`~PyQt6.QtGui.QWindow` and matches the default behavior of :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` in that the color and ancillary buffers are invalidated for each frame. To restore the preserved behavior, call :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.setUpdateBehavior` with ``PartialUpdate``.
+
+**Note:** When dynamically adding a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` into a widget hierarchy, e.g. by parenting a new :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` to a widget where the corresponding top-level widget is already shown on screen, the associated native window may get implicitly destroyed and recreated if the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` is the first of its kind within its window. This is because the window type changes from :sip:ref:`~PyQt6.QtGui.QSurface.SurfaceType.RasterSurface` to :sip:ref:`~PyQt6.QtGui.QSurface.SurfaceType.OpenGLSurface` and that has platform-specific implications. This behavior is new in Qt 6.4.
+
+Once a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` is added to a widget hierarchy, the contents of the top-level window is flushed via OpenGL-based rendering. Widgets other than the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` continue to draw their content using a software-based painter, but the final composition is done through the 3D API.
 
 **Note:** Displaying a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` requires an alpha channel in the associated top-level window's backing store due to the way composition with other :sip:ref:`~PyQt6.QtWidgets.QWidget`-based content works. If there is no alpha channel, the content rendered by the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` will not be visible. This can become particularly relevant on Linux/X11 in remote display setups (such as, with Xvnc), when using a color depth lower than 24. For example, a color depth of 16 will typically map to using a backing store image with the format :sip:ref:`~PyQt6.QtGui.QImage.Format.Format_RGB16` (RGB565), leaving no room for an alpha channel. Therefore, if experiencing problems with getting the contents of a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` composited correctly with other the widgets in the window, make sure the server (such as, vncserver) is configured with a 24 or 32 bit depth instead of 16.
 

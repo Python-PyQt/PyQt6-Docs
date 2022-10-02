@@ -2,9 +2,9 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 6c8b24271848692be494c34a1912d14d
+    :digest: 28ff545157b418eced2e32e5349ccdbc
 
-Starts a CBOR Array with indeterminate length in the CBOR stream. Each  call must be paired with one :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endArray` call and the current CBOR element extends until the end of the array.
+Starts a CBOR Array with indeterminate length in the CBOR stream. Each startArray() call must be paired with one :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endArray` call and the current CBOR element extends until the end of the array.
 
 The array created by this function has no explicit length. Instead, its length is implied by the elements contained in it. Note, however, that use of indeterminate-length arrays is not compliant with canonical CBOR encoding.
 

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 45bdd7d04bfeead07eea61bed39d29bd
+    :digest: 42c84ec3fa50f6905263a593072f4fde
 
 Specifies where URL interception is taking place.
 

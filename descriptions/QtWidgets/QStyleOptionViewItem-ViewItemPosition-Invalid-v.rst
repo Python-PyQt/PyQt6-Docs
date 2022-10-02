@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: 03175e3b16a90bdafbfe4205b191fdb0
+    :digest: 787874d3c12881e1987030636889af37
 
-The  is unknown and should be disregarded.
+The ViewItemPosition is unknown and should be disregarded.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 118
-    :digest: 4b5217c9265d6fa9ea44c36880e1232c
+    :digest: b8a02bbe505e7c1f051205b872ba8769
 
-same as
+same as SimplifiedChineseScript

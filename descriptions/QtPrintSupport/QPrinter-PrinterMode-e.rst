@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 482b73c8b8d997006cd6bbdccbeebccb
+    :digest: 238e727094e4ef0b4166f8bf22fa73b9
 
 This enum describes the mode the printer should work in. It basically presets a certain resolution and working mode.
 

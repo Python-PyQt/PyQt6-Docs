@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 4b67ee967b49aaaaa781dcded187455c
+    :digest: 1f48392b02047b18318f285b10b1d960
 
-The  enum is used to specify the mode used to generate texture coordinates for a textured quad.
+The TextureCoordinatesTransformFlag enum is used to specify the mode used to generate texture coordinates for a textured quad.

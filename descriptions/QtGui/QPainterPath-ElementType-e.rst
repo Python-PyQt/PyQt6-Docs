@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a5504aa66e1ea0305a9155dd9e6fe8ad
+    :digest: 2943c6538a01d41148fc553c59a61064
 
 This enum describes the types of elements used to connect vertices in subpaths.
 

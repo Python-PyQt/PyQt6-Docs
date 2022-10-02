@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: 6234a8e5ef916b8cc6a3bd09099b56e4
+    :digest: 9d92d3abe53e53646635fcc050d52216
 
-Allows JavaScript programs to read from and write to the clipboard. Writing to the clipboard is always allowed if it is specifically requested by the user. See  to also allow pasting the content of the clipboard content from JavaScript. Disabled by default.
+Allows JavaScript programs to read from and write to the clipboard. Writing to the clipboard is always allowed if it is specifically requested by the user. See JavascriptCanPaste to also allow pasting the content of the clipboard content from JavaScript. Disabled by default.

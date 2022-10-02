@@ -1,10 +1,10 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ca495d629a133676c63b8eb10ca80dcc
+    :digest: bcbd923cf3b62b189aeb5ff0e7635e06
 
 This enum type specifies the storage format used by :sip:ref:`~PyQt6.QtCore.QSettings`.
 
-On Unix,  and  mean the same thing, except that the file extension is different (``.conf`` for , ``.ini`` for ).
+On Unix, NativeFormat and IniFormat mean the same thing, except that the file extension is different (``.conf`` for NativeFormat, ``.ini`` for IniFormat).
 
 The INI file format is a Windows file format that Qt supports on all platforms. In the absence of an INI standard, we try to follow what Microsoft does, with the following exceptions:
 
@@ -24,11 +24,11 @@ The INI file format is a Windows file format that Qt supports on all platforms. 
 
 * The INI file format has severe restrictions on the syntax of a key. Qt works around this by using ``%`` as an escape character in keys. In addition, if you save a top-level setting (a key with no slashes in it, e.g., "someKey"), it will appear in the INI file's "General" section. To avoid overwriting other keys, if you save something using a key such as "General/someKey", the key will be located in the "%General" section, *not* in the "General" section.
 
-* In line with most implementations today, :sip:ref:`~PyQt6.QtCore.QSettings` will assume the INI file is utf-8 encoded. This means that keys and values will be decoded as utf-8 encoded entries and written back as utf-8.
+* In line with most implementations today, :sip:ref:`~PyQt6.QtCore.QSettings` will assume that *values* in the INI file are utf-8 encoded. This means that *values* will be decoded as utf-8 encoded entries and written back as utf-8. To retain backward compatibility with older Qt versions, *keys* in the INI file are written in %-encoded format, but can be read in both %-encoded and utf-8 formats.
 
 Compatibility with older Qt versions
 ....................................
 
-Please note that this behavior is different to how :sip:ref:`~PyQt6.QtCore.QSettings` behaved in versions of Qt prior to Qt 6. INI files written with Qt 5 or earlier aree however fully readable by a Qt 6 based application (unless a ini codec different from utf8 had been set). But INI files written with Qt 6 will only be readable by older Qt versions if you set the "iniCodec" to a utf-8 textcodec.
+Please note that this behavior is different to how :sip:ref:`~PyQt6.QtCore.QSettings` behaved in versions of Qt prior to Qt 6. INI files written with Qt 5 or earlier are however fully readable by a Qt 6 based application (unless a ini codec different from utf8 had been set). But INI files written with Qt 6 will only be readable by older Qt versions if you set the "iniCodec" to a utf-8 textcodec.
 
 .. seealso:: registerFormat(), :sip:ref:`~PyQt6.QtCore.QSettings.setPath`.

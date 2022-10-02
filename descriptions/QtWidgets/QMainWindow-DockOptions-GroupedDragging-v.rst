@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x20
     :realname: QMainWindow::DockOption::GroupedDragging
-    :digest: 92d2c5fbb4d191e78786468710e4af67
+    :digest: 08d5ceca264a62fd07b21295a6fbd13a
 
-When dragging the titlebar of a dock, all the tabs that are tabbed with it are going to be dragged. Implies . Does not work well if some QDockWidgets have restrictions in which area they are allowed. (This enum value was added in Qt 5.6.)
+When dragging the titlebar of a dock, all the tabs that are tabbed with it are going to be dragged. Implies AllowTabbedDocks. Does not work well if some QDockWidgets have restrictions in which area they are allowed. (This enum value was added in Qt 5.6.)

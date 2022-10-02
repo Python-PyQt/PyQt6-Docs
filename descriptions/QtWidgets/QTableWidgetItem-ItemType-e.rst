@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 2367b801595e614e187b57f4c86d846f
+    :digest: 716a73cfc40a75ced95127946c5ed291
 
 This enum describes the types that are used to describe table widget items.
 

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 14
-    :digest: 44b0e05503447ee90e882d444f37d717
+    :digest: 110fc45553badc9de0097fad99fa4d18
 
-A  defined by the printer that is unknown to Qt
+A PaperSource defined by the printer that is unknown to Qt

@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a mouse event
-    :digest: 2e3ac1d2229b29068da118866048a141
+    :digest: 319fc5bf3ab5ed8b9974f1c623738180
 
 The :sip:ref:`~PyQt6.QtGui.QHoverEvent` class contains parameters that describe a mouse event.
 
 Mouse events occur when a mouse cursor is moved into, out of, or within a widget, and if the widget has the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_Hover` attribute.
 
-The function  gives the current cursor position, while :sip:ref:`~PyQt6.QtGui.QHoverEvent.oldPos` gives the old mouse position.
+The function pos() gives the current cursor position, while :sip:ref:`~PyQt6.QtGui.QHoverEvent.oldPos` gives the old mouse position.
 
 There are a few similarities between the events :sip:ref:`~PyQt6.QtCore.QEvent.Type.HoverEnter` and :sip:ref:`~PyQt6.QtCore.QEvent.Type.HoverLeave`, and the events :sip:ref:`~PyQt6.QtCore.QEvent.Type.Enter` and :sip:ref:`~PyQt6.QtCore.QEvent.Type.Leave`. However, they are slightly different because we do an update() in the event handler of HoverEnter and HoverLeave.
 

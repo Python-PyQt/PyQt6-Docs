@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 10
-    :digest: 92a566d2d8eff2d6a3d35a14f132c35c
+    :digest: 6a7b16265ad8654507a483a36f730daf
 
-Obsolete. Use  instead.
+Obsolete. Use PPK_PaperSize instead.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: WesternFrisian
-    :digest: 4b5217c9265d6fa9ea44c36880e1232c
+    :digest: 657e7bf3c70bbe842934f9c70d7877dc
 
-same as
+same as WesternFrisian

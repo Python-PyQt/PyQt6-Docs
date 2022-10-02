@@ -1,4 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 22
-    :digest: d41d8cd98f00b204e9800998ecf8427e
+    :digest: f3974837aa5dccba8ea4478e6e761b28
+
+QSizeF

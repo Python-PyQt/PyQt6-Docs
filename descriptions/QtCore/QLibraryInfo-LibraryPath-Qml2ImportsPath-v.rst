@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QmlImportsPath
-    :digest: a04d4e50b820a32459acb4d13e28782f
+    :digest: 859a6747b96833cd0ca55056cb20f381
 
-This value is deprecated. Use  instead.
+This value is deprecated. Use QmlImportsPath instead.

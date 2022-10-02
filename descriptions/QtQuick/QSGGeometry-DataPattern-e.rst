@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 6834e9438a650f737170957594dc6d27
+    :digest: 97f090d88262e87c782fca13251a3a13
 
-The  enum is used to specify the use pattern for the vertex and index data in a geometry object.
+The DataPattern enum is used to specify the use pattern for the vertex and index data in a geometry object.

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 097c77ae1a26fbfbfc7f39b9d715e443
+    :digest: 1d808e25dc5ffbca88014a435e2ce94e
 
 The formatting options define how the URL is formatted when written out as text.
 

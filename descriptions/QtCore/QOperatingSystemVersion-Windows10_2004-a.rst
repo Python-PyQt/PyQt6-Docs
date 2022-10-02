@@ -1,5 +1,5 @@
 .. sip:attribute-description::
     :status: todo
-    :digest: 72c13bc150b4a6c65a1a53edb9c0fc82
+    :digest: c5ba372f1efe08328730eb7794d05e47
 
-This variable holds a version corresponding to Windows 10 2004 (version 10.0.19041)..
+This variable holds a version corresponding to Windows 10 May 2020 Update Version 2004 (version 10.0.19041)..

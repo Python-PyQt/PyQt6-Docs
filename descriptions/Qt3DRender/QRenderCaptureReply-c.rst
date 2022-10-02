@@ -2,8 +2,8 @@
     :status: todo
     :brief: Receives the result of render capture request
     :realname: Qt3DRender::QRenderCaptureReply
-    :digest: 9fcacb156f9d424d1a63db97773a5230
+    :digest: 2826a3bafcfd9378d4abb673653afdfe
 
 Receives the result of render capture request.
 
-An object, which receives the image from .
+An object, which receives the image from QRenderCapture::requestCapture.

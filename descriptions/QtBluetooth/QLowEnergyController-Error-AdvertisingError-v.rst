@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: dab296886bbf539182ffc5bf0d06e735
+    :digest: 1f62cedcc59c85e22cc57fd13fde3704
 
-The attempt to start advertising failed. This value was introduced by Qt 5.7.
+The attempt to start advertising failed.

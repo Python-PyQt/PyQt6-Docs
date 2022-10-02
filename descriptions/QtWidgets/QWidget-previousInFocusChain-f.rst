@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 3d87b361e46af7a9d071f2e3463bbc7a
     :realsig: () const
-    :digest: 0070c421988af4c78a0f57c29cb94b2f
+    :digest: 174128563370479d0fe98f1dab2f73c9
 
-The  function returns the previous widget in this widget's focus chain.
+The previousInFocusChain function returns the previous widget in this widget's focus chain.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.nextInFocusChain`.

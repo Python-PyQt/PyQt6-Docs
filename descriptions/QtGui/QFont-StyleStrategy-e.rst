@@ -1,8 +1,8 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 20485d877a55bd0a45d04292961082f0
+    :digest: 0e6af4b735069165bc78697a08be7385
 
-The style strategy tells the `font matching <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_ algorithm what type of fonts should be used to find an appropriate default family.
+The style strategy tells the :sip:ref:`~PyQt6.QtGui.QFont` algorithm what type of fonts should be used to find an appropriate default family.
 
 The following strategies are available:
 

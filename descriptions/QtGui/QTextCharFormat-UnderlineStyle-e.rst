@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a42334a2b8b999d4bf403f1c663331fc
+    :digest: 27d03e6c0dbb045c8cad19d7343deaf5
 
 This enum describes the different ways drawing underlined text.
 

@@ -1,3 +1,3 @@
 .. sip:enum-description::
     :status: todo
-    :digest: f8e6300b55b44579c6de8690b929b915
+    :digest: c2871e3b82308fafedb916171b61bad7

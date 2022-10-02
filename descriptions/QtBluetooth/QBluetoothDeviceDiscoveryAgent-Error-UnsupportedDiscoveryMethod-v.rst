@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 5
-    :digest: 014b3a347ef7724d1ffa83467c2bbe7a
+    :digest: d82a98cef9f542591be55c817a856e9b
 
-One of the requested discovery methods is not supported by the current platform. This value was introduced by Qt 5.8.
+One of the requested discovery methods is not supported by the current platform.

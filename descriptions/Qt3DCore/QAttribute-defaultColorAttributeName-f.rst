@@ -3,6 +3,6 @@
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realname: Qt3DCore::QAttribute::defaultColorAttributeName
     :realsig: ()
-    :digest: c1471cf4f80763bb948247eee391e348
+    :digest: c67e6d853e21ed3f6fc0011dd703f520
 
- Returns the name of the default color attribute
+QAttribute::defaultColorAttributeName Returns the name of the default color attribute

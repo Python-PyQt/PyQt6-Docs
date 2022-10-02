@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 54
-    :digest: d7ac4b3880b104c7669447c019ec6597
+    :digest: 65899c6e730857d65cab36d4b848c96d
 
-Equivalent to  when the current layout direction is :sip:ref:`~PyQt6.QtCore.Qt.LayoutDirection.LeftToRight`, otherwise .
+Equivalent to SP_ArrowLeft when the current layout direction is :sip:ref:`~PyQt6.QtCore.Qt.LayoutDirection.LeftToRight`, otherwise SP_ArrowRight.

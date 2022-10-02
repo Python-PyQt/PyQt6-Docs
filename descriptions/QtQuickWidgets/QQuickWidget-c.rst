@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for displaying a Qt Quick user interface
-    :digest: a3659961b21eafc2b8f81a54257590ce
+    :digest: d3904bc938a074553293bd7ebe968473
 
 The :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` class provides a widget for displaying a Qt Quick user interface.
 
@@ -28,11 +28,22 @@ Performance Considerations
 
 However, the above mentioned advantages come at the expense of performance:
 
-* Unlike :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuick.QQuickView`, :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` requires rendering into OpenGL framebuffer objects, which needs to be enforced by calling :sip:ref:`~PyQt6.QtQuick.QQuickWindow.setGraphicsApi`\ (\ :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.GraphicsApi.OpenGL`) at startup. This will naturally carry a minor performance hit.
+* Unlike :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuick.QQuickView`, :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` involves at least one additional render pass targeting an offscreen color buffer, typically a 2D texture, followed by drawing a texture quad. This means increased load especially for the fragment processing of the GPU.
 
 * Using :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` disables the `threaded render loop <https://doc.qt.io/qt-6/qtquick-visualcanvas-scenegraph.html#threaded-render-loop>`_ on all platforms. This means that some of the benefits of threaded rendering, for example `Animator <https://doc.qt.io/qt-6/qml-qtquick-animator.html>`_ classes and vsync driven animations, will not be available.
 
 **Note:** Avoid calling winId() on a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`. This function triggers the creation of a native window, resulting in reduced performance and possibly rendering glitches. The entire purpose of :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` is to render Quick scenes without a separate native window, hence making it a native widget should always be avoided.
+
+.. _qquickwidget-graphics-api-support:
+
+Graphics API Support
+--------------------
+
+:sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` is functional with all the 3D graphics APIs supported by Qt Quick, as well as the ``software`` backend. Other backends, for example OpenVG, are not compatible however and attempting to construct a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` will lead to problems.
+
+Overriding the platform's default graphics API is done the same way as with :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuick.QQuickView`: either by calling :sip:ref:`~PyQt6.QtQuick.QQuickWindow.setGraphicsApi` early on before constructing the first :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`, or by setting the ``QSG_RHI_BACKEND`` environment variable.
+
+**Note:** One top-level window can only use one single graphics API for rendering. For example, attempting to place a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` using Vulkan and a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` in the widget hierarchy of the same top-level window, problems will occur and one of the widgets will not be rendering as expected.
 
 .. _qquickwidget-scene-graph-and-context-persistency:
 
@@ -41,7 +52,7 @@ Scene Graph and Context Persistency
 
 :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` honors :sip:ref:`~PyQt6.QtQuick.QQuickWindow.isPersistentSceneGraph`, meaning that applications can decide - by calling :sip:ref:`~PyQt6.QtQuick.QQuickWindow.setPersistentSceneGraph` on the window returned from the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.quickWindow` function - to let scenegraph nodes and other Qt Quick scene related resources be released whenever the widget becomes hidden. By default persistency is enabled, just like with :sip:ref:`~PyQt6.QtQuick.QQuickWindow`.
 
-When running with the OpenGL backend of the scene graph, :sip:ref:`~PyQt6.QtQuick.QQuickWindow` offers the possibility to disable persistent OpenGL contexts as well. This setting is currently ignored by :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` and the context is always persistent. The OpenGL context is thus not destroyed when hiding the widget. The context is destroyed only when the widget is destroyed or when the widget gets reparented into another top-level widget's child hierarchy. However, some applications, in particular those that have their own graphics resources due to performing custom OpenGL rendering in the Qt Quick scene, may wish to disable the latter since they may not be prepared to handle the loss of the context when moving a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` into another window. Such applications can set the QCoreApplication::AA_ShareOpenGLContexts attribute. For a discussion on the details of resource initialization and cleanup, refer to the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` documentation.
+When running with the OpenGL, :sip:ref:`~PyQt6.QtQuick.QQuickWindow` offers the possibility to disable persistent OpenGL contexts as well. This setting is currently ignored by :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` and the context is always persistent. The OpenGL context is thus not destroyed when hiding the widget. The context is destroyed only when the widget is destroyed or when the widget gets reparented into another top-level widget's child hierarchy. However, some applications, in particular those that have their own graphics resources due to performing custom OpenGL rendering in the Qt Quick scene, may wish to disable the latter since they may not be prepared to handle the loss of the context when moving a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` into another window. Such applications can set the QCoreApplication::AA_ShareOpenGLContexts attribute. For a discussion on the details of resource initialization and cleanup, refer to the :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` documentation.
 
 **Note:** :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` offers less fine-grained control over its internal OpenGL context than :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`, and there are subtle differences, most notably that disabling the persistent scene graph will lead to destroying the context on a window change regardless of the presence of QCoreApplication::AA_ShareOpenGLContexts.
 
@@ -55,13 +66,6 @@ Putting other widgets underneath and making the :sip:ref:`~PyQt6.QtQuickWidgets.
 When absolutely necessary, this limitation can be overcome by setting the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_AlwaysStackOnTop` attribute on the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`. Be aware, however that this breaks stacking order. For example it will not be possible to have other widgets on top of the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`, so it should only be used in situations where a semi-transparent :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` with other widgets visible underneath is required.
 
 This limitation only applies when there are other widgets underneath the :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` inside the same window. Making the window semi-transparent, with other applications and the desktop visible in the background, is done in the traditional way: Set :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_TranslucentBackground` on the top-level window, request an alpha channel, and change the Qt Quick Scenegraph's clear color to :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.transparent` via :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget.setClearColor`.
-
-.. _qquickwidget-support-when-not-using-opengl:
-
-Support when not using OpenGL
------------------------------
-
-In addition to OpenGL, the ``software`` backend of Qt Quick also supports :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`. Other backends, for example OpenVG, are not compatible however and attempting to construct a :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` will lead to problems.
 
 .. _qquickwidget-tab-key-handling:
 

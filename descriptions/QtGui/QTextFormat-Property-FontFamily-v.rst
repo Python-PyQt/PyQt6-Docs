@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x2000
-    :digest: cf27f0f48742512dc071cc440a70af6e
+    :digest: 6ee70649a2856e62af3c39fe72213aba
 
-e{This property has been deprecated.} Use  instead.
+e{This property has been deprecated.} Use QTextFormat::FontFamilies instead.

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: Qt3DRender::QSortPolicy::SortType
-    :digest: ef9a0d1c71a633d4cbd45946254f0c92
+    :digest: d517a5df7fa3f36a80f33860a1362e4d
 
 This enum type describes the available sort types.

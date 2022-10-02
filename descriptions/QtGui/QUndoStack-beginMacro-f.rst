@@ -2,13 +2,13 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 5fe4f3202b1ea1a51cbfa233486f1430
+    :digest: 70c42927f2f9414c911eb24a65d58e6d
 
 Begins composition of a macro command with the given *text* description.
 
 An empty command described by the specified *text* is pushed on the stack. Any subsequent commands pushed on the stack will be appended to the empty command's children until :sip:ref:`~PyQt6.QtGui.QUndoStack.endMacro` is called.
 
-Calls to  and :sip:ref:`~PyQt6.QtGui.QUndoStack.endMacro` may be nested, but every call to  must have a matching call to :sip:ref:`~PyQt6.QtGui.QUndoStack.endMacro`.
+Calls to beginMacro() and :sip:ref:`~PyQt6.QtGui.QUndoStack.endMacro` may be nested, but every call to beginMacro() must have a matching call to :sip:ref:`~PyQt6.QtGui.QUndoStack.endMacro`.
 
 While a macro is being composed, the stack is disabled. This means that:
 

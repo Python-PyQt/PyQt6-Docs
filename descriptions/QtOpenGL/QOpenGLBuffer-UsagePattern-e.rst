@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 795e16bc976916f4780d4a7f8ca185ab
+    :digest: d365c4272f706f129bb513c2e6fcc5a8
 
 This enum defines the usage pattern of a :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer` object.

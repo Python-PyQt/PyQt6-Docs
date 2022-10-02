@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 31
+    :digest: db1f670c023b578f4a02ca13c87d1fee
 
-TODO
+Similar to YUV420, but uses 16bits per component, 10 of those significant.

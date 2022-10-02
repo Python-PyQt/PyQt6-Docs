@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
     :realname: QRegularExpression::PatternOption
-    :digest: e778bb662c6a0643ddcd88fd15ec3a75
+    :digest: f0dd208d34154720cc85d3fd4c6aaa65
 
-The  enum defines modifiers to the way the pattern string should be interpreted, and therefore the way the pattern matches against a subject string.
+The PatternOption enum defines modifiers to the way the pattern string should be interpreted, and therefore the way the pattern matches against a subject string.

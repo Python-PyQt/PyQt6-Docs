@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: c40bd8411ab5944a48a98c86f5ddc71e
+    :digest: f16d63fc6141b5a6df347c9d4f1904db
 
 This enum describes Bluetooth server error types.

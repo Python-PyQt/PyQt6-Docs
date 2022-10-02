@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 49c35739d5057e1d0972c68e07c6fbe5
+    :digest: 97683d517bccc5e67abd76c1533e796f
 
-The  enum describes the actual subclass of the surface.
+The SurfaceClass enum describes the actual subclass of the surface.

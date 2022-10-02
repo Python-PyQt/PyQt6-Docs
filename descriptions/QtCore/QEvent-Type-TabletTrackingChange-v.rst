@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 219
-    :digest: 66fd82ebfa12920f086f01e854c34e41
+    :digest: 90dd24d5910d9afca15d99a2424067de
 
-The Wacom tablet tracking state has changed (since Qt 5.9).
+The Wacom tablet tracking state has changed.

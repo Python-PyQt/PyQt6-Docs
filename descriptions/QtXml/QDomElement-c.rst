@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents one element in the DOM tree
-    :digest: 49766b40d2d67d55437cb920905c8a39
+    :digest: 2d6360c8f92aee49960ed16ed3881873
 
 The :sip:ref:`~PyQt6.QtXml.QDomElement` class represents one element in the DOM tree.
 
@@ -21,7 +21,7 @@ The :sip:ref:`~PyQt6.QtXml.QDomElement.text` function operates recursively to fi
 
 Note that we attempt to convert each node to a text node and use :sip:ref:`~PyQt6.QtXml.QDomElement.text` rather than using firstChild().toText().data() or n.toText().data() directly on the node, because the node may not be a text element.
 
-You can get a list of all the decendents of an element which have a specified tag name with :sip:ref:`~PyQt6.QtXml.QDomElement.elementsByTagName` or :sip:ref:`~PyQt6.QtXml.QDomElement.elementsByTagNameNS`.
+You can get a list of all the descendents of an element which have a specified tag name with :sip:ref:`~PyQt6.QtXml.QDomElement.elementsByTagName` or :sip:ref:`~PyQt6.QtXml.QDomElement.elementsByTagNameNS`.
 
 To browse the elements of a dom document use firstChildElement(), lastChildElement(), nextSiblingElement() and previousSiblingElement(). For example, to iterate over all child elements called "entry" in a root element called "database", you can use:
 

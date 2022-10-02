@@ -2,7 +2,7 @@
     :status: todo
     :pysig: b7efc3f359e5366eacb793e3cffdc2cf
     :realsig: (const QString&,const QString&,const QString&,const QString&)
-    :digest: 0fb06749feae3cabae73f90306900ce7
+    :digest: 661c4852de445b99b03ece8026f6ee92
 
 Loads *filename* + *suffix* (".qm" if the *suffix* is not specified), which may be an absolute file name or relative to *directory*. Returns ``true`` if the translation is successfully loaded; otherwise returns ``false``.
 
@@ -20,7 +20,7 @@ If the file name does not exist, other file names are tried in the following ord
 
 #. File name stripped further, etc.
 
-For example, an application running in the fr_CA locale (French-speaking Canada) might call load("foo.fr_ca", "/opt/foolib").  would then try to open the first existing readable file from this list:
+For example, an application running in the fr_CA locale (French-speaking Canada) might call load("foo.fr_ca", "/opt/foolib"). load() would then try to open the first existing readable file from this list:
 
 #. ``/opt/foolib/foo.fr_ca.qm``
 
@@ -34,4 +34,4 @@ For example, an application running in the fr_CA locale (French-speaking Canada)
 
 #. ``/opt/foolib/foo``
 
-Usually, it is better to use the (const :sip:ref:`~PyQt6.QtCore.QLocale` &, const QString &, const QString &, const QString &, const QString &) function instead, because it uses :sip:ref:`~PyQt6.QtCore.QLocale.uiLanguages` and not simply the locale name, which refers to the formatting of dates and numbers and not necessarily the UI language.
+Usually, it is better to use the QTranslator::load(const :sip:ref:`~PyQt6.QtCore.QLocale` &, const QString &, const QString &, const QString &, const QString &) function instead, because it uses :sip:ref:`~PyQt6.QtCore.QLocale.uiLanguages` and not simply the locale name, which refers to the formatting of dates and numbers and not necessarily the UI language.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x8000
-    :digest: d8246ad4d9f200209ca7e35fc7a8fbbe
+    :digest: e5805126b1129c8d11ff4a4cf9f2b0a3
 
-Same as  but doesn't draw the underlines.
+Same as Qt::TextShowMnemonic but doesn't draw the underlines.

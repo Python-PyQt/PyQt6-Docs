@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: -1
-    :digest: aeae98aa1daae8cfee6ae51ef0bfed0f
+    :digest: 7b2c5a748feba3bffdf117dffe89b3c7
 
-Events with this priority are sent after events with  or .
+Events with this priority are sent after events with HighEventPriority or NormalEventPriority.

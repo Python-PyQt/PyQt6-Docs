@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3d34f3de8cf3ff3110dbfccfa4121c0c
+    :digest: fb0d27d627cd6c0a9a1eaf965e1bd8b2
 
 This enumerated type is used to specify a script.
 

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: a34fd3e57af0cc79ef189995220041c2
     :realsig: () const
-    :digest: 8df59fe0ee13f82c0dce899e33d2bcf4
+    :digest: f05773b4789e832bc9650bad35b57687
 
 Returns a list of all top-level keys that can be read using the :sip:ref:`~PyQt6.QtCore.QSettings` object.
 
@@ -16,6 +16,6 @@ If a group is set using :sip:ref:`~PyQt6.QtCore.QSettings.beginGroup`, the top-l
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 231-233
 
-You can navigate through the entire setting hierarchy using  and :sip:ref:`~PyQt6.QtCore.QSettings.childGroups` recursively.
+You can navigate through the entire setting hierarchy using childKeys() and :sip:ref:`~PyQt6.QtCore.QSettings.childGroups` recursively.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QSettings.childGroups`, :sip:ref:`~PyQt6.QtCore.QSettings.allKeys`.

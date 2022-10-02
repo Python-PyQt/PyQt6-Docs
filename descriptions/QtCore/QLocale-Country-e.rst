@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 289e54f94a027fd441a37c7ae6687437
+    :digest: e705aa038c24ba9b76f5eccd5f76af90
 
 This enumerated type is used to identify a territory.
 

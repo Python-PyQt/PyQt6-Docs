@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: OdiaScript
-    :digest: 45dba46e16338e2e1888fe664e6ecb90
+    :digest: f8c18f37312418945ea46aa17a466967
 
-Obsolete, please use
+Obsolete, please use OdiaScript

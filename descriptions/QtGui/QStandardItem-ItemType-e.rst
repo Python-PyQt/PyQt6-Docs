@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: fdcadf7956b1736f28e24ebc76b35af7
+    :digest: acf9d1b13c9380aae4ddef3eb8dbdd97
 
 This enum describes the types that are used to describe standard items.
 

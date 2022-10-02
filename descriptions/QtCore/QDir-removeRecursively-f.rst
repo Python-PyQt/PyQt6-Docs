@@ -2,13 +2,13 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: ()
-    :digest: 5a26b634fa098092d3694ccdb6aa244d
+    :digest: b5a7cc895f0e5a539e7c5f86ec7e5da7
 
 Removes the directory, including all its contents.
 
 Returns ``true`` if successful, otherwise false.
 
-If a file or directory cannot be removed,  keeps going and attempts to delete as many files and sub-directories as possible, then returns ``false``.
+If a file or directory cannot be removed, removeRecursively() keeps going and attempts to delete as many files and sub-directories as possible, then returns ``false``.
 
 If the directory was already removed, the method returns ``true`` (expected result already reached).
 

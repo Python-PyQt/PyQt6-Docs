@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 74f4cfc2ee4961abf1d3641271fb57cb
+    :digest: 628b22cdc0622aced56215f1e2b1eb55
 
 This enum represents the orientation of the device.
 
@@ -8,7 +8,7 @@ To explain the meaning of each value it is helpful to refer to the following dia
 
 .. image:: ../../../images/sensors-sides.jpg
 
-The orientations are shown here in order: , , , , , .
+The orientations are shown here in order: TopUp, TopDown, LeftUp, RightUp, FaceUp, FaceDown.
 
 .. image:: ../../../images/sensors-orientation.jpg
 

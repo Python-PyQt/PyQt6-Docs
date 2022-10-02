@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QDBusConnection::RegisterOption
-    :digest: cdd7106e86490acb10bccb42b99fffa7
+    :digest: 915237c8fcde8ca3a5ee01972604e36a
 
 Specifies the options for registering objects with the connection. The possible values are:
 

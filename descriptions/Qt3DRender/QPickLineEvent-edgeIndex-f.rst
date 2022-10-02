@@ -3,6 +3,6 @@
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realname: Qt3DRender::QPickLineEvent::edgeIndex
     :realsig: () const
-    :digest: fdcc1444c68bb46ffb5449bcae1bc301
+    :digest: 7b1950d4b6a5a122a06200783517c4bc
 
- Returns the index of the picked edge
+QPickLineEvent::edgeIndex Returns the index of the picked edge

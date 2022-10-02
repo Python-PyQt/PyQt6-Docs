@@ -2,6 +2,6 @@
     :status: todo
     :value: 0xf00
     :realname: QDBusConnection::RegisterOption::ExportNonScriptableContents
-    :digest: 2b644229e4613aa3fe7ab0f956081f6d
+    :digest: cf0ad07e23b2316df42386166cc70275
 
-shorthand form for  |  |
+shorthand form for ExportNonScriptableSlots | ExportNonScriptableSignals | ExportNonScriptableProperties

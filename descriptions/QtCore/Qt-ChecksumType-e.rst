@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3ae69fc47406668a421b5f2c76ab9de8
+    :digest: 143e8c293cad927157d79d84c0b59b50
 
-This enum describes the possible standards used by .
+This enum describes the possible standards used by qChecksum().

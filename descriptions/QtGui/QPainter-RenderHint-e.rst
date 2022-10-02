@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 84019d1029673499260ca7416e125781
+    :digest: aa674fc2d5f24604918d712f6216d16a
 
 Renderhints are used to specify flags to :sip:ref:`~PyQt6.QtGui.QPainter` that may or may not be respected by any given engine.
 

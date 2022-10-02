@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: f04993cf223e7426f49e19ad55819593
+    :digest: 3ffcafbf1755cb9e60236afeeeca3d71
 
-An unknown error occurred when interacting with the service. This value was introduced by Qt 5.5.
+An unknown error occurred when interacting with the service.

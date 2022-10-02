@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: 20da833c7375e83b8a07ecbc7593f9a8
+    :digest: 7ca4fba328b015a53cab98cd0d601742
 
-Same as
+Same as QTextOption::NoWrap

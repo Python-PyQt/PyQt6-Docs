@@ -2,6 +2,6 @@
     :status: todo
     :value: AlignRight
     :realname: Qt::AlignmentFlag::AlignTrailing
-    :digest: 58e3c4196d2cf76f2827e38218f0ec0b
+    :digest: fad30d4e65b168c7a6297bf6c3b9044e
 
-Synonym for .
+Synonym for Qt::AlignRight.

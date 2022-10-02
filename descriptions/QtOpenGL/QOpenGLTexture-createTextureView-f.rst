@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 1e7e9349b5488b3cd316afe38e65f59b
     :realsig: (QOpenGLTexture::Target,QOpenGLTexture::TextureFormat,int,int,int,int) const
-    :digest: af269d5cdab86f33e5f0f5bf5d0ec33e
+    :digest: 5a53165a352629949cc33c661bc40064
 
-Attempts to create a texture view onto this texture. A texture view is somewhat analogous to a view in SQL in that it presents a restricted or reinterpreted view of the original data. Texture views do not allocate any more server-side storage, insted relying on the storage buffer of the source texture.
+Attempts to create a texture view onto this texture. A texture view is somewhat analogous to a view in SQL in that it presents a restricted or reinterpreted view of the original data. Texture views do not allocate any more server-side storage, instead relying on the storage buffer of the source texture.
 
 Texture views are only available when using immutable storage. For more information on texture views see http://www.opengl.org/wiki/Texture_Storage#Texture_views.
 

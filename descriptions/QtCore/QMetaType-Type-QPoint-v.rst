@@ -1,4 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 25
-    :digest: d41d8cd98f00b204e9800998ecf8427e
+    :digest: 08ba9f723ed2c35a5d3d303c273a1497
+
+QPoint

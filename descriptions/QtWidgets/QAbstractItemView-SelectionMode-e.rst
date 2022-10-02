@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 8da5a24c1871f05e1e48e3f6a68c184c
+    :digest: ca415c67b323a1eb6793b4fb76be130e
 
 This enum indicates how the view responds to user selections:
 
-The most commonly used modes are  and .
+The most commonly used modes are SingleSelection and ExtendedSelection.

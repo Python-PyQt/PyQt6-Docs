@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 54a5e8e51a9370586327f84486918a43
     :realsig: (const QModelIndex&,int,int,const QModelIndex&,int)
-    :digest: a663dad2bc165bbf270ef5bed2c907cb
+    :digest: a9a3137bcbaec0257f925575694ecc43
 
 Begins a row move operation.
 
-When reimplementing a subclass, this method simplifies moving entities in your model. This method is responsible for moving persistent indexes in the model, which you would otherwise be required to do yourself. Using  and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endMoveRows` is an alternative to emitting :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutAboutToBeChanged` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutChanged` directly along with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.changePersistentIndex`.
+When reimplementing a subclass, this method simplifies moving entities in your model. This method is responsible for moving persistent indexes in the model, which you would otherwise be required to do yourself. Using beginMoveRows and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endMoveRows` is an alternative to emitting :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutAboutToBeChanged` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.layoutChanged` directly along with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.changePersistentIndex`.
 
 The *sourceParent* index corresponds to the parent from which the rows are moved; *sourceFirst* and *sourceLast* are the first and last row numbers of the rows to be moved. The *destinationParent* index corresponds to the parent into which those rows are moved. The *destinationChild* is the row to which the rows will be moved. That is, the index at row *sourceFirst* in *sourceParent* will become row *destinationChild* in *destinationParent*, followed by all other rows up to *sourceLast*.
 

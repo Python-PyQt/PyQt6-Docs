@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 150ad7e7ad6d0f2db114bef43937572f
+    :digest: 65adcb3534437906a2f9a27f21cbe71b
 
 This enum describes the types that are used to describe tree widget items.
 

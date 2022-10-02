@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 01111d32dddd979ac6254452ab6fef9b
     :realsig: ()
-    :digest: 90ad472c5cc5a4419ad01ab552fb1853
+    :digest: bf2b5bb4223a3bb0e3372bf73e5de7bf
 
 Attempts to load the platform-default backend.
 
@@ -20,7 +20,7 @@ This platform-to-plugin mapping is as follows:
 | Linux             | networkmanager        |
 +-------------------+-----------------------+
 
-This function is provided for convenience where the default for a given platform is good enough. If you are not using the default plugins you must use one of the other :sip:ref:`~PyQt6.QtNetwork.QNetworkInformation.load` overloads.
+This function is provided for convenience where the default for a given platform is good enough. If you are not using the default plugins you must use one of the other load() overloads.
 
 Returns ``true`` if it managed to load the backend or if it was already loaded. Returns ``false`` otherwise.
 

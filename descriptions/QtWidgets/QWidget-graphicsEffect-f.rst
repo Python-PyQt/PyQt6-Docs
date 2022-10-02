@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 64a1e5fb21bbbebf6c8e03fbd369c42e
     :realsig: () const
-    :digest: 677a6e5508fd22407798603bc169093e
+    :digest: eb6504bbfa3d72ae32993183dbd5dd64
 
-The  function returns a pointer to the widget's graphics effect.
+The graphicsEffect function returns a pointer to the widget's graphics effect.
 
 If the widget has no graphics effect, ``nullptr`` is returned.
 

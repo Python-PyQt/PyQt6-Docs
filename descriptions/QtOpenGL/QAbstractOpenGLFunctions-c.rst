@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of a family of classes that expose all functions for each OpenGL version and profile
-    :digest: c4f351509d30bae7e675ab2e090e10f8
+    :digest: d445e5958e80d1c28518578ebb4089f0
 
 The :sip:ref:`~PyQt6.QtOpenGL.QAbstractOpenGLFunctions` class is the base class of a family of classes that expose all functions for each OpenGL version and profile.
 
@@ -73,9 +73,9 @@ Qt provides classes for all version and Core and Compatibility profile combinati
 
 where each class inherits from :sip:ref:`~PyQt6.QtOpenGL.QAbstractOpenGLFunctions`.
 
-A pointer to an object of the class corresponding to the version and profile of OpenGL in use can be obtained from :sip:ref:`~PyQt6.QtOpenGL.QOpenGLVersionFunctionsFactory.get`. If obtained in this way, note that the `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ retains ownership of the object. This is so that the instance can be cached and shared.
+A pointer to an object of the class corresponding to the version and profile of OpenGL in use can be obtained from :sip:ref:`~PyQt6.QtOpenGL.QOpenGLVersionFunctionsFactory.get`. If obtained in this way, note that the :sip:ref:`~PyQt6.QtGui.QOpenGLContext` retains ownership of the object. This is so that the instance can be cached and shared.
 
-Before calling any of the exposed OpenGL functions you must ensure that the object has resolved the function pointers to the OpenGL functions. This only needs to be done once per instance with . Once initialized, the object can be used to call any OpenGL function for the corresponding version and profile. Note that  can fail in some circumstances so check the return value. Situations in which initialization can fail are if you have a functions object for a version or profile that contains functions that are not part of the context being used to resolve the function pointers.
+Before calling any of the exposed OpenGL functions you must ensure that the object has resolved the function pointers to the OpenGL functions. This only needs to be done once per instance with initializeOpenGLFunctions(). Once initialized, the object can be used to call any OpenGL function for the corresponding version and profile. Note that initializeOpenGLFunctions() can fail in some circumstances so check the return value. Situations in which initialization can fail are if you have a functions object for a version or profile that contains functions that are not part of the context being used to resolve the function pointers.
 
 If you exclusively use function objects then you will get compile time errors if you attempt to use a function not included in that version and profile. This is obviously a lot easier to debug than undefined behavior at run time.
 

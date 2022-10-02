@@ -1,5 +1,5 @@
 .. sip:attribute-description::
     :status: todo
-    :digest: 792efe8ae6481d9134ed897d1f050597
+    :digest: 9c3d585ae4ee65f5a9b37dccb07ca3ce
 
-This variable holds a version corresponding to Windows 10 21H1 (version 10.0.19043)..
+This variable holds a version corresponding to Windows 10 May 2021 Update Version 21H1 (version 10.0.19043)..

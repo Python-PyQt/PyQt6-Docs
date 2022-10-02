@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d5c14fd47669bea98a912811e017cdb5
     :realsig: (WId,int,int,int,int)
-    :digest: 8cf40e6c5fba9cf9dd86e22216e438ae
+    :digest: 91059f51e95358de85a74aa3e24ad82f
 
 Creates and returns a pixmap constructed by grabbing the contents of the given *window* restricted by :sip:ref:`~PyQt6.QtCore.QRect`\ (\ *x*, *y*, *width*, *height*). If *window* is 0, then the entire screen will be grabbed.
 
@@ -10,11 +10,11 @@ The arguments (\ *x*, *y*) specify the offset in the window, whereas (\ *width*,
 
 The offset and size arguments are specified in device independent pixels. The returned pixmap may be larger than the requested size when grabbing from a high-DPI screen. Call :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio` to determine if this is the case.
 
-The window system identifier (``WId``) can be retrieved using the :sip:ref:`~PyQt6.QtWidgets.QWidget.winId` function. The rationale for using a window identifier and not a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_, is to enable grabbing of windows that are not part of the application, window system frames, and so on.
+The window system identifier (``WId``) can be retrieved using the :sip:ref:`~PyQt6.QtWidgets.QWidget.winId` function. The rationale for using a window identifier and not a :sip:ref:`~PyQt6.QtWidgets.QWidget`, is to enable grabbing of windows that are not part of the application, window system frames, and so on.
 
 **Warning:** Grabbing windows that are not part of the application is not supported on systems such as iOS, where sandboxing/security prevents reading pixels of windows not owned by the application.
 
-The  function grabs pixels from the screen, not from the window, i.e. if there is another window partially or entirely over the one you grab, you get pixels from the overlying window, too. The mouse cursor is generally not grabbed.
+The grabWindow() function grabs pixels from the screen, not from the window, i.e. if there is another window partially or entirely over the one you grab, you get pixels from the overlying window, too. The mouse cursor is generally not grabbed.
 
 Note on X11 that if the given *window* doesn't have the same depth as the root window, and another window partially or entirely obscures the one you grab, you will *not* get pixels from the overlying window. The contents of the obscured areas in the pixmap will be undefined and uninitialized.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Colors based on RGB, HSV or CMYK values
-    :digest: adf1f3ddf2f95eb9f394f1caaa6d2fd5
+    :digest: 9fff87f27ffe1d8951407cc2fd31592b
 
 The :sip:ref:`~PyQt6.QtGui.QColor` class provides colors based on RGB, HSV or CMYK values.
 
@@ -15,7 +15,7 @@ A color is normally specified in terms of RGB (red, green, and blue) components,
 
 The :sip:ref:`~PyQt6.QtGui.QColor` constructor creates the color based on RGB values. To create a :sip:ref:`~PyQt6.QtGui.QColor` based on either HSV or CMYK values, use the :sip:ref:`~PyQt6.QtGui.QColor.toHsv` and :sip:ref:`~PyQt6.QtGui.QColor.toCmyk` functions respectively. These functions return a copy of the color using the desired format. In addition the static :sip:ref:`~PyQt6.QtGui.QColor.fromRgb`, :sip:ref:`~PyQt6.QtGui.QColor.fromHsv` and :sip:ref:`~PyQt6.QtGui.QColor.fromCmyk` functions create colors from the specified values. Alternatively, a color can be converted to any of the three formats using the :sip:ref:`~PyQt6.QtGui.QColor.convertTo` function (returning a copy of the color in the desired format), or any of the :sip:ref:`~PyQt6.QtGui.QColor.setRgb`, :sip:ref:`~PyQt6.QtGui.QColor.setHsv` and :sip:ref:`~PyQt6.QtGui.QColor.setCmyk` functions altering *this* color's format. The :sip:ref:`~PyQt6.QtGui.QColor.spec` function tells how the color was specified.
 
-A color can be set by passing an RGB string (such as "#112233"), or an ARGB string (such as "#ff112233") or a color name (such as "blue"), to the :sip:ref:`~PyQt6.QtGui.QColor.setNamedColor` function. The color names are taken from the SVG 1.0 color names. The :sip:ref:`~PyQt6.QtGui.QColor.name` function returns the name of the color in the format "#RRGGBB". Colors can also be set using :sip:ref:`~PyQt6.QtGui.QColor.setRgb`, :sip:ref:`~PyQt6.QtGui.QColor.setHsv` and :sip:ref:`~PyQt6.QtGui.QColor.setCmyk`. To get a lighter or darker color use the :sip:ref:`~PyQt6.QtGui.QColor.lighter` and :sip:ref:`~PyQt6.QtGui.QColor.darker` functions respectively.
+A color can be set by passing an RGB string (such as "#112233"), or an ARGB string (such as "#ff112233") or a color name (such as "blue"), to the :sip:ref:`~PyQt6.QtGui.QColor.fromString` function. The color names are taken from the SVG 1.0 color names. The :sip:ref:`~PyQt6.QtGui.QColor.name` function returns the name of the color in the format "#RRGGBB". Colors can also be set using :sip:ref:`~PyQt6.QtGui.QColor.setRgb`, :sip:ref:`~PyQt6.QtGui.QColor.setHsv` and :sip:ref:`~PyQt6.QtGui.QColor.setCmyk`. To get a lighter or darker color use the :sip:ref:`~PyQt6.QtGui.QColor.lighter` and :sip:ref:`~PyQt6.QtGui.QColor.darker` functions respectively.
 
 The :sip:ref:`~PyQt6.QtGui.QColor.isValid` function indicates whether a :sip:ref:`~PyQt6.QtGui.QColor` is legal at all. For example, a RGB color with RGB values out of range is illegal. For performance reasons, :sip:ref:`~PyQt6.QtGui.QColor` mostly disregards illegal colors, and for that reason, the result of using an invalid color is undefined.
 

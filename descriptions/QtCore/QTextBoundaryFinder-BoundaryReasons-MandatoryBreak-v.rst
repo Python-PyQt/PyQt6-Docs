@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x80
     :realname: QTextBoundaryFinder::BoundaryReason::MandatoryBreak
-    :digest: 3f0aea77d98c5ab9ed85918279a64be0
+    :digest: 29ea2603286b4bd6fa810901543ef084
 
-Since 5.0. The boundary finder is at the end of line (can occur for a Line boundary type only).
+The boundary finder is at the end of line (can occur for a Line boundary type only).

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 10
-    :digest: 226376fcbcfec3e985b5fc690f79e40e
+    :digest: 90f058240278b27e0b755beb3a74754e
 
-Windows only,  based engine
+Windows only, Direct3D based engine

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ad9478c5918f17d00205fcf8a2277165
+    :digest: 9416b93a4b429443eb7133c1730607bd
 
 This enum type defines the valid event types in Qt. The event types and the specialized classes for each type are as follows:
 

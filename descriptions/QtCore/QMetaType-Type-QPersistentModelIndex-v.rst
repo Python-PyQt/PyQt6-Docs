@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 50
-    :digest: f1b70e1110040699a1558f683b2d91d9
+    :digest: a40ccfced20a33b8d01f8d4d577c094d
 
-(introduced in Qt 5.5)
+QPersistentModelIndex (introduced in Qt 5.5)

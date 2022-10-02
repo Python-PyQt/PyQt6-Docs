@@ -2,6 +2,6 @@
     :status: todo
     :value: NoToAll
     :realname: QMessageBox::StandardButton::NoAll
-    :digest: b438c9d7ae2034bd1de96ca8ff71e28b
+    :digest: 2a10c0f2c1c4ff0847fdbe91d07e92cf
 
-Use  instead.
+Use NoToAll instead.

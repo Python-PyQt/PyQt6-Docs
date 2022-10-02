@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7c0574595c80995729d7956d73f9fa01
     :realsig: (const QTransform&,bool)
-    :digest: 36d806ed3558653d964b07ecb9583472
+    :digest: 05c98dd6211e7ea830ba2790d9781cc8
 
 Sets the view's current transformation matrix to *matrix*.
 
@@ -15,6 +15,6 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_graphicsview_qgraphicsview.py
     :lines: 138-143
 
-To simplify interation with items using a transformed view, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides mapTo... and mapFrom... functions that can translate between scene and view coordinates. For example, you can call :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapToScene` to map a view coordinate to a floating point scene coordinate, or :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapFromScene` to map from floating point scene coordinates to view coordinates.
+To simplify interaction with items using a transformed view, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides mapTo... and mapFrom... functions that can translate between scene and view coordinates. For example, you can call :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapToScene` to map a view coordinate to a floating point scene coordinate, or :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapFromScene` to map from floating point scene coordinates to view coordinates.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.transform`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.rotate`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.scale`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.shear`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.translate`.

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 91654a8ed0cd075748034538df1c11ef
+    :digest: 805054d53fc4ef59feabca9e15a63934
 
 This enumeration holds the type of a load error:

@@ -1,19 +1,19 @@
 .. sip:enum-description::
     :status: todo
-    :digest: e680b877be48a00f59d4f407c6054224
+    :digest: 4aa144356a92850f7ba6200493b9fbdf
 
 The component formatting options define how the components of an URL will be formatted when written out as text. They can be combined with the options from QUrl::FormattingOptions when used in :sip:ref:`~PyQt6.QtCore.QUrl.toString` and :sip:ref:`~PyQt6.QtCore.QUrl.toEncoded`.
 
-The values of  and  should not be used together in one call. The behavior is undefined if that happens. They are provided as separate values because the behavior of the "pretty mode" with regards to reserved characters is different on certain components and specially on the full URL.
+The values of EncodeReserved and DecodeReserved should not be used together in one call. The behavior is undefined if that happens. They are provided as separate values because the behavior of the "pretty mode" with regards to reserved characters is different on certain components and specially on the full URL.
 
 Full decoding
 .............
 
-The  mode is similar to the behavior of the functions returning QString in Qt 4.x, in that every character represents itself and never has any special meaning. This is true even for the percent character ('%'), which should be interpreted to mean a literal percent, not the beginning of a percent-encoded sequence. The same actual character, in all other decoding modes, is represented by the sequence "%25".
+The FullyDecoded mode is similar to the behavior of the functions returning QString in Qt 4.x, in that every character represents itself and never has any special meaning. This is true even for the percent character ('%'), which should be interpreted to mean a literal percent, not the beginning of a percent-encoded sequence. The same actual character, in all other decoding modes, is represented by the sequence "%25".
 
-Whenever re-applying data obtained with  into a :sip:ref:`~PyQt6.QtCore.QUrl`, care must be taken to use the :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode` parameter to the setters (like :sip:ref:`~PyQt6.QtCore.QUrl.setPath` and :sip:ref:`~PyQt6.QtCore.QUrl.setUserName`). Failure to do so may cause re-interpretation of the percent character ('%') as the beginning of a percent-encoded sequence.
+Whenever re-applying data obtained with QUrl::FullyDecoded into a :sip:ref:`~PyQt6.QtCore.QUrl`, care must be taken to use the :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode` parameter to the setters (like :sip:ref:`~PyQt6.QtCore.QUrl.setPath` and :sip:ref:`~PyQt6.QtCore.QUrl.setUserName`). Failure to do so may cause re-interpretation of the percent character ('%') as the beginning of a percent-encoded sequence.
 
-This mode is quite useful when portions of a URL are used in a non-URL context. For example, to extract the username, password or file paths in an FTP client application, the  mode should be used.
+This mode is quite useful when portions of a URL are used in a non-URL context. For example, to extract the username, password or file paths in an FTP client application, the FullyDecoded mode should be used.
 
 This mode should be used with care, since there are two conditions that cannot be reliably represented in the returned QString. They are:
 

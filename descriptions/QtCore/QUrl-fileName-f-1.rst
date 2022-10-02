@@ -2,13 +2,13 @@
     :status: todo
     :pysig: 95c5a62151d056a62c97d208f5476f2a
     :realsig: (QUrl::ComponentFormattingOptions) const
-    :digest: ddebaa7afa5ff0519542b54741502a59
+    :digest: aec3dfd58b5012f302a3ae69ca4ccd33
 
 Returns the name of the file, excluding the directory path.
 
 Note that, if this :sip:ref:`~PyQt6.QtCore.QUrl` object is given a path ending in a slash, the name of the file is considered empty.
 
-If the path doesn't contain any slash, it is fully returned as the .
+If the path doesn't contain any slash, it is fully returned as the fileName.
 
 Example:
 

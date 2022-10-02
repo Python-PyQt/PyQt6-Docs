@@ -2,7 +2,7 @@
     :status: todo
     :pysig: e991172c6cc0c0ddc36c3e82e4c9e036
     :realsig: (QQmlContext*)
-    :digest: 38b356e5222f881294550619f61ebc2e
+    :digest: 468924eac56add72f6bd5fce880c06b0
 
 Create an object instance from this component, within the specified *context*. Returns ``nullptr`` if creation failed.
 
@@ -16,7 +16,7 @@ When :sip:ref:`~PyQt6.QtQml.QQmlComponent` constructs an instance, it occurs in 
 
 #. If applicable, :sip:ref:`~PyQt6.QtQml.QQmlParserStatus.componentComplete` is called on objects.
 
-differs from :sip:ref:`~PyQt6.QtQml.QQmlComponent.create` in that it only performs step 1. :sip:ref:`~PyQt6.QtQml.QQmlComponent.completeCreate` must be called to complete steps 2 and 3.
+QQmlComponent::beginCreate() differs from :sip:ref:`~PyQt6.QtQml.QQmlComponent.create` in that it only performs step 1. :sip:ref:`~PyQt6.QtQml.QQmlComponent.completeCreate` must be called to complete steps 2 and 3.
 
 This breaking point is sometimes useful when using attached properties to communicate information to an instantiated component, as it allows their initial values to be configured before property bindings take effect.
 

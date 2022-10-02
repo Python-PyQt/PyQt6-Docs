@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: I/O device that operates on temporary files
-    :digest: 28279459d1bae382dae9f9265c5cf8de
+    :digest: bac632be6396f1d1897f85ec4e1b446b
 
 The :sip:ref:`~PyQt6.QtCore.QTemporaryFile` class is an I/O device that operates on temporary files.
 
@@ -16,7 +16,7 @@ Reopening a :sip:ref:`~PyQt6.QtCore.QTemporaryFile` after calling close() is saf
 
 The file name of the temporary file can be found by calling :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileName`. Note that this is only defined after the file is first opened; the function returns an empty string before this.
 
-A temporary file will have some static part of the name and some part that is calculated to be unique. The default filename will be determined from :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationName` (otherwise ``qt_temp``) and will be placed into the temporary path as returned by :sip:ref:`~PyQt6.QtCore.QDir.tempPath`. If you specify your own filename, a relative file path will not be placed in the temporary directory by default, but be relative to the current working directory.
+A temporary file will have some static part of the name and some part that is calculated to be unique. The default filename will be determined from :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationName` (otherwise ``qt_temp``) and will be placed into the temporary path as returned by :sip:ref:`~PyQt6.QtCore.QDir.tempPath`. If you specify your own filename, a relative file path will not be placed in the temporary directory by default, but be relative to the current working directory. It is important to specify the correct directory if the :sip:ref:`~PyQt6.QtCore.QTemporaryFile.rename` function will be called, as :sip:ref:`~PyQt6.QtCore.QTemporaryFile` can only rename files within the same volume / filesystem as the temporary file itself was created on.
 
 Specified filenames can contain the following template ``XXXXXX`` (six upper case "X" characters), which will be replaced by the auto-generated portion of the filename. Note that the template is case sensitive. If the template is not present in the filename, :sip:ref:`~PyQt6.QtCore.QTemporaryFile` appends the generated part to the filename given.
 

@@ -1,4 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x1014
-    :digest: d41d8cd98f00b204e9800998ecf8427e
+    :digest: fd28e0f2911800cf8b86a96a7ae67c3b
+
+QVector4D

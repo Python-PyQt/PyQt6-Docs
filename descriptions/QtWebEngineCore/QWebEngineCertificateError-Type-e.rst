@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: c79d7e49ad4fabd6633bb099ca5a7599
+    :digest: 0c386b77e1683f3b71823aba804c7e1f
 
 This enum describes the type of certificate error encountered.
 

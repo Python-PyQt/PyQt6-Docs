@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: TCP-based server
-    :digest: 2770a7cdd4850a68b8d192960d370358
+    :digest: 1be49e8212cb75fb71b953f32a57e27f
 
 The :sip:ref:`~PyQt6.QtNetwork.QTcpServer` class provides a TCP-based server.
 
 This class makes it possible to accept incoming TCP connections. You can specify the port or have :sip:ref:`~PyQt6.QtNetwork.QTcpServer` pick one automatically. You can listen on a specific address or on all the machine's addresses.
 
-Call :sip:ref:`~PyQt6.QtNetwork.QTcpServer.listen` to have the server listen for incoming connections. The :sip:ref:`~PyQt6.QtNetwork.QTcpServer.newConnection` signal is then emitted each time a client connects to the server.
+Call :sip:ref:`~PyQt6.QtNetwork.QTcpServer.listen` to have the server listen for incoming connections. The :sip:ref:`~PyQt6.QtNetwork.QTcpServer.newConnection` signal is then emitted each time a client connects to the server. When the client connection has been added to the pending connection queue using the :sip:ref:`~PyQt6.QtNetwork.QTcpServer.addPendingConnection` function, the :sip:ref:`~PyQt6.QtNetwork.QTcpServer.pendingConnectionAvailable` signal is emitted.
 
 Call :sip:ref:`~PyQt6.QtNetwork.QTcpServer.nextPendingConnection` to accept the pending connection as a connected :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`. The function returns a pointer to a :sip:ref:`~PyQt6.QtNetwork.QTcpSocket` in :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState` that you can use for communicating with the client.
 

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 73f6eb7b537be5b9116d8a5e4b670350
+    :digest: 553b90997a61d95429fe20a1f18c7504
 
 Indicates the state of the controller object.

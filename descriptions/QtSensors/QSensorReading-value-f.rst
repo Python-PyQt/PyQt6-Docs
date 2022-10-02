@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 929edda6a97571ebce7151ff0802751f
     :realsig: (int) const
-    :digest: bd2057ee5c869df06f8e4a2ec31fd759
+    :digest: 24e74b4cc93120fc53f4f36800dd2c97
 
 Returns the value of the property at *index*.
 
@@ -29,6 +29,6 @@ Finally, you can access values via numeric index.
 
     qreal x = reading->value(0).value<qreal>();
 
-Note that  can only access properties declared with Q_PROPERTY() in sub-classes of :sip:ref:`~PyQt6.QtSensors.QSensorReading`.
+Note that value() can only access properties declared with Q_PROPERTY() in sub-classes of :sip:ref:`~PyQt6.QtSensors.QSensorReading`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtSensors.QSensorReading.valueCount`, :sip:ref:`~PyQt6.QtCore.QObject.property`.

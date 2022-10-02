@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows the user to watch for a bus service change
-    :digest: 352ffd7b98ac03483f83c195ccacf175
+    :digest: 23ca629babffdbd33cac41871d0fb31b
 
 The :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher` class allows the user to watch for a bus service change.
 
@@ -15,7 +15,7 @@ A :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher` object can be used to notify the 
 
 Besides being created or deleted, services may change owners without a unregister/register operation happening. So the :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.serviceRegistered` and :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.serviceUnregistered` signals may not be emitted if that happens.
 
-This class is more efficient than using the  signal because it allows one to receive only the signals for which the class is interested in.
+This class is more efficient than using the QDBusConnectionInterface::serviceOwnerChanged() signal because it allows one to receive only the signals for which the class is interested in.
 
 Ending a service name with the character '\*' will match all service names within the specified namespace.
 

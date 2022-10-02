@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 549a8a90b5b533cc6a069ea7a952dff2
+    :digest: 1338f5c942e089315c2b4e5941159954
 
-The  enum describes what type of surface this is.
+The SurfaceType enum describes what type of surface this is.

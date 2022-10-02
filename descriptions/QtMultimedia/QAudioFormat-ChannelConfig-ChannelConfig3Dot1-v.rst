@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: QtPrivate::channelConfig(FrontLeft, FrontRight, FrontCenter, LFE)
+    :digest: c5bbd729702410b5ba73f51023ce068e
 
-TODO
+The audio has four channels, Left, Right, Center and LFE (low frequency effect)

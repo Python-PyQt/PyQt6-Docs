@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Authentication object
-    :digest: 5d2af28234fbc57b9d44826f1e195693
+    :digest: 6fc7e9b4f329a583b7f8d32d9fe77671
 
 The :sip:ref:`~PyQt6.QtNetwork.QAuthenticator` class provides an authentication object.
 
@@ -66,6 +66,16 @@ The Digest-MD5 authentication mechanism supports no outgoing options.
 SPNEGO/Negotiate
 ................
 
-This authentication mechanism currently supports no incoming or outgoing options.
++---------+-----------+---------+------------------------+
+| Option  | Direction | Type    | Description            |
++=========+===========+=========+========================+
+| ``spn`` | Outgoing  | QString | Provides a custom SPN. |
++---------+-----------+---------+------------------------+
+
+This authentication mechanism currently supports no incoming options.
+
+The ``spn`` property is used on Windows clients when an SSPI library is used. If the property is not set, a default SPN will be used. The default SPN on Windows is ``HTTP/<hostname>``.
+
+Other operating systems use GSSAPI libraries. For that it is expected that KDC is set up, and the credentials can be fetched from it. The backend always uses ``HTTPS@<hostname>`` as an SPN.
 
 .. seealso:: :sip:ref:`~PyQt6.QtNetwork.QSslSocket`.

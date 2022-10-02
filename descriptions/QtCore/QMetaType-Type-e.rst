@@ -1,9 +1,9 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a7de4215c15ba303daa13bb073da29c1
+    :digest: 51b41528414ee1a3ba002d4344c84487
 
 These are the built-in types supported by :sip:ref:`~PyQt6.QtCore.QMetaType`:
 
-Additional types can be registered using Q_DECLARE_METATYPE().
+Additional types can be registered using qRegisterMetaType() or by calling registerType().
 
 .. seealso:: type(), typeName().

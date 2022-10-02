@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 51d9df1266a0520408203a59a1b01156
+    :digest: e5ed844d0c9888e2b9b82b88de76c065
 
 This enum describes errors that can occur during service discovery.

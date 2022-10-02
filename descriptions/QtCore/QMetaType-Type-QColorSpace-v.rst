@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x1017
-    :digest: 187f3a6a4f4feb0a36c60599cc1a3513
+    :digest: af17196bccafdcf484d85d3b1ed382cc
 
-(introduced in Qt 5.15)
+QColorSpace (introduced in Qt 5.15)

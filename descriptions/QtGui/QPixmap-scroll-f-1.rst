@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 70e3e387c60570cd476dbdf5011a403a
     :realsig: (int,int,int,int,int,int,QRegion*)
-    :digest: 9a30c98671989f603f1783e60c302aa3
+    :digest: 8e67065829ac2764526ac1288439a4e0
 
-This convenience function is equivalent to calling (\ *dx*, *dy*, :sip:ref:`~PyQt6.QtCore.QRect`\ (\ *x*, *y*, *width*, *height*), *exposed*).
+This convenience function is equivalent to calling QPixmap::scroll(\ *dx*, *dy*, :sip:ref:`~PyQt6.QtCore.QRect`\ (\ *x*, *y*, *width*, *height*), *exposed*).
 
-.. seealso:: QWidget::scroll()QGraphicsItem::scroll().
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.scroll`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem.scroll`.

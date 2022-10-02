@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1197e6d9c714d65996e10ef29822da4e
     :realsig: (const QPoint&) const
-    :digest: e14fe9bab407a814fb35fae1ef32ea74
+    :digest: bf38c7153b19e896846d5e78306ec737
 
 Returns a list of all the items at the position *pos* in the view. The items are listed in descending stacking order (i.e., the first item in the list is the uppermost item, and the last item is the lowermost item). *pos* is in viewport coordinates.
 

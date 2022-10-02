@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 4d62e8357bbd4f50711e694da3b3f81c
+    :digest: fcfb88887aed334570cc5f96ed4ecea9
 
 This enum type is used to query for a specific path:
 

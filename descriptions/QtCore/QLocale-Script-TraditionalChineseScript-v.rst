@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: TraditionalHanScript
-    :digest: 4b5217c9265d6fa9ea44c36880e1232c
+    :digest: 8c81017a2fc5960138af35bb9c9b32e2
 
-same as
+same as TraditionalHanScript

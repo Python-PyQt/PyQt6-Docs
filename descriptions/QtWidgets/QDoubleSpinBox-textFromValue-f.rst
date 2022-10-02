@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 2f43b333b94ca502018fc8bfc47a8224
     :realsig: (double) const
-    :digest: 87834bb2cce646e23253d3af484338f8
+    :digest: be82c743ffb620fffdc1d68f96cddd38
 
-This virtual function is used by the spin box whenever it needs to display the given *value*. The default implementation returns a string containing *value* printed using :sip:ref:`~PyQt6.QtWidgets.QWidget.locale`.toString(\ *value*, QLatin1Char('f'), :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox.decimals`) and will remove the thousand separator unless setGroupSeparatorShown() is set. Reimplementations may return anything.
+This virtual function is used by the spin box whenever it needs to display the given *value*. The default implementation returns a string containing *value* printed using :sip:ref:`~PyQt6.QtWidgets.QWidget.locale`.toString(\ *value*, ``u'f'``, :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox.decimals`) and will remove the thousand separator unless setGroupSeparatorShown() is set. Reimplementations may return anything.
 
 Note: :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox` does not call this function for specialValueText() and that neither :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox.prefix` nor :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox.suffix` should be included in the return value.
 

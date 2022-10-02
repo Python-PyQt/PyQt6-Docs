@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Main application window
-    :digest: 63e0657fe9a64a1509aa10305c1e1a47
+    :digest: 214e445902d29faf2d009fb27e17d007
 
 The :sip:ref:`~PyQt6.QtWidgets.QMainWindow` class provides a main application window.
 
@@ -13,8 +13,6 @@ Qt Main Window Framework
 A main window provides a framework for building an application's user interface. Qt has :sip:ref:`~PyQt6.QtWidgets.QMainWindow` and its `related classes <https://doc.qt.io/qt-6/widget-classes.html#main-window-and-related-classes>`_ for main window management. :sip:ref:`~PyQt6.QtWidgets.QMainWindow` has its own layout to which you can add :sip:ref:`~PyQt6.QtWidgets.QToolBar`\ s, :sip:ref:`~PyQt6.QtWidgets.QDockWidget`\ s, a :sip:ref:`~PyQt6.QtWidgets.QMenuBar`, and a :sip:ref:`~PyQt6.QtWidgets.QStatusBar`. The layout has a center area that can be occupied by any kind of widget. You can see an image of the layout below.
 
 .. image:: ../../../images/mainwindowlayout.png
-
-**Note:** Creating a main window without a central widget is not supported. You must have a central widget even if it is just a placeholder.
 
 .. _qmainwindow-creating-main-window-components:
 
@@ -52,7 +50,7 @@ Creating Toolbars
 
 Toolbars are implemented in the :sip:ref:`~PyQt6.QtWidgets.QToolBar` class. You add a toolbar to a main window with ``addToolBar()``.
 
-You control the initial position of toolbars by assigning them to a specific :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas`. You can split an area by inserting a toolbar break - think of this as a line break in text editing - with ``addToolBarBreak()`` or ``insertToolBarBreak()``. You can also restrict placement by the user with :sip:ref:`~PyQt6.QtWidgets.QToolBar.setAllowedAreas` and :sip:ref:`~PyQt6.QtWidgets.QToolBar.setMovable`.
+You control the initial position of toolbars by assigning them to a specific :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea`. You can split an area by inserting a toolbar break - think of this as a line break in text editing - with ``addToolBarBreak()`` or ``insertToolBarBreak()``. You can also restrict placement by the user with :sip:ref:`~PyQt6.QtWidgets.QToolBar.setAllowedAreas` and :sip:ref:`~PyQt6.QtWidgets.QToolBar.setMovable`.
 
 The size of toolbar icons can be retrieved with ``iconSize()``. The sizes are platform dependent; you can set a fixed size with ``setIconSize()``. You can alter the appearance of all tool buttons in the toolbars with ``setToolButtonStyle()``.
 
@@ -68,7 +66,7 @@ Creating Dock Widgets
 
 Dock widgets are implemented in the :sip:ref:`~PyQt6.QtWidgets.QDockWidget` class. A dock widget is a window that can be docked into the main window. You add dock widgets to a main window with ``addDockWidget()``.
 
-There are four dock widget areas as given by the :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetAreas` enum: left, right, top, and bottom. You can specify which dock widget area that should occupy the corners where the areas overlap with ``setCorner()``. By default each area can only contain one row (vertical or horizontal) of dock widgets, but if you enable nesting with ``setDockNestingEnabled()``, dock widgets can be added in either direction.
+There are four dock widget areas as given by the :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea` enum: left, right, top, and bottom. You can specify which dock widget area that should occupy the corners where the areas overlap with ``setCorner()``. By default each area can only contain one row (vertical or horizontal) of dock widgets, but if you enable nesting with ``setDockNestingEnabled()``, dock widgets can be added in either direction.
 
 Two dock widgets may also be stacked on top of each other. A :sip:ref:`~PyQt6.QtWidgets.QTabBar` is then used to select which of the widgets should be displayed.
 

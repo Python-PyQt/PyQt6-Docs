@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: ApplicationActivate
-    :digest: aaa053bf882ca63360952bbe1853d3d3
+    :digest: 3d216b838cf0b391a9095366b9619790
 
-This enum has been deprecated. Use  instead.
+This enum has been deprecated. Use ApplicationStateChange instead.

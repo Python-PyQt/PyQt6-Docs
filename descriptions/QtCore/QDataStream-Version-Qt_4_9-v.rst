@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: Qt_4_8
-    :digest: b703cf3a6d3e3b29ef99ae0d11d9ec7e
+    :digest: 3402fd6a2432f76acc4ff6a937beeb12
 
-Same as .
+Same as Qt_4_6.
