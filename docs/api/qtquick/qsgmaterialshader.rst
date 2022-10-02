@@ -21,6 +21,13 @@
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.__init__
         :description: QtQuick/QSGMaterialShader-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.combinedImageSamplerCount
+        :args:
+            int
+        :returns:
+            int
+        :description: QtQuick/QSGMaterialShader-combinedImageSamplerCount-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.flags
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Flag`

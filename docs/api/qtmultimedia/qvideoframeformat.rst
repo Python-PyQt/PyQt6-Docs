@@ -3,6 +3,63 @@
 .. sip:class:: PyQt6.QtMultimedia.QVideoFrameFormat
     :description: QtMultimedia/QVideoFrameFormat-c.rst
 
+    .. sip:enum:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange
+        :description: QtMultimedia/QVideoFrameFormat-ColorRange-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange.ColorRange_Full
+            :description: QtMultimedia/QVideoFrameFormat-ColorRange-ColorRange_Full-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange.ColorRange_Unknown
+            :description: QtMultimedia/QVideoFrameFormat-ColorRange-ColorRange_Unknown-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange.ColorRange_Video
+            :description: QtMultimedia/QVideoFrameFormat-ColorRange-ColorRange_Video-v.rst
+
+    .. sip:enum:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace
+        :description: QtMultimedia/QVideoFrameFormat-ColorSpace-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace.ColorSpace_AdobeRgb
+            :description: QtMultimedia/QVideoFrameFormat-ColorSpace-ColorSpace_AdobeRgb-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace.ColorSpace_BT2020
+            :description: QtMultimedia/QVideoFrameFormat-ColorSpace-ColorSpace_BT2020-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace.ColorSpace_BT601
+            :description: QtMultimedia/QVideoFrameFormat-ColorSpace-ColorSpace_BT601-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace.ColorSpace_BT709
+            :description: QtMultimedia/QVideoFrameFormat-ColorSpace-ColorSpace_BT709-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace.ColorSpace_Undefined
+            :description: QtMultimedia/QVideoFrameFormat-ColorSpace-ColorSpace_Undefined-v.rst
+
+    .. sip:enum:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer
+        :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_BT601
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_BT601-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_BT709
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_BT709-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_Gamma22
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_Gamma22-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_Gamma28
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_Gamma28-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_Linear
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_Linear-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_ST2084
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_ST2084-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_STD_B67
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_STD_B67-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer.ColorTransfer_Unknown
+            :description: QtMultimedia/QVideoFrameFormat-ColorTransfer-ColorTransfer_Unknown-v.rst
+
     .. sip:enum:: PyQt6.QtMultimedia.QVideoFrameFormat.Direction
         :description: QtMultimedia/QVideoFrameFormat-Direction-e.rst
 
@@ -99,6 +156,9 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_YUV420P
             :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_YUV420P-v.rst
 
+        .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_YUV420P10
+            :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_YUV420P10-v.rst
+
         .. sip:enum-member:: PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat.Format_YUV422P
             :description: QtMultimedia/QVideoFrameFormat-PixelFormat-Format_YUV422P-v.rst
 
@@ -145,6 +205,21 @@
             :sip:ref:`~PyQt6.QtCore.QSize`
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.PixelFormat`
         :description: QtMultimedia/QVideoFrameFormat-__init__-f-2.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.colorRange
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange`
+        :description: QtMultimedia/QVideoFrameFormat-colorRange-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.colorSpace
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace`
+        :description: QtMultimedia/QVideoFrameFormat-colorSpace-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.colorTransfer
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer`
+        :description: QtMultimedia/QVideoFrameFormat-colorTransfer-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.__eq__
         :args:
@@ -228,6 +303,21 @@
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.Direction`
         :description: QtMultimedia/QVideoFrameFormat-scanLineDirection-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setColorRange
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorRange`
+        :description: QtMultimedia/QVideoFrameFormat-setColorRange-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setColorSpace
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorSpace`
+        :description: QtMultimedia/QVideoFrameFormat-setColorSpace-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setColorTransfer
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.ColorTransfer`
+        :description: QtMultimedia/QVideoFrameFormat-setColorTransfer-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setFrameRate
         :args:

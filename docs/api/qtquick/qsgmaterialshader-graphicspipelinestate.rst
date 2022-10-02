@@ -90,6 +90,15 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.CullMode.CullNone
             :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-CullMode-CullNone-v.rst
 
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-PolygonMode-e.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode.Fill
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-PolygonMode-Fill-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode.Line
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-PolygonMode-Line-v.rst
+
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.__init__
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-__init__-f.rst
 

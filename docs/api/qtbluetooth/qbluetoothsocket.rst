@@ -10,6 +10,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothSocket.SocketError.HostNotFoundError
             :description: QtBluetooth/QBluetoothSocket-SocketError-HostNotFoundError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothSocket.SocketError.MissingPermissionsError
+            :description: QtBluetooth/QBluetoothSocket-SocketError-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothSocket.SocketError.NetworkError
             :description: QtBluetooth/QBluetoothSocket-SocketError-NetworkError-v.rst
 

@@ -84,6 +84,9 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.PhysicalDeviceResource
             :description: QtQuick/QSGRendererInterface-Resource-PhysicalDeviceResource-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.RedirectPaintDevice
+            :description: QtQuick/QSGRendererInterface-Resource-RedirectPaintDevice-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.RenderPassResource
             :description: QtQuick/QSGRendererInterface-Resource-RenderPassResource-v.rst
 

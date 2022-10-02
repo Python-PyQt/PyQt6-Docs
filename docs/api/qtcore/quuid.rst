@@ -62,13 +62,8 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
-            str
-        :description: QtCore/QUuid-__init__-f-1.rst
-
-    .. sip:method:: PyQt6.QtCore.QUuid.__init__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QUuid-__init__-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QUuid-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
@@ -149,11 +144,11 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.fromString
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-fromString-f.rst
+        :description: QtCore/QUuid-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__ge__
         :args:

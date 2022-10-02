@@ -339,6 +339,11 @@
         :static:
         :description: QtCore/QMetaType-fromName-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaType.__hash__
+        :returns:
+            int
+        :description: QtCore/QMetaType-__hash__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaType.hasRegisteredDataStreamOperators
         :returns:
             bool

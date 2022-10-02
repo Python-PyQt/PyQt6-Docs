@@ -30,6 +30,15 @@
         :static:
         :description: QtGui/QTextDocumentFragment-fromHtml-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.fromMarkdown
+        :args:
+            str
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QTextDocumentFragment`
+        :static:
+        :description: QtGui/QTextDocumentFragment-fromMarkdown-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.fromPlainText
         :args:
             str
@@ -48,7 +57,19 @@
             str
         :description: QtGui/QTextDocumentFragment-toHtml-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.toMarkdown
+        :args:
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :returns:
+            str
+        :description: QtGui/QTextDocumentFragment-toMarkdown-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.toPlainText
         :returns:
             str
         :description: QtGui/QTextDocumentFragment-toPlainText-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.toRawText
+        :returns:
+            str
+        :description: QtGui/QTextDocumentFragment-toRawText-f.rst

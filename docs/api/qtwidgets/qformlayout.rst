@@ -188,6 +188,27 @@
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.invalidate
         :description: QtWidgets/QFormLayout-invalidate-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.isRowVisible
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout`
+        :returns:
+            bool
+        :description: QtWidgets/QFormLayout-isRowVisible-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.isRowVisible
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QWidget`
+        :returns:
+            bool
+        :description: QtWidgets/QFormLayout-isRowVisible-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.isRowVisible
+        :args:
+            int
+        :returns:
+            bool
+        :description: QtWidgets/QFormLayout-isRowVisible-f-2.rst
+
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.itemAt
         :args:
             int
@@ -290,6 +311,24 @@
             :sip:ref:`~PyQt6.QtWidgets.QFormLayout.ItemRole`
             :sip:ref:`~PyQt6.QtWidgets.QLayout`
         :description: QtWidgets/QFormLayout-setLayout-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.setRowVisible
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout`
+            bool
+        :description: QtWidgets/QFormLayout-setRowVisible-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.setRowVisible
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QWidget`
+            bool
+        :description: QtWidgets/QFormLayout-setRowVisible-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QFormLayout.setRowVisible
+        :args:
+            int
+            bool
+        :description: QtWidgets/QFormLayout-setRowVisible-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.setRowWrapPolicy
         :args:

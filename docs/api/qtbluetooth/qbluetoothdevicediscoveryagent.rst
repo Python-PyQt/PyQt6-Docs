@@ -28,6 +28,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.Error.LocationServiceTurnedOffError
             :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-Error-LocationServiceTurnedOffError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.Error.MissingPermissionsError
+            :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-Error-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.Error.NoError
             :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-Error-NoError-v.rst
 

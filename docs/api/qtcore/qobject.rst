@@ -159,6 +159,11 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtCore/QObject-installEventFilter-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QObject.isQuickItemType
+        :returns:
+            bool
+        :description: QtCore/QObject-isQuickItemType-f.rst
+
     .. sip:method:: PyQt6.QtCore.QObject.isSignalConnected
         :args:
             :sip:ref:`~PyQt6.QtCore.QMetaMethod`
@@ -237,8 +242,8 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.setObjectName
         :args:
-            str
-        :description: QtCore/QObject-setObjectName-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QObject-setObjectName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.setParent
         :args:

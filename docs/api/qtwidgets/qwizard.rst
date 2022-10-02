@@ -264,6 +264,11 @@
             str
         :description: QtWidgets/QWizard-setButtonText-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QWizard.setCurrentId
+        :args:
+            int
+        :description: QtWidgets/QWizard-setCurrentId-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QWizard.setDefaultProperty
         :args:
             str

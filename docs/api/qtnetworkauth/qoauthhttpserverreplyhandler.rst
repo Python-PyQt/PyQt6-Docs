@@ -47,11 +47,11 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.listen
         :args:
-            address: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = QHostAddress.SpecialAddress.Any
+            address: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
             port: int = 0
         :returns:
             bool
-        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-listen-f.rst
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-listen-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.port
         :returns:

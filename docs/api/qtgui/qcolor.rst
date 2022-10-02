@@ -266,6 +266,14 @@
         :static:
         :description: QtGui/QColor-fromRgbF-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QColor.fromString
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColor`
+        :static:
+        :description: QtGui/QColor-fromString-f.rst
+
     .. sip:method:: PyQt6.QtGui.QColor.getCmyk
         :returns:
             int
@@ -404,6 +412,14 @@
             bool
         :static:
         :description: QtGui/QColor-isValidColor-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QColor.isValidColorName
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :returns:
+            bool
+        :static:
+        :description: QtGui/QColor-isValidColorName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.lighter
         :args:

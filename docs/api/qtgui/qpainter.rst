@@ -135,6 +135,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.LosslessImageRendering
             :description: QtGui/QPainter-RenderHint-LosslessImageRendering-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.NonCosmeticBrushPatterns
+            :description: QtGui/QPainter-RenderHint-NonCosmeticBrushPatterns-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QPainter.RenderHint.SmoothPixmapTransform
             :description: QtGui/QPainter-RenderHint-SmoothPixmapTransform-v.rst
 

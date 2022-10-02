@@ -47,3 +47,8 @@
         :args:
             bool
         :description: QtCore/QTemporaryDir-setAutoRemove-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTemporaryDir.swap
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTemporaryDir`
+        :description: QtCore/QTemporaryDir-swap-f.rst

@@ -57,3 +57,8 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtQml/QQmlApplicationEngine-objectCreated-s.rst
+
+    .. sip:signal:: PyQt6.QtQml.QQmlApplicationEngine.objectCreationFailed
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :description: QtQml/QQmlApplicationEngine-objectCreationFailed-s.rst

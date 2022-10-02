@@ -91,21 +91,21 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginGroup
         :args:
-            str
-        :description: QtCore/QSettings-beginGroup-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QSettings-beginGroup-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginReadArray
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
         :returns:
             int
-        :description: QtCore/QSettings-beginReadArray-f.rst
+        :description: QtCore/QSettings-beginReadArray-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginWriteArray
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
             size: int = -1
-        :description: QtCore/QSettings-beginWriteArray-f.rst
+        :description: QtCore/QSettings-beginWriteArray-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.childGroups
         :returns:
@@ -122,10 +122,10 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.contains
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
         :returns:
             bool
-        :description: QtCore/QSettings-contains-f.rst
+        :description: QtCore/QSettings-contains-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.defaultFormat
         :returns:
@@ -183,8 +183,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.remove
         :args:
-            str
-        :description: QtCore/QSettings-remove-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QSettings-remove-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.scope
         :returns:
@@ -222,9 +222,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.setValue
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
             Any
-        :description: QtCore/QSettings-setValue-f.rst
+        :description: QtCore/QSettings-setValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.status
         :returns:
@@ -236,9 +236,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.value
         :args:
-            str
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
             defaultValue: Any = None
             type: type = None
         :returns:
             object
-        :description: QtCore/QSettings-value-f.rst
+        :description: QtCore/QSettings-value-f-1.rst

@@ -103,6 +103,11 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtCore/QLine-setPoints-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLine.toLineF
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :description: QtCore/QLine-toLineF-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLine.translate
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`

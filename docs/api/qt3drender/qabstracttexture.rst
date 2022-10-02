@@ -94,6 +94,9 @@
         .. sip:enum-member:: PyQt6.Qt3DRender.QAbstractTexture.HandleType.OpenGLTextureId
             :description: Qt3DRender/QAbstractTexture-HandleType-OpenGLTextureId-v.rst
 
+        .. sip:enum-member:: PyQt6.Qt3DRender.QAbstractTexture.HandleType.RHITextureId
+            :description: Qt3DRender/QAbstractTexture-HandleType-RHITextureId-v.rst
+
     .. sip:enum:: PyQt6.Qt3DRender.QAbstractTexture.Status
         :description: Qt3DRender/QAbstractTexture-Status-e.rst
 

@@ -177,6 +177,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setTextAlignment
         :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QListWidgetItem-setTextAlignment-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setTextAlignment
+        :args:
             int
         :description: QtWidgets/QListWidgetItem-setTextAlignment-f.rst
 

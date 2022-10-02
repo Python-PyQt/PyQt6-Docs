@@ -334,6 +334,12 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setTextAlignment
         :args:
             int
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtWidgets/QTreeWidgetItem-setTextAlignment-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setTextAlignment
+        :args:
+            int
             int
         :description: QtWidgets/QTreeWidgetItem-setTextAlignment-f.rst
 

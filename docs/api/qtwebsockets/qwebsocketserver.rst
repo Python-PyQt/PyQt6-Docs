@@ -139,6 +139,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
         :description: QtWebSockets/QWebSocketServer-setSslConfiguration-f.rst
 
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSupportedSubprotocols
+        :args:
+            Iterable[str]
+        :description: QtWebSockets/QWebSocketServer-setSupportedSubprotocols-f.rst
+
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.socketDescriptor
         :returns:
             PyQt6.sip.voidptr
@@ -148,6 +153,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
         :description: QtWebSockets/QWebSocketServer-sslConfiguration-f.rst
+
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.supportedSubprotocols
+        :returns:
+            List[str]
+        :description: QtWebSockets/QWebSocketServer-supportedSubprotocols-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.supportedVersions
         :returns:

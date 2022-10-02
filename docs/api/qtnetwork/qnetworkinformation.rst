@@ -98,6 +98,22 @@
         :static:
         :description: QtNetwork/QNetworkInformation-load-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.loadBackendByFeatures
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkInformation.Feature`
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QNetworkInformation-loadBackendByFeatures-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.loadBackendByName
+        :args:
+            str
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QNetworkInformation-loadBackendByName-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.loadDefaultBackend
         :returns:
             bool

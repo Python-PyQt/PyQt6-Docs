@@ -243,6 +243,13 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.__mul__
         :args:
+            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
+        :description: QtGui/QMatrix4x4-__mul__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QMatrix4x4.__mul__
+        :args:
             float
         :returns:
             :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
@@ -314,13 +321,6 @@
         :returns:
             str
         :description: QtGui/QMatrix4x4-__repr__-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QMatrix4x4.__rmul__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
-        :description: QtGui/QMatrix4x4-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.rotate
         :args:

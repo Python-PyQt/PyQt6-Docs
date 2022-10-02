@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCalendar.__init__
         :args:
-            str
-        :description: QtCore/QCalendar-__init__-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QCalendar-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.__init__
         :args:

@@ -220,6 +220,18 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-Windows11-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows11_21H2
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows11_21H2-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows11_22H2
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows11_22H2-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows7
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
         :const:

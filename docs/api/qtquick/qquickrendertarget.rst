@@ -43,10 +43,34 @@
         :static:
         :description: QtQuick/QQuickRenderTarget-fromOpenGLTexture-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromOpenGLTexture
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtCore.QSize`
+            sampleCount: int = 1
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
+        :static:
+        :description: QtQuick/QQuickRenderTarget-fromOpenGLTexture-f-1.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromPaintDevice
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QPaintDevice`
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
+        :static:
+        :description: QtQuick/QQuickRenderTarget-fromPaintDevice-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.isNull
         :returns:
             bool
         :description: QtQuick/QQuickRenderTarget-isNull-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.mirrorVertically
+        :returns:
+            bool
+        :description: QtQuick/QQuickRenderTarget-mirrorVertically-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.__ne__
         :args:
@@ -59,3 +83,8 @@
         :args:
             float
         :description: QtQuick/QQuickRenderTarget-setDevicePixelRatio-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.setMirrorVertically
+        :args:
+            bool
+        :description: QtQuick/QQuickRenderTarget-setMirrorVertically-f.rst

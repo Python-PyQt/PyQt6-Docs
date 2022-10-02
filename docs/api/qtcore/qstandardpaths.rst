@@ -66,8 +66,14 @@
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.PicturesLocation
             :description: QtCore/QStandardPaths-StandardLocation-PicturesLocation-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.PublicShareLocation
+            :description: QtCore/QStandardPaths-StandardLocation-PublicShareLocation-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.RuntimeLocation
             :description: QtCore/QStandardPaths-StandardLocation-RuntimeLocation-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.TemplatesLocation
+            :description: QtCore/QStandardPaths-StandardLocation-TemplatesLocation-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.TempLocation
             :description: QtCore/QStandardPaths-StandardLocation-TempLocation-v.rst

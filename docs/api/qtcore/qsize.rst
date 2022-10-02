@@ -117,6 +117,13 @@
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtCore/QSize-__mul__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSize.__mul__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSize`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSize`
+        :description: QtCore/QSize-__mul__-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QSize.__ne__
         :args:
             :sip:ref:`~PyQt6.QtCore.QSize`
@@ -128,13 +135,6 @@
         :returns:
             str
         :description: QtCore/QSize-__repr__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QSize.__rmul__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QSize`
-        :description: QtCore/QSize-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSize.scale
         :args:
@@ -189,6 +189,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtCore/QSize-__sub__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSize.toSizeF
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :description: QtCore/QSize-toSizeF-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSize.transpose
         :description: QtCore/QSize-transpose-f.rst

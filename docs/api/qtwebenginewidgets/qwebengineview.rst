@@ -9,6 +9,18 @@
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :description: QtWebEngineWidgets/QWebEngineView-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage`
+            parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
+        :description: QtWebEngineWidgets/QWebEngineView-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile`
+            parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
+        :description: QtWebEngineWidgets/QWebEngineView-__init__-f-2.rst
+
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.back
         :description: QtWebEngineWidgets/QWebEngineView-back-f.rst
 

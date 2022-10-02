@@ -287,6 +287,11 @@
             bool
         :description: QtGui/QTextDocument-isEmpty-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextDocument.isLayoutEnabled
+        :returns:
+            bool
+        :description: QtGui/QTextDocument-isLayoutEnabled-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextDocument.isModified
         :returns:
             bool
@@ -458,6 +463,11 @@
         :args:
             float
         :description: QtGui/QTextDocument-setIndentWidth-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextDocument.setLayoutEnabled
+        :args:
+            bool
+        :description: QtGui/QTextDocument-setLayoutEnabled-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMarkdown
         :args:

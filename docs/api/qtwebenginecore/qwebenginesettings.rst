@@ -114,6 +114,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.LocalStorageEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-LocalStorageEnabled-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.NavigateOnDropEnabled
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-NavigateOnDropEnabled-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PdfViewerEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PdfViewerEnabled-v.rst
 

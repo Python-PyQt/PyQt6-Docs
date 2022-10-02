@@ -87,6 +87,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeUnknown
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeUnknown-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeWebSocket
+            :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeWebSocket-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeWorker
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeWorker-v.rst
 

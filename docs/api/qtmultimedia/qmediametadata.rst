@@ -116,6 +116,14 @@
             List[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData.Key`]
         :description: QtMultimedia/QMediaMetaData-keys-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaMetaData.keyType
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData.Key`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :static:
+        :description: QtMultimedia/QMediaMetaData-keyType-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaMetaData.metaDataKeyToString
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData.Key`

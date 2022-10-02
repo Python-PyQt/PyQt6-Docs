@@ -73,15 +73,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
         :args:
-            :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`
-            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All`
-        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-3.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
-        :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`
             flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All`
         :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-4.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`
+            flags: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator.IteratorFlag.All`
+        :description: QtWidgets/QTreeWidgetItemIterator-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItemIterator.__iadd__
         :args:

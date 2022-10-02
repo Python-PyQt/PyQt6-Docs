@@ -144,6 +144,11 @@
             bool
         :description: QtCore/QFileInfo-isAbsolute-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QFileInfo.isAlias
+        :returns:
+            bool
+        :description: QtCore/QFileInfo-isAlias-f.rst
+
     .. sip:method:: PyQt6.QtCore.QFileInfo.isBundle
         :returns:
             bool

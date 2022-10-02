@@ -18,6 +18,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QStringConverterBase.Flag.Stateless
             :description: QtCore/QStringConverterBase-Flag-Stateless-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QStringConverterBase.Flag.UsesIcu
+            :description: QtCore/QStringConverterBase-Flag-UsesIcu-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QStringConverterBase.Flag.WriteBom
             :description: QtCore/QStringConverterBase-Flag-WriteBom-v.rst
 

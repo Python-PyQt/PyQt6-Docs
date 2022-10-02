@@ -328,6 +328,11 @@
             :sip:ref:`~PyQt6.QtGui.QPolygon`
         :description: QtGui/QPolygon-swap-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPolygon.toPolygonF
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QPolygonF`
+        :description: QtGui/QPolygon-toPolygonF-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPolygon.translate
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`

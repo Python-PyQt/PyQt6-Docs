@@ -267,6 +267,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ObjectType
             :description: QtGui/QTextFormat-Property-ObjectType-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.OldFontFamily
+            :description: QtGui/QTextFormat-Property-OldFontFamily-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.OldFontLetterSpacingType
             :description: QtGui/QTextFormat-Property-OldFontLetterSpacingType-v.rst
 

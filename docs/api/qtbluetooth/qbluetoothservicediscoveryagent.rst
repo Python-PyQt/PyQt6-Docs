@@ -22,6 +22,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.Error.InvalidBluetoothAdapterError
             :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-Error-InvalidBluetoothAdapterError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.Error.MissingPermissionsError
+            :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-Error-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.Error.NoError
             :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-Error-NoError-v.rst
 

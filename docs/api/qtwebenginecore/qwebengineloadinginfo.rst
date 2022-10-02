@@ -21,6 +21,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.ErrorDomain.HttpErrorDomain
             :description: QtWebEngineCore/QWebEngineLoadingInfo-ErrorDomain-HttpErrorDomain-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.ErrorDomain.HttpStatusCodeDomain
+            :description: QtWebEngineCore/QWebEngineLoadingInfo-ErrorDomain-HttpStatusCodeDomain-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.ErrorDomain.InternalErrorDomain
             :description: QtWebEngineCore/QWebEngineLoadingInfo-ErrorDomain-InternalErrorDomain-v.rst
 

@@ -152,6 +152,11 @@
             bool
         :description: QtGui/QAction-isVisible-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QAction.menu
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QMenu`
+        :description: QtGui/QAction-menu-f.rst
+
     .. sip:method:: PyQt6.QtGui.QAction.menuRole
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction.MenuRole`
@@ -219,6 +224,11 @@
         :args:
             bool
         :description: QtGui/QAction-setIconVisibleInMenu-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QAction.setMenu
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QMenu`
+        :description: QtGui/QAction-setMenu-f.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setMenuRole
         :args:

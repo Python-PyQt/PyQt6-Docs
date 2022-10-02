@@ -32,3 +32,11 @@
         :returns:
             str
         :description: QtCore/QStringDecoder-decode-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QStringDecoder.decoderForHtml
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QStringDecoder`
+        :static:
+        :description: QtCore/QStringDecoder-decoderForHtml-f.rst

@@ -12,3 +12,8 @@
             :sip:ref:`~PyQt6.QtCore.Qt.MouseButton`
             :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
         :description: QtGui/QDragEnterEvent-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QDragEnterEvent.clone
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QDragEnterEvent`
+        :description: QtGui/QDragEnterEvent-clone-f.rst

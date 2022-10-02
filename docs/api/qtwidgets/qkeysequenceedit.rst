@@ -25,6 +25,16 @@
             bool
         :description: QtWidgets/QKeySequenceEdit-event-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.focusOutEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFocusEvent`
+        :description: QtWidgets/QKeySequenceEdit-focusOutEvent-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.isClearButtonEnabled
+        :returns:
+            bool
+        :description: QtWidgets/QKeySequenceEdit-isClearButtonEnabled-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.keyPressEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QKeyEvent`
@@ -39,6 +49,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QKeySequence`
         :description: QtWidgets/QKeySequenceEdit-keySequence-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setClearButtonEnabled
+        :args:
+            bool
+        :description: QtWidgets/QKeySequenceEdit-setClearButtonEnabled-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setKeySequence
         :args:

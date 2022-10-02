@@ -38,6 +38,13 @@
             :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
         :description: QtCore/QDeadlineTimer-__add__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QDeadlineTimer.__add__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :description: QtCore/QDeadlineTimer-__add__-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QDeadlineTimer.addNSecs
         :args:
             :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
@@ -130,13 +137,6 @@
         :returns:
             bool
         :description: QtCore/QDeadlineTimer-__ne__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QDeadlineTimer.__radd__
-        :args:
-            int
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
-        :description: QtCore/QDeadlineTimer-__radd__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDeadlineTimer.remainingTime
         :returns:

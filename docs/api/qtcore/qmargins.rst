@@ -35,6 +35,13 @@
 
     .. sip:method:: PyQt6.QtCore.QMargins.__add__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QMargins`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMargins`
+        :description: QtCore/QMargins-__add__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMargins.__add__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
@@ -156,13 +163,6 @@
             :sip:ref:`~PyQt6.QtCore.QMargins`
         :description: QtCore/QMargins-__pos__-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QMargins.__radd__
-        :args:
-            int
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QMargins`
-        :description: QtCore/QMargins-__radd__-f.rst
-
     .. sip:method:: PyQt6.QtCore.QMargins.right
         :returns:
             int
@@ -201,6 +201,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMargins`
         :description: QtCore/QMargins-__sub__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QMargins.toMarginsF
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :description: QtCore/QMargins-toMarginsF-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMargins.top
         :returns:

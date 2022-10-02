@@ -38,3 +38,8 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
         :description: QtTest/QAbstractItemModelTester-model-f.rst
+
+    .. sip:method:: PyQt6.QtTest.QAbstractItemModelTester.setUseFetchMore
+        :args:
+            bool
+        :description: QtTest/QAbstractItemModelTester-setUseFetchMore-f.rst

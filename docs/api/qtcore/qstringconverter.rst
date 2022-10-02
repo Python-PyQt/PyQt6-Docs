@@ -64,5 +64,13 @@
             str
         :description: QtCore/QStringConverter-name-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QStringConverter.nameForEncoding
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QStringConverter.Encoding`
+        :returns:
+            str
+        :static:
+        :description: QtCore/QStringConverter-nameForEncoding-f.rst
+
     .. sip:method:: PyQt6.QtCore.QStringConverter.resetState
         :description: QtCore/QStringConverter-resetState-f.rst

@@ -330,6 +330,12 @@
             :sip:ref:`~PyQt6.QtGui.QTextList`
         :description: QtGui/QTextCursor-insertList-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextCursor.insertMarkdown
+        :args:
+            str
+            features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :description: QtGui/QTextCursor-insertMarkdown-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertTable
         :args:
             int

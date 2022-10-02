@@ -128,3 +128,6 @@
 
     .. sip:signal:: PyQt6.QtNetwork.QTcpServer.newConnection
         :description: QtNetwork/QTcpServer-newConnection-s.rst
+
+    .. sip:signal:: PyQt6.QtNetwork.QTcpServer.pendingConnectionAvailable
+        :description: QtNetwork/QTcpServer-pendingConnectionAvailable-s.rst

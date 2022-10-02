@@ -23,6 +23,11 @@
             :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`
         :description: QtMultimedia/QAudioDevice-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QAudioDevice.channelConfiguration
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat.ChannelConfig`
+        :description: QtMultimedia/QAudioDevice-channelConfiguration-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QAudioDevice.description
         :returns:
             str

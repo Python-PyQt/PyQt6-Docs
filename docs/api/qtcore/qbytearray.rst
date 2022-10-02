@@ -440,6 +440,13 @@
         :static:
         :description: QtCore/QByteArray-number-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.percentDecoded
+        :args:
+            percent: str = '%'
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-percentDecoded-f.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.prepend
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
@@ -511,6 +518,12 @@
         :args:
             int
         :description: QtCore/QByteArray-resize-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.resize
+        :args:
+            int
+            str
+        :description: QtCore/QByteArray-resize-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.right
         :args:

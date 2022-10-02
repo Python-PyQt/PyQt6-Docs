@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtBluetooth.QBluetoothLocalDevice.Error
         :description: QtBluetooth/QBluetoothLocalDevice-Error-e.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothLocalDevice.Error.MissingPermissionsError
+            :description: QtBluetooth/QBluetoothLocalDevice-Error-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothLocalDevice.Error.NoError
             :description: QtBluetooth/QBluetoothLocalDevice-Error-NoError-v.rst
 

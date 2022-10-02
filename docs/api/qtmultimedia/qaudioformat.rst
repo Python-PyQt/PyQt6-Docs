@@ -87,6 +87,12 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QAudioFormat.ChannelConfig.ChannelConfig2Dot1
             :description: QtMultimedia/QAudioFormat-ChannelConfig-ChannelConfig2Dot1-v.rst
 
+        .. sip:enum-member:: PyQt6.QtMultimedia.QAudioFormat.ChannelConfig.ChannelConfig3Dot0
+            :description: QtMultimedia/QAudioFormat-ChannelConfig-ChannelConfig3Dot0-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QAudioFormat.ChannelConfig.ChannelConfig3Dot1
+            :description: QtMultimedia/QAudioFormat-ChannelConfig-ChannelConfig3Dot1-v.rst
+
         .. sip:enum-member:: PyQt6.QtMultimedia.QAudioFormat.ChannelConfig.ChannelConfigMono
             :description: QtMultimedia/QAudioFormat-ChannelConfig-ChannelConfigMono-v.rst
 
@@ -174,6 +180,14 @@
         :returns:
             int
         :description: QtMultimedia/QAudioFormat-channelOffset-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QAudioFormat.defaultChannelConfigForChannelCount
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat.ChannelConfig`
+        :static:
+        :description: QtMultimedia/QAudioFormat-defaultChannelConfigForChannelCount-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioFormat.durationForBytes
         :args:

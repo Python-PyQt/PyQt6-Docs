@@ -255,6 +255,13 @@
             List[int]
         :description: QtGui/QImage-colorTable-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QImage.colorTransformed
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorTransform`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGui/QImage-colorTransformed-f.rst
+
     .. sip:method:: PyQt6.QtGui.QImage.constBits
         :returns:
             sip.voidptr

@@ -10,6 +10,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServer.Error.InputOutputError
             :description: QtBluetooth/QBluetoothServer-Error-InputOutputError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServer.Error.MissingPermissionsError
+            :description: QtBluetooth/QBluetoothServer-Error-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QBluetoothServer.Error.NoError
             :description: QtBluetooth/QBluetoothServer-Error-NoError-v.rst
 

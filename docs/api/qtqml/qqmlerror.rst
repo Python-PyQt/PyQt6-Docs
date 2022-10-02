@@ -85,6 +85,11 @@
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtQml/QQmlError-setUrl-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlError.swap
+        :args:
+            :sip:ref:`~PyQt6.QtQml.QQmlError`
+        :description: QtQml/QQmlError-swap-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlError.toString
         :returns:
             str

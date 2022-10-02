@@ -674,6 +674,11 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.Feature`
         :description: QtWebEngineCore/QWebEnginePage-featurePermissionRequested-s.rst
 
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.fileSystemAccessRequested
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFileSystemAccessRequest`
+        :description: QtWebEngineCore/QWebEnginePage-fileSystemAccessRequested-s.rst
+
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.findTextFinished
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFindTextResult`

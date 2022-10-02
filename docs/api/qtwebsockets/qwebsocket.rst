@@ -53,6 +53,11 @@
             bool
         :description: QtWebSockets/QWebSocket-flush-f.rst
 
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocket.handshakeOptions
+        :returns:
+            :sip:ref:`~PyQt6.QtWebSockets.QWebSocketHandshakeOptions`
+        :description: QtWebSockets/QWebSocket-handshakeOptions-f.rst
+
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.ignoreSslErrors
         :description: QtWebSockets/QWebSocket-ignoreSslErrors-f.rst
 
@@ -118,6 +123,18 @@
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
         :description: QtWebSockets/QWebSocket-open-f-1.rst
+
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocket.open
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
+            :sip:ref:`~PyQt6.QtWebSockets.QWebSocketHandshakeOptions`
+        :description: QtWebSockets/QWebSocket-open-f-2.rst
+
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocket.open
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+            :sip:ref:`~PyQt6.QtWebSockets.QWebSocketHandshakeOptions`
+        :description: QtWebSockets/QWebSocket-open-f-3.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.origin
         :returns:
@@ -245,6 +262,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState`
         :description: QtWebSockets/QWebSocket-state-f.rst
+
+    .. sip:method:: PyQt6.QtWebSockets.QWebSocket.subprotocol
+        :returns:
+            str
+        :description: QtWebSockets/QWebSocket-subprotocol-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.version
         :returns:

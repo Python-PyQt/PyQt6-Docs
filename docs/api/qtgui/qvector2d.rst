@@ -153,6 +153,13 @@
             :sip:ref:`~PyQt6.QtGui.QVector2D`
         :description: QtGui/QVector2D-__mul__-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QVector2D.__mul__
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QVector2D`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVector2D`
+        :description: QtGui/QVector2D-__mul__-f.rst
+
     .. sip:method:: PyQt6.QtGui.QVector2D.__ne__
         :args:
             :sip:ref:`~PyQt6.QtGui.QVector2D`
@@ -177,13 +184,6 @@
         :returns:
             str
         :description: QtGui/QVector2D-__repr__-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QVector2D.__rmul__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QVector2D`
-        :description: QtGui/QVector2D-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QVector2D.setX
         :args:

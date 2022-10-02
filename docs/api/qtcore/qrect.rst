@@ -446,6 +446,11 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtCore/QRect-topRight-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QRect.toRectF
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :description: QtCore/QRect-toRectF-f.rst
+
     .. sip:method:: PyQt6.QtCore.QRect.translate
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`

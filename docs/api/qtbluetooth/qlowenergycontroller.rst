@@ -43,6 +43,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.InvalidBluetoothAdapterError
             :description: QtBluetooth/QLowEnergyController-Error-InvalidBluetoothAdapterError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.MissingPermissionsError
+            :description: QtBluetooth/QLowEnergyController-Error-MissingPermissionsError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.NetworkError
             :description: QtBluetooth/QLowEnergyController-Error-NetworkError-v.rst
 
