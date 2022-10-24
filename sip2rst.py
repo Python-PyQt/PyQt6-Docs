@@ -238,7 +238,7 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
                 abi_version='13.0', tags=[],
                 disabled_features=['PyQt_OpenGL_ES2'],
                 protected_is_public=False, include_dirs=include_dirs,
-                strict=False)
+                'PyQt6.sip', is_strict=False)
         resolve(spec)
         module_el = output_xml(spec, module)
 
