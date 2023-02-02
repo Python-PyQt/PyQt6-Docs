@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: c81558f4092ae7037224dc84ec1cdf51
 
-TODO
+Choose one of the following image formats:

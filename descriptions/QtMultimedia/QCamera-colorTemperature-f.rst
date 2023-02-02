@@ -2,8 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: a80ada70a5f4c8d5bd8ace240d018fbd
-
-Returns the current color temperature if the current white balance mode is ``WhiteBalanceManual``. For other modes the return value is undefined.
+    :digest: c0259ee0a34aeac490bf9d92b9740797
 
 .. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QCamera.setColorTemperature`.

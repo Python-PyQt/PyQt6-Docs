@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QtPrivate::channelConfig(FrontLeft, FrontRight, LFE)
-    :digest: a09ae28c415f4189bb6abe99d9a74cb8
+    :digest: 066b8350630a721aa15d799b4dd10aca
 
-The audio has three channels, Left, Right and LFE (low frequency effect)
+The audio has three channels, Left, Right and LFE (low frequency effect).

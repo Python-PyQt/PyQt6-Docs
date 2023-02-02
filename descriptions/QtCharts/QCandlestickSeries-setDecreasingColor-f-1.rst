@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 02caa0744812cb36143414e851288c26
     :realsig: (const QColor&)
+    :digest: edcb5d3439d59157b8db38de368cdab6
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QCandlestickSeries.decreasingColor`.

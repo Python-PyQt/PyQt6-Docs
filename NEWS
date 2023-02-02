@@ -1,6 +1,6 @@
-v6.4.1 24th October 2022
+v6.4.1 2nd February 2023
   - Document using pip to build from source.
-  - SIP v6.7.3 is required.
+  - SIP v6.7.7 is required.
 
 v6.4.0 2nd October 2022
   - Rebased on Qt v6.4.0 and PyQt v6.4.0.

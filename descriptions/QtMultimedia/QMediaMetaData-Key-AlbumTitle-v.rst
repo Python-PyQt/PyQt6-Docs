@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 753ec86f3af344c804a6600bbe00b52f
 
-TODO
+Album's title

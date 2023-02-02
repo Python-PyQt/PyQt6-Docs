@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 9d5f3afb9455bc798ab36f723ee8cbf1
     :realsig: (const QMetaMethod&) const
-    :digest: 4651e2b7e037db3dbd9ab8b81cd11e12
+    :digest: 215fe37cae8fc590b3afb664d642e1cb
 
 Returns ``true`` if the *signal* is connected to at least one receiver, otherwise returns ``false``.
 
@@ -11,6 +11,6 @@ Returns ``true`` if the *signal* is connected to at least one receiver, otherwis
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qobject.py
     :lines: 489-494
 
-As the code snippet above illustrates, you can use this function to avoid emitting a signal that nobody listens to.
+As the code snippet above illustrates, you can use this function to avoid expensive initialization or emitting a signal that nobody listens to. However, in a multithreaded application, connections might change after this function returns and before the signal gets emitted.
 
-**Warning:** This function violates the object-oriented principle of modularity. However, it might be useful when you need to perform expensive initialization only if something is connected to a signal.
+**Warning:** This function violates the object-oriented principle of modularity. In particular, this function must not be called from an override of :sip:ref:`~PyQt6.QtCore.QObject.connectNotify` or :sip:ref:`~PyQt6.QtCore.QObject.disconnectNotify`, as those might get called from any thread.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 9
+    :digest: 3388203c20850d2b3d56d5eb5dbbfec9
 
-TODO
+Publisher's website URL

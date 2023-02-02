@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QtPrivate::channelConfig(FrontCenter)
-    :digest: 18816b927a988a566584b2e0f7941db7
+    :digest: 7c4b5ce7379a49fed4d6fbba66805417
 
-The audio has one Center channel
+The audio has one Center channel.

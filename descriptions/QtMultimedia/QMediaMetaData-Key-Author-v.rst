@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 59fdc2f90ceef45d5ef6e76498e12278
 
-TODO
+Media author
