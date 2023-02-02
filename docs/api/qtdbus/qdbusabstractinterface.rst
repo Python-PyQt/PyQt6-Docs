@@ -16,10 +16,10 @@
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.asyncCall
         :args:
             str
-            ...
+            *
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusPendingCall`
-        :description: QtDBus/QDBusAbstractInterface-asyncCall-f.rst
+        :description: QtDBus/QDBusAbstractInterface-asyncCall-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.asyncCallWithArgumentList
         :args:
@@ -32,19 +32,19 @@
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.call
         :args:
             str
-            ...
+            *
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusAbstractInterface-call-f.rst
+        :description: QtDBus/QDBusAbstractInterface-call-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.call
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBus.CallMode`
             str
-            ...
+            *
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusAbstractInterface-call-f-1.rst
+        :description: QtDBus/QDBusAbstractInterface-call-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.callWithArgumentList
         :args:

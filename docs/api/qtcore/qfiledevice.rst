@@ -170,8 +170,8 @@
             int
             flags: :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlag` = :sip:ref:`~PyQt6.QtCore.QFileDevice.MemoryMapFlag.NoOptions`
         :returns:
-            sip.voidptr
-        :description: QtCore/QFileDevice-map-f-1.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QFileDevice-map-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.permissions
         :returns:
@@ -233,17 +233,17 @@
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.unmap
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-        :description: QtCore/QFileDevice-unmap-f.rst
+        :description: QtCore/QFileDevice-unmap-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.unsetError
         :description: QtCore/QFileDevice-unsetError-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QFileDevice-writeData-f.rst
+        :description: QtCore/QFileDevice-writeData-f-1.rst

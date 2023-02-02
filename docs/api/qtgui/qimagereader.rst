@@ -36,6 +36,12 @@
             format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
         :description: QtGui/QImageReader-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtGui.QImageReader.allocationLimit
+        :returns:
+            int
+        :static:
+        :description: QtGui/QImageReader-allocationLimit-f.rst
+
     .. sip:method:: PyQt6.QtGui.QImageReader.autoDetectImageFormat
         :returns:
             bool
@@ -184,6 +190,12 @@
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtGui/QImageReader-scaledSize-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QImageReader.setAllocationLimit
+        :args:
+            int
+        :static:
+        :description: QtGui/QImageReader-setAllocationLimit-f.rst
+
     .. sip:method:: PyQt6.QtGui.QImageReader.setAutoDetectImageFormat
         :args:
             bool
@@ -196,8 +208,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.setBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImageReader-setBackgroundColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QImageReader-setBackgroundColor-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.setClipRect
         :args:

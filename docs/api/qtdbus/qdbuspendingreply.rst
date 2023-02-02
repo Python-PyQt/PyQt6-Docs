@@ -56,10 +56,10 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusPendingReply.value
         :args:
-            type: object = None
+            type: Any = None
         :returns:
-            object
-        :description: QtDBus/QDBusPendingReply-value-f.rst
+            Any
+        :description: QtDBus/QDBusPendingReply-value-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusPendingReply.waitForFinished
         :description: QtDBus/QDBusPendingReply-waitForFinished-f.rst

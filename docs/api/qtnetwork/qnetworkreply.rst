@@ -287,10 +287,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtNetwork/QNetworkReply-writeData-f.rst
+        :description: QtNetwork/QNetworkReply-writeData-f-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QNetworkReply.downloadProgress
         :args:

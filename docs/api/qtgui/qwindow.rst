@@ -144,11 +144,11 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.fromWinId
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QWindow`
         :static:
-        :description: QtGui/QWindow-fromWinId-f.rst
+        :description: QtGui/QWindow-fromWinId-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.geometry
         :returns:
@@ -315,11 +315,11 @@
     .. sip:method:: PyQt6.QtGui.QWindow.nativeEvent
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-            PyQt6.sip.voidptr
-        :description: QtGui/QWindow-nativeEvent-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QWindow-nativeEvent-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.opacity
         :returns:
@@ -679,8 +679,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.winId
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtGui/QWindow-winId-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QWindow-winId-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.x
         :returns:

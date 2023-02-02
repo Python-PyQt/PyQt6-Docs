@@ -50,8 +50,8 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.__init__
         :args:
             int
-            str
-        :description: QtCore/QByteArray-__init__-f-2.rst
+            bytes
+        :description: QtCore/QByteArray-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__add__
         :args:
@@ -70,17 +70,17 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.append
         :args:
             int
-            str
+            bytes
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-append-f-1.rst
+        :description: QtCore/QByteArray-append-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.at
         :args:
             int
         :returns:
-            str
-        :description: QtCore/QByteArray-at-f.rst
+            bytes
+        :description: QtCore/QByteArray-at-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.capacity
         :returns:
@@ -164,11 +164,11 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fill
         :args:
-            str
+            bytes
             size: int = -1
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-fill-f.rst
+        :description: QtCore/QByteArray-fill-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.first
         :args:
@@ -230,8 +230,8 @@
         :args:
             int
         :returns:
-            str
-        :description: QtCore/QByteArray-__getitem__-f.rst
+            bytes
+        :description: QtCore/QByteArray-__getitem__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__getitem__
         :args:
@@ -293,10 +293,10 @@
         :args:
             int
             int
-            str
+            bytes
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-insert-f-1.rst
+        :description: QtCore/QByteArray-insert-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.isEmpty
         :returns:
@@ -362,11 +362,11 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.leftJustified
         :args:
             int
-            fill: str = ' '
+            fill: bytes = ' '
             truncate: bool = False
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-leftJustified-f.rst
+        :description: QtCore/QByteArray-leftJustified-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__len__
         :returns:
@@ -457,10 +457,10 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.prepend
         :args:
             int
-            str
+            bytes
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-prepend-f-1.rst
+        :description: QtCore/QByteArray-prepend-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.push_back
         :args:
@@ -535,11 +535,11 @@
     .. sip:method:: PyQt6.QtCore.QByteArray.rightJustified
         :args:
             int
-            fill: str = ' '
+            fill: bytes = ' '
             truncate: bool = False
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-rightJustified-f.rst
+        :description: QtCore/QByteArray-rightJustified-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.setNum
         :args:
@@ -585,10 +585,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.split
         :args:
-            str
+            bytes
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QByteArray-split-f.rst
+        :description: QtCore/QByteArray-split-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.squeeze
         :description: QtCore/QByteArray-squeeze-f.rst
@@ -631,10 +631,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toHex
         :args:
-            separator: str = '\000'
+            separator: bytes = '\000'
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-toHex-f-1.rst
+        :description: QtCore/QByteArray-toHex-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toInt
         :args:

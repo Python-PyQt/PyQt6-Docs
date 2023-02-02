@@ -67,8 +67,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.data
         :returns:
-            sip.voidptr
-        :description: QtCore/QXmlStreamAttributes-data-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QXmlStreamAttributes-data-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.__delitem__
         :args:

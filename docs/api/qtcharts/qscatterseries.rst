@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QScatterSeries-setBorderColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QScatterSeries-setBorderColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.setBrush
         :args:
@@ -67,8 +67,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QScatterSeries-setColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QScatterSeries-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.setMarkerShape
         :args:
@@ -82,8 +82,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QScatterSeries-setPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QScatterSeries-setPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QScatterSeries.type
         :returns:
@@ -92,13 +92,13 @@
 
     .. sip:signal:: PyQt6.QtCharts.QScatterSeries.borderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QScatterSeries-borderColorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QScatterSeries-borderColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QScatterSeries.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QScatterSeries-colorChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QScatterSeries-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QScatterSeries.markerShapeChanged
         :args:

@@ -10,15 +10,15 @@
 
     .. sip:method:: PyQt6.QtCore.QWriteLocker.__enter__
         :returns:
-            object
-        :description: QtCore/QWriteLocker-__enter__-f.rst
+            Any
+        :description: QtCore/QWriteLocker-__enter__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QWriteLocker.__exit__
         :args:
-            object
-            object
-            object
-        :description: QtCore/QWriteLocker-__exit__-f.rst
+            Any
+            Any
+            Any
+        :description: QtCore/QWriteLocker-__exit__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QWriteLocker.readWriteLock
         :returns:

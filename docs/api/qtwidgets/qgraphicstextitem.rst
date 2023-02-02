@@ -170,8 +170,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDefaultTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDocument
         :args:

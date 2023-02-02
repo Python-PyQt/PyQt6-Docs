@@ -82,8 +82,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegendMarker.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QLegendMarker-setPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QLegendMarker-setPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegendMarker.setShape
         :args:

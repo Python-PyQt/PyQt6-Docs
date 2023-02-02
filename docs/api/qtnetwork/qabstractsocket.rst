@@ -370,12 +370,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setSocketDescriptor
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             state: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f-1.rst
+        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setSocketError
         :args:
@@ -402,8 +402,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.socketDescriptor
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QAbstractSocket-socketDescriptor-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QAbstractSocket-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.socketOption
         :args:
@@ -452,10 +452,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtNetwork/QAbstractSocket-writeData-f.rst
+        :description: QtNetwork/QAbstractSocket-writeData-f-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QAbstractSocket.connected
         :description: QtNetwork/QAbstractSocket-connected-s.rst

@@ -346,10 +346,10 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QProcess-writeData-f.rst
+        :description: QtCore/QProcess-writeData-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QProcess.errorOccurred
         :args:

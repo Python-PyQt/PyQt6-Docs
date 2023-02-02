@@ -12,8 +12,8 @@
         :args:
             str
         :returns:
-            sip.voidptr
-        :description: QtQuick/QSGRenderNode-RenderState-get-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtQuick/QSGRenderNode-RenderState-get-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.RenderState.projectionMatrix
         :returns:

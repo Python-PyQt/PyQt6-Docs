@@ -16,7 +16,7 @@
             :description: QtNetwork/QSslConfiguration-NextProtocolNegotiationStatus-NextProtocolNegotiationUnsupported-v.rst
 
     .. sip:attribute:: PyQt6.QtNetwork.QSslConfiguration.NextProtocolHttp1_1
-        :type: str
+        :type: bytes
         :const:
         :static:
         :description: QtNetwork/QSslConfiguration-NextProtocolHttp1_1-a.rst

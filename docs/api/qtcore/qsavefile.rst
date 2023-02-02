@@ -57,7 +57,7 @@
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QSaveFile-writeData-f.rst
+        :description: QtCore/QSaveFile-writeData-f-1.rst

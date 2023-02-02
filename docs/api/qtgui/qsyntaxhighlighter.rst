@@ -85,8 +85,8 @@
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QSyntaxHighlighter-setFormat-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QSyntaxHighlighter-setFormat-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.setFormat
         :args:

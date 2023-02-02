@@ -64,8 +64,8 @@
         :args:
             str
             alignment: int = :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft`
-            color: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.black`
-        :description: QtWidgets/QSplashScreen-showMessage-f-1.rst
+            color: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.black`
+        :description: QtWidgets/QSplashScreen-showMessage-f-2.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QSplashScreen.messageChanged
         :args:

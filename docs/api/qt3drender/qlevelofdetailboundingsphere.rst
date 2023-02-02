@@ -11,8 +11,8 @@
     .. sip:method:: PyQt6.Qt3DRender.QLevelOfDetailBoundingSphere.__init__
         :args:
             center: :sip:ref:`~PyQt6.QtGui.QVector3D` = QVector3D()
-            radius: float = 1
-        :description: Qt3DRender/QLevelOfDetailBoundingSphere-__init__-f-1.rst
+            radius: float = 1.0
+        :description: Qt3DRender/QLevelOfDetailBoundingSphere-__init__-f-2.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QLevelOfDetailBoundingSphere.center
         :returns:

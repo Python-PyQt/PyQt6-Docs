@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtCore.QVariant.__init__
         :args:
-            object
-        :description: QtCore/QVariant-__init__-f-1.rst
+            Any
+        :description: QtCore/QVariant-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QVariant.__init__
         :args:
@@ -101,5 +101,5 @@
 
     .. sip:method:: PyQt6.QtCore.QVariant.value
         :returns:
-            object
-        :description: QtCore/QVariant-value-f.rst
+            Any
+        :description: QtCore/QVariant-value-f-1.rst

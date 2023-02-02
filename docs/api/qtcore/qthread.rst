@@ -44,9 +44,9 @@
 
     .. sip:method:: PyQt6.QtCore.QThread.currentThreadId
         :returns:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QThread-currentThreadId-f.rst
+        :description: QtCore/QThread-currentThreadId-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QThread.event
         :args:

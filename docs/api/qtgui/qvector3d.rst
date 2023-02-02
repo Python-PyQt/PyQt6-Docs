@@ -193,13 +193,6 @@
             :sip:ref:`~PyQt6.QtGui.QVector3D`
         :description: QtGui/QVector3D-__mul__-f-2.rst
 
-    .. sip:method:: PyQt6.QtGui.QVector3D.__mul__
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QVector3D`
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QVector3D`
-        :description: QtGui/QVector3D-__mul__-f-1.rst
-
     .. sip:method:: PyQt6.QtGui.QVector3D.__ne__
         :args:
             :sip:ref:`~PyQt6.QtGui.QVector3D`
@@ -252,6 +245,13 @@
         :returns:
             str
         :description: QtGui/QVector3D-__repr__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QVector3D.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+        :description: QtGui/QVector3D-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QVector3D.setX
         :args:

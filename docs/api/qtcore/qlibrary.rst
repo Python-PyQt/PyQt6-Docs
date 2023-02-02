@@ -84,17 +84,17 @@
         :args:
             str
         :returns:
-            sip.voidptr
-        :description: QtCore/QLibrary-resolve-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QLibrary-resolve-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
             str
             str
         :returns:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-1.rst
+        :description: QtCore/QLibrary-resolve-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
@@ -102,9 +102,9 @@
             int
             str
         :returns:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-2.rst
+        :description: QtCore/QLibrary-resolve-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
@@ -112,9 +112,9 @@
             str
             str
         :returns:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-3.rst
+        :description: QtCore/QLibrary-resolve-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setFileName
         :args:

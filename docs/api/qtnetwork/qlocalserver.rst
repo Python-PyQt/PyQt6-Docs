@@ -47,8 +47,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.incomingConnection
         :args:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QLocalServer-incomingConnection-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QLocalServer-incomingConnection-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.isListening
         :returns:
@@ -64,10 +64,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.listen
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-        :description: QtNetwork/QLocalServer-listen-f-1.rst
+        :description: QtNetwork/QLocalServer-listen-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.listenBacklogSize
         :returns:
@@ -119,8 +119,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.socketDescriptor
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QLocalServer-socketDescriptor-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QLocalServer-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.socketOptions
         :returns:

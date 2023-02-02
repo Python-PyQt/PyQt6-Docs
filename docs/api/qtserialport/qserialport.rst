@@ -240,8 +240,8 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.handle
         :returns:
-            sip.voidptr
-        :description: QtSerialPort/QSerialPort-handle-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtSerialPort/QSerialPort-handle-f-2.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.handle
         :returns:

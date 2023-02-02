@@ -10,15 +10,15 @@
 
     .. sip:method:: PyQt6.QtCore.QSignalBlocker.__enter__
         :returns:
-            object
-        :description: QtCore/QSignalBlocker-__enter__-f.rst
+            Any
+        :description: QtCore/QSignalBlocker-__enter__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSignalBlocker.__exit__
         :args:
-            object
-            object
-            object
-        :description: QtCore/QSignalBlocker-__exit__-f.rst
+            Any
+            Any
+            Any
+        :description: QtCore/QSignalBlocker-__exit__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSignalBlocker.reblock
         :description: QtCore/QSignalBlocker-reblock-f.rst

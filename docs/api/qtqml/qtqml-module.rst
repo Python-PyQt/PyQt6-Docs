@@ -66,10 +66,10 @@
             str
             int
             int
-            attachedProperties: type = 0
+            attachedProperties: type = None
         :returns:
             int
-        :description: QtQml/qmlRegisterRevision-f.rst
+        :description: QtQml/qmlRegisterRevision-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.qmlRegisterSingletonInstance
         :args:
@@ -123,10 +123,10 @@
             int
             int
             name: str = None
-            attachedProperties: type = 0
+            attachedProperties: type = None
         :returns:
             int
-        :description: QtQml/qmlRegisterType-f-1.rst
+        :description: QtQml/qmlRegisterType-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.qmlRegisterTypeNotAvailable
         :args:

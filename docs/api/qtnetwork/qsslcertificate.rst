@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.handle
         :returns:
-            sip.voidptr
-        :description: QtNetwork/QSslCertificate-handle-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QSslCertificate-handle-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.__hash__
         :returns:

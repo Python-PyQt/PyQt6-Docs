@@ -146,16 +146,16 @@
             :sip:ref:`~PyQt6.QtQuick.QQuickWindow`
             :sip:ref:`~PyQt6.QtQuick.QSGRendererInterface.Resource`
         :returns:
-            sip.voidptr
-        :description: QtQuick/QSGRendererInterface-getResource-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtQuick/QSGRendererInterface-getResource-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRendererInterface.getResource
         :args:
             :sip:ref:`~PyQt6.QtQuick.QQuickWindow`
             str
         :returns:
-            sip.voidptr
-        :description: QtQuick/QSGRendererInterface-getResource-f-1.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtQuick/QSGRendererInterface-getResource-f-3.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGRendererInterface.graphicsApi
         :returns:

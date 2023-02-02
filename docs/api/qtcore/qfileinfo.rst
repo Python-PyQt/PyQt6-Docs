@@ -126,8 +126,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__fspath__
         :returns:
-            object
-        :description: QtCore/QFileInfo-__fspath__-f.rst
+            Any
+        :description: QtCore/QFileInfo-__fspath__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.group
         :returns:

@@ -18,9 +18,9 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.__init__
         :args:
-            str
+            bytes
             length: int = -1
-        :description: QtCore/QByteArrayMatcher-__init__-f-5.rst
+        :description: QtCore/QByteArrayMatcher-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.indexIn
         :args:
@@ -32,12 +32,12 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.indexIn
         :args:
-            str
+            bytes
             int
             from: int = 0
         :returns:
             int
-        :description: QtCore/QByteArrayMatcher-indexIn-f-1.rst
+        :description: QtCore/QByteArrayMatcher-indexIn-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.pattern
         :returns:

@@ -74,8 +74,8 @@
 
     .. sip:method:: PyQt6.QtGui.QBrush.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QBrush-setColor-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QBrush-setColor-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QBrush.setColor
         :args:

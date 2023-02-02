@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.__enter__
         :returns:
-            object
-        :description: QtCore/QCoreApplication-__enter__-f.rst
+            Any
+        :description: QtCore/QCoreApplication-__enter__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.event
         :args:
@@ -83,10 +83,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.__exit__
         :args:
-            object
-            object
-            object
-        :description: QtCore/QCoreApplication-__exit__-f.rst
+            Any
+            Any
+            Any
+        :description: QtCore/QCoreApplication-__exit__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.exit
         :args:

@@ -97,12 +97,12 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.findChild
         :args:
-            tuple
+            Tuple
             name: str = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QObject-findChild-f-3.rst
+        :description: QtCore/QObject-findChild-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
@@ -115,12 +115,12 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
-            tuple
+            Tuple
             name: str = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f-5.rst
+        :description: QtCore/QObject-findChildren-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
@@ -133,19 +133,19 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
-            tuple
+            Tuple
             :sip:ref:`~PyQt6.QtCore.QRegularExpression`
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtCore/QObject-findChildren-f-7.rst
+        :description: QtCore/QObject-findChildren-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.__getattr__
         :args:
             str
         :returns:
-            object
-        :description: QtCore/QObject-__getattr__-f.rst
+            Any
+        :description: QtCore/QObject-__getattr__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.inherits
         :args:
@@ -215,8 +215,8 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.pyqtConfigure
         :args:
-            object
-        :description: QtCore/QObject-pyqtConfigure-f.rst
+            Any
+        :description: QtCore/QObject-pyqtConfigure-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.receivers
         :args:

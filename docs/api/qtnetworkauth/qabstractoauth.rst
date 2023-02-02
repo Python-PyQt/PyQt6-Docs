@@ -126,8 +126,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.modifyParametersFunction
         :returns:
-            callable
-        :description: QtNetworkAuth/QAbstractOAuth-modifyParametersFunction-f.rst
+            Callable[..., None]
+        :description: QtNetworkAuth/QAbstractOAuth-modifyParametersFunction-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.networkAccessManager
         :returns:
@@ -185,8 +185,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setModifyParametersFunction
         :args:
-            callable
-        :description: QtNetworkAuth/QAbstractOAuth-setModifyParametersFunction-f.rst
+            Callable[..., None]
+        :description: QtNetworkAuth/QAbstractOAuth-setModifyParametersFunction-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setNetworkAccessManager
         :args:

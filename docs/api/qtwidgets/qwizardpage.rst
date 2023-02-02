@@ -61,8 +61,8 @@
             str
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             property: str = None
-            changedSignal: PYQT_SIGNAL = 0
-        :description: QtWidgets/QWizardPage-registerField-f.rst
+            changedSignal: PYQT_SIGNAL = None
+        :description: QtWidgets/QWizardPage-registerField-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizardPage.setButtonText
         :args:

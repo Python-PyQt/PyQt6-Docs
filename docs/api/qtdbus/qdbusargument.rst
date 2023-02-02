@@ -13,15 +13,15 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusArgument.__init__
         :args:
-            object
+            Any
             id: int = :sip:ref:`~PyQt6.QtCore.QMetaType.Type.Int`
-        :description: QtDBus/QDBusArgument-__init__-f-2.rst
+        :description: QtDBus/QDBusArgument-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusArgument.add
         :args:
-            object
+            Any
             id: int = :sip:ref:`~PyQt6.QtCore.QMetaType.Type.Int`
-        :description: QtDBus/QDBusArgument-add-f.rst
+        :description: QtDBus/QDBusArgument-add-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusArgument.beginArray
         :args:

@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPolygon.data
         :returns:
-            sip.voidptr
-        :description: QtGui/QPolygon-data-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QPolygon-data-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.__delitem__
         :args:
@@ -204,8 +204,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :returns:
-            object
-        :description: QtGui/QPolygon-__lshift__-f.rst
+            Any
+        :description: QtGui/QPolygon-__lshift__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.mid
         :args:
@@ -246,8 +246,8 @@
             int
             int
             int
-            ...
-        :description: QtGui/QPolygon-putPoints-f.rst
+            *
+        :description: QtGui/QPolygon-putPoints-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.putPoints
         :args:
@@ -308,8 +308,8 @@
         :args:
             int
             int
-            ...
-        :description: QtGui/QPolygon-setPoints-f.rst
+            *
+        :description: QtGui/QPolygon-setPoints-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.size
         :returns:
