@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Riverbank Computing Limited
+# Copyright (c) 2023, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -234,12 +234,13 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
     else:
         encoding = 'UTF-8'
 
-        spec, _ = parse(sip_file, hex_version=0x600000, encoding=encoding,
-                abi_version='13.0', tags=[],
+        spec, modules, _ = parse(sip_file, hex_version=0x600000,
+                encoding=encoding, abi_version='13.0', tags=[],
                 disabled_features=['PyQt_OpenGL_ES2'],
                 protected_is_public=False, include_dirs=include_dirs,
-                'PyQt6.sip', is_strict=False)
-        resolve(spec)
+                sip_module='PyQt6.sip', is_strict=False)
+
+        resolve(spec, modules)
         module_el = output_xml(spec, module)
 
     # Generate the reST for the module.
