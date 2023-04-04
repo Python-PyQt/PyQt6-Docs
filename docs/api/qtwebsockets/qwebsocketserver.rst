@@ -129,10 +129,10 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSocketDescriptor
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-        :description: QtWebSockets/QWebSocketServer-setSocketDescriptor-f.rst
+        :description: QtWebSockets/QWebSocketServer-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSslConfiguration
         :args:
@@ -146,8 +146,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.socketDescriptor
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtWebSockets/QWebSocketServer-socketDescriptor-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtWebSockets/QWebSocketServer-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.sslConfiguration
         :returns:

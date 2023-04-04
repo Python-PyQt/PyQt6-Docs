@@ -35,7 +35,7 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusReply.value
         :args:
-            type: object = None
+            type: Any = None
         :returns:
-            object
-        :description: QtDBus/QDBusReply-value-f.rst
+            Any
+        :description: QtDBus/QDBusReply-value-f-1.rst

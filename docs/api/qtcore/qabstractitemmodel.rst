@@ -152,10 +152,10 @@
         :args:
             int
             int
-            object: object = 0
+            object: Any = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtCore/QAbstractItemModel-createIndex-f.rst
+        :description: QtCore/QAbstractItemModel-createIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.data
         :args:

@@ -77,8 +77,8 @@
         :args:
             str
             options: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.FindFlag` = {}
-            resultCallback: Callable[[bool], None] = 0
-        :description: QtWebEngineWidgets/QWebEngineView-findText-f.rst
+            resultCallback: Callable[[bool], None] = None
+        :description: QtWebEngineWidgets/QWebEngineView-findText-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.forPage
         :args:

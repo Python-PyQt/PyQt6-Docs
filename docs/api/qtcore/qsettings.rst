@@ -240,5 +240,5 @@
             defaultValue: Any = None
             type: type = None
         :returns:
-            object
-        :description: QtCore/QSettings-value-f-1.rst
+            Any
+        :description: QtCore/QSettings-value-f-2.rst

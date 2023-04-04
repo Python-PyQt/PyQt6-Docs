@@ -80,8 +80,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLineItem.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsLineItem-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QGraphicsLineItem-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsLineItem.shape
         :returns:

@@ -741,10 +741,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeBytes
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-writeBytes-f.rst
+        :description: QtCore/QDataStream-writeBytes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeDouble
         :args:
@@ -813,15 +813,15 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeRawData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QDataStream-writeRawData-f.rst
+        :description: QtCore/QDataStream-writeRawData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeString
         :args:
-            str
-        :description: QtCore/QDataStream-writeString-f.rst
+            bytes
+        :description: QtCore/QDataStream-writeString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeUInt16
         :args:

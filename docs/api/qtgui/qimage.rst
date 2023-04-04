@@ -167,19 +167,19 @@
             int
             int
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            cleanupFunction: callable = 0
-            cleanupInfo: object = 0
-        :description: QtGui/QImage-__init__-f-7.rst
+            cleanupFunction: Callable[..., None] = None
+            cleanupInfo: Any = None
+        :description: QtGui/QImage-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             int
             int
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            cleanupFunction: callable = 0
-            cleanupInfo: object = 0
-        :description: QtGui/QImage-__init__-f-8.rst
+            cleanupFunction: Callable[..., None] = None
+            cleanupInfo: Any = None
+        :description: QtGui/QImage-__init__-f-12.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
@@ -188,20 +188,20 @@
             int
             int
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            cleanupFunction: callable = 0
-            cleanupInfo: object = 0
-        :description: QtGui/QImage-__init__-f-9.rst
+            cleanupFunction: Callable[..., None] = None
+            cleanupInfo: Any = None
+        :description: QtGui/QImage-__init__-f-13.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             int
             int
             int
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
-            cleanupFunction: callable = 0
-            cleanupInfo: object = 0
-        :description: QtGui/QImage-__init__-f-10.rst
+            cleanupFunction: Callable[..., None] = None
+            cleanupInfo: Any = None
+        :description: QtGui/QImage-__init__-f-14.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.allGray
         :returns:
@@ -220,8 +220,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.bits
         :returns:
-            sip.voidptr
-        :description: QtGui/QImage-bits-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-bits-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.bytesPerLine
         :returns:
@@ -264,15 +264,15 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.constBits
         :returns:
-            sip.voidptr
-        :description: QtGui/QImage-constBits-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-constBits-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.constScanLine
         :args:
             int
         :returns:
-            sip.voidptr
-        :description: QtGui/QImage-constScanLine-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-constScanLine-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.convertedTo
         :args:
@@ -400,8 +400,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fill
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-fill-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QImage-fill-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.format
         :returns:
@@ -425,6 +425,22 @@
             :sip:ref:`~PyQt6.QtGui.QImage`
         :static:
         :description: QtGui/QImage-fromData-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.fromHBITMAP
+        :args:
+            :py:class:`~PyQt6.sip.voidptr`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :static:
+        :description: QtGui/QImage-fromHBITMAP-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.fromHICON
+        :args:
+            :py:class:`~PyQt6.sip.voidptr`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :static:
+        :description: QtGui/QImage-fromHICON-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.hasAlphaChannel
         :returns:
@@ -641,8 +657,8 @@
         :args:
             int
         :returns:
-            sip.voidptr
-        :description: QtGui/QImage-scanLine-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-scanLine-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setAlphaChannel
         :args:
@@ -706,15 +722,15 @@
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-setPixelColor-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QImage-setPixelColor-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QImage-setPixelColor-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QImage-setPixelColor-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setText
         :args:
@@ -748,6 +764,18 @@
         :returns:
             List[str]
         :description: QtGui/QImage-textKeys-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.toHBITMAP
+        :returns:
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-toHBITMAP-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.toHICON
+        :args:
+            mask: :sip:ref:`~PyQt6.QtGui.QImage` = {}
+        :returns:
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QImage-toHICON-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.toImageFormat
         :args:

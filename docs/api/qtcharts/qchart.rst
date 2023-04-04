@@ -238,8 +238,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setBackgroundPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QChart-setBackgroundPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundRoundness
         :args:
@@ -283,8 +283,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundVisible
         :args:

@@ -55,10 +55,10 @@
             int
             str
             tabStops: int = 0
-            tabArray: Optional[List[int]] = 0
+            tabArray: Optional[List[int]] = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-        :description: QtGui/QFontMetricsF-boundingRect-f-1.rst
+        :description: QtGui/QFontMetricsF-boundingRect-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.boundingRectChar
         :args:
@@ -195,10 +195,10 @@
             int
             str
             tabStops: int = 0
-            tabArray: Optional[List[int]] = 0
+            tabArray: Optional[List[int]] = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
-        :description: QtGui/QFontMetricsF-size-f.rst
+        :description: QtGui/QFontMetricsF-size-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetricsF.strikeOutPos
         :returns:

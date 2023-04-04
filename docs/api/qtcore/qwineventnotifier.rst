@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtCore.QWinEventNotifier.__init__
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QWinEventNotifier-__init__-f-1.rst
+        :description: QtCore/QWinEventNotifier-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QWinEventNotifier.event
         :args:
@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtCore.QWinEventNotifier.handle
         :returns:
-            sip.voidptr
-        :description: QtCore/QWinEventNotifier-handle-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QWinEventNotifier-handle-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QWinEventNotifier.isEnabled
         :returns:
@@ -39,10 +39,10 @@
 
     .. sip:method:: PyQt6.QtCore.QWinEventNotifier.setHandle
         :args:
-            sip.voidptr
-        :description: QtCore/QWinEventNotifier-setHandle-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QWinEventNotifier-setHandle-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QWinEventNotifier.activated
         :args:
-            sip.voidptr
-        :description: QtCore/QWinEventNotifier-activated-s.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QWinEventNotifier-activated-s-1.rst

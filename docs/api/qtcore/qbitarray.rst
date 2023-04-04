@@ -83,12 +83,12 @@
 
     .. sip:method:: PyQt6.QtCore.QBitArray.fromBits
         :args:
-            str
+            bytes
             int
         :returns:
             :sip:ref:`~PyQt6.QtCore.QBitArray`
         :static:
-        :description: QtCore/QBitArray-fromBits-f.rst
+        :description: QtCore/QBitArray-fromBits-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QBitArray.__getitem__
         :args:

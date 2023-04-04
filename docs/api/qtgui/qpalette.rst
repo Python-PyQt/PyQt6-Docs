@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-__init__-f-7.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPalette-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
@@ -121,9 +121,9 @@
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-__init__-f-8.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPalette-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
@@ -308,15 +308,15 @@
     .. sip:method:: PyQt6.QtGui.QPalette.setColor
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-setColor-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPalette-setColor-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setColor
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorGroup`
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-setColor-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPalette-setColor-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setColorGroup
         :args:

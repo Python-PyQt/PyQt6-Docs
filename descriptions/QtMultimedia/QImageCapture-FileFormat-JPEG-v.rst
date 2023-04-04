@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 9a486ccb8563146a04b402f8d71f7afe
 
-TODO
+``.jpg`` or ``.jpeg`` format

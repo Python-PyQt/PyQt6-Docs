@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtCore.QModelIndex.internalPointer
         :returns:
-            object
-        :description: QtCore/QModelIndex-internalPointer-f.rst
+            Any
+        :description: QtCore/QModelIndex-internalPointer-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QModelIndex.isValid
         :returns:

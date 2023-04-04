@@ -299,12 +299,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.setSocketDescriptor
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             state: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QSslSocket-setSocketDescriptor-f-1.rst
+        :description: QtNetwork/QSslSocket-setSocketDescriptor-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.setSocketOption
         :args:
@@ -430,10 +430,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtNetwork/QSslSocket-writeData-f.rst
+        :description: QtNetwork/QSslSocket-writeData-f-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QSslSocket.alertReceived
         :args:

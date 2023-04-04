@@ -56,8 +56,8 @@
     .. sip:method:: PyQt6.QtCore.QIODevice.getChar
         :returns:
             bool
-            str
-        :description: QtCore/QIODevice-getChar-f.rst
+            bytes
+        :description: QtCore/QIODevice-getChar-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.isOpen
         :returns:
@@ -115,10 +115,10 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.putChar
         :args:
-            str
+            bytes
         :returns:
             bool
-        :description: QtCore/QIODevice-putChar-f.rst
+        :description: QtCore/QIODevice-putChar-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.read
         :args:
@@ -227,8 +227,8 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.ungetChar
         :args:
-            str
-        :description: QtCore/QIODevice-ungetChar-f.rst
+            bytes
+        :description: QtCore/QIODevice-ungetChar-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.waitForBytesWritten
         :args:
@@ -246,10 +246,10 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.write
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QIODevice-write-f.rst
+        :description: QtCore/QIODevice-write-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.writeChannelCount
         :returns:
@@ -258,10 +258,10 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QIODevice-writeData-f.rst
+        :description: QtCore/QIODevice-writeData-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QIODevice.aboutToClose
         :description: QtCore/QIODevice-aboutToClose-s.rst

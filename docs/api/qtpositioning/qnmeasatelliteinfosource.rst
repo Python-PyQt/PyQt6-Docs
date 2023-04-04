@@ -60,22 +60,22 @@
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.parseSatelliteInfoFromNmea
         :args:
-            str
+            bytes
             int
             Iterable[:sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfo`]
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QNmeaSatelliteInfoSource.SatelliteInfoParseStatus`
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfo.SatelliteSystem`
-        :description: QtPositioning/QNmeaSatelliteInfoSource-parseSatelliteInfoFromNmea-f.rst
+        :description: QtPositioning/QNmeaSatelliteInfoSource-parseSatelliteInfoFromNmea-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.parseSatellitesInUseFromNmea
         :args:
-            str
+            bytes
             int
             Iterable[int]
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfo.SatelliteSystem`
-        :description: QtPositioning/QNmeaSatelliteInfoSource-parseSatellitesInUseFromNmea-f.rst
+        :description: QtPositioning/QNmeaSatelliteInfoSource-parseSatellitesInUseFromNmea-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.requestUpdate
         :args:

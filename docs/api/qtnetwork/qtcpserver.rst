@@ -29,8 +29,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.incomingConnection
         :args:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QTcpServer-incomingConnection-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QTcpServer-incomingConnection-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.isListening
         :returns:
@@ -103,15 +103,15 @@
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.setSocketDescriptor
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-        :description: QtNetwork/QTcpServer-setSocketDescriptor-f.rst
+        :description: QtNetwork/QTcpServer-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.socketDescriptor
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QTcpServer-socketDescriptor-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QTcpServer-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.waitForNewConnection
         :args:

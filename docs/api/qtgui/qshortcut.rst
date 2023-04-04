@@ -13,19 +13,19 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`
             :sip:ref:`~PyQt6.QtCore.QObject`
-            member: PYQT_SLOT = 0
-            ambiguousMember: PYQT_SLOT = 0
+            member: PYQT_SLOT = None
+            ambiguousMember: PYQT_SLOT = None
             context: :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext` = :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.WindowShortcut`
-        :description: QtGui/QShortcut-__init__-f-1.rst
+        :description: QtGui/QShortcut-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.__init__
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
             :sip:ref:`~PyQt6.QtCore.QObject`
-            member: PYQT_SLOT = 0
-            ambiguousMember: PYQT_SLOT = 0
+            member: PYQT_SLOT = None
+            ambiguousMember: PYQT_SLOT = None
             context: :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext` = :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.WindowShortcut`
-        :description: QtGui/QShortcut-__init__-f-2.rst
+        :description: QtGui/QShortcut-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.autoRepeat
         :returns:

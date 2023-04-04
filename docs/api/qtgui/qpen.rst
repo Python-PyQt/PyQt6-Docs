@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPen.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPen-__init__-f-5.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPen-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.__init__
         :args:
@@ -57,10 +57,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPen.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :returns:
             bool
-        :description: QtGui/QPen-__eq__-f-1.rst
+        :description: QtGui/QPen-__eq__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.isCosmetic
         :returns:
@@ -84,10 +84,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPen.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :returns:
             bool
-        :description: QtGui/QPen-__ne__-f-1.rst
+        :description: QtGui/QPen-__ne__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.setBrush
         :args:
@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPen.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPen-setColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPen-setColor-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.setCosmetic
         :args:

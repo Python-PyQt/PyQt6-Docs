@@ -59,8 +59,8 @@
         :args:
             int
         :returns:
-            sip.voidptr
-        :description: QtMultimedia/QVideoFrame-bits-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtMultimedia/QVideoFrame-bits-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.bytesPerLine
         :args:

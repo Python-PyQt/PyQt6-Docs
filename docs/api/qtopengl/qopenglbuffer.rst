@@ -101,9 +101,9 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.allocate
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             int
-        :description: QtOpenGL/QOpenGLBuffer-allocate-f-1.rst
+        :description: QtOpenGL/QOpenGLBuffer-allocate-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.bind
         :returns:
@@ -137,8 +137,8 @@
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer.Access`
         :returns:
-            sip.voidptr
-        :description: QtOpenGL/QOpenGLBuffer-map-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtOpenGL/QOpenGLBuffer-map-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.mapRange
         :args:
@@ -146,17 +146,17 @@
             int
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer.RangeAccessFlag`
         :returns:
-            sip.voidptr
-        :description: QtOpenGL/QOpenGLBuffer-mapRange-f-1.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtOpenGL/QOpenGLBuffer-mapRange-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.read
         :args:
             int
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             int
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLBuffer-read-f.rst
+        :description: QtOpenGL/QOpenGLBuffer-read-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.release
         :description: QtOpenGL/QOpenGLBuffer-release-f.rst
@@ -195,6 +195,6 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.write
         :args:
             int
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             int
-        :description: QtOpenGL/QOpenGLBuffer-write-f.rst
+        :description: QtOpenGL/QOpenGLBuffer-write-f-1.rst

@@ -1,4 +1,4 @@
-# Copyright (c) 2022, Riverbank Computing Limited
+# Copyright (c) 2023, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -29,13 +29,11 @@ import hashlib
 import os
 import shutil
 import sys
-import tempfile
-import xml.etree.ElementTree as etree
 
 # These are undocumented internals until SIP implements a proper documentation
 # system.
-from sipbuild.code_generator import generateXML, py2c, set_globals
 from sipbuild.generator import parse, resolve
+from sipbuild.generator.outputs.xml import output_xml
 
 
 class FixedIndenter:
@@ -234,25 +232,16 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
     if sip_file is None:
         module_el = None
     else:
-        with tempfile.TemporaryDirectory() as xml_dir:
-            # Use SIP to create the XML API description.
-            xml_file = os.path.join(xml_dir, module + '.xml')
+        encoding = 'UTF-8'
 
-            encoding = 'UTF-8'
+        spec, modules, _ = parse(sip_file, hex_version=0x600000,
+                encoding=encoding, abi_version='13.0', tags=[],
+                disabled_features=['PyQt_OpenGL_ES2'],
+                protected_is_public=False, include_dirs=include_dirs,
+                sip_module='PyQt6.sip', is_strict=False)
 
-            spec, _ = parse(sip_file, hex_version=0x600000, encoding=encoding,
-                    abi_version='13.0', tags=[],
-                    disabled_features=['PyQt_OpenGL_ES2'],
-                    protected_is_public=False, include_dirs=include_dirs,
-                    strict=False)
-
-            resolve(spec)
-
-            pt = py2c(spec, encoding)
-            generateXML(pt, xml_file)
-
-            # Read the XML.
-            module_el = etree.parse(xml_file).getroot()
+        resolve(spec, modules)
+        module_el = output_xml(spec, module)
 
     # Generate the reST for the module.
     fq_module = '{}.{}'.format(package, module) if package else module
@@ -938,9 +927,6 @@ if __name__ == '__main__':
 
     if clean:
         clean_descriptions(module, descriptions, verbose)
-
-    # Configure SIP.
-    set_globals(0x600000, '6.0.0', 13, 0, 'PyQt6.sip', Exception)
 
     generate_rst(module, package, descriptions, api, sip_file, include_dirs,
             verbose)

@@ -40,13 +40,6 @@
 
     .. sip:method:: PyQt6.QtCore.QMarginsF.__add__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QMarginsF`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QMarginsF`
-        :description: QtCore/QMarginsF-__add__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QMarginsF.__add__
-        :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRectF`
@@ -123,13 +116,6 @@
             :sip:ref:`~PyQt6.QtCore.QMarginsF`
         :description: QtCore/QMarginsF-__mul__-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QMarginsF.__mul__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QMarginsF`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QMarginsF`
-        :description: QtCore/QMarginsF-__mul__-f-1.rst
-
     .. sip:method:: PyQt6.QtCore.QMarginsF.__ne__
         :args:
             :sip:ref:`~PyQt6.QtCore.QMarginsF`
@@ -154,10 +140,24 @@
             :sip:ref:`~PyQt6.QtCore.QMarginsF`
         :description: QtCore/QMarginsF-__pos__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMarginsF.__radd__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :description: QtCore/QMarginsF-__radd__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMarginsF.right
         :returns:
             float
         :description: QtCore/QMarginsF-right-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMarginsF.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :description: QtCore/QMarginsF-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMarginsF.setBottom
         :args:

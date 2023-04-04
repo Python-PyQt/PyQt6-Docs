@@ -361,8 +361,8 @@
         :args:
             str
             options: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.FindFlag` = {}
-            resultCallback: Callable[[bool], None] = 0
-        :description: QtWebEngineCore/QWebEnginePage-findText-f.rst
+            resultCallback: Callable[[bool], None] = None
+        :description: QtWebEngineCore/QWebEnginePage-findText-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.hasSelection
         :returns:
@@ -505,8 +505,8 @@
         :args:
             str
             worldId: int = 0
-            resultCallback: Callable[[str], None] = 0
-        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-1.rst
+            resultCallback: Callable[[str], None] = None
+        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.save
         :args:

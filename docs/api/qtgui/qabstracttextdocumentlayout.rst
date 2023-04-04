@@ -158,8 +158,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QAbstractTextDocumentLayout.update
         :args:
-            rect: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF(0,0,1e+09,1e+09)
-        :description: QtGui/QAbstractTextDocumentLayout-update-s.rst
+            rect: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF(0,0,1000000000.0,1000000000.0)
+        :description: QtGui/QAbstractTextDocumentLayout-update-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QAbstractTextDocumentLayout.updateBlock
         :args:

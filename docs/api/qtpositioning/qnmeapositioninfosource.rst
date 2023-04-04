@@ -43,13 +43,13 @@
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaPositionInfoSource.parsePosInfoFromNmeaData
         :args:
-            str
+            bytes
             int
             :sip:ref:`~PyQt6.QtPositioning.QGeoPositionInfo`
         :returns:
             bool
             bool
-        :description: QtPositioning/QNmeaPositionInfoSource-parsePosInfoFromNmeaData-f.rst
+        :description: QtPositioning/QNmeaPositionInfoSource-parsePosInfoFromNmeaData-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaPositionInfoSource.requestUpdate
         :args:

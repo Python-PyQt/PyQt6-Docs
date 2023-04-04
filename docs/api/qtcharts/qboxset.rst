@@ -110,8 +110,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBoxSet-setPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QBoxSet-setPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setValue
         :args:

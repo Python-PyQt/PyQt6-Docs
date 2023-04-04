@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to a shared memory segment
-    :digest: e1ecea39c31c71c41850812e239dd730
+    :digest: a4dd94958accd2c6c70239e3241a2da0
 
 The :sip:ref:`~PyQt6.QtCore.QSharedMemory` class provides access to a shared memory segment.
 
@@ -28,6 +28,8 @@ When using this class, be aware of the following platform differences:
         QSharedMemory shm("DEVTEAMID.app-group/shared");
         if (!shm.create(42) && shm.error() == QSharedMemory::AlreadyExists)
             shm.attach();
+
+  Qt for iOS comes with support for POSIX shared memory out of the box. With Qt for macOS an additional configure flag must be added when building Qt to enable the feature. To enable the feature pass ``-feature-ipc_posix`` Note that the pre-built Qt libraries for macOS available through the Qt installer do not include this feature.
 
 Remember to lock the shared memory with :sip:ref:`~PyQt6.QtCore.QSharedMemory.lock` before reading from or writing to the shared memory, and remember to release the lock with :sip:ref:`~PyQt6.QtCore.QSharedMemory.unlock` after you are done.
 

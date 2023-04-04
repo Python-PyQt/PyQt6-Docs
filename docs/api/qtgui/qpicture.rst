@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPicture.data
         :returns:
-            str
-        :description: QtGui/QPicture-data-f.rst
+            bytes
+        :description: QtGui/QPicture-data-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPicture.detach
         :description: QtGui/QPicture-detach-f.rst

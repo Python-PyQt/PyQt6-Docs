@@ -94,8 +94,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPolygonF.data
         :returns:
-            sip.voidptr
-        :description: QtGui/QPolygonF-data-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QPolygonF-data-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygonF.__delitem__
         :args:
@@ -213,8 +213,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :returns:
-            object
-        :description: QtGui/QPolygonF-__lshift__-f.rst
+            Any
+        :description: QtGui/QPolygonF-__lshift__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygonF.mid
         :args:

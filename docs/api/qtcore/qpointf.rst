@@ -95,13 +95,6 @@
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :description: QtCore/QPointF-__mul__-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QPointF.__mul__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QPointF`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtCore/QPointF-__mul__-f-1.rst
-
     .. sip:method:: PyQt6.QtCore.QPointF.__ne__
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
@@ -123,6 +116,13 @@
         :returns:
             str
         :description: QtCore/QPointF-__repr__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPointF.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtCore/QPointF-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QPointF.setX
         :args:

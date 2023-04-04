@@ -40,10 +40,10 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix3x3.__getitem__
         :args:
-            object
+            Any
         :returns:
-            object
-        :description: QtGui/QMatrix3x3-__getitem__-f.rst
+            Any
+        :description: QtGui/QMatrix3x3-__getitem__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix3x3.__iadd__
         :args:
@@ -92,9 +92,9 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix3x3.__setitem__
         :args:
-            object
+            Any
             float
-        :description: QtGui/QMatrix3x3-__setitem__-f.rst
+        :description: QtGui/QMatrix3x3-__setitem__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix3x3.setToIdentity
         :description: QtGui/QMatrix3x3-setToIdentity-f.rst

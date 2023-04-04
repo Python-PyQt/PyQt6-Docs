@@ -8,5 +8,5 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAbstractFunctor.id
         :returns:
-            PyQt6.sip.voidptr
-        :description: Qt3DCore/QAbstractFunctor-id-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: Qt3DCore/QAbstractFunctor-id-f-1.rst

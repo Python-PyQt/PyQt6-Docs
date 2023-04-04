@@ -60,8 +60,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :returns:
-            sip.voidptr
-        :description: QtGui/QOpenGLContext-getProcAddress-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtGui/QOpenGLContext-getProcAddress-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.globalShareContext
         :returns:

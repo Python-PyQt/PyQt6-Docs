@@ -24,5 +24,5 @@
         :args:
             str
             int
-            sip.voidptr
-        :description: QAxContainer/QAxBaseObject-signal-s.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QAxContainer/QAxBaseObject-signal-s-1.rst

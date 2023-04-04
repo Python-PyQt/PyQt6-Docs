@@ -530,13 +530,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTextEdit-setTextColor-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtWidgets/QTextEdit-setTextColor-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextCursor
         :args:

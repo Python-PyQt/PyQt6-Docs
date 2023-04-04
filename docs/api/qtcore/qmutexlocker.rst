@@ -15,15 +15,15 @@
 
     .. sip:method:: PyQt6.QtCore.QMutexLocker.__enter__
         :returns:
-            object
-        :description: QtCore/QMutexLocker-__enter__-f.rst
+            Any
+        :description: QtCore/QMutexLocker-__enter__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMutexLocker.__exit__
         :args:
-            object
-            object
-            object
-        :description: QtCore/QMutexLocker-__exit__-f.rst
+            Any
+            Any
+            Any
+        :description: QtCore/QMutexLocker-__exit__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMutexLocker.mutex
         :returns:

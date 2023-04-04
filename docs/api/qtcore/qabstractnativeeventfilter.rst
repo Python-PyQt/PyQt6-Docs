@@ -9,8 +9,8 @@
     .. sip:method:: PyQt6.QtCore.QAbstractNativeEventFilter.nativeEventFilter
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-            PyQt6.sip.voidptr
-        :description: QtCore/QAbstractNativeEventFilter-nativeEventFilter-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtCore/QAbstractNativeEventFilter-nativeEventFilter-f-1.rst

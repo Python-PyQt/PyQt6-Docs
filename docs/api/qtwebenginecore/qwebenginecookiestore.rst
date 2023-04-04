@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCookieStore.setCookieFilter
         :args:
-            filterCallback: Callable[[FilterRequest], bool] = 0
-        :description: QtWebEngineCore/QWebEngineCookieStore-setCookieFilter-f.rst
+            filterCallback: Callable[[FilterRequest], bool] = None
+        :description: QtWebEngineCore/QWebEngineCookieStore-setCookieFilter-f-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEngineCookieStore.cookieAdded
         :args:

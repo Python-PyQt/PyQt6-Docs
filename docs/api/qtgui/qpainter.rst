@@ -330,14 +330,14 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawConvexPolygon
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawConvexPolygon-f-2.rst
+            *
+        :description: QtGui/QPainter-drawConvexPolygon-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawConvexPolygon
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawConvexPolygon-f-3.rst
+            *
+        :description: QtGui/QPainter-drawConvexPolygon-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawEllipse
         :args:
@@ -498,26 +498,26 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
             :sip:ref:`~PyQt6.QtCore.QLineF`
-            ...
-        :description: QtGui/QPainter-drawLines-f-4.rst
+            *
+        :description: QtGui/QPainter-drawLines-f-12.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawLines-f-5.rst
+            *
+        :description: QtGui/QPainter-drawLines-f-13.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
             :sip:ref:`~PyQt6.QtCore.QLine`
-            ...
-        :description: QtGui/QPainter-drawLines-f-6.rst
+            *
+        :description: QtGui/QPainter-drawLines-f-14.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawLines
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawLines-f-7.rst
+            *
+        :description: QtGui/QPainter-drawLines-f-15.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPath
         :args:
@@ -699,14 +699,14 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawPoints
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawPoints-f-2.rst
+            *
+        :description: QtGui/QPainter-drawPoints-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPoints
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawPoints-f-3.rst
+            *
+        :description: QtGui/QPainter-drawPoints-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
@@ -729,8 +729,8 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawPolygon-f.rst
+            *
+        :description: QtGui/QPainter-drawPolygon-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
@@ -741,8 +741,8 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolygon
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawPolygon-f-2.rst
+            *
+        :description: QtGui/QPainter-drawPolygon-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
         :args:
@@ -767,14 +767,14 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
-            ...
-        :description: QtGui/QPainter-drawPolyline-f-2.rst
+            *
+        :description: QtGui/QPainter-drawPolyline-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawPolyline
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawPolyline-f-3.rst
+            *
+        :description: QtGui/QPainter-drawPolyline-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRect
         :args:
@@ -807,14 +807,14 @@
     .. sip:method:: PyQt6.QtGui.QPainter.drawRects
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            ...
-        :description: QtGui/QPainter-drawRects-f-2.rst
+            *
+        :description: QtGui/QPainter-drawRects-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRects
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            ...
-        :description: QtGui/QPainter-drawRects-f-3.rst
+            *
+        :description: QtGui/QPainter-drawRects-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.drawRoundedRect
         :args:
@@ -953,8 +953,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.__enter__
         :returns:
-            object
-        :description: QtGui/QPainter-__enter__-f.rst
+            Any
+        :description: QtGui/QPainter-__enter__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.eraseRect
         :args:
@@ -976,10 +976,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.__exit__
         :args:
-            object
-            object
-            object
-        :description: QtGui/QPainter-__exit__-f.rst
+            Any
+            Any
+            Any
+        :description: QtGui/QPainter-__exit__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillPath
         :args:
@@ -1002,14 +1002,14 @@
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-17.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-fillRect-f-21.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-18.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-fillRect-f-22.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
@@ -1062,8 +1062,8 @@
             int
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-fillRect-f-20.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-fillRect-f-23.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.fillRect
         :args:
@@ -1258,13 +1258,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setPen-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-setPen-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-setPen-f-4.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-setPen-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.setPen
         :args:
@@ -1340,8 +1340,8 @@
     .. sip:method:: PyQt6.QtGui.QPainter.strokePath
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPainter-strokePath-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtGui/QPainter-strokePath-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPainter.testRenderHint
         :args:

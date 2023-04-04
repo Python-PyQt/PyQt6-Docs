@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract base for custom QML extension plugins
-    :digest: 3a64a8c246c7a20b9f695d44671463d8
+    :digest: 8fc094ee5a1ebbee847abb4a41411677
 
 The :sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin` class provides an abstract base for custom QML extension plugins.
 
@@ -37,6 +37,8 @@ To write a QML extension plugin:
 #. If you're using qmake, create a `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_ to describe the plugin. Note that CMake will, by default, automatically generate the `qmldir file <https://doc.qt.io/qt-6/qtqml-modules-qmldir.html>`_.
 
 QML extension plugins are for either application-specific or library-like plugins. Library plugins should limit themselves to registering types, as any manipulation of the engine's root context may cause conflicts or other issues in the library user's code.
+
+**Note:** When using the CMake `qt_add_qml_module <https://doc.qt.io/qt-6/qt-add-qml-module.html>`_ API, a plugin will be generated automatically for you. It will take care of type registration. You only need to write a custom plugin if you have special requirements, such as registering custom image providers. In that case, pass `NO_GENERATE_PLUGIN_SOURCE <https://doc.qt.io/qt-6/qt-add-qml-module.html#no-generate-plugin-source>`_ to the ``qt_add_qml_module`` call to disable the generation of the default plugin.
 
 The linker might erroneously remove the generated type registration function as an optimization. You can prevent that by declaring a synthetic volatile pointer to the function somewhere in your code. If your module is called "my.module", you would add the forward declaration in global scope:
 

@@ -86,7 +86,7 @@
 
     .. sip:method:: PyQt6.QtCore.QBuffer.writeData
         :args:
-            buffer
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
         :returns:
             int
-        :description: QtCore/QBuffer-writeData-f.rst
+        :description: QtCore/QBuffer-writeData-f-1.rst

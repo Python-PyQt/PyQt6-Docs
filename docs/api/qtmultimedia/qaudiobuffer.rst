@@ -32,13 +32,13 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioBuffer.constData
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtMultimedia/QAudioBuffer-constData-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtMultimedia/QAudioBuffer-constData-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioBuffer.data
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtMultimedia/QAudioBuffer-data-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtMultimedia/QAudioBuffer-data-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioBuffer.detach
         :description: QtMultimedia/QAudioBuffer-detach-f.rst

@@ -134,8 +134,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.Axis`
             int
-            sip.voidptr
-        :description: QtDataVisualization/QCustom3DVolume-setSubTextureData-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtDataVisualization/QCustom3DVolume-setSubTextureData-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DVolume.setSubTextureData
         :args:

@@ -94,10 +94,10 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.__getitem__
         :args:
-            object
+            Any
         :returns:
-            object
-        :description: QtGui/QMatrix4x4-__getitem__-f.rst
+            Any
+        :description: QtGui/QMatrix4x4-__getitem__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.__iadd__
         :args:
@@ -243,13 +243,6 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.__mul__
         :args:
-            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
-        :description: QtGui/QMatrix4x4-__mul__-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QMatrix4x4.__mul__
-        :args:
             float
         :returns:
             :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
@@ -322,6 +315,13 @@
             str
         :description: QtGui/QMatrix4x4-__repr__-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QMatrix4x4.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
+        :description: QtGui/QMatrix4x4-__rmul__-f.rst
+
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.rotate
         :args:
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
@@ -338,8 +338,8 @@
             float
             float
             float
-            z: float = 0
-        :description: QtGui/QMatrix4x4-rotate-f-2.rst
+            z: float = 0.0
+        :description: QtGui/QMatrix4x4-rotate-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.row
         :args:
@@ -379,9 +379,9 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.__setitem__
         :args:
-            object
+            Any
             float
-        :description: QtGui/QMatrix4x4-__setitem__-f.rst
+        :description: QtGui/QMatrix4x4-__setitem__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.setRow
         :args:
@@ -452,6 +452,6 @@
             float
             float
             float
-            nearPlane: float = 0
-            farPlane: float = 1
-        :description: QtGui/QMatrix4x4-viewport-f-1.rst
+            nearPlane: float = 0.0
+            farPlane: float = 1.0
+        :description: QtGui/QMatrix4x4-viewport-f-2.rst

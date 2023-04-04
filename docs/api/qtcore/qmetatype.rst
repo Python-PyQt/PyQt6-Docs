@@ -389,8 +389,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMetaType.name
         :returns:
-            str
-        :description: QtCore/QMetaType-name-f.rst
+            bytes
+        :description: QtCore/QMetaType-name-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.__ne__
         :args:

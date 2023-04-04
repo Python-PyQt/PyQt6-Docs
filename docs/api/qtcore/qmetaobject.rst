@@ -157,9 +157,9 @@
             value8: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
             value9: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
         :returns:
-            object
+            Any
         :static:
-        :description: QtCore/QMetaObject-invokeMethod-f.rst
+        :description: QtCore/QMetaObject-invokeMethod-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaObject.invokeMethod
         :args:
@@ -177,9 +177,9 @@
             value8: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
             value9: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
         :returns:
-            object
+            Any
         :static:
-        :description: QtCore/QMetaObject-invokeMethod-f-1.rst
+        :description: QtCore/QMetaObject-invokeMethod-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaObject.invokeMethod
         :args:
@@ -197,9 +197,9 @@
             value8: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
             value9: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
         :returns:
-            object
+            Any
         :static:
-        :description: QtCore/QMetaObject-invokeMethod-f-2.rst
+        :description: QtCore/QMetaObject-invokeMethod-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaObject.invokeMethod
         :args:
@@ -218,9 +218,9 @@
             value8: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
             value9: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
         :returns:
-            object
+            Any
         :static:
-        :description: QtCore/QMetaObject-invokeMethod-f-3.rst
+        :description: QtCore/QMetaObject-invokeMethod-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaObject.metaType
         :returns:

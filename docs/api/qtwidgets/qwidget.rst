@@ -218,10 +218,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.create
         :args:
-            window: PyQt6.sip.voidptr = 0
+            window: :py:class:`~PyQt6.sip.voidptr` = None
             initializeWindow: bool = True
             destroyOldWindow: bool = True
-        :description: QtWidgets/QWidget-create-f.rst
+        :description: QtWidgets/QWidget-create-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.createWindowContainer
         :args:
@@ -271,8 +271,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.effectiveWinId
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtWidgets/QWidget-effectiveWinId-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtWidgets/QWidget-effectiveWinId-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.ensurePolished
         :description: QtWidgets/QWidget-ensurePolished-f.rst
@@ -291,11 +291,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.find
         :args:
-            PyQt6.sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
         :static:
-        :description: QtWidgets/QWidget-find-f.rst
+        :description: QtWidgets/QWidget-find-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.focusInEvent
         :args:
@@ -790,11 +790,11 @@
     .. sip:method:: PyQt6.QtWidgets.QWidget.nativeEvent
         :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
-            PyQt6.sip.voidptr
-        :description: QtWidgets/QWidget-nativeEvent-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtWidgets/QWidget-nativeEvent-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.nativeParentWidget
         :returns:
@@ -1567,8 +1567,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.winId
         :returns:
-            PyQt6.sip.voidptr
-        :description: QtWidgets/QWidget-winId-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtWidgets/QWidget-winId-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.x
         :returns:

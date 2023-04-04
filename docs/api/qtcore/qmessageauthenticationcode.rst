@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.addData
         :args:
-            buffer
-        :description: QtCore/QMessageAuthenticationCode-addData-f.rst
+            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+        :description: QtCore/QMessageAuthenticationCode-addData-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.addData
         :args:

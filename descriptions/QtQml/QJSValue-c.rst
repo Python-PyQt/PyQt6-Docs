@@ -1,15 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Acts as a container for Qt/JavaScript data types
-    :digest: 4c466170aea18e2d479e8bca38da7037
+    :digest: e2f8877f8881c9b5a1007ef24241a85f
 
 The :sip:ref:`~PyQt6.QtQml.QJSValue` class acts as a container for Qt/JavaScript data types.
 
-:sip:ref:`~PyQt6.QtQml.QJSValue` supports the types defined in the `ECMA-262 <https://doc.qt.io/qt-6/http://www.ecma-international.org/publications/standards/Ecma-262.htm>`_ standard: The primitive types, which are Undefined, Null, Boolean, Number, and String; and the Object and Array types. Additionally, built-in support is provided for Qt/C++ types such as :sip:ref:`~PyQt6.QtCore.QVariant` and :sip:ref:`~PyQt6.QtCore.QObject`.
+:sip:ref:`~PyQt6.QtQml.QJSValue` supports the types defined in the `ECMA-262 <https://doc.qt.io/qt-6/https://www.ecma-international.org/publications-and-standards/standards/ecma-262/>`_ standard: The primitive types, which are Undefined, Null, Boolean, Number, and String; and the Object and Array types. Additionally, built-in support is provided for Qt/C++ types such as :sip:ref:`~PyQt6.QtCore.QVariant` and :sip:ref:`~PyQt6.QtCore.QObject`.
 
 For the object-based types (including Date and RegExp), use the newT() functions in :sip:ref:`~PyQt6.QtQml.QJSEngine` (e.g. :sip:ref:`~PyQt6.QtQml.QJSEngine.newObject`) to create a :sip:ref:`~PyQt6.QtQml.QJSValue` of the desired type. For the primitive types, use one of the :sip:ref:`~PyQt6.QtQml.QJSValue` constructor overloads. For other types, e.g. registered gadget types such as :sip:ref:`~PyQt6.QtCore.QPoint`, you can use QJSEngine::toScriptValue.
 
-The methods named isT() (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.isBool`, :sip:ref:`~PyQt6.QtQml.QJSValue.isUndefined`) can be used to test if a value is of a certain type. The methods named toT() (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.toBool`, :sip:ref:`~PyQt6.QtQml.QJSValue.toString`) can be used to convert a :sip:ref:`~PyQt6.QtQml.QJSValue` to another type. You can also use the generic  function.
+The methods named isT() (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.isBool`, :sip:ref:`~PyQt6.QtQml.QJSValue.isUndefined`) can be used to test if a value is of a certain type. The methods named toT() (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.toBool`, :sip:ref:`~PyQt6.QtQml.QJSValue.toString`) can be used to convert a :sip:ref:`~PyQt6.QtQml.QJSValue` to another type. You can also use the generic qjsvalue_cast() function.
 
 Object values have zero or more properties which are themselves QJSValues. Use :sip:ref:`~PyQt6.QtQml.QJSValue.setProperty` to set a property of an object, and call :sip:ref:`~PyQt6.QtQml.QJSValue.property` to retrieve the value of a property.
 
@@ -55,5 +55,17 @@ To determine the length of the array, access the ``"length"`` property. To acces
     for (int i = 0; i < length; ++i) {
         integers.append(jsArray.property(i).toInt());
     }
+
+.. _qjsvalue-converting-to-json:
+
+Converting to JSON
+..................
+
+It's possible to convert a :sip:ref:`~PyQt6.QtQml.QJSValue` to a JSON type. For example, to convert to an array, use QJSEngine::fromScriptValue():
+
+::
+
+    const QJsonValue jsonValue = engine.fromScriptValue<QJsonValue>(jsValue);
+    const QJsonArray jsonArray = jsonValue.toArray();
 
 .. seealso:: :sip:ref:`~PyQt6.QtQml.QJSEngine`, :sip:ref:`~PyQt6.QtQml.QJSValueIterator`.

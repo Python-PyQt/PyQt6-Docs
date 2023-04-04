@@ -238,10 +238,10 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioFormat.normalizedSampleValue
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
         :returns:
             float
-        :description: QtMultimedia/QAudioFormat-normalizedSampleValue-f.rst
+        :description: QtMultimedia/QAudioFormat-normalizedSampleValue-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioFormat.sampleFormat
         :returns:

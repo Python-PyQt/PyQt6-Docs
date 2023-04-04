@@ -104,24 +104,10 @@
 
     .. sip:method:: PyQt6.QtCore.QPoint.__mul__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QPoint`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QPoint`
-        :description: QtCore/QPoint-__mul__-f-2.rst
-
-    .. sip:method:: PyQt6.QtCore.QPoint.__mul__
-        :args:
             float
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtCore/QPoint-__mul__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QPoint.__mul__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QPoint`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QPoint`
-        :description: QtCore/QPoint-__mul__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QPoint.__ne__
         :args:
@@ -144,6 +130,20 @@
         :returns:
             str
         :description: QtCore/QPoint-__repr__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPoint.__rmul__
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtCore/QPoint-__rmul__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPoint.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtCore/QPoint-__rmul__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPoint.setX
         :args:

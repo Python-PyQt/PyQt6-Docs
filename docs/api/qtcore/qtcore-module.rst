@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtCore.pyqtEnum
         :args:
-            enum
-        :description: QtCore/pyqtEnum-f.rst
+            enum.Enum
+        :description: QtCore/pyqtEnum-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.pyqtPickleProtocol
         :returns:
@@ -160,27 +160,27 @@
 
     .. sip:method:: PyQt6.QtCore.pyqtSlot
         :args:
-            ...
+            *
             name: str = None
             result: str = None
         :returns:
-            object
-        :description: QtCore/pyqtSlot-f.rst
+            Any
+        :description: QtCore/pyqtSlot-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.Q_ARG
         :args:
-            object
-            object
+            Any
+            Any
         :returns:
             :sip:ref:`~PyQt6.QtCore.QGenericArgument`
-        :description: QtCore/Q_ARG-f.rst
+        :description: QtCore/Q_ARG-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.Q_RETURN_ARG
         :args:
-            object
+            Any
         :returns:
             :sip:ref:`~PyQt6.QtCore.QGenericReturnArgument`
-        :description: QtCore/Q_RETURN_ARG-f.rst
+        :description: QtCore/Q_RETURN_ARG-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qAbs
         :args:
@@ -191,8 +191,8 @@
 
     .. sip:method:: PyQt6.QtCore.qAddPostRoutine
         :args:
-            callable
-        :description: QtCore/qAddPostRoutine-f.rst
+            Callable[..., None]
+        :description: QtCore/qAddPostRoutine-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qAddPreRoutine
         :args:
@@ -355,8 +355,8 @@
 
     .. sip:method:: PyQt6.QtCore.qRemovePostRoutine
         :args:
-            callable
-        :description: QtCore/qRemovePostRoutine-f.rst
+            Callable[..., None]
+        :description: QtCore/qRemovePostRoutine-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qRound
         :args:

@@ -86,8 +86,8 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.Primaries`
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0
-        :description: QtGui/QColorSpace-__init__-f-4.rst
+            gamma: float = 0.0
+        :description: QtGui/QColorSpace-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
@@ -105,8 +105,8 @@
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0
-        :description: QtGui/QColorSpace-__init__-f-5.rst
+            gamma: float = 0.0
+        :description: QtGui/QColorSpace-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
@@ -192,8 +192,8 @@
     .. sip:method:: PyQt6.QtGui.QColorSpace.setTransferFunction
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0
-        :description: QtGui/QColorSpace-setTransferFunction-f.rst
+            gamma: float = 0.0
+        :description: QtGui/QColorSpace-setTransferFunction-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setTransferFunctions
         :args:
@@ -229,10 +229,10 @@
     .. sip:method:: PyQt6.QtGui.QColorSpace.withTransferFunction
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0
+            gamma: float = 0.0
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
-        :description: QtGui/QColorSpace-withTransferFunction-f.rst
+        :description: QtGui/QColorSpace-withTransferFunction-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.withTransferFunctions
         :args:

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QtPrivate::channelConfig(FrontLeft, FrontRight, FrontCenter)
-    :digest: 6141035c02b916d6e22d176746a9f90b
+    :digest: 887afa1d6328f297ae5ba40f1548b478
 
-The audio has three channels, Left, Right and Center
+The audio has three channels, Left, Right, and Center.

@@ -17,7 +17,7 @@
             :description: QtWidgets/QStyleOptionFocusRect-StyleOptionVersion-Version-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionFocusRect.backgroundColor
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :description: QtWidgets/QStyleOptionFocusRect-backgroundColor-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionFocusRect.__init__

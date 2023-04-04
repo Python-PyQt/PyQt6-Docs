@@ -212,13 +212,6 @@
 
     .. sip:method:: PyQt6.QtGui.QQuaternion.__mul__
         :args:
-            :sip:ref:`~PyQt6.QtGui.QQuaternion`
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QQuaternion`
-        :description: QtGui/QQuaternion-__mul__-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QQuaternion.__mul__
-        :args:
             float
         :returns:
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
@@ -265,6 +258,13 @@
         :returns:
             str
         :description: QtGui/QQuaternion-__repr__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QQuaternion.__rmul__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QQuaternion`
+        :description: QtGui/QQuaternion-__rmul__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QQuaternion.rotatedVector
         :args:

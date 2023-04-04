@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: QtPrivate::channelConfig(FrontLeft, FrontRight)
-    :digest: 48d600f8246b7403c4e73e56b13c40f0
+    :digest: 42831178ad878adfb8c741cc533d4439
 
-The audio has two channels, Left and Right
+The audio has two channels, Left and Right.

@@ -13,9 +13,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.__init__
         :args:
-            sip.voidptr
+            :py:class:`~PyQt6.sip.voidptr`
             type: :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType` = :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType.PrivateKey`
-        :description: QtNetwork/QSslKey-__init__-f-2.rst
+        :description: QtNetwork/QSslKey-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.__init__
         :args:
@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.handle
         :returns:
-            sip.voidptr
-        :description: QtNetwork/QSslKey-handle-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QSslKey-handle-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.isNull
         :returns:

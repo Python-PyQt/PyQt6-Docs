@@ -135,13 +135,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.setDecreasingColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QCandlestickSeries-setDecreasingColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QCandlestickSeries-setDecreasingColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.setIncreasingColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QCandlestickSeries-setIncreasingColor-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QCandlestickSeries-setIncreasingColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.setMaximumColumnWidth
         :args:
@@ -155,8 +155,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QCandlestickSeries-setPen-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtCharts/QCandlestickSeries-setPen-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.sets
         :returns:

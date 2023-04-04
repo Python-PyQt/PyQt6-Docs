@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: c88694042adfe73c4c7a988bfa01384f
 
-TODO
+Media playback duration

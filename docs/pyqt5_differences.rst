@@ -31,7 +31,7 @@ differences between the Qt v6 and Qt v5 APIs.
   files to translate.
 - Support for Qt's resource system has been removed (i.e. there is no
   ``pyrcc6``).
-- Python v3.6.1 or later is required.
+- Python v3.7 or later is required.
 
 Qt v6 implements a number of functions from Qt v5 that are now marked as being
 deprecated.  These are not supported in PyQt6.

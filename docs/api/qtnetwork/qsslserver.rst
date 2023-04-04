@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslServer.incomingConnection
         :args:
-            PyQt6.sip.voidptr
-        :description: QtNetwork/QSslServer-incomingConnection-f.rst
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtNetwork/QSslServer-incomingConnection-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslServer.setHandshakeTimeout
         :args:
