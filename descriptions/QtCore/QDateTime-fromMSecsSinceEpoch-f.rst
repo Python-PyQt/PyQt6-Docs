@@ -2,8 +2,12 @@
     :status: todo
     :pysig: 38b67f4848c5ac5a7ef890559f14d475
     :realsig: (qint64,const QTimeZone&)
-    :digest: 6241f2621579e5d93a46e3a5f7d09b79
+    :digest: 3aa1c632d651ffd09f431e8b466b71ba
 
-Returns a datetime whose date and time are the number of milliseconds *msecs* that have passed since 1970-01-01T00:00:00.000, Coordinated Universal Time (\ :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC`) and with the given *timeZone*.
+This is an overloaded function.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.fromSecsSinceEpoch`.
+Returns a datetime representing a moment the given number *msecs* of milliseconds after the start, in UTC, of the year 1970, described as specified by *timeZone*. The default time representation is local time.
+
+Note that there are possible values for *msecs* that lie outside the valid range of :sip:ref:`~PyQt6.QtCore.QDateTime`, both negative and positive. The behavior of this function is undefined for those values.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.fromSecsSinceEpoch`, :sip:ref:`~PyQt6.QtCore.QDateTime.toMSecsSinceEpoch`, :sip:ref:`~PyQt6.QtCore.QDateTime.setMSecsSinceEpoch`.

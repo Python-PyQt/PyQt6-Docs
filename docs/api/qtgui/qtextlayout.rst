@@ -12,6 +12,24 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextLayout.CursorMode.SkipWords
             :description: QtGui/QTextLayout-CursorMode-SkipWords-v.rst
 
+    .. sip:enum:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag
+        :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveAll
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveAll-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveGlyphIndexes
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveGlyphIndexes-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveGlyphPositions
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveGlyphPositions-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveString
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveString-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveStringIndexes
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveStringIndexes-v.rst
+
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :description: QtGui/QTextLayout-__init__-f.rst
 
@@ -104,6 +122,15 @@
         :returns:
             List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
         :description: QtGui/QTextLayout-glyphRuns-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextLayout.glyphRuns
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag`
+        :returns:
+            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLayout-glyphRuns-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.isValidCursorPosition
         :args:

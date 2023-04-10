@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents an XML document
-    :digest: 43862a2e2f1ed87e4a5d3080f4709b3f
+    :digest: ff786fafaf8918a5e15364ab6e768e91
 
 The :sip:ref:`~PyQt6.QtXml.QDomDocument` class represents an XML document.
 
@@ -15,7 +15,7 @@ Creation of elements, text nodes, etc. is done using the various factory functio
 
 The :sip:ref:`~PyQt6.QtXml.QDomDocument` class has several functions for creating document data, for example, :sip:ref:`~PyQt6.QtXml.QDomDocument.createElement`, :sip:ref:`~PyQt6.QtXml.QDomDocument.createTextNode`, :sip:ref:`~PyQt6.QtXml.QDomDocument.createComment`, :sip:ref:`~PyQt6.QtXml.QDomDocument.createCDATASection`, :sip:ref:`~PyQt6.QtXml.QDomDocument.createProcessingInstruction`, :sip:ref:`~PyQt6.QtXml.QDomDocument.createAttribute` and :sip:ref:`~PyQt6.QtXml.QDomDocument.createEntityReference`. Some of these functions have versions that support namespaces, i.e. :sip:ref:`~PyQt6.QtXml.QDomDocument.createElementNS` and :sip:ref:`~PyQt6.QtXml.QDomDocument.createAttributeNS`. The :sip:ref:`~PyQt6.QtXml.QDomDocument.createDocumentFragment` function is used to hold parts of the document; this is useful for manipulating for complex documents.
 
-The entire content of the document is set with :sip:ref:`~PyQt6.QtXml.QDomDocument.setContent`. This function parses the string it is passed as an XML document and creates the DOM tree that represents the document. The root element is available using :sip:ref:`~PyQt6.QtXml.QDomDocument.documentElement`. The textual representation of the document can be obtained using :sip:ref:`~PyQt6.QtXml.QDomDocument.toString`.
+The entire content of the document is set with setContent(). This function parses the string it is passed as an XML document and creates the DOM tree that represents the document. The root element is available using :sip:ref:`~PyQt6.QtXml.QDomDocument.documentElement`. The textual representation of the document can be obtained using :sip:ref:`~PyQt6.QtXml.QDomDocument.toString`.
 
 **Note:** The DOM tree might end up reserving a lot of memory if the XML document is big. For such documents, the :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` or the QXmlQuery classes might be better solutions.
 

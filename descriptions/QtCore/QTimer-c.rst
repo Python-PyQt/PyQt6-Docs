@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Repetitive and single-shot timers
-    :digest: 2d1fdcb0b740288725df5fff8a3a52c7
+    :digest: 8a9af38e0c6e8d9f813e6303fda8d4d6
 
 The :sip:ref:`~PyQt6.QtCore.QTimer` class provides repetitive and single-shot timers.
 
@@ -64,4 +64,4 @@ Another alternative is :sip:ref:`~PyQt6.QtCore.QBasicTimer`. It is typically les
 
 Some operating systems limit the number of timers that may be used; Qt tries to work around these limitations.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QBasicTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_, `Analog Clock Example <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_, `Wiggly Example <https://doc.qt.io/qt-6/qtwidgets-widgets-wiggly-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QBasicTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_, `Analog Clock <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_, `Tetrix Example <https://doc.qt.io/qt-6/qtwidgets-widgets-tetrix-example.html>`_.

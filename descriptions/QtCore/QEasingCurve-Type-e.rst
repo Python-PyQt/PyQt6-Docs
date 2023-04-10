@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: ec9be34f566bb66c4a80bfc5b355e748
+    :digest: 936c91e374e52ed163280b5e5d6fa67a
 
 The type of easing curve.
 

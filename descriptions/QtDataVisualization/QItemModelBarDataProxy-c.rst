@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Proxy class for presenting data in item models with Q3DBars
-    :digest: 51e7554bb3444bd1c7e59b69d4ac6549
+    :digest: 67a033a2f2f17df8c7eebcb2850d985f
 
 Proxy class for presenting data in item models with :sip:ref:`~PyQt6.QtDataVisualization.Q3DBars`.
 
@@ -24,6 +24,6 @@ For example, assume that you have a custom :sip:ref:`~PyQt6.QtCore.QAbstractItem
 
 If the fields of the model do not contain the data in the exact format you need, you can specify a search pattern regular expression and a replace rule for each role to get the value in a format you need. For more information how the replace using regular expressions works, see QString::replace(const :sip:ref:`~PyQt6.QtCore.QRegularExpression` &rx, const QString &after) function documentation. Note that using regular expressions has an impact on the performance, so it's more efficient to utilize item models where doing search and replace is not necessary to get the desired values.
 
-For example about using the search patterns in conjunction with the roles, see `Qt Quick 2 Bars Example <https://doc.qt.io/qt-6/qtdatavisualization-qmlbars-example.html>`_.
+For example about using the search patterns in conjunction with the roles, see `Simple Bar Graph <https://doc.qt.io/qt-6/qtdatavis3d-qmlbars-example.html>`_ example.
 
 .. seealso:: `Qt Data Visualization Data Handling <https://doc.qt.io/qt-6/qtdatavisualization-data-handling.html>`_.

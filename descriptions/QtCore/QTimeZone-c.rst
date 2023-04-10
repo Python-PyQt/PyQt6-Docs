@@ -1,13 +1,17 @@
 .. sip:class-description::
     :status: todo
-    :brief: Converts between UTC and local time in a specific time zone
-    :digest: 3ee6663adfb80f88b97dfb329f94893e
+    :brief: Identifies how a time representation relates to UTC
+    :digest: 13de6eb2feb4b0f6d8fdb9e360c1d623
 
-The :sip:ref:`~PyQt6.QtCore.QTimeZone` class converts between UTC and local time in a specific time zone.
+:sip:ref:`~PyQt6.QtCore.QTimeZone` identifies how a time representation relates to UTC.
 
-This class provides a stateless calculator for time zone conversions between UTC and the local time in a specific time zone. By default it uses the host system time zone data to perform these conversions.
+When dates and times are combined, the meaning of the result depends on how time is being represented. There are various international standards for representing time; one of these, UTC, corresponds to the traditional standard of solar mean time at Greenwich (a.k.a. GMT). All other time systems supported by Qt are ultimately specified in relation to UTC. An instance of this class provides a stateless calculator for conversions between UTC and other time representations.
 
-This class is primarily designed for use in :sip:ref:`~PyQt6.QtCore.QDateTime`; most applications will not need to access this class directly and should instead use :sip:ref:`~PyQt6.QtCore.QDateTime` with a :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec` of :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`.
+Some time representations are simply defined at a fixed offset to UTC. Others are defined by governments for use within their jurisdictions. The latter are properly known as time zones, but :sip:ref:`~PyQt6.QtCore.QTimeZone` (since Qt 6.5) is unifies their representation with that of general time systems. One time zone generally supported on most operating systems is designated local time; this is presumed to correspond to the time zone within which the user is living.
+
+For time zones other than local time, UTC and those at fixed offsets from UTC, Qt can only provide support when the operating system provides some way to access that information. When Qt is built, the ``timezone`` feature controls whether such information is available. When it is not, some constructors and methods of :sip:ref:`~PyQt6.QtCore.QTimeZone` are excluded from its API; these are documented as depending on feature ``timezone``. Note that, even when Qt is built with this feature enabled, it may be unavailable to users whose systems are misconfigured, or where some standard packages (for example, the ``tzdata`` package on Linux) are not installed. This feature is enabled by default when time zone information is available.
+
+This class is primarily designed for use in :sip:ref:`~PyQt6.QtCore.QDateTime`; most applications will not need to access this class directly and should instead use an instance of it when constructing a :sip:ref:`~PyQt6.QtCore.QDateTime`.
 
 **Note:** For consistency with :sip:ref:`~PyQt6.QtCore.QDateTime`, :sip:ref:`~PyQt6.QtCore.QTimeZone` does not account for leap seconds.
 
@@ -15,6 +19,17 @@ This class is primarily designed for use in :sip:ref:`~PyQt6.QtCore.QDateTime`; 
 
 Remarks
 -------
+
+:sip:ref:`~PyQt6.QtCore.QTimeZone`, like :sip:ref:`~PyQt6.QtCore.QDateTime`, measures offsets from UTC in seconds. This contrasts with their measurement of time generally, which they do in milliseconds. Real-world time zones generally have UTC offsets that are whole-number multiples of five minutes (300 seconds), at least since well before 1970. A positive offset from UTC gives a time representation puts noon on any given day before UTC noon on that day; a negative offset puts noon after UTC noon on the same day.
+
+.. _qtimezone-lightweight-time-representations:
+
+Lightweight Time Representations
+................................
+
+:sip:ref:`~PyQt6.QtCore.QTimeZone` can represent UTC, local time and fixed offsets from UTC even when feature ``timezone`` is disabled. The form in which it does so is also available when the feature is enabled; it is a more lightweight form and processing using it will typically be more efficient, unless methods only available when feature ``timezone`` is enabled are being exercised. See :sip:ref:`~PyQt6.QtCore.QTimeZone.Initialization.Initialization` and QTimeZone::fromSecondsAheadOfUtc(int) for how to construct these representations.
+
+This documentation distinguishes between "time zone", used to describe a time representation described by system-supplied or standard information, and time representations more generally, which include these lightweight forms. The methods available only when feature ``timezone`` is enabled are apt to be cheaper for time zones than for lightweight time representations, for which these methods may construct a suitable transient time zone object to which to forward the query.
 
 .. _qtimezone-iana-time-zone-ids:
 
@@ -25,14 +40,14 @@ IANA Time Zone IDs
 
 The IANA IDs can and do change on a regular basis, and can vary depending on how recently the host system data was updated. As such you cannot rely on any given ID existing on any host system. You must use :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds` to determine what IANA IDs are available.
 
-The IANA IDs and database are also know as the Olson IDs and database, named after their creator.
+The IANA IDs and database are also know as the Olson IDs and database, named after the original compiler of the database.
 
 .. _qtimezone-utc-offset-time-zones:
 
 UTC Offset Time Zones
 .....................
 
-A default UTC time zone backend is provided which is always guaranteed to be available. This provides a set of generic Offset From UTC time zones in the range UTC-14:00 to UTC+14:00. These time zones can be created using either the standard ISO format names "UTC+00:00" as listed by :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds`, or using the number of offset seconds.
+A default UTC time zone backend is provided which is always available when feature ``timezone`` is enabled. This provides a set of generic Offset From UTC time zones in the range UTC-14:00 to UTC+14:00. These time zones can be created using either the standard ISO format names, such as "UTC+00:00", as listed by :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds`, or using a name of similar form in combination with the number of offset seconds.
 
 .. _qtimezone-windows-time-zones:
 
@@ -44,6 +59,8 @@ Windows native time zone support is severely limited compared to the standard IA
 :sip:ref:`~PyQt6.QtCore.QTimeZone` uses a conversion table derived from the Unicode CLDR data to map between IANA IDs and Windows IDs. Depending on your version of Windows and Qt, this table may not be able to provide a valid conversion, in which "UTC" will be returned.
 
 :sip:ref:`~PyQt6.QtCore.QTimeZone` provides a public API to use this conversion table. The Windows ID used is the Windows Registry Key for the time zone which is also the MS Exchange EWS ID as well, but is different to the Time Zone Name (TZID) and COD code used by MS Exchange in versions before 2007.
+
+**Note:** When Qt is built with the ICU library, it is used in preference to the Windows system APIs, bypassing all problems with those APIs using different names.
 
 .. _qtimezone-system-time-zone:
 

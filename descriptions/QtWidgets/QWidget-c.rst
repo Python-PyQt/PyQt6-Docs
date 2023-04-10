@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all user interface objects
-    :digest: 1de3e4b7f220bfcb7b4a7bf884327576
+    :digest: b002fa392701ac755c7ac23c2ef24e44
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidget` class is the base class of all user interface objects.
 
@@ -39,7 +39,7 @@ Composite Widgets
 
 When a widget is used as a container to group a number of child widgets, it is known as a composite widget. These can be created by constructing a widget with the required visual properties - a :sip:ref:`~PyQt6.QtWidgets.QFrame`, for example - and adding child widgets to it, usually managed by a layout. The above diagram shows such a composite widget that was created using Qt Designer.
 
-Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt Tutorials.
+Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt `Widgets Tutorial <https://doc.qt.io/qt-6/widgets-tutorial.html>`_.
 
 .. _qwidget-custom-widgets-and-painting:
 
@@ -98,7 +98,7 @@ Widgets that accept keyboard input need to reimplement a few more event handlers
 
 You may be required to also reimplement some of the less common event handlers:
 
-* :sip:ref:`~PyQt6.QtWidgets.QWidget.mouseMoveEvent` is called whenever the mouse moves while a mouse button is held down. This can be useful during drag and drop operations. If you call :sip:ref:`~PyQt6.QtWidgets.QWidget.setMouseTracking`\ (true), you get mouse move events even when no buttons are held down. (See also the `Drag and Drop <https://doc.qt.io/qt-6/graphicsview.html#drag-and-drop>`_ guide.)
+* :sip:ref:`~PyQt6.QtWidgets.QWidget.mouseMoveEvent` is called whenever the mouse moves while a mouse button is held down. This can be useful during drag and drop operations. If you call :sip:ref:`~PyQt6.QtWidgets.QWidget.setMouseTracking`\ (true), you get mouse move events even when no buttons are held down. (See also the `Drag and Drop <https://doc.qt.io/qt-6/dnd.html>`_ guide.)
 
 * :sip:ref:`~PyQt6.QtWidgets.QWidget.keyReleaseEvent` is called whenever a key is released and while it is held down (if the key is auto-repeating). In that case, the widget will receive a pair of key release and key press event for every repeat. The Tab and Shift+Tab keys are only passed to the widget if they are not used by the focus-change mechanisms. To force those keys to be processed by your widget, you must reimplement :sip:ref:`~PyQt6.QtWidgets.QWidget.event`.
 

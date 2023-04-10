@@ -34,6 +34,11 @@
             :sip:ref:`~PyQt6.QtMultimedia.QMediaRecorder`
         :description: QtMultimedia/QMediaCaptureSession-recorder-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaCaptureSession.screenCapture
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QScreenCapture`
+        :description: QtMultimedia/QMediaCaptureSession-screenCapture-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaCaptureSession.setAudioInput
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QAudioInput`
@@ -58,6 +63,11 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaRecorder`
         :description: QtMultimedia/QMediaCaptureSession-setRecorder-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaCaptureSession.setScreenCapture
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QScreenCapture`
+        :description: QtMultimedia/QMediaCaptureSession-setScreenCapture-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaCaptureSession.setVideoOutput
         :args:
@@ -93,6 +103,9 @@
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaCaptureSession.recorderChanged
         :description: QtMultimedia/QMediaCaptureSession-recorderChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaCaptureSession.screenCaptureChanged
+        :description: QtMultimedia/QMediaCaptureSession-screenCaptureChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaCaptureSession.videoOutputChanged
         :description: QtMultimedia/QMediaCaptureSession-videoOutputChanged-s.rst

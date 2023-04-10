@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Format independent interface for reading images from files or other devices
-    :digest: 22b8980563e99e8144b1f12d1eb5e0e6
+    :digest: 030ce06837e8ed6683be6e3fa2a11fcd
 
 The :sip:ref:`~PyQt6.QtGui.QImageReader` class provides a format independent interface for reading images from files or other devices.
 
-The most common way to read images is through :sip:ref:`~PyQt6.QtGui.QImage` and :sip:ref:`~PyQt6.QtGui.QPixmap`'s constructors, or by calling :sip:ref:`~PyQt6.QtGui.QImage.load` and :sip:ref:`~PyQt6.QtGui.QPixmap.load`. :sip:ref:`~PyQt6.QtGui.QImageReader` is a specialized class which gives you more control when reading images. For example, you can read an image into a specific size by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setScaledSize`, and you can select a clip rect, effectively loading only parts of an image, by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setClipRect`. Depending on the underlying support in the image format, this can save memory and speed up loading of images.
+The most common way to read images is through :sip:ref:`~PyQt6.QtGui.QImage` and :sip:ref:`~PyQt6.QtGui.QPixmap`'s constructors, or by calling QImage::load() and :sip:ref:`~PyQt6.QtGui.QPixmap.load`. :sip:ref:`~PyQt6.QtGui.QImageReader` is a specialized class which gives you more control when reading images. For example, you can read an image into a specific size by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setScaledSize`, and you can select a clip rect, effectively loading only parts of an image, by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setClipRect`. Depending on the underlying support in the image format, this can save memory and speed up loading of images.
 
 To read an image, you start by constructing a :sip:ref:`~PyQt6.QtGui.QImageReader` object. Pass either a file name or a device pointer, and the image format to :sip:ref:`~PyQt6.QtGui.QImageReader`'s constructor. You can then set several options, such as the clip rect (by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setClipRect`) and scaled size (by calling :sip:ref:`~PyQt6.QtGui.QImageReader.setScaledSize`). :sip:ref:`~PyQt6.QtGui.QImageReader.canRead` returns the image if the :sip:ref:`~PyQt6.QtGui.QImageReader` can read the image (i.e., the image format is supported and the device is open for reading). Call :sip:ref:`~PyQt6.QtGui.QImageReader.read` to read the image.
 
@@ -33,4 +33,4 @@ The high resolution version is marked by the suffix ``@2x`` on the base name. Th
 
 This can be disabled by setting the environment variable ``QT_HIGHDPI_DISABLE_2X_IMAGE_LOADING``.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QImageIOHandler`, QImageIOPlugin, :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, :sip:ref:`~PyQt6.QtGui.QColorSpace`, :sip:ref:`~PyQt6.QtGui.QImage.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QIcon`, :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QImageIOHandler`, QImageIOPlugin, :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, :sip:ref:`~PyQt6.QtGui.QColorSpace`, :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QIcon`, :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage`.

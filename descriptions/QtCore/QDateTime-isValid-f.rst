@@ -2,10 +2,10 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: d3b50af9ca4c5181520a5b21f4848927
+    :digest: 6ff50921fbd9ad94ce835bab121d217d
 
-Returns ``true`` if both the date and the time are valid and they are valid in the current :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`, otherwise returns ``false``.
+Returns ``true`` if this datetime represents a definite moment, otherwise ``false``.
 
-If the :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` is :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime` or :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone` then the date and time are checked to see if they fall in the Standard Time to Daylight-Saving Time transition hour, i.e. if the transition is at 2am and the clock goes forward to 3am then the time from 02:00:00 to 02:59:59.999 is considered to be invalid.
+A datetime is valid if both its date and its time are valid and the time representation used gives a valid meaning to their combination. When the time representation is a specific time-zone or local time, there may be times on some dates that the zone skips in its representation, as when a daylight-saving transition skips an hour (typically during a night in spring). For example, if DST ends at 2am with the clock advancing to 3am, then datetimes from 02:00:00 to 02:59:59.999 on that day are invalid.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.YearRange`, :sip:ref:`~PyQt6.QtCore.QDate.isValid`, :sip:ref:`~PyQt6.QtCore.QTime.isValid`.

@@ -234,11 +234,6 @@
             :sip:ref:`~PyQt6.QtSql.QSqlIndex`
         :description: QtSql/QSqlTableModel-setPrimaryKey-f.rst
 
-    .. sip:method:: PyQt6.QtSql.QSqlTableModel.setQuery
-        :args:
-            :sip:ref:`~PyQt6.QtSql.QSqlQuery`
-        :description: QtSql/QSqlTableModel-setQuery-f.rst
-
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.setRecord
         :args:
             int

@@ -26,22 +26,52 @@
             str
         :description: QtCore/QMessageLogger-critical-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMessageLogger.critical
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLoggingCategory`
+            str
+        :description: QtCore/QMessageLogger-critical-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QMessageLogger.debug
         :args:
             str
         :description: QtCore/QMessageLogger-debug-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMessageLogger.debug
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLoggingCategory`
+            str
+        :description: QtCore/QMessageLogger-debug-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMessageLogger.fatal
         :args:
             str
         :description: QtCore/QMessageLogger-fatal-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMessageLogger.fatal
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLoggingCategory`
+            str
+        :description: QtCore/QMessageLogger-fatal-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QMessageLogger.info
         :args:
             str
         :description: QtCore/QMessageLogger-info-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMessageLogger.info
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLoggingCategory`
+            str
+        :description: QtCore/QMessageLogger-info-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QMessageLogger.warning
         :args:
             str
         :description: QtCore/QMessageLogger-warning-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMessageLogger.warning
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLoggingCategory`
+            str
+        :description: QtCore/QMessageLogger-warning-f-1.rst

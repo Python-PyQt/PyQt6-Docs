@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Main application window
-    :digest: 214e445902d29faf2d009fb27e17d007
+    :digest: 6d7ec7763dbc1ef9d77e182dd588db8c
 
 The :sip:ref:`~PyQt6.QtWidgets.QMainWindow` class provides a main application window.
 
@@ -89,4 +89,4 @@ Storing State
 
 :sip:ref:`~PyQt6.QtWidgets.QMainWindow` can store the state of its layout with ``saveState()``; it can later be retrieved with ``restoreState()``. It is the position and size (relative to the size of the main window) of the toolbars and dock widgets that are stored.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenuBar`, :sip:ref:`~PyQt6.QtWidgets.QToolBar`, :sip:ref:`~PyQt6.QtWidgets.QStatusBar`, :sip:ref:`~PyQt6.QtWidgets.QDockWidget`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Dock Widgets Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-dockwidgets-example.html>`_, `MDI Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-mdi-example.html>`_, `SDI Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-sdi-example.html>`_, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenuBar`, :sip:ref:`~PyQt6.QtWidgets.QToolBar`, :sip:ref:`~PyQt6.QtWidgets.QStatusBar`, :sip:ref:`~PyQt6.QtWidgets.QDockWidget`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Dock Widgets Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-dockwidgets-example.html>`_, `MDI Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-mdi-example.html>`_, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.

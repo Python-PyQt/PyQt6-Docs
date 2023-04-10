@@ -97,6 +97,11 @@
             bool
         :description: QtCore/QCryptographicHash-addData-f-2.rst
 
+    .. sip:method:: PyQt6.QtCore.QCryptographicHash.algorithm
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QCryptographicHash.Algorithm`
+        :description: QtCore/QCryptographicHash-algorithm-f.rst
+
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.hash
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
@@ -126,3 +131,16 @@
         :returns:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :description: QtCore/QCryptographicHash-resultView-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCryptographicHash.supportsAlgorithm
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QCryptographicHash.Algorithm`
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QCryptographicHash-supportsAlgorithm-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCryptographicHash.swap
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QCryptographicHash`
+        :description: QtCore/QCryptographicHash-swap-f.rst

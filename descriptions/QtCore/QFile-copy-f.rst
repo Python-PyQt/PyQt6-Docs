@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 9d2496c01394f04863ec354dfad3b4be
     :realsig: (const QString&)
-    :digest: a0dadfb472d32aa5f783020f1030f075
+    :digest: 04bfec61ea98a0937eaa64ae871c2fb3
 
 Copies the file named :sip:ref:`~PyQt6.QtCore.QFile.fileName` to *newName*.
 
@@ -12,6 +12,8 @@ If the copied file is a symbolic link (symlink), the file it refers to is copied
 
 Returns ``true`` if successful; otherwise returns ``false``.
 
-Note that if a file with the name *newName* already exists,  returns ``false``. This means :sip:ref:`~PyQt6.QtCore.QFile` will not overwrite it.
+Note that if a file with the name *newName* already exists, copy() returns ``false``. This means :sip:ref:`~PyQt6.QtCore.QFile` will not overwrite it.
+
+**Note:** On Android, this operation is not yet supported for ``content`` scheme URIs.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QFile.setFileName`.

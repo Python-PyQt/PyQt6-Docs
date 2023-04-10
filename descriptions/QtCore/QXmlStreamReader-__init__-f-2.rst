@@ -2,7 +2,9 @@
     :status: todo
     :pysig: a5704e7d57089c440a7d83c72d987b9e
     :realsig: (const QByteArray&)
-    :digest: 551d867f145debfd7005a0b5d20a7ddc
+    :digest: 0e04adcd1e6b17c0d079a348ea578c58
+
+This is an overloaded function.
 
 Creates a new stream reader that reads from *data*.
 

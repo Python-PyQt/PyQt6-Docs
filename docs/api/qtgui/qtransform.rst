@@ -388,6 +388,15 @@
             :sip:ref:`~PyQt6.QtGui.QTransform`
         :description: QtGui/QTransform-rotate-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTransform.rotate
+        :args:
+            float
+            :sip:ref:`~PyQt6.QtCore.Qt.Axis`
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QTransform`
+        :description: QtGui/QTransform-rotate-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QTransform.rotateRadians
         :args:
             float
@@ -395,6 +404,15 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTransform`
         :description: QtGui/QTransform-rotateRadians-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTransform.rotateRadians
+        :args:
+            float
+            :sip:ref:`~PyQt6.QtCore.Qt.Axis`
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QTransform`
+        :description: QtGui/QTransform-rotateRadians-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTransform.scale
         :args:

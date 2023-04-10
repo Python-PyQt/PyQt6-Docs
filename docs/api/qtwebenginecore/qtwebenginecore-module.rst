@@ -23,6 +23,11 @@
             str
         :description: QtWebEngineCore/qWebEngineChromiumVersion-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineProcessName
+        :returns:
+            str
+        :description: QtWebEngineCore/qWebEngineProcessName-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineVersion
         :returns:
             str

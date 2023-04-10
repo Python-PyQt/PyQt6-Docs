@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: 278d3274a3e0574fb4b526ae7a2a6d65
+    :digest: 66299821ee269044ac472cd34f5eee88
 
-The string is written in scientific form. It may have an exponent part(i.e. 1.5E-2).
+The string is written in scientific form, which optionally appends an exponent part to the standard format, for example ``"1.5E-2"``.

@@ -10,6 +10,9 @@
         .. sip:enum-member:: PyQt6.QtCharts.QXYSeries.PointConfiguration.Color
             :description: QtCharts/QXYSeries-PointConfiguration-Color-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelFormat
+            :description: QtCharts/QXYSeries-PointConfiguration-LabelFormat-v.rst
+
         .. sip:enum-member:: PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelVisibility
             :description: QtCharts/QXYSeries-PointConfiguration-LabelVisibility-v.rst
 

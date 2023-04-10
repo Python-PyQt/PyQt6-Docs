@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for reading from and writing to files
-    :digest: ffb64d117a47c4054c84935c09510fb1
+    :digest: 24a4c6cc444a9ef244eec3fb6979c9ee
 
 The :sip:ref:`~PyQt6.QtCore.QFile` class provides an interface for reading from and writing to files.
 
@@ -46,13 +46,6 @@ To write text, we can use operator<<(), which is overloaded to take a :sip:ref:`
 
 :sip:ref:`~PyQt6.QtCore.QDataStream` is similar, in that you can use operator<<() to write data and operator>>() to read it back. See the class documentation for details.
 
-When you use :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtCore.QFileInfo`, and :sip:ref:`~PyQt6.QtCore.QDir` to access the file system with Qt, you can use Unicode file names. On Unix, these file names are converted to an 8-bit encoding. If you want to use standard C++ APIs (``<cstdio>`` or ``<iostream>``) or platform-specific APIs to access files instead of :sip:ref:`~PyQt6.QtCore.QFile`, you can use the :sip:ref:`~PyQt6.QtCore.QFile.encodeName` and :sip:ref:`~PyQt6.QtCore.QFile.decodeName` functions to convert between Unicode file names and 8-bit file names.
-
-On Unix, there are some special system files (e.g. in ``/proc``) for which :sip:ref:`~PyQt6.QtCore.QFile.size` will always return 0, yet you may still be able to read more data from such a file; the data is generated in direct response to you calling read(). In this case, however, you cannot use atEnd() to determine if there is more data to read (since atEnd() will return true for a file that claims to have size 0). Instead, you should either call readAll(), or call read() or readLine() repeatedly until no more data can be read. The next example uses :sip:ref:`~PyQt6.QtCore.QTextStream` to read ``/proc/modules`` line by line:
-
-.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-file-file.py
-    :lines: 118-127
-
 .. _qfile-signals:
 
 Signals
@@ -65,8 +58,23 @@ Unlike other :sip:ref:`~PyQt6.QtCore.QIODevice` implementations, such as :sip:re
 Platform Specific Issues
 ------------------------
 
+`Qt APIs related to I/O <https://doc.qt.io/qt-6/io.html>`_ use UTF-16 based QStrings to represent file paths. Standard C++ APIs (``<cstdio>`` or ``<iostream>``) or platform-specific APIs however often need a 8-bit encoded path. You can use :sip:ref:`~PyQt6.QtCore.QFile.encodeName` and :sip:ref:`~PyQt6.QtCore.QFile.decodeName` to convert between both representations.
+
+On Unix, there are some special system files (e.g. in ``/proc``) for which :sip:ref:`~PyQt6.QtCore.QFile.size` will always return 0, yet you may still be able to read more data from such a file; the data is generated in direct response to you calling read(). In this case, however, you cannot use atEnd() to determine if there is more data to read (since atEnd() will return true for a file that claims to have size 0). Instead, you should either call readAll(), or call read() or readLine() repeatedly until no more data can be read. The next example uses :sip:ref:`~PyQt6.QtCore.QTextStream` to read ``/proc/modules`` line by line:
+
+.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-file-file.py
+    :lines: 118-127
+
 File permissions are handled differently on Unix-like systems and Windows. In a non :sip:ref:`~PyQt6.QtCore.QIODevice.isWritable` directory on Unix-like systems, files cannot be created. This is not always the case on Windows, where, for instance, the 'My Documents' directory usually is not writable, but it is still possible to create files in it.
 
 Qt's understanding of file permissions is limited, which affects especially the :sip:ref:`~PyQt6.QtCore.QFile.setPermissions` function. On Windows, Qt will set only the legacy read-only flag, and that only when none of the Write\* flags are passed. Qt does not manipulate access control lists (ACLs), which makes this function mostly useless for NTFS volumes. It may still be of use for USB sticks that use VFAT file systems. POSIX ACLs are not manipulated, either.
+
+On Android, some limitations apply when dealing with `content URIs <https://doc.qt.io/qt-6/https://developer.android.com/guide/topics/providers/content-provider-basics#ContentURIs>`_:
+
+* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements Android's native file picker.
+
+* Aim to follow the `Scoped storage <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage#scoped-storage>`_ guidelines, such as using app specific directories instead of other public external directories. For more information, also see `storage best practices <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/use-cases>`_.
+
+* Due to the design of Qt APIs (e.g. :sip:ref:`~PyQt6.QtCore.QFile`), it's not possible to fully integrate the latter APIs with Android's `MediaStore <https://doc.qt.io/qt-6/https://developer.android.com/reference/android/provider/MediaStore>`_ APIs.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QTextStream`, :sip:ref:`~PyQt6.QtCore.QDataStream`, :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QDir`, `The Qt Resource System <https://doc.qt.io/qt-6/resources.html>`_.

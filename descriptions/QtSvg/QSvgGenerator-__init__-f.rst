@@ -2,6 +2,6 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: c53d6d6c9c8087c21dfff11735798935
+    :digest: 2ac90277b247ad14ae9f9b4d9ef355d6
 
-Constructs a new generator.
+Constructs a new generator using the SVG Tiny 1.2 profile.

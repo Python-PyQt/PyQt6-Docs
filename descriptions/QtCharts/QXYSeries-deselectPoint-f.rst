@@ -2,10 +2,10 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
-    :digest: dec462c6cba0c1f2d83deb7c8b6c660b
+    :digest: 03cb85640abf99381791683faf6320b7
 
 Deselects point at given *index*.
 
-**Note:** Emits QXYSeries::selectedPointsChanged
+**Note:** Emits :sip:ref:`~PyQt6.QtCharts.QXYSeries.selectedPointsChanged`
 
 .. seealso:: :sip:ref:`~PyQt6.QtCharts.QXYSeries.setPointSelected`.

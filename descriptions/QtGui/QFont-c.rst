@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies a query for a font used for drawing text
-    :digest: da3e587fde7c472d09a3ecc028d44737
+    :digest: 378e6aad95f0f1c08857ca425738ec66
 
 The :sip:ref:`~PyQt6.QtGui.QFont` class specifies a query for a font used for drawing text.
 
@@ -13,7 +13,7 @@ Attributes which are not specifically set will not affect the font selection alg
 
 To load a specific physical font, typically represented by a single file, use :sip:ref:`~PyQt6.QtGui.QRawFont` instead.
 
-Note that a :sip:ref:`~PyQt6.QtGui.QGuiApplication` instance must exist before a :sip:ref:`~PyQt6.QtGui.QFont` can be used. You can set the application's default font with :sip:ref:`~PyQt6.QtGui.QGuiApplication.setFont`.
+Note that a :sip:ref:`~PyQt6.QtGui.QGuiApplication` instance must exist before a :sip:ref:`~PyQt6.QtGui.QFont` can be used. You can set the application's default font with QGuiApplication::setFont().
 
 If a chosen font does not include all the characters that need to be displayed, :sip:ref:`~PyQt6.QtGui.QFont` will try to find the characters in the nearest equivalent fonts. When a :sip:ref:`~PyQt6.QtGui.QPainter` draws a character from a font the :sip:ref:`~PyQt6.QtGui.QFont` will report whether or not it has the character; if it does not, :sip:ref:`~PyQt6.QtGui.QPainter` will draw an unfilled square.
 

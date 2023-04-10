@@ -62,6 +62,15 @@
             List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
         :description: QtGui/QTextLine-glyphRuns-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextLine.glyphRuns
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag`
+        :returns:
+            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLine-glyphRuns-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QTextLine.height
         :returns:
             float

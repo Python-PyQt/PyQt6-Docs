@@ -133,6 +133,16 @@
             :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatchIterator`
         :description: QtCore/QRegularExpression-globalMatch-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QRegularExpression.globalMatchView
+        :args:
+            str
+            offset: int = 0
+            matchType: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType.NormalMatch`
+            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption.NoMatchOption`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatchIterator`
+        :description: QtCore/QRegularExpression-globalMatchView-f.rst
+
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__hash__
         :returns:
             int
@@ -152,6 +162,16 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatch`
         :description: QtCore/QRegularExpression-match-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QRegularExpression.matchView
+        :args:
+            str
+            offset: int = 0
+            matchType: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchType.NormalMatch`
+            matchOptions: :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption` = :sip:ref:`~PyQt6.QtCore.QRegularExpression.MatchOption.NoMatchOption`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRegularExpressionMatch`
+        :description: QtCore/QRegularExpression-matchView-f.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.namedCaptureGroups
         :returns:

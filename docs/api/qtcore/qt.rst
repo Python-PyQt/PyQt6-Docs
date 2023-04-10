@@ -315,6 +315,18 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ClipOperation.ReplaceClip
             :description: QtCore/Qt-ClipOperation-ReplaceClip-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.Qt.ColorScheme
+        :description: QtCore/Qt-ColorScheme-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ColorScheme.Dark
+            :description: QtCore/Qt-ColorScheme-Dark-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ColorScheme.Light
+            :description: QtCore/Qt-ColorScheme-Light-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ColorScheme.Unknown
+            :description: QtCore/Qt-ColorScheme-Unknown-v.rst
+
     .. sip:enum:: PyQt6.QtCore.Qt.ConnectionType
         :description: QtCore/Qt-ConnectionType-e.rst
 

@@ -79,23 +79,13 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QXmlStreamReader-__init__-f-2.rst
-
-    .. sip:method:: PyQt6.QtCore.QXmlStreamReader.__init__
-        :args:
-            str
-        :description: QtCore/QXmlStreamReader-__init__-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QXmlStreamReader-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.addData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QXmlStreamReader-addData-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QXmlStreamReader.addData
-        :args:
-            str
-        :description: QtCore/QXmlStreamReader-addData-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :description: QtCore/QXmlStreamReader-addData-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.addExtraNamespaceDeclaration
         :args:

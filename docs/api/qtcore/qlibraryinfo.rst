@@ -62,6 +62,12 @@
         :static:
         :description: QtCore/QLibraryInfo-isDebugBuild-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLibraryInfo.isSharedBuild
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QLibraryInfo-isSharedBuild-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLibraryInfo.path
         :args:
             :sip:ref:`~PyQt6.QtCore.QLibraryInfo.LibraryPath`

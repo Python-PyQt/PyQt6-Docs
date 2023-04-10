@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6f916023b5ef6d23dd04c5719efc1630
     :realsig: (const int,const QHash<QXYSeries::PointConfiguration,QVariant>&)
-    :digest: 15ef9e8db255be031ff657c100ff7e64
+    :digest: d0400c17a5504378b9291597aa0471dc
 
 Enables customizing the appearance of a point located at *index* with desired *configuration*.
 
@@ -13,7 +13,7 @@ A point's configuration is represented as a hash map with :sip:ref:`~PyQt6.QtCha
 ::
 
     QLineSeries *series = new QLineSeries();
-    series->setName("Customized serie");
+    series->setName("Customized series");
     series->setPointsVisible(true);
 
     *series << QPointF(0, 6) << QPointF(2, 4) << QPointF(3, 6) << QPointF(7, 4) << QPointF(10, 5)
@@ -31,10 +31,11 @@ A point's configuration is represented as a hash map with :sip:ref:`~PyQt6.QtCha
 
     series->setPointConfiguration(4, conf);
 
-    conf.remove(QXYSeries::PointConfiguration::LabelVisibility);
+    conf.remove(QXYSeries::PointConfiguration::Color);
+    conf[QXYSeries::PointConfiguration::LabelFormat] = "This Point";
     series->setPointConfiguration(6, conf);
 
-In this example, you can see a default :sip:ref:`~PyQt6.QtCharts.QLineSeries` with 10 points and with changed configuration of two points. Both changed points are red and visibly bigger than the others with a look derived from series. By default, points don't have labels, but the point at index 4 has the label thanks to the :sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelVisibility` configuration value. Below is an example of a chart created in this way:
+In this example, you can see a default :sip:ref:`~PyQt6.QtCharts.QLineSeries` with 10 points and with changed configuration of two points. Both changed points are visibly bigger than the others with a look derived from the series configuration. By default, points don't have labels, but the point at index 4 has a label thanks to the :sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelVisibility` and :sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelFormat` configuration values. The point at index 6 has a custom label *This Point* thanks to the :sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration.LabelFormat` configuration value. Below is an example of a chart created in this way:
 
 .. image:: ../../../images/xyseries_point_configuration.png
 

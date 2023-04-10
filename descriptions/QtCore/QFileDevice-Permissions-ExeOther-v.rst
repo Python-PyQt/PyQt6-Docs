@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x0001
     :realname: QFileDevice::Permission::ExeOther
-    :digest: eb0aea80c11af5e33addf915097a0518
+    :digest: 2bd05551e4ccc68775682b218340200b
 
-The file is executable by anyone.
+The file is executable by others.

@@ -1,18 +1,20 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal or vertical layout for managing widgets in Graphics View
-    :digest: c140336362d395aa99f31e21c46e6d54
+    :digest: 5b140281ee09fbb1d0d1cd48a4f2afdb
 
 The :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout` class provides a horizontal or vertical layout for managing widgets in Graphics View.
 
-The default orientation for a linear layout is :sip:ref:`~PyQt6.QtCore.Qt.Orientations.Horizontal`. You can choose a vertical orientation either by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setOrientation`, or by passing :sip:ref:`~PyQt6.QtCore.Qt.Orientations.Vertical` to :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout`'s constructor.
+The default orientation for a linear layout is :sip:ref:`~PyQt6.QtCore.Qt.Orientation.Horizontal`. You can choose a vertical orientation either by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setOrientation`, or by passing :sip:ref:`~PyQt6.QtCore.Qt.Orientation.Vertical` to :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout`'s constructor.
 
-The most common way to use :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout` is to construct an object on the heap with no parent, add widgets and layouts by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.addItem`, and finally assign the layout to a widget by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.setLayout`.
+The most common way to use :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout` is to construct an object on the heap, passing a parent widget to the constructor, then add widgets and layouts by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.addItem`.
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_graphicsview_qgraphicslinearlayout.py
     :lines: 54-64
 
-You can add widgets, layouts, stretches (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.addStretch`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.insertStretch` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setStretchFactor`), and spacings (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setItemSpacing`) to a linear layout. The layout takes ownership of the items. In some cases when the layout item also inherits from :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` (such as `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_) there will be a ambiguity in ownership because the layout item belongs to two ownership hierarchies. See the documentation of :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem.setOwnedByLayout` how to handle this. You can access each item in the layout by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.count` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.itemAt`. Calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.removeAt` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.removeItem` will remove an item from the layout, without destroying it.
+Alternatively, if you do not pass a parent widget to the layout's constructor, you will need to call :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget.setLayout` to set this layout as the top-level layout for that widget, the widget will take ownership of the layout.
+
+You can add widgets, layouts, stretches (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.addStretch`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.insertStretch` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setStretchFactor`), and spacings (\ :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.setItemSpacing`) to a linear layout. The layout takes ownership of the items. In some cases when the layout item also inherits from :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` (such as :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget`) there will be a ambiguity in ownership because the layout item belongs to two ownership hierarchies. See the documentation of :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayoutItem.setOwnedByLayout` how to handle this. You can access each item in the layout by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.count` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.itemAt`. Calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.removeAt` or :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout.removeItem` will remove an item from the layout, without destroying it.
 
 .. _qgraphicslinearlayout-size-hints-and-size-policies-in-qgraphicslinearlayout:
 
@@ -42,6 +44,6 @@ You can assign a stretch factor to each item to control how much space it will g
 QGraphicsLinearLayout Compared to Other Layouts
 -----------------------------------------------
 
-:sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout` is very similar to :sip:ref:`~PyQt6.QtWidgets.QVBoxLayout` and :sip:ref:`~PyQt6.QtWidgets.QHBoxLayout`, but in contrast to these classes, it is used to manage `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_ and `QGraphicsLayout <https://doc.qt.io/qt-6/graphicsview.html#qgraphicslayout>`_ instead of `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ and :sip:ref:`~PyQt6.QtWidgets.QLayout`.
+:sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout` is very similar to :sip:ref:`~PyQt6.QtWidgets.QVBoxLayout` and :sip:ref:`~PyQt6.QtWidgets.QHBoxLayout`, but in contrast to these classes, it is used to manage :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayout` instead of :sip:ref:`~PyQt6.QtWidgets.QWidget` and :sip:ref:`~PyQt6.QtWidgets.QLayout`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout`, `QGraphicsWidget <https://doc.qt.io/qt-6/graphicsview.html#qgraphicswidget>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsWidget`.

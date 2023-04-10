@@ -435,8 +435,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.minorDeviceClass
         :returns:
-            int
-        :description: QtBluetooth/QBluetoothDeviceInfo-minorDeviceClass-f.rst
+            bytes
+        :description: QtBluetooth/QBluetoothDeviceInfo-minorDeviceClass-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.name
         :returns:

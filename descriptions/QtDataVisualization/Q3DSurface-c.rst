@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Methods for rendering 3D surface plots
-    :digest: ef28033277d778b2652b309b85d1a617
+    :digest: 7be43c8232f1f6cbe61b56a239ff80a0
 
 The :sip:ref:`~PyQt6.QtDataVisualization.Q3DSurface` class provides methods for rendering 3D surface plots.
 
@@ -54,6 +54,6 @@ And this is what those few lines of code produce:
 
 .. image:: ../../../images/q3dsurface-minimal.png
 
-The scene can be rotated, zoomed into, and a surface point can be selected to view its position, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Surface Example <https://doc.qt.io/qt-6/qtdatavisualization-surface-example.html>`_.
+The scene can be rotated, zoomed into, and a surface point can be selected to view its position, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Surface Graph <https://doc.qt.io/qt-6/qtdatavis3d-graphgallery-example.html#surface-graph>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DBars`, :sip:ref:`~PyQt6.QtDataVisualization.Q3DScatter`, :sip:ref:`~PyQt6.Qt Data Visualization C++ Classes`.

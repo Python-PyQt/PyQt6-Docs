@@ -3,6 +3,15 @@
 .. sip:class:: PyQt6.QtCore.QTimeZone
     :description: QtCore/QTimeZone-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QTimeZone.Initialization
+        :description: QtCore/QTimeZone-Initialization-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QTimeZone.Initialization.LocalTime
+            :description: QtCore/QTimeZone-Initialization-LocalTime-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QTimeZone.Initialization.UTC
+            :description: QtCore/QTimeZone-Initialization-UTC-v.rst
+
     .. sip:enum:: PyQt6.QtCore.QTimeZone.NameType
         :description: QtCore/QTimeZone-NameType-e.rst
 
@@ -35,6 +44,11 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone.Initialization`
+        :description: QtCore/QTimeZone-__init__-f-6.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtCore/QTimeZone-__init__-f-1.rst
 
@@ -64,6 +78,11 @@
         :returns:
             str
         :description: QtCore/QTimeZone-abbreviation-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.asBackendZone
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :description: QtCore/QTimeZone-asBackendZone-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.availableTimeZoneIds
         :returns:
@@ -129,6 +148,19 @@
             bool
         :description: QtCore/QTimeZone-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTimeZone.fixedSecondsAheadOfUtc
+        :returns:
+            int
+        :description: QtCore/QTimeZone-fixedSecondsAheadOfUtc-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.fromSecondsAheadOfUtc
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :static:
+        :description: QtCore/QTimeZone-fromSecondsAheadOfUtc-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTimeZone.hasDaylightTime
         :returns:
             bool
@@ -166,6 +198,19 @@
             bool
         :static:
         :description: QtCore/QTimeZone-isTimeZoneIdAvailable-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.isUtcOrFixedOffset
+        :returns:
+            bool
+        :description: QtCore/QTimeZone-isUtcOrFixedOffset-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.isUtcOrFixedOffset
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QTimeZone-isUtcOrFixedOffset-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.isValid
         :returns:
@@ -235,6 +280,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :description: QtCore/QTimeZone-territory-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.timeSpec
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`
+        :description: QtCore/QTimeZone-timeSpec-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.transitions
         :args:

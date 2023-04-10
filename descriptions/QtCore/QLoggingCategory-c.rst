@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a category, or 'area' in the logging infrastructure
-    :digest: 223fa5b914bc288cfc05090ffe7b8ffc
+    :digest: c25d2a3271c5c61937954135e56a0527
 
 The :sip:ref:`~PyQt6.QtCore.QLoggingCategory` class represents a category, or 'area' in the logging infrastructure.
 
-:sip:ref:`~PyQt6.QtCore.QLoggingCategory` represents a certain logging category - identified by a string - at runtime. A category can be configured to enable or disable logging of messages per message type.
+:sip:ref:`~PyQt6.QtCore.QLoggingCategory` represents a certain logging category - identified by a string - at runtime. A category can be configured to enable or disable logging of messages per message type. An exception are fatal messages, which are always enabled.
 
 To check whether a message type is enabled or not, use one of these methods: :sip:ref:`~PyQt6.QtCore.QLoggingCategory.isDebugEnabled`, :sip:ref:`~PyQt6.QtCore.QLoggingCategory.isInfoEnabled`, :sip:ref:`~PyQt6.QtCore.QLoggingCategory.isWarningEnabled`, and :sip:ref:`~PyQt6.QtCore.QLoggingCategory.isCriticalEnabled`.
 
@@ -19,6 +19,8 @@ Creating Category Objects
 The Q_DECLARE_LOGGING_CATEGORY() and Q_LOGGING_CATEGORY() macros conveniently declare and create :sip:ref:`~PyQt6.QtCore.QLoggingCategory` objects:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qloggingcategory-main.py
+
+There is also the Q_DECLARE_EXPORTED_LOGGING_CATEGORY() macro in order to use a logging category across library boundaries.
 
 Category names are free text; to configure categories using :ref:`qloggingcategory-logging-rules`, their names should follow this convention:
 
@@ -54,7 +56,7 @@ Both the :sip:ref:`~PyQt6.QtCore.QLoggingCategory` constructor and the Q_LOGGING
 
 logs messages of type ``QtWarningMsg``, ``QtCriticalMsg``, ``QtFatalMsg``, but ignores messages of type ``QtDebugMsg`` and ``QtInfoMsg``.
 
-If no argument is passed, all messages are logged. Only Qt internal categories which start with ``qt`` are handled differently: For these, only messages of type ``QtInfoMsg``, ``QtWarningMsg``, and ``QtCriticalMsg`` are logged by default.
+If no argument is passed, all messages are logged. Only Qt internal categories which start with ``qt`` are handled differently: For these, only messages of type ``QtInfoMsg``, ``QtWarningMsg``, ``QtCriticalMsg``, and ``QFatalMsg`` are logged by default.
 
 **Note:** Logging categories are not affected by your C++ build configuration. That is, whether messages are printed does not change depending on whether the code is compiled with debug symbols ('Debug Build'), optimizations ('Release Build'), or some other combination.
 

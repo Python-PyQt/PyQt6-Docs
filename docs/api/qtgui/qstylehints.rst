@@ -4,6 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtGui/QStyleHints-c.rst
 
+    .. sip:method:: PyQt6.QtGui.QStyleHints.colorScheme
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
+        :description: QtGui/QStyleHints-colorScheme-f.rst
+
     .. sip:method:: PyQt6.QtGui.QStyleHints.cursorFlashTime
         :returns:
             int
@@ -18,6 +23,11 @@
         :returns:
             int
         :description: QtGui/QStyleHints-keyboardAutoRepeatRate-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QStyleHints.keyboardAutoRepeatRateF
+        :returns:
+            float
+        :description: QtGui/QStyleHints-keyboardAutoRepeatRateF-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStyleHints.keyboardInputInterval
         :returns:
@@ -128,6 +138,11 @@
         :returns:
             int
         :description: QtGui/QStyleHints-wheelScrollLines-f.rst
+
+    .. sip:signal:: PyQt6.QtGui.QStyleHints.colorSchemeChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
+        :description: QtGui/QStyleHints-colorSchemeChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGui.QStyleHints.cursorFlashTimeChanged
         :args:

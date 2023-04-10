@@ -55,6 +55,9 @@
         .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.RemoteHostClosedError
             :description: QtBluetooth/QLowEnergyController-Error-RemoteHostClosedError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.RssiReadError
+            :description: QtBluetooth/QLowEnergyController-Error-RssiReadError-v.rst
+
         .. sip:enum-member:: PyQt6.QtBluetooth.QLowEnergyController.Error.UnknownError
             :description: QtBluetooth/QLowEnergyController-Error-UnknownError-v.rst
 
@@ -160,6 +163,9 @@
             int
         :description: QtBluetooth/QLowEnergyController-mtu-f.rst
 
+    .. sip:method:: PyQt6.QtBluetooth.QLowEnergyController.readRssi
+        :description: QtBluetooth/QLowEnergyController-readRssi-f.rst
+
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyController.remoteAddress
         :returns:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothAddress`
@@ -238,6 +244,11 @@
         :args:
             int
         :description: QtBluetooth/QLowEnergyController-mtuChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyController.rssiRead
+        :args:
+            int
+        :description: QtBluetooth/QLowEnergyController-rssiRead-s.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyController.serviceDiscovered
         :args:

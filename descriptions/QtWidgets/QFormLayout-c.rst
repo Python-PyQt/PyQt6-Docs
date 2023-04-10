@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Manages forms of input widgets and their associated labels
-    :digest: 63906fe9b764ce744c07847e521e7378
+    :digest: 0decf45d151a725f997fc12f03bcbf68
 
 The :sip:ref:`~PyQt6.QtWidgets.QFormLayout` class manages forms of input widgets and their associated labels.
 
@@ -17,9 +17,9 @@ Traditionally, such two-column form layouts were achieved using :sip:ref:`~PyQt6
 
   For devices with small displays, :sip:ref:`~PyQt6.QtWidgets.QFormLayout` can be set to :sip:ref:`~PyQt6.QtWidgets.QFormLayout.RowWrapPolicy.WrapLongRows`, or even to :sip:ref:`~PyQt6.QtWidgets.QFormLayout.RowWrapPolicy.WrapAllRows`.
 
-* **Convenient API for creating label--field pairs.**
+* **Convenient API for creating label–field pairs.**
 
-  The :sip:ref:`~PyQt6.QtWidgets.QFormLayout.addRow` overload that takes a QString and a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ \* creates a :sip:ref:`~PyQt6.QtWidgets.QLabel` behind the scenes and automatically set up its buddy. We can then write code like this:
+  The :sip:ref:`~PyQt6.QtWidgets.QFormLayout.addRow` overload that takes a QString and a :sip:ref:`~PyQt6.QtWidgets.QWidget` \* creates a :sip:ref:`~PyQt6.QtWidgets.QLabel` behind the scenes and automatically set up its buddy. We can then write code like this:
 
   .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_kernel_qformlayout.py
       :lines: 54-58

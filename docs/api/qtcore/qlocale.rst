@@ -1242,6 +1242,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Haitian
             :description: QtCore/QLocale-Language-Haitian-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Haryanvi
+            :description: QtCore/QLocale-Language-Haryanvi-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Hausa
             :description: QtCore/QLocale-Language-Hausa-v.rst
 
@@ -1530,6 +1533,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Mohawk
             :description: QtCore/QLocale-Language-Mohawk-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Moksha
+            :description: QtCore/QLocale-Language-Moksha-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Mongolian
             :description: QtCore/QLocale-Language-Mongolian-v.rst
 
@@ -1578,6 +1584,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Nko
             :description: QtCore/QLocale-Language-Nko-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.NorthernFrisian
+            :description: QtCore/QLocale-Language-NorthernFrisian-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.NorthernLuri
             :description: QtCore/QLocale-Language-NorthernLuri-v.rst
 
@@ -1604,6 +1613,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Nyankole
             :description: QtCore/QLocale-Language-Nyankole-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Obolo
+            :description: QtCore/QLocale-Language-Obolo-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Occitan
             :description: QtCore/QLocale-Language-Occitan-v.rst
@@ -1656,6 +1668,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Phoenician
             :description: QtCore/QLocale-Language-Phoenician-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Pijin
+            :description: QtCore/QLocale-Language-Pijin-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Polish
             :description: QtCore/QLocale-Language-Polish-v.rst
 
@@ -1670,6 +1685,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Quechua
             :description: QtCore/QLocale-Language-Quechua-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Rajasthani
+            :description: QtCore/QLocale-Language-Rajasthani-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.RhaetoRomance
             :description: QtCore/QLocale-Language-RhaetoRomance-v.rst
@@ -1850,6 +1868,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.TokelauLanguage
             :description: QtCore/QLocale-Language-TokelauLanguage-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.TokiPona
+            :description: QtCore/QLocale-Language-TokiPona-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.TokPisin
             :description: QtCore/QLocale-Language-TokPisin-v.rst

@@ -93,6 +93,11 @@
             bool
         :description: QtWebEngineQuick/QQuickWebEngineProfile-isOffTheRecord-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.isPushServiceEnabled
+        :returns:
+            bool
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-isPushServiceEnabled-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.isSpellCheckEnabled
         :returns:
             bool
@@ -166,6 +171,11 @@
             str
         :description: QtWebEngineQuick/QQuickWebEngineProfile-setPersistentStoragePath-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setPushServiceEnabled
+        :args:
+            bool
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setPushServiceEnabled-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setSpellCheckEnabled
         :args:
             bool
@@ -234,6 +244,9 @@
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineNotification`
         :description: QtWebEngineQuick/QQuickWebEngineProfile-presentNotification-s.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.pushServiceEnabledChanged
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-pushServiceEnabledChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.spellCheckEnabledChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-spellCheckEnabledChanged-s.rst

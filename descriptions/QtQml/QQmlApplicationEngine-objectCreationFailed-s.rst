@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 46a7bdf6ff0ff3a292573662f7d8a6a2
     :realsig: (const QUrl&)
-    :digest: 2f6353fdfa822489b8fd17fc1275acaf
+    :digest: c0313339a70d9b2a10b0c7ea25b6bba3
 
 This signal is emitted when loading finishes because an error occurred.
 
@@ -14,7 +14,7 @@ The *url* to the component that failed to load is provided as an argument.
     QQmlApplicationEngine engine;
 
     // quit on error
-    QObject::connect(&app, QQmlApplicationEngine::objectCreationFailed,
+    QObject::connect(&engine, QQmlApplicationEngine::objectCreationFailed,
                      QCoreApplication::instance(), QCoreApplication::quit,
                      Qt::QueuedConnection);
     engine.load(QUrl());

@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x0002
     :realname: QFileDevice::Permission::WriteOther
-    :digest: 9f0be570d03c0b25137903b37e2109e0
+    :digest: 53211cb6c928e79bd6aa6a746f0d025b
 
-The file is writable by anyone.
+The file is writable by others.

@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Enables Qt Designer to access and construct custom widgets
-    :digest: 51ebd22c62656c9560f263e886952bfd
+    :digest: 57d61c53913f5b010bc5b4418e1594ab
 
 The :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` class enables Qt Designer to access and construct custom widgets.
 
 :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` provides a custom widget with an interface. The class contains a set of functions that must be subclassed to return basic information about the widget, such as its class name and the name of its header file. Other functions must be implemented to initialize the plugin when it is loaded, and to construct instances of the custom widget for *Qt Designer* to use.
 
-When implementing a custom widget you must subclass :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` to expose your widget to *Qt Designer*. For example, this is the declaration for the plugin used in the `Custom Widget Plugin example <https://doc.qt.io/qt-6/qtdesigner-customwidgetplugin-example.html>`_ that enables an analog clock custom widget to be used by *Qt Designer*:
+When implementing a custom widget you must subclass :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` to expose your widget to *Qt Designer*. For example, this is the declaration for the plugin used in the `Custom Widget Plugin <https://doc.qt.io/qt-6/qtdesigner-customwidgetplugin-example.html>`_ example that enables an analog clock custom widget to be used by *Qt Designer*:
 
 .. literalinclude:: ../../../snippets/qttools-examples-designer-customwidgetplugin-customwidgetplugin.py
     :lines: 59-81

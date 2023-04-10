@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Container for data that records information about its MIME type
-    :digest: 103eda5796da7384ef8af065a1fe4495
+    :digest: f1c662c6576e00001f819c76a5f9bbcb
 
 The :sip:ref:`~PyQt6.QtCore.QMimeData` class provides a container for data that records information about its MIME type.
 
@@ -68,6 +68,6 @@ In some cases (e.g. dropping multiple email attachments), multiple data values a
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qmimedata.py
     :lines: 124-125
 
-On Windows, the MIME format does not always map directly to the clipboard formats. Qt provides QWinMime to map clipboard formats to open-standard MIME formats. Similarly, the QMacPasteboardMime maps MIME to Mac flavors.
+On Windows, the MIME format does not always map directly to the clipboard formats. Qt provides QWindowsMimeConverter to map clipboard formats to open-standard MIME formats. Similarly, the :sip:ref:`~PyQt6.QtGui.QUtiMimeConverter` maps MIME to Uniform Type Identifiers on macOS and iOS.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QClipboard`, :sip:ref:`~PyQt6.QtGui.QDragEnterEvent`, :sip:ref:`~PyQt6.QtGui.QDragMoveEvent`, :sip:ref:`~PyQt6.QtGui.QDropEvent`, :sip:ref:`~PyQt6.QtGui.QDrag`, `Drag and Drop <https://doc.qt.io/qt-6/dnd.html>`_.

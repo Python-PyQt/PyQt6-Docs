@@ -147,6 +147,11 @@
             str
         :description: QtNetworkAuth/QAbstractOAuth2-setScope-f.rst
 
+    .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth2.setSslConfiguration
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :description: QtNetworkAuth/QAbstractOAuth2-setSslConfiguration-f.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth2.setState
         :args:
             str
@@ -156,6 +161,11 @@
         :args:
             str
         :description: QtNetworkAuth/QAbstractOAuth2-setUserAgent-f.rst
+
+    .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth2.sslConfiguration
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :description: QtNetworkAuth/QAbstractOAuth2-sslConfiguration-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth2.state
         :returns:
@@ -203,6 +213,11 @@
         :args:
             str
         :description: QtNetworkAuth/QAbstractOAuth2-scopeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth2.sslConfigurationChanged
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :description: QtNetworkAuth/QAbstractOAuth2-sslConfigurationChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth2.stateChanged
         :args:

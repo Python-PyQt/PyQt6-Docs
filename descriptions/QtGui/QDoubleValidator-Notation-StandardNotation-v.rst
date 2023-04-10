@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: 565b2d4f0080559c3628662e8d040edc
+    :digest: c72cac379a4297fa36618480570fab02
 
-The string is written as a standard number (i.e. 0.015).
+The string is written in the standard format, a whole number part optionally followed by a separator and fractional part, for example ``"0.015"``.

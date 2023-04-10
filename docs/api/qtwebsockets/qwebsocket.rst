@@ -320,6 +320,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketError`
         :description: QtWebSockets/QWebSocket-error-f.rst
 
+    .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.errorOccurred
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketError`
+        :description: QtWebSockets/QWebSocket-errorOccurred-s.rst
+
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.handshakeInterruptedOnError
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSslError`

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 81c2c045afaaf2ef39885ece474078f0
     :realsig: (QStyle*)
-    :digest: 4856861add5daaafcb18f77d23b428e6
+    :digest: 37dbdea1c0519c00f7f0bf5916c704f5
 
 Sets the application's GUI style to *style*. Ownership of the style object is transferred to :sip:ref:`~PyQt6.QtWidgets.QApplication`, so :sip:ref:`~PyQt6.QtWidgets.QApplication` will delete the style object on application exit or when a new style is set and the old style is still the parent of the application object.
 
@@ -17,4 +17,4 @@ Setting the style before a palette has been set, i.e., before creating :sip:ref:
 
 **Warning:** Qt style sheets are currently not supported for custom :sip:ref:`~PyQt6.QtWidgets.QStyle` subclasses. We plan to address this in some future release.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QApplication.style`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, :sip:ref:`~PyQt6.QtWidgets.QApplication.setPalette`, desktopSettingsAware().
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QApplication.style`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, :sip:ref:`~PyQt6.QtWidgets.QApplication.setPalette`.

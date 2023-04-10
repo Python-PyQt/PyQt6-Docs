@@ -1,11 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Modal dialog for informing the user or for asking the user a question and receiving an answer
-    :digest: be1bf8c6d8421d40f0e4f57d3b2a783e
+    :digest: 6486966b541ae2342a76a2efd8972a26
 
 The :sip:ref:`~PyQt6.QtWidgets.QMessageBox` class provides a modal dialog for informing the user or for asking the user a question and receiving an answer.
 
-A message box displays a primary :sip:ref:`~PyQt6.QtWidgets.QMessageBox.text` to alert the user to a situation, an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` to further explain the alert or to ask the user a question, and an optional :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` to provide even more data if the user requests it. A message box can also display an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.icon` and :sip:ref:`~PyQt6.QtWidgets.QMessageBox.standardButtons` for accepting a user response.
+A message box displays a primary :sip:ref:`~PyQt6.QtWidgets.QMessageBox.text` to alert the user to a situation, an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` to further explain the situation, and an optional :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` to provide even more data if the user requests it.
+
+A message box can also display an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.icon` and :sip:ref:`~PyQt6.QtWidgets.QMessageBox.standardButtons` for accepting a user response.
 
 Two APIs for using :sip:ref:`~PyQt6.QtWidgets.QMessageBox` are provided, the property-based API, and the static functions. Calling one of the static functions is the simpler approach, but it is less flexible than using the property-based API, and the result is less informative. Using the property-based API is recommended.
 
@@ -23,14 +25,14 @@ The user must click the OK button to dismiss the message box. The rest of the GU
 
 .. image:: ../../../images/msgbox1.png
 
-A better approach than just alerting the user to an event is to also ask the user what to do about it. Store the question in the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` property, and set the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.standardButtons` property to the set of buttons you want as the set of user responses. The buttons are specified by combining values from StandardButtons using the bitwise OR operator. The display order for the buttons is platform-dependent. For example, on Windows, Save is displayed to the left of Cancel, whereas on Mac OS, the order is reversed.
+A better approach than just alerting the user to an event is to also ask the user what to do about it.
 
-Mark one of your standard buttons to be your :sip:ref:`~PyQt6.QtWidgets.QMessageBox.defaultButton`.
+Set the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.standardButtons` property to the set of buttons you want as the set of user responses. The buttons are specified by combining values from StandardButtons using the bitwise OR operator. The display order for the buttons is platform-dependent. For example, on Windows, Save is displayed to the left of Cancel, whereas on macOS, the order is reversed. Mark one of your standard buttons to be your :sip:ref:`~PyQt6.QtWidgets.QMessageBox.defaultButton`.
+
+The :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` property can be used to add additional context to help the user choose the appropriate action.
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qmessagebox.py
     :lines: 128-133
-
-This is the approach recommended in the `macOS Guidelines <http://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/AppleHIGuidelines/Windows/Windows.html#//apple_ref/doc/uid/20000961-BABCAJID>`_. Similar guidelines apply for the other platforms, but note the different ways the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` is handled for different platforms.
 
 .. image:: ../../../images/msgbox2.png
 
@@ -39,7 +41,7 @@ The exec() slot returns the StandardButtons value of the button that was clicked
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qmessagebox.py
     :lines: 137-150
 
-To give the user more information to help him answer the question, set the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` property. If the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` property is set, the Show Details... button will be shown.
+To give the user more information to help them choose the appropriate, action, set the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` property. Depending on the platform the :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText`, may require the user to click a Show Details... button to be shown.
 
 .. image:: ../../../images/msgbox3.png
 

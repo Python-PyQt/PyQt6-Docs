@@ -2,11 +2,11 @@
     :status: todo
     :pysig: a34fd3e57af0cc79ef189995220041c2
     :realsig: () const
-    :digest: 7e88feb063241debc8cb620bdd9a6b70
+    :digest: 0421befa0bd4c072a3eeac2ebcb989a2
 
 Returns a list of option names that were found.
 
-This returns a list of all the recognized option names found by the parser, in the order in which they were found. For any long options that were in the form {--option=value}, the value part will have been dropped.
+This returns a list of all the recognized option names found by the parser, in the order in which they were found. For any long options that were in the form {–option=value}, the value part will have been dropped.
 
 The names in this list do not include the preceding dash characters. Names may appear more than once in this list if they were encountered more than once by the parser.
 

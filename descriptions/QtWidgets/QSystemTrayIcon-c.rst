@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Icon for an application in the system tray
-    :digest: cf4395895fd3aec9ddd92013c2b3b830
+    :digest: 6f476b897dab2d0089c2e439506227fe
 
 The :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` class provides an icon for an application in the system tray.
 
@@ -27,6 +27,6 @@ If the system tray is unavailable when a system tray icon is constructed, but be
 
 The :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon.activated` signal is emitted when the user activates the icon.
 
-Only on X11, when a tooltip is requested, the :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` receives a :sip:ref:`~PyQt6.QtGui.QHelpEvent` of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.ToolTip`. Additionally, the :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` receives wheel events of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.Wheel`. These are not supported on any other platform.
+Only on X11, when a tooltip is requested, the :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` receives a :sip:ref:`~PyQt6.QtGui.QHelpEvent` of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.ToolTip`. Additionally, the :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon` receives wheel events of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.Wheel`. These are not supported on any other platform. Note: Since GNOME Shell version 3.26, not all :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon.ActivationReason` are supported by the system without shell extensions installed.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QDesktopServices`, `System Tray Icon Example <https://doc.qt.io/qt-6/qtwidgets-desktop-systray-example.html>`_.

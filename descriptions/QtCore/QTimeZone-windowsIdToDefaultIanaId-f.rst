@@ -2,10 +2,12 @@
     :status: todo
     :pysig: e9501ebb4868285b8a317efaae329f55
     :realsig: (const QByteArray&)
-    :digest: c04a83702f9b5fd54846a6c138fd497e
+    :digest: 2fbf4b2d2cff74b4fcd65d2631da0600
 
 Returns the default IANA ID for a given *windowsId*.
 
 Because a Windows ID can cover several IANA IDs in several different countries, this function returns the most frequently used IANA ID with no regard for the country and should thus be used with care. It is usually best to request the default for a specific country.
+
+This method is only available when feature ``timezone`` is enabled.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QTimeZone.ianaIdToWindowsId`, :sip:ref:`~PyQt6.QtCore.QTimeZone.windowsIdToIanaIds`.

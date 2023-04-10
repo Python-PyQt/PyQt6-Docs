@@ -93,6 +93,14 @@
         :static:
         :description: QtCore/QDateTime-currentDateTime-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QDateTime.currentDateTime
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :static:
+        :description: QtCore/QDateTime-currentDateTime-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QDateTime.currentDateTimeUtc
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
@@ -310,6 +318,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
         :description: QtCore/QDateTime-time-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QDateTime.timeRepresentation
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :description: QtCore/QDateTime-timeRepresentation-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.timeSpec
         :returns:

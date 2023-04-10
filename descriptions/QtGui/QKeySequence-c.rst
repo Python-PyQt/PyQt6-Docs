@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a key sequence as used by shortcuts
-    :digest: eb3749f3ecf626a64fca79b01a0a1530
+    :digest: f95ffefdb1669de1816a33008019e25c
 
 The :sip:ref:`~PyQt6.QtGui.QKeySequence` class encapsulates a key sequence as used by shortcuts.
 
@@ -13,7 +13,7 @@ Key sequences can be constructed for use as keyboard shortcuts in three differen
 
 * For custom shortcuts, human-readable strings such as "Ctrl+X" can be used, and these can be translated into the appropriate shortcuts for users of different languages. Translations are made in the "\ :sip:ref:`~PyQt6.QtGui.QShortcut`" context.
 
-* For hard-coded shortcuts, integer key codes can be specified with a combination of values defined by the :sip:ref:`~PyQt6.QtCore.Qt.Key` and :sip:ref:`~PyQt6.QtCore.Qt.Modifiers` enum values. Each key code consists of a single :sip:ref:`~PyQt6.QtCore.Qt.Key` value and zero or more modifiers, such as :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.SHIFT`, :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.CTRL`, :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.ALT` and :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.META`.
+* For hard-coded shortcuts, integer key codes can be specified with a combination of values defined by the :sip:ref:`~PyQt6.QtCore.Qt.Key` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier` enum values. Each key code consists of a single :sip:ref:`~PyQt6.QtCore.Qt.Key` value and zero or more modifiers, such as :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.ShiftModifier`, :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.ControlModifier`, :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.AltModifier` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.MetaModifier`.
 
 For example, Ctrl P might be a sequence used as a shortcut for printing a document, and can be specified in any of the following ways:
 
@@ -28,7 +28,7 @@ It is preferable to use standard shortcuts where possible. When creating key seq
 
 An alternative way to specify hard-coded key codes is to use the Unicode code point of the character; for example, 'A' gives the same key sequence as :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_A`.
 
-**Note:** On macOS, references to "Ctrl", :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.CTRL`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Control` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers.ControlModifier` correspond to the Command keys on the Macintosh keyboard, and references to "Meta", :sip:ref:`~PyQt6.QtCore.Qt.Modifiers.META`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Meta` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifiers.MetaModifier` correspond to the Control keys. Developers on macOS can use the same shortcut descriptions across all platforms, and their applications will automatically work as expected on macOS.
+**Note:** On macOS, references to "Ctrl", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.CTRL`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Control` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.ControlModifier` correspond to the Command keys on the Macintosh keyboard, and references to "Meta", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.META`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Meta` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.MetaModifier` correspond to the Control keys. Developers on macOS can use the same shortcut descriptions across all platforms, and their applications will automatically work as expected on macOS.
 
 .. _qkeysequence-standard-shortcuts:
 

@@ -25,6 +25,11 @@
             bool
         :description: QtWidgets/QKeySequenceEdit-event-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.finishingKeyCombinations
+        :returns:
+            List[:sip:ref:`~PyQt6.QtCore.QKeyCombination`]
+        :description: QtWidgets/QKeySequenceEdit-finishingKeyCombinations-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.focusOutEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QFocusEvent`
@@ -50,15 +55,30 @@
             :sip:ref:`~PyQt6.QtGui.QKeySequence`
         :description: QtWidgets/QKeySequenceEdit-keySequence-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.maximumSequenceLength
+        :returns:
+            int
+        :description: QtWidgets/QKeySequenceEdit-maximumSequenceLength-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setClearButtonEnabled
         :args:
             bool
         :description: QtWidgets/QKeySequenceEdit-setClearButtonEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setFinishingKeyCombinations
+        :args:
+            Iterable[:sip:ref:`~PyQt6.QtCore.QKeyCombination`]
+        :description: QtWidgets/QKeySequenceEdit-setFinishingKeyCombinations-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setKeySequence
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
         :description: QtWidgets/QKeySequenceEdit-setKeySequence-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setMaximumSequenceLength
+        :args:
+            int
+        :description: QtWidgets/QKeySequenceEdit-setMaximumSequenceLength-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.timerEvent
         :args:

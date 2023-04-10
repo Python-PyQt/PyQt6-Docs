@@ -2,7 +2,9 @@
     :status: todo
     :pysig: d825b68c649ec65f9015050f15afde61
     :realsig: (QObject*,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument) const
-    :digest: fdaeb33ac80ea558b56410207c953e8c
+    :digest: d1b39b7b15e36f3791794d693c52ae30
+
+Please use the variadic overload of this function
 
 This function overloads :sip:ref:`~PyQt6.QtCore.QMetaMethod.invoke`.
 

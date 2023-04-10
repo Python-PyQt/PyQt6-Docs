@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 14cfca2ae20c9a1cdd63b7e4750587c1
     :realsig: (const QProcessEnvironment&)
-    :digest: 647f9a9e0b23bc3de07ce32e0d3eddc5
+    :digest: 712c32fa1f02c6dfe97ab4c27a4efc60
 
-Sets the *environment* that `QProcess <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qprocess>`_ will pass to the child process.
+Sets the *environment* that :sip:ref:`~PyQt6.QtCore.QProcess` will pass to the child process.
 
 For example, the following code adds the environment variable ``TMPDIR``:
 
@@ -13,4 +13,4 @@ For example, the following code adds the environment variable ``TMPDIR``:
 
 Note how, on Windows, environment variable names are case-insensitive.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QProcess.processEnvironment`, :sip:ref:`~PyQt6.QtCore.QProcessEnvironment.systemEnvironment`, setEnvironment().
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QProcess.processEnvironment`, :sip:ref:`~PyQt6.QtCore.QProcessEnvironment.systemEnvironment`, :ref:`qprocess-environment-variables`.

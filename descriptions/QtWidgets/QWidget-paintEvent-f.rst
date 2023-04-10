@@ -2,7 +2,7 @@
     :status: todo
     :pysig: f2ec3c5d78a75ad8f7dac6730db95648
     :realsig: (QPaintEvent*)
-    :digest: 7961fd39a03aa86c69d4fc8626eb41f3
+    :digest: 66004c50d1edc3967adf7ed748299526
 
 This event handler can be reimplemented in a subclass to receive paint events passed in *event*.
 
@@ -22,10 +22,10 @@ When the paint event occurs, the update region has normally been erased, so you 
 
 The background can be set using :sip:ref:`~PyQt6.QtWidgets.QWidget.setBackgroundRole` and :sip:ref:`~PyQt6.QtWidgets.QWidget.setPalette`.
 
-Since Qt 4.0, `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ automatically double-buffers its painting, so there is no need to write double-buffering code in  to avoid flicker.
+Since Qt 4.0, :sip:ref:`~PyQt6.QtWidgets.QWidget` automatically double-buffers its painting, so there is no need to write double-buffering code in paintEvent() to avoid flicker.
 
-**Note:** Generally, you should refrain from calling :sip:ref:`~PyQt6.QtWidgets.QWidget.update` or :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint` **inside** a . For example, calling :sip:ref:`~PyQt6.QtWidgets.QWidget.update` or :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint` on children inside a  results in undefined behavior; the child may or may not get a paint event.
+**Note:** Generally, you should refrain from calling :sip:ref:`~PyQt6.QtWidgets.QWidget.update` or :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint` **inside** a paintEvent(). For example, calling :sip:ref:`~PyQt6.QtWidgets.QWidget.update` or :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint` on children inside a paintEvent() results in undefined behavior; the child may or may not get a paint event.
 
 **Warning:** If you are using a custom paint engine without Qt's backingstore, :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_PaintOnScreen` must be set. Otherwise, :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEngine` will never be called; the backingstore will be used instead.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.event`, :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint`, :sip:ref:`~PyQt6.QtWidgets.QWidget.update`, :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QPaintEvent`, `Analog Clock Example <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.event`, :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint`, :sip:ref:`~PyQt6.QtWidgets.QWidget.update`, :sip:ref:`~PyQt6.QtGui.QPainter`, :sip:ref:`~PyQt6.QtGui.QPixmap`, :sip:ref:`~PyQt6.QtGui.QPaintEvent`, `Analog Clock <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_.

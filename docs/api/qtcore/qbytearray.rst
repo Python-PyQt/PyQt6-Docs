@@ -480,6 +480,23 @@
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtCore/QByteArray-remove-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.removeAt
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-removeAt-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.removeFirst
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-removeFirst-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.removeLast
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-removeLast-f.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.repeated
         :args:
             int

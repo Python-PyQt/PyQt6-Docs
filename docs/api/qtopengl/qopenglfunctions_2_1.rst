@@ -179,10 +179,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor3b
         :args:
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor3b-f.rst
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor3b-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor3bv
         :args:
@@ -239,10 +239,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor3ub
         :args:
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor3ub-f.rst
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor3ub-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor3ubv
         :args:
@@ -275,11 +275,11 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor4b
         :args:
-            int
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor4b-f.rst
+            bytes
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor4b-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor4bv
         :args:
@@ -340,11 +340,11 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor4ub
         :args:
-            int
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor4ub-f.rst
+            bytes
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glColor4ub-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColor4ubv
         :args:
@@ -379,11 +379,11 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColorMask
         :args:
-            int
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glColorMask-f.rst
+            bytes
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glColorMask-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glColorMaterial
         :args:
@@ -724,8 +724,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glDepthMask
         :args:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glDepthMask-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glDepthMask-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glDepthRange
         :args:
@@ -801,8 +801,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glEdgeFlag
         :args:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glEdgeFlag-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glEdgeFlag-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glEdgeFlagPointer
         :args:
@@ -1322,8 +1322,8 @@
             int
             int
             int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glHistogram-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glHistogram-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIndexd
         :args:
@@ -1379,8 +1379,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIndexub
         :args:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIndexub-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIndexub-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIndexubv
         :args:
@@ -1394,50 +1394,50 @@
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsBuffer-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsBuffer-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsEnabled
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsEnabled-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsEnabled-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsList
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsList-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsList-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsProgram
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsProgram-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsProgram-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsQuery
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsQuery-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsShader
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsShader-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsShader-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glIsTexture
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsTexture-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glIsTexture-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glLightf
         :args:
@@ -1664,8 +1664,8 @@
         :args:
             int
             int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glMinmax-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glMinmax-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glMultiTexCoord1d
         :args:
@@ -1911,10 +1911,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glNormal3b
         :args:
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glNormal3b-f.rst
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glNormal3b-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glNormal3bv
         :args:
@@ -2347,8 +2347,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glSampleCoverage
         :args:
             float
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glSampleCoverage-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glSampleCoverage-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glScaled
         :args:
@@ -2374,10 +2374,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glSecondaryColor3b
         :args:
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glSecondaryColor3b-f.rst
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glSecondaryColor3b-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glSecondaryColor3bv
         :args:
@@ -2434,10 +2434,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glSecondaryColor3ub
         :args:
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glSecondaryColor3ub-f.rst
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glSecondaryColor3ub-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glSecondaryColor3ubv
         :args:
@@ -3024,32 +3024,32 @@
         :args:
             int
             int
-            int
+            bytes
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix2fv-f.rst
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix2fv-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glUniformMatrix3fv
         :args:
             int
             int
-            int
+            bytes
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix3fv-f.rst
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix3fv-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glUniformMatrix4fv
         :args:
             int
             int
-            int
+            bytes
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix4fv-f.rst
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glUniformMatrix4fv-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glUnmapBuffer
         :args:
             int
         :returns:
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glUnmapBuffer-f.rst
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glUnmapBuffer-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glUseProgram
         :args:
@@ -3385,11 +3385,11 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glVertexAttrib4Nub
         :args:
             int
-            int
-            int
-            int
-            int
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glVertexAttrib4Nub-f.rst
+            bytes
+            bytes
+            bytes
+            bytes
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glVertexAttrib4Nub-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glVertexAttrib4Nubv
         :args:
@@ -3447,10 +3447,10 @@
             int
             int
             int
-            int
+            bytes
             int
             PYQT_OPENGL_BOUND_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_2_1-glVertexAttribPointer-f.rst
+        :description: QtOpenGL/QOpenGLFunctions_2_1-glVertexAttribPointer-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_1.glVertexPointer
         :args:

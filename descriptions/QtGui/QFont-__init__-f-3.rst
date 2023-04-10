@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 0a35f1dec14ff0afb9c18ee980269a1b
     :realsig: (const QString&,int,int,bool)
-    :digest: ec19bfad73ddcebecbd5252673e3997b
+    :digest: 256a3fd0ca21da255360098fb9593126
 
 Constructs a font object with the specified *family*, *pointSize*, *weight* and *italic* settings.
 
@@ -12,4 +12,4 @@ The *family* name may optionally also include a foundry name, e.g. "Helvetica [C
 
 This will split the family string on a comma and call :sip:ref:`~PyQt6.QtGui.QFont.setFamilies` with the resulting list. To preserve a font that uses a comma in its name, use the constructor that takes a QStringList.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.Weight.Weight`, :sip:ref:`~PyQt6.QtGui.QFont.setFamily`, :sip:ref:`~PyQt6.QtGui.QFont.setPointSize`, :sip:ref:`~PyQt6.QtGui.QFont.setWeight`, :sip:ref:`~PyQt6.QtGui.QFont.setItalic`, :sip:ref:`~PyQt6.QtGui.QFont.setStyleHint`, :sip:ref:`~PyQt6.QtGui.QFont.setFamilies`, :sip:ref:`~PyQt6.QtGui.QGuiApplication.font`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.Weight.Weight`, :sip:ref:`~PyQt6.QtGui.QFont.setFamily`, :sip:ref:`~PyQt6.QtGui.QFont.setPointSize`, :sip:ref:`~PyQt6.QtGui.QFont.setWeight`, :sip:ref:`~PyQt6.QtGui.QFont.setItalic`, :sip:ref:`~PyQt6.QtGui.QFont.setStyleHint`, :sip:ref:`~PyQt6.QtGui.QFont.setFamilies`.

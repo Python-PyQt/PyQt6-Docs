@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to directory structures and their contents
-    :digest: 66d1e3da143428a303d1d0fd658aa2dc
+    :digest: 3c0f9212149c4d235abaefc433586b7d
 
 The :sip:ref:`~PyQt6.QtCore.QDir` class provides access to directory structures and their contents.
 
@@ -115,7 +115,7 @@ Check if a directory exists:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qdir.py
     :lines: 82-84
 
-(We could also use the static convenience function :sip:ref:`~PyQt6.QtCore.QFile.exists`.)
+(We could also use one of the static convenience functions :sip:ref:`~PyQt6.QtCore.QFileInfo.exists` or :sip:ref:`~PyQt6.QtCore.QFile.exists`.)
 
 Traversing directories and reading a file:
 
@@ -127,4 +127,17 @@ A program that lists all the files in the current directory (excluding symbolic 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qdir-listfiles-main.py
     :lines: 54-73
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`, `Find Files Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-findfiles-example.html>`_.
+.. _qdir-platform-specific-issues:
+
+Platform Specific Issues
+------------------------
+
+On Android, some limitations apply when dealing with `content URIs <https://doc.qt.io/qt-6/https://developer.android.com/guide/topics/providers/content-provider-basics#ContentURIs>`_:
+
+* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements Android's native file picker.
+
+* Aim to follow the `Scoped storage <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage#scoped-storage>`_ guidelines, such as using app specific directories instead of other public external directories. For more information, also see `storage best practices <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/use-cases>`_.
+
+* Due to the design of Qt APIs (e.g. :sip:ref:`~PyQt6.QtCore.QFile`), it's not possible to fully integrate the latter APIs with Android's `MediaStore <https://doc.qt.io/qt-6/https://developer.android.com/reference/android/provider/MediaStore>`_ APIs.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`, `Fetch More Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-fetchmore-example.html>`_.

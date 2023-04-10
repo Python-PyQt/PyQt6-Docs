@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for displaying the contents of a QGraphicsScene
-    :digest: 98b9477394a9b0ca481ddb1c524da2db
+    :digest: f62aed5488ac7346c88f535d967e3ebb
 
 The :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` class provides a widget for displaying the contents of a :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene`.
 
@@ -25,6 +25,8 @@ By default, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides a regular :sip:re
 You can interact with the items on the scene by using the mouse and keyboard. :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` translates the mouse and key events into *scene* events, (events that inherit :sip:ref:`~PyQt6.QtWidgets.QGraphicsSceneEvent`,), and forward them to the visualized scene. In the end, it's the individual item that handles the events and reacts to them. For example, if you click on a selectable item, the item will typically let the scene know that it has been selected, and it will also redraw itself to display a selection rectangle. Similarly, if you click and drag the mouse to move a movable item, it's the item that handles the mouse moves and moves itself. Item interaction is enabled by default, and you can toggle it by calling :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.setInteractive`.
 
 You can also provide your own custom scene interaction, by creating a subclass of :sip:ref:`~PyQt6.QtWidgets.QGraphicsView`, and reimplementing the mouse and key event handlers. To simplify how you programmatically interact with items in the view, :sip:ref:`~PyQt6.QtWidgets.QGraphicsView` provides the mapping functions :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapToScene` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.mapFromScene`, and the item accessors :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.items` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.itemAt`. These functions allow you to map points, rectangles, polygons and paths between view coordinates and scene coordinates, and to find items on the scene using view coordinates.
+
+When using a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` as a viewport, stereoscopic rendering is supported. This is done using the same pattern as :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL`. To enable it, enable the :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption.StereoBuffers` flag. Because of how the flag is handled internally, set :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption.StereoBuffers` flag globally before the window is created using :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setDefaultFormat`. If the flag is enabled and there is hardware support for stereoscopic rendering, then :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.drawBackground` and :sip:ref:`~PyQt6.QtWidgets.QGraphicsView.drawForeground` will be triggered twice each frame. Call :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.currentTargetBuffer` to query which buffer is currently being drawn to.
 
 .. image:: ../../../images/graphicsview-view.png
 

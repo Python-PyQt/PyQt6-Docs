@@ -4,6 +4,18 @@
     :inherits: :sip:ref:`~PyQt6.QtXml.QDomNode`
     :description: QtXml/QDomDocument-c.rst
 
+    .. sip:enum:: PyQt6.QtXml.QDomDocument.ParseOption
+        :description: QtXml/QDomDocument-ParseOption-e.rst
+
+        .. sip:enum-member:: PyQt6.QtXml.QDomDocument.ParseOption.Default
+            :description: QtXml/QDomDocument-ParseOption-Default-v.rst
+
+        .. sip:enum-member:: PyQt6.QtXml.QDomDocument.ParseOption.PreserveSpacingOnlyNodes
+            :description: QtXml/QDomDocument-ParseOption-PreserveSpacingOnlyNodes-v.rst
+
+        .. sip:enum-member:: PyQt6.QtXml.QDomDocument.ParseOption.UseNamespaceProcessing
+            :description: QtXml/QDomDocument-ParseOption-UseNamespaceProcessing-v.rst
+
     .. sip:method:: PyQt6.QtXml.QDomDocument.__init__
         :description: QtXml/QDomDocument-__init__-f.rst
 
@@ -145,33 +157,27 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`
+            options: :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption` = :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption.Default`
         :returns:
-            bool
-            str
-            int
-            int
-        :description: QtXml/QDomDocument-setContent-f.rst
-
-    .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
-        :args:
-            str
-        :returns:
-            bool
-            str
-            int
-            int
-        :description: QtXml/QDomDocument-setContent-f-1.rst
+            Tuple[bool, str, int, int]
+        :description: QtXml/QDomDocument-setContent-f-7.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
+            options: :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption` = :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption.Default`
         :returns:
-            bool
-            str
-            int
-            int
-        :description: QtXml/QDomDocument-setContent-f-2.rst
+            Tuple[bool, str, int, int]
+        :description: QtXml/QDomDocument-setContent-f-8.rst
+
+    .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            options: :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption` = :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption.Default`
+        :returns:
+            Tuple[bool, str, int, int]
+        :description: QtXml/QDomDocument-setContent-f-9.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:

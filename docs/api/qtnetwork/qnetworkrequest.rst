@@ -78,6 +78,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.SourceIsFromCacheAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-SourceIsFromCacheAttribute-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.UseCredentialsAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-UseCredentialsAttribute-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.User
             :description: QtNetwork/QNetworkRequest-Attribute-User-v.rst
 
@@ -230,6 +233,11 @@
             Any
         :description: QtNetwork/QNetworkRequest-header-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.http1Configuration
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QHttp1Configuration`
+        :description: QtNetwork/QNetworkRequest-http1Configuration-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.http2Configuration
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QHttp2Configuration`
@@ -290,6 +298,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.KnownHeaders`
             Any
         :description: QtNetwork/QNetworkRequest-setHeader-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setHttp1Configuration
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttp1Configuration`
+        :description: QtNetwork/QNetworkRequest-setHttp1Configuration-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setHttp2Configuration
         :args:

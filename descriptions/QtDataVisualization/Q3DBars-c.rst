@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Methods for rendering 3D bar graphs
-    :digest: dcc8c398f6dbf83ce3eb5a6ddac5a789
+    :digest: 0dc52bcff9f15c3cc404c445d235ed31
 
 The :sip:ref:`~PyQt6.QtDataVisualization.Q3DBars` class provides methods for rendering 3D bar graphs.
 
@@ -47,6 +47,6 @@ And this is what those few lines of code produce:
 
 .. image:: ../../../images/q3dbars-minimal.png
 
-The scene can be rotated, zoomed into, and a bar can be selected to view its value, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Bars Example <https://doc.qt.io/qt-6/qtdatavisualization-bars-example.html>`_.
+The scene can be rotated, zoomed into, and a bar can be selected to view its value, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Bar Graph <https://doc.qt.io/qt-6/qtdatavis3d-graphgallery-example.html#bar-graph>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DScatter`, :sip:ref:`~PyQt6.QtDataVisualization.Q3DSurface`, :sip:ref:`~PyQt6.Qt Data Visualization C++ Classes`.

@@ -40,6 +40,24 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-Android11-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Android12
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Android12-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Android12L
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Android12L-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Android13
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Android13-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.AndroidJellyBean
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
         :const:
@@ -148,6 +166,12 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-MacOSSierra-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSVentura
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-MacOSVentura-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.OSXElCapitan
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion`
         :const:
@@ -213,6 +237,12 @@
         :const:
         :static:
         :description: QtCore/QOperatingSystemVersion-Windows10_21H2-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows10_22H2
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-Windows10_22H2-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.Windows11
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`

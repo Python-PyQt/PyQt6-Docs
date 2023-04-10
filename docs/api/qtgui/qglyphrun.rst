@@ -127,20 +127,40 @@
             bool
         :description: QtGui/QGlyphRun-setRightToLeft-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QGlyphRun.setSourceString
+        :args:
+            str
+        :description: QtGui/QGlyphRun-setSourceString-f.rst
+
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setStrikeOut
         :args:
             bool
         :description: QtGui/QGlyphRun-setStrikeOut-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QGlyphRun.setStringIndexes
+        :args:
+            Iterable[int]
+        :description: QtGui/QGlyphRun-setStringIndexes-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setUnderline
         :args:
             bool
         :description: QtGui/QGlyphRun-setUnderline-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QGlyphRun.sourceString
+        :returns:
+            str
+        :description: QtGui/QGlyphRun-sourceString-f.rst
+
     .. sip:method:: PyQt6.QtGui.QGlyphRun.strikeOut
         :returns:
             bool
         :description: QtGui/QGlyphRun-strikeOut-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QGlyphRun.stringIndexes
+        :returns:
+            List[int]
+        :description: QtGui/QGlyphRun-stringIndexes-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.swap
         :args:

@@ -99,11 +99,11 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.generateRandomString
         :args:
-            int
+            bytes
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtNetworkAuth/QAbstractOAuth-generateRandomString-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-generateRandomString-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.get
         :args:

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 75241c9493a59e6f02f622783b66ea18
+    :digest: a29468ea7689d144a7960755b039d7e7
 
 Defines the current state of a media player.

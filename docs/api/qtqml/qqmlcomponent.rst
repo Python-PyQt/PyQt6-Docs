@@ -69,6 +69,23 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtQml/QQmlComponent-__init__-f-5.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtQml.QQmlEngine`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtQml/QQmlComponent-__init__-f-6.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtQml.QQmlEngine`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode`
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtQml/QQmlComponent-__init__-f-7.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlComponent.beginCreate
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlContext`
@@ -116,6 +133,11 @@
             List[:sip:ref:`~PyQt6.QtQml.QQmlError`]
         :description: QtQml/QQmlComponent-errors-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlComponent.isBound
+        :returns:
+            bool
+        :description: QtQml/QQmlComponent-isBound-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlComponent.isError
         :returns:
             bool
@@ -135,6 +157,13 @@
         :returns:
             bool
         :description: QtQml/QQmlComponent-isReady-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlComponent.loadFromModule
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            mode: :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode` = :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode.PreferSynchronous`
+        :description: QtQml/QQmlComponent-loadFromModule-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.loadUrl
         :args:

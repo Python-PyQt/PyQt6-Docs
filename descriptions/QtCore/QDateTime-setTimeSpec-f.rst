@@ -2,9 +2,11 @@
     :status: todo
     :pysig: 41145246d08568577980f08c1fee338e
     :realsig: (Qt::TimeSpec)
-    :digest: 90ec411499e20b5c26970035e783a289
+    :digest: 5c6c2d41cd58655e3c4bf0b909a1658f
 
-Sets the time specification used in this datetime to *spec*. The datetime will refer to a different point in time.
+Use :sip:ref:`~PyQt6.QtCore.QDateTime.setTimeZone` instead
+
+Sets the time specification used in this datetime to *spec*. The datetime may refer to a different point in time.
 
 If *spec* is :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` then the :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` will be set to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC`, i.e. an effective offset of 0.
 
@@ -15,4 +17,4 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_time_qdatetime.py
     :lines: 200-207
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`, :sip:ref:`~PyQt6.QtCore.QDateTime.setDate`, :sip:ref:`~PyQt6.QtCore.QDateTime.setTime`, :sip:ref:`~PyQt6.QtCore.QDateTime.setTimeZone`, :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.setTimeZone`, :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`, :sip:ref:`~PyQt6.QtCore.QDateTime.toTimeSpec`, :sip:ref:`~PyQt6.QtCore.QDateTime.setDate`, :sip:ref:`~PyQt6.QtCore.QDateTime.setTime`.

@@ -1,13 +1,27 @@
 .. sip:class-description::
     :status: todo
     :brief: Creates QNetworkAccessManager instances for a QML engine
-    :digest: 86c956ce2a2351422812b70378dcd9d1
+    :digest: 06e242eed73a67d0aa999888744c9df9
 
 The :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory` class creates :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` instances for a QML engine.
 
 A QML engine uses :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` for all network access. By implementing a factory, it is possible to provide the QML engine with custom :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` instances with specialized caching, proxy and cookies support.
 
-To implement a factory, subclass :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory` and implement the virtual :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory.create` method, then assign it to the relevant QML engine using :sip:ref:`~PyQt6.QtQml.QQmlEngine.setNetworkAccessManagerFactory`.
+* The :sip:ref:`~PyQt6.QtNetwork.QNetworkDiskCache` can be used as a request cache with :sip:ref:`~PyQt6.QtNetwork.QNetworkDiskCache`.
+
+* Using :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`, traffic sent by the :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` can be tunnelled through a proxy.
+
+* Cookies can be saved for future requests by adding a :sip:ref:`~PyQt6.QtNetwork.QNetworkCookieJar`.
+
+To implement a factory, subclass :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory` and implement the virtual :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory.create` method, then assign it to the relevant QML engine using :sip:ref:`~PyQt6.QtQml.QQmlEngine.setNetworkAccessManagerFactory`. For instance, the :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` objects created by the following snippet will cache requests.
+
+.. literalinclude:: ../../../snippets/qtdeclarative-src-qml-doc-snippets-code-src_network_access_qnetworkaccessmanager.py
+    :lines: 7-20
+
+The factory can then be passed to the QML engine so it can instantiate the :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` with the custom behavior.
+
+.. literalinclude:: ../../../snippets/qtdeclarative-src-qml-doc-snippets-code-src_network_access_qnetworkaccessmanager.py
+    :lines: 24-25
 
 Note the QML engine may create :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` instances from multiple threads. Because of this, the implementation of the :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory.create` method must be reentrant. In addition, the developer should be careful if the signals of the object to be returned from :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory.create` are connected to the slots of an object that may be created in a different thread:
 
@@ -17,4 +31,4 @@ Note the QML engine may create :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`
 
 For more information about signals and threads, see Threads and QObjects and Signals and Slots Across Threads.
 
-.. seealso:: `Network Access Manager Factory Example <https://doc.qt.io/qt-6/qtqml-networkaccessmanagerfactory-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QNetworkDiskCache`, Network Access Manager Factory Example.

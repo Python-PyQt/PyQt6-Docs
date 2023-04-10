@@ -172,6 +172,27 @@
             message: str = ''
         :description: QtQml/QJSEngine-throwError-f-1.rst
 
+    .. sip:method:: PyQt6.QtQml.QJSEngine.toManagedValue
+        :args:
+            Any
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSManagedValue`
+        :description: QtQml/QJSEngine-toManagedValue-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSEngine.toPrimitiveValue
+        :args:
+            Any
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`
+        :description: QtQml/QJSEngine-toPrimitiveValue-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSEngine.toScriptValue
+        :args:
+            Any
+        :returns:
+            :sip:ref:`~PyQt6.QtQml.QJSValue`
+        :description: QtQml/QJSEngine-toScriptValue-f.rst
+
     .. sip:method:: PyQt6.QtQml.QJSEngine.uiLanguage
         :returns:
             str

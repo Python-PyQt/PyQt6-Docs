@@ -4,8 +4,22 @@
     :inherits: :sip:ref:`~PyQt6.QtGui.QPaintDevice`
     :description: QtSvg/QSvgGenerator-c.rst
 
+    .. sip:enum:: PyQt6.QtSvg.QSvgGenerator.SvgVersion
+        :description: QtSvg/QSvgGenerator-SvgVersion-e.rst
+
+        .. sip:enum-member:: PyQt6.QtSvg.QSvgGenerator.SvgVersion.Svg11
+            :description: QtSvg/QSvgGenerator-SvgVersion-Svg11-v.rst
+
+        .. sip:enum-member:: PyQt6.QtSvg.QSvgGenerator.SvgVersion.SvgTiny12
+            :description: QtSvg/QSvgGenerator-SvgVersion-SvgTiny12-v.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.__init__
         :description: QtSvg/QSvgGenerator-__init__-f.rst
+
+    .. sip:method:: PyQt6.QtSvg.QSvgGenerator.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtSvg.QSvgGenerator.SvgVersion`
+        :description: QtSvg/QSvgGenerator-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.description
         :returns:
@@ -83,6 +97,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtSvg/QSvgGenerator-size-f.rst
+
+    .. sip:method:: PyQt6.QtSvg.QSvgGenerator.svgVersion
+        :returns:
+            :sip:ref:`~PyQt6.QtSvg.QSvgGenerator.SvgVersion`
+        :description: QtSvg/QSvgGenerator-svgVersion-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.title
         :returns:

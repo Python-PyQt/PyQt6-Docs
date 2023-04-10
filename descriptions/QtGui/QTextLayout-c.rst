@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to lay out and render text
-    :digest: d124e6c402fa4368593cb6fe5ec5ae2f
+    :digest: baa061a33ea650b83ac3170abb58c817
 
 The :sip:ref:`~PyQt6.QtGui.QTextLayout` class is used to lay out and render text.
 
@@ -26,6 +26,10 @@ The text can then be rendered by calling the layout's :sip:ref:`~PyQt6.QtGui.QTe
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_text_qtextlayout.py
     :lines: 95-96
+
+It is also possible to draw each line individually, for instance to draw the last line that fits into a widget elided:
+
+.. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_text_qtextlayout.py
 
 For a given position in the text you can find a valid cursor position with :sip:ref:`~PyQt6.QtGui.QTextLayout.isValidCursorPosition`, :sip:ref:`~PyQt6.QtGui.QTextLayout.nextCursorPosition`, and :sip:ref:`~PyQt6.QtGui.QTextLayout.previousCursorPosition`.
 

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: dd7d7e3e637aa812315765a2001cd205
+    :digest: 6b950bf628c8bf2f02c1a1b802d6bde4
 
 Updates the widget unless updates are disabled or the widget is hidden.
 
@@ -12,4 +12,4 @@ Calling update() several times normally results in just one :sip:ref:`~PyQt6.QtW
 
 Qt normally erases the widget's area before the :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` call. If the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent` widget attribute is set, the widget is responsible for painting all its pixels with an opaque color.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint`, :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setUpdatesEnabled`, `Analog Clock Example <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.repaint`, :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setUpdatesEnabled`, `Analog Clock <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_.

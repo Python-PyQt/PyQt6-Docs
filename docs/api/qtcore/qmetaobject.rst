@@ -244,6 +244,22 @@
             int
         :description: QtCore/QMetaObject-methodOffset-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaObject.newInstance
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QGenericArgument`
+            value1: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value2: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value3: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value4: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value5: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value6: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value7: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value8: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+            value9: :sip:ref:`~PyQt6.QtCore.QGenericArgument` = QGenericArgument()
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QObject`
+        :description: QtCore/QMetaObject-newInstance-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaObject.normalizedSignature
         :args:
             str

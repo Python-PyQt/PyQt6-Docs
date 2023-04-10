@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for rendering OpenGL graphics
-    :digest: ab30a967bc49f2acf896d3a06531a2ab
+    :digest: 82e4f4f3e9de17f262e41dd9872e804e
 
 The :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` class is a widget for rendering OpenGL graphics.
 
@@ -184,6 +184,21 @@ Alternatives
 ------------
 
 Adding a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` into a window turns on OpenGL-based compositing for the entire window. In some special cases this may not be ideal, and the old QGLWidget-style behavior with a separate, native child window is desired. Desktop applications that understand the limitations of this approach (for example when it comes to overlaps, transparency, scroll views and MDI areas), can use :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` with :sip:ref:`~PyQt6.QtWidgets.QWidget.createWindowContainer`. This is a modern alternative to QGLWidget and is faster than :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` due to the lack of the additional composition step. It is strongly recommended to limit the usage of this approach to cases where there is no other choice. Note that this option is not suitable for most embedded and mobile platforms, and it is known to have issues on certain desktop platforms (e.g. macOS) too. The stable, cross-platform solution is always :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget`.
+
+.. _qopenglwidget-stereoscopic-rendering:
+
+Stereoscopic rendering
+----------------------
+
+Starting from 6.5 :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` has support for stereoscopic rendering. To enable it, set the :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.FormatOption.StereoBuffers` flag globally before the window is created, using QSurfaceFormat::SetDefaultFormat().
+
+**Note:** Using :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.setFormat` will not necessarily work because of how the flag is handled internally.
+
+This will trigger :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL` to be called twice each frame, once for each :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer`. In :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.paintGL`, call :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.currentTargetBuffer` to query which one is currently being drawn to.
+
+**Note:** For more control over the left and right color buffers, consider using :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` + :sip:ref:`~PyQt6.QtWidgets.QWidget.createWindowContainer` instead.
+
+**Note:** This type of 3D rendering has certain hardware requirements, like the graphics card needs to be setup with stereo support.
 
 *OpenGL is a trademark of Silicon Graphics, Inc. in the United States and other countries.*
 

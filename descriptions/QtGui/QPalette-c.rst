@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains color groups for each widget state
-    :digest: 9fb53304d6b4ee11f090bb366071f307
+    :digest: 5dce2d7c81330baad5b92ff8be66bbf8
 
 The :sip:ref:`~PyQt6.QtGui.QPalette` class contains color groups for each widget state.
 
@@ -23,7 +23,7 @@ In most styles, Active and Inactive look the same.
 
 Colors and brushes can be set for particular roles in any of a palette's color groups with :sip:ref:`~PyQt6.QtGui.QPalette.setColor` and :sip:ref:`~PyQt6.QtGui.QPalette.setBrush`. A color group contains a group of colors used by widgets for drawing themselves. We recommend that widgets use color group roles from the palette such as "foreground" and "base" rather than literal colors like "red" or "turquoise". The color roles are enumerated and defined in the :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.ColorRole` documentation.
 
-We strongly recommend that you use the default palette of the current style (returned by :sip:ref:`~PyQt6.QtGui.QGuiApplication.palette`) and modify that as necessary. This is done by Qt's widgets when they are drawn.
+We strongly recommend that you use the default palette of the current style (returned by QGuiApplication::palette()) and modify that as necessary. This is done by Qt's widgets when they are drawn.
 
 To modify a color group you call the functions :sip:ref:`~PyQt6.QtGui.QPalette.setColor` and :sip:ref:`~PyQt6.QtGui.QPalette.setBrush`, depending on whether you want a pure color or a pixmap pattern.
 
@@ -35,4 +35,4 @@ You can copy a palette using the copy constructor and test to see if two palette
 
 **Warning:** Some styles do not use the palette for all drawing, for instance, if they make use of native theme engines. This is the case for both the Windows Vista and the macOS styles.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QColor`, QApplication::setPalette()QWidget::setPalette().
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QApplication.setPalette`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setPalette`, :sip:ref:`~PyQt6.QtGui.QColor`.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x00000000
-    :digest: c2262682dd0dbc09e0d9fafc8eb0262f
+    :digest: 23354a1b727b9df7397609f15ef105d5
 
-(default) - If the image has :sip:ref:`~PyQt6.QtGui.QImage.depth` 1 and contains only black and white pixels, the pixmap becomes monochrome.
+(default) - If the image has depth 1 and contains only black and white pixels, the pixmap becomes monochrome.

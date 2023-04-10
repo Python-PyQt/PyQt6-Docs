@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget that is used to edit and display plain text
-    :digest: b2ce9e9d4a840a6b748293b56779f840
+    :digest: 5d3cd53e1733d6ec40e8f43f769ab26c
 
 The :sip:ref:`~PyQt6.QtWidgets.QPlainTextEdit` class provides a widget that is used to edit and display plain text.
 
@@ -158,4 +158,4 @@ Differences to QTextEdit
 
 :sip:ref:`~PyQt6.QtWidgets.QPlainTextEdit` is a thin class, implemented by using most of the technology that is behind :sip:ref:`~PyQt6.QtWidgets.QTextEdit` and :sip:ref:`~PyQt6.QtGui.QTextDocument`. Its performance benefits over :sip:ref:`~PyQt6.QtWidgets.QTextEdit` stem mostly from using a different and simplified text layout called :sip:ref:`~PyQt6.QtWidgets.QPlainTextDocumentLayout` on the text document (see :sip:ref:`~PyQt6.QtGui.QTextDocument.setDocumentLayout`). The plain text document layout does not support tables nor embedded frames, and *replaces a pixel-exact height calculation with a line-by-line respectively paragraph-by-paragraph scrolling approach*. This makes it possible to handle significantly larger documents, and still resize the editor with line wrap enabled in real time. It also makes for a fast log viewer (see :sip:ref:`~PyQt6.QtWidgets.QPlainTextEdit.setMaximumBlockCount`).
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, :sip:ref:`~PyQt6.QtGui.QTextCursor`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Code Editor Example <https://doc.qt.io/qt-6/qtwidgets-widgets-codeeditor-example.html>`_, `Syntax Highlighter Example <https://doc.qt.io/qt-6/qtwidgets-richtext-syntaxhighlighter-example.html>`_, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, :sip:ref:`~PyQt6.QtGui.QTextCursor`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Syntax Highlighter Example <https://doc.qt.io/qt-6/qtwidgets-richtext-syntaxhighlighter-example.html>`_, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.

@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Format independent interface for writing images to files or other devices
-    :digest: 63010cfeadffc5a141eda6adfbea55b2
+    :digest: 8b7274e1d0ef0a9fd11017fd6f446997
 
 The :sip:ref:`~PyQt6.QtGui.QImageWriter` class provides a format independent interface for writing images to files or other devices.
 
-:sip:ref:`~PyQt6.QtGui.QImageWriter` supports setting format specific options, such as compression level and quality, prior to storing the image. If you do not need such options, you can use :sip:ref:`~PyQt6.QtGui.QImage.save` or :sip:ref:`~PyQt6.QtGui.QPixmap.save` instead.
+:sip:ref:`~PyQt6.QtGui.QImageWriter` supports setting format specific options, such as compression level and quality, prior to storing the image. If you do not need such options, you can use QImage::save() or :sip:ref:`~PyQt6.QtGui.QPixmap.save` instead.
 
 To store an image, you start by constructing a :sip:ref:`~PyQt6.QtGui.QImageWriter` object. Pass either a file name or a device pointer, and the image format to :sip:ref:`~PyQt6.QtGui.QImageWriter`'s constructor. You can then set several options, such as quality (by calling :sip:ref:`~PyQt6.QtGui.QImageWriter.setQuality`). :sip:ref:`~PyQt6.QtGui.QImageWriter.canWrite` returns ``true`` if :sip:ref:`~PyQt6.QtGui.QImageWriter` can write the image (i.e., the image format is supported and the device is open for writing). Call :sip:ref:`~PyQt6.QtGui.QImageWriter.write` to write the image to the device.
 

@@ -2,9 +2,11 @@
     :status: todo
     :pysig: d087a656bdc7fb0440f70e7089d71d1a
     :realsig: (QXmlStreamReader*,bool,QString*,int*,int*)
-    :digest: 16efea076d8463bf1443e1457704f836
+    :digest: b3535d3c5db1d9e7b8624f01daeb93d9
 
 This is an overloaded function.
+
+Use the overload taking ParseOptions instead.
 
 This function reads the XML document from the :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` *reader* and parses it. Returns ``true`` if the content was successfully parsed; otherwise returns ``false``.
 

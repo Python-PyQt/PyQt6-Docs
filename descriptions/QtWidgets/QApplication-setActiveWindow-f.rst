@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 5a6e30521ff6150b2e0a693194e10d98
     :realsig: (QWidget*)
-    :digest: 78ceb906ab8d0543979e5a14680f91d9
+    :digest: 82793c438658d954344ac1603eb959c9
+
+Use :sip:ref:`~PyQt6.QtWidgets.QWidget.activateWindow` instead.
 
 Sets the active window to the *active* widget in response to a system event. The function is called from the platform specific event handlers.
 

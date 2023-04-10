@@ -189,6 +189,14 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtQml/QQmlEngine-singletonInstance-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlEngine.singletonInstance
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QObject`
+        :description: QtQml/QQmlEngine-singletonInstance-f-1.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlEngine.trimComponentCache
         :description: QtQml/QQmlEngine-trimComponentCache-f.rst
 
@@ -201,6 +209,9 @@
         :args:
             int
         :description: QtQml/QQmlEngine-exit-s.rst
+
+    .. sip:signal:: PyQt6.QtQml.QQmlEngine.offlineStoragePathChanged
+        :description: QtQml/QQmlEngine-offlineStoragePathChanged-s.rst
 
     .. sip:signal:: PyQt6.QtQml.QQmlEngine.quit
         :description: QtQml/QQmlEngine-quit-s.rst

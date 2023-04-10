@@ -2,7 +2,7 @@
     :status: todo
     :pysig: da403e299845f8c1b31972a05bd0f8ae
     :realsig: (const QString&,const QString&)
-    :digest: 1937f68e2ad3b0e504d0dc35e455f32b
+    :digest: 5fdb7cbb47ac7dd0429feb20a47e3482
 
 This is an overloaded function.
 
@@ -15,5 +15,7 @@ If the copied file is a symbolic link (symlink), the file it refers to is copied
 Returns ``true`` if successful; otherwise returns ``false``.
 
 Note that if a file with the name *newName* already exists, :sip:ref:`~PyQt6.QtCore.QFile.copy` returns ``false``. This means :sip:ref:`~PyQt6.QtCore.QFile` will not overwrite it.
+
+**Note:** On Android, this operation is not yet supported for ``content`` scheme URIs.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QFile.rename`.

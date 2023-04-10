@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 13
-    :digest: 8f261b56b31023d0838eb3de45f51f12
+    :digest: f6745de49c30aff9f793330656788b7c
 
-An XMLHttpRequest.
+An `XMLHttpRequest <https://doc.qt.io/qt-6/qml-qtqml-xmlhttprequest.html>`_.

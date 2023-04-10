@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Methods for rendering 3D scatter graphs
-    :digest: 2195c8b07e9269f44bc679cf7bfd7866
+    :digest: 9f4fc50a8c92bda53b86c6cec813400c
 
 The :sip:ref:`~PyQt6.QtDataVisualization.Q3DScatter` class provides methods for rendering 3D scatter graphs.
 
@@ -40,6 +40,6 @@ And this is what those few lines of code produce:
 
 .. image:: ../../../images/q3dscatter-minimal.png
 
-The scene can be rotated, zoomed into, and an item can be selected to view its position, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Scatter Example <https://doc.qt.io/qt-6/qtdatavisualization-scatter-example.html>`_.
+The scene can be rotated, zoomed into, and an item can be selected to view its position, but no other interaction is included in this minimal code example. You can learn more by familiarizing yourself with the examples provided, like the `Scatter Graph <https://doc.qt.io/qt-6/qtdatavis3d-graphgallery-example.html#scatter-graph>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DBars`, :sip:ref:`~PyQt6.QtDataVisualization.Q3DSurface`, :sip:ref:`~PyQt6.Qt Data Visualization C++ Classes`.

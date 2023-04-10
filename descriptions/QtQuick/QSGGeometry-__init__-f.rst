@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 398f8272eed7656d66501d1a89516855
     :realsig: (const QSGGeometry::AttributeSet&,int,int,int)
-    :digest: 0b48e07655a32016e0d205fc8b2fce44
+    :digest: 1fad3bff56f0b54252bf8788c5021d61
 
 Constructs a geometry object based on *attributes*.
 
@@ -12,4 +12,4 @@ The *indexType* can be :sip:ref:`~PyQt6.QtQuick.QSGGeometry.Type.UnsignedShortTy
 
 Geometry objects are constructed by default with :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawTriangleStrip` as the drawing mode.
 
-The attribute structure is assumed to be POD and the geometry object assumes this will not go away. There is no memory management involved.
+**Note:** *attributes* and the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.Attribute` objects referenced by it must stay valid for the entire lifetime of the :sip:ref:`~PyQt6.QtQuick.QSGGeometry`. :sip:ref:`~PyQt6.QtQuick.QSGGeometry` stores a reference to *attributes* and does not delete the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.Attribute` objects.

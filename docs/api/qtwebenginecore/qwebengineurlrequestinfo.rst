@@ -106,6 +106,11 @@
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtWebEngineCore/QWebEngineUrlRequestInfo-firstPartyUrl-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.httpHeaders
+        :returns:
+            Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-httpHeaders-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.initiator
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`

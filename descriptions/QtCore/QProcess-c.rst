@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to start external programs and to communicate with them
-    :digest: 227f5986d9f3c1a1174896521915f1d0
+    :digest: 83ad4bd64b0838197e8ee85d59f90eb6
 
 The :sip:ref:`~PyQt6.QtCore.QProcess` class is used to start external programs and to communicate with them.
 
@@ -50,11 +50,26 @@ The program to be run can be set either by calling :sip:ref:`~PyQt6.QtCore.QProc
 
 * If the program name is a plain file name with no slashes, the behavior is operating-system dependent. On Unix systems, :sip:ref:`~PyQt6.QtCore.QProcess` will search the ``PATH`` environment variable; on Windows, the search is performed by the OS and will first the parent process' current directory before the ``PATH`` environment variable (see the documentation for CreateProcess for the full list).
 
-To avoid platform-dependent behavior or any issues with how the current application was launched, it is adviseable to always pass an absolute path to the executable to be launched. For auxiliary binaries shipped with the application, one can construct such a path starting with :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`. Similarly, to explicitly run an executable that is to be found relative to the directory set with :sip:ref:`~PyQt6.QtCore.QProcess.setWorkingDirectory`, use a program path starting with "./" or "../" as the case may be.
+To avoid platform-dependent behavior or any issues with how the current application was launched, it is advisable to always pass an absolute path to the executable to be launched. For auxiliary binaries shipped with the application, one can construct such a path starting with :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationDirPath`. Similarly, to explicitly run an executable that is to be found relative to the directory set with :sip:ref:`~PyQt6.QtCore.QProcess.setWorkingDirectory`, use a program path starting with "./" or "../" as the case may be.
 
 On Windows, the ".exe" suffix is not required for most uses, except those outlined in the CreateProcess documentation. Additionally, :sip:ref:`~PyQt6.QtCore.QProcess` will convert the Unix-style forward slashes to Windows path backslashes for the program name. This allows code using :sip:ref:`~PyQt6.QtCore.QProcess` to be written in a cross-platform manner, as shown in the examples above.
 
 :sip:ref:`~PyQt6.QtCore.QProcess` does not support directly executing Unix shell or Windows command interpreter built-in functions, such as ``cmd.exe``'s ``dir`` command or the Bourne shell's ``export``. On Unix, even though many shell built-ins are also provided as separate executables, their behavior may differ from those implemented as built-ins. To run those commands, one should explicitly execute the interpreter with suitable options. For Unix systems, launch "/bin/sh" with two arguments: "-c" and a string with the command-line to be run. For Windows, due to the non-standard way ``cmd.exe`` parses its command-line, use setNativeArguments() (for example, "/c dir d:").
+
+.. _qprocess-environment-variables:
+
+Environment variables
+---------------------
+
+The :sip:ref:`~PyQt6.QtCore.QProcess` API offers methods to manipulate the environment variables that the child process will see. By default, the child process will have a copy of the current process environment variables that exist at the time the :sip:ref:`~PyQt6.QtCore.QProcess.start` function is called. This means that any modifications performed using qputenv() prior to that call will be reflected in the child process' environment. Note that :sip:ref:`~PyQt6.QtCore.QProcess` makes no attempt to prevent race conditions with qputenv() happening in other threads, so it is recommended to avoid qputenv() after the application's initial start up.
+
+The environment for a specific child can be modified using the :sip:ref:`~PyQt6.QtCore.QProcess.processEnvironment` and :sip:ref:`~PyQt6.QtCore.QProcess.setProcessEnvironment` functions, which use the :sip:ref:`~PyQt6.QtCore.QProcessEnvironment` class. By default, :sip:ref:`~PyQt6.QtCore.QProcess.processEnvironment` will return an object for which :sip:ref:`~PyQt6.QtCore.QProcessEnvironment.inheritsFromParent` is true. Setting an environment that does not inherit from the parent will cause :sip:ref:`~PyQt6.QtCore.QProcess` to use exactly that environment for the child when it is started.
+
+The normal scenario starts from the current environment by calling :sip:ref:`~PyQt6.QtCore.QProcessEnvironment.systemEnvironment` and then proceeds to adding, changing, or removing specific variables. The resulting variable roster can then be applied to a :sip:ref:`~PyQt6.QtCore.QProcess` with :sip:ref:`~PyQt6.QtCore.QProcess.setProcessEnvironment`.
+
+It is possible to remove all variables from the environment or to start from an empty environment, using the QProcessEnvironment() default constructor. This is not advisable outside of controlled and system-specific conditions, as there may be system variables that are set in the current process environment and are required for proper execution of the child process.
+
+On Windows, :sip:ref:`~PyQt6.QtCore.QProcess` will copy the current process' ``"PATH"`` and ``"SystemRoot"`` environment variables if they were unset. It is not possible to unset them completely, but it is possible to set them to empty values. Setting ``"PATH"`` to empty on Windows will likely cause the child process to fail to start.
 
 .. _qprocess-communicating-via-channels:
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Range checking of floating-point numbers
-    :digest: 440ac6468cd615052fdb0d52071b47aa
+    :digest: 94b115defc2ad295f137c732c044390b
 
 The :sip:ref:`~PyQt6.QtGui.QDoubleValidator` class provides range checking of floating-point numbers.
 
@@ -11,6 +11,6 @@ You can set the acceptable range in one call with :sip:ref:`~PyQt6.QtGui.QDouble
 
 :sip:ref:`~PyQt6.QtGui.QDoubleValidator` uses its locale() to interpret the number. For example, in the German locale, "1,234" will be accepted as the fractional number 1.234. In Arabic locales, :sip:ref:`~PyQt6.QtGui.QDoubleValidator` will accept Arabic digits.
 
-**Note:** The QLocale::NumberOptions set on the locale() also affect the way the number is interpreted. For example, since :sip:ref:`~PyQt6.QtCore.QLocale.NumberOption.RejectGroupSeparator` is not set by default, the validator will accept group separators. It is thus recommended to use :sip:ref:`~PyQt6.QtCore.QLocale.toDouble` to obtain the numeric value.
+**Note:** The QLocale::NumberOptions set on the locale() also affect the way the number is interpreted. For example, since :sip:ref:`~PyQt6.QtCore.QLocale.NumberOption.RejectGroupSeparator` is not set by default (except on the ``"C"`` locale), the validator will accept group separators. If the string passes validation, pass it to locale().toDouble() to obtain its numeric value.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QIntValidator`, :sip:ref:`~PyQt6.QtGui.QRegularExpressionValidator`, :sip:ref:`~PyQt6.QtCore.QLocale.toDouble`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

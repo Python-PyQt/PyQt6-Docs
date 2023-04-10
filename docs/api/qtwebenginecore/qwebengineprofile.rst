@@ -107,6 +107,11 @@
             bool
         :description: QtWebEngineCore/QWebEngineProfile-isOffTheRecord-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.isPushServiceEnabled
+        :returns:
+            bool
+        :description: QtWebEngineCore/QWebEngineProfile-isPushServiceEnabled-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.isSpellCheckEnabled
         :returns:
             bool
@@ -198,6 +203,11 @@
         :args:
             str
         :description: QtWebEngineCore/QWebEngineProfile-setPersistentStoragePath-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setPushServiceEnabled
+        :args:
+            bool
+        :description: QtWebEngineCore/QWebEngineProfile-setPushServiceEnabled-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setSpellCheckEnabled
         :args:

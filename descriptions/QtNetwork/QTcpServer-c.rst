@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: TCP-based server
-    :digest: 1be49e8212cb75fb71b953f32a57e27f
+    :digest: c2dfd58238e57b2fd551a127b9cbb6a1
 
 The :sip:ref:`~PyQt6.QtNetwork.QTcpServer` class provides a TCP-based server.
 
@@ -19,4 +19,4 @@ Calling :sip:ref:`~PyQt6.QtNetwork.QTcpServer.close` makes :sip:ref:`~PyQt6.QtNe
 
 Although :sip:ref:`~PyQt6.QtNetwork.QTcpServer` is mostly designed for use with an event loop, it's possible to use it without one. In that case, you must use :sip:ref:`~PyQt6.QtNetwork.QTcpServer.waitForNewConnection`, which blocks until either a connection is available or a timeout expires.
 
-.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, `Fortune Server Example <https://doc.qt.io/qt-6/qtnetwork-fortuneserver-example.html>`_, `Threaded Fortune Server Example <https://doc.qt.io/qt-6/qtnetwork-threadedfortuneserver-example.html>`_, `Loopback Example <https://doc.qt.io/qt-6/qtnetwork-loopback-example.html>`_, `Torrent Example <https://doc.qt.io/qt-6/qtnetwork-torrent-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, `Fortune Server <https://doc.qt.io/qt-6/qtnetwork-fortuneserver-example.html>`_, `Threaded Fortune Server <https://doc.qt.io/qt-6/qtnetwork-threadedfortuneserver-example.html>`_, `Loopback Example <https://doc.qt.io/qt-6/qtnetwork-loopback-example.html>`_, `Torrent Example <https://doc.qt.io/qt-6/qtnetwork-torrent-example.html>`_.

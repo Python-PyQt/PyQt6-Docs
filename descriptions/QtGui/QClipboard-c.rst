@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access to the window system clipboard
-    :digest: 40abc17e18e14d56c43009f22be64e65
+    :digest: 7cc674447233701a883f9c4c3b41d9f6
 
 The :sip:ref:`~PyQt6.QtGui.QClipboard` class provides access to the window system clipboard.
 
@@ -9,7 +9,7 @@ The clipboard offers a simple mechanism to copy and paste data between applicati
 
 :sip:ref:`~PyQt6.QtGui.QClipboard` supports the same data types that :sip:ref:`~PyQt6.QtGui.QDrag` does, and uses similar mechanisms. For advanced clipboard usage read `Drag and Drop <https://doc.qt.io/qt-6/dnd.html>`_.
 
-There is a single :sip:ref:`~PyQt6.QtGui.QClipboard` object in an application, accessible as :sip:ref:`~PyQt6.QtGui.QGuiApplication.clipboard`.
+There is a single :sip:ref:`~PyQt6.QtGui.QClipboard` object in an application, accessible as QGuiApplication::clipboard().
 
 Example:
 

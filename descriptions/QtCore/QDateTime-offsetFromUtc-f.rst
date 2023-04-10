@@ -2,9 +2,9 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: ae9a20733b11c48fc4765d85ae3dbd9e
+    :digest: b4205f2222af9750d9f72b033866102c
 
-Returns this date-time's Offset From UTC in seconds.
+Returns this datetime's Offset From UTC in seconds.
 
 The result depends on :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`:
 

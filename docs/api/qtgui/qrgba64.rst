@@ -18,8 +18,8 @@
 
     .. sip:method:: PyQt6.QtGui.QRgba64.alpha8
         :returns:
-            int
-        :description: QtGui/QRgba64-alpha8-f.rst
+            bytes
+        :description: QtGui/QRgba64-alpha8-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRgba64.blue
         :returns:
@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtGui.QRgba64.blue8
         :returns:
-            int
-        :description: QtGui/QRgba64-blue8-f.rst
+            bytes
+        :description: QtGui/QRgba64-blue8-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRgba64.fromArgb32
         :args:
@@ -41,14 +41,14 @@
 
     .. sip:method:: PyQt6.QtGui.QRgba64.fromRgba
         :args:
-            int
-            int
-            int
-            int
+            bytes
+            bytes
+            bytes
+            bytes
         :returns:
             :sip:ref:`~PyQt6.QtGui.QRgba64`
         :static:
-        :description: QtGui/QRgba64-fromRgba-f.rst
+        :description: QtGui/QRgba64-fromRgba-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRgba64.fromRgba64
         :args:
@@ -76,8 +76,8 @@
 
     .. sip:method:: PyQt6.QtGui.QRgba64.green8
         :returns:
-            int
-        :description: QtGui/QRgba64-green8-f.rst
+            bytes
+        :description: QtGui/QRgba64-green8-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRgba64.__int__
         :returns:
@@ -106,8 +106,8 @@
 
     .. sip:method:: PyQt6.QtGui.QRgba64.red8
         :returns:
-            int
-        :description: QtGui/QRgba64-red8-f.rst
+            bytes
+        :description: QtGui/QRgba64-red8-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRgba64.setAlpha
         :args:

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Font metrics information
-    :digest: 65d8b8695dd27504acaebddf426f1c5d
+    :digest: 2a38119604a8511d0bc68e1a13742dba
 
 The :sip:ref:`~PyQt6.QtGui.QFontMetrics` class provides font metrics information.
 
@@ -23,7 +23,9 @@ There are also some functions that operate on the set of glyphs in the font: :si
 
 For each character, you can get its :sip:ref:`~PyQt6.QtGui.QFontMetrics.horizontalAdvance`, :sip:ref:`~PyQt6.QtGui.QFontMetrics.leftBearing`, and :sip:ref:`~PyQt6.QtGui.QFontMetrics.rightBearing`, and find out whether it is in the font using :sip:ref:`~PyQt6.QtGui.QFontMetrics.inFont`. You can also treat the character as a string, and use the string functions on it.
 
-The string functions include :sip:ref:`~PyQt6.QtGui.QFontMetrics.horizontalAdvance`, to return the width of a string in pixels (or points, for a printer), :sip:ref:`~PyQt6.QtGui.QFontMetrics.boundingRect`, to return a rectangle large enough to contain the rendered string, and :sip:ref:`~PyQt6.QtGui.QFontMetrics.size`, to return the size of that rectangle.
+The string functions include :sip:ref:`~PyQt6.QtGui.QFontMetrics.horizontalAdvance`, to return the advance width of a string in pixels (or points, for a printer), :sip:ref:`~PyQt6.QtGui.QFontMetrics.boundingRect`, to return a rectangle large enough to contain the rendered string, and :sip:ref:`~PyQt6.QtGui.QFontMetrics.size`, to return the size of that rectangle.
+
+**Note:** The advance width can be different from the width of the actual rendered text. It refers to the distance from the origin of the string to where you would append additional characters. As text may have overhang (in the case of an italic font for instance) or padding between characters, the advance width can be either smaller or larger than the actual rendering of the text. This is called the right bearing of the text.
 
 Example:
 

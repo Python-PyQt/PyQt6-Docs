@@ -74,6 +74,11 @@
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.prepare
         :description: QtQuick/QSGRenderNode-prepare-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QSGRenderNode.projectionMatrix
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QMatrix4x4`
+        :description: QtQuick/QSGRenderNode-projectionMatrix-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QSGRenderNode.rect
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRectF`

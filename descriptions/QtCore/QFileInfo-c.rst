@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: System-independent file information
-    :digest: 87baa2a7bd3f4907561ae97bc12bccd1
+    :digest: d9b382f51aba1310f756ba3e298a1aba
 
 The :sip:ref:`~PyQt6.QtCore.QFileInfo` class provides system-independent file information.
 
@@ -41,6 +41,8 @@ Permission checking is then turned on and off by incrementing and decrementing `
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-ntfsp.py
     :lines: 59-60
 
+**Note:** Since this is a non-atomic global variable, it is only safe to increment or decrement ``qt_ntfs_permission_lookup`` before any threads other than the main thread have started or after every thread other than the main thread has ended.
+
 .. _qfileinfo-performance-issues:
 
 Performance Issues
@@ -51,5 +53,18 @@ Some of :sip:ref:`~PyQt6.QtCore.QFileInfo`'s functions query the file system, bu
 **Note:** To speed up performance, :sip:ref:`~PyQt6.QtCore.QFileInfo` caches information about the file.
 
 Because files can be changed by other users or programs, or even by other parts of the same program, there is a function that refreshes the file information: :sip:ref:`~PyQt6.QtCore.QFileInfo.refresh`. If you want to switch off a :sip:ref:`~PyQt6.QtCore.QFileInfo`'s caching and force it to access the file system every time you request information from it call :sip:ref:`~PyQt6.QtCore.QFileInfo.setCaching`\ (false). If you want to make sure that all information is read from the file system, use :sip:ref:`~PyQt6.QtCore.QFileInfo.stat`.
+
+.. _qfileinfo-platform-specific-issues:
+
+Platform Specific Issues
+------------------------
+
+On Android, some limitations apply when dealing with `content URIs <https://doc.qt.io/qt-6/https://developer.android.com/guide/topics/providers/content-provider-basics#ContentURIs>`_:
+
+* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements Android's native file picker.
+
+* Aim to follow the `Scoped storage <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage#scoped-storage>`_ guidelines, such as using app specific directories instead of other public external directories. For more information, also see `storage best practices <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/use-cases>`_.
+
+* Due to the design of Qt APIs (e.g. :sip:ref:`~PyQt6.QtCore.QFile`), it's not possible to fully integrate the latter APIs with Android's `MediaStore <https://doc.qt.io/qt-6/https://developer.android.com/reference/android/provider/MediaStore>`_ APIs.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QFile`.

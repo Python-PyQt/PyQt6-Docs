@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 841d4aeb7dbe861b65020e73e40ffc51
+    :digest: 88f4afd28ebb79beed5770cf95f66355
 
 This enum describes the different locations that can be queried using methods such as :sip:ref:`~PyQt6.QtCore.QStandardPaths.writableLocation`, :sip:ref:`~PyQt6.QtCore.QStandardPaths.standardLocations`, and :sip:ref:`~PyQt6.QtCore.QStandardPaths.displayName`.
 
@@ -109,17 +109,17 @@ The following table gives examples of paths on different operating systems. The 
 +=======================+==========================================================+=====================================================+
 | DesktopLocation       | "<APPROOT>/files"                                        | "<APPROOT>/Documents/Desktop"                       |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| DocumentsLocation     | "<USER>/Documents", "<USER>/<APPNAME>/Documents"         | "<APPROOT>/Documents"                               |
+| DocumentsLocation     | "<USER>/Documents" [\*], "<USER>/<APPNAME>/Documents"    | "<APPROOT>/Documents"                               |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | FontsLocation         | "/system/fonts" (not writable)                           | "<APPROOT>/Library/Fonts"                           |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | ApplicationsLocation  | not supported (directory not readable)                   | not supported                                       |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| MusicLocation         | "<USER>/Music", "<USER>/<APPNAME>/Music"                 | "<APPROOT>/Documents/Music"                         |
+| MusicLocation         | "<USER>/Music" [\*], "<USER>/<APPNAME>/Music"            | "<APPROOT>/Documents/Music"                         |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| MoviesLocation        | "<USER>/Movies", "<USER>/<APPNAME>/Movies"               | "<APPROOT>/Documents/Movies"                        |
+| MoviesLocation        | "<USER>/Movies" [\*], "<USER>/<APPNAME>/Movies"          | "<APPROOT>/Documents/Movies"                        |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| PicturesLocation      | "<USER>/Pictures", "<USER>/<APPNAME>/Pictures"           | "<APPROOT>/Documents/Pictures", "assets-library://" |
+| PicturesLocation      | "<USER>/Pictures" [\*], "<USER>/<APPNAME>/Pictures"      | "<APPROOT>/Documents/Pictures", "assets-library://" |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | TempLocation          | "<APPROOT>/cache"                                        | "<APPROOT>/tmp"                                     |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
@@ -129,7 +129,7 @@ The following table gives examples of paths on different operating systems. The 
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | CacheLocation         | "<APPROOT>/cache", "<USER>/<APPNAME>/cache"              | "<APPROOT>/Library/Caches"                          |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| GenericDataLocation   | "<USER>"                                                 | "<APPROOT>/Library/Application Support"             |
+| GenericDataLocation   | "<USER>" [\*] or "<USER>/<APPNAME>/files"                | "<APPROOT>/Library/Application Support"             |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | RuntimeLocation       | "<APPROOT>/cache"                                        | not supported                                       |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
@@ -137,7 +137,7 @@ The following table gives examples of paths on different operating systems. The 
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | GenericConfigLocation | "<APPROOT>/files/settings" (there is no shared settings) | "<APPROOT>/Library/Preferences"                     |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
-| DownloadLocation      | "<USER>/Downloads", "<USER>/<APPNAME>/Downloads"         | "<APPROOT>/Documents/Downloads"                     |
+| DownloadLocation      | "<USER>/Downloads" [\*], "<USER>/<APPNAME>/Downloads"    | "<APPROOT>/Documents/Downloads"                     |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
 | GenericCacheLocation  | "<APPROOT>/cache" (there is no shared cache)             | "<APPROOT>/Library/Caches"                          |
 +-----------------------+----------------------------------------------------------+-----------------------------------------------------+
@@ -159,6 +159,8 @@ The paths above should not be relied upon, as they may change according to OS co
 **Note:** On Android 6.0 (API 23) or higher, the "WRITE_EXTERNAL_STORAGE" permission must be requested at runtime when using :sip:ref:`~PyQt6.QtCore.QStandardPaths.writableLocation` or :sip:ref:`~PyQt6.QtCore.QStandardPaths.standardLocations`.
 
 **Note:** On Android, reading/writing to GenericDataLocation needs the READ_EXTERNAL_STORAGE/WRITE_EXTERNAL_STORAGE permission granted.
+
+**Note:** [\*] On Android 11 and above, public directories are no longer directly accessible in scoped storage mode. Thus, paths of the form ``"<USER>/DirName"`` are not returned. Instead, you can use :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which uses the Storage Access Framework (SAF) to access such directories.
 
 **Note:** On iOS, if you do pass ``QStandardPaths::standardLocations(QStandardPaths::PicturesLocation).last()`` as argument to :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setDirectory`, a native image picker dialog will be used for accessing the user's photo album. The filename returned can be loaded using :sip:ref:`~PyQt6.QtCore.QFile` and related APIs. This feature was added in Qt 5.5.
 

@@ -1,15 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenient interface for working with URLs
-    :digest: 0b6a3ea131a20e4dcf2b4099b6f94fe7
+    :digest: ca78e9fd8d9b0ba93f4964a38dee02a5
 
 The :sip:ref:`~PyQt6.QtCore.QUrl` class provides a convenient interface for working with URLs.
 
 It can parse and construct URLs in both encoded and unencoded form. :sip:ref:`~PyQt6.QtCore.QUrl` also has support for internationalized domain names (IDNs).
 
-The most common way to use :sip:ref:`~PyQt6.QtCore.QUrl` is to initialize it via the constructor by passing a QString. Otherwise, :sip:ref:`~PyQt6.QtCore.QUrl.setUrl` can also be used.
+The most common way to use :sip:ref:`~PyQt6.QtCore.QUrl` is to initialize it via the constructor by passing a QString containing a full URL. :sip:ref:`~PyQt6.QtCore.QUrl` objects can also be created from a :sip:ref:`~PyQt6.QtCore.QByteArray` containing a full URL using :sip:ref:`~PyQt6.QtCore.QUrl.fromEncoded`, or heuristically from incomplete URLs using :sip:ref:`~PyQt6.QtCore.QUrl.fromUserInput`. The URL representation can be obtained from a :sip:ref:`~PyQt6.QtCore.QUrl` using either :sip:ref:`~PyQt6.QtCore.QUrl.toString` or :sip:ref:`~PyQt6.QtCore.QUrl.toEncoded`.
 
-URLs can be represented in two forms: encoded or unencoded. The unencoded representation is suitable for showing to users, but the encoded representation is typically what you would send to a web server. For example, the unencoded URL "http://bühler.example.com/List of applicants.xml" would be sent to the server as "http://xn--bhler-kva.example.com/List%20of%20applicants.xml".
+URLs can be represented in two forms: encoded or unencoded. The unencoded representation is suitable for showing to users, but the encoded representation is typically what you would send to a web server. For example, the unencoded URL "http://bühler.example.com/List of applicants.xml" would be sent to the server as "http://xn–bhler-kva.example.com/List%20of%20applicants.xml".
 
 A URL can also be constructed piece by piece by calling :sip:ref:`~PyQt6.QtCore.QUrl.setScheme`, :sip:ref:`~PyQt6.QtCore.QUrl.setUserName`, :sip:ref:`~PyQt6.QtCore.QUrl.setPassword`, :sip:ref:`~PyQt6.QtCore.QUrl.setHost`, :sip:ref:`~PyQt6.QtCore.QUrl.setPort`, :sip:ref:`~PyQt6.QtCore.QUrl.setPath`, :sip:ref:`~PyQt6.QtCore.QUrl.setQuery` and :sip:ref:`~PyQt6.QtCore.QUrl.setFragment`. Some convenience functions are also available: :sip:ref:`~PyQt6.QtCore.QUrl.setAuthority` sets the user name, password, host and port. :sip:ref:`~PyQt6.QtCore.QUrl.setUserInfo` sets the user name and password at once.
 
@@ -21,7 +21,7 @@ For the convenience of generating encoded URL strings or query strings, there ar
 
 :sip:ref:`~PyQt6.QtCore.QUrl.fromLocalFile` constructs a :sip:ref:`~PyQt6.QtCore.QUrl` by parsing a local file path. :sip:ref:`~PyQt6.QtCore.QUrl.toLocalFile` converts a URL to a local file path.
 
-The human readable representation of the URL is fetched with :sip:ref:`~PyQt6.QtCore.QUrl.toString`. This representation is appropriate for displaying a URL to a user in unencoded form. The encoded form however, as returned by :sip:ref:`~PyQt6.QtCore.QUrl.toEncoded`, is for internal use, passing to web servers, mail clients and so on. Both forms are technically correct and represent the same URL unambiguously -- in fact, passing either form to :sip:ref:`~PyQt6.QtCore.QUrl`'s constructor or to :sip:ref:`~PyQt6.QtCore.QUrl.setUrl` will yield the same :sip:ref:`~PyQt6.QtCore.QUrl` object.
+The human readable representation of the URL is fetched with :sip:ref:`~PyQt6.QtCore.QUrl.toString`. This representation is appropriate for displaying a URL to a user in unencoded form. The encoded form however, as returned by :sip:ref:`~PyQt6.QtCore.QUrl.toEncoded`, is for internal use, passing to web servers, mail clients and so on. Both forms are technically correct and represent the same URL unambiguously – in fact, passing either form to :sip:ref:`~PyQt6.QtCore.QUrl`'s constructor or to :sip:ref:`~PyQt6.QtCore.QUrl.setUrl` will yield the same :sip:ref:`~PyQt6.QtCore.QUrl` object.
 
 :sip:ref:`~PyQt6.QtCore.QUrl` conforms to the URI specification from RFC 3986 (Uniform Resource Identifier: Generic Syntax), and includes scheme extensions from RFC 1738 (Uniform Resource Locators). Case folding rules in :sip:ref:`~PyQt6.QtCore.QUrl` conform to RFC 3491 (Nameprep: A Stringprep Profile for Internationalized Domain Names (IDN)). It is also compatible with the `file URI specification <http://freedesktop.org/wiki/Specifications/file-uri-spec/>`_ from freedesktop.org, provided that the locale encodes file names using UTF-8 (required by IDN).
 

@@ -4,6 +4,15 @@
     :inherits: :sip:ref:`~PyQt6.QtWidgets.QWidget`
     :description: QtOpenGLWidgets/QOpenGLWidget-c.rst
 
+    .. sip:enum:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer
+        :description: QtOpenGLWidgets/QOpenGLWidget-TargetBuffer-e.rst
+
+        .. sip:enum-member:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer.LeftBuffer
+            :description: QtOpenGLWidgets/QOpenGLWidget-TargetBuffer-LeftBuffer-v.rst
+
+        .. sip:enum-member:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer.RightBuffer
+            :description: QtOpenGLWidgets/QOpenGLWidget-TargetBuffer-RightBuffer-v.rst
+
     .. sip:enum:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.UpdateBehavior
         :description: QtOpenGLWidgets/QOpenGLWidget-UpdateBehavior-e.rst
 
@@ -24,10 +33,22 @@
             :sip:ref:`~PyQt6.QtGui.QOpenGLContext`
         :description: QtOpenGLWidgets/QOpenGLWidget-context-f.rst
 
+    .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.currentTargetBuffer
+        :returns:
+            :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer`
+        :description: QtOpenGLWidgets/QOpenGLWidget-currentTargetBuffer-f.rst
+
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.defaultFramebufferObject
         :returns:
             int
         :description: QtOpenGLWidgets/QOpenGLWidget-defaultFramebufferObject-f.rst
+
+    .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.defaultFramebufferObject
+        :args:
+            :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer`
+        :returns:
+            int
+        :description: QtOpenGLWidgets/QOpenGLWidget-defaultFramebufferObject-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.doneCurrent
         :description: QtOpenGLWidgets/QOpenGLWidget-doneCurrent-f.rst
@@ -49,6 +70,13 @@
             :sip:ref:`~PyQt6.QtGui.QImage`
         :description: QtOpenGLWidgets/QOpenGLWidget-grabFramebuffer-f.rst
 
+    .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.grabFramebuffer
+        :args:
+            :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtOpenGLWidgets/QOpenGLWidget-grabFramebuffer-f-1.rst
+
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.initializeGL
         :description: QtOpenGLWidgets/QOpenGLWidget-initializeGL-f.rst
 
@@ -59,6 +87,11 @@
 
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.makeCurrent
         :description: QtOpenGLWidgets/QOpenGLWidget-makeCurrent-f.rst
+
+    .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.makeCurrent
+        :args:
+            :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget.TargetBuffer`
+        :description: QtOpenGLWidgets/QOpenGLWidget-makeCurrent-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGLWidgets.QOpenGLWidget.metric
         :args:

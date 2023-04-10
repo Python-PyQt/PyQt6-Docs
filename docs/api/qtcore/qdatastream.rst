@@ -151,6 +151,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_4
             :description: QtCore/QDataStream-Version-Qt_6_4-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_5
+            :description: QtCore/QDataStream-Version-Qt_6_5-v.rst
+
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :description: QtCore/QDataStream-__init__-f.rst
 
@@ -429,8 +432,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readInt8
         :returns:
-            int
-        :description: QtCore/QDataStream-readInt8-f.rst
+            bytes
+        :description: QtCore/QDataStream-readInt8-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQString
         :returns:
@@ -491,8 +494,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readUInt8
         :returns:
-            int
-        :description: QtCore/QDataStream-readUInt8-f.rst
+            bytes
+        :description: QtCore/QDataStream-readUInt8-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.resetStatus
         :description: QtCore/QDataStream-resetStatus-f.rst
@@ -778,8 +781,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeInt8
         :args:
-            int
-        :description: QtCore/QDataStream-writeInt8-f.rst
+            bytes
+        :description: QtCore/QDataStream-writeInt8-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQString
         :args:
@@ -840,5 +843,5 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeUInt8
         :args:
-            int
-        :description: QtCore/QDataStream-writeUInt8-f.rst
+            bytes
+        :description: QtCore/QDataStream-writeUInt8-f-1.rst

@@ -27,6 +27,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.Type.Float
             :description: QtCore/QMetaType-Type-Float-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.Type.Float16
+            :description: QtCore/QMetaType-Type-Float16-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.Type.Int
             :description: QtCore/QMetaType-Type-Int-v.rst
 
@@ -279,8 +282,14 @@
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsConstruction
             :description: QtCore/QMetaType-TypeFlag-NeedsConstruction-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsCopyConstruction
+            :description: QtCore/QMetaType-TypeFlag-NeedsCopyConstruction-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsDestruction
             :description: QtCore/QMetaType-TypeFlag-NeedsDestruction-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.NeedsMoveConstruction
+            :description: QtCore/QMetaType-TypeFlag-NeedsMoveConstruction-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QMetaType.TypeFlag.PointerToQObject
             :description: QtCore/QMetaType-TypeFlag-PointerToQObject-v.rst
@@ -359,10 +368,30 @@
             int
         :description: QtCore/QMetaType-id-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaType.isCopyConstructible
+        :returns:
+            bool
+        :description: QtCore/QMetaType-isCopyConstructible-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.isDefaultConstructible
+        :returns:
+            bool
+        :description: QtCore/QMetaType-isDefaultConstructible-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.isDestructible
+        :returns:
+            bool
+        :description: QtCore/QMetaType-isDestructible-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaType.isEqualityComparable
         :returns:
             bool
         :description: QtCore/QMetaType-isEqualityComparable-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.isMoveConstructible
+        :returns:
+            bool
+        :description: QtCore/QMetaType-isMoveConstructible-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.isOrdered
         :returns:
@@ -398,6 +427,9 @@
         :returns:
             bool
         :description: QtCore/QMetaType-__ne__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.registerType
+        :description: QtCore/QMetaType-registerType-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.sizeOf
         :returns:

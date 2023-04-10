@@ -2,7 +2,7 @@
     :status: todo
     :pysig: a8c229928ee22986fded27ccadf38348
     :realsig: (bool) const
-    :digest: 540a0c76d6b5fbc581a9526db93ca0fc
+    :digest: 9083c6f41e3403efafbcf1411748a5fb
 
 Returns the contents of this framebuffer object as a :sip:ref:`~PyQt6.QtGui.QImage`.
 
@@ -10,7 +10,7 @@ If *flipped* is true the image is flipped from OpenGL coordinates to raster coor
 
 The returned image has a format of premultiplied ARGB32 or RGB32. The latter is used only when internalTextureFormat() is set to ``GL_RGB``. Since Qt 5.2 the function will fall back to premultiplied RGBA8888 or RGBx8888 when reading to (A)RGB32 is not supported, and this includes OpenGL ES. Since Qt 5.4 an A2BGR30 image is returned if the internal format is RGB10_A2, and since Qt 5.12 a RGBA64 image is return if the internal format is RGBA16.
 
-If the rendering in the framebuffer was not done with premultiplied alpha in mind, create a wrapper :sip:ref:`~PyQt6.QtGui.QImage` with a non-premultiplied format. This is necessary before performing operations like :sip:ref:`~PyQt6.QtGui.QImage.save` because otherwise the image data would get unpremultiplied, even though it was not premultiplied in the first place. To create such a wrapper without performing a copy of the pixel data, do the following:
+If the rendering in the framebuffer was not done with premultiplied alpha in mind, create a wrapper :sip:ref:`~PyQt6.QtGui.QImage` with a non-premultiplied format. This is necessary before performing operations like QImage::save() because otherwise the image data would get unpremultiplied, even though it was not premultiplied in the first place. To create such a wrapper without performing a copy of the pixel data, do the following:
 
 ::
 

@@ -140,6 +140,11 @@
             bool
         :description: QtMultimedia/QMediaPlayer-isAvailable-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.isPlaying
+        :returns:
+            bool
+        :description: QtMultimedia/QMediaPlayer-isPlaying-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.isSeekable
         :returns:
             bool
@@ -325,6 +330,11 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.PlaybackState`
         :description: QtMultimedia/QMediaPlayer-playbackStateChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.playingChanged
+        :args:
+            bool
+        :description: QtMultimedia/QMediaPlayer-playingChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.positionChanged
         :args:

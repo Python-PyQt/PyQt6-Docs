@@ -99,6 +99,46 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode.Line
             :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-PolygonMode-Line-v.rst
 
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.blendConstant
+        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-blendConstant-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.blendEnable
+        :type: bool
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-blendEnable-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.colorWrite
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-colorWrite-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.cullMode
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.CullMode`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-cullMode-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.dstAlpha
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-dstAlpha-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.dstColor
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-dstColor-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.polygonMode
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-polygonMode-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.separateBlendFactors
+        :type: bool
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-separateBlendFactors-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.srcAlpha
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-srcAlpha-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.srcColor
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-srcColor-a.rst
+
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.__init__
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-__init__-f.rst
 

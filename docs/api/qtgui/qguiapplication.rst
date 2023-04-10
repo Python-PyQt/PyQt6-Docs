@@ -223,6 +223,11 @@
         :static:
         :description: QtGui/QGuiApplication-setApplicationDisplayName-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QGuiApplication.setBadgeNumber
+        :args:
+            int
+        :description: QtGui/QGuiApplication-setBadgeNumber-f.rst
+
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setDesktopFileName
         :args:
             str

@@ -300,6 +300,13 @@
             bool
         :description: QtCore/qFuzzyCompare-f.rst
 
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            float
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f.rst
+
     .. sip:method:: PyQt6.QtCore.qInf
         :returns:
             float

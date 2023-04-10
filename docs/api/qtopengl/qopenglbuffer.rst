@@ -177,6 +177,11 @@
             int
         :description: QtOpenGL/QOpenGLBuffer-size-f.rst
 
+    .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.swap
+        :args:
+            :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer`
+        :description: QtOpenGL/QOpenGLBuffer-swap-f.rst
+
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLBuffer.type
         :returns:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLBuffer.Type`
