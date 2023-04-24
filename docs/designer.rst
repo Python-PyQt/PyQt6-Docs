@@ -113,6 +113,10 @@ The :program:`pyuic6` utility is a command line interface to the
 
     pyuic6 [options] .ui-file
 
+If :file:`.ui_file` is a file then that file is converted.  If it is a
+directory then every file with a :file:`.ui` extension in the directory is
+converted.
+
 The full set of command line options is:
 
 .. program:: pyuic6
@@ -136,11 +140,19 @@ The full set of command line options is:
 
 .. cmdoption:: -o <FILE>, --output <FILE>
 
-    The Python code generated is written to the file ``<FILE>``.
+    If a single file is being converted then the Python code generated is
+    written to the file ``<FILE>``.  If ``<FILE>`` is ``-`` then it is written
+    to ``stdout``.  If a directory is converted then the generatee code is
+    written to this directory.
 
 .. cmdoption:: -p, --preview
 
     The GUI is created dynamically and displayed.  No Python code is generated.
+
+.. cmdoption:: -w <N>, --max-workers <N>
+
+    A maximum of N worker processes are used when converting a directory.  The
+    default is 0.
 
 .. cmdoption:: -x, --execute
 
