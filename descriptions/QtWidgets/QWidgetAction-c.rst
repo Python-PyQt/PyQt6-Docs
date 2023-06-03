@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Extends QAction by an interface for inserting custom widgets into action based containers, such as toolbars
-    :digest: 4f7d25922f46d917ee8412d8cd373420
+    :digest: 7470529344216c63297804a8fb51fc44
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidgetAction` class extends :sip:ref:`~PyQt6.QtGui.QAction` by an interface for inserting custom widgets into action based containers, such as toolbars.
 

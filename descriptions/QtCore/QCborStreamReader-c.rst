@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Simple CBOR stream decoder, operating on either a QByteArray or QIODevice
-    :digest: 91f278287c5434bdbc78265d1b8b6b81
+    :digest: 548fa7aea9f521e5eef5c735576924e3
 
 The :sip:ref:`~PyQt6.QtCore.QCborStreamReader` class is a simple CBOR stream decoder, operating on either a :sip:ref:`~PyQt6.QtCore.QByteArray` or :sip:ref:`~PyQt6.QtCore.QIODevice`.
 
@@ -82,4 +82,4 @@ Most errors detected by :sip:ref:`~PyQt6.QtCore.QCborStreamReader` during normal
 
 The only recoverable error is :sip:ref:`~PyQt6.QtCore.QCborError.Code.EndOfFile`, which indicates that more data is required in order to complete the parsing. This situation is useful when data is being read from an asynchronous source, such as a pipe (\ :sip:ref:`~PyQt6.QtCore.QProcess`) or a socket (\ :sip:ref:`~PyQt6.QtNetwork.QTcpSocket`, :sip:ref:`~PyQt6.QtNetwork.QUdpSocket`, :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`, etc.). When more data arrives, the surrounding code needs to call either :sip:ref:`~PyQt6.QtCore.QCborStreamReader.addData`, if parsing from a :sip:ref:`~PyQt6.QtCore.QByteArray`, or :sip:ref:`~PyQt6.QtCore.QCborStreamReader.reparse`, if it is instead reading directly a the QIDOevice that now has more data available (see :sip:ref:`~PyQt6.QtCore.QCborStreamReader.setDevice`).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamWriter`, QCborValue, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`, `Cbordump Example <https://doc.qt.io/qt-6/qtcore-serialization-cbordump-example.html>`_, `Convert Example <https://doc.qt.io/qt-6/qtcore-serialization-convert-example.html>`_, `JSON Save Game Example <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamWriter`, QCborValue, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader`, `Parsing and displaying CBOR data <https://doc.qt.io/qt-6/qtcore-serialization-cbordump-example.html>`_, `Convert Example <https://doc.qt.io/qt-6/qtcore-serialization-convert-example.html>`_, `JSON Save Game Example <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.

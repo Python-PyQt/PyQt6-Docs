@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Simple CBOR encoder operating on a one-way stream
-    :digest: b6e832aaa96ff52d178b23c79c4ff653
+    :digest: 8a42d105646e4a104d798ad8f0b32d1d
 
 The :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` class is a simple CBOR encoder operating on a one-way stream.
 
@@ -108,4 +108,6 @@ It is also possible to misuse :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` and pro
 
 * Append too many or too few items to an array or map with explicit length (\ :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endMap` and :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endArray` will return false and :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` will log with :sip:ref:`~PyQt6.QtCore.qWarning`).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamReader`, QCborValue, :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter`, `Cbordump Example <https://doc.qt.io/qt-6/qtcore-serialization-cbordump-example.html>`_, `Convert Example <https://doc.qt.io/qt-6/qtcore-serialization-convert-example.html>`_, `JSON Save Game Example <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.
+{Parsing and displaying CBOR data}, {Convert Example}, {JSON Save Game Example}
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamReader`, QCborValue, :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter`.

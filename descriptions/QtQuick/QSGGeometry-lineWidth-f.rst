@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
-    :digest: 74f8da85d628804ec619f9c1f4be8d0b
+    :digest: 267a99c9cf242bafd8c0ecc290df499f
 
-Gets the current line or point width or to be used for this geometry. This property only applies to line width when the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.drawingMode` is :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawLines`, DarwLineStrip, or :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawLineLoop`. When supported, it also applies to point size when the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.drawingMode` is :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawPoints`.
+Gets the current line or point width or to be used for this geometry. This property only applies to line width when the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.drawingMode` is :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawLines` or :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawLineStrip`. When supported, it also applies to point size when the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.drawingMode` is :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DrawingMode.DrawPoints`.
 
 The default value is ``1.0``
 

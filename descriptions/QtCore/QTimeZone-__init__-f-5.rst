@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c7bfc1cba36c8b80550b3d1b7d3cc3a7
     :realsig: (const QByteArray&,int,const QString&,const QString&,QLocale::Territory,const QString&)
-    :digest: a21921d2957da6bb284c02cf1689a31c
+    :digest: abc1ab89b36a5dc6181a6a14c434d45a
 
 Creates a custom time zone instance at fixed offset from UTC.
 
@@ -13,3 +13,5 @@ The *ianaId* must not be one of the available system IDs returned by :sip:ref:`~
 If the custom time zone does not have a specific territory then set it to the default value of :sip:ref:`~PyQt6.QtCore.QLocale.Country.AnyTerritory`.
 
 This constructor is only available when feature ``timezone`` is enabled.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimeZone.id`, :sip:ref:`~PyQt6.QtCore.QTimeZone.offsetFromUtc`, :sip:ref:`~PyQt6.QtCore.QTimeZone.displayName`, :sip:ref:`~PyQt6.QtCore.QTimeZone.abbreviation`, :sip:ref:`~PyQt6.QtCore.QTimeZone.territory`, :sip:ref:`~PyQt6.QtCore.QTimeZone.comment`.
