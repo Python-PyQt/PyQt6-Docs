@@ -51,6 +51,13 @@
         :static:
         :description: QtCore/QCoreApplication-arguments-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QCoreApplication.checkPermission
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.PermissionStatus`
+        :description: QtCore/QCoreApplication-checkPermission-f.rst
+
     .. sip:method:: PyQt6.QtCore.QCoreApplication.closingDown
         :returns:
             bool
@@ -201,6 +208,12 @@
             bool
         :static:
         :description: QtCore/QCoreApplication-removeTranslator-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCoreApplication.requestPermission
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]
+            Callable[[Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]], None]
+        :description: QtCore/QCoreApplication-requestPermission-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.sendEvent
         :args:
