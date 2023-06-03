@@ -1,6 +1,7 @@
-v6.5.1 24th April 2023
+v6.5.1 3rd June 2023
   - Documented the --max-workers option to pyuic6 and the corresponding option
     to uic.compileUiDir().
+  - Rebased on Qt v6.5.1 and PyQt v6.5.1.
 
 v6.5.0 10th April 2023
   - Rebased on Qt v6.5.0 and PyQt v6.5.0.
