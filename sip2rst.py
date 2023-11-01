@@ -249,7 +249,7 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
     generate_module_rst(module_el, module, fq_module, descriptions, api,
             verbose)
 
-    if module_el:
+    if module_el is not None:
         # Generate the reST for each class.
         for el in module_el:
             if el.tag == 'Class' and 'extends' not in el.attrib:
@@ -298,7 +298,7 @@ def generate_module_rst(module_el, module, fq_module, descriptions, api, verbose
 
                 desc_fmt.write_line('TODO')
 
-        if module_el:
+        if module_el is not None:
             generate_scope_rst(module_el, module, fq_module, descriptions,
                     api_fmt, verbose)
 
