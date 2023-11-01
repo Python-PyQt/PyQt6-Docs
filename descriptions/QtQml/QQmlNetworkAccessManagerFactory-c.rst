@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Creates QNetworkAccessManager instances for a QML engine
-    :digest: 06e242eed73a67d0aa999888744c9df9
+    :digest: b88767b8a23a1cd5421ee6f02f28f997
 
 The :sip:ref:`~PyQt6.QtQml.QQmlNetworkAccessManagerFactory` class creates :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` instances for a QML engine.
 
@@ -31,4 +31,4 @@ Note the QML engine may create :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`
 
 For more information about signals and threads, see Threads and QObjects and Signals and Slots Across Threads.
 
-.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QNetworkDiskCache`, Network Access Manager Factory Example.
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QNetworkDiskCache`.

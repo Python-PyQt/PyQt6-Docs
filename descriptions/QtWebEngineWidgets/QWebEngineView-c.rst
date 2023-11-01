@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget that is used to view and edit web documents
-    :digest: a12c07e7a441d5f4ce5db16e90ffa296
+    :digest: a6f6fd4fab4e29513df320bcfcf93043
 
 The :sip:ref:`~PyQt6.QtWebEngineWidgets.QWebEngineView` class provides a widget that is used to view and edit web documents.
 
@@ -26,4 +26,4 @@ The widget features a context menu that is tailored to the element at hand, and 
 
 If you want to provide support for web sites that allow the user to open new windows, such as pop-up windows, you can subclass :sip:ref:`~PyQt6.QtWebEngineWidgets.QWebEngineView` and reimplement the :sip:ref:`~PyQt6.QtWebEngineWidgets.QWebEngineView.createWindow` function.
 
-.. seealso:: `WebEngine Widgets Simple Browser Example <https://doc.qt.io/qt-6/qtwebengine-webenginewidgets-simplebrowser-example.html>`_, `WebEngine Content Manipulation Example <https://doc.qt.io/qt-6/qtwebengine-webenginewidgets-contentmanipulation-example.html>`_, `WebEngine Markdown Editor Example <https://doc.qt.io/qt-6/qtwebengine-webenginewidgets-markdowneditor-example.html>`_.
+.. seealso:: `WebEngine Widgets Simple Browser Example <https://doc.qt.io/qt-6/qtwebengine-webenginewidgets-simplebrowser-example.html>`_, `WebEngine Content Manipulation Example <https://doc.qt.io/qt-6/qtwebengine-webenginewidgets-contentmanipulation-example.html>`_.

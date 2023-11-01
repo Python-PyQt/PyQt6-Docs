@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenience subclass of QWindow to perform OpenGL painting
-    :digest: 245859d5b7c2a9b4d5d2b1d86576ca2b
+    :digest: f28dbb6cd25ee5c1056d40017af5a05e
 
 The :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` class is a convenience subclass of :sip:ref:`~PyQt6.QtGui.QWindow` to perform OpenGL painting.
 
@@ -20,6 +20,17 @@ To schedule a repaint, call the update() function. Note that this will not immed
 This is a slot so it can be connected to a :sip:ref:`~PyQt6.QtCore.QTimer.timeout` signal to perform animation. Note however that in the modern OpenGL world it is a much better choice to rely on synchronization to the vertical refresh rate of the display. See :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setSwapInterval` on a description of the swap interval. With a swap interval of ``1``, which is the case on most systems by default, the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.swapBuffers` call, that is executed internally by :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` after each repaint, will block and wait for vsync. This means that whenever the swap is done, an update can be scheduled again by calling update(), without relying on timers.
 
 To request a specific configuration for the context, use setFormat() like for any other :sip:ref:`~PyQt6.QtGui.QWindow`. This allows, among others, requesting a given OpenGL version and profile, or enabling depth and stencil buffers.
+
+**Note:** It is up to the application to ensure depth and stencil buffers are requested from the underlying windowing system interface. Without requesting a non-zero depth buffer size there is no guarantee that a depth buffer will be available, and as a result depth testing related OpenGL operations may fail to function as expected.
+
+Commonly used depth and stencil buffer size requests are 24 and 8, respectively. For example, a :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` subclass could do this in its constructor:
+
+::
+
+    QSurfaceFormat format;
+    format.setDepthBufferSize(24);
+    format.setStencilBufferSize(8);
+    setFormat(format);
 
 Unlike :sip:ref:`~PyQt6.QtGui.QWindow`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` allows opening a painter on itself and perform :sip:ref:`~PyQt6.QtGui.QPainter`-based drawing.
 

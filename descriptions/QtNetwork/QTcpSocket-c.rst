@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: TCP socket
-    :digest: d65f1b3edc3964f2a4732d1c424e48e2
+    :digest: c08a427a9e9fae58a966cc452bedf016
 
 The :sip:ref:`~PyQt6.QtNetwork.QTcpSocket` class provides a TCP socket.
 
@@ -11,4 +11,4 @@ TCP (Transmission Control Protocol) is a reliable, stream-oriented, connection-o
 
 **Note:** TCP sockets cannot be opened in QIODevice::Unbuffered mode.
 
-.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QTcpServer`, :sip:ref:`~PyQt6.QtNetwork.QUdpSocket`, :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`, `Fortune Server <https://doc.qt.io/qt-6/qtnetwork-fortuneserver-example.html>`_, `Fortune Client <https://doc.qt.io/qt-6/qtnetwork-fortuneclient-example.html>`_, `Threaded Fortune Server <https://doc.qt.io/qt-6/qtnetwork-threadedfortuneserver-example.html>`_, `Blocking Fortune Client <https://doc.qt.io/qt-6/qtnetwork-blockingfortuneclient-example.html>`_, `Loopback Example <https://doc.qt.io/qt-6/qtnetwork-loopback-example.html>`_, `Torrent Example <https://doc.qt.io/qt-6/qtnetwork-torrent-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QTcpServer`, :sip:ref:`~PyQt6.QtNetwork.QUdpSocket`, :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`, `Fortune Server <https://doc.qt.io/qt-6/qtnetwork-fortuneserver-example.html>`_, `Fortune Client <https://doc.qt.io/qt-6/qtnetwork-fortuneclient-example.html>`_, `Threaded Fortune Server <https://doc.qt.io/qt-6/qtnetwork-threadedfortuneserver-example.html>`_, `Blocking Fortune Client <https://doc.qt.io/qt-6/qtnetwork-blockingfortuneclient-example.html>`_, `Torrent Example <https://doc.qt.io/qt-6/qtnetwork-torrent-example.html>`_.

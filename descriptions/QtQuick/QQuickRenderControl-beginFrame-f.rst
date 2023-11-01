@@ -2,13 +2,13 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: ece17205010da68e3ecd13a9f2537ddb
+    :digest: 7ef875071bc74c51ee4f4dfc51eced10
 
-Specifies the start of a graphics frame. Calls to :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.sync` or :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.render` must be enclosed by calls to  and :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.endFrame`.
+Specifies the start of a graphics frame. Calls to :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.sync` or :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.render` must be enclosed by calls to beginFrame() and :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.endFrame`.
 
 Unlike the earlier OpenGL-only world of Qt 5, rendering with other graphics APIs requires more well-defined points of starting and ending a frame. When manually driving the rendering loop via :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl`, it now falls to the user of :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl` to specify these points.
 
-A typical update step, including initialization of rendering into an existing texture, could like like the following. The example snippet assumes Direct3D 11 but the same concepts apply other graphics APIs as well.
+A typical update step, including initialization of rendering into an existing texture, could look like the following. The example snippet assumes Direct3D 11 but the same concepts apply other graphics APIs as well.
 
 ::
 

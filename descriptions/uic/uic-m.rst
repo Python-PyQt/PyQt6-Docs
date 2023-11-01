@@ -34,7 +34,7 @@ execution.
         code.  If it is zero then a tab character is used instead.
 
 
-.. py:function:: PyQt6.uic.compileUiDir(dir, recurse=False, map=None, \*\*compileUi_args)
+.. py:function:: PyQt6.uic.compileUiDir(dir, recurse=False, map=None, max_workers=0, \*\*compileUi_args)
 
     Create Python modules from Qt Designer :file:`.ui` files in a directory or
     directory tree.
@@ -51,6 +51,9 @@ execution.
         will be created.  The callable should return a tuple of the name of the
         directory in which the Python module will be created and the (possibly
         modified) name of the module.
+    :param int max_workers: is the maximum number of worker processes to use. A
+        value of 0 means only the current process is used.  A value of ``None``
+        means that the number of processors on the machine is used.
     :param compileUi_args:
         are any additional keyword arguments that are passed to
         :func:`~PyQt6.uic.compileUi` that is called to create each Python

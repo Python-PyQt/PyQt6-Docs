@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Means for handling the command line options
-    :digest: ac956985fcdde9f408f9ae46c4e3e60b
+    :digest: 89cbee181a2a3aa5d45c091d3e36e74b
 
 The :sip:ref:`~PyQt6.QtCore.QCommandLineParser` class provides a means for handling the command line options.
 
@@ -42,7 +42,7 @@ How to Use QCommandLineParser in Complex Applications
 
 In practice, additional error checking needs to be performed on the positional arguments and option values. For example, ranges of numbers should be checked.
 
-It is then advisable to introduce a function to do the command line parsing which takes a struct or class receiving the option values returning an enumeration representing the result. The dnslookup example of the :sip:ref:`~PyQt6.QtNetwork` module illustrates this:
+It is then advisable to introduce a function to do the command line parsing which takes a struct or class receiving the option values returning an object representing the result. The dnslookup example of the :sip:ref:`~PyQt6.QtNetwork` module illustrates this:
 
 .. literalinclude:: ../../../snippets/qtbase-examples-network-dnslookup-dnslookup.py
     :lines: 57-66
@@ -64,20 +64,22 @@ For other platforms, it is recommended to display help texts and error messages 
 
 ::
 
-    switch (parseCommandLine(parser, &query, &errorMessage)) {
-    case CommandLineOk:
+    switch (parseResult.statusCode) {
+    case Status::Ok:
         break;
-    case CommandLineError:
+    case Status::Error: {
+        QString errorMessage = parseResult.errorString.value_or(u"Unknown error occurred"_qs);
         QMessageBox::warning(0, QGuiApplication::applicationDisplayName(),
                              "<html><head/><body><h2>" + errorMessage + "</h2><pre>"
                              + parser.helpText() + "</pre></body></html>");
         return 1;
-    case CommandLineVersionRequested:
+    }
+    case Status::VersionRequested:
         QMessageBox::information(0, QGuiApplication::applicationDisplayName(),
                                  QGuiApplication::applicationDisplayName() + ' '
                                  + QCoreApplication::applicationVersion());
         return 0;
-    case CommandLineHelpRequested:
+    case Status::HelpRequested:
         QMessageBox::warning(0, QGuiApplication::applicationDisplayName(),
                              "<html><head/><body><pre>"
                              + parser.helpText() + "</pre></body></html>");

@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 47bc384ef78158df7bdc68df0f06aef9
     :realsig: (int) const
-    :digest: 983846d75f0550512dff4fb5a701c54b
+    :digest: 728716e7385011b087593c6fa5ebad4b
 
-/ Returns ``true`` if position *pos* is a valid cursor position.
+Returns ``true`` if position *pos* is a valid cursor position.
 
 In a Unicode context some positions in the text are not valid cursor positions, because the position is inside a Unicode surrogate or a grapheme cluster.
 

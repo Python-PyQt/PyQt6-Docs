@@ -2,13 +2,13 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (qint64)
-    :digest: 33be838017a2ad2b806470b0f82e60f1
+    :digest: 60969415db7a016cd70a74c55d916df4
 
 Sets the application's badge to *number*.
 
 Useful for providing feedback to the user about the number of unread messages or similar.
 
-The badge will be overlaid on the application's icon in the Dock on macOS, the home screen icon on iOS, or the task bar on Windows.
+The badge will be overlaid on the application's icon in the Dock on macOS, the home screen icon on iOS, or the task bar on Windows and Linux.
 
 If the number is outside the range supported by the platform, the number will be clamped to the supported range. If the number does not fit within the badge, the number may be visually elided.
 

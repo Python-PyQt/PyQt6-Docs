@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget for rendering OpenGL graphics
-    :digest: 82e4f4f3e9de17f262e41dd9872e804e
+    :digest: 1c2bcc3254f518aef84ba03e9bcffb53
 
 The :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` class is a widget for rendering OpenGL graphics.
 
@@ -84,6 +84,8 @@ To get a context compatible with a given OpenGL version or profile, or to reques
 
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-doc_gui_widgets_qopenglwidget.py
     :lines: 102-108
+
+**Note:** It is up to the application to ensure depth and stencil buffers are requested from the underlying windowing system interface. Without requesting a non-zero depth buffer size there is no guarantee that a depth buffer will be available, and as a result depth testing related OpenGL operations may fail to function as expected. Commonly used depth and stencil buffer size requests are 24 and 8, respectively.
 
 With OpenGL 3.0+ contexts, when portability is not important, the versioned QOpenGLFunctions variants give easy access to all the modern OpenGL functions available in a given version:
 

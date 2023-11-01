@@ -2844,6 +2844,18 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.PenStyle.SolidLine
             :description: QtCore/Qt-PenStyle-SolidLine-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.Qt.PermissionStatus
+        :description: QtCore/Qt-PermissionStatus-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.PermissionStatus.Denied
+            :description: QtCore/Qt-PermissionStatus-Denied-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.PermissionStatus.Granted
+            :description: QtCore/Qt-PermissionStatus-Granted-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.PermissionStatus.Undetermined
+            :description: QtCore/Qt-PermissionStatus-Undetermined-v.rst
+
     .. sip:enum:: PyQt6.QtCore.Qt.ScreenOrientation
         :description: QtCore/Qt-ScreenOrientation-e.rst
 
