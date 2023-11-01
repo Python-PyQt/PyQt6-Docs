@@ -12,6 +12,9 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.GraphicsApi.Direct3D11Rhi
             :description: QtQuick/QSGRendererInterface-GraphicsApi-Direct3D11Rhi-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.GraphicsApi.Direct3D12
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-Direct3D12-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.GraphicsApi.Metal
             :description: QtQuick/QSGRendererInterface-GraphicsApi-Metal-v.rst
 
@@ -74,6 +77,12 @@
 
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.DeviceResource
             :description: QtQuick/QSGRendererInterface-Resource-DeviceResource-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.GraphicsQueueFamilyIndexResource
+            :description: QtQuick/QSGRendererInterface-Resource-GraphicsQueueFamilyIndexResource-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.GraphicsQueueIndexResource
+            :description: QtQuick/QSGRendererInterface-Resource-GraphicsQueueIndexResource-v.rst
 
         .. sip:enum-member:: PyQt6.QtQuick.QSGRendererInterface.Resource.OpenGLContextResource
             :description: QtQuick/QSGRendererInterface-Resource-OpenGLContextResource-v.rst

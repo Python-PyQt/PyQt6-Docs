@@ -5,8 +5,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.__init__
         :args:
-            name: str = ''
-        :description: QtPositioning/QGeoAreaMonitorInfo-__init__-f.rst
+            name: Optional[str] = ''
+        :description: QtPositioning/QGeoAreaMonitorInfo-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.__init__
         :args:
@@ -79,13 +79,13 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setName
         :args:
-            str
-        :description: QtPositioning/QGeoAreaMonitorInfo-setName-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAreaMonitorInfo-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setNotificationParameters
         :args:
-            Dict[str, Any]
-        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f.rst
+            Dict[Optional[str], Any]
+        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setPersistent
         :args:

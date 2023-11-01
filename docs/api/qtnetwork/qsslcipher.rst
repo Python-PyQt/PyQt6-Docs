@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCipher.__init__
         :args:
-            str
-        :description: QtNetwork/QSslCipher-__init__-f-1.rst
+            Optional[str]
+        :description: QtNetwork/QSslCipher-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCipher.__init__
         :args:
@@ -18,9 +18,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCipher.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`
-        :description: QtNetwork/QSslCipher-__init__-f-3.rst
+        :description: QtNetwork/QSslCipher-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCipher.authenticationMethod
         :returns:

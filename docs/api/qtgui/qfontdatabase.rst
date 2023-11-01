@@ -133,19 +133,19 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.addApplicationFont
         :args:
-            str
+            Optional[str]
         :returns:
             int
         :static:
-        :description: QtGui/QFontDatabase-addApplicationFont-f.rst
+        :description: QtGui/QFontDatabase-addApplicationFont-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.addApplicationFontFromData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             int
         :static:
-        :description: QtGui/QFontDatabase-addApplicationFontFromData-f.rst
+        :description: QtGui/QFontDatabase-addApplicationFontFromData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.applicationFontFamilies
         :args:
@@ -157,12 +157,12 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.bold
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-bold-f.rst
+        :description: QtGui/QFontDatabase-bold-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.families
         :args:
@@ -174,75 +174,75 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.font
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QFont`
         :static:
-        :description: QtGui/QFontDatabase-font-f.rst
+        :description: QtGui/QFontDatabase-font-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.isBitmapScalable
         :args:
-            str
-            style: str = ''
+            Optional[str]
+            style: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-isBitmapScalable-f.rst
+        :description: QtGui/QFontDatabase-isBitmapScalable-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.isFixedPitch
         :args:
-            str
-            style: str = ''
+            Optional[str]
+            style: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-isFixedPitch-f.rst
+        :description: QtGui/QFontDatabase-isFixedPitch-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.isPrivateFamily
         :args:
-            str
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-isPrivateFamily-f.rst
+        :description: QtGui/QFontDatabase-isPrivateFamily-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.isScalable
         :args:
-            str
-            style: str = ''
+            Optional[str]
+            style: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-isScalable-f.rst
+        :description: QtGui/QFontDatabase-isScalable-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.isSmoothlyScalable
         :args:
-            str
-            style: str = ''
+            Optional[str]
+            style: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-isSmoothlyScalable-f.rst
+        :description: QtGui/QFontDatabase-isSmoothlyScalable-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.italic
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtGui/QFontDatabase-italic-f.rst
+        :description: QtGui/QFontDatabase-italic-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.pointSizes
         :args:
-            str
-            style: str = ''
+            Optional[str]
+            style: Optional[str] = ''
         :returns:
             List[int]
         :static:
-        :description: QtGui/QFontDatabase-pointSizes-f.rst
+        :description: QtGui/QFontDatabase-pointSizes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.removeAllApplicationFonts
         :returns:
@@ -260,12 +260,12 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.smoothSizes
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             List[int]
         :static:
-        :description: QtGui/QFontDatabase-smoothSizes-f.rst
+        :description: QtGui/QFontDatabase-smoothSizes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.standardSizes
         :returns:
@@ -275,11 +275,11 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.styles
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
         :static:
-        :description: QtGui/QFontDatabase-styles-f.rst
+        :description: QtGui/QFontDatabase-styles-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.styleString
         :args:
@@ -307,12 +307,12 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.weight
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             int
         :static:
-        :description: QtGui/QFontDatabase-weight-f.rst
+        :description: QtGui/QFontDatabase-weight-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.writingSystemName
         :args:
@@ -330,11 +330,11 @@
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.writingSystems
         :args:
-            str
+            Optional[str]
         :returns:
             List[:sip:ref:`~PyQt6.QtGui.QFontDatabase.WritingSystem`]
         :static:
-        :description: QtGui/QFontDatabase-writingSystems-f-1.rst
+        :description: QtGui/QFontDatabase-writingSystems-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.writingSystemSample
         :args:

@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgramBuilder.setEnabledLayers
         :args:
-            Iterable[str]
-        :description: Qt3DRender/QShaderProgramBuilder-setEnabledLayers-f.rst
+            Iterable[Optional[str]]
+        :description: Qt3DRender/QShaderProgramBuilder-setEnabledLayers-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgramBuilder.setFragmentShaderGraph
         :args:
@@ -121,8 +121,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.computeShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-computeShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-computeShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.computeShaderGraphChanged
         :args:
@@ -131,13 +131,13 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.enabledLayersChanged
         :args:
-            Iterable[str]
-        :description: Qt3DRender/QShaderProgramBuilder-enabledLayersChanged-s.rst
+            Iterable[Optional[str]]
+        :description: Qt3DRender/QShaderProgramBuilder-enabledLayersChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.fragmentShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.fragmentShaderGraphChanged
         :args:
@@ -146,8 +146,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.geometryShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-geometryShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-geometryShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.geometryShaderGraphChanged
         :args:
@@ -161,8 +161,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderGraphChanged
         :args:
@@ -171,8 +171,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderGraphChanged
         :args:
@@ -181,8 +181,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.vertexShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgramBuilder-vertexShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgramBuilder-vertexShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgramBuilder.vertexShaderGraphChanged
         :args:

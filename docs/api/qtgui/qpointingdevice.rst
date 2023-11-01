@@ -35,17 +35,17 @@
 
     .. sip:method:: PyQt6.QtGui.QPointingDevice.__init__
         :args:
-            str
+            Optional[str]
             int
             :sip:ref:`~PyQt6.QtGui.QInputDevice.DeviceType`
             :sip:ref:`~PyQt6.QtGui.QPointingDevice.PointerType`
             :sip:ref:`~PyQt6.QtGui.QInputDevice.Capability`
             int
             int
-            seatName: str = ''
+            seatName: Optional[str] = ''
             uniqueId: :sip:ref:`~PyQt6.QtGui.QPointingDeviceUniqueId` = QPointingDeviceUniqueId()
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QPointingDevice-__init__-f-2.rst
+        :description: QtGui/QPointingDevice-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QPointingDevice.buttonCount
         :returns:
@@ -78,11 +78,11 @@
 
     .. sip:method:: PyQt6.QtGui.QPointingDevice.primaryPointingDevice
         :args:
-            seatName: str = ''
+            seatName: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPointingDevice`
         :static:
-        :description: QtGui/QPointingDevice-primaryPointingDevice-f.rst
+        :description: QtGui/QPointingDevice-primaryPointingDevice-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPointingDevice.uniqueId
         :returns:

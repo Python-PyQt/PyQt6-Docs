@@ -52,13 +52,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslPreSharedKeyAuthenticator.setIdentity
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslPreSharedKeyAuthenticator-setIdentity-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QSslPreSharedKeyAuthenticator-setIdentity-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslPreSharedKeyAuthenticator.setPreSharedKey
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslPreSharedKeyAuthenticator-setPreSharedKey-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QSslPreSharedKeyAuthenticator-setPreSharedKey-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslPreSharedKeyAuthenticator.swap
         :args:

@@ -14,9 +14,9 @@
     .. sip:method:: PyQt6.QtHelp.QHelpSearchResult.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            str
-            str
-        :description: QtHelp/QHelpSearchResult-__init__-f-2.rst
+            Optional[str]
+            Optional[str]
+        :description: QtHelp/QHelpSearchResult-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchResult.snippet
         :returns:

@@ -150,8 +150,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.serviceAvailability
         :returns:
-            bytes
-        :description: QtBluetooth/QBluetoothServiceInfo-serviceAvailability-f-1.rst
+            int
+        :description: QtBluetooth/QBluetoothServiceInfo-serviceAvailability-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.serviceClassUuids
         :returns:
@@ -203,23 +203,23 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.setServiceAvailability
         :args:
-            bytes
-        :description: QtBluetooth/QBluetoothServiceInfo-setServiceAvailability-f-1.rst
+            int
+        :description: QtBluetooth/QBluetoothServiceInfo-setServiceAvailability-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.setServiceDescription
         :args:
-            str
-        :description: QtBluetooth/QBluetoothServiceInfo-setServiceDescription-f.rst
+            Optional[str]
+        :description: QtBluetooth/QBluetoothServiceInfo-setServiceDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.setServiceName
         :args:
-            str
-        :description: QtBluetooth/QBluetoothServiceInfo-setServiceName-f.rst
+            Optional[str]
+        :description: QtBluetooth/QBluetoothServiceInfo-setServiceName-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.setServiceProvider
         :args:
-            str
-        :description: QtBluetooth/QBluetoothServiceInfo-setServiceProvider-f.rst
+            Optional[str]
+        :description: QtBluetooth/QBluetoothServiceInfo-setServiceProvider-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.setServiceUuid
         :args:

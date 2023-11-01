@@ -286,10 +286,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.restoreState
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtWidgets/QHeaderView-restoreState-f.rst
+        :description: QtWidgets/QHeaderView-restoreState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QHeaderView.rowsInserted
         :args:

@@ -20,10 +20,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScriptCollection.find
         :args:
-            str
+            Optional[str]
         :returns:
             List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript`]
-        :description: QtWebEngineCore/QWebEngineScriptCollection-find-f.rst
+        :description: QtWebEngineCore/QWebEngineScriptCollection-find-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScriptCollection.insert
         :args:

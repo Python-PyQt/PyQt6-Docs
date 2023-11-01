@@ -121,10 +121,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.dateTimeFromText
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtWidgets/QDateTimeEdit-dateTimeFromText-f.rst
+        :description: QtWidgets/QDateTimeEdit-dateTimeFromText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.displayedSections
         :returns:
@@ -145,10 +145,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.fixup
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtWidgets/QDateTimeEdit-fixup-f.rst
+        :description: QtWidgets/QDateTimeEdit-fixup-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.focusInEvent
         :args:
@@ -280,8 +280,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDisplayFormat
         :args:
-            str
-        :description: QtWidgets/QDateTimeEdit-setDisplayFormat-f.rst
+            Optional[str]
+        :description: QtWidgets/QDateTimeEdit-setDisplayFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMaximumDate
         :args:
@@ -368,13 +368,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtWidgets/QDateTimeEdit-validate-f.rst
+        :description: QtWidgets/QDateTimeEdit-validate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.wheelEvent
         :args:

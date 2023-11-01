@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.addLibraryPath
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-addLibraryPath-f.rst
+        :description: QtCore/QCoreApplication-addLibraryPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.applicationDirPath
         :returns:
@@ -185,9 +185,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.removeLibraryPath
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-removeLibraryPath-f.rst
+        :description: QtCore/QCoreApplication-removeLibraryPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.removeNativeEventFilter
         :args:
@@ -233,15 +233,15 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setApplicationName
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-setApplicationName-f.rst
+        :description: QtCore/QCoreApplication-setApplicationName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setApplicationVersion
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-setApplicationVersion-f.rst
+        :description: QtCore/QCoreApplication-setApplicationVersion-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setAttribute
         :args:
@@ -258,21 +258,21 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setLibraryPaths
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :static:
-        :description: QtCore/QCoreApplication-setLibraryPaths-f.rst
+        :description: QtCore/QCoreApplication-setLibraryPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setOrganizationDomain
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-setOrganizationDomain-f.rst
+        :description: QtCore/QCoreApplication-setOrganizationDomain-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setOrganizationName
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QCoreApplication-setOrganizationName-f.rst
+        :description: QtCore/QCoreApplication-setOrganizationName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setQuitLockEnabled
         :args:

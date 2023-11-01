@@ -97,11 +97,11 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.printerInfo
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtPrintSupport.QPrinterInfo`
         :static:
-        :description: QtPrintSupport/QPrinterInfo-printerInfo-f.rst
+        :description: QtPrintSupport/QPrinterInfo-printerInfo-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.printerName
         :returns:

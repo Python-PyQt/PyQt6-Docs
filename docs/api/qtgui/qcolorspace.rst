@@ -86,8 +86,8 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.Primaries`
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0.0
-        :description: QtGui/QColorSpace-__init__-f-9.rst
+            gamma: float = 0
+        :description: QtGui/QColorSpace-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
@@ -105,8 +105,8 @@
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0.0
-        :description: QtGui/QColorSpace-__init__-f-10.rst
+            gamma: float = 0
+        :description: QtGui/QColorSpace-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
@@ -133,11 +133,11 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.fromIccProfile
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
         :static:
-        :description: QtGui/QColorSpace-fromIccProfile-f.rst
+        :description: QtGui/QColorSpace-fromIccProfile-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.gamma
         :returns:
@@ -168,8 +168,8 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setDescription
         :args:
-            str
-        :description: QtGui/QColorSpace-setDescription-f.rst
+            Optional[str]
+        :description: QtGui/QColorSpace-setDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setPrimaries
         :args:
@@ -192,8 +192,8 @@
     .. sip:method:: PyQt6.QtGui.QColorSpace.setTransferFunction
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0.0
-        :description: QtGui/QColorSpace-setTransferFunction-f-2.rst
+            gamma: float = 0
+        :description: QtGui/QColorSpace-setTransferFunction-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setTransferFunctions
         :args:
@@ -229,10 +229,10 @@
     .. sip:method:: PyQt6.QtGui.QColorSpace.withTransferFunction
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
-            gamma: float = 0.0
+            gamma: float = 0
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
-        :description: QtGui/QColorSpace-withTransferFunction-f-2.rst
+        :description: QtGui/QColorSpace-withTransferFunction-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.withTransferFunctions
         :args:

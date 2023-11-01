@@ -88,13 +88,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QBoxPlotSeries.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBoxPlotSeries-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBoxPlotSeries-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxPlotSeries.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBoxPlotSeries-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QBoxPlotSeries-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxPlotSeries.take
         :args:

@@ -15,8 +15,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamWriter.append
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QCborStreamWriter-append-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QCborStreamWriter-append-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamWriter.append
         :args:

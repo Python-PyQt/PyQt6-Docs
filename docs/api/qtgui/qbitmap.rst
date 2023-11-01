@@ -30,9 +30,9 @@
 
     .. sip:method:: PyQt6.QtGui.QBitmap.__init__
         :args:
-            str
+            Optional[str]
             format: str = None
-        :description: QtGui/QBitmap-__init__-f-5.rst
+        :description: QtGui/QBitmap-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QBitmap.clear
         :description: QtGui/QBitmap-clear-f.rst

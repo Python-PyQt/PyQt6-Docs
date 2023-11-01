@@ -11,23 +11,23 @@
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.__init__
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QFileSystemWatcher-__init__-f-1.rst
+        :description: QtCore/QFileSystemWatcher-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.addPath
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QFileSystemWatcher-addPath-f.rst
+        :description: QtCore/QFileSystemWatcher-addPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.addPaths
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :returns:
             List[str]
-        :description: QtCore/QFileSystemWatcher-addPaths-f.rst
+        :description: QtCore/QFileSystemWatcher-addPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.directories
         :returns:
@@ -41,24 +41,24 @@
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.removePath
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QFileSystemWatcher-removePath-f.rst
+        :description: QtCore/QFileSystemWatcher-removePath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.removePaths
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :returns:
             List[str]
-        :description: QtCore/QFileSystemWatcher-removePaths-f.rst
+        :description: QtCore/QFileSystemWatcher-removePaths-f-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QFileSystemWatcher.directoryChanged
         :args:
-            str
-        :description: QtCore/QFileSystemWatcher-directoryChanged-s.rst
+            Optional[str]
+        :description: QtCore/QFileSystemWatcher-directoryChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCore.QFileSystemWatcher.fileChanged
         :args:
-            str
-        :description: QtCore/QFileSystemWatcher-fileChanged-s.rst
+            Optional[str]
+        :description: QtCore/QFileSystemWatcher-fileChanged-s-1.rst

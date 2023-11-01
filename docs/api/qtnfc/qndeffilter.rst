@@ -21,12 +21,12 @@
     .. sip:method:: PyQt6.QtNfc.QNdefFilter.appendRecord
         :args:
             :sip:ref:`~PyQt6.QtNfc.QNdefRecord.TypeNameFormat`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             min: int = 1
             max: int = 1
         :returns:
             bool
-        :description: QtNfc/QNdefFilter-appendRecord-f-1.rst
+        :description: QtNfc/QNdefFilter-appendRecord-f-2.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefFilter.clear
         :description: QtNfc/QNdefFilter-clear-f.rst

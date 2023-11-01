@@ -6,10 +6,10 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.__init__
         :args:
-            origin: str = ''
+            origin: Optional[str] = ''
             version: :sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.Version` = :sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.Version.VersionLatest`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWebSockets/QWebSocket-__init__-f.rst
+        :description: QtWebSockets/QWebSocket-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.abort
         :description: QtWebSockets/QWebSocket-abort-f.rst
@@ -22,8 +22,8 @@
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.close
         :args:
             closeCode: :sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.CloseCode` = :sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.CloseCode.CloseCodeNormal`
-            reason: str = ''
-        :description: QtWebSockets/QWebSocket-close-f.rst
+            reason: Optional[str] = ''
+        :description: QtWebSockets/QWebSocket-close-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.closeCode
         :returns:
@@ -168,8 +168,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.ping
         :args:
-            payload: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtWebSockets/QWebSocket-ping-f.rst
+            payload: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtWebSockets/QWebSocket-ping-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.proxy
         :returns:
@@ -201,17 +201,17 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.sendBinaryMessage
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             int
-        :description: QtWebSockets/QWebSocket-sendBinaryMessage-f.rst
+        :description: QtWebSockets/QWebSocket-sendBinaryMessage-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.sendTextMessage
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWebSockets/QWebSocket-sendTextMessage-f.rst
+        :description: QtWebSockets/QWebSocket-sendTextMessage-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocket.setMaskGenerator
         :args:
@@ -280,26 +280,31 @@
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertLevel`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertType`
-            str
-        :description: QtWebSockets/QWebSocket-alertReceived-s.rst
+            Optional[str]
+        :description: QtWebSockets/QWebSocket-alertReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.alertSent
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertLevel`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertType`
-            str
-        :description: QtWebSockets/QWebSocket-alertSent-s.rst
+            Optional[str]
+        :description: QtWebSockets/QWebSocket-alertSent-s-1.rst
+
+    .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.authenticationRequired
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QAuthenticator`
+        :description: QtWebSockets/QWebSocket-authenticationRequired-s.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.binaryFrameReceived
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             bool
-        :description: QtWebSockets/QWebSocket-binaryFrameReceived-s.rst
+        :description: QtWebSockets/QWebSocket-binaryFrameReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.binaryMessageReceived
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebSockets/QWebSocket-binaryMessageReceived-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebSockets/QWebSocket-binaryMessageReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.bytesWritten
         :args:
@@ -338,8 +343,8 @@
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.pong
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebSockets/QWebSocket-pong-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebSockets/QWebSocket-pong-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.preSharedKeyAuthenticationRequired
         :args:
@@ -367,11 +372,11 @@
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.textFrameReceived
         :args:
-            str
+            Optional[str]
             bool
-        :description: QtWebSockets/QWebSocket-textFrameReceived-s.rst
+        :description: QtWebSockets/QWebSocket-textFrameReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocket.textMessageReceived
         :args:
-            str
-        :description: QtWebSockets/QWebSocket-textMessageReceived-s.rst
+            Optional[str]
+        :description: QtWebSockets/QWebSocket-textMessageReceived-s-1.rst

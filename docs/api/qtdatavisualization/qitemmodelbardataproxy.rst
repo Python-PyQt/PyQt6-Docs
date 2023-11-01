@@ -33,51 +33,51 @@
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-2.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-3.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            str
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-4.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            str
-            str
-            str
-            Iterable[str]
-            Iterable[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Iterable[Optional[str]]
+            Iterable[Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-5.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            str
-            str
-            str
-            str
-            Iterable[str]
-            Iterable[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Iterable[Optional[str]]
+            Iterable[Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-6.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.autoColumnCategories
         :returns:
@@ -96,10 +96,10 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnCategoryIndex
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtDataVisualization/QItemModelBarDataProxy-columnCategoryIndex-f.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-columnCategoryIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnRole
         :returns:
@@ -128,13 +128,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.remap
         :args:
-            str
-            str
-            str
-            str
-            Iterable[str]
-            Iterable[str]
-        :description: QtDataVisualization/QItemModelBarDataProxy-remap-f.rst
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Iterable[Optional[str]]
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QItemModelBarDataProxy-remap-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rotationRole
         :returns:
@@ -158,10 +158,10 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowCategoryIndex
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtDataVisualization/QItemModelBarDataProxy-rowCategoryIndex-f.rst
+        :description: QtDataVisualization/QItemModelBarDataProxy-rowCategoryIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowRole
         :returns:
@@ -190,13 +190,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setColumnCategories
         :args:
-            Iterable[str]
-        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnCategories-f.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setColumnRole
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnRole-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnRole-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setColumnRolePattern
         :args:
@@ -205,8 +205,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setColumnRoleReplace
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnRoleReplace-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setColumnRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setItemModel
         :args:
@@ -220,8 +220,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRotationRole
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setRotationRole-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setRotationRole-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRotationRolePattern
         :args:
@@ -230,18 +230,18 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRotationRoleReplace
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setRotationRoleReplace-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setRotationRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRowCategories
         :args:
-            Iterable[str]
-        :description: QtDataVisualization/QItemModelBarDataProxy-setRowCategories-f.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setRowCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRowRole
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setRowRole-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setRowRole-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRowRolePattern
         :args:
@@ -250,8 +250,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setRowRoleReplace
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setRowRoleReplace-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setRowRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setUseModelCategories
         :args:
@@ -260,8 +260,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setValueRole
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setValueRole-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setValueRole-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setValueRolePattern
         :args:
@@ -270,8 +270,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.setValueRoleReplace
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-setValueRoleReplace-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-setValueRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.useModelCategories
         :returns:
@@ -308,8 +308,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnRoleChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-columnRoleChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-columnRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnRolePatternChanged
         :args:
@@ -318,8 +318,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnRoleReplaceChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-columnRoleReplaceChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-columnRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.itemModelChanged
         :args:
@@ -333,8 +333,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rotationRoleChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-rotationRoleChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-rotationRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rotationRolePatternChanged
         :args:
@@ -343,16 +343,16 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rotationRoleReplaceChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-rotationRoleReplaceChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-rotationRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowCategoriesChanged
         :description: QtDataVisualization/QItemModelBarDataProxy-rowCategoriesChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowRoleChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-rowRoleChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-rowRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowRolePatternChanged
         :args:
@@ -361,8 +361,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowRoleReplaceChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-rowRoleReplaceChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-rowRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.useModelCategoriesChanged
         :args:
@@ -371,8 +371,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.valueRoleChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-valueRoleChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-valueRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.valueRolePatternChanged
         :args:
@@ -381,5 +381,5 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.valueRoleReplaceChanged
         :args:
-            str
-        :description: QtDataVisualization/QItemModelBarDataProxy-valueRoleReplaceChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-valueRoleReplaceChanged-s-1.rst

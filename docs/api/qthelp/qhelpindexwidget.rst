@@ -9,18 +9,18 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpIndexWidget.filterIndices
         :args:
-            str
-            wildcard: str = ''
-        :description: QtHelp/QHelpIndexWidget-filterIndices-f.rst
+            Optional[str]
+            wildcard: Optional[str] = ''
+        :description: QtHelp/QHelpIndexWidget-filterIndices-f-1.rst
 
     .. sip:signal:: PyQt6.QtHelp.QHelpIndexWidget.documentActivated
         :args:
             :sip:ref:`~PyQt6.QtHelp.QHelpLink`
-            str
-        :description: QtHelp/QHelpIndexWidget-documentActivated-s.rst
+            Optional[str]
+        :description: QtHelp/QHelpIndexWidget-documentActivated-s-1.rst
 
     .. sip:signal:: PyQt6.QtHelp.QHelpIndexWidget.documentsActivated
         :args:
             Iterable[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
-            str
-        :description: QtHelp/QHelpIndexWidget-documentsActivated-s.rst
+            Optional[str]
+        :description: QtHelp/QHelpIndexWidget-documentsActivated-s-1.rst

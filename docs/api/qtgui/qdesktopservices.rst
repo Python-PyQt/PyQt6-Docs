@@ -21,21 +21,21 @@
 
     .. sip:method:: PyQt6.QtGui.QDesktopServices.setUrlHandler
         :args:
-            str
+            Optional[str]
             Callable[[:sip:ref:`~PyQt6.QtCore.QUrl`], None]
         :static:
-        :description: QtGui/QDesktopServices-setUrlHandler-f.rst
+        :description: QtGui/QDesktopServices-setUrlHandler-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QDesktopServices.setUrlHandler
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
             str
         :static:
-        :description: QtGui/QDesktopServices-setUrlHandler-f-1.rst
+        :description: QtGui/QDesktopServices-setUrlHandler-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QDesktopServices.unsetUrlHandler
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtGui/QDesktopServices-unsetUrlHandler-f.rst
+        :description: QtGui/QDesktopServices-unsetUrlHandler-f-1.rst

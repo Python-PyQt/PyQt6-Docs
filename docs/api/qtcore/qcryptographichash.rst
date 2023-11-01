@@ -129,8 +129,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.resultView
         :returns:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QCryptographicHash-resultView-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QCryptographicHash-resultView-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCryptographicHash.supportsAlgorithm
         :args:

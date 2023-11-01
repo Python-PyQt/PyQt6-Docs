@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setTargetName
         :args:
-            str
-        :description: Qt3DAnimation/QMorphingAnimation-setTargetName-f.rst
+            Optional[str]
+        :description: Qt3DAnimation/QMorphingAnimation-setTargetName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setTargetPositions
         :args:
@@ -128,8 +128,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.targetNameChanged
         :args:
-            str
-        :description: Qt3DAnimation/QMorphingAnimation-targetNameChanged-s.rst
+            Optional[str]
+        :description: Qt3DAnimation/QMorphingAnimation-targetNameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.targetPositionsChanged
         :args:

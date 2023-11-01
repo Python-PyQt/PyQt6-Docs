@@ -75,10 +75,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.findText
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.FindFlag` = {}
             resultCallback: Callable[[bool], None] = None
-        :description: QtWebEngineWidgets/QWebEngineView-findText-f-1.rst
+        :description: QtWebEngineWidgets/QWebEngineView-findText-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.forPage
         :args:
@@ -150,17 +150,17 @@
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.printToPdf
         :args:
-            str
+            Optional[str]
             pageLayout: :sip:ref:`~PyQt6.QtGui.QPageLayout` = QPageLayout(QPageSize(QPageSize.A4),QPageLayout.Portrait,QMarginsF())
             ranges: :sip:ref:`~PyQt6.QtGui.QPageRanges` = {}
-        :description: QtWebEngineWidgets/QWebEngineView-printToPdf-f.rst
+        :description: QtWebEngineWidgets/QWebEngineView-printToPdf-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.printToPdf
         :args:
-            Callable[[:sip:ref:`~PyQt6.QtCore.QByteArray`], None]
+            Callable[[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]], None]
             pageLayout: :sip:ref:`~PyQt6.QtGui.QPageLayout` = QPageLayout(QPageSize(QPageSize.A4),QPageLayout.Portrait,QMarginsF())
             ranges: :sip:ref:`~PyQt6.QtGui.QPageRanges` = {}
-        :description: QtWebEngineWidgets/QWebEngineView-printToPdf-f-1.rst
+        :description: QtWebEngineWidgets/QWebEngineView-printToPdf-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.reload
         :description: QtWebEngineWidgets/QWebEngineView-reload-f.rst
@@ -172,16 +172,16 @@
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.setContent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            mimeType: str = ''
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            mimeType: Optional[str] = ''
             baseUrl: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-        :description: QtWebEngineWidgets/QWebEngineView-setContent-f.rst
+        :description: QtWebEngineWidgets/QWebEngineView-setContent-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.setHtml
         :args:
-            str
+            Optional[str]
             baseUrl: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-        :description: QtWebEngineWidgets/QWebEngineView-setHtml-f.rst
+        :description: QtWebEngineWidgets/QWebEngineView-setHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineWidgets.QWebEngineView.setPage
         :args:
@@ -262,9 +262,9 @@
 
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.pdfPrintingFinished
         :args:
-            str
+            Optional[str]
             bool
-        :description: QtWebEngineWidgets/QWebEngineView-pdfPrintingFinished-s.rst
+        :description: QtWebEngineWidgets/QWebEngineView-pdfPrintingFinished-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.printFinished
         :args:
@@ -285,8 +285,8 @@
 
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.titleChanged
         :args:
-            str
-        :description: QtWebEngineWidgets/QWebEngineView-titleChanged-s.rst
+            Optional[str]
+        :description: QtWebEngineWidgets/QWebEngineView-titleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.urlChanged
         :args:

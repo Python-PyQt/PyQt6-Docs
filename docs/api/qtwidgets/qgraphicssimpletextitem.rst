@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSimpleTextItem.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` = None
-        :description: QtWidgets/QGraphicsSimpleTextItem-__init__-f-1.rst
+        :description: QtWidgets/QGraphicsSimpleTextItem-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSimpleTextItem.boundingRect
         :returns:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSimpleTextItem.setText
         :args:
-            str
-        :description: QtWidgets/QGraphicsSimpleTextItem-setText-f.rst
+            Optional[str]
+        :description: QtWidgets/QGraphicsSimpleTextItem-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsSimpleTextItem.shape
         :returns:

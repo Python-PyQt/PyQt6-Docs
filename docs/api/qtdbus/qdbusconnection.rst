@@ -89,8 +89,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.__init__
         :args:
-            str
-        :description: QtDBus/QDBusConnection-__init__-f.rst
+            Optional[str]
+        :description: QtDBus/QDBusConnection-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.__init__
         :args:
@@ -131,39 +131,39 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connect
         :args:
-            str
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-connect-f.rst
+        :description: QtDBus/QDBusConnection-connect-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connect
         :args:
-            str
-            str
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-connect-f-1.rst
+        :description: QtDBus/QDBusConnection-connect-f-4.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connect
         :args:
-            str
-            str
-            str
-            str
-            Iterable[str]
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Iterable[Optional[str]]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-connect-f-2.rst
+        :description: QtDBus/QDBusConnection-connect-f-5.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectionCapabilities
         :returns:
@@ -173,77 +173,77 @@
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectToBus
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection.BusType`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
         :static:
-        :description: QtDBus/QDBusConnection-connectToBus-f.rst
+        :description: QtDBus/QDBusConnection-connectToBus-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectToBus
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
         :static:
-        :description: QtDBus/QDBusConnection-connectToBus-f-1.rst
+        :description: QtDBus/QDBusConnection-connectToBus-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.connectToPeer
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
         :static:
-        :description: QtDBus/QDBusConnection-connectToPeer-f.rst
+        :description: QtDBus/QDBusConnection-connectToPeer-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.disconnect
         :args:
-            str
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-disconnect-f.rst
+        :description: QtDBus/QDBusConnection-disconnect-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.disconnect
         :args:
-            str
-            str
-            str
-            str
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-disconnect-f-1.rst
+        :description: QtDBus/QDBusConnection-disconnect-f-4.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.disconnect
         :args:
-            str
-            str
-            str
-            str
-            Iterable[str]
-            str
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Iterable[Optional[str]]
+            Optional[str]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-disconnect-f-2.rst
+        :description: QtDBus/QDBusConnection-disconnect-f-5.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.disconnectFromBus
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtDBus/QDBusConnection-disconnectFromBus-f.rst
+        :description: QtDBus/QDBusConnection-disconnectFromBus-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.disconnectFromPeer
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtDBus/QDBusConnection-disconnectFromPeer-f.rst
+        :description: QtDBus/QDBusConnection-disconnectFromPeer-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.interface
         :returns:
@@ -273,36 +273,36 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.objectRegisteredAt
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDBus/QDBusConnection-objectRegisteredAt-f.rst
+        :description: QtDBus/QDBusConnection-objectRegisteredAt-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.registerObject
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
             options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAdaptors`
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-registerObject-f-2.rst
+        :description: QtDBus/QDBusConnection-registerObject-f-4.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.registerObject
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
             options: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.RegisterOption.ExportAdaptors`
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-registerObject-f-3.rst
+        :description: QtDBus/QDBusConnection-registerObject-f-5.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.registerService
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-registerService-f.rst
+        :description: QtDBus/QDBusConnection-registerService-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.send
         :args:
@@ -330,13 +330,13 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.unregisterObject
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtDBus.QDBusConnection.UnregisterMode` = :sip:ref:`~PyQt6.QtDBus.QDBusConnection.UnregisterMode.UnregisterNode`
-        :description: QtDBus/QDBusConnection-unregisterObject-f.rst
+        :description: QtDBus/QDBusConnection-unregisterObject-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnection.unregisterService
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtDBus/QDBusConnection-unregisterService-f.rst
+        :description: QtDBus/QDBusConnection-unregisterService-f-1.rst

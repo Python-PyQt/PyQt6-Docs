@@ -72,13 +72,13 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QFont`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
+            caption: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFontDialog.FontDialogOption` = QFontDialog.FontDialogOptions()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QFont`
             bool
         :static:
-        :description: QtWidgets/QFontDialog-getFont-f-2.rst
+        :description: QtWidgets/QFontDialog-getFont-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontDialog.open
         :description: QtWidgets/QFontDialog-open-f.rst

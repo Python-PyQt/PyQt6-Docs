@@ -41,9 +41,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.__init__
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWidgets/QCompleter-__init__-f-2.rst
+        :description: QtWidgets/QCompleter-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.caseSensitivity
         :returns:
@@ -164,8 +164,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.setCompletionPrefix
         :args:
-            str
-        :description: QtWidgets/QCompleter-setCompletionPrefix-f.rst
+            Optional[str]
+        :description: QtWidgets/QCompleter-setCompletionPrefix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.setCompletionRole
         :args:
@@ -216,10 +216,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.splitPath
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
-        :description: QtWidgets/QCompleter-splitPath-f.rst
+        :description: QtWidgets/QCompleter-splitPath-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.widget
         :returns:
@@ -233,8 +233,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QCompleter.activated
         :args:
-            str
-        :description: QtWidgets/QCompleter-activated-s.rst
+            Optional[str]
+        :description: QtWidgets/QCompleter-activated-s-2.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QCompleter.activated
         :args:
@@ -243,8 +243,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QCompleter.highlighted
         :args:
-            str
-        :description: QtWidgets/QCompleter-highlighted-s.rst
+            Optional[str]
+        :description: QtWidgets/QCompleter-highlighted-s-2.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QCompleter.highlighted
         :args:

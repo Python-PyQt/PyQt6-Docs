@@ -258,6 +258,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ListNumberSuffix
             :description: QtGui/QTextFormat-Property-ListNumberSuffix-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ListStart
+            :description: QtGui/QTextFormat-Property-ListStart-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ListStyle
             :description: QtGui/QTextFormat-Property-ListStyle-v.rst
 
@@ -590,13 +593,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setBackground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextFormat-setBackground-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setForeground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QTextFormat-setForeground-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setLayoutDirection
         :args:

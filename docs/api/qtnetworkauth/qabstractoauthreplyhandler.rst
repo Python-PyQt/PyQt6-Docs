@@ -21,20 +21,26 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.callbackDataReceived
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackDataReceived-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackDataReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.callbackReceived
         :args:
-            Dict[str, Any]
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackReceived-s.rst
+            Dict[Optional[str], Any]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.replyDataReceived
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-replyDataReceived-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-replyDataReceived-s-1.rst
+
+    .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.tokenRequestErrorOccurred
+        :args:
+            :sip:ref:`~PyQt6.QtNetworkAuth.QAbstractOAuth.Error`
+            Optional[str]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-tokenRequestErrorOccurred-s.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.tokensReceived
         :args:
-            Dict[str, Any]
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-tokensReceived-s.rst
+            Dict[Optional[str], Any]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-tokensReceived-s-1.rst

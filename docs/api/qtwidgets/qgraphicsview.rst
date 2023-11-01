@@ -525,8 +525,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsView-setBackgroundBrush-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsView-setBackgroundBrush-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setCacheMode
         :args:
@@ -540,8 +540,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setForegroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QGraphicsView-setForegroundBrush-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QGraphicsView-setForegroundBrush-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.setInteractive
         :args:

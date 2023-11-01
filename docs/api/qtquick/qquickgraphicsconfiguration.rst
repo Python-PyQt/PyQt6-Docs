@@ -79,20 +79,30 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setDeviceExtensions
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtQuick/QQuickGraphicsConfiguration-setDeviceExtensions-f.rst
+            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
+        :description: QtQuick/QQuickGraphicsConfiguration-setDeviceExtensions-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPipelineCacheLoadFile
         :args:
-            str
-        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheLoadFile-f.rst
+            Optional[str]
+        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheLoadFile-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPipelineCacheSaveFile
         :args:
-            str
-        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheSaveFile-f.rst
+            Optional[str]
+        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheSaveFile-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPreferSoftwareDevice
         :args:
             bool
         :description: QtQuick/QQuickGraphicsConfiguration-setPreferSoftwareDevice-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setTimestamps
+        :args:
+            bool
+        :description: QtQuick/QQuickGraphicsConfiguration-setTimestamps-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.timestampsEnabled
+        :returns:
+            bool
+        :description: QtQuick/QQuickGraphicsConfiguration-timestampsEnabled-f.rst

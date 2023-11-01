@@ -83,8 +83,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.setTargetName
         :args:
-            str
-        :description: Qt3DAnimation/QKeyframeAnimation-setTargetName-f.rst
+            Optional[str]
+        :description: Qt3DAnimation/QKeyframeAnimation-setTargetName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.startMode
         :returns:
@@ -128,5 +128,5 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QKeyframeAnimation.targetNameChanged
         :args:
-            str
-        :description: Qt3DAnimation/QKeyframeAnimation-targetNameChanged-s.rst
+            Optional[str]
+        :description: Qt3DAnimation/QKeyframeAnimation-targetNameChanged-s-1.rst

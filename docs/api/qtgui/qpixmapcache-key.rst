@@ -18,6 +18,11 @@
             bool
         :description: QtGui/QPixmapCache-Key-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPixmapCache.Key.__hash__
+        :returns:
+            int
+        :description: QtGui/QPixmapCache-Key-__hash__-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPixmapCache.Key.isValid
         :returns:
             bool

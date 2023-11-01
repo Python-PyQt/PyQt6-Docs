@@ -13,10 +13,10 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioBuffer.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat`
             startTime: int = -1
-        :description: QtMultimedia/QAudioBuffer-__init__-f-2.rst
+        :description: QtMultimedia/QAudioBuffer-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioBuffer.__init__
         :args:

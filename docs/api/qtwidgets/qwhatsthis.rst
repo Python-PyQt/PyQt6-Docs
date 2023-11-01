@@ -37,7 +37,7 @@
     .. sip:method:: PyQt6.QtWidgets.QWhatsThis.showText
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            str
+            Optional[str]
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :static:
-        :description: QtWidgets/QWhatsThis-showText-f.rst
+        :description: QtWidgets/QWhatsThis-showText-f-1.rst

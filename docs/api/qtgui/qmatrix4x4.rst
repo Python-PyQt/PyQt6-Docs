@@ -338,8 +338,8 @@
             float
             float
             float
-            z: float = 0.0
-        :description: QtGui/QMatrix4x4-rotate-f-3.rst
+            z: float = 0
+        :description: QtGui/QMatrix4x4-rotate-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.row
         :args:
@@ -452,6 +452,6 @@
             float
             float
             float
-            nearPlane: float = 0.0
-            farPlane: float = 1.0
-        :description: QtGui/QMatrix4x4-viewport-f-2.rst
+            nearPlane: float = 0
+            farPlane: float = 1
+        :description: QtGui/QMatrix4x4-viewport-f-1.rst

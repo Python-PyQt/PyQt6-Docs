@@ -61,21 +61,21 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.fromString
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
         :static:
-        :description: QtCore/QTime-fromString-f.rst
+        :description: QtCore/QTime-fromString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.fromString
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
         :static:
-        :description: QtCore/QTime-fromString-f-1.rst
+        :description: QtCore/QTime-fromString-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__ge__
         :args:
@@ -206,7 +206,7 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.toString
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QTime-toString-f-1.rst
+        :description: QtCore/QTime-toString-f-2.rst

@@ -22,10 +22,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.__init__
         :args:
-            fieldName: str = ''
+            fieldName: Optional[str] = ''
             type: :sip:ref:`~PyQt6.QtCore.QMetaType` = QMetaType()
-            tableName: str = ''
-        :description: QtSql/QSqlField-__init__-f-1.rst
+            tableName: Optional[str] = ''
+        :description: QtSql/QSqlField-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.clear
         :description: QtSql/QSqlField-clear-f.rst
@@ -126,8 +126,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setName
         :args:
-            str
-        :description: QtSql/QSqlField-setName-f.rst
+            Optional[str]
+        :description: QtSql/QSqlField-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setPrecision
         :args:
@@ -156,13 +156,18 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setTableName
         :args:
-            str
-        :description: QtSql/QSqlField-setTableName-f.rst
+            Optional[str]
+        :description: QtSql/QSqlField-setTableName-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setValue
         :args:
             Any
         :description: QtSql/QSqlField-setValue-f.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlField.swap
+        :args:
+            :sip:ref:`~PyQt6.QtSql.QSqlField`
+        :description: QtSql/QSqlField-swap-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.tableName
         :returns:

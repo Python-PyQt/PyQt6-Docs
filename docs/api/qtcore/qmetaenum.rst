@@ -59,6 +59,11 @@
             bool
         :description: QtCore/QMetaEnum-keyToValue-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaEnum.metaType
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :description: QtCore/QMetaEnum-metaType-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaEnum.name
         :returns:
             str

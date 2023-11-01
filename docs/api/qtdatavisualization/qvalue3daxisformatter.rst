@@ -87,10 +87,10 @@
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.stringForValue
         :args:
             float
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtDataVisualization/QValue3DAxisFormatter-stringForValue-f.rst
+        :description: QtDataVisualization/QValue3DAxisFormatter-stringForValue-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.subGridPositions
         :returns:

@@ -21,10 +21,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.axisIdentifier
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: Qt3DInput/QAbstractPhysicalDevice-axisIdentifier-f.rst
+        :description: Qt3DInput/QAbstractPhysicalDevice-axisIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.axisNames
         :returns:
@@ -43,10 +43,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.buttonIdentifier
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: Qt3DInput/QAbstractPhysicalDevice-buttonIdentifier-f.rst
+        :description: Qt3DInput/QAbstractPhysicalDevice-buttonIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.buttonNames
         :returns:

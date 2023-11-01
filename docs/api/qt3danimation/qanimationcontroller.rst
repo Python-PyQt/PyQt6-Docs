@@ -31,10 +31,10 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationController.getAnimationIndex
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: Qt3DAnimation/QAnimationController-getAnimationIndex-f.rst
+        :description: Qt3DAnimation/QAnimationController-getAnimationIndex-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationController.getGroup
         :args:

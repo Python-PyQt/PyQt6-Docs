@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QGroupBox-__init__-f-1.rst
+        :description: QtWidgets/QGroupBox-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.alignment
         :returns:
@@ -114,8 +114,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.setTitle
         :args:
-            str
-        :description: QtWidgets/QGroupBox-setTitle-f.rst
+            Optional[str]
+        :description: QtWidgets/QGroupBox-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGroupBox.title
         :returns:

@@ -9,14 +9,14 @@
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QTextDocumentWriter-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QTextDocumentWriter-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.__init__
         :args:
-            str
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtGui/QTextDocumentWriter-__init__-f-2.rst
+            Optional[str]
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtGui/QTextDocumentWriter-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.device
         :returns:
@@ -40,13 +40,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.setFileName
         :args:
-            str
-        :description: QtGui/QTextDocumentWriter-setFileName-f.rst
+            Optional[str]
+        :description: QtGui/QTextDocumentWriter-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.setFormat
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QTextDocumentWriter-setFormat-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QTextDocumentWriter-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.supportedDocumentFormats
         :returns:

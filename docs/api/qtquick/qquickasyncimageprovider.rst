@@ -9,8 +9,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickAsyncImageProvider.requestImageResponse
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QSize`
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QQuickImageResponse`
-        :description: QtQuick/QQuickAsyncImageProvider-requestImageResponse-f.rst
+        :description: QtQuick/QQuickAsyncImageProvider-requestImageResponse-f-1.rst

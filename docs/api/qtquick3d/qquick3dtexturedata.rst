@@ -123,6 +123,11 @@
             parent: :sip:ref:`~PyQt6.QtQuick3D.QQuick3DObject` = None
         :description: QtQuick3D/QQuick3DTextureData-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.depth
+        :returns:
+            int
+        :description: QtQuick3D/QQuick3DTextureData-depth-f.rst
+
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.format
         :returns:
             :sip:ref:`~PyQt6.QtQuick3D.QQuick3DTextureData.Format`
@@ -132,6 +137,11 @@
         :returns:
             bool
         :description: QtQuick3D/QQuick3DTextureData-hasTransparency-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.setDepth
+        :args:
+            int
+        :description: QtQuick3D/QQuick3DTextureData-setDepth-f.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.setFormat
         :args:
@@ -150,8 +160,8 @@
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.setTextureData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtQuick3D/QQuick3DTextureData-setTextureData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DTextureData-setTextureData-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.size
         :returns:

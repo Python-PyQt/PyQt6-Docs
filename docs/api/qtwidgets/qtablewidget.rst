@@ -91,11 +91,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.findItems
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
-        :description: QtWidgets/QTableWidget-findItems-f-1.rst
+        :description: QtWidgets/QTableWidget-findItems-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.horizontalHeaderItem
         :args:
@@ -280,8 +280,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setHorizontalHeaderLabels
         :args:
-            Iterable[str]
-        :description: QtWidgets/QTableWidget-setHorizontalHeaderLabels-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QTableWidget-setHorizontalHeaderLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setItem
         :args:
@@ -319,8 +319,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setVerticalHeaderLabels
         :args:
-            Iterable[str]
-        :description: QtWidgets/QTableWidget-setVerticalHeaderLabels-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QTableWidget-setVerticalHeaderLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.sortItems
         :args:

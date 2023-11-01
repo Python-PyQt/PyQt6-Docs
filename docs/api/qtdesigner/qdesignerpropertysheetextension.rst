@@ -20,10 +20,10 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertySheetExtension.indexOf
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtDesigner/QDesignerPropertySheetExtension-indexOf-f.rst
+        :description: QtDesigner/QDesignerPropertySheetExtension-indexOf-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertySheetExtension.isAttribute
         :args:
@@ -107,8 +107,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertySheetExtension.setPropertyGroup
         :args:
             int
-            str
-        :description: QtDesigner/QDesignerPropertySheetExtension-setPropertyGroup-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerPropertySheetExtension-setPropertyGroup-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertySheetExtension.setVisible
         :args:

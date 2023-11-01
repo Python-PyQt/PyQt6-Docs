@@ -260,8 +260,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QMediaRecorder.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaRecorder.Error`
-            str
-        :description: QtMultimedia/QMediaRecorder-errorOccurred-s.rst
+            Optional[str]
+        :description: QtMultimedia/QMediaRecorder-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaRecorder.mediaFormatChanged
         :description: QtMultimedia/QMediaRecorder-mediaFormatChanged-s.rst

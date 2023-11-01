@@ -31,10 +31,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.axisIdentifier
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: Qt3DInput/QMouseDevice-axisIdentifier-f.rst
+        :description: Qt3DInput/QMouseDevice-axisIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.axisNames
         :returns:
@@ -48,10 +48,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.buttonIdentifier
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: Qt3DInput/QMouseDevice-buttonIdentifier-f.rst
+        :description: Qt3DInput/QMouseDevice-buttonIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.buttonNames
         :returns:

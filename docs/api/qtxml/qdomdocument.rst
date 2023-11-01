@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.__init__
         :args:
-            str
-        :description: QtXml/QDomDocument-__init__-f-1.rst
+            Optional[str]
+        :description: QtXml/QDomDocument-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.__init__
         :args:
@@ -36,32 +36,32 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createAttribute
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomAttr`
-        :description: QtXml/QDomDocument-createAttribute-f.rst
+        :description: QtXml/QDomDocument-createAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createAttributeNS
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomAttr`
-        :description: QtXml/QDomDocument-createAttributeNS-f.rst
+        :description: QtXml/QDomDocument-createAttributeNS-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createCDATASection
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomCDATASection`
-        :description: QtXml/QDomDocument-createCDATASection-f.rst
+        :description: QtXml/QDomDocument-createCDATASection-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createComment
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomComment`
-        :description: QtXml/QDomDocument-createComment-f.rst
+        :description: QtXml/QDomDocument-createComment-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createDocumentFragment
         :returns:
@@ -70,40 +70,40 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createElement
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomDocument-createElement-f.rst
+        :description: QtXml/QDomDocument-createElement-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createElementNS
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomDocument-createElementNS-f.rst
+        :description: QtXml/QDomDocument-createElementNS-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createEntityReference
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomEntityReference`
-        :description: QtXml/QDomDocument-createEntityReference-f.rst
+        :description: QtXml/QDomDocument-createEntityReference-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createProcessingInstruction
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomProcessingInstruction`
-        :description: QtXml/QDomDocument-createProcessingInstruction-f.rst
+        :description: QtXml/QDomDocument-createProcessingInstruction-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.createTextNode
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomText`
-        :description: QtXml/QDomDocument-createTextNode-f.rst
+        :description: QtXml/QDomDocument-createTextNode-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.doctype
         :returns:
@@ -117,25 +117,25 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.elementById
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomDocument-elementById-f.rst
+        :description: QtXml/QDomDocument-elementById-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.elementsByTagName
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNodeList`
-        :description: QtXml/QDomDocument-elementsByTagName-f.rst
+        :description: QtXml/QDomDocument-elementsByTagName-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.elementsByTagNameNS
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNodeList`
-        :description: QtXml/QDomDocument-elementsByTagNameNS-f.rst
+        :description: QtXml/QDomDocument-elementsByTagNameNS-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.implementation
         :returns:
@@ -173,33 +173,33 @@
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             options: :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption` = :sip:ref:`~PyQt6.QtXml.QDomDocument.ParseOption.Default`
         :returns:
             Tuple[bool, str, int, int]
-        :description: QtXml/QDomDocument-setContent-f-9.rst
+        :description: QtXml/QDomDocument-setContent-f-10.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             bool
         :returns:
             bool
             str
             int
             int
-        :description: QtXml/QDomDocument-setContent-f-3.rst
+        :description: QtXml/QDomDocument-setContent-f-11.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:
-            str
+            Optional[str]
             bool
         :returns:
             bool
             str
             int
             int
-        :description: QtXml/QDomDocument-setContent-f-4.rst
+        :description: QtXml/QDomDocument-setContent-f-12.rst
 
     .. sip:method:: PyQt6.QtXml.QDomDocument.setContent
         :args:

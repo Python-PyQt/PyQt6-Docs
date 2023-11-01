@@ -50,8 +50,8 @@
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QTextBoundaryFinder.BoundaryType`
-            str
-        :description: QtCore/QTextBoundaryFinder-__init__-f-2.rst
+            Optional[str]
+        :description: QtCore/QTextBoundaryFinder-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.boundaryReasons
         :returns:

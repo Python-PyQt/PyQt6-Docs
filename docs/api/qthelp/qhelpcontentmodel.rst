@@ -20,8 +20,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpContentModel.createContents
         :args:
-            str
-        :description: QtHelp/QHelpContentModel-createContents-f.rst
+            Optional[str]
+        :description: QtHelp/QHelpContentModel-createContents-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpContentModel.data
         :args:

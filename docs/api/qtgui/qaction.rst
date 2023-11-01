@@ -56,16 +56,16 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QAction-__init__-f-1.rst
+        :description: QtGui/QAction-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QAction-__init__-f-2.rst
+        :description: QtGui/QAction-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.actionGroup
         :returns:
@@ -217,8 +217,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.setIconText
         :args:
-            str
-        :description: QtGui/QAction-setIconText-f.rst
+            Optional[str]
+        :description: QtGui/QAction-setIconText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setIconVisibleInMenu
         :args:
@@ -247,8 +247,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.setShortcut
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
-        :description: QtGui/QAction-setShortcut-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+        :description: QtGui/QAction-setShortcut-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setShortcutContext
         :args:
@@ -257,8 +257,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.setShortcuts
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]]
-        :description: QtGui/QAction-setShortcuts-f.rst
+            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]]
+        :description: QtGui/QAction-setShortcuts-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setShortcuts
         :args:
@@ -272,18 +272,18 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.setStatusTip
         :args:
-            str
-        :description: QtGui/QAction-setStatusTip-f.rst
+            Optional[str]
+        :description: QtGui/QAction-setStatusTip-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setText
         :args:
-            str
-        :description: QtGui/QAction-setText-f.rst
+            Optional[str]
+        :description: QtGui/QAction-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setToolTip
         :args:
-            str
-        :description: QtGui/QAction-setToolTip-f.rst
+            Optional[str]
+        :description: QtGui/QAction-setToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.setVisible
         :args:
@@ -292,8 +292,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.setWhatsThis
         :args:
-            str
-        :description: QtGui/QAction-setWhatsThis-f.rst
+            Optional[str]
+        :description: QtGui/QAction-setWhatsThis-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.shortcut
         :returns:

@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtGui.QUndoStack.beginMacro
         :args:
-            str
-        :description: QtGui/QUndoStack-beginMacro-f.rst
+            Optional[str]
+        :description: QtGui/QUndoStack-beginMacro-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoStack.canRedo
         :returns:
@@ -47,18 +47,18 @@
     .. sip:method:: PyQt6.QtGui.QUndoStack.createRedoAction
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            prefix: str = ''
+            prefix: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QUndoStack-createRedoAction-f.rst
+        :description: QtGui/QUndoStack-createRedoAction-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoStack.createUndoAction
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            prefix: str = ''
+            prefix: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QUndoStack-createUndoAction-f.rst
+        :description: QtGui/QUndoStack-createUndoAction-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoStack.endMacro
         :description: QtGui/QUndoStack-endMacro-f.rst
@@ -159,10 +159,10 @@
 
     .. sip:signal:: PyQt6.QtGui.QUndoStack.redoTextChanged
         :args:
-            str
-        :description: QtGui/QUndoStack-redoTextChanged-s.rst
+            Optional[str]
+        :description: QtGui/QUndoStack-redoTextChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QUndoStack.undoTextChanged
         :args:
-            str
-        :description: QtGui/QUndoStack-undoTextChanged-s.rst
+            Optional[str]
+        :description: QtGui/QUndoStack-undoTextChanged-s-1.rst

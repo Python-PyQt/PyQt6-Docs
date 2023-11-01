@@ -38,8 +38,8 @@
 
     .. sip:method:: PyQt6.QtGui.QDoubleValidator.fixup
         :args:
-            str
-        :description: QtGui/QDoubleValidator-fixup-f.rst
+            Optional[str]
+        :description: QtGui/QDoubleValidator-fixup-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QDoubleValidator.notation
         :returns:
@@ -80,10 +80,10 @@
 
     .. sip:method:: PyQt6.QtGui.QDoubleValidator.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtGui/QDoubleValidator-validate-f.rst
+        :description: QtGui/QDoubleValidator-validate-f-1.rst

@@ -80,9 +80,9 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QTextDocument-__init__-f-1.rst
+        :description: QtGui/QTextDocument-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.addResource
         :args:
@@ -230,21 +230,21 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.find
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
             options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f-6.rst
+        :description: QtGui/QTextDocument-find-f-8.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.find
         :args:
-            str
+            Optional[str]
             position: int = 0
             options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCursor`
-        :description: QtGui/QTextDocument-find-f-7.rst
+        :description: QtGui/QTextDocument-find-f-9.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.findBlock
         :args:
@@ -436,8 +436,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setDefaultStyleSheet
         :args:
-            str
-        :description: QtGui/QTextDocument-setDefaultStyleSheet-f.rst
+            Optional[str]
+        :description: QtGui/QTextDocument-setDefaultStyleSheet-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setDefaultTextOption
         :args:
@@ -456,8 +456,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setHtml
         :args:
-            str
-        :description: QtGui/QTextDocument-setHtml-f.rst
+            Optional[str]
+        :description: QtGui/QTextDocument-setHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setIndentWidth
         :args:
@@ -471,9 +471,9 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMarkdown
         :args:
-            str
+            Optional[str]
             features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
-        :description: QtGui/QTextDocument-setMarkdown-f-1.rst
+        :description: QtGui/QTextDocument-setMarkdown-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMaximumBlockCount
         :args:
@@ -483,8 +483,8 @@
     .. sip:method:: PyQt6.QtGui.QTextDocument.setMetaInformation
         :args:
             :sip:ref:`~PyQt6.QtGui.QTextDocument.MetaInformation`
-            str
-        :description: QtGui/QTextDocument-setMetaInformation-f.rst
+            Optional[str]
+        :description: QtGui/QTextDocument-setMetaInformation-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setModified
         :args:
@@ -498,8 +498,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setPlainText
         :args:
-            str
-        :description: QtGui/QTextDocument-setPlainText-f.rst
+            Optional[str]
+        :description: QtGui/QTextDocument-setPlainText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.setResourceProvider
         :args:

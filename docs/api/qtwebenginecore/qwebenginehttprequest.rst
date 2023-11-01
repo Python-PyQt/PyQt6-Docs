@@ -32,17 +32,17 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.hasHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtWebEngineCore/QWebEngineHttpRequest-hasHeader-f.rst
+        :description: QtWebEngineCore/QWebEngineHttpRequest-hasHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.header
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineHttpRequest-header-f.rst
+        :description: QtWebEngineCore/QWebEngineHttpRequest-header-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.headers
         :returns:
@@ -69,17 +69,17 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.postRequest
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            Dict[str, str]
+            Dict[Optional[str], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHttpRequest`
         :static:
-        :description: QtWebEngineCore/QWebEngineHttpRequest-postRequest-f.rst
+        :description: QtWebEngineCore/QWebEngineHttpRequest-postRequest-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.setHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineHttpRequest-setHeader-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineHttpRequest-setHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.setMethod
         :args:
@@ -88,8 +88,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.setPostData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineHttpRequest-setPostData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineHttpRequest-setPostData-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.setUrl
         :args:
@@ -103,8 +103,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.unsetHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineHttpRequest-unsetHeader-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineHttpRequest-unsetHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.url
         :returns:

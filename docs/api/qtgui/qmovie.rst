@@ -33,16 +33,16 @@
     .. sip:method:: PyQt6.QtGui.QMovie.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QMovie-__init__-f-1.rst
+        :description: QtGui/QMovie-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QMovie.__init__
         :args:
-            str
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
+            Optional[str]
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QMovie-__init__-f-2.rst
+        :description: QtGui/QMovie-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QMovie.backgroundColor
         :returns:
@@ -153,13 +153,13 @@
 
     .. sip:method:: PyQt6.QtGui.QMovie.setFileName
         :args:
-            str
-        :description: QtGui/QMovie-setFileName-f.rst
+            Optional[str]
+        :description: QtGui/QMovie-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMovie.setFormat
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QMovie-setFormat-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QMovie-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMovie.setPaused
         :args:

@@ -13,19 +13,19 @@
     .. sip:method:: PyQt6.QtWidgets.QToolBox.addItem
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QToolBox-addItem-f.rst
+        :description: QtWidgets/QToolBox-addItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.addItem
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QToolBox-addItem-f-1.rst
+        :description: QtWidgets/QToolBox-addItem-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.changeEvent
         :args:
@@ -65,20 +65,20 @@
         :args:
             int
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QToolBox-insertItem-f.rst
+        :description: QtWidgets/QToolBox-insertItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.insertItem
         :args:
             int
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QToolBox-insertItem-f-1.rst
+        :description: QtWidgets/QToolBox-insertItem-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.isItemEnabled
         :args:
@@ -153,14 +153,14 @@
     .. sip:method:: PyQt6.QtWidgets.QToolBox.setItemText
         :args:
             int
-            str
-        :description: QtWidgets/QToolBox-setItemText-f.rst
+            Optional[str]
+        :description: QtWidgets/QToolBox-setItemText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.setItemToolTip
         :args:
             int
-            str
-        :description: QtWidgets/QToolBox-setItemToolTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QToolBox-setItemToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBox.showEvent
         :args:

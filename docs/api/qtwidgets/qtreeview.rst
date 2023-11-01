@@ -243,8 +243,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.keyboardSearch
         :args:
-            str
-        :description: QtWidgets/QTreeView-keyboardSearch-f.rst
+            Optional[str]
+        :description: QtWidgets/QTreeView-keyboardSearch-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.keyPressEvent
         :args:

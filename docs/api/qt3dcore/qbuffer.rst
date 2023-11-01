@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QBuffer.setData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DCore/QBuffer-setData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DCore/QBuffer-setData-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QBuffer.setUsage
         :args:
@@ -79,8 +79,8 @@
     .. sip:method:: PyQt6.Qt3DCore.QBuffer.updateData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DCore/QBuffer-updateData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DCore/QBuffer-updateData-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QBuffer.usage
         :returns:
@@ -97,8 +97,8 @@
 
     .. sip:signal:: PyQt6.Qt3DCore.QBuffer.dataChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DCore/QBuffer-dataChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DCore/QBuffer-dataChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DCore.QBuffer.usageChanged
         :args:

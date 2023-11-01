@@ -844,13 +844,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
         :args:
-            Tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
-        :description: QtBluetooth/QBluetoothUuid-__init__-f-2.rst
-
-    .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
-        :args:
-            str
-        :description: QtBluetooth/QBluetoothUuid-__init__-f-3.rst
+            Optional[str]
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
         :args:
@@ -861,6 +856,12 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :description: QtBluetooth/QBluetoothUuid-__init__-f-5.rst
+
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
+        :args:
+            Tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
+            order: :sip:ref:`~PyQt6.QtCore.QSysInfo.Endian` = :sip:ref:`~PyQt6.QtCore.QSysInfo.Endian.BigEndian`
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.characteristicToString
         :args:

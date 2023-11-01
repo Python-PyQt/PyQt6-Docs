@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxObject.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QAxContainer/QAxObject-__init__-f-1.rst
+        :description: QAxContainer/QAxObject-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxObject.classContext
         :returns:
@@ -35,10 +35,10 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxObject.doVerb
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QAxContainer/QAxObject-doVerb-f.rst
+        :description: QAxContainer/QAxObject-doVerb-f-1.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxObject.resetControl
         :description: QAxContainer/QAxObject-resetControl-f.rst
@@ -50,7 +50,7 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxObject.setControl
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QAxContainer/QAxObject-setControl-f.rst
+        :description: QAxContainer/QAxObject-setControl-f-1.rst

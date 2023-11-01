@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelComponent.__init__
         :args:
-            str
-        :description: Qt3DAnimation/QChannelComponent-__init__-f-1.rst
+            Optional[str]
+        :description: Qt3DAnimation/QChannelComponent-__init__-f-3.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelComponent.__init__
         :args:
@@ -47,5 +47,5 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelComponent.setName
         :args:
-            str
-        :description: Qt3DAnimation/QChannelComponent-setName-f.rst
+            Optional[str]
+        :description: Qt3DAnimation/QChannelComponent-setName-f-1.rst

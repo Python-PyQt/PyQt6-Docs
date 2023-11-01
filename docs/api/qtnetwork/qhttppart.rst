@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpPart.setBody
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpPart-setBody-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QHttpPart-setBody-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpPart.setBodyDevice
         :args:
@@ -43,9 +43,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpPart.setRawHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpPart-setRawHeader-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QHttpPart-setRawHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpPart.swap
         :args:

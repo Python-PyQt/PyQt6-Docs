@@ -21,10 +21,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.fixup
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtWidgets/QDoubleSpinBox-fixup-f.rst
+        :description: QtWidgets/QDoubleSpinBox-fixup-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.maximum
         :returns:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.setPrefix
         :args:
-            str
-        :description: QtWidgets/QDoubleSpinBox-setPrefix-f.rst
+            Optional[str]
+        :description: QtWidgets/QDoubleSpinBox-setPrefix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.setRange
         :args:
@@ -79,8 +79,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.setSuffix
         :args:
-            str
-        :description: QtWidgets/QDoubleSpinBox-setSuffix-f.rst
+            Optional[str]
+        :description: QtWidgets/QDoubleSpinBox-setSuffix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.setValue
         :args:
@@ -111,13 +111,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtWidgets/QDoubleSpinBox-validate-f.rst
+        :description: QtWidgets/QDoubleSpinBox-validate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.value
         :returns:
@@ -126,15 +126,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDoubleSpinBox.valueFromText
         :args:
-            str
+            Optional[str]
         :returns:
             float
-        :description: QtWidgets/QDoubleSpinBox-valueFromText-f.rst
+        :description: QtWidgets/QDoubleSpinBox-valueFromText-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDoubleSpinBox.textChanged
         :args:
-            str
-        :description: QtWidgets/QDoubleSpinBox-textChanged-s.rst
+            Optional[str]
+        :description: QtWidgets/QDoubleSpinBox-textChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDoubleSpinBox.valueChanged
         :args:

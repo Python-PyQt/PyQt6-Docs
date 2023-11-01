@@ -233,13 +233,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setBackgroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QChart-setBackgroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QChart-setBackgroundPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QChart-setBackgroundPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundRoundness
         :args:
@@ -278,13 +278,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setPlotAreaBackgroundBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QChart-setPlotAreaBackgroundBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundVisible
         :args:
@@ -298,13 +298,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitle
         :args:
-            str
-        :description: QtCharts/QChart-setTitle-f.rst
+            Optional[str]
+        :description: QtCharts/QChart-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitleBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setTitleBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QChart-setTitleBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitleFont
         :args:

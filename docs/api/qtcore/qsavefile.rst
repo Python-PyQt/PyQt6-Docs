@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.__init__
         :args:
-            str
-        :description: QtCore/QSaveFile-__init__-f.rst
+            Optional[str]
+        :description: QtCore/QSaveFile-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.__init__
         :args:
@@ -16,9 +16,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QSaveFile-__init__-f-2.rst
+        :description: QtCore/QSaveFile-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.cancelWriting
         :description: QtCore/QSaveFile-cancelWriting-f.rst
@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.setFileName
         :args:
-            str
-        :description: QtCore/QSaveFile-setFileName-f.rst
+            Optional[str]
+        :description: QtCore/QSaveFile-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSaveFile.writeData
         :args:

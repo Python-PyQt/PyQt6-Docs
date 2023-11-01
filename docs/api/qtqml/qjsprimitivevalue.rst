@@ -54,8 +54,8 @@
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__init__
         :args:
-            str
-        :description: QtQml/QJSPrimitiveValue-__init__-f-6.rst
+            Optional[str]
+        :description: QtQml/QJSPrimitiveValue-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__init__
         :args:
@@ -68,6 +68,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSPrimitiveValue`
         :description: QtQml/QJSPrimitiveValue-__add__-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.data
+        :returns:
+            :py:class:`~PyQt6.sip.voidptr`
+        :description: QtQml/QJSPrimitiveValue-data-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__eq__
         :args:
@@ -110,6 +115,11 @@
         :returns:
             bool
         :description: QtQml/QJSPrimitiveValue-__lt__-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.metaType
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :description: QtQml/QJSPrimitiveValue-metaType-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__mod__
         :args:

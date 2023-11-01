@@ -6,9 +6,9 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCharts/QBarSet-__init__-f.rst
+        :description: QtCharts/QBarSet-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.append
         :args:
@@ -165,8 +165,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBarSet-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBarSet-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setColor
         :args:
@@ -175,13 +175,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabel
         :args:
-            str
-        :description: QtCharts/QBarSet-setLabel-f.rst
+            Optional[str]
+        :description: QtCharts/QBarSet-setLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabelBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBarSet-setLabelBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBarSet-setLabelBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabelColor
         :args:
@@ -195,8 +195,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QBarSet-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setSelectedColor
         :args:

@@ -46,11 +46,11 @@
 
     .. sip:method:: PyQt6.QtGui.QPageRanges.fromString
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPageRanges`
         :static:
-        :description: QtGui/QPageRanges-fromString-f.rst
+        :description: QtGui/QPageRanges-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageRanges.isEmpty
         :returns:

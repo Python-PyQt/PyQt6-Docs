@@ -47,6 +47,12 @@
             :sip:ref:`~PyQt6.QtCore.QCalendar`
         :description: QtWidgets/QCalendarWidget-calendar-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.clearMaximumDate
+        :description: QtWidgets/QCalendarWidget-clearMaximumDate-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.clearMinimumDate
+        :description: QtWidgets/QCalendarWidget-clearMinimumDate-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.dateEditAcceptDelay
         :returns:
             int

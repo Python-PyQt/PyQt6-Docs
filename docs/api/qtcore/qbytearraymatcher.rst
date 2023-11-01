@@ -46,5 +46,5 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.setPattern
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArrayMatcher-setPattern-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QByteArrayMatcher-setPattern-f-1.rst

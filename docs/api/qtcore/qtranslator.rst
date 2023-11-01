@@ -26,32 +26,32 @@
 
     .. sip:method:: PyQt6.QtCore.QTranslator.load
         :args:
-            str
-            directory: str = ''
-            searchDelimiters: str = ''
-            suffix: str = ''
+            Optional[str]
+            directory: Optional[str] = ''
+            searchDelimiters: Optional[str] = ''
+            suffix: Optional[str] = ''
         :returns:
             bool
-        :description: QtCore/QTranslator-load-f.rst
+        :description: QtCore/QTranslator-load-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTranslator.load
         :args:
             :sip:ref:`~PyQt6.QtCore.QLocale`
-            str
-            prefix: str = ''
-            directory: str = ''
-            suffix: str = ''
+            Optional[str]
+            prefix: Optional[str] = ''
+            directory: Optional[str] = ''
+            suffix: Optional[str] = ''
         :returns:
             bool
-        :description: QtCore/QTranslator-load-f-1.rst
+        :description: QtCore/QTranslator-load-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTranslator.loadFromData
         :args:
             bytes
-            directory: str = ''
+            directory: Optional[str] = ''
         :returns:
             bool
-        :description: QtCore/QTranslator-loadFromData-f.rst
+        :description: QtCore/QTranslator-loadFromData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTranslator.translate
         :args:

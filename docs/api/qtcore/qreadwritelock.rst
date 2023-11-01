@@ -24,9 +24,11 @@
         :description: QtCore/QReadWriteLock-lockForWrite-f.rst
 
     .. sip:method:: PyQt6.QtCore.QReadWriteLock.tryLockForRead
+        :args:
+            timeout: :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` = {}
         :returns:
             bool
-        :description: QtCore/QReadWriteLock-tryLockForRead-f.rst
+        :description: QtCore/QReadWriteLock-tryLockForRead-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QReadWriteLock.tryLockForRead
         :args:
@@ -36,9 +38,11 @@
         :description: QtCore/QReadWriteLock-tryLockForRead-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QReadWriteLock.tryLockForWrite
+        :args:
+            timeout: :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` = {}
         :returns:
             bool
-        :description: QtCore/QReadWriteLock-tryLockForWrite-f.rst
+        :description: QtCore/QReadWriteLock-tryLockForWrite-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QReadWriteLock.tryLockForWrite
         :args:

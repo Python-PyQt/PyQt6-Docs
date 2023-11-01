@@ -92,12 +92,12 @@
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.__init__
         :args:
-            str
+            Optional[str]
             int
             :sip:ref:`~PyQt6.QtGui.QInputDevice.DeviceType`
-            seatName: str = ''
+            seatName: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGui/QInputDevice-__init__-f-2.rst
+        :description: QtGui/QInputDevice-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.availableVirtualGeometry
         :returns:
@@ -143,11 +143,11 @@
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.primaryKeyboard
         :args:
-            seatName: str = ''
+            seatName: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QInputDevice`
         :static:
-        :description: QtGui/QInputDevice-primaryKeyboard-f.rst
+        :description: QtGui/QInputDevice-primaryKeyboard-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.seatName
         :returns:

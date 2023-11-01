@@ -6,13 +6,13 @@
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QCryptographicHash.Algorithm`
-            key: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtCore/QMessageAuthenticationCode-__init__-f.rst
+            key: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = {}
+        :description: QtCore/QMessageAuthenticationCode-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.addData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
-        :description: QtCore/QMessageAuthenticationCode-addData-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QMessageAuthenticationCode-addData-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.addData
         :args:
@@ -23,13 +23,13 @@
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.hash
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtCore.QCryptographicHash.Algorithm`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QMessageAuthenticationCode-hash-f.rst
+        :description: QtCore/QMessageAuthenticationCode-hash-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.reset
         :description: QtCore/QMessageAuthenticationCode-reset-f.rst
@@ -41,5 +41,10 @@
 
     .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.setKey
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QMessageAuthenticationCode-setKey-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QMessageAuthenticationCode-setKey-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QMessageAuthenticationCode.swap
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QMessageAuthenticationCode`
+        :description: QtCore/QMessageAuthenticationCode-swap-f.rst

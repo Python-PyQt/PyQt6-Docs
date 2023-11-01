@@ -251,20 +251,20 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glColorMask
         :args:
-            bytes
-            bytes
-            bytes
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glColorMask-f-1.rst
+            int
+            int
+            int
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glColorMask-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glColorMaski
         :args:
             int
-            bytes
-            bytes
-            bytes
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glColorMaski-f-1.rst
+            int
+            int
+            int
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glColorMaski-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glCompileShader
         :args:
@@ -456,8 +456,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glDepthMask
         :args:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glDepthMask-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glDepthMask-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glDepthRange
         :args:
@@ -880,93 +880,93 @@
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsBuffer-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsBuffer-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsEnabled
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsEnabled-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsEnabled-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsEnabledi
         :args:
             int
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsEnabledi-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsEnabledi-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsFramebuffer
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsFramebuffer-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsFramebuffer-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsProgram
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsProgram-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsProgram-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsProgramPipeline
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsProgramPipeline-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsProgramPipeline-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsQuery
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsQuery-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsQuery-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsRenderbuffer
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsRenderbuffer-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsRenderbuffer-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsSampler
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsSampler-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsSampler-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsShader
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsShader-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsShader-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsTexture
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsTexture-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsTexture-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsTransformFeedback
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsTransformFeedback-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsTransformFeedback-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glIsVertexArray
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsVertexArray-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glIsVertexArray-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glLineWidth
         :args:
@@ -1252,8 +1252,8 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glSampleCoverage
         :args:
             float
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glSampleCoverage-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glSampleCoverage-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glSampleMaski
         :args:
@@ -1372,8 +1372,8 @@
             int
             int
             int
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glTexImage2DMultisample-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glTexImage2DMultisample-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glTexImage3D
         :args:
@@ -1397,8 +1397,8 @@
             int
             int
             int
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glTexImage3DMultisample-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glTexImage3DMultisample-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glTexParameterf
         :args:
@@ -1654,32 +1654,32 @@
         :args:
             int
             int
-            bytes
+            int
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix2fv-f-1.rst
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix2fv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glUniformMatrix3fv
         :args:
             int
             int
-            bytes
+            int
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix3fv-f-1.rst
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix3fv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glUniformMatrix4fv
         :args:
             int
             int
-            bytes
+            int
             PYQT_OPENGL_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix4fv-f-1.rst
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUniformMatrix4fv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glUnmapBuffer
         :args:
             int
         :returns:
-            bytes
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUnmapBuffer-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glUnmapBuffer-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glUseProgram
         :args:
@@ -1743,43 +1743,43 @@
         :args:
             int
             int
-            bytes
             int
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP1ui-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP1ui-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glVertexAttribP2ui
         :args:
             int
             int
-            bytes
             int
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP2ui-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP2ui-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glVertexAttribP3ui
         :args:
             int
             int
-            bytes
             int
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP3ui-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP3ui-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glVertexAttribP4ui
         :args:
             int
             int
-            bytes
             int
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP4ui-f-1.rst
+            int
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribP4ui-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glVertexAttribPointer
         :args:
             int
             int
             int
-            bytes
+            int
             int
             PYQT_OPENGL_BOUND_ARRAY
-        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribPointer-f-1.rst
+        :description: QtOpenGL/QOpenGLFunctions_4_1_Core-glVertexAttribPointer-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_4_1_Core.glViewport
         :args:

@@ -47,18 +47,18 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QSceneLoader.component
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.Qt3DRender.QSceneLoader.ComponentType`
         :returns:
             :sip:ref:`~PyQt6.Qt3DCore.QComponent`
-        :description: Qt3DRender/QSceneLoader-component-f.rst
+        :description: Qt3DRender/QSceneLoader-component-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QSceneLoader.entity
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.Qt3DCore.QEntity`
-        :description: Qt3DRender/QSceneLoader-entity-f.rst
+        :description: Qt3DRender/QSceneLoader-entity-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QSceneLoader.entityNames
         :returns:

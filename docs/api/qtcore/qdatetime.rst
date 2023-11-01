@@ -178,22 +178,22 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromString
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :static:
-        :description: QtCore/QDateTime-fromString-f.rst
+        :description: QtCore/QDateTime-fromString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromString
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :static:
-        :description: QtCore/QDateTime-fromString-f-1.rst
+        :description: QtCore/QDateTime-fromString-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__ge__
         :args:
@@ -375,11 +375,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.toString
         :args:
-            str
+            Optional[str]
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             str
-        :description: QtCore/QDateTime-toString-f-1.rst
+        :description: QtCore/QDateTime-toString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.toTimeSpec
         :args:

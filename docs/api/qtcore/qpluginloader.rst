@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QPluginLoader-__init__-f-1.rst
+        :description: QtCore/QPluginLoader-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.errorString
         :returns:
@@ -47,8 +47,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.setFileName
         :args:
-            str
-        :description: QtCore/QPluginLoader-setFileName-f.rst
+            Optional[str]
+        :description: QtCore/QPluginLoader-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.setLoadHints
         :args:

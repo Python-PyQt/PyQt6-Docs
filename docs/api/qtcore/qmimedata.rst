@@ -17,10 +17,10 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.data
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QMimeData-data-f.rst
+        :description: QtCore/QMimeData-data-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.formats
         :returns:
@@ -34,10 +34,10 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.hasFormat
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QMimeData-hasFormat-f.rst
+        :description: QtCore/QMimeData-hasFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.hasHtml
         :returns:
@@ -71,16 +71,16 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.removeFormat
         :args:
-            str
-        :description: QtCore/QMimeData-removeFormat-f.rst
+            Optional[str]
+        :description: QtCore/QMimeData-removeFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.retrieveData
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QMetaType`
         :returns:
             Any
-        :description: QtCore/QMimeData-retrieveData-f.rst
+        :description: QtCore/QMimeData-retrieveData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setColorData
         :args:
@@ -89,14 +89,14 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setData
         :args:
-            str
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QMimeData-setData-f.rst
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QMimeData-setData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setHtml
         :args:
-            str
-        :description: QtCore/QMimeData-setHtml-f.rst
+            Optional[str]
+        :description: QtCore/QMimeData-setHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setImageData
         :args:
@@ -105,8 +105,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setText
         :args:
-            str
-        :description: QtCore/QMimeData-setText-f.rst
+            Optional[str]
+        :description: QtCore/QMimeData-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.setUrls
         :args:

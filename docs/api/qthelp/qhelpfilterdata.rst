@@ -32,8 +32,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterData.setComponents
         :args:
-            Iterable[str]
-        :description: QtHelp/QHelpFilterData-setComponents-f.rst
+            Iterable[Optional[str]]
+        :description: QtHelp/QHelpFilterData-setComponents-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterData.setVersions
         :args:

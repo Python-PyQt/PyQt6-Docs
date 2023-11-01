@@ -20,10 +20,10 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.captured
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QRegularExpressionMatch-captured-f-1.rst
+        :description: QtCore/QRegularExpressionMatch-captured-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedEnd
         :args:
@@ -81,10 +81,10 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasCaptured
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QRegularExpressionMatch-hasCaptured-f-1.rst
+        :description: QtCore/QRegularExpressionMatch-hasCaptured-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasMatch
         :returns:

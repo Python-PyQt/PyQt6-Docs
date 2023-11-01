@@ -4,7 +4,7 @@
     :description: QtCore/QTimeZone-OffsetData-c.rst
 
     .. sip:attribute:: PyQt6.QtCore.QTimeZone.OffsetData.abbreviation
-        :type: str
+        :type: Optional[str]
         :description: QtCore/QTimeZone-OffsetData-abbreviation-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QTimeZone.OffsetData.atUtc

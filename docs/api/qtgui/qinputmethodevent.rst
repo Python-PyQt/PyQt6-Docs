@@ -27,9 +27,9 @@
 
     .. sip:method:: PyQt6.QtGui.QInputMethodEvent.__init__
         :args:
-            str
+            Optional[str]
             Iterable[:sip:ref:`~PyQt6.QtGui.QInputMethodEvent.Attribute`]
-        :description: QtGui/QInputMethodEvent-__init__-f-1.rst
+        :description: QtGui/QInputMethodEvent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QInputMethodEvent.attributes
         :returns:
@@ -63,7 +63,7 @@
 
     .. sip:method:: PyQt6.QtGui.QInputMethodEvent.setCommitString
         :args:
-            str
+            Optional[str]
             from: int = 0
             length: int = 0
-        :description: QtGui/QInputMethodEvent-setCommitString-f.rst
+        :description: QtGui/QInputMethodEvent-setCommitString-f-1.rst

@@ -4,7 +4,7 @@
     :description: QtCore/QByteArray-FromBase64Result-c.rst
 
     .. sip:attribute:: PyQt6.QtCore.QByteArray.FromBase64Result.decoded
-        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :description: QtCore/QByteArray-FromBase64Result-decoded-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QByteArray.FromBase64Result.decodingStatus

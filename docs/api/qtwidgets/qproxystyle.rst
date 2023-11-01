@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.__init__
         :args:
-            str
-        :description: QtWidgets/QProxyStyle-__init__-f-1.rst
+            Optional[str]
+        :description: QtWidgets/QProxyStyle-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.baseStyle
         :returns:
@@ -50,9 +50,9 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             bool
-            str
+            Optional[str]
             textRole: :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole` = :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.NoRole`
-        :description: QtWidgets/QProxyStyle-drawItemText-f.rst
+        :description: QtWidgets/QProxyStyle-drawItemText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.drawPrimitive
         :args:
@@ -103,10 +103,10 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             int
             bool
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QProxyStyle-itemTextRect-f.rst
+        :description: QtWidgets/QProxyStyle-itemTextRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProxyStyle.layoutSpacing
         :args:

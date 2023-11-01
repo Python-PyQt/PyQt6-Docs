@@ -129,6 +129,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PrintElementBackgrounds
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PrintElementBackgrounds-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.ReadingFromCanvasEnabled
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-ReadingFromCanvasEnabled-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.ScreenCaptureEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-ScreenCaptureEnabled-v.rst
 
@@ -198,14 +201,14 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setDefaultTextEncoding
         :args:
-            str
-        :description: QtWebEngineCore/QWebEngineSettings-setDefaultTextEncoding-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEngineSettings-setDefaultTextEncoding-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setFontFamily
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.FontFamily`
-            str
-        :description: QtWebEngineCore/QWebEngineSettings-setFontFamily-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEngineSettings-setFontFamily-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setFontSize
         :args:

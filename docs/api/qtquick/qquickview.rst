@@ -107,8 +107,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setInitialProperties
         :args:
-            Dict[str, Any]
-        :description: QtQuick/QQuickView-setInitialProperties-f.rst
+            Dict[Optional[str], Any]
+        :description: QtQuick/QQuickView-setInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setResizeMode
         :args:

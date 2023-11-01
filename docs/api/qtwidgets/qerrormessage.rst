@@ -27,11 +27,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QErrorMessage.showMessage
         :args:
-            str
-        :description: QtWidgets/QErrorMessage-showMessage-f.rst
+            Optional[str]
+        :description: QtWidgets/QErrorMessage-showMessage-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QErrorMessage.showMessage
         :args:
-            str
-            str
-        :description: QtWidgets/QErrorMessage-showMessage-f-1.rst
+            Optional[str]
+            Optional[str]
+        :description: QtWidgets/QErrorMessage-showMessage-f-3.rst

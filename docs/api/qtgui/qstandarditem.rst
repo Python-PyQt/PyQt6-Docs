@@ -17,8 +17,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.__init__
         :args:
-            str
-        :description: QtGui/QStandardItem-__init__-f-1.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.__init__
         :args:
@@ -28,8 +28,8 @@
     .. sip:method:: PyQt6.QtGui.QStandardItem.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
-        :description: QtGui/QStandardItem-__init__-f-3.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.__init__
         :args:
@@ -282,13 +282,13 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setAccessibleDescription
         :args:
-            str
-        :description: QtGui/QStandardItem-setAccessibleDescription-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setAccessibleDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setAccessibleText
         :args:
-            str
-        :description: QtGui/QStandardItem-setAccessibleText-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setAccessibleText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setAutoTristate
         :args:
@@ -297,8 +297,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QStandardItem-setBackground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QStandardItem-setBackground-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setCheckable
         :args:
@@ -366,8 +366,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QStandardItem-setForeground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QStandardItem-setForeground-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setIcon
         :args:
@@ -391,13 +391,13 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setStatusTip
         :args:
-            str
-        :description: QtGui/QStandardItem-setStatusTip-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setStatusTip-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setText
         :args:
-            str
-        :description: QtGui/QStandardItem-setText-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setTextAlignment
         :args:
@@ -406,8 +406,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setToolTip
         :args:
-            str
-        :description: QtGui/QStandardItem-setToolTip-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setUserTristate
         :args:
@@ -416,8 +416,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.setWhatsThis
         :args:
-            str
-        :description: QtGui/QStandardItem-setWhatsThis-f.rst
+            Optional[str]
+        :description: QtGui/QStandardItem-setWhatsThis-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.sizeHint
         :returns:

@@ -41,14 +41,14 @@
 
     .. sip:method:: PyQt6.QtWebChannel.QWebChannel.registerObject
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtWebChannel/QWebChannel-registerObject-f.rst
+        :description: QtWebChannel/QWebChannel-registerObject-f-1.rst
 
     .. sip:method:: PyQt6.QtWebChannel.QWebChannel.registerObjects
         :args:
-            Dict[str, :sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtWebChannel/QWebChannel-registerObjects-f.rst
+            Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QObject`]
+        :description: QtWebChannel/QWebChannel-registerObjects-f-1.rst
 
     .. sip:method:: PyQt6.QtWebChannel.QWebChannel.setBlockUpdates
         :args:

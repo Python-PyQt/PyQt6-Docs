@@ -77,9 +77,9 @@
 
     .. sip:method:: PyQt6.QtGui.QClipboard.setText
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtGui.QClipboard.Mode` = :sip:ref:`~PyQt6.QtGui.QClipboard.Mode.Clipboard`
-        :description: QtGui/QClipboard-setText-f.rst
+        :description: QtGui/QClipboard-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QClipboard.supportsFindBuffer
         :returns:
@@ -100,11 +100,11 @@
 
     .. sip:method:: PyQt6.QtGui.QClipboard.text
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtGui.QClipboard.Mode` = :sip:ref:`~PyQt6.QtGui.QClipboard.Mode.Clipboard`
         :returns:
             Tuple[str, str]
-        :description: QtGui/QClipboard-text-f-1.rst
+        :description: QtGui/QClipboard-text-f-2.rst
 
     .. sip:signal:: PyQt6.QtGui.QClipboard.changed
         :args:

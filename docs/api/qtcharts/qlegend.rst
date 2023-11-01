@@ -138,8 +138,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QLegend-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QLegend-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setColor
         :args:
@@ -158,8 +158,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setLabelBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QLegend-setLabelBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QLegend-setLabelBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setLabelColor
         :args:
@@ -173,8 +173,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QLegend-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setReverseMarkers
         :args:

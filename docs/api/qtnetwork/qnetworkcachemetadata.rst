@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setRawHeaders
         :args:
-            Iterable[Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
-        :description: QtNetwork/QNetworkCacheMetaData-setRawHeaders-f.rst
+            Iterable[Tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
+        :description: QtNetwork/QNetworkCacheMetaData-setRawHeaders-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setSaveToDisk
         :args:

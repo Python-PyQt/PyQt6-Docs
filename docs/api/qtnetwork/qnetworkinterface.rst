@@ -127,19 +127,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.interfaceFromName
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkInterface`
         :static:
-        :description: QtNetwork/QNetworkInterface-interfaceFromName-f.rst
+        :description: QtNetwork/QNetworkInterface-interfaceFromName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.interfaceIndexFromName
         :args:
-            str
+            Optional[str]
         :returns:
             int
         :static:
-        :description: QtNetwork/QNetworkInterface-interfaceIndexFromName-f.rst
+        :description: QtNetwork/QNetworkInterface-interfaceIndexFromName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.interfaceNameFromIndex
         :args:

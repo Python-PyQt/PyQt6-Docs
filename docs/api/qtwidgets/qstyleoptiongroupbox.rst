@@ -29,7 +29,7 @@
         :description: QtWidgets/QStyleOptionGroupBox-midLineWidth-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionGroupBox-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.textAlignment

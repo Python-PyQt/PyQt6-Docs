@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusSignature.__init__
         :args:
-            str
-        :description: QtDBus/QDBusSignature-__init__-f-1.rst
+            Optional[str]
+        :description: QtDBus/QDBusSignature-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusSignature.__init__
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusSignature.setSignature
         :args:
-            str
-        :description: QtDBus/QDBusSignature-setSignature-f.rst
+            Optional[str]
+        :description: QtDBus/QDBusSignature-setSignature-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusSignature.signature
         :returns:

@@ -35,11 +35,11 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefMessage.fromByteArray
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtNfc.QNdefMessage`
         :static:
-        :description: QtNfc/QNdefMessage-fromByteArray-f.rst
+        :description: QtNfc/QNdefMessage-fromByteArray-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefMessage.__getitem__
         :args:

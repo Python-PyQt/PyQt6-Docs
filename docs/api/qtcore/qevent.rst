@@ -75,6 +75,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.DeferredDelete
             :description: QtCore/QEvent-Type-DeferredDelete-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.DevicePixelRatioChange
+            :description: QtCore/QEvent-Type-DevicePixelRatioChange-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.DragEnter
             :description: QtCore/QEvent-Type-DragEnter-v.rst
 
@@ -95,6 +98,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Enter
             :description: QtCore/QEvent-Type-Enter-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.EnterEditFocus
+            :description: QtCore/QEvent-Type-EnterEditFocus-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.EnterWhatsThisMode
             :description: QtCore/QEvent-Type-EnterWhatsThisMode-v.rst
@@ -228,6 +234,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Leave
             :description: QtCore/QEvent-Type-Leave-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.LeaveEditFocus
+            :description: QtCore/QEvent-Type-LeaveEditFocus-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.LeaveWhatsThisMode
             :description: QtCore/QEvent-Type-LeaveWhatsThisMode-v.rst
 
@@ -263,6 +272,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Move
             :description: QtCore/QEvent-Type-Move-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.NativeGesture
+            :description: QtCore/QEvent-Type-NativeGesture-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.NonClientAreaMouseButtonDblClick
             :description: QtCore/QEvent-Type-NonClientAreaMouseButtonDblClick-v.rst
@@ -311,6 +323,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.QueryWhatsThis
             :description: QtCore/QEvent-Type-QueryWhatsThis-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Quit
+            :description: QtCore/QEvent-Type-Quit-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ReadOnlyChange
             :description: QtCore/QEvent-Type-ReadOnlyChange-v.rst

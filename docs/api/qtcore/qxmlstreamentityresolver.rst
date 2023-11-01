@@ -13,7 +13,7 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamEntityResolver.resolveUndeclaredEntity
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QXmlStreamEntityResolver-resolveUndeclaredEntity-f.rst
+        :description: QtCore/QXmlStreamEntityResolver-resolveUndeclaredEntity-f-1.rst

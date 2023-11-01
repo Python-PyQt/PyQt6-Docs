@@ -20,10 +20,10 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.indexOf
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtDesigner/QDesignerMemberSheetExtension-indexOf-f.rst
+        :description: QtDesigner/QDesignerMemberSheetExtension-indexOf-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.inheritedFromWidget
         :args:
@@ -89,8 +89,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.setMemberGroup
         :args:
             int
-            str
-        :description: QtDesigner/QDesignerMemberSheetExtension-setMemberGroup-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerMemberSheetExtension-setMemberGroup-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.setVisible
         :args:

@@ -305,8 +305,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setBestFitLinePen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QXYSeries-setBestFitLinePen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QXYSeries-setBestFitLinePen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setBestFitLineVisible
         :args:
@@ -315,8 +315,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QXYSeries-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QXYSeries-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setColor
         :args:
@@ -335,8 +335,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QXYSeries-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QXYSeries-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointConfiguration
         :args:
@@ -368,8 +368,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointLabelsFormat
         :args:
-            str
-        :description: QtCharts/QXYSeries-setPointLabelsFormat-f.rst
+            Optional[str]
+        :description: QtCharts/QXYSeries-setPointLabelsFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointLabelsVisible
         :args:
@@ -421,8 +421,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.bestFitLinePenChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QXYSeries-bestFitLinePenChanged-s-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QXYSeries-bestFitLinePenChanged-s-2.rst
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.bestFitLineVisibilityChanged
         :args:
@@ -462,8 +462,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.penChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QXYSeries-penChanged-s-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QXYSeries-penChanged-s-2.rst
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.pointAdded
         :args:
@@ -487,8 +487,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.pointLabelsFormatChanged
         :args:
-            str
-        :description: QtCharts/QXYSeries-pointLabelsFormatChanged-s.rst
+            Optional[str]
+        :description: QtCharts/QXYSeries-pointLabelsFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.pointLabelsVisibilityChanged
         :args:

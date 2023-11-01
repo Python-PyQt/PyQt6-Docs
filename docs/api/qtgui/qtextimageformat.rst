@@ -39,8 +39,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextImageFormat.setName
         :args:
-            str
-        :description: QtGui/QTextImageFormat-setName-f.rst
+            Optional[str]
+        :description: QtGui/QTextImageFormat-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextImageFormat.setQuality
         :args:

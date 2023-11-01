@@ -35,8 +35,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
-            str
-        :description: QtGui/QTextLayout-__init__-f-1.rst
+            Optional[str]
+        :description: QtGui/QTextLayout-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
@@ -45,10 +45,10 @@
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtGui.QFont`
             paintdevice: :sip:ref:`~PyQt6.QtGui.QPaintDevice` = None
-        :description: QtGui/QTextLayout-__init__-f-3.rst
+        :description: QtGui/QTextLayout-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.beginLayout
         :description: QtGui/QTextLayout-beginLayout-f.rst
@@ -241,13 +241,13 @@
     .. sip:method:: PyQt6.QtGui.QTextLayout.setPreeditArea
         :args:
             int
-            str
-        :description: QtGui/QTextLayout-setPreeditArea-f.rst
+            Optional[str]
+        :description: QtGui/QTextLayout-setPreeditArea-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.setText
         :args:
-            str
-        :description: QtGui/QTextLayout-setText-f.rst
+            Optional[str]
+        :description: QtGui/QTextLayout-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.setTextOption
         :args:

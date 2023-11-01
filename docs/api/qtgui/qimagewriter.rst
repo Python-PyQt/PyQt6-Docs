@@ -24,14 +24,14 @@
     .. sip:method:: PyQt6.QtGui.QImageWriter.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QImageWriter-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QImageWriter-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.__init__
         :args:
-            str
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtGui/QImageWriter-__init__-f-2.rst
+            Optional[str]
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtGui/QImageWriter-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.canWrite
         :returns:
@@ -70,11 +70,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.imageFormatsForMimeType
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageWriter-imageFormatsForMimeType-f.rst
+        :description: QtGui/QImageWriter-imageFormatsForMimeType-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.optimizedWrite
         :returns:
@@ -103,13 +103,13 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setFileName
         :args:
-            str
-        :description: QtGui/QImageWriter-setFileName-f.rst
+            Optional[str]
+        :description: QtGui/QImageWriter-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setFormat
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QImageWriter-setFormat-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QImageWriter-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setOptimizedWrite
         :args:
@@ -128,14 +128,14 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setSubType
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QImageWriter-setSubType-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QImageWriter-setSubType-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setText
         :args:
-            str
-            str
-        :description: QtGui/QImageWriter-setText-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtGui/QImageWriter-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.setTransformation
         :args:

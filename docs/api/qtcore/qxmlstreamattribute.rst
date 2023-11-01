@@ -13,16 +13,16 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttribute.__init__
         :args:
-            str
-            str
-        :description: QtCore/QXmlStreamAttribute-__init__-f-2.rst
+            Optional[str]
+            Optional[str]
+        :description: QtCore/QXmlStreamAttribute-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttribute.__init__
         :args:
-            str
-            str
-            str
-        :description: QtCore/QXmlStreamAttribute-__init__-f-3.rst
+            Optional[str]
+            Optional[str]
+            Optional[str]
+        :description: QtCore/QXmlStreamAttribute-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttribute.__eq__
         :args:

@@ -29,9 +29,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.__init__
         :args:
-            query: str = ''
+            query: Optional[str] = ''
             db: :sip:ref:`~PyQt6.QtSql.QSqlDatabase` = QSqlDatabase()
-        :description: QtSql/QSqlQuery-__init__-f-3.rst
+        :description: QtSql/QSqlQuery-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.addBindValue
         :args:
@@ -46,10 +46,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.bindValue
         :args:
-            str
+            Optional[str]
             Any
             type: :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag` = :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag.In`
-        :description: QtSql/QSqlQuery-bindValue-f-2.rst
+        :description: QtSql/QSqlQuery-bindValue-f-4.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.bindValue
         :args:
@@ -60,10 +60,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValue
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtSql/QSqlQuery-boundValue-f.rst
+        :description: QtSql/QSqlQuery-boundValue-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValue
         :args:
@@ -71,6 +71,18 @@
         :returns:
             Any
         :description: QtSql/QSqlQuery-boundValue-f-1.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValueName
+        :args:
+            int
+        :returns:
+            str
+        :description: QtSql/QSqlQuery-boundValueName-f.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValueNames
+        :returns:
+            List[str]
+        :description: QtSql/QSqlQuery-boundValueNames-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValues
         :returns:
@@ -92,10 +104,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.exec
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtSql/QSqlQuery-exec-f-1.rst
+        :description: QtSql/QSqlQuery-exec-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.execBatch
         :args:
@@ -136,10 +148,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isNull
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtSql/QSqlQuery-isNull-f-1.rst
+        :description: QtSql/QSqlQuery-isNull-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isSelect
         :returns:
@@ -193,10 +205,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.prepare
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtSql/QSqlQuery-prepare-f.rst
+        :description: QtSql/QSqlQuery-prepare-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.previous
         :returns:
@@ -250,7 +262,7 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.value
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtSql/QSqlQuery-value-f-1.rst
+        :description: QtSql/QSqlQuery-value-f-2.rst

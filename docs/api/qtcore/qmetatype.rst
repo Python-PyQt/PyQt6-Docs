@@ -435,3 +435,8 @@
         :returns:
             int
         :description: QtCore/QMetaType-sizeOf-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaType.underlyingType
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMetaType`
+        :description: QtCore/QMetaType-underlyingType-f.rst

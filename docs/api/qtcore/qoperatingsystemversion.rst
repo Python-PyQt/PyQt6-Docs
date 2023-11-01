@@ -166,6 +166,12 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-MacOSSierra-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSSonoma
+        :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-MacOSSonoma-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QOperatingSystemVersion.MacOSVentura
         :type: :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersionBase`
         :const:

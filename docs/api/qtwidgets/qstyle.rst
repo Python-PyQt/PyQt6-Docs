@@ -1779,9 +1779,9 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             bool
-            str
+            Optional[str]
             textRole: :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole` = :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.NoRole`
-        :description: QtWidgets/QStyle-drawItemText-f.rst
+        :description: QtWidgets/QStyle-drawItemText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.drawPrimitive
         :args:
@@ -1825,10 +1825,10 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             int
             bool
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QStyle-itemTextRect-f.rst
+        :description: QtWidgets/QStyle-itemTextRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.layoutSpacing
         :args:

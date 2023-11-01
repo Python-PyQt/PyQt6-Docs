@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QCborStreamReader-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QCborStreamReader-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.__init__
         :args:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.addData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QCborStreamReader-addData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QCborStreamReader-addData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.clear
         :description: QtCore/QCborStreamReader-clear-f.rst

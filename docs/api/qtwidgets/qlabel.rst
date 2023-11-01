@@ -12,10 +12,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
-        :description: QtWidgets/QLabel-__init__-f-3.rst
+        :description: QtWidgets/QLabel-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.alignment
         :returns:
@@ -224,8 +224,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setText
         :args:
-            str
-        :description: QtWidgets/QLabel-setText-f.rst
+            Optional[str]
+        :description: QtWidgets/QLabel-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLabel.setTextFormat
         :args:
@@ -269,10 +269,10 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QLabel.linkActivated
         :args:
-            str
-        :description: QtWidgets/QLabel-linkActivated-s.rst
+            Optional[str]
+        :description: QtWidgets/QLabel-linkActivated-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QLabel.linkHovered
         :args:
-            str
-        :description: QtWidgets/QLabel-linkHovered-s.rst
+            Optional[str]
+        :description: QtWidgets/QLabel-linkHovered-s-1.rst

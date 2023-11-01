@@ -21,7 +21,7 @@
         :description: QtWidgets/QStyleOptionTitleBar-icon-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTitleBar.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionTitleBar-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTitleBar.titleBarFlags

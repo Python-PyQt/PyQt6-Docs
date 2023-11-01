@@ -108,8 +108,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractBarSeries.setLabelsFormat
         :args:
-            str
-        :description: QtCharts/QAbstractBarSeries-setLabelsFormat-f.rst
+            Optional[str]
+        :description: QtCharts/QAbstractBarSeries-setLabelsFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractBarSeries.setLabelsPosition
         :args:
@@ -172,8 +172,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractBarSeries.labelsFormatChanged
         :args:
-            str
-        :description: QtCharts/QAbstractBarSeries-labelsFormatChanged-s.rst
+            Optional[str]
+        :description: QtCharts/QAbstractBarSeries-labelsFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractBarSeries.labelsPositionChanged
         :args:

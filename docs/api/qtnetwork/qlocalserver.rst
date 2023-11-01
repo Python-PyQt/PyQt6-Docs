@@ -57,10 +57,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.listen
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtNetwork/QLocalServer-listen-f.rst
+        :description: QtNetwork/QLocalServer-listen-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.listen
         :args:
@@ -86,11 +86,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.removeServer
         :args:
-            str
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtNetwork/QLocalServer-removeServer-f.rst
+        :description: QtNetwork/QLocalServer-removeServer-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.serverError
         :returns:

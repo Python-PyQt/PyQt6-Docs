@@ -658,8 +658,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setState
         :args:
-            str
-        :description: QtQuick/QQuickItem-setState-f.rst
+            Optional[str]
+        :description: QtQuick/QQuickItem-setState-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setTransformOrigin
         :args:
@@ -873,8 +873,8 @@
 
     .. sip:signal:: PyQt6.QtQuick.QQuickItem.stateChanged
         :args:
-            str
-        :description: QtQuick/QQuickItem-stateChanged-s.rst
+            Optional[str]
+        :description: QtQuick/QQuickItem-stateChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtQuick.QQuickItem.transformOriginChanged
         :args:

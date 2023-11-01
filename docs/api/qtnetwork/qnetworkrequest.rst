@@ -221,10 +221,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.hasRawHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtNetwork/QNetworkRequest-hasRawHeader-f.rst
+        :description: QtNetwork/QNetworkRequest-hasRawHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.header
         :args:
@@ -272,10 +272,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.rawHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QNetworkRequest-rawHeader-f.rst
+        :description: QtNetwork/QNetworkRequest-rawHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.rawHeaderList
         :returns:
@@ -321,8 +321,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setPeerVerifyName
         :args:
-            str
-        :description: QtNetwork/QNetworkRequest-setPeerVerifyName-f.rst
+            Optional[str]
+        :description: QtNetwork/QNetworkRequest-setPeerVerifyName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setPriority
         :args:
@@ -331,9 +331,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setRawHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QNetworkRequest-setRawHeader-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QNetworkRequest-setRawHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setSslConfiguration
         :args:

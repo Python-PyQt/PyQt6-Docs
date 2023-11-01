@@ -19,10 +19,10 @@
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.addRow
         :args:
             Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtDataVisualization/QBarDataProxy-addRow-f-1.rst
+        :description: QtDataVisualization/QBarDataProxy-addRow-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.addRows
         :args:
@@ -34,10 +34,10 @@
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.addRows
         :args:
             Iterable[Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
-            Iterable[str]
+            Iterable[Optional[str]]
         :returns:
             int
-        :description: QtDataVisualization/QBarDataProxy-addRows-f-1.rst
+        :description: QtDataVisualization/QBarDataProxy-addRows-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.array
         :returns:
@@ -59,8 +59,8 @@
         :args:
             int
             Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]
-            str
-        :description: QtDataVisualization/QBarDataProxy-insertRow-f-1.rst
+            Optional[str]
+        :description: QtDataVisualization/QBarDataProxy-insertRow-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.insertRows
         :args:
@@ -72,8 +72,8 @@
         :args:
             int
             Iterable[Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
-            Iterable[str]
-        :description: QtDataVisualization/QBarDataProxy-insertRows-f-1.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QBarDataProxy-insertRows-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.itemAt
         :args:
@@ -108,9 +108,9 @@
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.resetArray
         :args:
             Iterable[Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
-            Iterable[str]
-            Iterable[str]
-        :description: QtDataVisualization/QBarDataProxy-resetArray-f-2.rst
+            Iterable[Optional[str]]
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QBarDataProxy-resetArray-f-3.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.rowAt
         :args:
@@ -136,8 +136,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.setColumnLabels
         :args:
-            Iterable[str]
-        :description: QtDataVisualization/QBarDataProxy-setColumnLabels-f.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QBarDataProxy-setColumnLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.setItem
         :args:
@@ -162,13 +162,13 @@
         :args:
             int
             Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]
-            str
-        :description: QtDataVisualization/QBarDataProxy-setRow-f-1.rst
+            Optional[str]
+        :description: QtDataVisualization/QBarDataProxy-setRow-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.setRowLabels
         :args:
-            Iterable[str]
-        :description: QtDataVisualization/QBarDataProxy-setRowLabels-f.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QBarDataProxy-setRowLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.setRows
         :args:
@@ -180,8 +180,8 @@
         :args:
             int
             Iterable[Iterable[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
-            Iterable[str]
-        :description: QtDataVisualization/QBarDataProxy-setRows-f-1.rst
+            Iterable[Optional[str]]
+        :description: QtDataVisualization/QBarDataProxy-setRows-f-2.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QBarDataProxy.arrayReset
         :description: QtDataVisualization/QBarDataProxy-arrayReset-s.rst

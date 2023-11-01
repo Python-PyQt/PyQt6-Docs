@@ -27,14 +27,14 @@
     .. sip:method:: PyQt6.QtGui.QImageReader.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtGui/QImageReader-__init__-f-1.rst
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtGui/QImageReader-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.__init__
         :args:
-            str
-            format: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtGui/QImageReader-__init__-f-2.rst
+            Optional[str]
+            format: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtGui/QImageReader-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.allocationLimit
         :returns:
@@ -119,11 +119,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.imageFormat
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtGui/QImageReader-imageFormat-f-1.rst
+        :description: QtGui/QImageReader-imageFormat-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.imageFormat
         :args:
@@ -135,11 +135,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.imageFormatsForMimeType
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageReader-imageFormatsForMimeType-f.rst
+        :description: QtGui/QImageReader-imageFormatsForMimeType-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.jumpToImage
         :args:
@@ -228,13 +228,13 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.setFileName
         :args:
-            str
-        :description: QtGui/QImageReader-setFileName-f.rst
+            Optional[str]
+        :description: QtGui/QImageReader-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.setFormat
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QImageReader-setFormat-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QImageReader-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.setQuality
         :args:
@@ -292,10 +292,10 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.text
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtGui/QImageReader-text-f.rst
+        :description: QtGui/QImageReader-text-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.textKeys
         :returns:

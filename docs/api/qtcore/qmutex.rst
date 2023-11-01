@@ -16,6 +16,13 @@
 
     .. sip:method:: PyQt6.QtCore.QMutex.tryLock
         :args:
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :returns:
+            bool
+        :description: QtCore/QMutex-tryLock-f-2.rst
+
+    .. sip:method:: PyQt6.QtCore.QMutex.tryLock
+        :args:
             int
         :returns:
             bool

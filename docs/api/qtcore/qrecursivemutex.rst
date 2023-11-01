@@ -11,6 +11,13 @@
 
     .. sip:method:: PyQt6.QtCore.QRecursiveMutex.tryLock
         :args:
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :returns:
+            bool
+        :description: QtCore/QRecursiveMutex-tryLock-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QRecursiveMutex.tryLock
+        :args:
             timeout: int = 0
         :returns:
             bool

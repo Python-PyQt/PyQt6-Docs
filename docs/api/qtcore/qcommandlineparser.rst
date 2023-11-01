@@ -45,10 +45,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.addPositionalArgument
         :args:
-            str
-            str
-            syntax: str = ''
-        :description: QtCore/QCommandLineParser-addPositionalArgument-f.rst
+            Optional[str]
+            Optional[str]
+            syntax: Optional[str] = ''
+        :description: QtCore/QCommandLineParser-addPositionalArgument-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.addVersionOption
         :returns:
@@ -75,10 +75,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.isSet
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QCommandLineParser-isSet-f.rst
+        :description: QtCore/QCommandLineParser-isSet-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.isSet
         :args:
@@ -94,10 +94,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.parse
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :returns:
             bool
-        :description: QtCore/QCommandLineParser-parse-f.rst
+        :description: QtCore/QCommandLineParser-parse-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.positionalArguments
         :returns:
@@ -106,8 +106,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.process
         :args:
-            Iterable[str]
-        :description: QtCore/QCommandLineParser-process-f.rst
+            Iterable[Optional[str]]
+        :description: QtCore/QCommandLineParser-process-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.process
         :args:
@@ -116,8 +116,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.setApplicationDescription
         :args:
-            str
-        :description: QtCore/QCommandLineParser-setApplicationDescription-f.rst
+            Optional[str]
+        :description: QtCore/QCommandLineParser-setApplicationDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.setOptionsAfterPositionalArgumentsMode
         :args:
@@ -144,10 +144,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.value
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QCommandLineParser-value-f.rst
+        :description: QtCore/QCommandLineParser-value-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.value
         :args:
@@ -158,10 +158,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.values
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
-        :description: QtCore/QCommandLineParser-values-f.rst
+        :description: QtCore/QCommandLineParser-values-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.values
         :args:

@@ -25,10 +25,10 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMimeType`
-        :description: QtCore/QMimeDatabase-mimeTypeForData-f.rst
+        :description: QtCore/QMimeDatabase-mimeTypeForData-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForData
         :args:
@@ -39,11 +39,11 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForFile
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QMimeDatabase.MatchMode` = :sip:ref:`~PyQt6.QtCore.QMimeDatabase.MatchMode.MatchDefault`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMimeType`
-        :description: QtCore/QMimeDatabase-mimeTypeForFile-f.rst
+        :description: QtCore/QMimeDatabase-mimeTypeForFile-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForFile
         :args:
@@ -55,26 +55,26 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForFileNameAndData
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QIODevice`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMimeType`
-        :description: QtCore/QMimeDatabase-mimeTypeForFileNameAndData-f.rst
+        :description: QtCore/QMimeDatabase-mimeTypeForFileNameAndData-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForFileNameAndData
         :args:
-            str
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMimeType`
-        :description: QtCore/QMimeDatabase-mimeTypeForFileNameAndData-f-1.rst
+        :description: QtCore/QMimeDatabase-mimeTypeForFileNameAndData-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForName
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMimeType`
-        :description: QtCore/QMimeDatabase-mimeTypeForName-f.rst
+        :description: QtCore/QMimeDatabase-mimeTypeForName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForUrl
         :args:
@@ -85,14 +85,14 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypesForFileName
         :args:
-            str
+            Optional[str]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QMimeType`]
-        :description: QtCore/QMimeDatabase-mimeTypesForFileName-f.rst
+        :description: QtCore/QMimeDatabase-mimeTypesForFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.suffixForFileName
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QMimeDatabase-suffixForFileName-f.rst
+        :description: QtCore/QMimeDatabase-suffixForFileName-f-1.rst

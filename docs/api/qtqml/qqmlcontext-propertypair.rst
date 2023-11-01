@@ -4,7 +4,7 @@
     :description: QtQml/QQmlContext-PropertyPair-c.rst
 
     .. sip:attribute:: PyQt6.QtQml.QQmlContext.PropertyPair.name
-        :type: str
+        :type: Optional[str]
         :description: QtQml/QQmlContext-PropertyPair-name-a.rst
 
     .. sip:attribute:: PyQt6.QtQml.QQmlContext.PropertyPair.value

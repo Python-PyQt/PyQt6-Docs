@@ -11,15 +11,15 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectAbstractPersistedStore.restoreProperties
         :args:
-            str
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             List[Any]
-        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-restoreProperties-f.rst
+        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-restoreProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectAbstractPersistedStore.saveProperties
         :args:
-            str
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             Iterable[Any]
-        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-saveProperties-f.rst
+        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-saveProperties-f-1.rst

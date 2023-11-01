@@ -260,9 +260,9 @@
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__init__
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat` = :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat.NativeText`
-        :description: QtGui/QKeySequence-__init__-f-4.rst
+        :description: QtGui/QKeySequence-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__init__
         :args:
@@ -287,26 +287,26 @@
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__eq__-f.rst
+        :description: QtGui/QKeySequence-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.fromString
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat` = :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat.PortableText`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QKeySequence`
         :static:
-        :description: QtGui/QKeySequence-fromString-f.rst
+        :description: QtGui/QKeySequence-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__ge__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__ge__-f.rst
+        :description: QtGui/QKeySequence-__ge__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__getitem__
         :args:
@@ -317,10 +317,10 @@
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__gt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__gt__-f.rst
+        :description: QtGui/QKeySequence-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__hash__
         :returns:
@@ -347,10 +347,10 @@
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__le__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__le__-f.rst
+        :description: QtGui/QKeySequence-__le__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__len__
         :returns:
@@ -359,50 +359,50 @@
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.listFromString
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat` = :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat.PortableText`
         :returns:
             List[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
         :static:
-        :description: QtGui/QKeySequence-listFromString-f.rst
+        :description: QtGui/QKeySequence-listFromString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.listToString
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]]
+            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]]
             format: :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat` = :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat.PortableText`
         :returns:
             str
         :static:
-        :description: QtGui/QKeySequence-listToString-f.rst
+        :description: QtGui/QKeySequence-listToString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__lt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__lt__-f.rst
+        :description: QtGui/QKeySequence-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.matches
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceMatch`
-        :description: QtGui/QKeySequence-matches-f.rst
+        :description: QtGui/QKeySequence-matches-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.mnemonic
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QKeySequence`
         :static:
-        :description: QtGui/QKeySequence-mnemonic-f.rst
+        :description: QtGui/QKeySequence-mnemonic-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :returns:
             bool
-        :description: QtGui/QKeySequence-__ne__-f.rst
+        :description: QtGui/QKeySequence-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.swap
         :args:

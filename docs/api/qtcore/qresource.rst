@@ -17,9 +17,9 @@
 
     .. sip:method:: PyQt6.QtCore.QResource.__init__
         :args:
-            fileName: str = ''
+            fileName: Optional[str] = ''
             locale: :sip:ref:`~PyQt6.QtCore.QLocale` = QLocale()
-        :description: QtCore/QResource-__init__-f.rst
+        :description: QtCore/QResource-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.absoluteFilePath
         :returns:
@@ -73,26 +73,26 @@
 
     .. sip:method:: PyQt6.QtCore.QResource.registerResource
         :args:
-            str
-            mapRoot: str = ''
+            Optional[str]
+            mapRoot: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtCore/QResource-registerResource-f.rst
+        :description: QtCore/QResource-registerResource-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.registerResourceData
         :args:
             bytes
-            mapRoot: str = ''
+            mapRoot: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtCore/QResource-registerResourceData-f.rst
+        :description: QtCore/QResource-registerResourceData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.setFileName
         :args:
-            str
-        :description: QtCore/QResource-setFileName-f.rst
+            Optional[str]
+        :description: QtCore/QResource-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.setLocale
         :args:
@@ -116,18 +116,18 @@
 
     .. sip:method:: PyQt6.QtCore.QResource.unregisterResource
         :args:
-            str
-            mapRoot: str = ''
+            Optional[str]
+            mapRoot: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtCore/QResource-unregisterResource-f.rst
+        :description: QtCore/QResource-unregisterResource-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.unregisterResourceData
         :args:
             bytes
-            mapRoot: str = ''
+            mapRoot: Optional[str] = ''
         :returns:
             bool
         :static:
-        :description: QtCore/QResource-unregisterResourceData-f.rst
+        :description: QtCore/QResource-unregisterResourceData-f-1.rst

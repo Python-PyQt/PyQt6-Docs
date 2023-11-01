@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSet.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QCandlestickSet-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QCandlestickSet-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSet.setClose
         :args:
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSet.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QCandlestickSet-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QCandlestickSet-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSet.setTimestamp
         :args:

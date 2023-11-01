@@ -23,8 +23,8 @@
 
     .. sip:method:: PyQt6.QtGui.QBrush.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QBrush-__init__-f-8.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtGui/QBrush-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtGui.QBrush.__init__
         :args:
@@ -50,10 +50,10 @@
 
     .. sip:method:: PyQt6.QtGui.QBrush.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
         :returns:
             bool
-        :description: QtGui/QBrush-__eq__-f-1.rst
+        :description: QtGui/QBrush-__eq__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QBrush.gradient
         :returns:
@@ -67,10 +67,10 @@
 
     .. sip:method:: PyQt6.QtGui.QBrush.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
         :returns:
             bool
-        :description: QtGui/QBrush-__ne__-f-1.rst
+        :description: QtGui/QBrush-__ne__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QBrush.setColor
         :args:

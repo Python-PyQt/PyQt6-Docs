@@ -30,6 +30,11 @@
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
         :description: QtPdfWidgets/QPdfView-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.currentSearchResultIndex
+        :returns:
+            int
+        :description: QtPdfWidgets/QPdfView-currentSearchResultIndex-f.rst
+
     .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.document
         :returns:
             :sip:ref:`~PyQt6.QtPdf.QPdfDocument`
@@ -39,6 +44,21 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMargins`
         :description: QtPdfWidgets/QPdfView-documentMargins-f.rst
+
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.mouseMoveEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QMouseEvent`
+        :description: QtPdfWidgets/QPdfView-mouseMoveEvent-f.rst
+
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.mousePressEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QMouseEvent`
+        :description: QtPdfWidgets/QPdfView-mousePressEvent-f.rst
+
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.mouseReleaseEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QMouseEvent`
+        :description: QtPdfWidgets/QPdfView-mouseReleaseEvent-f.rst
 
     .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.pageMode
         :returns:
@@ -71,6 +91,16 @@
             int
         :description: QtPdfWidgets/QPdfView-scrollContentsBy-f.rst
 
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.searchModel
+        :returns:
+            :sip:ref:`~PyQt6.QtPdf.QPdfSearchModel`
+        :description: QtPdfWidgets/QPdfView-searchModel-f.rst
+
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.setCurrentSearchResultIndex
+        :args:
+            int
+        :description: QtPdfWidgets/QPdfView-setCurrentSearchResultIndex-f.rst
+
     .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.setDocument
         :args:
             :sip:ref:`~PyQt6.QtPdf.QPdfDocument`
@@ -90,6 +120,11 @@
         :args:
             int
         :description: QtPdfWidgets/QPdfView-setPageSpacing-f.rst
+
+    .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.setSearchModel
+        :args:
+            :sip:ref:`~PyQt6.QtPdf.QPdfSearchModel`
+        :description: QtPdfWidgets/QPdfView-setSearchModel-f.rst
 
     .. sip:method:: PyQt6.QtPdfWidgets.QPdfView.setZoomFactor
         :args:
@@ -111,6 +146,11 @@
             :sip:ref:`~PyQt6.QtPdfWidgets.QPdfView.ZoomMode`
         :description: QtPdfWidgets/QPdfView-zoomMode-f.rst
 
+    .. sip:signal:: PyQt6.QtPdfWidgets.QPdfView.currentSearchResultIndexChanged
+        :args:
+            int
+        :description: QtPdfWidgets/QPdfView-currentSearchResultIndexChanged-s.rst
+
     .. sip:signal:: PyQt6.QtPdfWidgets.QPdfView.documentChanged
         :args:
             :sip:ref:`~PyQt6.QtPdf.QPdfDocument`
@@ -130,6 +170,11 @@
         :args:
             int
         :description: QtPdfWidgets/QPdfView-pageSpacingChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtPdfWidgets.QPdfView.searchModelChanged
+        :args:
+            :sip:ref:`~PyQt6.QtPdf.QPdfSearchModel`
+        :description: QtPdfWidgets/QPdfView-searchModelChanged-s.rst
 
     .. sip:signal:: PyQt6.QtPdfWidgets.QPdfView.zoomFactorChanged
         :args:

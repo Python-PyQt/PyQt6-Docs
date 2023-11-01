@@ -63,10 +63,10 @@
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServer.listen
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
-            serviceName: str = ''
+            serviceName: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothServiceInfo`
-        :description: QtBluetooth/QBluetoothServer-listen-f-1.rst
+        :description: QtBluetooth/QBluetoothServer-listen-f-2.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServer.maxPendingConnections
         :returns:

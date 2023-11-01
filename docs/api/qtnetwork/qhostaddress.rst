@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
-            str
-        :description: QtNetwork/QHostAddress-__init__-f-3.rst
+            Optional[str]
+        :description: QtNetwork/QHostAddress-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
@@ -151,6 +151,11 @@
             bool
         :description: QtNetwork/QHostAddress-isNull-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QHostAddress.isPrivateUse
+        :returns:
+            bool
+        :description: QtNetwork/QHostAddress-isPrivateUse-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isSiteLocal
         :returns:
             bool
@@ -177,11 +182,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.parseSubnet
         :args:
-            str
+            Optional[str]
         :returns:
             Tuple[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, int]
         :static:
-        :description: QtNetwork/QHostAddress-parseSubnet-f.rst
+        :description: QtNetwork/QHostAddress-parseSubnet-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.protocol
         :returns:
@@ -205,10 +210,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setAddress
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-setAddress-f-2.rst
+        :description: QtNetwork/QHostAddress-setAddress-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setAddress
         :args:
@@ -217,8 +222,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setScopeId
         :args:
-            str
-        :description: QtNetwork/QHostAddress-setScopeId-f.rst
+            Optional[str]
+        :description: QtNetwork/QHostAddress-setScopeId-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.swap
         :args:

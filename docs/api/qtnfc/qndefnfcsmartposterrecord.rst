@@ -44,9 +44,9 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.addIcon
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNfc/QNdefNfcSmartPosterRecord-addIcon-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNfc/QNdefNfcSmartPosterRecord-addIcon-f-2.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.addTitle
         :args:
@@ -57,12 +57,12 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.addTitle
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             :sip:ref:`~PyQt6.QtNfc.QNdefNfcTextRecord.Encoding`
         :returns:
             bool
-        :description: QtNfc/QNdefNfcSmartPosterRecord-addTitle-f-1.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-addTitle-f-2.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.hasAction
         :returns:
@@ -71,10 +71,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.hasIcon
         :args:
-            mimetype: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
+            mimetype: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
         :returns:
             bool
-        :description: QtNfc/QNdefNfcSmartPosterRecord-hasIcon-f.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-hasIcon-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.hasSize
         :returns:
@@ -83,10 +83,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.hasTitle
         :args:
-            locale: str = ''
+            locale: Optional[str] = ''
         :returns:
             bool
-        :description: QtNfc/QNdefNfcSmartPosterRecord-hasTitle-f.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-hasTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.hasTypeInfo
         :returns:
@@ -95,10 +95,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.icon
         :args:
-            mimetype: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
+            mimetype: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNfc/QNdefNfcSmartPosterRecord-icon-f.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-icon-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.iconCount
         :returns:
@@ -126,10 +126,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.removeIcon
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtNfc/QNdefNfcSmartPosterRecord-removeIcon-f-1.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-removeIcon-f-2.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.removeTitle
         :args:
@@ -140,10 +140,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.removeTitle
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtNfc/QNdefNfcSmartPosterRecord-removeTitle-f-1.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-removeTitle-f-2.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.setAction
         :args:
@@ -157,8 +157,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.setPayload
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNfc/QNdefNfcSmartPosterRecord-setPayload-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNfc/QNdefNfcSmartPosterRecord-setPayload-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.setSize
         :args:
@@ -172,8 +172,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.setTypeInfo
         :args:
-            str
-        :description: QtNfc/QNdefNfcSmartPosterRecord-setTypeInfo-f.rst
+            Optional[str]
+        :description: QtNfc/QNdefNfcSmartPosterRecord-setTypeInfo-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.setUri
         :args:
@@ -192,10 +192,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.title
         :args:
-            locale: str = ''
+            locale: Optional[str] = ''
         :returns:
             str
-        :description: QtNfc/QNdefNfcSmartPosterRecord-title-f.rst
+        :description: QtNfc/QNdefNfcSmartPosterRecord-title-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.titleCount
         :returns:

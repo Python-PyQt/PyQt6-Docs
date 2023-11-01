@@ -34,19 +34,19 @@
             :description: QtBluetooth/QLowEnergyCharacteristic-PropertyType-WriteSigned-v.rst
 
     .. sip:attribute:: PyQt6.QtBluetooth.QLowEnergyCharacteristic.CCCDDisable
-        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :const:
         :static:
         :description: QtBluetooth/QLowEnergyCharacteristic-CCCDDisable-a.rst
 
     .. sip:attribute:: PyQt6.QtBluetooth.QLowEnergyCharacteristic.CCCDEnableIndication
-        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :const:
         :static:
         :description: QtBluetooth/QLowEnergyCharacteristic-CCCDEnableIndication-a.rst
 
     .. sip:attribute:: PyQt6.QtBluetooth.QLowEnergyCharacteristic.CCCDEnableNotification
-        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :const:
         :static:
         :description: QtBluetooth/QLowEnergyCharacteristic-CCCDEnableNotification-a.rst

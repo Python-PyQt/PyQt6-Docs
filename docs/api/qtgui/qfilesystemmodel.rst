@@ -144,11 +144,11 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.index
         :args:
-            str
+            Optional[str]
             column: int = 0
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtGui/QFileSystemModel-index-f.rst
+        :description: QtGui/QFileSystemModel-index-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.index
         :args:
@@ -178,6 +178,14 @@
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtGui/QFileSystemModel-lastModified-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFileSystemModel.lastModified
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtGui/QFileSystemModel-lastModified-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.mimeData
         :args:
             Iterable[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
@@ -193,10 +201,10 @@
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.mkdir
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtGui/QFileSystemModel-mkdir-f.rst
+        :description: QtGui/QFileSystemModel-mkdir-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.myComputer
         :args:
@@ -301,8 +309,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setNameFilters
         :args:
-            Iterable[str]
-        :description: QtGui/QFileSystemModel-setNameFilters-f.rst
+            Iterable[Optional[str]]
+        :description: QtGui/QFileSystemModel-setNameFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setOption
         :args:
@@ -327,10 +335,10 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.setRootPath
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtGui/QFileSystemModel-setRootPath-f.rst
+        :description: QtGui/QFileSystemModel-setRootPath-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.sibling
         :args:
@@ -380,17 +388,17 @@
 
     .. sip:signal:: PyQt6.QtGui.QFileSystemModel.directoryLoaded
         :args:
-            str
-        :description: QtGui/QFileSystemModel-directoryLoaded-s.rst
+            Optional[str]
+        :description: QtGui/QFileSystemModel-directoryLoaded-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QFileSystemModel.fileRenamed
         :args:
-            str
-            str
-            str
-        :description: QtGui/QFileSystemModel-fileRenamed-s.rst
+            Optional[str]
+            Optional[str]
+            Optional[str]
+        :description: QtGui/QFileSystemModel-fileRenamed-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QFileSystemModel.rootPathChanged
         :args:
-            str
-        :description: QtGui/QFileSystemModel-rootPathChanged-s.rst
+            Optional[str]
+        :description: QtGui/QFileSystemModel-rootPathChanged-s-1.rst

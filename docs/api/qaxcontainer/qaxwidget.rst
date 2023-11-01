@@ -12,10 +12,10 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
-        :description: QAxContainer/QAxWidget-__init__-f-1.rst
+        :description: QAxContainer/QAxWidget-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.changeEvent
         :args:
@@ -50,17 +50,17 @@
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.createHostWindow
         :args:
             bool
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QAxContainer/QAxWidget-createHostWindow-f-1.rst
+        :description: QAxContainer/QAxWidget-createHostWindow-f-2.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.doVerb
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QAxContainer/QAxWidget-doVerb-f.rst
+        :description: QAxContainer/QAxWidget-doVerb-f-1.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.minimumSizeHint
         :returns:
@@ -82,10 +82,10 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.setControl
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QAxContainer/QAxWidget-setControl-f.rst
+        :description: QAxContainer/QAxWidget-setControl-f-1.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxWidget.sizeHint
         :returns:

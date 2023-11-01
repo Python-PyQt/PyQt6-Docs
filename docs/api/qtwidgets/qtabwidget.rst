@@ -36,19 +36,19 @@
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.addTab
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabWidget-addTab-f.rst
+        :description: QtWidgets/QTabWidget-addTab-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.addTab
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabWidget-addTab-f-1.rst
+        :description: QtWidgets/QTabWidget-addTab-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.changeEvent
         :args:
@@ -130,20 +130,20 @@
         :args:
             int
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabWidget-insertTab-f.rst
+        :description: QtWidgets/QTabWidget-insertTab-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.insertTab
         :args:
             int
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabWidget-insertTab-f-1.rst
+        :description: QtWidgets/QTabWidget-insertTab-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.isMovable
         :returns:
@@ -270,14 +270,14 @@
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.setTabText
         :args:
             int
-            str
-        :description: QtWidgets/QTabWidget-setTabText-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabWidget-setTabText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.setTabToolTip
         :args:
             int
-            str
-        :description: QtWidgets/QTabWidget-setTabToolTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabWidget-setTabToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.setTabVisible
         :args:
@@ -288,8 +288,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.setTabWhatsThis
         :args:
             int
-            str
-        :description: QtWidgets/QTabWidget-setTabWhatsThis-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabWidget-setTabWhatsThis-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabWidget.setUsesScrollButtons
         :args:

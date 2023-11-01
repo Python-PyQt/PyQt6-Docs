@@ -59,10 +59,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.fieldIndex
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtSql/QSqlTableModel-fieldIndex-f.rst
+        :description: QtSql/QSqlTableModel-fieldIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.filter
         :returns:
@@ -226,8 +226,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.setFilter
         :args:
-            str
-        :description: QtSql/QSqlTableModel-setFilter-f.rst
+            Optional[str]
+        :description: QtSql/QSqlTableModel-setFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.setPrimaryKey
         :args:
@@ -250,8 +250,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.setTable
         :args:
-            str
-        :description: QtSql/QSqlTableModel-setTable-f.rst
+            Optional[str]
+        :description: QtSql/QSqlTableModel-setTable-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlTableModel.sort
         :args:

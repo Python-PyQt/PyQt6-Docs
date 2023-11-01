@@ -68,13 +68,13 @@
 
     .. sip:method:: PyQt6.QtCore.QTypeRevision.majorVersion
         :returns:
-            bytes
-        :description: QtCore/QTypeRevision-majorVersion-f-1.rst
+            int
+        :description: QtCore/QTypeRevision-majorVersion-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTypeRevision.minorVersion
         :returns:
-            bytes
-        :description: QtCore/QTypeRevision-minorVersion-f-1.rst
+            int
+        :description: QtCore/QTypeRevision-minorVersion-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTypeRevision.__ne__
         :args:

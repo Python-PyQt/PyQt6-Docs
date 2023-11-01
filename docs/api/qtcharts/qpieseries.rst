@@ -25,11 +25,11 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSeries.append
         :args:
-            str
+            Optional[str]
             float
         :returns:
             :sip:ref:`~PyQt6.QtCharts.QPieSlice`
-        :description: QtCharts/QPieSeries-append-f-2.rst
+        :description: QtCharts/QPieSeries-append-f-3.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSeries.clear
         :description: QtCharts/QPieSeries-clear-f.rst

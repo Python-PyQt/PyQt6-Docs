@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QRadioButton.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QRadioButton-__init__-f-1.rst
+        :description: QtWidgets/QRadioButton-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QRadioButton.event
         :args:

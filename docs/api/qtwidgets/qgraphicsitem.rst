@@ -1245,8 +1245,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setToolTip
         :args:
-            str
-        :description: QtWidgets/QGraphicsItem-setToolTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QGraphicsItem-setToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setTransform
         :args:

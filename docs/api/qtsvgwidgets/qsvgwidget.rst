@@ -11,19 +11,19 @@
 
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtSvgWidgets/QSvgWidget-__init__-f-1.rst
+        :description: QtSvgWidgets/QSvgWidget-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.load
         :args:
-            str
-        :description: QtSvgWidgets/QSvgWidget-load-f.rst
+            Optional[str]
+        :description: QtSvgWidgets/QSvgWidget-load-f-2.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.load
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtSvgWidgets/QSvgWidget-load-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtSvgWidgets/QSvgWidget-load-f-3.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.paintEvent
         :args:

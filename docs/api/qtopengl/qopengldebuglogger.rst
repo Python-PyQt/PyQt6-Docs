@@ -81,10 +81,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.pushGroup
         :args:
-            str
+            Optional[str]
             id: int = 0
             source: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.ApplicationSource`
-        :description: QtOpenGL/QOpenGLDebugLogger-pushGroup-f-1.rst
+        :description: QtOpenGL/QOpenGLDebugLogger-pushGroup-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.startLogging
         :args:

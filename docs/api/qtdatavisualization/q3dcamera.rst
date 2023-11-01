@@ -111,8 +111,8 @@
         :args:
             float
             float
-            zoom: float = 100.0
-        :description: QtDataVisualization/Q3DCamera-setCameraPosition-f-1.rst
+            zoom: float = 100
+        :description: QtDataVisualization/Q3DCamera-setCameraPosition-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DCamera.setCameraPreset
         :args:

@@ -294,8 +294,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setFilterFixedString
         :args:
-            str
-        :description: QtCore/QSortFilterProxyModel-setFilterFixedString-f.rst
+            Optional[str]
+        :description: QtCore/QSortFilterProxyModel-setFilterFixedString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setFilterKeyColumn
         :args:
@@ -309,8 +309,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setFilterRegularExpression
         :args:
-            str
-        :description: QtCore/QSortFilterProxyModel-setFilterRegularExpression-f-1.rst
+            Optional[str]
+        :description: QtCore/QSortFilterProxyModel-setFilterRegularExpression-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setFilterRole
         :args:
@@ -319,8 +319,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setFilterWildcard
         :args:
-            str
-        :description: QtCore/QSortFilterProxyModel-setFilterWildcard-f.rst
+            Optional[str]
+        :description: QtCore/QSortFilterProxyModel-setFilterWildcard-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.setHeaderData
         :args:

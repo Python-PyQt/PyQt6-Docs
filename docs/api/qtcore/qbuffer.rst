@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.QtCore.QBuffer.setData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QBuffer-setData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QBuffer-setData-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QBuffer.setData
         :args:

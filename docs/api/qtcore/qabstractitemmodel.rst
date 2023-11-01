@@ -365,6 +365,12 @@
             bool
         :description: QtCore/QAbstractItemModel-moveRows-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QAbstractItemModel.multiData
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+            :sip:ref:`~PyQt6.QtCore.QModelRoleDataSpan`
+        :description: QtCore/QAbstractItemModel-multiData-f.rst
+
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.parent
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`

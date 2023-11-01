@@ -39,16 +39,16 @@
             :sip:ref:`~PyQt6.QtNetwork.QSslSocket`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertLevel`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertType`
-            str
-        :description: QtNetwork/QSslServer-alertReceived-s.rst
+            Optional[str]
+        :description: QtNetwork/QSslServer-alertReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QSslServer.alertSent
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSslSocket`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertLevel`
             :sip:ref:`~PyQt6.QtNetwork.QSsl.AlertType`
-            str
-        :description: QtNetwork/QSslServer-alertSent-s.rst
+            Optional[str]
+        :description: QtNetwork/QSslServer-alertSent-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QSslServer.errorOccurred
         :args:

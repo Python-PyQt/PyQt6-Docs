@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QMenu-__init__-f-1.rst
+        :description: QtWidgets/QMenu-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.actionAt
         :args:
@@ -48,33 +48,33 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.addMenu
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`
-        :description: QtWidgets/QMenu-addMenu-f-1.rst
+        :description: QtWidgets/QMenu-addMenu-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.addMenu
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`
-        :description: QtWidgets/QMenu-addMenu-f-2.rst
+        :description: QtWidgets/QMenu-addMenu-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.addSection
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addSection-f.rst
+        :description: QtWidgets/QMenu-addSection-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.addSection
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-addSection-f-1.rst
+        :description: QtWidgets/QMenu-addSection-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.addSeparator
         :returns:
@@ -172,19 +172,19 @@
     .. sip:method:: PyQt6.QtWidgets.QMenu.insertSection
         :args:
             :sip:ref:`~PyQt6.QtGui.QAction`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-insertSection-f.rst
+        :description: QtWidgets/QMenu-insertSection-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.insertSection
         :args:
             :sip:ref:`~PyQt6.QtGui.QAction`
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QMenu-insertSection-f-1.rst
+        :description: QtWidgets/QMenu-insertSection-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.insertSeparator
         :args:
@@ -297,8 +297,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.setTitle
         :args:
-            str
-        :description: QtWidgets/QMenu-setTitle-f.rst
+            Optional[str]
+        :description: QtWidgets/QMenu-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenu.setToolTipsVisible
         :args:

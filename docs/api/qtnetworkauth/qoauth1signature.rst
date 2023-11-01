@@ -36,17 +36,17 @@
         :args:
             url: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
             method: :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod` = :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod.Post`
-            parameters: unknown-type = {}
-        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-1.rst
+            parameters: Dict[Optional[str], Sequence[Any]] = {}
+        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            str
-            str
+            Optional[str]
+            Optional[str]
             method: :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod` = :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod.Post`
-            parameters: unknown-type = {}
-        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-2.rst
+            parameters: Dict[Optional[str], Sequence[Any]] = {}
+        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.addRequestBody
         :args:
@@ -75,9 +75,9 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.insert
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtNetworkAuth/QOAuth1Signature-insert-f.rst
+        :description: QtNetworkAuth/QOAuth1Signature-insert-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.keys
         :returns:
@@ -96,12 +96,12 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.plainText
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtNetworkAuth/QOAuth1Signature-plainText-f-1.rst
+        :description: QtNetworkAuth/QOAuth1Signature-plainText-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.rsaSha1
         :returns:
@@ -110,13 +110,13 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setClientSharedKey
         :args:
-            str
-        :description: QtNetworkAuth/QOAuth1Signature-setClientSharedKey-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QOAuth1Signature-setClientSharedKey-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setCustomMethodString
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetworkAuth/QOAuth1Signature-setCustomMethodString-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetworkAuth/QOAuth1Signature-setCustomMethodString-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setHttpRequestMethod
         :args:
@@ -125,13 +125,13 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setParameters
         :args:
-            unknown-type
-        :description: QtNetworkAuth/QOAuth1Signature-setParameters-f.rst
+            Dict[Optional[str], Sequence[Any]]
+        :description: QtNetworkAuth/QOAuth1Signature-setParameters-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setTokenSecret
         :args:
-            str
-        :description: QtNetworkAuth/QOAuth1Signature-setTokenSecret-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QOAuth1Signature-setTokenSecret-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setUrl
         :args:
@@ -145,10 +145,10 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.take
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtNetworkAuth/QOAuth1Signature-take-f.rst
+        :description: QtNetworkAuth/QOAuth1Signature-take-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.tokenSecret
         :returns:
@@ -162,8 +162,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.value
         :args:
-            str
+            Optional[str]
             defaultValue: Any = None
         :returns:
             Any
-        :description: QtNetworkAuth/QOAuth1Signature-value-f.rst
+        :description: QtNetworkAuth/QOAuth1Signature-value-f-1.rst

@@ -39,6 +39,18 @@
         .. sip:enum-member:: PyQt6.QtCore.QTimeZone.TimeType.StandardTime
             :description: QtCore/QTimeZone-TimeType-StandardTime-v.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QTimeZone.MaxUtcOffsetSecs
+        :type: int
+        :const:
+        :static:
+        :description: QtCore/QTimeZone-MaxUtcOffsetSecs-a.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QTimeZone.MinUtcOffsetSecs
+        :type: int
+        :const:
+        :static:
+        :description: QtCore/QTimeZone-MinUtcOffsetSecs-a.rst
+
     .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
         :description: QtCore/QTimeZone-__init__-f.rst
 
@@ -49,8 +61,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QTimeZone-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QTimeZone-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
         :args:
@@ -64,13 +76,13 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             int
-            str
-            str
+            Optional[str]
+            Optional[str]
             territory: :sip:ref:`~PyQt6.QtCore.QLocale.Country` = :sip:ref:`~PyQt6.QtCore.QLocale.Country.AnyTerritory`
-            comment: str = ''
-        :description: QtCore/QTimeZone-__init__-f-5.rst
+            comment: Optional[str] = ''
+        :description: QtCore/QTimeZone-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.abbreviation
         :args:
@@ -173,11 +185,11 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.ianaIdToWindowsId
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QTimeZone-ianaIdToWindowsId-f.rst
+        :description: QtCore/QTimeZone-ianaIdToWindowsId-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.id
         :returns:
@@ -193,11 +205,11 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.isTimeZoneIdAvailable
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
         :static:
-        :description: QtCore/QTimeZone-isTimeZoneIdAvailable-f.rst
+        :description: QtCore/QTimeZone-isTimeZoneIdAvailable-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.isUtcOrFixedOffset
         :returns:
@@ -302,34 +314,34 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.windowsIdToDefaultIanaId
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QTimeZone-windowsIdToDefaultIanaId-f.rst
+        :description: QtCore/QTimeZone-windowsIdToDefaultIanaId-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.windowsIdToDefaultIanaId
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QTimeZone-windowsIdToDefaultIanaId-f-1.rst
+        :description: QtCore/QTimeZone-windowsIdToDefaultIanaId-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.windowsIdToIanaIds
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-windowsIdToIanaIds-f.rst
+        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.windowsIdToIanaIds
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-1.rst
+        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-3.rst

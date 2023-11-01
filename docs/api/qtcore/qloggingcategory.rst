@@ -60,6 +60,6 @@
 
     .. sip:method:: PyQt6.QtCore.QLoggingCategory.setFilterRules
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QLoggingCategory-setFilterRules-f.rst
+        :description: QtCore/QLoggingCategory-setFilterRules-f-1.rst

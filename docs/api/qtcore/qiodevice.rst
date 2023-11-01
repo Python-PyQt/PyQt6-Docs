@@ -190,8 +190,8 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setErrorString
         :args:
-            str
-        :description: QtCore/QIODevice-setErrorString-f.rst
+            Optional[str]
+        :description: QtCore/QIODevice-setErrorString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setOpenMode
         :args:

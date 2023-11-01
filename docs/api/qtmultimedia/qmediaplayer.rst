@@ -297,8 +297,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.Error`
-            str
-        :description: QtMultimedia/QMediaPlayer-errorOccurred-s.rst
+            Optional[str]
+        :description: QtMultimedia/QMediaPlayer-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.hasAudioChanged
         :args:

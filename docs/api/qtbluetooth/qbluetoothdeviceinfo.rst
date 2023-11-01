@@ -368,16 +368,16 @@
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothAddress`
-            str
+            Optional[str]
             int
-        :description: QtBluetooth/QBluetoothDeviceInfo-__init__-f-2.rst
+        :description: QtBluetooth/QBluetoothDeviceInfo-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
-            str
+            Optional[str]
             int
-        :description: QtBluetooth/QBluetoothDeviceInfo-__init__-f-3.rst
+        :description: QtBluetooth/QBluetoothDeviceInfo-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.address
         :returns:
@@ -435,8 +435,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.minorDeviceClass
         :returns:
-            bytes
-        :description: QtBluetooth/QBluetoothDeviceInfo-minorDeviceClass-f-1.rst
+            int
+        :description: QtBluetooth/QBluetoothDeviceInfo-minorDeviceClass-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.name
         :returns:
@@ -500,15 +500,15 @@
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setManufacturerData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtBluetooth/QBluetoothDeviceInfo-setManufacturerData-f.rst
+        :description: QtBluetooth/QBluetoothDeviceInfo-setManufacturerData-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setName
         :args:
-            str
-        :description: QtBluetooth/QBluetoothDeviceInfo-setName-f.rst
+            Optional[str]
+        :description: QtBluetooth/QBluetoothDeviceInfo-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setRssi
         :args:
@@ -518,10 +518,10 @@
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setServiceData
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtBluetooth/QBluetoothDeviceInfo-setServiceData-f.rst
+        :description: QtBluetooth/QBluetoothDeviceInfo-setServiceData-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setServiceUuids
         :args:

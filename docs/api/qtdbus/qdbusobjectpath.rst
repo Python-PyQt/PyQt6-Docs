@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusObjectPath.__init__
         :args:
-            str
-        :description: QtDBus/QDBusObjectPath-__init__-f-1.rst
+            Optional[str]
+        :description: QtDBus/QDBusObjectPath-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusObjectPath.__init__
         :args:
@@ -56,8 +56,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusObjectPath.setPath
         :args:
-            str
-        :description: QtDBus/QDBusObjectPath-setPath-f.rst
+            Optional[str]
+        :description: QtDBus/QDBusObjectPath-setPath-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusObjectPath.swap
         :args:

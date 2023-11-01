@@ -57,11 +57,11 @@
     .. sip:method:: PyQt6.QtTest.QTest.keyClicks
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
             modifier: :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier` = :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.NoModifier`
             delay: int = -1
         :static:
-        :description: QtTest/QTest-keyClicks-f-1.rst
+        :description: QtTest/QTest-keyClicks-f-2.rst
 
     .. sip:method:: PyQt6.QtTest.QTest.keyEvent
         :args:
@@ -178,16 +178,16 @@
     .. sip:method:: PyQt6.QtTest.QTest.keySequence
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :static:
-        :description: QtTest/QTest-keySequence-f.rst
+        :description: QtTest/QTest-keySequence-f-2.rst
 
     .. sip:method:: PyQt6.QtTest.QTest.keySequence
         :args:
             :sip:ref:`~PyQt6.QtGui.QWindow`
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
         :static:
-        :description: QtTest/QTest-keySequence-f-1.rst
+        :description: QtTest/QTest-keySequence-f-3.rst
 
     .. sip:method:: PyQt6.QtTest.QTest.mouseClick
         :args:
@@ -343,11 +343,11 @@
             :sip:ref:`~PyQt6.QtTest.QTest.KeyAction`
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             :sip:ref:`~PyQt6.QtCore.Qt.Key`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
             delay: int = -1
         :static:
-        :description: QtTest/QTest-sendKeyEvent-f-1.rst
+        :description: QtTest/QTest-sendKeyEvent-f-2.rst
 
     .. sip:method:: PyQt6.QtTest.QTest.simulateEvent
         :args:
@@ -355,8 +355,8 @@
             bool
             int
             :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
-            str
+            Optional[str]
             bool
             delay: int = -1
         :static:
-        :description: QtTest/QTest-simulateEvent-f-1.rst
+        :description: QtTest/QTest-simulateEvent-f-2.rst

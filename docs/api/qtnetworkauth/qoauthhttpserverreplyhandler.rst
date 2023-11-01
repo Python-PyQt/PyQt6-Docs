@@ -60,10 +60,10 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.setCallbackPath
         :args:
-            str
-        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-setCallbackPath-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-setCallbackPath-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.setCallbackText
         :args:
-            str
-        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-setCallbackText-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-setCallbackText-f-1.rst

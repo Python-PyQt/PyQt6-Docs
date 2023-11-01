@@ -45,9 +45,9 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtSensors/QSensor-__init__-f.rst
+        :description: QtSensors/QSensor-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.addFilter
         :args:
@@ -86,11 +86,11 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.defaultSensorForType
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtSensors/QSensor-defaultSensorForType-f.rst
+        :description: QtSensors/QSensor-defaultSensorForType-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.description
         :returns:
@@ -171,11 +171,11 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.sensorsForType
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtSensors/QSensor-sensorsForType-f.rst
+        :description: QtSensors/QSensor-sensorsForType-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.sensorTypes
         :returns:
@@ -220,8 +220,8 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.setIdentifier
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtSensors/QSensor-setIdentifier-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtSensors/QSensor-setIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.setMaxBufferSize
         :args:

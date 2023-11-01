@@ -48,11 +48,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.fromName
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QHostInfo`
         :static:
-        :description: QtNetwork/QHostInfo-fromName-f.rst
+        :description: QtNetwork/QHostInfo-fromName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.hostName
         :returns:
@@ -73,12 +73,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.lookupHost
         :args:
-            str
+            Optional[str]
             PYQT_SLOT
         :returns:
             int
         :static:
-        :description: QtNetwork/QHostInfo-lookupHost-f.rst
+        :description: QtNetwork/QHostInfo-lookupHost-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.lookupId
         :returns:
@@ -97,13 +97,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.setErrorString
         :args:
-            str
-        :description: QtNetwork/QHostInfo-setErrorString-f.rst
+            Optional[str]
+        :description: QtNetwork/QHostInfo-setErrorString-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.setHostName
         :args:
-            str
-        :description: QtNetwork/QHostInfo-setHostName-f.rst
+            Optional[str]
+        :description: QtNetwork/QHostInfo-setHostName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.setLookupId
         :args:

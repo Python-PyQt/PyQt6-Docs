@@ -62,13 +62,19 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtCore/QUuid-__init__-f-5.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QUuid-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :description: QtCore/QUuid-__init__-f-3.rst
+
+    .. sip:method:: PyQt6.QtCore.QUuid.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUuid.Id128Bytes`
+            order: :sip:ref:`~PyQt6.QtCore.QSysInfo.Endian` = :sip:ref:`~PyQt6.QtCore.QSysInfo.Endian.BigEndian`
+        :description: QtCore/QUuid-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
@@ -94,38 +100,38 @@
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV3
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV3-f.rst
+        :description: QtCore/QUuid-createUuidV3-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV3
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV3-f-1.rst
+        :description: QtCore/QUuid-createUuidV3-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV5
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV5-f.rst
+        :description: QtCore/QUuid-createUuidV5-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV5
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV5-f-1.rst
+        :description: QtCore/QUuid-createUuidV5-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__eq__
         :args:
@@ -144,11 +150,11 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.fromString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-fromString-f-1.rst
+        :description: QtCore/QUuid-fromString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__ge__
         :args:

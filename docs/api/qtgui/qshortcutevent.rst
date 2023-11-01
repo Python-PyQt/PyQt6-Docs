@@ -6,17 +6,17 @@
 
     .. sip:method:: PyQt6.QtGui.QShortcutEvent.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
             int
             ambiguous: bool = False
-        :description: QtGui/QShortcutEvent-__init__-f.rst
+        :description: QtGui/QShortcutEvent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcutEvent.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
             shortcut: :sip:ref:`~PyQt6.QtGui.QShortcut` = None
             ambiguous: bool = False
-        :description: QtGui/QShortcutEvent-__init__-f-1.rst
+        :description: QtGui/QShortcutEvent-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcutEvent.clone
         :returns:

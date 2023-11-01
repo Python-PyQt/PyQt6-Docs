@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QKeySequenceEdit-__init__-f-1.rst
+        :description: QtWidgets/QKeySequenceEdit-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.clear
         :description: QtWidgets/QKeySequenceEdit-clear-f.rst
@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setKeySequence
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
-        :description: QtWidgets/QKeySequenceEdit-setKeySequence-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+        :description: QtWidgets/QKeySequenceEdit-setKeySequence-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.setMaximumSequenceLength
         :args:
@@ -90,5 +90,5 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QKeySequenceEdit.keySequenceChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, str, int]
-        :description: QtWidgets/QKeySequenceEdit-keySequenceChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+        :description: QtWidgets/QKeySequenceEdit-keySequenceChanged-s-1.rst

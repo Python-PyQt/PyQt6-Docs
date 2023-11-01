@@ -87,10 +87,10 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.deleteResource
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[str, Any] = {}
+            parameters: Dict[Optional[str], Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QAbstractOAuth-deleteResource-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-deleteResource-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.extraTokens
         :returns:
@@ -99,19 +99,19 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.generateRandomString
         :args:
-            bytes
+            int
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtNetworkAuth/QAbstractOAuth-generateRandomString-f-1.rst
+        :description: QtNetworkAuth/QAbstractOAuth-generateRandomString-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.get
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[str, Any] = {}
+            parameters: Dict[Optional[str], Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QAbstractOAuth-get-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-get-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.grant
         :description: QtNetworkAuth/QAbstractOAuth-grant-f.rst
@@ -119,10 +119,10 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.head
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[str, Any] = {}
+            parameters: Dict[Optional[str], Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QAbstractOAuth-head-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-head-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.modifyParametersFunction
         :returns:
@@ -137,25 +137,25 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.post
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[str, Any] = {}
+            parameters: Dict[Optional[str], Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QAbstractOAuth-post-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-post-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.prepareRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            body: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-        :description: QtNetworkAuth/QAbstractOAuth-prepareRequest-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            body: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+        :description: QtNetworkAuth/QAbstractOAuth-prepareRequest-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.put
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[str, Any] = {}
+            parameters: Dict[Optional[str], Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QAbstractOAuth-put-f.rst
+        :description: QtNetworkAuth/QAbstractOAuth-put-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.replyHandler
         :returns:
@@ -165,8 +165,8 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.resourceOwnerAuthorization
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            unknown-type
-        :description: QtNetworkAuth/QAbstractOAuth-resourceOwnerAuthorization-f.rst
+            Dict[Optional[str], Sequence[Any]]
+        :description: QtNetworkAuth/QAbstractOAuth-resourceOwnerAuthorization-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setAuthorizationUrl
         :args:
@@ -175,8 +175,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setClientIdentifier
         :args:
-            str
-        :description: QtNetworkAuth/QAbstractOAuth-setClientIdentifier-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QAbstractOAuth-setClientIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setContentType
         :args:
@@ -205,8 +205,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.setToken
         :args:
-            str
-        :description: QtNetworkAuth/QAbstractOAuth-setToken-f.rst
+            Optional[str]
+        :description: QtNetworkAuth/QAbstractOAuth-setToken-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QAbstractOAuth.status
         :returns:
@@ -230,8 +230,8 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.clientIdentifierChanged
         :args:
-            str
-        :description: QtNetworkAuth/QAbstractOAuth-clientIdentifierChanged-s.rst
+            Optional[str]
+        :description: QtNetworkAuth/QAbstractOAuth-clientIdentifierChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.contentTypeChanged
         :args:
@@ -240,8 +240,8 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.extraTokensChanged
         :args:
-            Dict[str, Any]
-        :description: QtNetworkAuth/QAbstractOAuth-extraTokensChanged-s.rst
+            Dict[Optional[str], Any]
+        :description: QtNetworkAuth/QAbstractOAuth-extraTokensChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.finished
         :args:
@@ -253,8 +253,8 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.replyDataReceived
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetworkAuth/QAbstractOAuth-replyDataReceived-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetworkAuth/QAbstractOAuth-replyDataReceived-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.requestFailed
         :args:
@@ -268,5 +268,5 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuth.tokenChanged
         :args:
-            str
-        :description: QtNetworkAuth/QAbstractOAuth-tokenChanged-s.rst
+            Optional[str]
+        :description: QtNetworkAuth/QAbstractOAuth-tokenChanged-s-1.rst

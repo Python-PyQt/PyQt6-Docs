@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryDir.__init__
         :args:
-            str
-        :description: QtCore/QTemporaryDir-__init__-f-1.rst
+            Optional[str]
+        :description: QtCore/QTemporaryDir-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryDir.autoRemove
         :returns:
@@ -23,10 +23,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryDir.filePath
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/QTemporaryDir-filePath-f.rst
+        :description: QtCore/QTemporaryDir-filePath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryDir.isValid
         :returns:

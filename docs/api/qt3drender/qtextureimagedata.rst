@@ -80,10 +80,10 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QTextureImageData.setData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             int
             isCompressed: bool = False
-        :description: Qt3DRender/QTextureImageData-setData-f.rst
+        :description: Qt3DRender/QTextureImageData-setData-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QTextureImageData.setDepth
         :args:

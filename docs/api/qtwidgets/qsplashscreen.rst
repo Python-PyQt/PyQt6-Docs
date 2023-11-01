@@ -62,12 +62,12 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplashScreen.showMessage
         :args:
-            str
+            Optional[str]
             alignment: int = :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft`
             color: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.black`
-        :description: QtWidgets/QSplashScreen-showMessage-f-2.rst
+        :description: QtWidgets/QSplashScreen-showMessage-f-3.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QSplashScreen.messageChanged
         :args:
-            str
-        :description: QtWidgets/QSplashScreen-messageChanged-s.rst
+            Optional[str]
+        :description: QtWidgets/QSplashScreen-messageChanged-s-1.rst

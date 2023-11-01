@@ -79,13 +79,13 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtCore/QXmlStreamReader-__init__-f-4.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QXmlStreamReader-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.addData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtCore/QXmlStreamReader-addData-f-2.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QXmlStreamReader-addData-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.addExtraNamespaceDeclaration
         :args:
@@ -179,6 +179,11 @@
         :returns:
             bool
         :description: QtCore/QXmlStreamReader-hasError-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QXmlStreamReader.hasStandaloneDeclaration
+        :returns:
+            bool
+        :description: QtCore/QXmlStreamReader-hasStandaloneDeclaration-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.isCDATA
         :returns:
@@ -292,8 +297,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.raiseError
         :args:
-            message: str = ''
-        :description: QtCore/QXmlStreamReader-raiseError-f.rst
+            message: Optional[str] = ''
+        :description: QtCore/QXmlStreamReader-raiseError-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.readElementText
         :args:

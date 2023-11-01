@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationGroup.setName
         :args:
-            str
-        :description: Qt3DAnimation/QAnimationGroup-setName-f.rst
+            Optional[str]
+        :description: Qt3DAnimation/QAnimationGroup-setName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationGroup.setPosition
         :args:
@@ -61,8 +61,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QAnimationGroup.nameChanged
         :args:
-            str
-        :description: Qt3DAnimation/QAnimationGroup-nameChanged-s.rst
+            Optional[str]
+        :description: Qt3DAnimation/QAnimationGroup-nameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QAnimationGroup.positionChanged
         :args:

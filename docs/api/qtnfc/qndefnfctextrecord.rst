@@ -43,13 +43,13 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcTextRecord.setLocale
         :args:
-            str
-        :description: QtNfc/QNdefNfcTextRecord-setLocale-f.rst
+            Optional[str]
+        :description: QtNfc/QNdefNfcTextRecord-setLocale-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcTextRecord.setText
         :args:
-            str
-        :description: QtNfc/QNdefNfcTextRecord-setText-f.rst
+            Optional[str]
+        :description: QtNfc/QNdefNfcTextRecord-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcTextRecord.text
         :returns:

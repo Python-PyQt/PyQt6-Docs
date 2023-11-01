@@ -97,9 +97,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.connectToServer
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtNetwork/QLocalSocket-connectToServer-f-3.rst
+        :description: QtNetwork/QLocalSocket-connectToServer-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.disconnectFromServer
         :description: QtNetwork/QLocalSocket-disconnectFromServer-f.rst
@@ -167,8 +167,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.setServerName
         :args:
-            str
-        :description: QtNetwork/QLocalSocket-setServerName-f.rst
+            Optional[str]
+        :description: QtNetwork/QLocalSocket-setServerName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.setSocketDescriptor
         :args:

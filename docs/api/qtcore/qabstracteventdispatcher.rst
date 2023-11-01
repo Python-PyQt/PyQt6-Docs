@@ -14,12 +14,12 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractEventDispatcher.filterNativeEvent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QtCore/QAbstractEventDispatcher-filterNativeEvent-f-1.rst
+        :description: QtCore/QAbstractEventDispatcher-filterNativeEvent-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractEventDispatcher.installNativeEventFilter
         :args:

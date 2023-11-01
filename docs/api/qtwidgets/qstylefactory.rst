@@ -13,11 +13,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QStyleFactory.create
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QStyle`
         :static:
-        :description: QtWidgets/QStyleFactory-create-f.rst
+        :description: QtWidgets/QStyleFactory-create-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleFactory.keys
         :returns:

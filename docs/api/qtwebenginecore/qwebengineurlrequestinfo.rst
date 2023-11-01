@@ -143,6 +143,6 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.setHttpHeader
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-setHttpHeader-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-setHttpHeader-f-1.rst

@@ -140,8 +140,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setItemLabelFormat
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-setItemLabelFormat-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-setItemLabelFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setItemLabelVisible
         :args:
@@ -181,8 +181,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setName
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-setName-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setSingleHighlightColor
         :args:
@@ -196,8 +196,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setUserDefinedMesh
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-setUserDefinedMesh-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-setUserDefinedMesh-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setVisible
         :args:
@@ -241,13 +241,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelChanged
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-itemLabelChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-itemLabelChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelFormatChanged
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-itemLabelFormatChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-itemLabelFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelVisibilityChanged
         :args:
@@ -281,8 +281,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.nameChanged
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-nameChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-nameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.singleHighlightColorChanged
         :args:
@@ -296,8 +296,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.userDefinedMeshChanged
         :args:
-            str
-        :description: QtDataVisualization/QAbstract3DSeries-userDefinedMeshChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QAbstract3DSeries-userDefinedMeshChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.visibilityChanged
         :args:

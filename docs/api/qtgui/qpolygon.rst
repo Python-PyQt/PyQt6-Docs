@@ -246,8 +246,8 @@
             int
             int
             int
-            *
-        :description: QtGui/QPolygon-putPoints-f-2.rst
+            int
+        :description: QtGui/QPolygon-putPoints-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.putPoints
         :args:
@@ -308,8 +308,8 @@
         :args:
             int
             int
-            *
-        :description: QtGui/QPolygon-setPoints-f-1.rst
+            int
+        :description: QtGui/QPolygon-setPoints-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPolygon.size
         :returns:

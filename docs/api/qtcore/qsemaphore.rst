@@ -33,6 +33,14 @@
     .. sip:method:: PyQt6.QtCore.QSemaphore.tryAcquire
         :args:
             int
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :returns:
+            bool
+        :description: QtCore/QSemaphore-tryAcquire-f-2.rst
+
+    .. sip:method:: PyQt6.QtCore.QSemaphore.tryAcquire
+        :args:
+            int
             int
         :returns:
             bool

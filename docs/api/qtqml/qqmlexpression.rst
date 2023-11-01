@@ -11,9 +11,9 @@
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlContext`
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlExpression-__init__-f-1.rst
+        :description: QtQml/QQmlExpression-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlExpression.__init__
         :args:
@@ -79,8 +79,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlExpression.setExpression
         :args:
-            str
-        :description: QtQml/QQmlExpression-setExpression-f.rst
+            Optional[str]
+        :description: QtQml/QQmlExpression-setExpression-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlExpression.setNotifyOnValueChanged
         :args:
@@ -89,10 +89,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlExpression.setSourceLocation
         :args:
-            str
+            Optional[str]
             int
             column: int = 0
-        :description: QtQml/QQmlExpression-setSourceLocation-f.rst
+        :description: QtQml/QQmlExpression-setSourceLocation-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlExpression.sourceFile
         :returns:

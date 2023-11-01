@@ -186,8 +186,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setSubtitleText
         :args:
-            str
-        :description: QtMultimedia/QVideoFrame-setSubtitleText-f.rst
+            Optional[str]
+        :description: QtMultimedia/QVideoFrame-setSubtitleText-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.size
         :returns:

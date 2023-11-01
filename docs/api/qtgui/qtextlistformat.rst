@@ -66,18 +66,28 @@
 
     .. sip:method:: PyQt6.QtGui.QTextListFormat.setNumberPrefix
         :args:
-            str
-        :description: QtGui/QTextListFormat-setNumberPrefix-f.rst
+            Optional[str]
+        :description: QtGui/QTextListFormat-setNumberPrefix-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextListFormat.setNumberSuffix
         :args:
-            str
-        :description: QtGui/QTextListFormat-setNumberSuffix-f.rst
+            Optional[str]
+        :description: QtGui/QTextListFormat-setNumberSuffix-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextListFormat.setStart
+        :args:
+            int
+        :description: QtGui/QTextListFormat-setStart-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextListFormat.setStyle
         :args:
             :sip:ref:`~PyQt6.QtGui.QTextListFormat.Style`
         :description: QtGui/QTextListFormat-setStyle-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextListFormat.start
+        :returns:
+            int
+        :description: QtGui/QTextListFormat-start-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextListFormat.style
         :returns:

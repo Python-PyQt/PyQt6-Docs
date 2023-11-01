@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.__init__
         :args:
-            str
-        :description: QtGui/QPdfWriter-__init__-f.rst
+            Optional[str]
+        :description: QtGui/QPdfWriter-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.__init__
         :args:
@@ -16,10 +16,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.addFileAttachment
         :args:
-            str
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            mimeType: str = ''
-        :description: QtGui/QPdfWriter-addFileAttachment-f.rst
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            mimeType: Optional[str] = ''
+        :description: QtGui/QPdfWriter-addFileAttachment-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.creator
         :returns:
@@ -60,13 +60,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setCreator
         :args:
-            str
-        :description: QtGui/QPdfWriter-setCreator-f.rst
+            Optional[str]
+        :description: QtGui/QPdfWriter-setCreator-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setDocumentXmpMetadata
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setPdfVersion
         :args:
@@ -80,8 +80,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setTitle
         :args:
-            str
-        :description: QtGui/QPdfWriter-setTitle-f.rst
+            Optional[str]
+        :description: QtGui/QPdfWriter-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.title
         :returns:

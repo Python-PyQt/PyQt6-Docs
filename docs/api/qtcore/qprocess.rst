@@ -82,6 +82,21 @@
         .. sip:enum-member:: PyQt6.QtCore.QProcess.ProcessState.Starting
             :description: QtCore/QProcess-ProcessState-Starting-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.QProcess.UnixProcessFlag
+        :description: QtCore/QProcess-UnixProcessFlag-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.CloseFileDescriptors
+            :description: QtCore/QProcess-UnixProcessFlag-CloseFileDescriptors-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.IgnoreSigPipe
+            :description: QtCore/QProcess-UnixProcessFlag-IgnoreSigPipe-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.ResetSignalHandlers
+            :description: QtCore/QProcess-UnixProcessFlag-ResetSignalHandlers-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.UseVFork
+            :description: QtCore/QProcess-UnixProcessFlag-UseVFork-v.rst
+
     .. sip:method:: PyQt6.QtCore.QProcess.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -115,12 +130,12 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.execute
         :args:
-            str
-            arguments: Iterable[str] = []
+            Optional[str]
+            arguments: Iterable[Optional[str]] = []
         :returns:
             int
         :static:
-        :description: QtCore/QProcess-execute-f.rst
+        :description: QtCore/QProcess-execute-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.exitCode
         :returns:
@@ -202,8 +217,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setArguments
         :args:
-            Iterable[str]
-        :description: QtCore/QProcess-setArguments-f.rst
+            Iterable[Optional[str]]
+        :description: QtCore/QProcess-setArguments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setInputChannelMode
         :args:
@@ -227,8 +242,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setProgram
         :args:
-            str
-        :description: QtCore/QProcess-setProgram-f.rst
+            Optional[str]
+        :description: QtCore/QProcess-setProgram-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setReadChannel
         :args:
@@ -237,30 +252,40 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardErrorFile
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.Truncate`
-        :description: QtCore/QProcess-setStandardErrorFile-f-1.rst
+        :description: QtCore/QProcess-setStandardErrorFile-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardInputFile
         :args:
-            str
-        :description: QtCore/QProcess-setStandardInputFile-f.rst
+            Optional[str]
+        :description: QtCore/QProcess-setStandardInputFile-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardOutputFile
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.Truncate`
-        :description: QtCore/QProcess-setStandardOutputFile-f-1.rst
+        :description: QtCore/QProcess-setStandardOutputFile-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardOutputProcess
         :args:
             :sip:ref:`~PyQt6.QtCore.QProcess`
         :description: QtCore/QProcess-setStandardOutputProcess-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QProcess.setUnixProcessParameters
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QProcess.UnixProcessFlag`
+        :description: QtCore/QProcess-setUnixProcessParameters-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QProcess.setUnixProcessParameters
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QProcess.UnixProcessParameters`
+        :description: QtCore/QProcess-setUnixProcessParameters-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QProcess.setWorkingDirectory
         :args:
-            str
-        :description: QtCore/QProcess-setWorkingDirectory-f.rst
+            Optional[str]
+        :description: QtCore/QProcess-setWorkingDirectory-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.start
         :args:
@@ -269,16 +294,16 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.start
         :args:
-            str
-            arguments: Iterable[str] = []
+            Optional[str]
+            arguments: Iterable[Optional[str]] = []
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtCore/QProcess-start-f-3.rst
+        :description: QtCore/QProcess-start-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.startCommand
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtCore/QProcess-startCommand-f-1.rst
+        :description: QtCore/QProcess-startCommand-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.startDetached
         :returns:
@@ -288,14 +313,14 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.startDetached
         :args:
-            str
-            arguments: Iterable[str] = []
-            workingDirectory: str = ''
+            Optional[str]
+            arguments: Iterable[Optional[str]] = []
+            workingDirectory: Optional[str] = ''
         :returns:
             bool
             int
         :static:
-        :description: QtCore/QProcess-startDetached-f-1.rst
+        :description: QtCore/QProcess-startDetached-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.state
         :returns:
@@ -310,6 +335,11 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.terminate
         :description: QtCore/QProcess-terminate-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QProcess.unixProcessParameters
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QProcess.UnixProcessParameters`
+        :description: QtCore/QProcess-unixProcessParameters-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.waitForBytesWritten
         :args:

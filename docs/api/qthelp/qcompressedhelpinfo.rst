@@ -18,11 +18,11 @@
 
     .. sip:method:: PyQt6.QtHelp.QCompressedHelpInfo.fromCompressedHelpFile
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtHelp.QCompressedHelpInfo`
         :static:
-        :description: QtHelp/QCompressedHelpInfo-fromCompressedHelpFile-f.rst
+        :description: QtHelp/QCompressedHelpInfo-fromCompressedHelpFile-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QCompressedHelpInfo.isNull
         :returns:

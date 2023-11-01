@@ -14,8 +14,8 @@
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyDescriptorData.__init__
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyDescriptorData-__init__-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyDescriptorData-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyDescriptorData.__eq__
         :args:
@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyDescriptorData.setValue
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyDescriptorData-setValue-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyDescriptorData-setValue-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyDescriptorData.setWritePermissions
         :args:

@@ -93,32 +93,32 @@
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.findExecutable
         :args:
-            str
-            paths: Iterable[str] = []
+            Optional[str]
+            paths: Iterable[Optional[str]] = []
         :returns:
             str
         :static:
-        :description: QtCore/QStandardPaths-findExecutable-f.rst
+        :description: QtCore/QStandardPaths-findExecutable-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.locate
         :args:
             :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation`
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile`
         :returns:
             str
         :static:
-        :description: QtCore/QStandardPaths-locate-f-1.rst
+        :description: QtCore/QStandardPaths-locate-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.locateAll
         :args:
             :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation`
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile`
         :returns:
             List[str]
         :static:
-        :description: QtCore/QStandardPaths-locateAll-f-1.rst
+        :description: QtCore/QStandardPaths-locateAll-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.setTestModeEnabled
         :args:

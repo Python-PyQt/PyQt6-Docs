@@ -148,6 +148,12 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.WebAction.Back
             :description: QtWebEngineCore/QWebEnginePage-WebAction-Back-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.WebAction.ChangeTextDirectionLTR
+            :description: QtWebEngineCore/QWebEnginePage-WebAction-ChangeTextDirectionLTR-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.WebAction.ChangeTextDirectionRTL
+            :description: QtWebEngineCore/QWebEnginePage-WebAction-ChangeTextDirectionRTL-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.WebAction.Copy
             :description: QtWebEngineCore/QWebEnginePage-WebAction-Copy-v.rst
 
@@ -321,11 +327,11 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.chooseFiles
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.FileSelectionMode`
-            Iterable[str]
-            Iterable[str]
+            Iterable[Optional[str]]
+            Iterable[Optional[str]]
         :returns:
             List[str]
-        :description: QtWebEngineCore/QWebEnginePage-chooseFiles-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-chooseFiles-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.contentsSize
         :returns:
@@ -339,6 +345,11 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage`
         :description: QtWebEngineCore/QWebEnginePage-createWindow-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.devToolsId
+        :returns:
+            str
+        :description: QtWebEngineCore/QWebEnginePage-devToolsId-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.devToolsPage
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage`
@@ -347,8 +358,8 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.download
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            filename: str = ''
-        :description: QtWebEngineCore/QWebEnginePage-download-f.rst
+            filename: Optional[str] = ''
+        :description: QtWebEngineCore/QWebEnginePage-download-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.event
         :args:
@@ -359,10 +370,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.findText
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.FindFlag` = {}
             resultCallback: Callable[[bool], None] = None
-        :description: QtWebEngineCore/QWebEnginePage-findText-f-1.rst
+        :description: QtWebEngineCore/QWebEnginePage-findText-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.hasSelection
         :returns:
@@ -407,34 +418,34 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.javaScriptAlert
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            str
-        :description: QtWebEngineCore/QWebEnginePage-javaScriptAlert-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-javaScriptAlert-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.javaScriptConfirm
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtWebEngineCore/QWebEnginePage-javaScriptConfirm-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-javaScriptConfirm-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.javaScriptConsoleMessage
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.JavaScriptConsoleMessageLevel`
-            str
+            Optional[str]
             int
-            str
-        :description: QtWebEngineCore/QWebEnginePage-javaScriptConsoleMessage-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-javaScriptConsoleMessage-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.javaScriptPrompt
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             bool
             str
-        :description: QtWebEngineCore/QWebEnginePage-javaScriptPrompt-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-javaScriptPrompt-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.lifecycleState
         :returns:
@@ -453,17 +464,17 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.printToPdf
         :args:
-            str
+            Optional[str]
             pageLayout: :sip:ref:`~PyQt6.QtGui.QPageLayout` = QPageLayout(QPageSize(QPageSize.A4),QPageLayout.Portrait,QMarginsF())
             ranges: :sip:ref:`~PyQt6.QtGui.QPageRanges` = {}
-        :description: QtWebEngineCore/QWebEnginePage-printToPdf-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-printToPdf-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.printToPdf
         :args:
-            Callable[[:sip:ref:`~PyQt6.QtCore.QByteArray`], None]
+            Callable[[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]], None]
             pageLayout: :sip:ref:`~PyQt6.QtGui.QPageLayout` = QPageLayout(QPageSize(QPageSize.A4),QPageLayout.Portrait,QMarginsF())
             ranges: :sip:ref:`~PyQt6.QtGui.QPageRanges` = {}
-        :description: QtWebEngineCore/QWebEnginePage-printToPdf-f-1.rst
+        :description: QtWebEngineCore/QWebEnginePage-printToPdf-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.profile
         :returns:
@@ -487,8 +498,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.replaceMisspelledWord
         :args:
-            str
-        :description: QtWebEngineCore/QWebEnginePage-replaceMisspelledWord-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-replaceMisspelledWord-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.requestedUrl
         :returns:
@@ -497,22 +508,22 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.runJavaScript
         :args:
-            str
+            Optional[str]
             Callable[[Any], None]
-        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.runJavaScript
         :args:
-            str
+            Optional[str]
             worldId: int = 0
-            resultCallback: Callable[[str], None] = None
-        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-2.rst
+            resultCallback: Callable[[Optional[str]], None] = None
+        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-4.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.save
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.SavePageFormat` = :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.SavePageFormat.MimeHtmlSaveFormat`
-        :description: QtWebEngineCore/QWebEnginePage-save-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-save-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.scripts
         :returns:
@@ -541,10 +552,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.setContent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            mimeType: str = ''
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            mimeType: Optional[str] = ''
             baseUrl: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-        :description: QtWebEngineCore/QWebEnginePage-setContent-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-setContent-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.setDevToolsPage
         :args:
@@ -560,9 +571,9 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.setHtml
         :args:
-            str
+            Optional[str]
             baseUrl: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-        :description: QtWebEngineCore/QWebEnginePage-setHtml-f.rst
+        :description: QtWebEngineCore/QWebEnginePage-setHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.setInspectedPage
         :args:
@@ -612,13 +623,13 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.toHtml
         :args:
-            Callable[[str], None]
-        :description: QtWebEngineCore/QWebEnginePage-toHtml-f.rst
+            Callable[[Optional[str]], None]
+        :description: QtWebEngineCore/QWebEnginePage-toHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.toPlainText
         :args:
-            Callable[[str], None]
-        :description: QtWebEngineCore/QWebEnginePage-toPlainText-f.rst
+            Callable[[Optional[str]], None]
+        :description: QtWebEngineCore/QWebEnginePage-toPlainText-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.triggerAction
         :args:
@@ -711,8 +722,8 @@
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.linkHovered
         :args:
-            str
-        :description: QtWebEngineCore/QWebEnginePage-linkHovered-s.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-linkHovered-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.loadFinished
         :args:
@@ -744,9 +755,9 @@
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.pdfPrintingFinished
         :args:
-            str
+            Optional[str]
             bool
-        :description: QtWebEngineCore/QWebEnginePage-pdfPrintingFinished-s.rst
+        :description: QtWebEngineCore/QWebEnginePage-pdfPrintingFinished-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.printRequested
         :description: QtWebEngineCore/QWebEnginePage-printRequested-s.rst
@@ -755,8 +766,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
             :sip:ref:`~PyQt6.QtNetwork.QAuthenticator`
-            str
-        :description: QtWebEngineCore/QWebEnginePage-proxyAuthenticationRequired-s.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-proxyAuthenticationRequired-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.quotaRequested
         :args:
@@ -804,8 +815,8 @@
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.titleChanged
         :args:
-            str
-        :description: QtWebEngineCore/QWebEnginePage-titleChanged-s.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEnginePage-titleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.urlChanged
         :args:

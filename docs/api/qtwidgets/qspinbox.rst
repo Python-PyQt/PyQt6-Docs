@@ -28,10 +28,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.fixup
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtWidgets/QSpinBox-fixup-f.rst
+        :description: QtWidgets/QSpinBox-fixup-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.maximum
         :returns:
@@ -65,8 +65,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.setPrefix
         :args:
-            str
-        :description: QtWidgets/QSpinBox-setPrefix-f.rst
+            Optional[str]
+        :description: QtWidgets/QSpinBox-setPrefix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.setRange
         :args:
@@ -86,8 +86,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.setSuffix
         :args:
-            str
-        :description: QtWidgets/QSpinBox-setSuffix-f.rst
+            Optional[str]
+        :description: QtWidgets/QSpinBox-setSuffix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.setValue
         :args:
@@ -118,13 +118,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtWidgets/QSpinBox-validate-f.rst
+        :description: QtWidgets/QSpinBox-validate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.value
         :returns:
@@ -133,15 +133,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSpinBox.valueFromText
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QSpinBox-valueFromText-f.rst
+        :description: QtWidgets/QSpinBox-valueFromText-f-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QSpinBox.textChanged
         :args:
-            str
-        :description: QtWidgets/QSpinBox-textChanged-s.rst
+            Optional[str]
+        :description: QtWidgets/QSpinBox-textChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QSpinBox.valueChanged
         :args:

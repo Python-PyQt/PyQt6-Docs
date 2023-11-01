@@ -26,13 +26,13 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QSkyboxEntity.setBaseName
         :args:
-            str
-        :description: Qt3DExtras/QSkyboxEntity-setBaseName-f.rst
+            Optional[str]
+        :description: Qt3DExtras/QSkyboxEntity-setBaseName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QSkyboxEntity.setExtension
         :args:
-            str
-        :description: Qt3DExtras/QSkyboxEntity-setExtension-f.rst
+            Optional[str]
+        :description: Qt3DExtras/QSkyboxEntity-setExtension-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QSkyboxEntity.setGammaCorrectEnabled
         :args:
@@ -41,13 +41,13 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QSkyboxEntity.baseNameChanged
         :args:
-            str
-        :description: Qt3DExtras/QSkyboxEntity-baseNameChanged-s.rst
+            Optional[str]
+        :description: Qt3DExtras/QSkyboxEntity-baseNameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QSkyboxEntity.extensionChanged
         :args:
-            str
-        :description: Qt3DExtras/QSkyboxEntity-extensionChanged-s.rst
+            Optional[str]
+        :description: Qt3DExtras/QSkyboxEntity-extensionChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QSkyboxEntity.gammaCorrectEnabledChanged
         :args:

@@ -66,18 +66,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.addTab
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabBar-addTab-f.rst
+        :description: QtWidgets/QTabBar-addTab-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.addTab
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabBar-addTab-f-1.rst
+        :description: QtWidgets/QTabBar-addTab-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.autoHide
         :returns:
@@ -150,19 +150,19 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.insertTab
         :args:
             int
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabBar-insertTab-f.rst
+        :description: QtWidgets/QTabBar-insertTab-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.insertTab
         :args:
             int
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtWidgets/QTabBar-insertTab-f-1.rst
+        :description: QtWidgets/QTabBar-insertTab-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.isMovable
         :returns:
@@ -254,8 +254,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setAccessibleTabName
         :args:
             int
-            str
-        :description: QtWidgets/QTabBar-setAccessibleTabName-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabBar-setAccessibleTabName-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setAutoHide
         :args:
@@ -345,8 +345,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabText
         :args:
             int
-            str
-        :description: QtWidgets/QTabBar-setTabText-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabBar-setTabText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabTextColor
         :args:
@@ -357,8 +357,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabToolTip
         :args:
             int
-            str
-        :description: QtWidgets/QTabBar-setTabToolTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabBar-setTabToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabVisible
         :args:
@@ -369,8 +369,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setTabWhatsThis
         :args:
             int
-            str
-        :description: QtWidgets/QTabBar-setTabWhatsThis-f.rst
+            Optional[str]
+        :description: QtWidgets/QTabBar-setTabWhatsThis-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTabBar.setUsesScrollButtons
         :args:

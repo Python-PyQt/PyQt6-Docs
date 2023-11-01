@@ -20,9 +20,9 @@
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.append
         :args:
-            str
+            Optional[str]
             float
-        :description: QtCharts/QCategoryAxis-append-f.rst
+        :description: QtCharts/QCategoryAxis-append-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.categoriesLabels
         :returns:
@@ -36,10 +36,10 @@
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.endValue
         :args:
-            str
+            Optional[str]
         :returns:
             float
-        :description: QtCharts/QCategoryAxis-endValue-f.rst
+        :description: QtCharts/QCategoryAxis-endValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.labelsPosition
         :returns:
@@ -53,14 +53,14 @@
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.remove
         :args:
-            str
-        :description: QtCharts/QCategoryAxis-remove-f.rst
+            Optional[str]
+        :description: QtCharts/QCategoryAxis-remove-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.replaceLabel
         :args:
-            str
-            str
-        :description: QtCharts/QCategoryAxis-replaceLabel-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtCharts/QCategoryAxis-replaceLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.setLabelsPosition
         :args:
@@ -74,10 +74,10 @@
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.startValue
         :args:
-            categoryLabel: str = ''
+            categoryLabel: Optional[str] = ''
         :returns:
             float
-        :description: QtCharts/QCategoryAxis-startValue-f.rst
+        :description: QtCharts/QCategoryAxis-startValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.type
         :returns:

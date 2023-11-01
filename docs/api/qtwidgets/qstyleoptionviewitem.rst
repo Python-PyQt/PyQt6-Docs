@@ -71,7 +71,7 @@
             :description: QtWidgets/QStyleOptionViewItem-ViewItemPosition-OnlyOne-v.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.backgroundBrush
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :type: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
         :description: QtWidgets/QStyleOptionViewItem-backgroundBrush-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.checkState
@@ -119,7 +119,7 @@
         :description: QtWidgets/QStyleOptionViewItem-showDecorationSelected-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionViewItem-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionViewItem.textElideMode

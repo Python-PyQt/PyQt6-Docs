@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.highlightBlock
         :args:
-            str
-        :description: QtGui/QSyntaxHighlighter-highlightBlock-f.rst
+            Optional[str]
+        :description: QtGui/QSyntaxHighlighter-highlightBlock-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.previousBlockState
         :returns:

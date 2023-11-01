@@ -32,8 +32,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchQueryWidget.setSearchInput
         :args:
-            str
-        :description: QtHelp/QHelpSearchQueryWidget-setSearchInput-f.rst
+            Optional[str]
+        :description: QtHelp/QHelpSearchQueryWidget-setSearchInput-f-1.rst
 
     .. sip:signal:: PyQt6.QtHelp.QHelpSearchQueryWidget.search
         :description: QtHelp/QHelpSearchQueryWidget-search-s.rst

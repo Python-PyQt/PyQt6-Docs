@@ -35,5 +35,5 @@
     .. sip:method:: PyQt6.QtHelp.QHelpSearchQuery.__init__
         :args:
             :sip:ref:`~PyQt6.QtHelp.QHelpSearchQuery.FieldName`
-            Iterable[str]
-        :description: QtHelp/QHelpSearchQuery-__init__-f-2.rst
+            Iterable[Optional[str]]
+        :description: QtHelp/QHelpSearchQuery-__init__-f-3.rst

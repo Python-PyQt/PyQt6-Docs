@@ -11,16 +11,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QCommandLinkButton-__init__-f-1.rst
+        :description: QtWidgets/QCommandLinkButton-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.__init__
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QCommandLinkButton-__init__-f-2.rst
+        :description: QtWidgets/QCommandLinkButton-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.description
         :returns:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.setDescription
         :args:
-            str
-        :description: QtWidgets/QCommandLinkButton-setDescription-f.rst
+            Optional[str]
+        :description: QtWidgets/QCommandLinkButton-setDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCommandLinkButton.sizeHint
         :returns:

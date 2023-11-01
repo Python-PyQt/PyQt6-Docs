@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.setExtendedAttributes
         :args:
-            Dict[str, Any]
-        :description: QtPositioning/QGeoLocation-setExtendedAttributes-f.rst
+            Dict[Optional[str], Any]
+        :description: QtPositioning/QGeoLocation-setExtendedAttributes-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.swap
         :args:

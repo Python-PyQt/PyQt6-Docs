@@ -135,10 +135,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTextStream.__lshift__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTextStream`
-        :description: QtCore/QTextStream-__lshift__-f-1.rst
+        :description: QtCore/QTextStream-__lshift__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QTextStream.__lshift__
         :args:

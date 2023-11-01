@@ -20,9 +20,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QPlainTextEdit-__init__-f-1.rst
+        :description: QtWidgets/QPlainTextEdit-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.anchorAt
         :args:
@@ -33,13 +33,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.appendHtml
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-appendHtml-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-appendHtml-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.appendPlainText
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-appendPlainText-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-appendPlainText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.backgroundVisible
         :returns:
@@ -202,11 +202,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.find
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QPlainTextEdit-find-f-2.rst
+        :description: QtWidgets/QPlainTextEdit-find-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.find
         :args:
@@ -270,8 +270,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.insertPlainText
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-insertPlainText-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-insertPlainText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.isReadOnly
         :returns:
@@ -409,8 +409,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setDocumentTitle
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-setDocumentTitle-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-setDocumentTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setExtraSelections
         :args:
@@ -434,13 +434,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setPlaceholderText
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-setPlaceholderText-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-setPlaceholderText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setPlainText
         :args:
-            str
-        :description: QtWidgets/QPlainTextEdit-setPlainText-f.rst
+            Optional[str]
+        :description: QtWidgets/QPlainTextEdit-setPlainText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.setReadOnly
         :args:

@@ -56,19 +56,19 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.acquireDynamic
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectDynamicReplica`
-        :description: QtRemoteObjects/QRemoteObjectNode-acquireDynamic-f.rst
+        :description: QtRemoteObjects/QRemoteObjectNode-acquireDynamic-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.acquireModel
         :args:
-            str
+            Optional[str]
             action: :sip:ref:`~PyQt6.QtRemoteObjects.QtRemoteObjects.InitialAction` = :sip:ref:`~PyQt6.QtRemoteObjects.QtRemoteObjects.InitialAction.FetchRootSize`
             rolesHint: Iterable[int] = []
         :returns:
             :sip:ref:`~PyQt6.QtRemoteObjects.QAbstractItemModelReplica`
-        :description: QtRemoteObjects/QRemoteObjectNode-acquireModel-f.rst
+        :description: QtRemoteObjects/QRemoteObjectNode-acquireModel-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.addClientSideConnection
         :args:
@@ -121,8 +121,8 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.setName
         :args:
-            str
-        :description: QtRemoteObjects/QRemoteObjectNode-setName-f.rst
+            Optional[str]
+        :description: QtRemoteObjects/QRemoteObjectNode-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.setPersistedStore
         :args:
@@ -160,10 +160,10 @@
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectNode.remoteObjectAdded
         :args:
-            Tuple[str, :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectAdded-s.rst
+            Tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectAdded-s-1.rst
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectNode.remoteObjectRemoved
         :args:
-            Tuple[str, :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectRemoved-s.rst
+            Tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectRemoved-s-1.rst

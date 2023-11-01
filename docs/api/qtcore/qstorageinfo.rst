@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.__init__
         :args:
-            str
-        :description: QtCore/QStorageInfo-__init__-f-1.rst
+            Optional[str]
+        :description: QtCore/QStorageInfo-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.__init__
         :args:
@@ -117,8 +117,8 @@
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.setPath
         :args:
-            str
-        :description: QtCore/QStorageInfo-setPath-f.rst
+            Optional[str]
+        :description: QtCore/QStorageInfo-setPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.subvolume
         :returns:

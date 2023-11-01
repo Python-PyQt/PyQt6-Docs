@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAreaSeries-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QAreaSeries-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setColor
         :args:
@@ -92,8 +92,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAreaSeries-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QAreaSeries-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setPointLabelsClipping
         :args:
@@ -112,8 +112,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setPointLabelsFormat
         :args:
-            str
-        :description: QtCharts/QAreaSeries-setPointLabelsFormat-f.rst
+            Optional[str]
+        :description: QtCharts/QAreaSeries-setPointLabelsFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAreaSeries.setPointLabelsVisible
         :args:
@@ -183,8 +183,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAreaSeries.pointLabelsFormatChanged
         :args:
-            str
-        :description: QtCharts/QAreaSeries-pointLabelsFormatChanged-s.rst
+            Optional[str]
+        :description: QtCharts/QAreaSeries-pointLabelsFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAreaSeries.pointLabelsVisibilityChanged
         :args:

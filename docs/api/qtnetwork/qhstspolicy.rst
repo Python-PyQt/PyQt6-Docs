@@ -21,9 +21,9 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
             :sip:ref:`~PyQt6.QtNetwork.QHstsPolicy.PolicyFlag`
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtNetwork/QHstsPolicy-__init__-f-3.rst
+        :description: QtNetwork/QHstsPolicy-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__eq__
         :args:
@@ -68,9 +68,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.setHost
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtNetwork/QHstsPolicy-setHost-f.rst
+        :description: QtNetwork/QHstsPolicy-setHost-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.setIncludesSubDomains
         :args:

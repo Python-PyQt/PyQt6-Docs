@@ -21,10 +21,10 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.filterData
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtHelp.QHelpFilterData`
-        :description: QtHelp/QHelpFilterEngine-filterData-f.rst
+        :description: QtHelp/QHelpFilterEngine-filterData-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.filters
         :returns:
@@ -38,17 +38,17 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.indices
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
-        :description: QtHelp/QHelpFilterEngine-indices-f-1.rst
+        :description: QtHelp/QHelpFilterEngine-indices-f-2.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.namespacesForFilter
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
-        :description: QtHelp/QHelpFilterEngine-namespacesForFilter-f.rst
+        :description: QtHelp/QHelpFilterEngine-namespacesForFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.namespaceToComponent
         :returns:
@@ -62,27 +62,27 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.removeFilter
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtHelp/QHelpFilterEngine-removeFilter-f.rst
+        :description: QtHelp/QHelpFilterEngine-removeFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.setActiveFilter
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtHelp/QHelpFilterEngine-setActiveFilter-f.rst
+        :description: QtHelp/QHelpFilterEngine-setActiveFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.setFilterData
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtHelp.QHelpFilterData`
         :returns:
             bool
-        :description: QtHelp/QHelpFilterEngine-setFilterData-f.rst
+        :description: QtHelp/QHelpFilterEngine-setFilterData-f-1.rst
 
     .. sip:signal:: PyQt6.QtHelp.QHelpFilterEngine.filterActivated
         :args:
-            str
-        :description: QtHelp/QHelpFilterEngine-filterActivated-s.rst
+            Optional[str]
+        :description: QtHelp/QHelpFilterEngine-filterActivated-s-1.rst

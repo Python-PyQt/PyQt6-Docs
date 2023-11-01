@@ -32,11 +32,11 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.activateResourceFilePaths
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :returns:
             int
             str
-        :description: QtDesigner/QDesignerFormWindowInterface-activateResourceFilePaths-f.rst
+        :description: QtDesigner/QDesignerFormWindowInterface-activateResourceFilePaths-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.activeResourceFilePaths
         :returns:
@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.addResourceFile
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-addResourceFile-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-addResourceFile-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.author
         :returns:
@@ -180,8 +180,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.removeResourceFile
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-removeResourceFile-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-removeResourceFile-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.resourceFiles
         :returns:
@@ -196,28 +196,28 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setAuthor
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setAuthor-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setAuthor-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setComment
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setComment-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setComment-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setContents
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtDesigner/QDesignerFormWindowInterface-setContents-f.rst
+        :description: QtDesigner/QDesignerFormWindowInterface-setContents-f-2.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setContents
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            errorMessage: str = ''
+            errorMessage: Optional[str] = ''
         :returns:
             bool
-        :description: QtDesigner/QDesignerFormWindowInterface-setContents-f-1.rst
+        :description: QtDesigner/QDesignerFormWindowInterface-setContents-f-3.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setDirty
         :args:
@@ -226,8 +226,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setExportMacro
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setExportMacro-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setExportMacro-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setFeatures
         :args:
@@ -236,8 +236,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setFileName
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setFileName-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setGrid
         :args:
@@ -246,8 +246,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setIncludeHints
         :args:
-            Iterable[str]
-        :description: QtDesigner/QDesignerFormWindowInterface-setIncludeHints-f.rst
+            Iterable[Optional[str]]
+        :description: QtDesigner/QDesignerFormWindowInterface-setIncludeHints-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setLayoutDefault
         :args:
@@ -257,9 +257,9 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setLayoutFunction
         :args:
-            str
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setLayoutFunction-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setLayoutFunction-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setMainContainer
         :args:
@@ -268,8 +268,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.setPixmapFunction
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-setPixmapFunction-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-setPixmapFunction-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.unmanageWidget
         :args:
@@ -296,8 +296,8 @@
 
     .. sip:signal:: PyQt6.QtDesigner.QDesignerFormWindowInterface.fileNameChanged
         :args:
-            str
-        :description: QtDesigner/QDesignerFormWindowInterface-fileNameChanged-s.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-fileNameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDesigner.QDesignerFormWindowInterface.geometryChanged
         :description: QtDesigner/QDesignerFormWindowInterface-geometryChanged-s.rst

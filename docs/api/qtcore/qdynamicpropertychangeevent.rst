@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDynamicPropertyChangeEvent.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QDynamicPropertyChangeEvent-__init__-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtCore/QDynamicPropertyChangeEvent-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDynamicPropertyChangeEvent.clone
         :returns:

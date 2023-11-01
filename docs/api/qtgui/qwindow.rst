@@ -314,12 +314,12 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.nativeEvent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QtGui/QWindow-nativeEvent-f-1.rst
+        :description: QtGui/QWindow-nativeEvent-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.opacity
         :returns:
@@ -395,8 +395,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.setFilePath
         :args:
-            str
-        :description: QtGui/QWindow-setFilePath-f.rst
+            Optional[str]
+        :description: QtGui/QWindow-setFilePath-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setFlag
         :args:
@@ -534,8 +534,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWindow.setTitle
         :args:
-            str
-        :description: QtGui/QWindow-setTitle-f.rst
+            Optional[str]
+        :description: QtGui/QWindow-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.setTransientParent
         :args:
@@ -767,8 +767,8 @@
 
     .. sip:signal:: PyQt6.QtGui.QWindow.windowTitleChanged
         :args:
-            str
-        :description: QtGui/QWindow-windowTitleChanged-s.rst
+            Optional[str]
+        :description: QtGui/QWindow-windowTitleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QWindow.xChanged
         :args:

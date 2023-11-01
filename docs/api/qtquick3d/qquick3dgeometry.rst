@@ -48,8 +48,21 @@
             int
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
-            name: str = ''
-        :description: QtQuick3D/QQuick3DGeometry-addSubset-f.rst
+            name: Optional[str] = ''
+        :description: QtQuick3D/QQuick3DGeometry-addSubset-f-1.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.addTargetAttribute
+        :args:
+            :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.TargetAttribute`
+        :description: QtQuick3D/QQuick3DGeometry-addTargetAttribute-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.addTargetAttribute
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.Attribute.Semantic`
+            int
+            stride: int = 0
+        :description: QtQuick3D/QQuick3DGeometry-addTargetAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.attribute
         :args:
@@ -94,14 +107,14 @@
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setIndexData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtQuick3D/QQuick3DGeometry-setIndexData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setIndexData-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setIndexData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtQuick3D/QQuick3DGeometry-setIndexData-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setIndexData-f-3.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setPrimitiveType
         :args:
@@ -113,16 +126,27 @@
             int
         :description: QtQuick3D/QQuick3DGeometry-setStride-f.rst
 
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setTargetData
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setTargetData-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setTargetData
+        :args:
+            int
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setTargetData-f-1.rst
+
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setVertexData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtQuick3D/QQuick3DGeometry-setVertexData-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setVertexData-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.setVertexData
         :args:
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtQuick3D/QQuick3DGeometry-setVertexData-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtQuick3D/QQuick3DGeometry-setVertexData-f-3.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.stride
         :returns:
@@ -168,6 +192,23 @@
         :returns:
             int
         :description: QtQuick3D/QQuick3DGeometry-subsetOffset-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.targetAttribute
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick3D.QQuick3DGeometry.TargetAttribute`
+        :description: QtQuick3D/QQuick3DGeometry-targetAttribute-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.targetAttributeCount
+        :returns:
+            int
+        :description: QtQuick3D/QQuick3DGeometry-targetAttributeCount-f.rst
+
+    .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.targetData
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtQuick3D/QQuick3DGeometry-targetData-f.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DGeometry.vertexData
         :returns:

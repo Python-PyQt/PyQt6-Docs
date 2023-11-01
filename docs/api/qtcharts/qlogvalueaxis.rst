@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLogValueAxis.setLabelFormat
         :args:
-            str
-        :description: QtCharts/QLogValueAxis-setLabelFormat-f.rst
+            Optional[str]
+        :description: QtCharts/QLogValueAxis-setLabelFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QLogValueAxis.setMax
         :args:
@@ -82,8 +82,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QLogValueAxis.labelFormatChanged
         :args:
-            str
-        :description: QtCharts/QLogValueAxis-labelFormatChanged-s.rst
+            Optional[str]
+        :description: QtCharts/QLogValueAxis-labelFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QLogValueAxis.maxChanged
         :args:

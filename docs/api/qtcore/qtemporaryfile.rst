@@ -9,8 +9,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
-            str
-        :description: QtCore/QTemporaryFile-__init__-f-1.rst
+            Optional[str]
+        :description: QtCore/QTemporaryFile-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
@@ -19,9 +19,9 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QTemporaryFile-__init__-f-3.rst
+        :description: QtCore/QTemporaryFile-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.autoRemove
         :returns:
@@ -30,11 +30,11 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.createNativeFile
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTemporaryFile`
         :static:
-        :description: QtCore/QTemporaryFile-createNativeFile-f.rst
+        :description: QtCore/QTemporaryFile-createNativeFile-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.createNativeFile
         :args:
@@ -68,10 +68,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.rename
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QTemporaryFile-rename-f.rst
+        :description: QtCore/QTemporaryFile-rename-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.setAutoRemove
         :args:
@@ -80,5 +80,5 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.setFileTemplate
         :args:
-            str
-        :description: QtCore/QTemporaryFile-setFileTemplate-f.rst
+            Optional[str]
+        :description: QtCore/QTemporaryFile-setFileTemplate-f-1.rst

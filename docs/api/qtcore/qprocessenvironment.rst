@@ -27,10 +27,10 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.contains
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QProcessEnvironment-contains-f.rst
+        :description: QtCore/QProcessEnvironment-contains-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.__eq__
         :args:
@@ -51,9 +51,9 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.insert
         :args:
-            str
-            str
-        :description: QtCore/QProcessEnvironment-insert-f-1.rst
+            Optional[str]
+            Optional[str]
+        :description: QtCore/QProcessEnvironment-insert-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.isEmpty
         :returns:
@@ -74,8 +74,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.remove
         :args:
-            str
-        :description: QtCore/QProcessEnvironment-remove-f.rst
+            Optional[str]
+        :description: QtCore/QProcessEnvironment-remove-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.swap
         :args:
@@ -95,8 +95,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.value
         :args:
-            str
-            defaultValue: str = ''
+            Optional[str]
+            defaultValue: Optional[str] = ''
         :returns:
             str
-        :description: QtCore/QProcessEnvironment-value-f.rst
+        :description: QtCore/QProcessEnvironment-value-f-1.rst

@@ -436,8 +436,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.keyboardSearch
         :args:
-            str
-        :description: QtWidgets/QAbstractItemView-keyboardSearch-f.rst
+            Optional[str]
+        :description: QtWidgets/QAbstractItemView-keyboardSearch-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.keyPressEvent
         :args:

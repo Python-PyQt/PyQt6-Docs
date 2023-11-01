@@ -307,9 +307,9 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.setSceneGraphBackend
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtQuick/QQuickWindow-setSceneGraphBackend-f.rst
+        :description: QtQuick/QQuickWindow-setSceneGraphBackend-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.setTextRenderType
         :args:
@@ -390,8 +390,8 @@
     .. sip:signal:: PyQt6.QtQuick.QQuickWindow.sceneGraphError
         :args:
             :sip:ref:`~PyQt6.QtQuick.QQuickWindow.SceneGraphError`
-            str
-        :description: QtQuick/QQuickWindow-sceneGraphError-s.rst
+            Optional[str]
+        :description: QtQuick/QQuickWindow-sceneGraphError-s-1.rst
 
     .. sip:signal:: PyQt6.QtQuick.QQuickWindow.sceneGraphInitialized
         :description: QtQuick/QQuickWindow-sceneGraphInitialized-s.rst

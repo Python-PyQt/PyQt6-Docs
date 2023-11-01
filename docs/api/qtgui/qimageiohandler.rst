@@ -163,8 +163,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImageIOHandler.setFormat
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtGui/QImageIOHandler-setFormat-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtGui/QImageIOHandler-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageIOHandler.setOption
         :args:

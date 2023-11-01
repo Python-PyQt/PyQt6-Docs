@@ -150,9 +150,9 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
-            str
+            Optional[str]
             format: str = None
-        :description: QtGui/QImage-__init__-f-5.rst
+        :description: QtGui/QImage-__init__-f-15.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
@@ -419,12 +419,12 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fromData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             format: str = None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
         :static:
-        :description: QtGui/QImage-fromData-f-1.rst
+        :description: QtGui/QImage-fromData-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.fromHBITMAP
         :args:
@@ -477,11 +477,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.load
         :args:
-            str
+            Optional[str]
             format: str = None
         :returns:
             bool
-        :description: QtGui/QImage-load-f-1.rst
+        :description: QtGui/QImage-load-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.loadFromData
         :args:
@@ -493,11 +493,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.loadFromData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             format: str = None
         :returns:
             bool
-        :description: QtGui/QImage-loadFromData-f-1.rst
+        :description: QtGui/QImage-loadFromData-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.mirror
         :args:
@@ -602,12 +602,12 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.save
         :args:
-            str
+            Optional[str]
             format: str = None
             quality: int = -1
         :returns:
             bool
-        :description: QtGui/QImage-save-f.rst
+        :description: QtGui/QImage-save-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.save
         :args:
@@ -734,9 +734,9 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.setText
         :args:
-            str
-            str
-        :description: QtGui/QImage-setText-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtGui/QImage-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.size
         :returns:
@@ -755,10 +755,10 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.text
         :args:
-            key: str = ''
+            key: Optional[str] = ''
         :returns:
             str
-        :description: QtGui/QImage-text-f.rst
+        :description: QtGui/QImage-text-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.textKeys
         :returns:

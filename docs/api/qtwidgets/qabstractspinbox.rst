@@ -93,10 +93,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.fixup
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtWidgets/QAbstractSpinBox-fixup-f.rst
+        :description: QtWidgets/QAbstractSpinBox-fixup-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.focusInEvent
         :args:
@@ -253,8 +253,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.setSpecialValueText
         :args:
-            str
-        :description: QtWidgets/QAbstractSpinBox-setSpecialValueText-f.rst
+            Optional[str]
+        :description: QtWidgets/QAbstractSpinBox-setSpecialValueText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.setWrapping
         :args:
@@ -304,13 +304,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtWidgets/QAbstractSpinBox-validate-f.rst
+        :description: QtWidgets/QAbstractSpinBox-validate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractSpinBox.wheelEvent
         :args:

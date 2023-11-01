@@ -42,8 +42,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpMultiPart.setBoundary
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpMultiPart-setBoundary-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QHttpMultiPart-setBoundary-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpMultiPart.setContentType
         :args:

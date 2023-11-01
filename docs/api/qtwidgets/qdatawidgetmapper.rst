@@ -28,8 +28,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
             int
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWidgets/QDataWidgetMapper-addMapping-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWidgets/QDataWidgetMapper-addMapping-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDataWidgetMapper.clearMapping
         :description: QtWidgets/QDataWidgetMapper-clearMapping-f.rst

@@ -159,45 +159,45 @@
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.writeCharacteristic
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             mode: :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyService.WriteMode` = :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyService.WriteMode.WriteWithResponse`
-        :description: QtBluetooth/QLowEnergyService-writeCharacteristic-f.rst
+        :description: QtBluetooth/QLowEnergyService-writeCharacteristic-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.writeDescriptor
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyDescriptor`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-writeDescriptor-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-writeDescriptor-f-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.characteristicChanged
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-characteristicChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-characteristicChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.characteristicRead
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-characteristicRead-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-characteristicRead-s-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.characteristicWritten
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-characteristicWritten-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-characteristicWritten-s-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.descriptorRead
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyDescriptor`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-descriptorRead-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-descriptorRead-s-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.descriptorWritten
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyDescriptor`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtBluetooth/QLowEnergyService-descriptorWritten-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtBluetooth/QLowEnergyService-descriptorWritten-s-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QLowEnergyService.errorOccurred
         :args:

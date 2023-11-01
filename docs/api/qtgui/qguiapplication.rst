@@ -219,9 +219,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setApplicationDisplayName
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtGui/QGuiApplication-setApplicationDisplayName-f.rst
+        :description: QtGui/QGuiApplication-setApplicationDisplayName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setBadgeNumber
         :args:
@@ -230,9 +230,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setDesktopFileName
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtGui/QGuiApplication-setDesktopFileName-f.rst
+        :description: QtGui/QGuiApplication-setDesktopFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setDesktopSettingsAware
         :args:

@@ -17,8 +17,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStaticText.__init__
         :args:
-            str
-        :description: QtGui/QStaticText-__init__-f-1.rst
+            Optional[str]
+        :description: QtGui/QStaticText-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QStaticText.__init__
         :args:
@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStaticText.setText
         :args:
-            str
-        :description: QtGui/QStaticText-setText-f.rst
+            Optional[str]
+        :description: QtGui/QStaticText-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStaticText.setTextFormat
         :args:

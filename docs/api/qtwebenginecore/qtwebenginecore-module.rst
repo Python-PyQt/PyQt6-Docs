@@ -23,6 +23,13 @@
             str
         :description: QtWebEngineCore/qWebEngineChromiumVersion-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineGetDomainAndRegistry
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            str
+        :description: QtWebEngineCore/qWebEngineGetDomainAndRegistry-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.qWebEngineProcessName
         :returns:
             str

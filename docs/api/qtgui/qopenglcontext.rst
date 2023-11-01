@@ -58,10 +58,10 @@
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.getProcAddress
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QtGui/QOpenGLContext-getProcAddress-f-1.rst
+        :description: QtGui/QOpenGLContext-getProcAddress-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.globalShareContext
         :returns:
@@ -71,10 +71,10 @@
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.hasExtension
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtGui/QOpenGLContext-hasExtension-f.rst
+        :description: QtGui/QOpenGLContext-hasExtension-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.isOpenGLES
         :returns:

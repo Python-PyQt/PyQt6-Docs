@@ -160,12 +160,12 @@
 
     .. sip:method:: PyQt6.QtCore.pyqtSlot
         :args:
-            *
+            Any
             name: str = None
             result: str = None
         :returns:
             Any
-        :description: QtCore/pyqtSlot-f-1.rst
+        :description: QtCore/pyqtSlot-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.Q_ARG
         :args:
@@ -217,11 +217,11 @@
 
     .. sip:method:: PyQt6.QtCore.qCompress
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             compressionLevel: int = -1
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/qCompress-f-1.rst
+        :description: QtCore/qCompress-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.qCritical
         :args:
@@ -243,10 +243,10 @@
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariable
         :args:
             str
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/qEnvironmentVariable-f-1.rst
+        :description: QtCore/qEnvironmentVariable-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariableIntValue
         :args:
@@ -287,10 +287,10 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QtMsgType`
             :sip:ref:`~PyQt6.QtCore.QMessageLogContext`
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtCore/qFormatLogMessage-f.rst
+        :description: QtCore/qFormatLogMessage-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qFuzzyCompare
         :args:
@@ -319,10 +319,10 @@
 
     .. sip:method:: PyQt6.QtCore.qInstallMessageHandler
         :args:
-            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, str], None]]
+            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, Optional[str]], None]]
         :returns:
-            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, str], None]]
-        :description: QtCore/qInstallMessageHandler-f.rst
+            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, Optional[str]], None]]
+        :description: QtCore/qInstallMessageHandler-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qIsFinite
         :args:
@@ -388,8 +388,8 @@
 
     .. sip:method:: PyQt6.QtCore.qSetMessagePattern
         :args:
-            str
-        :description: QtCore/qSetMessagePattern-f.rst
+            Optional[str]
+        :description: QtCore/qSetMessagePattern-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qSetPadChar
         :args:
@@ -434,10 +434,10 @@
 
     .. sip:method:: PyQt6.QtCore.qUncompress
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/qUncompress-f-1.rst
+        :description: QtCore/qUncompress-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.qUnregisterResourceData
         :args:

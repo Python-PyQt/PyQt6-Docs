@@ -173,22 +173,22 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.fromString
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
         :static:
-        :description: QtCore/QDate-fromString-f.rst
+        :description: QtCore/QDate-fromString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.fromString
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
         :static:
-        :description: QtCore/QDate-fromString-f-1.rst
+        :description: QtCore/QDate-fromString-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.__ge__
         :args:
@@ -335,11 +335,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.toString
         :args:
-            str
+            Optional[str]
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             str
-        :description: QtCore/QDate-toString-f-1.rst
+        :description: QtCore/QDate-toString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.weekNumber
         :returns:

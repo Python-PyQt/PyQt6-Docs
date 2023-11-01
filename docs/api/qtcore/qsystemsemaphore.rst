@@ -38,10 +38,17 @@
 
     .. sip:method:: PyQt6.QtCore.QSystemSemaphore.__init__
         :args:
-            str
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
             initialValue: int = 0
             mode: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode` = :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`
-        :description: QtCore/QSystemSemaphore-__init__-f.rst
+        :description: QtCore/QSystemSemaphore-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.__init__
+        :args:
+            Optional[str]
+            initialValue: int = 0
+            mode: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode` = :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`
+        :description: QtCore/QSystemSemaphore-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSystemSemaphore.acquire
         :returns:
@@ -58,10 +65,41 @@
             str
         :description: QtCore/QSystemSemaphore-errorString-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.isKeyTypeSupported
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type`
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QSystemSemaphore-isKeyTypeSupported-f.rst
+
     .. sip:method:: PyQt6.QtCore.QSystemSemaphore.key
         :returns:
             str
         :description: QtCore/QSystemSemaphore-key-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.legacyNativeKey
+        :args:
+            Optional[str]
+            type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.legacyDefaultTypeForOs()
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
+        :static:
+        :description: QtCore/QSystemSemaphore-legacyNativeKey-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.nativeIpcKey
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
+        :description: QtCore/QSystemSemaphore-nativeIpcKey-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.platformSafeKey
+        :args:
+            Optional[str]
+            type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.DefaultTypeForOs
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
+        :static:
+        :description: QtCore/QSystemSemaphore-platformSafeKey-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSystemSemaphore.release
         :args:
@@ -72,7 +110,22 @@
 
     .. sip:method:: PyQt6.QtCore.QSystemSemaphore.setKey
         :args:
-            str
+            Optional[str]
             initialValue: int = 0
             mode: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode` = :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`
-        :description: QtCore/QSystemSemaphore-setKey-f.rst
+        :description: QtCore/QSystemSemaphore-setKey-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.setNativeKey
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
+            initialValue: int = 0
+            mode: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode` = :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`
+        :description: QtCore/QSystemSemaphore-setNativeKey-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSystemSemaphore.setNativeKey
+        :args:
+            Optional[str]
+            initialValue: int = 0
+            mode: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode` = :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`
+            type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.legacyDefaultTypeForOs()
+        :description: QtCore/QSystemSemaphore-setNativeKey-f-1.rst

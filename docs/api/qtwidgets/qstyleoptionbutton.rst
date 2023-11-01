@@ -50,7 +50,7 @@
         :description: QtWidgets/QStyleOptionButton-iconSize-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionButton.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionButton-text-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionButton.__init__

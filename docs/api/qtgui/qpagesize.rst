@@ -430,17 +430,17 @@
     .. sip:method:: PyQt6.QtGui.QPageSize.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QSize`
-            name: str = ''
+            name: Optional[str] = ''
             matchPolicy: :sip:ref:`~PyQt6.QtGui.QPageSize.SizeMatchPolicy` = :sip:ref:`~PyQt6.QtGui.QPageSize.SizeMatchPolicy.FuzzyMatch`
-        :description: QtGui/QPageSize-__init__-f-3.rst
+        :description: QtGui/QPageSize-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPageSize.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
             :sip:ref:`~PyQt6.QtGui.QPageSize.Unit`
-            name: str = ''
+            name: Optional[str] = ''
             matchPolicy: :sip:ref:`~PyQt6.QtGui.QPageSize.SizeMatchPolicy` = :sip:ref:`~PyQt6.QtGui.QPageSize.SizeMatchPolicy.FuzzyMatch`
-        :description: QtGui/QPageSize-__init__-f-4.rst
+        :description: QtGui/QPageSize-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPageSize.definitionSize
         :returns:

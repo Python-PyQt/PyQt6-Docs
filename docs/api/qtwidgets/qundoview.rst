@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QUndoView.setEmptyLabel
         :args:
-            str
-        :description: QtWidgets/QUndoView-setEmptyLabel-f.rst
+            Optional[str]
+        :description: QtWidgets/QUndoView-setEmptyLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QUndoView.setGroup
         :args:

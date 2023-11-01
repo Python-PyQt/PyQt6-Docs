@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.setTargetName
         :args:
-            str
-        :description: Qt3DAnimation/QVertexBlendAnimation-setTargetName-f.rst
+            Optional[str]
+        :description: Qt3DAnimation/QVertexBlendAnimation-setTargetName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.setTargetPositions
         :args:
@@ -76,8 +76,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.targetNameChanged
         :args:
-            str
-        :description: Qt3DAnimation/QVertexBlendAnimation-targetNameChanged-s.rst
+            Optional[str]
+        :description: Qt3DAnimation/QVertexBlendAnimation-targetNameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.targetPositionsChanged
         :args:

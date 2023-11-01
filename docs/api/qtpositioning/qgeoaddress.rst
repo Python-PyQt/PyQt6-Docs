@@ -75,53 +75,53 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setCity
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setCity-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setCity-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setCountry
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setCountry-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setCountry-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setCountryCode
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setCountryCode-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setCountryCode-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setCounty
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setCounty-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setCounty-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setDistrict
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setDistrict-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setDistrict-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setPostalCode
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setPostalCode-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setPostalCode-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setState
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setState-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setState-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setStreet
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setStreet-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setStreet-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setStreetNumber
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setStreetNumber-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setStreetNumber-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.setText
         :args:
-            str
-        :description: QtPositioning/QGeoAddress-setText-f.rst
+            Optional[str]
+        :description: QtPositioning/QGeoAddress-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAddress.state
         :returns:

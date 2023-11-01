@@ -55,6 +55,12 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QMessageBox.Icon.Warning
             :description: QtWidgets/QMessageBox-Icon-Warning-v.rst
 
+    .. sip:enum:: PyQt6.QtWidgets.QMessageBox.Option
+        :description: QtWidgets/QMessageBox-Option-e.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QMessageBox.Option.DontUseNativeDialog
+            :description: QtWidgets/QMessageBox-Option-DontUseNativeDialog-v.rst
+
     .. sip:enum:: PyQt6.QtWidgets.QMessageBox.StandardButton
         :description: QtWidgets/QMessageBox-StandardButton-e.rst
 
@@ -147,27 +153,27 @@
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.Icon`
-            str
-            str
+            Optional[str]
+            Optional[str]
             buttons: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.NoButton`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.Dialog|Qt.MSWindowsFixedSizeDialogHint
-        :description: QtWidgets/QMessageBox-__init__-f-2.rst
+        :description: QtWidgets/QMessageBox-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.about
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-            str
+            Optional[str]
+            Optional[str]
         :static:
-        :description: QtWidgets/QMessageBox-about-f.rst
+        :description: QtWidgets/QMessageBox-about-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.aboutQt
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            title: str = ''
+            title: Optional[str] = ''
         :static:
-        :description: QtWidgets/QMessageBox-aboutQt-f.rst
+        :description: QtWidgets/QMessageBox-aboutQt-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.addButton
         :args:
@@ -184,11 +190,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.addButton
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.ButtonRole`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QPushButton`
-        :description: QtWidgets/QMessageBox-addButton-f-2.rst
+        :description: QtWidgets/QMessageBox-addButton-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.button
         :args:
@@ -232,14 +238,14 @@
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.critical
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-            str
+            Optional[str]
+            Optional[str]
             buttons: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.Ok`
             defaultButton: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.NoButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton`
         :static:
-        :description: QtWidgets/QMessageBox-critical-f-1.rst
+        :description: QtWidgets/QMessageBox-critical-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.defaultButton
         :returns:
@@ -276,14 +282,14 @@
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.information
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-            str
+            Optional[str]
+            Optional[str]
             buttons: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.Ok`
             defaultButton: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.NoButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton`
         :static:
-        :description: QtWidgets/QMessageBox-information-f-1.rst
+        :description: QtWidgets/QMessageBox-information-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.informativeText
         :returns:
@@ -303,17 +309,22 @@
             PYQT_SLOT
         :description: QtWidgets/QMessageBox-open-f-1.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QMessageBox.options
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QMessageBox.Option`
+        :description: QtWidgets/QMessageBox-options-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.question
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-            str
+            Optional[str]
+            Optional[str]
             buttons: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = QMessageBox.StandardButtons(QMessageBox.Yes|QMessageBox.No)
             defaultButton: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.NoButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton`
         :static:
-        :description: QtWidgets/QMessageBox-question-f-1.rst
+        :description: QtWidgets/QMessageBox-question-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.removeButton
         :args:
@@ -342,8 +353,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setDetailedText
         :args:
-            str
-        :description: QtWidgets/QMessageBox-setDetailedText-f.rst
+            Optional[str]
+        :description: QtWidgets/QMessageBox-setDetailedText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setEscapeButton
         :args:
@@ -367,8 +378,19 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setInformativeText
         :args:
-            str
-        :description: QtWidgets/QMessageBox-setInformativeText-f.rst
+            Optional[str]
+        :description: QtWidgets/QMessageBox-setInformativeText-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QMessageBox.setOption
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QMessageBox.Option`
+            on: bool = True
+        :description: QtWidgets/QMessageBox-setOption-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QMessageBox.setOptions
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QMessageBox.Option`
+        :description: QtWidgets/QMessageBox-setOptions-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setStandardButtons
         :args:
@@ -377,8 +399,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setText
         :args:
-            str
-        :description: QtWidgets/QMessageBox-setText-f.rst
+            Optional[str]
+        :description: QtWidgets/QMessageBox-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setTextFormat
         :args:
@@ -397,8 +419,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.setWindowTitle
         :args:
-            str
-        :description: QtWidgets/QMessageBox-setWindowTitle-f.rst
+            Optional[str]
+        :description: QtWidgets/QMessageBox-setWindowTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.showEvent
         :args:
@@ -425,6 +447,13 @@
         :static:
         :description: QtWidgets/QMessageBox-standardIcon-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QMessageBox.testOption
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QMessageBox.Option`
+        :returns:
+            bool
+        :description: QtWidgets/QMessageBox-testOption-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.text
         :returns:
             str
@@ -443,14 +472,14 @@
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.warning
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-            str
+            Optional[str]
+            Optional[str]
             buttons: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.Ok`
             defaultButton: :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton` = :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton.NoButton`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMessageBox.StandardButton`
         :static:
-        :description: QtWidgets/QMessageBox-warning-f-1.rst
+        :description: QtWidgets/QMessageBox-warning-f-2.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QMessageBox.buttonClicked
         :args:

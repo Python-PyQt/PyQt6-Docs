@@ -232,8 +232,8 @@
     .. sip:signal:: PyQt6.QtQuickWidgets.QQuickWidget.sceneGraphError
         :args:
             :sip:ref:`~PyQt6.QtQuick.QQuickWindow.SceneGraphError`
-            str
-        :description: QtQuickWidgets/QQuickWidget-sceneGraphError-s.rst
+            Optional[str]
+        :description: QtQuickWidgets/QQuickWidget-sceneGraphError-s-1.rst
 
     .. sip:signal:: PyQt6.QtQuickWidgets.QQuickWidget.statusChanged
         :args:

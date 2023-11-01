@@ -46,13 +46,13 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.evaluate
         :args:
-            str
-            fileName: str = ''
+            Optional[str]
+            fileName: Optional[str] = ''
             lineNumber: int = 1
             exceptionStackTrace: List[str] = None
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSEngine-evaluate-f-1.rst
+        :description: QtQml/QJSEngine-evaluate-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.globalObject
         :returns:
@@ -66,16 +66,16 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.importModule
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSEngine-importModule-f.rst
+        :description: QtQml/QJSEngine-importModule-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.installExtensions
         :args:
             :sip:ref:`~PyQt6.QtQml.QJSEngine.Extension`
-            object: Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str] = QJSValue()
-        :description: QtQml/QJSEngine-installExtensions-f-1.rst
+            object: Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]] = QJSValue()
+        :description: QtQml/QJSEngine-installExtensions-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.isInterrupted
         :returns:
@@ -92,10 +92,10 @@
     .. sip:method:: PyQt6.QtQml.QJSEngine.newErrorObject
         :args:
             :sip:ref:`~PyQt6.QtQml.QJSValue.ErrorType`
-            message: str = ''
+            message: Optional[str] = ''
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSEngine-newErrorObject-f.rst
+        :description: QtQml/QJSEngine-newErrorObject-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.newObject
         :returns:
@@ -118,10 +118,10 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.newSymbol
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSEngine-newSymbol-f.rst
+        :description: QtQml/QJSEngine-newSymbol-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.objectOwnership
         :args:
@@ -133,11 +133,11 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.registerModule
         :args:
-            str
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str]
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
         :returns:
             bool
-        :description: QtQml/QJSEngine-registerModule-f.rst
+        :description: QtQml/QJSEngine-registerModule-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.setInterrupted
         :args:
@@ -153,24 +153,24 @@
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.setUiLanguage
         :args:
-            str
-        :description: QtQml/QJSEngine-setUiLanguage-f.rst
+            Optional[str]
+        :description: QtQml/QJSEngine-setUiLanguage-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.throwError
         :args:
-            str
-        :description: QtQml/QJSEngine-throwError-f.rst
+            Optional[str]
+        :description: QtQml/QJSEngine-throwError-f-3.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.throwError
         :args:
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, str]
-        :description: QtQml/QJSEngine-throwError-f-2.rst
+            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
+        :description: QtQml/QJSEngine-throwError-f-4.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.throwError
         :args:
             :sip:ref:`~PyQt6.QtQml.QJSValue.ErrorType`
-            message: str = ''
-        :description: QtQml/QJSEngine-throwError-f-1.rst
+            message: Optional[str] = ''
+        :description: QtQml/QJSEngine-throwError-f-5.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.toManagedValue
         :args:

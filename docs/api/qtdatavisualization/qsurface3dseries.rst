@@ -85,8 +85,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QSurface3DSeries.setTextureFile
         :args:
-            str
-        :description: QtDataVisualization/QSurface3DSeries-setTextureFile-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QSurface3DSeries-setTextureFile-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QSurface3DSeries.setWireframeColor
         :args:
@@ -140,8 +140,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QSurface3DSeries.textureFileChanged
         :args:
-            str
-        :description: QtDataVisualization/QSurface3DSeries-textureFileChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QSurface3DSeries-textureFileChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QSurface3DSeries.wireframeColorChanged
         :args:

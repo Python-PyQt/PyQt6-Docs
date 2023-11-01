@@ -10,9 +10,9 @@
 
     .. sip:method:: PyQt6.QtGui.QUndoCommand.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtGui.QUndoCommand` = None
-        :description: QtGui/QUndoCommand-__init__-f-1.rst
+        :description: QtGui/QUndoCommand-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoCommand.actionText
         :returns:
@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtGui.QUndoCommand.setText
         :args:
-            str
-        :description: QtGui/QUndoCommand-setText-f.rst
+            Optional[str]
+        :description: QtGui/QUndoCommand-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoCommand.text
         :returns:

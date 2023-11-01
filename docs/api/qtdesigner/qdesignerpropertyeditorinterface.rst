@@ -37,10 +37,10 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertyEditorInterface.setPropertyValue
         :args:
-            str
+            Optional[str]
             Any
             changed: bool = True
-        :description: QtDesigner/QDesignerPropertyEditorInterface-setPropertyValue-f.rst
+        :description: QtDesigner/QDesignerPropertyEditorInterface-setPropertyValue-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerPropertyEditorInterface.setReadOnly
         :args:
@@ -49,6 +49,6 @@
 
     .. sip:signal:: PyQt6.QtDesigner.QDesignerPropertyEditorInterface.propertyChanged
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtDesigner/QDesignerPropertyEditorInterface-propertyChanged-s.rst
+        :description: QtDesigner/QDesignerPropertyEditorInterface-propertyChanged-s-1.rst

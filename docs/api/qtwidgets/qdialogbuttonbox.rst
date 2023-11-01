@@ -154,11 +154,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.addButton
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox.ButtonRole`
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QPushButton`
-        :description: QtWidgets/QDialogButtonBox-addButton-f-2.rst
+        :description: QtWidgets/QDialogButtonBox-addButton-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.button
         :args:

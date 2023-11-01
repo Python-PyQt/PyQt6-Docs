@@ -21,7 +21,7 @@
         :description: QtWidgets/QStyleOptionComboBox-currentIcon-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionComboBox.currentText
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionComboBox-currentText-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionComboBox.editable

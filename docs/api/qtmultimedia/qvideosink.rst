@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoSink.setSubtitleText
         :args:
-            str
-        :description: QtMultimedia/QVideoSink-setSubtitleText-f.rst
+            Optional[str]
+        :description: QtMultimedia/QVideoSink-setSubtitleText-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoSink.setVideoFrame
         :args:
@@ -36,8 +36,8 @@
 
     .. sip:signal:: PyQt6.QtMultimedia.QVideoSink.subtitleTextChanged
         :args:
-            str
-        :description: QtMultimedia/QVideoSink-subtitleTextChanged-s.rst
+            Optional[str]
+        :description: QtMultimedia/QVideoSink-subtitleTextChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QVideoSink.videoFrameChanged
         :args:

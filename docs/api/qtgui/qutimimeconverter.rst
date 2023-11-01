@@ -8,29 +8,29 @@
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.canConvert
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :returns:
             bool
-        :description: QtGui/QUtiMimeConverter-canConvert-f.rst
+        :description: QtGui/QUtiMimeConverter-canConvert-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.convertFromMime
         :args:
-            str
+            Optional[str]
             Any
-            str
+            Optional[str]
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QUtiMimeConverter-convertFromMime-f.rst
+        :description: QtGui/QUtiMimeConverter-convertFromMime-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.convertToMime
         :args:
-            str
-            Iterable[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-            str
+            Optional[str]
+            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
+            Optional[str]
         :returns:
             Any
-        :description: QtGui/QUtiMimeConverter-convertToMime-f.rst
+        :description: QtGui/QUtiMimeConverter-convertToMime-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.count
         :args:
@@ -41,14 +41,14 @@
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.mimeForUti
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtGui/QUtiMimeConverter-mimeForUti-f.rst
+        :description: QtGui/QUtiMimeConverter-mimeForUti-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.utiForMime
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtGui/QUtiMimeConverter-utiForMime-f.rst
+        :description: QtGui/QUtiMimeConverter-utiForMime-f-1.rst

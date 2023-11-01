@@ -50,34 +50,34 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.__init__
         :args:
-            str
-            application: str = ''
+            Optional[str]
+            application: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QSettings-__init__-f-2.rst
+        :description: QtCore/QSettings-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QSettings.Format`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QSettings-__init__-f-3.rst
+        :description: QtCore/QSettings-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QSettings.Scope`
-            str
-            application: str = ''
+            Optional[str]
+            application: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QSettings-__init__-f-4.rst
+        :description: QtCore/QSettings-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QSettings.Format`
             :sip:ref:`~PyQt6.QtCore.QSettings.Scope`
-            str
-            application: str = ''
+            Optional[str]
+            application: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QSettings-__init__-f-5.rst
+        :description: QtCore/QSettings-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.allKeys
         :returns:
@@ -91,21 +91,21 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginGroup
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtCore/QSettings-beginGroup-f-1.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QSettings-beginGroup-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginReadArray
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             int
-        :description: QtCore/QSettings-beginReadArray-f-1.rst
+        :description: QtCore/QSettings-beginReadArray-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.beginWriteArray
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             size: int = -1
-        :description: QtCore/QSettings-beginWriteArray-f-1.rst
+        :description: QtCore/QSettings-beginWriteArray-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.childGroups
         :returns:
@@ -122,10 +122,10 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.contains
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtCore/QSettings-contains-f-1.rst
+        :description: QtCore/QSettings-contains-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.defaultFormat
         :returns:
@@ -183,8 +183,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.remove
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtCore/QSettings-remove-f-1.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QSettings-remove-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.scope
         :returns:
@@ -216,15 +216,15 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QSettings.Format`
             :sip:ref:`~PyQt6.QtCore.QSettings.Scope`
-            str
+            Optional[str]
         :static:
-        :description: QtCore/QSettings-setPath-f.rst
+        :description: QtCore/QSettings-setPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.setValue
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             Any
-        :description: QtCore/QSettings-setValue-f-1.rst
+        :description: QtCore/QSettings-setValue-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.status
         :returns:
@@ -236,9 +236,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.value
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             defaultValue: Any = None
             type: type = None
         :returns:
             Any
-        :description: QtCore/QSettings-value-f-2.rst
+        :description: QtCore/QSettings-value-f-3.rst

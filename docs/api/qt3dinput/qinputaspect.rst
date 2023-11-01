@@ -16,7 +16,7 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QInputAspect.createPhysicalDevice
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.Qt3DInput.QAbstractPhysicalDevice`
-        :description: Qt3DInput/QInputAspect-createPhysicalDevice-f.rst
+        :description: Qt3DInput/QInputAspect-createPhysicalDevice-f-1.rst

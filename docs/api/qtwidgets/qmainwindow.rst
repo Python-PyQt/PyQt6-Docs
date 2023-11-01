@@ -51,10 +51,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addToolBar
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QToolBar`
-        :description: QtWidgets/QMainWindow-addToolBar-f-1.rst
+        :description: QtWidgets/QMainWindow-addToolBar-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.addToolBar
         :args:
@@ -187,11 +187,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.restoreState
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             version: int = 0
         :returns:
             bool
-        :description: QtWidgets/QMainWindow-restoreState-f.rst
+        :description: QtWidgets/QMainWindow-restoreState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.saveState
         :args:

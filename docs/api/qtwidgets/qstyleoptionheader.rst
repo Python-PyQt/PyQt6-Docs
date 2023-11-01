@@ -87,7 +87,7 @@
         :description: QtWidgets/QStyleOptionHeader-sortIndicator-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionHeader-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionHeader.textAlignment

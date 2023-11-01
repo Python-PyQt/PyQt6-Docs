@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScript.setName
         :args:
-            str
-        :description: QtWebEngineCore/QWebEngineScript-setName-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEngineScript-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScript.setRunsOnSubFrames
         :args:
@@ -81,8 +81,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScript.setSourceCode
         :args:
-            str
-        :description: QtWebEngineCore/QWebEngineScript-setSourceCode-f.rst
+            Optional[str]
+        :description: QtWebEngineCore/QWebEngineScript-setSourceCode-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScript.setSourceUrl
         :args:

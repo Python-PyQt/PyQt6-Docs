@@ -124,10 +124,10 @@
 
     .. sip:method:: PyQt6.QtNfc.QNearFieldTarget.sendCommand
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtNfc.QNearFieldTarget.RequestId`
-        :description: QtNfc/QNearFieldTarget-sendCommand-f.rst
+        :description: QtNfc/QNearFieldTarget-sendCommand-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNearFieldTarget.type
         :returns:

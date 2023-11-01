@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DLabel.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtGui.QFont`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QCustom3DLabel-__init__-f-1.rst
+        :description: QtDataVisualization/QCustom3DLabel-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DLabel.backgroundColor
         :returns:
@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DLabel.setText
         :args:
-            str
-        :description: QtDataVisualization/QCustom3DLabel-setText-f.rst
+            Optional[str]
+        :description: QtDataVisualization/QCustom3DLabel-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DLabel.setTextColor
         :args:
@@ -116,8 +116,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DLabel.textChanged
         :args:
-            str
-        :description: QtDataVisualization/QCustom3DLabel-textChanged-s.rst
+            Optional[str]
+        :description: QtDataVisualization/QCustom3DLabel-textChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DLabel.textColorChanged
         :args:

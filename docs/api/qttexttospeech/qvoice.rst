@@ -74,6 +74,11 @@
         :static:
         :description: QtTextToSpeech/QVoice-genderName-f.rst
 
+    .. sip:method:: PyQt6.QtTextToSpeech.QVoice.language
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+        :description: QtTextToSpeech/QVoice-language-f.rst
+
     .. sip:method:: PyQt6.QtTextToSpeech.QVoice.locale
         :returns:
             :sip:ref:`~PyQt6.QtCore.QLocale`

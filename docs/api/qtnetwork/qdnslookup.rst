@@ -31,6 +31,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Error.ServerRefusedError
             :description: QtNetwork/QDnsLookup-Error-ServerRefusedError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Error.TimeoutError
+            :description: QtNetwork/QDnsLookup-Error-TimeoutError-v.rst
+
     .. sip:enum:: PyQt6.QtNetwork.QDnsLookup.Type
         :description: QtNetwork/QDnsLookup-Type-e.rst
 
@@ -69,17 +72,26 @@
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-1.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            str
+            Optional[str]
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-2.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-4.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
+            Optional[str]
+            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            int
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtNetwork/QDnsLookup-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.abort
         :description: QtNetwork/QDnsLookup-abort-f.rst
@@ -127,6 +139,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QHostAddress`
         :description: QtNetwork/QDnsLookup-nameserver-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.nameserverPort
+        :returns:
+            int
+        :description: QtNetwork/QDnsLookup-nameserverPort-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.nameServerRecords
         :returns:
             List[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
@@ -144,13 +161,24 @@
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setName
         :args:
-            str
-        :description: QtNetwork/QDnsLookup-setName-f.rst
+            Optional[str]
+        :description: QtNetwork/QDnsLookup-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
         :args:
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
         :description: QtNetwork/QDnsLookup-setNameserver-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
+        :args:
+            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            int
+        :description: QtNetwork/QDnsLookup-setNameserver-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserverPort
+        :args:
+            int
+        :description: QtNetwork/QDnsLookup-setNameserverPort-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setType
         :args:
@@ -172,13 +200,18 @@
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameChanged
         :args:
-            str
-        :description: QtNetwork/QDnsLookup-nameChanged-s.rst
+            Optional[str]
+        :description: QtNetwork/QDnsLookup-nameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameserverChanged
         :args:
             Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
         :description: QtNetwork/QDnsLookup-nameserverChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameserverPortChanged
+        :args:
+            int
+        :description: QtNetwork/QDnsLookup-nameserverPortChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.typeChanged
         :args:

@@ -9,8 +9,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.addPluginPath
         :args:
-            str
-        :description: QtDesigner/QFormBuilder-addPluginPath-f.rst
+            Optional[str]
+        :description: QtDesigner/QFormBuilder-addPluginPath-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.clearPluginPaths
         :description: QtDesigner/QFormBuilder-clearPluginPaths-f.rst
@@ -27,5 +27,5 @@
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.setPluginPath
         :args:
-            Iterable[str]
-        :description: QtDesigner/QFormBuilder-setPluginPath-f.rst
+            Iterable[Optional[str]]
+        :description: QtDesigner/QFormBuilder-setPluginPath-f-1.rst

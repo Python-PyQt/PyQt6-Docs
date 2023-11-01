@@ -28,10 +28,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.contextProperty
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtQml/QQmlContext-contextProperty-f.rst
+        :description: QtQml/QQmlContext-contextProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.engine
         :returns:
@@ -52,10 +52,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.objectForName
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlContext-objectForName-f.rst
+        :description: QtQml/QQmlContext-objectForName-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.parentContext
         :returns:
@@ -86,12 +86,12 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.setContextProperty
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlContext-setContextProperty-f.rst
+        :description: QtQml/QQmlContext-setContextProperty-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.setContextProperty
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtQml/QQmlContext-setContextProperty-f-1.rst
+        :description: QtQml/QQmlContext-setContextProperty-f-3.rst

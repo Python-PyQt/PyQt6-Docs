@@ -32,10 +32,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.option
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtNetwork/QAuthenticator-option-f.rst
+        :description: QtNetwork/QAuthenticator-option-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.options
         :returns:
@@ -54,19 +54,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setOption
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtNetwork/QAuthenticator-setOption-f.rst
+        :description: QtNetwork/QAuthenticator-setOption-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setPassword
         :args:
-            str
-        :description: QtNetwork/QAuthenticator-setPassword-f.rst
+            Optional[str]
+        :description: QtNetwork/QAuthenticator-setPassword-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setUser
         :args:
-            str
-        :description: QtNetwork/QAuthenticator-setUser-f.rst
+            Optional[str]
+        :description: QtNetwork/QAuthenticator-setUser-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.user
         :returns:

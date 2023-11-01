@@ -86,8 +86,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setComputeShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setComputeShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setComputeShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setFormat
         :args:
@@ -96,34 +96,34 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setFragmentShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setFragmentShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setFragmentShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setGeometryShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setGeometryShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setGeometryShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setShaderCode
         :args:
             :sip:ref:`~PyQt6.Qt3DRender.QShaderProgram.ShaderType`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setTessellationControlShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setTessellationControlShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setTessellationControlShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setTessellationEvaluationShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setTessellationEvaluationShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setTessellationEvaluationShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.setVertexShaderCode
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-setVertexShaderCode-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-setVertexShaderCode-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgram.shaderCode
         :args:
@@ -154,8 +154,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.computeShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-computeShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-computeShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.formatChanged
         :args:
@@ -164,18 +164,18 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.fragmentShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-fragmentShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-fragmentShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.geometryShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-geometryShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-geometryShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.logChanged
         :args:
-            str
-        :description: Qt3DRender/QShaderProgram-logChanged-s.rst
+            Optional[str]
+        :description: Qt3DRender/QShaderProgram-logChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.statusChanged
         :args:
@@ -184,15 +184,15 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.tessellationControlShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-tessellationControlShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-tessellationControlShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.tessellationEvaluationShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-tessellationEvaluationShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-tessellationEvaluationShaderCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QShaderProgram.vertexShaderCodeChanged
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: Qt3DRender/QShaderProgram-vertexShaderCodeChanged-s.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: Qt3DRender/QShaderProgram-vertexShaderCodeChanged-s-1.rst

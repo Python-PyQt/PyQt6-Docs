@@ -16,13 +16,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.addItem
         :args:
-            str
-        :description: QtWidgets/QListWidget-addItem-f-1.rst
+            Optional[str]
+        :description: QtWidgets/QListWidget-addItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.addItems
         :args:
-            Iterable[str]
-        :description: QtWidgets/QListWidget-addItems-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QListWidget-addItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.clear
         :description: QtWidgets/QListWidget-clear-f.rst
@@ -75,11 +75,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.findItems
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
             List[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
-        :description: QtWidgets/QListWidget-findItems-f-1.rst
+        :description: QtWidgets/QListWidget-findItems-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.indexFromItem
         :args:
@@ -97,14 +97,14 @@
     .. sip:method:: PyQt6.QtWidgets.QListWidget.insertItem
         :args:
             int
-            str
-        :description: QtWidgets/QListWidget-insertItem-f-1.rst
+            Optional[str]
+        :description: QtWidgets/QListWidget-insertItem-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.insertItems
         :args:
             int
-            Iterable[str]
-        :description: QtWidgets/QListWidget-insertItems-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QListWidget-insertItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.isPersistentEditorOpen
         :args:
@@ -281,8 +281,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QListWidget.currentTextChanged
         :args:
-            str
-        :description: QtWidgets/QListWidget-currentTextChanged-s.rst
+            Optional[str]
+        :description: QtWidgets/QListWidget-currentTextChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QListWidget.itemActivated
         :args:

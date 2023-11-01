@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtSvgWidgets.QGraphicsSvgItem.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` = None
-        :description: QtSvgWidgets/QGraphicsSvgItem-__init__-f-1.rst
+        :description: QtSvgWidgets/QGraphicsSvgItem-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QGraphicsSvgItem.boundingRect
         :returns:
@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt6.QtSvgWidgets.QGraphicsSvgItem.setElementId
         :args:
-            str
-        :description: QtSvgWidgets/QGraphicsSvgItem-setElementId-f.rst
+            Optional[str]
+        :description: QtSvgWidgets/QGraphicsSvgItem-setElementId-f-1.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QGraphicsSvgItem.setMaximumCacheSize
         :args:

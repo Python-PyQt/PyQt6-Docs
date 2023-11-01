@@ -38,8 +38,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNearFieldManager.setUserInformation
         :args:
-            str
-        :description: QtNfc/QNearFieldManager-setUserInformation-f.rst
+            Optional[str]
+        :description: QtNfc/QNearFieldManager-setUserInformation-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNearFieldManager.startTargetDetection
         :args:
@@ -50,8 +50,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNearFieldManager.stopTargetDetection
         :args:
-            errorMessage: str = ''
-        :description: QtNfc/QNearFieldManager-stopTargetDetection-f.rst
+            errorMessage: Optional[str] = ''
+        :description: QtNfc/QNearFieldManager-stopTargetDetection-f-1.rst
 
     .. sip:signal:: PyQt6.QtNfc.QNearFieldManager.adapterStateChanged
         :args:

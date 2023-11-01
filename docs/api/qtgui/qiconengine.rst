@@ -31,11 +31,11 @@
 
     .. sip:method:: PyQt6.QtGui.QIconEngine.addFile
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtCore.QSize`
             :sip:ref:`~PyQt6.QtGui.QIcon.Mode`
             :sip:ref:`~PyQt6.QtGui.QIcon.State`
-        :description: QtGui/QIconEngine-addFile-f.rst
+        :description: QtGui/QIconEngine-addFile-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QIconEngine.addPixmap
         :args:

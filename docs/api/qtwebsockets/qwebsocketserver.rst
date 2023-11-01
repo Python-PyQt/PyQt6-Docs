@@ -15,10 +15,10 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer.SslMode`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWebSockets/QWebSocketServer-__init__-f.rst
+        :description: QtWebSockets/QWebSocketServer-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.close
         :description: QtWebSockets/QWebSocketServer-close-f.rst
@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setServerName
         :args:
-            str
-        :description: QtWebSockets/QWebSocketServer-setServerName-f.rst
+            Optional[str]
+        :description: QtWebSockets/QWebSocketServer-setServerName-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSocketDescriptor
         :args:
@@ -141,8 +141,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSupportedSubprotocols
         :args:
-            Iterable[str]
-        :description: QtWebSockets/QWebSocketServer-setSupportedSubprotocols-f.rst
+            Iterable[Optional[str]]
+        :description: QtWebSockets/QWebSocketServer-setSupportedSubprotocols-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.socketDescriptor
         :returns:

@@ -17,16 +17,16 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlApplicationEngine-__init__-f-2.rst
+        :description: QtQml/QQmlApplicationEngine-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlApplicationEngine-__init__-f-3.rst
+        :description: QtQml/QQmlApplicationEngine-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.load
         :args:
@@ -35,20 +35,20 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.load
         :args:
-            str
-        :description: QtQml/QQmlApplicationEngine-load-f-1.rst
+            Optional[str]
+        :description: QtQml/QQmlApplicationEngine-load-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.loadData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             url: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-        :description: QtQml/QQmlApplicationEngine-loadData-f.rst
+        :description: QtQml/QQmlApplicationEngine-loadData-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.loadFromModule
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
-        :description: QtQml/QQmlApplicationEngine-loadFromModule-f.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtQml/QQmlApplicationEngine-loadFromModule-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.rootObjects
         :returns:
@@ -57,13 +57,13 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.setExtraFileSelectors
         :args:
-            Iterable[str]
-        :description: QtQml/QQmlApplicationEngine-setExtraFileSelectors-f.rst
+            Iterable[Optional[str]]
+        :description: QtQml/QQmlApplicationEngine-setExtraFileSelectors-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.setInitialProperties
         :args:
-            Dict[str, Any]
-        :description: QtQml/QQmlApplicationEngine-setInitialProperties-f.rst
+            Dict[Optional[str], Any]
+        :description: QtQml/QQmlApplicationEngine-setInitialProperties-f-1.rst
 
     .. sip:signal:: PyQt6.QtQml.QQmlApplicationEngine.objectCreated
         :args:

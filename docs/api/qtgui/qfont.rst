@@ -216,19 +216,19 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.__init__
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
             pointSize: int = -1
             weight: int = -1
             italic: bool = False
-        :description: QtGui/QFont-__init__-f-4.rst
+        :description: QtGui/QFont-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.__init__
         :args:
-            str
+            Optional[str]
             pointSize: int = -1
             weight: int = -1
             italic: bool = False
-        :description: QtGui/QFont-__init__-f-3.rst
+        :description: QtGui/QFont-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.bold
         :returns:
@@ -247,6 +247,9 @@
     .. sip:method:: PyQt6.QtGui.QFont.cleanup
         :static:
         :description: QtGui/QFont-cleanup-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.clearFeatures
+        :description: QtGui/QFont-clearFeatures-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.defaultFamily
         :returns:
@@ -275,6 +278,18 @@
             str
         :description: QtGui/QFont-family-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFont.featureTags
+        :returns:
+            List[int]
+        :description: QtGui/QFont-featureTags-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.featureValue
+        :args:
+            int
+        :returns:
+            int
+        :description: QtGui/QFont-featureValue-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFont.fixedPitch
         :returns:
             bool
@@ -282,10 +297,10 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.fromString
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtGui/QFont-fromString-f.rst
+        :description: QtGui/QFont-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.__ge__
         :args:
@@ -310,17 +325,17 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.insertSubstitution
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
         :static:
-        :description: QtGui/QFont-insertSubstitution-f.rst
+        :description: QtGui/QFont-insertSubstitution-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.insertSubstitutions
         :args:
-            str
-            Iterable[str]
+            Optional[str]
+            Iterable[Optional[str]]
         :static:
-        :description: QtGui/QFont-insertSubstitutions-f.rst
+        :description: QtGui/QFont-insertSubstitutions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.isCopyOf
         :args:
@@ -328,6 +343,13 @@
         :returns:
             bool
         :description: QtGui/QFont-isCopyOf-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.isFeatureSet
+        :args:
+            int
+        :returns:
+            bool
+        :description: QtGui/QFont-isFeatureSet-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.italic
         :returns:
@@ -390,9 +412,9 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.removeSubstitutions
         :args:
-            str
+            Optional[str]
         :static:
-        :description: QtGui/QFont-removeSubstitutions-f.rst
+        :description: QtGui/QFont-removeSubstitutions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.resolve
         :args:
@@ -413,13 +435,25 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.setFamilies
         :args:
-            Iterable[str]
-        :description: QtGui/QFont-setFamilies-f.rst
+            Iterable[Optional[str]]
+        :description: QtGui/QFont-setFamilies-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.setFamily
         :args:
-            str
-        :description: QtGui/QFont-setFamily-f.rst
+            Optional[str]
+        :description: QtGui/QFont-setFamily-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.setFeature
+        :args:
+            int
+            int
+        :description: QtGui/QFont-setFeature-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.setFeature
+        :args:
+            bytes
+            int
+        :description: QtGui/QFont-setFeature-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.setFixedPitch
         :args:
@@ -490,8 +524,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.setStyleName
         :args:
-            str
-        :description: QtGui/QFont-setStyleName-f.rst
+            Optional[str]
+        :description: QtGui/QFont-setStyleName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.setStyleStrategy
         :args:
@@ -523,6 +557,14 @@
             bool
         :description: QtGui/QFont-strikeOut-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFont.stringToTag
+        :args:
+            bytes
+        :returns:
+            int
+        :static:
+        :description: QtGui/QFont-stringToTag-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFont.style
         :returns:
             :sip:ref:`~PyQt6.QtGui.QFont.Style`
@@ -545,19 +587,19 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.substitute
         :args:
-            str
+            Optional[str]
         :returns:
             str
         :static:
-        :description: QtGui/QFont-substitute-f.rst
+        :description: QtGui/QFont-substitute-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.substitutes
         :args:
-            str
+            Optional[str]
         :returns:
             List[str]
         :static:
-        :description: QtGui/QFont-substitutes-f.rst
+        :description: QtGui/QFont-substitutes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.substitutions
         :returns:
@@ -570,6 +612,14 @@
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtGui/QFont-swap-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFont.tagToString
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :static:
+        :description: QtGui/QFont-tagToString-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFont.toString
         :returns:
             str
@@ -579,6 +629,16 @@
         :returns:
             bool
         :description: QtGui/QFont-underline-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.unsetFeature
+        :args:
+            bytes
+        :description: QtGui/QFont-unsetFeature-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.unsetFeature
+        :args:
+            int
+        :description: QtGui/QFont-unsetFeature-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.weight
         :returns:

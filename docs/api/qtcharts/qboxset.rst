@@ -24,9 +24,9 @@
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.__init__
         :args:
-            label: str = ''
+            label: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCharts/QBoxSet-__init__-f.rst
+        :description: QtCharts/QBoxSet-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.__init__
         :args:
@@ -35,9 +35,9 @@
             float
             float
             float
-            label: str = ''
+            label: Optional[str] = ''
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCharts/QBoxSet-__init__-f-1.rst
+        :description: QtCharts/QBoxSet-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.append
         :args:
@@ -100,18 +100,18 @@
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBoxSet-setBrush-f.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtCharts/QBoxSet-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setLabel
         :args:
-            str
-        :description: QtCharts/QBoxSet-setLabel-f.rst
+            Optional[str]
+        :description: QtCharts/QBoxSet-setLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBoxSet-setPen-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtCharts/QBoxSet-setPen-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxSet.setValue
         :args:

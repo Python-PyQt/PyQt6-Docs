@@ -27,10 +27,10 @@
 
     .. sip:method:: PyQt6.QtGui.QRegularExpressionValidator.validate
         :args:
-            str
+            Optional[str]
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtGui/QRegularExpressionValidator-validate-f.rst
+        :description: QtGui/QRegularExpressionValidator-validate-f-1.rst

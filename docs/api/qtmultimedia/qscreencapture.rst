@@ -79,8 +79,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QScreenCapture.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QScreenCapture.Error`
-            str
-        :description: QtMultimedia/QScreenCapture-errorOccurred-s.rst
+            Optional[str]
+        :description: QtMultimedia/QScreenCapture-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QScreenCapture.screenChanged
         :args:

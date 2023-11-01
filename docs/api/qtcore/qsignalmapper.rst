@@ -26,10 +26,10 @@
 
     .. sip:method:: PyQt6.QtCore.QSignalMapper.mapping
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QSignalMapper-mapping-f-1.rst
+        :description: QtCore/QSignalMapper-mapping-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QSignalMapper.mapping
         :args:
@@ -52,8 +52,8 @@
     .. sip:method:: PyQt6.QtCore.QSignalMapper.setMapping
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
-        :description: QtCore/QSignalMapper-setMapping-f-1.rst
+            Optional[str]
+        :description: QtCore/QSignalMapper-setMapping-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QSignalMapper.setMapping
         :args:
@@ -73,5 +73,5 @@
 
     .. sip:signal:: PyQt6.QtCore.QSignalMapper.mappedString
         :args:
-            str
-        :description: QtCore/QSignalMapper-mappedString-s.rst
+            Optional[str]
+        :description: QtCore/QSignalMapper-mappedString-s-1.rst

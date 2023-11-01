@@ -74,15 +74,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.addRow
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-        :description: QtWidgets/QFormLayout-addRow-f-4.rst
+        :description: QtWidgets/QFormLayout-addRow-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.addRow
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QLayout`
-        :description: QtWidgets/QFormLayout-addRow-f-5.rst
+        :description: QtWidgets/QFormLayout-addRow-f-7.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.count
         :returns:
@@ -174,16 +174,16 @@
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.insertRow
         :args:
             int
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-        :description: QtWidgets/QFormLayout-insertRow-f-4.rst
+        :description: QtWidgets/QFormLayout-insertRow-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.insertRow
         :args:
             int
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtWidgets.QLayout`
-        :description: QtWidgets/QFormLayout-insertRow-f-5.rst
+        :description: QtWidgets/QFormLayout-insertRow-f-7.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFormLayout.invalidate
         :description: QtWidgets/QFormLayout-invalidate-f.rst

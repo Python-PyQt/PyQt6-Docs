@@ -61,12 +61,12 @@
 
     .. sip:method:: PyQt6.QtCore.QVersionNumber.fromString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QVersionNumber`
             int
         :static:
-        :description: QtCore/QVersionNumber-fromString-f-1.rst
+        :description: QtCore/QVersionNumber-fromString-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QVersionNumber.__ge__
         :args:

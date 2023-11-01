@@ -23,8 +23,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterSettingsWidget.setAvailableComponents
         :args:
-            Iterable[str]
-        :description: QtHelp/QHelpFilterSettingsWidget-setAvailableComponents-f.rst
+            Iterable[Optional[str]]
+        :description: QtHelp/QHelpFilterSettingsWidget-setAvailableComponents-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterSettingsWidget.setAvailableVersions
         :args:

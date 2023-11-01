@@ -60,12 +60,12 @@
         :args:
             initial: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int] = :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor.white`
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            title: str = ''
+            title: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QColorDialog.ColorDialogOption` = QColorDialog.ColorDialogOptions()
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColor`
         :static:
-        :description: QtWidgets/QColorDialog-getColor-f-1.rst
+        :description: QtWidgets/QColorDialog-getColor-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColorDialog.open
         :description: QtWidgets/QColorDialog-open-f.rst

@@ -61,6 +61,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabPosition.Middle
             :description: QtWidgets/QStyleOptionTab-TabPosition-Middle-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabPosition.Moving
+            :description: QtWidgets/QStyleOptionTab-TabPosition-Moving-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabPosition.OnlyOneTab
             :description: QtWidgets/QStyleOptionTab-TabPosition-OnlyOneTab-v.rst
 
@@ -113,7 +116,7 @@
         :description: QtWidgets/QStyleOptionTab-tabIndex-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.text
-        :type: str
+        :type: Optional[str]
         :description: QtWidgets/QStyleOptionTab-text-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionTab.__init__

@@ -42,18 +42,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMenuBar.addMenu
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`
-        :description: QtWidgets/QMenuBar-addMenu-f-1.rst
+        :description: QtWidgets/QMenuBar-addMenu-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenuBar.addMenu
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QMenu`
-        :description: QtWidgets/QMenuBar-addMenu-f-2.rst
+        :description: QtWidgets/QMenuBar-addMenu-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMenuBar.addSeparator
         :returns:

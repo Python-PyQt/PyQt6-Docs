@@ -29,23 +29,23 @@
 
     .. sip:method:: PyQt6.QtCore.QLibrary.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QLibrary-__init__-f-1.rst
+        :description: QtCore/QLibrary-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.__init__
         :args:
-            str
+            Optional[str]
             int
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QLibrary-__init__-f-2.rst
+        :description: QtCore/QLibrary-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.__init__
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QLibrary-__init__-f-3.rst
+        :description: QtCore/QLibrary-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.errorString
         :returns:
@@ -59,11 +59,11 @@
 
     .. sip:method:: PyQt6.QtCore.QLibrary.isLibrary
         :args:
-            str
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtCore/QLibrary-isLibrary-f.rst
+        :description: QtCore/QLibrary-isLibrary-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.isLoaded
         :returns:
@@ -89,49 +89,49 @@
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
-            str
+            Optional[str]
             str
         :returns:
             :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-5.rst
+        :description: QtCore/QLibrary-resolve-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
-            str
+            Optional[str]
             int
             str
         :returns:
             :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-6.rst
+        :description: QtCore/QLibrary-resolve-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.resolve
         :args:
-            str
-            str
+            Optional[str]
+            Optional[str]
             str
         :returns:
             :py:class:`~PyQt6.sip.voidptr`
         :static:
-        :description: QtCore/QLibrary-resolve-f-7.rst
+        :description: QtCore/QLibrary-resolve-f-10.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setFileName
         :args:
-            str
-        :description: QtCore/QLibrary-setFileName-f.rst
+            Optional[str]
+        :description: QtCore/QLibrary-setFileName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setFileNameAndVersion
         :args:
-            str
+            Optional[str]
             int
-        :description: QtCore/QLibrary-setFileNameAndVersion-f.rst
+        :description: QtCore/QLibrary-setFileNameAndVersion-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setFileNameAndVersion
         :args:
-            str
-            str
-        :description: QtCore/QLibrary-setFileNameAndVersion-f-1.rst
+            Optional[str]
+            Optional[str]
+        :description: QtCore/QLibrary-setFileNameAndVersion-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QLibrary.setLoadHints
         :args:

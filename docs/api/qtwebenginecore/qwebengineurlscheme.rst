@@ -12,6 +12,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.Flag.CorsEnabled
             :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-CorsEnabled-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.Flag.FetchApiAllowed
+            :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-FetchApiAllowed-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.Flag.LocalAccessAllowed
             :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-LocalAccessAllowed-v.rst
 
@@ -56,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.__init__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineUrlScheme-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineUrlScheme-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.__init__
         :args:
@@ -101,11 +104,11 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.schemeByName
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlScheme`
         :static:
-        :description: QtWebEngineCore/QWebEngineUrlScheme-schemeByName-f.rst
+        :description: QtWebEngineCore/QWebEngineUrlScheme-schemeByName-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.setDefaultPort
         :args:
@@ -119,8 +122,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.setName
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtWebEngineCore/QWebEngineUrlScheme-setName-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtWebEngineCore/QWebEngineUrlScheme-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlScheme.setSyntax
         :args:

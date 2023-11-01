@@ -66,8 +66,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QJoint.setName
         :args:
-            str
-        :description: Qt3DCore/QJoint-setName-f.rst
+            Optional[str]
+        :description: Qt3DCore/QJoint-setName-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QJoint.setRotation
         :args:
@@ -114,8 +114,8 @@
 
     .. sip:signal:: PyQt6.Qt3DCore.QJoint.nameChanged
         :args:
-            str
-        :description: Qt3DCore/QJoint-nameChanged-s.rst
+            Optional[str]
+        :description: Qt3DCore/QJoint-nameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DCore.QJoint.rotationChanged
         :args:

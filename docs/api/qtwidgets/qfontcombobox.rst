@@ -34,10 +34,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.displayFont
         :args:
-            str
+            Optional[str]
         :returns:
             Optional[:sip:ref:`~PyQt6.QtGui.QFont`]
-        :description: QtWidgets/QFontComboBox-displayFont-f.rst
+        :description: QtWidgets/QFontComboBox-displayFont-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.event
         :args:
@@ -53,10 +53,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.sampleTextForFont
         :args:
-            str
+            Optional[str]
         :returns:
             str
-        :description: QtWidgets/QFontComboBox-sampleTextForFont-f.rst
+        :description: QtWidgets/QFontComboBox-sampleTextForFont-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.sampleTextForSystem
         :args:
@@ -72,9 +72,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setDisplayFont
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtGui.QFont`
-        :description: QtWidgets/QFontComboBox-setDisplayFont-f.rst
+        :description: QtWidgets/QFontComboBox-setDisplayFont-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setFontFilters
         :args:
@@ -83,15 +83,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setSampleTextForFont
         :args:
-            str
-            str
-        :description: QtWidgets/QFontComboBox-setSampleTextForFont-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtWidgets/QFontComboBox-setSampleTextForFont-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setSampleTextForSystem
         :args:
             :sip:ref:`~PyQt6.QtGui.QFontDatabase.WritingSystem`
-            str
-        :description: QtWidgets/QFontComboBox-setSampleTextForSystem-f.rst
+            Optional[str]
+        :description: QtWidgets/QFontComboBox-setSampleTextForSystem-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setWritingSystem
         :args:

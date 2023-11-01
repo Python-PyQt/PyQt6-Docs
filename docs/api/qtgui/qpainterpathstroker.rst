@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainterPathStroker.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QPainterPathStroker-__init__-f-3.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+        :description: QtGui/QPainterPathStroker-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPathStroker.capStyle
         :returns:

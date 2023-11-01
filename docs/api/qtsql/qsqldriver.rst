@@ -13,6 +13,9 @@
         .. sip:enum-member:: PyQt6.QtSql.QSqlDriver.DbmsType.Interbase
             :description: QtSql/QSqlDriver-DbmsType-Interbase-v.rst
 
+        .. sip:enum-member:: PyQt6.QtSql.QSqlDriver.DbmsType.MimerSQL
+            :description: QtSql/QSqlDriver-DbmsType-MimerSQL-v.rst
+
         .. sip:enum-member:: PyQt6.QtSql.QSqlDriver.DbmsType.MSSqlServer
             :description: QtSql/QSqlDriver-DbmsType-MSSqlServer-v.rst
 
@@ -148,11 +151,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.escapeIdentifier
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             str
-        :description: QtSql/QSqlDriver-escapeIdentifier-f.rst
+        :description: QtSql/QSqlDriver-escapeIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.formatValue
         :args:
@@ -176,11 +179,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.isIdentifierEscaped
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             bool
-        :description: QtSql/QSqlDriver-isIdentifierEscaped-f.rst
+        :description: QtSql/QSqlDriver-isIdentifierEscaped-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.isOpen
         :returns:
@@ -211,29 +214,29 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.open
         :args:
-            str
-            user: str = ''
-            password: str = ''
-            host: str = ''
+            Optional[str]
+            user: Optional[str] = ''
+            password: Optional[str] = ''
+            host: Optional[str] = ''
             port: int = -1
-            options: str = ''
+            options: Optional[str] = ''
         :returns:
             bool
-        :description: QtSql/QSqlDriver-open-f.rst
+        :description: QtSql/QSqlDriver-open-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.primaryIndex
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlIndex`
-        :description: QtSql/QSqlDriver-primaryIndex-f.rst
+        :description: QtSql/QSqlDriver-primaryIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.record
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
-        :description: QtSql/QSqlDriver-record-f.rst
+        :description: QtSql/QSqlDriver-record-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.rollbackTransaction
         :returns:
@@ -263,20 +266,20 @@
     .. sip:method:: PyQt6.QtSql.QSqlDriver.sqlStatement
         :args:
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.StatementType`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
             bool
         :returns:
             str
-        :description: QtSql/QSqlDriver-sqlStatement-f.rst
+        :description: QtSql/QSqlDriver-sqlStatement-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.stripDelimiters
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             str
-        :description: QtSql/QSqlDriver-stripDelimiters-f.rst
+        :description: QtSql/QSqlDriver-stripDelimiters-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribedToNotifications
         :returns:
@@ -285,10 +288,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribeToNotification
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtSql/QSqlDriver-subscribeToNotification-f.rst
+        :description: QtSql/QSqlDriver-subscribeToNotification-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.tables
         :args:
@@ -299,14 +302,14 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.unsubscribeFromNotification
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtSql/QSqlDriver-unsubscribeFromNotification-f.rst
+        :description: QtSql/QSqlDriver-unsubscribeFromNotification-f-1.rst
 
     .. sip:signal:: PyQt6.QtSql.QSqlDriver.notification
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.NotificationSource`
             Any
-        :description: QtSql/QSqlDriver-notification-s.rst
+        :description: QtSql/QSqlDriver-notification-s-1.rst

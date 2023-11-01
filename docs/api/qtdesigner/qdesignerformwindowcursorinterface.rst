@@ -83,8 +83,8 @@
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowCursorInterface.resetWidgetProperty
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
-        :description: QtDesigner/QDesignerFormWindowCursorInterface-resetWidgetProperty-f.rst
+            Optional[str]
+        :description: QtDesigner/QDesignerFormWindowCursorInterface-resetWidgetProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowCursorInterface.selectedWidget
         :args:
@@ -106,16 +106,16 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowCursorInterface.setProperty
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtDesigner/QDesignerFormWindowCursorInterface-setProperty-f.rst
+        :description: QtDesigner/QDesignerFormWindowCursorInterface-setProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowCursorInterface.setWidgetProperty
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
-            str
+            Optional[str]
             Any
-        :description: QtDesigner/QDesignerFormWindowCursorInterface-setWidgetProperty-f.rst
+        :description: QtDesigner/QDesignerFormWindowCursorInterface-setWidgetProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowCursorInterface.widget
         :args:

@@ -48,12 +48,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslDiffieHellmanParameters.fromEncoded
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             encoding: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QSslDiffieHellmanParameters`
         :static:
-        :description: QtNetwork/QSslDiffieHellmanParameters-fromEncoded-f.rst
+        :description: QtNetwork/QSslDiffieHellmanParameters-fromEncoded-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslDiffieHellmanParameters.fromEncoded
         :args:

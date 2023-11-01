@@ -180,10 +180,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.field
         :args:
-            str
+            Optional[str]
         :returns:
             Any
-        :description: QtWidgets/QWizard-field-f.rst
+        :description: QtWidgets/QWizard-field-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.hasVisitedPage
         :args:
@@ -261,8 +261,8 @@
     .. sip:method:: PyQt6.QtWidgets.QWizard.setButtonText
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton`
-            str
-        :description: QtWidgets/QWizard-setButtonText-f.rst
+            Optional[str]
+        :description: QtWidgets/QWizard-setButtonText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setCurrentId
         :args:
@@ -278,9 +278,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setField
         :args:
-            str
+            Optional[str]
             Any
-        :description: QtWidgets/QWizard-setField-f.rst
+        :description: QtWidgets/QWizard-setField-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setOption
         :args:

@@ -14,13 +14,13 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
-            str
-        :description: QtCore/QCommandLineOption-__init__-f.rst
+            Optional[str]
+        :description: QtCore/QCommandLineOption-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
-            Iterable[str]
-        :description: QtCore/QCommandLineOption-__init__-f-1.rst
+            Iterable[Optional[str]]
+        :description: QtCore/QCommandLineOption-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
@@ -29,19 +29,19 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
-            str
-            str
-            valueName: str = ''
-            defaultValue: str = ''
-        :description: QtCore/QCommandLineOption-__init__-f-3.rst
+            Optional[str]
+            Optional[str]
+            valueName: Optional[str] = ''
+            defaultValue: Optional[str] = ''
+        :description: QtCore/QCommandLineOption-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.__init__
         :args:
-            Iterable[str]
-            str
-            valueName: str = ''
-            defaultValue: str = ''
-        :description: QtCore/QCommandLineOption-__init__-f-4.rst
+            Iterable[Optional[str]]
+            Optional[str]
+            valueName: Optional[str] = ''
+            defaultValue: Optional[str] = ''
+        :description: QtCore/QCommandLineOption-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.defaultValues
         :returns:
@@ -65,18 +65,18 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setDefaultValue
         :args:
-            str
-        :description: QtCore/QCommandLineOption-setDefaultValue-f.rst
+            Optional[str]
+        :description: QtCore/QCommandLineOption-setDefaultValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setDefaultValues
         :args:
-            Iterable[str]
-        :description: QtCore/QCommandLineOption-setDefaultValues-f.rst
+            Iterable[Optional[str]]
+        :description: QtCore/QCommandLineOption-setDefaultValues-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setDescription
         :args:
-            str
-        :description: QtCore/QCommandLineOption-setDescription-f.rst
+            Optional[str]
+        :description: QtCore/QCommandLineOption-setDescription-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setFlags
         :args:
@@ -85,8 +85,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setValueName
         :args:
-            str
-        :description: QtCore/QCommandLineOption-setValueName-f.rst
+            Optional[str]
+        :description: QtCore/QCommandLineOption-setValueName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.swap
         :args:

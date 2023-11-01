@@ -46,8 +46,8 @@
             :sip:ref:`~PyQt6.QtGui.QPainter`
             :sip:ref:`~PyQt6.QtWidgets.QStyleOptionViewItem`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            str
-        :description: QtWidgets/QItemDelegate-drawDisplay-f.rst
+            Optional[str]
+        :description: QtWidgets/QItemDelegate-drawDisplay-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QItemDelegate.drawFocus
         :args:

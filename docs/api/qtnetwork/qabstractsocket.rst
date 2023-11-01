@@ -232,11 +232,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.connectToHost
         :args:
-            str
+            Optional[str]
             int
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
             protocol: :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol` = :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.NetworkLayerProtocol.AnyIPProtocol`
-        :description: QtNetwork/QAbstractSocket-connectToHost-f-3.rst
+        :description: QtNetwork/QAbstractSocket-connectToHost-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.disconnectFromHost
         :description: QtNetwork/QAbstractSocket-disconnectFromHost-f.rst
@@ -345,8 +345,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setPeerName
         :args:
-            str
-        :description: QtNetwork/QAbstractSocket-setPeerName-f.rst
+            Optional[str]
+        :description: QtNetwork/QAbstractSocket-setPeerName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setPeerPort
         :args:
@@ -355,8 +355,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setProtocolTag
         :args:
-            str
-        :description: QtNetwork/QAbstractSocket-setProtocolTag-f.rst
+            Optional[str]
+        :description: QtNetwork/QAbstractSocket-setProtocolTag-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAbstractSocket.setProxy
         :args:

@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.__init__
         :args:
-            str
-        :description: QtCore/QUrlQuery-__init__-f-2.rst
+            Optional[str]
+        :description: QtCore/QUrlQuery-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.__init__
         :args:
@@ -23,17 +23,17 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.addQueryItem
         :args:
-            str
-            str
-        :description: QtCore/QUrlQuery-addQueryItem-f.rst
+            Optional[str]
+            Optional[str]
+        :description: QtCore/QUrlQuery-addQueryItem-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.allQueryItemValues
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             List[str]
-        :description: QtCore/QUrlQuery-allQueryItemValues-f-1.rst
+        :description: QtCore/QUrlQuery-allQueryItemValues-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.clear
         :description: QtCore/QUrlQuery-clear-f.rst
@@ -64,10 +64,10 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.hasQueryItem
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtCore/QUrlQuery-hasQueryItem-f.rst
+        :description: QtCore/QUrlQuery-hasQueryItem-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.isDetached
         :returns:
@@ -102,11 +102,11 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryItemValue
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
             str
-        :description: QtCore/QUrlQuery-queryItemValue-f-1.rst
+        :description: QtCore/QUrlQuery-queryItemValue-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryPairDelimiter
         :returns:
@@ -120,18 +120,18 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.removeAllQueryItems
         :args:
-            str
-        :description: QtCore/QUrlQuery-removeAllQueryItems-f.rst
+            Optional[str]
+        :description: QtCore/QUrlQuery-removeAllQueryItems-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.removeQueryItem
         :args:
-            str
-        :description: QtCore/QUrlQuery-removeQueryItem-f.rst
+            Optional[str]
+        :description: QtCore/QUrlQuery-removeQueryItem-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.setQuery
         :args:
-            str
-        :description: QtCore/QUrlQuery-setQuery-f.rst
+            Optional[str]
+        :description: QtCore/QUrlQuery-setQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.setQueryDelimiters
         :args:
@@ -141,8 +141,8 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.setQueryItems
         :args:
-            Iterable[Tuple[str, str]]
-        :description: QtCore/QUrlQuery-setQueryItems-f.rst
+            Iterable[Tuple[Optional[str], Optional[str]]]
+        :description: QtCore/QUrlQuery-setQueryItems-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.swap
         :args:

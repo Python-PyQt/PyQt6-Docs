@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
-            str
-        :description: QtCore/QFileInfo-__init__-f-2.rst
+            Optional[str]
+        :description: QtCore/QFileInfo-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
@@ -24,8 +24,8 @@
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QDir`
-            str
-        :description: QtCore/QFileInfo-__init__-f-4.rst
+            Optional[str]
+        :description: QtCore/QFileInfo-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.absoluteDir
         :returns:
@@ -51,6 +51,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtCore/QFileInfo-birthTime-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QFileInfo.birthTime
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QFileInfo-birthTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.bundleName
         :returns:
@@ -101,11 +108,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.exists
         :args:
-            str
+            Optional[str]
         :returns:
             bool
         :static:
-        :description: QtCore/QFileInfo-exists-f-1.rst
+        :description: QtCore/QFileInfo-exists-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.fileName
         :returns:
@@ -123,6 +130,14 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtCore/QFileInfo-fileTime-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QFileInfo.fileTime
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.FileTime`
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QFileInfo-fileTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__fspath__
         :returns:
@@ -229,10 +244,24 @@
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtCore/QFileInfo-lastModified-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QFileInfo.lastModified
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QFileInfo-lastModified-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QFileInfo.lastRead
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtCore/QFileInfo-lastRead-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QFileInfo.lastRead
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QFileInfo-lastRead-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.makeAbsolute
         :returns:
@@ -243,6 +272,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtCore/QFileInfo-metadataChangeTime-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QFileInfo.metadataChangeTime
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QFileInfo-metadataChangeTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__ne__
         :args:
@@ -278,6 +314,11 @@
             :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :description: QtCore/QFileInfo-permissions-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QFileInfo.readSymLink
+        :returns:
+            str
+        :description: QtCore/QFileInfo-readSymLink-f.rst
+
     .. sip:method:: PyQt6.QtCore.QFileInfo.refresh
         :description: QtCore/QFileInfo-refresh-f.rst
 
@@ -288,8 +329,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
-            str
-        :description: QtCore/QFileInfo-setFile-f.rst
+            Optional[str]
+        :description: QtCore/QFileInfo-setFile-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
@@ -299,8 +340,8 @@
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
             :sip:ref:`~PyQt6.QtCore.QDir`
-            str
-        :description: QtCore/QFileInfo-setFile-f-2.rst
+            Optional[str]
+        :description: QtCore/QFileInfo-setFile-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.size
         :returns:

@@ -58,22 +58,22 @@
     .. sip:method:: PyQt6.QtQml.QQmlProperty.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
-        :description: QtQml/QQmlProperty-__init__-f-5.rst
+            Optional[str]
+        :description: QtQml/QQmlProperty-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtQml.QQmlContext`
-        :description: QtQml/QQmlProperty-__init__-f-6.rst
+        :description: QtQml/QQmlProperty-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
-        :description: QtQml/QQmlProperty-__init__-f-7.rst
+        :description: QtQml/QQmlProperty-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.connectNotifySignal
         :args:
@@ -207,31 +207,31 @@
     .. sip:method:: PyQt6.QtQml.QQmlProperty.read
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
         :returns:
             Any
         :static:
-        :description: QtQml/QQmlProperty-read-f-1.rst
+        :description: QtQml/QQmlProperty-read-f-4.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.read
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtQml.QQmlContext`
         :returns:
             Any
         :static:
-        :description: QtQml/QQmlProperty-read-f-2.rst
+        :description: QtQml/QQmlProperty-read-f-5.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.read
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
         :returns:
             Any
         :static:
-        :description: QtQml/QQmlProperty-read-f-3.rst
+        :description: QtQml/QQmlProperty-read-f-6.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.reset
         :returns:
@@ -258,31 +258,31 @@
     .. sip:method:: PyQt6.QtQml.QQmlProperty.write
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             Any
         :returns:
             bool
         :static:
-        :description: QtQml/QQmlProperty-write-f-1.rst
+        :description: QtQml/QQmlProperty-write-f-4.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.write
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             Any
             :sip:ref:`~PyQt6.QtQml.QQmlContext`
         :returns:
             bool
         :static:
-        :description: QtQml/QQmlProperty-write-f-2.rst
+        :description: QtQml/QQmlProperty-write-f-5.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlProperty.write
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            str
+            Optional[str]
             Any
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
         :returns:
             bool
         :static:
-        :description: QtQml/QQmlProperty-write-f-3.rst
+        :description: QtQml/QQmlProperty-write-f-6.rst

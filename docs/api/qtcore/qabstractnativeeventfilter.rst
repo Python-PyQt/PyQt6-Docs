@@ -8,9 +8,9 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractNativeEventFilter.nativeEventFilter
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QtCore/QAbstractNativeEventFilter-nativeEventFilter-f-1.rst
+        :description: QtCore/QAbstractNativeEventFilter-nativeEventFilter-f-2.rst

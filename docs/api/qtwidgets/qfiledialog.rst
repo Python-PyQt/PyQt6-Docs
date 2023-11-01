@@ -88,10 +88,10 @@
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
-            directory: str = ''
-            filter: str = ''
-        :description: QtWidgets/QFileDialog-__init__-f-1.rst
+            caption: Optional[str] = ''
+            directory: Optional[str] = ''
+            filter: Optional[str] = ''
+        :description: QtWidgets/QFileDialog-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.accept
         :description: QtWidgets/QFileDialog-accept-f.rst
@@ -139,106 +139,106 @@
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getExistingDirectory
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
-            directory: str = ''
+            caption: Optional[str] = ''
+            directory: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.ShowDirsOnly`
         :returns:
             str
         :static:
-        :description: QtWidgets/QFileDialog-getExistingDirectory-f-1.rst
+        :description: QtWidgets/QFileDialog-getExistingDirectory-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getExistingDirectoryUrl
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
+            caption: Optional[str] = ''
             directory: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.ShowDirsOnly`
-            supportedSchemes: Iterable[str] = []
+            supportedSchemes: Iterable[Optional[str]] = []
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :static:
-        :description: QtWidgets/QFileDialog-getExistingDirectoryUrl-f-1.rst
+        :description: QtWidgets/QFileDialog-getExistingDirectoryUrl-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getOpenFileName
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
-            directory: str = ''
-            filter: str = ''
-            initialFilter: str = ''
+            caption: Optional[str] = ''
+            directory: Optional[str] = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
         :returns:
             Tuple[str, str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileName-f-1.rst
+        :description: QtWidgets/QFileDialog-getOpenFileName-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getOpenFileNames
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
-            directory: str = ''
-            filter: str = ''
-            initialFilter: str = ''
+            caption: Optional[str] = ''
+            directory: Optional[str] = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
         :returns:
             Tuple[List[str], str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileNames-f-1.rst
+        :description: QtWidgets/QFileDialog-getOpenFileNames-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getOpenFileUrl
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
+            caption: Optional[str] = ''
             directory: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-            filter: str = ''
-            initialFilter: str = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
-            supportedSchemes: Iterable[str] = []
+            supportedSchemes: Iterable[Optional[str]] = []
         :returns:
             Tuple[:sip:ref:`~PyQt6.QtCore.QUrl`, str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileUrl-f-1.rst
+        :description: QtWidgets/QFileDialog-getOpenFileUrl-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getOpenFileUrls
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
+            caption: Optional[str] = ''
             directory: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-            filter: str = ''
-            initialFilter: str = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
-            supportedSchemes: Iterable[str] = []
+            supportedSchemes: Iterable[Optional[str]] = []
         :returns:
             Tuple[List[:sip:ref:`~PyQt6.QtCore.QUrl`], str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileUrls-f-1.rst
+        :description: QtWidgets/QFileDialog-getOpenFileUrls-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getSaveFileName
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
-            directory: str = ''
-            filter: str = ''
-            initialFilter: str = ''
+            caption: Optional[str] = ''
+            directory: Optional[str] = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
         :returns:
             Tuple[str, str]
         :static:
-        :description: QtWidgets/QFileDialog-getSaveFileName-f-1.rst
+        :description: QtWidgets/QFileDialog-getSaveFileName-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.getSaveFileUrl
         :args:
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-            caption: str = ''
+            caption: Optional[str] = ''
             directory: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
-            filter: str = ''
-            initialFilter: str = ''
+            filter: Optional[str] = ''
+            initialFilter: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` = QFileDialog.Options()
-            supportedSchemes: Iterable[str] = []
+            supportedSchemes: Iterable[Optional[str]] = []
         :returns:
             Tuple[:sip:ref:`~PyQt6.QtCore.QUrl`, str]
         :static:
-        :description: QtWidgets/QFileDialog-getSaveFileUrl-f-1.rst
+        :description: QtWidgets/QFileDialog-getSaveFileUrl-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.history
         :returns:
@@ -292,17 +292,17 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.restoreState
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtWidgets/QFileDialog-restoreState-f.rst
+        :description: QtWidgets/QFileDialog-restoreState-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.saveFileContent
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-            fileNameHint: str = ''
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            fileNameHint: Optional[str] = ''
         :static:
-        :description: QtWidgets/QFileDialog-saveFileContent-f.rst
+        :description: QtWidgets/QFileDialog-saveFileContent-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.saveState
         :returns:
@@ -331,18 +331,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.selectFile
         :args:
-            str
-        :description: QtWidgets/QFileDialog-selectFile-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-selectFile-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.selectMimeTypeFilter
         :args:
-            str
-        :description: QtWidgets/QFileDialog-selectMimeTypeFilter-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-selectMimeTypeFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.selectNameFilter
         :args:
-            str
-        :description: QtWidgets/QFileDialog-selectNameFilter-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-selectNameFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.selectUrl
         :args:
@@ -356,13 +356,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setDefaultSuffix
         :args:
-            str
-        :description: QtWidgets/QFileDialog-setDefaultSuffix-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-setDefaultSuffix-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setDirectory
         :args:
-            str
-        :description: QtWidgets/QFileDialog-setDirectory-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-setDirectory-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setDirectory
         :args:
@@ -386,8 +386,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setHistory
         :args:
-            Iterable[str]
-        :description: QtWidgets/QFileDialog-setHistory-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QFileDialog-setHistory-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setIconProvider
         :args:
@@ -402,23 +402,23 @@
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setLabelText
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QFileDialog.DialogLabel`
-            str
-        :description: QtWidgets/QFileDialog-setLabelText-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-setLabelText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setMimeTypeFilters
         :args:
-            Iterable[str]
-        :description: QtWidgets/QFileDialog-setMimeTypeFilters-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QFileDialog-setMimeTypeFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setNameFilter
         :args:
-            str
-        :description: QtWidgets/QFileDialog-setNameFilter-f.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-setNameFilter-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setNameFilters
         :args:
-            Iterable[str]
-        :description: QtWidgets/QFileDialog-setNameFilters-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QFileDialog-setNameFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setOption
         :args:
@@ -443,8 +443,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setSupportedSchemes
         :args:
-            Iterable[str]
-        :description: QtWidgets/QFileDialog-setSupportedSchemes-f.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QFileDialog-setSupportedSchemes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.setViewMode
         :args:
@@ -480,8 +480,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.currentChanged
         :args:
-            str
-        :description: QtWidgets/QFileDialog-currentChanged-s.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-currentChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.currentUrlChanged
         :args:
@@ -490,8 +490,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.directoryEntered
         :args:
-            str
-        :description: QtWidgets/QFileDialog-directoryEntered-s.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-directoryEntered-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.directoryUrlEntered
         :args:
@@ -500,18 +500,18 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.fileSelected
         :args:
-            str
-        :description: QtWidgets/QFileDialog-fileSelected-s.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-fileSelected-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.filesSelected
         :args:
-            Iterable[str]
-        :description: QtWidgets/QFileDialog-filesSelected-s.rst
+            Iterable[Optional[str]]
+        :description: QtWidgets/QFileDialog-filesSelected-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.filterSelected
         :args:
-            str
-        :description: QtWidgets/QFileDialog-filterSelected-s.rst
+            Optional[str]
+        :description: QtWidgets/QFileDialog-filterSelected-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QFileDialog.urlSelected
         :args:

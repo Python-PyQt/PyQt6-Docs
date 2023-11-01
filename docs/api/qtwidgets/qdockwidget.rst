@@ -30,10 +30,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
-        :description: QtWidgets/QDockWidget-__init__-f-3.rst
+        :description: QtWidgets/QDockWidget-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.allowedAreas
         :returns:

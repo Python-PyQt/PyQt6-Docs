@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.__init__
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QStringListModel-__init__-f-1.rst
+        :description: QtCore/QStringListModel-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.clearItemData
         :args:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.setStringList
         :args:
-            Iterable[str]
-        :description: QtCore/QStringListModel-setStringList-f.rst
+            Iterable[Optional[str]]
+        :description: QtCore/QStringListModel-setStringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.sibling
         :args:

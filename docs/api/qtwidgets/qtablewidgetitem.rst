@@ -24,16 +24,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.__init__
         :args:
-            str
+            Optional[str]
             type: int = :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTableWidgetItem-__init__-f-2.rst
+        :description: QtWidgets/QTableWidgetItem-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            str
+            Optional[str]
             type: int = :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTableWidgetItem-__init__-f-3.rst
+        :description: QtWidgets/QTableWidgetItem-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.background
         :returns:
@@ -113,8 +113,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTableWidgetItem-setBackground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTableWidgetItem-setBackground-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setCheckState
         :args:
@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, :sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int, :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTableWidgetItem-setForeground-f-1.rst
+            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+        :description: QtWidgets/QTableWidgetItem-setForeground-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setIcon
         :args:
@@ -159,13 +159,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setStatusTip
         :args:
-            str
-        :description: QtWidgets/QTableWidgetItem-setStatusTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QTableWidgetItem-setStatusTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setText
         :args:
-            str
-        :description: QtWidgets/QTableWidgetItem-setText-f.rst
+            Optional[str]
+        :description: QtWidgets/QTableWidgetItem-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setTextAlignment
         :args:
@@ -179,13 +179,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setToolTip
         :args:
-            str
-        :description: QtWidgets/QTableWidgetItem-setToolTip-f.rst
+            Optional[str]
+        :description: QtWidgets/QTableWidgetItem-setToolTip-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.setWhatsThis
         :args:
-            str
-        :description: QtWidgets/QTableWidgetItem-setWhatsThis-f.rst
+            Optional[str]
+        :description: QtWidgets/QTableWidgetItem-setWhatsThis-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidgetItem.sizeHint
         :returns:

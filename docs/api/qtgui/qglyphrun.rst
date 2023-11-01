@@ -129,8 +129,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setSourceString
         :args:
-            str
-        :description: QtGui/QGlyphRun-setSourceString-f.rst
+            Optional[str]
+        :description: QtGui/QGlyphRun-setSourceString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.setStrikeOut
         :args:

@@ -12,26 +12,26 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceCode
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-2.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-4.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceCode
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-3.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceCode-f-5.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceFile
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceFile-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addCacheableShaderFromSourceFile-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShader
         :args:
@@ -43,40 +43,40 @@
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceCode
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-2.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-4.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceCode
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-3.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceCode-f-5.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceFile
         :args:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader.ShaderTypeBit`
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceFile-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-addShaderFromSourceFile-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.attributeLocation
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-attributeLocation-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-attributeLocation-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.attributeLocation
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-attributeLocation-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-attributeLocation-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.bind
         :returns:
@@ -85,15 +85,15 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.bindAttributeLocation
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-bindAttributeLocation-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-bindAttributeLocation-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.bindAttributeLocation
         :args:
-            str
+            Optional[str]
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-bindAttributeLocation-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-bindAttributeLocation-f-3.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.create
         :returns:
@@ -639,14 +639,14 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.uniformLocation
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-uniformLocation-f.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-uniformLocation-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.uniformLocation
         :args:
-            str
+            Optional[str]
         :returns:
             int
-        :description: QtOpenGL/QOpenGLShaderProgram-uniformLocation-f-1.rst
+        :description: QtOpenGL/QOpenGLShaderProgram-uniformLocation-f-3.rst

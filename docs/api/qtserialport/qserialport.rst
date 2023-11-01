@@ -173,9 +173,9 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.__init__
         :args:
-            str
+            Optional[str]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtSerialPort/QSerialPort-__init__-f-1.rst
+        :description: QtSerialPort/QSerialPort-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.__init__
         :args:
@@ -359,8 +359,8 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.setPortName
         :args:
-            str
-        :description: QtSerialPort/QSerialPort-setPortName-f.rst
+            Optional[str]
+        :description: QtSerialPort/QSerialPort-setPortName-f-1.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.setReadBufferSize
         :args:

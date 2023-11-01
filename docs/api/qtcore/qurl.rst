@@ -112,9 +112,9 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.__init__
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-__init__-f-2.rst
+        :description: QtCore/QUrl-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.adjusted
         :args:
@@ -164,56 +164,56 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromAce
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.AceProcessingOption` = {}
         :returns:
             str
         :static:
-        :description: QtCore/QUrl-fromAce-f-1.rst
+        :description: QtCore/QUrl-fromAce-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromEncoded
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :static:
-        :description: QtCore/QUrl-fromEncoded-f.rst
+        :description: QtCore/QUrl-fromEncoded-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromLocalFile
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :static:
-        :description: QtCore/QUrl-fromLocalFile-f.rst
+        :description: QtCore/QUrl-fromLocalFile-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromPercentEncoding
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
             str
         :static:
-        :description: QtCore/QUrl-fromPercentEncoding-f.rst
+        :description: QtCore/QUrl-fromPercentEncoding-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromStringList
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
         :returns:
             List[:sip:ref:`~PyQt6.QtCore.QUrl`]
         :static:
-        :description: QtCore/QUrl-fromStringList-f.rst
+        :description: QtCore/QUrl-fromStringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromUserInput
         :args:
-            str
-            workingDirectory: str = ''
+            Optional[str]
+            workingDirectory: Optional[str] = ''
             options: :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOption` = :sip:ref:`~PyQt6.QtCore.QUrl.UserInputResolutionOption.DefaultResolution`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :static:
-        :description: QtCore/QUrl-fromUserInput-f-1.rst
+        :description: QtCore/QUrl-fromUserInput-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__ge__
         :args:
@@ -351,39 +351,39 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.setAuthority
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-setAuthority-f.rst
+        :description: QtCore/QUrl-setAuthority-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setFragment
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-setFragment-f.rst
+        :description: QtCore/QUrl-setFragment-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setHost
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtCore/QUrl-setHost-f.rst
+        :description: QtCore/QUrl-setHost-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setIdnWhitelist
         :args:
-            Iterable[str]
+            Iterable[Optional[str]]
         :static:
-        :description: QtCore/QUrl-setIdnWhitelist-f.rst
+        :description: QtCore/QUrl-setIdnWhitelist-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setPassword
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtCore/QUrl-setPassword-f.rst
+        :description: QtCore/QUrl-setPassword-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setPath
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtCore/QUrl-setPath-f.rst
+        :description: QtCore/QUrl-setPath-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setPort
         :args:
@@ -397,32 +397,32 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.setQuery
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-setQuery-f-1.rst
+        :description: QtCore/QUrl-setQuery-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setScheme
         :args:
-            str
-        :description: QtCore/QUrl-setScheme-f.rst
+            Optional[str]
+        :description: QtCore/QUrl-setScheme-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setUrl
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-setUrl-f.rst
+        :description: QtCore/QUrl-setUrl-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setUserInfo
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
-        :description: QtCore/QUrl-setUserInfo-f.rst
+        :description: QtCore/QUrl-setUserInfo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.setUserName
         :args:
-            str
+            Optional[str]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtCore/QUrl-setUserName-f.rst
+        :description: QtCore/QUrl-setUserName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.swap
         :args:
@@ -431,12 +431,12 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.toAce
         :args:
-            str
+            Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.AceProcessingOption` = {}
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QUrl-toAce-f-1.rst
+        :description: QtCore/QUrl-toAce-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toDisplayString
         :args:
@@ -473,13 +473,13 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.toPercentEncoding
         :args:
-            str
-            exclude: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
-            include: :sip:ref:`~PyQt6.QtCore.QByteArray` = QByteArray()
+            Optional[str]
+            exclude: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            include: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QUrl-toPercentEncoding-f.rst
+        :description: QtCore/QUrl-toPercentEncoding-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.toString
         :args:

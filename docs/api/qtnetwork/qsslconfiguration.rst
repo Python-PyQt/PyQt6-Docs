@@ -41,12 +41,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.addCaCertificates
         :args:
-            str
+            Optional[str]
             format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
             syntax: :sip:ref:`~PyQt6.QtNetwork.QSslCertificate.PatternSyntax` = :sip:ref:`~PyQt6.QtNetwork.QSslCertificate.PatternSyntax.FixedString`
         :returns:
             bool
-        :description: QtNetwork/QSslConfiguration-addCaCertificates-f-1.rst
+        :description: QtNetwork/QSslConfiguration-addCaCertificates-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.allowedNextProtocols
         :returns:
@@ -211,19 +211,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setAllowedNextProtocols
         :args:
-            Iterable[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QSslConfiguration-setAllowedNextProtocols-f.rst
+            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
+        :description: QtNetwork/QSslConfiguration-setAllowedNextProtocols-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setBackendConfiguration
         :args:
-            backendConfiguration: Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, Any] = {}
-        :description: QtNetwork/QSslConfiguration-setBackendConfiguration-f.rst
+            backendConfiguration: Dict[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Any] = {}
+        :description: QtNetwork/QSslConfiguration-setBackendConfiguration-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setBackendConfigurationOption
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             Any
-        :description: QtNetwork/QSslConfiguration-setBackendConfigurationOption-f.rst
+        :description: QtNetwork/QSslConfiguration-setBackendConfigurationOption-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setCaCertificates
         :args:
@@ -232,8 +232,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setCiphers
         :args:
-            str
-        :description: QtNetwork/QSslConfiguration-setCiphers-f.rst
+            Optional[str]
+        :description: QtNetwork/QSslConfiguration-setCiphers-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setCiphers
         :args:
@@ -304,8 +304,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setPreSharedKeyIdentityHint
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslConfiguration-setPreSharedKeyIdentityHint-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QSslConfiguration-setPreSharedKeyIdentityHint-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setPrivateKey
         :args:
@@ -319,8 +319,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setSessionTicket
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslConfiguration-setSessionTicket-f.rst
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QSslConfiguration-setSessionTicket-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setSslOption
         :args:

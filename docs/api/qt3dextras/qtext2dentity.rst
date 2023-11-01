@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setText
         :args:
-            str
-        :description: Qt3DExtras/QText2DEntity-setText-f.rst
+            Optional[str]
+        :description: Qt3DExtras/QText2DEntity-setText-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setWidth
         :args:
@@ -76,8 +76,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.textChanged
         :args:
-            str
-        :description: Qt3DExtras/QText2DEntity-textChanged-s.rst
+            Optional[str]
+        :description: Qt3DExtras/QText2DEntity-textChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.widthChanged
         :args:

@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setFormat
         :args:
-            str
-        :description: QtCharts/QDateTimeAxis-setFormat-f.rst
+            Optional[str]
+        :description: QtCharts/QDateTimeAxis-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setMax
         :args:
@@ -62,8 +62,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.formatChanged
         :args:
-            str
-        :description: QtCharts/QDateTimeAxis-formatChanged-s.rst
+            Optional[str]
+        :description: QtCharts/QDateTimeAxis-formatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.maxChanged
         :args:

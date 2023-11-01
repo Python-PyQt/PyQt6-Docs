@@ -28,11 +28,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlError.__init__
         :args:
-            driverText: str = ''
-            databaseText: str = ''
+            driverText: Optional[str] = ''
+            databaseText: Optional[str] = ''
             type: :sip:ref:`~PyQt6.QtSql.QSqlError.ErrorType` = :sip:ref:`~PyQt6.QtSql.QSqlError.ErrorType.NoError`
-            errorCode: str = ''
-        :description: QtSql/QSqlError-__init__-f-1.rst
+            errorCode: Optional[str] = ''
+        :description: QtSql/QSqlError-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlError.databaseText
         :returns:

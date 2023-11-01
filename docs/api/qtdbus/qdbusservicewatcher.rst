@@ -23,16 +23,16 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.__init__
         :args:
-            str
+            Optional[str]
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
             watchMode: :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag` = :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.WatchModeFlag.WatchForOwnerChange`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDBus/QDBusServiceWatcher-__init__-f-2.rst
+        :description: QtDBus/QDBusServiceWatcher-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.addWatchedService
         :args:
-            str
-        :description: QtDBus/QDBusServiceWatcher-addWatchedService-f.rst
+            Optional[str]
+        :description: QtDBus/QDBusServiceWatcher-addWatchedService-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.connection
         :returns:
@@ -41,10 +41,10 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.removeWatchedService
         :args:
-            str
+            Optional[str]
         :returns:
             bool
-        :description: QtDBus/QDBusServiceWatcher-removeWatchedService-f.rst
+        :description: QtDBus/QDBusServiceWatcher-removeWatchedService-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.setConnection
         :args:
@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.setWatchedServices
         :args:
-            Iterable[str]
-        :description: QtDBus/QDBusServiceWatcher-setWatchedServices-f.rst
+            Iterable[Optional[str]]
+        :description: QtDBus/QDBusServiceWatcher-setWatchedServices-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.setWatchMode
         :args:
@@ -73,17 +73,17 @@
 
     .. sip:signal:: PyQt6.QtDBus.QDBusServiceWatcher.serviceOwnerChanged
         :args:
-            str
-            str
-            str
-        :description: QtDBus/QDBusServiceWatcher-serviceOwnerChanged-s.rst
+            Optional[str]
+            Optional[str]
+            Optional[str]
+        :description: QtDBus/QDBusServiceWatcher-serviceOwnerChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusServiceWatcher.serviceRegistered
         :args:
-            str
-        :description: QtDBus/QDBusServiceWatcher-serviceRegistered-s.rst
+            Optional[str]
+        :description: QtDBus/QDBusServiceWatcher-serviceRegistered-s-1.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusServiceWatcher.serviceUnregistered
         :args:
-            str
-        :description: QtDBus/QDBusServiceWatcher-serviceUnregistered-s.rst
+            Optional[str]
+        :description: QtDBus/QDBusServiceWatcher-serviceUnregistered-s-1.rst

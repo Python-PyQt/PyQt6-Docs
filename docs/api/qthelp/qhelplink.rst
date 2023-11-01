@@ -4,7 +4,7 @@
     :description: QtHelp/QHelpLink-c.rst
 
     .. sip:attribute:: PyQt6.QtHelp.QHelpLink.title
-        :type: str
+        :type: Optional[str]
         :description: QtHelp/QHelpLink-title-a.rst
 
     .. sip:attribute:: PyQt6.QtHelp.QHelpLink.url

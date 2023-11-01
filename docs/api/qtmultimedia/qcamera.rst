@@ -481,8 +481,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QCamera.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QCamera.Error`
-            str
-        :description: QtMultimedia/QCamera-errorOccurred-s.rst
+            Optional[str]
+        :description: QtMultimedia/QCamera-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QCamera.exposureCompensationChanged
         :args:

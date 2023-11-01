@@ -83,10 +83,10 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QImageCapture.captureToFile
         :args:
-            location: str = ''
+            location: Optional[str] = ''
         :returns:
             int
-        :description: QtMultimedia/QImageCapture-captureToFile-f.rst
+        :description: QtMultimedia/QImageCapture-captureToFile-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QImageCapture.error
         :returns:
@@ -183,8 +183,8 @@
         :args:
             int
             :sip:ref:`~PyQt6.QtMultimedia.QImageCapture.Error`
-            str
-        :description: QtMultimedia/QImageCapture-errorOccurred-s.rst
+            Optional[str]
+        :description: QtMultimedia/QImageCapture-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QImageCapture.fileFormatChanged
         :description: QtMultimedia/QImageCapture-fileFormatChanged-s.rst
@@ -209,8 +209,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QImageCapture.imageSaved
         :args:
             int
-            str
-        :description: QtMultimedia/QImageCapture-imageSaved-s.rst
+            Optional[str]
+        :description: QtMultimedia/QImageCapture-imageSaved-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QImageCapture.metaDataChanged
         :description: QtMultimedia/QImageCapture-metaDataChanged-s.rst

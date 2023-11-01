@@ -36,10 +36,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDiskCache.fileMetaData
         :args:
-            str
+            Optional[str]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkCacheMetaData`
-        :description: QtNetwork/QNetworkDiskCache-fileMetaData-f.rst
+        :description: QtNetwork/QNetworkDiskCache-fileMetaData-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDiskCache.insert
         :args:
@@ -74,8 +74,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDiskCache.setCacheDirectory
         :args:
-            str
-        :description: QtNetwork/QNetworkDiskCache-setCacheDirectory-f.rst
+            Optional[str]
+        :description: QtNetwork/QNetworkDiskCache-setCacheDirectory-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDiskCache.setMaximumCacheSize
         :args:

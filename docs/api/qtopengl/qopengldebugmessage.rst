@@ -97,25 +97,25 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugMessage.createApplicationMessage
         :args:
-            str
+            Optional[str]
             id: int = 0
             severity: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity.NotificationSeverity`
             type: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.OtherType`
         :returns:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage`
         :static:
-        :description: QtOpenGL/QOpenGLDebugMessage-createApplicationMessage-f-1.rst
+        :description: QtOpenGL/QOpenGLDebugMessage-createApplicationMessage-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugMessage.createThirdPartyMessage
         :args:
-            str
+            Optional[str]
             id: int = 0
             severity: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Severity.NotificationSeverity`
             type: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type` = :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Type.OtherType`
         :returns:
             :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage`
         :static:
-        :description: QtOpenGL/QOpenGLDebugMessage-createThirdPartyMessage-f-1.rst
+        :description: QtOpenGL/QOpenGLDebugMessage-createThirdPartyMessage-f-2.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugMessage.__eq__
         :args:

@@ -35,10 +35,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmap.__init__
         :args:
-            str
+            Optional[str]
             format: str = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPixmap-__init__-f-7.rst
+        :description: QtGui/QPixmap-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmap.cacheKey
         :returns:
@@ -164,12 +164,12 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmap.load
         :args:
-            str
+            Optional[str]
             format: str = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             bool
-        :description: QtGui/QPixmap-load-f-1.rst
+        :description: QtGui/QPixmap-load-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmap.loadFromData
         :args:
@@ -182,12 +182,12 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmap.loadFromData
         :args:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             format: str = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
         :returns:
             bool
-        :description: QtGui/QPixmap-loadFromData-f-3.rst
+        :description: QtGui/QPixmap-loadFromData-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmap.mask
         :returns:
@@ -213,12 +213,12 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmap.save
         :args:
-            str
+            Optional[str]
             format: str = None
             quality: int = -1
         :returns:
             bool
-        :description: QtGui/QPixmap-save-f.rst
+        :description: QtGui/QPixmap-save-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmap.save
         :args:
