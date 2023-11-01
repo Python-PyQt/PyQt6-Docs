@@ -2,5 +2,8 @@
     :status: todo
     :pysig: e5e9a29a67ac7eb0925abe849396e0b8
     :realsig: () const
+    :digest: 03b80458a7643b1e3d32862e67cf0442
 
-TODO
+Returns the accent brush of the current color group.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.ColorRole`, :sip:ref:`~PyQt6.QtGui.QPalette.brush`.

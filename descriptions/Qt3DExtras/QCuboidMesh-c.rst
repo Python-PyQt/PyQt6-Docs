@@ -2,8 +2,6 @@
     :status: todo
     :brief: A cuboid mesh
     :realname: Qt3DExtras::QCuboidMesh
-    :digest: efc07cbba80a432c7b2f12c5b0ef5652
-
-\* \* \* \* \* \* \*
+    :digest: df3aff16eb6f85f710d91bb0ca75207c
 
 A cuboid mesh.

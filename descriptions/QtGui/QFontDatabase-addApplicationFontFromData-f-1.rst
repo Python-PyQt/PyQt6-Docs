@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 563a3eed221644fd65b2bb3b8551c38c
     :realsig: (const QByteArray&)
+    :digest: 786b4efcfeeb3df56d344a998fbfe87b
 
-TODO
+Loads the font from binary data specified by *fontData* and makes it available to the application. An ID is returned that can be used to remove the font again with :sip:ref:`~PyQt6.QtGui.QFontDatabase.removeApplicationFont` or to retrieve the list of family names contained in the font.
+
+The function returns -1 if the font could not be loaded.
+
+Currently only TrueType fonts, TrueType font collections, and OpenType fonts are supported.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontDatabase.addApplicationFont`, :sip:ref:`~PyQt6.QtGui.QFontDatabase.applicationFontFamilies`, :sip:ref:`~PyQt6.QtGui.QFontDatabase.removeApplicationFont`.

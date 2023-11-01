@@ -1,5 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 09d03c911c74d74fb2d86f6aa590389b
+    :digest: 681a46e845dce71ca829c406637e6a8d
 
 The WildcardConversionOption enum defines modifiers to the way a wildcard glob pattern gets converted to a regular expression pattern.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QRegularExpression.wildcardToRegularExpression`.

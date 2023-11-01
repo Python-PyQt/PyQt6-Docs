@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies a query for a font used for drawing text
-    :digest: 378e6aad95f0f1c08857ca425738ec66
+    :digest: 69be68d0081b87f3b9b1eb411125a1d8
 
 The :sip:ref:`~PyQt6.QtGui.QFont` class specifies a query for a font used for drawing text.
 
@@ -39,8 +39,6 @@ Loading fonts can be expensive, especially on X11. :sip:ref:`~PyQt6.QtGui.QFont`
 The font matching algorithm works as follows:
 
 #. The specified font families (set by :sip:ref:`~PyQt6.QtGui.QFont.setFamilies`) are searched for.
-
-#. If not found, then if set the specified font family exists and can be used to represent the writing system in use, it will be selected.
 
 #. If not, a replacement font that supports the writing system is selected. The font matching algorithm will try to find the best match for all the properties set in the :sip:ref:`~PyQt6.QtGui.QFont`. How this is done varies from platform to platform.
 
@@ -90,4 +88,4 @@ To find out font metrics use a :sip:ref:`~PyQt6.QtGui.QFontMetrics` object, e.g.
 
 For more general information on fonts, see the `comp.fonts FAQ <https://doc.qt.io/qt-6/http://nwalsh.com/comp.fonts/FAQ/>`_. Information on encodings can be found from the `UTR17 <https://doc.qt.io/qt-6/https://www.unicode.org/reports/tr17/>`_ page.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontMetrics`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontDatabase`, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontMetrics`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontDatabase`.

@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Adds categories to a chart's axes
-    :digest: 71a273ca1623f2cff856f0ba863778e0
+    :digest: 246045736a84e1ef18c950d0361a7711
 
 The :sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis` class adds categories to a chart's axes.
 
-:sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis` can be set up to show an axis line with tick marks, grid lines, and shades. Categories are drawn between the ticks. It can be used also with a line series, as demonstrated by the `Line and BarChart Example <https://doc.qt.io/qt-6/qtcharts-lineandbar-example.html>`_.
+:sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis` can be set up to show an axis line with tick marks, grid lines, and shades. Categories are drawn between the ticks. It can be used also with a line series, as demonstrated by the `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_.
 
 The following code illustrates how to use :sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis`:
 

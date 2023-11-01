@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents one item in a box-and-whiskers chart
-    :digest: e309a43bee973adc661dd1d009658409
+    :digest: 18a5b687cd777ab4479c5f70df8897f0
 
 The :sip:ref:`~PyQt6.QtCharts.QBoxSet` class represents one item in a box-and-whiskers chart.
 
@@ -9,6 +9,6 @@ A box-and-whiskers item is a graphical representation of a range and three media
 
 The second way is to create an empty :sip:ref:`~PyQt6.QtCharts.QBoxSet` instance and specify the values using the :sip:ref:`~PyQt6.QtCharts.QBoxSet.setValue` method.
 
-See the `box-and-whiskers chart example <https://doc.qt.io/qt-6/qtcharts-boxplotchart-example.html>`_ to learn how to create a box-and-whiskers chart.
+See the `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_ to learn how to create a box-and-whiskers chart.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCharts.QBoxPlotSeries`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class for textures used in the scene graph
-    :digest: 4a9a4bf42466f56fb87feac11a5f6aa4
+    :digest: da458ee05440fba4ffb45fa4d060fbfa
 
 The :sip:ref:`~PyQt6.QtQuick.QSGTexture` class is the base class for textures used in the scene graph.
 
@@ -27,5 +27,3 @@ The location of the texture inside the atlas is given with the :sip:ref:`~PyQt6.
 If the texture is used in such a way that atlas is not preferable, the function removedFromAtlas() can be used to extract a non-atlased copy.
 
 **Note:** All classes with QSG prefix should be used solely on the scene graph's rendering thread. See `Scene Graph and Rendering <https://doc.qt.io/qt-6/qtquick-visualcanvas-scenegraph.html#scene-graph-and-rendering>`_ for more information.
-
-.. seealso:: `Scene Graph - Rendering FBOs <https://doc.qt.io/qt-6/qtquick-scenegraph-fboitem-example.html>`_.

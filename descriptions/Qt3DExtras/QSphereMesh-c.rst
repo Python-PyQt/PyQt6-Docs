@@ -2,8 +2,6 @@
     :status: todo
     :brief: A spherical mesh
     :realname: Qt3DExtras::QSphereMesh
-    :digest: ce238575179c0d256b01e19aa7b1e9f9
-
-\* \* \* \* \* \* \*
+    :digest: caa3582f0e3459a563b17970580cd782
 
 A spherical mesh.

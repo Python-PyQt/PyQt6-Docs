@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for sending audio data to an audio output device
-    :digest: c2317294ba341a0aa73f7883b27b5a31
+    :digest: c382ab3c2e93cfa831c78572c37d8a37
 
 The :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` class provides an interface for sending audio data to an audio output device.
 
@@ -26,7 +26,7 @@ After the file has finished playing, we need to stop the device:
 
 At any given time, the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will be in one of four states: active, suspended, stopped, or idle. These states are described by the :sip:ref:`~PyQt6.QtMultimedia.QAudio.State` enum. State changes are reported through the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal. You can use this signal to, for instance, update the GUI of the application; the mundane example here being changing the state of a ``play/pause`` button. You request a state change directly with :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.suspend`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stop`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.reset`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.resume`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.start`.
 
-If an error occurs, you can fetch the :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error` with the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.error` function. Please see the :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error` enum for a description of the possible errors that are reported. When an error is encountered, the state changes to :sip:ref:`~PyQt6.QtMultimedia.QAudio.State.StoppedState`. You can check for errors by connecting to the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal:
+If an error occurs, you can fetch the :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error` with the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.error` function. Please see the :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error` enum for a description of the possible errors that are reported. When :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error.UnderrunError` is encountered, the state changes to :sip:ref:`~PyQt6.QtMultimedia.QAudio.State.IdleState`, when another error is encountered, the state changes to :sip:ref:`~PyQt6.QtMultimedia.QAudio.State.StoppedState`. You can check for errors by connecting to the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal:
 
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
     :lines: 174-195

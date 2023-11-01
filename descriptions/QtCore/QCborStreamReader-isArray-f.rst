@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: 049a95a64c78cc225c22fc2bd0042b86
+    :digest: 547ce9c5871a437900c129edae583560
 
 Returns true if the type of the current element is an array (that is, if :sip:ref:`~PyQt6.QtCore.QCborStreamReader.type` returns :sip:ref:`~PyQt6.QtCore.QCborStreamReader.Type.Array`). If this function returns true, you may call :sip:ref:`~PyQt6.QtCore.QCborStreamReader.enterContainer` to begin parsing that container.
 

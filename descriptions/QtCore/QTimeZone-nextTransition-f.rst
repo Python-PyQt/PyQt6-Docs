@@ -2,11 +2,11 @@
     :status: todo
     :pysig: d03de0efeffef2d91ec115e9924b405c
     :realsig: (const QDateTime&) const
-    :digest: 59cabc32e9aabda4995b008db0d54dd5
+    :digest: b71ea184606685ef7dd81f176b8508b3
 
 Returns the first time zone Transition after the given *afterDateTime*. This is most useful when you have a Transition time and wish to find the Transition after it.
 
-If there is no transition after the given *afterDateTime* then an invalid :sip:ref:`~PyQt6.QtCore.QTimeZone.OffsetData` will be returned with an invalid :sip:ref:`~PyQt6.QtCore.QDateTime`.
+If there is no transition after the given *afterDateTime* then an invalid :sip:ref:`~PyQt6.QtCore.QTimeZone.OffsetData` will be returned with an invalid :sip:ref:`~PyQt6.QtCore.QDateTime` as its ``atUtc``.
 
 The given *afterDateTime* is exclusive.
 

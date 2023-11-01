@@ -2,5 +2,16 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: 58a78e995a8d7a530d90072eb69fbdb6
 
-TODO
+Changes the text of the text edit to the string *text*. Any previous text is removed.
+
+Notes:
+
+* *text* is interpreted as plain text.
+
+* The undo/redo history is also cleared.
+
+* :sip:ref:`~PyQt6.QtWidgets.QTextEdit.currentCharFormat` is reset, unless :sip:ref:`~PyQt6.QtWidgets.QTextEdit.textCursor` is already at the beginning of the document.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit.toPlainText`.

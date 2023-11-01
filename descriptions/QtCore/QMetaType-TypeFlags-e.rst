@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
     :realname: QMetaType::TypeFlag
-    :digest: f14914b2437a5ee4901aee345f80c885
+    :digest: 7b7daa58da1f6d535e4005e32db2510f
 
 The enum describes attributes of a type supported by :sip:ref:`~PyQt6.QtCore.QMetaType`.
 

@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x2
     :realname: QMetaType::TypeFlag::NeedsDestruction
-    :digest: 15513beb3baaf2554a8cc439bd1fa862
+    :digest: dcc09b58464b72752d484748028f8aa7
 
-This type has a non-trivial destructor. If the flag is not set calls to the destructor are not necessary before discarding objects.
+This type has a non-trivial destructor. If the flag is not set, calls to the destructor are not necessary before discarding objects.

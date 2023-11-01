@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical model mapper for bar series
-    :digest: aedf4b34aa6e2d3fbaeaf2264842083e
+    :digest: ef431e67764c6f2b37f75f1b9b29943e
 
 The :sip:ref:`~PyQt6.QtCharts.QVBarModelMapper` class is a vertical model mapper for bar series.
 
@@ -11,6 +11,6 @@ Both model and bar series properties can be used to manipulate the data. The mod
 
 The model mapper ensures that all the bar sets in the bar series have equal sizes. Therefore, adding or removing a value from a bar set causes the same change to be made in all the bar sets in the bar series.
 
-For more information, see `BarModelMapper Example <https://doc.qt.io/qt-6/qtcharts-barmodelmapper-example.html>`_.
+For more information, see `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCharts.QHBarModelMapper`.

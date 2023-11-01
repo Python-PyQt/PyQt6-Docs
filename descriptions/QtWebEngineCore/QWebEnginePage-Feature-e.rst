@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: a69338a886415af1df0325e3d03690f5
+    :digest: 2877e4801da6d6b23ec0120c72c4fe56
 
 This enum describes the platform feature access categories that the user may be asked to grant or deny access to:
 

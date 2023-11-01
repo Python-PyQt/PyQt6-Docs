@@ -2,5 +2,10 @@
     :status: todo
     :pysig: dd431a34e6382be8567cf5b44f2db6a6
     :realsig: (const QString&)
+    :digest: 738e5deeeaf19688b1b7fe3234ee4b30
 
-TODO
+Removes any server instance that might cause a call to :sip:ref:`~PyQt6.QtNetwork.QLocalServer.listen` to fail and returns ``true`` if successful; otherwise returns ``false``. This function is meant to recover from a crash, when the previous server instance has not been cleaned up.
+
+On Windows, this function does nothing; on Unix, it removes the socket file given by *name*.
+
+**Warning:** Be careful to avoid removing sockets of running instances.

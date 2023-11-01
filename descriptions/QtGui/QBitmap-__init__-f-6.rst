@@ -2,5 +2,10 @@
     :status: todo
     :pysig: ce1c9c99d88f8f64a9bedd1c185db1c9
     :realsig: (const QString&, const char*)
+    :digest: adf307dfe1dd6bcf9339b276ffd0f89e
 
-TODO
+Constructs a bitmap from the file specified by the given *fileName*. If the file does not exist, or has an unknown format, the bitmap becomes a null bitmap.
+
+The *fileName* and *format* parameters are passed on to the :sip:ref:`~PyQt6.QtGui.QPixmap.load` function. If the file format uses more than 1 bit per pixel, the resulting bitmap will be dithered automatically.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPixmap.isNull`, :sip:ref:`~PyQt6.QtGui.QImageReader.imageFormat`.

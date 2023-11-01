@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: API for accessing the extensions of an X509 certificate
-    :digest: fd24229cebc937682a42579479640573
+    :digest: f7699439af1657f24001adef0842682e
 
 The :sip:ref:`~PyQt6.QtNetwork.QSslCertificateExtension` class provides an API for accessing the extensions of an X509 certificate.
 

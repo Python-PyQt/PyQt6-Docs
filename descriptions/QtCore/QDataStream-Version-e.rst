@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 8d065bf609ca8284e305e6f526e408de
+    :digest: 5b6f86e26751b6aa19c50a1a77707831
 
 This enum provides symbolic synonyms for the data serialization format version numbers.
 

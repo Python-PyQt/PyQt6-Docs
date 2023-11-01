@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ce3d9b4daef6744486b5f293221f93ba
     :realsig: (QKeyEvent*)
-    :digest: 3f6e1e3e5b41fc466b7a89d873142dcd
+    :digest: ce613935d051704a8495fc193e81ea58
 
 This event handler, for event *event*, can be reimplemented in a subclass to receive key press events for the widget.
 
@@ -14,4 +14,4 @@ The default implementation closes popup widgets if the user presses the key sequ
 
 Note that :sip:ref:`~PyQt6.QtGui.QKeyEvent` starts with isAccepted() == true, so you do not need to call QKeyEvent::accept() - just do not call the base class implementation if you act upon the key.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.keyReleaseEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setFocusPolicy`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusInEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusOutEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.event`, :sip:ref:`~PyQt6.QtGui.QKeyEvent`, `Tetrix Example <https://doc.qt.io/qt-6/qtwidgets-widgets-tetrix-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.keyReleaseEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setFocusPolicy`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusInEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusOutEvent`, :sip:ref:`~PyQt6.QtWidgets.QWidget.event`, :sip:ref:`~PyQt6.QtGui.QKeyEvent`.

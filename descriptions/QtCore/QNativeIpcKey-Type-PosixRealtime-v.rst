@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x100
+    :digest: 4bcc849d298542e7bac9f08b178dc702
 
-TODO
+IEEE 1003.1b (POSIX.1b) API

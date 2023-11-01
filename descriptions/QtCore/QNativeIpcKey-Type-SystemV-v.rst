@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x51
+    :digest: 7ca3e53a50807ee8bdb63bc29612e961
 
-TODO
+X/Open System Initiative (XSI) or System V (SVr4) API

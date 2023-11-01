@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 7
-    :digest: 0e901e5bc3d8e8f9b367c566d5eb4587
+    :digest: 58c4fa74e26de3333499ed2c4f6da6f5
 
-Null (no output) via a graphics abstraction layer. This value was introduced in Qt 5.14.
+Null (no output) via a graphics abstraction layer.

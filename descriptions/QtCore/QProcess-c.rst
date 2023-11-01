@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to start external programs and to communicate with them
-    :digest: 83ad4bd64b0838197e8ee85d59f90eb6
+    :digest: 069e84ebfd274a97d38002f21744fe52
 
 The :sip:ref:`~PyQt6.QtCore.QProcess` class is used to start external programs and to communicate with them.
 
@@ -85,8 +85,6 @@ The terminology for the channels can be misleading. Be aware that the process's 
 Certain processes need special environment settings in order to operate. You can set environment variables for your process by calling :sip:ref:`~PyQt6.QtCore.QProcess.setProcessEnvironment`. To set a working directory, call :sip:ref:`~PyQt6.QtCore.QProcess.setWorkingDirectory`. By default, processes are run in the current working directory of the calling process.
 
 The positioning and the screen Z-order of windows belonging to GUI applications started with :sip:ref:`~PyQt6.QtCore.QProcess` are controlled by the underlying windowing system. For Qt 5 applications, the positioning can be specified using the ``-qwindowgeometry`` command line option; X11 applications generally accept a ``-geometry`` command line option.
-
-**Note:** On QNX, setting the working directory may cause all application threads, with the exception of the :sip:ref:`~PyQt6.QtCore.QProcess` caller thread, to temporarily freeze during the spawning process, owing to a limitation in the operating system.
 
 .. _qprocess-synchronous-process-api:
 

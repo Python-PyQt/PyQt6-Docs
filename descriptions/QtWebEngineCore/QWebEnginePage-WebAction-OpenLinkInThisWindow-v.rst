@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 12
-    :digest: 7a2fa275994321f7562b62a8067bab4e
+    :digest: 4f82e083c2dc7f4133d0844ba229930f
 
-Open the current link in the current window. (Added in Qt 5.6)
+Open the current link in the current window.

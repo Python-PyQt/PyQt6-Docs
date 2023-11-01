@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ed36a1ef76a59ee3f15180e0441188ad
     :realsig: () const
-    :digest: d1670707d210eb603d6ccda768a721ee
+    :digest: c52db72942e265c9f1739212e1fef6bb
 
 Returns the stored value converted to the template type ``T``. Call :sip:ref:`~PyQt6.QtCore.QVariant.canConvert` to find out whether a type can be converted. If the value cannot be converted, a `default-constructed value <https://doc.qt.io/qt-6/containers.html#default-constructed-value>`_ will be returned.
 

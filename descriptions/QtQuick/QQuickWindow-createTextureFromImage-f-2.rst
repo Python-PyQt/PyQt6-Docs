@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 2b0abd44bf81a39c8af3eaf93e752039
     :realsig: (const QImage&,QQuickWindow::CreateTextureOptions) const
-    :digest: d3abaa7a9538482a7ae57360bc0ef99e
+    :digest: fc9227001348ebeb8f288c1617191e8d
 
 Creates a new :sip:ref:`~PyQt6.QtQuick.QSGTexture` from the supplied *image*. If the image has an alpha channel, the corresponding texture will have an alpha channel.
 
@@ -14,12 +14,14 @@ When *options* contains :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOptio
 
 When *options* contains :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureHasMipmaps`, the engine will create a texture which can use mipmap filtering. Mipmapped textures can not be in an atlas.
 
+Setting :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureHasAlphaChannel` in *options* serves no purpose for this function since assuming an alpha channel and blending is the default. To opt out, set :sip:ref:`~PyQt6.QtQuick.QQuickWindow.CreateTextureOption.TextureIsOpaque`.
+
 When the scene graph uses OpenGL, the returned texture will be using ``GL_TEXTURE_2D`` as texture target and ``GL_RGBA`` as internal format. With other graphics APIs, the texture format is typically ``RGBA8``. Reimplement :sip:ref:`~PyQt6.QtQuick.QSGTexture` to create textures with different parameters.
 
 **Warning:** This function will return 0 if the scene graph has not yet been initialized.
 
 **Warning:** The returned texture is not memory managed by the scene graph and must be explicitly deleted by the caller on the rendering thread. This is achieved by deleting the texture from a :sip:ref:`~PyQt6.QtQuick.QSGNode` destructor or by using deleteLater() in the case where the texture already has affinity to the rendering thread.
 
-This function can be called from any thread.
+This function can be called from both the main and the render thread.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickWindow.sceneGraphInitialized`, :sip:ref:`~PyQt6.QtQuick.QSGTexture`.

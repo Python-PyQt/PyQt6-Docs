@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Default model/view implementation of a tree view
-    :digest: 7686d685dd6ab10bedf7a62d904c2253
+    :digest: ae7f4acf2888803ed3d372a7193a8f71
 
 The :sip:ref:`~PyQt6.QtWidgets.QTreeView` class provides a default model/view implementation of a tree view.
 
@@ -73,4 +73,4 @@ Improving Performance
 
 It is possible to give the view hints about the data it is handling in order to improve its performance when displaying large numbers of items. One approach that can be taken for views that are intended to display items with equal heights is to set the :sip:ref:`~PyQt6.QtWidgets.QTreeView.uniformRowHeights` property to true.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QListView`, :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`, `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Dir View Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-dirview-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QListView`, :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`, `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`.

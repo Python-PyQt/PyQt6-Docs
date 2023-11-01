@@ -2,9 +2,11 @@
     :status: todo
     :pysig: 8f48478791d03642797fb4455d9c598c
     :realsig: ()
-    :digest: 41002e2dd9798a15de45d7bfe5aac866
+    :digest: 6e2f552324bf22d3209c19cfdf2db1e8
 
-Adds the help option (``-h``, ``--help`` and ``-?`` on Windows) as well as an option ``--help-all`` to include Qt-specific options in the output.
+Adds help options to the command-line parser.
+
+The options specified for this command-line are described by ``-h`` or ``--help``. On Windows, the alternative ``-?`` is also supported. The option ``--help-all`` extends that to include generic Qt options, not defined by this command, in the output.
 
 These options are handled automatically by :sip:ref:`~PyQt6.QtCore.QCommandLineParser`.
 

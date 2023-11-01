@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: ea1b3938f02c4ee01c8da222d5cd4d67
 
-TODO
+This signal is emitted whenever the *title* of the view changes.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWebEngineWidgets.QWebEngineView.title`.

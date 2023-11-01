@@ -2,8 +2,6 @@
     :status: todo
     :brief: A square planar mesh
     :realname: Qt3DExtras::QPlaneMesh
-    :digest: d1fcea7ca371178e85703b8996fb81df
-
-\* \* \* \* \* \* \*
+    :digest: 346f4ec2307864d2593bbdfbee9de311
 
 A square planar mesh.

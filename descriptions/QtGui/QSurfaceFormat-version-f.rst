@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ca9f8cd9196019b2c38e9b331f4f233c
     :realsig: () const
-    :digest: 86201adcee3489529b1da8392e27adae
+    :digest: 768adb006883b84afd4f729ea34b2c03
 
 Returns a QPair<int, int> representing the OpenGL version.
 

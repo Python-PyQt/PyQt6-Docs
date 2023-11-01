@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scrolling view onto another widget
-    :digest: 24f5035757ddc392df34dcf9061235f4
+    :digest: 614062b185a97b5d7e0a4c49f6e1c5c8
 
 The :sip:ref:`~PyQt6.QtWidgets.QScrollArea` class provides a scrolling view onto another widget.
 
@@ -29,13 +29,11 @@ Two convenience functions :sip:ref:`~PyQt6.QtWidgets.QScrollArea.ensureVisible` 
 Size Hints and Layouts
 ----------------------
 
-When using a scroll area to display the contents of a custom widget, it is important to ensure that the :sip:ref:`~PyQt6.QtWidgets.QWidget.sizeHint` of the child widget is set to a suitable value. If a standard `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ is used for the child widget, it may be necessary to call :sip:ref:`~PyQt6.QtWidgets.QWidget.setMinimumSize` to ensure that the contents of the widget are shown correctly within the scroll area.
+When using a scroll area to display the contents of a custom widget, it is important to ensure that the :sip:ref:`~PyQt6.QtWidgets.QWidget.sizeHint` of the child widget is set to a suitable value. If a standard :sip:ref:`~PyQt6.QtWidgets.QWidget` is used for the child widget, it may be necessary to call :sip:ref:`~PyQt6.QtWidgets.QWidget.setMinimumSize` to ensure that the contents of the widget are shown correctly within the scroll area.
 
 If a scroll area is used to display the contents of a widget that contains child widgets arranged in a layout, it is important to realize that the size policy of the layout will also determine the size of the widget. This is especially useful to know if you intend to dynamically change the contents of the layout. In such cases, setting the layout's :sip:ref:`~PyQt6.QtWidgets.QLayout.sizeConstraint` property to one which provides constraints on the minimum and/or maximum size of the layout (e.g., :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint.SetMinAndMaxSize`) will cause the size of the scroll area to be updated whenever the contents of the layout changes.
 
-For a complete example using the :sip:ref:`~PyQt6.QtWidgets.QScrollArea` class, see the `Image Viewer <https://doc.qt.io/qt-6/qtwidgets-widgets-imageviewer-example.html>`_ example. The example shows how to combine :sip:ref:`~PyQt6.QtWidgets.QLabel` and :sip:ref:`~PyQt6.QtWidgets.QScrollArea` to display an image.
-
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea`, :sip:ref:`~PyQt6.QtWidgets.QScrollBar`, `Image Viewer Example <https://doc.qt.io/qt-6/qtwidgets-widgets-imageviewer-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QAbstractScrollArea`, :sip:ref:`~PyQt6.QtWidgets.QScrollBar`.
 
 .. |image-qscrollarea-noscrollbars-png| image:: ../../../images/qscrollarea-noscrollbars.png
 .. |image-qscrollarea-onescrollbar-png| image:: ../../../images/qscrollarea-onescrollbar.png

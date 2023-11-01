@@ -2,5 +2,15 @@
     :status: todo
     :pysig: 2e1e4fde32fc7292dbe8e18ea768734a
     :realsig: (const QStringList&)
+    :digest: f1a104150edbceccac39c3ee26f2baba
 
-TODO
+Sets the name filters used by :sip:ref:`~PyQt6.QtCore.QDir.entryList` and :sip:ref:`~PyQt6.QtCore.QDir.entryInfoList` to the list of filters specified by *nameFilters*.
+
+Each name filter is a wildcard (globbing) filter that understands ``\*`` and ``?`` wildcards. See :sip:ref:`~PyQt6.QtCore.QRegularExpression.fromWildcard`.
+
+For example, the following code sets three name filters on a :sip:ref:`~PyQt6.QtCore.QDir` to ensure that only files with extensions typically used for C++ source files are listed:
+
+.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qdir-namefilters-main.py
+    :lines: 63-65
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir.nameFilters`, :sip:ref:`~PyQt6.QtCore.QDir.setFilter`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Support for MIME-based drag and drop data transfer
-    :digest: 74978fd3120b1181755af306ee743e66
+    :digest: 1749f4053f99f273dcb6527c16af09f2
 
 The :sip:ref:`~PyQt6.QtGui.QDrag` class provides support for MIME-based drag and drop data transfer.
 
@@ -25,4 +25,4 @@ The source and target widgets can be found with :sip:ref:`~PyQt6.QtGui.QDrag.sou
 
 :sip:ref:`~PyQt6.QtGui.QDrag` only deals with the drag and drop operation itself. It is up to the developer to decide when a drag operation begins, and how a :sip:ref:`~PyQt6.QtGui.QDrag` object should be constructed and used. For a given widget, it is often necessary to reimplement :sip:ref:`~PyQt6.QtWidgets.QWidget.mousePressEvent` to determine whether the user has pressed a mouse button, and reimplement :sip:ref:`~PyQt6.QtWidgets.QWidget.mouseMoveEvent` to check whether a :sip:ref:`~PyQt6.QtGui.QDrag` is required.
 
-.. seealso:: `Drag and Drop <https://doc.qt.io/qt-6/dnd.html>`_, :sip:ref:`~PyQt6.QtGui.QClipboard`, :sip:ref:`~PyQt6.QtCore.QMimeData`, `Draggable Icons Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-draggableicons-example.html>`_, `Draggable Text Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-draggabletext-example.html>`_, `Drop Site Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-dropsite-example.html>`_, `Fridge Magnets Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-fridgemagnets-example.html>`_.
+.. seealso:: `Drag and Drop <https://doc.qt.io/qt-6/dnd.html>`_, :sip:ref:`~PyQt6.QtGui.QClipboard`, :sip:ref:`~PyQt6.QtCore.QMimeData`, `Draggable Icons Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-draggableicons-example.html>`_, `Draggable Text Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-draggabletext-example.html>`_, `Drop Site Example <https://doc.qt.io/qt-6/qtwidgets-draganddrop-dropsite-example.html>`_.

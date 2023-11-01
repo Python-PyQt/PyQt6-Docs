@@ -2,8 +2,6 @@
     :status: todo
     :brief: A cylindrical mesh
     :realname: Qt3DExtras::QCylinderMesh
-    :digest: c7ba61a125a65d5cad6b239699a0c9dd
-
-\* \* \* \* \* \* \*
+    :digest: b81f5d6eb5980ff964522e2f843b5791
 
 A cylindrical mesh.

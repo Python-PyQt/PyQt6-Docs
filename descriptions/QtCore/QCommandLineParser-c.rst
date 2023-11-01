@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Means for handling the command line options
-    :digest: 89cbee181a2a3aa5d45c091d3e36e74b
+    :digest: 4ba9900b7ca768a7b5a05555295dd91a
 
 The :sip:ref:`~PyQt6.QtCore.QCommandLineParser` class provides a means for handling the command line options.
 
@@ -11,13 +11,13 @@ Any argument that isn't an option (i.e. doesn't start with a ``-``) is stored as
 
 The parser handles short names, long names, more than one name for the same option, and option values.
 
-Options on the command line are recognized as starting with a single or double ``-`` character(s). The option ``-`` (single dash alone) is a special case, often meaning standard input, and not treated as an option. The parser will treat everything after the option ``--`` (double dash) as positional arguments.
+Options on the command line are recognized as starting with one or two ``-`` characters, followed by the option name. The option ``-`` (single dash alone) is a special case, often meaning standard input, and is not treated as an option. The parser will treat everything after the option ``--`` (double dash) as positional arguments.
 
-Short options are single letters. The option ``v`` would be specified by passing ``-v`` on the command line. In the default parsing mode, short options can be written in a compact form, for instance ``-abc`` is equivalent to ``-a -b -c``. The parsing mode for can be set to :sip:ref:`~PyQt6.QtCore.QCommandLineParser.SingleDashWordOptionMode.ParseAsLongOptions`, in which case ``-abc`` will be parsed as the long option ``abc``.
+Short options are single letters. The option ``v`` would be specified by passing ``-v`` on the command line. In the default parsing mode, short options can be written in a compact form, for instance ``-abc`` is equivalent to ``-a -b -c``. The parsing mode can be changed to :sip:ref:`~PyQt6.QtCore.QCommandLineParser.SingleDashWordOptionMode.ParseAsLongOptions`, in which case ``-abc`` will be parsed as the long option ``abc``.
 
 Long options are more than one letter long and cannot be compacted together. The long option ``verbose`` would be passed as ``--verbose`` or ``-verbose``.
 
-Passing values to options can be done using the assignment operator: ``-v=value`` ``--verbose=value``, or a space: ``-v value`` ``--verbose value``, i.e. the next argument is used as value (even if it starts with a ``-``).
+Passing values to options can be done by using the assignment operator (``-v=value``, ``--verbose=value``), or with a space (``-v value``, ``--verbose value``). This works even if the the value starts with a ``-``.
 
 The parser does not support optional values - if an option is set to require a value, one must be present. If such an option is placed last and has no value, the option will be treated as if it had not been specified.
 
@@ -28,12 +28,12 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_tools_qcommandlineparser_main.py
     :lines: 56-95
 
-If your compiler supports the C++11 standard, the three :sip:ref:`~PyQt6.QtCore.QCommandLineParser.addOption` calls in the above example can be simplified:
+The three :sip:ref:`~PyQt6.QtCore.QCommandLineParser.addOption` calls in the above example can be made more compact by using :sip:ref:`~PyQt6.QtCore.QCommandLineParser.addOptions`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_tools_qcommandlineparser_main.py
     :lines: 100-111
 
-Known limitation: the parsing of Qt options inside :sip:ref:`~PyQt6.QtCore.QCoreApplication` and subclasses happens before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` exists, so it can't take it into account. This means any option value that looks like a builtin Qt option, will be treated by :sip:ref:`~PyQt6.QtCore.QCoreApplication` as a builtin Qt option. Example: ``--profile -reverse`` will lead to :sip:ref:`~PyQt6.QtGui.QGuiApplication` seeing the -reverse option set, and removing it from :sip:ref:`~PyQt6.QtCore.QCoreApplication.arguments` before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` defines the ``profile`` option and parses the command line.
+Known limitation: the parsing of Qt options inside :sip:ref:`~PyQt6.QtCore.QCoreApplication` and subclasses happens before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` exists, so it can't take it into account. This means any option value that looks like a builtin Qt option will be treated by :sip:ref:`~PyQt6.QtCore.QCoreApplication` as a builtin Qt option. Example: ``--profile -reverse`` will lead to :sip:ref:`~PyQt6.QtGui.QGuiApplication` seeing the -reverse option set, and removing it from :sip:ref:`~PyQt6.QtCore.QCoreApplication.arguments` before :sip:ref:`~PyQt6.QtCore.QCommandLineParser` defines the ``profile`` option and parses the command line.
 
 .. _qcommandlineparser-how-to-use-qcommandlineparser-in-complex-applications:
 

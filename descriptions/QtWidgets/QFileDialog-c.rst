@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Dialog that allow users to select files or directories
-    :digest: 903ba0a55c62592a33bd2835890d2df7
+    :digest: c92ebf89fa86ef3a683c10552d07e280
 
 The :sip:ref:`~PyQt6.QtWidgets.QFileDialog` class provides a dialog that allow users to select files or directories.
 
@@ -49,6 +49,6 @@ The dialog's working directory can be set with :sip:ref:`~PyQt6.QtWidgets.QFileD
 
 The `Standard Dialogs <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_ example shows how to use :sip:ref:`~PyQt6.QtWidgets.QFileDialog` as well as other built-in Qt dialogs.
 
-By default, a platform-native file dialog will be used if the platform has one. In that case, the widgets which would otherwise be used to construct the dialog will not be instantiated, so related accessors such as layout() and :sip:ref:`~PyQt6.QtWidgets.QFileDialog.itemDelegate` will return null. You can set the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Options.DontUseNativeDialog` option to ensure that the widget-based implementation will be used instead of the native dialog.
+By default, a platform-native file dialog will be used if the platform has one. In that case, the widgets which would otherwise be used to construct the dialog will not be instantiated, so related accessors such as layout() and :sip:ref:`~PyQt6.QtWidgets.QFileDialog.itemDelegate` will return null. Also, not all platforms show file dialogs with a title bar, so be aware that the caption text might not be visible to the user. You can set the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontUseNativeDialog` option to ensure that the widget-based implementation will be used instead of the native dialog.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QColorDialog`, :sip:ref:`~PyQt6.QtWidgets.QFontDialog`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QColorDialog`, :sip:ref:`~PyQt6.QtWidgets.QFontDialog`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

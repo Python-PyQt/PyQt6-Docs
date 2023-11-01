@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Spin box widget
-    :digest: 3584f7287d44c1d4dc18f4ebe5dc5d58
+    :digest: 158afbd92c90668b1bb8bddb1de5edf6
 
 The :sip:ref:`~PyQt6.QtWidgets.QSpinBox` class provides a spin box widget.
 
@@ -28,12 +28,8 @@ Subclassing QSpinBox
 
 If using :sip:ref:`~PyQt6.QtWidgets.QSpinBox.prefix`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox.suffix`, and specialValueText() don't provide enough control, you subclass :sip:ref:`~PyQt6.QtWidgets.QSpinBox` and reimplement :sip:ref:`~PyQt6.QtWidgets.QSpinBox.valueFromText` and :sip:ref:`~PyQt6.QtWidgets.QSpinBox.textFromValue`. For example, here's the code for a custom spin box that allows the user to enter icon sizes (e.g., "32 x 32"):
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-widgets-icons-iconsizespinbox.py
-    :lines: 65-74
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qspinbox.py
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-widgets-icons-iconsizespinbox.py
-    :lines: 78-81
-
-See the `Icons <https://doc.qt.io/qt-6/qtwidgets-widgets-icons-example.html>`_ example for the full source code.
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qspinbox.py
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QDateTimeEdit`, :sip:ref:`~PyQt6.QtWidgets.QSlider`, `Spin Boxes Example <https://doc.qt.io/qt-6/qtwidgets-widgets-spinboxes-example.html>`_.

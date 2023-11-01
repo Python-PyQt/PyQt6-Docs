@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Fast parser for reading well-formed XML via a simple streaming API
-    :digest: a317290242117b6b85a94f01e5c0cdf9
+    :digest: cbeb6b1053c76571893e9b3cb2eb3041
 
 The :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` class provides a fast parser for reading well-formed XML via a simple streaming API.
 
@@ -16,11 +16,33 @@ A typical loop with :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` looks like this:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_xml_qxmlstream.py
     :lines: 54-62
 
-:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is a well-formed XML 1.0 parser that does *not* include external parsed entities. As long as no error occurs, the application code can thus be assured that the data provided by the stream reader satisfies the W3C's criteria for well-formed XML. For example, you can be certain that all tags are indeed nested and closed properly, that references to internal entities have been replaced with the correct replacement text, and that attributes have been normalized or added according to the internal subset of the DTD.
+:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is a well-formed XML 1.0 parser that does *not* include external parsed entities. As long as no error occurs, the application code can thus be assured, that
+
+* the data provided by the stream reader satisfies the W3C's criteria for well-formed XML,
+
+* tokens are provided in a valid order.
+
+Unless :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` raises an error, it guarantees the following:
+
+* All tags are nested and closed properly.
+
+* References to internal entities have been replaced with the correct replacement text.
+
+* Attributes have been normalized or added according to the internal subset of the :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD`.
+
+* Tokens of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument` happen before all others, aside from comments and processing instructions.
+
+* At most one DOCTYPE element (a token of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD`) is present.
+
+* If present, the DOCTYPE appears before all other elements, aside from :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument`, comments and processing instructions.
+
+In particular, once any token of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartElement`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EndElement`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.Characters`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EntityReference` or :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EndDocument` is seen, no tokens of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument` or DTD will be seen. If one is present in the input stream, out of order, an error is raised.
+
+**Note:** The token types :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.Comment` and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.ProcessingInstruction` may appear anywhere in the stream.
 
 If an error occurs while parsing, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.atEnd` and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.hasError` return true, and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.error` returns the error that occurred. The functions :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.errorString`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.lineNumber`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.columnNumber`, and :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.characterOffset` are for constructing an appropriate error or warning message. To simplify application code, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` contains a :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.raiseError` mechanism that lets you raise custom errors that trigger the same error handling described.
 
-The `QXmlStream Bookmarks Example <https://doc.qt.io/qt-6/qtxml-streambookmarks-example.html>`_ illustrates how to use the recursive descent technique to read an XML bookmark file (XBEL) with a stream reader.
+The `QXmlStream Bookmarks Example <https://doc.qt.io/qt-6/qtcore-serialization-streambookmarks-example.html>`_ illustrates how to use the recursive descent technique to read an XML bookmark file (XBEL) with a stream reader.
 
 .. _qxmlstreamreader-namespaces:
 
@@ -47,4 +69,4 @@ For example, if your application reads data from the network using a :sip:ref:`~
 Performance and Memory Consumption
 ----------------------------------
 
-:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is memory-conservative by design, since it doesn't store the entire XML document tree in memory, but only the current token at the time it is reported. In addition, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` avoids the many small string allocations that it normally takes to map an XML document to a convenient and Qt-ish API. It does this by reporting all string data as `QStringView <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qstringview>`_ rather than real QString objects. Calling toString() on any of those objects returns an equivalent real QString object.
+:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is memory-conservative by design, since it doesn't store the entire XML document tree in memory, but only the current token at the time it is reported. In addition, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` avoids the many small string allocations that it normally takes to map an XML document to a convenient and Qt-ish API. It does this by reporting all string data as QStringView rather than real QString objects. Calling toString() on any of those objects returns an equivalent real QString object.

@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Editable data model for a single database table
-    :digest: 69dd52609cf308ffc779f06a0d42cf31
+    :digest: cf7d548d214c5daaf8fbde12220c3936
 
 The :sip:ref:`~PyQt6.QtSql.QSqlTableModel` class provides an editable data model for a single database table.
 
-:sip:ref:`~PyQt6.QtSql.QSqlTableModel` is a high-level interface for reading and writing database records from a single table. It is built on top of the lower-level `QSqlQuery <https://doc.qt.io/qt-6/qtsql-changes-qt6.html#qsqlquery>`_ and can be used to provide data to view classes such as :sip:ref:`~PyQt6.QtWidgets.QTableView`. For example:
+:sip:ref:`~PyQt6.QtSql.QSqlTableModel` is a high-level interface for reading and writing database records from a single table. It is built on top of the lower-level :sip:ref:`~PyQt6.QtSql.QSqlQuery` and can be used to provide data to view classes such as :sip:ref:`~PyQt6.QtWidgets.QTableView`. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-sql-doc-snippets-sqldatabase-sqldatabase_snippet.py
     :lines: 112-122
@@ -25,4 +25,4 @@ The `tablemodel <https://doc.qt.io/qt-6/qtsql-tablemodel-example.html>`_ example
 
 :sip:ref:`~PyQt6.QtSql.QSqlTableModel` provides no direct support for foreign keys. Use the :sip:ref:`~PyQt6.QtSql.QSqlRelationalTableModel` and :sip:ref:`~PyQt6.QtSql.QSqlRelationalDelegate` if you want to resolve foreign keys.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlRelationalTableModel`, `QSqlQuery <https://doc.qt.io/qt-6/qtsql-changes-qt6.html#qsqlquery>`_, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, `Table Model Example <https://doc.qt.io/qt-6/qtsql-tablemodel-example.html>`_, `Cached Table Example <https://doc.qt.io/qt-6/qtsql-cachedtable-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlRelationalTableModel`, :sip:ref:`~PyQt6.QtSql.QSqlQuery`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, `Table Model Example <https://doc.qt.io/qt-6/qtsql-tablemodel-example.html>`_, `Cached SQL Table <https://doc.qt.io/qt-6/qtsql-cachedtable-example.html>`_.

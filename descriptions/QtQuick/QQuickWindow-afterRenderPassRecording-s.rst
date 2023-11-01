@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 8efd7e15033c27457b1dc8c27f46a1eb
+    :digest: 8976821a4e2148e68ab00ee5bff9f123
 
 This signal is emitted after the scenegraph has recorded the commands for its main render pass, but the pass is not yet finalized on the command buffer.
 
@@ -12,4 +12,4 @@ This signal is emitted earlier than :sip:ref:`~PyQt6.QtQuick.QQuickWindow.afterR
 
 **Warning:** This signal is emitted from the scene graph rendering thread. If your slot function needs to finish before execution continues, you must make sure that the connection is direct (see :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType`).
 
-.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickWindow.rendererInterface`.
+.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickWindow.rendererInterface`, `Scene Graph - RHI Under QML <https://doc.qt.io/qt-6/qtquick-scenegraph-rhiunderqml-example.html>`_.

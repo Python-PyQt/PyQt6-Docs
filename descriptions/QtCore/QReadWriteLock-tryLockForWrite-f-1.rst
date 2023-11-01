@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 47bc384ef78158df7bdc68df0f06aef9
     :realsig: (int)
-    :digest: 835b2a9a07e3c818d0439190cf9b7ad9
-
-This is an overloaded function.
+    :digest: fd7babba8e5e93a9cb11b5e645e4a08d
 
 Attempts to lock for writing. This function returns ``true`` if the lock was obtained; otherwise it returns ``false``. If another thread has locked for reading or writing, this function will wait for at most *timeout* milliseconds for the lock to become available.
 

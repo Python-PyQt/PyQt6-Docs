@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The abstract interface for item model classes
-    :digest: 093a05cd1d7ab95696989210510c37e9
+    :digest: 20198ea0f5437ad94d864e4c8629bec0
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` class provides the abstract interface for item model classes.
 
@@ -21,7 +21,7 @@ Each item has a number of data elements associated with it and they can be retri
 
 Data for each role is set using a particular :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole`. Data for individual roles are set individually with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.setData`, or they can be set for all roles with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.setItemData`.
 
-Items can be queried with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.flags` (see :sip:ref:`~PyQt6.QtCore.Qt.ItemFlags`) to see if they can be selected, dragged, or manipulated in other ways.
+Items can be queried with :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.flags` (see :sip:ref:`~PyQt6.QtCore.Qt.ItemFlag`) to see if they can be selected, dragged, or manipulated in other ways.
 
 If an item has child objects, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.hasChildren` returns ``true`` for the corresponding index.
 
@@ -66,4 +66,4 @@ The *private* signals that these functions emit give attached components the cha
 
 To create models that populate incrementally, you can reimplement :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.fetchMore` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.canFetchMore`. If the reimplementation of :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.fetchMore` adds rows to the model, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.beginInsertRows` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endInsertRows` must be called.
 
-.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_, :sip:ref:`~PyQt6.QtCore.QModelIndex`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Using drag and drop with item views <https://doc.qt.io/qt-6/model-view-programming.html#using-drag-and-drop-with-item-views>`_, `Simple DOM Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-simpledommodel-example.html>`_, `Simple Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-simpletreemodel-example.html>`_, `Editable Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-editabletreemodel-example.html>`_, `Fetch More Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-fetchmore-example.html>`_.
+.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_, :sip:ref:`~PyQt6.QtCore.QModelIndex`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Using drag and drop with item views <https://doc.qt.io/qt-6/model-view-programming.html#using-drag-and-drop-with-item-views>`_, `Simple Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-simpletreemodel-example.html>`_, `Editable Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-editabletreemodel-example.html>`_, `Fetch More Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-fetchmore-example.html>`_.

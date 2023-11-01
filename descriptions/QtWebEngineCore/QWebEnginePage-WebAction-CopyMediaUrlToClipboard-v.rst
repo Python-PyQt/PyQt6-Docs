@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 20
-    :digest: a83e7e15e2bd834ab82609b9e1d78c9d
+    :digest: bfd96eb0765549d8f60f0bcd64707657
 
-Copy the hovered audio or video's URL to the clipboard. (Added in Qt 5.6)
+Copy the hovered audio or video's URL to the clipboard.

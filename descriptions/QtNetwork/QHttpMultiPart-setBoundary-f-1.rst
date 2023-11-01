@@ -2,5 +2,10 @@
     :status: todo
     :pysig: 59deef16a694b0a586880f637fa3acb0
     :realsig: (const QByteArray&)
+    :digest: e41ea826577be8b8abb8409696aeb9e8
 
-TODO
+Sets the boundary to *boundary*.
+
+Usually, you do not need to generate a boundary yourself; upon construction the boundary is initiated with the string "boundary_.oOo._" followed by random characters, and provides enough uniqueness to make sure it does not occur inside the parts itself.
+
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QHttpMultiPart.boundary`.

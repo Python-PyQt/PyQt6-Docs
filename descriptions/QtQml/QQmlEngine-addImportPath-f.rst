@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 0aae42f9c0e0a853e11bd89d2bb4ef17
+    :digest: b298194b6547e325337c26e42c77daca
 
 Adds *path* as a directory where the engine searches for installed modules in a URL-based directory structure.
 
@@ -12,4 +12,4 @@ The *path* will be converted into canonical form before it is added to the impor
 
 The newly added *path* will be first in the :sip:ref:`~PyQt6.QtQml.QQmlEngine.importPathList`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlEngine.setImportPathList`, `QML Modules <https://doc.qt.io/qt-6/qtqml-modules-topic.html>`_, `QML Import Path <https://doc.qt.io/qt-6/qtqml-syntax-imports.html#qml-import-path>`_.
+**See also** :sip:ref:`~PyQt6.QtQml.QQmlEngine.setImportPathList`, `QML Modules <https://doc.qt.io/qt-6/qtqml-modules-topic.html>`_, and `QML Import Path <https://doc.qt.io/qt-6/qtqml-syntax-imports.html#qml-import-path>`_

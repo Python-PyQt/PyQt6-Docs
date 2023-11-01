@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Display and editing facilities for data items from a model
-    :digest: 6c56c8c01bdcc2d5429a80b86afb01ec
+    :digest: 5580fad761b810f5b846fb543c93c1ba
 
 The :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` class provides display and editing facilities for data items from a model.
 
@@ -47,7 +47,7 @@ The default delegate used by the standard views supplied with Qt associates each
 +------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`          | See :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` for details                                    |
 +------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.FontRole`          | `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_                                      |
+| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.FontRole`          | :sip:ref:`~PyQt6.QtGui.QFont`                                                                     |
 +------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.SizeHintRole`      | :sip:ref:`~PyQt6.QtCore.QSize`                                                                    |
 +------------------------------------------------------------+---------------------------------------------------------------------------------------------------+
@@ -74,4 +74,4 @@ QStyledItemDelegate vs. QItemDelegate
 
 Since Qt 4.4, there are two delegate classes: :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` and :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`. However, the default delegate is :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`. These two classes are independent alternatives to painting and providing editors for items in views. The difference between them is that :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` uses the current style to paint its items. We therefore recommend using :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` as the base class when implementing custom delegates or when working with Qt style sheets. The code required for either class should be equal unless the custom delegate needs to use the style for drawing.
 
-.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, `Spin Box Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-spinboxdelegate-example.html>`_, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_, `Icons Example <https://doc.qt.io/qt-6/qtwidgets-widgets-icons-example.html>`_.
+.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, `Spin Box Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-spinboxdelegate-example.html>`_, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_.

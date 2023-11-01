@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: f4d160fd6d3a01f9ea29312af011566a
 
-TODO
+Removes a category specified by the label *categoryLabel* from the axis.

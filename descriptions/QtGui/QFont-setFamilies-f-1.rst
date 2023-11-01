@@ -2,5 +2,10 @@
     :status: todo
     :pysig: 2e1e4fde32fc7292dbe8e18ea768734a
     :realsig: (const QStringList&)
+    :digest: 60925071373f67ad26047c313435174b
 
-TODO
+Sets the list of family names for the font. The names are case insensitive and may include a foundry name. The first family in *families* will be set as the main family for the font.
+
+Each family name entry in *families* may optionally also include a foundry name, e.g. "Helvetica [Cronyx]". If the family is available from more than one foundry and the foundry isn't specified, an arbitrary foundry is chosen. If the family isn't available a family will be set using the :sip:ref:`~PyQt6.QtGui.QFont` algorithm.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.family`, :sip:ref:`~PyQt6.QtGui.QFont.families`, :sip:ref:`~PyQt6.QtGui.QFont.setFamily`, :sip:ref:`~PyQt6.QtGui.QFont.setStyleHint`, :sip:ref:`~PyQt6.QtGui.QFontInfo`.

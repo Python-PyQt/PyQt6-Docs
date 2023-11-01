@@ -2,5 +2,8 @@
     :status: todo
     :pysig: c80e545a358a4bd61fa017a3da6033d5
     :realsig: (const QString&, GLuint, QOpenGLDebugMessage::Severity, QOpenGLDebugMessage::Type)
+    :digest: dcce1c780862398b5321e56fa0b4934e
 
-TODO
+Constructs and returns a debug message with *text* as its text, *id* as id, *severity* as severity, and *type* as type. The message source will be set to :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.Source.ApplicationSource`.
+
+.. seealso:: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugLogger.logMessage`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage.createThirdPartyMessage`.

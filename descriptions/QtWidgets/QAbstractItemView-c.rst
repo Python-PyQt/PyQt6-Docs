@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The basic functionality for item view classes
-    :digest: 4ae294a721176a2b3a91a0bf9e1bd986
+    :digest: 18355323cd79236b5e87650f250aba0e
 
 The :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView` class provides the basic functionality for item view classes.
 
@@ -52,4 +52,4 @@ For complete control over the display and editing of items you can specify a del
 
 **Note:** If you inherit :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView` and intend to update the contents of the viewport, you should use viewport->\ :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.update` instead of :sip:ref:`~PyQt6.QtWidgets.QWidget.update` as all painting operations take place on the viewport.
 
-.. seealso:: `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, `Chart Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-chart-example.html>`_.
+.. seealso:: `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`.

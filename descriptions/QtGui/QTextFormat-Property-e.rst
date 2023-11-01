@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 9d5d73b58b97b8ea441d5235f969c650
+    :digest: 07075db45612b718f8527cd9352b559a
 
 This enum describes the different properties a format can have.
 

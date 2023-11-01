@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal model mapper for line, spline, and scatter series
-    :digest: d5aad7d7614e7412e57394dd76babcc7
+    :digest: 01635719a3e32d3b5de769b80ab6b555
 
 The :sip:ref:`~PyQt6.QtCharts.QHXYModelMapper` class is a horizontal model mapper for line, spline, and scatter series.
 
@@ -9,4 +9,4 @@ Model mappers enable using a data model derived from the :sip:ref:`~PyQt6.QtCore
 
 Both model and series properties can be used to manipulate the data. The model mapper keeps the series and the data model in sync.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCharts.QVXYModelMapper`, :sip:ref:`~PyQt6.QtCharts.QXYSeries`, `Model Data Example <https://doc.qt.io/qt-6/qtcharts-modeldata-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCharts.QVXYModelMapper`, :sip:ref:`~PyQt6.QtCharts.QXYSeries`, `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_.

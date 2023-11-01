@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenience class for playing movies with QImageReader
-    :digest: 00ff8788ad527f6fad2b73c0e65c7f4c
+    :digest: c3a51e6936ecd49934e1512d1255807a
 
 The :sip:ref:`~PyQt6.QtGui.QMovie` class is a convenience class for playing movies with :sip:ref:`~PyQt6.QtGui.QImageReader`.
 
@@ -26,4 +26,4 @@ Certain animation formats allow you to set the background color. You can call :s
 
 Call :sip:ref:`~PyQt6.QtGui.QMovie.supportedFormats` for a list of formats that :sip:ref:`~PyQt6.QtGui.QMovie` supports.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtGui.QImageReader`, `Movie Example <https://doc.qt.io/qt-6/qtwidgets-widgets-movie-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtGui.QImageReader`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Displays a number with LCD-like digits
-    :digest: 1e523f5e6797c53be38602a01b4bfbad
+    :digest: 32251ca4d55f72147dcbe276b68f117e
 
 The :sip:ref:`~PyQt6.QtWidgets.QLCDNumber` widget displays a number with LCD-like digits.
 
@@ -19,4 +19,4 @@ It is not possible to retrieve the contents of a :sip:ref:`~PyQt6.QtWidgets.QLCD
 
 Incidentally, :sip:ref:`~PyQt6.QtWidgets.QLCDNumber` is the very oldest part of Qt, tracing its roots back to a BASIC program on the `Sinclair Spectrum <https://doc.qt.io/qt-6/http://www.nvg.ntnu.no/sinclair/computers/zxspectrum/zxspectrum.htm>`_.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QFrame`, `Digital Clock Example <https://doc.qt.io/qt-6/qtwidgets-widgets-digitalclock-example.html>`_, `Tetrix Example <https://doc.qt.io/qt-6/qtwidgets-widgets-tetrix-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QFrame`.

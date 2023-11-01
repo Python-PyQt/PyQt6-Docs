@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Access | Advertise
+    :digest: 294f99dfadef260ce36ed7ed69d6d1d4
 
-TODO
+This configuration is used by default.

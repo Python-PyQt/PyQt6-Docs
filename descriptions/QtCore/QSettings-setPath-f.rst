@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 945a60819f1a15d1584b6c733f9ee627
     :realsig: (QSettings::Format,QSettings::Scope,const QString&)
-    :digest: 096561a947b1855f493906ae79e3b596
+    :digest: 65ba8f72be8fa1f4713e0be8fb46cf1a
 
 Sets the path used for storing settings for the given *format* and *scope*, to *path*. The *format* can be a custom format.
 
@@ -16,10 +16,6 @@ The table below summarizes the default values:
 | :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope` | ``FOLDERID_ProgramData``                                                                                    |                                                    |                             |
 +------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-----------------------------+
 | Unix                                                 | :sip:ref:`~PyQt6.QtCore.QSettings.Format.NativeFormat`, :sip:ref:`~PyQt6.QtCore.QSettings.Format.IniFormat` | :sip:ref:`~PyQt6.QtCore.QSettings.Scope.UserScope` | ``$HOME/.config``           |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-----------------------------+
-| :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope` | ``/etc/xdg``                                                                                                |                                                    |                             |
-+------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-----------------------------+
-| Qt for Embedded Linux                                | :sip:ref:`~PyQt6.QtCore.QSettings.Format.NativeFormat`, :sip:ref:`~PyQt6.QtCore.QSettings.Format.IniFormat` | :sip:ref:`~PyQt6.QtCore.QSettings.Scope.UserScope` | ``$HOME/Settings``          |
 +------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-----------------------------+
 | :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope` | ``/etc/xdg``                                                                                                |                                                    |                             |
 +------------------------------------------------------+-------------------------------------------------------------------------------------------------------------+----------------------------------------------------+-----------------------------+

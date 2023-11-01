@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: ce251c4fca22e67fd13d1bf7d44337f5
+    :digest: fae652c769ce224e4a39a2cbd852c39e
 
-The parser encountered an element that was different to those it expected.
+The parser encountered an element or token that was different to those it expected.

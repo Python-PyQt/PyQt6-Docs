@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 5
-    :digest: 9f39b7799d61d3a1df70bc38ec9533f4
+    :digest: 1c2e95487d46519b2c76ead8ee123a11
 
-Vulkan 1.0 via a graphics abstraction layer. This value was introduced in Qt 5.14.
+Vulkan 1.0 via a graphics abstraction layer.

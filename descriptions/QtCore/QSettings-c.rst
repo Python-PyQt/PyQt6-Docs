@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 78bff730f2797b895b148303c23be551
+    :digest: 5932a1d2e66b0f266eb9989fac2256f2
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -198,7 +198,7 @@ The ``readSettings()`` and ``writeSettings()`` functions must be called from the
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 187-195
 
-See the `Application <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_ example for a self-contained example that uses :sip:ref:`~PyQt6.QtCore.QSettings`.
+See the Application example for a self-contained example that uses :sip:ref:`~PyQt6.QtCore.QSettings`.
 
 .. _qsettings-accessing-settings-from-multiple-threads-or-processes-simultaneously:
 
@@ -225,9 +225,9 @@ As mentioned in the :ref:`qsettings-fallback-mechanism` section, :sip:ref:`~PyQt
 
 On Unix systems, if the file format is :sip:ref:`~PyQt6.QtCore.QSettings.Format.NativeFormat`, the following files are used by default:
 
-#. ``$HOME/.config/MySoft/Star Runner.conf`` (Qt for Embedded Linux: ``$HOME/Settings/MySoft/Star Runner.conf``)
+#. ``$HOME/.config/MySoft/Star Runner.conf``
 
-#. ``$HOME/.config/MySoft.conf`` (Qt for Embedded Linux: ``$HOME/Settings/MySoft.conf``)
+#. ``$HOME/.config/MySoft.conf``
 
 #. for each directory <dir> in $XDG_CONFIG_DIRS: ``<dir>/MySoft/Star Runner.conf``
 
@@ -261,9 +261,9 @@ If the file format is :sip:ref:`~PyQt6.QtCore.QSettings.Format.NativeFormat`, th
 
 If the file format is :sip:ref:`~PyQt6.QtCore.QSettings.Format.IniFormat`, the following files are used on Unix, macOS, and iOS:
 
-#. ``$HOME/.config/MySoft/Star Runner.ini`` (Qt for Embedded Linux: ``$HOME/Settings/MySoft/Star Runner.ini``)
+#. ``$HOME/.config/MySoft/Star Runner.ini``
 
-#. ``$HOME/.config/MySoft.ini`` (Qt for Embedded Linux: ``$HOME/Settings/MySoft.ini``)
+#. ``$HOME/.config/MySoft.ini``
 
 #. for each directory <dir> in $XDG_CONFIG_DIRS: ``<dir>/MySoft/Star Runner.ini``
 
@@ -359,4 +359,4 @@ While :sip:ref:`~PyQt6.QtCore.QSettings` attempts to smooth over the differences
 
 * On macOS, permissions to access settings not belonging to the current user (i.e. :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope`) have changed with 10.7 (Lion). Prior to that version, users having admin rights could access these. For 10.7 and 10.8 (Mountain Lion), only root can. However, 10.9 (Mavericks) changes that rule again but only for the native format (plist files).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QVariant`, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QVariant`, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_.

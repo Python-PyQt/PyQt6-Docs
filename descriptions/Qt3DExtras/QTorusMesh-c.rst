@@ -2,8 +2,6 @@
     :status: todo
     :brief: A toroidal mesh
     :realname: Qt3DExtras::QTorusMesh
-    :digest: 8d1645afbedb231ada926a44e9f68240
-
-\* \* \* \* \* \* \*
+    :digest: 76b315bd17ea9621f000460a3a25fde7
 
 A toroidal mesh.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract model that can be subclassed to create table models
-    :digest: 59c6b837696dbc2100a2d2561d8ced03
+    :digest: f5c7983f0bc68502f7249b4b8f1e3d5c
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` class provides an abstract model that can be subclassed to create table models.
 
@@ -32,4 +32,4 @@ Models that provide interfaces to resizable data structures can provide implemen
 
 **Note:** Some general guidelines for subclassing models are available in the `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_.
 
-.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtCore.QAbstractListModel`, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_.
+.. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtCore.QAbstractListModel`.

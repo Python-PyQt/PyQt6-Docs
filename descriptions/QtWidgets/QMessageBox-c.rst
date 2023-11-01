@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Modal dialog for informing the user or for asking the user a question and receiving an answer
-    :digest: 6486966b541ae2342a76a2efd8972a26
+    :digest: 83eedead3c6864bfa946c1bcd88a7ada
 
 The :sip:ref:`~PyQt6.QtWidgets.QMessageBox` class provides a modal dialog for informing the user or for asking the user a question and receiving an answer.
 
@@ -122,4 +122,4 @@ The escape button (the button activated when Esc is pressed) can be specified us
 
 When an escape button can't be determined using these rules, pressing Esc has no effect.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

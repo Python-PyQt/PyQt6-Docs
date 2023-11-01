@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6a25758f6fea2dc809dfe3de6269fd1c
     :realsig: (const QRemoteObjectSourceLocation&)
-    :digest: a003b2261a724a2d1f93146349d8995b
+    :digest: 2acb680e9f01944846b71d14f30c0120
 
 This signal is emitted whenever a new source location is added to the registry.
 

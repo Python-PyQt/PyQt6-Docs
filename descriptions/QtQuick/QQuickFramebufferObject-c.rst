@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenience class for integrating OpenGL rendering using a framebuffer object (FBO) with Qt Quick
-    :digest: 8b4fde5a21fb8b9ddd16cdc9c519ac14
+    :digest: d4ce407927c7f07baef2350b145a4db5
 
 The :sip:ref:`~PyQt6.QtQuick.QQuickFramebufferObject` class is a convenience class for integrating OpenGL rendering using a framebuffer object (FBO) with Qt Quick.
 
@@ -21,4 +21,4 @@ The size of the FBO will by default adapt to the size of the item. If a fixed si
 
 Starting Qt 5.4, the :sip:ref:`~PyQt6.QtQuick.QQuickFramebufferObject` class is a :sip:ref:`~PyQt6.QtQuick.QSGTextureProvider` and can be used directly in `ShaderEffects <https://doc.qt.io/qt-6/qml-qtquick-shadereffect.html>`_ and other classes that consume texture providers.
 
-.. seealso:: `Scene Graph - Rendering FBOs <https://doc.qt.io/qt-6/qtquick-scenegraph-fboitem-example.html>`_, `Scene Graph and Rendering <https://doc.qt.io/qt-6/qtquick-visualcanvas-scenegraph.html#scene-graph-and-rendering>`_.
+.. seealso:: `Scene Graph and Rendering <https://doc.qt.io/qt-6/qtquick-visualcanvas-scenegraph.html#scene-graph-and-rendering>`_.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 10e872425c19a889993f2239558a341c
     :realsig: (QSqlQuery::BatchExecutionMode)
-    :digest: 2286c32dd16651d49fc241cf4b72e368
+    :digest: e4ed99df81cb0418fd76550a42e57437
 
 Executes a previously prepared SQL query in a batch. All the bound parameters have to be lists of variants. If the database doesn't support batch executions, the driver will simulate it using conventional :sip:ref:`~PyQt6.QtSql.QSqlQuery.exec` calls.
 

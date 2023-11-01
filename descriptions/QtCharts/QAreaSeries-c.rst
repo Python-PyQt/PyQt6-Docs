@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Presents data in area charts
-    :digest: 9873f55cb4031ffefc865a0b0ba3b2b7
+    :digest: 6c510c919a1380c2897b554888f4da15
 
 The :sip:ref:`~PyQt6.QtCharts.QAreaSeries` class presents data in area charts.
 
@@ -9,6 +9,6 @@ An area series is used to show quantitative data. It is based on a line series, 
 
 **Note:** The terms *upper* and *lower* boundary can be misleading in cases where the value of the lower boundary is greater than that of the upper boundary. The main point is that the area between these two boundary lines will be filled.
 
-See the `area chart example <https://doc.qt.io/qt-6/qtcharts-areachart-example.html>`_ to learn how to create a simple area chart.
+See the `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_ to learn how to create a simple area chart.
 
 .. image:: ../../../images/examples_areachart.png

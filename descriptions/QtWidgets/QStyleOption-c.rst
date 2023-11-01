@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Stores the parameters used by QStyle functions
-    :digest: ab083bd00c3461aeb4764a9a859b7e01
+    :digest: 74303f35d78836fd7b990f7615895b8f
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyleOption` class stores the parameters used by :sip:ref:`~PyQt6.QtWidgets.QStyle` functions.
 
@@ -24,7 +24,5 @@ When reimplementing :sip:ref:`~PyQt6.QtWidgets.QStyle` functions that take a :si
     :lines: 96-109
 
 The qstyleoption_cast() function will return 0 if the object to which ``option`` points is not of the correct type.
-
-For an example demonstrating how style options can be used, see the `Styles <https://doc.qt.io/qt-6/qtwidgets-widgets-styles-example.html>`_ example.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QStyle`, :sip:ref:`~PyQt6.QtWidgets.QStylePainter`.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 18
-    :digest: b6ad04abe35cdf2a434b275283683c8e
+    :digest: 10744ec471765d19c21644e6605befe7
 
-Copy the clicked image's URL to the clipboard. (Added in Qt 5.6)
+Copy the clicked image's URL to the clipboard.

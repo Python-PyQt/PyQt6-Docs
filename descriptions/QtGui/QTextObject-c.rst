@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for different kinds of objects that can group parts of a QTextDocument together
-    :digest: 33a19a088defb37f63038e37e696164f
+    :digest: 624714c93ef53c5b885819a0aecb0c9f
 
 The :sip:ref:`~PyQt6.QtGui.QTextObject` class is a base class for different kinds of objects that can group parts of a :sip:ref:`~PyQt6.QtGui.QTextDocument` together.
 
@@ -11,4 +11,4 @@ There are essentially two kinds of text objects: those that are used with blocks
 
 You rarely need to use this class directly. When creating custom text objects, you will also need to reimplement :sip:ref:`~PyQt6.QtGui.QTextDocument.createObject` which acts as a factory method for creating text objects.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, `Text Object Example <https://doc.qt.io/qt-6/qtsvg-richtext-textobject-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`.

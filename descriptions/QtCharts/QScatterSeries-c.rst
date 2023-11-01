@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Presents data in scatter charts
-    :digest: ed9a7cba2de2a2dff418682b56219960
+    :digest: 49df62a5e488724418aad07258109e35
 
 The :sip:ref:`~PyQt6.QtCharts.QScatterSeries` class presents data in scatter charts.
 
@@ -19,4 +19,4 @@ The following code snippet illustrates how to create a basic scatter chart:
     ...
     chart->addSeries(series);
 
-For more information, see `ScatterChart Example <https://doc.qt.io/qt-6/qtcharts-scatterchart-example.html>`_ and `Scatter Interactions Example <https://doc.qt.io/qt-6/qtcharts-scatterinteractions-example.html>`_.
+For more information, see `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_ and `Creating Scatter Charts <https://doc.qt.io/qt-6/qtcharts-scatterchart-example.html>`_.

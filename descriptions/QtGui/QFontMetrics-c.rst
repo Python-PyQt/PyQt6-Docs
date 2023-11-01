@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Font metrics information
-    :digest: 2a38119604a8511d0bc68e1a13742dba
+    :digest: 9546ed91edc2624d78d3135613460c06
 
 The :sip:ref:`~PyQt6.QtGui.QFontMetrics` class provides font metrics information.
 
@@ -32,4 +32,4 @@ Example:
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_text_qfontmetrics.py
     :lines: 59-62
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontDatabase`, `Character Map Example <https://doc.qt.io/qt-6/qtwidgets-widgets-charactermap-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont`, :sip:ref:`~PyQt6.QtGui.QFontInfo`, :sip:ref:`~PyQt6.QtGui.QFontDatabase`.

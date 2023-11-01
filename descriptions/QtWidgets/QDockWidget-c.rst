@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget that can be docked inside a QMainWindow or floated as a top-level window on the desktop
-    :digest: 19506d4a9a05163a402642dd161c57b3
+    :digest: 205c73343ec2380c4d97c98815e5a157
 
 The :sip:ref:`~PyQt6.QtWidgets.QDockWidget` class provides a widget that can be docked inside a :sip:ref:`~PyQt6.QtWidgets.QMainWindow` or floated as a top-level window on the desktop.
 
@@ -24,4 +24,4 @@ A :sip:ref:`~PyQt6.QtWidgets.QDockWidget` acts as a wrapper for its child widget
 
 **Note:** On macOS, if the :sip:ref:`~PyQt6.QtWidgets.QDockWidget` has a native window handle (for example, if winId() is called on it or the child widget), then due to a limitation it will not be possible to drag the dock widget when undocking. Starting the drag will undock the dock widget, but a second drag will be needed to move the dock widget itself.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMainWindow`, `Dock Widgets Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-dockwidgets-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMainWindow`.

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 29
-    :digest: 312c6ec88fc096c36f600baf3dbbd5ea
+    :digest: 1e7e49e874e69edcaf57edfe4762963b
 
-Clear the current selection. (Added in Qt 5.7)
+Clear the current selection.

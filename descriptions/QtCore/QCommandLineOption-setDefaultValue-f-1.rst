@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: ab0dcb46f26d609b56f7df4d4f9b14ff
 
-TODO
+Sets the default value used for this option to *defaultValue*.
+
+The default value is used if the user of the application does not specify the option on the command line.
+
+If *defaultValue* is empty, the option has no default values.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QCommandLineOption.defaultValues`, :sip:ref:`~PyQt6.QtCore.QCommandLineOption.setDefaultValues`.

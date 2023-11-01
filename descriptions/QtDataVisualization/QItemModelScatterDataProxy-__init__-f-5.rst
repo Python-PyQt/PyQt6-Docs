@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 42d399892970adcd346c5f35b2e3f84d
     :realsig: (QAbstractItemModel*, const QString&, const QString&, const QString&, const QString&, QObject*)
+    :digest: 229148ee6c04f1c9e17efb6693aa8b68
 
-TODO
+Constructs :sip:ref:`~PyQt6.QtDataVisualization.QItemModelScatterDataProxy` with *itemModel* and optional *parent*. Proxy doesn't take ownership of the *itemModel*, as typically item models are owned by other controls. The :sip:ref:`~PyQt6.QtDataVisualization.QItemModelScatterDataProxy.xPosRole` property is set to *xPosRole*, :sip:ref:`~PyQt6.QtDataVisualization.QItemModelScatterDataProxy.yPosRole` property to *yPosRole*, :sip:ref:`~PyQt6.QtDataVisualization.QItemModelScatterDataProxy.zPosRole` property to *zPosRole*, and :sip:ref:`~PyQt6.QtDataVisualization.QItemModelScatterDataProxy.rotationRole` property to *rotationRole*.

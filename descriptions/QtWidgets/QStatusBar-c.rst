@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal bar suitable for presenting status information
-    :digest: 4aab1e3d5a96fd814cfd5320d173a7b3
+    :digest: b0581cab7f346c867764b51605001cb2
 
 The :sip:ref:`~PyQt6.QtWidgets.QStatusBar` class provides a horizontal bar suitable for presenting status information.
 
@@ -19,13 +19,11 @@ Typically, a request for the status bar functionality occurs in relation to a :s
 
 Use the :sip:ref:`~PyQt6.QtWidgets.QStatusBar.showMessage` slot to display a *temporary* message:
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-mainwindows-dockwidgets-mainwindow.py
-    :lines: 295-298
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qstatusbar.py
 
 To remove a temporary message, use the :sip:ref:`~PyQt6.QtWidgets.QStatusBar.clearMessage` slot, or set a time limit when calling :sip:ref:`~PyQt6.QtWidgets.QStatusBar.showMessage`. For example:
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-mainwindows-dockwidgets-mainwindow.py
-    :lines: 131-145
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_widgets_qstatusbar.py
 
 Use the :sip:ref:`~PyQt6.QtWidgets.QStatusBar.currentMessage` function to retrieve the temporary message currently shown. The :sip:ref:`~PyQt6.QtWidgets.QStatusBar` class also provide the :sip:ref:`~PyQt6.QtWidgets.QStatusBar.messageChanged` signal which is emitted whenever the temporary status message changes.
 
@@ -40,4 +38,4 @@ By default :sip:ref:`~PyQt6.QtWidgets.QStatusBar` provides a :sip:ref:`~PyQt6.Qt
 
 .. image:: ../../../images/fusion-statusbar-sizegrip.png
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMainWindow`, :sip:ref:`~PyQt6.QtGui.QStatusTipEvent`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMainWindow`, :sip:ref:`~PyQt6.QtGui.QStatusTipEvent`.

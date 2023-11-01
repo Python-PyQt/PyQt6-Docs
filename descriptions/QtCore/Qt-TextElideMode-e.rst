@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 77409e8a83ac76a555e11067208f2f4f
+    :digest: 81693c5ade7251c195922ede136a9f69
 
 This enum specifies where the ellipsis should appear when displaying texts that don't fit:
 

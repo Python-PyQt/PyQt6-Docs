@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract parent class for all bar series classes
-    :digest: 026286f1f80fe2b51fcefeef4b27710b
+    :digest: 2012db1597276a6c34aebbbbb1ead4e1
 
 The :sip:ref:`~PyQt6.QtCharts.QAbstractBarSeries` class is an abstract parent class for all bar series classes.
 
@@ -9,7 +9,7 @@ In bar charts, bars are defined as bar sets that contain one data value for each
 
 If a :sip:ref:`~PyQt6.QtCharts.QValueAxis` is used instead of :sip:ref:`~PyQt6.QtCharts.QBarCategoryAxis` for the main bar axis, the bars are grouped around the index value of the category.
 
-See the `bar chart example <https://doc.qt.io/qt-6/qtcharts-barchart-example.html>`_ to learn how to use the :sip:ref:`~PyQt6.QtCharts.QBarSeries` class to create a simple bar chart.
+See the `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_ to learn how to use the :sip:ref:`~PyQt6.QtCharts.QBarSeries` class to create a simple bar chart.
 
 .. image:: ../../../images/examples_barchart.png
 

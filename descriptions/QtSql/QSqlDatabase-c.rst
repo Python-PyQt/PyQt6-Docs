@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Handles a connection to a database
-    :digest: bc62b9ef57da6f15a87d783760b9f9a4
+    :digest: d8fdc88123f27c55ef24f394257bcae3
 
 The :sip:ref:`~PyQt6.QtSql.QSqlDatabase` class handles a connection to a database.
 
@@ -51,8 +51,6 @@ If you create multiple database connections, specify a unique connection name fo
 | :sip:ref:`~PyQt6.QtSql.QSqlDatabase.registerSqlDriver` | registers a custom-made driver                  |
 +--------------------------------------------------------+-------------------------------------------------+
 
-**Note:** :sip:ref:`~PyQt6.QtSql.QSqlDatabase.exec` is deprecated. Use :sip:ref:`~PyQt6.QtSql.QSqlQuery.exec` instead.
-
 **Note:** When using transactions, you must start the transaction before you create your query.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlDriver`, `QSqlQuery <https://doc.qt.io/qt-6/qtsql-changes-qt6.html#qsqlquery>`_, `Qt SQL <https://doc.qt.io/qt-6/qtsql-index.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlDriver`, :sip:ref:`~PyQt6.QtSql.QSqlQuery`, `Qt SQL <https://doc.qt.io/qt-6/qtsql-index.html>`_.

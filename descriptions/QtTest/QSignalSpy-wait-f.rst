@@ -2,13 +2,12 @@
     :status: todo
     :pysig: 3693397ff4e0cae2d0a0152cd1722150
     :realsig: (int)
-    :digest: 80eb36c8ad1d6bd4ae554ae38c778112
+    :digest: 38d49828be62db2124d74bee9d60647d
 
-Starts an event loop that runs until the given signal is received. Optionally the event loop can return earlier on a *timeout* (in milliseconds).
+This is an overloaded function, equivalent passing *timeout* to the chrono overload:
 
-Returns ``true`` if the signal was emitted at least once in *timeout* milliseconds, otherwise returns ``false``.
+::
 
-Example:
+    wait(std::chrono::milliseconds{timeout});
 
-.. literalinclude:: ../../../snippets/qtbase-src-testlib-doc-snippets-code-doc_src_qsignalspy.py
-    :lines: 96-96
+Returns ``true`` if the signal was emitted at least once in *timeout*, otherwise returns ``false``.

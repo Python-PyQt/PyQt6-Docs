@@ -2,7 +2,7 @@
     :status: todo
     :pysig: e29038ad9f0ea4ee5e1065bf7926b1f2
     :realsig: (const QUrl&)
-    :digest: 1ed1589e964c60e867fc812f061e5e8b
+    :digest: 20d2e421358bf33fe01fc38f5aa4118d
 
 Opens the given *url* in the appropriate Web browser for the user's desktop environment, and returns ``true`` if successful; otherwise returns ``false``.
 
@@ -28,5 +28,7 @@ For example, the following URL contains a recipient (``user@foo.com``), a subjec
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 97-100
+
+**Note:** For Android Nougat (SDK 24) and above, URLs with a ``file`` scheme are opened using `FileProvider <https://doc.qt.io/qt-6/https://developer.android.com/reference/androidx/core/content/FileProvider>`_ which tries to obtain a shareable ``content`` scheme URI first. For that reason, Qt for Android defines a file provider with the authority ``${applicationId}.qtprovider``, with ``applicationId`` being the app's package name to avoid name conflicts. For more information, also see `Setting up file sharing <https://doc.qt.io/qt-6/https://developer.android.com/training/secure-file-sharing/setup-sharing.html>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QDesktopServices.setUrlHandler`.

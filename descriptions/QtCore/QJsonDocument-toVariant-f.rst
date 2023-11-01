@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ed36a1ef76a59ee3f15180e0441188ad
     :realsig: () const
-    :digest: a70b3f80b6c3ba6024e5199b96ef20c2
+    :digest: 866294b8470bdd0cc5e8cfd3c5746b85
 
 Returns a :sip:ref:`~PyQt6.QtCore.QVariant` representing the Json document.
 

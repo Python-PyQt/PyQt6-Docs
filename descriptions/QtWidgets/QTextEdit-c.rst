@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Widget that is used to edit and display both plain and rich text
-    :digest: e2ba3839f1d9e60f1e43b911135a2f0a
+    :digest: 78dd244472fde62e9ed331db058547ce
 
 The :sip:ref:`~PyQt6.QtWidgets.QTextEdit` class provides a widget that is used to edit and display both plain and rich text.
 
@@ -114,7 +114,7 @@ We add support for image MIME types by returning true. For all other MIME types,
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-textdocument-imagedrop-textedit.py
     :lines: 72-82
 
-We unpack the image from the `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ held by the MIME source and insert it into the document as a resource.
+We unpack the image from the :sip:ref:`~PyQt6.QtCore.QVariant` held by the MIME source and insert it into the document as a resource.
 
 .. _qtextedit-editing-key-bindings:
 
@@ -177,4 +177,4 @@ The list of key bindings which are implemented for editing:
 
 To select (mark) text hold down the Shift key whilst pressing one of the movement keystrokes, for example, *Shift+Right* will select the character to the right, and *Shift+Ctrl+Right* will select the word to the right, etc.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, :sip:ref:`~PyQt6.QtGui.QTextCursor`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Syntax Highlighter Example <https://doc.qt.io/qt-6/qtwidgets-richtext-syntaxhighlighter-example.html>`_, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextDocument`, :sip:ref:`~PyQt6.QtGui.QTextCursor`, `Syntax Highlighter Example <https://doc.qt.io/qt-6/qtwidgets-richtext-syntaxhighlighter-example.html>`_, `Rich Text Processing <https://doc.qt.io/qt-6/richtext.html>`_.

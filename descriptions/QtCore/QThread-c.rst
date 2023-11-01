@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Platform-independent way to manage threads
-    :digest: adb1388c909d13c953caeb9477fa705c
+    :digest: 9013ed86f86ff80b7338c36ec9fb734d
 
 The :sip:ref:`~PyQt6.QtCore.QThread` class provides a platform-independent way to manage threads.
 
@@ -32,7 +32,7 @@ Unlike queued slots or invoked methods, methods called directly on the :sip:ref:
 Managing Threads
 ----------------
 
-:sip:ref:`~PyQt6.QtCore.QThread` will notifiy you via a signal when the thread is :sip:ref:`~PyQt6.QtCore.QThread.started` and :sip:ref:`~PyQt6.QtCore.QThread.finished`, or you can use :sip:ref:`~PyQt6.QtCore.QThread.isFinished` and :sip:ref:`~PyQt6.QtCore.QThread.isRunning` to query the state of the thread.
+:sip:ref:`~PyQt6.QtCore.QThread` will notify you via a signal when the thread is :sip:ref:`~PyQt6.QtCore.QThread.started` and :sip:ref:`~PyQt6.QtCore.QThread.finished`, or you can use :sip:ref:`~PyQt6.QtCore.QThread.isFinished` and :sip:ref:`~PyQt6.QtCore.QThread.isRunning` to query the state of the thread.
 
 You can stop the thread by calling :sip:ref:`~PyQt6.QtCore.QThread.exit` or :sip:ref:`~PyQt6.QtCore.QThread.quit`. In extreme cases, you may want to forcibly :sip:ref:`~PyQt6.QtCore.QThread.terminate` an executing thread. However, doing so is dangerous and discouraged. Please read the documentation for :sip:ref:`~PyQt6.QtCore.QThread.terminate` and :sip:ref:`~PyQt6.QtCore.QThread.setTerminationEnabled` for detailed information.
 
@@ -46,6 +46,6 @@ Use :sip:ref:`~PyQt6.QtCore.QThread.wait` to block the calling thread, until the
 
 The static functions :sip:ref:`~PyQt6.QtCore.QThread.currentThreadId` and :sip:ref:`~PyQt6.QtCore.QThread.currentThread` return identifiers for the currently executing thread. The former returns a platform specific ID for the thread; the latter returns a :sip:ref:`~PyQt6.QtCore.QThread` pointer.
 
-To choose the name that your thread will be given (as identified by the command ``ps -L`` on Linux, for example), you can call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName` before starting the thread. If you don't call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName`, the name given to your thread will be the class name of the runtime type of your thread object (for example, ``"RenderThread"`` in the case of the `Mandelbrot Example <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_, as that is the name of the :sip:ref:`~PyQt6.QtCore.QThread` subclass). Note that this is currently not available with release builds on Windows.
+To choose the name that your thread will be given (as identified by the command ``ps -L`` on Linux, for example), you can call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName` before starting the thread. If you don't call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName`, the name given to your thread will be the class name of the runtime type of your thread object (for example, ``"RenderThread"`` in the case of the `Mandelbrot <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_ example, as that is the name of the :sip:ref:`~PyQt6.QtCore.QThread` subclass). Note that this is currently not available with release builds on Windows.
 
-.. seealso:: QThreadStorage, `Mandelbrot Example <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_, `Semaphores Example <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Wait Conditions Example <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_, Thread Support in Qt.
+.. seealso:: QThreadStorage, `Mandelbrot <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_, `Semaphores Example <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Wait Conditions Example <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_, Thread Support in Qt.

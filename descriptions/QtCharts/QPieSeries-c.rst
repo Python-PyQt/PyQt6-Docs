@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Presents data in pie charts
-    :digest: 146e6dc651c28d601e759bca9d3534cb
+    :digest: 64336b602c1420fed1a271a7c3b03859
 
 The :sip:ref:`~PyQt6.QtCharts.QPieSeries` class presents data in pie charts.
 
@@ -11,7 +11,7 @@ Pie size and position on the chart are controlled by using relative values that 
 
 By default, the pie is defined as a full pie. A partial pie can be created by setting a starting angle and angle span for the series. A full pie is 360 degrees, where 0 is at 12 a'clock.
 
-See the `pie chart example <https://doc.qt.io/qt-6/qtcharts-piechart-example.html>`_ or `donut chart example <https://doc.qt.io/qt-6/qtcharts-donutchart-example.html>`_ to learn how to use :sip:ref:`~PyQt6.QtCharts.QPieSeries`.
+See the `Charts with Widgets Gallery <https://doc.qt.io/qt-6/qtcharts-chartsgallery-example.html>`_ to learn how to use :sip:ref:`~PyQt6.QtCharts.QPieSeries`.
 
 .. image:: ../../../images/examples_piechart.png
 

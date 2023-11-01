@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ca9f8cd9196019b2c38e9b331f4f233c
     :realsig: () const
-    :digest: 2d142c5159e90211bd0292d9bd1fd3d5
+    :digest: 06bac035e78ea57465030a7af99c59d1
 
 Returns a QPair<int,int> where the components represent the major and minor OpenGL version numbers respectively.
 

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: a5704e7d57089c440a7d83c72d987b9e
     :realsig: () const
-    :digest: 91f07fc15cb5ed52aff35c3f72b85863
+    :digest: 77ea17e33385513d8ad9d498b7c038f5
 
 Returns the binary representation of this :sip:ref:`~PyQt6.QtCore.QUuid`. The byte array is in big endian format, and formatted according to RFC 4122, section 4.1.2 - "Layout and byte order".
 
@@ -19,3 +19,7 @@ The order is as follows:
 +---------+----------------------+
 | 4       | data4[0] .. data4[7] |
 +---------+----------------------+
+
+The bytes in the byte array returned by this function contains the same binary content as toBytes().
+
+.. seealso:: toBytes().

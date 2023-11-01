@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for reading from and writing to files
-    :digest: 24a4c6cc444a9ef244eec3fb6979c9ee
+    :digest: a931d42393588ec68764932b9d1613f3
 
 The :sip:ref:`~PyQt6.QtCore.QFile` class provides an interface for reading from and writing to files.
 
@@ -71,7 +71,7 @@ Qt's understanding of file permissions is limited, which affects especially the 
 
 On Android, some limitations apply when dealing with `content URIs <https://doc.qt.io/qt-6/https://developer.android.com/guide/topics/providers/content-provider-basics#ContentURIs>`_:
 
-* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements Android's native file picker.
+* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements `Android's native file picker <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/shared/documents-files>`_.
 
 * Aim to follow the `Scoped storage <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage#scoped-storage>`_ guidelines, such as using app specific directories instead of other public external directories. For more information, also see `storage best practices <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/use-cases>`_.
 

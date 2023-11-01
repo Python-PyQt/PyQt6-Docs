@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: c451e9119097e3f712650e91bf610ab3
+    :digest: 4462408600aee20f28699d3a3d3491e3
 
 This enum describes the types of action which can be performed on the web page.
 

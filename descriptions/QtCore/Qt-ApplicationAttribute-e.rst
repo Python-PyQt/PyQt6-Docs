@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: c40178dad543266b8067f3fc646e3634
+    :digest: b8ff4f640039bb2f4724b480a1369506
 
 This enum describes attributes that change the behavior of application-wide features. These are enabled and disabled using QCoreApplication::setAttribute(), and can be tested for with QCoreApplication::testAttribute().
 

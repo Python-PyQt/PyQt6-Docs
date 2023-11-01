@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 2e1e4fde32fc7292dbe8e18ea768734a
     :realsig: (const QStringList&)
+    :digest: 6fc156604ac323d467e91645e868490c
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextBrowser.searchPaths`.

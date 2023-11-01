@@ -2,6 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 5c422d4cbb881f0cd62fa394157c8475
+    :digest: fdeecd4df5e03d8c396e21ccd59d14c3
 
-Returns the file that is being opened.
+Returns the name of the file that the application should open.
+
+This is not guaranteed to be the path to a local file.

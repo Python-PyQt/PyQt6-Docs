@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Timer events for objects
-    :digest: 27aba15ef55a5a79094fc190ff19ed2a
+    :digest: 33fe2cf45ad7987787541f9f06688c0c
 
 The :sip:ref:`~PyQt6.QtCore.QBasicTimer` class provides timer events for objects.
 
@@ -11,6 +11,6 @@ To use this class, create a :sip:ref:`~PyQt6.QtCore.QBasicTimer`, and call its s
 
 Objects of this class cannot be copied, but can be moved, so you can maintain a list of basic timers by holding them in container that supports move-only types, e.g. std::vector.
 
-The `Tetrix <https://doc.qt.io/qt-6/qtwidgets-widgets-tetrix-example.html>`_ example uses :sip:ref:`~PyQt6.QtCore.QBasicTimer` to control the rate at which pieces fall.
+The Tetrix example uses :sip:ref:`~PyQt6.QtCore.QBasicTimer` to control the rate at which pieces fall.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QTimerEvent`, :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`, `Timers <https://doc.qt.io/qt-6/timers.html>`_, `Affine Transformations <https://doc.qt.io/qt-6/qtwidgets-painting-affine-example.html>`_.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: f058a73e371eb1b77c72d5ef23241b96
     :realsig: (const QLowEnergyDescriptor&, const QByteArray&)
+    :digest: 78f0339c69d796c2417ccf0f56b05701
 
-TODO
+This signal is emitted when the value of *descriptor* is successfully changed to *newValue*. If the associated controller object is in the :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyController.Role.CentralRole` role, the change must have been caused by calling :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyService.writeDescriptor`. Otherwise, the signal is the result of a write request or command from a GATT client to the respective descriptor.
+
+.. seealso:: :sip:ref:`~PyQt6.QtBluetooth.QLowEnergyService.writeDescriptor`.

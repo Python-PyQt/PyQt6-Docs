@@ -2,5 +2,10 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: 77dec00dce66304f5a6fcb417277e53e
 
-TODO
+Appends a new paragraph with *text* to the end of the text edit.
+
+**Note:** The new paragraph appended will have the same character format and block format as the current paragraph, determined by the position of the cursor.
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit.currentCharFormat`, :sip:ref:`~PyQt6.QtGui.QTextCursor.blockFormat`.

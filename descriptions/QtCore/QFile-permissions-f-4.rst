@@ -2,5 +2,8 @@
     :status: todo
     :pysig: a539cc857502bb9c4cbe9d4045ed8858
     :realsig: (const QString&)
+    :digest: e80a380a88a9ac8db15e6c8c03a692f3
 
-TODO
+This is an overloaded function.
+
+Returns the complete OR-ed together combination of QFile::Permission for *fileName*.

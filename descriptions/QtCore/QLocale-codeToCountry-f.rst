@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 34fe242c1692bbfd98eec30b8774fe82
     :realsig: (QStringView)
-    :digest: 4495534e56fe2ec1f7d16c87e5a88388
+    :digest: 6c6b040b755ead59b1cd83324d16d782
 
 Returns the QLocale::Territory enum corresponding to the two-letter or three-digit *countryCode*, as defined in the ISO 3166 standard.
 

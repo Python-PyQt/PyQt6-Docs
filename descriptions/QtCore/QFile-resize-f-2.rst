@@ -2,5 +2,12 @@
     :status: todo
     :pysig: fc72e78f0301238e410e562a38d54f4a
     :realsig: (const QString&, qint64)
+    :digest: 0c43d1b40098c4bd833a7614aa337228
 
-TODO
+This is an overloaded function.
+
+Sets *fileName* to size (in bytes) *sz*. Returns ``true`` if the resize succeeds; false otherwise. If *sz* is larger than *fileName* currently is the new bytes will be set to 0, if *sz* is smaller the file is simply truncated.
+
+**Warning:** This function can fail if the file doesn't exist.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QFile.resize`.

@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 2e1e4fde32fc7292dbe8e18ea768734a
     :realsig: (const QStringList&)
+    :digest: ca3ac863d4133493832da31ff191f4f1
 
-TODO
+Sets the list of D-Bus services being watched to be *services*.
+
+Note that setting the entire list means removing all previous rules for watching services and adding new ones. This is an expensive operation and should be avoided, if possible. Instead, use :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.addWatchedService` and :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.removeWatchedService` if you can to manipulate entries in the list.
+
+Removes any existing binding of :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.watchedServices`.
+
+.. seealso:: :sip:ref:`~PyQt6.QtDBus.QDBusServiceWatcher.watchedServices`.

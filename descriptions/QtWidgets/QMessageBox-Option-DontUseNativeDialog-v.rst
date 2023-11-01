@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x00000001
+    :digest: a41a6661c7e1b21630ab7783550a6257
 
-TODO
+Don't use the native message dialog.

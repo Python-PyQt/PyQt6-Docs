@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 7ef875071bc74c51ee4f4dfc51eced10
+    :digest: 991978e5a7094d13ab190ff1c5139a35
 
 Specifies the start of a graphics frame. Calls to :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.sync` or :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.render` must be enclosed by calls to beginFrame() and :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.endFrame`.
 
@@ -31,5 +31,9 @@ A typical update step, including initialization of rendering into an existing te
     m_renderControl->sync();
     m_renderControl->render();
     m_renderControl->endFrame(); // Qt Quick's rendering commands are submitted to the device context here
+
+**Note:** This function does not need to be, and must not be, called when using the ``software`` adaptation of Qt Quick.
+
+**Note:** Internally beginFrame() and :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.endFrame` invoke QRhi::beginOffscreenFrame() and QRhi::endOffscreenFrame(), respectively. This implies that there must not be a frame (neither offscreen, nor swapchain-based) being recorded on the QRhi when this function is called.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.endFrame`, :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.initialize`, :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.sync`, :sip:ref:`~PyQt6.QtQuick.QQuickRenderControl.render`, :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsDevice`, :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`.

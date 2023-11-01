@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 944e7285832a925a03765201e90ff4a4
     :realsig: (const QString&, const QVariant&)
+    :digest: 47b4ef97a8ba8ea827ddb0b6267c850a
 
-TODO
+Sets the backend-specific property named *name* to *value*. Returns ``true`` on success, ``false`` otherwise. Backend-specific properties can be used to configure the positioning subsystem behavior at runtime. Supported backend-specific properties are listed and described in `Qt Positioning plugins#Default plugins <https://doc.qt.io/qt-6/qtpositioning-plugins.html#default-plugins>`_.
+
+.. seealso:: :sip:ref:`~PyQt6.QtPositioning.QGeoPositionInfoSource.backendProperty`.

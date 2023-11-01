@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to display and edit data items from a model
-    :digest: 225180ba04c5dd943fae69fee683ae4b
+    :digest: 76716d7d5116c1cad2a7728e8eb18f1b
 
 The :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate` class is used to display and edit data items from a model.
 
@@ -25,4 +25,4 @@ To provide custom editing, there are two approaches that can be used. The first 
 
 The second approach is to handle user events directly by reimplementing :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate.editorEvent`.
 
-.. seealso:: `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, `Pixelator Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-pixelator-example.html>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`.
+.. seealso:: `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`.

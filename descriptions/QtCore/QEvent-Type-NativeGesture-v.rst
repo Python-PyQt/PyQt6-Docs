@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 197
+    :digest: 5f9efec284f9f804c56c26b315033a41
 
-TODO
+The system has detected a gesture (\ :sip:ref:`~PyQt6.QtGui.QNativeGestureEvent`).

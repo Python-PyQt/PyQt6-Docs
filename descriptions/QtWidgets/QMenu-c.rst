@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Menu widget for use in menu bars, context menus, and other popup menus
-    :digest: 5f547b304885c384eecc88a4019d0180
+    :digest: 6d6409e122bbbb09f767d32e350e457c
 
 The :sip:ref:`~PyQt6.QtWidgets.QMenu` class provides a menu widget for use in menu bars, context menus, and other popup menus.
 
@@ -41,4 +41,4 @@ See the `Menus <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>
 
 **Important inherited functions:** addAction(), removeAction(), :sip:ref:`~PyQt6.QtWidgets.QMenu.clear`, :sip:ref:`~PyQt6.QtWidgets.QMenu.addSeparator`, and :sip:ref:`~PyQt6.QtWidgets.QMenu.addMenu`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenuBar`, `Qt Widgets - Application Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-application-example.html>`_, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QMenuBar`, `Menus Example <https://doc.qt.io/qt-6/qtwidgets-mainwindows-menus-example.html>`_.

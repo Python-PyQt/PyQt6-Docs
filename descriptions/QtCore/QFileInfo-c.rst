@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: System-independent file information
-    :digest: d9b382f51aba1310f756ba3e298a1aba
+    :digest: eb8b2b19ce15920128e955aa7b6717b7
 
 The :sip:ref:`~PyQt6.QtCore.QFileInfo` class provides system-independent file information.
 
@@ -15,6 +15,15 @@ The file that the :sip:ref:`~PyQt6.QtCore.QFileInfo` works on is set in the cons
 
 The file's type is obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isFile`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isDir` and :sip:ref:`~PyQt6.QtCore.QFileInfo.isSymLink`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.symLinkTarget` function provides the name of the file the symlink points to.
 
+Elements of the file's name can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.path` and :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`'s parts can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.baseName`, :sip:ref:`~PyQt6.QtCore.QFileInfo.suffix` or :sip:ref:`~PyQt6.QtCore.QFileInfo.completeSuffix`. :sip:ref:`~PyQt6.QtCore.QFileInfo` objects to directories created by Qt classes will not have a trailing file separator. If you wish to use trailing separators in your own file info objects, just append one to the file name given to the constructors or :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`.
+
+Date and time related information are returned by :sip:ref:`~PyQt6.QtCore.QFileInfo.birthTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.fileTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastModified`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastRead`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.metadataChangeTime`. Information about access permissions can be obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isReadable`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isWritable`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.isExecutable`. Ownership information can be obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.owner`, :sip:ref:`~PyQt6.QtCore.QFileInfo.ownerId`, :sip:ref:`~PyQt6.QtCore.QFileInfo.group`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.groupId`. You can also examine permissions and ownership in a single statement using the :sip:ref:`~PyQt6.QtCore.QFileInfo.permission` function.
+
+.. _qfileinfo-symbolic-links-and-shortcuts:
+
+Symbolic Links and Shortcuts
+----------------------------
+
 On Unix (including macOS and iOS), the property getter functions in this class return the properties such as times and size of the target file, not the symlink, because Unix handles symlinks transparently. Opening a symlink using :sip:ref:`~PyQt6.QtCore.QFile` effectively opens the link's target. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qfileinfo.py
@@ -25,13 +34,12 @@ On Windows, shortcuts (``.lnk`` files) are currently treated as symlinks. As on 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qfileinfo.py
     :lines: 77-90
 
-Elements of the file's name can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.path` and :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`'s parts can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.baseName`, :sip:ref:`~PyQt6.QtCore.QFileInfo.suffix` or :sip:ref:`~PyQt6.QtCore.QFileInfo.completeSuffix`. :sip:ref:`~PyQt6.QtCore.QFileInfo` objects to directories created by Qt classes will not have a trailing file separator. If you wish to use trailing separators in your own file info objects, just append one to the file name given to the constructors or :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`.
-
-The file's dates are returned by :sip:ref:`~PyQt6.QtCore.QFileInfo.birthTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastModified`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastRead` and :sip:ref:`~PyQt6.QtCore.QFileInfo.fileTime`. Information about the file's access permissions is obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isReadable`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isWritable` and :sip:ref:`~PyQt6.QtCore.QFileInfo.isExecutable`. The file's ownership is available from :sip:ref:`~PyQt6.QtCore.QFileInfo.owner`, :sip:ref:`~PyQt6.QtCore.QFileInfo.ownerId`, :sip:ref:`~PyQt6.QtCore.QFileInfo.group` and :sip:ref:`~PyQt6.QtCore.QFileInfo.groupId`. You can examine a file's permissions and ownership in a single statement using the :sip:ref:`~PyQt6.QtCore.QFileInfo.permission` function.
-
 .. _qfileinfo-ntfs-permissions:
 
-**Note:** On NTFS file systems, ownership and permissions checking is disabled by default for performance reasons. To enable it, include the following line:
+NTFS permissions
+----------------
+
+On NTFS file systems, ownership and permissions checking is disabled by default for performance reasons. To enable it, include the following line:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-ntfsp.py
     :lines: 55-55
@@ -43,16 +51,26 @@ Permission checking is then turned on and off by incrementing and decrementing `
 
 **Note:** Since this is a non-atomic global variable, it is only safe to increment or decrement ``qt_ntfs_permission_lookup`` before any threads other than the main thread have started or after every thread other than the main thread has ended.
 
-.. _qfileinfo-performance-issues:
+**Note:** From Qt 6.6 the variable ``qt_ntfs_permission_lookup`` is deprecated. Please use the following alternatives.
 
-Performance Issues
-------------------
+The safe and easy way to manage permission checks is to use the RAII class ``QNtfsPermissionCheckGuard``.
+
+.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-ntfsp.py
+
+If you need more fine-grained control, it is possible to manage the permission with the following functions instead:
+
+.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-ntfsp.py
+
+.. _qfileinfo-performance-considerations:
+
+Performance Considerations
+--------------------------
 
 Some of :sip:ref:`~PyQt6.QtCore.QFileInfo`'s functions query the file system, but for performance reasons, some functions only operate on the file name itself. For example: To return the absolute path of a relative file name, :sip:ref:`~PyQt6.QtCore.QFileInfo.absolutePath` has to query the file system. The :sip:ref:`~PyQt6.QtCore.QFileInfo.path` function, however, can work on the file name directly, and so it is faster.
 
-**Note:** To speed up performance, :sip:ref:`~PyQt6.QtCore.QFileInfo` caches information about the file.
+To speed up performance, :sip:ref:`~PyQt6.QtCore.QFileInfo` also caches information about the file. Because files can be changed by other users or programs, or even by other parts of the same program, there is a function that refreshes the file information: :sip:ref:`~PyQt6.QtCore.QFileInfo.refresh`. If you want to switch off a :sip:ref:`~PyQt6.QtCore.QFileInfo`'s caching and force it to access the file system every time you request information from it call :sip:ref:`~PyQt6.QtCore.QFileInfo.setCaching`\ (false). If you want to make sure that all information is read from the file system, use :sip:ref:`~PyQt6.QtCore.QFileInfo.stat`.
 
-Because files can be changed by other users or programs, or even by other parts of the same program, there is a function that refreshes the file information: :sip:ref:`~PyQt6.QtCore.QFileInfo.refresh`. If you want to switch off a :sip:ref:`~PyQt6.QtCore.QFileInfo`'s caching and force it to access the file system every time you request information from it call :sip:ref:`~PyQt6.QtCore.QFileInfo.setCaching`\ (false). If you want to make sure that all information is read from the file system, use :sip:ref:`~PyQt6.QtCore.QFileInfo.stat`.
+:sip:ref:`~PyQt6.QtCore.QFileInfo.birthTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.fileTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastModified`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastRead`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.metadataChangeTime` return times in *local time* by default. Since native file system API typically uses UTC, this requires a conversion. If you don't actually need the local time, you can avoid this by requesting the time in :sip:ref:`~PyQt6.QtCore.QTimeZone.Initialization.UTC` directly.
 
 .. _qfileinfo-platform-specific-issues:
 
@@ -61,7 +79,7 @@ Platform Specific Issues
 
 On Android, some limitations apply when dealing with `content URIs <https://doc.qt.io/qt-6/https://developer.android.com/guide/topics/providers/content-provider-basics#ContentURIs>`_:
 
-* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements Android's native file picker.
+* Access permissions might be needed by prompting the user through the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` which implements `Android's native file picker <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/shared/documents-files>`_.
 
 * Aim to follow the `Scoped storage <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage#scoped-storage>`_ guidelines, such as using app specific directories instead of other public external directories. For more information, also see `storage best practices <https://doc.qt.io/qt-6/https://developer.android.com/training/data-storage/use-cases>`_.
 

@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract base class that encapsulates the look and feel of a GUI
-    :digest: bf90745e0fdb7310da31cc484a6c5aac
+    :digest: 1b410580dee309709c24fd5d4a045991
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyle` class is an abstract base class that encapsulates the look and feel of a GUI.
 
 Qt contains a set of :sip:ref:`~PyQt6.QtWidgets.QStyle` subclasses that emulate the styles of the different platforms supported by Qt (QWindowsStyle, QMacStyle etc.). By default, these styles are built into the Qt GUI module. Styles can also be made available as plugins.
 
-Qt's built-in widgets use :sip:ref:`~PyQt6.QtWidgets.QStyle` to perform nearly all of their drawing, ensuring that they look exactly like the equivalent native widgets. The diagram below shows a `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_ in nine different styles.
+Qt's built-in widgets use :sip:ref:`~PyQt6.QtWidgets.QStyle` to perform nearly all of their drawing, ensuring that they look exactly like the equivalent native widgets. The diagram below shows a :sip:ref:`~PyQt6.QtWidgets.QComboBox` in nine different styles.
 
 .. image:: ../../../images/qstyle-comboboxes.png
 
@@ -42,7 +42,7 @@ Most :sip:ref:`~PyQt6.QtWidgets.QStyle` draw functions take four arguments:
 
 * a :sip:ref:`~PyQt6.QtGui.QPainter` that should be used to draw the element
 
-* a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ on which the drawing is performed (optional)
+* a :sip:ref:`~PyQt6.QtWidgets.QWidget` on which the drawing is performed (optional)
 
 For example, if you want to draw a focus rectangle on your widget, you can write:
 
@@ -55,7 +55,7 @@ For example, if you want to draw a focus rectangle on your widget, you can write
 
 To ensure that drawing operations are as fast as possible, :sip:ref:`~PyQt6.QtWidgets.QStyleOption` and its subclasses have public data members. See the :sip:ref:`~PyQt6.QtWidgets.QStyleOption` class documentation for details on how to use it.
 
-For convenience, Qt provides the :sip:ref:`~PyQt6.QtWidgets.QStylePainter` class, which combines a :sip:ref:`~PyQt6.QtWidgets.QStyle`, a :sip:ref:`~PyQt6.QtGui.QPainter`, and a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_. This makes it possible to write
+For convenience, Qt provides the :sip:ref:`~PyQt6.QtWidgets.QStylePainter` class, which combines a :sip:ref:`~PyQt6.QtWidgets.QStyle`, a :sip:ref:`~PyQt6.QtGui.QPainter`, and a :sip:ref:`~PyQt6.QtWidgets.QWidget`. This makes it possible to write
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-styles-styles.py
     :lines: 87-87
@@ -103,8 +103,6 @@ If you need to use the ``widget`` argument to obtain additional information, be 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
 
 When implementing a custom style, you cannot assume that the widget is a :sip:ref:`~PyQt6.QtWidgets.QSpinBox` just because the enum value is called :sip:ref:`~PyQt6.QtWidgets.QStyle.PrimitiveElement.PE_IndicatorSpinUp` or :sip:ref:`~PyQt6.QtWidgets.QStyle.PrimitiveElement.PE_IndicatorSpinDown`.
-
-The documentation for the `Styles <https://doc.qt.io/qt-6/qtwidgets-widgets-styles-example.html>`_ example covers this topic in more detail.
 
 **Warning:** Qt style sheets are currently not supported for custom :sip:ref:`~PyQt6.QtWidgets.QStyle` subclasses. We plan to address this in some future release.
 
@@ -169,4 +167,4 @@ To add support for drawing of new datatypes and item data roles, it is necessary
 
 The drawing of item view headers is also done by the style, giving control over size of header items and row and column sizes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`, :sip:ref:`~PyQt6.QtWidgets.QStylePainter`, `Styles Example <https://doc.qt.io/qt-6/qtwidgets-widgets-styles-example.html>`_, `Styles and Style Aware Widgets <https://doc.qt.io/qt-6/style-reference.html>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, `Styling <https://doc.qt.io/qt-6/qwidget-styling.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QStyleOption`, :sip:ref:`~PyQt6.QtWidgets.QStylePainter`, `Styles and Style Aware Widgets <https://doc.qt.io/qt-6/style-reference.html>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, `Styling <https://doc.qt.io/qt-6/qwidget-styling.html>`_.

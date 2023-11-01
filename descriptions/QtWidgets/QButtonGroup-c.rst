@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Container to organize groups of button widgets
-    :digest: 463d3e5076ba30d28be766d75fa23ced
+    :digest: a8bcd370005cfcf4c83390d5180ae95f
 
 The :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` class provides a container to organize groups of button widgets.
 
@@ -11,6 +11,6 @@ An :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.exclusive` button group switches off 
 
 A button can be added to the group with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.addButton` and removed with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.removeButton`. If the group is exclusive, the currently checked button is available with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.checkedButton`. If a button is clicked, the :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.buttonClicked` signal is emitted; for a checkable button in an exclusive group this means that the button has been checked. The list of buttons in the group is returned by :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.buttons`.
 
-In addition, :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` can map between integers and buttons. You can assign an integer id to a button with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.setId`, and retrieve it with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.id`. The id of the currently checked button is available with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.checkedId`, and there is an overloaded signal :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.buttonClicked` which emits the id of the button. The id ``-1`` is reserved by :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` to mean "no such button". The purpose of the mapping mechanism is to simplify the representation of enum values in a user interface.
+In addition, :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` can map between integers and buttons. You can assign an integer id to a button with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.setId`, and retrieve it with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.id`. The id of the currently checked button is available with :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.checkedId`, and there is a signal :sip:ref:`~PyQt6.QtWidgets.QButtonGroup.idClicked` that emits the id of the button. The id ``-1`` is reserved by :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` to mean "no such button". The purpose of the mapping mechanism is to simplify the representation of enum values in a user interface.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGroupBox`, :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`.

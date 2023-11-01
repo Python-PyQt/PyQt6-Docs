@@ -2,11 +2,11 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: d2296759fc2b8d7b801415c51166fa9b
+    :digest: d8f4f46029dc36ac04823209cbc44643
 
 Schedules a :sip:ref:`~PyQt6.QtCore.QEvent.Type.UpdateRequest` event to be delivered to this window.
 
-The event is delivered in sync with the display vsync on platforms where this is possible. Otherwise, the event is delivered after a delay of 5 ms. The additional time is there to give the event loop a bit of idle time to gather system events, and can be overridden using the QT_QPA_UPDATE_IDLE_TIME environment variable.
+The event is delivered in sync with the display vsync on platforms where this is possible. Otherwise, the event is delivered after a delay of at most 5 ms. If the window's associated screen reports a :sip:ref:`~PyQt6.QtGui.QScreen.refreshRate` higher than 60 Hz, the interval is scaled down to a value smaller than 5. The additional time is there to give the event loop a bit of idle time to gather system events, and can be overridden using the QT_QPA_UPDATE_IDLE_TIME environment variable.
 
 When driving animations, this function should be called once after drawing has completed. Calling this function multiple times will result in a single event being delivered to the window.
 

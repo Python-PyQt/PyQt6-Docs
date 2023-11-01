@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (const QString&)
-    :digest: 80a577b7b85c41d562ed4a630eacd898
+    :digest: 13ce9bcc9638f5b2dea2cce20e8e01cb
 
 This is an overloaded function.
 
@@ -26,6 +26,8 @@ The currently available driver types are:
 | QPSQL       | PostgreSQL Driver                           |
 +-------------+---------------------------------------------+
 | QSQLITE     | SQLite version 3 or above                   |
++-------------+---------------------------------------------+
+| QMIMER      | Mimer SQL 11 or above                       |
 +-------------+---------------------------------------------+
 
 Additional third party drivers, including your own custom drivers, can be loaded dynamically.

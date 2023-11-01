@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: e69a67b42ec517a57ae887f65a5911ad
+    :digest: 6e9cbc22deb9a3cb5ec59eefcc7bdd56
 
-The navigation request resulted from a content or server controlled redirect. This also includes automatic reloads. (Added in Qt 5.14)
+The navigation request resulted from a content or server controlled redirect. This also includes automatic reloads.

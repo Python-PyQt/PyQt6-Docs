@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: ca36bf5ae3b7689738561e28d719357e
+    :digest: 2f5e3a721004ba400a19587eae63a87d
 
-Returns the key assigned to this system semaphore. The key is the name by which the semaphore can be accessed from other processes.
+Returns the legacy key assigned to this system semaphore. The key is the name by which the semaphore can be accessed from other processes.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.setKey`.

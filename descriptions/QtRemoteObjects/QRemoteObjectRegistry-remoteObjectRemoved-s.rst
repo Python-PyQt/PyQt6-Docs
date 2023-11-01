@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6a25758f6fea2dc809dfe3de6269fd1c
     :realsig: (const QRemoteObjectSourceLocation&)
-    :digest: fcaf85669600b301c9a06dcf7b6a591d
+    :digest: 619c9ab3bab30c2c387e0da0d9159b03
 
 This signal is emitted whenever a Source location is removed from the Registry.
 

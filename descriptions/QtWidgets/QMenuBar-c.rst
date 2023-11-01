@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Horizontal menu bar
-    :digest: fad1e58f88f0366cb4d302ace5b590c0
+    :digest: d26f2b926a8e83d1938178fb61d9efb4
 
 The :sip:ref:`~PyQt6.QtWidgets.QMenuBar` class provides a horizontal menu bar.
 
@@ -44,7 +44,9 @@ QMenuBar as a Global Menu Bar
 
 On macOS and on certain Linux desktop environments such as Ubuntu Unity, :sip:ref:`~PyQt6.QtWidgets.QMenuBar` is a wrapper for using the system-wide menu bar. If you have multiple menu bars in one dialog the outermost menu bar (normally inside a widget with widget flag :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.Window`) will be used for the system-wide menu bar.
 
-Qt for macOS also provides a menu bar merging feature to make :sip:ref:`~PyQt6.QtWidgets.QMenuBar` conform more closely to accepted macOS menu bar layout. The merging functionality is based on string matching the title of a :sip:ref:`~PyQt6.QtWidgets.QMenu` entry. These strings are translated (using :sip:ref:`~PyQt6.QtCore.QObject.tr`) in the "\ :sip:ref:`~PyQt6.QtWidgets.QMenuBar`" context. If an entry is moved its slots will still fire as if it was in the original place. The table below outlines the strings looked for and where the entry is placed if matched:
+Qt for macOS also provides a menu bar merging feature to make :sip:ref:`~PyQt6.QtWidgets.QMenuBar` conform more closely to accepted macOS menu bar layout. If an entry is moved its slots will still fire as if it was in the original place.
+
+The merging functionality is based on the :sip:ref:`~PyQt6.QtGui.QAction.menuRole` of the menu entries. If an item has :sip:ref:`~PyQt6.QtGui.QAction.MenuRole.TextHeuristicRole`, the role is determined by string matching the title using the following heuristics:
 
 +-------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | String matches                                  | Placement                                   | Notes                                                                                                                                                        |
@@ -56,7 +58,7 @@ Qt for macOS also provides a menu bar merging feature to make :sip:ref:`~PyQt6.Q
 | quit or exit                                    | Application Menu | Quit <application name>  | If this entry is not found a default Quit item will be created to call :sip:ref:`~PyQt6.QtCore.QCoreApplication.quit`                                        |
 +-------------------------------------------------+---------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-You can override this behavior by using the :sip:ref:`~PyQt6.QtGui.QAction.menuRole` property.
+You can override this behavior by setting the :sip:ref:`~PyQt6.QtGui.QAction.menuRole` property to :sip:ref:`~PyQt6.QtGui.QAction.MenuRole.NoRole`.
 
 If you want all windows in a Mac application to share one menu bar, you must create a menu bar that does not have a parent. Create a parent-less menu bar this way:
 

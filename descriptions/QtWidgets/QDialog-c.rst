@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of dialog windows
-    :digest: 28d60e2dac272611994729abfdcfeb53
+    :digest: 28e24740f5cefe756434752dbcf0917a
 
 The :sip:ref:`~PyQt6.QtWidgets.QDialog` class is the base class of dialog windows.
 
@@ -60,7 +60,7 @@ If the user presses the Esc key in a dialog, :sip:ref:`~PyQt6.QtWidgets.QDialog.
 Extensibility
 -------------
 
-Extensibility is the ability to show the dialog in two ways: a partial dialog that shows the most commonly used options, and a full dialog that shows all the options. Typically an extensible dialog will initially appear as a partial dialog, but with a More toggle button. If the user presses the More button down, the dialog is expanded. The `Extension Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-extension-example.html>`_ shows how to achieve extensible dialogs using Qt.
+Extensibility is the ability to show the dialog in two ways: a partial dialog that shows the most commonly used options, and a full dialog that shows all the options. Typically an extensible dialog will initially appear as a partial dialog, but with a More toggle button. If the user presses the More button down, the dialog is expanded.
 
 .. _qdialog-return:
 
@@ -90,4 +90,8 @@ A modeless dialog:
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-dialogs-dialogs.py
     :lines: 77-88
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, :sip:ref:`~PyQt6.QtWidgets.QTabWidget`, :sip:ref:`~PyQt6.QtWidgets.QWidget`, :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `Extension Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-extension-example.html>`_, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.
+A dialog with an extension:
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-dialogs-dialogs.py
+
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, :sip:ref:`~PyQt6.QtWidgets.QTabWidget`, :sip:ref:`~PyQt6.QtWidgets.QWidget`, :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Framework for wizards
-    :digest: 26d724276f4d9be0aeccecf2e0cc9b31
+    :digest: ba90c8f3b7879cb099c808a0a33b4ba1
 
 The :sip:ref:`~PyQt6.QtWidgets.QWizard` class provides a framework for wizards.
 
 A wizard (also called an assistant on macOS) is a special type of input dialog that consists of a sequence of pages. A wizard's purpose is to guide the user through a process step by step. Wizards are useful for complex or infrequent tasks that users may find difficult to learn.
 
-:sip:ref:`~PyQt6.QtWidgets.QWizard` inherits :sip:ref:`~PyQt6.QtWidgets.QDialog` and represents a wizard. Each page is a :sip:ref:`~PyQt6.QtWidgets.QWizardPage` (a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ subclass). To create your own wizards, you can use these classes directly, or you can subclass them for more control.
+:sip:ref:`~PyQt6.QtWidgets.QWizard` inherits :sip:ref:`~PyQt6.QtWidgets.QDialog` and represents a wizard. Each page is a :sip:ref:`~PyQt6.QtWidgets.QWizardPage` (a :sip:ref:`~PyQt6.QtWidgets.QWidget` subclass). To create your own wizards, you can use these classes directly, or you can subclass them for more control.
 
 Topics:
 
@@ -16,7 +16,7 @@ Topics:
 A Trivial Example
 -----------------
 
-The following example illustrates how to create wizard pages and add them to a wizard. For more advanced examples, see `Class Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-classwizard-example.html>`_ and `License Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_.
+The following example illustrates how to create wizard pages and add them to a wizard. For more advanced examples, see the `License Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_.
 
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-trivialwizard-trivialwizard.py
     :lines: 59-77
@@ -66,9 +66,9 @@ You can explicitly set the look to use using :sip:ref:`~PyQt6.QtWidgets.QWizard.
 
 Note: :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardStyle.AeroStyle` has effect only on a Windows Vista system with alpha compositing enabled. :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardStyle.ModernStyle` is used as a fallback when this condition is not met.
 
-In addition to the wizard style, there are several options that control the look and feel of the wizard. These can be set using :sip:ref:`~PyQt6.QtWidgets.QWizard.setOption` or :sip:ref:`~PyQt6.QtWidgets.QWizard.setOptions`. For example, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions.HaveHelpButton` makes :sip:ref:`~PyQt6.QtWidgets.QWizard` show a Help button along with the other wizard buttons.
+In addition to the wizard style, there are several options that control the look and feel of the wizard. These can be set using :sip:ref:`~PyQt6.QtWidgets.QWizard.setOption` or :sip:ref:`~PyQt6.QtWidgets.QWizard.setOptions`. For example, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption.HaveHelpButton` makes :sip:ref:`~PyQt6.QtWidgets.QWizard` show a Help button along with the other wizard buttons.
 
-You can even change the order of the wizard buttons to any arbitrary order using :sip:ref:`~PyQt6.QtWidgets.QWizard.setButtonLayout`, and you can add up to three custom buttons (e.g., a Print button) to the button row. This is achieved by calling :sip:ref:`~PyQt6.QtWidgets.QWizard.setButton` or :sip:ref:`~PyQt6.QtWidgets.QWizard.setButtonText` with :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton1`, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton2`, or :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton3` to set up the button, and by enabling the :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton1`, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton2`, or :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions.HaveCustomButton3` options. Whenever the user clicks a custom button, :sip:ref:`~PyQt6.QtWidgets.QWizard.customButtonClicked` is emitted. For example:
+You can even change the order of the wizard buttons to any arbitrary order using :sip:ref:`~PyQt6.QtWidgets.QWizard.setButtonLayout`, and you can add up to three custom buttons (e.g., a Print button) to the button row. This is achieved by calling :sip:ref:`~PyQt6.QtWidgets.QWizard.setButton` or :sip:ref:`~PyQt6.QtWidgets.QWizard.setButtonText` with :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton1`, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton2`, or :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton.CustomButton3` to set up the button, and by enabling the :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton1`, :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton2`, or :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption.HaveCustomButton3` options. Whenever the user clicks a custom button, :sip:ref:`~PyQt6.QtWidgets.QWizard.customButtonClicked` is emitted. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-licensewizard-licensewizard.py
     :lines: 359-362
@@ -121,17 +121,8 @@ In many wizards, the contents of a page may affect the default values of the fie
 
 To register a field, call :sip:ref:`~PyQt6.QtWidgets.QWizardPage.registerField` field. For example:
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 235-237
-
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 245-254
-
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 271-273
-
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 297-297
+.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-licensewizard-licensewizard.py
+    :lines: 205-206
 
 The above code registers three fields, ``className``, ``baseClass``, and ``qobjectMacro``, which are associated with three child widgets. The asterisk (``\*``) next to ``className`` denotes a mandatory field.
 
@@ -139,12 +130,12 @@ The above code registers three fields, ``className``, ``baseClass``, and ``qobje
 
 The fields of any page are accessible from any other page. For example:
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 414-420
+.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-licensewizard-licensewizard.py
+    :lines: 331-349
 
-Here, we call :sip:ref:`~PyQt6.QtWidgets.QWizardPage.field` to access the contents of the ``className`` field (which was defined in the ``ClassInfoPage``) and use it to initialize the ``OutputFilePage``. The field's contents is returned as a `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_.
+Here, we call :sip:ref:`~PyQt6.QtWidgets.QWizardPage.field` to access the contents of the ``details.email`` field (which was defined in the ``DetailsPage``) and use it to initialize the ``ConclusionPage``. The field's contents is returned as a :sip:ref:`~PyQt6.QtCore.QVariant`.
 
-When we create a field using :sip:ref:`~PyQt6.QtWidgets.QWizardPage.registerField`, we pass a unique field name and a widget. We can also provide a Qt property name and a "changed" signal (a signal that is emitted when the property changes) as third and fourth arguments; however, this is not necessary for the most common Qt widgets, such as :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, and `QComboBox <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qcombobox>`_, because :sip:ref:`~PyQt6.QtWidgets.QWizard` knows which properties to look for.
+When we create a field using :sip:ref:`~PyQt6.QtWidgets.QWizardPage.registerField`, we pass a unique field name and a widget. We can also provide a Qt property name and a "changed" signal (a signal that is emitted when the property changes) as third and fourth arguments; however, this is not necessary for the most common Qt widgets, such as :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, and :sip:ref:`~PyQt6.QtWidgets.QComboBox`, because :sip:ref:`~PyQt6.QtWidgets.QWizard` knows which properties to look for.
 
 .. _qwizard-mandatory-fields:
 
@@ -161,17 +152,13 @@ The enabled/disabled state of the Next and/or Finish buttons is one way to perfo
 Creating Linear Wizards
 -----------------------
 
-Most wizards have a linear structure, with page 1 followed by page 2 and so on until the last page. The `Class Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-classwizard-example.html>`_ example is such a wizard. With :sip:ref:`~PyQt6.QtWidgets.QWizard`, linear wizards are created by instantiating the :sip:ref:`~PyQt6.QtWidgets.QWizardPage`\ s and inserting them using :sip:ref:`~PyQt6.QtWidgets.QWizard.addPage`. By default, the pages are shown in the order in which they were added. For example:
+Most wizards have a linear structure, with page 1 followed by page 2 and so on until the last page. The `Trivial Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-trivialwizard-example.html>`_ example is such a wizard. With :sip:ref:`~PyQt6.QtWidgets.QWizard`, linear wizards are created by instantiating the :sip:ref:`~PyQt6.QtWidgets.QWizardPage`\ s and inserting them using :sip:ref:`~PyQt6.QtWidgets.QWizard.addPage`. By default, the pages are shown in the order in which they were added. For example:
 
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 58-65
-
-.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-classwizard-classwizard.py
-    :lines: 73-73
+.. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-trivialwizard-trivialwizard.py
 
 When a page is about to be shown, :sip:ref:`~PyQt6.QtWidgets.QWizard` calls :sip:ref:`~PyQt6.QtWidgets.QWizard.initializePage` (which in turn calls :sip:ref:`~PyQt6.QtWidgets.QWizardPage.initializePage`) to fill the page with default values. By default, this function does nothing, but it can be reimplemented to initialize the page's contents based on other pages' fields (see the :ref:`example above<qwizard-initialize-page>`).
 
-If the user presses Back, :sip:ref:`~PyQt6.QtWidgets.QWizard.cleanupPage` is called (which in turn calls :sip:ref:`~PyQt6.QtWidgets.QWizardPage.cleanupPage`). The default implementation resets the page's fields to their original values (the values they had before :sip:ref:`~PyQt6.QtWidgets.QWizard.initializePage` was called). If you want the Back button to be non-destructive and keep the values entered by the user, simply enable the :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOptions.IndependentPages` option.
+If the user presses Back, :sip:ref:`~PyQt6.QtWidgets.QWizard.cleanupPage` is called (which in turn calls :sip:ref:`~PyQt6.QtWidgets.QWizardPage.cleanupPage`). The default implementation resets the page's fields to their original values (the values they had before :sip:ref:`~PyQt6.QtWidgets.QWizard.initializePage` was called). If you want the Back button to be non-destructive and keep the values entered by the user, simply enable the :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardOption.IndependentPages` option.
 
 .. _qwizard-creating-non-linear-wizards:
 
@@ -230,7 +217,7 @@ To test whether a page has been visited or not, call :sip:ref:`~PyQt6.QtWidgets.
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-dialogs-licensewizard-licensewizard.py
     :lines: 331-349
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWizardPage`, `Class Wizard Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-classwizard-example.html>`_, `License Wizard Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWizardPage`, `Trivial Wizard Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-trivialwizard-example.html>`_, `License Wizard Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_.
 
 .. |image-qtwizard-classic1-png| image:: ../../../images/qtwizard-classic1.png
 .. |image-qtwizard-modern1-png| image:: ../../../images/qtwizard-modern1.png

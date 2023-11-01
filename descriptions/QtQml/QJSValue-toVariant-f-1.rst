@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 332a4d59d70101583e8b009fdba59639
     :realsig: (QJSValue::ObjectConversionBehavior) const
-    :digest: 8b969511cd6a3ddf04e38252a2942305
+    :digest: ea0a2bacf470443ac069da07610b27c1
 
 Returns the :sip:ref:`~PyQt6.QtCore.QVariant` value of this :sip:ref:`~PyQt6.QtQml.QJSValue`, if it can be converted to a :sip:ref:`~PyQt6.QtCore.QVariant`; otherwise returns an invalid :sip:ref:`~PyQt6.QtCore.QVariant`. Some JavaScript types and objects have native expressions in Qt. Those are converted to their native expressions. For example:
 

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 881c16de7e00a2d47ac1e5e881d58e70
+    :digest: aa080a8ab24bac6ef4f7e72cc141011a
 
 Indicates all possible error conditions found during the processing of the DNS lookup.

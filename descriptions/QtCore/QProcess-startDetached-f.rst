@@ -2,15 +2,13 @@
     :status: todo
     :pysig: 08c6ffc21d0a586000807b49fbade88c
     :realsig: (qint64*)
-    :digest: 1786188c86c6695e09ae2068823070a6
+    :digest: f0c420301c0e085860aabde9b1c34eee
 
 Starts the program set by :sip:ref:`~PyQt6.QtCore.QProcess.setProgram` with arguments set by :sip:ref:`~PyQt6.QtCore.QProcess.setArguments` in a new process, and detaches from it. Returns ``true`` on success; otherwise returns ``false``. If the calling process exits, the detached process will continue to run unaffected.
 
 **Unix:** The started process will run in its own session and act like a daemon.
 
 The process will be started in the directory set by :sip:ref:`~PyQt6.QtCore.QProcess.setWorkingDirectory`. If :sip:ref:`~PyQt6.QtCore.QProcess.workingDirectory` is empty, the working directory is inherited from the calling process.
-
-**Note:** On QNX, this may cause all application threads to temporarily freeze.
 
 If the function is successful then \*\ *pid* is set to the process identifier of the started process; otherwise, it's set to -1. Note that the child process may exit and the PID may become invalid without notice. Furthermore, after the child process exits, the same PID may be recycled and used by a completely different process. User code should be careful when using this variable, especially if one intends to forcibly terminate the process by operating system means.
 

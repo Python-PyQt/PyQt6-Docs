@@ -2,7 +2,7 @@
     :status: todo
     :pysig: ff39a9d51b85425010207dfd9c26154b
     :realsig: (QSqlDriver*,const QString&)
-    :digest: 1fc3fe2349a26a4de4d15557e7c7c302
+    :digest: b1d1819221423deaf97e8285a584b32a
 
 This overload is useful when you want to create a database connection with a :sip:ref:`~PyQt6.QtSql.QSqlDriver` you instantiated yourself. It might be your own database driver, or you might just need to instantiate one of the Qt drivers yourself. If you do this, it is recommended that you include the driver code in your application. For example, you can create a PostgreSQL connection with your own QPSQL driver like this:
 
@@ -20,23 +20,25 @@ Remember that you must link your application against the database client library
 
 The method described works for all the supplied drivers. The only difference will be in the driver constructor arguments. Here is a table of the drivers included with Qt, their source code files, and their constructor arguments:
 
-+---------+---------------+--------------------------------------------------+---------------------+
-| Driver  | Class name    | Constructor arguments                            | File to include     |
-+=========+===============+==================================================+=====================+
-| QPSQL   | QPSQLDriver   | PGconn \*connection                              | ``qsql_psql.cpp``   |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QMYSQL  | QMYSQLDriver  | MYSQL \*connection                               | ``qsql_mysql.cpp``  |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QOCI    | QOCIDriver    | OCIEnv \*environment, OCISvcCtx \*serviceContext | ``qsql_oci.cpp``    |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QODBC   | QODBCDriver   | SQLHANDLE environment, SQLHANDLE connection      | ``qsql_odbc.cpp``   |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QDB2    | QDB2          | SQLHANDLE environment, SQLHANDLE connection      | ``qsql_db2.cpp``    |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QSQLITE | QSQLiteDriver | sqlite \*connection                              | ``qsql_sqlite.cpp`` |
-+---------+---------------+--------------------------------------------------+---------------------+
-| QIBASE  | QIBaseDriver  | isc_db_handle connection                         | ``qsql_ibase.cpp``  |
-+---------+---------------+--------------------------------------------------+---------------------+
++---------+-----------------+--------------------------------------------------+---------------------+
+| Driver  | Class name      | Constructor arguments                            | File to include     |
++=========+=================+==================================================+=====================+
+| QPSQL   | QPSQLDriver     | PGconn \*connection                              | ``qsql_psql.cpp``   |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QMYSQL  | QMYSQLDriver    | MYSQL \*connection                               | ``qsql_mysql.cpp``  |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QOCI    | QOCIDriver      | OCIEnv \*environment, OCISvcCtx \*serviceContext | ``qsql_oci.cpp``    |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QODBC   | QODBCDriver     | SQLHANDLE environment, SQLHANDLE connection      | ``qsql_odbc.cpp``   |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QDB2    | QDB2            | SQLHANDLE environment, SQLHANDLE connection      | ``qsql_db2.cpp``    |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QSQLITE | QSQLiteDriver   | sqlite \*connection                              | ``qsql_sqlite.cpp`` |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QMIMER  | QMimerSQLDriver | MimerSession \*connection                        | ``qsql_mimer.cpp``  |
++---------+-----------------+--------------------------------------------------+---------------------+
+| QIBASE  | QIBaseDriver    | isc_db_handle connection                         | ``qsql_ibase.cpp``  |
++---------+-----------------+--------------------------------------------------+---------------------+
 
 **Warning:** Adding a database connection with the same connection name as an existing connection, causes the existing connection to be replaced by the new one.
 

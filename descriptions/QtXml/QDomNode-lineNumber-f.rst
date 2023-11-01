@@ -2,8 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: 5309d260119281b6d5cd9f119360f495
+    :digest: 8452676c57a2a5dbacd1bb63f6750452
 
-For nodes created by QDomDocument::setContent(), this function returns the line number in the XML document where the node was parsed. Otherwise, -1 is returned.
+For nodes created by :sip:ref:`~PyQt6.QtXml.QDomDocument.setContent`, this function returns the line number in the XML document where the node was parsed. Otherwise, -1 is returned.
 
 .. seealso:: :sip:ref:`~PyQt6.QtXml.QDomNode.columnNumber`, :sip:ref:`~PyQt6.QtXml.QDomDocument.setContent`.

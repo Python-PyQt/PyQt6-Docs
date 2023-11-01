@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: 8cbeddec6373220b57dc9fbf0d2b170f
 
-TODO
+The application has exited.

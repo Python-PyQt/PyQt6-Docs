@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: List or icon view onto a model
-    :digest: c5c805646d94765ff7f390a7d1ea2e1c
+    :digest: e9c806c12c48e0aa2b0f039d2f424174
 
 The :sip:ref:`~PyQt6.QtWidgets.QListView` class provides a list or icon view onto a model.
 
@@ -30,4 +30,4 @@ Improving Performance
 
 It is possible to give the view hints about the data it is handling in order to improve its performance when displaying large numbers of items. One approach that can be taken for views that are intended to display items with equal sizes is to set the :sip:ref:`~PyQt6.QtWidgets.QListView.uniformItemSizes` property to true.
 
-.. seealso:: `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, `Item Views Puzzle Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-puzzle-example.html>`_, :sip:ref:`~PyQt6.QtWidgets.QTreeView`, :sip:ref:`~PyQt6.QtWidgets.QTableView`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`.
+.. seealso:: `View Classes <https://doc.qt.io/qt-6/model-view-programming.html#view-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QTreeView`, :sip:ref:`~PyQt6.QtWidgets.QTableView`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`.

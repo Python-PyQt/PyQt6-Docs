@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scalable icons in different modes and states
-    :digest: ad79d7fe44d07e697739273a50c8b820
+    :digest: d39946f7d981a3029f94773fa210450b
 
 The :sip:ref:`~PyQt6.QtGui.QIcon` class provides scalable icons in different modes and states.
 
@@ -82,5 +82,3 @@ Your icon theme directory would then look something like this:
     │   └── actions
     │       └── appointment-new.png
     └── index.theme
-
-.. seealso:: `Icons Example <https://doc.qt.io/qt-6/qtwidgets-widgets-icons-example.html>`_.
