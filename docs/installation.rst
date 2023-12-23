@@ -3,8 +3,8 @@ Installing PyQt6
 
 Both the GPL and commercial versions of PyQt6 can be built from sdists or
 installed from binary wheels.  Although this section concentrates on PyQt6
-itself it applies equally to the add-on projects (i.e. PyQt6-3D and
-PyQt6-NetworkAuth).
+itself it applies equally to the add-on projects (e.g. PyQt6-3D,
+PyQt6-NetworkAuth etc.).
 
 
 Understanding the Correct Version to Install
@@ -102,12 +102,6 @@ installation required by PyQt6.  The PyQt6-sip project contains the
 To uninstall the GPL version, run::
 
     pip uninstall PyQt6
-
-.. note::
-    Qt's support for TLS/SSL will not work on Windows when installing wheels
-    with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
-    the different versions of OpenSSL that these versions require.  All other
-    version combinations should be fine.
 
 .. note::
     The Qt libraries in the Linux wheel of the PyQt6-Qt6 project require
