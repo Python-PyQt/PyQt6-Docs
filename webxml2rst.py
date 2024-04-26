@@ -197,13 +197,16 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'qFloatDistance': 'qtglobal',
             'qFormatLogMessage': 'qtglobal',
             'qFuzzyCompare': 'qtglobal',
+            'qFuzzyIsNull': 'qtnumeric',
             'qInf': 'qtglobal',
             'qInfo': 'qtglobal',
             'qInstallMessageHandler': 'qtglobal',
             'qIsFinite': 'qtglobal',
             'qIsInf': 'qtglobal',
             'qIsNaN': 'qtglobal',
+            'QOperatingSystemVersionBase': None,
             'qQNaN': 'qtglobal',
+            'qRegisterResourceData': None,
             'qRemovePostRoutine': 'qcoreapplication',
             'qRound': 'qtglobal',
             'qRound64': 'qtglobal',
@@ -213,8 +216,10 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'qSetRealNumberPrecision': 'qtextstream',
             'qSNaN': 'qtglobal',
             'qUncompress': 'qbytearray',
+            'qUnregisterResourceData': None,
             'qVersion': 'qtglobal',
             'qWarning': 'qtglobal',
+            'qYieldCpu': 'qatomicinteger',
             'bin': 'qt',
             'bom': 'qt',
             'center': 'qt',
@@ -261,6 +266,7 @@ WebXMLMetadata('qtdatavis3d',
         locations={
             'PYQT_DATAVISUALIZATION_VERSION': None,
             'PYQT_DATAVISUALIZATION_VERSION_STR': None,
+            'qDefaultSurfaceFormat': 'qabstract3dgraph',
         })
 WebXMLMetadata('qtdesigner',
         qdocconf='qttools/src/designer/src/designer/doc/qtdesigner.qdocconf',
@@ -309,7 +315,10 @@ WebXMLMetadata('qthelp',
 #WebXMLMetadata('qtlocation',
 #        qdocconf='qtlocation/src/location/doc/qtlocation.qdocconf')
 WebXMLMetadata('qtmultimedia',
-        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf')
+        qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf',
+        locations={
+            'QVideoFrame::PaintOptions': None,
+        })
 WebXMLMetadata('qtnetwork',
         qdocconf='qtbase/src/network/doc/qtnetwork.qdocconf',
         locations={
@@ -331,6 +340,7 @@ WebXMLMetadata('qtnetworkauth',
         })
 WebXMLMetadata('qtnfc', qdocconf='qtconnectivity/src/nfc/doc/qtnfc.qdocconf')
 WebXMLMetadata('qtopengl', qdocconf='qtbase/src/opengl/doc/qtopengl.qdocconf')
+WebXMLMetadata('qtpdf', qdocconf='qtwebengine/src/pdf/doc/qtpdf.qdocconf')
 WebXMLMetadata('qtpositioning',
         qdocconf='qtpositioning/src/positioning/doc/qtpositioning.qdocconf')
 WebXMLMetadata('qtprintsupport',
@@ -364,16 +374,35 @@ WebXMLMetadata('qtquick3d',
         qdocconf='qtquick3d/src/quick3d/doc/qtquick3d.qdocconf',
         locations={
             'QQuick3DGeometry::Attribute': 'qquick3dgeometry',
+            'QQuick3DGeometry::TargetAttribute': None,
         })
 WebXMLMetadata('qtremoteobjects',
-        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf')
+        qdocconf='qtremoteobjects/src/remoteobjects/doc/qtremoteobjects.qdocconf',
+        locations={
+            'QRemoteObjectSourceLocationInfo': None,
+        })
 WebXMLMetadata('qtsensors',
-        qdocconf='qtsensors/src/sensors/doc/qtsensors.qdocconf')
+        qdocconf='qtsensors/src/sensors/doc/qtsensors.qdocconf',
+        locations={
+            'QIRProximityFilter': None,
+            'QIRProximityReading': None,
+            'QIRProximitySensor': None,
+            'QLidFilter': None,
+            'QLidReading': None,
+            'QLidSensor': None,
+            'QTapFilter': None,
+            'QTapReading': None,
+            'QTapSensor': None,
+        })
 WebXMLMetadata('qtserialport',
         qdocconf='qtserialport/src/serialport/doc/qtserialport.qdocconf')
+WebXMLMetadata('qtspatialaudio',
+        qdocconf='qtmultimedia/src/spatialaudio/doc/qtspatialaudio.qdocconf')
 WebXMLMetadata('qtsql', qdocconf='qtbase/src/sql/doc/qtsql.qdocconf')
 WebXMLMetadata('qtsvg', qdocconf='qtsvg/src/svg/doc/qtsvg.qdocconf')
 WebXMLMetadata('qttest', qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf')
+WebXMLMetadata('qttexttospeech',
+        qdocconf='qtspeech/src/tts/doc/qttexttospeech.qdocconf')
 WebXMLMetadata('qtwebchannel',
         qdocconf='qtwebchannel/src/webchannel/doc/qtwebchannel.qdocconf')
 WebXMLMetadata('qtwebengine',
@@ -381,6 +410,11 @@ WebXMLMetadata('qtwebengine',
         locations={
             'PYQT_WEBENGINE_VERSION': None,
             'PYQT_WEBENGINE_VERSION_STR': None,
+            'qWebEngineChromiumSecurityPatchVersion': 'qtwebenginecoreglobal-h',
+            'qWebEngineChromiumVersion': 'qtwebenginecoreglobal-h',
+            'qWebEngineGetDomainAndRegistry': 'qtwebenginecoreglobal-h',
+            'qWebEngineProcessName': None,
+            'qWebEngineVersion': 'qtwebenginecoreglobal-h',
         })
 WebXMLMetadata('qtwebsockets',
         qdocconf='qtwebsockets/src/websockets/doc/qtwebsockets.qdocconf')
@@ -390,6 +424,7 @@ WebXMLMetadata('qtwidgets',
             'QWIDGETSIZE_MAX': 'qwidget',
             'qDrawBorderPixmap': 'qdrawutil-h',
             'qDrawPlainRect': 'qdrawutil-h',
+            'qDrawPlainRoundedRect': 'qdrawutil-h',
             'qDrawShadeLine': 'qdrawutil-h',
             'qDrawShadePanel': 'qdrawutil-h',
             'qDrawShadeRect': 'qdrawutil-h',
@@ -505,6 +540,8 @@ ModuleMetadata('QtNetworkAuth', webxml='qtnetworkauth')
 ModuleMetadata('QtNfc', webxml='qtnfc')
 ModuleMetadata('QtOpenGL', webxml='qtopengl')
 ModuleMetadata('QtOpenGLWidgets', webxml='qtopengl')
+ModuleMetadata('QtPdf', webxml='qtpdf')
+ModuleMetadata('QtPdfWidgets', webxml='qtpdf')
 ModuleMetadata('QtPositioning', webxml='qtpositioning')
 ModuleMetadata('QtPrintSupport', webxml='qtprintsupport')
 ModuleMetadata('QtQml', webxml='qtqml')
@@ -514,10 +551,12 @@ ModuleMetadata('QtQuickWidgets', webxml='qtquick')
 ModuleMetadata('QtRemoteObjects', webxml='qtremoteobjects')
 ModuleMetadata('QtSensors', webxml='qtsensors')
 ModuleMetadata('QtSerialPort', webxml='qtserialport')
+ModuleMetadata('QtSpatialAudio', webxml='qtspatialaudio')
 ModuleMetadata('QtSql', webxml='qtsql')
 ModuleMetadata('QtSvg', webxml='qtsvg')
 ModuleMetadata('QtSvgWidgets', webxml='qtsvg')
 ModuleMetadata('QtTest', webxml='qttest')
+ModuleMetadata('QtTextToSpeech', webxml='qttexttospeech')
 ModuleMetadata('QtWebChannel', webxml='qtwebchannel')
 ModuleMetadata('QtWebEngineCore', webxml='qtwebengine')
 ModuleMetadata('QtWebEngineQuick', webxml='qtwebengine')
