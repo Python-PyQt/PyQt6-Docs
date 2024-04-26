@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 3ca16aa35e7f9c70b95ac8e1a5c6d06c
     :realsig: () const
-    :digest: f5e8c2694ca67d067348bc986692720f
+    :digest: 00c38dcc41bc356baf3876bc550f79a3
 
-Returns ``true`` if this replica has been initialized with data from the `Source <https://doc.qt.io/qt-6/qtremoteobjects-source.html#source>`_ object. Returns ``false`` otherwise.
+Returns the current :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectReplica.State` of the replica.
 
 .. seealso:: :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectReplica.isInitialized`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 7159ef6bce3c73489865aa872b373f2a
 
-TODO
+Fiber glass insulation. Only reflects very low frequencies

@@ -2,11 +2,15 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 7b4cf76d2efb95f44e32c5aed75a2723
+    :digest: 21247839e5058b5228e33731f2b3794c
 
-Returns an absolute path including the file name.
+Returns the absolute full path to the file system entry this :sip:ref:`~PyQt6.QtCore.QFileInfo` refers to, including the entry's name.
 
-The absolute path name consists of the full path and the file name. On Unix this will always begin with the root, '/', directory. On Windows this will always begin 'D:/' where D is a drive letter, except for network shares that are not mapped to a drive letter, in which case the path will begin '//sharename/'. :sip:ref:`~PyQt6.QtCore.QFileInfo` will uppercase drive letters. Note that :sip:ref:`~PyQt6.QtCore.QDir` does not do this. The code snippet below shows this.
+On Unix, absolute paths begin with the directory separator ``'/'``. On Windows, absolute paths begin with a drive specification (for example, ``D:/``).
+
+On Windows, the paths of network shares that are not mapped to a drive letter begin with ``//sharename/``.
+
+:sip:ref:`~PyQt6.QtCore.QFileInfo` will uppercase drive letters. Note that :sip:ref:`~PyQt6.QtCore.QDir` does not do this. The code snippet below shows this.
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qfileinfo.py
 

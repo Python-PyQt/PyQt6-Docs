@@ -1,24 +1,12 @@
 .. sip:class-description::
     :status: todo
     :brief: Environment for instantiating QML components
-    :digest: 32446103b664bf235b30297296f10e6a
+    :digest: 638149a818465faed56b6f1ac640ffa7
 
 The :sip:ref:`~PyQt6.QtQml.QQmlEngine` class provides an environment for instantiating QML components.
 
-Each QML component is instantiated in a :sip:ref:`~PyQt6.QtQml.QQmlContext`. :sip:ref:`~PyQt6.QtQml.QQmlContext`'s are essential for passing data to QML components. In QML, contexts are arranged hierarchically and this hierarchy is managed by the :sip:ref:`~PyQt6.QtQml.QQmlEngine`.
+A :sip:ref:`~PyQt6.QtQml.QQmlEngine` is used to manage :sip:ref:`~PyQt6.QtQml.QQmlComponent` and objects created from them and execute their bindings and functions. :sip:ref:`~PyQt6.QtQml.QQmlEngine` also inherits from :sip:ref:`~PyQt6.QtQml.QJSEngine` which allows seamless integration between your QML components and JavaScript code.
 
-Prior to creating any QML components, an application must have created a :sip:ref:`~PyQt6.QtQml.QQmlEngine` to gain access to a QML context. The following example shows how to create a simple Text item.
+Each QML component is instantiated in a :sip:ref:`~PyQt6.QtQml.QQmlContext`. In QML, contexts are arranged hierarchically and this hierarchy is managed by the :sip:ref:`~PyQt6.QtQml.QQmlEngine`. By default, components are instantiated in the :sip:ref:`~PyQt6.QtQml.QQmlEngine.rootContext`.
 
-::
-
-    QQmlEngine engine;
-    QQmlComponent component(&engine);
-    component.setData("import QtQuick 2.0\nText { text: \"Hello world!\" }", QUrl());
-    QQuickItem *item = qobject_cast<QQuickItem *>(component.create());
-
-    //add item to view, etc
-    ...
-
-In this case, the Text item will be created in the engine's :sip:ref:`~PyQt6.QtQml.QQmlEngine.rootContext`.
-
-.. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlComponent`, :sip:ref:`~PyQt6.QtQml.QQmlContext`, `QML Global Object <https://doc.qt.io/qt-6/qtqml-javascript-qmlglobalobject.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlComponent`, :sip:ref:`~PyQt6.QtQml.QQmlContext`, `QML Global Object <https://doc.qt.io/qt-6/qtqml-javascript-qmlglobalobject.html>`_, :sip:ref:`~PyQt6.QtQml.QQmlApplicationEngine`.

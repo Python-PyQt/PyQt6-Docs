@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 91a36dfa64d1bc692750bce88a36572d
     :realsig: (const QStringList&)
-    :digest: e30be16c98b726f1c3d02e3445a9a9ab
+    :digest: 9f07e27ab5a6e789593ff7d7652ef4a2
 
 Sets the fallback search paths for icons to *paths*.
 
-The fallback search paths are consulted for standalone icon files if the current icon theme or fallback icon theme do not provide results for an icon lookup.
+The fallback search paths are consulted for standalone icon files if the :sip:ref:`~PyQt6.QtGui.QIcon.themeName` or :sip:ref:`~PyQt6.QtGui.QIcon.fallbackThemeName` do not provide results for an icon lookup.
 
 For example:
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 139
+    :digest: b9bc45feb7887d18e6b30ce6b7f7cba3
 
-TODO
+The icon used while data is successfully synchronizing across devices.

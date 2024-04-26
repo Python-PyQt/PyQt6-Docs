@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x004
+    :digest: a12f55a646f105fe52200ea57d3fa87f
 
-TODO
+The page is rendered grayscale.

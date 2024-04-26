@@ -1,5 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: fdade33a160f447c9f7f71d8b8b05aa3
+    :digest: 62c737facd63d36d157cacb2ce0c4585
+
+Use :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation` instead.
 
 The angle of the clockwise rotation that should be applied to a video frame before displaying.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: f89ac3535955a736f6c75593df2080f3
     :realsig: (Qt::WindowStates)
-    :digest: 1d6eda5f0264c3b818ab94d943de2526
+    :digest: 019926d78f877cf7b5ac90ce122132ed
 
 Sets the window state to *windowState*. The window state is a OR'ed combination of :sip:ref:`~PyQt6.QtCore.Qt.WindowState`: :sip:ref:`~PyQt6.QtCore.Qt.WindowState.WindowMinimized`, :sip:ref:`~PyQt6.QtCore.Qt.WindowState.WindowMaximized`, :sip:ref:`~PyQt6.QtCore.Qt.WindowState.WindowFullScreen`, and :sip:ref:`~PyQt6.QtCore.Qt.WindowState.WindowActive`.
 
@@ -11,7 +11,7 @@ If the window is not visible (i.e. :sip:ref:`~PyQt6.QtWidgets.QWidget.isVisible`
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_kernel_qwidget.py
     :lines: 54-54
 
-In order to restore and activate a minimized window (while preserving its maximized and/or full-screen state), use the following:
+To restore and activate a minimized window (while preserving its maximized and/or full-screen state), use the following:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_kernel_qwidget.py
     :lines: 59-59

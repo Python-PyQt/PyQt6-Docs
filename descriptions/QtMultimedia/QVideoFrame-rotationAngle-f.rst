@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 09ce2036cdb2302f88fcde8d8eff8fe7
     :realsig: () const
-    :digest: 1e06451b1095d9a72d29ae60c2edb01b
+    :digest: 4deabc1ab1adda3995c99cdb04220efc
+
+Use ``QVideoFrame::rotation`` instead.
 
 Returns the angle the frame should be rotated clockwise before displaying.
 

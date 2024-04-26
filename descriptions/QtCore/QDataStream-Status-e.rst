@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 4181e2475e6465b8c27b1351186e3f3f
+    :digest: e1a2548341c61c7b7a603fd324dfc778
 
 This enum describes the current status of the data stream.

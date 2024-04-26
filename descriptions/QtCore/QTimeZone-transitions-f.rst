@@ -2,11 +2,11 @@
     :status: todo
     :pysig: b4a4562e063482e0cc4123384b013e51
     :realsig: (const QDateTime&,const QDateTime&) const
-    :digest: 24480e771c402db00fd8508d75a7a237
+    :digest: 1a9b770e0339649cb012817d90925246
 
 Returns a list of all time zone transitions between the given datetimes.
 
-The given *fromDateTime* and *toDateTime* are inclusive.
+The given *fromDateTime* and *toDateTime* are inclusive. The ``atUtc`` member of each entry describes the moment of the transition, at which the offsets and abbreviation given by other members take effect.
 
 This method is only available when feature ``timezone`` is enabled.
 

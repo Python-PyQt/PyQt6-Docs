@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 67
+    :digest: 45bdf96642f5c7f722081a84e10a1d9d
 
-TODO
+The icon for the *skip forward* action of a media player.

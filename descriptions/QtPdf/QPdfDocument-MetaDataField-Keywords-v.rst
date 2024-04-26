@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: a90be10720dd46992c81444ee09cba41
 
-TODO
+Keywords associated with the document as QString.

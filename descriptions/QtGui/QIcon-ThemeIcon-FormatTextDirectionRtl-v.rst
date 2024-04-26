@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 34
+    :digest: 1fadbb9740752d8eb8870e4cf2f8829f
 
-TODO
+The icon for the *right-to-left formatting* action.

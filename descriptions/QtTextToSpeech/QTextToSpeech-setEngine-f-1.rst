@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 0439c82251ada20d5c58c91a1dd8b5c3
     :realsig: (const QString&, const QVariantMap&)
+    :digest: 694827b6d765d200a74c37495e4f75aa
 
-TODO
+Sets the engine used by this :sip:ref:`~PyQt6.QtTextToSpeech.QTextToSpeech` object to *engine*, passing *params* through to the engine constructor.
+
+Returns whether *engine* could be set successfully.
+
+Which key/value pairs in *params* are supported depends on the engine. See `the engine documentation <https://doc.qt.io/qt-6/qttexttospeech-engines.html>`_ for details. Unsupported entries will be ignored.
+
+.. seealso:: :sip:ref:`~PyQt6.QtTextToSpeech.QTextToSpeech.engine`.

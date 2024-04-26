@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: dd40c6880a457d6b4ad650860998c1d0
 
-TODO
+The text is drawn without any style applied.

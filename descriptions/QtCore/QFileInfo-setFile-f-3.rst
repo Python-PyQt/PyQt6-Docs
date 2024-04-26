@@ -2,11 +2,13 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
-    :digest: 2f7ca14da1baef3f29f3248d9020809c
+    :digest: f76c77f577790564c9f1777ae51ec9e9
 
-Sets the file that the :sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about to *file*.
+Sets the path of the file system entry that this :sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about to *path* that can be absolute or relative.
 
-The *file* can also include an absolute or relative file path. Absolute paths begin with the directory separator (e.g. "/" under Unix) or a drive specification (under Windows). Relative file names begin with a directory name or a file name and specify a path relative to the current directory.
+On Unix, absolute paths begin with the directory separator ``'/'``. On Windows, absolute paths begin with a drive specification (for example, ``D:/``).
+
+Relative paths begin with a directory name or a regular file name and specify a file system entry's path relative to the current working directory.
 
 Example:
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Event loop for Qt applications without UI
-    :digest: 65c82524d294d7fdb8daf3013e593ff7
+    :digest: b91d3b8555a1c4882dbec0f9b00b39ca
 
 The :sip:ref:`~PyQt6.QtCore.QCoreApplication` class provides an event loop for Qt applications without UI.
 
@@ -54,4 +54,4 @@ Locale Settings
 
 On Unix/Linux Qt is configured to use the system locale settings by default. This can cause a conflict when using POSIX functions, for instance, when converting between data types such as floats and strings, since the notation may differ between locales. To get around this problem, call the POSIX function ``setlocale(LC_NUMERIC,"C")`` right after initializing :sip:ref:`~PyQt6.QtWidgets.QApplication`, :sip:ref:`~PyQt6.QtGui.QGuiApplication` or :sip:ref:`~PyQt6.QtCore.QCoreApplication` to reset the locale that is used for number formatting to "C"-locale.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication`, :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher`, :sip:ref:`~PyQt6.QtCore.QEventLoop`, `Semaphores Example <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Wait Conditions Example <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QGuiApplication`, :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher`, :sip:ref:`~PyQt6.QtCore.QEventLoop`, `Producer and Consumer using Semaphores <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Producer and Consumer using Wait Conditions <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_.

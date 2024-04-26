@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Instances drive the progress of QQmlIncubators
-    :digest: 3893f4837c71b010ae6f3af7dd408564
+    :digest: b10d03d46cca8ded1c5fb423faecf7d4
 
 :sip:ref:`~PyQt6.QtQml.QQmlIncubationController` instances drive the progress of QQmlIncubators.
 
@@ -27,4 +27,6 @@ For example, this is an example of a incubation controller that will incubate fo
         }
     };
 
-Although the previous example would work, it is not optimal. Real world incubation controllers should try and maximize the amount of idle time they consume - rather than a static amount like 5 milliseconds - while not disturbing the application.
+Although the example works, it is heavily simplified. Real world incubation controllers try and maximize the amount of idle time they consume while not disturbing the application. Using a static amount of 5 milliseconds like above may both leave idle time on the table in some frames and disturb the application in others.
+
+:sip:ref:`~PyQt6.QtQuick.QQuickWindow`, :sip:ref:`~PyQt6.QtQuick.QQuickView`, and :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` all pre-create an incubation controller that spaces out incubation over multiple frames using a more intelligent algorithm. You rarely have to write your own.

@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
     :realname: QtVideo::Rotation::None
+    :digest: b075e8388b17baf1e53d87824cd674a5
 
-TODO
+No rotation required, the frame has correct orientation

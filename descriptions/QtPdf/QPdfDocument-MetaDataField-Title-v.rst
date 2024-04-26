@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 0a136370749feb58e703e8ee20aecf41
 
-TODO
+The document's title as QString.

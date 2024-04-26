@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for reading directly from resources
-    :digest: 1664dd118ab09051c52d0a723d5afd40
+    :digest: d1a033fe017112e5e180b1ad67de7025
 
 The :sip:ref:`~PyQt6.QtCore.QResource` class provides an interface for reading directly from resources.
 
@@ -23,5 +23,14 @@ This can often be useful when loading a large set of application icons that may 
 This approach can prove to be a significant performance gain as only a single file will be loaded, and pieces of data will be given out via the path requested in :sip:ref:`~PyQt6.QtCore.QResource.setFileName`.
 
 The :sip:ref:`~PyQt6.QtCore.QResource.unregisterResource` function removes a reference to a particular file. If there are :sip:ref:`~PyQt6.QtCore.QResource` objects that currently reference resources related to the unregistered file, they will continue to be valid but the resource file itself will be removed from the resource roots, and thus no further :sip:ref:`~PyQt6.QtCore.QResource` can be created pointing into this resource data. The resource itself will be unmapped from memory when the last :sip:ref:`~PyQt6.QtCore.QResource` that points to it is destroyed.
+
+.. _qresource-corruption-and-security:
+
+Corruption and Security
+.......................
+
+The :sip:ref:`~PyQt6.QtCore.QResource` class performs some checks on the file passed to determine whether it is supported by the current version of Qt. Those tests are only to check the file header does not request features (such as Zstandard decompression) that have not been compiled in or that the file is not of a future version of Qt. They do not confirm the validity of the entire file.
+
+:sip:ref:`~PyQt6.QtCore.QResource` should not be used on files whose provenance cannot be trusted. Applications should be designed to attempt to load only resource files whose provenance is at least as trustworthy as that of the application itself or its plugins.
 
 .. seealso:: `The Qt Resource System <https://doc.qt.io/qt-6/resources.html>`_, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QFileInfo`.

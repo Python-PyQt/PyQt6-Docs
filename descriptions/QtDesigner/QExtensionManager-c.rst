@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Extension management facilities for Qt Designer
-    :digest: 89b12b1f6db88c1575a665ec1e72cd73
+    :digest: 2b12cc5cab16648eb036674153fc247a
 
-The :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` class provides extension management facilities for Qt Designer.
+The :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` class provides extension management facilities for *Qt Designer*.
 
 In *Qt Designer* the extensions are not created until they are required. For that reason, when implementing an extension, you must also create a :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, i.e a class that is able to make an instance of your extension, and register it using *Qt Designer*'s extension manager.
 
@@ -18,6 +18,6 @@ Then, when an extension is required, *Qt Designer*'s extension manager will run 
 
 There are four available types of extensions in *Qt Designer*: :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` , :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension`, :sip:ref:`~PyQt6.QtDesigner.QDesignerPropertySheetExtension` and :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension`. *Qt Designer*'s behavior is the same whether the requested extension is associated with a container, a member sheet, a property sheet or a task menu.
 
-For a complete example using the :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` class, see the `Task Menu Extension example <https://doc.qt.io/qt-6/qtdesigner-taskmenuextension-example.html>`_. The example shows how to create a custom widget plugin for Qt Designer, and how to to use the :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension` class to add custom items to *Qt Designer*'s task menu.
+For a complete example using the :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` class, see the `Task Menu Extension example <https://doc.qt.io/qt-6/qtdesigner-taskmenuextension-example.html>`_. The example shows how to create a custom widget plugin for Qt Designer, and how to use the :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension` class to add custom items to *Qt Designer*'s task menu.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionManager`.

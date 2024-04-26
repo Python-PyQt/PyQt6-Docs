@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 132
+    :digest: dd00c758fc70bb4abf54805e3d699029
 
-TODO
+The icon used to indicate that the device is not connected to the network.

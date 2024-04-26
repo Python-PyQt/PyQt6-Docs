@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x00000002
-    :digest: 58a832177c7e8a8086a08ce2c833768e
+    :digest: e54f67675f601d5d01345ec12e1a2ee8
 
-Don't resolve symlinks in the file dialog. By default symlinks are resolved.
+Don't resolve symlinks. By default, symlinks are resolved.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 5
+    :digest: c25b3a450c9731aafe1b23901d0be8ef
 
-TODO
+Painted concrete wall

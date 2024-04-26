@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 74eb31cc47165059a84021d33564ce97
 
-TODO
+The given backend configuration is inconsistent, e.g. due to wrong voice name or parameters.

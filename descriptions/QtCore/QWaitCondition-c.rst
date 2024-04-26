@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Condition variable for synchronizing threads
-    :digest: b7486f119d8f97addb76228ccc3fc838
+    :digest: 13bdaf0f23e7ccce65308d3ce8d970dc
 
 The :sip:ref:`~PyQt6.QtCore.QWaitCondition` class provides a condition variable for synchronizing threads.
 
@@ -31,6 +31,6 @@ Here's the code for the fourth thread:
 
 The mutex is necessary because the results of two threads attempting to change the value of the same variable simultaneously are unpredictable.
 
-Wait conditions are a powerful thread synchronization primitive. The `Wait Conditions Example <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_ example shows how to use :sip:ref:`~PyQt6.QtCore.QWaitCondition` as an alternative to :sip:ref:`~PyQt6.QtCore.QSemaphore` for controlling access to a circular buffer shared by a producer thread and a consumer thread.
+Wait conditions are a powerful thread synchronization primitive. The `Producer and Consumer using Wait Conditions <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_ example shows how to use :sip:ref:`~PyQt6.QtCore.QWaitCondition` as an alternative to :sip:ref:`~PyQt6.QtCore.QSemaphore` for controlling access to a circular buffer shared by a producer thread and a consumer thread.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QMutex`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QThread`, `Wait Conditions Example <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QMutex`, :sip:ref:`~PyQt6.QtCore.QSemaphore`, :sip:ref:`~PyQt6.QtCore.QThread`, `Producer and Consumer using Wait Conditions <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_.

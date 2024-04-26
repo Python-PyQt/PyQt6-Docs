@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 715c681ecbf52fcea1ccff114aa908ba
 
-TODO
+The icon for the *print* action.

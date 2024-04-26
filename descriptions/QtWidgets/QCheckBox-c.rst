@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Checkbox with a text label
-    :digest: 027627b11c0a6ccfe2b111ade2cfd349
+    :digest: 424846405ca9bb79c01a04af2e501d9f
 
 The :sip:ref:`~PyQt6.QtWidgets.QCheckBox` widget provides a checkbox with a text label.
 
@@ -15,7 +15,7 @@ The image below further illustrates the differences between exclusive and non-ex
 | |image-checkboxes-exclusive-png| | |image-checkboxes-non-exclusive-png| |
 +----------------------------------+--------------------------------------+
 
-Whenever a checkbox is checked or cleared, it emits the signal :sip:ref:`~PyQt6.QtWidgets.QCheckBox.stateChanged`. Connect to this signal if you want to trigger an action each time the checkbox changes state. You can use isChecked() to query whether or not a checkbox is checked.
+Whenever a checkbox is checked or cleared, it emits the signal :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkStateChanged`. Connect to this signal if you want to trigger an action each time the checkbox changes state. You can use isChecked() to query whether or not a checkbox is checked.
 
 In addition to the usual checked and unchecked states, :sip:ref:`~PyQt6.QtWidgets.QCheckBox` optionally provides a third state to indicate "no change". This is useful whenever you need to give the user the option of neither checking nor unchecking a checkbox. If you need this third state, enable it with :sip:ref:`~PyQt6.QtWidgets.QCheckBox.setTristate`, and use :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState` to query the current toggle state.
 
@@ -26,7 +26,7 @@ Just like :sip:ref:`~PyQt6.QtWidgets.QPushButton`, a checkbox displays text, and
 
 In this example, the shortcut is *Alt+A*. See the QShortcut documentation for details. To display an actual ampersand, use '&&'.
 
-Important inherited functions: text(), setText(), text(), pixmap(), setPixmap(), accel(), setAccel(), isToggleButton(), setDown(), isDown(), isOn(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, autoRepeat(), isExclusiveToggle(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), toggled(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, and :sip:ref:`~PyQt6.QtWidgets.QCheckBox.stateChanged`.
+Important inherited functions: text(), setText(), text(), pixmap(), setPixmap(), accel(), setAccel(), isToggleButton(), setDown(), isDown(), isOn(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, autoRepeat(), isExclusiveToggle(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), toggled(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, and :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkStateChanged`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QAbstractButton`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`.
 

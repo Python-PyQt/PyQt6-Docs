@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 011ac42fcf2b044c683c7ec2cab7b1d1
     :realsig: (QPdfDocument*)
+    :digest: 41c523018e050e27ea037df972798e43
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtPdf.QPdfLinkModel.document`.

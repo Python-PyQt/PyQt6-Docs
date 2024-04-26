@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 36
+    :digest: ef197b92f358459877936d636989bb63
 
-TODO
+The icon for the *italic text formatting* action.

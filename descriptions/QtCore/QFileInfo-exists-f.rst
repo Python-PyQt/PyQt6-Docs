@@ -2,8 +2,8 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: dfef0dd40dc9fb7cac5148b2f0e345ac
+    :digest: 637e0977893f867310d690889378ec3f
 
-Returns ``true`` if the file exists; otherwise returns ``false``.
+Returns ``true`` if the file system entry this :sip:ref:`~PyQt6.QtCore.QFileInfo` refers to exists; otherwise returns ``false``.
 
-**Note:** If the file is a symlink that points to a non-existing file, false is returned.
+**Note:** If the entry is a symlink that points to a non-existing target, this method returns ``false``.

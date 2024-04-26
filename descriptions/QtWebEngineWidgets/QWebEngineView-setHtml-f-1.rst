@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 3e8614e0affc4b6a6b7c16883bc643a6
     :realsig: (const QString&, const QUrl&)
-    :digest: aaebadb9b1bb9fc9733a069c4d806fd1
+    :digest: 7c2b71064d32e623963b4b2a01e2235c
 
 Sets the content of the web view to the specified *html* content.
 
-External objects, such as stylesheets or images referenced in the HTML document, are located relative to *baseUrl*. For external objects to be loaded, ``baseUrl`` cannot be empty. For example, if *html* is retrieved from ``http://www.example.com/documents/overview.html``, which is the base URL, then an image referenced with the relative URL, ``diagram.png``, should be at ``http://www.example.com/documents/diagram.png``.
+*baseUrl* is optional and used to resolve relative URLs in the document, such as referenced images or stylesheets. For example, if *html* is retrieved from ``http://www.example.com/documents/overview.html``, which is the base URL, then an image referenced with the relative URL, ``diagram.png``, should be at ``http://www.example.com/documents/diagram.png``.
 
 The HTML document is loaded immediately, whereas external objects are loaded asynchronously.
 

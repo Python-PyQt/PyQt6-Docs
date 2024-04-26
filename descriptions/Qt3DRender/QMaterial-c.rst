@@ -2,7 +2,7 @@
     :status: todo
     :brief: Provides an abstract class that should be the base of all material component classes in a scene
     :realname: Qt3DRender::QMaterial
-    :digest: b5f4017d26cbb401a661fa64e53112cd
+    :digest: 343bef0f78fa308478eee9b94afcf9c1
 
 Provides an abstract class that should be the base of all material component classes in a scene.
 
@@ -46,7 +46,7 @@ A QParameter defined on a :sip:ref:`~PyQt6.Qt3DRender.QMaterial` overrides param
 
     // Set different parameters on the materials
     const QString parameterName = QStringLiteral("color");
-    material1->addParameter(new QParameter(parameterName, QColor::fromRgbF(0.0f, 1.0f, 0.0f, 1.0f);
-    material2->addParameter(new QParameter(parameterName, QColor::fromRgbF(1.0f, 1.0f, 1.0f, 1.0f);
+    material1->addParameter(new QParameter(parameterName, QColor::fromRgbF(0.0f, 1.0f, 0.0f, 1.0f)));
+    material2->addParameter(new QParameter(parameterName, QColor::fromRgbF(1.0f, 1.0f, 1.0f, 1.0f)));
 
 .. seealso:: QEffect, QTechnique, QParameter.

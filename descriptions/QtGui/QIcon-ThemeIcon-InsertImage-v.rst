@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 46
+    :digest: 467dea86c6aa537ef6eb6388c450f443
 
-TODO
+The icon for the *insert image* action of an application.

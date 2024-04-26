@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 121
+    :digest: 029c54907025615738104cb381f5b9af
 
-TODO
+The icon used for a folder while an acceptable object is being dragged onto it.

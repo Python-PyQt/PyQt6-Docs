@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 46a7bdf6ff0ff3a292573662f7d8a6a2
     :realsig: (const QUrl&)
+    :digest: f8843baa835de7fe31700c2403bc0dc0
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtSpatialAudio.QSpatialSound.source`.

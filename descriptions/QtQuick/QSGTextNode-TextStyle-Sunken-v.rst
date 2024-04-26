@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 351e034a3953bfa058aae34c6a322cdf
 
-TODO
+The text is drawn sunken.

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0df498f3bfcabd5b6c382bfdbd8beb41
+    :digest: bd93851ccc5ddbd5d156e27cc5382d80
 
 These flags can be used in the ``flags`` field of :sip:ref:`~PyQt6.QtCore.QProcess.UnixProcessParameters`.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 82
+    :digest: af71d335a9149cbee4bcb90865f2d3b9
 
-TODO
+The icon for the *best fit* action.

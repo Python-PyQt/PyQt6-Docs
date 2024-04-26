@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 21
-    :digest: 9d8f86a5ba377d7efd0c5642bed670f3
+    :digest: 7ab5ab20e82001817f84f357212ed169
 
-The widget parent has changed.
+The object parent has changed. Only sent to some object types, such as :sip:ref:`~PyQt6.QtWidgets.QWidget`.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (quint64)
-    :digest: 6b109715c4edaa3719e23ff77f5a1ff2
+    :digest: f731f133f605e442cf936032d17948f8
 
 This is an overloaded function.
 
@@ -15,6 +15,6 @@ The following example appends all strings found in the QMap passed as input:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_serialization_qcborstream.py
     :lines: 245-253
 
-**Size limitations**: The parameter to this function is quint64, which would seem to allow up to 2\ :sup:`64`-1 pairs in the map. However, both :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` and :sip:ref:`~PyQt6.QtCore.QCborStreamReader` are currently limited to 2\ :sup:`31`-1 items on 32-bit systems and 2\ :sup:`63`-1 items on 64-bit ones. Also note that QCborMap is currently limited to 2\ :sup:`26` elements in any platform.
+**Size limitations**: The parameter to this function is quint64, which would seem to allow up to 2\ :sup:`64`-1 pairs in the map. However, both :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` and :sip:ref:`~PyQt6.QtCore.QCborStreamReader` are currently limited to 2\ :sup:`31`-1 items on 32-bit systems and 2\ :sup:`63`-1 items on 64-bit ones. Also note that QCborMap is currently limited to 2\ :sup:`26` elements on 32-bit platforms and 2\ :sup:`58` on 64-bit ones.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.startMap`, :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endMap`, :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.startArray`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.isMap`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.isLengthKnown`.

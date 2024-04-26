@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 86
+    :digest: 7991557c686fefb3dd0f3659f1942d52
 
-TODO
+The icon for the microphone audio input device.

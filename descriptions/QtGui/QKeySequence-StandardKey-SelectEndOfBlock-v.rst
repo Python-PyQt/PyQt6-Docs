@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 55
-    :digest: e59591aee7d6f320b6f0bd56c6d44253
+    :digest: a8c012560892a7ee1256a0eb5a75faf5
 
-Extend selection to the end of a text block. This shortcut is only used on macOS.
+Extend selection to the end of a text block. This shortcut is only used on Apple platforms.

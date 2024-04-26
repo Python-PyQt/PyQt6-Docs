@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for extension managers in Qt Designer
-    :digest: decfb0bbe76200dee705aeec103cc364
+    :digest: 605661a0903c6b9bf7bae35b76a359fb
 
-The :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionManager` class provides an interface for extension managers in Qt Designer.
+The :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionManager` class provides an interface for extension managers in *Qt Designer*.
 
 :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionManager` is not intended to be instantiated directly; use the :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` instead.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 6059255e4a66ca386ff0491572f7bea1
 
-TODO
+Stop speech when the current word is finished.

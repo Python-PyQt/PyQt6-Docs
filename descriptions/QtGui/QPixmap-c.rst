@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Off-screen image representation that can be used as a paint device
-    :digest: 2da57dd22bd91b812c739a4d9e8f06db
+    :digest: 5802e35d21d3486a28e6749265cd82d6
 
 The :sip:ref:`~PyQt6.QtGui.QPixmap` class is an off-screen image representation that can be used as a paint device.
 
@@ -80,7 +80,7 @@ Pixmap Conversion
 
 A :sip:ref:`~PyQt6.QtGui.QPixmap` object can be converted into a :sip:ref:`~PyQt6.QtGui.QImage` using the :sip:ref:`~PyQt6.QtGui.QPixmap.toImage` function. Likewise, a :sip:ref:`~PyQt6.QtGui.QImage` can be converted into a :sip:ref:`~PyQt6.QtGui.QPixmap` using the :sip:ref:`~PyQt6.QtGui.QPixmap.fromImage`. If this is too expensive an operation, you can use :sip:ref:`~PyQt6.QtGui.QBitmap.fromImage` instead.
 
-To convert a :sip:ref:`~PyQt6.QtGui.QPixmap` to and from HICON you can use the QtWinExtras functions QtWin::toHICON() and QtWin::fromHICON() respectively.
+To convert a :sip:ref:`~PyQt6.QtGui.QPixmap` to and from HICON you can use the :sip:ref:`~PyQt6.QtGui.QImage.toHICON` and :sip:ref:`~PyQt6.QtGui.QImage.fromHICON` functions respectively (after converting the :sip:ref:`~PyQt6.QtGui.QPixmap` to a :sip:ref:`~PyQt6.QtGui.QImage`, as explained above).
 
 .. _qpixmap-pixmap-transformations:
 

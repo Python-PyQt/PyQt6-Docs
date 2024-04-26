@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 24
-    :digest: 41b1c48550dda87e68548f0ca2043b58
+    :digest: f8671963c14b2f012f327b7cefbd0fb5
 
-Media thumbnail image
+Media thumbnail image (if embedded in metadata)

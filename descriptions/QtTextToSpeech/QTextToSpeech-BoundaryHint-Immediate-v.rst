@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: aa1fd754850f34225ed065a97ca2ee24
 
-TODO
+The engine should stop playback immediately.

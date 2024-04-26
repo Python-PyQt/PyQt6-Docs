@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for extension factories in Qt Designer
-    :digest: b2262f8bb7669ce98120848cfee4a638
+    :digest: c23836d56355d42d749703b76a3d572c
 
-The :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionFactory` class provides an interface for extension factories in Qt Designer.
+The :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionFactory` class provides an interface for extension factories in *Qt Designer*.
 
 :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionFactory` is not intended to be instantiated directly; use the :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory` instead.
 

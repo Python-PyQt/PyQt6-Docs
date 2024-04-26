@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Way to read and write JSON documents
-    :digest: 79d84d2dd7628bf3d1244830d7c4ade9
+    :digest: 6495023d7cafd9af1e194355f1ffbed3
 
 The :sip:ref:`~PyQt6.QtCore.QJsonDocument` class provides a way to read and write JSON documents.
 
@@ -13,4 +13,4 @@ Validity of the parsed document can be queried with !\ :sip:ref:`~PyQt6.QtCore.Q
 
 A document can be queried as to whether it contains an array or an object using :sip:ref:`~PyQt6.QtCore.QJsonDocument.isArray` and :sip:ref:`~PyQt6.QtCore.QJsonDocument.isObject`. The array or object contained in the document can be retrieved using :sip:ref:`~PyQt6.QtCore.QJsonDocument.array` or :sip:ref:`~PyQt6.QtCore.QJsonDocument.object` and then read or manipulated.
 
-.. seealso:: `JSON Support in Qt <https://doc.qt.io/qt-6/json.html>`_, `JSON Save Game Example <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.
+.. seealso:: `JSON Support in Qt <https://doc.qt.io/qt-6/json.html>`_, `Saving and Loading a Game <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.

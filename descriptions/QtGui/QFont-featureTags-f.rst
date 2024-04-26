@@ -2,10 +2,10 @@
     :status: todo
     :pysig: 547b203239a35d1de005c5b84090af5b
     :realsig: () const
-    :digest: 86743406426cc918d861019bb22cd252
+    :digest: 6a7dea48843795136f5a395fd0e52d20
 
 Returns a list of tags for all font features currently set on this :sip:ref:`~PyQt6.QtGui.QFont`.
 
-See setFeature(quint32, quint32) for more details on font features.
+See :sip:ref:`~PyQt6.QtGui.QFont.setFeature` for more details on font features.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.setFeature`, :sip:ref:`~PyQt6.QtGui.QFont.unsetFeature`, :sip:ref:`~PyQt6.QtGui.QFont.isFeatureSet`, :sip:ref:`~PyQt6.QtGui.QFont.clearFeatures`, :sip:ref:`~PyQt6.QtGui.QFont.tagToString`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.Tag`, :sip:ref:`~PyQt6.QtGui.QFont.setFeature`, :sip:ref:`~PyQt6.QtGui.QFont.unsetFeature`, :sip:ref:`~PyQt6.QtGui.QFont.isFeatureSet`, :sip:ref:`~PyQt6.QtGui.QFont.clearFeatures`.

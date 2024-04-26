@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 18
+    :digest: 52a3b91e7ae189580ae6ba815747b187
 
-TODO
+The icon for the *copy* action.

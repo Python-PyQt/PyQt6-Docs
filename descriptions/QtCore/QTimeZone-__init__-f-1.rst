@@ -2,12 +2,12 @@
     :status: todo
     :pysig: a5704e7d57089c440a7d83c72d987b9e
     :realsig: (const QByteArray&)
-    :digest: 3442a3b8da42d9a0f4dd8c7688179da8
+    :digest: a47c793d1b859ce87c3b881d74f5ce28
 
 Creates a time zone instance with the requested IANA ID *ianaId*.
 
-The ID must be one of the available system IDs or a valid UTC-with-offset ID, otherwise an invalid time zone will be returned.
+The ID must be one of the available system IDs or a valid UTC-with-offset ID, otherwise an invalid time zone will be returned. For UTC-with-offset IDs, when they are not in fact IANA IDs, the ``id()`` of the resulting instance may differ from the ID passed to the constructor.
 
 This constructor is only available when feature ``timezone`` is enabled.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimeZone.availableTimeZoneIds`, :sip:ref:`~PyQt6.QtCore.QTimeZone.id`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract model that can be subclassed to create table models
-    :digest: f5c7983f0bc68502f7249b4b8f1e3d5c
+    :digest: 6de94bfc37b63b4d1258752e2843a7dc
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` class provides an abstract model that can be subclassed to create table models.
 
@@ -31,5 +31,12 @@ Models that provide interfaces to resizable data structures can provide implemen
 * A removeColumns() implementation must call beginRemoveColumns() *before* the columns are removed from the data structure, and it must call endRemoveColumns() *immediately afterwards*.
 
 **Note:** Some general guidelines for subclassing models are available in the `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_.
+
+.. _qabstracttablemodel-thread-safety:
+
+Thread safety
+-------------
+
+Being a subclass of QObject, :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` is not thread-safe. Any :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` model-related API should only be called from the thread the model object lives in. If the :sip:ref:`~PyQt6.QtCore.QAbstractTableModel` is connected with a view, that means the GUI thread, as that is where the view lives, and it will call into the model from the GUI thread. Using a background thread to populate or modify the contents of a model is possible, but requires care, as the background thread cannot call any model-related API directly. Instead, you should queue the updates and apply them in the main thread. This can be done with queued connections.
 
 .. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`, :sip:ref:`~PyQt6.QtCore.QAbstractListModel`.

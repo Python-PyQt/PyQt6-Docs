@@ -1,6 +1,7 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
     :realname: QTextToSpeech::Capability::None
+    :digest: b2fbb66f3729f72cdb3e1ba9607cb669
 
-TODO
+The engine implements none of the capabilities.

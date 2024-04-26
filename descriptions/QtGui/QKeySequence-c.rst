@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a key sequence as used by shortcuts
-    :digest: f95ffefdb1669de1816a33008019e25c
+    :digest: 07f94e99df1ea3bb6924c1c8f0f2a660
 
 The :sip:ref:`~PyQt6.QtGui.QKeySequence` class encapsulates a key sequence as used by shortcuts.
 
@@ -24,21 +24,21 @@ Note that, for letters, the case used in the specification string does not matte
 
 It is preferable to use standard shortcuts where possible. When creating key sequences for non-standard shortcuts, you should use human-readable strings in preference to hard-coded integer values.
 
-:sip:ref:`~PyQt6.QtGui.QKeySequence` objects can be cast to a QString to obtain a human-readable translated version of the sequence. Similarly, the :sip:ref:`~PyQt6.QtGui.QKeySequence.toString` function produces human-readable strings for use in menus. On macOS, the appropriate symbols are used to describe keyboard shortcuts using special keys on the Macintosh keyboard.
+:sip:ref:`~PyQt6.QtGui.QKeySequence` objects can be cast to a QString to obtain a human-readable translated version of the sequence. Similarly, the :sip:ref:`~PyQt6.QtGui.QKeySequence.toString` function produces human-readable strings for use in menus. On Apple platforms, the appropriate symbols are used to describe keyboard shortcuts using special keys on the Macintosh keyboard.
 
 An alternative way to specify hard-coded key codes is to use the Unicode code point of the character; for example, 'A' gives the same key sequence as :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_A`.
 
-**Note:** On macOS, references to "Ctrl", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.CTRL`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Control` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.ControlModifier` correspond to the Command keys on the Macintosh keyboard, and references to "Meta", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.META`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Meta` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.MetaModifier` correspond to the Control keys. Developers on macOS can use the same shortcut descriptions across all platforms, and their applications will automatically work as expected on macOS.
+**Note:** On Apple platforms, references to "Ctrl", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.CTRL`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Control` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.ControlModifier` correspond to the Command keys on the Macintosh keyboard, and references to "Meta", :sip:ref:`~PyQt6.QtCore.Qt.Modifier.META`, :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_Meta` and :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier.MetaModifier` correspond to the Control keys. In effect, developers can use the same shortcut descriptions across all platforms, and their applications will automatically work as expected on Apple platforms.
 
 .. _qkeysequence-standard-shortcuts:
 
 Standard Shortcuts
 ------------------
 
-:sip:ref:`~PyQt6.QtGui.QKeySequence` defines many :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey` to reduce the amount of effort required when setting up actions in a typical application. The table below shows some common key sequences that are often used for these standard shortcuts by applications on four widely-used platforms. Note that on macOS, the Ctrl value corresponds to the Command keys on the Macintosh keyboard, and the Meta value corresponds to the Control keys.
+:sip:ref:`~PyQt6.QtGui.QKeySequence` defines many :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey` to reduce the amount of effort required when setting up actions in a typical application. The table below shows some common key sequences that are often used for these standard shortcuts by applications on four widely-used platforms. Note that on Apple platforms, the Ctrl value corresponds to the Command keys on the Macintosh keyboard, and the Meta value corresponds to the Control keys.
 
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
-| :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.StandardKey`              | Windows                                   | macOS                                              | KDE Plasma                        | GNOME                  |
+| :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.StandardKey`              | Windows                                   | Apple platforms                                    | KDE Plasma                        | GNOME                  |
 +===========================================================================+===========================================+====================================================+===================================+========================+
 | :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.HelpContents`             | F1                                        | Ctrl+?                                             | F1                                | F1                     |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
@@ -52,11 +52,11 @@ Standard Shortcuts
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | Quit                                                                      |                                           | Ctrl+Q                                             | Ctrl+Q                            | Ctrl+Q                 |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
-| :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.SaveAs`                   |                                           | Ctrl+Shift+S                                       |                                   | Ctrl+Shift+S           |
+| :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.SaveAs`                   | Ctrl+Shift+S                              | Ctrl+Shift+S                                       | Ctrl+Shift+S                      | Ctrl+Shift+S           |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | New                                                                       | Ctrl+N                                    | Ctrl+N                                             | Ctrl+N                            | Ctrl+N                 |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
-| Delete                                                                    | Del                                       | Del, Meta+D                                        | Del, Ctrl+D                       | Del, Ctrl+D            |
+| Delete                                                                    | Del                                       | Forward Delete, Meta+D                             | Del, Ctrl+D                       | Del, Ctrl+D            |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | Cut                                                                       | Ctrl+X, Shift+Del                         | Ctrl+X, Meta+K                                     | Ctrl+X, F20, Shift+Del            | Ctrl+X, F20, Shift+Del |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
@@ -176,7 +176,7 @@ Standard Shortcuts
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey.InsertLineSeparator`      | Shift+Enter                               | Meta+Enter, Meta+O                                 | Shift+Enter                       | Shift+Enter            |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
-| Backspace                                                                 | (none)                                    | Meta+H                                             | (none)                            | (none)                 |
+| Backspace                                                                 | (none)                                    | Delete, Meta+H                                     | (none)                            | (none)                 |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | Cancel                                                                    | Escape                                    | Escape, Ctrl+.                                     | Escape                            | Escape                 |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+

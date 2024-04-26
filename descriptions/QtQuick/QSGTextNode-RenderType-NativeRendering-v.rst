@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: dadd11c64d55f9efde883b64e5f605e5
 
-TODO
+Text is rendered using a platform-specific technique.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 110
+    :digest: f07b4e1e114bc6e71e3e10eb63f60454
 
-TODO
+The icon used to indicate high audio volume.

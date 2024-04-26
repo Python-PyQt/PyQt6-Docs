@@ -2,12 +2,14 @@
     :status: todo
     :pysig: 3b7c385391acbd00dbe2f1aafdce8d81
     :realsig: (const QDir&,const QString&)
-    :digest: 0dc11989096cacda4d72c9b222187fd2
+    :digest: 12562c7ae54de27331a7b922413c3af7
 
 This is an overloaded function.
 
-Sets the file that the :sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about to *file* in directory *dir*.
+Sets the path of the file system entry that this :sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about to *path* in directory *dir*.
 
-If *file* includes a relative path, the :sip:ref:`~PyQt6.QtCore.QFileInfo` will also have a relative path.
+If *dir* has a relative path, the :sip:ref:`~PyQt6.QtCore.QFileInfo` will also have a relative path.
+
+If *path* is absolute, then the directory specified by *dir* will be disregarded.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo.isRelative`.

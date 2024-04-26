@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 51
+    :digest: 3fe65acfce988c0df3b7483e3f252431
 
-TODO
+The icon for the *forward* action.

@@ -1,4 +1,5 @@
 .. sip:enum-description::
     :status: todo
+    :digest: d91990269ce055258994f1c84f68fb0d
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtPdf.QPdfLink`.

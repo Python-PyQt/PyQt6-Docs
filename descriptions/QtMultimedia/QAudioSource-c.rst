@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for receiving audio data from an audio input device
-    :digest: 67e057a80502f5f13c85e6b63a95f881
+    :digest: b399b35d4c58589df730902930791161
 
 The :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` class provides an interface for receiving audio data from an audio input device.
 
@@ -24,11 +24,11 @@ This will start recording if the format specified is supported by the input devi
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
     :lines: 101-106
 
-At any point in time, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` will be in one of four states: active, suspended, stopped, or idle. These states are specified by the :sip:ref:`~PyQt6.QtMultimedia.QAudio.State` enum. You can request a state change directly through :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.suspend`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.resume`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stop`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.reset`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.start`. The current state is reported by :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.state`. :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will also signal you when the state changes (\ :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stateChanged`).
+At any point in time, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` will be in one of four states: active, suspended, stopped, or idle. These states are specified by the QtAudio::State enum. You can request a state change directly through :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.suspend`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.resume`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stop`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.reset`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.start`. The current state is reported by :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.state`. :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will also signal you when the state changes (\ :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stateChanged`).
 
 :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` provides several ways of measuring the time that has passed since the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.start` of the recording. The ``processedUSecs()`` function returns the length of the stream in microseconds written, i.e., it leaves out the times the audio input was suspended or idle. The :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.elapsedUSecs` function returns the time elapsed since :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.start` was called regardless of which states the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` has been in.
 
-If an error should occur, you can fetch its reason with :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.error`. The possible error reasons are described by the :sip:ref:`~PyQt6.QtMultimedia.QAudio.Error` enum. The :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` will enter the :sip:ref:`~PyQt6.QtMultimedia.QAudio.State.StoppedState` when an error is encountered. Connect to the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stateChanged` signal to handle the error:
+If an error should occur, you can fetch its reason with :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.error`. The possible error reasons are described by the QtAudio::Error enum. The :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` will enter the StoppedState when an error is encountered. Connect to the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stateChanged` signal to handle the error:
 
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
     :lines: 110-129

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 87
+    :digest: f3f30a3253298bdacb1bd18d326d7e5a
 
-TODO
+The icon for the system battery device.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Mapping between a section of a data model to widgets
-    :digest: ee366c7d7963276b51679d9ed041fe4c
+    :digest: 23c69d57a97525623f83dafb43511e38
 
 The :sip:ref:`~PyQt6.QtWidgets.QDataWidgetMapper` class provides mapping between a section of a data model to widgets.
 
@@ -9,7 +9,7 @@ The :sip:ref:`~PyQt6.QtWidgets.QDataWidgetMapper` class provides mapping between
 
 Every time the current index changes, each widget is updated with data from the model via the property specified when its mapping was made. If the user edits the contents of a widget, the changes are read using the same property and written back to the model. By default, each widget's user property is used to transfer data between the model and the widget. Since Qt 4.3, an additional :sip:ref:`~PyQt6.QtWidgets.QDataWidgetMapper.addMapping` function enables a named property to be used instead of the default user property.
 
-It is possible to set an item delegate to support custom widgets. By default, a :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` is used to synchronize the model with the widgets.
+It is possible to set an item delegate to support custom widgets. By default, a :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` is used to synchronize the model with the widgets.
 
 Let us assume that we have an item model named ``model`` with the following contents:
 

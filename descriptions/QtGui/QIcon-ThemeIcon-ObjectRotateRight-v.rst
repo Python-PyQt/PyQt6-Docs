@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 69
+    :digest: b5191ed218a5dc585c3765342529fa20
 
-TODO
+The icon for the *rotate right* action performed on an object.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 107
+    :digest: dc67dc3abe06d97609153d883512e1f9
 
-TODO
+The icon for the monitor that video gets displayed on.

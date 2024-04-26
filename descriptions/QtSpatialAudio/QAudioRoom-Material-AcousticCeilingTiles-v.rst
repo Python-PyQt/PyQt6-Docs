@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 00867802df354f9dbc832e21db673f28
 
-TODO
+Acoustic tiles that suppress most reflections and reverb.

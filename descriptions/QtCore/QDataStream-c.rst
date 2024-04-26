@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Serialization of binary data to a QIODevice
-    :digest: 859692c1bade725577090369a066e0e0
+    :digest: fc73c87e4967f2141b63b775c106427a
 
 The :sip:ref:`~PyQt6.QtCore.QDataStream` class provides serialization of binary data to a :sip:ref:`~PyQt6.QtCore.QIODevice`.
 
@@ -103,5 +103,16 @@ When a data stream operates on an asynchronous device, the chunks of data can ar
     :lines: 134-140
 
 If no full packet is received, this code restores the stream to the initial position, after which you need to wait for more data to arrive.
+
+.. _qdatastream-corruption-and-security:
+
+Corruption and Security
+-----------------------
+
+:sip:ref:`~PyQt6.QtCore.QDataStream` is not resilient against corrupted data inputs and should therefore not be used for security-sensitive situations, even when using transactions. Transactions will help determine if a valid input can currently be decoded with the data currently available on an asynchronous device, but will assume that the data that is available is correctly formed.
+
+Additionally, many :sip:ref:`~PyQt6.QtCore.QDataStream` demarshalling operators will allocate memory based on information found in the stream. Those operators perform no verification on whether the requested amount of memory is reasonable or if it is compatible with the amount of data available in the stream (example: demarshalling a :sip:ref:`~PyQt6.QtCore.QByteArray` or QString may see the request for allocation of several gigabytes of data).
+
+:sip:ref:`~PyQt6.QtCore.QDataStream` should not be used on content whose provenance cannot be trusted. Applications should be designed to attempt to decode only streams whose provenance is at least as trustworthy as that of the application itself or its plugins.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QTextStream`, :sip:ref:`~PyQt6.QtCore.QVariant`.

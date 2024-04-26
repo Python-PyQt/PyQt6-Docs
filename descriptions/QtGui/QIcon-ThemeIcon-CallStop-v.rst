@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: d54b1c747881bf9ddb1490c3ec435e71
 
-TODO
+The icon for stopping a current call.

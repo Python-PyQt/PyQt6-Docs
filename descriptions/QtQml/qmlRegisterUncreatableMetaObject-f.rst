@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 18f8857ba1fc5cd935788582a9501adf
     :realsig: (const QMetaObject&,const char*,int,int,const char*,const QString&)
-    :digest: cfba071e7dc8d3e417caecd6af5fe061
+    :digest: 3bb1113777dfd03f5594fafdea1f29e5
 
 This function registers the *staticMetaObject* and its extension in the QML system with the name *qmlName* in the library imported from *uri* having version number composed from *versionMajor* and *versionMinor*.
 
@@ -22,7 +22,7 @@ For example:
           Key1,
           Key2,
       };
-      Q_ENUM(MyEnum)
+      Q_ENUM_NS(MyEnum)
     }
 
     //...

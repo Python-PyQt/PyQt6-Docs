@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The abstract interface for item model classes
-    :digest: 20198ea0f5437ad94d864e4c8629bec0
+    :digest: 7084eed9ca01fee452fac9ecfbddc635
 
 The :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` class provides the abstract interface for item model classes.
 
@@ -65,5 +65,12 @@ Models that provide interfaces to resizable data structures can provide implemen
 The *private* signals that these functions emit give attached components the chance to take action before any data becomes unavailable. The encapsulation of the insert and remove operations with these begin and end functions also enables the model to manage :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex` correctly. **If you want selections to be handled properly, you must ensure that you call these functions.** If you insert or remove an item with children, you do not need to call these functions for the child items. In other words, the parent item will take care of its child items.
 
 To create models that populate incrementally, you can reimplement :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.fetchMore` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.canFetchMore`. If the reimplementation of :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.fetchMore` adds rows to the model, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.beginInsertRows` and :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.endInsertRows` must be called.
+
+.. _qabstractitemmodel-thread-safety:
+
+Thread safety
+-------------
+
+Being a subclass of QObject, :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` is not thread-safe. Any :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` model-related API should only be called from the thread the model object lives in. If the :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` is connected with a view, that means the GUI thread, as that is where the view lives, and it will call into the model from the GUI thread. Using a background thread to populate or modify the contents of a model is possible, but requires care, as the background thread cannot call any model-related API directly. Instead, you should queue the updates and apply them in the main thread. This can be done with queued connections.
 
 .. seealso:: `Model Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-classes>`_, `Model Subclassing Reference <https://doc.qt.io/qt-6/model-view-programming.html#model-subclassing-reference>`_, :sip:ref:`~PyQt6.QtCore.QModelIndex`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView`, `Using drag and drop with item views <https://doc.qt.io/qt-6/model-view-programming.html#using-drag-and-drop-with-item-views>`_, `Simple Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-simpletreemodel-example.html>`_, `Editable Tree Model Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-editabletreemodel-example.html>`_, `Fetch More Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-fetchmore-example.html>`_.

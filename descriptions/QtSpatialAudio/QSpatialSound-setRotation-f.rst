@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 893c335706200abc185454b9c518acce
     :realsig: (const QQuaternion&)
+    :digest: cb7bc8001c02cb0f39523a6c53984141
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtSpatialAudio.QSpatialSound.rotation`.

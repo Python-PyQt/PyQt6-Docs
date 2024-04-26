@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all user interface objects
-    :digest: b002fa392701ac755c7ac23c2ef24e44
+    :digest: 038264283993fa03df5c525cd6890349
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidget` class is the base class of all user interface objects.
 
@@ -13,16 +13,16 @@ Every widget's constructor accepts one or two standard arguments:
 
 #. ``QWidget \*parent = nullptr`` is the parent of the new widget. If it is ``nullptr`` (the default), the new widget will be a window. If not, it will be a child of *parent*, and be constrained by *parent*'s geometry (unless you specify :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.Window` as window flag).
 
-#. ``Qt::WindowFlags f = { }`` (where available) sets the window flags; the default is suitable for almost all widgets, but to get, for example, a window without a window system frame, you must use special flags.
+#. ``Qt::WindowFlags f = { }`` (where available) sets the window flags; the default is suitable for most widgets, but to get, for example, a window without a window system frame, you must use special flags.
 
-:sip:ref:`~PyQt6.QtWidgets.QWidget` has many member functions, but some of them have little direct functionality; for example, :sip:ref:`~PyQt6.QtWidgets.QWidget` has a font property, but never uses this itself. There are many subclasses which provide real functionality, such as :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`, and :sip:ref:`~PyQt6.QtWidgets.QTabWidget`.
+:sip:ref:`~PyQt6.QtWidgets.QWidget` has many member functions, but some of them have little direct functionality; for example, :sip:ref:`~PyQt6.QtWidgets.QWidget` has a font property, but never uses this itself. There are many subclasses that provide real functionality, such as :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QListWidget`, and :sip:ref:`~PyQt6.QtWidgets.QTabWidget`.
 
 .. _qwidget-top-level-and-child-widgets:
 
 Top-Level and Child Widgets
 ---------------------------
 
-A widget without a parent widget is always an independent window (top-level widget). For these widgets, :sip:ref:`~PyQt6.QtWidgets.QWidget.setWindowTitle` and :sip:ref:`~PyQt6.QtWidgets.QWidget.setWindowIcon` set the title bar and icon respectively.
+A widget without a parent widget is always an independent window (top-level widget). For these widgets, :sip:ref:`~PyQt6.QtWidgets.QWidget.setWindowTitle` and :sip:ref:`~PyQt6.QtWidgets.QWidget.setWindowIcon` set the title bar and icon, respectively.
 
 Non-window widgets are child widgets, displayed within their parent widgets. Most widgets in Qt are mainly useful as child widgets. For example, it is possible to display a button as a top-level window, but most people prefer to put their buttons inside other widgets, such as :sip:ref:`~PyQt6.QtWidgets.QDialog`.
 
@@ -30,14 +30,14 @@ Non-window widgets are child widgets, displayed within their parent widgets. Mos
 
 The diagram above shows a :sip:ref:`~PyQt6.QtWidgets.QGroupBox` widget being used to hold various child widgets in a layout provided by :sip:ref:`~PyQt6.QtWidgets.QGridLayout`. The :sip:ref:`~PyQt6.QtWidgets.QLabel` child widgets have been outlined to indicate their full sizes.
 
-If you want to use a :sip:ref:`~PyQt6.QtWidgets.QWidget` to hold child widgets you will usually want to add a layout to the parent :sip:ref:`~PyQt6.QtWidgets.QWidget`. See `Layout Management <https://doc.qt.io/qt-6/layout.html>`_ for more information.
+If you want to use a :sip:ref:`~PyQt6.QtWidgets.QWidget` to hold child widgets, you will usually want to add a layout to the parent :sip:ref:`~PyQt6.QtWidgets.QWidget`. See `Layout Management <https://doc.qt.io/qt-6/layout.html>`_ for more information.
 
 .. _qwidget-composite-widgets:
 
 Composite Widgets
 -----------------
 
-When a widget is used as a container to group a number of child widgets, it is known as a composite widget. These can be created by constructing a widget with the required visual properties - a :sip:ref:`~PyQt6.QtWidgets.QFrame`, for example - and adding child widgets to it, usually managed by a layout. The above diagram shows such a composite widget that was created using Qt Designer.
+When a widget is used as a container to group a number of child widgets, it is known as a composite widget. These can be created by constructing a widget with the required visual properties - a :sip:ref:`~PyQt6.QtWidgets.QFrame`, for example - and adding child widgets to it, usually managed by a layout.
 
 Composite widgets can also be created by subclassing a standard widget, such as :sip:ref:`~PyQt6.QtWidgets.QWidget` or :sip:ref:`~PyQt6.QtWidgets.QFrame`, and adding the necessary layout and child widgets in the constructor of the subclass. Many of the `examples provided with Qt <https://doc.qt.io/qt-6/examples-widgets.html>`_ use this approach, and it is also covered in the Qt `Widgets Tutorial <https://doc.qt.io/qt-6/widgets-tutorial.html>`_.
 
@@ -48,7 +48,7 @@ Custom Widgets and Painting
 
 Since :sip:ref:`~PyQt6.QtWidgets.QWidget` is a subclass of :sip:ref:`~PyQt6.QtGui.QPaintDevice`, subclasses can be used to display custom content that is composed using a series of painting operations with an instance of the :sip:ref:`~PyQt6.QtGui.QPainter` class. This approach contrasts with the canvas-style approach used by the `Graphics View Framework <https://doc.qt.io/qt-6/graphicsview.html>`_ where items are added to a scene by the application and are rendered by the framework itself.
 
-Each widget performs all painting operations from within its :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` function. This is called whenever the widget needs to be redrawn, either as a result of some external change or when requested by the application.
+Each widget performs all painting operations from within its :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` function. This is called whenever the widget needs to be redrawn, either because of some external change or when requested by the application.
 
 The `Analog Clock example <https://doc.qt.io/qt-6/qtwidgets-widgets-analogclock-example.html>`_ shows how a simple widget can handle paint events.
 
@@ -59,7 +59,7 @@ Size Hints and Size Policies
 
 When implementing a new widget, it is almost always useful to reimplement :sip:ref:`~PyQt6.QtWidgets.QWidget.sizeHint` to provide a reasonable default size for the widget and to set the correct size policy with :sip:ref:`~PyQt6.QtWidgets.QWidget.setSizePolicy`.
 
-By default, composite widgets which do not provide a size hint will be sized according to the space requirements of their child widgets.
+By default, composite widgets that do not provide a size hint will be sized according to the space requirements of their child widgets.
 
 The size policy lets you supply good default behavior for the layout management system, so that other widgets can contain and manage yours easily. The default size policy indicates that the size hint represents the preferred size of the widget, and this is often good enough for many widgets.
 
@@ -72,7 +72,7 @@ Events
 
 Widgets respond to events that are typically caused by user actions. Qt delivers events to widgets by calling specific event handler functions with instances of :sip:ref:`~PyQt6.QtCore.QEvent` subclasses containing information about each event.
 
-If your widget only contains child widgets, you probably do not need to implement any event handlers. If you want to detect a mouse click in a child widget call the child's :sip:ref:`~PyQt6.QtWidgets.QWidget.underMouse` function inside the widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.mousePressEvent`.
+If your widget only contains child widgets, you probably don't need to implement any event handlers. If you want to detect a mouse click in a child widget, call the child's :sip:ref:`~PyQt6.QtWidgets.QWidget.underMouse` function inside the widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.mousePressEvent`.
 
 The `Scribble example <https://doc.qt.io/qt-6/qtwidgets-widgets-scribble-example.html>`_ implements a wider set of events to handle mouse movement, button presses, and window resizing.
 
@@ -106,7 +106,7 @@ You may be required to also reimplement some of the less common event handlers:
 
 * :sip:ref:`~PyQt6.QtWidgets.QWidget.enterEvent` is called when the mouse enters the widget's screen space. (This excludes screen space owned by any of the widget's children.)
 
-* :sip:ref:`~PyQt6.QtWidgets.QWidget.leaveEvent` is called when the mouse leaves the widget's screen space. If the mouse enters a child widget it will not cause a :sip:ref:`~PyQt6.QtWidgets.QWidget.leaveEvent`.
+* :sip:ref:`~PyQt6.QtWidgets.QWidget.leaveEvent` is called when the mouse leaves the widget's screen space. If the mouse enters a child widget, it will not cause a :sip:ref:`~PyQt6.QtWidgets.QWidget.leaveEvent`.
 
 * :sip:ref:`~PyQt6.QtWidgets.QWidget.moveEvent` is called when the widget has been moved relative to its parent.
 
@@ -136,7 +136,7 @@ Groups of Functions and Properties
 +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Mode                        | visible, :sip:ref:`~PyQt6.QtWidgets.QWidget.isVisibleTo`, enabled, :sip:ref:`~PyQt6.QtWidgets.QWidget.isEnabledTo`, modal, :sip:ref:`~PyQt6.QtWidgets.QWidget.isWindow`, mouseTracking, :sip:ref:`~PyQt6.QtWidgets.QWidget.updatesEnabled`, :sip:ref:`~PyQt6.QtWidgets.QWidget.visibleRegion`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Look and feel               | :sip:ref:`~PyQt6.QtWidgets.QWidget.style`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setStyle`, `styleSheet <https://doc.qt.io/qt-6/stylesheet.html>`_, :sip:ref:`~PyQt6.QtWidgets.QWidget.cursor`, `font <https://doc.qt.io/qt-6/stylesheet-reference.html#font>`_, :sip:ref:`~PyQt6.QtWidgets.QWidget.palette`, :sip:ref:`~PyQt6.QtWidgets.QWidget.backgroundRole`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setBackgroundRole`, :sip:ref:`~PyQt6.QtWidgets.QWidget.fontInfo`, :sip:ref:`~PyQt6.QtWidgets.QWidget.fontMetrics`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Look and feel               | :sip:ref:`~PyQt6.QtWidgets.QWidget.style`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setStyle`, `styleSheet <https://doc.qt.io/qt-6/stylesheet.html>`_, :sip:ref:`~PyQt6.QtWidgets.QWidget.cursor`, :sip:ref:`~PyQt6.QtWidgets.QWidget.font`, :sip:ref:`~PyQt6.QtWidgets.QWidget.palette`, :sip:ref:`~PyQt6.QtWidgets.QWidget.backgroundRole`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setBackgroundRole`, :sip:ref:`~PyQt6.QtWidgets.QWidget.fontInfo`, :sip:ref:`~PyQt6.QtWidgets.QWidget.fontMetrics`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Keyboard focus functions    | focus, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusPolicy`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setFocus`, :sip:ref:`~PyQt6.QtWidgets.QWidget.clearFocus`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setTabOrder`, :sip:ref:`~PyQt6.QtWidgets.QWidget.setFocusProxy`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusNextChild`, :sip:ref:`~PyQt6.QtWidgets.QWidget.focusPreviousChild`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -165,27 +165,27 @@ The use of widget style sheets is described in more detail in the `Qt Style Shee
 Transparency and Double Buffering
 ---------------------------------
 
-Since Qt 4.0, :sip:ref:`~PyQt6.QtWidgets.QWidget` automatically double-buffers its painting, so there is no need to write double-buffering code in :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` to avoid flicker.
+:sip:ref:`~PyQt6.QtWidgets.QWidget` automatically double-buffers its painting, so there is no need to write double-buffering code in :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent` to avoid flicker.
 
-Since Qt 4.1, the contents of parent widgets are propagated by default to each of their children as long as :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_PaintOnScreen` is not set. Custom widgets can be written to take advantage of this feature by updating irregular regions (to create non-rectangular child widgets), or painting with colors that have less than full alpha component. The following diagram shows how attributes and properties of a custom widget can be fine-tuned to achieve different effects.
+The contents of parent widgets are propagated by default to each of their children as long as :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_PaintOnScreen` is not set. Custom widgets can be written to take advantage of this feature by updating irregular regions (to create non-rectangular child widgets), or painting with colors that have less than full alpha component. The following diagram shows how attributes and properties of a custom widget can be fine-tuned to achieve different effects.
 
 .. image:: ../../../images/propagation-custom.png
 
 In the above diagram, a semi-transparent rectangular child widget with an area removed is constructed and added to a parent widget (a :sip:ref:`~PyQt6.QtWidgets.QLabel` showing a pixmap). Then, different properties and widget attributes are set to achieve different effects:
 
-* The left widget has no additional properties or widget attributes set. This default state suits most custom widgets using transparency, are irregularly-shaped, or do not paint over their entire area with an opaque brush.
+* The left widget has no additional properties or widget attributes set. This default state suits most custom widgets that have transparency, are irregularly-shaped, or do not paint over their entire area with an opaque brush.
 
 * The center widget has the :sip:ref:`~PyQt6.QtWidgets.QWidget.autoFillBackground` property set. This property is used with custom widgets that rely on the widget to supply a default background, and do not paint over their entire area with an opaque brush.
 
-* The right widget has the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent` widget attribute set. This indicates that the widget will paint over its entire area with opaque colors. The widget's area will initially be *uninitialized*, represented in the diagram with a red diagonal grid pattern that shines through the overpainted area. The Qt::WA_OpaquePaintArea attribute is useful for widgets that need to paint their own specialized contents quickly and do not need a default filled background.
+* The right widget has the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent` widget attribute set. This indicates that the widget will paint over its entire area with opaque colors. The widget's area will initially be *uninitialized*, represented in the diagram with a red diagonal grid pattern that shines through the overpainted area.
 
 To rapidly update custom widgets with simple background colors, such as real-time plotting or graphing widgets, it is better to define a suitable background color (using :sip:ref:`~PyQt6.QtWidgets.QWidget.setBackgroundRole` with the :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.Window` role), set the :sip:ref:`~PyQt6.QtWidgets.QWidget.autoFillBackground` property, and only implement the necessary drawing functionality in the widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.paintEvent`.
 
-To rapidly update custom widgets that constantly paint over their entire areas with opaque content, e.g., video streaming widgets, it is better to set the widget's :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent`, avoiding any unnecessary overhead associated with repainting the widget's background.
+To rapidly update custom widgets that constantly paint over their entire areas with opaque content, for example, video streaming widgets, it is better to set the widget's :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent`, avoiding any unnecessary overhead associated with repainting the widget's background.
 
 If a widget has both the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent` widget attribute *and* the :sip:ref:`~PyQt6.QtWidgets.QWidget.autoFillBackground` property set, the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_OpaquePaintEvent` attribute takes precedence. Depending on your requirements, you should choose either one of them.
 
-Since Qt 4.1, the contents of parent widgets are also propagated to standard Qt widgets. This can lead to some unexpected results if the parent widget is decorated in a non-standard way, as shown in the diagram below.
+The contents of parent widgets are also propagated to standard Qt widgets. This can lead to some unexpected results if the parent widget is decorated in a non-standard way, as shown in the diagram below.
 
 .. image:: ../../../images/propagation-standard.png
 
@@ -196,7 +196,7 @@ The scope for customizing the painting behavior of standard Qt widgets, without 
 Creating Translucent Windows
 ----------------------------
 
-Since Qt 4.5, it has been possible to create windows with translucent regions on window systems that support compositing.
+You can create windows with translucent regions on window systems that support compositing.
 
 To enable this feature in a top-level widget, set its :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_TranslucentBackground` attribute with :sip:ref:`~PyQt6.QtWidgets.QWidget.setAttribute` and ensure that its background is painted with non-opaque colors in the regions you want to be partially transparent.
 
@@ -213,15 +213,15 @@ Platform notes:
 Native Widgets vs Alien Widgets
 -------------------------------
 
-Introduced in Qt 4.4, alien widgets are widgets unknown to the windowing system. They do not have a native window handle associated with them. This feature significantly speeds up widget painting, resizing, and removes flicker.
+Alien widgets are widgets unknown to the windowing system. They do not have a native window handle associated with them. This feature significantly speeds up widget painting, resizing, and removes flicker.
 
-Should you require the old behavior with native windows, you can choose one of the following options:
+Should you require the old behavior with native windows, choose one of the following options:
 
 #. Use the ``QT_USE_NATIVE_WINDOWS=1`` in your environment.
 
 #. Set the :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_NativeWindows` attribute on your application. All widgets will be native widgets.
 
-#. Set the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_NativeWindow` attribute on widgets: The widget itself and all of its ancestors will become native (unless :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_DontCreateNativeAncestors` is set).
+#. Set the :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_NativeWindow` attribute on widgets: The widget itself and all its ancestors will become native (unless :sip:ref:`~PyQt6.QtCore.Qt.WidgetAttribute.WA_DontCreateNativeAncestors` is set).
 
 #. Call :sip:ref:`~PyQt6.QtWidgets.QWidget.winId` to enforce a native window (this implies 3).
 

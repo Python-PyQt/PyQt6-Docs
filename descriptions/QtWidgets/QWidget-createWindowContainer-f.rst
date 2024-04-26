@@ -2,9 +2,9 @@
     :status: todo
     :pysig: ca565a792f2a51acca29a3e01ba420ae
     :realsig: (QWindow*,QWidget*,Qt::WindowFlags)
-    :digest: 9a8a61d6a31daa62a3e3b5f75c2b7d61
+    :digest: 8d40504095b5941dd94f9ed718b041ae
 
-Creates a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ that makes it possible to embed *window* into a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_-based application.
+Creates a :sip:ref:`~PyQt6.QtWidgets.QWidget` that makes it possible to embed *window* into a :sip:ref:`~PyQt6.QtWidgets.QWidget`-based application.
 
 The window container is created as a child of *parent* and with window flags *flags*.
 
@@ -22,4 +22,6 @@ The window container has a number of known limitations:
 
 * Focus Handling; It is possible to let the window container instance have any focus policy and it will delegate focus to the window via a call to :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate`. However, returning to the normal focus chain from the :sip:ref:`~PyQt6.QtGui.QWindow` instance will be up to the :sip:ref:`~PyQt6.QtGui.QWindow` instance implementation itself. For instance, when entering a Qt Quick based window with tab focus, it is quite likely that further tab presses will only cycle inside the QML application. Also, whether :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate` actually gives the window focus, is platform dependent.
 
-* Using many window container instances in a `QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_-based application can greatly hurt the overall performance of the application.
+* Using many window container instances in a :sip:ref:`~PyQt6.QtWidgets.QWidget`-based application can greatly hurt the overall performance of the application.
+
+* Since 6.7, if *window* belongs to a widget (that is, *window* was received from calling :sip:ref:`~PyQt6.QtWidgets.QWidget.windowHandle`), no container will be created. Instead, this function will return the widget itself, after being reparented to parent. Since no container will be created, *flags* will be ignored. In other words, if *window* belongs to a widget, consider just reparenting that widget to *parent* instead of using this function.

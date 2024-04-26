@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 56
+    :digest: d3e9712335eff4968cbcb0592fdb0dc2
 
-TODO
+The icon for the *reply to all* action.

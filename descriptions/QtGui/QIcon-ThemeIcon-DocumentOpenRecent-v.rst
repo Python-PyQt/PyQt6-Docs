@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 8
+    :digest: dfd101a135bb9cf811fb0d0af7c983d5
 
-TODO
+The icon for the action to open a document that was recently opened.

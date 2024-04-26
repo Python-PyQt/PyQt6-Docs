@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows drawing of custom text objects in QTextDocuments
-    :digest: 8532a3b0164b3e4dbf80a17f7d6a3274
+    :digest: 479fca2b0a03712fe420e6e9f42e39a8
 
 The :sip:ref:`~PyQt6.QtGui.QTextObjectInterface` class allows drawing of custom text objects in :sip:ref:`~PyQt6.QtGui.QTextDocument`\ s.
 
@@ -30,4 +30,4 @@ The data of a text object is usually stored in the :sip:ref:`~PyQt6.QtGui.QTextC
 
 **Warning:** Copy and Paste operations ignore custom text objects.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCharFormat`, :sip:ref:`~PyQt6.QtGui.QTextLayout`, Text Object Example.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QTextCharFormat`, :sip:ref:`~PyQt6.QtGui.QTextLayout`.

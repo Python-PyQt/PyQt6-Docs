@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 44cb93a1bf1313a87019eecff2a33310
 
-TODO
+Text is being spoken.

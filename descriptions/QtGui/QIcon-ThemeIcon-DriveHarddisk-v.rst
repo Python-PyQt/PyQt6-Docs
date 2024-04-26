@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 92
+    :digest: aea0370863a3097117dc19238981e69a
 
-TODO
+The icon for hard disk drives.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 22
+    :digest: 80a5bb214a884eaf85c8d4f160046fd6
 
-TODO
+Wooden panel

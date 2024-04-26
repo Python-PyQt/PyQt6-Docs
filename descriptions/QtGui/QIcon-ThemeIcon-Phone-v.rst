@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 104
+    :digest: 8bca2ef1e000ccfcdb7043181592be6b
 
-TODO
+The icon for phone devices.

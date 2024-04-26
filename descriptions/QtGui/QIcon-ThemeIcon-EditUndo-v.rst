@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 25
+    :digest: 5dcdd404523d60cf42480e48b2e7a3dd
 
-TODO
+The icon for the *undo* action.

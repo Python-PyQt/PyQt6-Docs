@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 30
+    :digest: 993b0b7fd91404ecd74b08c6b84042f3
 
-TODO
+The icon for the *fill justification formatting* action.

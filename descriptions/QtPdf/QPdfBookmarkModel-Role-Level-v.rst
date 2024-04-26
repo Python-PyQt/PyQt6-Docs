@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 257
+    :digest: 01af0cd5cb3f2acbeba86c52dbc7b884
 
-TODO
+The level of indentation.

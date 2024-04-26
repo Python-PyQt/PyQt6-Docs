@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 115
+    :digest: 59544fc2cfb34ed92bedafc299075b4a
 
-TODO
+The icon used when the battery is below 20%.

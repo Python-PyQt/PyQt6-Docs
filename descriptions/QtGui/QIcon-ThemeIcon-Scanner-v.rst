@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 106
+    :digest: 1c45a5d2f038b8acd7ee7ac409acbc97
 
-TODO
+The icon for a scanner device.

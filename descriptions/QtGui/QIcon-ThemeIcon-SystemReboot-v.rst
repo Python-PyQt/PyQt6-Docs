@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 74
+    :digest: db50c3ee17fba18863a41df4ab015ce8
 
-TODO
+The icon for the *reboot* action.

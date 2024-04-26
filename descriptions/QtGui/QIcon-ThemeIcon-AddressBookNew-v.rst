@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 9926bc48747763cf6901d1d93f6711f4
 
-TODO
+The icon for the action to create a new address book.

@@ -2,14 +2,14 @@
     :status: todo
     :pysig: 39c14466654b036e839285a0d8fb6b9c
     :realsig: (const QString&, const QStringList&)
-    :digest: e9d355f094ed3c835deb462140517219
+    :digest: 445c8a2a90b9a8b4af496e935f6e338c
 
-Finds the executable named *executableName* in the specified *paths*, or the system paths if paths is empty.
+Finds the executable named *executableName* in the specified *paths*, or the system paths if *paths* is empty.
 
-On most operating systems the system path is determined by the ``PATH`` environment variable. The directories where to search for the executable can be set in the paths argument. To search in both your own paths and the system paths, call findExecutable twice, once with paths set and once with paths empty. Symlinks are not resolved in order to preserve behavior for the case of executables whose behavior depends on the name they are invoked with .
+On most operating systems the system path is determined by the ``PATH`` environment variable. The directories where to search for the executable can be set in the paths argument. To search in both your own paths and the system paths, call findExecutable twice, once with paths set and once with paths empty. Symlinks are not resolved in order to preserve behavior for the case of executables whose behavior depends on the name they are invoked with.
 
 **Note:** On Windows, the usual executable extensions (from the PATHEXT environment variable) are automatically appended. For example, the findExecutable("foo") call finds ``foo.exe`` or ``foo.bat`` if present.
 
 Returns the absolute file path to the executable, or an empty string if not found.
 
-If the given \\n executableName is an absolute path pointing to an executable its clean path is returned.
+If the given *executableName* is an absolute path pointing to an executable, its clean path is returned.

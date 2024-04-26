@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 64
+    :digest: 18b9394146e340a80539dc15c9d84fa2
 
-TODO
+The icon for the *seek backward* action of a media player.

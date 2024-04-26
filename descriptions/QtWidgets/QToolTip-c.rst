@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Tool tips (balloon help) for any widget
-    :digest: e0bb76a197f181e2701c61d7b78456b4
+    :digest: 074963bd0d0ada73aefaf92f722774f4
 
 The :sip:ref:`~PyQt6.QtWidgets.QToolTip` class provides tool tips (balloon help) for any widget.
 
@@ -9,9 +9,20 @@ The tip is a short piece of text reminding the user of the widget's function. It
 
 Rich text displayed in a tool tip is implicitly word-wrapped unless specified differently with ``<p style='white-space:pre'>``.
 
-The simplest and most common way to set a widget's tool tip is by calling its :sip:ref:`~PyQt6.QtWidgets.QWidget.setToolTip` function.
+UI elements that are created via :sip:ref:`~PyQt6.QtGui.QAction` use the tooltip property of the :sip:ref:`~PyQt6.QtGui.QAction`, so for most interactive UI elements, setting that property is the easiest way to provide tool tips.
 
-It is also possible to show different tool tips for different regions of a widget, by using a :sip:ref:`~PyQt6.QtGui.QHelpEvent` of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.ToolTip`. Intercept the help event in your widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.event` function and call :sip:ref:`~PyQt6.QtWidgets.QToolTip.showText` with the text you want to display. The `Tooltips <https://doc.qt.io/qt-6/qtwidgets-widgets-tooltips-example.html>`_ example illustrates this technique.
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-tooltips-main.py
+    :lines: 35-42
+
+For any other widgets, the simplest and most common way to set a widget's tool tip is by calling its :sip:ref:`~PyQt6.QtWidgets.QWidget.setToolTip` function.
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-tooltips-main.py
+    :lines: 46-47
+
+It is also possible to show different tool tips for different regions of a widget, by using a :sip:ref:`~PyQt6.QtGui.QHelpEvent` of type :sip:ref:`~PyQt6.QtCore.QEvent.Type.ToolTip`. Intercept the help event in your widget's :sip:ref:`~PyQt6.QtWidgets.QWidget.event` function and call :sip:ref:`~PyQt6.QtWidgets.QToolTip.showText` with the text you want to display.
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-tooltips-main.py
+    :lines: 54-68
 
 If you are calling :sip:ref:`~PyQt6.QtWidgets.QToolTip.hideText`, or :sip:ref:`~PyQt6.QtWidgets.QToolTip.showText` with an empty string, as a result of a :sip:ref:`~PyQt6.QtCore.QEvent.Type.ToolTip`-event you should also call :sip:ref:`~PyQt6.QtCore.QEvent.ignore` on the event, to signal that you don't want to start any tooltip specific modes.
 
@@ -21,4 +32,4 @@ The default tool tip color and font can be customized with :sip:ref:`~PyQt6.QtWi
 
 **Note:** Tool tips use the inactive color group of :sip:ref:`~PyQt6.QtGui.QPalette`, because tool tips are not active windows.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.toolTip`, :sip:ref:`~PyQt6.QtGui.QAction.toolTip`, `Tool Tips Example <https://doc.qt.io/qt-6/qtwidgets-widgets-tooltips-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.toolTip`, :sip:ref:`~PyQt6.QtGui.QAction.toolTip`.

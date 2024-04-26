@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 24
+    :digest: 2286aeee65f1f4da7dffc641d9f3873b
 
-TODO
+The icon for the *select all* action.

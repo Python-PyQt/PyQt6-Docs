@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 260
+    :digest: 60af1eb7735d825da1305efbf027664b
 
-TODO
+The suggested zoom level (qreal).

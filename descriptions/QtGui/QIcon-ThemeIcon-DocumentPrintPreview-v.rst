@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 11
+    :digest: 3d277512571566fc9e643afb56ee3262
 
-TODO
+The icon for the *print preview* action.

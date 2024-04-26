@@ -1,21 +1,27 @@
 .. sip:class-description::
     :status: todo
-    :brief: System-independent file information
-    :digest: eb8b2b19ce15920128e955aa7b6717b7
+    :brief: OS-independent API to retrieve information about file system entries
+    :digest: a28e8c60591ff3f99cf6c7a0d0a9bfe1
 
-The :sip:ref:`~PyQt6.QtCore.QFileInfo` class provides system-independent file information.
+The :sip:ref:`~PyQt6.QtCore.QFileInfo` class provides an OS-independent API to retrieve information about file system entries.
 
-:sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about a file's name and position (path) in the file system, its access rights and whether it is a directory or symbolic link, etc. The file's size and last modified/read times are also available. :sip:ref:`~PyQt6.QtCore.QFileInfo` can also be used to obtain information about a Qt `resource <https://doc.qt.io/qt-6/resources.html>`_.
+:sip:ref:`~PyQt6.QtCore.QFileInfo` provides information about a file system entry, such as its name, path, access rights and whether it is a regular file, directory or symbolic link. The entry's size and last modified/read times are also available. :sip:ref:`~PyQt6.QtCore.QFileInfo` can also be used to obtain information about a Qt `resource <https://doc.qt.io/qt-6/resources.html>`_.
 
-A :sip:ref:`~PyQt6.QtCore.QFileInfo` can point to a file with either a relative or an absolute file path. Absolute file paths begin with the directory separator "/" (or with a drive specification on Windows). Relative file names begin with a directory name or a file name and specify a path relative to the current working directory. An example of an absolute path is the string "/tmp/quartz". A relative path might look like "src/fatlib". You can use the function :sip:ref:`~PyQt6.QtCore.QFileInfo.isRelative` to check whether a :sip:ref:`~PyQt6.QtCore.QFileInfo` is using a relative or an absolute file path. You can call the function :sip:ref:`~PyQt6.QtCore.QFileInfo.makeAbsolute` to convert a relative :sip:ref:`~PyQt6.QtCore.QFileInfo`'s path to an absolute path.
+A :sip:ref:`~PyQt6.QtCore.QFileInfo` can point to a file system entry with either an absolute or a relative path:
+
+* On Unix, absolute paths begin with the directory separator ``'/'``. On Windows, absolute paths begin with a drive specification (for example, ``D:/``).
+
+* Relative paths begin with a directory name or a regular file name and specify a file system entry's path relative to the current working directory.
+
+An example of an absolute path is the string ``"/tmp/quartz"``. A relative path may look like ``"src/fatlib"``. You can use the function :sip:ref:`~PyQt6.QtCore.QFileInfo.isRelative` to check whether a :sip:ref:`~PyQt6.QtCore.QFileInfo` is using a relative or an absolute path. You can call the function :sip:ref:`~PyQt6.QtCore.QFileInfo.makeAbsolute` to convert a relative :sip:ref:`~PyQt6.QtCore.QFileInfo`'s path to an absolute path.
 
 **Note:** Paths starting with a colon (\ *:*) are always considered absolute, as they denote a :sip:ref:`~PyQt6.QtCore.QResource`.
 
-The file that the :sip:ref:`~PyQt6.QtCore.QFileInfo` works on is set in the constructor or later with :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`. Use :sip:ref:`~PyQt6.QtCore.QFileInfo.exists` to see if the file exists and :sip:ref:`~PyQt6.QtCore.QFileInfo.size` to get its size.
+The file system entry path that the :sip:ref:`~PyQt6.QtCore.QFileInfo` works on is set in the constructor or later with :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`. Use :sip:ref:`~PyQt6.QtCore.QFileInfo.exists` to see if the entry actually exists and :sip:ref:`~PyQt6.QtCore.QFileInfo.size` to get its size.
 
-The file's type is obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isFile`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isDir` and :sip:ref:`~PyQt6.QtCore.QFileInfo.isSymLink`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.symLinkTarget` function provides the name of the file the symlink points to.
+The file system entry's type is obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isFile`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isDir`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.isSymLink`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.symLinkTarget` function provides the absolute path of the target the symlink points to.
 
-Elements of the file's name can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.path` and :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`'s parts can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.baseName`, :sip:ref:`~PyQt6.QtCore.QFileInfo.suffix` or :sip:ref:`~PyQt6.QtCore.QFileInfo.completeSuffix`. :sip:ref:`~PyQt6.QtCore.QFileInfo` objects to directories created by Qt classes will not have a trailing file separator. If you wish to use trailing separators in your own file info objects, just append one to the file name given to the constructors or :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`.
+The path elements of the file system entry can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.path` and :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`. The :sip:ref:`~PyQt6.QtCore.QFileInfo.fileName`'s parts can be extracted with :sip:ref:`~PyQt6.QtCore.QFileInfo.baseName`, :sip:ref:`~PyQt6.QtCore.QFileInfo.suffix`, or :sip:ref:`~PyQt6.QtCore.QFileInfo.completeSuffix`. :sip:ref:`~PyQt6.QtCore.QFileInfo` objects referring to directories created by Qt classes will not have a trailing directory separator ``'/'``. If you wish to use trailing separators in your own file info objects, just append one to the entry's path given to the constructors or :sip:ref:`~PyQt6.QtCore.QFileInfo.setFile`.
 
 Date and time related information are returned by :sip:ref:`~PyQt6.QtCore.QFileInfo.birthTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.fileTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastModified`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastRead`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.metadataChangeTime`. Information about access permissions can be obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.isReadable`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isWritable`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.isExecutable`. Ownership information can be obtained with :sip:ref:`~PyQt6.QtCore.QFileInfo.owner`, :sip:ref:`~PyQt6.QtCore.QFileInfo.ownerId`, :sip:ref:`~PyQt6.QtCore.QFileInfo.group`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.groupId`. You can also examine permissions and ownership in a single statement using the :sip:ref:`~PyQt6.QtCore.QFileInfo.permission` function.
 
@@ -24,12 +30,12 @@ Date and time related information are returned by :sip:ref:`~PyQt6.QtCore.QFileI
 Symbolic Links and Shortcuts
 ----------------------------
 
-On Unix (including macOS and iOS), the property getter functions in this class return the properties such as times and size of the target file, not the symlink, because Unix handles symlinks transparently. Opening a symlink using :sip:ref:`~PyQt6.QtCore.QFile` effectively opens the link's target. For example:
+On Unix (including macOS and iOS), the property getter functions in this class return the properties such as times and size of the target, not the symlink, because Unix handles symlinks transparently. Opening a symlink using :sip:ref:`~PyQt6.QtCore.QFile` effectively opens the link's target. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qfileinfo.py
     :lines: 59-72
 
-On Windows, shortcuts (``.lnk`` files) are currently treated as symlinks. As on Unix systems, the property getters return the size of the targeted file, not the ``.lnk`` file itself. This behavior is deprecated and will likely be removed in a future version of Qt, after which ``.lnk`` files will be treated as regular files.
+On Windows, shortcuts (``.lnk`` files) are currently treated as symlinks. As on Unix systems, the property getters return the size of the target, not the ``.lnk`` file itself. This behavior is deprecated and will likely be removed in a future version of Qt, after which ``.lnk`` files will be treated as regular files.
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qfileinfo.py
     :lines: 77-90
@@ -66,9 +72,11 @@ If you need more fine-grained control, it is possible to manage the permission w
 Performance Considerations
 --------------------------
 
-Some of :sip:ref:`~PyQt6.QtCore.QFileInfo`'s functions query the file system, but for performance reasons, some functions only operate on the file name itself. For example: To return the absolute path of a relative file name, :sip:ref:`~PyQt6.QtCore.QFileInfo.absolutePath` has to query the file system. The :sip:ref:`~PyQt6.QtCore.QFileInfo.path` function, however, can work on the file name directly, and so it is faster.
+Some of :sip:ref:`~PyQt6.QtCore.QFileInfo`'s functions have to query the file system, but for performance reasons, some functions only operate on the path string. For example: To return the absolute path of a relative entry's path, :sip:ref:`~PyQt6.QtCore.QFileInfo.absolutePath` has to query the file system. The :sip:ref:`~PyQt6.QtCore.QFileInfo.path` function, however, can work on the file name directly, and so it is faster.
 
-To speed up performance, :sip:ref:`~PyQt6.QtCore.QFileInfo` also caches information about the file. Because files can be changed by other users or programs, or even by other parts of the same program, there is a function that refreshes the file information: :sip:ref:`~PyQt6.QtCore.QFileInfo.refresh`. If you want to switch off a :sip:ref:`~PyQt6.QtCore.QFileInfo`'s caching and force it to access the file system every time you request information from it call :sip:ref:`~PyQt6.QtCore.QFileInfo.setCaching`\ (false). If you want to make sure that all information is read from the file system, use :sip:ref:`~PyQt6.QtCore.QFileInfo.stat`.
+:sip:ref:`~PyQt6.QtCore.QFileInfo` also caches information about the file system entry it refers to. Because the file system can be changed by other users or programs, or even by other parts of the same program, there is a function that refreshes the information stored in :sip:ref:`~PyQt6.QtCore.QFileInfo`, namely :sip:ref:`~PyQt6.QtCore.QFileInfo.refresh`. To switch off a :sip:ref:`~PyQt6.QtCore.QFileInfo`'s caching (that is, force it to query the underlying file system every time you request information from it), call :sip:ref:`~PyQt6.QtCore.QFileInfo.setCaching`\ (false).
+
+Fetching information from the file system is typically done by calling (possibly) expensive system functions, so :sip:ref:`~PyQt6.QtCore.QFileInfo` (depending on the implementation) might not fetch all the information from the file system at construction. To make sure that all information is read from the file system immediately, use the :sip:ref:`~PyQt6.QtCore.QFileInfo.stat` member function.
 
 :sip:ref:`~PyQt6.QtCore.QFileInfo.birthTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.fileTime`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastModified`, :sip:ref:`~PyQt6.QtCore.QFileInfo.lastRead`, and :sip:ref:`~PyQt6.QtCore.QFileInfo.metadataChangeTime` return times in *local time* by default. Since native file system API typically uses UTC, this requires a conversion. If you don't actually need the local time, you can avoid this by requesting the time in :sip:ref:`~PyQt6.QtCore.QTimeZone.Initialization.UTC` directly.
 

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 95c5b5c3168cda1e6c59bd7a42e955c9
+    :digest: 96dec6bf3e5a8f11297beda59947c55f
 
 This enum type describes how a line edit should display its contents.
 

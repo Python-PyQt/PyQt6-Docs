@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 20
+    :digest: 453e4315547f0f2261358b34521163eb
 
-TODO
+Water or ice

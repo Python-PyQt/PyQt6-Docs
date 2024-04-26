@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to add pages to a custom multi-page container in Qt Designer's workspace
-    :digest: 365e2bb71c0ab8cdcc330b571a49933e
+    :digest: cf9f5931bcbe7b49de6a9c52bcd0530c
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class allows you to add pages to a custom multi-page container in Qt Designer's workspace.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class allows you to add pages to a custom multi-page container in *Qt Designer*'s workspace.
 
-.. image:: ../../../images/containerextension-example.png
+.. image:: ../../../images/containerextension-example.webp
 
 :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` provide an interface for creating custom container extensions. A container extension consists of a collection of functions that *Qt Designer* needs to manage a multi-page container plugin, and a list of the container's pages.
 

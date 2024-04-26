@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of all Qt objects
-    :digest: 35714374a740853537c61acd7bd14f90
+    :digest: 9c5cab9e21f33e8e787304ee2fe39768
 
 The :sip:ref:`~PyQt6.QtCore.QObject` class is the base class of all Qt objects.
 
@@ -19,7 +19,7 @@ Last but not least, :sip:ref:`~PyQt6.QtCore.QObject` provides the basic timer su
 
 Notice that the Q_OBJECT macro is mandatory for any object that implements signals, slots or properties. You also need to run the Meta Object Compiler on the source file. We strongly recommend the use of this macro in all subclasses of :sip:ref:`~PyQt6.QtCore.QObject` regardless of whether or not they actually use signals, slots and properties, since failure to do so may lead certain functions to exhibit strange behavior.
 
-All Qt widgets inherit :sip:ref:`~PyQt6.QtCore.QObject`. The convenience function :sip:ref:`~PyQt6.QtCore.QObject.isWidgetType` returns whether an object is actually a widget. It is much faster than qobject_cast<`QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ \*>(\ *obj*) or *obj*->\ :sip:ref:`~PyQt6.QtCore.QObject.inherits`\ ("`QWidget <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_").
+All Qt widgets inherit :sip:ref:`~PyQt6.QtCore.QObject`. The convenience function :sip:ref:`~PyQt6.QtCore.QObject.isWidgetType` returns whether an object is actually a widget. It is much faster than qobject_cast<\ :sip:ref:`~PyQt6.QtWidgets.QWidget` \*>(\ *obj*) or *obj*->\ :sip:ref:`~PyQt6.QtCore.QObject.inherits`\ ("\ :sip:ref:`~PyQt6.QtWidgets.QWidget`").
 
 Some :sip:ref:`~PyQt6.QtCore.QObject` functions, e.g. :sip:ref:`~PyQt6.QtCore.QObject.children`, return a QObjectList. QObjectList is a typedef for QList<\ :sip:ref:`~PyQt6.QtCore.QObject` \*>.
 
@@ -71,9 +71,9 @@ uic generates code that invokes this function to enable auto-connection to be pe
 Dynamic Properties
 ------------------
 
-From Qt 4.2, dynamic properties can be added to and removed from :sip:ref:`~PyQt6.QtCore.QObject` instances at run-time. Dynamic properties do not need to be declared at compile-time, yet they provide the same advantages as static properties and are manipulated using the same API - using :sip:ref:`~PyQt6.QtCore.QObject.property` to read them and :sip:ref:`~PyQt6.QtCore.QObject.setProperty` to write them.
+Dynamic properties can be added to and removed from :sip:ref:`~PyQt6.QtCore.QObject` instances at run-time. Dynamic properties do not need to be declared at compile-time, yet they provide the same advantages as static properties and are manipulated using the same API - using :sip:ref:`~PyQt6.QtCore.QObject.property` to read them and :sip:ref:`~PyQt6.QtCore.QObject.setProperty` to write them.
 
-From Qt 4.3, dynamic properties are supported by `Qt Designer <https://doc.qt.io/qt-6/designer-widget-mode.html#the-property-editor>`_, and both standard Qt widgets and user-created forms can be given dynamic properties.
+Dynamic properties are supported by `Qt Designer <https://doc.qt.io/qt-6/designer-widget-mode.html#the-property-editor>`_, and both standard Qt widgets and user-created forms can be given dynamic properties.
 
 .. _qobject-internationalization-i18n:
 

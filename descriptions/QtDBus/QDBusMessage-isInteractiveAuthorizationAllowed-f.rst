@@ -2,8 +2,8 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: c6f122da2e08ac0f929a337a251d0371
+    :digest: f3db659d376ef20b6c03bfd392ccf405
 
-Returns the interactive authorization allowed flag, as set by :sip:ref:`~PyQt6.QtDBus.QDBusMessage.setInteractiveAuthorizationAllowed`. By default this flag is false and the other end is expected to make any authorization decisions non-interactively and promptly.
+Returns whether the message has the ``ALLOW_INTERACTIVE_AUTHORIZATION`` flag set.
 
-.. seealso:: :sip:ref:`~PyQt6.QtDBus.QDBusMessage.setInteractiveAuthorizationAllowed`.
+.. seealso:: :sip:ref:`~PyQt6.QtDBus.QDBusMessage.setInteractiveAuthorizationAllowed`, :sip:ref:`~PyQt6.QtDBus.QDBusAbstractInterface.isInteractiveAuthorizationAllowed`.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 257
+    :digest: a080400a45ed5cd694b235a60a30ccfa
 
-TODO
+The index of the search result on the page (int).

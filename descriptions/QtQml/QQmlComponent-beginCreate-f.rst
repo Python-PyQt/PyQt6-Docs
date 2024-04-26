@@ -2,7 +2,7 @@
     :status: todo
     :pysig: e991172c6cc0c0ddc36c3e82e4c9e036
     :realsig: (QQmlContext*)
-    :digest: 468924eac56add72f6bd5fce880c06b0
+    :digest: f628c64c88dc15ea7f51f81edba34c8b
 
 Create an object instance from this component, within the specified *context*. Returns ``nullptr`` if creation failed.
 
@@ -21,5 +21,7 @@ QQmlComponent::beginCreate() differs from :sip:ref:`~PyQt6.QtQml.QQmlComponent.c
 This breaking point is sometimes useful when using attached properties to communicate information to an instantiated component, as it allows their initial values to be configured before property bindings take effect.
 
 The ownership of the returned object instance is transferred to the caller.
+
+**Note:** The categorization of bindings into constant values and actual bindings is intentionally unspecified and may change between versions of Qt and depending on whether and how you are using `qmlcachegen <https://doc.qt.io/qt-6/qtqml-tool-qmlcachegen.html>`_. You should not rely on any particular binding to be evaluated either before or after beginCreate() returns. For example a constant expression like *MyType.EnumValue* may be recognized as such at compile time or deferred to be executed as binding. The same holds for constant expressions like *-(5)* or *"a" + " constant string"*.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQml.QQmlComponent.completeCreate`, :sip:ref:`~PyQt6.QtQml.QJSEngine.ObjectOwnership.ObjectOwnership`.

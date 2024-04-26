@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to change the focus of Qt Designer's action editor
-    :digest: 9250dbf16970ddc1b6c23a0c7e4c7127
+    :digest: f287b79533cc6a5989403b85b00b923b
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerActionEditorInterface` class allows you to change the focus of Qt Designer's action editor.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerActionEditorInterface` class allows you to change the focus of *Qt Designer*'s action editor.
 
 The :sip:ref:`~PyQt6.QtDesigner.QDesignerActionEditorInterface` class is not intended to be instantiated directly. You can retrieve an interface to *Qt Designer*'s action editor using the :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.actionEditor` function.
 

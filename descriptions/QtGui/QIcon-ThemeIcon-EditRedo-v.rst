@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 23
+    :digest: 698927b4aadbc53a2475e68ec18be9fd
 
-TODO
+The icon for the *redo* action.

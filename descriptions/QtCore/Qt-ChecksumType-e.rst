@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 143e8c293cad927157d79d84c0b59b50
+    :digest: 6f9eb7ca5c84afd9a01314e48b295f0f
 
-This enum describes the possible standards used by qChecksum().
+This enum describes the possible standards used by :sip:ref:`~PyQt6.QtCore.qChecksum`.

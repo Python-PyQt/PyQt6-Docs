@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Performs low-level painting on widgets and other paint devices
-    :digest: 3007e4241825f6d7d5b4f6ebd055387b
+    :digest: 16707d72deb46ee2eb303c861b7bee4a
 
 The :sip:ref:`~PyQt6.QtGui.QPainter` class performs low-level painting on widgets and other paint devices.
 
@@ -119,15 +119,17 @@ Rendering Quality
 
 To get the optimal rendering result using :sip:ref:`~PyQt6.QtGui.QPainter`, you should use the platform independent :sip:ref:`~PyQt6.QtGui.QImage` as paint device; i.e. using :sip:ref:`~PyQt6.QtGui.QImage` will ensure that the result has an identical pixel representation on any platform.
 
-The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling the rendering quality through its :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` enum and the support for floating point precision: All the functions for drawing primitives has a floating point version. These are often used in combination with the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` render hint.
+The :sip:ref:`~PyQt6.QtGui.QPainter` class also provides a means of controlling the rendering quality through its :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` enum and the support for floating point precision: All the functions for drawing primitives have floating point versions.
 
-+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| |image-qpainter-concentriccircles-png| | **Concentric Circles Example**                                                                                                                                                                                                                       |
-|                                        |                                                                                                                                                                                                                                                      |
-|                                        | The `Concentric Circles <https://doc.qt.io/qt-6/qtwidgets-painting-concentriccircles-example.html>`_ example shows the improved rendering quality that can be obtained using floating point precision and anti-aliasing when drawing custom widgets. |
-|                                        |                                                                                                                                                                                                                                                      |
-|                                        | The application's main window displays several widgets which are drawn using the various combinations of precision and anti-aliasing.                                                                                                                |
-+----------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+.. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_painting_qpainter.py
+
+These are often used in combination with the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` render hint.
+
+.. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_painting_qpainter.py
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
+| Comparing concentric circles with int and float, and with or without anti-aliased rendering. Using the floating point precision versions produces evenly spaced rings. Anti-aliased rendering results in smooth circles. | |image-qpainter-concentriccircles-png| |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+----------------------------------------+
 
 The :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` enum specifies flags to :sip:ref:`~PyQt6.QtGui.QPainter` that may or may not be respected by any given engine. :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should antialias edges of primitives if possible, :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should antialias text if possible, and the :sip:ref:`~PyQt6.QtGui.QPainter.RenderHint.RenderHint` indicates that the engine should use a smooth pixmap transformation algorithm.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 12
+    :digest: 597572262e08ff75f4a157be0ca6f354
 
-TODO
+The icon for the action to view the properties of a document.

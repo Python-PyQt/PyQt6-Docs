@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 0952c351e2b71c961c87e8136db810f5
 
-TODO
+The file given to :sip:ref:`~PyQt6.QtPdf.QPdfDocument.load` is not a valid PDF file.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 127
+    :digest: a5aff4c4799d4779b7de0ec0a76b1429
 
-TODO
+The icon for an unread message.

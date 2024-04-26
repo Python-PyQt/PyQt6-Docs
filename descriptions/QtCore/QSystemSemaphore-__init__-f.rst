@@ -2,12 +2,6 @@
     :status: todo
     :pysig: ba95021d0047096d6c0be78658074098
     :realsig: (const QString&,int,QSystemSemaphore::AccessMode)
-    :digest: 26b828a0fca9fa3e16c6e3010152d578
+    :digest: f7095830d2255a581db3e1695d29ade4
 
-Requests a system semaphore identified by the legacy key *key*. This constructor does the same as:
-
-::
-
-    QSystemSemaphore(QSystemSemaphore::legacyNativeKey(key), initialValue, mode)
-
-except that it stores the legacy native key to retrieve using :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.key`.
+Requests a system semaphore identified by the legacy key *key*.

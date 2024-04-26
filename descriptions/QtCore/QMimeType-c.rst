@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Describes types of file or data, represented by a MIME type string
-    :digest: 6e6779ad3c66e316fc2a4c13b47f687b
+    :digest: 8a7518a3b7be7a77114c442ef1e909e4
 
 The :sip:ref:`~PyQt6.QtCore.QMimeType` class describes types of file or data, represented by a MIME type string.
 
@@ -11,4 +11,4 @@ Determining the MIME type of a file can be useful to make sure your application 
 
 To check if a file has the expected MIME type, you should use :sip:ref:`~PyQt6.QtCore.QMimeType.inherits` rather than a simple string comparison based on the :sip:ref:`~PyQt6.QtCore.QMimeType.name`. This is because MIME types can inherit from each other: for instance a C source file is a specific type of plain text file, so text/x-csrc inherits text/plain.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, `MIME Type Browser Example <https://doc.qt.io/qt-6/qtcore-mimetypes-mimetypebrowser-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, `MIME Type Browser <https://doc.qt.io/qt-6/qtcore-mimetypes-mimetypebrowser-example.html>`_.

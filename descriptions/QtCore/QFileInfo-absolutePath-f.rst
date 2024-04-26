@@ -2,11 +2,13 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: a2945f1be5be47ccb62aa83e07245db6
+    :digest: 311af72c670a7ca23b381cde7c09ece0
 
-Returns a file's path absolute path. This doesn't include the file name.
+Returns the absolute path of the file system entry this :sip:ref:`~PyQt6.QtCore.QFileInfo` refers to, excluding the entry's name.
 
-On Unix the absolute path will always begin with the root, '/', directory. On Windows this will always begin 'D:/' where D is a drive letter, except for network shares that are not mapped to a drive letter, in which case the path will begin '//sharename/'.
+On Unix, absolute paths begin with the directory separator ``'/'``. On Windows, absolute paths begin with a drive specification (for example, ``D:/``).
+
+On Windows, the paths of network shares that are not mapped to a drive letter begin with ``//sharename/``.
 
 In contrast to :sip:ref:`~PyQt6.QtCore.QFileInfo.canonicalPath` symbolic links or redundant "." or ".." elements are not necessarily removed.
 

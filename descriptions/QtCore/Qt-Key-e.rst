@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7ee6cf50560b4e179e998d578bc3262a
+    :digest: 3ddbcf6201b8819c5ed48d9895ecd4be
 
 The key names used by Qt.
 

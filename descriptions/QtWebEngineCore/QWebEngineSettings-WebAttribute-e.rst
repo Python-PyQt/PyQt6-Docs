@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: aae66a1656d76a71b16e9672e8e53c13
+    :digest: 0204b3a261277936b656be58de4c0689
 
 This enum type specifies settings for web pages:

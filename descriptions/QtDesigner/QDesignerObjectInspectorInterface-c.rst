@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to change the focus of Qt Designer's object inspector
-    :digest: 2ed3750064f21c73dc07c1b83c17c440
+    :digest: 4452a18330352d96089413e80bdea164
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerObjectInspectorInterface` class allows you to change the focus of Qt Designer's object inspector.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerObjectInspectorInterface` class allows you to change the focus of *Qt Designer*'s object inspector.
 
 You can use the :sip:ref:`~PyQt6.QtDesigner.QDesignerObjectInspectorInterface` to change the current form window selection. For example, when implementing a custom widget plugin:
 

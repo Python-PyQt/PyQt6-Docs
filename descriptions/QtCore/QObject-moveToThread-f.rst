@@ -2,9 +2,9 @@
     :status: todo
     :pysig: f66b8fe5c9a42a71784b0410e54eafff
     :realsig: (QThread*)
-    :digest: d5c7144407b8cbc86e79486534790089
+    :digest: 31c7a0fd93fc85715c57089940c54ef8
 
-Changes the thread affinity for this object and its children. The object cannot be moved if it has a parent. Event processing will continue in the *targetThread*.
+Changes the thread affinity for this object and its children and returns ``true`` on success. The object cannot be moved if it has a parent. Event processing will continue in the *targetThread*.
 
 To move an object to the main thread, use QApplication::instance() to retrieve a pointer to the current application, and then use QApplication::thread() to retrieve the thread in which the application lives. For example:
 

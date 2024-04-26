@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x00000010
-    :digest: d96a39522539d46df92612606443703a
+    :digest: e9e5c76a467f6c629a09b9f754445299
 
-Indicates that the model is readonly.
+Indicates that the model is read-only.

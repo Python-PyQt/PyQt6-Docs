@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a value in JSON
-    :digest: bd676c73285949f1fb1401efbeade04d
+    :digest: 9c180d88fbd8900304cdc4d8b85d6be7
 
 The :sip:ref:`~PyQt6.QtCore.QJsonValue` class encapsulates a value in JSON.
 
@@ -25,7 +25,7 @@ A value can represent any of the above data types. In addition, :sip:ref:`~PyQt6
 
 The type of the value can be queried with :sip:ref:`~PyQt6.QtCore.QJsonValue.type` or accessors like :sip:ref:`~PyQt6.QtCore.QJsonValue.isBool`, :sip:ref:`~PyQt6.QtCore.QJsonValue.isString`, and so on. Likewise, the value can be converted to the type stored in it using the :sip:ref:`~PyQt6.QtCore.QJsonValue.toBool`, :sip:ref:`~PyQt6.QtCore.QJsonValue.toString` and so on.
 
-Values are strictly typed internally and contrary to `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ will not attempt to do any implicit type conversions. This implies that converting to a type that is not stored in the value will return a default constructed return value.
+Values are strictly typed internally and contrary to :sip:ref:`~PyQt6.QtCore.QVariant` will not attempt to do any implicit type conversions. This implies that converting to a type that is not stored in the value will return a default constructed return value.
 
 .. _qjsonvalue-qjsonvalueref:
 
@@ -40,4 +40,4 @@ The following methods return :ref:`qjsonvalue-qjsonvalueref`:
 
 * QJsonObject::operator[](const QString & key) const
 
-.. seealso:: `JSON Support in Qt <https://doc.qt.io/qt-6/json.html>`_, `JSON Save Game Example <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.
+.. seealso:: `JSON Support in Qt <https://doc.qt.io/qt-6/json.html>`_, `Saving and Loading a Game <https://doc.qt.io/qt-6/qtcore-serialization-savegame-example.html>`_.

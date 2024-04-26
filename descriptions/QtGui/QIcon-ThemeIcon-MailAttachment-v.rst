@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 126
+    :digest: 237163ce9d459121778793be443e1bf1
 
-TODO
+The icon for a message that contains attachments.

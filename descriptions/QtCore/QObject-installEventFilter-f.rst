@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 2b9057d9b4a06375acf76e6922f506e2
     :realsig: (QObject*)
-    :digest: 008d366064df418b68a530072c753dc0
+    :digest: a2d169de852fcc721db860d32ee941ef
 
 Installs an event filter *filterObj* on this object. For example:
 
@@ -12,6 +12,8 @@ Installs an event filter *filterObj* on this object. For example:
 An event filter is an object that receives all events that are sent to this object. The filter can either stop the event or forward it to this object. The event filter *filterObj* receives events via its :sip:ref:`~PyQt6.QtCore.QObject.eventFilter` function. The :sip:ref:`~PyQt6.QtCore.QObject.eventFilter` function must return true if the event should be filtered, (i.e. stopped); otherwise it must return false.
 
 If multiple event filters are installed on a single object, the filter that was installed last is activated first.
+
+If *filterObj* has already been installed for this object, this function moves it so it acts as if it was installed last.
 
 Here's a ``KeyPressEater`` class that eats the key presses of its monitored objects:
 

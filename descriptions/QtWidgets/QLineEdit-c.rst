@@ -1,36 +1,62 @@
 .. sip:class-description::
     :status: todo
     :brief: One-line text editor
-    :digest: a21d9c9aa2486e1d3ce109840ba1e415
+    :digest: a03a18bc1394afce1324f40845aa6214
 
 The :sip:ref:`~PyQt6.QtWidgets.QLineEdit` widget is a one-line text editor.
 
 .. image:: ../../../images/windows-lineedit.png
 
-A line edit allows the user to enter and edit a single line of plain text with a useful collection of editing functions, including undo and redo, cut and paste, and drag and drop (see :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setDragEnabled`).
+A line edit allows users to enter and edit a single line of plain text with useful editing functions, including undo and redo, cut and paste, and drag and drop.
 
-By changing the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.echoMode` of a line edit, it can also be used as a "write-only" field, for inputs such as passwords.
+By changing the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.echoMode` of a line edit, it can also be used as a write-only field for inputs such as passwords.
 
-The length of the text can be constrained to :sip:ref:`~PyQt6.QtWidgets.QLineEdit.maxLength`. The text can be arbitrarily constrained using a :sip:ref:`~PyQt6.QtWidgets.QLineEdit.validator` or an :sip:ref:`~PyQt6.QtWidgets.QLineEdit.inputMask`, or both. When switching between a validator and an input mask on the same line edit, it is best to clear the validator or input mask to prevent undefined behavior.
+:sip:ref:`~PyQt6.QtWidgets.QTextEdit` is a related class that allows multi-line, rich text editing.
 
-A related class is :sip:ref:`~PyQt6.QtWidgets.QTextEdit` which allows multi-line, rich text editing.
+.. _qlineedit-constraining-text:
 
-You can change the text with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText` or :sip:ref:`~PyQt6.QtWidgets.QLineEdit.insert`. The text is retrieved with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.text`; the displayed text (which may be different, see :sip:ref:`~PyQt6.QtWidgets.QLineEdit.EchoMode.EchoMode`) is retrieved with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.displayText`. Text can be selected with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setSelection` or :sip:ref:`~PyQt6.QtWidgets.QLineEdit.selectAll`, and the selection can be :sip:ref:`~PyQt6.QtWidgets.QLineEdit.cut`, :sip:ref:`~PyQt6.QtWidgets.QLineEdit.copy`\ ied and :sip:ref:`~PyQt6.QtWidgets.QLineEdit.paste`\ d. The text can be aligned with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setAlignment`.
+Constraining Text
+-----------------
 
-When the text changes the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textChanged` signal is emitted; when the text changes other than by calling :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText` the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textEdited` signal is emitted; when the cursor is moved the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.cursorPositionChanged` signal is emitted; and when the Return or Enter key is pressed the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed` signal is emitted.
+Use :sip:ref:`~PyQt6.QtWidgets.QLineEdit.maxLength` to define the maximum permitted length of a text. You can use a :sip:ref:`~PyQt6.QtWidgets.QLineEdit.inputMask` and :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setValidator` to further constrain the text content.
 
-When editing is finished, either because the line edit lost focus or Return/Enter is pressed the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal is emitted. Note that if focus is lost without any changes done, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal won't be emitted.
+.. _qlineedit-editing-text:
 
-Note that if there is a validator set on the line edit, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed`/\ :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signals will only be emitted if the validator returns :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`.
+Editing Text
+------------
 
-By default, QLineEdits have a frame as specified by platform style guides; you can turn it off by calling :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setFrame`\ (false).
+You can change the text with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText` or :sip:ref:`~PyQt6.QtWidgets.QLineEdit.insert`. Use :sip:ref:`~PyQt6.QtWidgets.QLineEdit.text` to retrieve the text and :sip:ref:`~PyQt6.QtWidgets.QLineEdit.displayText` to retrieve the displayed text (which may be different, see :sip:ref:`~PyQt6.QtWidgets.QLineEdit.EchoMode.EchoMode`). You can select the text with :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setSelection` or :sip:ref:`~PyQt6.QtWidgets.QLineEdit.selectAll`, and you can :sip:ref:`~PyQt6.QtWidgets.QLineEdit.cut`, :sip:ref:`~PyQt6.QtWidgets.QLineEdit.copy`, and :sip:ref:`~PyQt6.QtWidgets.QLineEdit.paste` the selection. To align the text, use :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setAlignment`.
 
-The default key bindings are described below. The line edit also provides a context menu (usually invoked by a right mouse click) that presents some of these editing options.
+When the text changes, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textChanged` signal is emitted. When the text changes in some other way than by calling :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setText`, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.textEdited` signal is emitted. When the cursor is moved, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.cursorPositionChanged` signal is emitted. And when the Return or Enter key is selected, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed` signal is emitted.
+
+When text editing is finished, either because the line edit lost focus or Return/Enter was selected, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal is emitted.
+
+If the line edit focus is lost without any text changes, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signal won't be emitted.
+
+If there is a validator set on the line edit, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit.returnPressed`/\ :sip:ref:`~PyQt6.QtWidgets.QLineEdit.editingFinished` signals will only be emitted if the validator returns :sip:ref:`~PyQt6.QtGui.QValidator.State.Acceptable`.
+
+For more information on the many ways that :sip:ref:`~PyQt6.QtWidgets.QLineEdit` can be used, see `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_, which also provides a selection of line edit examples that show the effects of various properties and validators on the input and output supplied by the user.
+
+.. _qlineedit-setting-a-frame:
+
+Setting a Frame
+---------------
+
+By default, QLineEdits have a frame as specified in the platform style guides. You can turn the frame off by calling :sip:ref:`~PyQt6.QtWidgets.QLineEdit.setFrame`\ (false).
+
+.. _qlineedit-default-key-bindings:
+
+Default Key Bindings
+--------------------
+
+The table below describes the default key bindings.
+
+**Note:** The line edit also provides a context menu (usually invoked by a right-click) that presents some of the editing options listed below.
 
 .. _qlineedit-desc:
 
 +-------------------+-----------------------------------------------------------+
-| Keypress          | Action                                                    |
+| Keystroke         | Action                                                    |
 +===================+===========================================================+
 | Left Arrow        | Moves the cursor one character to the left.               |
 +-------------------+-----------------------------------------------------------+
@@ -52,7 +78,7 @@ The default key bindings are described below. The line edit also provides a cont
 +-------------------+-----------------------------------------------------------+
 | Ctrl+Delete       | Deletes the word to the right of the cursor.              |
 +-------------------+-----------------------------------------------------------+
-| Ctrl+A            | Select all.                                               |
+| Ctrl+A            | Selects all.                                              |
 +-------------------+-----------------------------------------------------------+
 | Ctrl+C            | Copies the selected text to the clipboard.                |
 +-------------------+-----------------------------------------------------------+
@@ -73,6 +99,6 @@ The default key bindings are described below. The line edit also provides a cont
 | Ctrl+Y            | Redoes the last undone operation.                         |
 +-------------------+-----------------------------------------------------------+
 
-Any other key sequence that represents a valid character, will cause the character to be inserted into the line edit.
+Any other keystroke that represents a valid character, will cause the character to be inserted into the line edit.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTextEdit`, :sip:ref:`~PyQt6.QtWidgets.QLabel`, :sip:ref:`~PyQt6.QtWidgets.QComboBox`, `Line Edits Example <https://doc.qt.io/qt-6/qtwidgets-widgets-lineedits-example.html>`_.

@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to manipulate a widget's member functions which is displayed when configuring connections using Qt Designer's mode for editing signals and slots
-    :digest: 3818d1b99894a307bffab8109482a041
+    :digest: 519d4e62c950043c5a81f238dfe49af6
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension` class allows you to manipulate a widget's member functions which is displayed when configuring connections using Qt Designer's mode for editing signals and slots.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension` class allows you to manipulate a widget's member functions which is displayed when configuring connections using *Qt Designer*'s mode for editing signals and slots.
 
 :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension` is a collection of functions that is typically used to query a widget's member functions, and to manipulate the member functions' appearance in *Qt Designer*'s signals and slots editing mode. For example:
 
@@ -41,6 +41,6 @@ Or you can use an existing factory, expanding the :sip:ref:`~PyQt6.QtDesigner.QE
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-plugins-doc_src_qtdesigner.py
     :lines: 100-114
 
-For a complete example using an extension class, see `Task Menu Extension example <https://doc.qt.io/qt-6/qtdesigner-taskmenuextension-example.html>`_. The example shows how to create a custom widget plugin for Qt Designer, and how to to use the :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension` class to add custom items to *Qt Designer*'s task menu.
+For a complete example using an extension class, see `Task Menu Extension example <https://doc.qt.io/qt-6/qtdesigner-taskmenuextension-example.html>`_. The example shows how to create a custom widget plugin for Qt Designer, and how to use the :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension` class to add custom items to *Qt Designer*'s task menu.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, :sip:ref:`~PyQt6.QtDesigner.QExtensionManager`, `Creating Custom Widget Extensions <https://doc.qt.io/qt-6/designer-creating-custom-widgets-extensions.html>`_.

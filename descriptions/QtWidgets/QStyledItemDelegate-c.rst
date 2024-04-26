@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Display and editing facilities for data items from a model
-    :digest: 21c10eac386aab111e56e836e9c497c5
+    :digest: 90571c48b6ede5432e380819be9b6e55
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` class provides display and editing facilities for data items from a model.
 
@@ -9,14 +9,14 @@ When displaying data from models in Qt item views, e.g., a :sip:ref:`~PyQt6.QtWi
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_. The delegate allows the display and editing of items to be developed independently from the model and view.
 
-The data of items in models are assigned an :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole`; each item can store a `QVariant <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qvariant>`_ for each role. :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` implements display and editing for the most common datatypes expected by users, including booleans, integers, and strings.
+The data of items in models are assigned an :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole`; each item can store a :sip:ref:`~PyQt6.QtCore.QVariant` for each role. :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` implements display and editing for the most common datatypes expected by users, including booleans, integers, and strings.
 
 The data will be drawn differently depending on which role they have in the model. The following table describes the roles and the data types the delegate can handle for each of them. It is often sufficient to ensure that the model returns appropriate data for each of the roles to determine the appearance of items in views.
 
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | Role                                                       | Accepted Types                                                                                                                    |
 +============================================================+===================================================================================================================================+
-| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.BackgroundRole`    | :sip:ref:`~PyQt6.QtGui.QBrush` (                                                                                                  |
+| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.BackgroundRole`    | :sip:ref:`~PyQt6.QtGui.QBrush`                                                                                                    |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.CheckStateRole`    | :sip:ref:`~PyQt6.QtCore.Qt.CheckState`                                                                                            |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
@@ -26,13 +26,13 @@ The data will be drawn differently depending on which role they have in the mode
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole`          | See :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` for details                                                                    |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.FontRole`          | `QFont <https://doc.qt.io/qt-6/gui-changes-qt6.html#qfont>`_                                                                      |
+| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.FontRole`          | :sip:ref:`~PyQt6.QtGui.QFont`                                                                                                     |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.SizeHintRole`      | :sip:ref:`~PyQt6.QtCore.QSize`                                                                                                    |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.TextAlignmentRole` | Qt::Alignment                                                                                                                     |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
-| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.ForegroundRole`    | :sip:ref:`~PyQt6.QtGui.QBrush` (                                                                                                  |
+| :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.ForegroundRole`    | :sip:ref:`~PyQt6.QtGui.QBrush`                                                                                                    |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
 Editors are created with a :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory`; a default static instance provided by :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` is installed on all item delegates. You can set a custom factory using :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate.setItemEditorFactory` or set a new default factory with :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory.setDefaultFactory`. It is the data stored in the item model with the :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole` that is edited. See the :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` class for a more high-level introduction to item editor factories. The `Color Editor Factory <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_ example shows how to create custom editors with a factory.
@@ -71,4 +71,4 @@ Since Qt 4.4, there are two delegate classes: :sip:ref:`~PyQt6.QtWidgets.QItemDe
 
 If you wish to customize the painting of item views, you should implement a custom style. Please see the :sip:ref:`~PyQt6.QtWidgets.QStyle` class documentation for details.
 
-.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, `Spin Box Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-spinboxdelegate-example.html>`_, `Star Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-stardelegate-example.html>`_, `Color Editor Factory Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_.
+.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, `Star Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-stardelegate-example.html>`_, `Color Editor Factory Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_.

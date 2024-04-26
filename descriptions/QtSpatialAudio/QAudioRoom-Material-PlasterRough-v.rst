@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 15
+    :digest: f95022733f754c32e26ba339e52cbdf8
 
-TODO
+Rough plaster

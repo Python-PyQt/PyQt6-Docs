@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to control the contents of Qt Designer's widget box
-    :digest: 3f51275edec55c1d0e9d29a9c1306a57
+    :digest: ec47cac5281d49774ea4bcaa471e2aeb
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerWidgetBoxInterface` class allows you to control the contents of Qt Designer's widget box.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerWidgetBoxInterface` class allows you to control the contents of *Qt Designer*'s widget box.
 
 :sip:ref:`~PyQt6.QtDesigner.QDesignerWidgetBoxInterface` contains a collection of functions that is typically used to manipulate the contents of *Qt Designer*'s widget box.
 

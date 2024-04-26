@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: 2c1689c570b7235505b45e629544bd82
+    :digest: 9ca1d361123976520dd2ed0b9dff2a43
 
-Samples are unsigned 8 bit signed integers
+Samples are 8 bit unsigned integers

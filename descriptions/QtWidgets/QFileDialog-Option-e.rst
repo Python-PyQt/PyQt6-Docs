@@ -1,7 +1,7 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 112deaa7ed645771b21418c2a81a5e69
+    :digest: 20adafa05ba891d26192244e0b637e8f
 
-Note: This option is not supported on macOS when using the native file dialog.
+Options that influence the behavior of the dialog.
 
-**Note:** This option must be set before changing dialog properties or showing the dialog.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.options`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog.testOption`.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 459251bb2973b2a4da8428d1f5914624
     :realsig: (const QList<QUrl>&)
-    :digest: b67d1f5687bac1f7847fc08f9b68d17d
+    :digest: 2fbabb8a6ca720e76af716d3cb0db5f6
 
 Sets the *urls* that are located in the sidebar.
 
@@ -10,7 +10,7 @@ For instance:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-filedialogurls-filedialogurls.py
 
-The file dialog will then look like this:
+Then the file dialog looks like this:
 
 .. image:: ../../../images/filedialogurls.png
 

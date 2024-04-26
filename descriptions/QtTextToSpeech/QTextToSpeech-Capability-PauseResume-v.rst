@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1 << 1
+    :digest: 3a3208fa736fa563cef5f3e1bbebfdfb
 
-TODO
+The engine can pause and then resume the audo output.

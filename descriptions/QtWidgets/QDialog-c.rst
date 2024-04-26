@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of dialog windows
-    :digest: 28e24740f5cefe756434752dbcf0917a
+    :digest: 20e688a9d6404569c33495cc8a89c5f3
 
 The :sip:ref:`~PyQt6.QtWidgets.QDialog` class is the base class of dialog windows.
 
@@ -93,5 +93,7 @@ A modeless dialog:
 A dialog with an extension:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-dialogs-dialogs.py
+
+By setting the :sip:ref:`~PyQt6.QtWidgets.QLayout.sizeConstraint` property of the dialog's layout to :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint.SetFixedSize`, the dialog will not be resizable by the user, and will automatically shrink when the extension gets hidden.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QDialogButtonBox`, :sip:ref:`~PyQt6.QtWidgets.QTabWidget`, :sip:ref:`~PyQt6.QtWidgets.QWidget`, :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

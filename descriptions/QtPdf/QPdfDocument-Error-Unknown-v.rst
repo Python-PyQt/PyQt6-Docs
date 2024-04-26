@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 1ae96130740149c74f5b4a0faf29eceb
 
-TODO
+Unknown type of error.

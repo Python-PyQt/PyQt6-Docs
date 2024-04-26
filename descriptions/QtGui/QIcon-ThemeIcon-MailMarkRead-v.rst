@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 53
+    :digest: aa4d18ebf3ee6763395c7ec850a9cafd
 
-TODO
+The icon for the *mark as read* action.

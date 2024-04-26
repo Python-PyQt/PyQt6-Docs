@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Splash screen that can be shown during application startup
-    :digest: 9616ac1893bc327ebf8d8097cccbc576
+    :digest: 514514a370c22643ad01f24bb08e58fc
 
 The :sip:ref:`~PyQt6.QtWidgets.QSplashScreen` widget provides a splash screen that can be shown during application startup.
 
@@ -19,7 +19,7 @@ The most common usage is to show a splash screen before the main widget is displ
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-qsplashscreen-main.py
     :lines: 70-74
 
-The user can hide the splash screen by clicking on it with the mouse. Since the splash screen is typically displayed before the event loop has started running, it is necessary to periodically call :sip:ref:`~PyQt6.QtCore.QCoreApplication.processEvents` to receive the mouse clicks.
+The user can hide the splash screen by clicking on it with the mouse. For mouse handling to work, call QApplication::processEvents() periodically during startup.
 
 It is sometimes useful to update the splash screen with messages, for example, announcing connections established or modules loaded as the application starts up:
 

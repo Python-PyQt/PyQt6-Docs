@@ -2,6 +2,8 @@
     :status: todo
     :brief: A cylindrical mesh
     :realname: Qt3DExtras::QCylinderMesh
-    :digest: b81f5d6eb5980ff964522e2f843b5791
+    :digest: 103d911cf40e5b744b7fd1ff4a3d6533
 
 A cylindrical mesh.
+
+This component can be used to render a cylinder when combined with a material component.

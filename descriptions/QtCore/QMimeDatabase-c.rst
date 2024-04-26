@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Maintains a database of MIME types
-    :digest: ccf6d65e6db7da640a3184db2a1f9de0
+    :digest: 9465cb6f6f1e296db1ded6dbb185726a
 
 The :sip:ref:`~PyQt6.QtCore.QMimeDatabase` class maintains a database of MIME types.
 
@@ -26,4 +26,4 @@ On Unix systems, a binary cache is used for more performance. This cache is gene
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_mimetype_qmimedatabase.py
     :lines: 54-58
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QMimeType`, `MIME Type Browser Example <https://doc.qt.io/qt-6/qtcore-mimetypes-mimetypebrowser-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QMimeType`, `MIME Type Browser <https://doc.qt.io/qt-6/qtcore-mimetypes-mimetypebrowser-example.html>`_.

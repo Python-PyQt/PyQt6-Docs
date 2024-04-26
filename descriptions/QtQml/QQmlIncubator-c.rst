@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows QML objects to be created asynchronously
-    :digest: 5527ee220d35ecc0db74bc9dee9868ef
+    :digest: 2b8caff2e22e9aa94910b4e635904946
 
 The :sip:ref:`~PyQt6.QtQml.QQmlIncubator` class allows QML objects to be created asynchronously.
 
@@ -11,16 +11,21 @@ The use of :sip:ref:`~PyQt6.QtQml.QQmlIncubator` gives more control over the cre
 
 ::
 
+    // Initialize the incubator
     QQmlIncubator incubator;
     component->create(incubator);
 
-    while (!incubator.isReady()) {
-        QCoreApplication::processEvents(QEventLoop::AllEvents, 50);
+Let the incubator run for a while (normally by returning control to the event loop), then poll it. There are a number of ways to get back to the incubator later. You may want to connect to one of the signals sent by :sip:ref:`~PyQt6.QtQuick.QQuickWindow`, or you may want to run a :sip:ref:`~PyQt6.QtCore.QTimer` especially for that. You may also need the object for some specific purpose and poll the incubator when that purpose arises.
+
+::
+
+    // Poll the incubator
+    if (incubator.isReady()) {
+        QObject *object = incubator.object();
+        // Use created object
     }
 
-    QObject *object = incubator.object();
-
-Asynchronous incubators are controlled by a :sip:ref:`~PyQt6.QtQml.QQmlIncubationController` that is set on the :sip:ref:`~PyQt6.QtQml.QQmlEngine`, which lets the engine know when the application is idle and incubating objects should be processed. If an incubation controller is not set on the :sip:ref:`~PyQt6.QtQml.QQmlEngine`, :sip:ref:`~PyQt6.QtQml.QQmlIncubator` creates objects synchronously regardless of the specified :sip:ref:`~PyQt6.QtQml.QQmlIncubator.IncubationMode.IncubationMode`.
+Asynchronous incubators are controlled by a :sip:ref:`~PyQt6.QtQml.QQmlIncubationController` that is set on the :sip:ref:`~PyQt6.QtQml.QQmlEngine`, which lets the engine know when the application is idle and incubating objects should be processed. If an incubation controller is not set on the :sip:ref:`~PyQt6.QtQml.QQmlEngine`, :sip:ref:`~PyQt6.QtQml.QQmlIncubator` creates objects synchronously regardless of the specified :sip:ref:`~PyQt6.QtQml.QQmlIncubator.IncubationMode.IncubationMode`. By default, no incubation controller is set. However, :sip:ref:`~PyQt6.QtQuick.QQuickView`, :sip:ref:`~PyQt6.QtQuick.QQuickWindow` and :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget` all set incubation controllers on their respective :sip:ref:`~PyQt6.QtQml.QQmlEngine`\ s. These incubation controllers space out incubations across multiple frames while the view is being rendered.
 
 :sip:ref:`~PyQt6.QtQml.QQmlIncubator` supports three incubation modes:
 

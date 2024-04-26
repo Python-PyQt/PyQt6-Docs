@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 543afe9bf20e1cd18e0aca6f53571938
 
-TODO
+The text is drawn with an outline.

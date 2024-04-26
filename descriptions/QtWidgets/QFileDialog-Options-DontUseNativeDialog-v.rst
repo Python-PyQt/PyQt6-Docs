@@ -2,6 +2,6 @@
     :status: todo
     :value: 0x00000008
     :realname: QFileDialog::Option::DontUseNativeDialog
-    :digest: f5b5fcb2482d566e09450744ac7591c3
+    :digest: ad90a8856fa7623b34b81d17ae044854
 
-Don't use the native file dialog. By default, the native file dialog is used unless you use a subclass of :sip:ref:`~PyQt6.QtWidgets.QFileDialog` that contains the Q_OBJECT macro, or the platform does not have a native dialog of the type that you require.
+Don't use a platform-native file dialog, but the widget-based one provided by Qt. By default, a native file dialog is shown unless you use a subclass of :sip:ref:`~PyQt6.QtWidgets.QFileDialog` that contains the Q_OBJECT macro, the global :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeDialogs` application attribute is set, or the platform does not have a native dialog of the type that you require. For the option to be effective, you must set it before changing other properties of the dialog, or showing the dialog.

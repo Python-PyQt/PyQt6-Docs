@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Display and editing facilities for data items from a model
-    :digest: 5580fad761b810f5b846fb543c93c1ba
+    :digest: 910f75883bd7a6847223c5b1189b5c7b
 
 The :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` class provides display and editing facilities for data items from a model.
 
@@ -65,7 +65,7 @@ Subclassing
 
 When subclassing :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` to create a delegate that displays items using a custom renderer, it is important to ensure that the delegate can render items suitably for all the required states; e.g. selected, disabled, checked. The documentation for the :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.paint` function contains some hints to show how this can be achieved.
 
-You can provide custom editors by using a :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory`. The `Color Editor Factory Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_ shows how a custom editor can be made available to delegates with the default item editor factory. This way, there is no need to subclass :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`. An alternative is to reimplement :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.createEditor`, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.setEditorData`, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.setModelData`, and :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.updateEditorGeometry`. This process is described in the `Spin Box Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-spinboxdelegate-example.html>`_.
+You can provide custom editors by using a :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory`. The `Color Editor Factory Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_ shows how a custom editor can be made available to delegates with the default item editor factory. This way, there is no need to subclass :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`. An alternative is to reimplement :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.createEditor`, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.setEditorData`, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.setModelData`, and :sip:ref:`~PyQt6.QtWidgets.QItemDelegate.updateEditorGeometry`. This process is described in the `Model/View Programming overview documentation <https://doc.qt.io/qt-6/model-view-programming.html#a-simple-delegate>`_.
 
 .. _qitemdelegate-qstyleditemdelegate-vs-qitemdelegate:
 
@@ -74,4 +74,4 @@ QStyledItemDelegate vs. QItemDelegate
 
 Since Qt 4.4, there are two delegate classes: :sip:ref:`~PyQt6.QtWidgets.QItemDelegate` and :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`. However, the default delegate is :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`. These two classes are independent alternatives to painting and providing editors for items in views. The difference between them is that :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` uses the current style to paint its items. We therefore recommend using :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` as the base class when implementing custom delegates or when working with Qt style sheets. The code required for either class should be equal unless the custom delegate needs to use the style for drawing.
 
-.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, `Spin Box Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-spinboxdelegate-example.html>`_, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_.
+.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`.

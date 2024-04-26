@@ -2,12 +2,12 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: afd6773cd78bebda1d8fc2001d7c4a7a
+    :digest: 9c968e712569fa8ea305f9ae799bc9ea
 
-Returns ``true`` if the user can read the file; otherwise returns ``false``.
+Returns ``true`` if the user can read the file system entry this :sip:ref:`~PyQt6.QtCore.QFileInfo` refers to; otherwise returns ``false``.
 
-If the file is a symlink, this function returns true if the target is readable (not the symlink).
+If the file is a symlink, this function returns information about the target, not the symlink.
 
-**Note:** If the :ref:`NTFS permissions<qfileinfo-ntfs-permissions>` check has not been enabled, the result on Windows will merely reflect whether the file exists.
+**Note:** If the :ref:`qfileinfo-ntfs-permissions` check has not been enabled, the result on Windows will merely reflect whether the entry exists.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QFileInfo.isWritable`, :sip:ref:`~PyQt6.QtCore.QFileInfo.isExecutable`, :sip:ref:`~PyQt6.QtCore.QFileInfo.permission`.

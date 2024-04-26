@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 95
+    :digest: 989758bfb3f4f093020ff05f5e771174
 
-TODO
+The icon for the keyboard input device.

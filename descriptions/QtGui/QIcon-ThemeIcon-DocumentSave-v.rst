@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 14
+    :digest: a1bcea36a8e6ab17939202b0d4b02ec9
 
-TODO
+The icon for the *save* action.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Controls lower level graphics settings for the QQuickWindow
-    :digest: 93e0fe3158c59ce4fca9cafcd30d757a
+    :digest: cf73b1150eb8c102233967df286c5126
 
 :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration` controls lower level graphics settings for the :sip:ref:`~PyQt6.QtQuick.QQuickWindow`.
 
@@ -22,7 +22,7 @@ This will not alway be sufficient, however. In advanced use cases, when integrat
 
 That is what this class enables. It allows specifying, for example, a list of device extensions that is then picked up by the scene graph when using Vulkan, or graphics APIs where the concept is applicable. Where some concepts are not applicable, the related settings are simply ignored.
 
-Examples of functions in this category are :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.preferredInstanceExtensions` and :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.setDeviceExtensions`.
+Examples of functions in this category are :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.setDeviceExtensions` and :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.preferredInstanceExtensions`. The latter is useful when the application manages its own QVulkanInstance which is then associated with the :sip:ref:`~PyQt6.QtQuick.QQuickWindow` via QWindow::setVulkanInstance().
 
 .. _qquickgraphicsconfiguration-qt-quick-scene-graph-renderer-configuration:
 

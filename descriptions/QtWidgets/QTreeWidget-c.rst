@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Tree view that uses a predefined tree model
-    :digest: aea1ffe8bc731158692f1b75c53c8908
+    :digest: b1c92f676d153c9799f07b2f9008c2dc
 
 The :sip:ref:`~PyQt6.QtWidgets.QTreeWidget` class provides a tree view that uses a predefined tree model.
 
@@ -22,4 +22,4 @@ The tree can have a header that contains a section for each column in the widget
 
 The items in the tree can be sorted by column according to a predefined sort order. If sorting is enabled, the user can sort the items by clicking on a column header. Sorting can be enabled or disabled by calling :sip:ref:`~PyQt6.QtWidgets.QTreeView.setSortingEnabled`. The :sip:ref:`~PyQt6.QtWidgets.QTreeView.isSortingEnabled` function indicates whether sorting is enabled.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`, :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator`, :sip:ref:`~PyQt6.QtWidgets.QTreeView`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`, :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItemIterator`, :sip:ref:`~PyQt6.QtWidgets.QTreeView`, `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_.

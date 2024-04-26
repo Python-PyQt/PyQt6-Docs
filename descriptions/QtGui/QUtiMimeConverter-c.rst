@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Converts between a MIME type and a Uniform Type Identifier (UTI) format
-    :digest: d6777a10bfca33af6ebf27e5a6b10598
+    :digest: 980f8ba12e17a6a993aa957d580df4d6
 
 The :sip:ref:`~PyQt6.QtGui.QUtiMimeConverter` class converts between a MIME type and a `Uniform Type Identifier (UTI) <https://developer.apple.com/documentation/uniformtypeidentifiers>`_ format.
 
@@ -9,7 +9,17 @@ Qt's drag and drop and clipboard facilities use the MIME standard. On X11, this 
 
 :sip:ref:`~PyQt6.QtGui.QUtiMimeConverter`'s role is to bridge the gap between MIME and UTI; By subclasses this class, one can extend Qt's drag and drop and clipboard handling to convert to and from unsupported, or proprietary, UTI formats.
 
-A subclass of :sip:ref:`~PyQt6.QtGui.QUtiMimeConverter` will automatically be registered, and active, upon instantiation.
+Construct an instance of your converter implementation after instantiating :sip:ref:`~PyQt6.QtGui.QGuiApplication`:
+
+::
+
+    int main(int argc, char **argv)
+    {
+        QGuiApplication app(argc, argv);
+        JsonMimeConverter jsonConverter;
+    }
+
+Destroying the instance will unregister the converter and remove support for the conversion. It is also valid to heap-allocate the converter instance; Qt takes ownership and will delete the converter object during :sip:ref:`~PyQt6.QtGui.QGuiApplication` shut-down.
 
 Qt has predefined support for the following UTIs:
 

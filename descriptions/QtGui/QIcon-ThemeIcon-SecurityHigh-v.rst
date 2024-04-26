@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 134
+    :digest: f54d934ad29c3f3d0435281b48048681
 
-TODO
+The icon used to indicate that the security level of an item is known to be high.

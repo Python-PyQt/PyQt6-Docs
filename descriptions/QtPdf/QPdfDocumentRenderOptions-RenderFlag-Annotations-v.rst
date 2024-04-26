@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x001
+    :digest: 2570f50216044c3546e275317eabe7cd
 
-TODO
+The page is rendered with annotations.

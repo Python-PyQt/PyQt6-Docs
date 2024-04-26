@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 5932a1d2e66b0f266eb9989fac2256f2
+    :digest: 1a7cafda0ee75febd9e10ae9698e9d2e
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -167,8 +167,6 @@ If you want to use INI files on all platforms instead of the native API, you can
 
 Note that INI files lose the distinction between numeric data and the strings used to encode them, so values written as numbers shall be read back as QString. The numeric value can be recovered using QString::toInt(), QString::toDouble() and related functions.
 
-The `Settings Editor <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_ example lets you experiment with different settings location and with fallbacks turned on or off.
-
 .. _qsettings-restoring-the-state-of-a-gui-application:
 
 Restoring the State of a GUI Application
@@ -197,8 +195,6 @@ The ``readSettings()`` and ``writeSettings()`` functions must be called from the
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-settings-settings.py
     :lines: 187-195
-
-See the Application example for a self-contained example that uses :sip:ref:`~PyQt6.QtCore.QSettings`.
 
 .. _qsettings-accessing-settings-from-multiple-threads-or-processes-simultaneously:
 
@@ -359,4 +355,4 @@ While :sip:ref:`~PyQt6.QtCore.QSettings` attempts to smooth over the differences
 
 * On macOS, permissions to access settings not belonging to the current user (i.e. :sip:ref:`~PyQt6.QtCore.QSettings.Scope.SystemScope`) have changed with 10.7 (Lion). Prior to that version, users having admin rights could access these. For 10.7 and 10.8 (Mountain Lion), only root can. However, 10.9 (Mavericks) changes that rule again but only for the native format (plist files).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QVariant`, :sip:ref:`~PyQt6.QtGui.QSessionManager`, `Settings Editor Example <https://doc.qt.io/qt-6/qtwidgets-tools-settingseditor-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QVariant`, :sip:ref:`~PyQt6.QtGui.QSessionManager`.

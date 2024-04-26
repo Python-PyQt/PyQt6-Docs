@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 58
+    :digest: dd56b5f9b008ae01eaae7c3a27571e1b
 
-TODO
+The icon for the *send* action.

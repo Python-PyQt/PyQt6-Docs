@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 77
+    :digest: a4f467707a642ca247617fb62b2e545a
 
-TODO
+The icon for the *fullscreen* action.

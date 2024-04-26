@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 44
+    :digest: 14c89656ac10389af9aa4de6ca9ae656
 
-TODO
+The icon for the *About* item in the Help menu.

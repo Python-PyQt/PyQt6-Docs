@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 259
+    :digest: 5ef6cfa471e6672531fdd1c7191adc31
 
-TODO
+The adjacent text on the page, before the search string (QString).

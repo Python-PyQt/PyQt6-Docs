@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 98
+    :digest: cb08191c87cff899ecbc52628f0aed51
 
-TODO
+The icon for flash media, such as a memory stick.

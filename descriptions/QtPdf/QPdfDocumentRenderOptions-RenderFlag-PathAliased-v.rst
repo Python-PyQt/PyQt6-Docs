@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x040
+    :digest: 61ea99bfdb99b4b81518a908ff292894
 
-TODO
+Anti-aliasing is disabled for rendering paths.

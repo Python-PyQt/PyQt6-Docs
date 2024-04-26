@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 57ae641f7e7f9a6c1de44f36ce2eb561
     :realsig: () const
-    :digest: bc173bfcd1fa45ec5cfb92e2b74dd578
+    :digest: 609bece5e683ca018062522f59aeb769
 
-Returns the path of the object's parent directory as a :sip:ref:`~PyQt6.QtCore.QDir` object.
+Returns a :sip:ref:`~PyQt6.QtCore.QDir` object representing the path of the parent directory of the file system entry that this :sip:ref:`~PyQt6.QtCore.QFileInfo` refers to.
 
 **Note:** The :sip:ref:`~PyQt6.QtCore.QDir` returned always corresponds to the object's parent directory, even if the :sip:ref:`~PyQt6.QtCore.QFileInfo` represents a directory.
 

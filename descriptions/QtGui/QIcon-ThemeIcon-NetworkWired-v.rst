@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 102
+    :digest: af23b06243eaecc98837fa4eed3f3c09
 
-TODO
+The icon for wired network connections.

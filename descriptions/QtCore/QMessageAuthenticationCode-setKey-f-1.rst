@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 59deef16a694b0a586880f637fa3acb0
     :realsig: (QByteArrayView)
-    :digest: b6011084b8b3e7f3967ee51bb4c71a4b
+    :digest: e8a49c82f9710fb37af685722e93633c
 
-Sets secret *key*. Calling this method automatically resets the object state.
+Sets secret *key*. Calling this function automatically resets the object state.
 
-For optimal performance, call this method only to *change* the active key, not to set an *initial* key, as in
+For optimal performance, call this function only to *change* the active key, not to set an *initial* key, as in
 
 ::
 

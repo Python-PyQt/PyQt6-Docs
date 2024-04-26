@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 018ba69c9d7fb9e9e2d5c3afb476b162
+    :digest: ab898495acc0a1a40a9cb3478546aa2a
 
 This enum describes the different levels of hinting that can be applied to glyphs to improve legibility on displays where it might be warranted by the density of pixels.
 
@@ -15,5 +15,3 @@ Please note that this enum only describes a preference, as the full range of hin
 +---------------------------------------+--------------------------+------------------+--------------------------+-------------------+
 | Cocoa on macOS                        | No hinting               | No hinting       | No hinting               | No hinting        |
 +---------------------------------------+--------------------------+------------------+--------------------------+-------------------+
-
-**Note:** Please be aware that altering the hinting preference on Windows is available through the DirectWrite font engine. This is available on Windows Vista after installing the platform update, and on Windows 7. In order to use this extension, configure Qt using -directwrite. The target application will then depend on the availability of DirectWrite on the target system.

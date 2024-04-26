@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 17
+    :digest: 003248abd733e58691be70fd34a8f264
 
-TODO
+The icon for the *clear* action.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 2a10ff3a99260d93fa2e6ada218e3763
 
-TODO
+Bottom wall (negative y)
