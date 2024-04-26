@@ -145,6 +145,14 @@
             bool
         :description: QtCore/QCalendar-isSolar-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QCalendar.matchCenturyToWeekday
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QCalendar.YearMonthDay`
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDate`
+        :description: QtCore/QCalendar-matchCenturyToWeekday-f.rst
+
     .. sip:method:: PyQt6.QtCore.QCalendar.maximumDaysInMonth
         :returns:
             int

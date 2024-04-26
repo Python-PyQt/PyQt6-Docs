@@ -153,6 +153,11 @@
             bool
         :description: QtSql/QSqlQuery-isNull-f-2.rst
 
+    .. sip:method:: PyQt6.QtSql.QSqlQuery.isPositionalBindingEnabled
+        :returns:
+            bool
+        :description: QtSql/QSqlQuery-isPositionalBindingEnabled-f.rst
+
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isSelect
         :returns:
             bool
@@ -242,6 +247,11 @@
         :args:
             :sip:ref:`~PyQt6.QtSql.QSql.NumericalPrecisionPolicy`
         :description: QtSql/QSqlQuery-setNumericalPrecisionPolicy-f.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlQuery.setPositionalBindingEnabled
+        :args:
+            bool
+        :description: QtSql/QSqlQuery-setPositionalBindingEnabled-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.size
         :returns:

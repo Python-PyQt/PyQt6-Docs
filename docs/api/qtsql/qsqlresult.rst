@@ -176,6 +176,11 @@
             bool
         :description: QtSql/QSqlResult-isNull-f.rst
 
+    .. sip:method:: PyQt6.QtSql.QSqlResult.isPositionalBindingEnabled
+        :returns:
+            bool
+        :description: QtSql/QSqlResult-isPositionalBindingEnabled-f.rst
+
     .. sip:method:: PyQt6.QtSql.QSqlResult.isSelect
         :returns:
             bool
@@ -251,6 +256,11 @@
         :args:
             :sip:ref:`~PyQt6.QtSql.QSqlError`
         :description: QtSql/QSqlResult-setLastError-f.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlResult.setPositionalBindingEnabled
+        :args:
+            bool
+        :description: QtSql/QSqlResult-setPositionalBindingEnabled-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.setQuery
         :args:

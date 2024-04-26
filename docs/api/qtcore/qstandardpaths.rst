@@ -54,6 +54,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.GenericDataLocation
             :description: QtCore/QStandardPaths-StandardLocation-GenericDataLocation-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.GenericStateLocation
+            :description: QtCore/QStandardPaths-StandardLocation-GenericStateLocation-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.HomeLocation
             :description: QtCore/QStandardPaths-StandardLocation-HomeLocation-v.rst
 
@@ -71,6 +74,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.RuntimeLocation
             :description: QtCore/QStandardPaths-StandardLocation-RuntimeLocation-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.StateLocation
+            :description: QtCore/QStandardPaths-StandardLocation-StateLocation-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QStandardPaths.StandardLocation.TemplatesLocation
             :description: QtCore/QStandardPaths-StandardLocation-TemplatesLocation-v.rst

@@ -52,6 +52,9 @@
     .. sip:enum:: PyQt6.QtQuick.QQuickWindow.TextRenderType
         :description: QtQuick/QQuickWindow-TextRenderType-e.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.TextRenderType.CurveTextRendering
+            :description: QtQuick/QQuickWindow-TextRenderType-CurveTextRendering-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick.QQuickWindow.TextRenderType.NativeTextRendering
             :description: QtQuick/QQuickWindow-TextRenderType-NativeTextRendering-v.rst
 
@@ -95,6 +98,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QSGRectangleNode`
         :description: QtQuick/QQuickWindow-createRectangleNode-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickWindow.createTextNode
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QSGTextNode`
+        :description: QtQuick/QQuickWindow-createTextNode-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickWindow.createTextureFromImage
         :args:

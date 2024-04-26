@@ -458,3 +458,6 @@
         :args:
             str
         :description: QtCore/qWarning-f.rst
+
+    .. sip:method:: PyQt6.QtCore.qYieldCpu
+        :description: QtCore/qYieldCpu-f.rst

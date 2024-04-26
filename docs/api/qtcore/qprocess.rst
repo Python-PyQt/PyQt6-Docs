@@ -88,8 +88,17 @@
         .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.CloseFileDescriptors
             :description: QtCore/QProcess-UnixProcessFlag-CloseFileDescriptors-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.CreateNewSession
+            :description: QtCore/QProcess-UnixProcessFlag-CreateNewSession-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.DisconnectControllingTerminal
+            :description: QtCore/QProcess-UnixProcessFlag-DisconnectControllingTerminal-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.IgnoreSigPipe
             :description: QtCore/QProcess-UnixProcessFlag-IgnoreSigPipe-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.ResetIds
+            :description: QtCore/QProcess-UnixProcessFlag-ResetIds-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.ResetSignalHandlers
             :description: QtCore/QProcess-UnixProcessFlag-ResetSignalHandlers-v.rst

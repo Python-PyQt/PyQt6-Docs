@@ -190,6 +190,17 @@
         :static:
         :description: QtCore/QDate-fromString-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QDate.fromString
+        :args:
+            Optional[str]
+            Optional[str]
+            int
+            cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDate`
+        :static:
+        :description: QtCore/QDate-fromString-f-4.rst
+
     .. sip:method:: PyQt6.QtCore.QDate.__ge__
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]

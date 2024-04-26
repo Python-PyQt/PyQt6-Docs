@@ -15,3 +15,8 @@
         :returns:
             int
         :description: QtGui/QRasterWindow-metric-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QRasterWindow.resizeEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QResizeEvent`
+        :description: QtGui/QRasterWindow-resizeEvent-f.rst

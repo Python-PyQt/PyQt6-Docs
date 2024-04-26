@@ -15,3 +15,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QThread`
         :description: QtCore/QEventLoopLocker-__init__-f-2.rst
+
+    .. sip:method:: PyQt6.QtCore.QEventLoopLocker.swap
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QEventLoopLocker`
+        :description: QtCore/QEventLoopLocker-swap-f.rst

@@ -94,6 +94,11 @@
             str
         :description: QtDBus/QDBusAbstractInterface-interface-f.rst
 
+    .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.isInteractiveAuthorizationAllowed
+        :returns:
+            bool
+        :description: QtDBus/QDBusAbstractInterface-isInteractiveAuthorizationAllowed-f.rst
+
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.isValid
         :returns:
             bool
@@ -113,6 +118,11 @@
         :returns:
             str
         :description: QtDBus/QDBusAbstractInterface-service-f.rst
+
+    .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.setInteractiveAuthorizationAllowed
+        :args:
+            bool
+        :description: QtDBus/QDBusAbstractInterface-setInteractiveAuthorizationAllowed-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.setTimeout
         :args:

@@ -3,6 +3,33 @@
 .. sip:class:: PyQt6.QtCore.QDateTime
     :description: QtCore/QDateTime-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QDateTime.TransitionResolution
+        :description: QtCore/QDateTime-TransitionResolution-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior
+            :description: QtCore/QDateTime-TransitionResolution-LegacyBehavior-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.PreferAfter
+            :description: QtCore/QDateTime-TransitionResolution-PreferAfter-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.PreferBefore
+            :description: QtCore/QDateTime-TransitionResolution-PreferBefore-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.PreferDaylightSaving
+            :description: QtCore/QDateTime-TransitionResolution-PreferDaylightSaving-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.PreferStandard
+            :description: QtCore/QDateTime-TransitionResolution-PreferStandard-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.Reject
+            :description: QtCore/QDateTime-TransitionResolution-Reject-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.RelativeToAfter
+            :description: QtCore/QDateTime-TransitionResolution-RelativeToAfter-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDateTime.TransitionResolution.RelativeToBefore
+            :description: QtCore/QDateTime-TransitionResolution-RelativeToBefore-v.rst
+
     .. sip:enum:: PyQt6.QtCore.QDateTime.YearRange
         :description: QtCore/QDateTime-YearRange-e.rst
 
@@ -24,8 +51,8 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
             Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-            :sip:ref:`~PyQt6.QtCore.QTimeZone`
-        :description: QtCore/QDateTime-__init__-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution`
+        :description: QtCore/QDateTime-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
@@ -34,6 +61,14 @@
             spec: :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec` = :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`
             offsetSeconds: int = 0
         :description: QtCore/QDateTime-__init__-f-3.rst
+
+    .. sip:method:: PyQt6.QtCore.QDateTime.__init__
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+            resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
+        :description: QtCore/QDateTime-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
@@ -195,6 +230,17 @@
         :static:
         :description: QtCore/QDateTime-fromString-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QDateTime.fromString
+        :args:
+            Optional[str]
+            Optional[str]
+            int
+            cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :static:
+        :description: QtCore/QDateTime-fromString-f-4.rst
+
     .. sip:method:: PyQt6.QtCore.QDateTime.__ge__
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
@@ -277,7 +323,8 @@
     .. sip:method:: PyQt6.QtCore.QDateTime.setDate
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtCore/QDateTime-setDate-f.rst
+            resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
+        :description: QtCore/QDateTime-setDate-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setMSecsSinceEpoch
         :args:
@@ -297,7 +344,8 @@
     .. sip:method:: PyQt6.QtCore.QDateTime.setTime
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtCore/QDateTime-setTime-f.rst
+            resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
+        :description: QtCore/QDateTime-setTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setTimeSpec
         :args:
@@ -307,7 +355,8 @@
     .. sip:method:: PyQt6.QtCore.QDateTime.setTimeZone
         :args:
             :sip:ref:`~PyQt6.QtCore.QTimeZone`
-        :description: QtCore/QDateTime-setTimeZone-f.rst
+            resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
+        :description: QtCore/QDateTime-setTimeZone-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.swap
         :args:

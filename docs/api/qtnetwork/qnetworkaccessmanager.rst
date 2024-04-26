@@ -106,6 +106,22 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
         :description: QtNetwork/QNetworkAccessManager-get-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.get
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
+        :description: QtNetwork/QNetworkAccessManager-get-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.get
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
+            :sip:ref:`~PyQt6.QtCore.QIODevice`
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
+        :description: QtNetwork/QNetworkAccessManager-get-f-2.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.head
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`

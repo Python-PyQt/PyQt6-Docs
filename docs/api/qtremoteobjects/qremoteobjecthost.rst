@@ -36,5 +36,11 @@
             bool
         :description: QtRemoteObjects/QRemoteObjectHost-setHostUrl-f.rst
 
+    .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectHost.setLocalServerOptions
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QLocalServer.SocketOption`
+        :static:
+        :description: QtRemoteObjects/QRemoteObjectHost-setLocalServerOptions-f.rst
+
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectHost.hostUrlChanged
         :description: QtRemoteObjects/QRemoteObjectHost-hostUrlChanged-s.rst

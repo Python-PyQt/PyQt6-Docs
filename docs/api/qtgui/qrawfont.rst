@@ -116,6 +116,13 @@
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :description: QtGui/QRawFont-fontTable-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QRawFont.fontTable
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtGui/QRawFont-fontTable-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QRawFont.fromFont
         :args:
             :sip:ref:`~PyQt6.QtGui.QFont`

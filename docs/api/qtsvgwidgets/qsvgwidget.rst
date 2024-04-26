@@ -25,6 +25,11 @@
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :description: QtSvgWidgets/QSvgWidget-load-f-3.rst
 
+    .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.options
+        :returns:
+            :sip:ref:`~PyQt6.QtSvg.QtSvg.Option`
+        :description: QtSvgWidgets/QSvgWidget-options-f.rst
+
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.paintEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QPaintEvent`
@@ -34,6 +39,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtSvg.QSvgRenderer`
         :description: QtSvgWidgets/QSvgWidget-renderer-f.rst
+
+    .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.setOptions
+        :args:
+            :sip:ref:`~PyQt6.QtSvg.QtSvg.Option`
+        :description: QtSvgWidgets/QSvgWidget-setOptions-f.rst
 
     .. sip:method:: PyQt6.QtSvgWidgets.QSvgWidget.sizeHint
         :returns:

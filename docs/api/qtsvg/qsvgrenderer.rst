@@ -71,6 +71,11 @@
             int
         :description: QtSvg/QSvgRenderer-framesPerSecond-f.rst
 
+    .. sip:method:: PyQt6.QtSvg.QSvgRenderer.isAnimationEnabled
+        :returns:
+            bool
+        :description: QtSvg/QSvgRenderer-isAnimationEnabled-f.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.isValid
         :returns:
             bool
@@ -97,6 +102,11 @@
             bool
         :description: QtSvg/QSvgRenderer-load-f-2.rst
 
+    .. sip:method:: PyQt6.QtSvg.QSvgRenderer.options
+        :returns:
+            :sip:ref:`~PyQt6.QtSvg.QtSvg.Option`
+        :description: QtSvg/QSvgRenderer-options-f.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.render
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
@@ -115,6 +125,11 @@
             bounds: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF()
         :description: QtSvg/QSvgRenderer-render-f-3.rst
 
+    .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setAnimationEnabled
+        :args:
+            bool
+        :description: QtSvg/QSvgRenderer-setAnimationEnabled-f.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setAspectRatioMode
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.AspectRatioMode`
@@ -129,6 +144,11 @@
         :args:
             int
         :description: QtSvg/QSvgRenderer-setFramesPerSecond-f.rst
+
+    .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setOptions
+        :args:
+            :sip:ref:`~PyQt6.QtSvg.QtSvg.Option`
+        :description: QtSvg/QSvgRenderer-setOptions-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setViewBox
         :args:

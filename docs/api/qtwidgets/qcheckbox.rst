@@ -80,6 +80,11 @@
             :sip:ref:`~PyQt6.QtCore.QSize`
         :description: QtWidgets/QCheckBox-sizeHint-f.rst
 
+    .. sip:signal:: PyQt6.QtWidgets.QCheckBox.checkStateChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.CheckState`
+        :description: QtWidgets/QCheckBox-checkStateChanged-s.rst
+
     .. sip:signal:: PyQt6.QtWidgets.QCheckBox.stateChanged
         :args:
             int

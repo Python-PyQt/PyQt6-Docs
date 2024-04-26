@@ -120,8 +120,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.attributes
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-attributes-f-1.rst
+            PyQt6.sip.array[:sip:ref:`~PyQt6.QtQuick.QSGGeometry.Attribute`]
+        :description: QtQuick/QSGGeometry-attributes-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.defaultAttributes_ColoredPoint2D
         :returns:
@@ -158,13 +158,13 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.indexDataAsUInt
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-indexDataAsUInt-f-1.rst
+            PyQt6.sip.array[int]
+        :description: QtQuick/QSGGeometry-indexDataAsUInt-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.indexDataAsUShort
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-indexDataAsUShort-f-1.rst
+            PyQt6.sip.array[int]
+        :description: QtQuick/QSGGeometry-indexDataAsUShort-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.indexDataPattern
         :returns:
@@ -251,18 +251,18 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.vertexDataAsColoredPoint2D
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-vertexDataAsColoredPoint2D-f-1.rst
+            PyQt6.sip.array[:sip:ref:`~PyQt6.QtQuick.QSGGeometry.ColoredPoint2D`]
+        :description: QtQuick/QSGGeometry-vertexDataAsColoredPoint2D-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.vertexDataAsPoint2D
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-vertexDataAsPoint2D-f-1.rst
+            PyQt6.sip.array[:sip:ref:`~PyQt6.QtQuick.QSGGeometry.Point2D`]
+        :description: QtQuick/QSGGeometry-vertexDataAsPoint2D-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.vertexDataAsTexturedPoint2D
         :returns:
-            PyQt6.sip.array
-        :description: QtQuick/QSGGeometry-vertexDataAsTexturedPoint2D-f-1.rst
+            PyQt6.sip.array[:sip:ref:`~PyQt6.QtQuick.QSGGeometry.TexturedPoint2D`]
+        :description: QtQuick/QSGGeometry-vertexDataAsTexturedPoint2D-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.vertexDataPattern
         :returns:

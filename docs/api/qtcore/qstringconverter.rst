@@ -49,6 +49,12 @@
             :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag`
         :description: QtCore/QStringConverter-__init__-f-4.rst
 
+    .. sip:method:: PyQt6.QtCore.QStringConverter.availableCodecs
+        :returns:
+            List[str]
+        :static:
+        :description: QtCore/QStringConverter-availableCodecs-f.rst
+
     .. sip:method:: PyQt6.QtCore.QStringConverter.hasError
         :returns:
             bool

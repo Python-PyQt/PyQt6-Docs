@@ -117,6 +117,9 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_PluginApplication
             :description: QtCore/Qt-ApplicationAttribute-AA_PluginApplication-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_QtQuickUseDefaultSizePolicy
+            :description: QtCore/Qt-ApplicationAttribute-AA_QtQuickUseDefaultSizePolicy-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_SetPalette
             :description: QtCore/Qt-ApplicationAttribute-AA_SetPalette-v.rst
 
@@ -2030,6 +2033,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_MicMute
             :description: QtCore/Qt-Key-Key_MicMute-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_micro
+            :description: QtCore/Qt-Key-Key_micro-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_MicVolumeDown
             :description: QtCore/Qt-Key-Key_MicVolumeDown-v.rst

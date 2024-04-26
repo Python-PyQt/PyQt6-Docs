@@ -334,6 +334,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`
         :description: QtWidgets/QDateTimeEdit-setTimeSpec-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setTimeZone
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :description: QtWidgets/QDateTimeEdit-setTimeZone-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.sizeHint
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
@@ -365,6 +370,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec`
         :description: QtWidgets/QDateTimeEdit-timeSpec-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.timeZone
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTimeZone`
+        :description: QtWidgets/QDateTimeEdit-timeZone-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.validate
         :args:

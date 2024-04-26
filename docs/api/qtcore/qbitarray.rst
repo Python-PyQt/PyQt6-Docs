@@ -109,11 +109,6 @@
             :sip:ref:`~PyQt6.QtCore.QBitArray`
         :description: QtCore/QBitArray-__iand__-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QBitArray.__invert__
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QBitArray`
-        :description: QtCore/QBitArray-__invert__-f.rst
-
     .. sip:method:: PyQt6.QtCore.QBitArray.__ior__
         :args:
             :sip:ref:`~PyQt6.QtCore.QBitArray`

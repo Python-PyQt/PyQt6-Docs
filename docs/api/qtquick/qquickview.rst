@@ -45,6 +45,13 @@
             parent: :sip:ref:`~PyQt6.QtGui.QWindow` = None
         :description: QtQuick/QQuickView-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickView.__init__
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            parent: :sip:ref:`~PyQt6.QtGui.QWindow` = None
+        :description: QtQuick/QQuickView-__init__-f-3.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickView.engine
         :returns:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
@@ -69,6 +76,12 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QKeyEvent`
         :description: QtQuick/QQuickView-keyReleaseEvent-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickView.loadFromModule
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtQuick/QQuickView-loadFromModule-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.mouseMoveEvent
         :args:

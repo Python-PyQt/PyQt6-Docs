@@ -134,10 +134,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.hasRawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtNetwork/QNetworkReply-hasRawHeader-f-1.rst
+        :description: QtNetwork/QNetworkReply-hasRawHeader-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.header
         :args:
@@ -186,10 +186,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.rawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QNetworkReply-rawHeader-f-1.rst
+        :description: QtNetwork/QNetworkReply-rawHeader-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.rawHeaderList
         :returns:

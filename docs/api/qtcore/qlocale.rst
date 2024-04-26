@@ -951,6 +951,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.AncientGreek
             :description: QtCore/QLocale-Language-AncientGreek-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Anii
+            :description: QtCore/QLocale-Language-Anii-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.AnyLanguage
             :description: QtCore/QLocale-Language-AnyLanguage-v.rst
 
@@ -1340,6 +1343,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kamba
             :description: QtCore/QLocale-Language-Kamba-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kangri
+            :description: QtCore/QLocale-Language-Kangri-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kannada
             :description: QtCore/QLocale-Language-Kannada-v.rst
@@ -1938,6 +1944,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Venda
             :description: QtCore/QLocale-Language-Venda-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Venetian
+            :description: QtCore/QLocale-Language-Venetian-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Vietnamese
             :description: QtCore/QLocale-Language-Vietnamese-v.rst
 
@@ -2523,6 +2532,21 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Script.YiScript
             :description: QtCore/QLocale-Script-YiScript-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.QLocale.TagSeparator
+        :description: QtCore/QLocale-TagSeparator-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.TagSeparator.Dash
+            :description: QtCore/QLocale-TagSeparator-Dash-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.TagSeparator.Underscore
+            :description: QtCore/QLocale-TagSeparator-Underscore-v.rst
+
+    .. sip:attribute:: PyQt6.QtCore.QLocale.DefaultTwoDigitBaseYear
+        :type: int
+        :const:
+        :static:
+        :description: QtCore/QLocale-DefaultTwoDigitBaseYear-a.rst
+
     .. sip:method:: PyQt6.QtCore.QLocale.__init__
         :description: QtCore/QLocale-__init__-f.rst
 
@@ -2555,9 +2579,11 @@
         :description: QtCore/QLocale-amText-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.bcp47Name
+        :args:
+            separator: :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator` = :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator.Dash`
         :returns:
             str
-        :description: QtCore/QLocale-bcp47Name-f.rst
+        :description: QtCore/QLocale-bcp47Name-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.c
         :returns:
@@ -2747,9 +2773,11 @@
         :description: QtCore/QLocale-monthName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.name
+        :args:
+            separator: :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator` = :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator.Underscore`
         :returns:
             str
-        :description: QtCore/QLocale-name-f.rst
+        :description: QtCore/QLocale-name-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.nativeCountryName
         :returns:
@@ -2918,70 +2946,78 @@
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
             Optional[str]
-            format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
+            Optional[str]
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-4.rst
+        :description: QtCore/QLocale-toDate-f-8.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.toDate
+        :args:
+            Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDate`
+        :description: QtCore/QLocale-toDate-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
             Optional[str]
             Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QCalendar`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-5.rst
+        :description: QtCore/QLocale-toDate-f-10.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
             Optional[str]
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-6.rst
+        :description: QtCore/QLocale-toDate-f-11.rst
 
-    .. sip:method:: PyQt6.QtCore.QLocale.toDate
+    .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
             Optional[str]
             Optional[str]
-            :sip:ref:`~PyQt6.QtCore.QCalendar`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
-            :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-7.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`
+        :description: QtCore/QLocale-toDateTime-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
             Optional[str]
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-4.rst
+        :description: QtCore/QLocale-toDateTime-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
             Optional[str]
             Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QCalendar`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-5.rst
+        :description: QtCore/QLocale-toDateTime-f-10.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
             Optional[str]
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
+            baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-6.rst
-
-    .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
-        :args:
-            Optional[str]
-            Optional[str]
-            :sip:ref:`~PyQt6.QtCore.QCalendar`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-7.rst
+        :description: QtCore/QLocale-toDateTime-f-11.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDouble
         :args:
@@ -3194,9 +3230,11 @@
         :description: QtCore/QLocale-toUShort-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.uiLanguages
+        :args:
+            separator: :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator` = :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator.Dash`
         :returns:
             List[str]
-        :description: QtCore/QLocale-uiLanguages-f.rst
+        :description: QtCore/QLocale-uiLanguages-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.weekdays
         :returns:

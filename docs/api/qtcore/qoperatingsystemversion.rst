@@ -311,37 +311,7 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-currentType-f.rst
 
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.majorVersion
-        :returns:
-            int
-        :description: QtCore/QOperatingSystemVersion-majorVersion-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.microVersion
-        :returns:
-            int
-        :description: QtCore/QOperatingSystemVersion-microVersion-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.minorVersion
-        :returns:
-            int
-        :description: QtCore/QOperatingSystemVersion-minorVersion-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.name
-        :returns:
-            str
-        :description: QtCore/QOperatingSystemVersion-name-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.segmentCount
-        :returns:
-            int
-        :description: QtCore/QOperatingSystemVersion-segmentCount-f.rst
-
     .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.type
         :returns:
             :sip:ref:`~PyQt6.QtCore.QOperatingSystemVersion.OSType`
         :description: QtCore/QOperatingSystemVersion-type-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QOperatingSystemVersion.version
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QVersionNumber`
-        :description: QtCore/QOperatingSystemVersion-version-f.rst

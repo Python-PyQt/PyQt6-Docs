@@ -304,6 +304,14 @@
         :static:
         :description: QtWidgets/QFileDialog-saveFileContent-f-1.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QFileDialog.saveFileContent
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            Optional[str]
+            parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
+        :static:
+        :description: QtWidgets/QFileDialog-saveFileContent-f-2.rst
+
     .. sip:method:: PyQt6.QtWidgets.QFileDialog.saveState
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`

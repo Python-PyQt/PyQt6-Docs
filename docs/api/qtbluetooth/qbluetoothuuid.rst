@@ -886,6 +886,11 @@
             bool
         :description: QtBluetooth/QBluetoothUuid-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__hash__
+        :returns:
+            int
+        :description: QtBluetooth/QBluetoothUuid-__hash__-f.rst
+
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.minimumSize
         :returns:
             int

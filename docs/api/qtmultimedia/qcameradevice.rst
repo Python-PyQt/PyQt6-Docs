@@ -23,6 +23,11 @@
             :sip:ref:`~PyQt6.QtMultimedia.QCameraDevice`
         :description: QtMultimedia/QCameraDevice-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QCameraDevice.correctionAngle
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation`
+        :description: QtMultimedia/QCameraDevice-correctionAngle-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QCameraDevice.description
         :returns:
             str

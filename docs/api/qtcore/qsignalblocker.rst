@@ -8,6 +8,9 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtCore/QSignalBlocker-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSignalBlocker.dismiss
+        :description: QtCore/QSignalBlocker-dismiss-f.rst
+
     .. sip:method:: PyQt6.QtCore.QSignalBlocker.__enter__
         :returns:
             Any

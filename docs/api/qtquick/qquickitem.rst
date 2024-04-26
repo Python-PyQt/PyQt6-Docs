@@ -236,6 +236,11 @@
             :sip:ref:`~PyQt6.QtGui.QFocusEvent`
         :description: QtQuick/QQuickItem-focusOutEvent-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickItem.focusPolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.FocusPolicy`
+        :description: QtQuick/QQuickItem-focusPolicy-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickItem.forceActiveFocus
         :description: QtQuick/QQuickItem-forceActiveFocus-f.rst
 
@@ -601,6 +606,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.FocusReason`
         :description: QtQuick/QQuickItem-setFocus-f-1.rst
 
+    .. sip:method:: PyQt6.QtQuick.QQuickItem.setFocusPolicy
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.FocusPolicy`
+        :description: QtQuick/QQuickItem-setFocusPolicy-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setHeight
         :args:
             float
@@ -842,6 +852,11 @@
         :args:
             bool
         :description: QtQuick/QQuickItem-focusChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtQuick.QQuickItem.focusPolicyChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.FocusPolicy`
+        :description: QtQuick/QQuickItem-focusPolicyChanged-s.rst
 
     .. sip:signal:: PyQt6.QtQuick.QQuickItem.heightChanged
         :description: QtQuick/QQuickItem-heightChanged-s.rst

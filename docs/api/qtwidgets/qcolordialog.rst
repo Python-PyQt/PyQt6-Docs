@@ -13,6 +13,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.NoButtons
             :description: QtWidgets/QColorDialog-ColorDialogOption-NoButtons-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.NoEyeDropperButton
+            :description: QtWidgets/QColorDialog-ColorDialogOption-NoEyeDropperButton-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QColorDialog.ColorDialogOption.ShowAlphaChannel
             :description: QtWidgets/QColorDialog-ColorDialogOption-ShowAlphaChannel-v.rst
 

@@ -34,6 +34,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Status.ReadPastEnd
             :description: QtCore/QDataStream-Status-ReadPastEnd-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Status.SizeLimitExceeded
+            :description: QtCore/QDataStream-Status-SizeLimitExceeded-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Status.WriteFailed
             :description: QtCore/QDataStream-Status-WriteFailed-v.rst
 
@@ -156,6 +159,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_6
             :description: QtCore/QDataStream-Version-Qt_6_6-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_7
+            :description: QtCore/QDataStream-Version-Qt_6_7-v.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :description: QtCore/QDataStream-__init__-f.rst
@@ -360,6 +366,13 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QTypeRevision`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__lshift__-f-25.rst
+
+    .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
@@ -378,13 +391,6 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
         :description: QtCore/QDataStream-__lshift__-f-27.rst
-
-    .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QTypeRevision`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__lshift__-f-25.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
@@ -662,6 +668,13 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QTypeRevision`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__rshift__-f-25.rst
+
+    .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
@@ -680,13 +693,6 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
         :description: QtCore/QDataStream-__rshift__-f-24.rst
-
-    .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QTypeRevision`
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__rshift__-f-25.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
         :args:

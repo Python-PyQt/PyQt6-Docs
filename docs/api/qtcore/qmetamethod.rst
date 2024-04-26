@@ -210,6 +210,11 @@
             int
         :description: QtCore/QMetaMethod-returnType-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaMethod.revision
+        :returns:
+            int
+        :description: QtCore/QMetaMethod-revision-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaMethod.tag
         :returns:
             str

@@ -54,6 +54,12 @@
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ChildRemoved
             :description: QtCore/QEvent-Type-ChildRemoved-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ChildWindowAdded
+            :description: QtCore/QEvent-Type-ChildWindowAdded-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ChildWindowRemoved
+            :description: QtCore/QEvent-Type-ChildWindowRemoved-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Clipboard
             :description: QtCore/QEvent-Type-Clipboard-v.rst
 
@@ -308,6 +314,12 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ParentChange
             :description: QtCore/QEvent-Type-ParentChange-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ParentWindowAboutToChange
+            :description: QtCore/QEvent-Type-ParentWindowAboutToChange-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.ParentWindowChange
+            :description: QtCore/QEvent-Type-ParentWindowChange-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.PlatformPanel
             :description: QtCore/QEvent-Type-PlatformPanel-v.rst

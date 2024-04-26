@@ -179,6 +179,13 @@
         :static:
         :description: QtCore/QCoreApplication-processEvents-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QCoreApplication.processEvents
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QEventLoop.ProcessEventsFlag`
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :static:
+        :description: QtCore/QCoreApplication-processEvents-f-4.rst
+
     .. sip:method:: PyQt6.QtCore.QCoreApplication.quit
         :static:
         :description: QtCore/QCoreApplication-quit-f.rst

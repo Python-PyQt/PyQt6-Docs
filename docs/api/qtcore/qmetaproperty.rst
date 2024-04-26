@@ -140,6 +140,11 @@
             bool
         :description: QtCore/QMetaProperty-reset-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaProperty.revision
+        :returns:
+            int
+        :description: QtCore/QMetaProperty-revision-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaProperty.typeId
         :returns:
             int

@@ -159,6 +159,11 @@
             int
         :description: QtMultimedia/QVideoFrame-planeCount-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.rotation
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation`
+        :description: QtMultimedia/QVideoFrame-rotation-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.rotationAngle
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame.RotationAngle`
@@ -173,6 +178,11 @@
         :args:
             bool
         :description: QtMultimedia/QVideoFrame-setMirrored-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setRotation
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation`
+        :description: QtMultimedia/QVideoFrame-setRotation-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setRotationAngle
         :args:

@@ -37,6 +37,9 @@
         .. sip:enum-member:: PyQt6.QtRemoteObjects.QRemoteObjectNode.ErrorCode.ServerAlreadyCreated
             :description: QtRemoteObjects/QRemoteObjectNode-ErrorCode-ServerAlreadyCreated-v.rst
 
+        .. sip:enum-member:: PyQt6.QtRemoteObjects.QRemoteObjectNode.ErrorCode.SocketAccessError
+            :description: QtRemoteObjects/QRemoteObjectNode-ErrorCode-SocketAccessError-v.rst
+
         .. sip:enum-member:: PyQt6.QtRemoteObjects.QRemoteObjectNode.ErrorCode.SourceNotRegistered
             :description: QtRemoteObjects/QRemoteObjectNode-ErrorCode-SourceNotRegistered-v.rst
 

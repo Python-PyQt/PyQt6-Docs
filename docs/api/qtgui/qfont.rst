@@ -251,6 +251,9 @@
     .. sip:method:: PyQt6.QtGui.QFont.clearFeatures
         :description: QtGui/QFont-clearFeatures-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFont.clearVariableAxes
+        :description: QtGui/QFont-clearVariableAxes-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFont.defaultFamily
         :returns:
             str
@@ -280,15 +283,15 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.featureTags
         :returns:
-            List[int]
-        :description: QtGui/QFont-featureTags-f.rst
+            List[:sip:ref:`~PyQt6.QtGui.QFont.Tag`]
+        :description: QtGui/QFont-featureTags-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.featureValue
         :args:
-            int
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
         :returns:
             int
-        :description: QtGui/QFont-featureValue-f.rst
+        :description: QtGui/QFont-featureValue-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.fixedPitch
         :returns:
@@ -346,10 +349,17 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.isFeatureSet
         :args:
-            int
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
         :returns:
             bool
-        :description: QtGui/QFont-isFeatureSet-f.rst
+        :description: QtGui/QFont-isFeatureSet-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.isVariableAxisSet
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+        :returns:
+            bool
+        :description: QtGui/QFont-isVariableAxisSet-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.italic
         :returns:
@@ -445,15 +455,9 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.setFeature
         :args:
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
             int
-            int
-        :description: QtGui/QFont-setFeature-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QFont.setFeature
-        :args:
-            bytes
-            int
-        :description: QtGui/QFont-setFeature-f-1.rst
+        :description: QtGui/QFont-setFeature-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.setFixedPitch
         :args:
@@ -537,6 +541,12 @@
             bool
         :description: QtGui/QFont-setUnderline-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFont.setVariableAxis
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+            float
+        :description: QtGui/QFont-setVariableAxis-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFont.setWeight
         :args:
             int
@@ -556,14 +566,6 @@
         :returns:
             bool
         :description: QtGui/QFont-strikeOut-f.rst
-
-    .. sip:method:: PyQt6.QtGui.QFont.stringToTag
-        :args:
-            bytes
-        :returns:
-            int
-        :static:
-        :description: QtGui/QFont-stringToTag-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.style
         :returns:
@@ -612,14 +614,6 @@
             :sip:ref:`~PyQt6.QtGui.QFont`
         :description: QtGui/QFont-swap-f.rst
 
-    .. sip:method:: PyQt6.QtGui.QFont.tagToString
-        :args:
-            int
-        :returns:
-            :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :static:
-        :description: QtGui/QFont-tagToString-f.rst
-
     .. sip:method:: PyQt6.QtGui.QFont.toString
         :returns:
             str
@@ -632,13 +626,25 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.unsetFeature
         :args:
-            bytes
-        :description: QtGui/QFont-unsetFeature-f.rst
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+        :description: QtGui/QFont-unsetFeature-f-2.rst
 
-    .. sip:method:: PyQt6.QtGui.QFont.unsetFeature
+    .. sip:method:: PyQt6.QtGui.QFont.unsetVariableAxis
         :args:
-            int
-        :description: QtGui/QFont-unsetFeature-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+        :description: QtGui/QFont-unsetVariableAxis-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.variableAxisTags
+        :returns:
+            List[:sip:ref:`~PyQt6.QtGui.QFont.Tag`]
+        :description: QtGui/QFont-variableAxisTags-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFont.variableAxisValue
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`
+        :returns:
+            float
+        :description: QtGui/QFont-variableAxisValue-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.weight
         :returns:

@@ -18,6 +18,14 @@
             bool
         :description: QtCore/QTypeRevision-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTypeRevision.fromEncodedVersion
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QTypeRevision`
+        :static:
+        :description: QtCore/QTypeRevision-fromEncodedVersion-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTypeRevision.__ge__
         :args:
             :sip:ref:`~PyQt6.QtCore.QTypeRevision`
