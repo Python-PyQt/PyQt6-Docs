@@ -3,8 +3,8 @@ Installing PyQt6
 
 Both the GPL and commercial versions of PyQt6 can be built from sdists or
 installed from binary wheels.  Although this section concentrates on PyQt6
-itself it applies equally to the add-on projects (i.e. PyQt6-3D and
-PyQt6-NetworkAuth).
+itself it applies equally to the add-on projects (e.g. PyQt6-3D,
+PyQt6-NetworkAuth etc.).
 
 
 Understanding the Correct Version to Install
@@ -52,8 +52,8 @@ Installing from Wheels
 
 Wheels are the standard Python packaging format for pure Python or binary
 extension modules such as PyQt6.  Wheels are provide for 64-bit Windows, 64-bit
-macOS and 64-bit Linux.  These correspond to the platforms for which The Qt
-Company provide binary installers.
+macOS (Intel and ARM) and 64-bit Linux.  These correspond to the platforms for
+which The Qt Company provide binary installers.
 
 Wheels are installed using Python's :program:`pip` program.
 
@@ -65,16 +65,17 @@ To install the wheel for the GPL version of PyQt6, run::
 
     pip install PyQt6
 
-This will install the wheel for your platform and your version of Python
-(assuming both are supported).  The wheel will be automatically downloaded from
-`PyPI <https://pypi.org/project/PyQt6/>`__.
+This will attempt to install the wheel for your platform and your version of
+Python (assuming both are supported).  The wheel will be automatically
+downloaded from `PyPI <https://pypi.org/project/PyQt6/>`__.
 
 You may find that :program:`pip` doesn't download a wheel but instead downloads
 the sdist and tries to build PyQt6 from source.  If it does then the build will
 probably fail with a cryptic error message.  There are a number of reasons for
 this:
 
-- your version of Python is unsupported (e.g. v3.6)
+- there is no wheel available for your platform and version of Python
+- your version of Python is unsupported (e.g. v3.7)
 - your version of :program:`pip` is too old and doesn't support the current
   standards for naming wheels
 - in order for :program:`pip` to build from source additional options must be
@@ -85,7 +86,7 @@ the following should be used::
 
     pip -v install --config-settings --confirm-license= --config-settings --qmake=/path/to/qmake PyQt6
 
-The ``-v`` option is not required but is recommended. The :programm:`qmake`
+The ``-v`` option is not required but is recommended. The :program:`qmake`
 location does not need to specified if it is on :envvar:`PATH`.
 
 :program:`pip` will also automatically install any dependencies that are
@@ -101,12 +102,6 @@ installation required by PyQt6.  The PyQt6-sip project contains the
 To uninstall the GPL version, run::
 
     pip uninstall PyQt6
-
-.. note::
-    Qt's support for TLS/SSL will not work on Windows when installing wheels
-    with Python v3.7.0 to v3.7.3.  This is because of incompatibilities between
-    the different versions of OpenSSL that these versions require.  All other
-    version combinations should be fine.
 
 .. note::
     The Qt libraries in the Linux wheel of the PyQt6-Qt6 project require
@@ -160,9 +155,19 @@ will produce a new wheel that you can distribute easily to your developers.
 The documentation can be found `here
 <https://www.riverbankcomputing.com/static/Docs/PyQt-builder/pyqtbundle.html>`__.
 
+To uninstall the commercial version, run::
+
+    pip uninstall PyQt6-commercial
+
 
 Building and Installing from Source
 -----------------------------------
+
+As described above :program:`pip` can be used to download, build and
+install the GPL source packages from the `PyQt6
+<https://pypi.org/project/PyQt6/>`__ project at PyPI.  However doing so is not
+recommended as it is not easy to configure the installation or diagnose any
+problems.
 
 PyQt6 is built using `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__.
 To install it, run::
