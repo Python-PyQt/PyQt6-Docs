@@ -17,8 +17,8 @@ additional libraries.  At the moment these are PyQt6-3D and PyQt6-NetworkAuth.
 Each is provided as a source distribution (*sdist*) and binary wheels for
 Windows, Linux and macOS.
 
-PyQt6 supports the Windows, Linux, Android, macOS and iOS platforms and
-requires Python v3.6.1 or later.
+PyQt6 supports the Windows, Linux and macOS platforms and requires Python v3.8
+or later.
 
 The homepage for PyQt6 is https://www.riverbankcomputing.com/software/pyqt/.
 Here you will always find the latest stable version and current development
