@@ -153,7 +153,7 @@ will produce a new wheel that you can distribute easily to your developers.
     pip install PyQt-builder
 
 The documentation can be found `here
-<https://www.riverbankcomputing.com/static/Docs/PyQt-builder/pyqtbundle.html>`__.
+<https://pyqt-builder.readthedocs.io/en/stable/pyqtbundle.html>`__.
 
 To uninstall the commercial version, run::
 
@@ -186,9 +186,9 @@ download instructions which were sent to you when you made your purchase.  You
 must also download your :file:`pyqt-commercial.sip` license file.
 
 PyQt-builder extends SIP's build system by adding `options
-<https://www.riverbankcomputing.com//static/Docs/PyQt-builder/command_line_tools.html>`__
+<https://pyqt-builder.readthedocs.io/en/stable/command_line_tools.html>`__
 to SIP's `command line tools
-<https://www.riverbankcomputing.com/static/Docs/sip/command_line_tools.html>`__.
+<https://python-sip.readthedocs.io/en/stable/command_line_tools.html>`__.
 
 PyQt6 further extends the build system by adding the following options to SIP's
 command line tools.
