@@ -10,11 +10,10 @@ values which means that the type of the original value is lost.  Therefore a
 setting with an integer value of ``42`` may be retrieved (on some platforms) as
 a string value of ``'42'``.
 
-As a solution to this problem PyQt6's implementation of
-:meth:`~PyQt4.QtCore.QSettings.value` takes an optional third argument called
-``type``.  This is either a Python type object, e.g. ``int``, or a string that
-is the name of a C++ type, e.g. ``'QStringList'``.  The value returned will be
-an object of the requested type.
+As a solution to this problem PyQt6's implementation takes an optional third
+argument called ``type``.  This is either a Python type object, e.g. ``int``,
+or a string that is the name of a C++ type, e.g. ``'QStringList'``.  The value
+returned will be an object of the requested type.
 
 For example::
 
