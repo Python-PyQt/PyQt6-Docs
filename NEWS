@@ -1,3 +1,7 @@
+v6.7.1 29th June 2024
+  - Introduction updates.
+  - Fixed links to external documentation.
+
 v6.7.0 26th April 2024
   - Rebased on Qt v6.7.0 and PyQt v6.7.0.
   - Installation updates.
