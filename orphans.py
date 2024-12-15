@@ -75,8 +75,9 @@ def orphans(root_dir, remove):
                 parts.pop()
 
             type_ch = parts.pop()
+            nr_parts = len(parts)
 
-            if len(parts) == 1:
+            if (nr_parts == 1 and type_ch != 'c') or (nr_parts == 2 and type_ch == 'v'):
                 scope = module_name
                 scope_is_module = True
             else:
