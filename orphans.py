@@ -13,19 +13,35 @@ class APICache:
         """ Initialise the cache. """
 
         self._api_root_dir = os.path.join(root_dir, 'docs', 'api')
-        self._cache = None
         self._api_dir = None
+        self._cache = None
+        self._module_name = None
 
-    def is_orphan(self, scope, scope_is_module, target):
+    def is_orphan(self, target_fn):
         """ Return True if a target description file is an orphan. """
 
-        # Construct the name of the API file.
-        api_file = os.path.join(self._api_dir, scope.lower())
+        # Extract the scope.
+        scope = target_fn[:-4].split('-')
 
-        if scope_is_module:
-            api_file += '-module'
+        if scope[-1][0].isdigit():
+            scope.pop()
 
-        api_file += '.rst'
+        type_ch = scope.pop()
+
+        # If the name is that of an enum member, remove it.
+        if type_ch == 'v':
+            scope.pop()
+
+        # Unless it is a class, remove the name of the item (leaving the
+        # scope).
+        if type_ch != 'c':
+            scope.pop()
+
+        if len(scope) == 0:
+            scope = [self._module_name, 'module']
+
+        api_file = os.path.join(
+                self._api_dir, '-'.join(scope).lower() + '.rst')
 
         # Get the (possibly cached) contents of the API file.
         try:
@@ -39,6 +55,8 @@ class APICache:
 
             self._cache[api_file] = api
 
+        target = self._module_name + '/' + target_fn
+
         return target not in api
 
     def set_module(self, module_name):
@@ -46,6 +64,7 @@ class APICache:
 
         self._api_dir = os.path.join(self._api_root_dir, module_name.lower())
         self._cache = {}
+        self._module_name = module_name
 
 
 def orphans(root_dir, remove):
@@ -66,25 +85,7 @@ def orphans(root_dir, remove):
         api_cache.set_module(module_name)
 
         for fn in filenames:
-            target = module_name + '/' + fn
-
-            # Extract the scope and its type.
-            parts = fn[:-4].split('-')
-
-            if parts[-1][0].isdigit():
-                parts.pop()
-
-            type_ch = parts.pop()
-            nr_parts = len(parts)
-
-            if (nr_parts == 1 and type_ch != 'c') or (nr_parts == 2 and type_ch == 'v'):
-                scope = module_name
-                scope_is_module = True
-            else:
-                scope = parts[0]
-                scope_is_module = (type_ch == 'm')
-
-            if api_cache.is_orphan(scope, scope_is_module, target):
+            if api_cache.is_orphan(fn):
                 desc_fn = os.path.join(dirpath, fn)
 
                 if remove:
