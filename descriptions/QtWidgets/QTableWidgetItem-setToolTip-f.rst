@@ -1,9 +1,0 @@
-.. sip:method-description::
-    :status: todo
-    :pysig: 341be97d9aff90c9978347f66f945b77
-    :realsig: (const QString&)
-    :digest: eff99d0361890a74663ec623b53e245a
-
-Sets the item's tooltip to the string specified by *toolTip*.
-
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.toolTip`, :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.setStatusTip`, :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.setWhatsThis`.

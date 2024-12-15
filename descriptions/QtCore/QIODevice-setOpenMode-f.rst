@@ -1,9 +1,0 @@
-.. sip:method-description::
-    :status: todo
-    :pysig: db43967254f469d4ec78a048838b9f4a
-    :realsig: (QIODeviceBase::OpenMode)
-    :digest: d1300f680bd7fec87f01f23f30986cb4
-
-Sets the OpenMode of the device to *openMode*. Call this function to set the open mode if the flags change after the device has been opened.
-
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QIODevice.openMode`, OpenMode.

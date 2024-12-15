@@ -1,7 +1,0 @@
-.. sip:enum-member-description::
-    :status: todo
-    :value: 0x00000008
-    :realname: QStyle::StateFlag::State_Off
-    :digest: abac186b958740fc2e8365136779f099
-
-Used to indicate if the widget is not checked.

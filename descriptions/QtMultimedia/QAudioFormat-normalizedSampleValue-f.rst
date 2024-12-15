@@ -1,7 +1,0 @@
-.. sip:method-description::
-    :status: todo
-    :pysig: 0a63d14ded5484f2968537227421eac0
-    :realsig: (const void*) const
-    :digest: 0270bf22c3e6910728ed7c7cad3909b4
-
-Normalizes the *sample* value to a number between -1 and 1. The method depends on the QaudioFormat.
