@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: c5efb5038223827b149187ad5f73c5be
 
-TODO
+A pie graph.

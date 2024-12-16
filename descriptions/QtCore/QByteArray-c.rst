@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Array of bytes
-    :digest: 779629e6a8ed441d4e971e498ae52db0
+    :digest: aa2612d6e5d34691c6553bdcbb381cb8
 
 The :sip:ref:`~PyQt6.QtCore.QByteArray` class provides an array of bytes.
 
@@ -69,7 +69,7 @@ If you want to find all occurrences of a particular byte or sequence of bytes in
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qbytearray.py
     :lines: 90-95
 
-If you simply want to check whether a :sip:ref:`~PyQt6.QtCore.QByteArray` contains a particular byte sequence, use :sip:ref:`~PyQt6.QtCore.QByteArray.contains`. If you want to find out how many times a particular byte sequence occurs in the byte array, use count(). If you want to replace all occurrences of a particular value with another, use one of the two-parameter :sip:ref:`~PyQt6.QtCore.QByteArray.replace` overloads.
+If you simply want to check whether a :sip:ref:`~PyQt6.QtCore.QByteArray` contains a particular byte sequence, use :sip:ref:`~PyQt6.QtCore.QByteArray.contains`. If you want to find out how many times a particular byte sequence occurs in the byte array, use :sip:ref:`~PyQt6.QtCore.QByteArray.count`. If you want to replace all occurrences of a particular value with another, use one of the two-parameter :sip:ref:`~PyQt6.QtCore.QByteArray.replace` overloads.
 
 :sip:ref:`~PyQt6.QtCore.QByteArray`\ s can be compared using overloaded operators such as operator<(), operator<=(), operator==(), operator>=(), and so on. The comparison is based exclusively on the numeric values of the bytes and is very fast, but is not what a human would expect. QString::localeAwareCompare() is a better choice for sorting user-interface strings.
 

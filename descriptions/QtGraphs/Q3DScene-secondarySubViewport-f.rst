@@ -2,5 +2,6 @@
     :status: todo
     :pysig: f036f485eb055d6ec1bb498745801d23
     :realsig: () const
+    :digest: 7c5a9073894b109c388eaeaf46cebc0e
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.Q3DScene.setSecondarySubViewport`.

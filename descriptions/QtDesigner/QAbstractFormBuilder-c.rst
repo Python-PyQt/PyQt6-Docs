@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Default implementation for classes that create user interfaces at run-time
-    :digest: 6d84fd9b9d13533a52dd0120ed687490
+    :digest: 00ec1724341cb98308460d0e41207097
 
 The :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder` class provides a default implementation for classes that create user interfaces at run-time.
 
 :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder` provides a standard interface and a default implementation for constructing forms from user interface files. It is not intended to be instantiated directly. Use the :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class to create user interfaces from UI files at run-time. For example:
 
-.. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_uilib_abstractformbuilder.py
+.. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_uilib_formbuilder.py
     :lines: 54-66
 
 To override certain aspects of the form builder's behavior, subclass :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder` and reimplement the relevant virtual functions:
@@ -18,6 +18,6 @@ To override certain aspects of the form builder's behavior, subclass :sip:ref:`~
 
 * :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder.workingDirectory` and :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder.setWorkingDirectory` control the directory in which forms are held. The form builder looks for other resources on paths relative to this directory.
 
-The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class is typically used by custom components and applications that embed *Qt Designer*. Standalone applications that need to dynamically generate user interfaces at run-time use the QUiLoader, found in the Qt UI Tools module.
+The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class is typically used by custom components and applications that embed Qt Widgets Designer. Standalone applications that need to dynamically generate user interfaces at run-time use the QUiLoader, found in the Qt UI Tools module.
 
 .. seealso:: Qt UI Tools.

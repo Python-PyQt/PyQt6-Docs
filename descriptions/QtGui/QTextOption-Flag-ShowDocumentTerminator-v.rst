@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x10
-    :digest: 8ff9699fa95b238e62ee13d21eb87bed
+    :digest: 46ad4e253bf3ff7c88f746a738cfe586
 
-Visualize the end of the document with a section sign. This enum value was added in Qt 5.7.
+Visualize the end of the document with a section sign.

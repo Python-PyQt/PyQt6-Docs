@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 5560a5a279f37aed8cc960dfa5420512
     :realsig: (const QString&, QObject*, const char*)
-    :digest: 5f2502189b162e75f059117c32c47608
+    :digest: a7d63c567880c54b5431ce742656b368
 
 Sets the handler for the given *scheme* to be the handler *method* provided by the *receiver* object.
 
@@ -19,10 +19,12 @@ Note that the handler will always be called from within the same thread that cal
 
 You must call :sip:ref:`~PyQt6.QtGui.QDesktopServices.unsetUrlHandler` before destroying the handler object, so the destruction of the handler object does not overlap with concurrent invocations of :sip:ref:`~PyQt6.QtGui.QDesktopServices.openUrl` using it.
 
-iOS
----
+.. _qdesktopservices-configuring-qdesktopservices-url-handler-on-ios-and-macos:
 
-To use this function for receiving data from other apps on iOS you also need to add the custom scheme to the ``CFBundleURLSchemes`` list in your Info.plist file:
+iOS and macOS
+-------------
+
+To use this function for receiving data from other apps on iOS/macOS you also need to add the custom scheme to the ``CFBundleURLSchemes`` list in your Info.plist file:
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 104-112
@@ -36,12 +38,14 @@ To claim support for http and https the above entry in the Info.plist file is no
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 128-131
 
-iOS will search for /.well-known/apple-app-site-association on your domain, when the application is installed. If you want to listen to ``https://your.domain.com/help?topic=ABCDEF`` you need to provide the following content there:
+iOS/macOS will search for /.well-known/apple-app-site-association on your domain, when the application is installed. If you want to listen to ``https://your.domain.com/help?topic=ABCDEF`` you need to provide the following content there:
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_util_qdesktopservices.py
     :lines: 135-146
 
 For more information, see the Apple Developer Documentation for Supporting Associated Domains.
+
+.. _qdesktopservices-configuring-qdesktopservices-url-handler-on-android:
 
 Android
 -------

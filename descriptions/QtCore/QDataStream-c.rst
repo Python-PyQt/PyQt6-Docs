@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Serialization of binary data to a QIODevice
-    :digest: fc73c87e4967f2141b63b775c106427a
+    :digest: 0eb2e8e04769367257cb75d8b1e15eba
 
 The :sip:ref:`~PyQt6.QtCore.QDataStream` class provides serialization of binary data to a :sip:ref:`~PyQt6.QtCore.QIODevice`.
 
@@ -29,9 +29,16 @@ For integers it is best to always cast to a Qt integer type for writing, and to 
 
 Enumerations can be serialized through :sip:ref:`~PyQt6.QtCore.QDataStream` without the need of manually defining streaming operators. Enum classes are serialized using the declared size.
 
-To take one example, a ``char \*`` string is written as a 32-bit integer equal to the length of the string including the '\\0' byte, followed by all the characters of the string including the '\\0' byte. When reading a ``char \*`` string, 4 bytes are read to create the 32-bit length value, then that many characters for the ``char \*`` string including the '\\0' terminator are read.
-
 The initial I/O device is usually set in the constructor, but can be changed with :sip:ref:`~PyQt6.QtCore.QDataStream.setDevice`. If you've reached the end of the data (or if there is no I/O device set) :sip:ref:`~PyQt6.QtCore.QDataStream.atEnd` will return true.
+
+.. _qdatastream-serializing-containers-and-strings:
+
+Serializing containers and strings
+----------------------------------
+
+The serialization format is a length specifier first, then *l* bytes of data. The length specifier is one quint32 if the version is less than 6.7 or if the number of elements is less than 0xfffffffe (2^32 -2). Otherwise there is an extend value 0xfffffffe followed by one quint64 with the actual value. In addition for containers that support isNull(), it is encoded as a single quint32 with all bits set and no data.
+
+To take one example, if the string size fits into 32 bits, a ``char \*`` string is written as a 32-bit integer equal to the length of the string, including the '\\0' byte, followed by all the characters of the string, including the '\\0' byte. If the string size is greater, the value 0xffffffffe is written as a marker of an extended size, followed by 64 bits of the actual size. When reading a ``char \*`` string, 4 bytes are read first. If the value is not equal to 0xffffffffe (the marker of extended size), then these 4 bytes are treated as the 32 bit size of the string. Otherwise, the next 8 bytes are read and treated as a 64 bit size of the string. Then, all the characters for the ``char \*`` string, including the '\\0' terminator, are read.
 
 .. _qdatastream-versioning:
 

@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 8f5991321cb6aac53a1920fcfb33555e
+    :digest: 4f2c9b9e388c6f3c6c06571abba6c1c3
 
 This enum describes the different types of meta information that can be added to a document.
 

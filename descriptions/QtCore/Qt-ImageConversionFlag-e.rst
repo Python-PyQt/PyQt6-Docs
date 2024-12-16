@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 60710401f284728100527822e581bc98
+    :digest: ba0b008aa69cd609c2c2903d772eecec
 
 The options marked "(default)" are set if no other values from the list are included (since the defaults are zero):
 

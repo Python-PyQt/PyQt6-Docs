@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Support for monitoring activity on a file descriptor
-    :digest: 78c2417a4ca1c6af4a6ce44477e042f3
+    :digest: 46b9083ba59ae3f76132dfbb92f39dda
 
 The :sip:ref:`~PyQt6.QtCore.QSocketNotifier` class provides support for monitoring activity on a file descriptor.
 
@@ -9,7 +9,7 @@ The :sip:ref:`~PyQt6.QtCore.QSocketNotifier` makes it possible to integrate Qt's
 
 .. _qsocketnotifier-write-notifiers:
 
-Once you have opened a device using a low-level (usually platform-specific) API, you can create a socket notifier to monitor the file descriptor. If the descriptor is passed to the notifier's constructor, the socket notifier is enabled by default, i.e. it emits the :sip:ref:`~PyQt6.QtCore.QSocketNotifier.activated` signal whenever a socket event corresponding to its type occurs. Connect the :sip:ref:`~PyQt6.QtCore.QSocketNotifier.activated` signal to the slot you want to be called when an event corresponding to your socket notifier's type occurs.
+Once you have opened a device using a low-level (usually platform-specific) API, you can create a socket notifier to monitor the file descriptor. If the descriptor is passed to the notifier's constructor, the socket notifier is enabled by default, i.e. it emits the activated() signal whenever a socket event corresponding to its type occurs. Connect the activated() signal to the slot you want to be called when an event corresponding to your socket notifier's type occurs.
 
 You can create a socket notifier with no descriptor assigned. In this case, you should call the :sip:ref:`~PyQt6.QtCore.QSocketNotifier.setSocket` function after the descriptor has been obtained.
 

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 2ab248719d5de316c99d6b3d43d52d53
 
-TODO
+Key is not registered with the authenticator.

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3644c1d4a494536efa3a6514238bfc92
+    :digest: 598abfe0cb5ce9d64c24134aa9adb73b
 
-Lists all of the features that a plugin may currently support. This can be used in QNetworkInformation::load().
+Lists all of the features that a plugin may currently support. This can be used in :sip:ref:`~PyQt6.QtNetwork.QNetworkInformation.load`.

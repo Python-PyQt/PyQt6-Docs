@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7455a82fef3e9d8cd24d18e2f6076c4a
     :realsig: (QEventLoop::ProcessEventsFlags)
-    :digest: 5d65a24c4ef44ec40b100c89adfc7ad8
+    :digest: d3c5992bc4f12715153c96842c261e73
 
 Processes some pending events for the calling thread according to the specified *flags*.
 
@@ -12,4 +12,4 @@ In the event that you are running a local loop which calls this function continu
 
 Calling this function processes events only for the calling thread, and returns after all available events have been processed. Available events are events queued before the function call. This means that events that are posted while the function runs will be queued until a later round of event processing.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QCoreApplication.exec`, :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QEventLoop.processEvents`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.sendPostedEvents`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QCoreApplication.exec`, :sip:ref:`~PyQt6.QtCore.QTimer`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QEventLoop.processEvents`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.sendPostedEvents`.

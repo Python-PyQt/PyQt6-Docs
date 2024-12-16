@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 622dd1ac8dbcb07da45521c2b0868a39
     :realsig: (QObject*,Qt::ConnectionType,QGenericReturnArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument) const
-    :digest: ed516b81db1a71dea3f5546d503f95ec
+    :digest: 0958b5171244d2e2e53e6244c669d6ec
 
 Please use the variadic overload of this function
 
@@ -21,8 +21,8 @@ With asynchronous method invocations, the parameters must be of types that are k
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qmetaobject.py
     :lines: 132-132
 
-call qRegisterMetaType() to register the data type before you call QMetaMethod::invoke().
+call qRegisterMetaType() to register the data type before you call :sip:ref:`~PyQt6.QtCore.QMetaMethod.invoke`.
 
-**Warning:** In addition to the limitations of the variadic invoke() overload, the arguments must have the same type as the ones expected by the method, else, the behavior is undefined.
+**Warning:** In addition to the limitations of the variadic :sip:ref:`~PyQt6.QtCore.QMetaMethod.invoke` overload, the arguments must have the same type as the ones expected by the method, else, the behavior is undefined.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.Q_ARG`, :sip:ref:`~PyQt6.QtCore.Q_RETURN_ARG`, qRegisterMetaType(), :sip:ref:`~PyQt6.QtCore.QMetaObject.invokeMethod`.

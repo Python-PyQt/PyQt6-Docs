@@ -2,5 +2,8 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (qsizetype)
+    :digest: 6aa96dd9577537e7a5b8f61f847b226c
 
-TODO
+This signal is emitted when a point is replaced at the position specified by *index*.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QXYSeries.replace`.

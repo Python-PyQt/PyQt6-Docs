@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for handling custom URL schemes
-    :digest: cc7c44ef13acace38482d831ded5b597
+    :digest: 88680dfe1b3c5d09273796e6caedd7fe
 
 The :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler` class is a base class for handling custom URL schemes.
 
@@ -29,7 +29,7 @@ Finally, install the scheme handler object via :sip:ref:`~PyQt6.QtWebEngineCore.
             const QUrl url = job->requestUrl();
 
             if (isValidUrl(url)) {
-                if (method == QByteArrayLiteral("GET")) {
+                if (method == QByteArrayLiteral("GET"))
                     job->reply(QByteArrayLiteral("text/html"), makeReply(url));
                 else // Unsupported method
                     job->fail(QWebEngineUrlRequestJob::RequestDenied);

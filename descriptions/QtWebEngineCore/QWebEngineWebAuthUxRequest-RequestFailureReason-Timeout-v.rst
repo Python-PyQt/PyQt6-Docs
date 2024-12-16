@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: a6c756405ee57569ede9b36175feff8a
 
-TODO
+The authentication session has timed out.

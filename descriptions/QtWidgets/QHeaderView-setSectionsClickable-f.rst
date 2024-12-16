@@ -2,8 +2,8 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: (bool)
-    :digest: 280bca60f29537c6f235cb672a2f4122
+    :digest: 530d8cc218c4eb1f0dd042c7aac94dbf
 
-If *clickable* is true, the header will respond to single clicks.
+Set :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionsClickable` to *clickable*.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionsClickable`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionClicked`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionPressed`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.setSortIndicatorShown`.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionsClickable`.

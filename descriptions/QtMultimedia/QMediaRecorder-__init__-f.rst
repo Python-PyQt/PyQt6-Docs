@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 0281bb2a03f8f3624f862e1826a39fe8
     :realsig: (QObject*)
-    :digest: dc6b1b603a8beac739c894e7a9c61012
+    :digest: 07074a6f2361b7289e2f14b0198950f8
 
-Constructs a media recorder which records the media produced by a microphone and camera. The media recorder is a child of *parent*.
+Constructs a media recorder. The media recorder is a child of *parent*.

@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Used to dynamically construct user interfaces from UI files at run-time
-    :digest: 479536db63731283115c47fc0aa6d222
+    :digest: e8ac0f12909ead7db5ce30cec846ee23
 
 The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class is used to dynamically construct user interfaces from UI files at run-time.
 
-The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class provides a mechanism for dynamically creating user interfaces at run-time, based on UI files created with *Qt Designer*. For example:
+The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class provides a mechanism for dynamically creating user interfaces at run-time, based on UI files created with Qt Widgets Designer. For example:
 
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_uilib_formbuilder.py
     :lines: 54-66
@@ -27,6 +27,6 @@ By including the user interface in the example's resources (``myForm.qrc``), we 
 
 * :sip:ref:`~PyQt6.QtDesigner.QFormBuilder.customWidgets` returns a list of interfaces to plugins that can be used to create new instances of registered custom widgets.
 
-The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class is typically used by custom components and applications that embed *Qt Designer*. Standalone applications that need to dynamically generate user interfaces at run-time use the QUiLoader class, found in the QtUiTools module.
+The :sip:ref:`~PyQt6.QtDesigner.QFormBuilder` class is typically used by custom components and applications that embed Qt Widgets Designer. Standalone applications that need to dynamically generate user interfaces at run-time use the QUiLoader class, found in the QtUiTools module.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QAbstractFormBuilder`.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Platform-independent way to manage threads
-    :digest: 6ad78a9ba9d69d5e671023a71b502155
+    :digest: 0ce466c33b40e0c7f7203babce64d309
 
 The :sip:ref:`~PyQt6.QtCore.QThread` class provides a platform-independent way to manage threads.
 
@@ -42,7 +42,7 @@ Use :sip:ref:`~PyQt6.QtCore.QThread.wait` to block the calling thread, until the
 
 :sip:ref:`~PyQt6.QtCore.QThread` also provides static, platform independent sleep functions: :sip:ref:`~PyQt6.QtCore.QThread.sleep`, :sip:ref:`~PyQt6.QtCore.QThread.msleep`, and :sip:ref:`~PyQt6.QtCore.QThread.usleep` allow full second, millisecond, and microsecond resolution respectively.
 
-**Note:** :sip:ref:`~PyQt6.QtCore.QThread.wait` and the :sip:ref:`~PyQt6.QtCore.QThread.sleep` functions should be unnecessary in general, since Qt is an event-driven framework. Instead of :sip:ref:`~PyQt6.QtCore.QThread.wait`, consider listening for the :sip:ref:`~PyQt6.QtCore.QThread.finished` signal. Instead of the :sip:ref:`~PyQt6.QtCore.QThread.sleep` functions, consider using :sip:ref:`~PyQt6.QtCore.QTimer`.
+**Note:** :sip:ref:`~PyQt6.QtCore.QThread.wait` and the :sip:ref:`~PyQt6.QtCore.QThread.sleep` functions should be unnecessary in general, since Qt is an event-driven framework. Instead of :sip:ref:`~PyQt6.QtCore.QThread.wait`, consider listening for the :sip:ref:`~PyQt6.QtCore.QThread.finished` signal. Instead of the :sip:ref:`~PyQt6.QtCore.QThread.sleep` functions, consider using QChronoTimer.
 
 The static functions :sip:ref:`~PyQt6.QtCore.QThread.currentThreadId` and :sip:ref:`~PyQt6.QtCore.QThread.currentThread` return identifiers for the currently executing thread. The former returns a platform specific ID for the thread; the latter returns a :sip:ref:`~PyQt6.QtCore.QThread` pointer.
 

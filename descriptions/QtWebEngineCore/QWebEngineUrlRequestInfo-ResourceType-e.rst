@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 53aa0ede459bd4de76152bfda8a3a1e7
+    :digest: 076b193790af3543f5b66d4db2f33c1e
 
 This enum type holds the type of the requested resource:
 

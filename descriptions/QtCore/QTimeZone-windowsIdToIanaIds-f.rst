@@ -2,5 +2,12 @@
     :status: todo
     :pysig: 58eb68dfd8e718d6b77e03f8078cc48b
     :realsig: (const QByteArray&)
+    :digest: c3c21fb5747aafb9a85a110e97dea370
 
-TODO
+Returns all the IANA IDs for a given *windowsId*.
+
+The returned list is sorted alphabetically.
+
+This method is only available when feature ``timezone`` is enabled.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTimeZone.ianaIdToWindowsId`, :sip:ref:`~PyQt6.QtCore.QTimeZone.windowsIdToDefaultIanaId`.

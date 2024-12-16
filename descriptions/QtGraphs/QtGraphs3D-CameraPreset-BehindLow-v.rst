@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 10
+    :digest: 4ac24021a9c6cfe543b23cdeaf4bc6f4
 
-TODO
+X rotation is 180 and y rotation is 0 degrees.

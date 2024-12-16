@@ -2,7 +2,7 @@
     :status: todo
     :pysig: b8446e1585e0118a477fc1188aecc690
     :realsig: () const
-    :digest: 7cbf20c551618c2331f240a4b5f6b94a
+    :digest: 9ce12152549e78549431100b434c931d
 
 Returns the previous position of the mouse cursor, relative to the widget that received the event. If there is no previous position, oldPos() will return the same position as pos().
 

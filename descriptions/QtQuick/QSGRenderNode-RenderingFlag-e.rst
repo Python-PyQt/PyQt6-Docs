@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7ea4cb099a0b43ed6aff4b6f4d7a166b
+    :digest: 82ceaa747f53efaa2835a0a90b2b1c67
 
 Possible values for the bitmask returned from :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.flags`.
 

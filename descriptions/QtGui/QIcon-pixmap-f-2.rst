@@ -2,10 +2,12 @@
     :status: todo
     :pysig: 5dc0d8d7ed8f48ef9bfdc2c628b1c5b0
     :realsig: (const QSize&,qreal,QIcon::Mode,QIcon::State) const
-    :digest: 5ba77588a6e748024d2af5fe7d91fbc0
+    :digest: c66aad9fec7db9062d049a22706ef29d
 
 This is an overloaded function.
 
-Returns a pixmap with the requested *size*, *devicePixelRatio*, *mode*, and *state*, generating one if necessary.
+Returns a pixmap with the requested *size*, *devicePixelRatio*, *mode*, and *state*, generating one with the given *mode* and *state* if necessary. The pixmap might be smaller than requested, but never larger, unless the device-pixel ratio of the returned pixmap is larger than 1.
+
+**Note:** Prior to Qt 6.8 this function wronlgy passed the device dependent pixmap size to :sip:ref:`~PyQt6.QtGui.QIconEngine.scaledPixmap`, since Qt 6.8 it's the device independent size (not scaled with the *devicePixelRatio*).
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QIcon.actualSize`, :sip:ref:`~PyQt6.QtGui.QIcon.paint`.

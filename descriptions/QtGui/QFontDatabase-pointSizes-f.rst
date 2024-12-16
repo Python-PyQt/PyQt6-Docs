@@ -2,5 +2,8 @@
     :status: todo
     :pysig: b41b6d74caa3bdf5c41232666af42ef0
     :realsig: (const QString&, const QString&)
+    :digest: 7d868c6433ffb0eb7cffcce0991685f5
 
-TODO
+Returns a list of the point sizes available for the font that has family *family* and style *styleName*. The list may be empty.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QFontDatabase.smoothSizes`, :sip:ref:`~PyQt6.QtGui.QFontDatabase.standardSizes`.

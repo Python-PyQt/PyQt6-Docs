@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: 488cc292a34de458609754577603a71f
 
-TODO
+All colors are converted to CMYK and saved as such.

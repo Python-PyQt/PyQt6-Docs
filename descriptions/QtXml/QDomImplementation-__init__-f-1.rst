@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 27570ce9a7de5b44f0e876b9c92c01cd
     :realsig: (const QDomImplementation&)
-    :digest: 6034fb9ae3fbb60831cc3b9be795ae6f
+    :digest: 1cd6bac0af0b85350ec5e47e2ddbb4b7
 
-Constructs a copy of *x*.
+Constructs a copy of *implementation*.

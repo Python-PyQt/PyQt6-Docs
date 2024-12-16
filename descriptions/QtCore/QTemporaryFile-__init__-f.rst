@@ -2,8 +2,10 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: ba9c97ebe1bb63674758a26b51163810
+    :digest: 1a66b76c004380a77fe62fbdfff62179
 
-Constructs a :sip:ref:`~PyQt6.QtCore.QTemporaryFile` using as file template the application name returned by :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationName` (otherwise ``qt_temp``) followed by ".XXXXXX". The file is stored in the system's temporary directory, :sip:ref:`~PyQt6.QtCore.QDir.tempPath`.
+Constructs a :sip:ref:`~PyQt6.QtCore.QTemporaryFile`.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.setFileTemplate`, :sip:ref:`~PyQt6.QtCore.QDir.tempPath`.
+The default file name template is determined from the application name as returned by :sip:ref:`~PyQt6.QtCore.QCoreApplication.applicationName` (or ``"qt_temp"`` if the application name is empty), followed by ``".XXXXXX"``. The file is stored in the system's temporary directory, as returned by :sip:ref:`~PyQt6.QtCore.QDir.tempPath`.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.setFileTemplate`, :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileTemplate`, :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileName`, :sip:ref:`~PyQt6.QtCore.QDir.tempPath`.

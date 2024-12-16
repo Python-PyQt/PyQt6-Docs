@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Access Bluetooth peripherals
-    :digest: 6fa246a6629afa51c4d8682dd172b051
+    :digest: cf0acdf29ee7fd877f07a0847651e46c
 
 Access Bluetooth peripherals.
 
@@ -31,12 +31,10 @@ To request this permission at runtime, the following platform specific usage dec
 |          |                                                                                                                | * ``android.permission.BLUETOOTH_CONNECT``    |
 |          |                                                                                                                |                                               |
 |          |                                                                                                                | * ``android.permission.BLUETOOTH_SCAN``       |
-|          |                                                                                                                |                                               |
-|          |                                                                                                                | * ``android.permission.ACCESS_FINE_LOCATION`` |
 +----------+----------------------------------------------------------------------------------------------------------------+-----------------------------------------------+
 
 Please see the individual usage declaration types for how to add them to your project.
 
-**Note:** Currently on Android the ``android.permission.ACCESS_FINE_LOCATION`` permission is requested together with Bluetooth permissions. This is required for Bluetooth to work properly, unless the application provides a strong assertion in the application manifest that it does not use Bluetooth to derive a physical location. This permission coupling may change in future.
+**Note:** Since Qt 6.8.1, the ACCESS_FINE_LOCATION permission is no longer requested if API Level >= 31. This `may limit some Bluetooth scan results <https://doc.qt.io/qt-6/https://developer.android.com/develop/connectivity/bluetooth/bt-permissions>`_. Users needing these results need to request the location permission separately (see :sip:ref:`~PyQt6.QtCore.QLocationPermission.Accuracy.Precise`) and ensure that ``BLUETOOTH_SCAN`` permission doesn't have the ``android:usesPermissionFlags="neverForLocation"`` attribute set. For setting and customizing permissions in the application manifest, `see this guide <https://doc.qt.io/qt-6/android-manifest-file-configuration.html#qt-permissions-and-features>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QPermission`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.requestPermission`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.checkPermission`, `Application Permissions <https://doc.qt.io/qt-6/permissions.html>`_.

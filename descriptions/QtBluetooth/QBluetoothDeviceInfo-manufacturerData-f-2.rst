@@ -2,5 +2,10 @@
     :status: todo
     :pysig: d73f025178e476f755b3503c00f2fc73
     :realsig: () const
+    :digest: 6d65b826a6c7c461a2fd3252b4fcf28b
 
-TODO
+Returns the complete set of all manufacturer data from advertisement packets.
+
+Some devices may provide multiple manufacturer data entries per manufacturer ID. An example might be a Bluetooth Low Energy device that sends a different manufacturer data via advertisement packets and scan response packets respectively. Therefore the returned hash table may have multiple entries per manufacturer ID or hash key.
+
+.. seealso:: :sip:ref:`~PyQt6.QtBluetooth.QBluetoothDeviceInfo.setManufacturerData`.

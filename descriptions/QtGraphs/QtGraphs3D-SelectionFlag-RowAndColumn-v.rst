@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Row | Column
+    :digest: c03ba3cdf6af79cb08f8de2cd9f0b061
 
-TODO
+Combination flag for highlighting both row and column.

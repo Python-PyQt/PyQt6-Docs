@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 0cdedcd80125dc9f43245807d5f95fe3
     :realsig: (const QSqlField&,bool) const
-    :digest: 645375bb6fe4961cfeb1559255bc15ab
+    :digest: 797b0b273aa6db7fd83be2a5883c4cc3
 
 Returns a string representation of the *field* value for the database. This is used, for example, when constructing INSERT and UPDATE statements.
 

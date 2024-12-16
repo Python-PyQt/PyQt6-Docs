@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 14
+    :digest: 66a735ed96ca883aab2a1c34c7a7649e
 
-TODO
+See PdmDevicePixelRatioF_EncodedA.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 9edf5b3d30cf0afe089ca09990919fd0
     :realsig: (const QString&, const QString&, int, QCalendar)
-    :digest: 5df1b1e471bf1c7a93d2952f03c1aa61
+    :digest: 5c8bdf7854dc9f5240a5ddcc75fe0a67
 
 Returns the :sip:ref:`~PyQt6.QtCore.QDateTime` represented by the *string*, using the *format* given, or an invalid datetime if the string cannot be parsed.
 
@@ -45,15 +45,7 @@ The expressions that don't have leading zeroes (d, M, h, m, s, z) will be greedy
 
 This could have meant 1 January 00:30.00 but the M will grab two digits.
 
-Incorrectly specified fields of the *string* will cause an invalid :sip:ref:`~PyQt6.QtCore.QDateTime` to be returned. For example, consider the following code, where the two digit year 12 is read as 1912 (see the table below for all field defaults); the resulting datetime is invalid because 23 April 1912 was a Tuesday, not a Monday:
-
-.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_time_qdatetime.py
-    :lines: 211-213
-
-The correct code is:
-
-.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_time_qdatetime.py
-    :lines: 217-219
+Incorrectly specified fields of the *string* will cause an invalid :sip:ref:`~PyQt6.QtCore.QDateTime` to be returned. Only datetimes between the local time start of year 100 and end of year 9999 are supported. Note that datetimes near the ends of this range in other time-zones, notably including UTC, may fall outside the range (and thus be treated as invalid) depending on local time zone.
 
 **Note:** Day and month names as well as AM/PM indicators must be given in English (C locale). If localized month and day names or localized forms of AM/PM are to be recognized, use :sip:ref:`~PyQt6.QtCore.QLocale.system`.toDateTime().
 

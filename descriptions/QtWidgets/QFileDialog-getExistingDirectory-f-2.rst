@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6002b043d816bb26e32084e9ee07d381
     :realsig: (QWidget*, const QString&, const QString&, QFileDialog::Options)
-    :digest: 28ab3575d2685c3116cf99b225ab13d4
+    :digest: b479051b56603ceaf2cdacd3f5a3b54b
 
 This is a convenience static function that returns an existing directory selected by the user.
 
@@ -22,7 +22,5 @@ Note that the macOS native file dialog does not show a title bar.
 On Unix/X11, the normal behavior of the file dialog is to resolve and follow symlinks. For example, if ``/usr/tmp`` is a symlink to ``/var/tmp``, the file dialog changes to ``/var/tmp`` after entering ``/usr/tmp``. If *options* includes :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontResolveSymlinks`, the file dialog treats symlinks as regular directories.
 
 On Windows, the dialog spins a blocking modal event loop that does not dispatch any QTimers, and if *parent* is not ``nullptr`` then it positions the dialog just below the parent's title bar.
-
-**Warning:** Do not delete *parent* during the execution of the dialog. If you want to do this, you must create the dialog yourself using one of the :sip:ref:`~PyQt6.QtWidgets.QFileDialog` constructors.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.getOpenFileName`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog.getOpenFileNames`, :sip:ref:`~PyQt6.QtWidgets.QFileDialog.getSaveFileName`.

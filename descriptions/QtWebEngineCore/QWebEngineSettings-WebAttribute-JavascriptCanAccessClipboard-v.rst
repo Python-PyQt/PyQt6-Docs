@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: 9d92d3abe53e53646635fcc050d52216
+    :digest: b505e8074496c3a4035e54839bf781ad
 
-Allows JavaScript programs to read from and write to the clipboard. Writing to the clipboard is always allowed if it is specifically requested by the user. See JavascriptCanPaste to also allow pasting the content of the clipboard content from JavaScript. Disabled by default.
+Allows JavaScript programs to write (copy) sanitized content to the clipboard. A sanitized write is done with the ``write`` and ``writeText`` JavaScript Clipboard API calls and must be accompanied by user action. Unsanitized writes, and reading from the clipboard, are enabled by JavascriptCanPaste. Prior to Chromium version 81, this setting enabled all clipboard writes. Since unrestricted clipboard access is a potential security concern, it is recommended that applications leave this disabled and instead respond to :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.Feature.ClipboardReadWrite` feature permission requests. Disabled by default.

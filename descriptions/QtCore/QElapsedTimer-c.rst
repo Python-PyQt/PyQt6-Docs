@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Fast way to calculate elapsed times
-    :digest: dee5ef716027ba8f9cbfae2330e14d09
+    :digest: c4a53ff1906487ce8d53cc13bcc0520a
 
 The :sip:ref:`~PyQt6.QtCore.QElapsedTimer` class provides a fast way to calculate elapsed times.
 
@@ -36,4 +36,4 @@ On the other hand, this means :sip:ref:`~PyQt6.QtCore.QElapsedTimer` values can 
 
 It is, however, possible to exchange the value with other processes running on the same machine, provided that they also use the same reference clock. :sip:ref:`~PyQt6.QtCore.QElapsedTimer` will always use the same clock, so it's safe to compare with the value coming from another process in the same machine. If comparing to values produced by other APIs, you should check that the clock used is the same as :sip:ref:`~PyQt6.QtCore.QElapsedTimer` (see :sip:ref:`~PyQt6.QtCore.QElapsedTimer.clockType`).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`.

@@ -2,10 +2,10 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
-    :digest: 751172156ef61289ff990084d8094b8d
+    :digest: e929804c068f04a43860a6f5023d9a4a
 
 Use the overload that takes a Qt::Alignment argument.
 
 Sets the text alignment for the item's text to the *alignment* specified.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem.textAlignment`, Qt::Alignment.
+.. seealso:: Qt::Alignment.

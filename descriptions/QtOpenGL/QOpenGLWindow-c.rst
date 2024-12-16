@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Convenience subclass of QWindow to perform OpenGL painting
-    :digest: f28dbb6cd25ee5c1056d40017af5a05e
+    :digest: 3df968927dc0d2d2fcfcabcbef0312f2
 
 The :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` class is a convenience subclass of :sip:ref:`~PyQt6.QtGui.QWindow` to perform OpenGL painting.
 
@@ -17,7 +17,7 @@ A typical application will subclass :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` and
 
 To schedule a repaint, call the update() function. Note that this will not immediately result in a call to :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow.paintGL`. Calling update() multiple times in a row will not change the behavior in any way.
 
-This is a slot so it can be connected to a :sip:ref:`~PyQt6.QtCore.QTimer.timeout` signal to perform animation. Note however that in the modern OpenGL world it is a much better choice to rely on synchronization to the vertical refresh rate of the display. See :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setSwapInterval` on a description of the swap interval. With a swap interval of ``1``, which is the case on most systems by default, the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.swapBuffers` call, that is executed internally by :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` after each repaint, will block and wait for vsync. This means that whenever the swap is done, an update can be scheduled again by calling update(), without relying on timers.
+This is a slot so it can be connected to a QChronoTimer::timeout() signal to perform animation. Note however that in the modern OpenGL world it is a much better choice to rely on synchronization to the vertical refresh rate of the display. See :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setSwapInterval` on a description of the swap interval. With a swap interval of ``1``, which is the case on most systems by default, the :sip:ref:`~PyQt6.QtGui.QOpenGLContext.swapBuffers` call, that is executed internally by :sip:ref:`~PyQt6.QtOpenGL.QOpenGLWindow` after each repaint, will block and wait for vsync. This means that whenever the swap is done, an update can be scheduled again by calling update(), without relying on timers.
 
 To request a specific configuration for the context, use setFormat() like for any other :sip:ref:`~PyQt6.QtGui.QWindow`. This allows, among others, requesting a given OpenGL version and profile, or enabling depth and stencil buffers.
 

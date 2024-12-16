@@ -2,11 +2,11 @@
     :status: todo
     :pysig: d66ab6bfd37177778529d948c61ba8a0
     :realsig: (QAbstractSocket::SocketError)
-    :digest: bc1ac08eda8f677396b9d123ca784eeb
+    :digest: 2ba56d3b3749ebc04c713979b5029cd7
 
 This signal is emitted after an error occurred. The *socketError* parameter describes the type of error that occurred.
 
-When this signal is emitted, the socket may not be ready for a reconnect attempt. In that case, attempts to reconnect should be done from the event loop. For example, use a :sip:ref:`~PyQt6.QtCore.QTimer.singleShot` with 0 as the timeout.
+When this signal is emitted, the socket may not be ready for a reconnect attempt. In that case, attempts to reconnect should be done from the event loop. For example, use QChronoTimer::singleShot() with 0ns as the timeout.
 
 :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.SocketError` is not a registered metatype, so for queued connections, you will have to register it with Q_DECLARE_METATYPE() and qRegisterMetaType().
 

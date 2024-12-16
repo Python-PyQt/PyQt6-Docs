@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: 5d318e9f69247e0455b124a54f72018e
 
-TODO
+Allows image animation when the image frames are rendered.

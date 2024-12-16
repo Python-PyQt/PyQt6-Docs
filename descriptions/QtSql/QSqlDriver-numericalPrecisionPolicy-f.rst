@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 80192e14ee63e75c95a4edad75f33d62
     :realsig: () const
-    :digest: f814e24e6012e8276ee9579f2a90864a
+    :digest: 111506be67725c25a1171e44e0127d92
 
-Returns the current default precision policy for the database connection.
+Returns the numericalPrecisionPolicy.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSql.NumericalPrecisionPolicy`, :sip:ref:`~PyQt6.QtSql.QSqlDriver.setNumericalPrecisionPolicy`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.numericalPrecisionPolicy`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.setNumericalPrecisionPolicy`.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlDriver.setNumericalPrecisionPolicy`.

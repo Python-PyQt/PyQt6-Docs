@@ -2,8 +2,8 @@
     :status: todo
     :pysig: ed36a1ef76a59ee3f15180e0441188ad
     :realsig: () const
-    :digest: ef40992c58ee44eaea9aff9766010c6f
+    :digest: 5170bafc41380cd3bd1ecb9f5d0f50d2
 
-Returns the field's default value (which may be NULL).
+Sets the value of defaultValue.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlField.setDefaultValue`, :sip:ref:`~PyQt6.QtSql.QSqlField.metaType`, :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus`, :sip:ref:`~PyQt6.QtSql.QSqlField.length`, :sip:ref:`~PyQt6.QtSql.QSqlField.precision`, :sip:ref:`~PyQt6.QtSql.QSqlField.isGenerated`.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlField.setDefaultValue`.

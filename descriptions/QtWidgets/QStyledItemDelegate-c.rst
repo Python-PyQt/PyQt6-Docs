@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Display and editing facilities for data items from a model
-    :digest: 90571c48b6ede5432e380819be9b6e55
+    :digest: 256ca61d320e1bbf356ebf2cf23efc5e
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` class provides display and editing facilities for data items from a model.
 
 When displaying data from models in Qt item views, e.g., a :sip:ref:`~PyQt6.QtWidgets.QTableView`, the individual items are drawn by a delegate. Also, when an item is edited, it provides an editor widget, which is placed on top of the item view while editing takes place. :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` is the default delegate for all Qt item views, and is installed upon them when they are created.
 
-The :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_. The delegate allows the display and editing of items to be developed independently from the model and view.
+The :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#the-model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_. The delegate allows the display and editing of items to be developed independently from the model and view.
 
 The data of items in models are assigned an :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole`; each item can store a :sip:ref:`~PyQt6.QtCore.QVariant` for each role. :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate` implements display and editing for the most common datatypes expected by users, including booleans, integers, and strings.
 
@@ -35,7 +35,13 @@ The data will be drawn differently depending on which role they have in the mode
 | :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.ForegroundRole`    | :sip:ref:`~PyQt6.QtGui.QBrush`                                                                                                    |
 +------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------+
 
-Editors are created with a :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory`; a default static instance provided by :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` is installed on all item delegates. You can set a custom factory using :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate.setItemEditorFactory` or set a new default factory with :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory.setDefaultFactory`. It is the data stored in the item model with the :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole` that is edited. See the :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` class for a more high-level introduction to item editor factories. The `Color Editor Factory <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_ example shows how to create custom editors with a factory.
+Editors are created with a :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory`; a default static instance provided by :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` is installed on all item delegates. You can set a custom factory using :sip:ref:`~PyQt6.QtWidgets.QStyledItemDelegate.setItemEditorFactory` or set a new default factory with :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory.setDefaultFactory`.
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_itemviews_qitemeditorfactory.py
+
+After the new factory has been set, all standard item delegates will use it (i.e, also delegates that were created before the new default factory was set).
+
+It is the data stored in the item model with the :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.EditRole` that is edited. See the :sip:ref:`~PyQt6.QtWidgets.QItemEditorFactory` class for a more high-level introduction to item editor factories.
 
 .. _qstyleditemdelegate-subclassing-qstyleditemdelegate:
 
@@ -71,4 +77,4 @@ Since Qt 4.4, there are two delegate classes: :sip:ref:`~PyQt6.QtWidgets.QItemDe
 
 If you wish to customize the painting of item views, you should implement a custom style. Please see the :sip:ref:`~PyQt6.QtWidgets.QStyle` class documentation for details.
 
-.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, `Star Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-stardelegate-example.html>`_, `Color Editor Factory Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-coloreditorfactory-example.html>`_.
+.. seealso:: `Delegate Classes <https://doc.qt.io/qt-6/model-view-programming.html#delegate-classes>`_, :sip:ref:`~PyQt6.QtWidgets.QItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`, :sip:ref:`~PyQt6.QtWidgets.QStyle`, `Star Delegate Example <https://doc.qt.io/qt-6/qtwidgets-itemviews-stardelegate-example.html>`_.

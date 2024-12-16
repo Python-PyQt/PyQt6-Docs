@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
+    :digest: 03f6512ae35cb0e81efd9cb7470bb4c4
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QPieSlice.label`.

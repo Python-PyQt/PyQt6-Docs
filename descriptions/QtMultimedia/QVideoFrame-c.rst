@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a frame of video data
-    :digest: db81a776879aef44ad510422a730fb46
+    :digest: fc3c8dad4aa5f08a2b37fd16157bb5f6
 
 The :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame` class represents a frame of video data.
 
@@ -18,3 +18,5 @@ A video frame can also have timestamp information associated with it. These time
 :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame` objects can consume a significant amount of memory or system resources and should not be held for longer than required by the application.
 
 **Note:** Since video frames can be expensive to copy, :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame` is explicitly shared, so any change made to a video frame will also apply to any copies.
+
+.. seealso:: QAbstractVideoBuffer, :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat`, :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame.MapMode`.

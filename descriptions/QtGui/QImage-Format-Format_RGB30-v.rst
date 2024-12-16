@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 21
-    :digest: e46fa9d5485520c6b1452ffdef3fab2d
+    :digest: 268717803717916accbfd4dc760779ac
 
-The image is stored using a 32-bit RGB format (x-10-10-10). (added in Qt 5.4)
+The image is stored using a 32-bit RGB format (x-10-10-10).

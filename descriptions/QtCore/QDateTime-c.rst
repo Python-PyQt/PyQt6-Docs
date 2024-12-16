@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Date and time functions
-    :digest: 1df68be9a469fb5913c6988fd6c09d28
+    :digest: 7bdaa654f37bb78b9ce9a7b1264054df
 
 The :sip:ref:`~PyQt6.QtCore.QDateTime` class provides date and time functions.
 
@@ -9,7 +9,7 @@ A :sip:ref:`~PyQt6.QtCore.QDateTime` object encodes a calendar date and a clock 
 
 :sip:ref:`~PyQt6.QtCore.QDateTime` can describe datetimes with respect to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`, to :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.UTC`, to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.OffsetFromUTC` or to a specified :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone`. Each of these time representations can be encapsulated in a suitable instance of the :sip:ref:`~PyQt6.QtCore.QTimeZone` class. For example, a time zone of "Europe/Berlin" will apply the daylight-saving rules as used in Germany. In contrast, a fixed offset from UTC of +3600 seconds is one hour ahead of UTC (usually written in ISO standard notation as "UTC+01:00"), with no daylight-saving complications. When using either local time or a specified time zone, time-zone transitions (see :ref:`qdatetime-timezone-transitions`) are taken into account. A :sip:ref:`~PyQt6.QtCore.QDateTime`'s :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec` will tell you which of the four types of time representation is in use; its :sip:ref:`~PyQt6.QtCore.QDateTime.timeRepresentation` provides a full description of that time representation, as a :sip:ref:`~PyQt6.QtCore.QTimeZone`.
 
-A :sip:ref:`~PyQt6.QtCore.QDateTime` object is typically created either by giving a date and time explicitly in the constructor, or by using a static function such as :sip:ref:`~PyQt6.QtCore.QDateTime.currentDateTime` or fromMSecsSinceEpoch(). The date and time can be changed with :sip:ref:`~PyQt6.QtCore.QDateTime.setDate` and :sip:ref:`~PyQt6.QtCore.QDateTime.setTime`. A datetime can also be set using the :sip:ref:`~PyQt6.QtCore.QDateTime.setMSecsSinceEpoch` function that takes the time, in milliseconds, since the start, in UTC, of the year 1970. The :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` function returns a :sip:ref:`~PyQt6.QtCore.QDateTime`, given a string and a date format used to interpret the date within the string.
+A :sip:ref:`~PyQt6.QtCore.QDateTime` object is typically created either by giving a date and time explicitly in the constructor, or by using a static function such as :sip:ref:`~PyQt6.QtCore.QDateTime.currentDateTime` or :sip:ref:`~PyQt6.QtCore.QDateTime.fromMSecsSinceEpoch`. The date and time can be changed with :sip:ref:`~PyQt6.QtCore.QDateTime.setDate` and :sip:ref:`~PyQt6.QtCore.QDateTime.setTime`. A datetime can also be set using the :sip:ref:`~PyQt6.QtCore.QDateTime.setMSecsSinceEpoch` function that takes the time, in milliseconds, since the start, in UTC, of the year 1970. The :sip:ref:`~PyQt6.QtCore.QDateTime.fromString` function returns a :sip:ref:`~PyQt6.QtCore.QDateTime`, given a string and a date format used to interpret the date within the string.
 
 :sip:ref:`~PyQt6.QtCore.QDateTime.currentDateTime` returns a :sip:ref:`~PyQt6.QtCore.QDateTime` that expresses the current date and time with respect to a specific time representation, such as local time (its default). :sip:ref:`~PyQt6.QtCore.QDateTime.currentDateTimeUtc` returns a :sip:ref:`~PyQt6.QtCore.QDateTime` that expresses the current date and time with respect to UTC; it is equivalent to ``QDateTime::currentDateTime(QTimeZone::UTC)``.
 

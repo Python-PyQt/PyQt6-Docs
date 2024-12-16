@@ -2,11 +2,11 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: ()
-    :digest: 4cf6b4c832b302277769c5e84d8b554d
+    :digest: 305bea0e5a6d5f6e59263f433c260fbc
 
 Moves the file specified by :sip:ref:`~PyQt6.QtCore.QFile.fileName` to the trash. Returns ``true`` if successful, and sets the :sip:ref:`~PyQt6.QtCore.QFile.fileName` to the path at which the file can be found within the trash; otherwise returns ``false``.
 
-The time for this function to run is independent of the size of the file being trashed. If this function is called on a directory, it may be proportional to the number of files being trashed.
+The time for this function to run is independent of the size of the file being trashed. If this function is called on a directory, it may be proportional to the number of files being trashed. If the current :sip:ref:`~PyQt6.QtCore.QFile.fileName` points to a symbolic link, this function will move the link to the trash, possibly breaking it, not the target of the link.
 
 This function uses the Windows and macOS APIs to perform the trashing on those two operating systems. Elsewhere (Unix systems), this function implements the FreeDesktop.org Trash specification version 1.0.
 

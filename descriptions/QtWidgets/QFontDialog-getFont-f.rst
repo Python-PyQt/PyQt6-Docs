@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 4d6f3351df1e0e5481b7e03345c1f4da
     :realsig: (bool*,QWidget*)
-    :digest: 2fe4c54ccd16f95269ac38e01b8e4dc5
+    :digest: 1d12e38b7dd01a7846c9b9977002865c
 
 This is an overloaded function.
 
@@ -16,5 +16,3 @@ Example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfontdialog.py
     :lines: 89-96
-
-**Warning:** Do not delete *parent* during the execution of the dialog. If you want to do this, you should create the dialog yourself using one of the :sip:ref:`~PyQt6.QtWidgets.QFontDialog` constructors.

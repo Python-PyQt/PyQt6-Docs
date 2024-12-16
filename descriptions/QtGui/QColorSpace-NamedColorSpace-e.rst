@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 659b3f35fbca4e67d773ffb7cbb2a982
+    :digest: 546c7390278e61bf0cf36f1e75c286bd
 
 Predefined color spaces.

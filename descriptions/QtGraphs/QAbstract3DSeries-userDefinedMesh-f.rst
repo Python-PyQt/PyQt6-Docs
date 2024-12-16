@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
+    :digest: c1bee064fe7b2ea539982847082ceea2
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QAbstract3DSeries.setUserDefinedMesh`.

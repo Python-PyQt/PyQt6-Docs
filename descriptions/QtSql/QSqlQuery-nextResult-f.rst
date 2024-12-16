@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: ()
-    :digest: 2a381fbc8e28bdc34a19dde9f49454dc
+    :digest: f6e903fe3b14d5c8d95ae2614280039c
 
 Discards the current result set and navigates to the next if available.
 
@@ -14,4 +14,4 @@ When one of the statements is a non-select statement a count of affected rows ma
 
 Note that some databases, i.e. Microsoft SQL Server, requires non-scrollable cursors when working with multiple result sets. Some databases may execute all statements at once while others may delay the execution until the result set is actually accessed, and some databases may have restrictions on which statements are allowed to be used in a SQL batch.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlDriver.hasFeature`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.setForwardOnly`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.next`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.isSelect`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.numRowsAffected`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.isActive`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.lastError`.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlDriver.hasFeature`, forwardOnly, :sip:ref:`~PyQt6.QtSql.QSqlQuery.next`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.isSelect`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.numRowsAffected`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.isActive`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.lastError`.

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
+    :digest: eeabfcdb62df4ed597cf28fa92ab58aa
 
-TODO
+Sets the width of the bars of the series to *width*.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QBarSeries.barWidth`.

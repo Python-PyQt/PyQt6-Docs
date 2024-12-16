@@ -2,7 +2,9 @@
     :status: todo
     :pysig: fca14c0c093da914fe3c4b21419cbaa3
     :realsig: (const QUrl&,QHttpMultiPart*)
-    :digest: c8b345018da882fadce64d2a335ac4c9
+    :digest: 4e2920238c62c08e4d18ebf9fc80f7f7
+
+Please use :sip:ref:`~PyQt6.QtNetwork` classes directly instead, see `HTTP method alternatives <https://doc.qt.io/qt-6/oauth-http-method-alternatives.html>`_.
 
 This is an overloaded function.
 

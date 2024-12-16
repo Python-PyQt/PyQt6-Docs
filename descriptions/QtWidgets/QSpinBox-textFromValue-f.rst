@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d4d85079d3c184e4c59bdc73add11325
     :realsig: (int) const
-    :digest: 2ab30e1d2be5cecb471fd73335f3837b
+    :digest: 2b8daa781e02ff1e1583205c80990d15
 
 This virtual function is used by the spin box whenever it needs to display the given *value*. The default implementation returns a string containing *value* printed in the standard way using :sip:ref:`~PyQt6.QtWidgets.QWidget.locale`.toString(), but with the thousand separator removed unless setGroupSeparatorShown() is set. Reimplementations may return anything. (See the example in the detailed description.)
 

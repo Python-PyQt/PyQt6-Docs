@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 1fbac5c38363f51ee04e5c40ffc7cdd3
     :realsig: () const
+    :digest: c28a944bd7a2cc47df833d59d1f60c2e
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QCustom3DVolume.setTextureData`.

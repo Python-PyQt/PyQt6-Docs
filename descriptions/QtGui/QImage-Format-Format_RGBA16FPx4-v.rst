@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 31
-    :digest: 4e3b8da23671ffb3cb1343fc8968d56a
+    :digest: f6f82ce045b65960b8ce3307f0ee2d3a
 
-The image is stored using a 4 16-bit halfword floating point RGBA format (16FP-16FP-16FP-16FP). (added in Qt 6.2)
+The image is stored using a four 16-bit halfword floating point RGBA format (16FP-16FP-16FP-16FP).

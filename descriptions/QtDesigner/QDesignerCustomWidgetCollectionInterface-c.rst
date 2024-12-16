@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows you to include several custom widgets in one single library
-    :digest: 61404d44084b5c908a842f2dd212ee4a
+    :digest: 3693741907284ddfae8555f43a0bb862
 
 The :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetCollectionInterface` class allows you to include several custom widgets in one single library.
 
@@ -17,6 +17,6 @@ In the class constructor you add the interfaces to your custom widgets to the li
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-plugins-doc_src_qtdesigner.py
     :lines: 260-271
 
-Note that instead of exporting each custom widget plugin using the Q_PLUGIN_METADATA() macro, you export the entire collection. The Q_PLUGIN_METADATA() macro ensures that *Qt Designer* can access and construct the custom widgets. Without this macro, there is no way for *Qt Designer* to use them.
+Note that instead of exporting each custom widget plugin using the Q_PLUGIN_METADATA() macro, you export the entire collection. The Q_PLUGIN_METADATA() macro ensures that Qt Widgets Designer can access and construct the custom widgets. Without this macro, there is no way for Qt Widgets Designer to use them.
 
-.. seealso:: :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`, `Creating Custom Widgets for Qt Designer <https://doc.qt.io/qt-6/designer-creating-custom-widgets.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`, `Creating Custom Widgets for Qt Widgets Designer <https://doc.qt.io/qt-6/designer-creating-custom-widgets.html>`_.

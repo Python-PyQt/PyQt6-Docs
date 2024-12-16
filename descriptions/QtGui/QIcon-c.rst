@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scalable icons in different modes and states
-    :digest: 9fabaf989e53a90e2f7bb9fca4fb24ef
+    :digest: 7f2173aa2df2eb73e95dcfb646ced9ee
 
 The :sip:ref:`~PyQt6.QtGui.QIcon` class provides scalable icons in different modes and states.
 
@@ -41,7 +41,16 @@ The most convenient way to construct an icon is by using the :sip:ref:`~PyQt6.Qt
 
 Applications can use the same theming specification to provide their own icon library. See below for an example theme description and the corresponding directory structure for the image files. Icons from an application-provided theme take precedence over the native icon library.
 
-In addition, it is possible to provide custom :sip:ref:`~PyQt6.QtGui.QIconEngine`. This allows applications to customize every aspect of generated icons. With QIconEnginePlugin it is possible to register different icon engines for different file suffixes, making it possible for third parties to provide additional icon engines to those included with Qt.
+.. _qicon-icon-engines:
+
+Icon Engines
+------------
+
+Internally, :sip:ref:`~PyQt6.QtGui.QIcon` instantiates an :sip:ref:`~PyQt6.QtGui.QIconEngine` backend to handle and render the icon images. The type of icon engine is determined by the first file or pixmap or theme added to a :sip:ref:`~PyQt6.QtGui.QIcon` object. Additional files or pixmaps will then be handled by the same engine.
+
+Icon engines differ in the way they handle and render icons. The default pixmap-based engine only deals with fixed images, while the :sip:ref:`~PyQt6.QtSvg` module provides an icon engine that can re-render the provided vector graphics files at the requested size for better quality. The theme icon engines will typically only provide images from native platform icon library, and ignore any added files or pixmaps.
+
+In addition, it is possible to provide custom icon engines. This allows applications to customize every aspect of generated icons. With QIconEnginePlugin it is possible to register different icon engines for different file suffixes, making it possible for third parties to provide additional icon engines to those included with Qt.
 
 .. _qicon-making-classes-that-use-qicon:
 

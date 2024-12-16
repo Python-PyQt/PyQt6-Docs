@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
+    :digest: 56a4ac20e99b6c7b1c295d3f5fa214ab
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QLineSeries.width`.

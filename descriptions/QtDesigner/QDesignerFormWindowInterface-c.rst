@@ -1,25 +1,25 @@
 .. sip:class-description::
     :status: todo
-    :brief: Allows you to query and manipulate form windows appearing in Qt Designer's workspace
-    :digest: ca276844e81d689f9bd2a637d4824b60
+    :brief: Allows you to query and manipulate form windows appearing in Qt Widgets Designer's workspace
+    :digest: b5d2d8b268c9e55fcfd021bb4db43714
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` class allows you to query and manipulate form windows appearing in *Qt Designer*'s workspace.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` class allows you to query and manipulate form windows appearing in Qt Widgets Designer's workspace.
 
-:sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` provides information about the associated form window as well as allowing its properties to be altered. The interface is not intended to be instantiated directly, but to provide access to *Qt Designer*'s current form windows controlled by *Qt Designer*'s :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowManagerInterface`.
+:sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` provides information about the associated form window as well as allowing its properties to be altered. The interface is not intended to be instantiated directly, but to provide access to Qt Widgets Designer's current form windows controlled by Qt Widgets Designer's :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowManagerInterface`.
 
 If you are looking for the form window containing a specific widget, you can use the static :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface.findFormWindow` function:
 
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_sdk_abstractformwindow.py
     :lines: 54-55
 
-But in addition, you can access any of the current form windows through *Qt Designer*'s form window manager: Use the :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.formWindowManager` function to retrieve an interface to the manager. Once you have this interface, you have access to all of *Qt Designer*'s current form windows through the :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowManagerInterface.formWindow` function. For example:
+But in addition, you can access any of the current form windows through Qt Widgets Designer's form window manager: Use the :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.formWindowManager` function to retrieve an interface to the manager. Once you have this interface, you have access to all of Qt Widgets Designer's current form windows through the :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowManagerInterface.formWindow` function. For example:
 
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_sdk_abstractformwindow.py
     :lines: 60-68
 
-The pointer to *Qt Designer*'s current :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface` object (``formEditor`` in the example above) is provided by the :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface.initialize` function's parameter. When implementing a custom widget plugin, you must subclass the :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` class to expose your plugin to *Qt Designer*.
+The pointer to Qt Widgets Designer's current :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface` object (``formEditor`` in the example above) is provided by the :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface.initialize` function's parameter. When implementing a custom widget plugin, you must subclass the :sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface` class to expose your plugin to Qt Widgets Designer.
 
-Once you have the form window, you can query its properties. For example, a plain custom widget plugin is managed by *Qt Designer* only at its top level, i.e. none of its child widgets can be resized in *Qt Designer*'s workspace. But :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` provides you with functions that enables you to control whether a widget should be managed by *Qt Designer*, or not:
+Once you have the form window, you can query its properties. For example, a plain custom widget plugin is managed by Qt Widgets Designer only at its top level, i.e. none of its child widgets can be resized in Qt Widgets Designer's workspace. But :sip:ref:`~PyQt6.QtDesigner.QDesignerFormWindowInterface` provides you with functions that enables you to control whether a widget should be managed by Qt Widgets Designer, or not:
 
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-lib-tools_designer_src_lib_sdk_abstractformwindow.py
     :lines: 73-74

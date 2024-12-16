@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 1
+    :digest: bcc69eac4d58e6379a38e4c114c4d746
 
-TODO
+Only the grid is drawn.

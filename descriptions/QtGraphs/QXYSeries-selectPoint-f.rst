@@ -2,5 +2,10 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (qsizetype)
+    :digest: a476b2b96b163293e2699eb092d83952
 
-TODO
+Marks point at *index* as selected.
+
+**Note:** Emits :sip:ref:`~PyQt6.QtGraphs.QXYSeries.selectedPointsChanged`
+
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QXYSeries.setPointSelected`.

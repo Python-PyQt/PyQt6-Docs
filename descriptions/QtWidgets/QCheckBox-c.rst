@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Checkbox with a text label
-    :digest: 424846405ca9bb79c01a04af2e501d9f
+    :digest: e80cf74632e490c487406c70da5f7564
 
 The :sip:ref:`~PyQt6.QtWidgets.QCheckBox` widget provides a checkbox with a text label.
 
-.. image:: ../../../images/windows-checkbox.png
+.. image:: ../../../images/fusion-checkbox.png
 
 A :sip:ref:`~PyQt6.QtWidgets.QCheckBox` is an option button that can be switched on (checked) or off (unchecked). Checkboxes are typically used to represent features in an application that can be enabled or disabled without affecting others. Different types of behavior can be implemented. For example, a :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` can be used to group check buttons logically, allowing exclusive checkboxes. However, :sip:ref:`~PyQt6.QtWidgets.QButtonGroup` does not provide any visual representation.
 
@@ -25,8 +25,6 @@ Just like :sip:ref:`~PyQt6.QtWidgets.QPushButton`, a checkbox displays text, and
     :lines: 54-54
 
 In this example, the shortcut is *Alt+A*. See the QShortcut documentation for details. To display an actual ampersand, use '&&'.
-
-Important inherited functions: text(), setText(), text(), pixmap(), setPixmap(), accel(), setAccel(), isToggleButton(), setDown(), isDown(), isOn(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, autoRepeat(), isExclusiveToggle(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), toggled(), :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkState`, and :sip:ref:`~PyQt6.QtWidgets.QCheckBox.checkStateChanged`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QAbstractButton`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`.
 

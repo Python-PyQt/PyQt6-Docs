@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x4000
+    :digest: 40105beae624c8bfe0c6b32290649957
 
-TODO
+For compatibility reasons, OpenType fonts contain two competing sets of the vertical line metrics that provide the :sip:ref:`~PyQt6.QtGui.QFontMetricsF.ascent`, :sip:ref:`~PyQt6.QtGui.QFontMetricsF.descent` and :sip:ref:`~PyQt6.QtGui.QFontMetricsF.leading` of the font. These are often referred to as the `win <https://learn.microsoft.com/en-us/typography/opentype/spec/os2#uswinascent>`_ (Windows) metrics and the `typo <https://learn.microsoft.com/en-us/typography/opentype/spec/os2#sta>`_ (typographical) metrics. While the specification recommends using the ``typo`` metrics for line spacing, many applications prefer the ``win`` metrics unless the ``USE_TYPO_METRICS`` flag is set in the `fsSelection <https://learn.microsoft.com/en-us/typography/opentype/spec/os2#fsselection>`_ field of the font. For backwards-compatibility reasons, this is also the case for Qt applications. This is not an issue for fonts that set the ``USE_TYPO_METRICS`` flag to indicate that the ``typo`` metrics are valid, nor for fonts where the ``win`` metrics and ``typo`` metrics match up. However, for certain fonts the ``win`` metrics may be larger than the preferable line spacing and the ``USE_TYPO_METRICS`` flag may be unset by mistake. For such fonts, setting ``PreferTypoLineMetrics`` may give superior results.

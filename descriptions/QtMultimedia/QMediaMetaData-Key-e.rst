@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 5e5c9b44898829d76d9f704f5c5ebf71
+    :digest: 243f90c314fb3f36ab336e92b21af5e7
 
 The following meta data keys can be used:

@@ -2,5 +2,8 @@
     :status: todo
     :pysig: 7bb4675c8aabece61186f55832fe45c3
     :realsig: () const
+    :digest: 6887e2b0cd18d3dff34659ae84983031
 
-TODO
+Returns all cookies stored in this cookie jar. This function is suitable for derived classes to save cookies to disk, as well as to implement cookie expiration and other policies.
+
+.. seealso:: :sip:ref:`~PyQt6.QtNetwork.QNetworkCookieJar.setAllCookies`, :sip:ref:`~PyQt6.QtNetwork.QNetworkCookieJar.cookiesForUrl`.

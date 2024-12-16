@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Environment for evaluating JavaScript code
-    :digest: 2005cd00491fed6512c262ea67ebafc4
+    :digest: d1bb0ae76bd005f77418ac8056ded84d
 
 The :sip:ref:`~PyQt6.QtQml.QJSEngine` class provides an environment for evaluating JavaScript code.
 
@@ -15,9 +15,9 @@ Use :sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` to evaluate script code.
 .. literalinclude:: ../../../snippets/qtdeclarative-src-qml-doc-snippets-code-src_script_qjsengine.py
     :lines: 54-55
 
-:sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` returns a :sip:ref:`~PyQt6.QtQml.QJSValue` that holds the result of the evaluation. The :sip:ref:`~PyQt6.QtQml.QJSValue` class provides functions for converting the result to various C++ types (e.g. QJSValue::toString() and QJSValue::toNumber()).
+:sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` returns a :sip:ref:`~PyQt6.QtQml.QJSValue` that holds the result of the evaluation. The :sip:ref:`~PyQt6.QtQml.QJSValue` class provides functions for converting the result to various C++ types (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.toString` and :sip:ref:`~PyQt6.QtQml.QJSValue.toNumber`).
 
-The following code snippet shows how a script function can be defined and then invoked from C++ using QJSValue::call():
+The following code snippet shows how a script function can be defined and then invoked from C++ using :sip:ref:`~PyQt6.QtQml.QJSValue.call`:
 
 .. literalinclude:: ../../../snippets/qtdeclarative-src-qml-doc-snippets-code-src_script_qjsengine.py
     :lines: 60-63
@@ -112,9 +112,9 @@ Adding custom properties to the scripting environment is one of the standard mea
 Script Exceptions
 -----------------
 
-:sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` can throw a script exception (e.g. due to a syntax error). If it does, then :sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` returns the value that was thrown (typically an ``Error`` object). Use QJSValue::isError() to check for exceptions.
+:sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` can throw a script exception (e.g. due to a syntax error). If it does, then :sip:ref:`~PyQt6.QtQml.QJSEngine.evaluate` returns the value that was thrown (typically an ``Error`` object). Use :sip:ref:`~PyQt6.QtQml.QJSValue.isError` to check for exceptions.
 
-For detailed information about the error, use QJSValue::toString() to obtain an error message, and use QJSValue::property() to query the properties of the ``Error`` object. The following properties are available:
+For detailed information about the error, use :sip:ref:`~PyQt6.QtQml.QJSValue.toString` to obtain an error message, and use :sip:ref:`~PyQt6.QtQml.QJSValue.property` to query the properties of the ``Error`` object. The following properties are available:
 
 * ``name``
 
@@ -134,7 +134,7 @@ For detailed information about the error, use QJSValue::toString() to obtain an 
 Script Object Creation
 ----------------------
 
-Use :sip:ref:`~PyQt6.QtQml.QJSEngine.newObject` to create a JavaScript object; this is the C++ equivalent of the script statement ``new Object()``. You can use the object-specific functionality in :sip:ref:`~PyQt6.QtQml.QJSValue` to manipulate the script object (e.g. QJSValue::setProperty()). Similarly, use :sip:ref:`~PyQt6.QtQml.QJSEngine.newArray` to create a JavaScript array object.
+Use :sip:ref:`~PyQt6.QtQml.QJSEngine.newObject` to create a JavaScript object; this is the C++ equivalent of the script statement ``new Object()``. You can use the object-specific functionality in :sip:ref:`~PyQt6.QtQml.QJSValue` to manipulate the script object (e.g. :sip:ref:`~PyQt6.QtQml.QJSValue.setProperty`). Similarly, use :sip:ref:`~PyQt6.QtQml.QJSEngine.newArray` to create a JavaScript array object.
 
 .. _qjsengine-qobject-integration:
 
@@ -180,6 +180,6 @@ Dynamic :sip:ref:`~PyQt6.QtCore.QObject` properties are not supported. For examp
 Extensions
 ----------
 
-:sip:ref:`~PyQt6.QtQml.QJSEngine` provides a compliant ECMAScript implementation. By default, familiar utilities like logging are not available, but they can can be installed via the :sip:ref:`~PyQt6.QtQml.QJSEngine.installExtensions` function.
+:sip:ref:`~PyQt6.QtQml.QJSEngine` provides a compliant ECMAScript implementation. By default, familiar utilities like logging are not available, but they can be installed via the :sip:ref:`~PyQt6.QtQml.QJSEngine.installExtensions` function.
 
 .. seealso:: :sip:ref:`~PyQt6.QtQml.QJSValue`, `Making Applications Scriptable <https://doc.qt.io/qt-6/qtjavascript.html>`_, `List of JavaScript Objects and Functions <https://doc.qt.io/qt-6/qtqml-javascript-functionlist.html>`_.

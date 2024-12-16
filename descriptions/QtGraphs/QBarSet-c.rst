@@ -1,5 +1,10 @@
 .. sip:class-description::
     :status: todo
-    :brief:  TODO
+    :brief: Represents one set of bars in a bar graph
+    :digest: c6054d04e1d2c74bbe2fd874aeee9062
 
-TODO
+The :sip:ref:`~PyQt6.QtGraphs.QBarSet` class represents one set of bars in a bar graph.
+
+A bar set contains one data value for each category. The first value of a set is assumed to belong to the first category, the second one to the second category, and so on. If the set has fewer values than there are categories, the missing values are assumed to be located at the end of the set. For missing values in the middle of a set, the numerical value of zero is used. Labels for zero value sets are not shown.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QBarSeries`.

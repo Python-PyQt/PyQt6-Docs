@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: bb2574625a42a25879663518680a3edc
 
-TODO
+Series type for :sip:ref:`~PyQt6.QtGraphsWidgets.Q3DSurfaceWidgetItem`.

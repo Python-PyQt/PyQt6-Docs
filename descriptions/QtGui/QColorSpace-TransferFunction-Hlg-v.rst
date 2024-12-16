@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: e86c59f6c7e72a9eafc8b18166e9128a
 
-TODO
+The Hybrid log-gamma transfer function.

@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: Item | Row
+    :digest: dd25aa27875dc6beb40603d1efdaffbb
 
-TODO
+Combination flag for highlighting both item and row with different colors.

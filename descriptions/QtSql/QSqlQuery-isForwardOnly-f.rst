@@ -2,8 +2,8 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: 9938506d96ee5e59b129c47be6956015
+    :digest: 9d986c508f7c0b19f96235eaf8aa1e1e
 
-Returns ``true`` if you can only scroll forward through a result set; otherwise returns ``false``.
+Returns forwardOnly.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlQuery.setForwardOnly`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.next`.
+.. seealso:: forwardOnly, :sip:ref:`~PyQt6.QtSql.QSqlQuery.next`, :sip:ref:`~PyQt6.QtSql.QSqlQuery.seek`.

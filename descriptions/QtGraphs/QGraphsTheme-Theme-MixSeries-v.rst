@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: e216627104449d036673ec4d6acd7cfe
 
-TODO
+A mixed theme with various colors.

@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
-    :brief: Allows you to add pages to a custom multi-page container in Qt Designer's workspace
-    :digest: cf9f5931bcbe7b49de6a9c52bcd0530c
+    :brief: Allows you to add pages to a custom multi-page container in Qt Widgets Designer's workspace
+    :digest: b568f4d8c50a703d7866e314cfb5abfb
 
-The :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class allows you to add pages to a custom multi-page container in *Qt Designer*'s workspace.
+The :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class allows you to add pages to a custom multi-page container in Qt Widgets Designer's workspace.
 
 .. image:: ../../../images/containerextension-example.webp
 
-:sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` provide an interface for creating custom container extensions. A container extension consists of a collection of functions that *Qt Designer* needs to manage a multi-page container plugin, and a list of the container's pages.
+:sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` provide an interface for creating custom container extensions. A container extension consists of a collection of functions that Qt Widgets Designer needs to manage a multi-page container plugin, and a list of the container's pages.
 
 **Warning:** This is *not* an extension for container plugins in general, only custom *multi-page* containers.
 
@@ -16,15 +16,15 @@ To create a container extension, your extension class must inherit from both :si
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-plugins-doc_src_qtdesigner.py
     :lines: 119-138
 
-Since we are implementing an interface, we must ensure that it's made known to the meta object system using the Q_INTERFACES() macro. This enables *Qt Designer* to use the qobject_cast() function to query for supported interfaces using nothing but a :sip:ref:`~PyQt6.QtCore.QObject` pointer.
+Since we are implementing an interface, we must ensure that it's made known to the meta object system using the Q_INTERFACES() macro. This enables Qt Widgets Designer to use the qobject_cast() function to query for supported interfaces using nothing but a :sip:ref:`~PyQt6.QtCore.QObject` pointer.
 
-You must reimplement several functions to enable *Qt Designer* to manage a custom multi-page container widget: *Qt Designer* uses :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.count` to keep track of the number pages in your container, :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.widget` to return the page at a given index in the list of the container's pages, and :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.currentIndex` to return the list index of the selected page. *Qt Designer* uses the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.addWidget` function to add a given page to the container, expecting it to be appended to the list of pages, while it expects the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.insertWidget` function to add a given page to the container by inserting it at a given index.
+You must reimplement several functions to enable Qt Widgets Designer to manage a custom multi-page container widget: Qt Widgets Designer uses :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.count` to keep track of the number pages in your container, :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.widget` to return the page at a given index in the list of the container's pages, and :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.currentIndex` to return the list index of the selected page. Qt Widgets Designer uses the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.addWidget` function to add a given page to the container, expecting it to be appended to the list of pages, while it expects the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension.insertWidget` function to add a given page to the container by inserting it at a given index.
 
-In *Qt Designer* the extensions are not created until they are required. For that reason you must also create a :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, i.e a class that is able to make an instance of your extension, and register it using *Qt Designer*'s :sip:ref:`~PyQt6.QtDesigner.QExtensionManager`.
+In Qt Widgets Designer the extensions are not created until they are required. For that reason you must also create a :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, i.e a class that is able to make an instance of your extension, and register it using Qt Widgets Designer's :sip:ref:`~PyQt6.QtDesigner.QExtensionManager`.
 
-When a container extension is required, *Qt Designer*'s :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` will run through all its registered factories calling :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory.createExtension` for each until the first one that is able to create a container extension, is found. This factory will then create the extension for the plugin.
+When a container extension is required, Qt Widgets Designer's :sip:ref:`~PyQt6.QtDesigner.QExtensionManager` will run through all its registered factories calling :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory.createExtension` for each until the first one that is able to create a container extension, is found. This factory will then create the extension for the plugin.
 
-There are four available types of extensions in *Qt Designer*: :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` , :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension`, :sip:ref:`~PyQt6.QtDesigner.QDesignerPropertySheetExtension` and :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension`. *Qt Designer*'s behavior is the same whether the requested extension is associated with a multi page container, a member sheet, a property sheet or a task menu.
+There are four available types of extensions in Qt Widgets Designer: :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` , :sip:ref:`~PyQt6.QtDesigner.QDesignerMemberSheetExtension`, :sip:ref:`~PyQt6.QtDesigner.QDesignerPropertySheetExtension` and :sip:ref:`~PyQt6.QtDesigner.QDesignerTaskMenuExtension`. Qt Widgets Designer's behavior is the same whether the requested extension is associated with a multi page container, a member sheet, a property sheet or a task menu.
 
 The :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory` class provides a standard extension factory, and can also be used as an interface for custom extension factories. You can either create a new :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory` and reimplement the :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory.createExtension` function. For example:
 
@@ -36,6 +36,6 @@ Or you can use an existing factory, expanding the :sip:ref:`~PyQt6.QtDesigner.QE
 .. literalinclude:: ../../../snippets/qttools-src-designer-src-designer-doc-snippets-plugins-doc_src_qtdesigner.py
     :lines: 159-173
 
-For a complete example using the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class, see the `Container Extension example <https://doc.qt.io/qt-6/qtdesigner-containerextension-example.html>`_. The example shows how to create a custom multi-page plugin for *Qt Designer*.
+For a complete example using the :sip:ref:`~PyQt6.QtDesigner.QDesignerContainerExtension` class, see the `Container Extension example <https://doc.qt.io/qt-6/qtdesigner-containerextension-example.html>`_. The example shows how to create a custom multi-page plugin for Qt Widgets Designer.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QExtensionFactory`, :sip:ref:`~PyQt6.QtDesigner.QExtensionManager`, `Creating Custom Widget Extensions <https://doc.qt.io/qt-6/designer-creating-custom-widgets-extensions.html>`_.

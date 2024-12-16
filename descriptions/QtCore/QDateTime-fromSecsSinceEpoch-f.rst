@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 38b67f4848c5ac5a7ef890559f14d475
     :realsig: (qint64,const QTimeZone&)
-    :digest: 452742f818ed4efd5f29383e12119a65
-
-This is an overloaded function.
+    :digest: 24ad2c1b5f6e96746996c7f8b6b83523
 
 Returns a datetime representing a moment the given number *secs* of seconds after the start, in UTC, of the year 1970, described as specified by *timeZone*. The default time representation is local time.
 

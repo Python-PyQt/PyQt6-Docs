@@ -2,8 +2,8 @@
     :status: todo
     :pysig: f753c26b1f931aa55a84bee1def4b069
     :realsig: (QSqlField::RequiredStatus)
-    :digest: 521e6eeaf77c0c0f5eefa108fdf3f351
+    :digest: e27b18ca266486671fc04f6df42d57de
 
-Sets the required status of this field to *required*.
+Sets :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus` to *required*.
 
-.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus`, :sip:ref:`~PyQt6.QtSql.QSqlField.setMetaType`, :sip:ref:`~PyQt6.QtSql.QSqlField.setLength`, :sip:ref:`~PyQt6.QtSql.QSqlField.setPrecision`, :sip:ref:`~PyQt6.QtSql.QSqlField.setDefaultValue`, :sip:ref:`~PyQt6.QtSql.QSqlField.setGenerated`, :sip:ref:`~PyQt6.QtSql.QSqlField.setReadOnly`.
+.. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus`.

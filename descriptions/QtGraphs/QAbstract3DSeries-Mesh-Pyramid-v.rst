@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: f37e1d461ef9284a17b2790f06a4294d
 
-TODO
+Four-sided pyramid.

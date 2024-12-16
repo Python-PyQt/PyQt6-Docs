@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7e2aa47fb45c307732261cfd79cac9c8
+    :digest: eaa9b628bb77dff6934481572bc2444f
 
 This enum specifies the physical position of the camera on the system hardware.
 

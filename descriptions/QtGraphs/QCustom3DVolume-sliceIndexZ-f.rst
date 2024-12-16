@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: 22dbfcfd377304fc3e3468afb0ce08af
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QCustom3DVolume.setSliceIndexZ`.

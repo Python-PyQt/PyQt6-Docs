@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 6
+    :digest: bcdf2e75b6a08952212811e0f3d7e59c
 
-TODO
+Authenticator doesn't have resident key support.

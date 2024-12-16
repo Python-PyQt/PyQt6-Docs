@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: a91c43b73eaa7e6c6f5a36800df81b08
 
-TODO
+An unsupported permission type.

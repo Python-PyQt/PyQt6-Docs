@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: afe46f3acb906b56d3f9f21b86f41f6b
 
-TODO
+Grid lines are rendered with GPU in a shader.

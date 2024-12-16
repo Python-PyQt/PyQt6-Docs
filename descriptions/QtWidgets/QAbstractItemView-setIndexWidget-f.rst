@@ -2,15 +2,15 @@
     :status: todo
     :pysig: 9f2b33ec75e327b2ae1c357d3c6f9fb5
     :realsig: (const QModelIndex&,QWidget*)
-    :digest: cb73c4304628f0e2265d2b9bd59ff451
+    :digest: 55dbf3cfbd4b16c4045df4f3bbb45356
 
 Sets the given *widget* on the item at the given *index*, passing the ownership of the widget to the viewport.
 
 If *index* is invalid (e.g., if you pass the root index), this function will do nothing.
 
-The given *widget*'s `autoFillBackground <https://doc.qt.io/qt-6/widgets-changes-qt6.html#qwidget>`_ property must be set to true, otherwise the widget's background will be transparent, showing both the model data and the item at the given *index*.
+The given *widget*'s :sip:ref:`~PyQt6.QtWidgets.QWidget` property must be set to true, otherwise the widget's background will be transparent, showing both the model data and the item at the given *index*.
 
-If index widget A is replaced with index widget B, index widget A will be deleted. For example, in the code snippet below, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit` object will be deleted.
+**Note:** The view takes ownership of the *widget*. This means if index widget A is replaced with index widget B, index widget A will be deleted. For example, in the code snippet below, the :sip:ref:`~PyQt6.QtWidgets.QLineEdit` object will be deleted.
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_itemviews_qabstractitemview.py
     :lines: 61-63

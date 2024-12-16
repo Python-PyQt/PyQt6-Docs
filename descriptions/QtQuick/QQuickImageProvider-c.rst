@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for supporting pixmaps and threaded image requests in QML
-    :digest: 986929971e5aa871481c784f00c76e7d
+    :digest: c56b4592633423b3cca595b1f179746f
 
 The :sip:ref:`~PyQt6.QtQuick.QQuickImageProvider` class provides an interface for supporting pixmaps and threaded image requests in QML.
 
@@ -45,6 +45,8 @@ Now the images can be successfully loaded in QML:
 .. image:: ../../../images/imageprovider.png
 
 See the `Image Provider Example <https://doc.qt.io/qt-6/qtquick-imageprovider-example.html>`_ for the complete implementation. Note that the example registers the provider via a :sip:ref:`~PyQt6.QtQml.QQmlEngineExtensionPlugin` instead of registering it in the application ``main()`` function as shown above.
+
+It is possible to provide "@nx" high DPI syntax.
 
 .. _qquickimageprovider-asynchronous-image-loading:
 

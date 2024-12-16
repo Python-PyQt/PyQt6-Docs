@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 2bd872881014749972c546eda6527fe5
     :realsig: (const QUrl&,QWebEnginePage::Feature,QWebEnginePage::PermissionPolicy)
-    :digest: 63c3c34bed3d434cbc4b641555e216ec
+    :digest: 27e311b993ea0ff3c7916da7a1dbf89c
+
+Use :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`'s :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.grant`\ (), :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.deny`\ (), and :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.reset`\ () functions instead.
 
 Sets the permission for the web site identified by *securityOrigin* to use *feature* to *policy*.
 

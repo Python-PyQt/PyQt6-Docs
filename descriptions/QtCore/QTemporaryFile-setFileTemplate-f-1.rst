@@ -2,10 +2,14 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
-    :digest: 789dad9882b75bc44b57af5191cf3736
+    :digest: 2faa7912e60d0127785082155b1a411b
 
-Sets the static portion of the file name to *name*. If the file template contains XXXXXX that will automatically be replaced with the unique part of the filename, otherwise a filename will be determined automatically based on the static portion specified.
+Sets the file name template to *templateName*.
 
-If *name* contains a relative file path, the path will be relative to the current working directory. You can use :sip:ref:`~PyQt6.QtCore.QDir.tempPath` to construct *name* if you want use the system's temporary directory. It is important to specify the correct directory if the :sip:ref:`~PyQt6.QtCore.QTemporaryFile.rename` function will be called, as :sip:ref:`~PyQt6.QtCore.QTemporaryFile` can only rename files within the same volume / filesystem as the temporary file itself was created on.
+If the file name (the part after the last directory path separator in *templateName*) doesn't contain ``"XXXXXX"``, it will be added automatically.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileTemplate`.
+``"XXXXXX"`` will be replaced with the dynamic part of the file name, which is calculated to be unique.
+
+If *templateName* is a relative path, the path will be relative to the current working directory. You can use :sip:ref:`~PyQt6.QtCore.QDir.tempPath` to construct *templateName* if you want use the system's temporary directory. It is important to specify the correct directory if the :sip:ref:`~PyQt6.QtCore.QTemporaryFile.rename` function will be called, as :sip:ref:`~PyQt6.QtCore.QTemporaryFile` can only rename files within the same volume / filesystem as the temporary file itself was created on.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileTemplate`, :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileName`.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 25da2ff90bbe6956177b7ded744e49b8
     :realsig: (int,QIODeviceBase::OpenMode,QFileDevice::FileHandleFlags)
-    :digest: aa72bb20548a22142138968cae321c3b
+    :digest: 7c019eb79e170e595198c3f92825a374
 
 This is an overloaded function.
 
@@ -14,4 +14,4 @@ When a :sip:ref:`~PyQt6.QtCore.QFile` is opened using this function, behaviour o
 
 **Warning:** Since this function opens the file without specifying the file name, you cannot use this :sip:ref:`~PyQt6.QtCore.QFile` with a :sip:ref:`~PyQt6.QtCore.QFileInfo`.
 
-.. seealso:: close().
+.. seealso:: close(), QT_USE_NODISCARD_FILE_OPEN.

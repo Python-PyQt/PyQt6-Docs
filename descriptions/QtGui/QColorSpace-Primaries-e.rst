@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 88c59986e6dd2b9e3b958f8426fbb82f
+    :digest: f5e0d1efd093a1ee5064e45681e60f01
 
 Predefined sets of primary colors.

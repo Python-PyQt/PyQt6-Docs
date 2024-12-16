@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Manipulates the fields in SQL database tables and views
-    :digest: 00b2ee545b038fc4285cb79ba507d0fd
+    :digest: 9fd02982cc7c0bf18e0d806c617feb9a
 
 The :sip:ref:`~PyQt6.QtSql.QSqlField` class manipulates the fields in SQL database tables and views.
 
@@ -28,6 +28,6 @@ However, the field will attempt to cast certain data types to the field data typ
 .. literalinclude:: ../../../snippets/qtbase-src-sql-doc-snippets-sqldatabase-sqldatabase.py
     :lines: 104-104
 
-A :sip:ref:`~PyQt6.QtSql.QSqlField` object can provide some meta-data about the field, for example, its :sip:ref:`~PyQt6.QtSql.QSqlField.name`, variant , :sip:ref:`~PyQt6.QtSql.QSqlField.length`, :sip:ref:`~PyQt6.QtSql.QSqlField.precision`, :sip:ref:`~PyQt6.QtSql.QSqlField.defaultValue`, , and its :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus`, :sip:ref:`~PyQt6.QtSql.QSqlField.isGenerated` and :sip:ref:`~PyQt6.QtSql.QSqlField.isReadOnly`. The field's data can be checked to see if it :sip:ref:`~PyQt6.QtSql.QSqlField.isNull`, and its :sip:ref:`~PyQt6.QtSql.QSqlField.value` retrieved. When editing the data can be set with :sip:ref:`~PyQt6.QtSql.QSqlField.setValue` or set to NULL with :sip:ref:`~PyQt6.QtSql.QSqlField.clear`.
+A :sip:ref:`~PyQt6.QtSql.QSqlField` object can provide some meta-data about the field, for example, its :sip:ref:`~PyQt6.QtSql.QSqlField.name`, variant type(), :sip:ref:`~PyQt6.QtSql.QSqlField.length`, :sip:ref:`~PyQt6.QtSql.QSqlField.precision`, :sip:ref:`~PyQt6.QtSql.QSqlField.defaultValue`, typeID(), and its :sip:ref:`~PyQt6.QtSql.QSqlField.requiredStatus`, :sip:ref:`~PyQt6.QtSql.QSqlField.isGenerated` and :sip:ref:`~PyQt6.QtSql.QSqlField.isReadOnly`. The field's data can be checked to see if it :sip:ref:`~PyQt6.QtSql.QSqlField.isNull`, and its :sip:ref:`~PyQt6.QtSql.QSqlField.value` retrieved. When editing the data can be set with :sip:ref:`~PyQt6.QtSql.QSqlField.setValue` or set to NULL with :sip:ref:`~PyQt6.QtSql.QSqlField.clear`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlRecord`.

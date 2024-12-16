@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 24c661348e7a5a8ebe8b239d46db7926
     :realsig: (QEventLoop::ProcessEventsFlags, QDeadlineTimer)
-    :digest: 0edf1952ed8d1fe4fe86a22c923ba64c
+    :digest: 70e86ab10640e1186ed8e31e49a610af
 
 This is an overloaded function.
 
@@ -16,4 +16,4 @@ Calling this function processes events only for the calling thread.
 
 **Note:** All events that were queued before the timeout will be processed, however long it takes.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QCoreApplication.exec`, :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QEventLoop.processEvents`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QCoreApplication.exec`, :sip:ref:`~PyQt6.QtCore.QTimer`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QEventLoop.processEvents`.

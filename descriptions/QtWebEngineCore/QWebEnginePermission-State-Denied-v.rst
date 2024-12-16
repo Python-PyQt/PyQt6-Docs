@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 3
+    :digest: 727c323fc05543ac22c33aab04e15883
 
-TODO
+Permission has already been denied.

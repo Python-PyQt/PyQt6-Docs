@@ -2,8 +2,8 @@
     :status: todo
     :pysig: b447449682221e15b30d7eb1bf64b956
     :realsig: (QDesignerActionEditorInterface*)
-    :digest: 33b08584a813f2012684e008d154e37e
+    :digest: c160a79b541c340e8a9001c00e0e8a29
 
-Sets *Qt Designer*'s action editor to be the specified *actionEditor*.
+Sets Qt Widgets Designer's action editor to be the specified *actionEditor*.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.actionEditor`.

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c18d8ec67442dd4267256b61297b928d
     :realsig: (bool*, const QFont&, QWidget*, const QString&, QFontDialog::FontDialogOptions)
-    :digest: c5bbbaa7ab8864a9b5f25308be878968
+    :digest: 52e5f0cc23b67d2f9cb9c7c2077b7edf
 
 Executes a modal font dialog and returns a font.
 
@@ -21,5 +21,3 @@ The dialog can also be used to set a widget's font directly:
     :lines: 84-84
 
 In this example, if the user clicks OK the font they chose will be used, and if they click Cancel the original font is used.
-
-**Warning:** Do not delete *parent* during the execution of the dialog. If you want to do this, you should create the dialog yourself using one of the :sip:ref:`~PyQt6.QtWidgets.QFontDialog` constructors.

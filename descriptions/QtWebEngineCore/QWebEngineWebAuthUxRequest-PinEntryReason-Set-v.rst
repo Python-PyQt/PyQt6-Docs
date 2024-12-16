@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 25453a72ecebf432030164a738158013
 
-TODO
+A new PIN is being set.

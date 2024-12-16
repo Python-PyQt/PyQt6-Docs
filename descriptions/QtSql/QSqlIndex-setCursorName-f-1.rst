@@ -2,8 +2,8 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
-    :digest: bc7fec8464eee03934319c8998c63c2a
+    :digest: 94c1921e64226b1847e144686d5f8c8f
 
-Sets the name of the cursor that the index is associated with to *cursorName*.
+Sets :sip:ref:`~PyQt6.QtSql.QSqlIndex.cursorName` to *cursorName*.
 
 .. seealso:: :sip:ref:`~PyQt6.QtSql.QSqlIndex.cursorName`.

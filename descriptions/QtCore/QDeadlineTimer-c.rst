@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Marks a deadline in the future
-    :digest: 20ae06cc218f9c7da7ee3539a9716720
+    :digest: 35ecc2b7f1ce333326ac58ceffb0370c
 
 The :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` class marks a deadline in the future.
 
@@ -32,7 +32,7 @@ Reference Clocks
 Timer types
 -----------
 
-Like :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` can select among different levels of coarseness on the timers. You can select precise timing by passing :sip:ref:`~PyQt6.QtCore.Qt.TimerType.PreciseTimer` to the functions that set of change the timer, or you can select coarse timing by passing :sip:ref:`~PyQt6.QtCore.Qt.TimerType.CoarseTimer`. :sip:ref:`~PyQt6.QtCore.Qt.TimerType.VeryCoarseTimer` is currently interpreted the same way as :sip:ref:`~PyQt6.QtCore.Qt.TimerType.CoarseTimer`.
+Like :sip:ref:`~PyQt6.QtCore.QTimer` and QChronoTimer, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` can select among different levels of coarseness on the timers. You can select precise timing by passing :sip:ref:`~PyQt6.QtCore.Qt.TimerType.PreciseTimer` to the functions that set of change the timer, or you can select coarse timing by passing :sip:ref:`~PyQt6.QtCore.Qt.TimerType.CoarseTimer`. :sip:ref:`~PyQt6.QtCore.Qt.TimerType.VeryCoarseTimer` is currently interpreted the same way as :sip:ref:`~PyQt6.QtCore.Qt.TimerType.CoarseTimer`.
 
 This feature is dependent on support from the operating system: if the OS does not support a coarse timer functionality, then :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` will behave like :sip:ref:`~PyQt6.QtCore.Qt.TimerType.PreciseTimer` was passed.
 
@@ -53,4 +53,4 @@ Note that comparing to ``time_point`` is not as efficient as comparing to ``dura
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qdeadlinetimer.py
     :lines: 76-80
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, :sip:ref:`~PyQt6.QtCore.QTimer`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`, :sip:ref:`~PyQt6.QtCore.Qt.TimerType`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`, :sip:ref:`~PyQt6.QtCore.Qt.TimerType`.

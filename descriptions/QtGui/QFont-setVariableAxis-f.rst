@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 1b2c29769adf6993e211e8c65721063f
     :realsig: (QFont::Tag, float)
-    :digest: a3b111c5e4b954defd85d4858f337b17
+    :digest: ce935de800cbbe3aa3b67380657729b3
 
 Applies a *value* to the variable axis corresponding to *tag*.
 
@@ -23,6 +23,6 @@ A font may also choose to define custom axes; the only limitation is that the na
 
 By default, no variable axes are set.
 
-**Note:** In order to use variable axes on Windows, the application has to run with either the FreeType or DirectWrite font databases. See the documentation for :sip:ref:`~PyQt6.QtGui.QGuiApplication.__init__` for more information on how to select these technologies.
+**Note:** On Windows, variable axes are not supported if the optional GDI font backend is in use.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.unsetVariableAxis`.

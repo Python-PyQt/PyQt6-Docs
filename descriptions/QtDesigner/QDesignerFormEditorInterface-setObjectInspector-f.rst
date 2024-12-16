@@ -2,8 +2,8 @@
     :status: todo
     :pysig: b4995b9a1b3fa003eeffc86aaccf528c
     :realsig: (QDesignerObjectInspectorInterface*)
-    :digest: b8520f57f3f17de63e93f7274edd76d0
+    :digest: a099bf680207c4ae97d0ac988f0b264a
 
-Sets *Qt Designer*'s object inspector to be the specified *objectInspector*.
+Sets Qt Widgets Designer's object inspector to be the specified *objectInspector*.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.objectInspector`.

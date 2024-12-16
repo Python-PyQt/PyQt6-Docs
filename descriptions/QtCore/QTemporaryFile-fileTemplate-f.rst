@@ -2,8 +2,10 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 60384aac116db7105cda58360017acc6
+    :digest: 8377efd1cfec19cfa950121d2b987c53
 
-Returns the set file template. The default file template will be called qcoreappname.XXXXXX and be placed in :sip:ref:`~PyQt6.QtCore.QDir.tempPath`.
+Returns the file name template.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.setFileTemplate`.
+The file name template returned by this method, will be relative or absolute depending on the file name template used to construct this object (or passed to :sip:ref:`~PyQt6.QtCore.QTemporaryFile.setFileTemplate`) being relative or absolute, respectively.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTemporaryFile.setFileTemplate`, :sip:ref:`~PyQt6.QtCore.QTemporaryFile.fileName`, Default File Name Template.

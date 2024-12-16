@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 9d8899574c1600f145ec8e3b9049cce6
     :realsig: (const QDomNodeList&)
-    :digest: 9e3ac723083189ee45f6dcf68cb8499d
+    :digest: f02ccd80ffcfa51a6dd7e19c0efa7508
 
-Constructs a copy of *n*.
+Constructs a copy of *nodeList*.

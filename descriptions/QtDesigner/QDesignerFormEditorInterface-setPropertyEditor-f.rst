@@ -2,8 +2,8 @@
     :status: todo
     :pysig: fca2bc6ee6e3e192dcdb72f1d2ba24a6
     :realsig: (QDesignerPropertyEditorInterface*)
-    :digest: 330e3589e66b2291a1d64ec877422b9a
+    :digest: 8c96fd79f7c50765ef7a9801f60fa3a4
 
-Sets *Qt Designer*'s property editor to be the specified *propertyEditor*.
+Sets Qt Widgets Designer's property editor to be the specified *propertyEditor*.
 
 .. seealso:: :sip:ref:`~PyQt6.QtDesigner.QDesignerFormEditorInterface.propertyEditor`.

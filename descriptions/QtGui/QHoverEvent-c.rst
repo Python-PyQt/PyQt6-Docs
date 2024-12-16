@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Contains parameters that describe a mouse event
-    :digest: 319fc5bf3ab5ed8b9974f1c623738180
+    :digest: 79438f458ce8479eac08d3a78502a4b0
 
 The :sip:ref:`~PyQt6.QtGui.QHoverEvent` class contains parameters that describe a mouse event.
 

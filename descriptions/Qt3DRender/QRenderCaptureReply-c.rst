@@ -2,7 +2,7 @@
     :status: todo
     :brief: Receives the result of render capture request
     :realname: Qt3DRender::QRenderCaptureReply
-    :digest: 2826a3bafcfd9378d4abb673653afdfe
+    :digest: 372f6ecf5dbc377840d23b6d1216da2f
 
 Receives the result of render capture request.
 

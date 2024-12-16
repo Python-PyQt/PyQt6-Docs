@@ -2,7 +2,7 @@
     :status: todo
     :pysig: af227bb6d24369d520748685924a2a63
     :realsig: (const QString&, quint16, const QSslConfiguration&)
-    :digest: 966e7fdd4cc12c04c998ef03691817db
+    :digest: ca78c6a72e3aff73b4e9357072222192
 
 Initiates a connection to the host given by *hostName* at port *port*, using *sslConfiguration*. This function is useful to complete the TCP and SSL handshake to a host before the HTTPS request is made, resulting in a lower network latency.
 

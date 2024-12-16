@@ -2,5 +2,10 @@
     :status: todo
     :pysig: 30985e3a4dd64cc7ba58e0a7032868a2
     :realsig: (const QList<qsizetype>&)
+    :digest: b0a74d337e970e32a8325c6d561a9e52
 
-TODO
+Marks multiple points passed in a *indexes* list as deselected.
+
+**Note:** Emits :sip:ref:`~PyQt6.QtGraphs.QXYSeries.selectedPointsChanged`
+
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QXYSeries.setPointSelected`.

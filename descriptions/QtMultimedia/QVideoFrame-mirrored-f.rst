@@ -2,8 +2,12 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: () const
-    :digest: 3b3e4956226f837d4b22d39f65a4a967
+    :digest: b3e86ea32b3e63aceb5d3cb532b64817
 
-Returns whether the frame should be mirrored before displaying.
+Returns whether the frame should be mirrored around its vertical axis before displaying.
+
+Transformations of ``QVideoFrame``, specifically rotation and mirroring, are used only for displaying the video frame and are applied on top of the surface transformation, which is determined by :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat`. Mirroring is applied after rotation.
+
+Mirroring is typically needed for video frames coming from a front camera of a mobile device.
 
 .. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame.setMirrored`.

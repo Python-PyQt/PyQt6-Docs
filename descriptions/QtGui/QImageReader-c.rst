@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Format independent interface for reading images from files or other devices
-    :digest: 030ce06837e8ed6683be6e3fa2a11fcd
+    :digest: 68349f6971cede199f7b43ff0924c4be
 
 The :sip:ref:`~PyQt6.QtGui.QImageReader` class provides a format independent interface for reading images from files or other devices.
 
@@ -33,4 +33,4 @@ The high resolution version is marked by the suffix ``@2x`` on the base name. Th
 
 This can be disabled by setting the environment variable ``QT_HIGHDPI_DISABLE_2X_IMAGE_LOADING``.
 
-.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QImageIOHandler`, QImageIOPlugin, :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, :sip:ref:`~PyQt6.QtGui.QColorSpace`, :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QIcon`, :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage`.
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QImageWriter`, :sip:ref:`~PyQt6.QtGui.QImageIOHandler`, QImageIOPlugin, :sip:ref:`~PyQt6.QtCore.QMimeDatabase`, :sip:ref:`~PyQt6.QtGui.QColorSpace`, :sip:ref:`~PyQt6.QtGui.QImage.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QPixmap.devicePixelRatio`, :sip:ref:`~PyQt6.QtGui.QIcon`, :sip:ref:`~PyQt6.QtGui.QPainter.drawPixmap`, :sip:ref:`~PyQt6.QtGui.QPainter.drawImage`.

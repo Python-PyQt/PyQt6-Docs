@@ -2,6 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: e6543c357d235ca244705b9dffbfc579
+    :digest: 4a4ee0275ab44d035154c927d781ce93
 
-Returns the method revision if one was specified by Q_REVISION, otherwise returns 0.
+Returns the method revision if one was specified by Q_REVISION, otherwise returns 0. Since Qt 6.0, non-zero values are encoded and can be decoded using :sip:ref:`~PyQt6.QtCore.QTypeRevision.fromEncodedVersion`.

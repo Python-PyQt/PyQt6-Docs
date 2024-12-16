@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Support for sorting and filtering data passed between another model and a view
-    :digest: 8fa1f8e54857782cec483797323b2b74
+    :digest: 6bc868e7849d9e75d222af7418a62db4
 
 The :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` class provides support for sorting and filtering data passed between another model and a view.
 
@@ -42,7 +42,7 @@ When this feature is on (the default is off), clicking on a header section sorts
 
 .. image:: ../../../images/qsortfilterproxymodel-sorting.png
 
-Behind the scene, the view calls the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` virtual function on the model to reorder the data in the model. To make your data sortable, you can either implement :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` in your model, or use a :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` to wrap your model -- :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` provides a generic :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` reimplementation that operates on the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortRole` (\ :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole` by default) of the items and that understands several data types, including ``int``, QString, and :sip:ref:`~PyQt6.QtCore.QDateTime`. For hierarchical models, sorting is applied recursively to all child items. String comparisons are case sensitive by default; this can be changed by setting the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortCaseSensitivity` property.
+Behind the scene, the view calls the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` virtual function on the model to reorder the data in the model. To make your data sortable, you can either implement :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` in your model, or use a :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` to wrap your model – :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` provides a generic :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` reimplementation that operates on the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortRole` (\ :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole` by default) of the items and that understands several data types, including ``int``, QString, and :sip:ref:`~PyQt6.QtCore.QDateTime`. For hierarchical models, sorting is applied recursively to all child items. String comparisons are case sensitive by default; this can be changed by setting the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortCaseSensitivity` property.
 
 Custom sorting behavior is achieved by subclassing :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` and reimplementing :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.lessThan`, which is used to compare items. For example:
 
@@ -58,12 +58,14 @@ An alternative approach to sorting is to disable sorting on the view and to impo
 
 :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` can be sorted by column -1, in which case it returns to the sort order of the underlying source model.
 
+**Note:** :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortColumn` returns the most recently used sort column. The default value is -1, which means that this proxy model does not sort. Also, note that :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sort` sets the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.sortColumn` to the most recently used sort column.
+
 .. _qsortfilterproxymodel-filtering:
 
 Filtering
 ---------
 
-In addition to sorting, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` can be used to hide items that do not match a certain filter. The filter is specified using a `QRegularExpression <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qregularexpression>`_ object and is applied to the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.filterRole` (\ :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole` by default) of each item, for a given column. The `QRegularExpression <https://doc.qt.io/qt-6/qtcore-changes-qt6.html#qregularexpression>`_ object can be used to match a regular expression, a wildcard pattern, or a fixed string. For example:
+In addition to sorting, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` can be used to hide items that do not match a certain filter. The filter is specified using a :sip:ref:`~PyQt6.QtCore.QRegularExpression` object and is applied to the :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.filterRole` (\ :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole` by default) of each item, for a given column. The :sip:ref:`~PyQt6.QtCore.QRegularExpression` object can be used to match a regular expression, a wildcard pattern, or a fixed string. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-qsortfilterproxymodel-details-main.py
     :lines: 99-100

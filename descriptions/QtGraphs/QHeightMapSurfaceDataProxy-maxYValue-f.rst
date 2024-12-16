@@ -2,5 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: () const
+    :digest: 24bbaf28b3efda43bd27d4d154d97aab
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QHeightMapSurfaceDataProxy.setMaxYValue`.

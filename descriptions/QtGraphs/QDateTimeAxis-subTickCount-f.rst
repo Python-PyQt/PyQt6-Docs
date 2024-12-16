@@ -2,5 +2,6 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
+    :digest: e30889b18efe921b318a7638e685bd7e
 
-TODO
+.. seealso:: :sip:ref:`~PyQt6.QtGraphs.QDateTimeAxis.setSubTickCount`.

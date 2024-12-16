@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 4
+    :digest: 257c7a9a5c8e7d0e3c4f56b97f2ec03f
 
-TODO
+Pre-shared keys.

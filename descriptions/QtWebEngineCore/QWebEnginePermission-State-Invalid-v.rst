@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: 471b637dfcb072a4674aed58d68de089
 
-TODO
+Object is in an invalid state, and any attempts to modify the described permission will fail.

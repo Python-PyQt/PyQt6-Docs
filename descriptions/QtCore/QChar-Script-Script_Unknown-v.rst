@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: f9fa4e9a1e6e528343bbe1487e69941e
 
-TODO
+For unassigned, private-use, noncharacter, and surrogate code points.

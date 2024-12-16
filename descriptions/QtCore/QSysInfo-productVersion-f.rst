@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 49cd6c4846645627c7c8750fdcfb2bfd
     :realsig: ()
-    :digest: 95d9b2dc47c805e52e259a39fb8abdb6
+    :digest: 70888a35e192e4ff2a89fe4b1028e2a5
 
 Returns the product version of the operating system in string form. If the version could not be determined, this function returns "unknown".
 
-It will return the Android, iOS, macOS, Windows full-product versions on those systems.
+It will return the Android, iOS, macOS, VxWorks, Windows full-product versions on those systems.
 
 Typical returned values are (note: list not exhaustive):
 
@@ -25,6 +25,8 @@ Typical returned values are (note: list not exhaustive):
 * "11" (Windows 11)
 
 * "Server 2022" (Windows Server 2022)
+
+* "24.03" (VxWorks 7 - 24.03)
 
 On Linux systems, it will try to determine the distribution version and will return that. This is also done on Debian/kFreeBSD, so this function will return Debian version in that case.
 

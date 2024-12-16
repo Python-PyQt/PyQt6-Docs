@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for encoding and decoding text
-    :digest: 8df35b02c79f1247af4a6bf4f80f4f36
+    :digest: 18ce2099de6fa46daf77840a820a00d5
 
 The :sip:ref:`~PyQt6.QtCore.QStringConverter` class provides a base class for encoding and decoding text.
 
@@ -9,7 +9,7 @@ Qt uses UTF-16 to store, draw and manipulate strings. In many situations you may
 
 The :sip:ref:`~PyQt6.QtCore.QStringConverter` class is a base class for the :sip:ref:`~PyQt6.QtCore.QStringEncoder` and :sip:ref:`~PyQt6.QtCore.QStringDecoder` classes that help with converting between different text encodings. :sip:ref:`~PyQt6.QtCore.QStringDecoder` can decode a string from an encoded representation into UTF-16, the format Qt uses internally. :sip:ref:`~PyQt6.QtCore.QStringEncoder` does the opposite operation, encoding UTF-16 encoded data (usually in the form of a QString) to the requested encoding.
 
-The supported encodings are:
+The following encodings are always supported:
 
 * UTF-8
 
@@ -28,6 +28,8 @@ The supported encodings are:
 * ISO-8859-1 (Latin-1)
 
 * The system encoding
+
+:sip:ref:`~PyQt6.QtCore.QStringConverter` may support more encodings depending on how Qt was compiled. If more codecs are supported, they can be listed using :sip:ref:`~PyQt6.QtCore.QStringConverter.availableCodecs`.
 
 :sip:ref:`~PyQt6.QtCore.QStringConverter`\ s can be used as follows to convert some encoded string to and from UTF-16.
 

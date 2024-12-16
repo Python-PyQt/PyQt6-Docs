@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Feedback on the progress of a slow operation
-    :digest: b5a11b25aa49705a32ff182546dc51ae
+    :digest: 040f2c5195c6c7edaeb05d332306c19e
 
 The :sip:ref:`~PyQt6.QtWidgets.QProgressDialog` class provides feedback on the progress of a slow operation.
 
@@ -20,7 +20,7 @@ Compared to a modeless :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`, a modal :sip
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-dialogs-dialogs.py
     :lines: 222-232
 
-A modeless progress dialog is suitable for operations that take place in the background, where the user is able to interact with the application. Such operations are typically based on :sip:ref:`~PyQt6.QtCore.QTimer` (or :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`) or :sip:ref:`~PyQt6.QtCore.QSocketNotifier`; or performed in a separate thread. A :sip:ref:`~PyQt6.QtWidgets.QProgressBar` in the status bar of your main window is often an alternative to a modeless progress dialog.
+A modeless progress dialog is suitable for operations that take place in the background, where the user is able to interact with the application. Such operations are typically based on a timer class, such as QChronoTimer (or the more low-level :sip:ref:`~PyQt6.QtCore.QObject.timerEvent`) or :sip:ref:`~PyQt6.QtCore.QSocketNotifier`; or performed in a separate thread. A :sip:ref:`~PyQt6.QtWidgets.QProgressBar` in the status bar of your main window is often an alternative to a modeless progress dialog.
 
 You need to have an event loop to be running, connect the :sip:ref:`~PyQt6.QtWidgets.QProgressDialog.canceled` signal to a slot that stops the operation, and call :sip:ref:`~PyQt6.QtWidgets.QProgressDialog.setValue` at intervals. For example:
 

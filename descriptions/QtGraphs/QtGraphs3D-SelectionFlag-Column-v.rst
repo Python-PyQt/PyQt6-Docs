@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x04
+    :digest: 66e8c256407e61db5ef21e3bca8e447e
 
-TODO
+Selection highlights a single column.

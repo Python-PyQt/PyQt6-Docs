@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: ff96eb68b84739e3f4e815e89b3adff1
 
-TODO
+The position values are taken from the first item in the item model that matches each row/column combination.

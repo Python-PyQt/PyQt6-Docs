@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 2f43b333b94ca502018fc8bfc47a8224
     :realsig: (double) const
-    :digest: be82c743ffb620fffdc1d68f96cddd38
+    :digest: 5048163763576e1f2534f1f2302052e9
 
 This virtual function is used by the spin box whenever it needs to display the given *value*. The default implementation returns a string containing *value* printed using :sip:ref:`~PyQt6.QtWidgets.QWidget.locale`.toString(\ *value*, ``u'f'``, :sip:ref:`~PyQt6.QtWidgets.QDoubleSpinBox.decimals`) and will remove the thousand separator unless setGroupSeparatorShown() is set. Reimplementations may return anything.
 

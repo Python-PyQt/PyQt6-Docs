@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Iterator for directory entrylists
-    :digest: b776cd567066951b6449219d2d9ca55d
+    :digest: 4a3e63f5af3a71a6df5707fb645feb30
 
 The :sip:ref:`~PyQt6.QtCore.QDirIterator` class provides an iterator for directory entrylists.
 
@@ -20,5 +20,7 @@ Here's how to find and read all files filtered by name, recursively:
 The :sip:ref:`~PyQt6.QtCore.QDirIterator.next` and :sip:ref:`~PyQt6.QtCore.QDirIterator.nextFileInfo` functions advance the iterator and return the path or the :sip:ref:`~PyQt6.QtCore.QFileInfo` of the next directory entry. You can also call :sip:ref:`~PyQt6.QtCore.QDirIterator.filePath` or :sip:ref:`~PyQt6.QtCore.QDirIterator.fileInfo` to get the current file path or :sip:ref:`~PyQt6.QtCore.QFileInfo` without first advancing the iterator. The :sip:ref:`~PyQt6.QtCore.QDirIterator.fileName` function returns only the name of the file, similar to how :sip:ref:`~PyQt6.QtCore.QDir.entryList` works.
 
 Unlike Qt's container iterators, :sip:ref:`~PyQt6.QtCore.QDirIterator` is uni-directional (i.e., you cannot iterate directories in reverse order) and does not allow random access.
+
+**Note:** This class is deprecated and may be removed in a Qt release. Use QDirListing instead.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QDir.entryList`.

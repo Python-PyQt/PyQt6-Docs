@@ -1,15 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Framework for wizards
-    :digest: ba90c8f3b7879cb099c808a0a33b4ba1
+    :digest: 4c8de429f464901adcc3a2217bc97f10
 
 The :sip:ref:`~PyQt6.QtWidgets.QWizard` class provides a framework for wizards.
 
 A wizard (also called an assistant on macOS) is a special type of input dialog that consists of a sequence of pages. A wizard's purpose is to guide the user through a process step by step. Wizards are useful for complex or infrequent tasks that users may find difficult to learn.
 
 :sip:ref:`~PyQt6.QtWidgets.QWizard` inherits :sip:ref:`~PyQt6.QtWidgets.QDialog` and represents a wizard. Each page is a :sip:ref:`~PyQt6.QtWidgets.QWizardPage` (a :sip:ref:`~PyQt6.QtWidgets.QWidget` subclass). To create your own wizards, you can use these classes directly, or you can subclass them for more control.
-
-Topics:
 
 .. _qwizard-a-trivial-example:
 
@@ -165,7 +163,7 @@ If the user presses Back, :sip:ref:`~PyQt6.QtWidgets.QWizard.cleanupPage` is cal
 Creating Non-Linear Wizards
 ---------------------------
 
-Some wizards are more complex in that they allow different traversal paths based on the information provided by the user. The `License Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_ example illustrates this. It provides five wizard pages; depending on which options are selected, the user can reach different pages.
+Some wizards are more complex in that they allow different traversal paths based on the information provided by the user. The `License Wizard <https://doc.qt.io/qt-6/qtwidgets-dialogs-licensewizard-example.html>`_ example illustrates this. It provides several wizard pages; depending on which options are selected, the user can reach different pages.
 
 .. image:: ../../../images/licensewizard-flow.png
 

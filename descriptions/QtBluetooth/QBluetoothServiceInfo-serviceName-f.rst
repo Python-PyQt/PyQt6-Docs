@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 10764018d95f722c0a057b1e308cacee
+    :digest: d9951ed12ced00f351674f6673734353
 
 This is a convenience function. It is equivalent to calling attribute(\ :sip:ref:`~PyQt6.QtBluetooth.QBluetoothServiceInfo.AttributeId.ServiceName`).toString().
 

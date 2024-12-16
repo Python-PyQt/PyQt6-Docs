@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 2
+    :digest: e8b4946dc98c7bf316bb3fe56a980ee2
 
-TODO
+Animate the image once when the image frames are rendered.

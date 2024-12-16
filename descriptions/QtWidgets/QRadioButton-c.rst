@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Radio button with a text label
-    :digest: 1f7cb32dbad5c9a5f9612f4e0234966e
+    :digest: c50e12f8f195e0dba21e5aa691169655
 
 The :sip:ref:`~PyQt6.QtWidgets.QRadioButton` widget provides a radio button with a text label.
 
-.. image:: ../../../images/windows-radiobutton.png
+.. image:: ../../../images/fusion-radiobutton.png
 
 A :sip:ref:`~PyQt6.QtWidgets.QRadioButton` is an option button that can be switched on (checked) or off (unchecked). Radio buttons typically present the user with a "one of many" choice. In a group of radio buttons, only one radio button at a time can be checked; if the user selects another button, the previously selected button is switched off.
 
@@ -22,4 +22,4 @@ In this example the shortcut is *Alt+c*. See the QShortcut documentation for det
 
 Important inherited members: text(), setText(), text(), setDown(), isDown(), autoRepeat(), group(), setAutoRepeat(), toggle(), pressed(), released(), clicked(), and toggled().
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`, `Group Box Example <https://doc.qt.io/qt-6/qtwidgets-widgets-groupbox-example.html>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QPushButton`, :sip:ref:`~PyQt6.QtWidgets.QToolButton`, :sip:ref:`~PyQt6.QtWidgets.QCheckBox`.
