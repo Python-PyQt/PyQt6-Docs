@@ -139,7 +139,10 @@ class WebXMLMetadata:
         except KeyError:
             location = object_name.lower().replace('::', '-').replace('_', '-')
 
-        return os.path.join(self.name, location + '.webxml')
+        # This doesn't follow the usual convention.
+        sub_dir = 'activeqt' if self.name == 'qtactiveqt' else self.name
+
+        return os.path.join(sub_dir, self.name, location + '.webxml')
 
 
 # The WebXML meta-data.
@@ -278,6 +281,12 @@ WebXMLMetadata('qtdesigner',
             'QPyDesignerMemberSheetExtension': None,
             'QPyDesignerPropertySheetExtension': None,
             'QPyDesignerTaskMenuExtension': None,
+        })
+WebXMLMetadata('qtgraphs',
+        qdocconf='qtgraphs/src/doc/qtgraphs.qdocconf',
+        locations={
+            'PYQT_GRAPHS_VERSION': None,
+            'PYQT_GRAPHS_VERSION_STR': None,
         })
 WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
         more_images='qtbase/doc/src',
