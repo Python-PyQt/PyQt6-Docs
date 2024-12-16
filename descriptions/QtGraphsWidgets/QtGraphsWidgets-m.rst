@@ -1,5 +1,6 @@
 .. sip:module-description::
-    :status: todo
-    :brief:  TODO
+    :status: done
+    :brief: Classes for rendering 2D and 3D graphs in a widget.
 
-TODO
+The :sip:ref:`~PyQt6.QtGraphsWidgets` module allows the 2D and 3D graphs
+produced by the :sip:ref:`~PyQt6.QtGraphs` module to be displayed in a widget.
