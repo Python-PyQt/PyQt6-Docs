@@ -62,7 +62,8 @@ class WebXMLMetadata:
 
     all_webxml = []
 
-    def __init__(self, name, qdocconf, more_images=None, locations=None):
+    def __init__(self, name, qdocconf, webxml_subdir=None, webxml_suffix='',
+            more_images=None, locations=None):
         """ Initialise the object. """
 
         # The name of the module.
@@ -71,6 +72,12 @@ class WebXMLMetadata:
         # The name of the .qdocconf file relative to the source directory using
         # POSIX path separators.
         self._qdocconf = qdocconf
+
+        # The name of the sub-directory of the qdoc output.
+        self._webxml_subdir = webxml_subdir or name
+
+        # The suffix to append to the name of each .webxml file.
+        self._webxml_suffix = webxml_suffix
 
         # The names of directories containing 'images' sub-directories.  It
         # defaults to the directory containing the .qdocconf file.
@@ -139,10 +146,8 @@ class WebXMLMetadata:
         except KeyError:
             location = object_name.lower().replace('::', '-').replace('_', '-')
 
-        # This doesn't follow the usual convention.
-        sub_dir = 'activeqt' if self.name == 'qtactiveqt' else self.name
-
-        return os.path.join(sub_dir, self.name, location + '.webxml')
+        return os.path.join(self._webxml_subdir, self.name,
+                location + self._webxml_suffix + '.webxml')
 
 
 # The WebXML meta-data.
@@ -163,7 +168,8 @@ WebXMLMetadata('qt3d', qdocconf='qt3d/src/core/doc/qt3d.qdocconf',
             'PYQT_3D_VERSION_STR': None,
         })
 WebXMLMetadata('qtactiveqt',
-        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf')
+        qdocconf='qtactiveqt/src/activeqt/doc/activeqt.qdocconf',
+        webxml_subdir='activeqt')
 WebXMLMetadata('qtbluetooth',
         qdocconf='qtconnectivity/src/bluetooth/doc/qtbluetooth.qdocconf')
 WebXMLMetadata('qtcharts',
@@ -266,6 +272,7 @@ WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf',
         })
 WebXMLMetadata('qtdatavis3d',
         qdocconf='qtdatavis3d/src/datavisualization/doc/qtdatavis3d.qdocconf',
+        webxml_suffix='-qtdatavis',
         locations={
             'PYQT_DATAVISUALIZATION_VERSION': None,
             'PYQT_DATAVISUALIZATION_VERSION_STR': None,
@@ -287,6 +294,8 @@ WebXMLMetadata('qtgraphs',
         locations={
             'PYQT_GRAPHS_VERSION': None,
             'PYQT_GRAPHS_VERSION_STR': None,
+            'QGraphsLine': None,                # Probably a documentation bug.
+            'qDefaultSurfaceFormat': 'qtgraphs3d',
         })
 WebXMLMetadata('qtgui', qdocconf='qtbase/src/gui/doc/qtgui.qdocconf',
         more_images='qtbase/doc/src',
@@ -326,6 +335,7 @@ WebXMLMetadata('qthelp',
 WebXMLMetadata('qtmultimedia',
         qdocconf='qtmultimedia/src/multimedia/doc/qtmultimedia.qdocconf',
         locations={
+            'QAudio': None,
             'QVideoFrame::PaintOptions': None,
         })
 WebXMLMetadata('qtnetwork',
@@ -409,7 +419,9 @@ WebXMLMetadata('qtspatialaudio',
         qdocconf='qtmultimedia/src/spatialaudio/doc/qtspatialaudio.qdocconf')
 WebXMLMetadata('qtsql', qdocconf='qtbase/src/sql/doc/qtsql.qdocconf')
 WebXMLMetadata('qtsvg', qdocconf='qtsvg/src/svg/doc/qtsvg.qdocconf')
-WebXMLMetadata('qttest', qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf')
+WebXMLMetadata('qttest',
+        qdocconf='qtbase/src/testlib/doc/qttestlib.qdocconf',
+        webxml_subdir='qttestlib')
 WebXMLMetadata('qttexttospeech',
         qdocconf='qtspeech/src/tts/doc/qttexttospeech.qdocconf')
 WebXMLMetadata('qtwebchannel',
