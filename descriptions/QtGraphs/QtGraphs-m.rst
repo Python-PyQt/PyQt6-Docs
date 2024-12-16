@@ -1,6 +1,6 @@
 .. sip:module-description::
     :status: done
-    :brief:  Classes to support the visualization of data in 2D and 3D graphs.
+    :brief:  Classes to support the visualization of data in 2D and 3D graphs
 
 The :sip:ref:`~PyQt6.QtGraphs` module provides a set of easy to use 2D and 3D
 visualization components.
