@@ -69,13 +69,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.baseColors
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QColor`]
-        :description: QtDataVisualization/Q3DTheme-baseColors-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QColor`]
+        :description: QtDataVisualization/Q3DTheme-baseColors-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.baseGradients
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QLinearGradient`]
-        :description: QtDataVisualization/Q3DTheme-baseGradients-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QLinearGradient`]
+        :description: QtDataVisualization/Q3DTheme-baseGradients-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.colorStyle
         :returns:

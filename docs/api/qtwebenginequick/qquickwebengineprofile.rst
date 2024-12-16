@@ -28,6 +28,18 @@
         .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentCookiesPolicy.NoPersistentCookies
             :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentCookiesPolicy-NoPersistentCookies-v.rst
 
+    .. sip:enum:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentPermissionsPolicy-e.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy.AskEveryTime
+            :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentPermissionsPolicy-AskEveryTime-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy.StoreInMemory
+            :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentPermissionsPolicy-StoreInMemory-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy.StoreOnDisk
+            :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentPermissionsPolicy-StoreOnDisk-v.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -45,6 +57,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineClientCertificateStore`
         :description: QtWebEngineQuick/QQuickWebEngineProfile-clientCertificateStore-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.clientHints
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineClientHints`
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-clientHints-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.cookieStore
         :returns:
@@ -103,15 +120,47 @@
             bool
         :description: QtWebEngineQuick/QQuickWebEngineProfile-isSpellCheckEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.listAllPermissions
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-listAllPermissions-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.listPermissionsForOrigin
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-listPermissionsForOrigin-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.listPermissionsForPermissionType
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.PermissionType`
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-listPermissionsForPermissionType-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentCookiesPolicy
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentCookiesPolicy`
         :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentCookiesPolicy-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentPermissionsPolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy`
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentPermissionsPolicy-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentStoragePath
         :returns:
             str
         :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentStoragePath-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.queryPermission
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.PermissionType`
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-queryPermission-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.removeAllUrlSchemeHandlers
         :description: QtWebEngineQuick/QQuickWebEngineProfile-removeAllUrlSchemeHandlers-f.rst
@@ -166,6 +215,11 @@
             :sip:ref:`~PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentCookiesPolicy`
         :description: QtWebEngineQuick/QQuickWebEngineProfile-setPersistentCookiesPolicy-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setPersistentPermissionsPolicy
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy`
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setPersistentPermissionsPolicy-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setPersistentStoragePath
         :args:
             Optional[str]
@@ -198,8 +252,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.spellCheckLanguages
         :returns:
-            List[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-spellCheckLanguages-f.rst
+            list[str]
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-spellCheckLanguages-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.storageName
         :returns:
@@ -215,6 +269,9 @@
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.cachePathChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-cachePathChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.clearHttpCacheCompleted
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-clearHttpCacheCompleted-s.rst
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.downloadPathChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-downloadPathChanged-s.rst
@@ -236,6 +293,9 @@
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentCookiesPolicyChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentCookiesPolicyChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentPermissionsPolicyChanged
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentPermissionsPolicyChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.persistentStoragePathChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-persistentStoragePathChanged-s.rst

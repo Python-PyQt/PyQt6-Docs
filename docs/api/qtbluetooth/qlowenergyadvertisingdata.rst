@@ -75,8 +75,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.services
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QLowEnergyAdvertisingData-services-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QLowEnergyAdvertisingData-services-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.setDiscoverability
         :args:

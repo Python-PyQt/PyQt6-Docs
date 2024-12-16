@@ -198,17 +198,17 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.drives
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
+            list[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
         :static:
-        :description: QtCore/QDir-drives-f.rst
+        :description: QtCore/QDir-drives-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryInfoList
         :args:
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f-2.rst
+            list[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
+        :description: QtCore/QDir-entryInfoList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryInfoList
         :args:
@@ -216,16 +216,16 @@
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f-4.rst
+            list[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
+        :description: QtCore/QDir-entryInfoList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
-            List[str]
-        :description: QtCore/QDir-entryList-f-2.rst
+            list[str]
+        :description: QtCore/QDir-entryList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
@@ -233,8 +233,8 @@
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
-            List[str]
-        :description: QtCore/QDir-entryList-f-4.rst
+            list[str]
+        :description: QtCore/QDir-entryList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__eq__
         :args:
@@ -286,8 +286,8 @@
         :args:
             slice
         :returns:
-            List[str]
-        :description: QtCore/QDir-__getitem__-f-1.rst
+            list[str]
+        :description: QtCore/QDir-__getitem__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.home
         :returns:
@@ -402,16 +402,16 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.nameFilters
         :returns:
-            List[str]
-        :description: QtCore/QDir-nameFilters-f.rst
+            list[str]
+        :description: QtCore/QDir-nameFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.nameFiltersFromString
         :args:
             Optional[str]
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QDir-nameFiltersFromString-f-1.rst
+        :description: QtCore/QDir-nameFiltersFromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__ne__
         :args:
@@ -485,9 +485,9 @@
         :args:
             Optional[str]
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QDir-searchPaths-f-1.rst
+        :description: QtCore/QDir-searchPaths-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.separator
         :returns:

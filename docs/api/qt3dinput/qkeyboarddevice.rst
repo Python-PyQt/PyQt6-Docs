@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.axisNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QKeyboardDevice-axisNames-f.rst
+            list[str]
+        :description: Qt3DInput/QKeyboardDevice-axisNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.buttonCount
         :returns:
@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.buttonNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QKeyboardDevice-buttonNames-f.rst
+            list[str]
+        :description: Qt3DInput/QKeyboardDevice-buttonNames-f-1.rst
 
     .. sip:signal:: PyQt6.Qt3DInput.QKeyboardDevice.activeInputChanged
         :args:

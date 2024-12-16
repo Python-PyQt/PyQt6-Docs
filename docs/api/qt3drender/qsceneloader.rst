@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QSceneLoader.entityNames
         :returns:
-            List[str]
-        :description: Qt3DRender/QSceneLoader-entityNames-f.rst
+            list[str]
+        :description: Qt3DRender/QSceneLoader-entityNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QSceneLoader.setSource
         :args:

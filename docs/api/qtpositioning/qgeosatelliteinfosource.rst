@@ -29,9 +29,9 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.availableSources
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-availableSources-f.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-availableSources-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.backendProperty
         :args:
@@ -50,12 +50,12 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createDefaultSource
         :args:
-            Dict[Optional[str], Any]
+            dict[Optional[str], Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource`
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f-2.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createSource
         :args:
@@ -69,12 +69,12 @@
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createSource
         :args:
             Optional[str]
-            Dict[Optional[str], Any]
+            dict[Optional[str], Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource`
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f-3.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.error
         :returns:

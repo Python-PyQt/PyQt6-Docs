@@ -38,8 +38,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
         :args:
-            Dict[Optional[str], Any]
-        :description: QtQml/QQmlPropertyMap-insert-f-2.rst
+            dict[Optional[str], Any]
+        :description: QtQml/QQmlPropertyMap-insert-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
         :args:
@@ -54,8 +54,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.keys
         :returns:
-            List[str]
-        :description: QtQml/QQmlPropertyMap-keys-f.rst
+            list[str]
+        :description: QtQml/QQmlPropertyMap-keys-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.__len__
         :returns:

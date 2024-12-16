@@ -294,11 +294,65 @@
 
     .. sip:method:: PyQt6.QtCore.qFuzzyCompare
         :args:
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyCompare-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyCompare
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyCompare-f-2.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyCompare
+        :args:
             float
             float
         :returns:
             bool
         :description: QtCore/qFuzzyCompare-f.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyCompare
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyCompare-f-3.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyCompare
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyCompare-f-4.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyCompare
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyCompare-f-5.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
         :args:
@@ -306,6 +360,27 @@
         :returns:
             bool
         :description: QtCore/qFuzzyIsNull-f.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f-3.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRectF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f-4.rst
+
+    .. sip:method:: PyQt6.QtCore.qFuzzyIsNull
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSizeF`
+        :returns:
+            bool
+        :description: QtCore/qFuzzyIsNull-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.qInf
         :returns:

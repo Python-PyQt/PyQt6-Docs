@@ -30,8 +30,8 @@
             polarOrientation: :sip:ref:`~PyQt6.QtCharts.QPolarChart.PolarOrientation` = QPolarChart.PolarOrientations(QPolarChart.PolarOrientationRadial|QPolarChart.PolarOrientationAngular)
             series: :sip:ref:`~PyQt6.QtCharts.QAbstractSeries` = None
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
-        :description: QtCharts/QPolarChart-axes-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
+        :description: QtCharts/QPolarChart-axes-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QPolarChart.axisPolarOrientation
         :args:

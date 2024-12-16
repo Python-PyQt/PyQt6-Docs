@@ -198,8 +198,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyController.services
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QLowEnergyController-services-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QLowEnergyController-services-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyController.setRemoteAddressType
         :args:

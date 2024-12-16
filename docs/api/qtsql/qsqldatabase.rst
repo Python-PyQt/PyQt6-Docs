@@ -72,9 +72,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.connectionNames
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtSql/QSqlDatabase-connectionNames-f.rst
+        :description: QtSql/QSqlDatabase-connectionNames-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.connectOptions
         :returns:
@@ -115,9 +115,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.drivers
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtSql/QSqlDatabase-drivers-f.rst
+        :description: QtSql/QSqlDatabase-drivers-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.exec
         :args:
@@ -158,6 +158,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlError`
         :description: QtSql/QSqlDatabase-lastError-f.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlDatabase.moveToThread
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QThread`
+        :returns:
+            bool
+        :description: QtSql/QSqlDatabase-moveToThread-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.numericalPrecisionPolicy
         :returns:
@@ -258,8 +265,13 @@
         :args:
             type: :sip:ref:`~PyQt6.QtSql.QSql.TableType` = :sip:ref:`~PyQt6.QtSql.QSql.TableType.Tables`
         :returns:
-            List[str]
-        :description: QtSql/QSqlDatabase-tables-f.rst
+            list[str]
+        :description: QtSql/QSqlDatabase-tables-f-1.rst
+
+    .. sip:method:: PyQt6.QtSql.QSqlDatabase.thread
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QThread`
+        :description: QtSql/QSqlDatabase-thread-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.transaction
         :returns:

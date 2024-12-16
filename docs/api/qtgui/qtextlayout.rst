@@ -112,16 +112,16 @@
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.formats
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextLayout.FormatRange`]
-        :description: QtGui/QTextLayout-formats-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextLayout.FormatRange`]
+        :description: QtGui/QTextLayout-formats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.glyphRuns
         :args:
             from: int = -1
             length: int = -1
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
-        :description: QtGui/QTextLayout-glyphRuns-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLayout-glyphRuns-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.glyphRuns
         :args:
@@ -129,8 +129,8 @@
             int
             :sip:ref:`~PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
-        :description: QtGui/QTextLayout-glyphRuns-f-1.rst
+            list[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLayout-glyphRuns-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.isValidCursorPosition
         :args:

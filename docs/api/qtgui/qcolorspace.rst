@@ -3,11 +3,35 @@
 .. sip:class:: PyQt6.QtGui.QColorSpace
     :description: QtGui/QColorSpace-c.rst
 
+    .. sip:enum:: PyQt6.QtGui.QColorSpace.ColorModel
+        :description: QtGui/QColorSpace-ColorModel-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.ColorModel.Cmyk
+            :description: QtGui/QColorSpace-ColorModel-Cmyk-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.ColorModel.Gray
+            :description: QtGui/QColorSpace-ColorModel-Gray-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.ColorModel.Rgb
+            :description: QtGui/QColorSpace-ColorModel-Rgb-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.ColorModel.Undefined
+            :description: QtGui/QColorSpace-ColorModel-Undefined-v.rst
+
     .. sip:enum:: PyQt6.QtGui.QColorSpace.NamedColorSpace
         :description: QtGui/QColorSpace-NamedColorSpace-e.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.NamedColorSpace.AdobeRgb
             :description: QtGui/QColorSpace-NamedColorSpace-AdobeRgb-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.NamedColorSpace.Bt2020
+            :description: QtGui/QColorSpace-NamedColorSpace-Bt2020-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.NamedColorSpace.Bt2100Hlg
+            :description: QtGui/QColorSpace-NamedColorSpace-Bt2100Hlg-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.NamedColorSpace.Bt2100Pq
+            :description: QtGui/QColorSpace-NamedColorSpace-Bt2100Pq-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.NamedColorSpace.DisplayP3
             :description: QtGui/QColorSpace-NamedColorSpace-DisplayP3-v.rst
@@ -27,6 +51,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.Primaries.AdobeRgb
             :description: QtGui/QColorSpace-Primaries-AdobeRgb-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.Primaries.Bt2020
+            :description: QtGui/QColorSpace-Primaries-Bt2020-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.Primaries.Custom
             :description: QtGui/QColorSpace-Primaries-Custom-v.rst
 
@@ -42,11 +69,17 @@
     .. sip:enum:: PyQt6.QtGui.QColorSpace.TransferFunction
         :description: QtGui/QColorSpace-TransferFunction-e.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.Bt2020
+            :description: QtGui/QColorSpace-TransferFunction-Bt2020-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.Custom
             :description: QtGui/QColorSpace-TransferFunction-Custom-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.Gamma
             :description: QtGui/QColorSpace-TransferFunction-Gamma-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.Hlg
+            :description: QtGui/QColorSpace-TransferFunction-Hlg-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.Linear
             :description: QtGui/QColorSpace-TransferFunction-Linear-v.rst
@@ -56,6 +89,18 @@
 
         .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.SRgb
             :description: QtGui/QColorSpace-TransferFunction-SRgb-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransferFunction.St2084
+            :description: QtGui/QColorSpace-TransferFunction-St2084-v.rst
+
+    .. sip:enum:: PyQt6.QtGui.QColorSpace.TransformModel
+        :description: QtGui/QColorSpace-TransformModel-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransformModel.ElementListProcessing
+            :description: QtGui/QColorSpace-TransformModel-ElementListProcessing-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QColorSpace.TransformModel.ThreeComponentMatrix
+            :description: QtGui/QColorSpace-TransformModel-ThreeComponentMatrix-v.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :description: QtGui/QColorSpace-__init__-f.rst
@@ -84,10 +129,23 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+            Iterable[int]
+        :description: QtGui/QColorSpace-__init__-f-9.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
+        :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace.Primaries`
             :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
             gamma: float = 0
         :description: QtGui/QColorSpace-__init__-f-4.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
+            gamma: float = 0
+        :description: QtGui/QColorSpace-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
@@ -118,6 +176,11 @@
             Iterable[int]
             Iterable[int]
         :description: QtGui/QColorSpace-__init__-f-8.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.colorModel
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.ColorModel`
+        :description: QtGui/QColorSpace-colorModel-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.description
         :returns:
@@ -153,6 +216,11 @@
         :returns:
             bool
         :description: QtGui/QColorSpace-isValid-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.isValidTarget
+        :returns:
+            bool
+        :description: QtGui/QColorSpace-isValidTarget-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__ne__
         :args:
@@ -202,6 +270,11 @@
             Iterable[int]
         :description: QtGui/QColorSpace-setTransferFunctions-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QColorSpace.setWhitePoint
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QColorSpace-setWhitePoint-f.rst
+
     .. sip:method:: PyQt6.QtGui.QColorSpace.swap
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
@@ -218,6 +291,16 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorTransform`
         :description: QtGui/QColorSpace-transformationToColorSpace-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.transformModel
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.TransformModel`
+        :description: QtGui/QColorSpace-transformModel-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.whitePoint
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGui/QColorSpace-whitePoint-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.withTransferFunction
         :args:

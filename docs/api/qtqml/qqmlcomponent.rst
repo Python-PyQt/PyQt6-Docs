@@ -112,11 +112,11 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.createWithInitialProperties
         :args:
-            Dict[Optional[str], Any]
+            dict[Optional[str], Any]
             context: :sip:ref:`~PyQt6.QtQml.QQmlContext` = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlComponent-createWithInitialProperties-f-1.rst
+        :description: QtQml/QQmlComponent-createWithInitialProperties-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.creationContext
         :returns:
@@ -130,8 +130,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.errors
         :returns:
-            List[:sip:ref:`~PyQt6.QtQml.QQmlError`]
-        :description: QtQml/QQmlComponent-errors-f.rst
+            list[:sip:ref:`~PyQt6.QtQml.QQmlError`]
+        :description: QtQml/QQmlComponent-errors-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.isBound
         :returns:
@@ -190,8 +190,8 @@
     .. sip:method:: PyQt6.QtQml.QQmlComponent.setInitialProperties
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Dict[Optional[str], Any]
-        :description: QtQml/QQmlComponent-setInitialProperties-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtQml/QQmlComponent-setInitialProperties-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.status
         :returns:

@@ -94,8 +94,8 @@
             Optional[str]
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
-        :description: QtWidgets/QTableWidget-findItems-f-2.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
+        :description: QtWidgets/QTableWidget-findItems-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.horizontalHeaderItem
         :args:
@@ -172,8 +172,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
-        :description: QtWidgets/QTableWidget-items-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
+        :description: QtWidgets/QTableWidget-items-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.mimeData
         :args:
@@ -184,8 +184,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.mimeTypes
         :returns:
-            List[str]
-        :description: QtWidgets/QTableWidget-mimeTypes-f.rst
+            list[str]
+        :description: QtWidgets/QTableWidget-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.openPersistentEditor
         :args:
@@ -228,13 +228,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.selectedItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
-        :description: QtWidgets/QTableWidget-selectedItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetItem`]
+        :description: QtWidgets/QTableWidget-selectedItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.selectedRanges
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetSelectionRange`]
-        :description: QtWidgets/QTableWidget-selectedRanges-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTableWidgetSelectionRange`]
+        :description: QtWidgets/QTableWidget-selectedRanges-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setCellWidget
         :args:

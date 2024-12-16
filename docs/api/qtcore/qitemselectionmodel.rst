@@ -139,20 +139,20 @@
         :args:
             row: int = 0
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QItemSelectionModel-selectedColumns-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedColumns-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.selectedIndexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QItemSelectionModel-selectedIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.selectedRows
         :args:
             column: int = 0
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QItemSelectionModel-selectedRows-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedRows-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionModel.selection
         :returns:

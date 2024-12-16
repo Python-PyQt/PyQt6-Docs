@@ -57,9 +57,9 @@
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.staticInstances
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QObject`]
+            list[:sip:ref:`~PyQt6.QtCore.QObject`]
         :static:
-        :description: QtCore/QPluginLoader-staticInstances-f.rst
+        :description: QtCore/QPluginLoader-staticInstances-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPluginLoader.unload
         :returns:

@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfLink.rectangles
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QRectF`]
-        :description: QtPdf/QPdfLink-rectangles-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QRectF`]
+        :description: QtPdf/QPdfLink-rectangles-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfLink.swap
         :args:

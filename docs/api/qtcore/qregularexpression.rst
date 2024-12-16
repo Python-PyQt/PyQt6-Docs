@@ -178,8 +178,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.namedCaptureGroups
         :returns:
-            List[str]
-        :description: QtCore/QRegularExpression-namedCaptureGroups-f.rst
+            list[str]
+        :description: QtCore/QRegularExpression-namedCaptureGroups-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpression.__ne__
         :args:

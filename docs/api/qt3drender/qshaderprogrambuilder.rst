@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgramBuilder.enabledLayers
         :returns:
-            List[str]
-        :description: Qt3DRender/QShaderProgramBuilder-enabledLayers-f.rst
+            list[str]
+        :description: Qt3DRender/QShaderProgramBuilder-enabledLayers-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QShaderProgramBuilder.fragmentShaderCode
         :returns:

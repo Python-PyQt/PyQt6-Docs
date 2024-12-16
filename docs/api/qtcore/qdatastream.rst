@@ -163,6 +163,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_7
             :description: QtCore/QDataStream-Version-Qt_6_7-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_8
+            :description: QtCore/QDataStream-Version-Qt_6_8-v.rst
+
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :description: QtCore/QDataStream-__init__-f.rst
 
@@ -223,6 +226,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
         :description: QtCore/QDataStream-__lshift__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__lshift__-f-24.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
@@ -451,8 +461,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQStringList
         :returns:
-            List[str]
-        :description: QtCore/QDataStream-readQStringList-f.rst
+            list[str]
+        :description: QtCore/QDataStream-readQStringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQVariant
         :returns:
@@ -461,18 +471,18 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQVariantHash
         :returns:
-            Dict[str, Any]
-        :description: QtCore/QDataStream-readQVariantHash-f.rst
+            dict[str, Any]
+        :description: QtCore/QDataStream-readQVariantHash-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQVariantList
         :returns:
-            List[Any]
-        :description: QtCore/QDataStream-readQVariantList-f.rst
+            list[Any]
+        :description: QtCore/QDataStream-readQVariantList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readQVariantMap
         :returns:
-            Dict[str, Any]
-        :description: QtCore/QDataStream-readQVariantMap-f.rst
+            dict[str, Any]
+        :description: QtCore/QDataStream-readQVariantMap-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.readRawData
         :args:
@@ -525,6 +535,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
         :description: QtCore/QDataStream-__rshift__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QChar`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__rshift__-f-27.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__rshift__
         :args:
@@ -810,8 +827,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantHash
         :args:
-            Dict[Optional[str], Any]
-        :description: QtCore/QDataStream-writeQVariantHash-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtCore/QDataStream-writeQVariantHash-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantList
         :args:
@@ -820,8 +837,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantMap
         :args:
-            Dict[Optional[str], Any]
-        :description: QtCore/QDataStream-writeQVariantMap-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtCore/QDataStream-writeQVariantMap-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeRawData
         :args:

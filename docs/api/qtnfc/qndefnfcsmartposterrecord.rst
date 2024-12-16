@@ -114,8 +114,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.iconRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNfc.QNdefNfcIconRecord`]
-        :description: QtNfc/QNdefNfcSmartPosterRecord-iconRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNfc.QNdefNfcIconRecord`]
+        :description: QtNfc/QNdefNfcSmartPosterRecord-iconRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.removeIcon
         :args:
@@ -211,8 +211,8 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.titleRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNfc.QNdefNfcTextRecord`]
-        :description: QtNfc/QNdefNfcSmartPosterRecord-titleRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNfc.QNdefNfcTextRecord`]
+        :description: QtNfc/QNdefNfcSmartPosterRecord-titleRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcSmartPosterRecord.typeInfo
         :returns:

@@ -341,9 +341,9 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
+            list[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
         :static:
-        :description: QtGui/QKeySequence-keyBindings-f.rst
+        :description: QtGui/QKeySequence-keyBindings-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.__le__
         :args:
@@ -362,9 +362,9 @@
             Optional[str]
             format: :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat` = :sip:ref:`~PyQt6.QtGui.QKeySequence.SequenceFormat.PortableText`
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
+            list[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
         :static:
-        :description: QtGui/QKeySequence-listFromString-f-1.rst
+        :description: QtGui/QKeySequence-listFromString-f.rst
 
     .. sip:method:: PyQt6.QtGui.QKeySequence.listToString
         :args:

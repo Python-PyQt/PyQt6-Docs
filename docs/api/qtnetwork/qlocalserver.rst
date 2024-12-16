@@ -27,6 +27,11 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtNetwork/QLocalServer-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QLocalServer.addPendingConnection
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QLocalSocket`
+        :description: QtNetwork/QLocalServer-addPendingConnection-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QLocalServer.close
         :description: QtNetwork/QLocalServer-close-f.rst
 

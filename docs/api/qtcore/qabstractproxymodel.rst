@@ -92,8 +92,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            Dict[int, Any]
-        :description: QtCore/QAbstractProxyModel-itemData-f.rst
+            dict[int, Any]
+        :description: QtCore/QAbstractProxyModel-itemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.mapFromSource
         :args:
@@ -132,16 +132,16 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.mimeTypes
         :returns:
-            List[str]
-        :description: QtCore/QAbstractProxyModel-mimeTypes-f.rst
+            list[str]
+        :description: QtCore/QAbstractProxyModel-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.revert
         :description: QtCore/QAbstractProxyModel-revert-f.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QAbstractProxyModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QAbstractProxyModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.setData
         :args:
@@ -165,10 +165,10 @@
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.setItemData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            Dict[int, Any]
+            dict[int, Any]
         :returns:
             bool
-        :description: QtCore/QAbstractProxyModel-setItemData-f.rst
+        :description: QtCore/QAbstractProxyModel-setItemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractProxyModel.setSourceModel
         :args:

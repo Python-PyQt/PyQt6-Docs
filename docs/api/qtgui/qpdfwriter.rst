@@ -4,6 +4,21 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject` :sip:ref:`~PyQt6.QtGui.QPagedPaintDevice`
     :description: QtGui/QPdfWriter-c.rst
 
+    .. sip:enum:: PyQt6.QtGui.QPdfWriter.ColorModel
+        :description: QtGui/QPdfWriter-ColorModel-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPdfWriter.ColorModel.Auto
+            :description: QtGui/QPdfWriter-ColorModel-Auto-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPdfWriter.ColorModel.CMYK
+            :description: QtGui/QPdfWriter-ColorModel-CMYK-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPdfWriter.ColorModel.Grayscale
+            :description: QtGui/QPdfWriter-ColorModel-Grayscale-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPdfWriter.ColorModel.RGB
+            :description: QtGui/QPdfWriter-ColorModel-RGB-v.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.__init__
         :args:
             Optional[str]
@@ -21,10 +36,20 @@
             mimeType: Optional[str] = ''
         :description: QtGui/QPdfWriter-addFileAttachment-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.colorModel
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QPdfWriter.ColorModel`
+        :description: QtGui/QPdfWriter-colorModel-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.creator
         :returns:
             str
         :description: QtGui/QPdfWriter-creator-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.documentId
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QUuid`
+        :description: QtGui/QPdfWriter-documentId-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.documentXmpMetadata
         :returns:
@@ -43,6 +68,11 @@
             bool
         :description: QtGui/QPdfWriter-newPage-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.outputIntent
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QPdfOutputIntent`
+        :description: QtGui/QPdfWriter-outputIntent-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.paintEngine
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPaintEngine`
@@ -58,15 +88,30 @@
             int
         :description: QtGui/QPdfWriter-resolution-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.setColorModel
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QPdfWriter.ColorModel`
+        :description: QtGui/QPdfWriter-setColorModel-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setCreator
         :args:
             Optional[str]
         :description: QtGui/QPdfWriter-setCreator-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.setDocumentId
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUuid`
+        :description: QtGui/QPdfWriter-setDocumentId-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setDocumentXmpMetadata
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.setOutputIntent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QPdfOutputIntent`
+        :description: QtGui/QPdfWriter-setOutputIntent-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setPdfVersion
         :args:

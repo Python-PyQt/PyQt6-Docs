@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.watchedServices
         :returns:
-            List[str]
-        :description: QtDBus/QDBusServiceWatcher-watchedServices-f.rst
+            list[str]
+        :description: QtDBus/QDBusServiceWatcher-watchedServices-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusServiceWatcher.watchMode
         :returns:

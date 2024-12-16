@@ -17,13 +17,13 @@
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.__init__
         :args:
-            Dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
-        :description: QtCore/QJsonDocument-__init__-f-4.rst
+            dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+        :description: QtCore/QJsonDocument-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.__init__
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
-        :description: QtCore/QJsonDocument-__init__-f-5.rst
+            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+        :description: QtCore/QJsonDocument-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.__init__
         :args:
@@ -32,8 +32,8 @@
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.array
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QJsonValue`]
-        :description: QtCore/QJsonDocument-array-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QJsonValue`]
+        :description: QtCore/QJsonDocument-array-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.__eq__
         :args:
@@ -102,18 +102,18 @@
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.object
         :returns:
-            Dict[str, :sip:ref:`~PyQt6.QtCore.QJsonValue`]
-        :description: QtCore/QJsonDocument-object-f-1.rst
+            dict[str, :sip:ref:`~PyQt6.QtCore.QJsonValue`]
+        :description: QtCore/QJsonDocument-object-f.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.setArray
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
-        :description: QtCore/QJsonDocument-setArray-f-1.rst
+            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+        :description: QtCore/QJsonDocument-setArray-f.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.setObject
         :args:
-            Dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
-        :description: QtCore/QJsonDocument-setObject-f-1.rst
+            dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+        :description: QtCore/QJsonDocument-setObject-f.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonDocument.swap
         :args:

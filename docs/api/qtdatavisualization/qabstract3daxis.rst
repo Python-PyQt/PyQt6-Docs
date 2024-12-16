@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.labels
         :returns:
-            List[str]
-        :description: QtDataVisualization/QAbstract3DAxis-labels-f.rst
+            list[str]
+        :description: QtDataVisualization/QAbstract3DAxis-labels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.max
         :returns:

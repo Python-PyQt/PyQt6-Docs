@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionRange.indexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QItemSelectionRange-indexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionRange-indexes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QItemSelectionRange.intersected
         :args:

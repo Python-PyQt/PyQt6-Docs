@@ -91,8 +91,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnCategories
         :returns:
-            List[str]
-        :description: QtDataVisualization/QItemModelBarDataProxy-columnCategories-f.rst
+            list[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-columnCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.columnCategoryIndex
         :args:
@@ -153,8 +153,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowCategories
         :returns:
-            List[str]
-        :description: QtDataVisualization/QItemModelBarDataProxy-rowCategories-f.rst
+            list[str]
+        :description: QtDataVisualization/QItemModelBarDataProxy-rowCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelBarDataProxy.rowCategoryIndex
         :args:

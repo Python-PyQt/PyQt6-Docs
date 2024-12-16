@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.availableComponents
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterEngine-availableComponents-f.rst
+            list[str]
+        :description: QtHelp/QHelpFilterEngine-availableComponents-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.availableVersions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QVersionNumber`]
-        :description: QtHelp/QHelpFilterEngine-availableVersions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QVersionNumber`]
+        :description: QtHelp/QHelpFilterEngine-availableVersions-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.filterData
         :args:
@@ -28,37 +28,37 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.filters
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterEngine-filters-f.rst
+            list[str]
+        :description: QtHelp/QHelpFilterEngine-filters-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.indices
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterEngine-indices-f.rst
+            list[str]
+        :description: QtHelp/QHelpFilterEngine-indices-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.indices
         :args:
             Optional[str]
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterEngine-indices-f-2.rst
+            list[str]
+        :description: QtHelp/QHelpFilterEngine-indices-f-3.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.namespacesForFilter
         :args:
             Optional[str]
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterEngine-namespacesForFilter-f-1.rst
+            list[str]
+        :description: QtHelp/QHelpFilterEngine-namespacesForFilter-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.namespaceToComponent
         :returns:
-            Dict[str, str]
-        :description: QtHelp/QHelpFilterEngine-namespaceToComponent-f.rst
+            dict[str, str]
+        :description: QtHelp/QHelpFilterEngine-namespaceToComponent-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.namespaceToVersion
         :returns:
-            Dict[str, :sip:ref:`~PyQt6.QtCore.QVersionNumber`]
-        :description: QtHelp/QHelpFilterEngine-namespaceToVersion-f.rst
+            dict[str, :sip:ref:`~PyQt6.QtCore.QVersionNumber`]
+        :description: QtHelp/QHelpFilterEngine-namespaceToVersion-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterEngine.removeFilter
         :args:

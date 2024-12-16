@@ -33,8 +33,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.rowColors
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QColor`]
-        :description: QtDataVisualization/QBar3DSeries-rowColors-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QColor`]
+        :description: QtDataVisualization/QBar3DSeries-rowColors-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.selectedBar
         :returns:

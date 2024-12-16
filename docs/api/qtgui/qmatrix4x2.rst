@@ -18,13 +18,13 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x2.copyDataTo
         :returns:
-            List[float]
-        :description: QtGui/QMatrix4x2-copyDataTo-f.rst
+            list[float]
+        :description: QtGui/QMatrix4x2-copyDataTo-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x2.data
         :returns:
-            List[float]
-        :description: QtGui/QMatrix4x2-data-f.rst
+            list[float]
+        :description: QtGui/QMatrix4x2-data-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x2.__eq__
         :args:

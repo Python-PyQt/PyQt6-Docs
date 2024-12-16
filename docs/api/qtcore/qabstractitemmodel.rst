@@ -297,8 +297,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            Dict[int, Any]
-        :description: QtCore/QAbstractItemModel-itemData-f.rst
+            dict[int, Any]
+        :description: QtCore/QAbstractItemModel-itemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.match
         :args:
@@ -308,8 +308,8 @@
             hits: int = 1
             flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QAbstractItemModel-match-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QAbstractItemModel-match-f.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.mimeData
         :args:
@@ -320,8 +320,8 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.mimeTypes
         :returns:
-            List[str]
-        :description: QtCore/QAbstractItemModel-mimeTypes-f.rst
+            list[str]
+        :description: QtCore/QAbstractItemModel-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.moveColumn
         :args:
@@ -385,8 +385,8 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.persistentIndexList
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QAbstractItemModel-persistentIndexList-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QAbstractItemModel-persistentIndexList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.removeColumn
         :args:
@@ -430,8 +430,8 @@
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QAbstractItemModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QAbstractItemModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.rowCount
         :args:
@@ -462,10 +462,10 @@
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.setItemData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            Dict[int, Any]
+            dict[int, Any]
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-setItemData-f.rst
+        :description: QtCore/QAbstractItemModel-setItemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractItemModel.sibling
         :args:

@@ -178,8 +178,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.tabPositions
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextOption.Tab`]
-        :description: QtGui/QTextBlockFormat-tabPositions-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextOption.Tab`]
+        :description: QtGui/QTextBlockFormat-tabPositions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockFormat.textIndent
         :returns:

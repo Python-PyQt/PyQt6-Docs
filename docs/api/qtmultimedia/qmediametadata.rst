@@ -51,6 +51,9 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QMediaMetaData.Key.Genre
             :description: QtMultimedia/QMediaMetaData-Key-Genre-v.rst
 
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaMetaData.Key.HasHdrContent
+            :description: QtMultimedia/QMediaMetaData-Key-HasHdrContent-v.rst
+
         .. sip:enum-member:: PyQt6.QtMultimedia.QMediaMetaData.Key.Language
             :description: QtMultimedia/QMediaMetaData-Key-Language-v.rst
 
@@ -113,8 +116,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaMetaData.keys
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData.Key`]
-        :description: QtMultimedia/QMediaMetaData-keys-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData.Key`]
+        :description: QtMultimedia/QMediaMetaData-keys-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaMetaData.keyType
         :args:

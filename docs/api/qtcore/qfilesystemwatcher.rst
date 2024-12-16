@@ -26,18 +26,18 @@
         :args:
             Iterable[Optional[str]]
         :returns:
-            List[str]
-        :description: QtCore/QFileSystemWatcher-addPaths-f-1.rst
+            list[str]
+        :description: QtCore/QFileSystemWatcher-addPaths-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.directories
         :returns:
-            List[str]
-        :description: QtCore/QFileSystemWatcher-directories-f.rst
+            list[str]
+        :description: QtCore/QFileSystemWatcher-directories-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.files
         :returns:
-            List[str]
-        :description: QtCore/QFileSystemWatcher-files-f.rst
+            list[str]
+        :description: QtCore/QFileSystemWatcher-files-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSystemWatcher.removePath
         :args:
@@ -50,8 +50,8 @@
         :args:
             Iterable[Optional[str]]
         :returns:
-            List[str]
-        :description: QtCore/QFileSystemWatcher-removePaths-f-1.rst
+            list[str]
+        :description: QtCore/QFileSystemWatcher-removePaths-f.rst
 
     .. sip:signal:: PyQt6.QtCore.QFileSystemWatcher.directoryChanged
         :args:

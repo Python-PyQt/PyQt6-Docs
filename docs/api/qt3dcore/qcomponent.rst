@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QComponent.entities
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QEntity`]
-        :description: Qt3DCore/QComponent-entities-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QEntity`]
+        :description: Qt3DCore/QComponent-entities-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QComponent.isShareable
         :returns:

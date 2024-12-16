@@ -90,6 +90,11 @@
             int
         :description: QtMultimedia/QMediaPlayer-activeVideoTrack-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.audioBufferOutput
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QAudioBufferOutput`
+        :description: QtMultimedia/QMediaPlayer-audioBufferOutput-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.audioOutput
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QAudioOutput`
@@ -97,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.audioTracks
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
-        :description: QtMultimedia/QMediaPlayer-audioTracks-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
+        :description: QtMultimedia/QMediaPlayer-audioTracks-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.bufferedTimeRange
         :returns:
@@ -201,6 +206,11 @@
             int
         :description: QtMultimedia/QMediaPlayer-setActiveVideoTrack-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setAudioBufferOutput
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QAudioBufferOutput`
+        :description: QtMultimedia/QMediaPlayer-setAudioBufferOutput-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setAudioOutput
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QAudioOutput`
@@ -257,8 +267,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.subtitleTracks
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
-        :description: QtMultimedia/QMediaPlayer-subtitleTracks-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
+        :description: QtMultimedia/QMediaPlayer-subtitleTracks-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.videoOutput
         :returns:
@@ -272,11 +282,14 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.videoTracks
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
-        :description: QtMultimedia/QMediaPlayer-videoTracks-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`]
+        :description: QtMultimedia/QMediaPlayer-videoTracks-f-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.activeTracksChanged
         :description: QtMultimedia/QMediaPlayer-activeTracksChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.audioBufferOutputChanged
+        :description: QtMultimedia/QMediaPlayer-audioBufferOutputChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.audioOutputChanged
         :description: QtMultimedia/QMediaPlayer-audioOutputChanged-s.rst

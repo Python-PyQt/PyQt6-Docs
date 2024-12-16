@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.responseHeaders
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, List[:sip:ref:`~PyQt6.QtCore.QByteArray`]]
-        :description: QtWebEngineCore/QWebEngineLoadingInfo-responseHeaders-f.rst
+            dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, list[:sip:ref:`~PyQt6.QtCore.QByteArray`]]
+        :description: QtWebEngineCore/QWebEngineLoadingInfo-responseHeaders-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.status
         :returns:

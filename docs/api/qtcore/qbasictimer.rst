@@ -6,6 +6,11 @@
     .. sip:method:: PyQt6.QtCore.QBasicTimer.__init__
         :description: QtCore/QBasicTimer-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QBasicTimer.id
+        :returns:
+            int
+        :description: QtCore/QBasicTimer-id-f.rst
+
     .. sip:method:: PyQt6.QtCore.QBasicTimer.isActive
         :returns:
             bool

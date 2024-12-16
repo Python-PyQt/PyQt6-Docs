@@ -122,9 +122,9 @@
             Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption` = :sip:ref:`~PyQt6.QtCore.QStandardPaths.LocateOption.LocateFile`
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QStandardPaths-locateAll-f-2.rst
+        :description: QtCore/QStandardPaths-locateAll-f.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.setTestModeEnabled
         :args:
@@ -136,9 +136,9 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation`
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QStandardPaths-standardLocations-f.rst
+        :description: QtCore/QStandardPaths-standardLocations-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStandardPaths.writableLocation
         :args:

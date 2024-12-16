@@ -22,6 +22,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Roles.FileIconRole
             :description: QtGui/QFileSystemModel-Roles-FileIconRole-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Roles.FileInfoRole
+            :description: QtGui/QFileSystemModel-Roles-FileInfoRole-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QFileSystemModel.Roles.FileNameRole
             :description: QtGui/QFileSystemModel-Roles-FileNameRole-v.rst
 
@@ -195,8 +198,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.mimeTypes
         :returns:
-            List[str]
-        :description: QtGui/QFileSystemModel-mimeTypes-f.rst
+            list[str]
+        :description: QtGui/QFileSystemModel-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.mkdir
         :args:
@@ -220,8 +223,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.nameFilters
         :returns:
-            List[str]
-        :description: QtGui/QFileSystemModel-nameFilters-f.rst
+            list[str]
+        :description: QtGui/QFileSystemModel-nameFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.options
         :returns:
@@ -263,8 +266,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QFileSystemModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtGui/QFileSystemModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFileSystemModel.rootDirectory
         :returns:

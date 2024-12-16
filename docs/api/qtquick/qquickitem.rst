@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.childItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtQuick.QQuickItem`]
-        :description: QtQuick/QQuickItem-childItems-f.rst
+            list[:sip:ref:`~PyQt6.QtQuick.QQuickItem`]
+        :description: QtQuick/QQuickItem-childItems-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.childMouseEventFilter
         :args:

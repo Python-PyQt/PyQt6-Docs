@@ -46,10 +46,15 @@
             :sip:ref:`~PyQt6.QtCore.QIODevice`
         :description: QtWebEngineCore/QWebEngineUrlRequestJob-reply-f-1.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestJob.requestBody
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QIODevice`
+        :description: QtWebEngineCore/QWebEngineUrlRequestJob-requestBody-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestJob.requestHeaders
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtWebEngineCore/QWebEngineUrlRequestJob-requestHeaders-f.rst
+            dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineUrlRequestJob-requestHeaders-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestJob.requestMethod
         :returns:
@@ -63,5 +68,5 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestJob.setAdditionalResponseHeaders
         :args:
-            Dict[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Sequence[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
-        :description: QtWebEngineCore/QWebEngineUrlRequestJob-setAdditionalResponseHeaders-f.rst
+            dict[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Sequence[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
+        :description: QtWebEngineCore/QWebEngineUrlRequestJob-setAdditionalResponseHeaders-f-1.rst

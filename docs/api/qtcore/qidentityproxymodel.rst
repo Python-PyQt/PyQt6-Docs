@@ -27,6 +27,16 @@
             bool
         :description: QtCore/QIdentityProxyModel-dropMimeData-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.handleSourceDataChanges
+        :returns:
+            bool
+        :description: QtCore/QIdentityProxyModel-handleSourceDataChanges-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.handleSourceLayoutChanges
+        :returns:
+            bool
+        :description: QtCore/QIdentityProxyModel-handleSourceLayoutChanges-f.rst
+
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.headerData
         :args:
             int
@@ -99,8 +109,8 @@
             hits: int = 1
             flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QIdentityProxyModel-match-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QIdentityProxyModel-match-f.rst
 
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.moveColumns
         :args:
@@ -155,6 +165,16 @@
         :returns:
             int
         :description: QtCore/QIdentityProxyModel-rowCount-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.setHandleSourceDataChanges
+        :args:
+            bool
+        :description: QtCore/QIdentityProxyModel-setHandleSourceDataChanges-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.setHandleSourceLayoutChanges
+        :args:
+            bool
+        :description: QtCore/QIdentityProxyModel-setHandleSourceLayoutChanges-f.rst
 
     .. sip:method:: PyQt6.QtCore.QIdentityProxyModel.setSourceModel
         :args:

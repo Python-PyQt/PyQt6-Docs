@@ -41,13 +41,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.array
         :returns:
-            List[List[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
-        :description: QtDataVisualization/QBarDataProxy-array-f.rst
+            list[list[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]]
+        :description: QtDataVisualization/QBarDataProxy-array-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.columnLabels
         :returns:
-            List[str]
-        :description: QtDataVisualization/QBarDataProxy-columnLabels-f.rst
+            list[str]
+        :description: QtDataVisualization/QBarDataProxy-columnLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.insertRow
         :args:
@@ -116,8 +116,8 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]
-        :description: QtDataVisualization/QBarDataProxy-rowAt-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QBarDataItem`]
+        :description: QtDataVisualization/QBarDataProxy-rowAt-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.rowCount
         :returns:
@@ -126,8 +126,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.rowLabels
         :returns:
-            List[str]
-        :description: QtDataVisualization/QBarDataProxy-rowLabels-f.rst
+            list[str]
+        :description: QtDataVisualization/QBarDataProxy-rowLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBarDataProxy.series
         :returns:

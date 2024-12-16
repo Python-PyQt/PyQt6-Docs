@@ -26,8 +26,8 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.callbackReceived
         :args:
-            Dict[Optional[str], Any]
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackReceived-s-1.rst
+            dict[Optional[str], Any]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-callbackReceived-s.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.replyDataReceived
         :args:
@@ -42,5 +42,5 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QAbstractOAuthReplyHandler.tokensReceived
         :args:
-            Dict[Optional[str], Any]
-        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-tokensReceived-s-1.rst
+            dict[Optional[str], Any]
+        :description: QtNetworkAuth/QAbstractOAuthReplyHandler-tokensReceived-s.rst

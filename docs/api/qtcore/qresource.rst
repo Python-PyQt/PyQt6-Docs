@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtCore.QResource.children
         :returns:
-            List[str]
-        :description: QtCore/QResource-children-f.rst
+            list[str]
+        :description: QtCore/QResource-children-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QResource.compressionAlgorithm
         :returns:

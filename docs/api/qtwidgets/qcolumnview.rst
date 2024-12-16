@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QColumnView.columnWidths
         :returns:
-            List[int]
-        :description: QtWidgets/QColumnView-columnWidths-f.rst
+            list[int]
+        :description: QtWidgets/QColumnView-columnWidths-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColumnView.createColumn
         :args:

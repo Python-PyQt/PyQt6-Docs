@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.actions
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QAction`]
-        :description: QtWidgets/QWidget-actions-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QAction`]
+        :description: QtWidgets/QWidget-actions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.activateWindow
         :description: QtWidgets/QWidget-activateWindow-f.rst
@@ -161,6 +161,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
         :description: QtWidgets/QWidget-childAt-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.childAt
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QWidget`
+        :description: QtWidgets/QWidget-childAt-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.childAt
         :args:

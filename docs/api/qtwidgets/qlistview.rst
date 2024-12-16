@@ -242,8 +242,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListView.selectedIndexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtWidgets/QListView-selectedIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtWidgets/QListView-selectedIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListView.selectionChanged
         :args:

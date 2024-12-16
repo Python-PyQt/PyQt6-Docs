@@ -38,13 +38,13 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.framePositions
         :returns:
-            List[float]
-        :description: Qt3DAnimation/QKeyframeAnimation-framePositions-f.rst
+            list[float]
+        :description: Qt3DAnimation/QKeyframeAnimation-framePositions-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.keyframeList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QTransform`]
-        :description: Qt3DAnimation/QKeyframeAnimation-keyframeList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QTransform`]
+        :description: Qt3DAnimation/QKeyframeAnimation-keyframeList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.removeKeyframe
         :args:

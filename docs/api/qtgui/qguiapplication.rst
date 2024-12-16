@@ -6,14 +6,14 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.__init__
         :args:
-            List[str]
-        :description: QtGui/QGuiApplication-__init__-f.rst
+            list[str]
+        :description: QtGui/QGuiApplication-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.allWindows
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QWindow`]
+            list[:sip:ref:`~PyQt6.QtGui.QWindow`]
         :static:
-        :description: QtGui/QGuiApplication-allWindows-f.rst
+        :description: QtGui/QGuiApplication-allWindows-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.applicationDisplayName
         :returns:
@@ -203,9 +203,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.screens
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QScreen`]
+            list[:sip:ref:`~PyQt6.QtGui.QScreen`]
         :static:
-        :description: QtGui/QGuiApplication-screens-f.rst
+        :description: QtGui/QGuiApplication-screens-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.sessionId
         :returns:
@@ -302,9 +302,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.topLevelWindows
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QWindow`]
+            list[:sip:ref:`~PyQt6.QtGui.QWindow`]
         :static:
-        :description: QtGui/QGuiApplication-topLevelWindows-f.rst
+        :description: QtGui/QGuiApplication-topLevelWindows-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.windowIcon
         :returns:

@@ -52,6 +52,11 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.__init__
         :args:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtMultimedia/QVideoFrame-__init__-f-3.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.__init__
+        :args:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrame`
         :description: QtMultimedia/QVideoFrame-__init__-f-2.rst
 
@@ -194,6 +199,11 @@
             int
         :description: QtMultimedia/QVideoFrame-setStartTime-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setStreamFrameRate
+        :args:
+            float
+        :description: QtMultimedia/QVideoFrame-setStreamFrameRate-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.setSubtitleText
         :args:
             Optional[str]
@@ -208,6 +218,11 @@
         :returns:
             int
         :description: QtMultimedia/QVideoFrame-startTime-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.streamFrameRate
+        :returns:
+            float
+        :description: QtMultimedia/QVideoFrame-streamFrameRate-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrame.subtitleText
         :returns:

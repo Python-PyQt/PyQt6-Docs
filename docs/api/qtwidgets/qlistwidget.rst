@@ -78,8 +78,8 @@
             Optional[str]
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
-        :description: QtWidgets/QListWidget-findItems-f-2.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
+        :description: QtWidgets/QListWidget-findItems-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.indexFromItem
         :args:
@@ -151,8 +151,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QMimeData`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
-        :description: QtWidgets/QListWidget-items-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
+        :description: QtWidgets/QListWidget-items-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.itemWidget
         :args:
@@ -175,8 +175,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.mimeTypes
         :returns:
-            List[str]
-        :description: QtWidgets/QListWidget-mimeTypes-f.rst
+            list[str]
+        :description: QtWidgets/QListWidget-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.openPersistentEditor
         :args:
@@ -203,8 +203,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.selectedItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
-        :description: QtWidgets/QListWidget-selectedItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QListWidgetItem`]
+        :description: QtWidgets/QListWidget-selectedItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.setCurrentItem
         :args:

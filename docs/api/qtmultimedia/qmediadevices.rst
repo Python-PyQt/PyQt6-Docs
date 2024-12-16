@@ -11,15 +11,15 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaDevices.audioInputs
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`]
+            list[:sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`]
         :static:
-        :description: QtMultimedia/QMediaDevices-audioInputs-f.rst
+        :description: QtMultimedia/QMediaDevices-audioInputs-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaDevices.audioOutputs
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`]
+            list[:sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`]
         :static:
-        :description: QtMultimedia/QMediaDevices-audioOutputs-f.rst
+        :description: QtMultimedia/QMediaDevices-audioOutputs-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaDevices.defaultAudioInput
         :returns:
@@ -41,9 +41,9 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaDevices.videoInputs
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QCameraDevice`]
+            list[:sip:ref:`~PyQt6.QtMultimedia.QCameraDevice`]
         :static:
-        :description: QtMultimedia/QMediaDevices-videoInputs-f.rst
+        :description: QtMultimedia/QMediaDevices-videoInputs-f-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaDevices.audioInputsChanged
         :description: QtMultimedia/QMediaDevices-audioInputsChanged-s.rst

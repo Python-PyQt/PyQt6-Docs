@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QGeometry.attributes
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QAttribute`]
-        :description: Qt3DCore/QGeometry-attributes-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QAttribute`]
+        :description: Qt3DCore/QGeometry-attributes-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QGeometry.boundingVolumePositionAttribute
         :returns:

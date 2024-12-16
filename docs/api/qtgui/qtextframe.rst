@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextFrame.childFrames
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextFrame`]
-        :description: QtGui/QTextFrame-childFrames-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextFrame`]
+        :description: QtGui/QTextFrame-childFrames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFrame.end
         :returns:

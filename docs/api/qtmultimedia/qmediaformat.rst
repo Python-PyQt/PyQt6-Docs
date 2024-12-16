@@ -246,22 +246,22 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.ConversionMode`
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.AudioCodec`]
-        :description: QtMultimedia/QMediaFormat-supportedAudioCodecs-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.AudioCodec`]
+        :description: QtMultimedia/QMediaFormat-supportedAudioCodecs-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaFormat.supportedFileFormats
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.ConversionMode`
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.FileFormat`]
-        :description: QtMultimedia/QMediaFormat-supportedFileFormats-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.FileFormat`]
+        :description: QtMultimedia/QMediaFormat-supportedFileFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaFormat.supportedVideoCodecs
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.ConversionMode`
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.VideoCodec`]
-        :description: QtMultimedia/QMediaFormat-supportedVideoCodecs-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaFormat.VideoCodec`]
+        :description: QtMultimedia/QMediaFormat-supportedVideoCodecs-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaFormat.swap
         :args:

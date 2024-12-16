@@ -194,9 +194,9 @@
 
     .. sip:method:: PyQt6.QtGui.QMovie.supportedFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QMovie-supportedFormats-f.rst
+        :description: QtGui/QMovie-supportedFormats-f-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QMovie.error
         :args:

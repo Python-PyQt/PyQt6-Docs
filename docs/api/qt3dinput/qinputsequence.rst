@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QInputSequence.sequences
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
-        :description: Qt3DInput/QInputSequence-sequences-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
+        :description: Qt3DInput/QInputSequence-sequences-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QInputSequence.setButtonInterval
         :args:

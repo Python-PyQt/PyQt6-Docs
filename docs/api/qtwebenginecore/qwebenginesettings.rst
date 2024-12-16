@@ -42,6 +42,18 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.FontSize.MinimumLogicalFontSize
             :description: QtWebEngineCore/QWebEngineSettings-FontSize-MinimumLogicalFontSize-v.rst
 
+    .. sip:enum:: PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy
+        :description: QtWebEngineCore/QWebEngineSettings-ImageAnimationPolicy-e.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy.Allow
+            :description: QtWebEngineCore/QWebEngineSettings-ImageAnimationPolicy-Allow-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy.AnimateOnce
+            :description: QtWebEngineCore/QWebEngineSettings-ImageAnimationPolicy-AnimateOnce-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy.Disallow
+            :description: QtWebEngineCore/QWebEngineSettings-ImageAnimationPolicy-Disallow-v.rst
+
     .. sip:enum:: PyQt6.QtWebEngineCore.QWebEngineSettings.UnknownUrlSchemePolicy
         :description: QtWebEngineCore/QWebEngineSettings-UnknownUrlSchemePolicy-e.rst
 
@@ -83,6 +95,9 @@
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.FocusOnNavigationEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-FocusOnNavigationEnabled-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.ForceDarkMode
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-ForceDarkMode-v.rst
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.FullScreenSupportEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-FullScreenSupportEnabled-v.rst
@@ -175,6 +190,11 @@
             int
         :description: QtWebEngineCore/QWebEngineSettings-fontSize-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.imageAnimationPolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy`
+        :description: QtWebEngineCore/QWebEngineSettings-imageAnimationPolicy-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.resetAttribute
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute`
@@ -189,6 +209,9 @@
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.FontSize`
         :description: QtWebEngineCore/QWebEngineSettings-resetFontSize-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.resetImageAnimationPolicy
+        :description: QtWebEngineCore/QWebEngineSettings-resetImageAnimationPolicy-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.resetUnknownUrlSchemePolicy
         :description: QtWebEngineCore/QWebEngineSettings-resetUnknownUrlSchemePolicy-f.rst
@@ -215,6 +238,11 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.FontSize`
             int
         :description: QtWebEngineCore/QWebEngineSettings-setFontSize-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setImageAnimationPolicy
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.ImageAnimationPolicy`
+        :description: QtWebEngineCore/QWebEngineSettings-setImageAnimationPolicy-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setUnknownUrlSchemePolicy
         :args:

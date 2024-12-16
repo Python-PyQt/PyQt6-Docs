@@ -98,9 +98,9 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
         :static:
-        :description: QtNetwork/QNetworkCookie-parseCookies-f-1.rst
+        :description: QtNetwork/QNetworkCookie-parseCookies-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.path
         :returns:

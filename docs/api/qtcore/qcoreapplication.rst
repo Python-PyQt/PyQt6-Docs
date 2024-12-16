@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.__init__
         :args:
-            List[str]
-        :description: QtCore/QCoreApplication-__init__-f.rst
+            list[str]
+        :description: QtCore/QCoreApplication-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.addLibraryPath
         :args:
@@ -47,9 +47,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.arguments
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QCoreApplication-arguments-f.rst
+        :description: QtCore/QCoreApplication-arguments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.checkPermission
         :args:
@@ -134,9 +134,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.libraryPaths
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QCoreApplication-libraryPaths-f.rst
+        :description: QtCore/QCoreApplication-libraryPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.notify
         :args:

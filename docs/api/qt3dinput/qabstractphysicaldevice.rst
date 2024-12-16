@@ -28,13 +28,13 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.axisNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QAbstractPhysicalDevice-axisNames-f.rst
+            list[str]
+        :description: Qt3DInput/QAbstractPhysicalDevice-axisNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.axisSettings
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAxisSetting`]
-        :description: Qt3DInput/QAbstractPhysicalDevice-axisSettings-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAxisSetting`]
+        :description: Qt3DInput/QAbstractPhysicalDevice-axisSettings-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.buttonCount
         :returns:
@@ -50,8 +50,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.buttonNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QAbstractPhysicalDevice-buttonNames-f.rst
+            list[str]
+        :description: Qt3DInput/QAbstractPhysicalDevice-buttonNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAbstractPhysicalDevice.removeAxisSetting
         :args:

@@ -1,7 +1,6 @@
 :orphan:
 
 .. sip:class:: PyQt6.QtTest.QSignalSpy
-    :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtTest/QSignalSpy-c.rst
 
     .. sip:method:: PyQt6.QtTest.QSignalSpy.__init__
@@ -24,8 +23,8 @@
         :args:
             int
         :returns:
-            List[Any]
-        :description: QtTest/QSignalSpy-__getitem__-f.rst
+            list[Any]
+        :description: QtTest/QSignalSpy-__getitem__-f-1.rst
 
     .. sip:method:: PyQt6.QtTest.QSignalSpy.isValid
         :returns:

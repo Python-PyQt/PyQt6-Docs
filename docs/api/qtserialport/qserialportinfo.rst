@@ -23,9 +23,9 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.availablePorts
         :returns:
-            List[:sip:ref:`~PyQt6.QtSerialPort.QSerialPortInfo`]
+            list[:sip:ref:`~PyQt6.QtSerialPort.QSerialPortInfo`]
         :static:
-        :description: QtSerialPort/QSerialPortInfo-availablePorts-f.rst
+        :description: QtSerialPort/QSerialPortInfo-availablePorts-f-1.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.description
         :returns:
@@ -69,9 +69,9 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.standardBaudRates
         :returns:
-            List[int]
+            list[int]
         :static:
-        :description: QtSerialPort/QSerialPortInfo-standardBaudRates-f.rst
+        :description: QtSerialPort/QSerialPortInfo-standardBaudRates-f-1.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.swap
         :args:

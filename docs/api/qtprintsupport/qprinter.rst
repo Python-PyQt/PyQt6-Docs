@@ -427,8 +427,8 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.supportedResolutions
         :returns:
-            List[int]
-        :description: QtPrintSupport/QPrinter-supportedResolutions-f.rst
+            list[int]
+        :description: QtPrintSupport/QPrinter-supportedResolutions-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.supportsMultipleCopies
         :returns:

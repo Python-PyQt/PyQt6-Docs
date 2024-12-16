@@ -22,8 +22,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DSurface.axes
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QValue3DAxis`]
-        :description: QtDataVisualization/Q3DSurface-axes-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QValue3DAxis`]
+        :description: QtDataVisualization/Q3DSurface-axes-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DSurface.axisX
         :returns:
@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DSurface.seriesList
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QSurface3DSeries`]
-        :description: QtDataVisualization/Q3DSurface-seriesList-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QSurface3DSeries`]
+        :description: QtDataVisualization/Q3DSurface-seriesList-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DSurface.setAxisX
         :args:

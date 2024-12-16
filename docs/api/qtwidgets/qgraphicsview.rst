@@ -267,47 +267,47 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-7.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-1.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-8.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
             int
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-2.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-9.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-3.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-10.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
             :sip:ref:`~PyQt6.QtGui.QPolygon`
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-4.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-11.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-5.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-12.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.items
         :args:
@@ -317,8 +317,8 @@
             int
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsView-items-f-6.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsView-items-f-13.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsView.keyPressEvent
         :args:

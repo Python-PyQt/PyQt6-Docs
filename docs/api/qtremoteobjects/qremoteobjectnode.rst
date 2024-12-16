@@ -94,8 +94,8 @@
         :args:
             str
         :returns:
-            List[str]
-        :description: QtRemoteObjects/QRemoteObjectNode-instances-f.rst
+            list[str]
+        :description: QtRemoteObjects/QRemoteObjectNode-instances-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectNode.lastError
         :returns:
@@ -163,10 +163,10 @@
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectNode.remoteObjectAdded
         :args:
-            Tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectAdded-s-1.rst
+            tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectAdded-s.rst
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectNode.remoteObjectRemoved
         :args:
-            Tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectRemoved-s-1.rst
+            tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectNode-remoteObjectRemoved-s.rst

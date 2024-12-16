@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioDevice.supportedSampleFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QAudioFormat.SampleFormat`]
-        :description: QtMultimedia/QAudioDevice-supportedSampleFormats-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QAudioFormat.SampleFormat`]
+        :description: QtMultimedia/QAudioDevice-supportedSampleFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioDevice.swap
         :args:

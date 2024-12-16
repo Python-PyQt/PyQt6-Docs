@@ -50,8 +50,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.discoveredServices
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothServiceInfo`]
-        :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-discoveredServices-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothServiceInfo`]
+        :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-discoveredServices-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.error
         :returns:
@@ -100,8 +100,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.uuidFilter
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-uuidFilter-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-uuidFilter-f-1.rst
 
     .. sip:signal:: PyQt6.QtBluetooth.QBluetoothServiceDiscoveryAgent.canceled
         :description: QtBluetooth/QBluetoothServiceDiscoveryAgent-canceled-s.rst

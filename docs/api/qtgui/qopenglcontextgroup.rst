@@ -12,5 +12,5 @@
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContextGroup.shares
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QOpenGLContext`]
-        :description: QtGui/QOpenGLContextGroup-shares-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QOpenGLContext`]
+        :description: QtGui/QOpenGLContextGroup-shares-f-1.rst

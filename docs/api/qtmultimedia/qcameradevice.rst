@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QCameraDevice.photoResolutions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QSize`]
-        :description: QtMultimedia/QCameraDevice-photoResolutions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QSize`]
+        :description: QtMultimedia/QCameraDevice-photoResolutions-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QCameraDevice.position
         :returns:
@@ -74,5 +74,5 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QCameraDevice.videoFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QCameraFormat`]
-        :description: QtMultimedia/QCameraDevice-videoFormats-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QCameraFormat`]
+        :description: QtMultimedia/QCameraDevice-videoFormats-f-1.rst

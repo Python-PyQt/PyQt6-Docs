@@ -89,8 +89,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.optionNames
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineParser-optionNames-f.rst
+            list[str]
+        :description: QtCore/QCommandLineParser-optionNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.parse
         :args:
@@ -101,8 +101,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.positionalArguments
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineParser-positionalArguments-f.rst
+            list[str]
+        :description: QtCore/QCommandLineParser-positionalArguments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.process
         :args:
@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.unknownOptionNames
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineParser-unknownOptionNames-f.rst
+            list[str]
+        :description: QtCore/QCommandLineParser-unknownOptionNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.value
         :args:
@@ -160,12 +160,12 @@
         :args:
             Optional[str]
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineParser-values-f-2.rst
+            list[str]
+        :description: QtCore/QCommandLineParser-values-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.values
         :args:
             :sip:ref:`~PyQt6.QtCore.QCommandLineOption`
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineParser-values-f-1.rst
+            list[str]
+        :description: QtCore/QCommandLineParser-values-f-3.rst

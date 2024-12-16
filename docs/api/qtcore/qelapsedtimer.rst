@@ -54,6 +54,13 @@
             bool
         :description: QtCore/QElapsedTimer-__ge__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QElapsedTimer.__gt__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QElapsedTimer`
+        :returns:
+            bool
+        :description: QtCore/QElapsedTimer-__gt__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QElapsedTimer.hasExpired
         :args:
             int
@@ -74,6 +81,13 @@
         :returns:
             bool
         :description: QtCore/QElapsedTimer-isValid-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QElapsedTimer.__le__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QElapsedTimer`
+        :returns:
+            bool
+        :description: QtCore/QElapsedTimer-__le__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QElapsedTimer.__lt__
         :args:

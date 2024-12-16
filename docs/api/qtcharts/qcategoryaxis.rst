@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.categoriesLabels
         :returns:
-            List[str]
-        :description: QtCharts/QCategoryAxis-categoriesLabels-f.rst
+            list[str]
+        :description: QtCharts/QCategoryAxis-categoriesLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCategoryAxis.count
         :returns:

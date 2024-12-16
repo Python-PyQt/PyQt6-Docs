@@ -42,13 +42,13 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QSortPolicy.sortTypes
         :returns:
-            List[QSortPolicy.SortType]
-        :description: Qt3DRender/QSortPolicy-sortTypes-f.rst
+            list[QSortPolicy.SortType]
+        :description: Qt3DRender/QSortPolicy-sortTypes-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QSortPolicy.sortTypesInt
         :returns:
-            List[int]
-        :description: Qt3DRender/QSortPolicy-sortTypesInt-f.rst
+            list[int]
+        :description: Qt3DRender/QSortPolicy-sortTypesInt-f-1.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QSortPolicy.sortTypesChanged
         :args:

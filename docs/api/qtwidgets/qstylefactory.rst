@@ -21,6 +21,6 @@
 
     .. sip:method:: PyQt6.QtWidgets.QStyleFactory.keys
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtWidgets/QStyleFactory-keys-f.rst
+        :description: QtWidgets/QStyleFactory-keys-f-1.rst

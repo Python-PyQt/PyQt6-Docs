@@ -18,15 +18,15 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.availablePrinterNames
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtPrintSupport/QPrinterInfo-availablePrinterNames-f.rst
+        :description: QtPrintSupport/QPrinterInfo-availablePrinterNames-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.availablePrinters
         :returns:
-            List[:sip:ref:`~PyQt6.QtPrintSupport.QPrinterInfo`]
+            list[:sip:ref:`~PyQt6.QtPrintSupport.QPrinterInfo`]
         :static:
-        :description: QtPrintSupport/QPrinterInfo-availablePrinters-f.rst
+        :description: QtPrintSupport/QPrinterInfo-availablePrinters-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.defaultColorMode
         :returns:
@@ -115,23 +115,23 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.supportedColorModes
         :returns:
-            List[:sip:ref:`~PyQt6.QtPrintSupport.QPrinter.ColorMode`]
-        :description: QtPrintSupport/QPrinterInfo-supportedColorModes-f.rst
+            list[:sip:ref:`~PyQt6.QtPrintSupport.QPrinter.ColorMode`]
+        :description: QtPrintSupport/QPrinterInfo-supportedColorModes-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.supportedDuplexModes
         :returns:
-            List[:sip:ref:`~PyQt6.QtPrintSupport.QPrinter.DuplexMode`]
-        :description: QtPrintSupport/QPrinterInfo-supportedDuplexModes-f.rst
+            list[:sip:ref:`~PyQt6.QtPrintSupport.QPrinter.DuplexMode`]
+        :description: QtPrintSupport/QPrinterInfo-supportedDuplexModes-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.supportedPageSizes
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QPageSize`]
-        :description: QtPrintSupport/QPrinterInfo-supportedPageSizes-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QPageSize`]
+        :description: QtPrintSupport/QPrinterInfo-supportedPageSizes-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.supportedResolutions
         :returns:
-            List[int]
-        :description: QtPrintSupport/QPrinterInfo-supportedResolutions-f.rst
+            list[int]
+        :description: QtPrintSupport/QPrinterInfo-supportedResolutions-f-1.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinterInfo.supportsCustomPageSizes
         :returns:

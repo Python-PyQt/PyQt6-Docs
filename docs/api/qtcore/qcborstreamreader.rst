@@ -291,18 +291,18 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readByteArray
         :returns:
-            Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
-        :description: QtCore/QCborStreamReader-readByteArray-f.rst
+            tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
+        :description: QtCore/QCborStreamReader-readByteArray-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readString
         :returns:
-            Tuple[str, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
-        :description: QtCore/QCborStreamReader-readString-f.rst
+            tuple[str, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
+        :description: QtCore/QCborStreamReader-readString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readUtf8String
         :returns:
-            Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
-        :description: QtCore/QCborStreamReader-readUtf8String-f.rst
+            tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QCborStreamReader.StringResultCode`]
+        :description: QtCore/QCborStreamReader-readUtf8String-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.reparse
         :description: QtCore/QCborStreamReader-reparse-f.rst

@@ -32,8 +32,8 @@
         :args:
             int
         :returns:
-            List[float]
-        :description: Qt3DAnimation/QMorphingAnimation-getWeights-f.rst
+            list[float]
+        :description: Qt3DAnimation/QMorphingAnimation-getWeights-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.interpolator
         :returns:
@@ -47,8 +47,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.morphTargetList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DAnimation.QMorphTarget`]
-        :description: Qt3DAnimation/QMorphingAnimation-morphTargetList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DAnimation.QMorphTarget`]
+        :description: Qt3DAnimation/QMorphingAnimation-morphTargetList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.removeMorphTarget
         :args:
@@ -103,8 +103,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.targetPositions
         :returns:
-            List[float]
-        :description: Qt3DAnimation/QMorphingAnimation-targetPositions-f.rst
+            list[float]
+        :description: Qt3DAnimation/QMorphingAnimation-targetPositions-f-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.easingChanged
         :args:

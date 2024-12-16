@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPen.dashPattern
         :returns:
-            List[float]
-        :description: QtGui/QPen-dashPattern-f.rst
+            list[float]
+        :description: QtGui/QPen-dashPattern-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.__eq__
         :args:

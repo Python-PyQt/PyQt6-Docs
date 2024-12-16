@@ -47,8 +47,8 @@
             from: int = -1
             length: int = -1
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
-        :description: QtGui/QTextFragment-glyphRuns-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextFragment-glyphRuns-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFragment.isValid
         :returns:

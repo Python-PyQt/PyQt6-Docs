@@ -42,6 +42,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.EmitAllUploadProgressSignalsAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-EmitAllUploadProgressSignalsAttribute-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.FullLocalServerNameAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-FullLocalServerNameAttribute-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.Attribute.Http2AllowedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-Http2AllowedAttribute-v.rst
 
@@ -233,6 +236,11 @@
             Any
         :description: QtNetwork/QNetworkRequest-header-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.headers
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkRequest-headers-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.http1Configuration
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QHttp1Configuration`
@@ -279,8 +287,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.rawHeaderList
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QNetworkRequest-rawHeaderList-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QNetworkRequest-rawHeaderList-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setAttribute
         :args:
@@ -298,6 +306,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.KnownHeaders`
             Any
         :description: QtNetwork/QNetworkRequest-setHeader-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setHeaders
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkRequest-setHeaders-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setHttp1Configuration
         :args:

@@ -218,8 +218,8 @@
         :args:
             Optional[str]
         :returns:
-            List[str]
-        :description: QtWidgets/QCompleter-splitPath-f-1.rst
+            list[str]
+        :description: QtWidgets/QCompleter-splitPath-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCompleter.widget
         :returns:

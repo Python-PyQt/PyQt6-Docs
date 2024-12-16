@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationController.animationGroupList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DAnimation.QAnimationGroup`]
-        :description: Qt3DAnimation/QAnimationController-animationGroupList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DAnimation.QAnimationGroup`]
+        :description: Qt3DAnimation/QAnimationController-animationGroupList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationController.entity
         :returns:

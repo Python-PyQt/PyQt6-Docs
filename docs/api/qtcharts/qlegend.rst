@@ -96,8 +96,8 @@
         :args:
             series: :sip:ref:`~PyQt6.QtCharts.QAbstractSeries` = None
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QLegendMarker`]
-        :description: QtCharts/QLegend-markers-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QLegendMarker`]
+        :description: QtCharts/QLegend-markers-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.markerShape
         :returns:

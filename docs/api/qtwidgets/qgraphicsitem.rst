@@ -249,8 +249,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.childItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsItem-childItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsItem-childItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.childrenBoundingRect
         :returns:
@@ -285,8 +285,8 @@
         :args:
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsItem-collidingItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsItem-collidingItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.commonAncestorItem
         :args:
@@ -1330,8 +1330,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.transformations
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsTransform`]
-        :description: QtWidgets/QGraphicsItem-transformations-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsTransform`]
+        :description: QtWidgets/QGraphicsItem-transformations-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.transformOriginPoint
         :returns:

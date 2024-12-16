@@ -200,8 +200,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFramebufferObject.sizes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QSize`]
-        :description: QtOpenGL/QOpenGLFramebufferObject-sizes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QSize`]
+        :description: QtOpenGL/QOpenGLFramebufferObject-sizes-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFramebufferObject.takeTexture
         :returns:
@@ -222,8 +222,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFramebufferObject.textures
         :returns:
-            List[int]
-        :description: QtOpenGL/QOpenGLFramebufferObject-textures-f.rst
+            list[int]
+        :description: QtOpenGL/QOpenGLFramebufferObject-textures-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFramebufferObject.toImage
         :args:

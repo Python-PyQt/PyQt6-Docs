@@ -81,13 +81,13 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValueNames
         :returns:
-            List[str]
-        :description: QtSql/QSqlQuery-boundValueNames-f.rst
+            list[str]
+        :description: QtSql/QSqlQuery-boundValueNames-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValues
         :returns:
-            List[Any]
-        :description: QtSql/QSqlQuery-boundValues-f.rst
+            list[Any]
+        :description: QtSql/QSqlQuery-boundValues-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.clear
         :description: QtSql/QSqlQuery-clear-f.rst
@@ -148,10 +148,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isNull
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtSql/QSqlQuery-isNull-f-2.rst
+        :description: QtSql/QSqlQuery-isNull-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isPositionalBindingEnabled
         :returns:
@@ -272,7 +272,7 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.value
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             Any
-        :description: QtSql/QSqlQuery-value-f-2.rst
+        :description: QtSql/QSqlQuery-value-f-1.rst

@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QButtonGroup.buttons
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
-        :description: QtWidgets/QButtonGroup-buttons-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
+        :description: QtWidgets/QButtonGroup-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QButtonGroup.checkedButton
         :returns:

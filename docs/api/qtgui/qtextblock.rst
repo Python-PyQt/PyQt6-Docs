@@ -176,8 +176,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlock.textFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextLayout.FormatRange`]
-        :description: QtGui/QTextBlock-textFormats-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextLayout.FormatRange`]
+        :description: QtGui/QTextBlock-textFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlock.textList
         :returns:

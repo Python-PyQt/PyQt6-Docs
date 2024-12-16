@@ -11,11 +11,11 @@
 
     .. sip:method:: PyQt6.QtWebChannel.QWebChannelAbstractTransport.sendMessage
         :args:
-            Dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
-        :description: QtWebChannel/QWebChannelAbstractTransport-sendMessage-f-1.rst
+            dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+        :description: QtWebChannel/QWebChannelAbstractTransport-sendMessage-f.rst
 
     .. sip:signal:: PyQt6.QtWebChannel.QWebChannelAbstractTransport.messageReceived
         :args:
-            Dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], Dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
+            dict[Optional[str], Union[:sip:ref:`~PyQt6.QtCore.QJsonValue`, :sip:ref:`~PyQt6.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt6.QtCore.QJsonValue`], dict[Optional[str], :sip:ref:`~PyQt6.QtCore.QJsonValue`], bool, int, float, None, Optional[str]]]
             :sip:ref:`~PyQt6.QtWebChannel.QWebChannelAbstractTransport`
-        :description: QtWebChannel/QWebChannelAbstractTransport-messageReceived-s-1.rst
+        :description: QtWebChannel/QWebChannelAbstractTransport-messageReceived-s.rst

@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QLayerFilter.layers
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QLayer`]
-        :description: Qt3DRender/QLayerFilter-layers-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QLayer`]
+        :description: Qt3DRender/QLayerFilter-layers-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QLayerFilter.removeLayer
         :args:

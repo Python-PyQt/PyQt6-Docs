@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QAbstractItemModelReplica.availableRoles
         :returns:
-            List[int]
-        :description: QtRemoteObjects/QAbstractItemModelReplica-availableRoles-f.rst
+            list[int]
+        :description: QtRemoteObjects/QAbstractItemModelReplica-availableRoles-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QAbstractItemModelReplica.columnCount
         :args:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QAbstractItemModelReplica.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtRemoteObjects/QAbstractItemModelReplica-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtRemoteObjects/QAbstractItemModelReplica-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QAbstractItemModelReplica.rootCacheSize
         :returns:

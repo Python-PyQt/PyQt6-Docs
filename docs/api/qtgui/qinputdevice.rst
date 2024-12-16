@@ -111,9 +111,9 @@
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.devices
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QInputDevice`]
+            list[:sip:ref:`~PyQt6.QtGui.QInputDevice`]
         :static:
-        :description: QtGui/QInputDevice-devices-f.rst
+        :description: QtGui/QInputDevice-devices-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.__eq__
         :args:
@@ -156,9 +156,9 @@
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.seatNames
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtGui/QInputDevice-seatNames-f.rst
+        :description: QtGui/QInputDevice-seatNames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputDevice.systemId
         :returns:

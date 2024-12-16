@@ -35,8 +35,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPainterPathStroker.dashPattern
         :returns:
-            List[float]
-        :description: QtGui/QPainterPathStroker-dashPattern-f.rst
+            list[float]
+        :description: QtGui/QPainterPathStroker-dashPattern-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPathStroker.joinStyle
         :returns:

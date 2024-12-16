@@ -22,8 +22,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.axes
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DAxis`]
-        :description: QtDataVisualization/Q3DBars-axes-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DAxis`]
+        :description: QtDataVisualization/Q3DBars-axes-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.barSeriesMargin
         :returns:
@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.seriesList
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QBar3DSeries`]
-        :description: QtDataVisualization/Q3DBars-seriesList-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QBar3DSeries`]
+        :description: QtDataVisualization/Q3DBars-seriesList-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DBars.setBarSeriesMargin
         :args:

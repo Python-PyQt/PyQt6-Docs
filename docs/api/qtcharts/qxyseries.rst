@@ -52,9 +52,9 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.bestFitLineEquation
         :returns:
-            Tuple[float, float]
+            tuple[float, float]
             bool
-        :description: QtCharts/QXYSeries-bestFitLineEquation-f.rst
+        :description: QtCharts/QXYSeries-bestFitLineEquation-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.bestFitLinePen
         :returns:
@@ -173,8 +173,8 @@
         :args:
             int
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]
-        :description: QtCharts/QXYSeries-pointConfiguration-f.rst
+            dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]
+        :description: QtCharts/QXYSeries-pointConfiguration-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.pointLabelsClipping
         :returns:
@@ -203,13 +203,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.points
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtCharts/QXYSeries-points-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtCharts/QXYSeries-points-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.pointsConfiguration
         :returns:
-            Dict[int, Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
-        :description: QtCharts/QXYSeries-pointsConfiguration-f.rst
+            dict[int, dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
+        :description: QtCharts/QXYSeries-pointsConfiguration-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.pointsVisible
         :returns:
@@ -285,8 +285,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.selectedPoints
         :returns:
-            List[int]
-        :description: QtCharts/QXYSeries-selectedPoints-f.rst
+            list[int]
+        :description: QtCharts/QXYSeries-selectedPoints-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.selectPoint
         :args:
@@ -341,8 +341,8 @@
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointConfiguration
         :args:
             int
-            Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]
-        :description: QtCharts/QXYSeries-setPointConfiguration-f.rst
+            dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]
+        :description: QtCharts/QXYSeries-setPointConfiguration-f-2.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointConfiguration
         :args:
@@ -378,8 +378,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointsConfiguration
         :args:
-            Dict[int, Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
-        :description: QtCharts/QXYSeries-setPointsConfiguration-f.rst
+            dict[int, dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
+        :description: QtCharts/QXYSeries-setPointsConfiguration-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QXYSeries.setPointSelected
         :args:
@@ -507,8 +507,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.pointsConfigurationChanged
         :args:
-            Dict[int, Dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
-        :description: QtCharts/QXYSeries-pointsConfigurationChanged-s.rst
+            dict[int, dict[:sip:ref:`~PyQt6.QtCharts.QXYSeries.PointConfiguration`, Any]]
+        :description: QtCharts/QXYSeries-pointsConfigurationChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QXYSeries.pointsRemoved
         :args:

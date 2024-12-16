@@ -40,6 +40,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MetaInformation.DocumentUrl
             :description: QtGui/QTextDocument-MetaInformation-DocumentUrl-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextDocument.MetaInformation.FrontMatter
+            :description: QtGui/QTextDocument-MetaInformation-FrontMatter-v.rst
+
     .. sip:enum:: PyQt6.QtGui.QTextDocument.ResourceType
         :description: QtGui/QTextDocument-ResourceType-e.rst
 
@@ -96,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.allFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextFormat`]
-        :description: QtGui/QTextDocument-allFormats-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextFormat`]
+        :description: QtGui/QTextDocument-allFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocument.availableRedoSteps
         :returns:

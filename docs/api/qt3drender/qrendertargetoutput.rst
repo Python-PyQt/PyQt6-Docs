@@ -61,6 +61,12 @@
         .. sip:enum-member:: PyQt6.Qt3DRender.QRenderTargetOutput.AttachmentPoint.DepthStencil
             :description: Qt3DRender/QRenderTargetOutput-AttachmentPoint-DepthStencil-v.rst
 
+        .. sip:enum-member:: PyQt6.Qt3DRender.QRenderTargetOutput.AttachmentPoint.Left
+            :description: Qt3DRender/QRenderTargetOutput-AttachmentPoint-Left-v.rst
+
+        .. sip:enum-member:: PyQt6.Qt3DRender.QRenderTargetOutput.AttachmentPoint.Right
+            :description: Qt3DRender/QRenderTargetOutput-AttachmentPoint-Right-v.rst
+
         .. sip:enum-member:: PyQt6.Qt3DRender.QRenderTargetOutput.AttachmentPoint.Stencil
             :description: Qt3DRender/QRenderTargetOutput-AttachmentPoint-Stencil-v.rst
 

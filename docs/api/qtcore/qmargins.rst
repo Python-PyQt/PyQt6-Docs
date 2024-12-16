@@ -47,6 +47,13 @@
 
     .. sip:method:: PyQt6.QtCore.QMargins.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :returns:
+            bool
+        :description: QtCore/QMargins-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QMargins.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QMargins`
         :returns:
             bool
@@ -131,6 +138,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMargins`
         :description: QtCore/QMargins-__mul__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QMargins.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QMarginsF`
+        :returns:
+            bool
+        :description: QtCore/QMargins-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMargins.__ne__
         :args:

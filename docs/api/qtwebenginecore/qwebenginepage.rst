@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature
         :description: QtWebEngineCore/QWebEnginePage-Feature-e.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature.ClipboardReadWrite
+            :description: QtWebEngineCore/QWebEnginePage-Feature-ClipboardReadWrite-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature.DesktopAudioVideoCapture
             :description: QtWebEngineCore/QWebEnginePage-Feature-DesktopAudioVideoCapture-v.rst
 
@@ -15,6 +18,9 @@
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature.Geolocation
             :description: QtWebEngineCore/QWebEnginePage-Feature-Geolocation-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature.LocalFontsAccess
+            :description: QtWebEngineCore/QWebEnginePage-Feature-LocalFontsAccess-v.rst
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEnginePage.Feature.MediaAudioCapture
             :description: QtWebEngineCore/QWebEnginePage-Feature-MediaAudioCapture-v.rst
@@ -330,8 +336,8 @@
             Iterable[Optional[str]]
             Iterable[Optional[str]]
         :returns:
-            List[str]
-        :description: QtWebEngineCore/QWebEnginePage-chooseFiles-f-1.rst
+            list[str]
+        :description: QtWebEngineCore/QWebEnginePage-chooseFiles-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.contentsSize
         :returns:
@@ -367,6 +373,13 @@
         :returns:
             bool
         :description: QtWebEngineCore/QWebEnginePage-event-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.findFrameByName
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            Optional[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFrame`]
+        :description: QtWebEngineCore/QWebEnginePage-findFrameByName-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.findText
         :args:
@@ -462,6 +475,11 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHttpRequest`
         :description: QtWebEngineCore/QWebEnginePage-load-f-1.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.mainFrame
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFrame`
+        :description: QtWebEngineCore/QWebEnginePage-mainFrame-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.printToPdf
         :args:
             Optional[str]
@@ -516,8 +534,8 @@
         :args:
             Optional[str]
             worldId: int = 0
-            resultCallback: Callable[[Optional[str]], None] = None
-        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f-4.rst
+            resultCallback: Callable[[Any], None] = None
+        :description: QtWebEngineCore/QWebEnginePage-runJavaScript-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEnginePage.save
         :args:
@@ -673,6 +691,11 @@
             :sip:ref:`~PyQt6.QtCore.QSizeF`
         :description: QtWebEngineCore/QWebEnginePage-contentsSizeChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.desktopMediaRequested
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDesktopMediaRequest`
+        :description: QtWebEngineCore/QWebEnginePage-desktopMediaRequested-s.rst
+
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.featurePermissionRequestCanceled
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
@@ -759,8 +782,18 @@
             bool
         :description: QtWebEngineCore/QWebEnginePage-pdfPrintingFinished-s-1.rst
 
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.permissionRequested
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`
+        :description: QtWebEngineCore/QWebEnginePage-permissionRequested-s.rst
+
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.printRequested
         :description: QtWebEngineCore/QWebEnginePage-printRequested-s.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.printRequestedByFrame
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFrame`
+        :description: QtWebEngineCore/QWebEnginePage-printRequestedByFrame-s.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.proxyAuthenticationRequired
         :args:
@@ -828,5 +861,15 @@
             bool
         :description: QtWebEngineCore/QWebEnginePage-visibleChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.webAuthUxRequested
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineWebAuthUxRequest`
+        :description: QtWebEngineCore/QWebEnginePage-webAuthUxRequested-s.rst
+
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.windowCloseRequested
         :description: QtWebEngineCore/QWebEnginePage-windowCloseRequested-s.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEnginePage.zoomFactorChanged
+        :args:
+            float
+        :description: QtWebEngineCore/QWebEnginePage-zoomFactorChanged-s.rst

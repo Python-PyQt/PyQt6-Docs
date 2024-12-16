@@ -55,15 +55,15 @@
         :args:
             int
         :returns:
-            List[Any]
-        :description: QtPositioning/QGeoPolygon-hole-f.rst
+            list[Any]
+        :description: QtPositioning/QGeoPolygon-hole-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPolygon.holePath
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
-        :description: QtPositioning/QGeoPolygon-holePath-f.rst
+            list[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
+        :description: QtPositioning/QGeoPolygon-holePath-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPolygon.holesCount
         :returns:
@@ -86,8 +86,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPolygon.perimeter
         :returns:
-            List[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
-        :description: QtPositioning/QGeoPolygon-perimeter-f.rst
+            list[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
+        :description: QtPositioning/QGeoPolygon-perimeter-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPolygon.removeCoordinate
         :args:

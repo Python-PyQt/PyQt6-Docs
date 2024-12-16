@@ -49,8 +49,8 @@
             mode: :sip:ref:`~PyQt6.QtGui.QIcon.Mode` = :sip:ref:`~PyQt6.QtGui.QIcon.Mode.Normal`
             state: :sip:ref:`~PyQt6.QtGui.QIcon.State` = :sip:ref:`~PyQt6.QtGui.QIcon.State.Off`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QSize`]
-        :description: QtGui/QIconEngine-availableSizes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QSize`]
+        :description: QtGui/QIconEngine-availableSizes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QIconEngine.clone
         :returns:

@@ -79,8 +79,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.anchorNames
         :returns:
-            List[str]
-        :description: QtGui/QTextCharFormat-anchorNames-f.rst
+            list[str]
+        :description: QtGui/QTextCharFormat-anchorNames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.baselineOffset
         :returns:

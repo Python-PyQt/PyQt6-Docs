@@ -1410,6 +1410,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kurundi
             :description: QtCore/QLocale-Language-Kurundi-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kuvi
+            :description: QtCore/QLocale-Language-Kuvi-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kwanyama
             :description: QtCore/QLocale-Language-Kwanyama-v.rst
 
@@ -2693,6 +2696,13 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+        :returns:
+            bool
+        :description: QtCore/QLocale-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QLocale`
         :returns:
             bool
@@ -2755,9 +2765,9 @@
             :sip:ref:`~PyQt6.QtCore.QLocale.Script`
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QLocale`]
+            list[:sip:ref:`~PyQt6.QtCore.QLocale`]
         :static:
-        :description: QtCore/QLocale-matchingLocales-f.rst
+        :description: QtCore/QLocale-matchingLocales-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.measurementSystem
         :returns:
@@ -2793,6 +2803,13 @@
         :returns:
             str
         :description: QtCore/QLocale-nativeTerritoryName-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLocale.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLocale.Language`
+        :returns:
+            bool
+        :description: QtCore/QLocale-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.__ne__
         :args:
@@ -3233,13 +3250,13 @@
         :args:
             separator: :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator` = :sip:ref:`~PyQt6.QtCore.QLocale.TagSeparator.Dash`
         :returns:
-            List[str]
-        :description: QtCore/QLocale-uiLanguages-f-1.rst
+            list[str]
+        :description: QtCore/QLocale-uiLanguages-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.weekdays
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.Qt.DayOfWeek`]
-        :description: QtCore/QLocale-weekdays-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.Qt.DayOfWeek`]
+        :description: QtCore/QLocale-weekdays-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.zeroDigit
         :returns:

@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QEntity.components
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QComponent`]
-        :description: Qt3DCore/QEntity-components-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QComponent`]
+        :description: Qt3DCore/QEntity-components-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QEntity.parentEntity
         :returns:

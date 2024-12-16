@@ -31,18 +31,18 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.gridPositions
         :returns:
-            List[float]
-        :description: QtDataVisualization/QValue3DAxisFormatter-gridPositions-f.rst
+            list[float]
+        :description: QtDataVisualization/QValue3DAxisFormatter-gridPositions-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.labelPositions
         :returns:
-            List[float]
-        :description: QtDataVisualization/QValue3DAxisFormatter-labelPositions-f.rst
+            list[float]
+        :description: QtDataVisualization/QValue3DAxisFormatter-labelPositions-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.labelStrings
         :returns:
-            List[str]
-        :description: QtDataVisualization/QValue3DAxisFormatter-labelStrings-f.rst
+            list[str]
+        :description: QtDataVisualization/QValue3DAxisFormatter-labelStrings-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.locale
         :returns:
@@ -94,8 +94,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.subGridPositions
         :returns:
-            List[float]
-        :description: QtDataVisualization/QValue3DAxisFormatter-subGridPositions-f.rst
+            list[float]
+        :description: QtDataVisualization/QValue3DAxisFormatter-subGridPositions-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxisFormatter.valueAt
         :args:

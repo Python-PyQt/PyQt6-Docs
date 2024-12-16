@@ -159,8 +159,8 @@
 
     .. sip:method:: PyQt6.QtCore.QVersionNumber.segments
         :returns:
-            List[int]
-        :description: QtCore/QVersionNumber-segments-f.rst
+            list[int]
+        :description: QtCore/QVersionNumber-segments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QVersionNumber.toString
         :returns:

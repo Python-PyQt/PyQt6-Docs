@@ -131,8 +131,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
-        :description: QtWidgets/QAbstractScrollArea-scrollBarWidgets-f-1.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
+        :description: QtWidgets/QAbstractScrollArea-scrollBarWidgets-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractScrollArea.scrollContentsBy
         :args:

@@ -76,8 +76,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPageRanges.toRangeList
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QPageRanges.Range`]
-        :description: QtGui/QPageRanges-toRangeList-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QPageRanges.Range`]
+        :description: QtGui/QPageRanges-toRangeList-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageRanges.toString
         :returns:

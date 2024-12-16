@@ -73,8 +73,8 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.propertyBag
         :returns:
-            Dict[str, Any]
-        :description: QAxContainer/QAxBase-propertyBag-f.rst
+            dict[str, Any]
+        :description: QAxContainer/QAxBase-propertyBag-f-1.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.propertyWritable
         :args:
@@ -120,8 +120,8 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.setPropertyBag
         :args:
-            Dict[Optional[str], Any]
-        :description: QAxContainer/QAxBase-setPropertyBag-f-1.rst
+            dict[Optional[str], Any]
+        :description: QAxContainer/QAxBase-setPropertyBag-f.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.setPropertyWritable
         :args:
@@ -131,5 +131,5 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.verbs
         :returns:
-            List[str]
-        :description: QAxContainer/QAxBase-verbs-f.rst
+            list[str]
+        :description: QAxContainer/QAxBase-verbs-f-1.rst

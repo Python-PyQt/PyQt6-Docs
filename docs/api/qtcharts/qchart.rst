@@ -95,8 +95,8 @@
             orientation: :sip:ref:`~PyQt6.QtCore.Qt.Orientation` = Qt.Horizontal|Qt.Vertical
             series: :sip:ref:`~PyQt6.QtCharts.QAbstractSeries` = None
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
-        :description: QtCharts/QChart-axes-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
+        :description: QtCharts/QChart-axes-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.backgroundBrush
         :returns:
@@ -213,8 +213,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.series
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QAbstractSeries`]
-        :description: QtCharts/QChart-series-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QAbstractSeries`]
+        :description: QtCharts/QChart-series-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setAnimationDuration
         :args:

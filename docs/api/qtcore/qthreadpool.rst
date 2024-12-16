@@ -121,6 +121,13 @@
 
     .. sip:method:: PyQt6.QtCore.QThreadPool.waitForDone
         :args:
+            :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`
+        :returns:
+            bool
+        :description: QtCore/QThreadPool-waitForDone-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QThreadPool.waitForDone
+        :args:
             msecs: int = -1
         :returns:
             bool

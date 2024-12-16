@@ -72,9 +72,9 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageWriter-imageFormatsForMimeType-f-1.rst
+        :description: QtGui/QImageWriter-imageFormatsForMimeType-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.optimizedWrite
         :returns:
@@ -149,20 +149,20 @@
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.supportedImageFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageWriter-supportedImageFormats-f.rst
+        :description: QtGui/QImageWriter-supportedImageFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.supportedMimeTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageWriter-supportedMimeTypes-f.rst
+        :description: QtGui/QImageWriter-supportedMimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.supportedSubTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QImageWriter-supportedSubTypes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtGui/QImageWriter-supportedSubTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageWriter.supportsOption
         :args:

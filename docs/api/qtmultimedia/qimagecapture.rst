@@ -172,9 +172,9 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QImageCapture.supportedFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QImageCapture.FileFormat`]
+            list[:sip:ref:`~PyQt6.QtMultimedia.QImageCapture.FileFormat`]
         :static:
-        :description: QtMultimedia/QImageCapture-supportedFormats-f.rst
+        :description: QtMultimedia/QImageCapture-supportedFormats-f-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QImageCapture.errorChanged
         :description: QtMultimedia/QImageCapture-errorChanged-s.rst

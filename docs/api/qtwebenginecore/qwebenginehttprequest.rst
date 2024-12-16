@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.headers
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtWebEngineCore/QWebEngineHttpRequest-headers-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineHttpRequest-headers-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.method
         :returns:
@@ -69,11 +69,11 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.postRequest
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            Dict[Optional[str], Optional[str]]
+            dict[Optional[str], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHttpRequest`
         :static:
-        :description: QtWebEngineCore/QWebEngineHttpRequest-postRequest-f-1.rst
+        :description: QtWebEngineCore/QWebEngineHttpRequest-postRequest-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHttpRequest.setHeader
         :args:

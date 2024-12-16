@@ -42,8 +42,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.columnWidthConstraints
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextLength`]
-        :description: QtGui/QTextTableFormat-columnWidthConstraints-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextLength`]
+        :description: QtGui/QTextTableFormat-columnWidthConstraints-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextTableFormat.headerRowCount
         :returns:

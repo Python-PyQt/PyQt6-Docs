@@ -552,6 +552,11 @@
             bool
         :description: QtGui/QWindow-setVisible-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QWindow.setVulkanInstance
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QVulkanInstance`
+        :description: QtGui/QWindow-setVulkanInstance-f.rst
+
     .. sip:method:: PyQt6.QtGui.QWindow.setWidth
         :args:
             int
@@ -656,6 +661,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QWindow.Visibility`
         :description: QtGui/QWindow-visibility-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QWindow.vulkanInstance
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVulkanInstance`
+        :description: QtGui/QWindow-vulkanInstance-f.rst
 
     .. sip:method:: PyQt6.QtGui.QWindow.wheelEvent
         :args:

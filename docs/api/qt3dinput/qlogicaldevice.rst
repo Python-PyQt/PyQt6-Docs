@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QLogicalDevice.actions
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAction`]
-        :description: Qt3DInput/QLogicalDevice-actions-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAction`]
+        :description: Qt3DInput/QLogicalDevice-actions-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QLogicalDevice.addAction
         :args:
@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QLogicalDevice.axes
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAxis`]
-        :description: Qt3DInput/QLogicalDevice-axes-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAxis`]
+        :description: Qt3DInput/QLogicalDevice-axes-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QLogicalDevice.removeAction
         :args:

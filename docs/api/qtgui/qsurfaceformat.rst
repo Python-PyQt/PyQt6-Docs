@@ -288,5 +288,5 @@
 
     .. sip:method:: PyQt6.QtGui.QSurfaceFormat.version
         :returns:
-            Tuple[int, int]
-        :description: QtGui/QSurfaceFormat-version-f.rst
+            tuple[int, int]
+        :description: QtGui/QSurfaceFormat-version-f-1.rst

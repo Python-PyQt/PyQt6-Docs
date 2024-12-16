@@ -58,6 +58,9 @@
         .. sip:enum-member:: PyQt6.QtNfc.QNearFieldTarget.Error.UnsupportedError
             :description: QtNfc/QNearFieldTarget-Error-UnsupportedError-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNfc.QNearFieldTarget.Error.UnsupportedTargetError
+            :description: QtNfc/QNearFieldTarget-Error-UnsupportedTargetError-v.rst
+
     .. sip:enum:: PyQt6.QtNfc.QNearFieldTarget.Type
         :description: QtNfc/QNearFieldTarget-Type-e.rst
 

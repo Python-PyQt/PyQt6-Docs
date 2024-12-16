@@ -24,10 +24,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.contains
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtSql/QSqlRecord-contains-f-1.rst
+        :description: QtSql/QSqlRecord-contains-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.count
         :returns:
@@ -50,10 +50,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.field
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlField`
-        :description: QtSql/QSqlRecord-field-f-2.rst
+        :description: QtSql/QSqlRecord-field-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.fieldName
         :args:
@@ -64,10 +64,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.indexOf
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             int
-        :description: QtSql/QSqlRecord-indexOf-f-1.rst
+        :description: QtSql/QSqlRecord-indexOf-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.insert
         :args:
@@ -89,10 +89,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.isGenerated
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtSql/QSqlRecord-isGenerated-f-2.rst
+        :description: QtSql/QSqlRecord-isGenerated-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.isNull
         :args:
@@ -103,10 +103,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.isNull
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtSql/QSqlRecord-isNull-f-2.rst
+        :description: QtSql/QSqlRecord-isNull-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.keyValues
         :args:
@@ -140,9 +140,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.setGenerated
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             bool
-        :description: QtSql/QSqlRecord-setGenerated-f-2.rst
+        :description: QtSql/QSqlRecord-setGenerated-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.setGenerated
         :args:
@@ -157,8 +157,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.setNull
         :args:
-            Optional[str]
-        :description: QtSql/QSqlRecord-setNull-f-2.rst
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtSql/QSqlRecord-setNull-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.setValue
         :args:
@@ -168,9 +168,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.setValue
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             Any
-        :description: QtSql/QSqlRecord-setValue-f-2.rst
+        :description: QtSql/QSqlRecord-setValue-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.swap
         :args:
@@ -186,7 +186,7 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRecord.value
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             Any
-        :description: QtSql/QSqlRecord-value-f-2.rst
+        :description: QtSql/QSqlRecord-value-f-1.rst

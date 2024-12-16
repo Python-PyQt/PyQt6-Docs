@@ -67,6 +67,11 @@
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :description: QtWidgets/QTableView-currentChanged-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QTableView.dropEvent
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QDropEvent`
+        :description: QtWidgets/QTableView-dropEvent-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QTableView.gridStyle
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.PenStyle`
@@ -237,8 +242,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTableView.selectedIndexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtWidgets/QTableView-selectedIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtWidgets/QTableView-selectedIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableView.selectionChanged
         :args:

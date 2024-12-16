@@ -94,8 +94,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.characteristics
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`]
-        :description: QtBluetooth/QLowEnergyService-characteristics-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyCharacteristic`]
+        :description: QtBluetooth/QLowEnergyService-characteristics-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.contains
         :args:
@@ -123,8 +123,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.includedServices
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QLowEnergyService-includedServices-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QLowEnergyService-includedServices-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyService.readCharacteristic
         :args:

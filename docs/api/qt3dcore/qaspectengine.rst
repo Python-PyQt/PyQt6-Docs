@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.aspects
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QAbstractAspect`]
-        :description: Qt3DCore/QAspectEngine-aspects-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QAbstractAspect`]
+        :description: Qt3DCore/QAspectEngine-aspects-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.executeCommand
         :args:

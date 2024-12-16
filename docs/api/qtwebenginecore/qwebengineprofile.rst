@@ -28,6 +28,18 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentCookiesPolicy.NoPersistentCookies
             :description: QtWebEngineCore/QWebEngineProfile-PersistentCookiesPolicy-NoPersistentCookies-v.rst
 
+    .. sip:enum:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy
+        :description: QtWebEngineCore/QWebEngineProfile-PersistentPermissionsPolicy-e.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy.AskEveryTime
+            :description: QtWebEngineCore/QWebEngineProfile-PersistentPermissionsPolicy-AskEveryTime-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy.StoreInMemory
+            :description: QtWebEngineCore/QWebEngineProfile-PersistentPermissionsPolicy-StoreInMemory-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy.StoreOnDisk
+            :description: QtWebEngineCore/QWebEngineProfile-PersistentPermissionsPolicy-StoreOnDisk-v.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -59,6 +71,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineClientCertificateStore`
         :description: QtWebEngineCore/QWebEngineProfile-clientCertificateStore-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.clientHints
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineClientHints`
+        :description: QtWebEngineCore/QWebEngineProfile-clientHints-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.cookieStore
         :returns:
@@ -117,15 +134,47 @@
             bool
         :description: QtWebEngineCore/QWebEngineProfile-isSpellCheckEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.listAllPermissions
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineCore/QWebEngineProfile-listAllPermissions-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.listPermissionsForOrigin
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineCore/QWebEngineProfile-listPermissionsForOrigin-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.listPermissionsForPermissionType
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.PermissionType`
+        :returns:
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`]
+        :description: QtWebEngineCore/QWebEngineProfile-listPermissionsForPermissionType-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.persistentCookiesPolicy
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentCookiesPolicy`
         :description: QtWebEngineCore/QWebEngineProfile-persistentCookiesPolicy-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.persistentPermissionsPolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy`
+        :description: QtWebEngineCore/QWebEngineProfile-persistentPermissionsPolicy-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.persistentStoragePath
         :returns:
             str
         :description: QtWebEngineCore/QWebEngineProfile-persistentStoragePath-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.queryPermission
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission.PermissionType`
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePermission`
+        :description: QtWebEngineCore/QWebEngineProfile-queryPermission-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.removeAllUrlSchemeHandlers
         :description: QtWebEngineCore/QWebEngineProfile-removeAllUrlSchemeHandlers-f.rst
@@ -199,6 +248,11 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentCookiesPolicy`
         :description: QtWebEngineCore/QWebEngineProfile-setPersistentCookiesPolicy-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setPersistentPermissionsPolicy
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy`
+        :description: QtWebEngineCore/QWebEngineProfile-setPersistentPermissionsPolicy-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setPersistentStoragePath
         :args:
             Optional[str]
@@ -231,8 +285,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.spellCheckLanguages
         :returns:
-            List[str]
-        :description: QtWebEngineCore/QWebEngineProfile-spellCheckLanguages-f.rst
+            list[str]
+        :description: QtWebEngineCore/QWebEngineProfile-spellCheckLanguages-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.storageName
         :returns:
@@ -252,6 +306,9 @@
         :returns:
             bool
         :description: QtWebEngineCore/QWebEngineProfile-visitedLinksContainsUrl-f.rst
+
+    .. sip:signal:: PyQt6.QtWebEngineCore.QWebEngineProfile.clearHttpCacheCompleted
+        :description: QtWebEngineCore/QWebEngineProfile-clearHttpCacheCompleted-s.rst
 
     .. sip:signal:: PyQt6.QtWebEngineCore.QWebEngineProfile.downloadRequested
         :args:

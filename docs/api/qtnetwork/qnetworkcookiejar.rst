@@ -11,15 +11,15 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookieJar.allCookies
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
-        :description: QtNetwork/QNetworkCookieJar-allCookies-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
+        :description: QtNetwork/QNetworkCookieJar-allCookies-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookieJar.cookiesForUrl
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
-        :description: QtNetwork/QNetworkCookieJar-cookiesForUrl-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
+        :description: QtNetwork/QNetworkCookieJar-cookiesForUrl-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookieJar.deleteCookie
         :args:

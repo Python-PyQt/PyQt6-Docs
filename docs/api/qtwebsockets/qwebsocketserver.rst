@@ -156,13 +156,13 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.supportedSubprotocols
         :returns:
-            List[str]
-        :description: QtWebSockets/QWebSocketServer-supportedSubprotocols-f.rst
+            list[str]
+        :description: QtWebSockets/QWebSocketServer-supportedSubprotocols-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.supportedVersions
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.Version`]
-        :description: QtWebSockets/QWebSocketServer-supportedVersions-f.rst
+            list[:sip:ref:`~PyQt6.QtWebSockets.QWebSocketProtocol.Version`]
+        :description: QtWebSockets/QWebSocketServer-supportedVersions-f-1.rst
 
     .. sip:signal:: PyQt6.QtWebSockets.QWebSocketServer.acceptError
         :args:

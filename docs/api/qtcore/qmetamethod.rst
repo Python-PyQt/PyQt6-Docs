@@ -173,8 +173,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMetaMethod.parameterNames
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QMetaMethod-parameterNames-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QMetaMethod-parameterNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaMethod.parameterType
         :args:
@@ -192,8 +192,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMetaMethod.parameterTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QMetaMethod-parameterTypes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QMetaMethod-parameterTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaMethod.relativeMethodIndex
         :returns:

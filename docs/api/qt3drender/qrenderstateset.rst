@@ -21,5 +21,5 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderStateSet.renderStates
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QRenderState`]
-        :description: Qt3DRender/QRenderStateSet-renderStates-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QRenderState`]
+        :description: Qt3DRender/QRenderStateSet-renderStates-f-1.rst

@@ -20,8 +20,8 @@
             Any
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QUtiMimeConverter-convertFromMime-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtGui/QUtiMimeConverter-convertFromMime-f.rst
 
     .. sip:method:: PyQt6.QtGui.QUtiMimeConverter.convertToMime
         :args:

@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientCertificateStore.certificates
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtWebEngineCore/QWebEngineClientCertificateStore-certificates-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtWebEngineCore/QWebEngineClientCertificateStore-certificates-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientCertificateStore.clear
         :description: QtWebEngineCore/QWebEngineClientCertificateStore-clear-f.rst

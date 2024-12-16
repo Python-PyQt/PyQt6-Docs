@@ -92,6 +92,11 @@
             int
         :description: QtMultimedia/QMediaRecorder-audioSampleRate-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.autoStop
+        :returns:
+            bool
+        :description: QtMultimedia/QMediaRecorder-autoStop-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.captureSession
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaCaptureSession`
@@ -132,6 +137,11 @@
             :sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`
         :description: QtMultimedia/QMediaRecorder-metaData-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.outputDevice
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QIODevice`
+        :description: QtMultimedia/QMediaRecorder-outputDevice-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.outputLocation
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
@@ -168,6 +178,11 @@
             int
         :description: QtMultimedia/QMediaRecorder-setAudioSampleRate-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.setAutoStop
+        :args:
+            bool
+        :description: QtMultimedia/QMediaRecorder-setAutoStop-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.setEncodingMode
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaRecorder.EncodingMode`
@@ -182,6 +197,11 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QMediaMetaData`
         :description: QtMultimedia/QMediaRecorder-setMetaData-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.setOutputDevice
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QIODevice`
+        :description: QtMultimedia/QMediaRecorder-setOutputDevice-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaRecorder.setOutputLocation
         :args:
@@ -245,6 +265,9 @@
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaRecorder.audioSampleRateChanged
         :description: QtMultimedia/QMediaRecorder-audioSampleRateChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaRecorder.autoStopChanged
+        :description: QtMultimedia/QMediaRecorder-autoStopChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaRecorder.durationChanged
         :args:

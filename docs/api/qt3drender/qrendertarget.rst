@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderTarget.outputs
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QRenderTargetOutput`]
-        :description: Qt3DRender/QRenderTarget-outputs-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QRenderTargetOutput`]
+        :description: Qt3DRender/QRenderTarget-outputs-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderTarget.removeOutput
         :args:

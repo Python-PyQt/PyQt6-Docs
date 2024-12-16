@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.notificationParameters
         :returns:
-            Dict[str, Any]
-        :description: QtPositioning/QGeoAreaMonitorInfo-notificationParameters-f.rst
+            dict[str, Any]
+        :description: QtPositioning/QGeoAreaMonitorInfo-notificationParameters-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setArea
         :args:
@@ -84,8 +84,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setNotificationParameters
         :args:
-            Dict[Optional[str], Any]
-        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setPersistent
         :args:

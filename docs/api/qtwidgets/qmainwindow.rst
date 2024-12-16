@@ -288,8 +288,8 @@
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QDockWidget`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QDockWidget`]
-        :description: QtWidgets/QMainWindow-tabifiedDockWidgets-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QDockWidget`]
+        :description: QtWidgets/QMainWindow-tabifiedDockWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMainWindow.tabifyDockWidget
         :args:

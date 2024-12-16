@@ -48,8 +48,8 @@
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.extensions
         :returns:
-            Set[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QOpenGLContext-extensions-f.rst
+            set[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtGui/QOpenGLContext-extensions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QOpenGLContext.format
         :returns:

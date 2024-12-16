@@ -49,9 +49,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.availableBackends
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtNetwork/QSslSocket-availableBackends-f.rst
+        :description: QtNetwork/QSslSocket-availableBackends-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.bytesAvailable
         :returns:
@@ -124,9 +124,9 @@
         :args:
             backendName: Optional[str] = ''
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.ImplementedClass`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSsl.ImplementedClass`]
         :static:
-        :description: QtNetwork/QSslSocket-implementedClasses-f-1.rst
+        :description: QtNetwork/QSslSocket-implementedClasses-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.isClassImplemented
         :args:
@@ -167,8 +167,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.localCertificateChain
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtNetwork/QSslSocket-localCertificateChain-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslSocket-localCertificateChain-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.mode
         :returns:
@@ -177,8 +177,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.ocspResponses
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QOcspResponse`]
-        :description: QtNetwork/QSslSocket-ocspResponses-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QOcspResponse`]
+        :description: QtNetwork/QSslSocket-ocspResponses-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.peerCertificate
         :returns:
@@ -187,8 +187,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.peerCertificateChain
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtNetwork/QSslSocket-peerCertificateChain-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslSocket-peerCertificateChain-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.peerVerifyDepth
         :returns:
@@ -338,8 +338,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.sslHandshakeErrors
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
-        :description: QtNetwork/QSslSocket-sslHandshakeErrors-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
+        :description: QtNetwork/QSslSocket-sslHandshakeErrors-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.sslLibraryBuildVersionNumber
         :returns:
@@ -375,17 +375,17 @@
         :args:
             backendName: Optional[str] = ''
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.SupportedFeature`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSsl.SupportedFeature`]
         :static:
-        :description: QtNetwork/QSslSocket-supportedFeatures-f-1.rst
+        :description: QtNetwork/QSslSocket-supportedFeatures-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.supportedProtocols
         :args:
             backendName: Optional[str] = ''
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSsl.SslProtocol`]
         :static:
-        :description: QtNetwork/QSslSocket-supportedProtocols-f-1.rst
+        :description: QtNetwork/QSslSocket-supportedProtocols-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslSocket.supportsSsl
         :returns:

@@ -35,21 +35,21 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.activeMonitors
         :returns:
-            List[:sip:ref:`~PyQt6.QtPositioning.QGeoAreaMonitorInfo`]
-        :description: QtPositioning/QGeoAreaMonitorSource-activeMonitors-f.rst
+            list[:sip:ref:`~PyQt6.QtPositioning.QGeoAreaMonitorInfo`]
+        :description: QtPositioning/QGeoAreaMonitorSource-activeMonitors-f-2.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.activeMonitors
         :args:
             :sip:ref:`~PyQt6.QtPositioning.QGeoShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtPositioning.QGeoAreaMonitorInfo`]
-        :description: QtPositioning/QGeoAreaMonitorSource-activeMonitors-f-1.rst
+            list[:sip:ref:`~PyQt6.QtPositioning.QGeoAreaMonitorInfo`]
+        :description: QtPositioning/QGeoAreaMonitorSource-activeMonitors-f-3.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.availableSources
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtPositioning/QGeoAreaMonitorSource-availableSources-f.rst
+        :description: QtPositioning/QGeoAreaMonitorSource-availableSources-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.backendProperty
         :args:

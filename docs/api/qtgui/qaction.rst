@@ -79,8 +79,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.associatedObjects
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtGui/QAction-associatedObjects-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QObject`]
+        :description: QtGui/QAction-associatedObjects-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.autoRepeat
         :returns:
@@ -307,8 +307,8 @@
 
     .. sip:method:: PyQt6.QtGui.QAction.shortcuts
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
-        :description: QtGui/QAction-shortcuts-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
+        :description: QtGui/QAction-shortcuts-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QAction.showStatusText
         :args:

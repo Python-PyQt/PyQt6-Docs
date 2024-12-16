@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QEffect.parameters
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
-        :description: Qt3DRender/QEffect-parameters-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
+        :description: Qt3DRender/QEffect-parameters-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QEffect.removeParameter
         :args:
@@ -36,5 +36,5 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QEffect.techniques
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QTechnique`]
-        :description: Qt3DRender/QEffect-techniques-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QTechnique`]
+        :description: Qt3DRender/QEffect-techniques-f-1.rst

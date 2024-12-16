@@ -109,9 +109,9 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QSoundEffect.supportedMimeTypes
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtMultimedia/QSoundEffect-supportedMimeTypes-f.rst
+        :description: QtMultimedia/QSoundEffect-supportedMimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QSoundEffect.volume
         :returns:

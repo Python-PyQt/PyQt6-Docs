@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.deviceExtensions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtQuick/QQuickGraphicsConfiguration-deviceExtensions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtQuick/QQuickGraphicsConfiguration-deviceExtensions-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.isAutomaticPipelineCacheEnabled
         :returns:
@@ -48,9 +48,9 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.preferredInstanceExtensions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtQuick/QQuickGraphicsConfiguration-preferredInstanceExtensions-f.rst
+        :description: QtQuick/QQuickGraphicsConfiguration-preferredInstanceExtensions-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.prefersSoftwareDevice
         :returns:

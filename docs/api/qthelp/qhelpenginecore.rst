@@ -46,31 +46,31 @@
         :args:
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
-        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f-2.rst
+            list[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.documentsForIdentifier
         :args:
             Optional[str]
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
-        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f-3.rst
+            list[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.documentsForKeyword
         :args:
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
-        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f-2.rst
+            list[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.documentsForKeyword
         :args:
             Optional[str]
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
-        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f-3.rst
+            list[:sip:ref:`~PyQt6.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.error
         :returns:
@@ -90,8 +90,8 @@
             Optional[str]
             extensionFilter: Optional[str] = ''
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QUrl`]
-        :description: QtHelp/QHelpEngineCore-files-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QUrl`]
+        :description: QtHelp/QHelpEngineCore-files-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.filterEngine
         :returns:
@@ -136,8 +136,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.registeredDocumentations
         :returns:
-            List[str]
-        :description: QtHelp/QHelpEngineCore-registeredDocumentations-f.rst
+            list[str]
+        :description: QtHelp/QHelpEngineCore-registeredDocumentations-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngineCore.removeCustomValue
         :args:

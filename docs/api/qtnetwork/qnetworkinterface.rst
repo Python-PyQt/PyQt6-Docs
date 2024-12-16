@@ -82,20 +82,20 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.addressEntries
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkAddressEntry`]
-        :description: QtNetwork/QNetworkInterface-addressEntries-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkAddressEntry`]
+        :description: QtNetwork/QNetworkInterface-addressEntries-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.allAddresses
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`]
         :static:
-        :description: QtNetwork/QNetworkInterface-allAddresses-f.rst
+        :description: QtNetwork/QNetworkInterface-allAddresses-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.allInterfaces
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkInterface`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkInterface`]
         :static:
-        :description: QtNetwork/QNetworkInterface-allInterfaces-f.rst
+        :description: QtNetwork/QNetworkInterface-allInterfaces-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInterface.flags
         :returns:

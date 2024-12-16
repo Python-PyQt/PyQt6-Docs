@@ -15,16 +15,16 @@
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery`
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
         :static:
-        :description: QtNetwork/QNetworkProxyFactory-proxyForQuery-f.rst
+        :description: QtNetwork/QNetworkProxyFactory-proxyForQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyFactory.queryProxy
         :args:
             query: :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery` = QNetworkProxyQuery()
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
-        :description: QtNetwork/QNetworkProxyFactory-queryProxy-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
+        :description: QtNetwork/QNetworkProxyFactory-queryProxy-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyFactory.setApplicationProxyFactory
         :args:
@@ -42,9 +42,9 @@
         :args:
             query: :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery` = QNetworkProxyQuery()
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QNetworkProxy`]
         :static:
-        :description: QtNetwork/QNetworkProxyFactory-systemProxyForQuery-f.rst
+        :description: QtNetwork/QNetworkProxyFactory-systemProxyForQuery-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyFactory.usesSystemConfiguration
         :returns:

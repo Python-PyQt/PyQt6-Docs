@@ -33,8 +33,8 @@
 
     .. sip:method:: PyQt6.QtGui.QInputMethodEvent.attributes
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QInputMethodEvent.Attribute`]
-        :description: QtGui/QInputMethodEvent-attributes-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QInputMethodEvent.Attribute`]
+        :description: QtGui/QInputMethodEvent-attributes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QInputMethodEvent.clone
         :returns:

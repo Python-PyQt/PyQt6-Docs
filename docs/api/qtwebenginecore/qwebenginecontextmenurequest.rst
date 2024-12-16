@@ -153,5 +153,5 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineContextMenuRequest.spellCheckerSuggestions
         :returns:
-            List[str]
-        :description: QtWebEngineCore/QWebEngineContextMenuRequest-spellCheckerSuggestions-f.rst
+            list[str]
+        :description: QtWebEngineCore/QWebEngineContextMenuRequest-spellCheckerSuggestions-f-1.rst

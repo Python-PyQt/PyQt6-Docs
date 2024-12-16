@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.comboBoxItems
         :returns:
-            List[str]
-        :description: QtWidgets/QInputDialog-comboBoxItems-f.rst
+            list[str]
+        :description: QtWidgets/QInputDialog-comboBoxItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QInputDialog.done
         :args:

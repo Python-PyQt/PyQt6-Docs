@@ -271,18 +271,18 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.strictTransportSecurityHosts
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QHstsPolicy`]
-        :description: QtNetwork/QNetworkAccessManager-strictTransportSecurityHosts-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QHstsPolicy`]
+        :description: QtNetwork/QNetworkAccessManager-strictTransportSecurityHosts-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.supportedSchemes
         :returns:
-            List[str]
-        :description: QtNetwork/QNetworkAccessManager-supportedSchemes-f.rst
+            list[str]
+        :description: QtNetwork/QNetworkAccessManager-supportedSchemes-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.supportedSchemesImplementation
         :returns:
-            List[str]
-        :description: QtNetwork/QNetworkAccessManager-supportedSchemesImplementation-f.rst
+            list[str]
+        :description: QtNetwork/QNetworkAccessManager-supportedSchemesImplementation-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.transferTimeout
         :returns:

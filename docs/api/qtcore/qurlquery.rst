@@ -32,8 +32,8 @@
             Optional[str]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
-            List[str]
-        :description: QtCore/QUrlQuery-allQueryItemValues-f-2.rst
+            list[str]
+        :description: QtCore/QUrlQuery-allQueryItemValues-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.clear
         :description: QtCore/QUrlQuery-clear-f.rst
@@ -97,8 +97,8 @@
         :args:
             options: :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption` = :sip:ref:`~PyQt6.QtCore.QUrl.ComponentFormattingOption.PrettyDecoded`
         :returns:
-            List[Tuple[str, str]]
-        :description: QtCore/QUrlQuery-queryItems-f-1.rst
+            list[tuple[str, str]]
+        :description: QtCore/QUrlQuery-queryItems-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.queryItemValue
         :args:
@@ -141,8 +141,8 @@
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.setQueryItems
         :args:
-            Iterable[Tuple[Optional[str], Optional[str]]]
-        :description: QtCore/QUrlQuery-setQueryItems-f-1.rst
+            Iterable[tuple[Optional[str], Optional[str]]]
+        :description: QtCore/QUrlQuery-setQueryItems-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrlQuery.swap
         :args:

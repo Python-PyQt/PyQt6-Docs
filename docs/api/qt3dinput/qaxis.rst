@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAxis.inputs
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAbstractAxisInput`]
-        :description: Qt3DInput/QAxis-inputs-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAbstractAxisInput`]
+        :description: Qt3DInput/QAxis-inputs-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAxis.removeInput
         :args:

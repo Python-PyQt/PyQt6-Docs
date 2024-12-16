@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QActionInput.buttons
         :returns:
-            List[int]
-        :description: Qt3DInput/QActionInput-buttons-f.rst
+            list[int]
+        :description: Qt3DInput/QActionInput-buttons-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QActionInput.setButtons
         :args:

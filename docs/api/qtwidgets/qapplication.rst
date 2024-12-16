@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.__init__
         :args:
-            List[str]
-        :description: QtWidgets/QApplication-__init__-f.rst
+            list[str]
+        :description: QtWidgets/QApplication-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.aboutQt
         :static:
@@ -40,9 +40,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.allWidgets
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
+            list[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
         :static:
-        :description: QtWidgets/QApplication-allWidgets-f.rst
+        :description: QtWidgets/QApplication-allWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.autoSipEnabled
         :returns:
@@ -283,9 +283,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.topLevelWidgets
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
+            list[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
         :static:
-        :description: QtWidgets/QApplication-topLevelWidgets-f.rst
+        :description: QtWidgets/QApplication-topLevelWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.wheelScrollLines
         :returns:

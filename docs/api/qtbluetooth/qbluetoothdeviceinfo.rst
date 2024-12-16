@@ -418,8 +418,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.manufacturerData
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtBluetooth/QBluetoothDeviceInfo-manufacturerData-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-manufacturerData-f-2.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.manufacturerData
         :args:
@@ -430,8 +430,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.manufacturerIds
         :returns:
-            List[int]
-        :description: QtBluetooth/QBluetoothDeviceInfo-manufacturerIds-f.rst
+            list[int]
+        :description: QtBluetooth/QBluetoothDeviceInfo-manufacturerIds-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.minorDeviceClass
         :returns:
@@ -462,8 +462,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceData
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtBluetooth/QBluetoothDeviceInfo-serviceData-f.rst
+            dict[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceData-f-2.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceData
         :args:
@@ -474,13 +474,13 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceIds
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QBluetoothDeviceInfo-serviceIds-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceIds-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.serviceUuids
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QBluetoothDeviceInfo-serviceUuids-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-serviceUuids-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceInfo.setCached
         :args:

@@ -48,9 +48,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QScroller.activeScrollers
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QScroller`]
+            list[:sip:ref:`~PyQt6.QtWidgets.QScroller`]
         :static:
-        :description: QtWidgets/QScroller-activeScrollers-f.rst
+        :description: QtWidgets/QScroller-activeScrollers-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QScroller.ensureVisible
         :args:

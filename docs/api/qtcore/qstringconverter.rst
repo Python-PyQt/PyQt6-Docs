@@ -45,15 +45,15 @@
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.__init__
         :args:
-            str
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag`
-        :description: QtCore/QStringConverter-__init__-f-4.rst
+        :description: QtCore/QStringConverter-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.availableCodecs
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QStringConverter-availableCodecs-f.rst
+        :description: QtCore/QStringConverter-availableCodecs-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.hasError
         :returns:

@@ -113,8 +113,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.arguments
         :returns:
-            List[str]
-        :description: QtCore/QProcess-arguments-f.rst
+            list[str]
+        :description: QtCore/QProcess-arguments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.bytesToWrite
         :returns:
@@ -338,9 +338,9 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.systemEnvironment
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QProcess-systemEnvironment-f.rst
+        :description: QtCore/QProcess-systemEnvironment-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.terminate
         :description: QtCore/QProcess-terminate-f.rst

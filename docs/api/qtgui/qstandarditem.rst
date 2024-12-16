@@ -447,15 +447,15 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
-        :description: QtGui/QStandardItem-takeColumn-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
+        :description: QtGui/QStandardItem-takeColumn-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.takeRow
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
-        :description: QtGui/QStandardItem-takeRow-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
+        :description: QtGui/QStandardItem-takeRow-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItem.text
         :returns:

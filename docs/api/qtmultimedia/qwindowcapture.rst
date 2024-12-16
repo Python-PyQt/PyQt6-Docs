@@ -29,9 +29,9 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QWindowCapture.capturableWindows
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QCapturableWindow`]
+            list[:sip:ref:`~PyQt6.QtMultimedia.QCapturableWindow`]
         :static:
-        :description: QtMultimedia/QWindowCapture-capturableWindows-f.rst
+        :description: QtMultimedia/QWindowCapture-capturableWindows-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QWindowCapture.error
         :returns:

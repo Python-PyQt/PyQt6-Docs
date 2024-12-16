@@ -274,6 +274,11 @@
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.printRequested
         :description: QtWebEngineWidgets/QWebEngineView-printRequested-s.rst
 
+    .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.printRequestedByFrame
+        :args:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFrame`
+        :description: QtWebEngineWidgets/QWebEngineView-printRequestedByFrame-s.rst
+
     .. sip:signal:: PyQt6.QtWebEngineWidgets.QWebEngineView.renderProcessTerminated
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.RenderProcessTerminationStatus`

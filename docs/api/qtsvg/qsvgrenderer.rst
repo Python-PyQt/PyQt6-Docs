@@ -140,6 +140,12 @@
             int
         :description: QtSvg/QSvgRenderer-setCurrentFrame-f.rst
 
+    .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setDefaultOptions
+        :args:
+            :sip:ref:`~PyQt6.QtSvg.QtSvg.Option`
+        :static:
+        :description: QtSvg/QSvgRenderer-setDefaultOptions-f.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setFramesPerSecond
         :args:
             int

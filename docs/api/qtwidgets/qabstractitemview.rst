@@ -541,8 +541,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.selectedIndexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtWidgets/QAbstractItemView-selectedIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtWidgets/QAbstractItemView-selectedIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.selectionBehavior
         :returns:

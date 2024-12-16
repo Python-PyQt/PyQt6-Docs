@@ -98,25 +98,25 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.availableTimeZoneIds
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-availableTimeZoneIds-f.rst
+        :description: QtCore/QTimeZone-availableTimeZoneIds-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.availableTimeZoneIds
         :args:
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-availableTimeZoneIds-f-1.rst
+        :description: QtCore/QTimeZone-availableTimeZoneIds-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.availableTimeZoneIds
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-availableTimeZoneIds-f-2.rst
+        :description: QtCore/QTimeZone-availableTimeZoneIds-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.comment
         :returns:
@@ -172,6 +172,13 @@
             :sip:ref:`~PyQt6.QtCore.QTimeZone`
         :static:
         :description: QtCore/QTimeZone-fromSecondsAheadOfUtc-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTimeZone.hasAlternativeName
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :returns:
+            bool
+        :description: QtCore/QTimeZone-hasAlternativeName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.hasDaylightTime
         :returns:
@@ -303,8 +310,8 @@
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QTimeZone.OffsetData`]
-        :description: QtCore/QTimeZone-transitions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QTimeZone.OffsetData`]
+        :description: QtCore/QTimeZone-transitions-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.utc
         :returns:
@@ -333,15 +340,15 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-2.rst
+        :description: QtCore/QTimeZone-windowsIdToIanaIds-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeZone.windowsIdToIanaIds
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
             :sip:ref:`~PyQt6.QtCore.QLocale.Country`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-3.rst
+        :description: QtCore/QTimeZone-windowsIdToIanaIds-f-1.rst

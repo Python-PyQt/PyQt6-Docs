@@ -16,13 +16,13 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphTarget.attributeList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QAttribute`]
-        :description: Qt3DAnimation/QMorphTarget-attributeList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QAttribute`]
+        :description: Qt3DAnimation/QMorphTarget-attributeList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphTarget.attributeNames
         :returns:
-            List[str]
-        :description: Qt3DAnimation/QMorphTarget-attributeNames-f.rst
+            list[str]
+        :description: Qt3DAnimation/QMorphTarget-attributeNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphTarget.fromGeometry
         :args:

@@ -30,8 +30,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DVolume.colorTable
         :returns:
-            List[int]
-        :description: QtDataVisualization/QCustom3DVolume-colorTable-f.rst
+            list[int]
+        :description: QtDataVisualization/QCustom3DVolume-colorTable-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DVolume.createTextureData
         :args:

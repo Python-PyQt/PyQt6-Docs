@@ -605,8 +605,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGradient.setStops
         :args:
-            Iterable[Tuple[float, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]]
-        :description: QtGui/QGradient-setStops-f-2.rst
+            Iterable[tuple[float, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]]
+        :description: QtGui/QGradient-setStops-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGradient.spread
         :returns:
@@ -615,8 +615,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGradient.stops
         :returns:
-            List[Tuple[float, :sip:ref:`~PyQt6.QtGui.QColor`]]
-        :description: QtGui/QGradient-stops-f.rst
+            list[tuple[float, :sip:ref:`~PyQt6.QtGui.QColor`]]
+        :description: QtGui/QGradient-stops-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGradient.type
         :returns:

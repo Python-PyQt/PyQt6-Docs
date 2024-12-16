@@ -23,8 +23,8 @@
 
     .. sip:method:: PyQt6.QtGui.QActionGroup.actions
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QAction`]
-        :description: QtGui/QActionGroup-actions-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QAction`]
+        :description: QtGui/QActionGroup-actions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QActionGroup.addAction
         :args:

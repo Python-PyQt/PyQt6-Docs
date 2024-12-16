@@ -9,6 +9,11 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtCore/QTimer-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTimer.id
+        :returns:
+            int
+        :description: QtCore/QTimer-id-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTimer.interval
         :returns:
             int

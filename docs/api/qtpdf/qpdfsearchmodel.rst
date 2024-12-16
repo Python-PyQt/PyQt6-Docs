@@ -27,6 +27,11 @@
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtPdf/QPdfSearchModel-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.count
+        :returns:
+            int
+        :description: QtPdf/QPdfSearchModel-count-f.rst
+
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.data
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
@@ -40,6 +45,11 @@
             :sip:ref:`~PyQt6.QtPdf.QPdfDocument`
         :description: QtPdf/QPdfSearchModel-document-f.rst
 
+    .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.__len__
+        :returns:
+            int
+        :description: QtPdf/QPdfSearchModel-__len__-f.rst
+
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.resultAtIndex
         :args:
             int
@@ -51,13 +61,13 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtPdf.QPdfLink`]
-        :description: QtPdf/QPdfSearchModel-resultsOnPage-f.rst
+            list[:sip:ref:`~PyQt6.QtPdf.QPdfLink`]
+        :description: QtPdf/QPdfSearchModel-resultsOnPage-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtPdf/QPdfSearchModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtPdf/QPdfSearchModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.rowCount
         :args:
@@ -85,6 +95,9 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QTimerEvent`
         :description: QtPdf/QPdfSearchModel-timerEvent-f.rst
+
+    .. sip:signal:: PyQt6.QtPdf.QPdfSearchModel.countChanged
+        :description: QtPdf/QPdfSearchModel-countChanged-s.rst
 
     .. sip:signal:: PyQt6.QtPdf.QPdfSearchModel.documentChanged
         :description: QtPdf/QPdfSearchModel-documentChanged-s.rst

@@ -29,13 +29,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.activeGestures
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
-        :description: QtWidgets/QGestureEvent-activeGestures-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
+        :description: QtWidgets/QGestureEvent-activeGestures-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.canceledGestures
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
-        :description: QtWidgets/QGestureEvent-canceledGestures-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
+        :description: QtWidgets/QGestureEvent-canceledGestures-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.gesture
         :args:
@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.gestures
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
-        :description: QtWidgets/QGestureEvent-gestures-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGesture`]
+        :description: QtWidgets/QGestureEvent-gestures-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGestureEvent.ignore
         :description: QtWidgets/QGestureEvent-ignore-f.rst

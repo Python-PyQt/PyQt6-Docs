@@ -106,9 +106,9 @@
 
     .. sip:method:: PyQt6.QtGui.QColor.colorNames
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtGui/QColor-colorNames-f.rst
+        :description: QtGui/QColor-colorNames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.convertTo
         :args:

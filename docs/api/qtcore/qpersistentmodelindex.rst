@@ -30,17 +30,17 @@
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__eq__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
-        :returns:
-            bool
-        :description: QtCore/QPersistentModelIndex-__eq__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__eq__
-        :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
         :description: QtCore/QPersistentModelIndex-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__eq__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__eq__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.flags
         :returns:
@@ -49,10 +49,31 @@
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ge__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__ge__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ge__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
         :returns:
             bool
         :description: QtCore/QPersistentModelIndex-__ge__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__gt__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__gt__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__gt__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__hash__
         :returns:
@@ -63,6 +84,27 @@
         :returns:
             bool
         :description: QtCore/QPersistentModelIndex-isValid-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__le__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__le__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__le__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__le__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__lt__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__lt__
         :args:
@@ -78,17 +120,17 @@
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ne__
         :args:
-            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
-        :returns:
-            bool
-        :description: QtCore/QPersistentModelIndex-__ne__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ne__
-        :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
             bool
         :description: QtCore/QPersistentModelIndex-__ne__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPersistentModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QPersistentModelIndex-__ne__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QPersistentModelIndex.parent
         :returns:

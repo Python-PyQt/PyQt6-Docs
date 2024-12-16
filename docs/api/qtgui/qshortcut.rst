@@ -56,8 +56,8 @@
 
     .. sip:method:: PyQt6.QtGui.QShortcut.keys
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
-        :description: QtGui/QShortcut-keys-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QKeySequence`]
+        :description: QtGui/QShortcut-keys-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.setAutoRepeat
         :args:

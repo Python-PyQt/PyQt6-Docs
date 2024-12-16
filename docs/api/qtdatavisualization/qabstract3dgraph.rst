@@ -133,8 +133,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.customItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QCustom3DItem`]
-        :description: QtDataVisualization/QAbstract3DGraph-customItems-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QCustom3DItem`]
+        :description: QtDataVisualization/QAbstract3DGraph-customItems-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.event
         :args:
@@ -167,8 +167,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.inputHandlers
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DInputHandler`]
-        :description: QtDataVisualization/QAbstract3DGraph-inputHandlers-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QAbstract3DInputHandler`]
+        :description: QtDataVisualization/QAbstract3DGraph-inputHandlers-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.isOrthoProjection
         :returns:
@@ -403,8 +403,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.themes
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.Q3DTheme`]
-        :description: QtDataVisualization/QAbstract3DGraph-themes-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.Q3DTheme`]
+        :description: QtDataVisualization/QAbstract3DGraph-themes-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DGraph.touchEvent
         :args:

@@ -40,8 +40,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.errors
         :returns:
-            List[:sip:ref:`~PyQt6.QtQml.QQmlError`]
-        :description: QtQml/QQmlIncubator-errors-f.rst
+            list[:sip:ref:`~PyQt6.QtQml.QQmlError`]
+        :description: QtQml/QQmlIncubator-errors-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.forceCompletion
         :description: QtQml/QQmlIncubator-forceCompletion-f.rst
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.setInitialProperties
         :args:
-            Dict[Optional[str], Any]
-        :description: QtQml/QQmlIncubator-setInitialProperties-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtQml/QQmlIncubator-setInitialProperties-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.setInitialState
         :args:

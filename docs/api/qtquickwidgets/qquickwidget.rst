@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.errors
         :returns:
-            List[:sip:ref:`~PyQt6.QtQml.QQmlError`]
-        :description: QtQuickWidgets/QQuickWidget-errors-f.rst
+            list[:sip:ref:`~PyQt6.QtQml.QQmlError`]
+        :description: QtQuickWidgets/QQuickWidget-errors-f-1.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.event
         :args:

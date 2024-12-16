@@ -283,8 +283,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribedToNotifications
         :returns:
-            List[str]
-        :description: QtSql/QSqlDriver-subscribedToNotifications-f.rst
+            list[str]
+        :description: QtSql/QSqlDriver-subscribedToNotifications-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribeToNotification
         :args:
@@ -297,8 +297,8 @@
         :args:
             :sip:ref:`~PyQt6.QtSql.QSql.TableType`
         :returns:
-            List[str]
-        :description: QtSql/QSqlDriver-tables-f.rst
+            list[str]
+        :description: QtSql/QSqlDriver-tables-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.unsubscribeFromNotification
         :args:

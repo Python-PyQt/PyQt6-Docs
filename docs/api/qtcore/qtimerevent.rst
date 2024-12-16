@@ -14,6 +14,11 @@
             :sip:ref:`~PyQt6.QtCore.QTimerEvent`
         :description: QtCore/QTimerEvent-clone-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTimerEvent.id
+        :returns:
+            int
+        :description: QtCore/QTimerEvent-id-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTimerEvent.timerId
         :returns:
             int

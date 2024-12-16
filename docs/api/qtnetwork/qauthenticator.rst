@@ -39,8 +39,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.options
         :returns:
-            Dict[str, Any]
-        :description: QtNetwork/QAuthenticator-options-f.rst
+            dict[str, Any]
+        :description: QtNetwork/QAuthenticator-options-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.password
         :returns:

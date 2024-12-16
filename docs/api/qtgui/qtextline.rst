@@ -59,8 +59,8 @@
             from: int = -1
             length: int = -1
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
-        :description: QtGui/QTextLine-glyphRuns-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLine-glyphRuns-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLine.glyphRuns
         :args:
@@ -68,8 +68,8 @@
             int
             :sip:ref:`~PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
-        :description: QtGui/QTextLine-glyphRuns-f-1.rst
+            list[:sip:ref:`~PyQt6.QtGui.QGlyphRun`]
+        :description: QtGui/QTextLine-glyphRuns-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLine.height
         :returns:

@@ -15,9 +15,9 @@
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.__init__
         :args:
-            str
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
             flags: :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag` = :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag.Default`
-        :description: QtCore/QStringDecoder-__init__-f-4.rst
+        :description: QtCore/QStringDecoder-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.__call__
         :args:

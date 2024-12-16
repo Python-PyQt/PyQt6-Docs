@@ -138,8 +138,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSeries.slices
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QPieSlice`]
-        :description: QtCharts/QPieSeries-slices-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QPieSlice`]
+        :description: QtCharts/QPieSeries-slices-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSeries.sum
         :returns:

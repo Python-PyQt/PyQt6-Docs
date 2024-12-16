@@ -16,8 +16,8 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
-        :description: QtWebEngineCore/QWebEngineHistory-backItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
+        :description: QtWebEngineCore/QWebEngineHistory-backItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistory.backItemsModel
         :returns:
@@ -64,8 +64,8 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
-        :description: QtWebEngineCore/QWebEngineHistory-forwardItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
+        :description: QtWebEngineCore/QWebEngineHistory-forwardItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistory.forwardItemsModel
         :returns:
@@ -86,8 +86,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistory.items
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
-        :description: QtWebEngineCore/QWebEngineHistory-items-f.rst
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineHistoryItem`]
+        :description: QtWebEngineCore/QWebEngineHistory-items-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistory.itemsModel
         :returns:

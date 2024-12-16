@@ -32,8 +32,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketHandshakeOptions.subprotocols
         :returns:
-            List[str]
-        :description: QtWebSockets/QWebSocketHandshakeOptions-subprotocols-f.rst
+            list[str]
+        :description: QtWebSockets/QWebSocketHandshakeOptions-subprotocols-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketHandshakeOptions.swap
         :args:

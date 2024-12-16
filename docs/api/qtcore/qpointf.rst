@@ -45,6 +45,13 @@
 
     .. sip:method:: PyQt6.QtCore.QPointF.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :returns:
+            bool
+        :description: QtCore/QPointF-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QPointF.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :returns:
             bool
@@ -94,6 +101,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :description: QtCore/QPointF-__mul__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QPointF.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :returns:
+            bool
+        :description: QtCore/QPointF-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPointF.__ne__
         :args:

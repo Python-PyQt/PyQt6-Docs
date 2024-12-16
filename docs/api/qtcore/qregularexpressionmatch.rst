@@ -20,17 +20,17 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.captured
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             str
-        :description: QtCore/QRegularExpressionMatch-captured-f-2.rst
+        :description: QtCore/QRegularExpressionMatch-captured-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedEnd
         :args:
-            str
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             int
-        :description: QtCore/QRegularExpressionMatch-capturedEnd-f.rst
+        :description: QtCore/QRegularExpressionMatch-capturedEnd-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedEnd
         :args:
@@ -41,10 +41,10 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedLength
         :args:
-            str
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             int
-        :description: QtCore/QRegularExpressionMatch-capturedLength-f.rst
+        :description: QtCore/QRegularExpressionMatch-capturedLength-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedLength
         :args:
@@ -55,10 +55,10 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedStart
         :args:
-            str
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             int
-        :description: QtCore/QRegularExpressionMatch-capturedStart-f.rst
+        :description: QtCore/QRegularExpressionMatch-capturedStart-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedStart
         :args:
@@ -69,8 +69,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.capturedTexts
         :returns:
-            List[str]
-        :description: QtCore/QRegularExpressionMatch-capturedTexts-f.rst
+            list[str]
+        :description: QtCore/QRegularExpressionMatch-capturedTexts-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasCaptured
         :args:
@@ -81,10 +81,10 @@
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasCaptured
         :args:
-            Optional[str]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
             bool
-        :description: QtCore/QRegularExpressionMatch-hasCaptured-f-2.rst
+        :description: QtCore/QRegularExpressionMatch-hasCaptured-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRegularExpressionMatch.hasMatch
         :returns:

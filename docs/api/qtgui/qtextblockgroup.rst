@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextBlockGroup.blockList
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextBlock`]
-        :description: QtGui/QTextBlockGroup-blockList-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextBlock`]
+        :description: QtGui/QTextBlockGroup-blockList-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextBlockGroup.blockRemoved
         :args:

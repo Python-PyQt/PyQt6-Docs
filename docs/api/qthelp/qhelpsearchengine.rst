@@ -49,8 +49,8 @@
             int
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtHelp.QHelpSearchResult`]
-        :description: QtHelp/QHelpSearchEngine-searchResults-f.rst
+            list[:sip:ref:`~PyQt6.QtHelp.QHelpSearchResult`]
+        :description: QtHelp/QHelpSearchEngine-searchResults-f-1.rst
 
     .. sip:signal:: PyQt6.QtHelp.QHelpSearchEngine.indexingFinished
         :description: QtHelp/QHelpSearchEngine-indexingFinished-s.rst

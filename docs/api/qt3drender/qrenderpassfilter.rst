@@ -21,13 +21,13 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPassFilter.matchAny
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QFilterKey`]
-        :description: Qt3DRender/QRenderPassFilter-matchAny-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QFilterKey`]
+        :description: Qt3DRender/QRenderPassFilter-matchAny-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPassFilter.parameters
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
-        :description: Qt3DRender/QRenderPassFilter-parameters-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
+        :description: Qt3DRender/QRenderPassFilter-parameters-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPassFilter.removeMatch
         :args:

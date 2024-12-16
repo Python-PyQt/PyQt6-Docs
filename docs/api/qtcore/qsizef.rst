@@ -43,6 +43,13 @@
 
     .. sip:method:: PyQt6.QtCore.QSizeF.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QSize`
+        :returns:
+            bool
+        :description: QtCore/QSizeF-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QSizeF.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
         :returns:
             bool
@@ -116,6 +123,13 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSizeF`
         :description: QtCore/QSizeF-__mul__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSizeF.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QSize`
+        :returns:
+            bool
+        :description: QtCore/QSizeF-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSizeF.__ne__
         :args:

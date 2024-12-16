@@ -33,8 +33,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.addresses
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`]
-        :description: QtNetwork/QHostInfo-addresses-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`]
+        :description: QtNetwork/QHostInfo-addresses-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostInfo.error
         :returns:

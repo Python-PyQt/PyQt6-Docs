@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QSpriteSheet.sprites
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DExtras.QSpriteSheetItem`]
-        :description: Qt3DExtras/QSpriteSheet-sprites-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DExtras.QSpriteSheetItem`]
+        :description: Qt3DExtras/QSpriteSheet-sprites-f-1.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QSpriteSheet.spritesChanged
         :args:

@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAxisSetting.axes
         :returns:
-            List[int]
-        :description: Qt3DInput/QAxisSetting-axes-f.rst
+            list[int]
+        :description: Qt3DInput/QAxisSetting-axes-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAxisSetting.deadZoneRadius
         :returns:

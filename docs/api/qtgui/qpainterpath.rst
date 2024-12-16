@@ -441,8 +441,8 @@
         :args:
             matrix: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
-        :description: QtGui/QPainterPath-toFillPolygons-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
+        :description: QtGui/QPainterPath-toFillPolygons-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.toReversed
         :returns:
@@ -453,8 +453,8 @@
         :args:
             matrix: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
-        :description: QtGui/QPainterPath-toSubpathPolygons-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
+        :description: QtGui/QPainterPath-toSubpathPolygons-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.translate
         :args:

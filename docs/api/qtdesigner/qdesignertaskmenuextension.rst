@@ -13,5 +13,5 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerTaskMenuExtension.taskActions
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QAction`]
-        :description: QtDesigner/QDesignerTaskMenuExtension-taskActions-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QAction`]
+        :description: QtDesigner/QDesignerTaskMenuExtension-taskActions-f-1.rst

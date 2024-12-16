@@ -81,8 +81,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.allKeys
         :returns:
-            List[str]
-        :description: QtCore/QSettings-allKeys-f.rst
+            list[str]
+        :description: QtCore/QSettings-allKeys-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.applicationName
         :returns:
@@ -109,13 +109,13 @@
 
     .. sip:method:: PyQt6.QtCore.QSettings.childGroups
         :returns:
-            List[str]
-        :description: QtCore/QSettings-childGroups-f.rst
+            list[str]
+        :description: QtCore/QSettings-childGroups-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.childKeys
         :returns:
-            List[str]
-        :description: QtCore/QSettings-childKeys-f.rst
+            list[str]
+        :description: QtCore/QSettings-childKeys-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSettings.clear
         :description: QtCore/QSettings-clear-f.rst

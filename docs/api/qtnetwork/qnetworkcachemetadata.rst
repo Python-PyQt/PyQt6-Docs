@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.attributes
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.Attribute`, Any]
-        :description: QtNetwork/QNetworkCacheMetaData-attributes-f.rst
+            dict[:sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.Attribute`, Any]
+        :description: QtNetwork/QNetworkCacheMetaData-attributes-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.__eq__
         :args:
@@ -27,6 +27,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :description: QtNetwork/QNetworkCacheMetaData-expirationDate-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.headers
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkCacheMetaData-headers-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.isValid
         :returns:
@@ -47,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.rawHeaders
         :returns:
-            List[Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
-        :description: QtNetwork/QNetworkCacheMetaData-rawHeaders-f.rst
+            list[tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
+        :description: QtNetwork/QNetworkCacheMetaData-rawHeaders-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.saveToDisk
         :returns:
@@ -57,13 +62,18 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setAttributes
         :args:
-            Dict[:sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.Attribute`, Any]
-        :description: QtNetwork/QNetworkCacheMetaData-setAttributes-f.rst
+            dict[:sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.Attribute`, Any]
+        :description: QtNetwork/QNetworkCacheMetaData-setAttributes-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setExpirationDate
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
         :description: QtNetwork/QNetworkCacheMetaData-setExpirationDate-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setHeaders
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkCacheMetaData-setHeaders-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setLastModified
         :args:
@@ -72,8 +82,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setRawHeaders
         :args:
-            Iterable[Tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
-        :description: QtNetwork/QNetworkCacheMetaData-setRawHeaders-f-1.rst
+            Iterable[tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
+        :description: QtNetwork/QNetworkCacheMetaData-setRawHeaders-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCacheMetaData.setSaveToDisk
         :args:

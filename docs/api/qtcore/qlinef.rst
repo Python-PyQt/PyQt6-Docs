@@ -76,6 +76,13 @@
 
     .. sip:method:: PyQt6.QtCore.QLineF.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QLine`
+        :returns:
+            bool
+        :description: QtCore/QLineF-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QLineF.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QLineF`
         :returns:
             bool
@@ -107,6 +114,13 @@
         :returns:
             float
         :description: QtCore/QLineF-length-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLineF.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLine`
+        :returns:
+            bool
+        :description: QtCore/QLineF-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLineF.__ne__
         :args:

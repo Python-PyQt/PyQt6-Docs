@@ -991,8 +991,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.levelOfDetailRange
         :returns:
-            Tuple[float, float]
-        :description: QtOpenGL/QOpenGLTexture-levelOfDetailRange-f.rst
+            tuple[float, float]
+        :description: QtOpenGL/QOpenGLTexture-levelOfDetailRange-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.magnificationFilter
         :returns:
@@ -1026,8 +1026,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.minMagFilters
         :returns:
-            Tuple[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Filter`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Filter`]
-        :description: QtOpenGL/QOpenGLTexture-minMagFilters-f.rst
+            tuple[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Filter`, :sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture.Filter`]
+        :description: QtOpenGL/QOpenGLTexture-minMagFilters-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.mipBaseLevel
         :returns:
@@ -1036,8 +1036,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.mipLevelRange
         :returns:
-            Tuple[int, int]
-        :description: QtOpenGL/QOpenGLTexture-mipLevelRange-f.rst
+            tuple[int, int]
+        :description: QtOpenGL/QOpenGLTexture-mipLevelRange-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.mipLevels
         :returns:

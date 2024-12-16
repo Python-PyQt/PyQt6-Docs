@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.glyphIndexes
         :returns:
-            List[int]
-        :description: QtGui/QGlyphRun-glyphIndexes-f.rst
+            list[int]
+        :description: QtGui/QGlyphRun-glyphIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.isEmpty
         :returns:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.positions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtGui/QGlyphRun-positions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtGui/QGlyphRun-positions-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.rawFont
         :returns:
@@ -159,8 +159,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.stringIndexes
         :returns:
-            List[int]
-        :description: QtGui/QGlyphRun-stringIndexes-f.rst
+            list[int]
+        :description: QtGui/QGlyphRun-stringIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGlyphRun.swap
         :args:

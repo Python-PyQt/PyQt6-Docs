@@ -105,6 +105,9 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeMenuBar
             :description: QtCore/Qt-ApplicationAttribute-AA_DontUseNativeMenuBar-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeMenuWindows
+            :description: QtCore/Qt-ApplicationAttribute-AA_DontUseNativeMenuWindows-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.Qt.ApplicationAttribute.AA_ForceRasterWidgets
             :description: QtCore/Qt-ApplicationAttribute-AA_ForceRasterWidgets-v.rst
 
@@ -368,6 +371,15 @@
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.ContextMenuPolicy.PreventContextMenu
             :description: QtCore/Qt-ContextMenuPolicy-PreventContextMenu-v.rst
+
+    .. sip:enum:: PyQt6.QtCore.Qt.ContextMenuTrigger
+        :description: QtCore/Qt-ContextMenuTrigger-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ContextMenuTrigger.Press
+            :description: QtCore/Qt-ContextMenuTrigger-Press-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ContextMenuTrigger.Release
+            :description: QtCore/Qt-ContextMenuTrigger-Release-v.rst
 
     .. sip:enum:: PyQt6.QtCore.Qt.CoordinateSystem
         :description: QtCore/Qt-CoordinateSystem-e.rst

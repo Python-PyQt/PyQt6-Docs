@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
-            Tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
-        :description: QtNetwork/QHostAddress-__init__-f-4.rst
+            tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
+        :description: QtNetwork/QHostAddress-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
@@ -118,10 +118,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isInSubnet
         :args:
-            Tuple[Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`], int]
+            tuple[Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`], int]
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-isInSubnet-f.rst
+        :description: QtNetwork/QHostAddress-isInSubnet-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isInSubnet
         :args:
@@ -184,9 +184,9 @@
         :args:
             Optional[str]
         :returns:
-            Tuple[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, int]
+            tuple[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, int]
         :static:
-        :description: QtNetwork/QHostAddress-parseSubnet-f-1.rst
+        :description: QtNetwork/QHostAddress-parseSubnet-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.protocol
         :returns:
@@ -217,8 +217,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setAddress
         :args:
-            Tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
-        :description: QtNetwork/QHostAddress-setAddress-f-3.rst
+            tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
+        :description: QtNetwork/QHostAddress-setAddress-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setScopeId
         :args:
@@ -238,8 +238,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.toIPv6Address
         :returns:
-            Tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
-        :description: QtNetwork/QHostAddress-toIPv6Address-f.rst
+            tuple[int, int, int, int, int, int, int, int, int, int, int, int, int, int, int, int]
+        :description: QtNetwork/QHostAddress-toIPv6Address-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.toString
         :returns:

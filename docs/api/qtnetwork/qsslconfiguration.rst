@@ -50,23 +50,23 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.allowedNextProtocols
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QSslConfiguration-allowedNextProtocols-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QSslConfiguration-allowedNextProtocols-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.backendConfiguration
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, Any]
-        :description: QtNetwork/QSslConfiguration-backendConfiguration-f.rst
+            dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, Any]
+        :description: QtNetwork/QSslConfiguration-backendConfiguration-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.caCertificates
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtNetwork/QSslConfiguration-caCertificates-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslConfiguration-caCertificates-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.ciphers
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCipher`]
-        :description: QtNetwork/QSslConfiguration-ciphers-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCipher`]
+        :description: QtNetwork/QSslConfiguration-ciphers-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.defaultConfiguration
         :returns:
@@ -92,8 +92,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.ellipticCurves
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`]
-        :description: QtNetwork/QSslConfiguration-ellipticCurves-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`]
+        :description: QtNetwork/QSslConfiguration-ellipticCurves-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.ephemeralServerKey
         :returns:
@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.localCertificateChain
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtNetwork/QSslConfiguration-localCertificateChain-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslConfiguration-localCertificateChain-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.missingCertificateIsFatal
         :returns:
@@ -161,8 +161,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.peerCertificateChain
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtNetwork/QSslConfiguration-peerCertificateChain-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslConfiguration-peerCertificateChain-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.peerVerifyDepth
         :returns:
@@ -216,8 +216,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setBackendConfiguration
         :args:
-            backendConfiguration: Dict[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Any] = {}
-        :description: QtNetwork/QSslConfiguration-setBackendConfiguration-f-1.rst
+            backendConfiguration: dict[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Any] = {}
+        :description: QtNetwork/QSslConfiguration-setBackendConfiguration-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.setBackendConfigurationOption
         :args:
@@ -330,15 +330,15 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.supportedCiphers
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCipher`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCipher`]
         :static:
-        :description: QtNetwork/QSslConfiguration-supportedCiphers-f.rst
+        :description: QtNetwork/QSslConfiguration-supportedCiphers-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.supportedEllipticCurves
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`]
         :static:
-        :description: QtNetwork/QSslConfiguration-supportedEllipticCurves-f.rst
+        :description: QtNetwork/QSslConfiguration-supportedEllipticCurves-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.swap
         :args:
@@ -347,9 +347,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.systemCaCertificates
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
         :static:
-        :description: QtNetwork/QSslConfiguration-systemCaCertificates-f.rst
+        :description: QtNetwork/QSslConfiguration-systemCaCertificates-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslConfiguration.testSslOption
         :args:

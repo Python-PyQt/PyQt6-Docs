@@ -35,8 +35,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.extendedAttributes
         :returns:
-            Dict[str, Any]
-        :description: QtPositioning/QGeoLocation-extendedAttributes-f.rst
+            dict[str, Any]
+        :description: QtPositioning/QGeoLocation-extendedAttributes-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.__hash__
         :returns:
@@ -72,8 +72,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.setExtendedAttributes
         :args:
-            Dict[Optional[str], Any]
-        :description: QtPositioning/QGeoLocation-setExtendedAttributes-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtPositioning/QGeoLocation-setExtendedAttributes-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoLocation.swap
         :args:

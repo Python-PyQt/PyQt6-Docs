@@ -30,8 +30,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBoxPlotSeries.boxSets
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QBoxSet`]
-        :description: QtCharts/QBoxPlotSeries-boxSets-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QBoxSet`]
+        :description: QtCharts/QBoxPlotSeries-boxSets-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBoxPlotSeries.boxWidth
         :returns:

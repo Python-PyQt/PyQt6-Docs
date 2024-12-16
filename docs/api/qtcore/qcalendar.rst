@@ -46,9 +46,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCalendar.availableCalendars
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QCalendar-availableCalendars-f.rst
+        :description: QtCore/QCalendar-availableCalendars-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.dateFromParts
         :args:

@@ -103,8 +103,8 @@
             Optional[str]
             mode: :sip:ref:`~PyQt6.QtGui.QClipboard.Mode` = :sip:ref:`~PyQt6.QtGui.QClipboard.Mode.Clipboard`
         :returns:
-            Tuple[str, str]
-        :description: QtGui/QClipboard-text-f-2.rst
+            tuple[str, str]
+        :description: QtGui/QClipboard-text-f-1.rst
 
     .. sip:signal:: PyQt6.QtGui.QClipboard.changed
         :args:

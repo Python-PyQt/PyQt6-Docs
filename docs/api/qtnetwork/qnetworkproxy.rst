@@ -97,6 +97,11 @@
             Any
         :description: QtNetwork/QNetworkProxy-header-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.headers
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkProxy-headers-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.hostName
         :returns:
             str
@@ -138,8 +143,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.rawHeaderList
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QNetworkProxy-rawHeaderList-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QNetworkProxy-rawHeaderList-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setApplicationProxy
         :args:
@@ -157,6 +162,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.KnownHeaders`
             Any
         :description: QtNetwork/QNetworkProxy-setHeader-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setHeaders
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkProxy-setHeaders-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setHostName
         :args:

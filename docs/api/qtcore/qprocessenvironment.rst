@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.keys
         :returns:
-            List[str]
-        :description: QtCore/QProcessEnvironment-keys-f.rst
+            list[str]
+        :description: QtCore/QProcessEnvironment-keys-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.__ne__
         :args:
@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.toStringList
         :returns:
-            List[str]
-        :description: QtCore/QProcessEnvironment-toStringList-f.rst
+            list[str]
+        :description: QtCore/QProcessEnvironment-toStringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcessEnvironment.value
         :args:

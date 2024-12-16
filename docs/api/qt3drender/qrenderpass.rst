@@ -26,13 +26,13 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPass.filterKeys
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QFilterKey`]
-        :description: Qt3DRender/QRenderPass-filterKeys-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QFilterKey`]
+        :description: Qt3DRender/QRenderPass-filterKeys-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPass.parameters
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
-        :description: Qt3DRender/QRenderPass-parameters-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QParameter`]
+        :description: Qt3DRender/QRenderPass-parameters-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPass.removeFilterKey
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPass.renderStates
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QRenderState`]
-        :description: Qt3DRender/QRenderPass-renderStates-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QRenderState`]
+        :description: Qt3DRender/QRenderPass-renderStates-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderPass.setShaderProgram
         :args:

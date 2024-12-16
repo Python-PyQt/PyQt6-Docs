@@ -20,8 +20,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.allMimeTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QMimeType`]
-        :description: QtCore/QMimeDatabase-allMimeTypes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QMimeType`]
+        :description: QtCore/QMimeDatabase-allMimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.mimeTypeForData
         :args:
@@ -87,8 +87,8 @@
         :args:
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QMimeType`]
-        :description: QtCore/QMimeDatabase-mimeTypesForFileName-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QMimeType`]
+        :description: QtCore/QMimeDatabase-mimeTypesForFileName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeDatabase.suffixForFileName
         :args:

@@ -35,8 +35,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractBarSeries.barSets
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QBarSet`]
-        :description: QtCharts/QAbstractBarSeries-barSets-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QBarSet`]
+        :description: QtCharts/QAbstractBarSeries-barSets-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractBarSeries.barWidth
         :returns:

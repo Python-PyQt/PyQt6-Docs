@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnCategories
         :returns:
-            List[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnCategories-f.rst
+            list[str]
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnCategoryIndex
         :args:
@@ -141,8 +141,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowCategories
         :returns:
-            List[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowCategories-f.rst
+            list[str]
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowCategoryIndex
         :args:

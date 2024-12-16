@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QButtonAxisInput.buttons
         :returns:
-            List[int]
-        :description: Qt3DInput/QButtonAxisInput-buttons-f.rst
+            list[int]
+        :description: Qt3DInput/QButtonAxisInput-buttons-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QButtonAxisInput.deceleration
         :returns:

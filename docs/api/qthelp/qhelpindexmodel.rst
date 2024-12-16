@@ -9,6 +9,9 @@
             Optional[str]
         :description: QtHelp/QHelpIndexModel-createIndex-f-1.rst
 
+    .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.createIndexForCurrentFilter
+        :description: QtHelp/QHelpIndexModel-createIndexForCurrentFilter-f.rst
+
     .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.filter
         :args:
             Optional[str]

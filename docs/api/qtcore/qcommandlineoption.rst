@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.defaultValues
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineOption-defaultValues-f.rst
+            list[str]
+        :description: QtCore/QCommandLineOption-defaultValues-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.description
         :returns:
@@ -60,8 +60,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.names
         :returns:
-            List[str]
-        :description: QtCore/QCommandLineOption-names-f.rst
+            list[str]
+        :description: QtCore/QCommandLineOption-names-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineOption.setDefaultValue
         :args:

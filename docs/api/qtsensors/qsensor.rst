@@ -56,8 +56,8 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.availableDataRates
         :returns:
-            List[Tuple[int, int]]
-        :description: QtSensors/QSensor-availableDataRates-f.rst
+            list[tuple[int, int]]
+        :description: QtSensors/QSensor-availableDataRates-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.axesOrientationMode
         :returns:
@@ -109,8 +109,8 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.filters
         :returns:
-            List[:sip:ref:`~PyQt6.QtSensors.QSensorFilter`]
-        :description: QtSensors/QSensor-filters-f.rst
+            list[:sip:ref:`~PyQt6.QtSensors.QSensorFilter`]
+        :description: QtSensors/QSensor-filters-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.identifier
         :returns:
@@ -156,8 +156,8 @@
 
     .. sip:method:: PyQt6.QtSensors.QSensor.outputRanges
         :returns:
-            List[:sip:ref:`~PyQt6.QtSensors.qoutputrange`]
-        :description: QtSensors/QSensor-outputRanges-f.rst
+            list[:sip:ref:`~PyQt6.QtSensors.qoutputrange`]
+        :description: QtSensors/QSensor-outputRanges-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.reading
         :returns:
@@ -173,15 +173,15 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtSensors/QSensor-sensorsForType-f-1.rst
+        :description: QtSensors/QSensor-sensorsForType-f.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.sensorTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtSensors/QSensor-sensorTypes-f.rst
+        :description: QtSensors/QSensor-sensorTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtSensors.QSensor.setActive
         :args:

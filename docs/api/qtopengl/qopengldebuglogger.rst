@@ -58,8 +58,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.loggedMessages
         :returns:
-            List[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage`]
-        :description: QtOpenGL/QOpenGLDebugLogger-loggedMessages-f.rst
+            list[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLDebugMessage`]
+        :description: QtOpenGL/QOpenGLDebugLogger-loggedMessages-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLDebugLogger.loggingMode
         :returns:

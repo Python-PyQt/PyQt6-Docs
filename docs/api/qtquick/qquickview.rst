@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.errors
         :returns:
-            List[:sip:ref:`~PyQt6.QtQml.QQmlError`]
-        :description: QtQuick/QQuickView-errors-f.rst
+            list[:sip:ref:`~PyQt6.QtQml.QQmlError`]
+        :description: QtQuick/QQuickView-errors-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.initialSize
         :returns:
@@ -120,8 +120,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setInitialProperties
         :args:
-            Dict[Optional[str], Any]
-        :description: QtQuick/QQuickView-setInitialProperties-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtQuick/QQuickView-setInitialProperties-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setResizeMode
         :args:

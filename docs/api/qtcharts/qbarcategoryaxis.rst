@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.categories
         :returns:
-            List[str]
-        :description: QtCharts/QBarCategoryAxis-categories-f.rst
+            list[str]
+        :description: QtCharts/QBarCategoryAxis-categories-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.clear
         :description: QtCharts/QBarCategoryAxis-clear-f.rst

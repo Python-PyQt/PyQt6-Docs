@@ -12,8 +12,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.actions
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QAction`]
-        :description: QtWidgets/QGraphicsWidget-actions-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QAction`]
+        :description: QtWidgets/QGraphicsWidget-actions-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.addAction
         :args:

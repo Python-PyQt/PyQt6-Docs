@@ -65,8 +65,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.importPathList
         :returns:
-            List[str]
-        :description: QtQml/QQmlEngine-importPathList-f.rst
+            list[str]
+        :description: QtQml/QQmlEngine-importPathList-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.importPlugin
         :args:
@@ -122,8 +122,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.pluginPathList
         :returns:
-            List[str]
-        :description: QtQml/QQmlEngine-pluginPathList-f.rst
+            list[str]
+        :description: QtQml/QQmlEngine-pluginPathList-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.removeImageProvider
         :args:
@@ -205,8 +205,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.urlInterceptors
         :returns:
-            List[:sip:ref:`~PyQt6.QtQml.QQmlAbstractUrlInterceptor`]
-        :description: QtQml/QQmlEngine-urlInterceptors-f.rst
+            list[:sip:ref:`~PyQt6.QtQml.QQmlAbstractUrlInterceptor`]
+        :description: QtQml/QQmlEngine-urlInterceptors-f-1.rst
 
     .. sip:signal:: PyQt6.QtQml.QQmlEngine.exit
         :args:

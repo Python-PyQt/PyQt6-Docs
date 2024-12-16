@@ -87,8 +87,8 @@
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
             column: int = 0
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
-        :description: QtWidgets/QTreeWidget-findItems-f-2.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
+        :description: QtWidgets/QTreeWidget-findItems-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.headerItem
         :returns:
@@ -188,8 +188,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.mimeTypes
         :returns:
-            List[str]
-        :description: QtWidgets/QTreeWidget-mimeTypes-f.rst
+            list[str]
+        :description: QtWidgets/QTreeWidget-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.openPersistentEditor
         :args:
@@ -211,8 +211,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.selectedItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
-        :description: QtWidgets/QTreeWidget-selectedItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
+        :description: QtWidgets/QTreeWidget-selectedItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setColumnCount
         :args:

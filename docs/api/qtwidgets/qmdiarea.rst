@@ -200,8 +200,8 @@
         :args:
             order: :sip:ref:`~PyQt6.QtWidgets.QMdiArea.WindowOrder` = :sip:ref:`~PyQt6.QtWidgets.QMdiArea.WindowOrder.CreationOrder`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`]
-        :description: QtWidgets/QMdiArea-subWindowList-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QMdiSubWindow`]
+        :description: QtWidgets/QMdiArea-subWindowList-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMdiArea.tabPosition
         :returns:

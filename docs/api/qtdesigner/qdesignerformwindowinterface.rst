@@ -40,8 +40,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.activeResourceFilePaths
         :returns:
-            List[str]
-        :description: QtDesigner/QDesignerFormWindowInterface-activeResourceFilePaths-f.rst
+            list[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-activeResourceFilePaths-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.addResourceFile
         :args:
@@ -55,8 +55,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.checkContents
         :returns:
-            List[str]
-        :description: QtDesigner/QDesignerFormWindowInterface-checkContents-f.rst
+            list[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-checkContents-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.clearSelection
         :args:
@@ -136,8 +136,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.includeHints
         :returns:
-            List[str]
-        :description: QtDesigner/QDesignerFormWindowInterface-includeHints-f.rst
+            list[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-includeHints-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.isDirty
         :returns:
@@ -185,8 +185,8 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.resourceFiles
         :returns:
-            List[str]
-        :description: QtDesigner/QDesignerFormWindowInterface-resourceFiles-f.rst
+            list[str]
+        :description: QtDesigner/QDesignerFormWindowInterface-resourceFiles-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerFormWindowInterface.selectWidget
         :args:

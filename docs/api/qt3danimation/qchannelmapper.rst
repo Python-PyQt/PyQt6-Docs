@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelMapper.mappings
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DAnimation.QAbstractChannelMapping`]
-        :description: Qt3DAnimation/QChannelMapper-mappings-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DAnimation.QAbstractChannelMapping`]
+        :description: Qt3DAnimation/QChannelMapper-mappings-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelMapper.removeMapping
         :args:

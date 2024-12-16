@@ -184,8 +184,8 @@
 
     .. sip:method:: PyQt6.QtGui.QScreen.virtualSiblings
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QScreen`]
-        :description: QtGui/QScreen-virtualSiblings-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QScreen`]
+        :description: QtGui/QScreen-virtualSiblings-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QScreen.virtualSize
         :returns:

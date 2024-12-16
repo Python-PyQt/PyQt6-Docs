@@ -28,5 +28,5 @@
 
     .. sip:method:: PyQt6.QtNetwork.QDnsTextRecord.values
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QDnsTextRecord-values-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QDnsTextRecord-values-f-1.rst

@@ -22,8 +22,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DScatter.axes
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QValue3DAxis`]
-        :description: QtDataVisualization/Q3DScatter-axes-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QValue3DAxis`]
+        :description: QtDataVisualization/Q3DScatter-axes-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DScatter.axisX
         :returns:
@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DScatter.seriesList
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QScatter3DSeries`]
-        :description: QtDataVisualization/Q3DScatter-seriesList-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QScatter3DSeries`]
+        :description: QtDataVisualization/Q3DScatter-seriesList-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DScatter.setAxisX
         :args:

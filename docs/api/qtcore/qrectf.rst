@@ -131,6 +131,13 @@
 
     .. sip:method:: PyQt6.QtCore.QRectF.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QRect`
+        :returns:
+            bool
+        :description: QtCore/QRectF-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QRectF.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QRectF`
         :returns:
             bool
@@ -288,6 +295,13 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :description: QtCore/QRectF-moveTopRight-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QRectF.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRect`
+        :returns:
+            bool
+        :description: QtCore/QRectF-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRectF.__ne__
         :args:

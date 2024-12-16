@@ -49,10 +49,10 @@
             Optional[str]
             fileName: Optional[str] = ''
             lineNumber: int = 1
-            exceptionStackTrace: List[str] = None
+            exceptionStackTrace: list[str] = None
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSEngine-evaluate-f-2.rst
+        :description: QtQml/QJSEngine-evaluate-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSEngine.globalObject
         :returns:

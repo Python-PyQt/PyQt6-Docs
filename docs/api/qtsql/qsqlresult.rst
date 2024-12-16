@@ -89,13 +89,13 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.boundValueNames
         :returns:
-            List[str]
-        :description: QtSql/QSqlResult-boundValueNames-f.rst
+            list[str]
+        :description: QtSql/QSqlResult-boundValueNames-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.boundValues
         :returns:
-            List[Any]
-        :description: QtSql/QSqlResult-boundValues-f.rst
+            list[Any]
+        :description: QtSql/QSqlResult-boundValues-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.clear
         :description: QtSql/QSqlResult-clear-f.rst

@@ -18,8 +18,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyCharacteristicData.descriptors
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyDescriptorData`]
-        :description: QtBluetooth/QLowEnergyCharacteristicData-descriptors-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyDescriptorData`]
+        :description: QtBluetooth/QLowEnergyCharacteristicData-descriptors-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyCharacteristicData.__eq__
         :args:

@@ -197,8 +197,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.extraSelections
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTextEdit.ExtraSelection`]
-        :description: QtWidgets/QPlainTextEdit-extraSelections-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTextEdit.ExtraSelection`]
+        :description: QtWidgets/QPlainTextEdit-extraSelections-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPlainTextEdit.find
         :args:

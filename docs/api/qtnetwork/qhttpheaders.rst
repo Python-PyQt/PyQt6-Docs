@@ -594,11 +594,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.fromListOfPairs
         :args:
-            Iterable[Tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
+            Iterable[tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
         :static:
-        :description: QtNetwork/QHttpHeaders-fromListOfPairs-f.rst
+        :description: QtNetwork/QHttpHeaders-fromListOfPairs-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.insert
         :args:
@@ -663,6 +663,22 @@
             bool
         :description: QtNetwork/QHttpHeaders-replace-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replaceOrAppend
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            bool
+        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replaceOrAppend
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            bool
+        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f-1.rst
+
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.reserve
         :args:
             int
@@ -680,8 +696,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.toListOfPairs
         :returns:
-            List[Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
-        :description: QtNetwork/QHttpHeaders-toListOfPairs-f.rst
+            list[tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
+        :description: QtNetwork/QHttpHeaders-toListOfPairs-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.value
         :args:
@@ -710,15 +726,15 @@
         :args:
             Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QHttpHeaders-values-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QHttpHeaders-values-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.values
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QHttpHeaders-values-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QHttpHeaders-values-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.wellKnownHeaderName
         :args:

@@ -13,13 +13,13 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeType.aliases
         :returns:
-            List[str]
-        :description: QtCore/QMimeType-aliases-f.rst
+            list[str]
+        :description: QtCore/QMimeType-aliases-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.allAncestors
         :returns:
-            List[str]
-        :description: QtCore/QMimeType-allAncestors-f.rst
+            list[str]
+        :description: QtCore/QMimeType-allAncestors-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.comment
         :returns:
@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeType.globPatterns
         :returns:
-            List[str]
-        :description: QtCore/QMimeType-globPatterns-f.rst
+            list[str]
+        :description: QtCore/QMimeType-globPatterns-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.__hash__
         :returns:
@@ -89,8 +89,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeType.parentMimeTypes
         :returns:
-            List[str]
-        :description: QtCore/QMimeType-parentMimeTypes-f.rst
+            list[str]
+        :description: QtCore/QMimeType-parentMimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.preferredSuffix
         :returns:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeType.suffixes
         :returns:
-            List[str]
-        :description: QtCore/QMimeType-suffixes-f.rst
+            list[str]
+        :description: QtCore/QMimeType-suffixes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.swap
         :args:

@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QInputAspect.availablePhysicalDevices
         :returns:
-            List[str]
-        :description: Qt3DInput/QInputAspect-availablePhysicalDevices-f.rst
+            list[str]
+        :description: Qt3DInput/QInputAspect-availablePhysicalDevices-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QInputAspect.createPhysicalDevice
         :args:

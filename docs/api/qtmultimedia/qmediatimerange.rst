@@ -83,8 +83,8 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaTimeRange.intervals
         :returns:
-            List[:sip:ref:`~PyQt6.QtMultimedia.QMediaTimeRange.Interval`]
-        :description: QtMultimedia/QMediaTimeRange-intervals-f.rst
+            list[:sip:ref:`~PyQt6.QtMultimedia.QMediaTimeRange.Interval`]
+        :description: QtMultimedia/QMediaTimeRange-intervals-f-1.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaTimeRange.isContinuous
         :returns:

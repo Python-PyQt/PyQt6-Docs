@@ -70,8 +70,8 @@
 
     .. sip:method:: PyQt6.QtGui.QUndoGroup.stacks
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QUndoStack`]
-        :description: QtGui/QUndoGroup-stacks-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QUndoStack`]
+        :description: QtGui/QUndoGroup-stacks-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoGroup.undo
         :description: QtGui/QUndoGroup-undo-f.rst

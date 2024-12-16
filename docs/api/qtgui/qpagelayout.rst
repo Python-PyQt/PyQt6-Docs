@@ -21,6 +21,15 @@
         .. sip:enum-member:: PyQt6.QtGui.QPageLayout.Orientation.Portrait
             :description: QtGui/QPageLayout-Orientation-Portrait-v.rst
 
+    .. sip:enum:: PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy
+        :description: QtGui/QPageLayout-OutOfBoundsPolicy-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Clamp
+            :description: QtGui/QPageLayout-OutOfBoundsPolicy-Clamp-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject
+            :description: QtGui/QPageLayout-OutOfBoundsPolicy-Reject-v.rst
+
     .. sip:enum:: PyQt6.QtGui.QPageLayout.Unit
         :description: QtGui/QPageLayout-Unit-e.rst
 
@@ -185,23 +194,26 @@
     .. sip:method:: PyQt6.QtGui.QPageLayout.setBottomMargin
         :args:
             float
+            outOfBoundsPolicy: :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy` = :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject`
         :returns:
             bool
-        :description: QtGui/QPageLayout-setBottomMargin-f.rst
+        :description: QtGui/QPageLayout-setBottomMargin-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageLayout.setLeftMargin
         :args:
             float
+            outOfBoundsPolicy: :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy` = :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject`
         :returns:
             bool
-        :description: QtGui/QPageLayout-setLeftMargin-f.rst
+        :description: QtGui/QPageLayout-setLeftMargin-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageLayout.setMargins
         :args:
             :sip:ref:`~PyQt6.QtCore.QMarginsF`
+            outOfBoundsPolicy: :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy` = :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject`
         :returns:
             bool
-        :description: QtGui/QPageLayout-setMargins-f.rst
+        :description: QtGui/QPageLayout-setMargins-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageLayout.setMinimumMargins
         :args:
@@ -227,16 +239,18 @@
     .. sip:method:: PyQt6.QtGui.QPageLayout.setRightMargin
         :args:
             float
+            outOfBoundsPolicy: :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy` = :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject`
         :returns:
             bool
-        :description: QtGui/QPageLayout-setRightMargin-f.rst
+        :description: QtGui/QPageLayout-setRightMargin-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageLayout.setTopMargin
         :args:
             float
+            outOfBoundsPolicy: :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy` = :sip:ref:`~PyQt6.QtGui.QPageLayout.OutOfBoundsPolicy.Reject`
         :returns:
             bool
-        :description: QtGui/QPageLayout-setTopMargin-f.rst
+        :description: QtGui/QPageLayout-setTopMargin-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPageLayout.setUnits
         :args:

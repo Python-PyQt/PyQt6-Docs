@@ -70,8 +70,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.certificateChain
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtWebEngineCore/QWebEngineCertificateError-certificateChain-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtWebEngineCore/QWebEngineCertificateError-certificateChain-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.defer
         :description: QtWebEngineCore/QWebEngineCertificateError-defer-f.rst
@@ -80,6 +80,11 @@
         :returns:
             str
         :description: QtWebEngineCore/QWebEngineCertificateError-description-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.isMainFrame
+        :returns:
+            bool
+        :description: QtWebEngineCore/QWebEngineCertificateError-isMainFrame-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.isOverridable
         :returns:

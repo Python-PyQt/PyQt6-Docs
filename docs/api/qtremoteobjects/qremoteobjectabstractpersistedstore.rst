@@ -14,8 +14,8 @@
             Optional[str]
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[Any]
-        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-restoreProperties-f-1.rst
+            list[Any]
+        :description: QtRemoteObjects/QRemoteObjectAbstractPersistedStore-restoreProperties-f.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectAbstractPersistedStore.saveProperties
         :args:

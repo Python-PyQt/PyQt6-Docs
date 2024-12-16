@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfLinkModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtPdf/QPdfLinkModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtPdf/QPdfLinkModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfLinkModel.rowCount
         :args:

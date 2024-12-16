@@ -89,8 +89,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.attributes
         :returns:
-            List[int]
-        :description: QtBluetooth/QBluetoothServiceInfo-attributes-f.rst
+            list[int]
+        :description: QtBluetooth/QBluetoothServiceInfo-attributes-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.contains
         :args:
@@ -123,8 +123,8 @@
         :args:
             :sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid.ProtocolUuid`
         :returns:
-            List[Any]
-        :description: QtBluetooth/QBluetoothServiceInfo-protocolDescriptor-f.rst
+            list[Any]
+        :description: QtBluetooth/QBluetoothServiceInfo-protocolDescriptor-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.protocolServiceMultiplexer
         :returns:
@@ -155,8 +155,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.serviceClassUuids
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
-        :description: QtBluetooth/QBluetoothServiceInfo-serviceClassUuids-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothServiceInfo-serviceClassUuids-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothServiceInfo.serviceDescription
         :returns:

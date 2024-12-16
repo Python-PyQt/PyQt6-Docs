@@ -8,6 +8,12 @@
         :const:
         :description: QtCore/QMessageLogContext-category-a.rst
 
+    .. sip:attribute:: PyQt6.QtCore.QMessageLogContext.CurrentVersion
+        :type: int
+        :const:
+        :static:
+        :description: QtCore/QMessageLogContext-CurrentVersion-a.rst
+
     .. sip:attribute:: PyQt6.QtCore.QMessageLogContext.file
         :type: str
         :const:

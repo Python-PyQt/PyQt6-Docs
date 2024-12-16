@@ -399,6 +399,17 @@
             bool
         :description: QtCore/QByteArray-__lt__-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.max_size
+        :returns:
+            int
+        :description: QtCore/QByteArray-max_size-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.maxSize
+        :returns:
+            int
+        :static:
+        :description: QtCore/QByteArray-maxSize-f.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.mid
         :args:
             int
@@ -592,6 +603,21 @@
             int
         :description: QtCore/QByteArray-size-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.slice
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-slice-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.slice
+        :args:
+            int
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-slice-f-1.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.sliced
         :args:
             int
@@ -611,8 +637,8 @@
         :args:
             bytes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtCore/QByteArray-split-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QByteArray-split-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.squeeze
         :description: QtCore/QByteArray-squeeze-f.rst

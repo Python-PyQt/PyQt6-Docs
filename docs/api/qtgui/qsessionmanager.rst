@@ -34,8 +34,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.discardCommand
         :returns:
-            List[str]
-        :description: QtGui/QSessionManager-discardCommand-f.rst
+            list[str]
+        :description: QtGui/QSessionManager-discardCommand-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.isPhase2
         :returns:
@@ -50,8 +50,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.restartCommand
         :returns:
-            List[str]
-        :description: QtGui/QSessionManager-restartCommand-f.rst
+            list[str]
+        :description: QtGui/QSessionManager-restartCommand-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.restartHint
         :returns:

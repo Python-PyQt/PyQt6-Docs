@@ -60,8 +60,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPointerEvent.points
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QEventPoint`]
-        :description: QtGui/QPointerEvent-points-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QEventPoint`]
+        :description: QtGui/QPointerEvent-points-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPointerEvent.setAccepted
         :args:

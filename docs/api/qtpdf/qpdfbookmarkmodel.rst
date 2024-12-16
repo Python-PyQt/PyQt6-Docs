@@ -65,8 +65,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfBookmarkModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtPdf/QPdfBookmarkModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtPdf/QPdfBookmarkModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfBookmarkModel.rowCount
         :args:

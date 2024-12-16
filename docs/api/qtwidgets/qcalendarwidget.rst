@@ -60,8 +60,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.dateTextFormat
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCore.QDate`, :sip:ref:`~PyQt6.QtGui.QTextCharFormat`]
-        :description: QtWidgets/QCalendarWidget-dateTextFormat-f.rst
+            dict[:sip:ref:`~PyQt6.QtCore.QDate`, :sip:ref:`~PyQt6.QtGui.QTextCharFormat`]
+        :description: QtWidgets/QCalendarWidget-dateTextFormat-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.dateTextFormat
         :args:

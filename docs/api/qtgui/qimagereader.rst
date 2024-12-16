@@ -137,9 +137,9 @@
         :args:
             Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageReader-imageFormatsForMimeType-f-1.rst
+        :description: QtGui/QImageReader-imageFormatsForMimeType-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.jumpToImage
         :args:
@@ -263,20 +263,20 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.supportedImageFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageReader-supportedImageFormats-f.rst
+        :description: QtGui/QImageReader-supportedImageFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.supportedMimeTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QImageReader-supportedMimeTypes-f.rst
+        :description: QtGui/QImageReader-supportedMimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.supportedSubTypes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtGui/QImageReader-supportedSubTypes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtGui/QImageReader-supportedSubTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.supportsAnimation
         :returns:
@@ -299,8 +299,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImageReader.textKeys
         :returns:
-            List[str]
-        :description: QtGui/QImageReader-textKeys-f.rst
+            list[str]
+        :description: QtGui/QImageReader-textKeys-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImageReader.transformation
         :returns:

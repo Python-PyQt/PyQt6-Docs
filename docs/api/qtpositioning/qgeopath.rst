@@ -61,8 +61,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPath.path
         :returns:
-            List[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
-        :description: QtPositioning/QGeoPath-path-f.rst
+            list[:sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`]
+        :description: QtPositioning/QGeoPath-path-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPath.removeCoordinate
         :args:

@@ -76,15 +76,15 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtDesigner/QDesignerMemberSheetExtension-parameterNames-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtDesigner/QDesignerMemberSheetExtension-parameterNames-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.parameterTypes
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtDesigner/QDesignerMemberSheetExtension-parameterTypes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtDesigner/QDesignerMemberSheetExtension-parameterTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerMemberSheetExtension.setMemberGroup
         :args:

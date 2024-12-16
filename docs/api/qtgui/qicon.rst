@@ -537,8 +537,8 @@
             mode: :sip:ref:`~PyQt6.QtGui.QIcon.Mode` = :sip:ref:`~PyQt6.QtGui.QIcon.Mode.Normal`
             state: :sip:ref:`~PyQt6.QtGui.QIcon.State` = :sip:ref:`~PyQt6.QtGui.QIcon.State.Off`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QSize`]
-        :description: QtGui/QIcon-availableSizes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QSize`]
+        :description: QtGui/QIcon-availableSizes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.cacheKey
         :returns:
@@ -547,9 +547,9 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.fallbackSearchPaths
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtGui/QIcon-fallbackSearchPaths-f.rst
+        :description: QtGui/QIcon-fallbackSearchPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.fallbackThemeName
         :returns:
@@ -728,6 +728,6 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.themeSearchPaths
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtGui/QIcon-themeSearchPaths-f.rst
+        :description: QtGui/QIcon-themeSearchPaths-f-1.rst

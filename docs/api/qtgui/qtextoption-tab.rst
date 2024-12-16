@@ -27,8 +27,8 @@
         :args:
             float
             :sip:ref:`~PyQt6.QtGui.QTextOption.TabType`
-            delim: str = ''
-        :description: QtGui/QTextOption-Tab-__init__-f-2.rst
+            delim: str = QChar()
+        :description: QtGui/QTextOption-Tab-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.Tab.__eq__
         :args:

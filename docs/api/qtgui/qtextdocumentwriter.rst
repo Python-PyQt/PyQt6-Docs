@@ -50,9 +50,9 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.supportedDocumentFormats
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
         :static:
-        :description: QtGui/QTextDocumentWriter-supportedDocumentFormats-f.rst
+        :description: QtGui/QTextDocumentWriter-supportedDocumentFormats-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentWriter.write
         :args:

@@ -1,0 +1,6 @@
+.. sip:signal-description::
+    :status: todo
+    :pysig: b7082927d1874bbf55b32577bcb72a3d
+    :realsig: (QtGraphs3D::CameraPreset)
+
+TODO

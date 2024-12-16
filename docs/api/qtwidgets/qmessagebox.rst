@@ -212,8 +212,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.buttons
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
-        :description: QtWidgets/QMessageBox-buttons-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
+        :description: QtWidgets/QMessageBox-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QMessageBox.changeEvent
         :args:

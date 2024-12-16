@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.allSelectors
         :returns:
-            List[str]
-        :description: QtCore/QFileSelector-allSelectors-f.rst
+            list[str]
+        :description: QtCore/QFileSelector-allSelectors-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.extraSelectors
         :returns:
-            List[str]
-        :description: QtCore/QFileSelector-extraSelectors-f.rst
+            list[str]
+        :description: QtCore/QFileSelector-extraSelectors-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.select
         :args:

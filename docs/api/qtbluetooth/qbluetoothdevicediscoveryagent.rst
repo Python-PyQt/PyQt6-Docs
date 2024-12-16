@@ -59,8 +59,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.discoveredDevices
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothDeviceInfo`]
-        :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-discoveredDevices-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothDeviceInfo`]
+        :description: QtBluetooth/QBluetoothDeviceDiscoveryAgent-discoveredDevices-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothDeviceDiscoveryAgent.error
         :returns:

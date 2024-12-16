@@ -64,14 +64,14 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothLocalDevice.allDevices
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothHostInfo`]
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothHostInfo`]
         :static:
-        :description: QtBluetooth/QBluetoothLocalDevice-allDevices-f.rst
+        :description: QtBluetooth/QBluetoothLocalDevice-allDevices-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothLocalDevice.connectedDevices
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothAddress`]
-        :description: QtBluetooth/QBluetoothLocalDevice-connectedDevices-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QBluetoothAddress`]
+        :description: QtBluetooth/QBluetoothLocalDevice-connectedDevices-f-1.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothLocalDevice.hostMode
         :returns:

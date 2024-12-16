@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.extensions
         :returns:
-            List[str]
-        :description: Qt3DRender/QGraphicsApiFilter-extensions-f.rst
+            list[str]
+        :description: Qt3DRender/QGraphicsApiFilter-extensions-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.majorVersion
         :returns:

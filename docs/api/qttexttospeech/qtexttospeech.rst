@@ -90,25 +90,25 @@
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.__init__
         :args:
             Optional[str]
-            Dict[Optional[str], Any]
+            dict[Optional[str], Any]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtTextToSpeech/QTextToSpeech-__init__-f-4.rst
+        :description: QtTextToSpeech/QTextToSpeech-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.availableEngines
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtTextToSpeech/QTextToSpeech-availableEngines-f.rst
+        :description: QtTextToSpeech/QTextToSpeech-availableEngines-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.availableLocales
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QLocale`]
-        :description: QtTextToSpeech/QTextToSpeech-availableLocales-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QLocale`]
+        :description: QtTextToSpeech/QTextToSpeech-availableLocales-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.availableVoices
         :returns:
-            List[:sip:ref:`~PyQt6.QtTextToSpeech.QVoice`]
-        :description: QtTextToSpeech/QTextToSpeech-availableVoices-f.rst
+            list[:sip:ref:`~PyQt6.QtTextToSpeech.QVoice`]
+        :description: QtTextToSpeech/QTextToSpeech-availableVoices-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.engine
         :returns:
@@ -168,10 +168,10 @@
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.setEngine
         :args:
             Optional[str]
-            params: Dict[Optional[str], Any] = {}
+            params: dict[Optional[str], Any] = {}
         :returns:
             bool
-        :description: QtTextToSpeech/QTextToSpeech-setEngine-f-1.rst
+        :description: QtTextToSpeech/QTextToSpeech-setEngine-f.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.setLocale
         :args:

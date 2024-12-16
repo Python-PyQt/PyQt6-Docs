@@ -12,6 +12,12 @@
         .. sip:enum-member:: PyQt6.QtGui.QPaintDevice.PaintDeviceMetric.PdmDevicePixelRatio
             :description: QtGui/QPaintDevice-PaintDeviceMetric-PdmDevicePixelRatio-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QPaintDevice.PaintDeviceMetric.PdmDevicePixelRatioF_EncodedA
+            :description: QtGui/QPaintDevice-PaintDeviceMetric-PdmDevicePixelRatioF_EncodedA-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QPaintDevice.PaintDeviceMetric.PdmDevicePixelRatioF_EncodedB
+            :description: QtGui/QPaintDevice-PaintDeviceMetric-PdmDevicePixelRatioF_EncodedB-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QPaintDevice.PaintDeviceMetric.PdmDevicePixelRatioScaled
             :description: QtGui/QPaintDevice-PaintDeviceMetric-PdmDevicePixelRatioScaled-v.rst
 

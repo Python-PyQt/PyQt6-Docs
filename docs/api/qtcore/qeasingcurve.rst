@@ -241,8 +241,8 @@
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.toCubicSpline
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtCore/QEasingCurve-toCubicSpline-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtCore/QEasingCurve-toCubicSpline-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.type
         :returns:

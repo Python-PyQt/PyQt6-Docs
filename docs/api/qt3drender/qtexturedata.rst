@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QTextureData.imageData
         :returns:
-            List[QTextureImageData]
-        :description: Qt3DRender/QTextureData-imageData-f.rst
+            list[QTextureImageData]
+        :description: Qt3DRender/QTextureData-imageData-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QTextureData.isAutoMipMapGenerationEnabled
         :returns:

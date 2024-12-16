@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidgetAction.createdWidgets
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
-        :description: QtWidgets/QWidgetAction-createdWidgets-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QWidget`]
+        :description: QtWidgets/QWidgetAction-createdWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidgetAction.createWidget
         :args:

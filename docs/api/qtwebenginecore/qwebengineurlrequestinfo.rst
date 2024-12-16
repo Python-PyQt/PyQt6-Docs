@@ -42,6 +42,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeImage
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeImage-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeJson
+            :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeJson-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeMainFrame
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeMainFrame-v.rst
 
@@ -108,8 +111,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.httpHeaders
         :returns:
-            Dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-httpHeaders-f.rst
+            dict[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-httpHeaders-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.initiator
         :returns:
@@ -125,6 +128,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtWebEngineCore/QWebEngineUrlRequestInfo-redirect-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.requestBody
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QIODevice`
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-requestBody-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.requestMethod
         :returns:

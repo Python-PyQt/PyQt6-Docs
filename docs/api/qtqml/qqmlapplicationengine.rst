@@ -52,8 +52,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.rootObjects
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QObject`]
-        :description: QtQml/QQmlApplicationEngine-rootObjects-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QObject`]
+        :description: QtQml/QQmlApplicationEngine-rootObjects-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.setExtraFileSelectors
         :args:
@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlApplicationEngine.setInitialProperties
         :args:
-            Dict[Optional[str], Any]
-        :description: QtQml/QQmlApplicationEngine-setInitialProperties-f-1.rst
+            dict[Optional[str], Any]
+        :description: QtQml/QQmlApplicationEngine-setInitialProperties-f.rst
 
     .. sip:signal:: PyQt6.QtQml.QQmlApplicationEngine.objectCreated
         :args:

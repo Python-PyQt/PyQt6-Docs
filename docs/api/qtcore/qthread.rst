@@ -76,6 +76,11 @@
         :static:
         :description: QtCore/QThread-idealThreadCount-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QThread.isCurrentThread
+        :returns:
+            bool
+        :description: QtCore/QThread-isCurrentThread-f.rst
+
     .. sip:method:: PyQt6.QtCore.QThread.isFinished
         :returns:
             bool
@@ -85,6 +90,12 @@
         :returns:
             bool
         :description: QtCore/QThread-isInterruptionRequested-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QThread.isMainThread
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QThread-isMainThread-f.rst
 
     .. sip:method:: PyQt6.QtCore.QThread.isRunning
         :returns:

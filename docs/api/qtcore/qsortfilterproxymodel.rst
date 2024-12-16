@@ -216,8 +216,8 @@
             hits: int = 1
             flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchFlags(Qt.MatchStartsWith|Qt.MatchWrap)
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtCore/QSortFilterProxyModel-match-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtCore/QSortFilterProxyModel-match-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.mimeData
         :args:
@@ -228,8 +228,8 @@
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.mimeTypes
         :returns:
-            List[str]
-        :description: QtCore/QSortFilterProxyModel-mimeTypes-f.rst
+            list[str]
+        :description: QtCore/QSortFilterProxyModel-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.parent
         :returns:

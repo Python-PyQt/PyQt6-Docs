@@ -31,6 +31,11 @@
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineNavigationRequest.accept
         :description: QtWebEngineCore/QWebEngineNavigationRequest-accept-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineNavigationRequest.hasFormData
+        :returns:
+            bool
+        :description: QtWebEngineCore/QWebEngineNavigationRequest-hasFormData-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineNavigationRequest.isMainFrame
         :returns:
             bool

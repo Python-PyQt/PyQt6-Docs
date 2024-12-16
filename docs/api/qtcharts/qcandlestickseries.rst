@@ -160,8 +160,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.sets
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QCandlestickSet`]
-        :description: QtCharts/QCandlestickSeries-sets-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QCandlestickSet`]
+        :description: QtCharts/QCandlestickSeries-sets-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QCandlestickSeries.take
         :args:

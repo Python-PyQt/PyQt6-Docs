@@ -57,13 +57,13 @@
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.copyDataTo
         :returns:
-            List[float]
-        :description: QtGui/QMatrix4x4-copyDataTo-f.rst
+            list[float]
+        :description: QtGui/QMatrix4x4-copyDataTo-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.data
         :returns:
-            List[float]
-        :description: QtGui/QMatrix4x4-data-f.rst
+            list[float]
+        :description: QtGui/QMatrix4x4-data-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QMatrix4x4.determinant
         :returns:

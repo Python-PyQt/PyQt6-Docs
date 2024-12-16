@@ -31,8 +31,8 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.arguments
         :returns:
-            List[Any]
-        :description: QtDBus/QDBusMessage-arguments-f.rst
+            list[Any]
+        :description: QtDBus/QDBusMessage-arguments-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.autoStartService
         :returns:

@@ -50,8 +50,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            Dict[int, Any]
-        :description: QtCore/QStringListModel-itemData-f.rst
+            dict[int, Any]
+        :description: QtCore/QStringListModel-itemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.moveRows
         :args:
@@ -92,10 +92,10 @@
     .. sip:method:: PyQt6.QtCore.QStringListModel.setItemData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            Dict[int, Any]
+            dict[int, Any]
         :returns:
             bool
-        :description: QtCore/QStringListModel-setItemData-f.rst
+        :description: QtCore/QStringListModel-setItemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.setStringList
         :args:
@@ -119,8 +119,8 @@
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.stringList
         :returns:
-            List[str]
-        :description: QtCore/QStringListModel-stringList-f.rst
+            list[str]
+        :description: QtCore/QStringListModel-stringList-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringListModel.supportedDropActions
         :returns:

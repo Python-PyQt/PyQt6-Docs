@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QAction.inputs
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
-        :description: Qt3DInput/QAction-inputs-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
+        :description: Qt3DInput/QAction-inputs-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QAction.isActive
         :returns:

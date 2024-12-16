@@ -219,8 +219,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.pageIds
         :returns:
-            List[int]
-        :description: QtWidgets/QWizard-pageIds-f.rst
+            list[int]
+        :description: QtWidgets/QWizard-pageIds-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.paintEvent
         :args:
@@ -374,8 +374,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.visitedIds
         :returns:
-            List[int]
-        :description: QtWidgets/QWizard-visitedIds-f.rst
+            list[int]
+        :description: QtWidgets/QWizard-visitedIds-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.wizardStyle
         :returns:

@@ -9,6 +9,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
         :description: QtGui/QStyleHints-colorScheme-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QStyleHints.contextMenuTrigger
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.ContextMenuTrigger`
+        :description: QtGui/QStyleHints-contextMenuTrigger-f.rst
+
     .. sip:method:: PyQt6.QtGui.QStyleHints.cursorFlashTime
         :returns:
             int
@@ -63,6 +68,16 @@
         :returns:
             int
         :description: QtGui/QStyleHints-passwordMaskDelay-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QStyleHints.setColorScheme
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
+        :description: QtGui/QStyleHints-setColorScheme-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QStyleHints.setContextMenuTrigger
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.ContextMenuTrigger`
+        :description: QtGui/QStyleHints-setContextMenuTrigger-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStyleHints.setFocusOnTouchRelease
         :returns:
@@ -124,6 +139,9 @@
             int
         :description: QtGui/QStyleHints-touchDoubleTapDistance-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QStyleHints.unsetColorScheme
+        :description: QtGui/QStyleHints-unsetColorScheme-f.rst
+
     .. sip:method:: PyQt6.QtGui.QStyleHints.useHoverEffects
         :returns:
             bool
@@ -143,6 +161,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
         :description: QtGui/QStyleHints-colorSchemeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGui.QStyleHints.contextMenuTriggerChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.ContextMenuTrigger`
+        :description: QtGui/QStyleHints-contextMenuTriggerChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGui.QStyleHints.cursorFlashTimeChanged
         :args:

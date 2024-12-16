@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.finishingKeyCombinations
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QKeyCombination`]
-        :description: QtWidgets/QKeySequenceEdit-finishingKeyCombinations-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QKeyCombination`]
+        :description: QtWidgets/QKeySequenceEdit-finishingKeyCombinations-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QKeySequenceEdit.focusOutEvent
         :args:

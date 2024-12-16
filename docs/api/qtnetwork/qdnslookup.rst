@@ -34,6 +34,15 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Error.TimeoutError
             :description: QtNetwork/QDnsLookup-Error-TimeoutError-v.rst
 
+    .. sip:enum:: PyQt6.QtNetwork.QDnsLookup.Protocol
+        :description: QtNetwork/QDnsLookup-Protocol-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Protocol.DnsOverTls
+            :description: QtNetwork/QDnsLookup-Protocol-DnsOverTls-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Protocol.Standard
+            :description: QtNetwork/QDnsLookup-Protocol-Standard-v.rst
+
     .. sip:enum:: PyQt6.QtNetwork.QDnsLookup.Type
         :description: QtNetwork/QDnsLookup-Type-e.rst
 
@@ -60,6 +69,9 @@
 
         .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Type.SRV
             :description: QtNetwork/QDnsLookup-Type-SRV-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Type.TLSA
+            :description: QtNetwork/QDnsLookup-Type-TLSA-v.rst
 
         .. sip:enum-member:: PyQt6.QtNetwork.QDnsLookup.Type.TXT
             :description: QtNetwork/QDnsLookup-Type-TXT-v.rst
@@ -93,13 +105,31 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtNetwork/QDnsLookup-__init__-f-5.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
+            Optional[str]
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            port: int = 0
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtNetwork/QDnsLookup-__init__-f-1.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.abort
         :description: QtNetwork/QDnsLookup-abort-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.canonicalNameRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
-        :description: QtNetwork/QDnsLookup-canonicalNameRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
+        :description: QtNetwork/QDnsLookup-canonicalNameRecords-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.defaultPortForProtocol
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+        :returns:
+            int
+        :static:
+        :description: QtNetwork/QDnsLookup-defaultPortForProtocol-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.error
         :returns:
@@ -113,21 +143,34 @@
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.hostAddressRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsHostAddressRecord`]
-        :description: QtNetwork/QDnsLookup-hostAddressRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsHostAddressRecord`]
+        :description: QtNetwork/QDnsLookup-hostAddressRecords-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.isAuthenticData
+        :returns:
+            bool
+        :description: QtNetwork/QDnsLookup-isAuthenticData-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.isFinished
         :returns:
             bool
         :description: QtNetwork/QDnsLookup-isFinished-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.isProtocolSupported
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+        :returns:
+            bool
+        :static:
+        :description: QtNetwork/QDnsLookup-isProtocolSupported-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.lookup
         :description: QtNetwork/QDnsLookup-lookup-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.mailExchangeRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsMailExchangeRecord`]
-        :description: QtNetwork/QDnsLookup-mailExchangeRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsMailExchangeRecord`]
+        :description: QtNetwork/QDnsLookup-mailExchangeRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.name
         :returns:
@@ -144,20 +187,25 @@
             int
         :description: QtNetwork/QDnsLookup-nameserverPort-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.nameserverProtocol
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+        :description: QtNetwork/QDnsLookup-nameserverProtocol-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.nameServerRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
-        :description: QtNetwork/QDnsLookup-nameServerRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
+        :description: QtNetwork/QDnsLookup-nameServerRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.pointerRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
-        :description: QtNetwork/QDnsLookup-pointerRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsDomainNameRecord`]
+        :description: QtNetwork/QDnsLookup-pointerRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.serviceRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsServiceRecord`]
-        :description: QtNetwork/QDnsLookup-serviceRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsServiceRecord`]
+        :description: QtNetwork/QDnsLookup-serviceRecords-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setName
         :args:
@@ -175,20 +223,47 @@
             int
         :description: QtNetwork/QDnsLookup-setNameserver-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            port: int = 0
+        :description: QtNetwork/QDnsLookup-setNameserver-f-2.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserverPort
         :args:
             int
         :description: QtNetwork/QDnsLookup-setNameserverPort-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserverProtocol
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+        :description: QtNetwork/QDnsLookup-setNameserverProtocol-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setSslConfiguration
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :description: QtNetwork/QDnsLookup-setSslConfiguration-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setType
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
         :description: QtNetwork/QDnsLookup-setType-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.sslConfiguration
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+        :description: QtNetwork/QDnsLookup-sslConfiguration-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.textRecords
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QDnsTextRecord`]
-        :description: QtNetwork/QDnsLookup-textRecords-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsTextRecord`]
+        :description: QtNetwork/QDnsLookup-textRecords-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QDnsLookup.tlsAssociationRecords
+        :returns:
+            list[:sip:ref:`~PyQt6.QtNetwork.QDnsTlsAssociationRecord`]
+        :description: QtNetwork/QDnsLookup-tlsAssociationRecords-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.type
         :returns:
@@ -212,6 +287,11 @@
         :args:
             int
         :description: QtNetwork/QDnsLookup-nameserverPortChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameserverProtocolChanged
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
+        :description: QtNetwork/QDnsLookup-nameserverProtocolChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.typeChanged
         :args:

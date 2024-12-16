@@ -22,8 +22,8 @@
         :args:
             Optional[str]
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript`]
-        :description: QtWebEngineCore/QWebEngineScriptCollection-find-f-1.rst
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript`]
+        :description: QtWebEngineCore/QWebEngineScriptCollection-find-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScriptCollection.insert
         :args:
@@ -54,5 +54,5 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineScriptCollection.toList
         :returns:
-            List[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript`]
-        :description: QtWebEngineCore/QWebEngineScriptCollection-toList-f.rst
+            list[:sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript`]
+        :description: QtWebEngineCore/QWebEngineScriptCollection-toList-f-1.rst

@@ -200,8 +200,8 @@
             :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`
             mode: :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode` = :sip:ref:`~PyQt6.QtCore.Qt.ItemSelectionMode.IntersectsItemShape`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-collidingItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-collidingItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.contextMenuEvent
         :args:
@@ -377,8 +377,8 @@
         :args:
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.DescendingOrder`
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.items
         :args:
@@ -387,8 +387,8 @@
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.DescendingOrder`
             deviceTransform: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f-1.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-7.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.items
         :args:
@@ -397,8 +397,8 @@
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.DescendingOrder`
             deviceTransform: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f-2.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-8.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.items
         :args:
@@ -407,8 +407,8 @@
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.DescendingOrder`
             deviceTransform: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f-3.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-9.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.items
         :args:
@@ -417,8 +417,8 @@
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.DescendingOrder`
             deviceTransform: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f-4.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-10.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.items
         :args:
@@ -430,8 +430,8 @@
             :sip:ref:`~PyQt6.QtCore.Qt.SortOrder`
             deviceTransform: :sip:ref:`~PyQt6.QtGui.QTransform` = QTransform()
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-items-f-5.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-items-f-11.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.itemsBoundingRect
         :returns:
@@ -503,8 +503,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.selectedItems
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
-        :description: QtWidgets/QGraphicsScene-selectedItems-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsItem`]
+        :description: QtWidgets/QGraphicsScene-selectedItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.selectionArea
         :returns:
@@ -642,8 +642,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.views
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QGraphicsView`]
-        :description: QtWidgets/QGraphicsScene-views-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QGraphicsView`]
+        :description: QtWidgets/QGraphicsScene-views-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsScene.wheelEvent
         :args:

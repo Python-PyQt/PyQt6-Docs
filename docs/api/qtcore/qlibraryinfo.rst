@@ -76,6 +76,14 @@
         :static:
         :description: QtCore/QLibraryInfo-path-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QLibraryInfo.paths
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLibraryInfo.LibraryPath`
+        :returns:
+            list[str]
+        :static:
+        :description: QtCore/QLibraryInfo-paths-f.rst
+
     .. sip:method:: PyQt6.QtCore.QLibraryInfo.version
         :returns:
             :sip:ref:`~PyQt6.QtCore.QVersionNumber`

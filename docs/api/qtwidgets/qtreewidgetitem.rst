@@ -384,8 +384,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.takeChildren
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
-        :description: QtWidgets/QTreeWidgetItem-takeChildren-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
+        :description: QtWidgets/QTreeWidgetItem-takeChildren-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.text
         :args:

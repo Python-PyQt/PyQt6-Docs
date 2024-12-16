@@ -45,13 +45,13 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractRayCaster.hits
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QRayCasterHit`]
-        :description: Qt3DRender/QAbstractRayCaster-hits-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QRayCasterHit`]
+        :description: Qt3DRender/QAbstractRayCaster-hits-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractRayCaster.layers
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QLayer`]
-        :description: Qt3DRender/QAbstractRayCaster-layers-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QLayer`]
+        :description: Qt3DRender/QAbstractRayCaster-layers-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractRayCaster.removeLayer
         :args:

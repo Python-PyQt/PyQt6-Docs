@@ -80,8 +80,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            Dict[int, Any]
-        :description: QtCore/QConcatenateTablesProxyModel-itemData-f.rst
+            dict[int, Any]
+        :description: QtCore/QConcatenateTablesProxyModel-itemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.mapFromSource
         :args:
@@ -106,8 +106,8 @@
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.mimeTypes
         :returns:
-            List[str]
-        :description: QtCore/QConcatenateTablesProxyModel-mimeTypes-f.rst
+            list[str]
+        :description: QtCore/QConcatenateTablesProxyModel-mimeTypes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.parent
         :args:
@@ -140,15 +140,15 @@
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.setItemData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            Dict[int, Any]
+            dict[int, Any]
         :returns:
             bool
-        :description: QtCore/QConcatenateTablesProxyModel-setItemData-f.rst
+        :description: QtCore/QConcatenateTablesProxyModel-setItemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.sourceModels
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QAbstractItemModel`]
-        :description: QtCore/QConcatenateTablesProxyModel-sourceModels-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QAbstractItemModel`]
+        :description: QtCore/QConcatenateTablesProxyModel-sourceModels-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.span
         :args:

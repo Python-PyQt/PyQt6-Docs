@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QJoint.childJoints
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DCore.QJoint`]
-        :description: Qt3DCore/QJoint-childJoints-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DCore.QJoint`]
+        :description: Qt3DCore/QJoint-childJoints-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QJoint.inverseBindMatrix
         :returns:

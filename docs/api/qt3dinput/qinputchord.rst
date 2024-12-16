@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QInputChord.chords
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
-        :description: Qt3DInput/QInputChord-chords-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DInput.QAbstractActionInput`]
+        :description: Qt3DInput/QInputChord-chords-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QInputChord.removeChord
         :args:

@@ -3,6 +3,12 @@
 .. sip:class:: PyQt6.QtQuick.QQuickRenderTarget
     :description: QtQuick/QQuickRenderTarget-c.rst
 
+    .. sip:enum:: PyQt6.QtQuick.QQuickRenderTarget.Flag
+        :description: QtQuick/QQuickRenderTarget-Flag-e.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickRenderTarget.Flag.MultisampleResolve
+            :description: QtQuick/QQuickRenderTarget-Flag-MultisampleResolve-v.rst
+
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.__init__
         :description: QtQuick/QQuickRenderTarget-__init__-f.rst
 
@@ -53,6 +59,19 @@
             :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
         :static:
         :description: QtQuick/QQuickRenderTarget-fromOpenGLTexture-f-1.rst
+
+    .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromOpenGLTexture
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtCore.QSize`
+            int
+            int
+            :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget.Flag`
+        :returns:
+            :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget`
+        :static:
+        :description: QtQuick/QQuickRenderTarget-fromOpenGLTexture-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickRenderTarget.fromPaintDevice
         :args:

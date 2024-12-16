@@ -222,6 +222,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ImageHeight
             :description: QtGui/QTextFormat-Property-ImageHeight-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ImageMaxWidth
+            :description: QtGui/QTextFormat-Property-ImageMaxWidth-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.ImageName
             :description: QtGui/QTextFormat-Property-ImageName-v.rst
 
@@ -542,8 +545,8 @@
         :args:
             int
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextLength`]
-        :description: QtGui/QTextFormat-lengthVectorProperty-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextLength`]
+        :description: QtGui/QTextFormat-lengthVectorProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.merge
         :args:
@@ -576,8 +579,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.properties
         :returns:
-            Dict[int, Any]
-        :description: QtGui/QTextFormat-properties-f.rst
+            dict[int, Any]
+        :description: QtGui/QTextFormat-properties-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.property
         :args:

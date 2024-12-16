@@ -54,8 +54,8 @@
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.keyValues
         :returns:
-            List[Tuple[float, Any]]
-        :description: QtCore/QVariantAnimation-keyValues-f.rst
+            list[tuple[float, Any]]
+        :description: QtCore/QVariantAnimation-keyValues-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.setDuration
         :args:
@@ -80,8 +80,8 @@
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.setKeyValues
         :args:
-            Iterable[Tuple[float, Any]]
-        :description: QtCore/QVariantAnimation-setKeyValues-f.rst
+            Iterable[tuple[float, Any]]
+        :description: QtCore/QVariantAnimation-setKeyValues-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.setStartValue
         :args:

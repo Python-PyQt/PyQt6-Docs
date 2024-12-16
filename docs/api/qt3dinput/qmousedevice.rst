@@ -38,8 +38,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.axisNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QMouseDevice-axisNames-f.rst
+            list[str]
+        :description: Qt3DInput/QMouseDevice-axisNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.buttonCount
         :returns:
@@ -55,8 +55,8 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.buttonNames
         :returns:
-            List[str]
-        :description: Qt3DInput/QMouseDevice-buttonNames-f.rst
+            list[str]
+        :description: Qt3DInput/QMouseDevice-buttonNames-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QMouseDevice.sensitivity
         :returns:

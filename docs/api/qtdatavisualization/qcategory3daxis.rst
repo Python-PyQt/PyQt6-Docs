@@ -11,8 +11,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCategory3DAxis.labels
         :returns:
-            List[str]
-        :description: QtDataVisualization/QCategory3DAxis-labels-f.rst
+            list[str]
+        :description: QtDataVisualization/QCategory3DAxis-labels-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCategory3DAxis.setLabels
         :args:

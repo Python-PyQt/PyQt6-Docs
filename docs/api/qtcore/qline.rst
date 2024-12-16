@@ -47,6 +47,13 @@
 
     .. sip:method:: PyQt6.QtCore.QLine.__eq__
         :args:
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :returns:
+            bool
+        :description: QtCore/QLine-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QLine.__eq__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QLine`
         :returns:
             bool
@@ -56,6 +63,13 @@
         :returns:
             bool
         :description: QtCore/QLine-isNull-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QLine.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QLineF`
+        :returns:
+            bool
+        :description: QtCore/QLine-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLine.__ne__
         :args:

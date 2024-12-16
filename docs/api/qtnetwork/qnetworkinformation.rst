@@ -57,9 +57,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.availableBackends
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtNetwork/QNetworkInformation-availableBackends-f.rst
+        :description: QtNetwork/QNetworkInformation-availableBackends-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkInformation.backendName
         :returns:

@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterData.components
         :returns:
-            List[str]
-        :description: QtHelp/QHelpFilterData-components-f.rst
+            list[str]
+        :description: QtHelp/QHelpFilterData-components-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterData.__eq__
         :args:
@@ -47,5 +47,5 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpFilterData.versions
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QVersionNumber`]
-        :description: QtHelp/QHelpFilterData-versions-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QVersionNumber`]
+        :description: QtHelp/QHelpFilterData-versions-f-1.rst

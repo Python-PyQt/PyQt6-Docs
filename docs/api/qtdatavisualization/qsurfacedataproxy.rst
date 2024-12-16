@@ -25,8 +25,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QSurfaceDataProxy.array
         :returns:
-            List[List[:sip:ref:`~PyQt6.QtDataVisualization.QSurfaceDataItem`]]
-        :description: QtDataVisualization/QSurfaceDataProxy-array-f.rst
+            list[list[:sip:ref:`~PyQt6.QtDataVisualization.QSurfaceDataItem`]]
+        :description: QtDataVisualization/QSurfaceDataProxy-array-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QSurfaceDataProxy.columnCount
         :returns:

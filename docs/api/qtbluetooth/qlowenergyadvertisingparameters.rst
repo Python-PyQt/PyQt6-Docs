@@ -96,5 +96,5 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingParameters.whiteList
         :returns:
-            List[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyAdvertisingParameters.AddressInfo`]
-        :description: QtBluetooth/QLowEnergyAdvertisingParameters-whiteList-f.rst
+            list[:sip:ref:`~PyQt6.QtBluetooth.QLowEnergyAdvertisingParameters.AddressInfo`]
+        :description: QtBluetooth/QLowEnergyAdvertisingParameters-whiteList-f-1.rst

@@ -14,8 +14,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmap.__init__
         :args:
-            List[str]
-        :description: QtGui/QPixmap-__init__-f-2.rst
+            list[str]
+        :description: QtGui/QPixmap-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmap.__init__
         :args:

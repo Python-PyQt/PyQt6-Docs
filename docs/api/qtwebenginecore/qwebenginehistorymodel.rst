@@ -32,8 +32,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistoryModel.roleNames
         :returns:
-            Dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtWebEngineCore/QWebEngineHistoryModel-roleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineHistoryModel-roleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineHistoryModel.rowCount
         :args:

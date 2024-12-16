@@ -13,5 +13,5 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerCustomWidgetCollectionInterface.customWidgets
         :returns:
-            List[:sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`]
-        :description: QtDesigner/QDesignerCustomWidgetCollectionInterface-customWidgets-f.rst
+            list[:sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`]
+        :description: QtDesigner/QDesignerCustomWidgetCollectionInterface-customWidgets-f-1.rst

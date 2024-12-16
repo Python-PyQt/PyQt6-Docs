@@ -144,8 +144,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.selectedBars
         :returns:
-            List[int]
-        :description: QtCharts/QBarSet-selectedBars-f.rst
+            list[int]
+        :description: QtCharts/QBarSet-selectedBars-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.selectedColor
         :returns:

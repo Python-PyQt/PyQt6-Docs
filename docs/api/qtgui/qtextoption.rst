@@ -122,13 +122,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextOption.tabArray
         :returns:
-            List[float]
-        :description: QtGui/QTextOption-tabArray-f.rst
+            list[float]
+        :description: QtGui/QTextOption-tabArray-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.tabs
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QTextOption.Tab`]
-        :description: QtGui/QTextOption-tabs-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QTextOption.Tab`]
+        :description: QtGui/QTextOption-tabs-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextOption.tabStopDistance
         :returns:

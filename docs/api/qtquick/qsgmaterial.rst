@@ -56,3 +56,8 @@
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QSGMaterialType`
         :description: QtQuick/QSGMaterial-type-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QSGMaterial.viewCount
+        :returns:
+            int
+        :description: QtQuick/QSGMaterial-viewCount-f.rst

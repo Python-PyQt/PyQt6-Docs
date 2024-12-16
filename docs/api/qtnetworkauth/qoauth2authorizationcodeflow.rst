@@ -4,6 +4,18 @@
     :inherits: :sip:ref:`~PyQt6.QtNetworkAuth.QAbstractOAuth2`
     :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-c.rst
 
+    .. sip:enum:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-PkceMethod-e.rst
+
+        .. sip:enum-member:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod.None_
+            :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-PkceMethod-None_-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod.Plain
+            :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-PkceMethod-Plain-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod.S256
+            :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-PkceMethod-S256-v.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -46,13 +58,18 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.buildAuthenticateUrl
         :args:
-            parameters: Dict[Optional[str], Sequence[Any]] = {}
+            parameters: dict[Optional[str], Sequence[Any]] = {}
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-buildAuthenticateUrl-f-1.rst
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-buildAuthenticateUrl-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.grant
         :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-grant-f.rst
+
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.pkceMethod
+        :returns:
+            :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod`
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-pkceMethod-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.refreshAccessToken
         :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-refreshAccessToken-f.rst
@@ -65,13 +82,19 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.resourceOwnerAuthorization
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: Dict[Optional[str], Sequence[Any]] = {}
-        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-resourceOwnerAuthorization-f-1.rst
+            parameters: dict[Optional[str], Sequence[Any]] = {}
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-resourceOwnerAuthorization-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.setAccessTokenUrl
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-setAccessTokenUrl-f.rst
+
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.setPkceMethod
+        :args:
+            :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.PkceMethod`
+            length: int = 43
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-setPkceMethod-f.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.accessTokenUrlChanged
         :args:

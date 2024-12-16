@@ -85,9 +85,9 @@
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.mountedVolumes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QStorageInfo`]
+            list[:sip:ref:`~PyQt6.QtCore.QStorageInfo`]
         :static:
-        :description: QtCore/QStorageInfo-mountedVolumes-f.rst
+        :description: QtCore/QStorageInfo-mountedVolumes-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStorageInfo.name
         :returns:

@@ -6,6 +6,9 @@
     .. sip:enum:: PyQt6.QtSvg.QtSvg.Option
         :description: QtSvg/QtSvg-Option-e.rst
 
+        .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.AssumeTrustedSource
+            :description: QtSvg/QtSvg-Option-AssumeTrustedSource-v.rst
+
         .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.NoOption
             :description: QtSvg/QtSvg-Option-NoOption-v.rst
 

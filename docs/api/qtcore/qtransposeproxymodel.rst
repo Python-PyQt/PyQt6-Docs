@@ -56,8 +56,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
         :returns:
-            Dict[int, Any]
-        :description: QtCore/QTransposeProxyModel-itemData-f.rst
+            dict[int, Any]
+        :description: QtCore/QTransposeProxyModel-itemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.mapFromSource
         :args:
@@ -140,10 +140,10 @@
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.setItemData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-            Dict[int, Any]
+            dict[int, Any]
         :returns:
             bool
-        :description: QtCore/QTransposeProxyModel-setItemData-f.rst
+        :description: QtCore/QTransposeProxyModel-setItemData-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTransposeProxyModel.setSourceModel
         :args:

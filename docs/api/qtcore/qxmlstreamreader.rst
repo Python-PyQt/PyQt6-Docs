@@ -152,8 +152,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.entityDeclarations
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QXmlStreamEntityDeclaration`]
-        :description: QtCore/QXmlStreamReader-entityDeclarations-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QXmlStreamEntityDeclaration`]
+        :description: QtCore/QXmlStreamReader-entityDeclarations-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.entityExpansionLimit
         :returns:
@@ -257,8 +257,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.namespaceDeclarations
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QXmlStreamNamespaceDeclaration`]
-        :description: QtCore/QXmlStreamReader-namespaceDeclarations-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QXmlStreamNamespaceDeclaration`]
+        :description: QtCore/QXmlStreamReader-namespaceDeclarations-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.namespaceProcessing
         :returns:
@@ -272,8 +272,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.notationDeclarations
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QXmlStreamNotationDeclaration`]
-        :description: QtCore/QXmlStreamReader-notationDeclarations-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QXmlStreamNotationDeclaration`]
+        :description: QtCore/QXmlStreamReader-notationDeclarations-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.prefix
         :returns:

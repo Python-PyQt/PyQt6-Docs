@@ -22,6 +22,11 @@
             bool
         :description: QtGui/QTextImageFormat-isValid-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextImageFormat.maximumWidth
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QTextLength`
+        :description: QtGui/QTextImageFormat-maximumWidth-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextImageFormat.name
         :returns:
             str
@@ -36,6 +41,11 @@
         :args:
             float
         :description: QtGui/QTextImageFormat-setHeight-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextImageFormat.setMaximumWidth
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QTextLength`
+        :description: QtGui/QTextImageFormat-setMaximumWidth-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextImageFormat.setName
         :args:

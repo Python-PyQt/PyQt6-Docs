@@ -176,8 +176,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.buttons
         :returns:
-            List[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
-        :description: QtWidgets/QDialogButtonBox-buttons-f.rst
+            list[:sip:ref:`~PyQt6.QtWidgets.QAbstractButton`]
+        :description: QtWidgets/QDialogButtonBox-buttons-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDialogButtonBox.centerButtons
         :returns:

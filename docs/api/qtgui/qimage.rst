@@ -40,6 +40,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_BGR888
             :description: QtGui/QImage-Format-Format_BGR888-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_CMYK8888
+            :description: QtGui/QImage-Format-Format_CMYK8888-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QImage.Format.Format_Grayscale16
             :description: QtGui/QImage-Format-Format_Grayscale16-v.rst
 
@@ -129,8 +132,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
-            List[str]
-        :description: QtGui/QImage-__init__-f-1.rst
+            list[str]
+        :description: QtGui/QImage-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
@@ -213,6 +216,13 @@
             :sip:ref:`~PyQt6.QtGui.QColorTransform`
         :description: QtGui/QImage-applyColorTransform-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QImage.applyColorTransform
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorTransform`
+            :sip:ref:`~PyQt6.QtGui.QImage.Format`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QImage-applyColorTransform-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QImage.bitPlaneCount
         :returns:
             int
@@ -252,8 +262,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.colorTable
         :returns:
-            List[int]
-        :description: QtGui/QImage-colorTable-f.rst
+            list[int]
+        :description: QtGui/QImage-colorTable-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.colorTransformed
         :args:
@@ -261,6 +271,15 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
         :description: QtGui/QImage-colorTransformed-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.colorTransformed
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorTransform`
+            :sip:ref:`~PyQt6.QtGui.QImage.Format`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGui/QImage-colorTransformed-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.constBits
         :returns:
@@ -289,6 +308,15 @@
             :sip:ref:`~PyQt6.QtGui.QImage`
         :description: QtGui/QImage-convertedToColorSpace-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QImage.convertedToColorSpace
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace`
+            :sip:ref:`~PyQt6.QtGui.QImage.Format`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGui/QImage-convertedToColorSpace-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QImage.convertTo
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`
@@ -299,6 +327,13 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
         :description: QtGui/QImage-convertToColorSpace-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.convertToColorSpace
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace`
+            :sip:ref:`~PyQt6.QtGui.QImage.Format`
+            flags: :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag` = :sip:ref:`~PyQt6.QtCore.Qt.ImageConversionFlag.AutoColor`
+        :description: QtGui/QImage-convertToColorSpace-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.convertToFormat
         :args:
@@ -762,8 +797,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.textKeys
         :returns:
-            List[str]
-        :description: QtGui/QImage-textKeys-f.rst
+            list[str]
+        :description: QtGui/QImage-textKeys-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.toHBITMAP
         :returns:

@@ -25,8 +25,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QScatterDataProxy.array
         :returns:
-            List[:sip:ref:`~PyQt6.QtDataVisualization.QScatterDataItem`]
-        :description: QtDataVisualization/QScatterDataProxy-array-f.rst
+            list[:sip:ref:`~PyQt6.QtDataVisualization.QScatterDataItem`]
+        :description: QtDataVisualization/QScatterDataProxy-array-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QScatterDataProxy.insertItem
         :args:

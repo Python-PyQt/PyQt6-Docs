@@ -55,8 +55,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractSeries.attachedAxes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
-        :description: QtCharts/QAbstractSeries-attachedAxes-f.rst
+            list[:sip:ref:`~PyQt6.QtCharts.QAbstractAxis`]
+        :description: QtCharts/QAbstractSeries-attachedAxes-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractSeries.chart
         :returns:

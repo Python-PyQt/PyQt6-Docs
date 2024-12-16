@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderCapabilities.extensions
         :returns:
-            List[str]
-        :description: Qt3DRender/QRenderCapabilities-extensions-f.rst
+            list[str]
+        :description: Qt3DRender/QRenderCapabilities-extensions-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderCapabilities.glslVersion
         :returns:

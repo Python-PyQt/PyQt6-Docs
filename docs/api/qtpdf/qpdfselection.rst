@@ -15,8 +15,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfSelection.bounds
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
-        :description: QtPdf/QPdfSelection-bounds-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QPolygonF`]
+        :description: QtPdf/QPdfSelection-bounds-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfSelection.copyToClipboard
         :args:

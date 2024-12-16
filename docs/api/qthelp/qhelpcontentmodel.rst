@@ -23,6 +23,9 @@
             Optional[str]
         :description: QtHelp/QHelpContentModel-createContents-f-1.rst
 
+    .. sip:method:: PyQt6.QtHelp.QHelpContentModel.createContentsForCurrentFilter
+        :description: QtHelp/QHelpContentModel-createContentsForCurrentFilter-f.rst
+
     .. sip:method:: PyQt6.QtHelp.QHelpContentModel.data
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`

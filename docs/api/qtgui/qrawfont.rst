@@ -50,16 +50,16 @@
         :args:
             Iterable[int]
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtGui/QRawFont-advancesForGlyphIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtGui/QRawFont-advancesForGlyphIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.advancesForGlyphIndexes
         :args:
             Iterable[int]
             :sip:ref:`~PyQt6.QtGui.QRawFont.LayoutFlag`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QPointF`]
-        :description: QtGui/QRawFont-advancesForGlyphIndexes-f-2.rst
+            list[:sip:ref:`~PyQt6.QtCore.QPointF`]
+        :description: QtGui/QRawFont-advancesForGlyphIndexes-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.alphaMapForGlyph
         :args:
@@ -136,8 +136,8 @@
         :args:
             Optional[str]
         :returns:
-            List[int]
-        :description: QtGui/QRawFont-glyphIndexesForString-f-1.rst
+            list[int]
+        :description: QtGui/QRawFont-glyphIndexesForString-f.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.__hash__
         :returns:
@@ -219,8 +219,8 @@
 
     .. sip:method:: PyQt6.QtGui.QRawFont.supportedWritingSystems
         :returns:
-            List[:sip:ref:`~PyQt6.QtGui.QFontDatabase.WritingSystem`]
-        :description: QtGui/QRawFont-supportedWritingSystems-f.rst
+            list[:sip:ref:`~PyQt6.QtGui.QFontDatabase.WritingSystem`]
+        :description: QtGui/QRawFont-supportedWritingSystems-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.supportsCharacter
         :args:

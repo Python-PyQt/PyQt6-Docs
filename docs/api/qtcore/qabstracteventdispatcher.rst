@@ -48,8 +48,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher.TimerInfo`]
-        :description: QtCore/QAbstractEventDispatcher-registeredTimers-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher.TimerInfo`]
+        :description: QtCore/QAbstractEventDispatcher-registeredTimers-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QAbstractEventDispatcher.registerTimer
         :args:

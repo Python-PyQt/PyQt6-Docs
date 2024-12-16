@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationGroup.animationList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DAnimation.QAbstractAnimation`]
-        :description: Qt3DAnimation/QAnimationGroup-animationList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DAnimation.QAbstractAnimation`]
+        :description: Qt3DAnimation/QAnimationGroup-animationList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationGroup.duration
         :returns:

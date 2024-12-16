@@ -299,6 +299,11 @@
             int
         :description: QtMultimedia/QVideoFrameFormat-planeCount-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.rotation
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation`
+        :description: QtMultimedia/QVideoFrameFormat-rotation-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.scanLineDirection
         :returns:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.Direction`
@@ -340,10 +345,20 @@
             bool
         :description: QtMultimedia/QVideoFrameFormat-setMirrored-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setRotation
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QtVideo.Rotation`
+        :description: QtMultimedia/QVideoFrameFormat-setRotation-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setScanLineDirection
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.Direction`
         :description: QtMultimedia/QVideoFrameFormat-setScanLineDirection-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setStreamFrameRate
+        :args:
+            float
+        :description: QtMultimedia/QVideoFrameFormat-setStreamFrameRate-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.setViewport
         :args:
@@ -354,6 +369,11 @@
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QVideoFrameFormat.YCbCrColorSpace`
         :description: QtMultimedia/QVideoFrameFormat-setYCbCrColorSpace-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.streamFrameRate
+        :returns:
+            float
+        :description: QtMultimedia/QVideoFrameFormat-streamFrameRate-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QVideoFrameFormat.viewport
         :returns:

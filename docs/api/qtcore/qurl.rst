@@ -201,9 +201,9 @@
             Iterable[Optional[str]]
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.TolerantMode`
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QUrl`]
+            list[:sip:ref:`~PyQt6.QtCore.QUrl`]
         :static:
-        :description: QtCore/QUrl-fromStringList-f-1.rst
+        :description: QtCore/QUrl-fromStringList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.fromUserInput
         :args:
@@ -221,6 +221,13 @@
         :returns:
             bool
         :description: QtCore/QUrl-__ge__-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QUrl.__gt__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            bool
+        :description: QtCore/QUrl-__gt__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.hasFragment
         :returns:
@@ -246,9 +253,9 @@
 
     .. sip:method:: PyQt6.QtCore.QUrl.idnWhitelist
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QUrl-idnWhitelist-f.rst
+        :description: QtCore/QUrl-idnWhitelist-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.isDetached
         :returns:
@@ -281,6 +288,13 @@
         :returns:
             bool
         :description: QtCore/QUrl-isValid-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QUrl.__le__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            bool
+        :description: QtCore/QUrl-__le__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.__lt__
         :args:
@@ -500,9 +514,9 @@
             Iterable[:sip:ref:`~PyQt6.QtCore.QUrl`]
             options: :sip:ref:`~PyQt6.QtCore.QUrl.UrlFormattingOption` = QUrl.FormattingOptions(QUrl.PrettyDecoded)
         :returns:
-            List[str]
+            list[str]
         :static:
-        :description: QtCore/QUrl-toStringList-f-1.rst
+        :description: QtCore/QUrl-toStringList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUrl.url
         :args:

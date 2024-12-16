@@ -17,13 +17,13 @@
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.customWidgets
         :returns:
-            List[:sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`]
-        :description: QtDesigner/QFormBuilder-customWidgets-f.rst
+            list[:sip:ref:`~PyQt6.QtDesigner.QDesignerCustomWidgetInterface`]
+        :description: QtDesigner/QFormBuilder-customWidgets-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.pluginPaths
         :returns:
-            List[str]
-        :description: QtDesigner/QFormBuilder-pluginPaths-f.rst
+            list[str]
+        :description: QtDesigner/QFormBuilder-pluginPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtDesigner.QFormBuilder.setPluginPath
         :args:

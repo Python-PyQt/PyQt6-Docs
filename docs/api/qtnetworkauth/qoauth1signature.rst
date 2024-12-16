@@ -36,8 +36,8 @@
         :args:
             url: :sip:ref:`~PyQt6.QtCore.QUrl` = QUrl()
             method: :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod` = :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod.Post`
-            parameters: Dict[Optional[str], Sequence[Any]] = {}
-        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-3.rst
+            parameters: dict[Optional[str], Sequence[Any]] = {}
+        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.__init__
         :args:
@@ -45,8 +45,8 @@
             Optional[str]
             Optional[str]
             method: :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod` = :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1Signature.HttpRequestMethod.Post`
-            parameters: Dict[Optional[str], Sequence[Any]] = {}
-        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-4.rst
+            parameters: dict[Optional[str], Sequence[Any]] = {}
+        :description: QtNetworkAuth/QOAuth1Signature-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.addRequestBody
         :args:
@@ -81,13 +81,13 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.keys
         :returns:
-            List[str]
-        :description: QtNetworkAuth/QOAuth1Signature-keys-f.rst
+            list[str]
+        :description: QtNetworkAuth/QOAuth1Signature-keys-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.parameters
         :returns:
-            Dict[str, List[Any]]
-        :description: QtNetworkAuth/QOAuth1Signature-parameters-f.rst
+            dict[str, list[Any]]
+        :description: QtNetworkAuth/QOAuth1Signature-parameters-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.plainText
         :returns:
@@ -125,8 +125,8 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setParameters
         :args:
-            Dict[Optional[str], Sequence[Any]]
-        :description: QtNetworkAuth/QOAuth1Signature-setParameters-f-1.rst
+            dict[Optional[str], Sequence[Any]]
+        :description: QtNetworkAuth/QOAuth1Signature-setParameters-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1Signature.setTokenSecret
         :args:

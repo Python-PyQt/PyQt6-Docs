@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.formats
         :returns:
-            List[str]
-        :description: QtCore/QMimeData-formats-f.rst
+            list[str]
+        :description: QtCore/QMimeData-formats-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeData.hasColor
         :returns:
@@ -120,5 +120,5 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeData.urls
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QUrl`]
-        :description: QtCore/QMimeData-urls-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QUrl`]
+        :description: QtCore/QMimeData-urls-f-1.rst

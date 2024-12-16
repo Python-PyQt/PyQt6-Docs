@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.morphTargetList
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DAnimation.QMorphTarget`]
-        :description: Qt3DAnimation/QVertexBlendAnimation-morphTargetList-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DAnimation.QMorphTarget`]
+        :description: Qt3DAnimation/QVertexBlendAnimation-morphTargetList-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.removeMorphTarget
         :args:
@@ -61,8 +61,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.targetPositions
         :returns:
-            List[float]
-        :description: Qt3DAnimation/QVertexBlendAnimation-targetPositions-f.rst
+            list[float]
+        :description: Qt3DAnimation/QVertexBlendAnimation-targetPositions-f-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QVertexBlendAnimation.interpolatorChanged
         :args:

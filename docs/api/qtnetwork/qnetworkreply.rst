@@ -146,6 +146,11 @@
             Any
         :description: QtNetwork/QNetworkReply-header-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QNetworkReply.headers
+        :returns:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkReply-headers-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.ignoreSslErrors
         :description: QtNetwork/QNetworkReply-ignoreSslErrors-f.rst
 
@@ -193,13 +198,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.rawHeaderList
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QNetworkReply-rawHeaderList-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtNetwork/QNetworkReply-rawHeaderList-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.rawHeaderPairs
         :returns:
-            List[Tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
-        :description: QtNetwork/QNetworkReply-rawHeaderPairs-f.rst
+            list[tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`, :sip:ref:`~PyQt6.QtCore.QByteArray`]]
+        :description: QtNetwork/QNetworkReply-rawHeaderPairs-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.readBufferSize
         :returns:
@@ -233,6 +238,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest.KnownHeaders`
             Any
         :description: QtNetwork/QNetworkReply-setHeader-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkReply.setHeaders
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
+        :description: QtNetwork/QNetworkReply-setHeaders-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.setOperation
         :args:
@@ -269,6 +279,12 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtNetwork/QNetworkReply-setUrl-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkReply.setWellKnownHeader
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :description: QtNetwork/QNetworkReply-setWellKnownHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkReply.sslConfiguration
         :returns:

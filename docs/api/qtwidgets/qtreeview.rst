@@ -348,8 +348,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.selectedIndexes
         :returns:
-            List[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
-        :description: QtWidgets/QTreeView-selectedIndexes-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QModelIndex`]
+        :description: QtWidgets/QTreeView-selectedIndexes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeView.selectionChanged
         :args:

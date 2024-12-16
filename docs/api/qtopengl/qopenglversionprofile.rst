@@ -68,5 +68,5 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLVersionProfile.version
         :returns:
-            Tuple[int, int]
-        :description: QtOpenGL/QOpenGLVersionProfile-version-f.rst
+            tuple[int, int]
+        :description: QtOpenGL/QOpenGLVersionProfile-version-f-1.rst

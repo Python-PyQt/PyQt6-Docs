@@ -16,6 +16,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QPagedPaintDevice.PdfVersion.PdfVersion_A1b
             :description: QtGui/QPagedPaintDevice-PdfVersion-PdfVersion_A1b-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QPagedPaintDevice.PdfVersion.PdfVersion_X4
+            :description: QtGui/QPagedPaintDevice-PdfVersion-PdfVersion_X4-v.rst
+
     .. sip:method:: PyQt6.QtGui.QPagedPaintDevice.newPage
         :returns:
             bool

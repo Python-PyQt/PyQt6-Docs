@@ -636,8 +636,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractTexture.textureImages
         :returns:
-            List[:sip:ref:`~PyQt6.Qt3DRender.QAbstractTextureImage`]
-        :description: Qt3DRender/QAbstractTexture-textureImages-f.rst
+            list[:sip:ref:`~PyQt6.Qt3DRender.QAbstractTextureImage`]
+        :description: Qt3DRender/QAbstractTexture-textureImages-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QAbstractTexture.updateData
         :args:

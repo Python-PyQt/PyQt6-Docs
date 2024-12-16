@@ -102,13 +102,13 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.defaultInnerTessellationLevels
         :returns:
-            List[float]
-        :description: QtOpenGL/QOpenGLShaderProgram-defaultInnerTessellationLevels-f.rst
+            list[float]
+        :description: QtOpenGL/QOpenGLShaderProgram-defaultInnerTessellationLevels-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.defaultOuterTessellationLevels
         :returns:
-            List[float]
-        :description: QtOpenGL/QOpenGLShaderProgram-defaultOuterTessellationLevels-f.rst
+            list[float]
+        :description: QtOpenGL/QOpenGLShaderProgram-defaultOuterTessellationLevels-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.disableAttributeArray
         :args:
@@ -634,8 +634,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.shaders
         :returns:
-            List[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader`]
-        :description: QtOpenGL/QOpenGLShaderProgram-shaders-f.rst
+            list[:sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader`]
+        :description: QtOpenGL/QOpenGLShaderProgram-shaders-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShaderProgram.uniformLocation
         :args:

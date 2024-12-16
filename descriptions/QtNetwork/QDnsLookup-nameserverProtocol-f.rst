@@ -1,0 +1,6 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: d2fc879f60938a0c2f79cef4dc2be3bd
+    :realsig: () const
+
+TODO

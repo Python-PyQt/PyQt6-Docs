@@ -10,8 +10,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientCertificateSelection.certificates
         :returns:
-            List[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-        :description: QtWebEngineCore/QWebEngineClientCertificateSelection-certificates-f.rst
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtWebEngineCore/QWebEngineClientCertificateSelection-certificates-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientCertificateSelection.host
         :returns:

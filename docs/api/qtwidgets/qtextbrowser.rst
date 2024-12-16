@@ -128,8 +128,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextBrowser.searchPaths
         :returns:
-            List[str]
-        :description: QtWidgets/QTextBrowser-searchPaths-f.rst
+            list[str]
+        :description: QtWidgets/QTextBrowser-searchPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextBrowser.setOpenExternalLinks
         :args:

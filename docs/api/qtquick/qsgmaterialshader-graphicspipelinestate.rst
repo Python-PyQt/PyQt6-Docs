@@ -63,6 +63,24 @@
         .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor.Zero
             :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendFactor-Zero-v.rst
 
+    .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-e.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp.Add
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-Add-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp.Max
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-Max-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp.Min
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-Min-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp.ReverseSubtract
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-ReverseSubtract-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp.Subtract
+            :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-BlendOp-Subtract-v.rst
+
     .. sip:enum:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.ColorMaskComponent
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-ColorMaskComponent-e.rst
 
@@ -122,6 +140,14 @@
     .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.dstColor
         :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendFactor`
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-dstColor-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.opAlpha
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-opAlpha-a.rst
+
+    .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.opColor
+        :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.BlendOp`
+        :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-opColor-a.rst
 
     .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.polygonMode
         :type: :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.PolygonMode`

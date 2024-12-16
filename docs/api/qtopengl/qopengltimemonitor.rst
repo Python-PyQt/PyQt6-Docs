@@ -29,8 +29,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTimeMonitor.objectIds
         :returns:
-            List[int]
-        :description: QtOpenGL/QOpenGLTimeMonitor-objectIds-f.rst
+            list[int]
+        :description: QtOpenGL/QOpenGLTimeMonitor-objectIds-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTimeMonitor.recordSample
         :returns:
@@ -52,10 +52,10 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTimeMonitor.waitForIntervals
         :returns:
-            List[int]
-        :description: QtOpenGL/QOpenGLTimeMonitor-waitForIntervals-f.rst
+            list[int]
+        :description: QtOpenGL/QOpenGLTimeMonitor-waitForIntervals-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTimeMonitor.waitForSamples
         :returns:
-            List[int]
-        :description: QtOpenGL/QOpenGLTimeMonitor-waitForSamples-f.rst
+            list[int]
+        :description: QtOpenGL/QOpenGLTimeMonitor-waitForSamples-f-1.rst

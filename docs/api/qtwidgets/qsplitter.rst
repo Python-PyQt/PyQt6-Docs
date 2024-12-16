@@ -203,8 +203,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.sizes
         :returns:
-            List[int]
-        :description: QtWidgets/QSplitter-sizes-f.rst
+            list[int]
+        :description: QtWidgets/QSplitter-sizes-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.widget
         :args:

@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QLevelOfDetail.thresholds
         :returns:
-            List[float]
-        :description: Qt3DRender/QLevelOfDetail-thresholds-f.rst
+            list[float]
+        :description: Qt3DRender/QLevelOfDetail-thresholds-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QLevelOfDetail.thresholdType
         :returns:
