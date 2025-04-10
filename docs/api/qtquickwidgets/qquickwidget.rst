@@ -45,6 +45,13 @@
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
         :description: QtQuickWidgets/QQuickWidget-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.__init__
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
+        :description: QtQuickWidgets/QQuickWidget-__init__-f-3.rst
+
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.dragEnterEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QDragEnterEvent`
@@ -129,6 +136,12 @@
             :sip:ref:`~PyQt6.QtGui.QKeyEvent`
         :description: QtQuickWidgets/QQuickWidget-keyReleaseEvent-f.rst
 
+    .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.loadFromModule
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtQuickWidgets/QQuickWidget-loadFromModule-f.rst
+
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.mouseDoubleClickEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QMouseEvent`
@@ -188,6 +201,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QSurfaceFormat`
         :description: QtQuickWidgets/QQuickWidget-setFormat-f.rst
+
+    .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setInitialProperties
+        :args:
+            dict[Optional[str], Any]
+        :description: QtQuickWidgets/QQuickWidget-setInitialProperties-f.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setResizeMode
         :args:

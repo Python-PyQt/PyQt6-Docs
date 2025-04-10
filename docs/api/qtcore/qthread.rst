@@ -31,6 +31,18 @@
         .. sip:enum-member:: PyQt6.QtCore.QThread.Priority.TimeCriticalPriority
             :description: QtCore/QThread-Priority-TimeCriticalPriority-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.QThread.QualityOfService
+        :description: QtCore/QThread-QualityOfService-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QThread.QualityOfService.Auto
+            :description: QtCore/QThread-QualityOfService-Auto-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QThread.QualityOfService.Eco
+            :description: QtCore/QThread-QualityOfService-Eco-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QThread.QualityOfService.High
+            :description: QtCore/QThread-QualityOfService-High-v.rst
+
     .. sip:method:: PyQt6.QtCore.QThread.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -127,6 +139,11 @@
     .. sip:method:: PyQt6.QtCore.QThread.run
         :description: QtCore/QThread-run-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QThread.serviceLevel
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QThread.QualityOfService`
+        :description: QtCore/QThread-serviceLevel-f.rst
+
     .. sip:method:: PyQt6.QtCore.QThread.setEventDispatcher
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractEventDispatcher`
@@ -136,6 +153,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QThread.Priority`
         :description: QtCore/QThread-setPriority-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QThread.setServiceLevel
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QThread.QualityOfService`
+        :description: QtCore/QThread-setServiceLevel-f.rst
 
     .. sip:method:: PyQt6.QtCore.QThread.setStackSize
         :args:

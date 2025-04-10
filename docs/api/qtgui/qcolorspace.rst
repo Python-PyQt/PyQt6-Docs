@@ -149,6 +149,13 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
         :args:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.PrimaryPoints`
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.TransferFunction`
+            gamma: float = 0
+        :description: QtGui/QColorSpace-__init__-f-11.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.__init__
+        :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
@@ -234,6 +241,11 @@
             :sip:ref:`~PyQt6.QtGui.QColorSpace.Primaries`
         :description: QtGui/QColorSpace-primaries-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QColorSpace.primaryPoints
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.PrimaryPoints`
+        :description: QtGui/QColorSpace-primaryPoints-f.rst
+
     .. sip:method:: PyQt6.QtGui.QColorSpace.setDescription
         :args:
             Optional[str]
@@ -251,6 +263,11 @@
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
         :description: QtGui/QColorSpace-setPrimaries-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QColorSpace.setPrimaryPoints
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColorSpace.PrimaryPoints`
+        :description: QtGui/QColorSpace-setPrimaryPoints-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setTransferFunction
         :args:

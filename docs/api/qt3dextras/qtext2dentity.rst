@@ -9,6 +9,11 @@
             parent: :sip:ref:`~PyQt6.Qt3DCore.QNode` = None
         :description: Qt3DExtras/QText2DEntity-__init__-f.rst
 
+    .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.alignment
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: Qt3DExtras/QText2DEntity-alignment-f.rst
+
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.color
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColor`
@@ -23,6 +28,11 @@
         :returns:
             float
         :description: Qt3DExtras/QText2DEntity-height-f.rst
+
+    .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setAlignment
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: Qt3DExtras/QText2DEntity-setAlignment-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setColor
         :args:

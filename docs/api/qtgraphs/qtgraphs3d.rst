@@ -185,3 +185,15 @@
 
         .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.ShadowQuality.SoftMedium
             :description: QtGraphs/QtGraphs3D-ShadowQuality-SoftMedium-v.rst
+
+    .. sip:enum:: PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique
+        :description: QtGraphs/QtGraphs3D-TransparencyTechnique-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique.Accurate
+            :description: QtGraphs/QtGraphs3D-TransparencyTechnique-Accurate-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique.Approximate
+            :description: QtGraphs/QtGraphs3D-TransparencyTechnique-Approximate-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique.Default
+            :description: QtGraphs/QtGraphs3D-TransparencyTechnique-Default-v.rst

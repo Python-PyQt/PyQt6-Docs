@@ -203,6 +203,13 @@ some functionality that can be used by applications.
         this is called by the destructor.
 
 
+.. py:data:: PyQt6.sip.SIP_ABI_VERSION
+
+    This is a Python integer object that represents the SIP ABI version number
+    of the module as a 3 part hexadecimal number (e.g. v13.10.0 is represented
+    as ``0x0d0a00``).
+
+
 .. py:data:: PyQt6.sip.SIP_VERSION
 
     This is a Python integer object that represents the SIP version number as

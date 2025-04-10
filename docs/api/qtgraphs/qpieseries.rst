@@ -221,8 +221,18 @@
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QPieSlice`]
         :description: QtGraphs/QPieSeries-added-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.clicked
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
+        :description: QtGraphs/QPieSeries-clicked-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QPieSeries.countChanged
         :description: QtGraphs/QPieSeries-countChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.doubleClicked
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
+        :description: QtGraphs/QPieSeries-doubleClicked-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QPieSeries.endAngleChanged
         :description: QtGraphs/QPieSeries-endAngleChanged-s.rst
@@ -235,6 +245,16 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QPieSeries.pieSizeChanged
         :description: QtGraphs/QPieSeries-pieSizeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.pressed
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
+        :description: QtGraphs/QPieSeries-pressed-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.released
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
+        :description: QtGraphs/QPieSeries-released-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QPieSeries.removed
         :args:

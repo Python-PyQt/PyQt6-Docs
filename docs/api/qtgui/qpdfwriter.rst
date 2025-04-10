@@ -36,6 +36,11 @@
             mimeType: Optional[str] = ''
         :description: QtGui/QPdfWriter-addFileAttachment-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.author
+        :returns:
+            str
+        :description: QtGui/QPdfWriter-author-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPdfWriter.colorModel
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPdfWriter.ColorModel`
@@ -87,6 +92,11 @@
         :returns:
             int
         :description: QtGui/QPdfWriter-resolution-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPdfWriter.setAuthor
+        :args:
+            Optional[str]
+        :description: QtGui/QPdfWriter-setAuthor-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setColorModel
         :args:

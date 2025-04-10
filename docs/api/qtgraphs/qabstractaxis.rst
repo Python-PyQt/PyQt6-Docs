@@ -16,6 +16,11 @@
         .. sip:enum-member:: PyQt6.QtGraphs.QAbstractAxis.AxisType.Value
             :description: QtGraphs/QAbstractAxis-AxisType-Value-v.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.alignment
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGraphs/QAbstractAxis-alignment-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.hide
         :description: QtGraphs/QAbstractAxis-hide-f.rst
 
@@ -58,6 +63,11 @@
         :returns:
             bool
         :description: QtGraphs/QAbstractAxis-labelsVisible-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setAlignment
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGraphs/QAbstractAxis-setAlignment-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setGridVisible
         :args:
@@ -152,6 +162,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis.AxisType`
         :description: QtGraphs/QAbstractAxis-type-f.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.alignmentChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
+        :description: QtGraphs/QAbstractAxis-alignmentChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.gridVisibleChanged
         :args:

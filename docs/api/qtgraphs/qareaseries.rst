@@ -102,13 +102,33 @@
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.borderWidthChanged
         :description: QtGraphs/QAreaSeries-borderWidthChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.clicked
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QAreaSeries-clicked-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.colorChanged
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :description: QtGraphs/QAreaSeries-colorChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.doubleClicked
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QAreaSeries-doubleClicked-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.lowerSeriesChanged
         :description: QtGraphs/QAreaSeries-lowerSeriesChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.pressed
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QAreaSeries-pressed-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.released
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QAreaSeries-released-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.selectedBorderColorChanged
         :args:

@@ -9,8 +9,14 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.AddSpaceForLineAndParagraphSeparators
             :description: QtGui/QTextOption-Flag-AddSpaceForLineAndParagraphSeparators-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.DisableEmojiParsing
+            :description: QtGui/QTextOption-Flag-DisableEmojiParsing-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.IncludeTrailingSpaces
             :description: QtGui/QTextOption-Flag-IncludeTrailingSpaces-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.ShowDefaultIgnorables
+            :description: QtGui/QTextOption-Flag-ShowDefaultIgnorables-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QTextOption.Flag.ShowDocumentTerminator
             :description: QtGui/QTextOption-Flag-ShowDocumentTerminator-v.rst

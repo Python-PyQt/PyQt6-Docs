@@ -16,6 +16,11 @@
             str
         :description: QtCore/QMetaEnum-enumName-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaEnum.is64Bit
+        :returns:
+            bool
+        :description: QtCore/QMetaEnum-is64Bit-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaEnum.isFlag
         :returns:
             bool

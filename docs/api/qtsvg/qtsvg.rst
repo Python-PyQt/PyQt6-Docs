@@ -9,6 +9,15 @@
         .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.AssumeTrustedSource
             :description: QtSvg/QtSvg-Option-AssumeTrustedSource-v.rst
 
+        .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.DisableAnimations
+            :description: QtSvg/QtSvg-Option-DisableAnimations-v.rst
+
+        .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.DisableCSSAnimations
+            :description: QtSvg/QtSvg-Option-DisableCSSAnimations-v.rst
+
+        .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.DisableSMILAnimations
+            :description: QtSvg/QtSvg-Option-DisableSMILAnimations-v.rst
+
         .. sip:enum-member:: PyQt6.QtSvg.QtSvg.Option.NoOption
             :description: QtSvg/QtSvg-Option-NoOption-v.rst
 

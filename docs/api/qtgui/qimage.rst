@@ -438,6 +438,18 @@
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
         :description: QtGui/QImage-fill-f-4.rst
 
+    .. sip:method:: PyQt6.QtGui.QImage.flip
+        :args:
+            orient: :sip:ref:`~PyQt6.QtCore.Qt.Orientation` = :sip:ref:`~PyQt6.QtCore.Qt.Orientation.Vertical`
+        :description: QtGui/QImage-flip-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QImage.flipped
+        :args:
+            orient: :sip:ref:`~PyQt6.QtCore.Qt.Orientation` = :sip:ref:`~PyQt6.QtCore.Qt.Orientation.Vertical`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGui/QImage-flipped-f.rst
+
     .. sip:method:: PyQt6.QtGui.QImage.format
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage.Format`

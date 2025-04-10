@@ -139,6 +139,11 @@
             bool
         :description: QtSql/QSqlDriver-commitTransaction-f.rst
 
+    .. sip:method:: PyQt6.QtSql.QSqlDriver.connectionName
+        :returns:
+            str
+        :description: QtSql/QSqlDriver-connectionName-f.rst
+
     .. sip:method:: PyQt6.QtSql.QSqlDriver.createResult
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlResult`

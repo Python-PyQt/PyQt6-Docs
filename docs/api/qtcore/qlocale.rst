@@ -1353,6 +1353,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kanuri
             :description: QtCore/QLocale-Language-Kanuri-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.KaraKalpak
+            :description: QtCore/QLocale-Language-KaraKalpak-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kashmiri
             :description: QtCore/QLocale-Language-Kashmiri-v.rst
 
@@ -1826,6 +1829,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Swahili
             :description: QtCore/QLocale-Language-Swahili-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.SwampyCree
+            :description: QtCore/QLocale-Language-SwampyCree-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Swati
             :description: QtCore/QLocale-Language-Swati-v.rst

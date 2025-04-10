@@ -166,6 +166,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_8
             :description: QtCore/QDataStream-Version-Qt_6_8-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_9
+            :description: QtCore/QDataStream-Version-Qt_6_9-v.rst
+
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :description: QtCore/QDataStream-__init__-f.rst
 

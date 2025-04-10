@@ -69,6 +69,12 @@
             list[:sip:ref:`~PyQt6.QtGraphs.QCustom3DItem`]
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-customItems-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.doRayPicking
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-doRayPicking-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.event
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent`
@@ -443,6 +449,11 @@
             float
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setShadowStrength-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setTransparencyTechnique
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique`
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setTransparencyTechnique-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setWidget
         :args:
             :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`
@@ -482,6 +493,11 @@
         :returns:
             list[:sip:ref:`~PyQt6.QtGraphs.QGraphsTheme`]
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-themes-f.rst
+
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.transparencyTechnique
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique`
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-transparencyTechnique-f.rst
 
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.widget
         :returns:
@@ -662,6 +678,11 @@
 
     .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.shadowStrengthChanged
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-shadowStrengthChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.transparencyTechniqueChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique`
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-transparencyTechniqueChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.wrapCameraXRotationChanged
         :args:

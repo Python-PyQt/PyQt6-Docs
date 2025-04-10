@@ -174,3 +174,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
         :description: QtGui/QInputDevice-availableVirtualGeometryChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGui.QInputDevice.capabilitiesChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QInputDevice.Capability`
+        :description: QtGui/QInputDevice-capabilitiesChanged-s.rst

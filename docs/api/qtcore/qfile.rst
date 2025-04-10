@@ -219,6 +219,12 @@
             int
         :description: QtCore/QFile-size-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QFile.supportsMoveToTrash
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QFile-supportsMoveToTrash-f.rst
+
     .. sip:method:: PyQt6.QtCore.QFile.symLinkTarget
         :returns:
             str

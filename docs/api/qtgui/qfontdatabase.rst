@@ -131,6 +131,12 @@
             :sip:ref:`~PyQt6.QtGui.QFontDatabase`
         :description: QtGui/QFontDatabase-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFontDatabase.addApplicationEmojiFontFamily
+        :args:
+            Optional[str]
+        :static:
+        :description: QtGui/QFontDatabase-addApplicationEmojiFontFamily-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFontDatabase.addApplicationFallbackFontFamily
         :args:
             :sip:ref:`~PyQt6.QtCore.QChar.Script`
@@ -153,6 +159,12 @@
             int
         :static:
         :description: QtGui/QFontDatabase-addApplicationFontFromData-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QFontDatabase.applicationEmojiFontFamilies
+        :returns:
+            list[str]
+        :static:
+        :description: QtGui/QFontDatabase-applicationEmojiFontFamilies-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.applicationFallbackFontFamilies
         :args:
@@ -265,6 +277,14 @@
         :static:
         :description: QtGui/QFontDatabase-removeAllApplicationFonts-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFontDatabase.removeApplicationEmojiFontFamily
+        :args:
+            Optional[str]
+        :returns:
+            bool
+        :static:
+        :description: QtGui/QFontDatabase-removeApplicationEmojiFontFamily-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFontDatabase.removeApplicationFallbackFontFamily
         :args:
             :sip:ref:`~PyQt6.QtCore.QChar.Script`
@@ -281,6 +301,12 @@
             bool
         :static:
         :description: QtGui/QFontDatabase-removeApplicationFont-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QFontDatabase.setApplicationEmojiFontFamilies
+        :args:
+            Iterable[Optional[str]]
+        :static:
+        :description: QtGui/QFontDatabase-setApplicationEmojiFontFamilies-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFontDatabase.setApplicationFallbackFontFamilies
         :args:

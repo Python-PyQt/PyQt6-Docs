@@ -46,6 +46,12 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.HasDisplay
             :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-HasDisplay-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.IsDecoratedRootColumn
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-IsDecoratedRootColumn-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.IsDecorationForRootColumn
+            :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-IsDecorationForRootColumn-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionViewItem.ViewItemFeature.None_
             :description: QtWidgets/QStyleOptionViewItem-ViewItemFeature-None_-v.rst
 

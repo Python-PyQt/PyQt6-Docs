@@ -288,8 +288,20 @@
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.borderColorsChanged
         :description: QtGraphs/QBarSeries-borderColorsChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QBarSeries.clicked
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QBarSet`
+        :description: QtGraphs/QBarSeries-clicked-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.countChanged
         :description: QtGraphs/QBarSeries-countChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QBarSeries.doubleClicked
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QBarSet`
+        :description: QtGraphs/QBarSeries-doubleClicked-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.labelsAngleChanged
         :args:
@@ -320,6 +332,18 @@
         :args:
             bool
         :description: QtGraphs/QBarSeries-labelsVisibleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QBarSeries.pressed
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QBarSet`
+        :description: QtGraphs/QBarSeries-pressed-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QBarSeries.released
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QBarSet`
+        :description: QtGraphs/QBarSeries-released-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.seriesColorsChanged
         :description: QtGraphs/QBarSeries-seriesColorsChanged-s.rst

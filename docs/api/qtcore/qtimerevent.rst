@@ -19,6 +19,13 @@
             int
         :description: QtCore/QTimerEvent-id-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTimerEvent.matches
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QBasicTimer`
+        :returns:
+            bool
+        :description: QtCore/QTimerEvent-matches-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTimerEvent.timerId
         :returns:
             int

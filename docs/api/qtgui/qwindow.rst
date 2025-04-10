@@ -378,6 +378,11 @@
             :sip:ref:`~PyQt6.QtGui.QResizeEvent`
         :description: QtGui/QWindow-resizeEvent-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QWindow.safeAreaMargins
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QMargins`
+        :description: QtGui/QWindow-safeAreaMargins-f.rst
+
     .. sip:method:: PyQt6.QtGui.QWindow.screen
         :returns:
             :sip:ref:`~PyQt6.QtGui.QScreen`
@@ -749,6 +754,11 @@
         :args:
             float
         :description: QtGui/QWindow-opacityChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGui.QWindow.safeAreaMarginsChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QMargins`
+        :description: QtGui/QWindow-safeAreaMarginsChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGui.QWindow.screenChanged
         :args:

@@ -26,6 +26,13 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthUriSchemeReplyHandler.close
         :description: QtNetworkAuth/QOAuthUriSchemeReplyHandler-close-f.rst
 
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuthUriSchemeReplyHandler.handleAuthorizationRedirect
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QUrl`
+        :returns:
+            bool
+        :description: QtNetworkAuth/QOAuthUriSchemeReplyHandler-handleAuthorizationRedirect-f.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthUriSchemeReplyHandler.isListening
         :returns:
             bool

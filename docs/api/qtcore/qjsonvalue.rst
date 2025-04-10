@@ -44,6 +44,15 @@
             bool
         :description: QtCore/QJsonValue-__eq__-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QJsonValue.fromJson
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QJsonValue`
+            :sip:ref:`~PyQt6.QtCore.QJsonParseError`
+        :static:
+        :description: QtCore/QJsonValue-fromJson-f.rst
+
     .. sip:method:: PyQt6.QtCore.QJsonValue.fromVariant
         :args:
             Any
@@ -157,6 +166,13 @@
         :returns:
             int
         :description: QtCore/QJsonValue-toInteger-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QJsonValue.toJson
+        :args:
+            format: :sip:ref:`~PyQt6.QtCore.QJsonDocument.JsonFormat` = :sip:ref:`~PyQt6.QtCore.QJsonDocument.JsonFormat.Indented`
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QJsonValue-toJson-f.rst
 
     .. sip:method:: PyQt6.QtCore.QJsonValue.toObject
         :returns:

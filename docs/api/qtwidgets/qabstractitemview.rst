@@ -707,6 +707,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.TextElideMode`
         :description: QtWidgets/QAbstractItemView-setTextElideMode-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setUpdateThreshold
+        :args:
+            int
+        :description: QtWidgets/QAbstractItemView-setUpdateThreshold-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setVerticalScrollMode
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.ScrollMode`
@@ -779,6 +784,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.updateGeometries
         :description: QtWidgets/QAbstractItemView-updateGeometries-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.updateThreshold
+        :returns:
+            int
+        :description: QtWidgets/QAbstractItemView-updateThreshold-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.verticalOffset
         :returns:

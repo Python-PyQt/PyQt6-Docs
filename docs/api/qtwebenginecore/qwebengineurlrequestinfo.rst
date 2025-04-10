@@ -119,6 +119,11 @@
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtWebEngineCore/QWebEngineUrlRequestInfo-initiator-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.isDownload
+        :returns:
+            bool
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-isDownload-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.navigationType
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlRequestInfo.NavigationType`

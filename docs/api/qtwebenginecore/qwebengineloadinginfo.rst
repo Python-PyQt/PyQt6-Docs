@@ -65,6 +65,11 @@
             str
         :description: QtWebEngineCore/QWebEngineLoadingInfo-errorString-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.isDownload
+        :returns:
+            bool
+        :description: QtWebEngineCore/QWebEngineLoadingInfo-isDownload-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.isErrorPage
         :returns:
             bool

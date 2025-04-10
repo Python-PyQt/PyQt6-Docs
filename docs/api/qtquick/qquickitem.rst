@@ -58,8 +58,14 @@
         .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.ItemChange.ItemRotationHasChanged
             :description: QtQuick/QQuickItem-ItemChange-ItemRotationHasChanged-v.rst
 
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.ItemChange.ItemScaleHasChanged
+            :description: QtQuick/QQuickItem-ItemChange-ItemScaleHasChanged-v.rst
+
         .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.ItemChange.ItemSceneChange
             :description: QtQuick/QQuickItem-ItemChange-ItemSceneChange-v.rst
+
+        .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.ItemChange.ItemTransformHasChanged
+            :description: QtQuick/QQuickItem-ItemChange-ItemTransformHasChanged-v.rst
 
         .. sip:enum-member:: PyQt6.QtQuick.QQuickItem.ItemChange.ItemVisibleHasChanged
             :description: QtQuick/QQuickItem-ItemChange-ItemVisibleHasChanged-v.rst

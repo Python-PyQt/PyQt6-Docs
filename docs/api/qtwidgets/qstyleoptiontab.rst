@@ -46,6 +46,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature.HasFrame
             :description: QtWidgets/QStyleOptionTab-TabFeature-HasFrame-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature.MinimumSizeHint
+            :description: QtWidgets/QStyleOptionTab-TabFeature-MinimumSizeHint-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyleOptionTab.TabFeature.None_
             :description: QtWidgets/QStyleOptionTab-TabFeature-None_-v.rst
 

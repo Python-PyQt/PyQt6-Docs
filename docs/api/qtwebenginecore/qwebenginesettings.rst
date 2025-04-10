@@ -141,8 +141,14 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PluginsEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PluginsEnabled-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PreferCSSMarginsForPrinting
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PreferCSSMarginsForPrinting-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PrintElementBackgrounds
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PrintElementBackgrounds-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.PrintHeaderAndFooter
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-PrintHeaderAndFooter-v.rst
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.ReadingFromCanvasEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-ReadingFromCanvasEnabled-v.rst
@@ -158,6 +164,9 @@
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.SpatialNavigationEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-SpatialNavigationEnabled-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.TouchEventsApiEnabled
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-TouchEventsApiEnabled-v.rst
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.TouchIconsEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-TouchIconsEnabled-v.rst

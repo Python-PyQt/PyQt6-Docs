@@ -16,6 +16,12 @@
     .. sip:enum:: PyQt6.QtNetworkAuth.QAbstractOAuth.Error
         :description: QtNetworkAuth/QAbstractOAuth-Error-e.rst
 
+        .. sip:enum-member:: PyQt6.QtNetworkAuth.QAbstractOAuth.Error.ClientError
+            :description: QtNetworkAuth/QAbstractOAuth-Error-ClientError-v.rst
+
+        .. sip:enum-member:: PyQt6.QtNetworkAuth.QAbstractOAuth.Error.ExpiredError
+            :description: QtNetworkAuth/QAbstractOAuth-Error-ExpiredError-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetworkAuth.QAbstractOAuth.Error.NetworkError
             :description: QtNetworkAuth/QAbstractOAuth-Error-NetworkError-v.rst
 

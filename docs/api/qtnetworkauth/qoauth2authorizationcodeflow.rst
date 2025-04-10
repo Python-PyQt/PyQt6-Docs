@@ -74,6 +74,9 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.refreshAccessToken
         :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-refreshAccessToken-f.rst
 
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.refreshTokensImplementation
+        :description: QtNetworkAuth/QOAuth2AuthorizationCodeFlow-refreshTokensImplementation-f.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth2AuthorizationCodeFlow.requestAccessToken
         :args:
             Optional[str]

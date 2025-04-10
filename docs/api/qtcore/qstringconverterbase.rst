@@ -26,8 +26,3 @@
 
     .. sip:method:: PyQt6.QtCore.QStringConverterBase.__init__
         :description: QtCore/QStringConverterBase-__init__-f.rst
-
-    .. sip:method:: PyQt6.QtCore.QStringConverterBase.__init__
-        :args:
-            :sip:ref:`~PyQt6.QtCore.QStringConverterBase`
-        :description: QtCore/QStringConverterBase-__init__-f-1.rst

@@ -374,12 +374,22 @@
             bool
         :description: QtSerialPort/QSerialPort-setRequestToSend-f.rst
 
+    .. sip:method:: PyQt6.QtSerialPort.QSerialPort.setSettingsRestoredOnClose
+        :args:
+            bool
+        :description: QtSerialPort/QSerialPort-setSettingsRestoredOnClose-f.rst
+
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.setStopBits
         :args:
             :sip:ref:`~PyQt6.QtSerialPort.QSerialPort.StopBits`
         :returns:
             bool
         :description: QtSerialPort/QSerialPort-setStopBits-f.rst
+
+    .. sip:method:: PyQt6.QtSerialPort.QSerialPort.settingsRestoredOnClose
+        :returns:
+            bool
+        :description: QtSerialPort/QSerialPort-settingsRestoredOnClose-f.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.stopBits
         :returns:
@@ -447,6 +457,11 @@
         :args:
             bool
         :description: QtSerialPort/QSerialPort-requestToSendChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtSerialPort.QSerialPort.settingsRestoredOnCloseChanged
+        :args:
+            bool
+        :description: QtSerialPort/QSerialPort-settingsRestoredOnCloseChanged-s.rst
 
     .. sip:signal:: PyQt6.QtSerialPort.QSerialPort.stopBitsChanged
         :args:

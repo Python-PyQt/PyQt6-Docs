@@ -55,6 +55,27 @@
             bool
         :description: QtGui/QBrush-__eq__-f-2.rst
 
+    .. sip:method:: PyQt6.QtGui.QBrush.__eq__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.BrushStyle`
+        :returns:
+            bool
+        :description: QtGui/QBrush-__eq__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QBrush.__eq__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`
+        :returns:
+            bool
+        :description: QtGui/QBrush-__eq__-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QBrush.__eq__
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :returns:
+            bool
+        :description: QtGui/QBrush-__eq__-f-3.rst
+
     .. sip:method:: PyQt6.QtGui.QBrush.gradient
         :returns:
             :sip:ref:`~PyQt6.QtGui.QGradient`
@@ -71,6 +92,27 @@
         :returns:
             bool
         :description: QtGui/QBrush-__ne__-f-2.rst
+
+    .. sip:method:: PyQt6.QtGui.QBrush.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.BrushStyle`
+        :returns:
+            bool
+        :description: QtGui/QBrush-__ne__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QBrush.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`
+        :returns:
+            bool
+        :description: QtGui/QBrush-__ne__-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QBrush.__ne__
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :returns:
+            bool
+        :description: QtGui/QBrush-__ne__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QBrush.setColor
         :args:

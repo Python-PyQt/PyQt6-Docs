@@ -85,6 +85,11 @@
             int
         :description: QtWidgets/QStackedWidget-currentChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtWidgets.QStackedWidget.widgetAdded
+        :args:
+            int
+        :description: QtWidgets/QStackedWidget-widgetAdded-s.rst
+
     .. sip:signal:: PyQt6.QtWidgets.QStackedWidget.widgetRemoved
         :args:
             int

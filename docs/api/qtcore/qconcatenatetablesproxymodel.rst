@@ -121,6 +121,11 @@
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
         :description: QtCore/QConcatenateTablesProxyModel-removeSourceModel-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.roleNames
+        :returns:
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`]
+        :description: QtCore/QConcatenateTablesProxyModel-roleNames-f.rst
+
     .. sip:method:: PyQt6.QtCore.QConcatenateTablesProxyModel.rowCount
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QModelIndex` = QModelIndex()

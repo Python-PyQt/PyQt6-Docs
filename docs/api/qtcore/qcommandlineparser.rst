@@ -3,6 +3,15 @@
 .. sip:class:: PyQt6.QtCore.QCommandLineParser
     :description: QtCore/QCommandLineParser-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QCommandLineParser.MessageType
+        :description: QtCore/QCommandLineParser-MessageType-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QCommandLineParser.MessageType.Error
+            :description: QtCore/QCommandLineParser-MessageType-Error-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QCommandLineParser.MessageType.Information
+            :description: QtCore/QCommandLineParser-MessageType-Information-v.rst
+
     .. sip:enum:: PyQt6.QtCore.QCommandLineParser.OptionsAfterPositionalArgumentsMode
         :description: QtCore/QCommandLineParser-OptionsAfterPositionalArgumentsMode-e.rst
 
@@ -133,6 +142,14 @@
         :args:
             exitCode: int = 0
         :description: QtCore/QCommandLineParser-showHelp-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QCommandLineParser.showMessageAndExit
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QCommandLineParser.MessageType`
+            Optional[str]
+            exitCode: int = 0
+        :static:
+        :description: QtCore/QCommandLineParser-showMessageAndExit-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCommandLineParser.showVersion
         :description: QtCore/QCommandLineParser-showVersion-f.rst

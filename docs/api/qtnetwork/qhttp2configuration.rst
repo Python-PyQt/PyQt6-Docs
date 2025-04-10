@@ -23,6 +23,11 @@
             bool
         :description: QtNetwork/QHttp2Configuration-huffmanCompressionEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QHttp2Configuration.maxConcurrentStreams
+        :returns:
+            int
+        :description: QtNetwork/QHttp2Configuration-maxConcurrentStreams-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QHttp2Configuration.maxFrameSize
         :returns:
             int
@@ -49,6 +54,11 @@
         :args:
             bool
         :description: QtNetwork/QHttp2Configuration-setHuffmanCompressionEnabled-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttp2Configuration.setMaxConcurrentStreams
+        :args:
+            int
+        :description: QtNetwork/QHttp2Configuration-setMaxConcurrentStreams-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttp2Configuration.setMaxFrameSize
         :args:

@@ -163,6 +163,14 @@
             bytes
         :description: QtCore/QIODevice-readLineData-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QIODevice.readLineInto
+        :args:
+            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            maxSize: int = 0
+        :returns:
+            bool
+        :description: QtCore/QIODevice-readLineInto-f.rst
+
     .. sip:method:: PyQt6.QtCore.QIODevice.reset
         :returns:
             bool

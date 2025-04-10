@@ -3597,6 +3597,9 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Drawer
             :description: QtCore/Qt-WindowType-Drawer-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.ExpandedClientAreaHint
+            :description: QtCore/Qt-WindowType-ExpandedClientAreaHint-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.ForeignWindow
             :description: QtCore/Qt-WindowType-ForeignWindow-v.rst
 
@@ -3617,6 +3620,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.NoDropShadowWindowHint
             :description: QtCore/Qt-WindowType-NoDropShadowWindowHint-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.NoTitleBarBackgroundHint
+            :description: QtCore/Qt-WindowType-NoTitleBarBackgroundHint-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.WindowType.Popup
             :description: QtCore/Qt-WindowType-Popup-v.rst

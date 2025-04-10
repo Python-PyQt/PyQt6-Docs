@@ -123,6 +123,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Ethiopic
             :description: QtCore/QChar-Script-Script_Ethiopic-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Garay
+            :description: QtCore/QChar-Script-Script_Garay-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Georgian
             :description: QtCore/QChar-Script-Script_Georgian-v.rst
 
@@ -146,6 +149,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Gurmukhi
             :description: QtCore/QChar-Script-Script_Gurmukhi-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_GurungKhema
+            :description: QtCore/QChar-Script-Script_GurungKhema-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Han
             :description: QtCore/QChar-Script-Script_Han-v.rst
@@ -212,6 +218,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Khudawadi
             :description: QtCore/QChar-Script-Script_Khudawadi-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_KiratRai
+            :description: QtCore/QChar-Script-Script_KiratRai-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Lao
             :description: QtCore/QChar-Script-Script_Lao-v.rst
@@ -351,6 +360,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_OldUyghur
             :description: QtCore/QChar-Script-Script_OldUyghur-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_OlOnal
+            :description: QtCore/QChar-Script-Script_OlOnal-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Oriya
             :description: QtCore/QChar-Script-Script_Oriya-v.rst
 
@@ -417,6 +429,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Sundanese
             :description: QtCore/QChar-Script-Script_Sundanese-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Sunuwar
+            :description: QtCore/QChar-Script-Script_Sunuwar-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_SylotiNagri
             :description: QtCore/QChar-Script-Script_SylotiNagri-v.rst
 
@@ -468,8 +483,14 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Tirhuta
             :description: QtCore/QChar-Script-Script_Tirhuta-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Todhri
+            :description: QtCore/QChar-Script-Script_Todhri-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Toto
             :description: QtCore/QChar-Script-Script_Toto-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_TuluTigalari
+            :description: QtCore/QChar-Script-Script_TuluTigalari-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Ugaritic
             :description: QtCore/QChar-Script-Script_Ugaritic-v.rst

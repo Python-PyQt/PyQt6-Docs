@@ -91,6 +91,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.CreateNewSession
             :description: QtCore/QProcess-UnixProcessFlag-CreateNewSession-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.DisableCoreDumps
+            :description: QtCore/QProcess-UnixProcessFlag-DisableCoreDumps-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QProcess.UnixProcessFlag.DisconnectControllingTerminal
             :description: QtCore/QProcess-UnixProcessFlag-DisconnectControllingTerminal-v.rst
 

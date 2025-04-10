@@ -135,6 +135,9 @@
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
         :description: QtSql/QSqlQueryModel-record-f-1.rst
 
+    .. sip:method:: PyQt6.QtSql.QSqlQueryModel.refresh
+        :description: QtSql/QSqlQueryModel-refresh-f.rst
+
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.removeColumns
         :args:
             int

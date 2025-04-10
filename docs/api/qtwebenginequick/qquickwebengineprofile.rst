@@ -45,6 +45,12 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtWebEngineQuick/QQuickWebEngineProfile-__init__-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.__init__
+        :args:
+            Optional[str]
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-__init__-f-1.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.cachePath
         :returns:
             str

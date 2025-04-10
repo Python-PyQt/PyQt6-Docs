@@ -54,6 +54,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QUuid.Version.Time
             :description: QtCore/QUuid-Version-Time-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QUuid.Version.UnixEpoch
+            :description: QtCore/QUuid-Version-UnixEpoch-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QUuid.Version.VerUnknown
             :description: QtCore/QUuid-Version-VerUnknown-v.rst
 
@@ -132,6 +135,12 @@
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
         :description: QtCore/QUuid-createUuidV5-f-3.rst
+
+    .. sip:method:: PyQt6.QtCore.QUuid.createUuidV7
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QUuid`
+        :static:
+        :description: QtCore/QUuid-createUuidV7-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__eq__
         :args:

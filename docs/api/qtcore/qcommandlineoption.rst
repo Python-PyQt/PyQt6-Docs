@@ -9,6 +9,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flag.HiddenFromHelp
             :description: QtCore/QCommandLineOption-Flag-HiddenFromHelp-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flag.IgnoreOptionsAfter
+            :description: QtCore/QCommandLineOption-Flag-IgnoreOptionsAfter-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QCommandLineOption.Flag.ShortOptionStyle
             :description: QtCore/QCommandLineOption-Flag-ShortOptionStyle-v.rst
 

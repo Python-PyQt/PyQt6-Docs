@@ -14,6 +14,9 @@
             bool
         :description: QtCore/QSortFilterProxyModel-autoAcceptChildRows-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.beginFilterChange
+        :description: QtCore/QSortFilterProxyModel-beginFilterChange-f.rst
+
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.buddy
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`

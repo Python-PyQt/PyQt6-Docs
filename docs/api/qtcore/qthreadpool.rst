@@ -46,6 +46,11 @@
     .. sip:method:: PyQt6.QtCore.QThreadPool.reserveThread
         :description: QtCore/QThreadPool-reserveThread-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QThreadPool.serviceLevel
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QThread.QualityOfService`
+        :description: QtCore/QThreadPool-serviceLevel-f.rst
+
     .. sip:method:: PyQt6.QtCore.QThreadPool.setExpiryTimeout
         :args:
             int
@@ -55,6 +60,11 @@
         :args:
             int
         :description: QtCore/QThreadPool-setMaxThreadCount-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QThreadPool.setServiceLevel
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QThread.QualityOfService`
+        :description: QtCore/QThreadPool-setServiceLevel-f.rst
 
     .. sip:method:: PyQt6.QtCore.QThreadPool.setStackSize
         :args:

@@ -28,6 +28,15 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QComboBox.InsertPolicy.NoInsert
             :description: QtWidgets/QComboBox-InsertPolicy-NoInsert-v.rst
 
+    .. sip:enum:: PyQt6.QtWidgets.QComboBox.LabelDrawingMode
+        :description: QtWidgets/QComboBox-LabelDrawingMode-e.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QComboBox.LabelDrawingMode.UseDelegate
+            :description: QtWidgets/QComboBox-LabelDrawingMode-UseDelegate-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QComboBox.LabelDrawingMode.UseStyle
+            :description: QtWidgets/QComboBox-LabelDrawingMode-UseStyle-v.rst
+
     .. sip:enum:: PyQt6.QtWidgets.QComboBox.SizeAdjustPolicy
         :description: QtWidgets/QComboBox-SizeAdjustPolicy-e.rst
 
@@ -261,6 +270,11 @@
             :sip:ref:`~PyQt6.QtGui.QKeyEvent`
         :description: QtWidgets/QComboBox-keyReleaseEvent-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QComboBox.labelDrawingMode
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QComboBox.LabelDrawingMode`
+        :description: QtWidgets/QComboBox-labelDrawingMode-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QComboBox.__len__
         :returns:
             int
@@ -404,6 +418,11 @@
             int
             Optional[str]
         :description: QtWidgets/QComboBox-setItemText-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QComboBox.setLabelDrawingMode
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QComboBox.LabelDrawingMode`
+        :description: QtWidgets/QComboBox-setLabelDrawingMode-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setLineEdit
         :args:

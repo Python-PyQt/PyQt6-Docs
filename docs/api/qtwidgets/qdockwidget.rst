@@ -50,6 +50,11 @@
             :sip:ref:`~PyQt6.QtGui.QCloseEvent`
         :description: QtWidgets/QDockWidget-closeEvent-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QDockWidget.dockLocation
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-dockLocation-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.event
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent`
@@ -88,6 +93,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
         :description: QtWidgets/QDockWidget-setAllowedAreas-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QDockWidget.setDockLocation
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.DockWidgetArea`
+        :description: QtWidgets/QDockWidget-setDockLocation-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDockWidget.setFeatures
         :args:

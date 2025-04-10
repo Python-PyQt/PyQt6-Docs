@@ -208,6 +208,11 @@
             Iterable[int]
         :description: QtGraphs/QXYSeries-toggleSelection-f.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QXYSeries.clicked
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QXYSeries-clicked-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.colorChanged
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
@@ -215,6 +220,11 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.countChanged
         :description: QtGraphs/QXYSeries-countChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QXYSeries.doubleClicked
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QXYSeries-doubleClicked-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.draggableChanged
         :description: QtGraphs/QXYSeries-draggableChanged-s.rst
@@ -227,8 +237,24 @@
             int
         :description: QtGraphs/QXYSeries-pointReplaced-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QXYSeries.pointsAdded
+        :args:
+            int
+            int
+        :description: QtGraphs/QXYSeries-pointsAdded-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.pointsReplaced
         :description: QtGraphs/QXYSeries-pointsReplaced-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QXYSeries.pressed
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QXYSeries-pressed-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QXYSeries.released
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :description: QtGraphs/QXYSeries-released-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.selectedColorChanged
         :args:

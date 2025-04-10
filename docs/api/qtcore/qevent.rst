@@ -348,6 +348,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Resize
             :description: QtCore/QEvent-Type-Resize-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.SafeAreaMarginsChange
+            :description: QtCore/QEvent-Type-SafeAreaMarginsChange-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QEvent.Type.Scroll
             :description: QtCore/QEvent-Type-Scroll-v.rst
 

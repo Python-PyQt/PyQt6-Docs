@@ -134,6 +134,11 @@
             int
         :description: QtWidgets/QStackedLayout-currentChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtWidgets.QStackedLayout.widgetAdded
+        :args:
+            int
+        :description: QtWidgets/QStackedLayout-widgetAdded-s.rst
+
     .. sip:signal:: PyQt6.QtWidgets.QStackedLayout.widgetRemoved
         :args:
             int

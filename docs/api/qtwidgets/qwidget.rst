@@ -32,6 +32,11 @@
             str
         :description: QtWidgets/QWidget-accessibleDescription-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QWidget.accessibleIdentifier
+        :returns:
+            str
+        :description: QtWidgets/QWidget-accessibleIdentifier-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QWidget.accessibleName
         :returns:
             str
@@ -974,6 +979,11 @@
         :args:
             Optional[str]
         :description: QtWidgets/QWidget-setAccessibleDescription-f-1.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.setAccessibleIdentifier
+        :args:
+            Optional[str]
+        :description: QtWidgets/QWidget-setAccessibleIdentifier-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setAccessibleName
         :args:

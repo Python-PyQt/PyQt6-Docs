@@ -29,6 +29,11 @@
             float
         :description: QtGraphs/QValueAxis-min-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.pan
+        :returns:
+            float
+        :description: QtGraphs/QValueAxis-pan-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.setLabelDecimals
         :args:
             int
@@ -48,6 +53,11 @@
         :args:
             float
         :description: QtGraphs/QValueAxis-setMin-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.setPan
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-setPan-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.setRange
         :args:
@@ -70,6 +80,11 @@
             float
         :description: QtGraphs/QValueAxis-setTickInterval-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.setZoom
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-setZoom-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.subTickCount
         :returns:
             int
@@ -89,6 +104,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis.AxisType`
         :description: QtGraphs/QValueAxis-type-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.zoom
+        :returns:
+            float
+        :description: QtGraphs/QValueAxis-zoom-f.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QValueAxis.labelDecimalsChanged
         :args:
@@ -110,6 +130,11 @@
             float
         :description: QtGraphs/QValueAxis-minChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QValueAxis.panChanged
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-panChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QValueAxis.subTickCountChanged
         :args:
             int
@@ -124,3 +149,8 @@
         :args:
             float
         :description: QtGraphs/QValueAxis-tickIntervalChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QValueAxis.zoomChanged
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-zoomChanged-s.rst

@@ -36,6 +36,11 @@
             bool
         :description: QtGraphs/QAbstract3DAxis-isAutoAdjustRange-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.isScaleLabelsByCount
+        :returns:
+            bool
+        :description: QtGraphs/QAbstract3DAxis-isScaleLabelsByCount-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.isTitleFixed
         :returns:
             bool
@@ -55,6 +60,11 @@
         :returns:
             list[str]
         :description: QtGraphs/QAbstract3DAxis-labels-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.labelSize
+        :returns:
+            float
+        :description: QtGraphs/QAbstract3DAxis-labelSize-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.labelsVisible
         :returns:
@@ -91,6 +101,11 @@
             Iterable[Optional[str]]
         :description: QtGraphs/QAbstract3DAxis-setLabels-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setLabelSize
+        :args:
+            float
+        :description: QtGraphs/QAbstract3DAxis-setLabelSize-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setLabelsVisible
         :args:
             bool
@@ -111,6 +126,11 @@
             float
             float
         :description: QtGraphs/QAbstract3DAxis-setRange-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setScaleLabelsByCount
+        :args:
+            bool
+        :description: QtGraphs/QAbstract3DAxis-setScaleLabelsByCount-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setTitle
         :args:
@@ -160,6 +180,11 @@
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.labelsChanged
         :description: QtGraphs/QAbstract3DAxis-labelsChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.labelSizeChanged
+        :args:
+            float
+        :description: QtGraphs/QAbstract3DAxis-labelSizeChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.labelVisibleChanged
         :args:
             bool
@@ -185,6 +210,11 @@
             float
             float
         :description: QtGraphs/QAbstract3DAxis-rangeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.scaleLabelsByCountChanged
+        :args:
+            bool
+        :description: QtGraphs/QAbstract3DAxis-scaleLabelsByCountChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.titleChanged
         :args:

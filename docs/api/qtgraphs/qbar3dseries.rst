@@ -44,6 +44,11 @@
         :static:
         :description: QtGraphs/QBar3DSeries-invalidSelectionPosition-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QBar3DSeries.isValueColoringEnabled
+        :returns:
+            bool
+        :description: QtGraphs/QBar3DSeries-isValueColoringEnabled-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QBar3DSeries.meshAngle
         :returns:
             float
@@ -99,6 +104,11 @@
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtGraphs/QBar3DSeries-setSelectedBar-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QBar3DSeries.setValueColoringEnabled
+        :args:
+            bool
+        :description: QtGraphs/QBar3DSeries-setValueColoringEnabled-f.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QBar3DSeries.columnLabelsChanged
         :description: QtGraphs/QBar3DSeries-columnLabelsChanged-s.rst
 
@@ -129,3 +139,8 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtGraphs/QBar3DSeries-selectedBarChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QBar3DSeries.valueColoringEnabledChanged
+        :args:
+            bool
+        :description: QtGraphs/QBar3DSeries-valueColoringEnabledChanged-s.rst

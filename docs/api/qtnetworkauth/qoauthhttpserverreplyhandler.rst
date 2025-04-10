@@ -27,6 +27,11 @@
             str
         :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-callback-f.rst
 
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.callbackHost
+        :returns:
+            str
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-callbackHost-f.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.callbackPath
         :returns:
             str
@@ -53,10 +58,24 @@
             bool
         :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-listen-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.listen
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
+            address: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
+            port: int = 0
+        :returns:
+            bool
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-listen-f.rst
+
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.port
         :returns:
             int
         :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-port-f.rst
+
+    .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.setCallbackHost
+        :args:
+            Optional[str]
+        :description: QtNetworkAuth/QOAuthHttpServerReplyHandler-setCallbackHost-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandler.setCallbackPath
         :args:

@@ -73,6 +73,11 @@
             :sip:ref:`~PyQt6.QtGui.QFontInfo`
         :description: QtGui/QFontInfo-swap-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QFontInfo.variableAxes
+        :returns:
+            list[:sip:ref:`~PyQt6.QtGui.QFontVariableAxis`]
+        :description: QtGui/QFontInfo-variableAxes-f.rst
+
     .. sip:method:: PyQt6.QtGui.QFontInfo.weight
         :returns:
             int

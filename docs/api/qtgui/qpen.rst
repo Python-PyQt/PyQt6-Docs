@@ -62,6 +62,20 @@
             bool
         :description: QtGui/QPen-__eq__-f-3.rst
 
+    .. sip:method:: PyQt6.QtGui.QPen.__eq__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.PenStyle`
+        :returns:
+            bool
+        :description: QtGui/QPen-__eq__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPen.__eq__
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :returns:
+            bool
+        :description: QtGui/QPen-__eq__-f-1.rst
+
     .. sip:method:: PyQt6.QtGui.QPen.isCosmetic
         :returns:
             bool
@@ -88,6 +102,20 @@
         :returns:
             bool
         :description: QtGui/QPen-__ne__-f-3.rst
+
+    .. sip:method:: PyQt6.QtGui.QPen.__ne__
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.PenStyle`
+        :returns:
+            bool
+        :description: QtGui/QPen-__ne__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPen.__ne__
+        :args:
+            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :returns:
+            bool
+        :description: QtGui/QPen-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPen.setBrush
         :args:
