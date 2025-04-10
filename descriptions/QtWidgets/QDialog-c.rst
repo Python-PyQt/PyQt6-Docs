@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of dialog windows
-    :digest: 20e688a9d6404569c33495cc8a89c5f3
+    :digest: 265d7bf16ab7470366cfc760eb9d5ef4
 
 The :sip:ref:`~PyQt6.QtWidgets.QDialog` class is the base class of dialog windows.
 
@@ -9,7 +9,7 @@ A dialog window is a top-level window mostly used for short-term tasks and brief
 
 Note that :sip:ref:`~PyQt6.QtWidgets.QDialog` (and any other widget that has type ``Qt::Dialog``) uses the parent widget slightly differently from other classes in Qt. A dialog is always a top-level widget, but if it has a parent, its default location is centered on top of the parent's top-level widget (if it is not top-level itself). It will also share the parent's taskbar entry.
 
-Use the overload of the :sip:ref:`~PyQt6.QtWidgets.QWidget.setParent` function to change the ownership of a :sip:ref:`~PyQt6.QtWidgets.QDialog` widget. This function allows you to explicitly set the window flags of the reparented widget; using the overloaded function will clear the window flags specifying the window-system properties for the widget (in particular it will reset the :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.Dialog` flag).
+Use the overload of the :sip:ref:`~PyQt6.QtWidgets.QWidget.setParent` function to change the ownership of a :sip:ref:`~PyQt6.QtWidgets.QDialog` widget. This function allows you to explicitly set the window flags of the reparented widget; using the overloaded function will clear the window flags specifying the window-system properties for the widget (in particular it will reset the :sip:ref:`~PyQt6.QtCore.Qt.WindowType.Dialog` flag).
 
 **Note:** The parent relationship of the dialog does *not* imply that the dialog will always be stacked on top of the parent window. To ensure that the dialog is always on top, make the dialog modal. This also applies for child windows of the dialog itself. To ensure that child windows of the dialog stay on top of the dialog, make the child windows modal as well.
 
@@ -22,9 +22,15 @@ A **modal** dialog is a dialog that blocks input to other visible windows in the
 
 When an application modal dialog is opened, the user must finish interacting with the dialog and close it before they can access any other window in the application. Window modal dialogs only block access to the window associated with the dialog, allowing the user to continue to use other windows in an application.
 
-The most common way to display a modal dialog is to call its :sip:ref:`~PyQt6.QtWidgets.QDialog.exec` function. When the user closes the dialog, :sip:ref:`~PyQt6.QtWidgets.QDialog.exec` will provide a useful return value. To close the dialog and return the appropriate value, you must connect a default button, e.g. an OK button to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accept` slot and a Cancel button to the :sip:ref:`~PyQt6.QtWidgets.QDialog.reject` slot. Alternatively, you can call the :sip:ref:`~PyQt6.QtWidgets.QDialog.done` slot with ``Accepted`` or ``Rejected``.
+The most common way to display a modal dialog is to call its :sip:ref:`~PyQt6.QtWidgets.QDialog.open` function. Alternatively, you can call setModal(true) or setWindowModality(), and then show(). In both cases, once the dialog is displayed, the control is immediately returned to the caller. You must connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.finished` signal to know when the dialog is closed and what its return value is. Alternatively, you can connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accepted` and :sip:ref:`~PyQt6.QtWidgets.QDialog.rejected` signals.
 
-An alternative is to call :sip:ref:`~PyQt6.QtWidgets.QDialog.setModal`\ (true) or setWindowModality(), then show(). Unlike :sip:ref:`~PyQt6.QtWidgets.QDialog.exec`, show() returns control to the caller immediately. Calling :sip:ref:`~PyQt6.QtWidgets.QDialog.setModal`\ (true) is especially useful for progress dialogs, where the user must have the ability to interact with the dialog, e.g. to cancel a long running operation. If you use show() and :sip:ref:`~PyQt6.QtWidgets.QDialog.setModal`\ (true) together to perform a long operation, you must call :sip:ref:`~PyQt6.QtCore.QCoreApplication.processEvents` periodically during processing to enable the user to interact with the dialog. (See :sip:ref:`~PyQt6.QtWidgets.QProgressDialog`.)
+When implementing a custom dialog, to close the dialog and return an appropriate value, connect a default button, for example, an OK button, to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accept` slot, and a Cancel button to the :sip:ref:`~PyQt6.QtWidgets.QDialog.reject` slot. Alternatively, you can call the :sip:ref:`~PyQt6.QtWidgets.QDialog.done` slot with ``Accepted`` or ``Rejected``.
+
+If you show the modal dialog to perform a long-running operation, it is recommended to perform the operation in a background worker thread, so that it does not interfere with the GUI thread.
+
+**Warning:** When using :sip:ref:`~PyQt6.QtWidgets.QDialog.open` or show(), the modal dialog should not be created on the stack, so that it does not get destroyed as soon as the control returns to the caller.
+
+**Note:** There is a way to show a modal dialog in a blocking mode by calling :sip:ref:`~PyQt6.QtWidgets.QDialog.exec`. In this case, the control returns to the GUI thread only when the dialog is closed. However, such approach is discouraged, because it creates a nested event loop, which is not fully supported by some platforms.
 
 .. _qdialog-modeless-dialogs:
 

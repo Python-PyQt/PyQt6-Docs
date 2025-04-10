@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Repetitive and single-shot timers
-    :digest: 8f91e18888b876840b08879f6c8c7c6e
+    :digest: bfd10d4ac359ee824e9e5d34d420a510
 
 The :sip:ref:`~PyQt6.QtCore.QTimer` class provides repetitive and single-shot timers.
 
@@ -62,7 +62,7 @@ Qt 6.8 introduced QChronoTimer. The main difference between the two classes, is 
 
 Another alternative is reimplementing the :sip:ref:`~PyQt6.QtCore.QObject.timerEvent` method in your class (which must be a sub-class of :sip:ref:`~PyQt6.QtCore.QObject`), and using one of the following approaches:
 
-* Using :sip:ref:`~PyQt6.QtCore.QBasicTimer`, a lightweight value-class wrapping a timer ID. You can start the timer with QBasicTimer::start() and stop it with :sip:ref:`~PyQt6.QtCore.QBasicTimer.stop`. You can handle the event in your reimplemneted :sip:ref:`~PyQt6.QtCore.QTimer.timerEvent`.
+* Using :sip:ref:`~PyQt6.QtCore.QBasicTimer`, a lightweight value-class wrapping a timer ID. You can start the timer with :sip:ref:`~PyQt6.QtCore.QBasicTimer.start` and stop it with :sip:ref:`~PyQt6.QtCore.QBasicTimer.stop`. You can handle the event in your reimplemneted :sip:ref:`~PyQt6.QtCore.QTimer.timerEvent`.
 
 * A more low-level method is manipulating the timer IDs directly. To start the timer call :sip:ref:`~PyQt6.QtCore.QObject.startTimer`, storing the returned ID. To stop the timer call :sip:ref:`~PyQt6.QtCore.QObject.killTimer`. You can handle the event in your reimplemented :sip:ref:`~PyQt6.QtCore.QTimer.timerEvent`. This approach is typically more cumbersome than using :sip:ref:`~PyQt6.QtCore.QBasicTimer`.
 

@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 3efe8b4ba648911423848db11b1b1d10
     :realsig: (QPdfOutputIntent&)
-    :digest: 21d20d04a01495a2edf96ba28fb336d9
+    :digest: fc83ec9ec740f4459a362892d97c4acf
 
-Swaps the output intent *other* with this output intent. This operation is very fast and never fails.
+Swaps this output intent with *other*. This operation is very fast and never fails.

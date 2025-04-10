@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 343350ab5e3ea1c8259efbf2506c2d3d
+    :digest: 20b59774dfdcf23d6e848111f04ba434
 
 This enum defines a set of options for number-to-string and string-to-number conversions. They can be retrieved with :sip:ref:`~PyQt6.QtCore.QLocale.numberOptions` and set with :sip:ref:`~PyQt6.QtCore.QLocale.setNumberOptions`.
 

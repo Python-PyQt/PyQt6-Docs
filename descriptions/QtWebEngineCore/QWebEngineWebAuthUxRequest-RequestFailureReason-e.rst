@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 92f2a807fb297e7eb3e0bdd3627dbbba
+    :digest: cd278d7b37239878d02bc562f8a844f0
 
 This enum describes the reason for WebAuth request failure.

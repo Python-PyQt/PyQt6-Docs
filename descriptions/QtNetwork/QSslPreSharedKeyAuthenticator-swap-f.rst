@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 0ba96fff41a53a4f51e7c6334ff043b0
     :realsig: (QSslPreSharedKeyAuthenticator&)
-    :digest: 64ebc736745975f050c2e00cd84ed258
+    :digest: 9715d3bf0ef8ad251e9754ea1e877c0c
 
-Swaps the :sip:ref:`~PyQt6.QtNetwork.QSslPreSharedKeyAuthenticator` object *authenticator* with this object. This operation is very fast and never fails.
+Swaps this authenticator with *other*. This operation is very fast and never fails.

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a JavaScript program
-    :digest: 91e75fb3fa5017737431427290019b22
+    :digest: 1e232e772968c8ba259120ad4adfe496
 
 The :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineScript` class encapsulates a JavaScript program.
 
@@ -11,6 +11,6 @@ Scripts can be executed either in the main JavaScript *world*, along with the re
 
 The following `Greasemonkey <https://doc.qt.io/qt-6/https://wiki.greasespot.net/Metadata_Block>`_ attributes are supported since Qt 5.8: ``@exclude``, ``@include``, ``@name``, ``@match``, and ``@run-at``.
 
-Use :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.scripts` and :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.scripts` to access the collection of scripts associated with a single page or a number of pages sharing the same profile.
+Use QWebEnginePage::scripts() and QWebEngineProfile::scripts() to access the collection of scripts associated with a single page or a number of pages sharing the same profile.
 
 .. seealso:: `Script Injection <https://doc.qt.io/qt-6/qtwebengine-overview.html#script-injection>`_.

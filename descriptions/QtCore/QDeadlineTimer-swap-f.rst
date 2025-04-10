@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 211646a7dcb4c66055f9275ee3950565
     :realsig: (QDeadlineTimer&)
-    :digest: 63c9093fde4bbee3d34d374bb954d52b
+    :digest: c354b83b709f5c8771e3c07320cb8fb3
 
-Swaps this deadline timer with the *other* deadline timer.
+Swaps this deadline timer with *other*. This operation is very fast and never fails.

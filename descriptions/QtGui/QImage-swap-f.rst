@@ -2,6 +2,6 @@
     :status: todo
     :pysig: fb51eb2740812f4466a824231ed4bce3
     :realsig: (QImage&)
-    :digest: bd6ce5017a038c94d21c64ed30a9ed5e
+    :digest: 6fc6e8c53322f021a3d998daf6bc5d05
 
-Swaps image *other* with this image. This operation is very fast and never fails.
+Swaps this image with *other*. This operation is very fast and never fails.

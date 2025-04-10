@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0x20
+    :digest: 8104fd027f8ae69a9f19b98b4971ea23
 
-TODO
+Indicates that the item has a tree view branch part for painting.

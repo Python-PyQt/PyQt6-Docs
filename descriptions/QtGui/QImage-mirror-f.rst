@@ -2,7 +2,9 @@
     :status: todo
     :pysig: b0a620de32e7d94462fd8495e362429f
     :realsig: (bool,bool)
-    :digest: cb6e8ad31f522cb3c7e46d3c3d226b74
+    :digest: abff4b8176afb6e61136a3dd3fe0e68b
+
+Use flip(Qt::Orientations) instead.
 
 Mirrors of the image in the horizontal and/or the vertical direction depending on whether *horizontal* and *vertical* are set to true or false.
 

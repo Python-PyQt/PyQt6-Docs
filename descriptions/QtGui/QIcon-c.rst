@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scalable icons in different modes and states
-    :digest: 7f2173aa2df2eb73e95dcfb646ced9ee
+    :digest: b6cbaf0370a6e03f7d4ea1ed57d24ad8
 
 The :sip:ref:`~PyQt6.QtGui.QIcon` class provides scalable icons in different modes and states.
 
@@ -35,11 +35,19 @@ Use the :sip:ref:`~PyQt6.QtGui.QImageReader.supportedImageFormats` and :sip:ref:
 Creating an icon from a theme or icon library
 ---------------------------------------------
 
-The most convenient way to construct an icon is by using the :sip:ref:`~PyQt6.QtGui.QIcon.fromTheme` factory function. Qt implements access to the native icon library on platforms that support the `Freedesktop Icon Theme Specification <https://doc.qt.io/qt-6/https://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html>`_. Since Qt 6.7, Qt also provides access to the native icon library on macOS, iOS, and Windows 10 and 11. On Android, Qt can access icons from the Material design system as long as the `MaterialIcons-Regular <https://github.com/google/material-design-icons/tree/master/font>`_ font is available on the system, or bundled as a resource at ``:/qt-project.org/icons/MaterialIcons-Regular.ttf`` with the application.
+The most convenient way to construct an icon is by using the :sip:ref:`~PyQt6.QtGui.QIcon.fromTheme` factory function. Qt implements access to the native icon library on platforms that support the `Freedesktop Icon Theme Specification <https://doc.qt.io/qt-6/https://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html>`_.
+
+Applications can use the same theming specification to provide their own icon library. See below for an example theme description and the corresponding directory structure for the image files.
+
+Since Qt 6.7, Qt also provides access to the native icon library on macOS, iOS, and Windows 10 and 11. On Android, Qt can access icons from the Material design system as long as the `MaterialIcons-Regular <https://github.com/google/material-design-icons/tree/master/font>`_ font is available on the system, or bundled as a resource at ``:/qt-project.org/icons/MaterialIcons-Regular.ttf`` with the application.
 
 .. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_image_qicon.py
 
-Applications can use the same theming specification to provide their own icon library. See below for an example theme description and the corresponding directory structure for the image files. Icons from an application-provided theme take precedence over the native icon library.
+Since Qt 6.9, Qt can generate icons from named glyphs in an available icon font. Set the :sip:ref:`~PyQt6.QtGui.QIcon.themeName` to the family name of the font, and use :sip:ref:`~PyQt6.QtGui.QIcon.fromTheme` with the name of the glyph.
+
+.. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_image_qicon.py
+
+The icon font can be installed on the system, or bundled as an :sip:ref:`~PyQt6.QtGui.QFontDatabase.addApplicationFont`.
 
 .. _qicon-icon-engines:
 
@@ -52,10 +60,10 @@ Icon engines differ in the way they handle and render icons. The default pixmap-
 
 In addition, it is possible to provide custom icon engines. This allows applications to customize every aspect of generated icons. With QIconEnginePlugin it is possible to register different icon engines for different file suffixes, making it possible for third parties to provide additional icon engines to those included with Qt.
 
-.. _qicon-making-classes-that-use-qicon:
+.. _qicon-using-qicon-in-the-user-interface:
 
-Making Classes that Use QIcon
------------------------------
+Using QIcon in the User Interface
+---------------------------------
 
 If you write your own widgets that have an option to set a small pixmap, consider allowing a :sip:ref:`~PyQt6.QtGui.QIcon` to be set for that pixmap. The Qt class :sip:ref:`~PyQt6.QtWidgets.QToolButton` is an example of such a widget.
 
@@ -68,6 +76,11 @@ When you retrieve a pixmap using pixmap(\ :sip:ref:`~PyQt6.QtCore.QSize`, Mode, 
 
 You might also make use of the ``Active`` mode, perhaps making your widget ``Active`` when the mouse is over the widget (see :sip:ref:`~PyQt6.QtWidgets.QWidget.enterEvent`), while the mouse is pressed pending the release that will activate the function, or when it is the currently selected item. If the widget can be toggled, the "On" mode might be used to draw a different icon.
 
+QIcons generated from the native icon library, or from an icon font, use the same glyph for both the ``On`` and ``Off`` states of the icon. Applications can change the icon depending on the state of the respective UI control or action. In a Qt Quick application, this can be done with a binding.
+
+.. literalinclude:: ../../../snippets/qtbase-src-gui-doc-snippets-code-src_gui_image_qicon.qml
+    :lines: 11-15
+
 .. image:: ../../../images/icon.png
 
 **Note:** :sip:ref:`~PyQt6.QtGui.QIcon` needs a :sip:ref:`~PyQt6.QtGui.QGuiApplication` instance before the icon is created.
@@ -77,7 +90,7 @@ You might also make use of the ``Active`` mode, perhaps making your widget ``Act
 High DPI Icons
 --------------
 
-Icons that are provided by the native icon library are usually based on vector graphics, and will automatically be rendered in the appropriate resolution.
+Icons that are provided by the native icon library, or generated from the glyph in an icon font, are usually based on vector graphics, and will automatically be rendered in the appropriate resolution.
 
 When providing your own image files via :sip:ref:`~PyQt6.QtGui.QIcon.addFile`, then :sip:ref:`~PyQt6.QtGui.QIcon` will use Qt's "@nx" high DPI syntax. This is useful if you have your own custom directory structure and do not use follow `Freedesktop Icon Theme Specification <https://doc.qt.io/qt-6/https://standards.freedesktop.org/icon-theme-spec/icon-theme-spec-latest.html>`_.
 

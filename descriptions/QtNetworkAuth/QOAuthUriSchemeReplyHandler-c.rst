@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Handles private/custom and https URI scheme redirects
-    :digest: 8db8c96c2491c157645af6176b8647fd
+    :digest: 98407b1bc3e54eca668a27fc2e329bc2
 
 Handles private/custom and https URI scheme redirects.
 
@@ -15,10 +15,12 @@ This class complements :sip:ref:`~PyQt6.QtNetworkAuth.QOAuthHttpServerReplyHandl
 
 The following code illustrates the usage. First, the needed variables:
 
-.. literalinclude:: ../../../snippets/qtnetworkauth-src-oauth-doc-snippets-src_oauth_replyhandlers.py
-    :lines: 96-97
+.. literalinclude:: ../../../snippets/qtnetworkauth-src-oauth-doc-snippets-src_oauth_replyhandlers_p.py
+    :lines: 101-102
 
 Followed up by the OAuth setup (error handling omitted for brevity):
+
+.. literalinclude:: ../../../snippets/qtnetworkauth-src-oauth-doc-snippets-src_oauth_replyhandlers.py
 
 .. literalinclude:: ../../../snippets/qtnetworkauth-src-oauth-doc-snippets-src_oauth_replyhandlers.py
     :lines: 69-79
@@ -105,4 +107,4 @@ On iOS and macOS the URI schemes require:
 Windows, Linux
 ..............
 
-Currently not supported.
+Currently not supported. However platforms and use cases supporting Qt WebEngine can still use this reply handler - see `Qt OAuth2 Browser Support <https://doc.qt.io/qt-6/qt-oauth2-browsersupport.html>`_ for details.

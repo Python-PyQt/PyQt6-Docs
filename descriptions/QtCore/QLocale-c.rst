@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Converts between numbers and their string representations in various languages
-    :digest: eb4068bfa4e5320fd159e5d1d163b395
+    :digest: 3df4da95b78c98b089eca8058450e7ea
 
 The :sip:ref:`~PyQt6.QtCore.QLocale` class converts between numbers and their string representations in various languages.
 
@@ -32,7 +32,16 @@ This constructor reads the language, script and/or territory from the given name
 
 **Note:** For the current keyboard input locale take a look at :sip:ref:`~PyQt6.QtGui.QInputMethod.locale`.
 
-:sip:ref:`~PyQt6.QtCore.QLocale`'s data is based on Common Locale Data Repository v39.
+.. _qlocale-appropriateness-of-the-formats:
+
+Appropriateness of the formats
+------------------------------
+
+:sip:ref:`~PyQt6.QtCore.QLocale`'s data is based on Common Locale Data Repository v46.1.
+
+This data is published by The Unicode Consortium, who aim to follow customary, common use by writers of each language, in each script, in each territory for which data is given. This may in some cases differ from what is recognized as official, depending on how widely that official standard is followed in practice.
+
+For example, although the relevant international standard (from the BIPM) mandates a thin non-breaking space as the separator between groups of digits in numbers, when they are split up to aid readability, and many jurisdictions have adopted this as their official standard for the formatting of numbers, many locales in fact have a traditional way of formatting numbers with punctuators separating groups of digits. CLDR, and thus :sip:ref:`~PyQt6.QtCore.QLocale`, follows this common usage rather than the official standard.
 
 .. _qlocale-matching-combinations-of-language-script-and-territory:
 

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 21b5df7b8fae5f4fd5a6bab51daecc5b
+    :digest: 28d3f36fcb214e2909ba11ba70dad8c7
 
 Describes the protocol of the cipher.

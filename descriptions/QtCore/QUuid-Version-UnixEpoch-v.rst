@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 7
+    :digest: 92caa6e259aaed549ec879b149010eab
 
-TODO
+[since 6.9] Time-based UUID using the number of milliseconds since the UNIX epoch

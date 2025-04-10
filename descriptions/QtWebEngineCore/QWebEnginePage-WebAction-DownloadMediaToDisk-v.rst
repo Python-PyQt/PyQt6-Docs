@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 25
-    :digest: 7f97bd4349e2ce284bfdd12aa39e3c95
+    :digest: 5af6eefbd26533a0e680a8e9172e61d7
 
-Download the hovered audio or video to the disk. Requires a slot for :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.downloadRequested`. (Added in Qt 5.6)
+Download the hovered audio or video to the disk. Requires a slot for downloadRequested().

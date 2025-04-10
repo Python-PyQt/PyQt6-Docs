@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 9e1886ac630cf2cdefc520d9e42edfb2
     :realsig: (QBitArray&)
-    :digest: cee7d2ab0f812f579e17e99c397f5527
+    :digest: 60ceb2ab37172a62b6865434c196cab5
 
-Swaps bit array *other* with this bit array. This operation is very fast and never fails.
+Swaps this bit array with *other*. This operation is very fast and never fails.

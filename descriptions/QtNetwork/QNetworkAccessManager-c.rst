@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows the application to send network requests and receive replies
-    :digest: bf33748abd5529b4fd107c95cc5ed507
+    :digest: a979905daa75a628305c830d674b4b3c
 
 The :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` class allows the application to send network requests and receive replies.
 
@@ -19,6 +19,8 @@ A simple download off the network could be accomplished with:
 **Note:** After the request has finished, it is the responsibility of the user to delete the :sip:ref:`~PyQt6.QtNetwork.QNetworkReply` object at an appropriate time. Do not directly delete it inside the slot connected to :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager.finished`. You can use the deleteLater() function.
 
 **Note:** :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` queues the requests it receives. The number of requests executed in parallel is dependent on the protocol. Currently, for the HTTP protocol on desktop platforms, 6 requests are executed in parallel for one host/port combination.
+
+**Note:** :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager` doesn't handle RFC 2616 Section 8.2.2 properly, in that it doesn't react to incoming data until it's done writing. For example, the upload of a large file won't stop even if the server returns a status code that instructs the client to not continue.
 
 A more involved example, assuming the manager is already existent, can be:
 

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 27c3ecff0b8db6e96a3963b3d763015e
     :realsig: (QWindow*,QWidget*,Qt::WindowFlags)
-    :digest: 8d40504095b5941dd94f9ed718b041ae
+    :digest: 5d54328b70d32c866f6bf739bcb656f2
 
 Creates a :sip:ref:`~PyQt6.QtWidgets.QWidget` that makes it possible to embed *window* into a :sip:ref:`~PyQt6.QtWidgets.QWidget`-based application.
 
@@ -20,7 +20,9 @@ The window container has a number of known limitations:
 
 * Rendering Integration; The window container does not interoperate with :sip:ref:`~PyQt6.QtWidgets.QGraphicsProxyWidget`, :sip:ref:`~PyQt6.QtWidgets.QWidget.render` or similar functionality.
 
-* Focus Handling; It is possible to let the window container instance have any focus policy and it will delegate focus to the window via a call to :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate`. However, returning to the normal focus chain from the :sip:ref:`~PyQt6.QtGui.QWindow` instance will be up to the :sip:ref:`~PyQt6.QtGui.QWindow` instance implementation itself. For instance, when entering a Qt Quick based window with tab focus, it is quite likely that further tab presses will only cycle inside the QML application. Also, whether :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate` actually gives the window focus, is platform dependent.
+* Focus Handling; It is possible to let the window container instance have any focus policy and it will delegate focus to the window via a call to :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate`. However, returning to the normal focus chain from the :sip:ref:`~PyQt6.QtGui.QWindow` instance will be up to the :sip:ref:`~PyQt6.QtGui.QWindow` instance implementation itself. Also, whether :sip:ref:`~PyQt6.QtGui.QWindow.requestActivate` actually gives the window focus, is platform dependent.
+
+  Since 6.8, if embedding a Qt Quick based window, tab presses will transition in and out of the embedded QML window, allowing focus to move to the next or previous focusable object in the window container chain.
 
 * Using many window container instances in a :sip:ref:`~PyQt6.QtWidgets.QWidget`-based application can greatly hurt the overall performance of the application.
 

@@ -2,14 +2,14 @@
     :status: todo
     :pysig: 1ab98a4411fb7d10d5134d664f82b37e
     :realsig: (const QString&) const
-    :digest: 1ee189d1a225c8acc19133b7a959032e
+    :digest: 6663c62f573e7b4900a8d84d2661664d
 
-Creates the directory path *dirPath*.
+Creates a directory named *dirPath*.
 
-The function will create all parent directories necessary to create the directory.
+If *dirPath* doesn't already exist, this method will create it - along with any nonexistent parent directories - with the default permissions.
 
-Returns ``true`` if successful; otherwise returns ``false``.
+Returns ``true`` on success or if *dirPath* already existed; otherwise returns ``false``.
 
-If the path already exists when this function is called, it will return true.
+On Windows, by default, a new directory inherits its permissions from its parent directory. Permissions are emulated using ACLs. These ACLs may be in non-canonical order when the group is granted less permissions than others. Files and directories with such permissions will generate warnings when the Security tab of the Properties dialog is opened. Granting the group all permissions granted to others avoids such warnings.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir.rmpath`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDir.rmpath`, :sip:ref:`~PyQt6.QtCore.QDir.mkdir`, :sip:ref:`~PyQt6.QtCore.QDir.rmdir`.

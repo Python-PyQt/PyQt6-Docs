@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 9ff1de511d3a73b55592d4a588838632
     :realsig: (QKeySequence&)
-    :digest: ccabeed88facf3320380d64fb63a7271
+    :digest: 5f366350c5ad361687301a288fc42e03
 
-Swaps key sequence *other* with this key sequence. This operation is very fast and never fails.
+Swaps this key sequence with *other*. This operation is very fast and never fails.

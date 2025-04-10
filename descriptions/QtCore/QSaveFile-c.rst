@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for safely writing to files
-    :digest: 5e81d8d7be6a41f3625636dba05138c3
+    :digest: 1f62bb19400e4293959cb53822a36770
 
 The :sip:ref:`~PyQt6.QtCore.QSaveFile` class provides an interface for safely writing to files.
 
@@ -11,7 +11,7 @@ While writing, the contents will be written to a temporary file, and if no error
 
 :sip:ref:`~PyQt6.QtCore.QSaveFile` automatically detects errors while writing, such as the full partition situation, where write() cannot write all the bytes. It will remember that an error happened, and will discard the temporary file in :sip:ref:`~PyQt6.QtCore.QSaveFile.commit`.
 
-Much like with :sip:ref:`~PyQt6.QtCore.QFile`, the file is opened with :sip:ref:`~PyQt6.QtCore.QSaveFile.open`. Data is usually read and written using :sip:ref:`~PyQt6.QtCore.QDataStream` or :sip:ref:`~PyQt6.QtCore.QTextStream`, but you can also call the :sip:ref:`~PyQt6.QtCore.QIODevice`-inherited functions read(), readLine(), readAll(), write().
+Much like with :sip:ref:`~PyQt6.QtCore.QFile`, the file is opened with :sip:ref:`~PyQt6.QtCore.QSaveFile.open`. Data is usually read and written using :sip:ref:`~PyQt6.QtCore.QDataStream` or :sip:ref:`~PyQt6.QtCore.QTextStream`, but you can also directly call write().
 
 Unlike :sip:ref:`~PyQt6.QtCore.QFile`, calling close() is not allowed. :sip:ref:`~PyQt6.QtCore.QSaveFile.commit` replaces it. If :sip:ref:`~PyQt6.QtCore.QSaveFile.commit` was not called and the :sip:ref:`~PyQt6.QtCore.QSaveFile` instance is destroyed, the temporary file is discarded.
 

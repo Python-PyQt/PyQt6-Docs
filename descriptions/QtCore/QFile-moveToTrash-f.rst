@@ -2,7 +2,7 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: ()
-    :digest: 305bea0e5a6d5f6e59263f433c260fbc
+    :digest: 7306a415318822f035c72af7c34ba401
 
 Moves the file specified by :sip:ref:`~PyQt6.QtCore.QFile.fileName` to the trash. Returns ``true`` if successful, and sets the :sip:ref:`~PyQt6.QtCore.QFile.fileName` to the path at which the file can be found within the trash; otherwise returns ``false``.
 
@@ -12,4 +12,6 @@ This function uses the Windows and macOS APIs to perform the trashing on those t
 
 **Note:** When using the FreeDesktop.org Trash implementation, this function will fail if it is unable to move the files to the trash location by way of file renames and hardlinks. This condition arises if the file being trashed resides on a volume (mount point) on which the current user does not have permission to create the ``.Trash`` directory, or with some unusual filesystem types or configurations (such as sub-volumes that aren't themselves mount points).
 
-**Note:** On systems where the system API doesn't report the location of the file in the trash, :sip:ref:`~PyQt6.QtCore.QFile.fileName` will be set to the null string once the file has been moved. On systems that don't have a trash can, this function always returns false.
+**Note:** On systems where the system API doesn't report the location of the file in the trash, :sip:ref:`~PyQt6.QtCore.QFile.fileName` will be set to the null string once the file has been moved. On systems that don't have a trash can, this function always returns ``false`` (see :sip:ref:`~PyQt6.QtCore.QFile.supportsMoveToTrash`).
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QFile.supportsMoveToTrash`, :sip:ref:`~PyQt6.QtCore.QFile.remove`, :sip:ref:`~PyQt6.QtCore.QDir.remove`.

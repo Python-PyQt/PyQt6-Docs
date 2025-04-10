@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 7b302619a1f8d21d9efa913403e8d56b
     :realsig: (QRegion&)
-    :digest: dad6a1f3fcfe7ff460e565e22f6491f3
+    :digest: 24814188fc6f6203ea6017312adf33c7
 
-Swaps region *other* with this region. This operation is very fast and never fails.
+Swaps this region with *other*. This operation is very fast and never fails.

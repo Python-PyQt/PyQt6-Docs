@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Header row or header column for item views
-    :digest: ec196cf29f512665969c8c1925ad05e6
+    :digest: cfa8ce62628cd44567d946e37a0a0e94
 
 The :sip:ref:`~PyQt6.QtWidgets.QHeaderView` class provides a header row or header column for item views.
 
 A :sip:ref:`~PyQt6.QtWidgets.QHeaderView` displays the headers used in item views such as the :sip:ref:`~PyQt6.QtWidgets.QTableView` and :sip:ref:`~PyQt6.QtWidgets.QTreeView` classes. It takes the place of Qt3's ``QHeader`` class previously used for the same purpose, but uses the Qt's model/view architecture for consistency with the item view classes.
 
-The :sip:ref:`~PyQt6.QtWidgets.QHeaderView` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_.
+The :sip:ref:`~PyQt6.QtWidgets.QHeaderView` class is one of the `Model/View Classes <https://doc.qt.io/qt-6/model-view-programming.html#the-model-view-classes>`_ and is part of Qt's `model/view framework <https://doc.qt.io/qt-6/model-view-programming.html>`_.
 
 The header gets the data for each section from the model using the :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.headerData` function. You can set the data by using :sip:ref:`~PyQt6.QtCore.QAbstractItemModel.setHeaderData`.
 
@@ -44,5 +44,12 @@ Not all :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole`\ s will have an effect on a :si
 :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.TextAlignmentRole`, :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DisplayRole`, :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.FontRole`, :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.DecorationRole`, :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.ForegroundRole`, and :sip:ref:`~PyQt6.QtCore.Qt.ItemDataRole.BackgroundRole`.
 
 **Note:** Each header renders the data for each section itself, and does not rely on a delegate. As a result, calling a header's setItemDelegate() function will have no effect.
+
+.. _qheaderview-special-consideration-for-huge-models:
+
+Special consideration for huge models
+-------------------------------------
+
+The headerview uses 8 to 16 bytes of memory per section. However, since Qt 6.9 this section memory is only used if one or more sections are resized or reordered. This means that it's possible for a model to have millions of sections without :sip:ref:`~PyQt6.QtWidgets.QHeaderView` consuming a proportional, and therefore huge, amount of memory, as long as there are *no* calls to :sip:ref:`~PyQt6.QtWidgets.QHeaderView.swapSections`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.resizeSection`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.hideSection`, :sip:ref:`~PyQt6.QtWidgets.QHeaderView.moveSection`, and :sip:ref:`~PyQt6.QtWidgets.QHeaderView.stretchLastSection` (enabling it). In order to avoid such calls by user actions the :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionResizeMode` should be :sip:ref:`~PyQt6.QtWidgets.QHeaderView.ResizeMode` (without specifying it for any indexes, as that will do the opposite). The user should also be prevented from moving sections by keeping :sip:ref:`~PyQt6.QtWidgets.QHeaderView.sectionsMovable` disabled.
 
 .. seealso:: `Model/View Programming <https://doc.qt.io/qt-6/model-view-programming.html>`_, :sip:ref:`~PyQt6.QtWidgets.QListView`, :sip:ref:`~PyQt6.QtWidgets.QTableView`, :sip:ref:`~PyQt6.QtWidgets.QTreeView`.

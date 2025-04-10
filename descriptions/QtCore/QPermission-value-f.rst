@@ -2,13 +2,16 @@
     :status: todo
     :pysig: ed36a1ef76a59ee3f15180e0441188ad
     :realsig: () const
-    :digest: 556e9a5cda40c29bd4ecb2c9b8a9b78a
+    :digest: 7a24d8d732512e881e4545e2b3f12049
 
-Returns the :ref:`typed permission<qpermission-typed-permission>` of type ``T``, or ``std::nullopt`` if this :sip:ref:`~PyQt6.QtCore.QPermission` object doesn't contain one.
+Returns the :ref:`typed permission<qpermission-typed-permissions>` of type ``T``, or ``std::nullopt`` if this :sip:ref:`~PyQt6.QtCore.QPermission` object doesn't contain one.
 
 Use :sip:ref:`~PyQt6.QtCore.QPermission.type` for dynamically choosing which typed permission to request.
 
-This function participates in overload resolution only if ``T`` is one of the :ref:`typed permission<qpermission-typed-permission>` classes:
+Constraints
+-----------
+
+Participates in overload resolution only if ``T`` is one of the :ref:`typed permission<qpermission-typed-permissions>` classes:
 
 +------------------------------------------------+----------------------------------------------------------+
 | :sip:ref:`~PyQt6.QtCore.QCameraPermission`     | Access the camera for taking pictures or videos.         |

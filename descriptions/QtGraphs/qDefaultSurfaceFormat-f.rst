@@ -2,7 +2,9 @@
     :status: todo
     :pysig: 0ac588f24c06cea5b065ba516eab44ac
     :realsig: (bool)
-    :digest: 53dd83e2271adf2acbb77b5e747c3a9f
+    :digest: 4bfe402f482f82ac1d9060bf78aa62f8
+
+Use QQuick3D::idealSurfaceFormat()
 
 This convenience function can be used to create a custom surface format suitable for use by Qt Graphs graphs.
 
@@ -18,7 +20,7 @@ For example, disable antialiasing on C++ application:
 
     // ...
 
-    Q3DBars *graph = new Q3DBars(qDefaultSurfaceFormat(false));
+    QSurfaceFormat::setDefaultFormat(qDefaultSurfaceFormat(true));
 
 For example, enable antialiasing for direct rendering modes on QML application:
 

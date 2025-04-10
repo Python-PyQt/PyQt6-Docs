@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 2d0685d1d95a5432da00582b66be5677
+    :digest: fee1b07cc41f34258f350fa79b099d03
 
 Describes the various metrics of a paint device.
 

@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: d27bef8539573f8d5cb87ba80b0180c6
+    :digest: d7309b29aaab109b5784b4bfc808218e
 
 This enum defines which units are used for measurement.

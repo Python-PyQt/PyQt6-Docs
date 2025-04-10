@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a key sequence as used by shortcuts
-    :digest: 07f94e99df1ea3bb6924c1c8f0f2a660
+    :digest: d14f793d46062616e2bd6eb4643b7993
 
 The :sip:ref:`~PyQt6.QtGui.QKeySequence` class encapsulates a key sequence as used by shortcuts.
 
@@ -24,7 +24,7 @@ Note that, for letters, the case used in the specification string does not matte
 
 It is preferable to use standard shortcuts where possible. When creating key sequences for non-standard shortcuts, you should use human-readable strings in preference to hard-coded integer values.
 
-:sip:ref:`~PyQt6.QtGui.QKeySequence` objects can be cast to a QString to obtain a human-readable translated version of the sequence. Similarly, the :sip:ref:`~PyQt6.QtGui.QKeySequence.toString` function produces human-readable strings for use in menus. On Apple platforms, the appropriate symbols are used to describe keyboard shortcuts using special keys on the Macintosh keyboard.
+:sip:ref:`~PyQt6.QtGui.QKeySequence` object can be serialized to human-readable strings with the :sip:ref:`~PyQt6.QtGui.QKeySequence.toString` function.
 
 An alternative way to specify hard-coded key codes is to use the Unicode code point of the character; for example, 'A' gives the same key sequence as :sip:ref:`~PyQt6.QtCore.Qt.Key.Key_A`.
 
@@ -64,7 +64,7 @@ Standard Shortcuts
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | Paste                                                                     | Ctrl+V, Shift+Ins                         | Ctrl+V, Meta+Y                                     | Ctrl+V, F18, Shift+Ins            | Ctrl+V, F18, Shift+Ins |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
-| Preferences                                                               |                                           | Ctrl+,                                             |                                   |                        |
+| Preferences                                                               |                                           | Ctrl+,                                             | Ctrl+Shift+,                      |                        |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+
 | Undo                                                                      | Ctrl+Z, Alt+Backspace                     | Ctrl+Z                                             | Ctrl+Z, F14                       | Ctrl+Z, F14            |
 +---------------------------------------------------------------------------+-------------------------------------------+----------------------------------------------------+-----------------------------------+------------------------+

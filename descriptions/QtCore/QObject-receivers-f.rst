@@ -2,7 +2,7 @@
     :status: todo
     :pysig: f3efd09867f8e2da83d6b12e9b7ca068
     :realsig: (const char*) const
-    :digest: e909958940ba569ec90af312a812bade
+    :digest: 494fb56304cfae17bc5f67ec97de4916
 
 Returns the number of receivers connected to the *signal*.
 
@@ -13,6 +13,10 @@ When calling this function, you can use the ``SIGNAL()`` macro to pass a specifi
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qobject.py
     :lines: 273-277
 
-**Warning:** This function violates the object-oriented principle of modularity. However, it might be useful when you need to perform expensive initialization only if something is connected to a signal.
+As the code snippet above illustrates, you can use this function to avoid expensive operations or emitting a signal that nobody listens to.
+
+**Warning:** In a multithreaded application, consecutive calls to this function are not guaranteed to yield the same results.
+
+**Warning:** This function violates the object-oriented principle of modularity. In particular, this function must not be called from an override of :sip:ref:`~PyQt6.QtCore.QObject.connectNotify` or :sip:ref:`~PyQt6.QtCore.QObject.disconnectNotify`, as those might get called from any thread.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QObject.isSignalConnected`.

@@ -2,6 +2,6 @@
     :status: todo
     :pysig: a1b7b468f4f8c9d0aaf59d2a5677f459
     :realsig: (QOpenGLDebugMessage&)
-    :digest: 3ec034d8d45072e9a2419e39171751e1
+    :digest: 3f8cb215f4215d2756c487a55c8564f8
 
-Swaps the message *debugMessage* with this message. This operation is very fast and never fails.
+Swaps this message] with *other*. This operation is very fast and never fails.

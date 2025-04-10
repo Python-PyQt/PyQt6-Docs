@@ -2,6 +2,6 @@
     :status: todo
     :pysig: f1a3352dedddcd5702a560dc42c51ac0
     :realsig: (QHostInfo&)
-    :digest: 29d1b81453f476d801ec0cf31f624ff1
+    :digest: 66189ec512ec3576311d7c9dd7d651e5
 
-Swaps host-info *other* with this host-info. This operation is very fast and never fails.
+Swaps this host-info with *other*. This operation is very fast and never fails.

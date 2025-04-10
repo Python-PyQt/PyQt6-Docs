@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 12
-    :digest: 1c5d1dbfed3e6eb9490e8fae36a85c88
+    :digest: 5a0ef01166820ca4b6e646d981c0fad6
 
-The user clicked Cancel in the native windows UI.
+The user clicked Cancel in the native Windows UI.

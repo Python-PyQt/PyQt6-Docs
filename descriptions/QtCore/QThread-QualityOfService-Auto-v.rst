@@ -1,5 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
-    :value: TODO
+    :value: 0
+    :digest: bc17bbfdf2dc754155767530a2816826
 
-TODO
+The default value, leaving it to the scheduler to decide which CPU core to run the thread on.

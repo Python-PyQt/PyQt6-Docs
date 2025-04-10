@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7433d1e806f6e034a2ff44cdc742b63b
+    :digest: 82f243ca0e9b0001099152af38086cef
 
 This enumerated type is used to specify a language.
 

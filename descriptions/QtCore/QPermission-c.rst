@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: An opaque wrapper of a typed permission
-    :digest: 7089389fb41e2a83ebe79b181e76b5a7
+    :digest: a087ad971ee367910ee7c915b091a9c0
 
 An opaque wrapper of a typed permission.
 
-The :sip:ref:`~PyQt6.QtCore.QPermission` class is an opaque wrapper of a :ref:`typed permission<qpermission-typed-permission>`, used when checking or requesting permissions. You do not need to construct this type explicitly, as the type is automatically used when checking or requesting permissions:
+The :sip:ref:`~PyQt6.QtCore.QPermission` class is an opaque wrapper of a :ref:`typed permission<qpermission-typed-permissions>`, used when checking or requesting permissions. You do not need to construct this type explicitly, as the type is automatically used when checking or requesting permissions:
 
 ::
 
@@ -16,7 +16,7 @@ When requesting permissions, the given functor will be passed an instance of a :
 ::
 
     qApp->requestPermission(QCameraPermission{}, [](const QPermission &permission) {
-        if (permission.status() == Qt::PermissionStatus:Granted)
+        if (permission.status() == Qt::PermissionStatus::Granted)
             takePhoto();
     });
 
@@ -32,7 +32,7 @@ To inspect the properties of the original, typed permission, use the :sip:ref:`~
 
     void LocationWidget::permissionUpdated(const QPermission &permission)
     {
-        if (permission.status() != Qt::PermissionStatus:Granted)
+        if (permission.status() != Qt::PermissionStatus::Granted)
             return;
         auto locationPermission = permission.value<QLocationPermission>();
         if (!locationPermission || locationPermission->accuracy() != QLocationPermission::Precise)

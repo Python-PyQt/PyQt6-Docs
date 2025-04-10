@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 44bc2c1fd5e2c03f20d52764d053a737
+    :digest: eb96ecb5d62d2d6f68b1f7543d2a2ea7
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QCommandLineOption.setFlags`, :sip:ref:`~PyQt6.QtCore.QCommandLineOption.flags`.

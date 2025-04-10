@@ -2,6 +2,6 @@
     :status: todo
     :pysig: 8f48478791d03642797fb4455d9c598c
     :realsig: (QCommandLineOption&)
-    :digest: a035f250f9118c03dbc0d9b7fa7c63e5
+    :digest: 8d0cf60341481c4068364c8e2afdc101
 
-Swaps option *other* with this option. This operation is very fast and never fails.
+Swaps this option with *other*. This operation is very fast and never fails.

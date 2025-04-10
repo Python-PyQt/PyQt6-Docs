@@ -1,11 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Font metrics information
-    :digest: 9546ed91edc2624d78d3135613460c06
+    :digest: 87355803a4af748f2f7c6f2f7d91123a
 
 The :sip:ref:`~PyQt6.QtGui.QFontMetrics` class provides font metrics information.
 
-:sip:ref:`~PyQt6.QtGui.QFontMetrics` functions calculate the size of characters and strings for a given font. There are three ways you can create a :sip:ref:`~PyQt6.QtGui.QFontMetrics` object:
+:sip:ref:`~PyQt6.QtGui.QFontMetrics` functions calculate the size of characters and strings for a given font. The class is an integer-based version of :sip:ref:`~PyQt6.QtGui.QFontMetricsF` and will round all numbers to the nearest integer. This means its results will be inaccurate for any font with fractional metrics. In most cases :sip:ref:`~PyQt6.QtGui.QFontMetricsF` should be used instead.
+
+There are three ways you can create a :sip:ref:`~PyQt6.QtGui.QFontMetrics` object:
 
 #. Calling the :sip:ref:`~PyQt6.QtGui.QFontMetrics` constructor with a :sip:ref:`~PyQt6.QtGui.QFont` creates a font metrics object for a screen-compatible font, i.e. the font cannot be a printer font. If the font is changed later, the font metrics object is *not* updated.
 

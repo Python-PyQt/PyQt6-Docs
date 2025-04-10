@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates an OpenGL texture object
-    :digest: 738f11a54af20a49b5d12f234b12857a
+    :digest: e41548199b8c0c5c955843ff5323aae7
 
 The :sip:ref:`~PyQt6.QtOpenGL.QOpenGLTexture` class encapsulates an OpenGL texture object.
 
@@ -26,7 +26,7 @@ In the common case of simply using a :sip:ref:`~PyQt6.QtGui.QImage` as the sourc
 ::
 
     // Prepare texture
-    QOpenGLTexture *texture = new QOpenGLTexture(QImage(fileName).mirrored());
+    QOpenGLTexture *texture = new QOpenGLTexture(QImage(fileName).flipped());
     texture->setMinificationFilter(QOpenGLTexture::LinearMipMapLinear);
     texture->setMagnificationFilter(QOpenGLTexture::Linear);
     ...
@@ -34,4 +34,4 @@ In the common case of simply using a :sip:ref:`~PyQt6.QtGui.QImage` as the sourc
     texture->bind();
     glDrawArrays(...);
 
-Note that the :sip:ref:`~PyQt6.QtGui.QImage` is mirrored vertically to account for the fact that OpenGL and :sip:ref:`~PyQt6.QtGui.QImage` use opposite directions for the y axis. Another option would be to transform your texture coordinates.
+Note that the :sip:ref:`~PyQt6.QtGui.QImage` is flipped vertically to account for the fact that OpenGL and :sip:ref:`~PyQt6.QtGui.QImage` use opposite directions for the y axis. Another option would be to transform your texture coordinates.

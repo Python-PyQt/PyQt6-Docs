@@ -2,6 +2,6 @@
     :status: todo
     :pysig: a5704e7d57089c440a7d83c72d987b9e
     :realsig: (QByteArray&)
-    :digest: 37449b1d4c55bec16742a61d3b776403
+    :digest: 79387460d45f2a6c488395d113d2f4fc
 
-Swaps byte array *other* with this byte array. This operation is very fast and never fails.
+Swaps this byte array with *other*. This operation is very fast and never fails.

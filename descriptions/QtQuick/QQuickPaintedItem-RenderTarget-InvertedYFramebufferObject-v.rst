@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: 24df60629f0915fa77a61ecbbb142b16
+    :digest: 4fa64cc31aa987e0f81242af38eaf55d
 
-As of Qt 6.0, this value is ignored.
+Same as FramebufferObject, but with the rendering flipped around the X axis.

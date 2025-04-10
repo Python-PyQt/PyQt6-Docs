@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Meta-data about a property
-    :digest: 5aafb27f49c493b757d2c27dda175c1a
+    :digest: b5d583b5ad5c197445058645494828c2
 
 The :sip:ref:`~PyQt6.QtCore.QMetaProperty` class provides meta-data about a property.
 
@@ -12,7 +12,7 @@ Property meta-data is obtained from an object's meta-object. See :sip:ref:`~PyQt
 Property Meta-Data
 ------------------
 
-A property has a :sip:ref:`~PyQt6.QtCore.QMetaProperty.name` and a , as well as various attributes that specify its behavior: :sip:ref:`~PyQt6.QtCore.QMetaProperty.isReadable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isWritable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isDesignable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isScriptable`, revision(), and :sip:ref:`~PyQt6.QtCore.QMetaProperty.isStored`.
+A property has a :sip:ref:`~PyQt6.QtCore.QMetaProperty.name` and a :sip:ref:`~PyQt6.QtCore.QMetaProperty.metaType`, as well as various attributes that specify its behavior: :sip:ref:`~PyQt6.QtCore.QMetaProperty.isReadable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isWritable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isDesignable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isScriptable`, :sip:ref:`~PyQt6.QtCore.QMetaProperty.revision`, and :sip:ref:`~PyQt6.QtCore.QMetaProperty.isStored`.
 
 If the property is an enumeration, :sip:ref:`~PyQt6.QtCore.QMetaProperty.isEnumType` returns ``true``; if the property is an enumeration that is also a flag (i.e. its values can be combined using the OR operator), :sip:ref:`~PyQt6.QtCore.QMetaProperty.isEnumType` and :sip:ref:`~PyQt6.QtCore.QMetaProperty.isFlagType` both return true. The enumerator for these types is available from :sip:ref:`~PyQt6.QtCore.QMetaProperty.enumerator`.
 

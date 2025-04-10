@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 95bc3d14303f22e358f6ff12558385a3
     :realsig: ()
-    :digest: 59eb6d04750157e924dc1f0bebe46910
+    :digest: b318ebb5b4fd13ed91db19983809775b
 
 Returns the list of image formats supported by :sip:ref:`~PyQt6.QtGui.QImageReader`.
 
@@ -34,6 +34,6 @@ By default, Qt can read the following formats:
 
 Reading and writing SVG files is supported through the `Qt SVG <https://doc.qt.io/qt-6/qtsvg-index.html>`_ module. The Qt Image Formats module provides support for additional image formats.
 
-Note that the :sip:ref:`~PyQt6.QtWidgets.QApplication` instance must be created before this function is called.
+Note that the :sip:ref:`~PyQt6.QtCore.QCoreApplication` instance must be created before this function is called.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QImageReader.setFormat`, :sip:ref:`~PyQt6.QtGui.QImageWriter.supportedImageFormats`, QImageIOPlugin.

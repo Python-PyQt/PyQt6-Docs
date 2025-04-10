@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 19
-    :digest: 6d11c54a3338dd2f1a4bb10c19f044e9
+    :digest: 00a22b04eec052152b2ca8f93b913cf7
 
-Download the highlighted image to the disk. Requires a slot for :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.downloadRequested`. (Added in Qt 5.6)
+Download the highlighted image to the disk. Requires a slot for downloadRequested().

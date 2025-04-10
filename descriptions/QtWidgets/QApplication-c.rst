@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Manages the GUI application's control flow and main settings
-    :digest: c9cad77cca4fa8ab1623c8249ff86546
+    :digest: aa68a1c853a27ccdbe56fdd2f93bb3dc
 
 The :sip:ref:`~PyQt6.QtWidgets.QApplication` class manages the GUI application's control flow and main settings.
 
