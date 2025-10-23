@@ -172,6 +172,11 @@
     .. sip:method:: PyQt6.QtCore.QProcess.kill
         :description: QtCore/QProcess-kill-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QProcess.nativeArguments
+        :returns:
+            str
+        :description: QtCore/QProcess-nativeArguments-f.rst
+
     .. sip:method:: PyQt6.QtCore.QProcess.nullDevice
         :returns:
             str
@@ -236,6 +241,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QProcess.InputChannelMode`
         :description: QtCore/QProcess-setInputChannelMode-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QProcess.setNativeArguments
+        :args:
+            Optional[str]
+        :description: QtCore/QProcess-setNativeArguments-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setProcessChannelMode
         :args:

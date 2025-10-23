@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 2
-    :digest: 6148fd19df4d3e358cf09de3dbd8587d
+    :digest: 020ea987897d3ad69ddc15cbc65673ab
 
-A time which is not specifically Standard or Daylight-Saving time, either an unknown time or a neutral form. For example when formatting a display name this will show something like "Pacific Time".
+The name by which the zone is described independent of whether it is applying any daylight-saving adjustment. For example, "Pacific Time".

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Internationalization support for text output
-    :digest: 41dbf60540e151cd15c34b2821c09998
+    :digest: 72ac9ad85017d9a8e7745bb3e21906e1
 
 The :sip:ref:`~PyQt6.QtCore.QTranslator` class provides internationalization support for text output.
 
@@ -43,5 +43,14 @@ Using Multiple Translations
 Multiple translation files can be installed in an application. Translations are searched for in the reverse order in which they were installed, so the most recently installed translation file is searched for translations first and the earliest translation file is searched last. The search stops as soon as a translation containing a matching string is found.
 
 This mechanism makes it possible for a specific translation to be "selected" or given priority over the others; simply uninstall the translator from the application by passing it to the :sip:ref:`~PyQt6.QtCore.QCoreApplication.removeTranslator` function and reinstall it with :sip:ref:`~PyQt6.QtCore.QCoreApplication.installTranslator`. It will then be the first translation to be searched for matching strings.
+
+.. _qtranslator-security-considerations:
+
+Security Considerations
+-----------------------
+
+Only install translation files from trusted sources.
+
+Translation files are binary files that are generated from text-based translation source files. The format of these binary files is strictly defined by Qt and any manipulation of the data in the binary file may crash the application when the file is loaded. Furthermore, even well-formed translation files may contain misleading or malicious translations.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QCoreApplication.installTranslator`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.removeTranslator`, :sip:ref:`~PyQt6.QtCore.QObject.tr`, :sip:ref:`~PyQt6.QtCore.QCoreApplication.translate`.

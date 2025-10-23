@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 239d717b173babfd4dc1ef9e8a416733
     :realsig: (QPainter*, const QRect&, const QPalette&, bool, int, int, const QBrush*)
-    :digest: d527125cd4aef26132caa84fda92e675
-
-This is an overloaded function.
+    :digest: 8c468e007e9991f377162b5ba7ca184a
 
 Draws the shaded rectangle specified by *rect* using the given *painter*.
 

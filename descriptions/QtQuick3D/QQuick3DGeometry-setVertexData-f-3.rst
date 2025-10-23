@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6506bcc0dc6b9f5bc554559212db4fae
     :realsig: (int, const QByteArray&)
-    :digest: 97740f9ef34a8142b68a55a541d56ab1
-
-This is an overloaded function.
+    :digest: 011ac688b6e7b940b55dfe5b258a9996
 
 Updates a subset of the vertex buffer. *offset* specifies the offset in bytes, *data* specifies the size and the data.
 

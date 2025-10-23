@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 036e9c2cff75e17278911a538a7e62f1
     :realsig: (const QString&, const QString&)
-    :digest: 10bd746112dfc3ea4c36491363ff38d0
-
-This is an overloaded function.
+    :digest: f392594f7bead9752f9ef94ec9fe22db
 
 Renames the file *oldName* to *newName*. Returns ``true`` if successful; otherwise returns ``false``.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: f3795d01f84cbb9e2c21990eb790a04c
     :realsig: (const QRect&, Qt::ItemSelectionMode) const
-    :digest: c7f3f27631dc2fbc207d1c971add13d0
-
-This is an overloaded function.
+    :digest: 009cb6b05b4d844f32efff0573ccea17
 
 Returns a list of all the items that, depending on *mode*, are either contained by or intersect with *rect*. *rect* is in viewport coordinates.
 

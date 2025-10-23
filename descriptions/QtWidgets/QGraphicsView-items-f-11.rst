@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0da62cc17b663d7865b6c62be20d2ffc
     :realsig: (const QPolygon&, Qt::ItemSelectionMode) const
-    :digest: f1fe639113fddcfb0a3936ec19969ec2
-
-This is an overloaded function.
+    :digest: a5b31570bffa4366c535075be7bbfd99
 
 Returns a list of all the items that, depending on *mode*, are either contained by or intersect with *polygon*. *polygon* is in viewport coordinates.
 

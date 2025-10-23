@@ -2,9 +2,7 @@
     :status: todo
     :pysig: da40678e25227584e5ce4f200018e424
     :realsig: (const QWidget*)
-    :digest: fed3c58ca28e8775019766c79a61389d
-
-This is an overloaded function.
+    :digest: f2e3379b411db73af731862457a83d91
 
 Returns the default font for the *widget*. If a default font was not registered for the *widget*'s class, it returns the default font of its nearest registered superclass.
 

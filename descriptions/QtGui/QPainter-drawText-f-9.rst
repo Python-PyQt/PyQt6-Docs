@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 3492941b7185ab01b7b322b81d6a6906
     :realsig: (const QRectF&, int, const QString&, QRectF*)
-    :digest: fa4d148d5baf098e0d3cdf42db2dd10c
-
-This is an overloaded function.
+    :digest: 957ea6778ca59bf0277a440fbe89f783
 
 Draws the given *text* within the provided *rectangle*. The *rectangle* along with alignment *flags* defines the anchors for the *text*.
 
@@ -22,21 +20,21 @@ The *boundingRect* (if not null) is set to what the bounding rectangle should be
 
 The *flags* argument is a bitwise OR of the following flags:
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignLeft`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignRight`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignRight`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignHCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignHCenter`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignJustify`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignJustify`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignTop`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignTop`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignBottom`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignBottom`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignVCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignVCenter`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignCenter`
 
 * :sip:ref:`~PyQt6.QtCore.Qt.TextFlag.TextDontClip`
 
@@ -54,7 +52,7 @@ By default, :sip:ref:`~PyQt6.QtGui.QPainter` draws text anti-aliased.
 
 **Note:** The y-coordinate of *rectangle* is used as the top of the font.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`, :sip:ref:`~PyQt6.QtCore.Qt.TextFlag`, :sip:ref:`~PyQt6.QtGui.QPainter.boundingRect`, :sip:ref:`~PyQt6.QtGui.QPainter.layoutDirection`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`, :sip:ref:`~PyQt6.QtCore.Qt.TextFlag`, :sip:ref:`~PyQt6.QtGui.QPainter.boundingRect`, :sip:ref:`~PyQt6.QtGui.QPainter.layoutDirection`.
 
 .. |image-qpainter-text-png| image:: ../../../images/qpainter-text.png
 .. |image-qpainter-text-bounds-png| image:: ../../../images/qpainter-text-bounds.png

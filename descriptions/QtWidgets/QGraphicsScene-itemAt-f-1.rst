@@ -2,9 +2,7 @@
     :status: todo
     :pysig: cf2ec177d8144660a5a1f6597034eac0
     :realsig: (qreal,qreal,const QTransform&) const
-    :digest: 3228b188853c38e5a170792cbb578a53
-
-This is an overloaded function.
+    :digest: d96165181ee240aaa567df9fdc26fcf3
 
 Returns the topmost visible item at the position specified by (\ *x*, *y*), or ``nullptr`` if there are no items at this position.
 

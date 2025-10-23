@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Scalable icons in different modes and states
-    :digest: b6cbaf0370a6e03f7d4ea1ed57d24ad8
+    :digest: d6ebe46e19291c3e17852b15c5ccd0ff
 
 The :sip:ref:`~PyQt6.QtGui.QIcon` class provides scalable icons in different modes and states.
 
@@ -29,6 +29,8 @@ To clear the icon, simply set a null icon in its place:
     :lines: 74-74
 
 Use the :sip:ref:`~PyQt6.QtGui.QImageReader.supportedImageFormats` and :sip:ref:`~PyQt6.QtGui.QImageWriter.supportedImageFormats` functions to retrieve a complete list of the supported file formats.
+
+**Note:** If using an SVG image file, make sure to add it before any non-SVG files, so that the correct :ref:`qicon-icon-engines` gets selected.
 
 .. _qicon-creating-an-icon-from-a-theme-or-icon-library:
 

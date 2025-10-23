@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 1b336dbd6d88541d65944897cb31c7b5
     :realsig: (float,float,float,float,float)
-    :digest: ff53ccd6410edc41f5da157e22d7ed61
-
-This is an overloaded function.
+    :digest: 1c51c7682784d505b73a91cdedc8ba8d
 
 Sets the color to CMYK values, *c* (cyan), *m* (magenta), *y* (yellow), *k* (black), and *a* (alpha-channel, i.e. transparency).
 

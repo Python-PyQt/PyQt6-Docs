@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5c4e70403d70c0ed1ef1ab5908fdbb14
     :realsig: (quint32) const
-    :digest: 57979ff767c3a96bf016fdd8c0ad0628
-
-This is an overloaded function.
+    :digest: fe57e869ca1ed35a3d6ffd3f6c56fba1
 
 Returns the property at the given *arrayIndex*.
 

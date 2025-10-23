@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Off-screen image representation that can be used as a paint device
-    :digest: 5802e35d21d3486a28e6749265cd82d6
+    :digest: c8486eba624e2e859f43b4bf7a9ac271
 
 The :sip:ref:`~PyQt6.QtGui.QPixmap` class is an off-screen image representation that can be used as a paint device.
 
@@ -33,24 +33,36 @@ The complete list of supported file formats are available through the :sip:ref:`
 +========+=======================================+==============+
 | BMP    | Windows Bitmap                        | Read/write   |
 +--------+---------------------------------------+--------------+
-| GIF    | Graphic Interchange Format (optional) | Read         |
+| CUR    | Windows Cursor                        | Read/write   |
 +--------+---------------------------------------+--------------+
-| JPG    | Joint Photographic Experts Group      | Read/write   |
+| GIF    | Graphic Interchange Format            | Read         |
++--------+---------------------------------------+--------------+
+| ICO    | Windows Icon                          | Read/write   |
++--------+---------------------------------------+--------------+
+| JFIF   | JPEG File Interchange Format          | Read/write   |
 +--------+---------------------------------------+--------------+
 | JPEG   | Joint Photographic Experts Group      | Read/write   |
 +--------+---------------------------------------+--------------+
+| JPG    | Joint Photographic Experts Group      | Read/write   |
++--------+---------------------------------------+--------------+
+| PBM    | Portable Bitmap                       | Read/write   |
++--------+---------------------------------------+--------------+
+| PGM    | Portable Graymap                      | Read/write   |
++--------+---------------------------------------+--------------+
 | PNG    | Portable Network Graphics             | Read/write   |
 +--------+---------------------------------------+--------------+
-| PBM    | Portable Bitmap                       | Read         |
-+--------+---------------------------------------+--------------+
-| PGM    | Portable Graymap                      | Read         |
-+--------+---------------------------------------+--------------+
 | PPM    | Portable Pixmap                       | Read/write   |
++--------+---------------------------------------+--------------+
+| SVG    | Scalable Vector Graphics              | Read         |
++--------+---------------------------------------+--------------+
+| SVGZ   | Scalable Vector Graphics (Compressed) | Read         |
 +--------+---------------------------------------+--------------+
 | XBM    | X11 Bitmap                            | Read/write   |
 +--------+---------------------------------------+--------------+
 | XPM    | X11 Pixmap                            | Read/write   |
 +--------+---------------------------------------+--------------+
+
+Further formats are supported if the Qt Image Formats module is installed.
 
 .. _qpixmap-pixmap-information:
 

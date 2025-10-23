@@ -2,8 +2,10 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: 2d363b90a4b3671adafa48d20214644f
+    :digest: 27c2ccfd1bb609b6c9ad0ca2853514cf
 
 Returns the amount of audio data available to read in bytes.
 
-Note: returned value is only valid while in QtAudio::ActiveState or QtAudio::IdleState state, otherwise returns zero.
+**Note:** returned value is only valid while in QtAudio::ActiveState or QtAudio::IdleState state, otherwise returns zero.
+
+.. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.framesAvailable`.

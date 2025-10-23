@@ -2,9 +2,7 @@
     :status: todo
     :pysig: cd249c5f69a6e35f236fab3f27cc6294
     :realsig: (QByteArrayView,QByteArrayView)
-    :digest: afab479752e8349aa00c7ab944a0a7cc
-
-This is an overloaded function.
+    :digest: 8547b3059a897bcd106ef87c8e70cf61
 
 Replaces every occurrence of the byte array *before* with the byte array *after*.
 

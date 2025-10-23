@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 50cad8623622f8634e05e32fc5f89c03
     :realsig: (const QPointF&)
-    :digest: 3e261bb3f5dd13710dd22aea6c4e71e5
-
-This is an overloaded function.
+    :digest: e68f3eb6e0d91984fb773da2272bbc60
 
 Translates all elements in the path by the given *offset*.
 

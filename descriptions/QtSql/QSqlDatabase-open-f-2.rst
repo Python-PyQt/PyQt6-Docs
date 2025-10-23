@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d78c0dda30afdfe8349093b1cd0e5f7a
     :realsig: (const QString&, const QString&)
-    :digest: 519ed22312ac728d92dc5d8789c97135
-
-This is an overloaded function.
+    :digest: 94f54f991598000bb9bd83c455dfcf96
 
 Opens the database connection using the given *user* name and *password*. Returns ``true`` on success; otherwise returns ``false``. Error information can be retrieved using the :sip:ref:`~PyQt6.QtSql.QSqlDatabase.lastError` function.
 

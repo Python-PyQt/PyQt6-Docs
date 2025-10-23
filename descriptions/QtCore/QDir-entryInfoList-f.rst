@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 3b26ce25cbe95e5ed316539be116e0dc
     :realsig: (QDir::Filters, QDir::SortFlags) const
-    :digest: dea02e41e34768f01e7ff76ecb8e44c0
-
-This is an overloaded function.
+    :digest: bd468c4fea72dcfeccd1d3782053e172
 
 Returns a list of :sip:ref:`~PyQt6.QtCore.QFileInfo` objects for all the files and directories in the directory, ordered according to the name and attribute filters previously set with :sip:ref:`~PyQt6.QtCore.QDir.setNameFilters` and :sip:ref:`~PyQt6.QtCore.QDir.setFilter`, and sorted according to the flags set with :sip:ref:`~PyQt6.QtCore.QDir.setSorting`.
 

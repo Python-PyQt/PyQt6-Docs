@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c37006bda2f9fa352b6dbcaf52ec954b
     :realsig: (const QPainterPath&,Qt::ItemSelectionOperation,Qt::ItemSelectionMode,const QTransform&)
-    :digest: d390275eff710da6992317de1e5d1503
-
-This is an overloaded function.
+    :digest: 70044a0be93d81814694af5e04214339
 
 Sets the selection area to *path* using *mode* to determine if items are included in the selection area.
 

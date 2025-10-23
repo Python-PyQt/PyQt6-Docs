@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 14
-    :digest: ad5dbb7186ffd0a431c911a1fe1ff9c6
+    :digest: cc0deda08a4cd480a2be2a61410f0935
 
-Open the current link in a new tab. Requires implementation of createWindow() or newWindowRequested().
+Open the current link in a new tab. Requires implementation of :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.createWindow` or :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.newWindowRequested`.

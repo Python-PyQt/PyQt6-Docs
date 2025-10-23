@@ -244,10 +244,20 @@
             bool
         :description: QtWidgets/QListWidget-setSortingEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QListWidget.setSupportedDragActions
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QListWidget-setSupportedDragActions-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QListWidget.sortItems
         :args:
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.AscendingOrder`
         :description: QtWidgets/QListWidget-sortItems-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QListWidget.supportedDragActions
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QListWidget-supportedDragActions-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidget.supportedDropActions
         :returns:

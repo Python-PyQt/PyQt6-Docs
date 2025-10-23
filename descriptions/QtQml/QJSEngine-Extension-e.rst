@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 225bf294acae624c040c30ded10ad429
+    :digest: 0735ab7a885ba761fefb01718c262b9c
 
 This enum is used to specify extensions to be installed via :sip:ref:`~PyQt6.QtQml.QJSEngine.installExtensions`.
 
@@ -30,7 +30,7 @@ For more information, see the Internationalization with Qt documentation.
 
 **ConsoleExtension**
 
-The console object implements a subset of the `Console API <https://developer.mozilla.org/en-US/docs/Web/API/Console>`_, which provides familiar logging functions, such as ``console.log()``.
+The `console <https://doc.qt.io/qt-6/qtquick-debugging.html#console-api>`_ object implements a subset of the `Console API <https://developer.mozilla.org/en-US/docs/Web/API/Console>`_, which provides familiar logging functions, such as ``console.log()``.
 
 The list of functions added is as follows:
 
@@ -58,7 +58,7 @@ The list of functions added is as follows:
 
 * ``print()`` (equivalent to ``console.debug()``)
 
-For more information, see the Console API documentation.
+For more information, see the `Console API <https://doc.qt.io/qt-6/qtquick-debugging.html#console-api>`_ documentation.
 
 **GarbageCollectionExtension**
 

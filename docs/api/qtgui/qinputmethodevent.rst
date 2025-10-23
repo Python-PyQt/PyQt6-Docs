@@ -13,6 +13,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QInputMethodEvent.AttributeType.Language
             :description: QtGui/QInputMethodEvent-AttributeType-Language-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QInputMethodEvent.AttributeType.MimeData
+            :description: QtGui/QInputMethodEvent-AttributeType-MimeData-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QInputMethodEvent.AttributeType.Ruby
             :description: QtGui/QInputMethodEvent-AttributeType-Ruby-v.rst
 

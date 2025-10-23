@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0f6fb60ef827df111b0651fef08e83ee
     :realsig: (QAnyStringView) const
-    :digest: 224eee774a2f9e485643135c570aa180
-
-This is an overloaded function.
+    :digest: faea8467bffc2655f3dcc048fa48caed
 
 Returns the value of the field called *name* in the record. If field *name* does not exist an invalid variant is returned.
 

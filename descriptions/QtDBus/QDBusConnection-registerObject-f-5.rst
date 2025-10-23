@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0a16565e713335b8b511b73eed8c81b0
     :realsig: (const QString&, const QString&, QObject*, QDBusConnection::RegisterOptions)
-    :digest: 4a910c03af3f9489b097507879d96b5f
-
-This is an overloaded function.
+    :digest: 6ab2d488d8f9ac7a4499a8801904ff4c
 
 Registers the object *object* at path *path* with interface name *interface* and returns ``true`` if the registration was successful. The *options* parameter specifies how much of the object *object* will be exposed through D-Bus.
 

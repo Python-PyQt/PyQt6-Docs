@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 11fc3dda62331e301ed1f7355e6771b8
     :realsig: (const QString&, const QVariant&, QSql::ParamType)
-    :digest: c271a97da997c8a565e7893f105479cb
-
-This is an overloaded function.
+    :digest: bd694b94e8a7eb42e5dea10359de2e03
 
 Binds the value *val* of parameter type *paramType* to the *placeholder* name in the current record (row).
 

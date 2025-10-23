@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 62e8ae590f6f97e0761398af86656a00
     :realsig: (const QPoint&) const
-    :digest: d9112ffc649ca3bc3bdef6b222b9a317
-
-This is an overloaded function.
+    :digest: 9a0bd2fb8716e3d0021791b8c9a1c0c0
 
 Returns a copy of the polygon that is translated by the given *offset*.
 

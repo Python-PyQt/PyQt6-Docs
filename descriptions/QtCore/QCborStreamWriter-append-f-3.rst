@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5b5f0037effa64dcfdc4b07c83e631b9
     :realsig: (QCborSimpleType)
-    :digest: efa1fd712b0ba992ca23714b73d9bb8e
-
-This is an overloaded function.
+    :digest: bb9519719540962ed602b63c6ad0c17f
 
 Appends the CBOR simple type *st* to the stream, creating a CBOR Simple Type value. In the following example, we write the simple type for Null as well as for type 32, which Qt has no support for.
 

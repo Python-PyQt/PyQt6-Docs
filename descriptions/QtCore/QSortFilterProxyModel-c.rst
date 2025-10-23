@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Support for sorting and filtering data passed between another model and a view
-    :digest: 6bc868e7849d9e75d222af7418a62db4
+    :digest: a20339354d4f7726176580298fbbe894
 
 The :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel` class provides support for sorting and filtering data passed between another model and a view.
 
@@ -81,7 +81,7 @@ Custom filtering behavior can be achieved by reimplementing the :sip:ref:`~PyQt6
 
 (This code snippet comes from the `Custom Sort/Filter Model <https://doc.qt.io/qt-6/qtwidgets-itemviews-customsortfiltermodel-example.html>`_ example.)
 
-If you are working with large amounts of filtering and have to invoke :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.invalidateFilter` repeatedly, using beginResetModel() / endResetModel() may be more efficient, depending on the implementation of your model. However, beginResetModel() / endResetModel() returns the proxy model to its original state, losing selection information, and will cause the proxy model to be repopulated.
+If you are working with large amounts of filtering and have to invoke :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.beginFilterChange` / :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.endFilterChange` repeatedly, using beginResetModel() / endResetModel() may be more efficient, depending on the implementation of your model. However, beginResetModel() / endResetModel() returns the proxy model to its original state, losing selection information, and will cause the proxy model to be repopulated.
 
 .. _qsortfilterproxymodel-subclassing:
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 4548a82a424de40b70622a91da08ea88
     :realsig: (QAnyStringView, QAnyStringView)
-    :digest: 6e70614f155b3d68bc2a064bc630354e
-
-This is an overloaded function.
+    :digest: e1d69c69599ae565d5e0844093d0d446
 
 Writes a text element with *qualifiedName* and *text*.
 

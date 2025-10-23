@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (double)
-    :digest: 6e54603067fe6fe83fb880659fb2b1ab
-
-This is an overloaded function.
+    :digest: dd128461162a098b958ad2ed5adc88d8
 
 Displays the number *num*.

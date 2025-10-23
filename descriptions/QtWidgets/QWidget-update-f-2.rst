@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 7b302619a1f8d21d9efa913403e8d56b
     :realsig: (const QRegion&)
-    :digest: 679b045cb6a0fd67c54d693f6fab18e6
-
-This is an overloaded function.
+    :digest: c69a8c6e5dcf828fa167130f89c96feb
 
 This version repaints a region *rgn* inside the widget.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6506bcc0dc6b9f5bc554559212db4fae
     :realsig: (int, const QByteArray&)
-    :digest: a16d1db2ed1d01ae96938b6dc4752269
-
-This is an overloaded function.
+    :digest: a6eace3eb03294774ecc03a260b2fa0c
 
 Updates a subset of the index buffer. *offset* specifies the offset in bytes, *data* specifies the size and the data.
 

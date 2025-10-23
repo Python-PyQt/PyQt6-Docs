@@ -17,6 +17,11 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtMultimedia/QAudioSource-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QAudioSource.bufferFrameCount
+        :returns:
+            int
+        :description: QtMultimedia/QAudioSource-bufferFrameCount-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QAudioSource.bufferSize
         :returns:
             int
@@ -42,6 +47,11 @@
             :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat`
         :description: QtMultimedia/QAudioSource-format-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QAudioSource.framesAvailable
+        :returns:
+            int
+        :description: QtMultimedia/QAudioSource-framesAvailable-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QAudioSource.processedUSecs
         :returns:
             int
@@ -52,6 +62,11 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioSource.resume
         :description: QtMultimedia/QAudioSource-resume-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QAudioSource.setBufferFrameCount
+        :args:
+            int
+        :description: QtMultimedia/QAudioSource-setBufferFrameCount-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QAudioSource.setBufferSize
         :args:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0bf91c4c39bee100351ba767a48c9477
     :realsig: (QObject*,const char*,Qt::ConnectionType,QGenericReturnArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument,QGenericArgument)
-    :digest: 041b4821d06910df80d00bfa8a6634b2
-
-This is an overloaded function.
+    :digest: 59f2a82cff6f4807aa0e21051b3f26b8
 
 Please use the variadic overload of this function
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 8834a08c60caeffb04730243a04e173f
     :realsig: (Qt::FocusReason)
-    :digest: db4d326367ba4d151856be27f5c0c4b7
-
-This is an overloaded function.
+    :digest: 74d76b5ec68849abb7cead23128dd4fb
 
 Forces active focus on the item with the given *reason*.
 

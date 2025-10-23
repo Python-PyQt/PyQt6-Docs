@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 469c3d5de45760d2e753a158b05ea5cb
     :realsig: (QAnyStringView) const
-    :digest: e800d89019d775826ba65e4b9c8067f9
-
-This is an overloaded function.
+    :digest: 34b495e42425db20debd721739479545
 
 Returns ``true`` if there is no field with this *name*; otherwise returns :sip:ref:`~PyQt6.QtSql.QSqlQuery.isNull`\ (int index) for the corresponding field index.
 

@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 61569f2965b7a369eb10b6d75d410d11
     :realsig: (int,int)
-    :digest: aa1c192ec7b198b926cb0b017a22fec9
-
-This is an overloaded function.
+    :digest: ba95e6f16b863bce6a074f93c1790252
 
 Sets the width of the widget to *w* and the height to *h*.

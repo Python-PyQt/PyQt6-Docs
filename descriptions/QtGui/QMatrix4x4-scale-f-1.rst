@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (float)
-    :digest: 38b58ab63fd14f7b1ba311369cd21d6e
-
-This is an overloaded function.
+    :digest: 40a7de07da47ebdbd60000339382b847
 
 Multiplies this matrix by another that scales coordinates by the given *factor*.
 

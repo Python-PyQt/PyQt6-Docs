@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 276c4605df255637e09c38285dce64aa
     :realsig: (const char*,const QPoint&)
-    :digest: 2e4ed556514199d42c08e321c912b31e
-
-This is an overloaded function.
+    :digest: 4ddf83e06d399b920476f25754ac14b0
 
 Sets the uniform variable associated with *name* in the current context to the x and y coordinates of *point*.
 

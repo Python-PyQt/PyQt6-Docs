@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
-    :digest: 13ce9bcc9638f5b2dea2cce20e8e01cb
-
-This is an overloaded function.
+    :digest: a9da9249839c1ad7fdfe83804ab4e582
 
 Creates a :sip:ref:`~PyQt6.QtSql.QSqlDatabase` connection that uses the driver referred to by *type*. If the *type* is not recognized, the database connection will have no functionality.
 

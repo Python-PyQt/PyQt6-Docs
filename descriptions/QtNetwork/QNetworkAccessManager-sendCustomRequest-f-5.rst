@@ -2,9 +2,7 @@
     :status: todo
     :pysig: e3d916c0f1451044d05868253ce516e7
     :realsig: (const QNetworkRequest&, const QByteArray&, QHttpMultiPart*)
-    :digest: 462e7f3d00eded70ba08b4c0688fe5c1
-
-This is an overloaded function.
+    :digest: 98797bb81cc1030a244630db9c5711d5
 
 Sends a custom request to the server identified by the URL of *request*.
 

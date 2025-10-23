@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 763eb7e9f3d45684b1d53751a3f28009
     :realsig: (int,int,const QImage&,int,int,int,int,Qt::ImageConversionFlags)
-    :digest: ac529871f23bf02b844102c10a1ed6df
-
-This is an overloaded function.
+    :digest: be1cf27ce3e2e2e100f8a2c1a998a6d1
 
 Draws an image at (\ *x*, *y*) by copying a part of *image* into the paint device.
 

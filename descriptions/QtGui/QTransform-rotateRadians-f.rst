@@ -2,9 +2,7 @@
     :status: todo
     :pysig: a534763fda2a6447a4ed990c693f21f2
     :realsig: (qreal,Qt::Axis)
-    :digest: a819a1db5caefdb685ad2a9949bf6ad5
-
-This is an overloaded function.
+    :digest: eb0b263cae3a363daf90457002b98de4
 
 Rotates the coordinate system counterclockwise by the given angle *a* about the specified *axis* at distance 1024.0 from the screen and returns a reference to the matrix.
 

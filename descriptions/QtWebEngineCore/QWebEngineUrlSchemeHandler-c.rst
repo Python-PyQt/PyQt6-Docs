@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Base class for handling custom URL schemes
-    :digest: 88680dfe1b3c5d09273796e6caedd7fe
+    :digest: 9ec2a5e445a59ee53ad8270300d8c62b
 
 The :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler` class is a base class for handling custom URL schemes.
 
@@ -9,11 +9,11 @@ A custom scheme handler is, broadly speaking, similar to a web application serve
 
 To implement a custom URL scheme for `QtWebEngine <https://doc.qt.io/qt-6/qtwebengine-qmlmodule.html>`_, you first have to create an instance of :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlScheme` and register it using :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlScheme.registerScheme`.
 
-As custom schemes are integrated directly into the web engine, they do not necessarily need to follow the standard security rules which apply to ordinary web content. Depending on the chosen configuration, content served over a custom scheme may be given access to local resources, be set to ignore Content-Security-Policy rules, or conversely, be denied access to any other content entirely. If it is to be accessed by normal content, ensure cross-origin access is enabled, and if accessed from HTTPS that it is marked as secure.
+As custom schemes are integrated directly into the web engine, they do not necessarily need to follow the standard security rules which apply to ordinary web content. Depending on the chosen configuration, content served over a custom scheme may be given access to local resources, be set to ignore Content-Security-Policy rules, or conversely, be denied access to any other content entirely. If it is to be accessed by normal content, ensure cross-origin access is enabled, and if accessed from HTTPS, that it is marked as secure.
 
 **Note:** Make sure that you create and register the scheme object *before* the :sip:ref:`~PyQt6.QtGui.QGuiApplication` or :sip:ref:`~PyQt6.QtWidgets.QApplication` object is instantiated.
 
-Then you must create a class derived from :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`, and reimplement the :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler.requestStarted` method.
+Then, you must create a class derived from :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`, and reimplement the :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler.requestStarted` method.
 
 Finally, install the scheme handler object via :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.installUrlSchemeHandler` or :sip:ref:`~PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.installUrlSchemeHandler`.
 

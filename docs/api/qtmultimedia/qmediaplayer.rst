@@ -58,6 +58,18 @@
         .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.MediaStatus.StalledMedia
             :description: QtMultimedia/QMediaPlayer-MediaStatus-StalledMedia-v.rst
 
+    .. sip:enum:: PyQt6.QtMultimedia.QMediaPlayer.PitchCompensationAvailability
+        :description: QtMultimedia/QMediaPlayer-PitchCompensationAvailability-e.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.PitchCompensationAvailability.AlwaysOn
+            :description: QtMultimedia/QMediaPlayer-PitchCompensationAvailability-AlwaysOn-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.PitchCompensationAvailability.Available
+            :description: QtMultimedia/QMediaPlayer-PitchCompensationAvailability-Available-v.rst
+
+        .. sip:enum-member:: PyQt6.QtMultimedia.QMediaPlayer.PitchCompensationAvailability.Unavailable
+            :description: QtMultimedia/QMediaPlayer-PitchCompensationAvailability-Unavailable-v.rst
+
     .. sip:enum:: PyQt6.QtMultimedia.QMediaPlayer.PlaybackState
         :description: QtMultimedia/QMediaPlayer-PlaybackState-e.rst
 
@@ -173,8 +185,23 @@
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.pause
         :description: QtMultimedia/QMediaPlayer-pause-f.rst
 
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.pitchCompensation
+        :returns:
+            bool
+        :description: QtMultimedia/QMediaPlayer-pitchCompensation-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.pitchCompensationAvailability
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QMediaPlayer.PitchCompensationAvailability`
+        :description: QtMultimedia/QMediaPlayer-pitchCompensationAvailability-f.rst
+
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.play
         :description: QtMultimedia/QMediaPlayer-play-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.playbackOptions
+        :returns:
+            :sip:ref:`~PyQt6.QtMultimedia.QPlaybackOptions`
+        :description: QtMultimedia/QMediaPlayer-playbackOptions-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.playbackRate
         :returns:
@@ -190,6 +217,9 @@
         :returns:
             int
         :description: QtMultimedia/QMediaPlayer-position-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.resetPlaybackOptions
+        :description: QtMultimedia/QMediaPlayer-resetPlaybackOptions-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setActiveAudioTrack
         :args:
@@ -220,6 +250,16 @@
         :args:
             int
         :description: QtMultimedia/QMediaPlayer-setLoops-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setPitchCompensation
+        :args:
+            bool
+        :description: QtMultimedia/QMediaPlayer-setPitchCompensation-f.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setPlaybackOptions
+        :args:
+            :sip:ref:`~PyQt6.QtMultimedia.QPlaybackOptions`
+        :description: QtMultimedia/QMediaPlayer-setPlaybackOptions-f.rst
 
     .. sip:method:: PyQt6.QtMultimedia.QMediaPlayer.setPlaybackRate
         :args:
@@ -333,6 +373,14 @@
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.metaDataChanged
         :description: QtMultimedia/QMediaPlayer-metaDataChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.pitchCompensationChanged
+        :args:
+            bool
+        :description: QtMultimedia/QMediaPlayer-pitchCompensationChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.playbackOptionsChanged
+        :description: QtMultimedia/QMediaPlayer-playbackOptionsChanged-s.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QMediaPlayer.playbackRateChanged
         :args:

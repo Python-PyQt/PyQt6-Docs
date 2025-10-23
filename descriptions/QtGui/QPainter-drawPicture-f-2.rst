@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 397b47397ffa330f65e0a14ce90633aa
     :realsig: (int,int,const QPicture&)
-    :digest: 0aa6eb71d75027c2daec462ce34b886b
-
-This is an overloaded function.
+    :digest: ee1a51649e21551e2f4c0adc6dd76f5e
 
 Draws the given *picture* at point (\ *x*, *y*).

@@ -301,6 +301,11 @@
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
         :description: QtGui/QPainterPath-__ior__-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QPainterPath.isCachingEnabled
+        :returns:
+            bool
+        :description: QtGui/QPainterPath-isCachingEnabled-f.rst
+
     .. sip:method:: PyQt6.QtGui.QPainterPath.isEmpty
         :returns:
             bool
@@ -386,6 +391,11 @@
         :args:
             int
         :description: QtGui/QPainterPath-reserve-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainterPath.setCachingEnabled
+        :args:
+            bool
+        :description: QtGui/QPainterPath-setCachingEnabled-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.setElementPositionAt
         :args:
@@ -481,6 +491,15 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPainterPath`
         :description: QtGui/QPainterPath-translated-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QPainterPath.trimmed
+        :args:
+            float
+            float
+            offset: float = 0
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QPainterPath`
+        :description: QtGui/QPainterPath-trimmed-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.united
         :args:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 8bb6c4adadcec402be77aa13409dd6c3
     :realsig: (QOpenGLShader::ShaderType, const QString&)
-    :digest: 7b4c0fef8ab57d43fb6ba5e061a48c17
-
-This is an overloaded function.
+    :digest: ad4b3b9149e20d8a9f447937c8b73953
 
 Compiles *source* as a shader of the specified *type* and adds it to this shader program. Returns ``true`` if compilation was successful, false otherwise. The compilation errors and warnings will be made available via :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.log`.
 

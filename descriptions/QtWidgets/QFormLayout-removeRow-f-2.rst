@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 2f0da4d3658dfe115217ca868dfa5e64
     :realsig: (QLayout*)
-    :digest: 89c7384c4334b19a166cab4651f6f0f7
-
-This is an overloaded function.
+    :digest: b476ea08809b84114e1dc123f2b7dd73
 
 Deletes the row corresponding to *layout* from this form layout.
 

@@ -51,6 +51,11 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtWebEngineCore/QWebEngineProfile-__init__-f-2.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.additionalTrustedCertificates
+        :returns:
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :description: QtWebEngineCore/QWebEngineProfile-additionalTrustedCertificates-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.cachePath
         :returns:
             str
@@ -92,6 +97,11 @@
         :returns:
             str
         :description: QtWebEngineCore/QWebEngineProfile-downloadPath-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.extensionManager
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineExtensionManager`
+        :description: QtWebEngineCore/QWebEngineProfile-extensionManager-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.httpAcceptLanguage
         :returns:

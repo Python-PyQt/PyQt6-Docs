@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c9c635901822e19896153e6ca8ccfeb4
     :realsig: (QWindow*,Qt::Key,Qt::KeyboardModifiers,int)
-    :digest: 69c51cbcf90b18a9bf9b7d3eb3ae5a41
-
-This is an overloaded function.
+    :digest: c64957466d0bf67b81158cda53cb4149
 
 Simulates releasing a *key* with an optional *modifier* on a *window*. If *delay* is larger than 0, the test will wait for *delay* milliseconds before releasing the key.
 

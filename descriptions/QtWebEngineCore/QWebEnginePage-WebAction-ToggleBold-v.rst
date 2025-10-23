@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 33
-    :digest: 93a1768b49dd864d439751085e548398
+    :digest: 3cedc2bc1c832b5b0f22e911861b080a
 
-Toggles boldness for the selection or at the cursor position. Requires ``contenteditable="true"``. (Added in Qt 5.10)
+Toggles boldness for the selection, or at the cursor position. Requires ``contenteditable="true"``.

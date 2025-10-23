@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 61569f2965b7a369eb10b6d75d410d11
     :realsig: (int,int)
-    :digest: d59e673dd7dd4091101709424e450bf7
-
-This is an overloaded function.
+    :digest: 5c5e595520566fa20a8ebaef456c48c1
 
 Sets the *width* and *height* of frames in a video stream.
 

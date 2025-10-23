@@ -2,9 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (int)
-    :digest: 7d1ab3c928e1f126e0a8372b6c755252
-
-This is an overloaded function.
+    :digest: 08d0ac3f532849e52a611e8f43f6382f
 
 Allocates *count* bytes of space to the buffer. Any previous contents will be removed.
 

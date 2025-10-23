@@ -61,6 +61,13 @@
             :sip:ref:`~PyQt6.QtGraphs.QSurface3DSeries`
         :description: QtGraphsWidgets/Q3DSurfaceWidgetItem-removeSeries-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DSurfaceWidgetItem.renderSliceToImage
+        :args:
+            int
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType`
+        :description: QtGraphsWidgets/Q3DSurfaceWidgetItem-renderSliceToImage-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DSurfaceWidgetItem.selectedSeries
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QSurface3DSeries`
@@ -115,3 +122,8 @@
         :args:
             :sip:ref:`~PyQt6.QtGraphs.QSurface3DSeries`
         :description: QtGraphsWidgets/Q3DSurfaceWidgetItem-selectedSeriesChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DSurfaceWidgetItem.sliceImageChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGraphsWidgets/Q3DSurfaceWidgetItem-sliceImageChanged-s.rst

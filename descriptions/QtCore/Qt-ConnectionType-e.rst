@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 8f0b49eb5a8dfc3ea5f00e20d88a1441
+    :digest: e228ba16922b12e375cf41c45d76ec81
 
 This enum describes the types of connection that can be used between signals and slots. In particular, it determines whether a particular signal is delivered to a slot immediately or queued for delivery at a later time.
 
@@ -13,4 +13,4 @@ Call qRegisterMetaType() to register the data type before you establish the conn
 
 When using signals and slots with multiple threads, see Signals and Slots Across Threads.
 
-.. seealso:: QObject::connect(), qRegisterMetaType(), Q_DECLARE_METATYPE(), Thread Support in Qt.
+.. seealso:: QObject::connect(), qRegisterMetaType(), Q_DECLARE_METATYPE(), Multi-threading in Qt.

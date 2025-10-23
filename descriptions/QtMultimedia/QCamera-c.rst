@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for system camera devices
-    :digest: 7c9040ec7a83b6e70c02ea0d47da3f30
+    :digest: 718f0e00c2339475b4d8aeb6500d739d
 
 The :sip:ref:`~PyQt6.QtMultimedia.QCamera` class provides interface for system camera devices.
 
@@ -29,6 +29,8 @@ You can control many of these processing steps through the Camera properties. Fo
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-camera.py
     :lines: 237-237
 
-For more information on image processing of camera frames, see `Camera Image Processing <https://doc.qt.io/qt-6/cameraoverview.html#camera-image-processing>`_.
+For more information on image processing of camera frames, see `Camera Image Processing <https://doc.qt.io/qt-6/cameraoverview.html#camera-implementation-details-controlling-the-imaging-pipeline-image-processing-13>`_.
 
 See the `camera overview <https://doc.qt.io/qt-6/cameraoverview.html>`_ for more information.
+
+**Note:** On WebAssembly platform, due to it's asynchronous nature, :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices.videoInputsChanged` signal is emitted when the list of video inputs is ready. User permissions are required. Works only on secure https contexts.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 70ce07b225801abde2cb8f5bcae9bb3a
     :realsig: (const QString&) const
-    :digest: a6f1646787a183bdf3b7b6b078c7ddc0
-
-This is an overloaded function.
+    :digest: c6aead7abd49aadde30d21619fcbe9c1
 
 Returns the location of the attribute *name* within this shader program's parameter list. Returns -1 if *name* is not a valid attribute for this shader program.
 

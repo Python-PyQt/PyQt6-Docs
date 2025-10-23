@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 44f1cc99204ff48dfca2d2639e6aa532
     :realsig: (QToolBar*)
-    :digest: 08bd917368a9f55767dac9abf103ccac
+    :digest: 647f42ecba2d129324bc50216e0449d2
 
-This is an overloaded function.
-
-Equivalent of calling :sip:ref:`~PyQt6.QtWidgets.QMainWindow.addToolBar`\ (\ :sip:ref:`~PyQt6.QtCore.Qt.ToolBarAreas.TopToolBarArea`, *toolbar*)
+Equivalent of calling :sip:ref:`~PyQt6.QtWidgets.QMainWindow.addToolBar`\ (\ :sip:ref:`~PyQt6.QtCore.Qt.ToolBarArea.TopToolBarArea`, *toolbar*)

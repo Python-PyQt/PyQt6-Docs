@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 57b724016b3a99354a16ea4fedbe701f
     :realsig: (QPainter*, const QRect&, const QPalette&, bool, int, const QBrush*)
-    :digest: a2695b4a5f5d2e001cd29d8eb2e09134
-
-This is an overloaded function.
+    :digest: e6971b9ecd48641c9a9100eabadf96ee
 
 Draws the shaded panel at the rectangle specified by *rect* using the given *painter* and the given *lineWidth*.
 

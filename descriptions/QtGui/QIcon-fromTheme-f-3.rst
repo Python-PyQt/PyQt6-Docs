@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 46df8864bd29c8b024ba416f1e8c75c2
     :realsig: (const QString&, const QIcon&)
-    :digest: 7f631ff532adaece80f0062ea3e2faf4
-
-This is an overloaded function.
+    :digest: 245294e726e7d00b1262d8718ce82c60
 
 Returns the :sip:ref:`~PyQt6.QtGui.QIcon` corresponding to *name* in the :sip:ref:`~PyQt6.QtGui.QIcon.themeName`.
 

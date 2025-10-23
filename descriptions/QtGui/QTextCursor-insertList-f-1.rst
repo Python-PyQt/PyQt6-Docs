@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c7fe121d5f850476712e346299e109e5
     :realsig: (QTextListFormat::Style)
-    :digest: 50a7ad0bcea03eeed44c3e4aa0829c7c
-
-This is an overloaded function.
+    :digest: c3047ef510add7264b28766aa5fd18aa
 
 Inserts a new block at the current position and makes it the first list item of a newly created list with the given *style*. Returns the created list.
 

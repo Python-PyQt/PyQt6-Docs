@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Information about available multimedia input and output devices
-    :digest: 10f4831443097fa35d3d6d9a0ad7216f
+    :digest: 481c7fe06a420b7f520b46a8f210d4a1
 
 The :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices` class provides information about available multimedia input and output devices.
 
@@ -30,3 +30,5 @@ Similarly, the :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices.videoInputs` will ret
 While using the default input and output devices is often sufficient for playing back or recording multimedia, there is often a need to explicitly select the device to be used.
 
 :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices` is a singleton object and all getters are thread-safe.
+
+**Note:** On WebAssembly platform, due to it's asynchronous nature, the lists of devices will only be available after :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices.audioInputsChanged`, audioOutputsChanded, or :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices.videoInputsChanged` notifications.

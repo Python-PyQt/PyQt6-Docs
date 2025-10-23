@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Paint device that records and replays QPainter commands
-    :digest: 6b210237d91ecbaa7b0e3b1516949ec4
+    :digest: 3290c3ac36eea54a9fe65d33e1e8f957
 
 The :sip:ref:`~PyQt6.QtGui.QPicture` class is a paint device that records and replays :sip:ref:`~PyQt6.QtGui.QPainter` commands.
 
@@ -24,5 +24,7 @@ Example of how to replay a picture:
     :lines: 73-78
 
 Pictures can also be drawn using :sip:ref:`~PyQt6.QtGui.QPicture.play`. Some basic data about a picture is available, for example, :sip:ref:`~PyQt6.QtGui.QPicture.size`, :sip:ref:`~PyQt6.QtGui.QPicture.isNull` and :sip:ref:`~PyQt6.QtGui.QPicture.boundingRect`.
+
+**Note:** :sip:ref:`~PyQt6.QtGui.QPicture` uses :sip:ref:`~PyQt6.QtCore.QDataStream` for serialization. The same reservations against reading untrusted data apply.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QMovie`.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: b8cccc0b8c1b4adca9b2d74959482d8e
     :realsig: (const QString&, quint16, const QSslConfiguration&, const QString&)
-    :digest: c4824f59ecb18bbb9a2dc1a409a3dbe0
-
-This is an overloaded function.
+    :digest: d969dc8313a76964d6c2412f827fde9f
 
 Initiates a connection to the host given by *hostName* at port *port*, using *sslConfiguration* with *peerName* set to be the hostName used for certificate validation. This function is useful to complete the TCP and SSL handshake to a host before the HTTPS request is made, resulting in a lower network latency.
 

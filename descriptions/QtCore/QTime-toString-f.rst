@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5329e60a1199da82aaf4002273cdd0e3
     :realsig: (Qt::DateFormat) const
-    :digest: aa353239e1969eac1aee2d2a3634fc3c
-
-This is an overloaded function.
+    :digest: eb9de1a06fef09ecd293dfc09a858406
 
 Returns the time as a string. The *format* parameter determines the format of the string.
 

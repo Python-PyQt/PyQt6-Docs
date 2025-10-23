@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 4406c5b73d5751f931819ac762b8edbe
     :realsig: (int, int) const
-    :digest: 2021cbaa9235ed629e40be370d315133
-
-This is an overloaded function.
+    :digest: f941a42d42007a849844126a9f05829b
 
 Returns the glyph indexes and positions for all glyphs corresponding to the *length* characters starting at the position *from* in this :sip:ref:`~PyQt6.QtGui.QTextLayout`. This is an expensive function, and should not be called in a time sensitive context.
 

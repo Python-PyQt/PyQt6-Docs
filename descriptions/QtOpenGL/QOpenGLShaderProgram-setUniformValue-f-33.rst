@@ -2,9 +2,7 @@
     :status: todo
     :pysig: f9ad41cf15927aed6c7757f9dc368b77
     :realsig: (const char*,const QMatrix3x2&)
-    :digest: 7daa27923387fbe57da8e988fd1e9cd3
-
-This is an overloaded function.
+    :digest: 9d960e2a4e1cb2fc43c65b4c8854cbdc
 
 Sets the uniform variable called *name* in the current context to a 3x2 matrix *value*.
 

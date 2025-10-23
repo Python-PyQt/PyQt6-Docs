@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 24c661348e7a5a8ebe8b239d46db7926
     :realsig: (QEventLoop::ProcessEventsFlags, QDeadlineTimer)
-    :digest: 70e86ab10640e1186ed8e31e49a610af
-
-This is an overloaded function.
+    :digest: e35f57aad7cab2504e0e7eb215dc7ea7
 
 Processes pending events for the calling thread untile *deadline* has expired, or until there are no more events to process, whichever happens first.
 

@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 384ea163f921af9627b8e3281250b248
     :realsig: (QIODevice*)
-    :digest: c0c27d49548b3b606524e208b3db71dd
-
-This is an overloaded function.
+    :digest: e77989ed21758e78331b20e477fc5582
 
 *dev* is the device to use for saving.

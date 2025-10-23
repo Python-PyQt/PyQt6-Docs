@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 9ed0de7ecb17b6432f6443fa97d3d34d
     :realsig: (const QCommandLineOption&) const
-    :digest: e80715255fdbf7d72ad9225bba09c5d7
-
-This is an overloaded function.
+    :digest: 6d7bb4b55282e5a8f919a7344ad42937
 
 Checks whether the *option* was passed to the application.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 61b20b94381ccc479747095895be37ae
     :realsig: (const QString&)
-    :digest: c6fdc433facc2161e94cccf9fb178685
-
-This is an overloaded function.
+    :digest: 4860a5b4dc8da1bb2b2ddc3908f8a68a
 
 Creates a :sip:ref:`~PyQt6.QtWidgets.QToolBar` object, setting its window title to *title*, and inserts it into the top toolbar area.
 

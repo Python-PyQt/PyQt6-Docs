@@ -186,6 +186,18 @@
         .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.ShadowQuality.SoftMedium
             :description: QtGraphs/QtGraphs3D-ShadowQuality-SoftMedium-v.rst
 
+    .. sip:enum:: PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType
+        :description: QtGraphs/QtGraphs3D-SliceCaptureType-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType.ColumnImage
+            :description: QtGraphs/QtGraphs3D-SliceCaptureType-ColumnImage-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType.NoImage
+            :description: QtGraphs/QtGraphs3D-SliceCaptureType-NoImage-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType.RowImage
+            :description: QtGraphs/QtGraphs3D-SliceCaptureType-RowImage-v.rst
+
     .. sip:enum:: PyQt6.QtGraphs.QtGraphs3D.TransparencyTechnique
         :description: QtGraphs/QtGraphs3D-TransparencyTechnique-e.rst
 

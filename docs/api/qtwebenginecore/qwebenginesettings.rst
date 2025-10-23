@@ -87,6 +87,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.AutoLoadImages
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-AutoLoadImages-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.BackForwardCacheEnabled
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-BackForwardCacheEnabled-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.DnsPrefetchEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-DnsPrefetchEnabled-v.rst
 

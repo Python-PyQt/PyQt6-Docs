@@ -8,6 +8,11 @@
 
     .. sip:method:: PyQt6.QtMultimedia.QCapturableWindow.__init__
         :args:
+            :sip:ref:`~PyQt6.QtGui.QWindow`
+        :description: QtMultimedia/QCapturableWindow-__init__-f-2.rst
+
+    .. sip:method:: PyQt6.QtMultimedia.QCapturableWindow.__init__
+        :args:
             :sip:ref:`~PyQt6.QtMultimedia.QCapturableWindow`
         :description: QtMultimedia/QCapturableWindow-__init__-f-1.rst
 

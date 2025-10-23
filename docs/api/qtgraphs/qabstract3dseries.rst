@@ -4,6 +4,15 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtGraphs/QAbstract3DSeries-c.rst
 
+    .. sip:enum:: PyQt6.QtGraphs.QAbstract3DSeries.LightingMode
+        :description: QtGraphs/QAbstract3DSeries-LightingMode-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QAbstract3DSeries.LightingMode.Shaded
+            :description: QtGraphs/QAbstract3DSeries-LightingMode-Shaded-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QAbstract3DSeries.LightingMode.Unshaded
+            :description: QtGraphs/QAbstract3DSeries-LightingMode-Unshaded-v.rst
+
     .. sip:enum:: PyQt6.QtGraphs.QAbstract3DSeries.Mesh
         :description: QtGraphs/QAbstract3DSeries-Mesh-e.rst
 
@@ -98,6 +107,11 @@
             str
         :description: QtGraphs/QAbstract3DSeries-itemLabelFormat-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.lightingMode
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstract3DSeries.LightingMode`
+        :description: QtGraphs/QAbstract3DSeries-lightingMode-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.mesh
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QAbstract3DSeries.Mesh`
@@ -147,6 +161,11 @@
         :args:
             bool
         :description: QtGraphs/QAbstract3DSeries-setItemLabelVisible-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setLightingMode
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstract3DSeries.LightingMode`
+        :description: QtGraphs/QAbstract3DSeries-setLightingMode-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setMesh
         :args:
@@ -253,6 +272,11 @@
         :args:
             bool
         :description: QtGraphs/QAbstract3DSeries-itemLabelVisibleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.lightingModeChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstract3DSeries.LightingMode`
+        :description: QtGraphs/QAbstract3DSeries-lightingModeChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.meshChanged
         :args:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: e33ab3882276d8678e53773f862e3196
     :realsig: (QJSValue::ErrorType, const QString&)
-    :digest: 7e5f901d1b5a08792a0c90d1a09f0b7e
-
-This function overloads :sip:ref:`~PyQt6.QtQml.QJSEngine.throwError`.
+    :digest: 4620a35dca2f9bb9cf8fcb356e342c8a
 
 Throws a run-time error (exception) with the given *errorType* and *message*.
 

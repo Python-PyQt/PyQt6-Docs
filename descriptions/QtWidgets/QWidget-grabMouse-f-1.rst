@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 8e918d8b61b1642c2f8119e8dadd3b5a
     :realsig: (const QCursor&)
-    :digest: 3f29cf8b4bb85b033d583b4bde6e0510
-
-This function overloads :sip:ref:`~PyQt6.QtWidgets.QWidget.grabMouse`.
+    :digest: 0e8f618783b5c4e1a62f36ae8b5d2bba
 
 Grabs the mouse input and changes the cursor shape.
 

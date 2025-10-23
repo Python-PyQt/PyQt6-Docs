@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 30abb1de6f61e3fb45b37bea7fd11ba3
     :realsig: (const QList<QSslError>&)
-    :digest: f63f10ad3c10f5b72c3125387deea0f7
-
-This is an overloaded function.
+    :digest: 74d106530843c37ab9c123bd51077e0c
 
 This method tells :sip:ref:`~PyQt6.QtWebSockets.QWebSocket` to ignore the errors given in *errors*.
 

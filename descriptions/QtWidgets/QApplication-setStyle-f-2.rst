@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7e0c1d20198d2d22b30ccc5863327cae
     :realsig: (const QString&)
-    :digest: 2471c18eed131b605fb4e5603a5fb444
-
-This is an overloaded function.
+    :digest: be39c9b0bab41c6d5d049e5379dbda67
 
 Requests a :sip:ref:`~PyQt6.QtWidgets.QStyle` object for *style* from the :sip:ref:`~PyQt6.QtWidgets.QStyleFactory`.
 

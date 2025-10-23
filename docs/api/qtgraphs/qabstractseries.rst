@@ -25,6 +25,16 @@
         .. sip:enum-member:: PyQt6.QtGraphs.QAbstractSeries.SeriesType.Spline
             :description: QtGraphs/QAbstractSeries-SeriesType-Spline-v.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.axisX
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-axisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.axisY
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-axisY-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.classBegin
         :description: QtGraphs/QAbstractSeries-classBegin-f.rst
 
@@ -38,6 +48,11 @@
         :returns:
             bool
         :description: QtGraphs/QAbstractSeries-isHoverable-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.isHovered
+        :returns:
+            bool
+        :description: QtGraphs/QAbstractSeries-isHovered-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.isSelectable
         :returns:
@@ -64,10 +79,25 @@
             float
         :description: QtGraphs/QAbstractSeries-opacity-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setAxisX
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-setAxisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setAxisY
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-setAxisY-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setHoverable
         :args:
             bool
         :description: QtGraphs/QAbstractSeries-setHoverable-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setHovered
+        :args:
+            bool
+        :description: QtGraphs/QAbstractSeries-setHovered-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setName
         :args:
@@ -94,6 +124,11 @@
             visible: bool = True
         :description: QtGraphs/QAbstractSeries-setVisible-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setZValue
+        :args:
+            int
+        :description: QtGraphs/QAbstractSeries-setZValue-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.show
         :description: QtGraphs/QAbstractSeries-show-f.rst
 
@@ -107,6 +142,21 @@
             float
         :description: QtGraphs/QAbstractSeries-valuesMultiplier-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.zValue
+        :returns:
+            int
+        :description: QtGraphs/QAbstractSeries-zValue-f.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.axisXChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-axisXChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.axisYChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
+        :description: QtGraphs/QAbstractSeries-axisYChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hover
         :args:
             Optional[str]
@@ -116,6 +166,11 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoverableChanged
         :description: QtGraphs/QAbstractSeries-hoverableChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoveredChanged
+        :args:
+            bool
+        :description: QtGraphs/QAbstractSeries-hoveredChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoverEnter
         :args:
@@ -147,3 +202,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.visibleChanged
         :description: QtGraphs/QAbstractSeries-visibleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.zValueChanged
+        :args:
+            int
+        :description: QtGraphs/QAbstractSeries-zValueChanged-s.rst

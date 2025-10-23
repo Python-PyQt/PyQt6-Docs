@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 574920ad07b505a745cfdb141ecd3aa8
     :realsig: (const QRegularExpression&,QTextDocument::FindFlags)
-    :digest: cb3f79bbcf7456ed0a14c5a5abe0fbad
-
-This is an overloaded function.
+    :digest: c0a4c34928b95d6d8a7f09376b548014
 
 Finds the next occurrence, matching the regular expression, *exp*, using the given *options*.
 

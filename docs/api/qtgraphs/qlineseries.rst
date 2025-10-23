@@ -17,6 +17,14 @@
     .. sip:method:: PyQt6.QtGraphs.QLineSeries.componentComplete
         :description: QtGraphs/QLineSeries-componentComplete-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QLineSeries.dataPointCoordinatesAt
+        :args:
+            float
+            float
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QPointF`
+        :description: QtGraphs/QLineSeries-dataPointCoordinatesAt-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QLineSeries.setCapStyle
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.PenCapStyle`

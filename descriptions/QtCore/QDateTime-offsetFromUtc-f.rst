@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: b4205f2222af9750d9f72b033866102c
+    :digest: 650e27ad12ed9f539795dad2263a05b7
 
 Returns this datetime's Offset From UTC in seconds.
 
@@ -18,4 +18,4 @@ The result depends on :sip:ref:`~PyQt6.QtCore.QDateTime.timeSpec`:
 
 For the last two, the offset at this date and time will be returned, taking account of Daylight-Saving Offset. The offset is the difference between the local time or time in the given time-zone and UTC time; it is positive in time-zones ahead of UTC (East of The Prime Meridian), negative for those behind UTC (West of The Prime Meridian).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.setOffsetFromUtc`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDateTime.setOffsetFromUtc`, :sip:ref:`~PyQt6.QtCore.QDateTime.setTimeZone`.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: da37cdac6d241ccc9401262bf399d7e7
     :realsig: (QPainter*, const QRect&, const QPalette&, bool, const QBrush*)
-    :digest: 488261f68c63f71b0f2e67262eda9aeb
-
-This is an overloaded function.
+    :digest: 013621578401f1a484d74dd0ed77ad52
 
 Draws the Windows-style button at the rectangle specified by *rect* using the given *painter* with a line width of 2 pixels. The button's interior is filled with the *fill* brush unless *fill* is ``nullptr``.
 

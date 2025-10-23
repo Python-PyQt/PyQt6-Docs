@@ -46,6 +46,9 @@
             :description: QtWebEngineCore/QWebEngineLoadingInfo-LoadStatus-LoadSucceededStatus-v.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.__init__
+        :description: QtWebEngineCore/QWebEngineLoadingInfo-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineLoadingInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineLoadingInfo`
         :description: QtWebEngineCore/QWebEngineLoadingInfo-__init__-f.rst

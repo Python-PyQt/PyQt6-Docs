@@ -2,11 +2,17 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 69c9f79b2a876b5d4012b432f2d1185a
+    :digest: 18e73a5c996ba16daaa4afcccc905e6b
 
 Schedules this object for deletion.
 
 The object will be deleted when control returns to the event loop. If the event loop is not running when this function is called (e.g. deleteLater() is called on an object before :sip:ref:`~PyQt6.QtCore.QCoreApplication.exec`), the object will be deleted once the event loop is started. If deleteLater() is called after the main event loop has stopped, the object will not be deleted. If deleteLater() is called on an object that lives in a thread with no running event loop, the object will be destroyed when the thread finishes.
+
+A common pattern when using a worker ``QObject`` in a ``QThread`` is to connect the thread's ``finished()`` signal to the worker's ``deleteLater()`` slot to ensure it is safely deleted:
+
+::
+
+    connect(thread, &QThread::finished, worker, &QObject::deleteLater);
 
 Note that entering and leaving a new event loop (e.g., by opening a modal dialog) will *not* perform the deferred deletion; for the object to be deleted, the control must return to the event loop from which deleteLater() was called. This does not apply to objects deleted while a previous, nested event loop was still running: the Qt event loop will delete those objects as soon as the new nested event loop starts.
 

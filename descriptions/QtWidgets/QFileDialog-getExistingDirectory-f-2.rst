@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6002b043d816bb26e32084e9ee07d381
     :realsig: (QWidget*, const QString&, const QString&, QFileDialog::Options)
-    :digest: b479051b56603ceaf2cdacd3f5a3b54b
+    :digest: c4d3dd712041e6f203ad325859b5b341
 
 This is a convenience static function that returns an existing directory selected by the user.
 
@@ -15,7 +15,7 @@ The dialog's working directory is set to *dir*, and the caption is set to *capti
 
 The *options* argument holds various options about how to run the dialog. See the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option` enum for more information on the flags you can pass. To ensure a native file dialog, :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.ShowDirsOnly` must be set.
 
-On Windows and macOS, this static function uses the native file dialog and not a :sip:ref:`~PyQt6.QtWidgets.QFileDialog`. However, the native Windows file dialog does not support displaying files in the directory chooser. You need to pass the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontUseNativeDialog` option, or set the global \\l{Qt::}{AA_DontUseNativeDialogs} application attribute to display files using a :sip:ref:`~PyQt6.QtWidgets.QFileDialog`.
+On Windows and macOS, this static function uses the native file dialog and not a :sip:ref:`~PyQt6.QtWidgets.QFileDialog`. However, the native Windows file dialog does not support displaying files in the directory chooser. You need to pass the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontUseNativeDialog` option, or set the global :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeDialogs` application attribute to display files using a :sip:ref:`~PyQt6.QtWidgets.QFileDialog`.
 
 Note that the macOS native file dialog does not show a title bar.
 

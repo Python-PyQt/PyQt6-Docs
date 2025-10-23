@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 70323c1b969fee19ba64d674aa3dcb31
+    :digest: b67b4969a941a33e89d9bba1a4a07961
 
-This enum describes the options available to the findText() function. The options can be OR-ed together from the following list:
+This enum describes the options available to the :sip:ref:`~PyQt6.QtWebEngineCore.QWebEnginePage.findText` function. The options can be OR-ed together from the following list:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: eb4d760bdcf06e56b26ba10ba3eeb974
     :realsig: (const QRectF&, const QString&, const QTextOption&)
-    :digest: 84908595555fc7ca2c7cda8192955480
-
-This is an overloaded function.
+    :digest: be2f711b942606479c3d2a6dbf03678d
 
 Draws the given *text* in the *rectangle* specified using the *option* to control its positioning, direction, and orientation. The options given in *option* override those set on the :sip:ref:`~PyQt6.QtGui.QPainter` object itself.
 

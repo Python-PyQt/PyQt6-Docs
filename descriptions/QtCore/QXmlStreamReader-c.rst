@@ -1,11 +1,13 @@
 .. sip:class-description::
     :status: todo
-    :brief: Fast parser for reading well-formed XML via a simple streaming API
-    :digest: cbeb6b1053c76571893e9b3cb2eb3041
+    :brief: Fast parser for reading well-formed XML 1.0 documents via a simple streaming API
+    :digest: c0a4f692cca6af72d74aa892d2f8d60e
 
-The :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` class provides a fast parser for reading well-formed XML via a simple streaming API.
+The :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` class provides a fast parser for reading well-formed XML 1.0 documents via a simple streaming API.
 
-:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` provides a simple streaming API to parse well-formed XML. It is an alternative to first loading the complete XML into a DOM tree (see :sip:ref:`~PyQt6.QtXml.QDomDocument`). :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` reads data either from a :sip:ref:`~PyQt6.QtCore.QIODevice` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.setDevice`), or from a raw :sip:ref:`~PyQt6.QtCore.QByteArray` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`).
+:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` provides a simple streaming API to parse well-formed XML 1.0 documents. It is an alternative to first loading the complete XML into a DOM tree (see :sip:ref:`~PyQt6.QtXml.QDomDocument`). :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` reads data either from a :sip:ref:`~PyQt6.QtCore.QIODevice` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.setDevice`), or from a raw :sip:ref:`~PyQt6.QtCore.QByteArray` (see :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.addData`).
+
+**Note:** :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` supports only XML version 1.0. Documents declaring any other version, such as "1.1", will result in a parsing error.
 
 Qt provides :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter` for writing XML.
 
@@ -16,25 +18,19 @@ A typical loop with :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` looks like this:
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_xml_qxmlstream.py
     :lines: 54-62
 
-:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is a well-formed XML 1.0 parser that does *not* include external parsed entities. As long as no error occurs, the application code can thus be assured, that
+:sip:ref:`~PyQt6.QtCore.QXmlStreamReader` is a non-validating, forward-only XML 1.0 parser for well-formed documents. It does *not* process external parsed entities or perform DTD validation. As long as no error occurs, the application can rely on the following guarantees:
 
-* the data provided by the stream reader satisfies the W3C's criteria for well-formed XML,
+* The XML content satisfies the W3C's criteria for well-formed XML 1.0
 
-* tokens are provided in a valid order.
+* References to internal entities are replaced with the correct replacement text.
 
-Unless :sip:ref:`~PyQt6.QtCore.QXmlStreamReader` raises an error, it guarantees the following:
+* Attributes are normalized or added according to the internal :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD` subset.
 
-* All tags are nested and closed properly.
+* Tokens are provided in the correct order for a well-formed document.
 
-* References to internal entities have been replaced with the correct replacement text.
+* A :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument` token (if present) appears before all other elements, aside from comments and processing instructions.
 
-* Attributes have been normalized or added according to the internal subset of the :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD`.
-
-* Tokens of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument` happen before all others, aside from comments and processing instructions.
-
-* At most one DOCTYPE element (a token of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD`) is present.
-
-* If present, the DOCTYPE appears before all other elements, aside from :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument`, comments and processing instructions.
+* At most one DOCTYPE element (a token of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.DTD`) is present, and if so, it appears before any other content (aside from :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument`, comments, and processing instructions).
 
 In particular, once any token of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartElement`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EndElement`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.Characters`, :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EntityReference` or :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.EndDocument` is seen, no tokens of type :sip:ref:`~PyQt6.QtCore.QXmlStreamReader.TokenType.StartDocument` or DTD will be seen. If one is present in the input stream, out of order, an error is raised.
 

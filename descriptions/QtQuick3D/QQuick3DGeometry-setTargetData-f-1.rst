@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6506bcc0dc6b9f5bc554559212db4fae
     :realsig: (int, const QByteArray&)
-    :digest: bcd9b8ba76c4375992a9e00394a5e1e5
-
-This is an overloaded function.
+    :digest: c6d5972b8982640f6104667c2395581d
 
 Updates a subset of the morph target buffer. *offset* specifies the offset in bytes, *data* specifies the size and the data.
 

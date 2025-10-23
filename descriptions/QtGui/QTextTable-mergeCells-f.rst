@@ -2,9 +2,7 @@
     :status: todo
     :pysig: f4cc248e69b68bdc7c94b43874d7b9bd
     :realsig: (const QTextCursor&)
-    :digest: d4c79755535962f1018bd0c1c3eb6921
-
-This is an overloaded function.
+    :digest: fdffe1d85168699eb7bd33917c540b1e
 
 Merges the cells selected by the provided *cursor*.
 

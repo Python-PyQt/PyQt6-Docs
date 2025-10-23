@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 35be435d5eb927e68aeed4ae67cd8a52
     :realsig: (qint64)
-    :digest: 6fcd5958ba8e100705c018c55e9c356e
-
-This is an overloaded function.
+    :digest: db5e375f23e3d23dd1663931a00f136c
 
 Reads a line from the device, but no more than *maxSize* characters, and returns the result as a byte array.
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Used for all rendered content in the scene graph
-    :digest: 5f94afe799d97f80027b3fcfbc0cef3d
+    :digest: d03a5bf59f997b76e4fea4d9f223359a
 
 The :sip:ref:`~PyQt6.QtQuick.QSGGeometryNode` class is used for all rendered content in the scene graph.
 
@@ -12,7 +12,7 @@ The following is a code snippet illustrating how to create a red line using a :s
 ::
 
     QSGGeometry *geometry = new QSGGeometry(QSGGeometry::defaultAttributes_Point2D(), 2);
-    geometry->setDrawingMode(GL_LINES);
+    geometry->setDrawingMode(QSGGeometry::DrawLines);
     geometry->setLineWidth(3);
     geometry->vertexDataAsPoint2D()[0].set(0, 0);
     geometry->vertexDataAsPoint2D()[1].set(width(), height());

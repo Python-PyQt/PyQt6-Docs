@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3f919137a951c8b61f0ba444d7fc6b50
+    :digest: 36c0ab410cf4812691b9355bd945a26b
 
-This enum is a bit mask identifying several states.
+This enum contains the possible values for use in the bitmask returned from :sip:ref:`~PyQt6.QtQuick.QSGRenderNode.changedStates`.

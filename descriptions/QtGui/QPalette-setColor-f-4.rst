@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 579630091c503bd6fb0c85aa2580105e
     :realsig: (QPalette::ColorRole,const QColor&)
-    :digest: 53f640ce42a5e787f0cbaff3a4b78dd3
-
-This is an overloaded function.
+    :digest: dd3b80544e2e7a03e3c7340b80ff8ac0
 
 Sets the color used for the given color *role*, in all color groups, to the specified solid *color*.
 

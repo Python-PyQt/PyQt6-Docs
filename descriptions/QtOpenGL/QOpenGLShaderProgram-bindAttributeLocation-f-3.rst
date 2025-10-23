@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 70ce07b225801abde2cb8f5bcae9bb3a
     :realsig: (const QString&, int)
-    :digest: 286562e3f26395b44a9f87908cd191c5
-
-This is an overloaded function.
+    :digest: c774e73e2e330be2cbafeb09193cb6d0
 
 Binds the attribute *name* to the specified *location*. This function can be called before or after the program has been linked. Any attributes that have not been explicitly bound when the program is linked will be assigned locations automatically.
 

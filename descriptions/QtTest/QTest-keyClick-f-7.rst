@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 8adf6519edc601294efee9ee2694c93a
     :realsig: (QWindow*,char,Qt::KeyboardModifiers,int)
-    :digest: 0f5118488d136b7f372a3c2d642211f2
-
-This is an overloaded function.
+    :digest: 78af3f0862fb49b7267a564ee60320c3
 
 Simulates clicking of *key* with an optional *modifier* on a *window*. If *delay* is larger than 0, the test will wait for *delay* milliseconds before clicking the key.
 

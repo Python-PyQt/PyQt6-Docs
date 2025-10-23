@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 346e0591a377b8b241d99bc168d233b8
     :realsig: (QWindow*,Qt::MouseButton,Qt::KeyboardModifiers,QPoint,int)
-    :digest: bd4282a6a42f159a5eed08c800828965
-
-This is an overloaded function.
+    :digest: a0a823154c2c3eab4c45b70c0b802606
 
 Simulates double clicking a mouse *button* with an optional *stateKey* modifier on a *window*. The position of the click is defined by *pos*; the default position is the center of the window. If *delay* is specified, the test will wait for the specified amount of milliseconds before each press and release.
 

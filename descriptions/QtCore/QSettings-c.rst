@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: 1a7cafda0ee75febd9e10ae9698e9d2e
+    :digest: bbd9cc735d009637a51612e651f161dd
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -84,7 +84,9 @@ Custom types registered using qRegisterMetaType() that have operators for stream
 Section and Key Syntax
 ----------------------
 
-Setting keys can contain any Unicode characters. The Windows registry and INI files use case-insensitive keys, whereas the CFPreferences API on macOS and iOS uses case-sensitive keys. To avoid portability problems, follow these simple rules:
+Setting keys can contain any Unicode characters. The file format and operating system will determine if they are sensitive to case or not. On Windows, the registry and INI files will use case-insensitive keys, while user-specified formats registered with registerFormat() may be either. On Unix systems, keys are always case-sensitive.
+
+To avoid portability problems, follow these simple rules:
 
 #. Always refer to the same key using the same case. For example, if you refer to a key as "text fonts" in one place in your code, don't refer to it as "Text Fonts" somewhere else.
 

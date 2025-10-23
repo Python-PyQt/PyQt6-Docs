@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 2f2b473cc1d478326f97f563c8b26422
     :realsig: (const char*,GLenum,int,int,int)
-    :digest: 4bdba8efa4debd8e0533350cc41cd27b
-
-This is an overloaded function.
+    :digest: 43257c04f964e4fea640d4648fdba00b
 
 Sets an array of vertex values on the attribute called *name* in this shader program, starting at a specific *offset* in the currently bound vertex buffer. The *stride* indicates the number of bytes between vertices. A default *stride* value of zero indicates that the vertices are densely packed in the value array.
 

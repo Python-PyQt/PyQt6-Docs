@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 1a1c0f5762c8fe90cd93b1bf84b4923e
+    :digest: ae7f248e69cd7a6ef2237bf7a135e760
 
 Indicates the latest received error.

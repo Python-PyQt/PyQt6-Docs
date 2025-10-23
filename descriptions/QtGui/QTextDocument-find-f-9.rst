@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d8a4798d8a4f1030af0d5fe535993345
     :realsig: (const QString&, int, QTextDocument::FindFlags) const
-    :digest: 74bfc34b65751a01b842be5d82e348e7
-
-This is an overloaded function.
+    :digest: 2aa2b10317a16f26d6cf30dad3f0d497
 
 Finds the next occurrence of the string, *subString*, in the document. The search starts at the given *position*, and proceeds forwards through the document unless specified otherwise in the search options. The *options* control the type of search performed.
 

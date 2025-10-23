@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 547000f13f2e7a3400a249c3cc6ac740
     :realsig: (QAnyStringView)
-    :digest: a98de2529c952db2661706823db04310
+    :digest: e0857c8e719d8b56d6cef035f89265ee
 
 Removes the setting *key* and any sub-settings of *key*.
 
@@ -18,7 +18,7 @@ If *key* is an empty string, all keys in the current :sip:ref:`~PyQt6.QtCore.QSe
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qsettings.py
     :lines: 280-291
 
-Note that the Windows registry and INI files use case-insensitive keys, whereas the CFPreferences API on macOS and iOS uses case-sensitive keys. To avoid portability problems, see the :ref:`qsettings-section-and-key-syntax` rules.
+Key lookup will either be sensitive or insensitive to case depending on file format and operating system. To avoid portability problems, see the :ref:`qsettings-section-and-key-syntax` rules.
 
 **Note:** In Qt versions prior to 6.4, this function took QString, not QAnyStringView.
 

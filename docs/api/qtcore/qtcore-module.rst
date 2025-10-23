@@ -248,6 +248,13 @@
             str
         :description: QtCore/qEnvironmentVariable-f-2.rst
 
+    .. sip:method:: PyQt6.QtCore.qEnvironmentVariableIntegerValue
+        :args:
+            str
+        :returns:
+            Optional[int]
+        :description: QtCore/qEnvironmentVariableIntegerValue-f.rst
+
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariableIntValue
         :args:
             str

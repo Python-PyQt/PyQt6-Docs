@@ -1,9 +1,9 @@
 .. sip:class-description::
     :status: todo
-    :brief: Simple text path item that you can add to a QGraphicsScene
-    :digest: 781fa88cabeda73624dd93e70f0b8f65
+    :brief: Simple text item that you can add to a QGraphicsScene
+    :digest: 83c41b4d7b83c61b180a4f17adb2a2c0
 
-The :sip:ref:`~PyQt6.QtWidgets.QGraphicsSimpleTextItem` class provides a simple text path item that you can add to a :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene`.
+The :sip:ref:`~PyQt6.QtWidgets.QGraphicsSimpleTextItem` class provides a simple text item that you can add to a :sip:ref:`~PyQt6.QtWidgets.QGraphicsScene`.
 
 To set the item's text, you can either pass a QString to :sip:ref:`~PyQt6.QtWidgets.QGraphicsSimpleTextItem`'s constructor, or call :sip:ref:`~PyQt6.QtWidgets.QGraphicsSimpleTextItem.setText` to change the text later. To set the text fill color, call setBrush().
 

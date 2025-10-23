@@ -145,6 +145,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_1
             :description: QtCore/QDataStream-Version-Qt_6_1-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_10
+            :description: QtCore/QDataStream-Version-Qt_6_10-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_2
             :description: QtCore/QDataStream-Version-Qt_6_2-v.rst
 
@@ -215,6 +218,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream.FloatingPointPrecision`
         :description: QtCore/QDataStream-floatingPointPrecision-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QDataStream.__int__
+        :returns:
+            bool
+        :description: QtCore/QDataStream-__int__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:

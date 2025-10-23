@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 346e0591a377b8b241d99bc168d233b8
     :realsig: (QWindow*,Qt::MouseButton,Qt::KeyboardModifiers,QPoint,int)
-    :digest: 56336fda0c00162043e9097f030585f5
-
-This is an overloaded function.
+    :digest: f165e88a7b66d57e22e68d88fff8d10a
 
 Simulates releasing a mouse *button* with an optional *stateKey* modifier on a *window*. The position of the release is defined by *pos*; the default position is the center of the window. If *delay* is specified, the test will wait for the specified amount of milliseconds before releasing the button; otherwise, it will wait for a default amount of time (1 ms), which can be overridden via `command-line arguments <https://doc.qt.io/qt-6/qtest-overview.html#testing-options>`_.
 

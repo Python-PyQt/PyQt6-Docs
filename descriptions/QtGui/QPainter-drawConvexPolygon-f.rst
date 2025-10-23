@@ -2,8 +2,6 @@
     :status: todo
     :pysig: a378845a4ab49db069aa33c91dbcfa47
     :realsig: (const QPolygonF&)
-    :digest: 9dd5df0f0f5bfe8f69efa3da1ebc987a
-
-This is an overloaded function.
+    :digest: b5ff2876890a79f8d40ef8c6d3eef244
 
 Draws the convex polygon defined by *polygon* using the current pen and brush.

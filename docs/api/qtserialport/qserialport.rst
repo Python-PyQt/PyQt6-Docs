@@ -391,6 +391,11 @@
             bool
         :description: QtSerialPort/QSerialPort-settingsRestoredOnClose-f.rst
 
+    .. sip:method:: PyQt6.QtSerialPort.QSerialPort.setWriteBufferSize
+        :args:
+            int
+        :description: QtSerialPort/QSerialPort-setWriteBufferSize-f.rst
+
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.stopBits
         :returns:
             :sip:ref:`~PyQt6.QtSerialPort.QSerialPort.StopBits`
@@ -409,6 +414,11 @@
         :returns:
             bool
         :description: QtSerialPort/QSerialPort-waitForReadyRead-f.rst
+
+    .. sip:method:: PyQt6.QtSerialPort.QSerialPort.writeBufferSize
+        :returns:
+            int
+        :description: QtSerialPort/QSerialPort-writeBufferSize-f.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPort.writeData
         :args:

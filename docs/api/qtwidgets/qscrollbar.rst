@@ -20,6 +20,13 @@
             :sip:ref:`~PyQt6.QtGui.QContextMenuEvent`
         :description: QtWidgets/QScrollBar-contextMenuEvent-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QScrollBar.createStandardContextMenu
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QPoint`
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QMenu`
+        :description: QtWidgets/QScrollBar-createStandardContextMenu-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QScrollBar.event
         :args:
             :sip:ref:`~PyQt6.QtCore.QEvent`

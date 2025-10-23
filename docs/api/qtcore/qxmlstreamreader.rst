@@ -317,6 +317,11 @@
             bool
         :description: QtCore/QXmlStreamReader-readNextStartElement-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QXmlStreamReader.readRawInnerData
+        :returns:
+            str
+        :description: QtCore/QXmlStreamReader-readRawInnerData-f.rst
+
     .. sip:method:: PyQt6.QtCore.QXmlStreamReader.setDevice
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`

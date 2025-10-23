@@ -400,6 +400,14 @@
             bool
         :description: QtCore/QDir-mkpath-f-1.rst
 
+    .. sip:method:: PyQt6.QtCore.QDir.mkpath
+        :args:
+            Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
+        :returns:
+            bool
+        :description: QtCore/QDir-mkpath-f.rst
+
     .. sip:method:: PyQt6.QtCore.QDir.nameFilters
         :returns:
             list[str]

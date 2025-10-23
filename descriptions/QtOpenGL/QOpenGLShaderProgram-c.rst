@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Allows OpenGL shader programs to be linked and used
-    :digest: 3433bc449fe7116aa7178278bb89e2a3
+    :digest: b28489d18d79f14fb2959d4e43f1e472
 
 The :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram` class allows OpenGL shader programs to be linked and used.
 
@@ -14,7 +14,7 @@ This class supports shader programs written in the OpenGL Shading Language (GLSL
 
 :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader` and :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram` shelter the programmer from the details of compiling and linking vertex and fragment shaders.
 
-The following example creates a vertex shader program using the supplied source ``code``. Once compiled and linked, the shader program is activated in the current `QOpenGLContext <https://doc.qt.io/qt-6/gui-changes-qt6.html#qopenglcontext>`_ by calling :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.bind`:
+The following example creates a vertex shader program using the supplied source ``code``. Once compiled and linked, the shader program is activated in the current :sip:ref:`~PyQt6.QtGui.QOpenGLContext` by calling :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.bind`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-opengl-doc-snippets-code-src_gui_qopenglshaderprogram.py
     :lines: 63-70
@@ -66,5 +66,14 @@ Caching Program Binaries
 As of Qt 5.9, support for caching program binaries on disk is built in. To enable this, switch to using :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceCode` and :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.addCacheableShaderFromSourceFile`. With an OpenGL ES 3.x context or support for ``GL_ARB_get_program_binary``, this will transparently cache program binaries under :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation.GenericCacheLocation` or :sip:ref:`~PyQt6.QtCore.QStandardPaths.StandardLocation.CacheLocation`. When support is not available, calling the cacheable function variants is equivalent to the normal ones.
 
 **Note:** Some drivers do not have any binary formats available, even though they advertise the extension or offer OpenGL ES 3.0. In this case program binary support will be disabled.
+
+.. _qopenglshaderprogram-security-considerations:
+
+Security Considerations
+-----------------------
+
+All data consumed by :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram` is expected to be trusted content. Shader source code is passed, possibly after minimal modifications, on to the underlying OpenGL implementation's compiler, which is a black box from Qt's perspective.
+
+**Warning:** Application developers are advised to carefully consider the potential implications before passing in user-provided content to functions such as :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceFile`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShader`.

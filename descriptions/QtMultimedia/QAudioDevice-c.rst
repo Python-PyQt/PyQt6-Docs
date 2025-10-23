@@ -1,13 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Information about audio devices and their functionality
-    :digest: 12d36e0f779f19ac0ea29d5ef88877b8
+    :digest: 263de5a25805239a9c450b89046afa64
 
 The :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` class provides an information about audio devices and their functionality.
 
 :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` describes an audio device available in the system, either for input or for playback.
 
-A :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` is used by Qt to construct classes that communicate with the device -- such as :sip:ref:`~PyQt6.QtMultimedia.QAudioSource`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSink`. It is also used to determine the input or output device to use in a capture session or during media playback.
+A :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` is used by Qt to construct classes that communicate with the device – such as :sip:ref:`~PyQt6.QtMultimedia.QAudioSource`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSink`. It is also used to determine the input or output device to use in a capture session or during media playback.
+
+The :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` instance retains its properties throughout its lifetime, even if the corresponding physical device is disconnected or its settings are modified. To keep track of updated properties, the user should load new instances of :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice` from :sip:ref:`~PyQt6.QtMultimedia.QMediaDevices` when the relevant signals are fired.
 
 You can also query each device for the formats it supports. A format in this context is a set consisting of a channel count, sample rate, and sample type. A format is represented by the :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat` class.
 

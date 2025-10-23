@@ -114,6 +114,11 @@
             int
         :description: QtWidgets/QLayout-getContentsMargins-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QLayout.horizontalSizeConstraint
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+        :description: QtWidgets/QLayout-horizontalSizeConstraint-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QLayout.indexOf
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
@@ -241,6 +246,11 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
         :description: QtWidgets/QLayout-setGeometry-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QLayout.setHorizontalSizeConstraint
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+        :description: QtWidgets/QLayout-setHorizontalSizeConstraint-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QLayout.setMenuBar
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWidget`
@@ -251,10 +261,21 @@
             :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
         :description: QtWidgets/QLayout-setSizeConstraint-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QLayout.setSizeConstraints
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+        :description: QtWidgets/QLayout-setSizeConstraints-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QLayout.setSpacing
         :args:
             int
         :description: QtWidgets/QLayout-setSpacing-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QLayout.setVerticalSizeConstraint
+        :args:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+        :description: QtWidgets/QLayout-setVerticalSizeConstraint-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.sizeConstraint
         :returns:
@@ -300,6 +321,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.update
         :description: QtWidgets/QLayout-update-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QLayout.verticalSizeConstraint
+        :returns:
+            :sip:ref:`~PyQt6.QtWidgets.QLayout.SizeConstraint`
+        :description: QtWidgets/QLayout-verticalSizeConstraint-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLayout.widgetEvent
         :args:

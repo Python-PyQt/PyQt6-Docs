@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 9ad61883e1e1619cb72e5927d0814e17
     :realsig: (const QPoint&,QAction*)
-    :digest: 0caccce05f3d1f3a81305f5787ce75f6
-
-This is an overloaded function.
+    :digest: 3f534a41e75cb257cee0471929bfe9fb
 
 Executes this menu synchronously.
 

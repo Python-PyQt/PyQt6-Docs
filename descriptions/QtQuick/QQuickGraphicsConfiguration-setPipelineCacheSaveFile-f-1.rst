@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 96e648b0c213feb955e3dc2c56751cf2
     :realsig: (const QString&)
-    :digest: eaf98a6b6265ef6b4ba1d9f40107738f
+    :digest: 1be8220228eec9f6c41a39946a98a861
 
 Sets the *filename* where the :sip:ref:`~PyQt6.QtQuick.QQuickWindow` is expected to store its graphics/compute pipeline cache contents. The default value is empty, which means pipeline cache loading is disabled.
 
@@ -16,4 +16,4 @@ When running with a graphics API where retrieving the pipeline cache (or shader/
 
 Calling this function is mostly equivalent to setting the environment variable ``QSG_RHI_PIPELINE_CACHE_SAVE`` to *filename*, with one important difference: this function controls the pipeline cache storage for the associated :sip:ref:`~PyQt6.QtQuick.QQuickWindow` only. Applications with multiple :sip:ref:`~PyQt6.QtQuick.QQuickWindow` or :sip:ref:`~PyQt6.QtQuick.QQuickView` instances can therefore store and later reload the cache contents via files dedicated to each window. The environment variable does not allow this.
 
-.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.pipelineCacheSaveFile`, :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.pipelineCacheLoadFile`.
+.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.pipelineCacheLoadFile`, :sip:ref:`~PyQt6.QtQuick.QQuickGraphicsConfiguration.pipelineCacheSaveFile`.

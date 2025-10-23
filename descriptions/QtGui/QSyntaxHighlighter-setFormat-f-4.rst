@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 1ba26c8a7122ff0ee1395a1d118d4608
     :realsig: (int,int,const QColor&)
-    :digest: 97da34a6604f181e13f287c9c9de37b8
-
-This is an overloaded function.
+    :digest: dc82fff7ba93414b30661865c1976f48
 
 The specified *color* is applied to the current text block from the *start* position for a length of *count* characters.
 

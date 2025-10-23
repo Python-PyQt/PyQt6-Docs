@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c506ff134babdd6e68ab3e6350e95305
     :realsig: (bool)
-    :digest: 0a4988dc21ae9fccee29682352fae788
-
-This is an overloaded function.
+    :digest: 823c89f3f18b7a74b4b237ffac3587a8
 
 Appends the boolean value *b* to the stream, creating either a CBOR False value or a CBOR True value. This function is equivalent to (and implemented as):
 

@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Helper class for selecting correct surface format
-    :digest: 6aad7510db3ff92740a6ac85647d011c
+    :digest: 84829b1be01ba0c9a1531d1b3a5ec1a0
 
 Helper class for selecting correct surface format.
 
@@ -11,7 +11,7 @@ If this helper is run when using any other rendering backends than OpenGL then i
 
 If this helper is run when using the OpenGL rendering backend, then it will test for sufficiently modern versions of OpenGL and support for multisampling if requested. Normally Qt Quick will request an OpenGL 2.0 or OpenGL ES 2.0 context, which would limit the features available when using Qt Quick 3D, so an extra step is needed to request a more capable context.
 
-The correct usage pattern is to call :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setDefaultFormat` to set the :sip:ref:`~PyQt6.QtGui.QSurfaceFormat` returned by QQuick3D::idealSurfaceFormat. It is important that this method is called after :sip:ref:`~PyQt6.QtGui.QGuiApplication` is constructed, but before the Qt Quick application content is loaded. This code snippet shows the correct usage pattern:
+The correct usage pattern is to call :sip:ref:`~PyQt6.QtGui.QSurfaceFormat.setDefaultFormat` to set the :sip:ref:`~PyQt6.QtGui.QSurfaceFormat` returned by :sip:ref:`~PyQt6.QtQuick3D.QQuick3D.idealSurfaceFormat`. It is important that this method is called after :sip:ref:`~PyQt6.QtGui.QGuiApplication` is constructed, but before the Qt Quick application content is loaded. This code snippet shows the correct usage pattern:
 
 ::
 

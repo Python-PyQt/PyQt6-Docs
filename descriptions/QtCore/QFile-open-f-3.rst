@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 25da2ff90bbe6956177b7ded744e49b8
     :realsig: (int,QIODeviceBase::OpenMode,QFileDevice::FileHandleFlags)
-    :digest: 7c019eb79e170e595198c3f92825a374
-
-This is an overloaded function.
+    :digest: 6aa123eb0a428474316c15aa1fffef04
 
 Opens the existing file descriptor *fd* in the given *mode*. *handleFlags* may be used to specify additional options. Returns ``true`` if successful; otherwise returns ``false``.
 

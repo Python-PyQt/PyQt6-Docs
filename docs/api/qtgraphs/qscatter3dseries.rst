@@ -18,6 +18,9 @@
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.clearArray
         :description: QtGraphs/QScatter3DSeries-clearArray-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.clearScaleArray
+        :description: QtGraphs/QScatter3DSeries-clearScaleArray-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.dataArray
         :returns:
             list[:sip:ref:`~PyQt6.QtGraphs.QScatterDataItem`]
@@ -39,6 +42,11 @@
             float
         :description: QtGraphs/QScatter3DSeries-itemSize-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.scaleArray
+        :returns:
+            list[:sip:ref:`~PyQt6.QtGui.QVector3D`]
+        :description: QtGraphs/QScatter3DSeries-scaleArray-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.selectedItem
         :returns:
             int
@@ -59,6 +67,11 @@
             float
         :description: QtGraphs/QScatter3DSeries-setItemSize-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setScaleArray
+        :args:
+            Iterable[:sip:ref:`~PyQt6.QtGui.QVector3D`]
+        :description: QtGraphs/QScatter3DSeries-setScaleArray-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setSelectedItem
         :args:
             int
@@ -78,6 +91,11 @@
         :args:
             float
         :description: QtGraphs/QScatter3DSeries-itemSizeChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.scaleArrayChanged
+        :args:
+            Iterable[:sip:ref:`~PyQt6.QtGui.QVector3D`]
+        :description: QtGraphs/QScatter3DSeries-scaleArrayChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.selectedItemChanged
         :args:

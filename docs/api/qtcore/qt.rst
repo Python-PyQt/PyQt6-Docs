@@ -381,6 +381,15 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ContextMenuTrigger.Release
             :description: QtCore/Qt-ContextMenuTrigger-Release-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.Qt.ContrastPreference
+        :description: QtCore/Qt-ContrastPreference-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ContrastPreference.HighContrast
+            :description: QtCore/Qt-ContrastPreference-HighContrast-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ContrastPreference.NoPreference
+            :description: QtCore/Qt-ContrastPreference-NoPreference-v.rst
+
     .. sip:enum:: PyQt6.QtCore.Qt.CoordinateSystem
         :description: QtCore/Qt-CoordinateSystem-e.rst
 
@@ -1892,6 +1901,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_Katakana
             :description: QtCore/Qt-Key-Key_Katakana-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_Keyboard
+            :description: QtCore/Qt-Key-Key_Keyboard-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.Qt.Key.Key_KeyboardBrightnessDown
             :description: QtCore/Qt-Key-Key_KeyboardBrightnessDown-v.rst

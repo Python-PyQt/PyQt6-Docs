@@ -4,6 +4,9 @@
     :description: QtWebEngineCore/QWebEngineFullScreenRequest-c.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFullScreenRequest.__init__
+        :description: QtWebEngineCore/QWebEngineFullScreenRequest-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFullScreenRequest.__init__
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFullScreenRequest`
         :description: QtWebEngineCore/QWebEngineFullScreenRequest-__init__-f.rst

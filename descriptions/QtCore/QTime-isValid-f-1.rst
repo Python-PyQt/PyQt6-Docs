@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 55bb8d9b829998213fb20e956458ec3d
     :realsig: (int,int,int,int)
-    :digest: 47efe3a1713e09ea4efaab826a98327c
-
-This is an overloaded function.
+    :digest: d0cdc78688def9c62bdb7e4ac64a61bb
 
 Returns ``true`` if the specified time is valid; otherwise returns false.
 

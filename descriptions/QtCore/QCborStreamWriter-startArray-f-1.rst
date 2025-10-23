@@ -2,9 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (quint64)
-    :digest: a011082616f9d5783a40292a0b68c771
-
-This is an overloaded function.
+    :digest: bb48f1cb5526fad1477cfd2d0e879565
 
 Starts a CBOR Array with explicit length of *count* items in the CBOR stream. Each :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.startArray` call must be paired with one :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endArray` call and the current CBOR element extends until the end of the array.
 

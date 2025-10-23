@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 4d6f3351df1e0e5481b7e03345c1f4da
     :realsig: (bool*,QWidget*)
-    :digest: 1d12e38b7dd01a7846c9b9977002865c
-
-This is an overloaded function.
+    :digest: 0e48db3ea67979e26ea290dc68328dc3
 
 Executes a modal font dialog and returns a font.
 

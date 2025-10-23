@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 547000f13f2e7a3400a249c3cc6ac740
     :realsig: (QAnyStringView)
-    :digest: b6981053300bc9b740adcb289cb80877
-
-This is an overloaded function.
+    :digest: ca19c8160bb37bd3a0c1de64bb369b08
 
 Writes a start element with *qualifiedName*. Subsequent calls to :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter.writeAttribute` will add attributes to this element.
 

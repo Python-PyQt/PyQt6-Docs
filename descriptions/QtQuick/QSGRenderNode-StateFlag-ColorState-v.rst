@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x08
-    :digest: cb5feb1b7314637725a2e73bdc9f7295
+    :digest: d6a42221a26fe787790bebdbb4c4dcc5
 
-Color
+This value has no effect in Qt 6.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 255421e8a36a2353f935a0b5dc900d5c
     :realsig: (const QHostAddress&,const QNetworkInterface&)
-    :digest: a4265970e9aa28672ca7a6ef2c0adcba
-
-This is an overloaded function.
+    :digest: 4f415c6472f01b77b54fc8681bb90a75
 
 Leaves the multicast group specified by *groupAddress* on the interface *iface*.
 

@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 50cad8623622f8634e05e32fc5f89c03
     :realsig: (const QPointF&)
-    :digest: 0f68c2da2493124551319a06a5cc06ba
-
-This is an overloaded function.
+    :digest: 743c6837739b16d8c10018ff9b7de954
 
 Moves the rectangle, leaving the top-left corner at the given *position*.

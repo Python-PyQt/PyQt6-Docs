@@ -2,9 +2,7 @@
     :status: todo
     :pysig: ad7df47c1167e785c0968c17148fb0bc
     :realsig: (QWidget*, const QKeySequence&)
-    :digest: d9dd1d6ef465db92277ce7e5dcb1508d
-
-This is an overloaded function.
+    :digest: 18e413cb22ca71d761c5b07b21acebe2
 
 Simulates typing of *keySequence* into a *widget*.
 

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: bf395bc239ddbb9d347951ca5444b0f1
+    :digest: b0160077687546418ed1c0641aadea8b
 
-The widget is not constrained.
+No size constraints are applied to the widget.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 9c39f5b2bffde62b56ab06a7f61d6ae6
     :realsig: (QDeadlineTimer)
-    :digest: ed6a224b514f283c227fada8ce0bea9c
-
-This is an overloaded function.
+    :digest: 77515038fc7b58966a566ac2d7bf5530
 
 Attempts to lock for writing. This function returns ``true`` if the lock was obtained; otherwise it returns ``false``. If another thread has locked for reading or writing, this function will wait until *timeout* expires for the lock to become available.
 

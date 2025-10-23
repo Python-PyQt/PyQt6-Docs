@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 06c647d5dc3aec482fcc4048c9f2772d
     :realsig: (uint, uint, QSize, int, int, QQuickRenderTarget::Flags)
-    :digest: 4cd93bb9f54fe2f9baa722d0cafd3dc4
-
-This is an overloaded function.
+    :digest: cfa5236ad9c8e317e0ab1afac39997a4
 
 Returns a new :sip:ref:`~PyQt6.QtQuick.QQuickRenderTarget` referencing an OpenGL 2D texture or texture array object specified by *textureId*.
 

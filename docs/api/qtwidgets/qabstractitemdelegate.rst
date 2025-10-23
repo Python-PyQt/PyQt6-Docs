@@ -52,6 +52,14 @@
             bool
         :description: QtWidgets/QAbstractItemDelegate-editorEvent-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QAbstractItemDelegate.handleEditorEvent
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QObject`
+            :sip:ref:`~PyQt6.QtCore.QEvent`
+        :returns:
+            bool
+        :description: QtWidgets/QAbstractItemDelegate-handleEditorEvent-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemDelegate.helpEvent
         :args:
             :sip:ref:`~PyQt6.QtGui.QHelpEvent`

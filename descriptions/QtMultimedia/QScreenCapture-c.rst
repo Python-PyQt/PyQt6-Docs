@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: This class is used for capturing a screen
-    :digest: 2ca07da47921d561d55ea0c1bd3592ab
+    :digest: 5d14ce64f11a951d705f815f68b0d02a
 
 This class is used for capturing a screen.
 
@@ -21,7 +21,20 @@ On Qt 6.5.2 and above, the following limitations apply to using :sip:ref:`~PyQt6
 
 * On Linux systems using the Wayland compositor, the screen capture implementation is experimental and comes with the following limitations. Due to restrictions of the Wayland protocol, it's impossible to set and get the target screen via the API of the ``QScreenCapture`` class. Instead, the OS will show a screen selection wizard upon invoking ``QScreenCapture::setActive(true)``. The screen capture feature requires the installation of the `ScreenCast <https://flatpak.github.io/xdg-desktop-portal/docs/doc-org.freedesktop.portal.ScreenCast.html>`_ service supported via `XDG Desktop Portal <https://flatpak.github.io/xdg-desktop-portal/docs/>`_ and {https://pipewire.org/}{PipeWire} (0.3). These limitations might change in the future.
 
-* It is not supported on mobile operating systems, except on Android. There, you might run into performance issues as the class is currently implemented via :sip:ref:`~PyQt6.QtGui.QScreen.grabWindow`, which is not optimal for the use case.
+* It is not supported on mobile operating systems, except on Android. Screen Capture on Android needs additional `Android foreground service permission <https://doc.qt.io/qt-6/https://developer.android.com/media/grow/media-projection#foreground_service_permission>`_ to be added to the ``AndroidManifest.xml`` file:
+
+  ::
+
+      <manifest ...>
+      <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+      <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION" />
+      <application ...>
+          <service android:name="org.qtproject.qt.android.multimedia.QtScreenCaptureService"
+              android:foregroundServiceType="mediaProjection"
+              android:exported="false"/>
+          </service>
+      </application>
+      </manifest>
 
 * On embedded with EGLFS, it has limited functionality. For Qt Quick applications, the class is currently implemented via :sip:ref:`~PyQt6.QtQuick.QQuickWindow.grabWindow`, which can cause performance issues.
 

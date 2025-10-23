@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c97438e79871bec3154c2e379a97ef25
     :realsig: (const QString&, const QStringList&, const QString&, qint64*)
-    :digest: a06f1da41f31ea6c0cdc08bad12dfe52
-
-This function overloads :sip:ref:`~PyQt6.QtCore.QProcess.startDetached`.
+    :digest: 2380cc42a26a9bc5f70b73a54997f62e
 
 Starts the program *program* with the arguments *arguments* in a new process, and detaches from it. Returns ``true`` on success; otherwise returns ``false``. If the calling process exits, the detached process will continue to run unaffected.
 

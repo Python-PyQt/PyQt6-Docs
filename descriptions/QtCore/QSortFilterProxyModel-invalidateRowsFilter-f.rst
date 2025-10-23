@@ -2,7 +2,9 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: 9c58a75ed5647911ce33f3f8edc92fca
+    :digest: 41f4baad2d7787d5932c8a6646981739
+
+use :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.beginFilterChange` and :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.endFilterChange`\ (\ :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Columns`) instead.
 
 Invalidates the current filtering for the rows.
 

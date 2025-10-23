@@ -115,6 +115,11 @@
             visible: bool = True
         :description: QtGraphs/QAbstractAxis-setSubGridVisible-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTextElideMode
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.TextElideMode`
+        :description: QtGraphs/QAbstractAxis-setTextElideMode-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTitleColor
         :args:
             Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
@@ -142,6 +147,11 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.show
         :description: QtGraphs/QAbstractAxis-show-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.textElideMode
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.TextElideMode`
+        :description: QtGraphs/QAbstractAxis-textElideMode-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.titleColor
         :returns:
@@ -195,6 +205,11 @@
         :args:
             bool
         :description: QtGraphs/QAbstractAxis-subGridVisibleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.textElideModeChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.TextElideMode`
+        :description: QtGraphs/QAbstractAxis-textElideModeChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.titleColorChanged
         :args:

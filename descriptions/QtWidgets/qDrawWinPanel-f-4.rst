@@ -2,9 +2,7 @@
     :status: todo
     :pysig: da37cdac6d241ccc9401262bf399d7e7
     :realsig: (QPainter*, const QRect&, const QPalette&, bool, const QBrush*)
-    :digest: e64801dfb9f4118bb9ac283a958f6d40
-
-This is an overloaded function.
+    :digest: 9f37aed5d68f9972f7f66fcbde2d9dd7
 
 Draws the Windows-style panel at the rectangle specified by *rect* using the given *painter* with a line width of 2 pixels. The button's interior is filled with the *fill* brush unless *fill* is ``nullptr``.
 

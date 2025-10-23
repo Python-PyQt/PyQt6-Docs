@@ -2,9 +2,9 @@
     :status: todo
     :pysig: bd0f9e3c2f4abca5c0f0c67c52115651
     :realsig: () const
-    :digest: 8653c4ac05ff4a91fcc795d01e16358a
+    :digest: 2a7943dbc5682d194e6a4f05db677e08
 
-Returns a pointer to the view or page specific settings object.
+Returns a pointer to the view- or page-specific settings object.
 
 It is equivalent to:
 

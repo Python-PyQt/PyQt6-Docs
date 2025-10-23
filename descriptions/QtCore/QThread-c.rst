@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Platform-independent way to manage threads
-    :digest: 0ce466c33b40e0c7f7203babce64d309
+    :digest: 9f36fd40ce5c82a7d23af6ee3afae596
 
 The :sip:ref:`~PyQt6.QtCore.QThread` class provides a platform-independent way to manage threads.
 
@@ -48,4 +48,4 @@ The static functions :sip:ref:`~PyQt6.QtCore.QThread.currentThreadId` and :sip:r
 
 To choose the name that your thread will be given (as identified by the command ``ps -L`` on Linux, for example), you can call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName` before starting the thread. If you don't call :sip:ref:`~PyQt6.QtCore.QObject.setObjectName`, the name given to your thread will be the class name of the runtime type of your thread object (for example, ``"RenderThread"`` in the case of the `Mandelbrot <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_ example, as that is the name of the :sip:ref:`~PyQt6.QtCore.QThread` subclass). Note that this is currently not available with release builds on Windows.
 
-.. seealso:: QThreadStorage, `Mandelbrot <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_, `Producer and Consumer using Semaphores <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Producer and Consumer using Wait Conditions <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_, Thread Support in Qt.
+.. seealso:: QThreadStorage, `Mandelbrot <https://doc.qt.io/qt-6/qtcore-threads-mandelbrot-example.html>`_, `Producer and Consumer using Semaphores <https://doc.qt.io/qt-6/qtcore-threads-semaphores-example.html>`_, `Producer and Consumer using Wait Conditions <https://doc.qt.io/qt-6/qtcore-threads-waitconditions-example.html>`_, Multi-threading in Qt.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 883579c2ad1a92ea9bbe04c13915d560
     :realsig: (qint64,qint64)
-    :digest: cb81154bdc75bdaaa9e3401d4649f23e
-
-This is an overloaded function.
+    :digest: a01fc44af3e64852f37b5e2a8d866533
 
 Generates one random 64-bit quantity in the range between *lowest* (inclusive) and *highest* (exclusive), both of which may be negative, but *highest* must be greater than *lowest*.
 

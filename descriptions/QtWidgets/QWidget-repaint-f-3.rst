@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 93c65966a7252879a2fdbc87264c9da8
     :realsig: (int,int,int,int)
-    :digest: 44457d9698a0020b59d6f8a95acbf4eb
-
-This is an overloaded function.
+    :digest: f38de165b6b63784e6a2932505bbcf89
 
 This version repaints a rectangle (\ *x*, *y*, *w*, *h*) inside the widget.
 

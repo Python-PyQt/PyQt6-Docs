@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5402d751fcfc9eb84a404214f47473b4
     :realsig: (const QCommandLineOption&) const
-    :digest: 1f1ce4f133646f8282ee971619a608d5
-
-This is an overloaded function.
+    :digest: 405b7b18246b43fb483c8b741b8482db
 
 Returns the option value found for the given *option*, or an empty string if not found.
 

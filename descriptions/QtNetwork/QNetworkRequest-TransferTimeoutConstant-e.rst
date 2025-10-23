@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 2605def806d3193f4058d00b1c75a1bd
+    :digest: 42ceb03bef7fa1f7bd450db99e8f57ec
 
 A constant that can be used for enabling transfer timeouts with a preset value.
 

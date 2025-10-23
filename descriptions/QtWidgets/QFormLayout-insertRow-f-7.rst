@@ -2,8 +2,6 @@
     :status: todo
     :pysig: ffca6c480b9ac3acabc70c5d18f1e9e7
     :realsig: (int, const QString&, QLayout*)
-    :digest: 7bd5afd2ad66167ff0ef6137a635aa43
-
-This is an overloaded function.
+    :digest: 600fde9217052b9f18df55b861ff3beb
 
 This overload automatically creates a :sip:ref:`~PyQt6.QtWidgets.QLabel` behind the scenes with *labelText* as its text.

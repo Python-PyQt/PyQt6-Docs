@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 1e6a49623b88925bdd39deeb3f360072
     :realsig: (QStringView,qsizetype,QRegularExpression::MatchType,QRegularExpression::MatchOptions) const
-    :digest: 94f7eeea08885864fdbdc2e77f4cd25c
-
-This is an overloaded function.
+    :digest: 955b26b448f6602ee281239c5a07a681
 
 Attempts to match the regular expression against the given *subjectView* string view, starting at the position *offset* inside the subject, using a match of type *matchType* and honoring the given *matchOptions*.
 

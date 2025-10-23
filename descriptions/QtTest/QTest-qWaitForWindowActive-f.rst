@@ -2,14 +2,6 @@
     :status: todo
     :pysig: 58413b4abf8ce2e29dba4e96faa26ac0
     :realsig: (QWindow*,int)
-    :digest: 5fdd110ab831f844bb10bfb0c7046787
+    :digest: a2539a15f98cdf051e07253be5f41696
 
-Returns ``true``, if *window* is active within *timeout* milliseconds. Otherwise returns ``false``.
-
-The method is useful in tests that call :sip:ref:`~PyQt6.QtGui.QWindow.show` and rely on the window actually being active (i.e. being visible and having focus) before proceeding.
-
-**Note:** The method will time out and return ``false`` if another window prevents *window* from becoming active.
-
-**Note:** Since focus is an exclusive property, *window* may loose its focus to another window at any time - even after the method has returned ``true``.
-
-.. seealso:: :sip:ref:`~PyQt6.QtTest.QTest.qWaitForWindowExposed`, qWaitForWindowFocused(), :sip:ref:`~PyQt6.QtGui.QWindow.isActive`.
+The *timeout* is in milliseconds.

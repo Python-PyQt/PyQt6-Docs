@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Date and time functions
-    :digest: 7bdaa654f37bb78b9ce9a7b1264054df
+    :digest: b1d1122d47267128395ae3f6e887afb5
 
 The :sip:ref:`~PyQt6.QtCore.QDateTime` class provides date and time functions.
 
@@ -26,13 +26,13 @@ Use :sip:ref:`~PyQt6.QtCore.QDateTime.toTimeZone` to re-express a datetime in te
 Remarks
 -------
 
-**Note:** :sip:ref:`~PyQt6.QtCore.QDateTime` does not account for leap seconds.
+:sip:ref:`~PyQt6.QtCore.QDateTime` does not account for leap seconds.
 
-**Note:** All conversion to and from string formats is done using the C locale. For localized conversions, see :sip:ref:`~PyQt6.QtCore.QLocale`.
+All conversions to and from string formats are done using the C locale. For localized conversions, see :sip:ref:`~PyQt6.QtCore.QLocale`.
 
-**Note:** There is no year 0 in the Gregorian calendar. Dates in that year are considered invalid. The year -1 is the year "1 before Christ" or "1 before common era." The day before 1 January 1 CE is 31 December 1 BCE.
+There is no year 0 in the Gregorian calendar. Dates in that year are considered invalid. The year -1 is the year "1 before Christ" or "1 before common era." The day before 1 January 1 CE is 31 December 1 BCE.
 
-**Note:** Using local time (the default) or a specified time zone implies a need to resolve any issues around :ref:`qdatetime-timezone-transitions`. As a result, operations on such :sip:ref:`~PyQt6.QtCore.QDateTime` instances (notably including constructing them) may be more expensive than the equivalent when using UTC or a fixed offset from it.
+Using local time (the default) or a specified time zone implies a need to resolve any issues around :ref:`qdatetime-timezone-transitions`. As a result, operations on such :sip:ref:`~PyQt6.QtCore.QDateTime` instances (notably including constructing them) may be more expensive than the equivalent when using UTC or a fixed offset from it.
 
 .. _qdatetime-range-of-valid-dates:
 

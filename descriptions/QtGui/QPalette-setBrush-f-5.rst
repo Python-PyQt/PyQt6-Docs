@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0f4a71a117b39cde7ec5628eb624b95b
     :realsig: (QPalette::ColorGroup, QPalette::ColorRole, const QBrush&)
-    :digest: 770b77e5e32f6db23f8782413bbb51c6
-
-This is an overloaded function.
+    :digest: 1b8977301db4d576cf6daeeb8fe477b3
 
 Sets the brush in the specified color *group*, used for the given color *role*, to *brush*.
 

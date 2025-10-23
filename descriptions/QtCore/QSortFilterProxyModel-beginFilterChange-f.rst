@@ -2,7 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: e76ceeb493357c04db075a8e4bb034c6
+    :digest: 5fd495f309f1c2b01e79b43cbb5ad05d
 
 Prepares a change of the filter.
 
@@ -11,4 +11,6 @@ This function should be called if you are implementing custom filtering (e.g. :s
 .. literalinclude:: ../../../snippets/qtbase-examples-widgets-itemviews-customsortfiltermodel-mysortfilterproxymodel.py
     :lines: 73-77
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.invalidateFilter`, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.invalidateColumnsFilter`, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.invalidateRowsFilter`.
+Once the filter has been changed, call :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.endFilterChange` with :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Rows` for row-filters, :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Columns` for column-filters, or :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Columns`|\ :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Rows` if both rows and columns are filtered.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.endFilterChange`.

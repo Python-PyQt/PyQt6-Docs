@@ -61,6 +61,18 @@
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QScatterDataItem`]
         :description: QtGraphs/QScatterDataProxy-resetArray-f-1.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatterDataProxy.resetScaleArray
+        :args:
+            Iterable[:sip:ref:`~PyQt6.QtGui.QVector3D`]
+        :description: QtGraphs/QScatterDataProxy-resetScaleArray-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatterDataProxy.scaleAt
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QVector3D`
+        :description: QtGraphs/QScatterDataProxy-scaleAt-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatterDataProxy.series
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QScatter3DSeries`
@@ -109,6 +121,9 @@
             int
             int
         :description: QtGraphs/QScatterDataProxy-itemsRemoved-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QScatterDataProxy.scaleArrayReset
+        :description: QtGraphs/QScatterDataProxy-scaleArrayReset-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QScatterDataProxy.seriesChanged
         :args:

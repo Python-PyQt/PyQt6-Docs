@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Encapsulates a QML component definition
-    :digest: 93bff892ef72ebd6b8525b453a6450d8
+    :digest: 4c1b3c68b304f4ba328144d44c008542
 
 The :sip:ref:`~PyQt6.QtQml.QQmlComponent` class encapsulates a QML component definition.
 
@@ -15,8 +15,17 @@ The following code loads this QML file as a component, creates an instance of th
 
     QQmlEngine *engine = new QQmlEngine;
     QQmlComponent component(engine, QUrl::fromLocalFile("main.qml"));
+    if (component.isError()) {
+        qWarning() << "Failed to load main.qml:" << component.errors();
+        return 1;
+    }
 
     QObject *myObject = component.create();
+    if (component.isError()) {
+        qWarning() << "Failed to create instance of main.qml:" << component.errors();
+        return 1;
+    }
+
     QQuickItem *item = qobject_cast<QQuickItem*>(myObject);
     int width = item->width();  // width = 200
 

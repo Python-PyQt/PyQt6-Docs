@@ -22,6 +22,9 @@
             :description: QtWebEngineCore/QWebEngineFileSystemAccessRequest-HandleType-File-v.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFileSystemAccessRequest.__init__
+        :description: QtWebEngineCore/QWebEngineFileSystemAccessRequest-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFileSystemAccessRequest.__init__
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineFileSystemAccessRequest`
         :description: QtWebEngineCore/QWebEngineFileSystemAccessRequest-__init__-f.rst

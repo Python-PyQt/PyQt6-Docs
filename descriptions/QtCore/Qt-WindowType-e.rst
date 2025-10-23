@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 848f97669a0334cfd828e88d093e4346
+    :digest: 9501d7eb0249c766bb40d3196295bd49
 
 This enum type is used to specify various window-system properties for the widget. They are fairly unusual but necessary in a few cases. Some of these flags depend on whether the underlying window manager supports them.
 
@@ -19,5 +19,7 @@ The ``CustomizeWindowHint`` flag is used to enable customization of the window c
 **Note:** On X11, this hint will work only in window managers that support _NET_WM_STATE_BELOW atom. If a window always on the bottom has a parent, the parent will also be left on the bottom. This window hint is currently not implemented for macOS.
 
 **Note:** On Windows, this will work only for frameless or full-screen windows.
+
+**Note:** On Windows, this prevents the window from appearing in the taskbar.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QWidget.windowFlags`, `Window Flags Example <https://doc.qt.io/qt-6/qtwidgets-widgets-windowflags-example.html>`_.

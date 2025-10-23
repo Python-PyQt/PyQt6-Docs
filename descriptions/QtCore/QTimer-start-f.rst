@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: bb0f77aa5170cd95ac039f8d25cc45a5
-
-This function overloads start().
+    :digest: a6f934c26a5bc8422dcf18544e559f6f
 
 Starts or restarts the timer with the timeout specified in :sip:ref:`~PyQt6.QtCore.QTimer.interval`.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d087a656bdc7fb0440f70e7089d71d1a
     :realsig: (QXmlStreamReader*,bool,QString*,int*,int*)
-    :digest: b3535d3c5db1d9e7b8624f01daeb93d9
-
-This is an overloaded function.
+    :digest: a7660c9ef72db7089c9c657307973b03
 
 Use the overload taking ParseOptions instead.
 

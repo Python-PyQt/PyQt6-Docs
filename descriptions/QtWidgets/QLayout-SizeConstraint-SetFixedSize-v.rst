@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 3
-    :digest: e3c8fcf5aada66fef89e96c8a4f313f5
+    :digest: b6ae29354e35e37e3addc1e8ef27291e
 
-The main widget's size is set to sizeHint(); it cannot be resized at all.
+In the constrained orientation(s), the widget’s extent is set to sizeHint(), and it cannot be resized in that direction.

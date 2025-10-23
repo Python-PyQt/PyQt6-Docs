@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 79e4a23910e842248b48b9457b5ab574
     :realsig: (const QPoint&, const QString&)
-    :digest: 6d72ce3cac8ce136775d60a6b880547e
-
-This is an overloaded function.
+    :digest: 762d825d3b14df672436fc9ece3ef945
 
 Draws the given *text* with the currently defined text direction, beginning at the given *position*.
 

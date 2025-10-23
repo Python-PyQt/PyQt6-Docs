@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 1cf12541c702e4d2092f5ca9947eb176
     :realsig: (const QMargins&)
-    :digest: cc39d38fc2944f20677af47f0f79cb62
-
-This is an overloaded function.
+    :digest: 12aba60cf68586d8abfd62052865ea61
 
 The :sip:ref:`~PyQt6.QtWidgets.QWidget.setContentsMargins` function sets the margins around the widget's contents.
 

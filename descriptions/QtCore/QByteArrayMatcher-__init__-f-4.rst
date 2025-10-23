@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 59deef16a694b0a586880f637fa3acb0
     :realsig: (QByteArrayView)
-    :digest: 5dea7ef961f036114a5743ff8d2f5f0b
-
-This is an overloaded function.
+    :digest: 17028d60d1b6ae56e29fd81ea19f76f9
 
 Constructs a byte array matcher that will search for *pattern*. Call :sip:ref:`~PyQt6.QtCore.QByteArrayMatcher.indexIn` to perform a search.
 

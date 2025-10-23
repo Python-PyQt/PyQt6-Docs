@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 564805c35505c02060e2b31fa0ffe570
     :realsig: (float,float,float,float)
-    :digest: b382615e58f8ae301b30239d6c27cd06
-
-This is an overloaded function.
+    :digest: fc296a2c78b9071860748c7ce8031395
 
 Static convenience function that returns a :sip:ref:`~PyQt6.QtGui.QColor` constructed from the HSV color values, *h* (hue), *s* (saturation), *v* (value), and *a* (alpha-channel, i.e. transparency).
 

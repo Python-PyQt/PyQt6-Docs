@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 50d17f6f521250cb9c7a582402c47b28
     :realsig: (const QString&, QString*)
-    :digest: 67cdae6125b5e91512f54bb868f0526b
-
-This is an overloaded function.
+    :digest: 2545375495da2433ceab1ba4971d8550
 
 Moves the file specified by *fileName* to the trash. Returns ``true`` if successful, and sets *pathInTrash* (if provided) to the path at which the file can be found within the trash; otherwise returns ``false``.
 

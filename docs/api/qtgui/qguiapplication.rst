@@ -145,6 +145,13 @@
         :static:
         :description: QtGui/QGuiApplication-mouseButtons-f-1.rst
 
+    .. sip:method:: PyQt6.QtGui.QGuiApplication.nativeInterface
+        :args:
+            type
+        :returns:
+            Any
+        :description: QtGui/QGuiApplication-nativeInterface-f.rst
+
     .. sip:method:: PyQt6.QtGui.QGuiApplication.notify
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`

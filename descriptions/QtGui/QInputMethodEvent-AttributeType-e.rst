@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 748f83e4b2f1a438fd1364d788f9b089
+    :digest: e72d5abe6892ed9dd2e5f0112df427f7
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QInputMethodEvent.Attribute`.

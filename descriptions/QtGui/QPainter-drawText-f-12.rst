@@ -2,9 +2,7 @@
     :status: todo
     :pysig: f1c098ea956c7d945506245cf15db62b
     :realsig: (int, int, const QString&)
-    :digest: 178c043cb93c6b2d9440160125f7957f
-
-This is an overloaded function.
+    :digest: c3d7ce2315a35aa69435ea75f0484d63
 
 Draws the given *text* at position (\ *x*, *y*), using the painter's currently defined text direction.
 

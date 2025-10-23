@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 56bc90fb2ef12e920fef7683cf80f69d
     :realsig: (QIODeviceBase::OpenMode,QFileDevice::Permissions)
-    :digest: 959ea9fc92548c8bafc829a1f7a5df16
-
-This is an overloaded function.
+    :digest: 6ef5666407b9860d338b9bf76b70594b
 
 If the file does not exist and *mode* implies creating it, it is created with the specified *permissions*.
 

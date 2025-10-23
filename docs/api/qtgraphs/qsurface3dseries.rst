@@ -7,6 +7,9 @@
     .. sip:enum:: PyQt6.QtGraphs.QSurface3DSeries.DrawFlag
         :description: QtGraphs/QSurface3DSeries-DrawFlag-e.rst
 
+        .. sip:enum-member:: PyQt6.QtGraphs.QSurface3DSeries.DrawFlag.DrawFilledSurface
+            :description: QtGraphs/QSurface3DSeries-DrawFlag-DrawFilledSurface-v.rst
+
         .. sip:enum-member:: PyQt6.QtGraphs.QSurface3DSeries.DrawFlag.DrawSurface
             :description: QtGraphs/QSurface3DSeries-DrawFlag-DrawSurface-v.rst
 

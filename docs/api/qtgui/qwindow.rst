@@ -715,6 +715,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.ScreenOrientation`
         :description: QtGui/QWindow-contentOrientationChanged-s-1.rst
 
+    .. sip:signal:: PyQt6.QtGui.QWindow.flagsChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.WindowType`
+        :description: QtGui/QWindow-flagsChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGui.QWindow.focusObjectChanged
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`

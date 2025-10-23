@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 30abb1de6f61e3fb45b37bea7fd11ba3
     :realsig: (const QList<QSslError>&)
-    :digest: b5a24ece1ad7de67b565910eadee7320
-
-This is an overloaded function.
+    :digest: 1e0c090224cb2c952f44a8992036b7a0
 
 If this function is called, the SSL errors given in *errors* will be ignored.
 

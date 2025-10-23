@@ -112,6 +112,15 @@
         :static:
         :description: QtNetwork/QSslCertificate-fromDevice-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromFile
+        :args:
+            Optional[str]
+            format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
+        :returns:
+            list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :static:
+        :description: QtNetwork/QSslCertificate-fromFile-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromPath
         :args:
             Optional[str]

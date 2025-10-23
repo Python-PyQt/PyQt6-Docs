@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5fd70130e629f44666196fc320d4f2e1
     :realsig: (qreal,qreal,qreal,qreal)
-    :digest: bebb395d37a5a829f87d6dbec44bb755
-
-This is an overloaded function.
+    :digest: c595677abe2dadb2a1fe368305d757ae
 
 Sets the item's line to be the line between (\ *x1*, *y1*) and (\ *x2*, *y2*).
 

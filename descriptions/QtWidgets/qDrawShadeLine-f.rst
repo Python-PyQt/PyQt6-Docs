@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 31e5fee707a272e34d2a04093c77a51f
     :realsig: (QPainter*,const QPoint&,const QPoint&,const QPalette&,bool,int,int)
-    :digest: 45f514731c99939cb89dc40ebc048e1f
-
-This is an overloaded function.
+    :digest: 8d82823f81bf02148932ac4d1c8e7d67
 
 Draws a horizontal or vertical shaded line between *p1* and *p2* using the given *painter*. Note that nothing is drawn if the line between the points would be neither horizontal nor vertical.
 

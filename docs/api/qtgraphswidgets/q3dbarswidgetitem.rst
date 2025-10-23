@@ -87,6 +87,12 @@
             :sip:ref:`~PyQt6.QtGraphs.QBar3DSeries`
         :description: QtGraphsWidgets/Q3DBarsWidgetItem-removeSeries-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DBarsWidgetItem.renderSliceToImage
+        :args:
+            int
+            :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.SliceCaptureType`
+        :description: QtGraphsWidgets/Q3DBarsWidgetItem-renderSliceToImage-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DBarsWidgetItem.rowAxis
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QCategory3DAxis`
@@ -206,6 +212,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGraphs.QBar3DSeries`
         :description: QtGraphsWidgets/Q3DBarsWidgetItem-selectedSeriesChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DBarsWidgetItem.sliceImageChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QImage`
+        :description: QtGraphsWidgets/Q3DBarsWidgetItem-sliceImageChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DBarsWidgetItem.valueAxisChanged
         :args:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 733588a523fee44b44a88682b99dbf24
     :realsig: (QAnyStringView, QAnyStringView)
-    :digest: b42351c4541cba7e03a1a175d7353538
-
-This is an overloaded function.
+    :digest: 75ec38a8ec1ae013d3378aa1b6e22ec7
 
 Returns the instance of a singleton type named *typeName* from the module specified by *uri*.
 
@@ -14,4 +12,4 @@ The template argument *T* may be either :sip:ref:`~PyQt6.QtQml.QJSValue` or a po
 
 .. literalinclude:: ../../../snippets/qtdeclarative-src-qml-doc-snippets-code-src_qml_qqmlengine.py
 
-.. seealso:: QML_SINGLETON, :sip:ref:`~PyQt6.QtQml.qmlRegisterSingletonType`, :sip:ref:`~PyQt6.QtQml.qmlTypeId`.
+.. seealso:: `QML_SINGLETON <https://doc.qt.io/qt-6/qtqml-documents-structure.html#singleton>`_, :sip:ref:`~PyQt6.QtQml.qmlRegisterSingletonType`, :sip:ref:`~PyQt6.QtQml.qmlTypeId`.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d41c3808f0c7c2dcd2abb131f18044db
     :realsig: (QWidget*)
-    :digest: 757ec6f3770ec93f8f13c40b38c78441
-
-This is an overloaded function.
+    :digest: 1158913ade13094c89da2e6ec17dd274
 
 Removes the specified *widget* from this form layout.
 

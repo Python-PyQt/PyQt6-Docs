@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 036e9c2cff75e17278911a538a7e62f1
     :realsig: (const QString&, const QString&)
-    :digest: 5fdb7cbb47ac7dd0429feb20a47e3482
-
-This is an overloaded function.
+    :digest: 1365726771a2e4065145198ea653dee0
 
 Copies the file named *fileName* to *newName*.
 

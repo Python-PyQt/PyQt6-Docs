@@ -3,9 +3,7 @@
     :pysig: 9b562737461578d8cc91b1e52d7fdebd
     :realname: QTranslator::load
     :realsig: (const uchar*, int, const QString&)
-    :digest: d0aff0770cbad0cf04fdb88c2ecdf0ba
-
-This function overloads :sip:ref:`~PyQt6.QtCore.QTranslator.load`.
+    :digest: d5e75e209dcbbb2a015da85bbd13d27f
 
 Loads the QM file data *data* of length *len* into the translator.
 

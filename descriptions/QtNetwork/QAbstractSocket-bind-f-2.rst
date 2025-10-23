@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0aa58927d70762ff46393f119d88886a
     :realsig: (quint16,QAbstractSocket::BindMode)
-    :digest: b9fbd5e32222b658ff6a812345a55856
-
-This is an overloaded function.
+    :digest: cba6fdcc44e0669b116feb2a2244dcda
 
 Binds to :sip:ref:`~PyQt6.QtNetwork.QHostAddress`:Any on port *port*, using the BindMode *mode*.
 

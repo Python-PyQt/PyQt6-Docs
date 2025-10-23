@@ -2,9 +2,7 @@
     :status: todo
     :pysig: a809066194c68e595c18fee038a13409
     :realsig: (QFont::Tag)
-    :digest: 56efbcb8b0485b2bd8fa1750590ca1b9
-
-This is an overloaded function.
+    :digest: 5fb6fc44ec502881d9c9ba159601f210
 
 Unsets the *tag* from the map of explicitly enabled/disabled features.
 

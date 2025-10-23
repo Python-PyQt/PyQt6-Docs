@@ -2,9 +2,7 @@
     :status: todo
     :pysig: dfc50d0ccac6c89d872603eabed40539
     :realsig: (int,int,const QPixmap&,int,int,int,int)
-    :digest: 93a5e783ea3351eccbf5a6208af73291
-
-This is an overloaded function.
+    :digest: a13cdf86cbc75eeeeddca24e63978687
 
 Draws a pixmap at (\ *x*, *y*) by copying a part of the given *pixmap* into the paint device.
 

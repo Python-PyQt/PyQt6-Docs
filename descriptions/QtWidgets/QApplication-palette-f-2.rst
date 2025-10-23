@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7af3417aab8c9cec91e1ff17df93a969
     :realsig: (const char*)
-    :digest: e2f76c84838454d6bb2fadac6a84058d
-
-This is an overloaded function.
+    :digest: 8797c4c4fba1e86ba73d6c549809cb22
 
 Returns the palette for widgets of the given *className*.
 

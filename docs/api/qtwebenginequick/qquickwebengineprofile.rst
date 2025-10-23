@@ -85,6 +85,11 @@
             str
         :description: QtWebEngineQuick/QQuickWebEngineProfile-downloadPath-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.extensionManager
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineExtensionManager`
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-extensionManager-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.httpAcceptLanguage
         :returns:
             str

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 29ff27930744ad5be64e4527fe1c2dcb
     :realsig: () const
-    :digest: 3a34d5cfbdd8dacdbcc6fb99b66c2826
-
-This is an overloaded function.
+    :digest: 8c6efd6b4f1992bbe3d051cf44d3e357
 
 Converts the value to an array and returns it.
 

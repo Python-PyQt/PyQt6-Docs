@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5af8e8362183e915ee0679f3ea3db3d0
     :realsig: (double,char,int) const
-    :digest: 9238da2c50f559450fcea4ef3537a8a7
-
-This is an overloaded function.
+    :digest: f3e7c2e9a0d081f531a217650a8ad2b6
 
 Returns a string representing the floating-point number *f*.
 

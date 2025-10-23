@@ -47,6 +47,15 @@
             Optional[str]
         :description: QtGraphs/QItemModelScatterDataProxy-remap-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.remap
+        :args:
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+            Optional[str]
+        :description: QtGraphs/QItemModelScatterDataProxy-remap-f-1.rst
+
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.rotationRole
         :returns:
             str
@@ -61,6 +70,21 @@
         :returns:
             str
         :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleReplace-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRole
+        :returns:
+            str
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRole-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRolePattern
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression`
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRolePattern-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRoleReplace
+        :returns:
+            str
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setItemModel
         :args:
@@ -81,6 +105,21 @@
         :args:
             Optional[str]
         :description: QtGraphs/QItemModelScatterDataProxy-setRotationRoleReplace-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRole
+        :args:
+            Optional[str]
+        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRole-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRolePattern
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression`
+        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRolePattern-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRoleReplace
+        :args:
+            Optional[str]
+        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setXPosRole
         :args:
@@ -191,6 +230,21 @@
         :args:
             Optional[str]
         :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleReplaceChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRoleChanged
+        :args:
+            Optional[str]
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRolePatternChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRegularExpression`
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRolePatternChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRoleReplaceChanged
+        :args:
+            Optional[str]
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleReplaceChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.xPosRoleChanged
         :args:

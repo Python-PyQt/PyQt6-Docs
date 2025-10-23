@@ -4,6 +4,18 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QAbstractProxyModel`
     :description: QtCore/QSortFilterProxyModel-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QSortFilterProxyModel.Direction
+        :description: QtCore/QSortFilterProxyModel-Direction-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QSortFilterProxyModel.Direction.Both
+            :description: QtCore/QSortFilterProxyModel-Direction-Both-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QSortFilterProxyModel.Direction.Columns
+            :description: QtCore/QSortFilterProxyModel-Direction-Columns-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QSortFilterProxyModel.Direction.Rows
+            :description: QtCore/QSortFilterProxyModel-Direction-Rows-v.rst
+
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -61,6 +73,11 @@
         :returns:
             bool
         :description: QtCore/QSortFilterProxyModel-dynamicSortFilter-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.endFilterChange
+        :args:
+            directions: :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction` = :sip:ref:`~PyQt6.QtCore.QSortFilterProxyModel.Direction.Both`
+        :description: QtCore/QSortFilterProxyModel-endFilterChange-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSortFilterProxyModel.fetchMore
         :args:

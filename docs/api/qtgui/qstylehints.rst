@@ -4,6 +4,11 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QObject`
     :description: QtGui/QStyleHints-c.rst
 
+    .. sip:method:: PyQt6.QtGui.QStyleHints.accessibility
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAccessibilityHints`
+        :description: QtGui/QStyleHints-accessibility-f.rst
+
     .. sip:method:: PyQt6.QtGui.QStyleHints.colorScheme
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.ColorScheme`
@@ -38,6 +43,11 @@
         :returns:
             int
         :description: QtGui/QStyleHints-keyboardInputInterval-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QStyleHints.menuSelectionWraps
+        :returns:
+            bool
+        :description: QtGui/QStyleHints-menuSelectionWraps-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStyleHints.mouseDoubleClickDistance
         :returns:

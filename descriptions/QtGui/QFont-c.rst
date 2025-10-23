@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Specifies a query for a font used for drawing text
-    :digest: 69be68d0081b87f3b9b1eb411125a1d8
+    :digest: d7b4b91774d592808d6709bfead06d13
 
 The :sip:ref:`~PyQt6.QtGui.QFont` class specifies a query for a font used for drawing text.
 
 :sip:ref:`~PyQt6.QtGui.QFont` can be regarded as a query for one or more fonts on the system.
 
-When you create a :sip:ref:`~PyQt6.QtGui.QFont` object you specify various attributes that you want the font to have. Qt will use the font with the specified attributes, or if no matching font exists, Qt will use the closest matching installed font. The attributes of the font that is actually used are retrievable from a :sip:ref:`~PyQt6.QtGui.QFontInfo` object. If the window system provides an exact match :sip:ref:`~PyQt6.QtGui.QFont.exactMatch` returns ``true``. Use :sip:ref:`~PyQt6.QtGui.QFontMetricsF` to get measurements, e.g. the pixel length of a string using QFontMetrics::width().
+When you create a :sip:ref:`~PyQt6.QtGui.QFont` object you specify various attributes that you want the font to have. Qt will use the font with the specified attributes, or if no matching font exists, Qt will use the closest matching installed font. The attributes of the font that is actually used are retrievable from a :sip:ref:`~PyQt6.QtGui.QFontInfo` object. If the window system provides an exact match :sip:ref:`~PyQt6.QtGui.QFont.exactMatch` returns ``true``. Use :sip:ref:`~PyQt6.QtGui.QFontMetricsF` to get measurements, e.g. the pixel length of a string using :sip:ref:`~PyQt6.QtGui.QFontMetrics.horizontalAdvance`.
 
 Attributes which are not specifically set will not affect the font selection algorithm, and default values will be preferred instead.
 

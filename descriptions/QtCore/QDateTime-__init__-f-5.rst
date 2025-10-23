@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7b30e3c78923008b6da9ef0900e72ef5
     :realsig: (QDate, QTime, QDateTime::TransitionResolution)
-    :digest: d2b964c9251a15c9e9aea6a3b701c80b
-
-This is an overloaded function.
+    :digest: 7a064d786f1dc4dd0f7ffdfb29d3b8ef
 
 Constructs a datetime with the given *date* and *time*, using local time.
 

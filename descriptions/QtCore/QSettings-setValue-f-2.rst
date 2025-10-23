@@ -2,11 +2,11 @@
     :status: todo
     :pysig: 0f6fb60ef827df111b0651fef08e83ee
     :realsig: (QAnyStringView, const QVariant&)
-    :digest: c98389d657f46c52965eb4fd9ac3721d
+    :digest: 2338264107fbc9f157f4e37bea2d7686
 
 Sets the value of setting *key* to *value*. If the *key* already exists, the previous value is overwritten.
 
-Note that the Windows registry and INI files use case-insensitive keys, whereas the CFPreferences API on macOS and iOS uses case-sensitive keys. To avoid portability problems, see the :ref:`qsettings-section-and-key-syntax` rules.
+Key lookup will either be sensitive or insensitive to case depending on file format and operating system. To avoid portability problems, see the :ref:`qsettings-section-and-key-syntax` rules.
 
 Example:
 

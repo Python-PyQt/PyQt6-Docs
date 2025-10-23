@@ -2,9 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: (quint64)
-    :digest: f731f133f605e442cf936032d17948f8
-
-This is an overloaded function.
+    :digest: 12c8a2084bb2e0760682d2a301325d58
 
 Starts a CBOR Map with explicit length of *count* items in the CBOR stream. Each :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.startMap` call must be paired with one :sip:ref:`~PyQt6.QtCore.QCborStreamWriter.endMap` call and the current CBOR element extends until the end of the map.
 

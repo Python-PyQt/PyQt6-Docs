@@ -2,9 +2,7 @@
     :status: todo
     :pysig: aeaf3eb3aa263437ce2b8fcdd983fc37
     :realsig: (qsizetype)
-    :digest: 4bc8f3ab3267db12148e0d95e0b40f8b
-
-This is an overloaded function.
+    :digest: 4058957f5c75b1c5798676f4487c4fbf
 
 Modifies this byte array to start at position *pos*, extending to its end, and returns a reference to this byte array.
 

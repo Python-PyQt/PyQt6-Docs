@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (double)
-    :digest: 3fc84c04c69d3543a729ae7a0ffa760b
-
-This is an overloaded function.
+    :digest: 2bb37bcd025c62ef3ddec33ccba1d4e6
 
 Appends the floating point number *d* to the stream, creating a CBOR 64-bit Double-Precision Floating Point value. :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` always appends the number as-is, performing no check for whether the number is the canonical form for NaN, an infinite, whether it is denormal or if it could be written with a shorter format.
 

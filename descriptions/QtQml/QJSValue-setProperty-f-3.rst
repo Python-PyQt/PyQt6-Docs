@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d57aff5daeae5f6deaa21a4afed71bc9
     :realsig: (quint32, const QJSValue&)
-    :digest: 8231eb93e6d4fdb55ebcfd29fdc2e5d6
-
-This is an overloaded function.
+    :digest: 8bc35b41261e34df160eb60189109571
 
 Sets the property at the given *arrayIndex* to the given *value*.
 
@@ -28,4 +26,4 @@ Both of these approaches achieve the same result, except that the latter:
 
 If this :sip:ref:`~PyQt6.QtQml.QJSValue` is not an Array object, this function behaves as if :sip:ref:`~PyQt6.QtQml.QJSValue.setProperty` was called with the string representation of *arrayIndex*.
 
-.. seealso:: :ref:`qjsvalue-working-with-arrays`, property(quint32 arrayIndex).
+.. seealso:: property(quint32 arrayIndex), :ref:`qjsvalue-working-with-arrays`.

@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 61569f2965b7a369eb10b6d75d410d11
     :realsig: (int,int)
-    :digest: c2d99eb159380ee5fe8b52e2fdafb0d3
-
-This is an overloaded function.
+    :digest: 6f2f9ca5d1b5753af7ed967912e63db4
 
 Sets the brush's origin to point (\ *x*, *y*).

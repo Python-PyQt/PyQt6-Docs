@@ -2,9 +2,7 @@
     :status: todo
     :pysig: eed5c663a9110c04fdce085b268c2b9d
     :realsig: (float,float,float)
-    :digest: c9e0e8c08cef6077c96804de592632f4
-
-This is an overloaded function.
+    :digest: 92285efd5caf0ec2f0f849583bba3685
 
 Multiplies this matrix by another that translates coordinates by the components *x*, *y*, and *z*.
 

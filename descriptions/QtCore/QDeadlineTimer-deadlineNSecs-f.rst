@@ -2,7 +2,7 @@
     :status: todo
     :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
     :realsig: () const
-    :digest: 60af88b46037ee51368ab6cbe7d1e274
+    :digest: 44b2990cd5c8d5c839aad0f97e010b0f
 
 Returns the absolute time point for the deadline stored in :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` object, calculated in nanoseconds relative to the reference clock, the same as :sip:ref:`~PyQt6.QtCore.QElapsedTimer.msecsSinceReference`. The value will be in the past if this :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` has expired.
 
@@ -15,4 +15,4 @@ This function can be used to calculate the amount of time a timer is overdue, by
 
 **Note:** Timers that were created as expired have an indetermine time point in the past as their deadline, so the above calculation may not work.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QDeadlineTimer.remainingTime`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QDeadlineTimer.remainingTime`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer.deadline`, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer.setDeadline`.

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 13ab3c5e77307569196120fd7ddfef82
     :realsig: (const QList<qreal>&)
-    :digest: aa5979b22667a093d64ac7792f536b41
-
-This is an overloaded function.
+    :digest: 3d8c1cdc478e1f52ebc95284582a909e
 
 Sets the dash pattern for the generated outlines to *dashPattern*. This function makes it possible to specify custom dash patterns.
 

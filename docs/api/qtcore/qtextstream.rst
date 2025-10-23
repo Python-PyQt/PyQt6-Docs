@@ -116,6 +116,11 @@
             bool
         :description: QtCore/QTextStream-generateByteOrderMark-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QTextStream.__int__
+        :returns:
+            bool
+        :description: QtCore/QTextStream-__int__-f.rst
+
     .. sip:method:: PyQt6.QtCore.QTextStream.integerBase
         :returns:
             int

@@ -439,6 +439,16 @@
             bool
         :description: QtCore/QByteArray-__ne__-f-3.rst
 
+    .. sip:method:: PyQt6.QtCore.QByteArray.nullTerminate
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-nullTerminate-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QByteArray.nullTerminated
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QByteArray`
+        :description: QtCore/QByteArray-nullTerminated-f.rst
+
     .. sip:method:: PyQt6.QtCore.QByteArray.number
         :args:
             int

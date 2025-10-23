@@ -73,6 +73,13 @@
             QDBusReply
         :description: QtDBus/QDBusConnectionInterface-registerService-f-1.rst
 
+    .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.serviceCredentials
+        :args:
+            Optional[str]
+        :returns:
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-serviceCredentials-f.rst
+
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.serviceOwner
         :args:
             Optional[str]

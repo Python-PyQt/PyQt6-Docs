@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 547000f13f2e7a3400a249c3cc6ac740
     :realsig: (QAnyStringView)
-    :digest: 2746a2d84f09121d5ecbc8741de38708
-
-This is an overloaded function.
+    :digest: cad450729ce8ab663401cb6c3de02d96
 
 Sets the value of the field called *name* to null. If the field does not exist, nothing happens.
 

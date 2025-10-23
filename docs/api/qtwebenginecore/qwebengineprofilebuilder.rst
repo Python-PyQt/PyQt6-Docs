@@ -19,6 +19,13 @@
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile`
         :description: QtWebEngineCore/QWebEngineProfileBuilder-createProfile-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setAdditionalTrustedCertificates
+        :args:
+            Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
+        :returns:
+            :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfileBuilder`
+        :description: QtWebEngineCore/QWebEngineProfileBuilder-setAdditionalTrustedCertificates-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setCachePath
         :args:
             Optional[str]

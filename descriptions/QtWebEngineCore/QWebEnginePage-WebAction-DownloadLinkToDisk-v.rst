@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 16
-    :digest: 2d4afe635854b97fab49497bab8d8dda
+    :digest: eb03afd6c9836701143cfc78598fc2c5
 
-Download the current link to the disk. Requires a slot for downloadRequested().
+Download the current link to the disk. Requires a slot for :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile.downloadRequested`.

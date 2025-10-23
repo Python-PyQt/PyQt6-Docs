@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6fb60876b5136c816ecc1a895d3012c0
     :realsig: (const QString&, const QString&)
-    :digest: f19b5e36e7c6828ad13d0ec71f02509e
-
-This is an overloaded function.
+    :digest: 85f17edec3775103390d51ea37dba9d4
 
 Shows the given message, *message*, and returns immediately. If the user has requested for messages of type, *type*, not to be shown again, this function does nothing.
 

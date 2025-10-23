@@ -2,9 +2,7 @@
     :status: todo
     :pysig: cd0732948773d0c21ffea7684401346b
     :realsig: (const QPoint*,int,QPaintEngine::PolygonDrawMode)
-    :digest: 4a8f49ad793738ee2265ab7d94aeb54b
-
-This is an overloaded function.
+    :digest: 55f3c2f3c9d648310205a04da12755ba
 
 Reimplement this virtual function to draw the polygon defined by the *pointCount* first points in *points*, using mode *mode*.
 

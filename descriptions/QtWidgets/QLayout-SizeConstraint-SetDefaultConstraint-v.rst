@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0
-    :digest: 1a93e38b646ce2849933e0bcea8d319b
+    :digest: 44b44edcb86060de77528b5798f96af2
 
-The main widget's minimum size is set to :sip:ref:`~PyQt6.QtWidgets.QLayout.minimumSize`, unless the widget already has a minimum size.
+In the constrained orientation(s), the widget’s minimum extent is set to :sip:ref:`~PyQt6.QtWidgets.QLayout.minimumSize`, unless a minimum size has already been set.

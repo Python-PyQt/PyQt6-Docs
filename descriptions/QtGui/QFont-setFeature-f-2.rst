@@ -2,9 +2,7 @@
     :status: todo
     :pysig: a0197453317bb7ca87df12ecdeed49f3
     :realsig: (QFont::Tag, quint32)
-    :digest: c2643670d14f444b8e3a96265fe1e971
-
-This is an overloaded function.
+    :digest: 1cf1a806016920a95a12b3534ac5ff8d
 
 Applies an integer value to the typographical feature specified by *tag* when shaping the text. This provides advanced access to the font shaping process, and can be used to support font features that are otherwise not covered in the API.
 

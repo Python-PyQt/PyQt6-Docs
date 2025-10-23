@@ -2,11 +2,9 @@
     :status: todo
     :pysig: 74855115bbecbce3b5dec0a5ba97ce75
     :realsig: (const QUrl&, const QByteArray&)
-    :digest: ef41adef0266ca4d866b35579c5b7eaf
+    :digest: 3bbc41a194279185684740e088669753
 
 Please use :sip:ref:`~PyQt6.QtNetwork` classes directly instead, see `HTTP method alternatives <https://doc.qt.io/qt-6/oauth-http-method-alternatives.html>`_.
-
-This is an overloaded function.
 
 Sends an authenticated PUT request and returns a new :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`. The *url* and *data* are used to create the request.
 

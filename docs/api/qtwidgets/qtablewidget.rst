@@ -311,6 +311,11 @@
             bool
         :description: QtWidgets/QTableWidget-setSortingEnabled-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QTableWidget.setSupportedDragActions
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTableWidget-setSupportedDragActions-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.setVerticalHeaderItem
         :args:
             int
@@ -327,6 +332,11 @@
             int
             order: :sip:ref:`~PyQt6.QtCore.Qt.SortOrder` = :sip:ref:`~PyQt6.QtCore.Qt.SortOrder.AscendingOrder`
         :description: QtWidgets/QTableWidget-sortItems-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QTableWidget.supportedDragActions
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTableWidget-supportedDragActions-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTableWidget.supportedDropActions
         :returns:

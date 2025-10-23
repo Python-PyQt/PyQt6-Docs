@@ -4,10 +4,35 @@
     :inherits: :sip:ref:`~PyQt6.QtGraphs.QAbstractSeries`
     :description: QtGraphs/QPieSeries-c.rst
 
+    .. sip:enum:: PyQt6.QtGraphs.QPieSeries.LabelVisibility
+        :description: QtGraphs/QPieSeries-LabelVisibility-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QPieSeries.LabelVisibility.Even
+            :description: QtGraphs/QPieSeries-LabelVisibility-Even-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QPieSeries.LabelVisibility.First
+            :description: QtGraphs/QPieSeries-LabelVisibility-First-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QPieSeries.LabelVisibility.None_
+            :description: QtGraphs/QPieSeries-LabelVisibility-None_-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QPieSeries.LabelVisibility.Odd
+            :description: QtGraphs/QPieSeries-LabelVisibility-Odd-v.rst
+
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtGraphs/QPieSeries-__init__-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QPieSeries.angleSpanLabelVisibility
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSeries.LabelVisibility`
+        :description: QtGraphs/QPieSeries-angleSpanLabelVisibility-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QPieSeries.angleSpanVisibleLimit
+        :returns:
+            float
+        :description: QtGraphs/QPieSeries-angleSpanVisibleLimit-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.append
         :args:
@@ -144,6 +169,16 @@
             bool
         :description: QtGraphs/QPieSeries-replace-f-2.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QPieSeries.setAngleSpanLabelVisibility
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSeries.LabelVisibility`
+        :description: QtGraphs/QPieSeries-setAngleSpanLabelVisibility-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QPieSeries.setAngleSpanVisibleLimit
+        :args:
+            float
+        :description: QtGraphs/QPieSeries-setAngleSpanVisibleLimit-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.setEndAngle
         :args:
             float
@@ -220,6 +255,16 @@
         :args:
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QPieSlice`]
         :description: QtGraphs/QPieSeries-added-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.angleSpanLabelVisibilityChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QPieSeries.LabelVisibility`
+        :description: QtGraphs/QPieSeries-angleSpanLabelVisibilityChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QPieSeries.angleSpanVisibleLimitChanged
+        :args:
+            float
+        :description: QtGraphs/QPieSeries-angleSpanVisibleLimitChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QPieSeries.clicked
         :args:

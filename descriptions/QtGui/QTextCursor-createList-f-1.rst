@@ -2,9 +2,7 @@
     :status: todo
     :pysig: c7fe121d5f850476712e346299e109e5
     :realsig: (QTextListFormat::Style)
-    :digest: ab9d8800cfd349ebf7f3491c7722b398
-
-This is an overloaded function.
+    :digest: db654613d0053015ea836e5c0e96805e
 
 Creates and returns a new list with the given *style*, making the cursor's current paragraph the first list item.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: (QStringView)
-    :digest: 2c2934204de5f9a4ef860dadc7587010
-
-This is an overloaded function.
+    :digest: 335dbe0a74cf8a5b669b0428b56f6827
 
 Appends the text string *str* to the stream, creating a CBOR Text String value. :sip:ref:`~PyQt6.QtCore.QCborStreamWriter` will attempt to write the entire string in one chunk.
 

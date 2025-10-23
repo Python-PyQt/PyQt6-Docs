@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
-    :digest: 819d460f02b622d7565b848c5acc084a
+    :digest: bcc95161fcbfcce629a003f90f589486
 
 Sets the input volume to *volume*.
 
@@ -12,6 +12,6 @@ If the device does not support adjusting the input volume then *volume* will be 
 
 The default volume is ``1.0``.
 
-Note: Adjustments to the volume will change the volume of this audio stream, not the global volume.
+**Note:** Adjustments to the volume will change the volume of this audio stream, not the global volume.
 
 .. seealso:: :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.volume`.

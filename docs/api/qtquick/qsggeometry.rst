@@ -192,6 +192,11 @@
             int
         :description: QtQuick/QSGGeometry-setDrawingMode-f.rst
 
+    .. sip:method:: PyQt6.QtQuick.QSGGeometry.setIndexCount
+        :args:
+            int
+        :description: QtQuick/QSGGeometry-setIndexCount-f.rst
+
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.setIndexDataPattern
         :args:
             :sip:ref:`~PyQt6.QtQuick.QSGGeometry.DataPattern`
@@ -201,6 +206,11 @@
         :args:
             float
         :description: QtQuick/QSGGeometry-setLineWidth-f.rst
+
+    .. sip:method:: PyQt6.QtQuick.QSGGeometry.setVertexCount
+        :args:
+            int
+        :description: QtQuick/QSGGeometry-setVertexCount-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGGeometry.setVertexDataPattern
         :args:

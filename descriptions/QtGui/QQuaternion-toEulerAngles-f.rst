@@ -2,10 +2,8 @@
     :status: todo
     :pysig: b745689becad30ca8dcb68bd656eeb64
     :realsig: () const
-    :digest: b313fa23b6ccf786ab092255e75fa8b9
+    :digest: 7c119f3c74e2e146242cd0383ec9b3cf
 
-This is an overloaded function.
-
-Calculates roll, pitch, and yaw Euler angles (in degrees) that corresponds to this quaternion.
+Calculates roll, pitch, and yaw Euler angles (in degrees) that correspond to this quaternion.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QQuaternion.fromEulerAngles`.

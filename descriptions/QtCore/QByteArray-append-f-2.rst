@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7b9c4853e5fd994c9e905a4e3473fd98
     :realsig: (qsizetype,char)
-    :digest: 91812acd6d1078ce0469c725b329c90e
-
-This is an overloaded function.
+    :digest: eacd66786235abd099b7419dcb07e4a2
 
 Appends *count* copies of byte *ch* to this byte array and returns a reference to this byte array.
 

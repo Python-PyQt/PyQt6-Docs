@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d41d8cd98f00b204e9800998ecf8427e
     :realsig: ()
-    :digest: e46b28e040ed16be9866fcc23e87ef22
-
-This is an overloaded function.
+    :digest: 87d5155e4627ff47d6bd08c8053bbaad
 
 This function will forcibly show the torn off menu making it appear on the user's desktop under the mouse currsor.
 

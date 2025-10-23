@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 1d564629261b4e6291e96f2cc52ac538
     :realsig: (bool,qsizetype,qsizetype)
-    :digest: 06c22b37210a73b2bc4d28023ae3760f
-
-This is an overloaded function.
+    :digest: 3836eccc820dfe1d802f38fceb8768a5
 
 Sets bits at index positions *begin* up to (but not including) *end* to *value*.
 

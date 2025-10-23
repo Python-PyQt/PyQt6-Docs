@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 364191bc772363d61cf96ad3eac70cf9
     :realsig: (const QSize&)
-    :digest: 95b18c47b60cee43faa8cafbb5664b70
-
-This is an overloaded function.
+    :digest: 08d1f4626976d875bd2590bbd75c113b
 
 Constructs a pixmap of the given *size*.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7648d7d7a0713117dbc38c92b07c8aab
     :realsig: (qreal,qreal) const
-    :digest: fef5a4f75f6b1711f842632ca66c8690
-
-This is an overloaded function.
+    :digest: 9135288482faea3699de25783ec2a7d1
 
 Returns a copy of the polygon that is translated by (\ *dx*, *dy*).
 

@@ -592,6 +592,41 @@
             bool
         :description: QtNetwork/QHttpHeaders-contains-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValue
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+        :returns:
+            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
+        :description: QtNetwork/QHttpHeaders-dateTimeValue-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValue
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
+        :description: QtNetwork/QHttpHeaders-dateTimeValue-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValueAt
+        :args:
+            int
+        :returns:
+            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
+        :description: QtNetwork/QHttpHeaders-dateTimeValueAt-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValues
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+        :returns:
+            Optional[list[:sip:ref:`~PyQt6.QtCore.QDateTime`]]
+        :description: QtNetwork/QHttpHeaders-dateTimeValues-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValues
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            Optional[list[:sip:ref:`~PyQt6.QtCore.QDateTime`]]
+        :description: QtNetwork/QHttpHeaders-dateTimeValues-f-1.rst
+
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.fromListOfPairs
         :args:
             Iterable[tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
@@ -617,6 +652,41 @@
         :returns:
             bool
         :description: QtNetwork/QHttpHeaders-insert-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValue
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+        :returns:
+            Optional[int]
+        :description: QtNetwork/QHttpHeaders-intValue-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValue
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            Optional[int]
+        :description: QtNetwork/QHttpHeaders-intValue-f-1.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValueAt
+        :args:
+            int
+        :returns:
+            Optional[int]
+        :description: QtNetwork/QHttpHeaders-intValueAt-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValues
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+        :returns:
+            Optional[list[int]]
+        :description: QtNetwork/QHttpHeaders-intValues-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValues
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :returns:
+            Optional[list[int]]
+        :description: QtNetwork/QHttpHeaders-intValues-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.isEmpty
         :returns:
@@ -683,6 +753,18 @@
         :args:
             int
         :description: QtNetwork/QHttpHeaders-reserve-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.setDateTimeValue
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
+            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.setDateTimeValue
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.size
         :returns:

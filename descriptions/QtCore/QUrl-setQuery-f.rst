@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0bd5b2e1d97821094eb31d9a7e0c951c
     :realsig: (const QUrlQuery&)
-    :digest: c86f5b57196ef6b5df9f4b1b0a1eb4f2
-
-This is an overloaded function.
+    :digest: f960424ecea93e7a8f5c5c550e8262a8
 
 Sets the query string of the URL to *query*.
 

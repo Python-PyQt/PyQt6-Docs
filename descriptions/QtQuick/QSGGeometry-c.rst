@@ -1,13 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Low-level storage for graphics primitives in the Qt Quick Scene Graph
-    :digest: 80d633373f3563bcc9609c5f4e3e00a8
+    :digest: 16c415a1a18bf6fc5dab07fad017b50d
 
 The :sip:ref:`~PyQt6.QtQuick.QSGGeometry` class provides low-level storage for graphics primitives in the `Qt Quick Scene Graph <https://doc.qt.io/qt-6/qtquick-visualcanvas-scenegraph.html>`_.
 
 The :sip:ref:`~PyQt6.QtQuick.QSGGeometry` class stores the geometry of the primitives rendered with the scene graph. It contains vertex data and optionally index data. The mode used to draw the geometry, also called primitive topology, is specified with :sip:ref:`~PyQt6.QtQuick.QSGGeometry.setDrawingMode`.
 
 Vertices can be as simple as points defined by x and y values or can be more complex where each vertex contains a normal, texture coordinates and a 3D position. The :sip:ref:`~PyQt6.QtQuick.QSGGeometry.AttributeSet` is used to describe how the vertex data is built up. The attribute set can only be specified on construction. The :sip:ref:`~PyQt6.QtQuick.QSGGeometry` class provides a few convenience attributes and attribute sets by default. The :sip:ref:`~PyQt6.QtQuick.QSGGeometry.defaultAttributes_Point2D` function returns an attribute set to be used in normal solid color rectangles, while the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.defaultAttributes_TexturedPoint2D` function returns attributes to be used for textured 2D geometry. The vertex data is internally stored as a ``void \*`` and is accessible with the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.vertexData` function. Convenience accessors for the common attribute sets are available with :sip:ref:`~PyQt6.QtQuick.QSGGeometry.vertexDataAsPoint2D` and :sip:ref:`~PyQt6.QtQuick.QSGGeometry.vertexDataAsTexturedPoint2D`. Vertex data is allocated by passing a vertex count to the constructor or by calling :sip:ref:`~PyQt6.QtQuick.QSGGeometry.allocate` later.
+
+The number of vertices and indices can be changed after construction by using the :sip:ref:`~PyQt6.QtQuick.QSGGeometry.allocate` method to resize the data buffer. However, :sip:ref:`~PyQt6.QtQuick.QSGGeometry.allocate` requires updating all vertex and index data each time called. Since Qt 6.10, :sip:ref:`~PyQt6.QtQuick.QSGGeometry.setVertexCount` and :sip:ref:`~PyQt6.QtQuick.QSGGeometry.setIndexCount` allow adjusting the number of vertices or indices without reallocating the data buffer and only require updating new vertices or indices. In either case, the caller must mark the geometry node as dirty, by calling ``node->markDirty(QSGNode::DirtyGeometry)``, to ensure that the renderer has a chance to update internal buffers.
 
 The :sip:ref:`~PyQt6.QtQuick.QSGGeometry` can optionally contain indices of either unsigned 32-bit, unsigned 16-bit, or unsigned 8-bit integers. The index type must be specified during construction and cannot be changed.
 

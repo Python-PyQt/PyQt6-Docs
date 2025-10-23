@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 44643e583114113fe017bc476463e992
     :realsig: (const char*,const QVector4D&)
-    :digest: 88592024784af960b86d685a36e282bc
-
-This is an overloaded function.
+    :digest: dc3746412169bc941b10555512fbbdd2
 
 Sets the uniform variable called *name* in the current context to *value*.
 

@@ -2,9 +2,11 @@
     :status: todo
     :pysig: 7e219fc6e58b7a39f125f48d90372d00
     :realsig: (QMetaType,QMetaType)
-    :digest: afa868d0580a135d81785f03669aaf77
+    :digest: bea33350d7f73d2629748f671e9615bb
 
-Returns ``true`` if QMetaType::convert can convert from *fromType* to *toType*.
+Returns ``true`` if QMetaType::convert can convert from *fromType* to *toType*. Note this is mostly about the ability to execute the conversion, while the actual conversion may fail when attempted (for example, converting a floating point value to an integer outside of its range).
+
+The registerConverter() function can be used to register additional conversions, either between a built-in type and a non-built-in one, or between two non-built-in types. This function will return ``true`` if the conversion path is registered.
 
 The following conversions are supported by Qt:
 
@@ -52,9 +54,9 @@ The following conversions are supported by Qt:
 | :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QUuid`        | :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QByteArray`, :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QString`                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 +------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Casting between primitive type (int, float, bool etc.) is supported.
+Other supported conversions include between all primitive types (``int``, ``float``, ``bool``, etc., including all enums) and between any pointer type and ``std::nullptr_t``. Enumerations can also be converted to :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QString` and :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QByteArray`.
 
-Converting between pointers of types derived from :sip:ref:`~PyQt6.QtCore.QObject` will also return true for this function if a qobject_cast from the type described by *fromType* to the type described by *toType* would succeed.
+If both *fromType* and *toType* are types deriving from :sip:ref:`~PyQt6.QtCore.QObject` (or pointers to them), this function will also return ``true`` if one of the types is derived from the other. That is, it returns true if ``static_cast<>`` from the type described by *fromType* to the type described by *toType* would compile. The convert() function operates like qobject_cast() and verifies the dynamic type of the object pointed to by the :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QVariant`.
 
 A cast from a sequential container will also return true for this function if the *toType* is :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QVariantList`.
 

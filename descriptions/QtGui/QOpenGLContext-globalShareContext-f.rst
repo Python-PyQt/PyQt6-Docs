@@ -2,13 +2,11 @@
     :status: todo
     :pysig: 7fe694e1683563ddccb2ed4fea1dfa63
     :realsig: ()
-    :digest: 821efa07672d788eeb10f441025d2fc2
+    :digest: c1a3c45272f9cd6dda60211bf5fa8c13
 
 Returns the application-wide shared OpenGL context, if present. Otherwise, returns ``nullptr``.
 
 This is useful if you need to upload OpenGL objects (buffers, textures, etc.) before creating or showing a :sip:ref:`~PyQt6.QtOpenGLWidgets.QOpenGLWidget` or :sip:ref:`~PyQt6.QtQuickWidgets.QQuickWidget`.
-
-**Note:** You must set the :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_ShareOpenGLContexts` flag on :sip:ref:`~PyQt6.QtGui.QGuiApplication` before creating the :sip:ref:`~PyQt6.QtGui.QGuiApplication` object, otherwise Qt may not create a global shared context.
 
 **Warning:** Do not attempt to make the context returned by this function current on any surface. Instead, you can create a new context which shares with the global one, and then make the new context current.
 

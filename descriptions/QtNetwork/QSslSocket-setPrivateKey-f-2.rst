@@ -2,9 +2,7 @@
     :status: todo
     :pysig: b45133b575b7b933b47c94ed7949068e
     :realsig: (const QString&, QSsl::KeyAlgorithm, QSsl::EncodingFormat, const QByteArray&)
-    :digest: 82145043d432daabce8fb104a7008608
-
-This is an overloaded function.
+    :digest: 566203f92d64a78ca7a5f3702c8391cd
 
 Reads the string in file *fileName* and decodes it using a specified *algorithm* and encoding *format* to construct an :sip:ref:`~PyQt6.QtNetwork.QSslKey`. If the encoded key is encrypted, *passPhrase* is used to decrypt it.
 

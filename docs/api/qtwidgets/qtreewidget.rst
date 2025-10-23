@@ -264,6 +264,11 @@
             :sip:ref:`~PyQt6.QtCore.QItemSelectionModel`
         :description: QtWidgets/QTreeWidget-setSelectionModel-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setSupportedDragActions
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTreeWidget-setSupportedDragActions-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.sortColumn
         :returns:
             int
@@ -274,6 +279,11 @@
             int
             :sip:ref:`~PyQt6.QtCore.Qt.SortOrder`
         :description: QtWidgets/QTreeWidget-sortItems-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QTreeWidget.supportedDragActions
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
+        :description: QtWidgets/QTreeWidget-supportedDragActions-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.supportedDropActions
         :returns:

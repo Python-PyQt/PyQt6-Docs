@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Vertical or horizontal scroll bar
-    :digest: fec48a67b6a54ae4612a95616a93f092
+    :digest: b77c185c0850c3dd6e3490e4e7d50059
 
 The :sip:ref:`~PyQt6.QtWidgets.QScrollBar` widget provides a vertical or horizontal scroll bar.
 
@@ -35,7 +35,7 @@ The range of values specified for the scroll bar are often determined differentl
 
 ScrollBar inherits a comprehensive set of signals from :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider`:
 
-* :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.valueChanged` is emitted when the scroll bar's value has changed. The tracking() determines whether this signal is emitted during user interaction.
+* :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.valueChanged` is emitted when the scroll bar's value has changed. The tracking property determines whether this signal is emitted during user interaction.
 
 * :sip:ref:`~PyQt6.QtWidgets.QAbstractSlider.rangeChanged` is emitted when the scroll bar's range of values has changed.
 

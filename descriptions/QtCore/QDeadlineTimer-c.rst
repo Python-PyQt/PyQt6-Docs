@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Marks a deadline in the future
-    :digest: 35ecc2b7f1ce333326ac58ceffb0370c
+    :digest: 8e57da27b745d2d6a8bf6922135dd454
 
 The :sip:ref:`~PyQt6.QtCore.QDeadlineTimer` class marks a deadline in the future.
 
@@ -41,7 +41,7 @@ This feature is dependent on support from the operating system: if the OS does n
 ``std::chrono`` Compatibility
 -----------------------------
 
-:sip:ref:`~PyQt6.QtCore.QDeadlineTimer` is compatible with the ``std::chrono`` API from C++11 and can be constructed from or compared to both ``std::chrono::duration`` and ``std::chrono::time_point`` objects. In addition, it is fully compatible with the time literals from C++14, which allow one to write code as:
+:sip:ref:`~PyQt6.QtCore.QDeadlineTimer` is compatible with the ``std::chrono`` API from C++11 and can be constructed from or compared to both ``std::chrono::duration`` and ``std::chrono::time_point`` objects. In addition, it is fully compatible with the time literals from C++14, which allow one to write code such as:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qdeadlinetimer.py
     :lines: 66-72
@@ -53,4 +53,4 @@ Note that comparing to ``time_point`` is not as efficient as comparing to ``dura
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_kernel_qdeadlinetimer.py
     :lines: 76-80
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QDeadlineTimer`, :sip:ref:`~PyQt6.QtCore.Qt.TimerType`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QTime`, QChronoTimer, :sip:ref:`~PyQt6.QtCore.QElapsedTimer`, :sip:ref:`~PyQt6.QtCore.Qt.TimerType`.

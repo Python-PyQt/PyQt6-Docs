@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 38ae5154b09fef91af6725d15ceaa6dc
     :realsig: (qint64,Qt::TimeSpec,int)
-    :digest: 4e551af81f5109620407be649e8a2a2b
-
-This is an overloaded function.
+    :digest: 6961039d201e57f3d0b8265988117bd2
 
 Pass a :sip:ref:`~PyQt6.QtCore.QTimeZone` instead, or omit *spec* and *offsetSeconds*.
 

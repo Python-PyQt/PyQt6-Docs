@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 9a842cddcf79c343b1f4d89e501399a4
     :realsig: (const QNetworkRequest&,QHttpMultiPart*)
-    :digest: 8305aa42e7a1eb5599e22c791cdd758b
-
-This is an overloaded function.
+    :digest: c6680e3679eb9e9c1b5f3eb4c67e48c8
 
 Sends the contents of the *multiPart* message to the destination specified by *request*.
 

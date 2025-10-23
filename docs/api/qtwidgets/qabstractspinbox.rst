@@ -324,3 +324,6 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QAbstractSpinBox.editingFinished
         :description: QtWidgets/QAbstractSpinBox-editingFinished-s.rst
+
+    .. sip:signal:: PyQt6.QtWidgets.QAbstractSpinBox.returnPressed
+        :description: QtWidgets/QAbstractSpinBox-returnPressed-s.rst

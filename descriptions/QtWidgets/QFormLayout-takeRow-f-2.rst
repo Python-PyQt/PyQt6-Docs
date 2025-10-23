@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 9625ed420a648efd68e768922e6b8dd7
     :realsig: (QLayout*)
-    :digest: 209cec182b88684b8181fcaeaae73ff9
-
-This is an overloaded function.
+    :digest: a3a2649015d02051f38245351a161924
 
 Removes the specified *layout* from this form layout.
 

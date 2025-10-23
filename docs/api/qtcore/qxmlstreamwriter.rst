@@ -3,6 +3,24 @@
 .. sip:class:: PyQt6.QtCore.QXmlStreamWriter
     :description: QtCore/QXmlStreamWriter-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QXmlStreamWriter.Error
+        :description: QtCore/QXmlStreamWriter-Error-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QXmlStreamWriter.Error.Custom
+            :description: QtCore/QXmlStreamWriter-Error-Custom-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QXmlStreamWriter.Error.Encoding
+            :description: QtCore/QXmlStreamWriter-Error-Encoding-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QXmlStreamWriter.Error.InvalidCharacter
+            :description: QtCore/QXmlStreamWriter-Error-InvalidCharacter-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QXmlStreamWriter.Error.IO
+            :description: QtCore/QXmlStreamWriter-Error-IO-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QXmlStreamWriter.Error.None_
+            :description: QtCore/QXmlStreamWriter-Error-None_-v.rst
+
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.__init__
         :description: QtCore/QXmlStreamWriter-__init__-f.rst
 
@@ -31,10 +49,25 @@
             :sip:ref:`~PyQt6.QtCore.QIODevice`
         :description: QtCore/QXmlStreamWriter-device-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.error
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QXmlStreamWriter.Error`
+        :description: QtCore/QXmlStreamWriter-error-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.errorString
+        :returns:
+            str
+        :description: QtCore/QXmlStreamWriter-errorString-f.rst
+
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.hasError
         :returns:
             bool
         :description: QtCore/QXmlStreamWriter-hasError-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.raiseError
+        :args:
+            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+        :description: QtCore/QXmlStreamWriter-raiseError-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.setAutoFormatting
         :args:
@@ -50,6 +83,16 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
         :description: QtCore/QXmlStreamWriter-setDevice-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.setStopWritingOnError
+        :args:
+            bool
+        :description: QtCore/QXmlStreamWriter-setStopWritingOnError-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.stopWritingOnError
+        :returns:
+            bool
+        :description: QtCore/QXmlStreamWriter-stopWritingOnError-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeAttribute
         :args:

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 18a7fac56fd6886581a03773d004ba9b
     :realsig: (const QXmlStreamAttribute&)
-    :digest: e8e4425b8d2b57d0e56ae3da43c8af6c
-
-This is an overloaded function.
+    :digest: 0da4530e60a3de6b997a3b2da92c5bdd
 
 Writes the *attribute*.
 

@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 3ea931ac9ba1f06b728b5af3c62253bb
-
-This is an overloaded function.
+    :digest: b750a7ded4c54634367212a182d0d34c
 
 Returns the absolute path of the file or directory a symlink (or shortcut on Windows) points to, or a an empty string if the object isn't a symbolic link.
 

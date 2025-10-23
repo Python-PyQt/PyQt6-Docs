@@ -2,9 +2,7 @@
     :status: todo
     :pysig: cade5435c9c717945f3df11a91bc47ab
     :realsig: (int,int,int,int,const QPixmap&,int,int)
-    :digest: 458d064b389592fb8b84ee3d3af187e3
-
-This is an overloaded function.
+    :digest: 257e0f1d77e022716399211fd7733885
 
 Draws a tiled *pixmap* in the specified rectangle.
 

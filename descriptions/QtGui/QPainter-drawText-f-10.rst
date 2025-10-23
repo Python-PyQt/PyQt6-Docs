@@ -2,9 +2,7 @@
     :status: todo
     :pysig: daacd402103e83e3d5aac335b6a4f8ae
     :realsig: (const QRect&, int, const QString&, QRect*)
-    :digest: ed49a133ee26cde86d1a73bb5d13e494
-
-This is an overloaded function.
+    :digest: 6fb204d845ebe390ee0a59ce1dc26796
 
 Draws the given *text* within the provided *rectangle* according to the specified *flags*.
 

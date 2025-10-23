@@ -2,9 +2,7 @@
     :status: todo
     :pysig: d8b95f782433e872251a4af4f402d2fa
     :realsig: (QIODevice*,bool,QString*,int*,int*)
-    :digest: 2056be1c9c79a77b70dfcc183f136577
-
-This is an overloaded function.
+    :digest: 4ef11a604a7d9974b7747e083c807b05
 
 Use the overload taking ParseOptions instead.
 

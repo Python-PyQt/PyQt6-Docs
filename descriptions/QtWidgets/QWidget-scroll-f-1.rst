@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 0c984aa5f8699fdaa47ca7ca1eb6cc0d
     :realsig: (int,int,const QRect&)
-    :digest: b396428f9e726aea6b5abe04c5b8f2bc
-
-This is an overloaded function.
+    :digest: da48160e2706223865d92529f01ed4a6
 
 This version only scrolls *r* and does not move the children of the widget.
 

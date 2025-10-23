@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Provides functions to access serial ports
-    :digest: be26e94d2f8760bd4744ae0de26792f4
+    :digest: 82d3bf775643dff2a0674c107bc8befc
 
 Provides functions to access serial ports.
 
@@ -29,11 +29,11 @@ See the following example:
 
 ::
 
-    int numRead = 0, numReadTotal = 0;
+    qint64 numReadTotal = 0;
     char buffer[50];
 
     for (;;) {
-        numRead  = serial.read(buffer, 50);
+        const qint64 numRead  = serial.read(buffer, 50);
 
         // Do whatever with the array
 

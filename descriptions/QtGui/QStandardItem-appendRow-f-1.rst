@@ -2,9 +2,7 @@
     :status: todo
     :pysig: dda4d4157806d9fb40b7394b87b3266a
     :realsig: (QStandardItem*)
-    :digest: 5c9e4e528f6047c6f37008f99ce6b388
-
-This is an overloaded function.
+    :digest: 9cf157a20bec855dc578b60a989bb1f4
 
 Appends a row containing *item*.
 

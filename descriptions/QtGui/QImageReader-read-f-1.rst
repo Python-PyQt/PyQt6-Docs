@@ -2,9 +2,7 @@
     :status: todo
     :pysig: b5207006acd9098e45a6c3737781523d
     :realsig: (QImage*)
-    :digest: 1d5aac3e8a9d44500058b9a5d43a69d4
-
-This is an overloaded function.
+    :digest: 61c5acb6902ec1b61b1162da3ff08185
 
 Reads an image from the device into *image*, which must point to a :sip:ref:`~PyQt6.QtGui.QImage`. Returns ``true`` on success; otherwise, returns ``false``.
 

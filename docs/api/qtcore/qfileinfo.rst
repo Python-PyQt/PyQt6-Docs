@@ -199,6 +199,11 @@
             bool
         :description: QtCore/QFileInfo-isNativePath-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QFileInfo.isOther
+        :returns:
+            bool
+        :description: QtCore/QFileInfo-isOther-f.rst
+
     .. sip:method:: PyQt6.QtCore.QFileInfo.isReadable
         :returns:
             bool

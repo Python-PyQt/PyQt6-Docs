@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 7b302619a1f8d21d9efa913403e8d56b
     :realsig: (const QRegion&)
-    :digest: 53d9dd0d257c73781f41710b45fd99aa
-
-This is an overloaded function.
+    :digest: 52cd295fc1450bd5267733cfcbcea705
 
 Causes only the parts of the widget which overlap *region* to be visible. If the region includes pixels outside the :sip:ref:`~PyQt6.QtWidgets.QWidget.rect` of the widget, window system controls in that area may or may not be visible, depending on the platform.
 

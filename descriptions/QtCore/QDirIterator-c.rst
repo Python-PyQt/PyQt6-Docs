@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Iterator for directory entrylists
-    :digest: 4a3e63f5af3a71a6df5707fb645feb30
+    :digest: 121c23d20f2db923e2d313bf26188ad5
 
 The :sip:ref:`~PyQt6.QtCore.QDirIterator` class provides an iterator for directory entrylists.
 
@@ -21,6 +21,6 @@ The :sip:ref:`~PyQt6.QtCore.QDirIterator.next` and :sip:ref:`~PyQt6.QtCore.QDirI
 
 Unlike Qt's container iterators, :sip:ref:`~PyQt6.QtCore.QDirIterator` is uni-directional (i.e., you cannot iterate directories in reverse order) and does not allow random access.
 
-**Note:** This class is deprecated and may be removed in a Qt release. Use QDirListing instead.
+**Note:** This class is deprecated and may be removed in a Qt release. Use QDirListing instead, see `Porting QDirIterator to QDirListing <https://doc.qt.io/qt-6/qdiriterator-to-qdirlisting-porting.html>`_.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QDir.entryList`.

@@ -14,6 +14,11 @@
             str
         :description: QtWebEngineCore/QWebEngineClientHints-bitness-f.rst
 
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.formFactors
+        :returns:
+            list[str]
+        :description: QtWebEngineCore/QWebEngineClientHints-formFactors-f.rst
+
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.fullVersion
         :returns:
             str
@@ -71,6 +76,11 @@
         :args:
             Optional[str]
         :description: QtWebEngineCore/QWebEngineClientHints-setBitness-f.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setFormFactors
+        :args:
+            Iterable[Optional[str]]
+        :description: QtWebEngineCore/QWebEngineClientHints-setFormFactors-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setFullVersion
         :args:

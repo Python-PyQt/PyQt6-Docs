@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 546ade640b6edfbc8a086ef31347e768
     :realsig: (qreal)
-    :digest: 9461ccd9b9059e4ef0ca49cbca8c01af
-
-This is an overloaded function.
+    :digest: 83ea7f3a76ee061d8f3f8bb1c6c5642d
 
 Sets the frame's *height*.

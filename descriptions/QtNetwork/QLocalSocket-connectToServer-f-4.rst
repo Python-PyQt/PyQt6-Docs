@@ -2,9 +2,7 @@
     :status: todo
     :pysig: db9e987ef4095603eb9a90fba7ad8846
     :realsig: (const QString&, QIODeviceBase::OpenMode)
-    :digest: e0b596098f7c7bb1f6e9984e15ed0450
-
-This is an overloaded function.
+    :digest: 47a5a06caea120f503949b516b859d73
 
 Set the server *name* and attempts to make a connection to it.
 

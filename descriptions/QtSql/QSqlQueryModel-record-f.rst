@@ -2,9 +2,7 @@
     :status: todo
     :pysig: ee9355a52a69d0feaed1d2d1a5be1e56
     :realsig: () const
-    :digest: db861e40001b638c4fe3cca660d65c8a
-
-This is an overloaded function.
+    :digest: 374d58dc3ddb5f519425a302cd4c71b7
 
 Returns an empty record containing information about the fields of the current query.
 

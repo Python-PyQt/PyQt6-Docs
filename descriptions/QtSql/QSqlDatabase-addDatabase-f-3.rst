@@ -2,9 +2,7 @@
     :status: todo
     :pysig: f48b2613cd143e862b1db03c3cb35175
     :realsig: (QSqlDriver*, const QString&)
-    :digest: ceddcdec9d17c54c85c3f2e53738fa1b
-
-This is an overloaded function.
+    :digest: b1d1819221423deaf97e8285a584b32a
 
 This overload is useful when you want to create a database connection with a :sip:ref:`~PyQt6.QtSql.QSqlDriver` you instantiated yourself. It might be your own database driver, or you might just need to instantiate one of the Qt drivers yourself. If you do this, it is recommended that you include the driver code in your application. For example, you can create a PostgreSQL connection with your own QPSQL driver like this:
 

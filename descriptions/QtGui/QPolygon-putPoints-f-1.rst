@@ -2,9 +2,7 @@
     :status: todo
     :pysig: fc73313c79072cfe284468612e19acb7
     :realsig: (int,int,const QPolygon&,int)
-    :digest: 94247e82d49c93d522dde43012f8f7f0
-
-This is an overloaded function.
+    :digest: 1b96dc891a13ed21d4674b25dc98c5d2
 
 Copies *nPoints* points from the given *fromIndex* ( 0 by default) in *fromPolygon* into this polygon, starting at the specified *index*. For example:
 

@@ -2,9 +2,9 @@
     :status: todo
     :pysig: 7f3af5685d06b3c562a73c51e37f2a3f
     :realsig: (QIODevice*)
-    :digest: 935c744d41c88fb5f66e5d2c1a2cc7bc
+    :digest: a60bef50474d7be8b7acc48cbcbdf780
 
-Sets the NMEA data source to *device*. If the device is not open, it will be opened in QIODevice::ReadOnly mode.
+Sets the NMEA data source to *device*. If the device is not open, it will be opened in :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadOnly` mode.
 
 The source device can only be set once and must be set before calling :sip:ref:`~PyQt6.QtPositioning.QNmeaSatelliteInfoSource.startUpdates` or :sip:ref:`~PyQt6.QtPositioning.QNmeaSatelliteInfoSource.requestUpdate`.
 

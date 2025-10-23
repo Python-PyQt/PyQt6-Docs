@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: 96182233c5bf00f0b52c01a649c54a26
+    :digest: e13e0095ded3567f0b5e447bf7c11909
 
-The main widget's maximum size is set to :sip:ref:`~PyQt6.QtWidgets.QLayout.maximumSize`; it cannot be larger.
+In the constrained orientation(s), the widget’s maximum extent is set to :sip:ref:`~PyQt6.QtWidgets.QLayout.maximumSize`.

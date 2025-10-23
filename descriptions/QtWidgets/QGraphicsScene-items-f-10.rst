@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 795fea532f6bcdbea5716a1e4aaaacbc
     :realsig: (const QPainterPath&, Qt::ItemSelectionMode, Qt::SortOrder, const QTransform&) const
-    :digest: c316a0079465bb0bf7218371dd45549f
-
-This is an overloaded function.
+    :digest: a0404dd3583a3398f223e8603560de0d
 
 Returns all visible items that, depending on *mode*, are either inside or intersect with the specified *path*, in a list sorted using *order*. In this case, "visible" defines items for which: isVisible() returns ``true``, effectiveOpacity() returns a value greater than 0.0 (which is fully transparent) and the parent item does not clip it.
 

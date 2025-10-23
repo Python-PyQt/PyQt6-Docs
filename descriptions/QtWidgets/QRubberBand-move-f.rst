@@ -2,9 +2,7 @@
     :status: todo
     :pysig: b8446e1585e0118a477fc1188aecc690
     :realsig: (const QPoint&)
-    :digest: 0d542d4a619105c42d077c85d6a018bd
-
-This is an overloaded function.
+    :digest: 3550371130754e0399a25e6b9a9b34f5
 
 Moves the rubberband to point *p*.
 

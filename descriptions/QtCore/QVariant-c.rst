@@ -1,11 +1,9 @@
 .. sip:class-description::
     :status: todo
     :brief: Acts like a union for the most common Qt data types
-    :digest: 9e828be06b4a04d3c0295e9c7f766a31
+    :digest: 0c1b8829241028e4ebf24b4b010e0e41
 
 The :sip:ref:`~PyQt6.QtCore.QVariant` class acts like a union for the most common Qt data types.
-
-Because C++ forbids unions from including types that have non-default constructors or destructors, most interesting Qt classes cannot be used in unions. Without :sip:ref:`~PyQt6.QtCore.QVariant`, this would be a problem for :sip:ref:`~PyQt6.QtCore.QObject.property` and for database work, etc.
 
 A :sip:ref:`~PyQt6.QtCore.QVariant` object holds a single value of a single :sip:ref:`~PyQt6.QtCore.QVariant.typeId` at a time. (Some types are multi-valued, for example a string list.) You can find out what type, T, the variant holds, convert it to a different type using :sip:ref:`~PyQt6.QtCore.QVariant.convert`, get its value using one of the toT() functions (e.g., toSize()), and check whether the type can be converted to a particular type using :sip:ref:`~PyQt6.QtCore.QVariant.canConvert`.
 

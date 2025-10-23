@@ -54,11 +54,17 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.Type.CertificateWeakSignatureAlgorithm
             :description: QtWebEngineCore/QWebEngineCertificateError-Type-CertificateWeakSignatureAlgorithm-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.Type.Ok
+            :description: QtWebEngineCore/QWebEngineCertificateError-Type-Ok-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.Type.SslObsoleteVersion
             :description: QtWebEngineCore/QWebEngineCertificateError-Type-SslObsoleteVersion-v.rst
 
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.Type.SslPinnedKeyNotInCertificateChain
             :description: QtWebEngineCore/QWebEngineCertificateError-Type-SslPinnedKeyNotInCertificateChain-v.rst
+
+    .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.__init__
+        :description: QtWebEngineCore/QWebEngineCertificateError-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineCertificateError.__init__
         :args:

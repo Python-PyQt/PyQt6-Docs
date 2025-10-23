@@ -2,9 +2,7 @@
     :status: todo
     :pysig: e398e47f443a72c4219d132f58ab4e9c
     :realsig: (const QString&, const QSqlDatabase&)
-    :digest: 382059f673164533c1ed17cbef2311c0
-
-This is an overloaded function.
+    :digest: a0b8cb8de42aaf8d894f13e26fa42255
 
 Executes the query *query* for the given database connection *db*. If no database (or an invalid database) is specified, the default connection is used.
 

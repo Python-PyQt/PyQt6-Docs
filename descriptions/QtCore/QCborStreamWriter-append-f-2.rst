@@ -2,9 +2,7 @@
     :status: todo
     :pysig: cc0ea0b761b7fcad614b4d8cf87842d5
     :realsig: (QCborKnownTags)
-    :digest: 42299f47e26e636214efbc2c85ac14fb
-
-This is an overloaded function.
+    :digest: a76d4053e634d01be14f3ecc45a897b2
 
 Appends the CBOR tag *tag* to the stream, creating a CBOR Tag value. All tags must be followed by another type which they provide meaning for.
 

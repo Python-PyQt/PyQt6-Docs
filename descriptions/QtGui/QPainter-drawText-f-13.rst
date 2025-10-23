@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 343bada708610e255929d9e8bde01fd7
     :realsig: (int, int, int, int, int, const QString&, QRect*)
-    :digest: 03051bf5ad53d77dc7a4bb9e761d995e
-
-This is an overloaded function.
+    :digest: f2a7d417123056e67a89e9cb49db4681
 
 Draws the given *text* within the rectangle with origin (\ *x*, *y*), *width* and *height*.
 
@@ -17,21 +15,21 @@ The *boundingRect* (if not null) is set to the what the bounding rectangle shoul
 
 The *flags* argument is a bitwise OR of the following flags:
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignLeft`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignLeft`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignRight`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignRight`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignHCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignHCenter`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignJustify`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignJustify`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignTop`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignTop`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignBottom`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignBottom`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignVCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignVCenter`
 
-* :sip:ref:`~PyQt6.QtCore.Qt.Alignment.AlignCenter`
+* :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag.AlignCenter`
 
 * :sip:ref:`~PyQt6.QtCore.Qt.TextFlag.TextSingleLine`
 
@@ -45,6 +43,6 @@ By default, :sip:ref:`~PyQt6.QtGui.QPainter` draws text anti-aliased.
 
 **Note:** The y-position is used as the top of the font.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.Alignment`, :sip:ref:`~PyQt6.QtCore.Qt.TextFlag`, :sip:ref:`~PyQt6.QtGui.QPainter.setFont`, :sip:ref:`~PyQt6.QtGui.QPainter.setPen`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`, :sip:ref:`~PyQt6.QtCore.Qt.TextFlag`, :sip:ref:`~PyQt6.QtGui.QPainter.setFont`, :sip:ref:`~PyQt6.QtGui.QPainter.setPen`.
 
 .. |image-qpainter-text-bounds-png| image:: ../../../images/qpainter-text-bounds.png

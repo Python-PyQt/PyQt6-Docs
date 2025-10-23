@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: The base class of dialog windows
-    :digest: 265d7bf16ab7470366cfc760eb9d5ef4
+    :digest: d09acf56d86b167510927d2847cd6fdc
 
 The :sip:ref:`~PyQt6.QtWidgets.QDialog` class is the base class of dialog windows.
 
@@ -22,7 +22,7 @@ A **modal** dialog is a dialog that blocks input to other visible windows in the
 
 When an application modal dialog is opened, the user must finish interacting with the dialog and close it before they can access any other window in the application. Window modal dialogs only block access to the window associated with the dialog, allowing the user to continue to use other windows in an application.
 
-The most common way to display a modal dialog is to call its :sip:ref:`~PyQt6.QtWidgets.QDialog.open` function. Alternatively, you can call setModal(true) or setWindowModality(), and then show(). In both cases, once the dialog is displayed, the control is immediately returned to the caller. You must connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.finished` signal to know when the dialog is closed and what its return value is. Alternatively, you can connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accepted` and :sip:ref:`~PyQt6.QtWidgets.QDialog.rejected` signals.
+The most common way to display a modal dialog is to call its :sip:ref:`~PyQt6.QtWidgets.QDialog.open` function. Alternatively, you can call :sip:ref:`~PyQt6.QtWidgets.QDialog.setModal` or setWindowModality(), and then show(). In both cases, once the dialog is displayed, the control is immediately returned to the caller. You must connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.finished` signal to know when the dialog is closed and what its return value is. Alternatively, you can connect to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accepted` and :sip:ref:`~PyQt6.QtWidgets.QDialog.rejected` signals.
 
 When implementing a custom dialog, to close the dialog and return an appropriate value, connect a default button, for example, an OK button, to the :sip:ref:`~PyQt6.QtWidgets.QDialog.accept` slot, and a Cancel button to the :sip:ref:`~PyQt6.QtWidgets.QDialog.reject` slot. Alternatively, you can call the :sip:ref:`~PyQt6.QtWidgets.QDialog.done` slot with ``Accepted`` or ``Rejected``.
 

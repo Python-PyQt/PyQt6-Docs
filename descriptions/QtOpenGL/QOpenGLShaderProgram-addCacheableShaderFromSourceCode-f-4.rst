@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 5c22c8178a94416772c1c1019283d685
     :realsig: (QOpenGLShader::ShaderType, const QByteArray&)
-    :digest: 0487a0c80a750eb76bb8d499cb86566e
-
-This is an overloaded function.
+    :digest: 284bfd5d3023a497426e9eebb96f41cb
 
 Registers the shader of the specified *type* and *source* to this program. Unlike :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.addShaderFromSourceCode`, this function does not perform compilation. Compilation is deferred to :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.link`, and may not happen at all, because :sip:ref:`~PyQt6.QtOpenGL.QOpenGLShaderProgram.link` may potentially use a program binary from Qt's shader disk cache. This will typically lead to a significant increase in performance.
 

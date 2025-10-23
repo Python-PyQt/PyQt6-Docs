@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 35be435d5eb927e68aeed4ae67cd8a52
     :realsig: (qint64)
-    :digest: 7fef4d22fedffaa66a3d4ef4ab302648
-
-This is an overloaded function.
+    :digest: 7d359243f659b59d80a887bdd967d25c
 
 Peeks at most *maxSize* bytes from the device, returning the data peeked as a :sip:ref:`~PyQt6.QtCore.QByteArray`.
 

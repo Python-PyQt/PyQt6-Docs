@@ -2,11 +2,9 @@
     :status: todo
     :pysig: c030026c65eef765bdf0f2175f3de907
     :realsig: (const QByteArray&, bool, QString*, int*, int*)
-    :digest: ca94518a547b37f6b817ec57921ea4d0
+    :digest: 62aece512b5ffaac85f4948d6add3551
 
 Use the overload taking ParseOptions instead.
-
-This is an overloaded function.
 
 This function parses the XML document from the byte array *data* and sets it as the content of the document. It tries to detect the encoding of the document as required by the XML specification.
 

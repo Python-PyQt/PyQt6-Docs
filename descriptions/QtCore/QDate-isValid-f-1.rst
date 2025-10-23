@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 58375a5c171c9a9707c491645f766cdf
     :realsig: (int,int,int)
-    :digest: 4821a0e45c42e942777c3a77257f31e8
-
-This is an overloaded function.
+    :digest: 03c772042b03af52ffbb706ea0644a70
 
 Returns ``true`` if the specified date (\ *year*, *month*, and *day*) is valid in the Gregorian calendar; otherwise returns ``false``.
 

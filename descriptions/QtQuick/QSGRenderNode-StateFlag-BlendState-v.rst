@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x10
-    :digest: 09ac609fcdb514c9adca34e7f97b4ac4
+    :digest: d6a42221a26fe787790bebdbb4c4dcc5
 
-Blend
+This value has no effect in Qt 6.

@@ -2,8 +2,6 @@
     :status: todo
     :pysig: b8446e1585e0118a477fc1188aecc690
     :realsig: (const QPoint&)
-    :digest: 8226604bf44edf5f6caea5b39c8a2cdf
-
-This is an overloaded function.
+    :digest: 7a0800bf802d90c498452f3e317a5448
 
 Sets the brush's origin to the given *position*.

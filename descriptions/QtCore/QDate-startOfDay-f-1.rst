@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 2d10d6c7e48af6be6801c538cf3f30ce
     :realsig: (Qt::TimeSpec,int) const
-    :digest: 490e0b6f63b9e276bcb0e326d80a4d2a
-
-This is an overloaded function.
+    :digest: 691aeb4c8ce595d198dbf645d3e25adf
 
 Use ``startOfDay(const QTimeZone &)`` instead.
 

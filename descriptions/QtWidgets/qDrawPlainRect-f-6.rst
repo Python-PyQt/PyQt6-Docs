@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6b76c9f260b9b20a87eae292f9035b4f
     :realsig: (QPainter*, const QRect&, const QColor&, int, const QBrush*)
-    :digest: 608122091195365b64f2bcf5e99d7e7f
-
-This is an overloaded function.
+    :digest: 37c8a94ba3e063f9146c3bf45daf806e
 
 Draws the plain rectangle specified by *rect* using the given *painter*, *lineColor* and *lineWidth*. The rectangle's interior is filled with the *fill* brush unless *fill* is ``nullptr``.
 

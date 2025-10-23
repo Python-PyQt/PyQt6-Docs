@@ -2,9 +2,7 @@
     :status: todo
     :pysig: 6d83182b8c497cc5f4344045498e539c
     :realsig: (const QStringList&, const QString&)
-    :digest: 515a65e7fbbd1175251f69170e9d021d
-
-This is an overloaded function.
+    :digest: 73fdae843a6de32bf8eb68751a285fff
 
 Returns ``true`` if the *fileName* matches any of the wildcard (glob) patterns in the list of *filters*; otherwise returns ``false``. The matching is case insensitive.
 
