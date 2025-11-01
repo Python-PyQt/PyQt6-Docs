@@ -17,13 +17,13 @@ user-contributed modifications.
 The documentation itself is written as reStructuredText and generated using
 `Sphinx <https://www.sphinx-doc.org>`__.
 
-The documentation has its own public Mercurial repository
-`here <https://www.riverbankcomputing.com/hg/PyQt6-Docs>`__.  The repository
-can be cloned using the following command::
+The documentation source is hosted at
+`GitHub <https://github.com/Python-PyQt/PyQt6-Docs>`__.  The repository can be
+cloned using the following command::
 
-    hg clone https://www.riverbankcomputing.com/hg/PyQt6-Docs
+    git clone git@github.com:Python-PyQt/PyQt6-Docs
 
-The latest version will always be on the ``default`` branch.
+The latest version will always be on the ``main`` branch.
 
 
 Repository Structure
@@ -135,16 +135,13 @@ reference to the :sip:ref:`~PyQt6.QtCore.QObject` class should be specified as
 ``:sip:ref:`~PyQt6.QtCore.QObject```.
 
 
-Contributing Patches
+Contributing Changes
 --------------------
 
-User contributed patches can cover any of the following:
+User contributed changes can cover any of the following:
 
 - ``descriptions``
 - ``docs``
 - ``images``
 - ``snippets``
 - ``sphinx/riverbank/static/riverbank.css``.
-
-A patch is created by using the ``hg diff`` command.  Patches should be emailed
-to support@riverbankcomputing.com.
