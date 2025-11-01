@@ -1,0 +1,78 @@
+# PyQt6-Docs - The PyQt6 Documentation
+
+The PyQt documentation is created from four sources:
+
+- the fixed documentation found in the `docs` directory
+- the .sip files for the version of PyQt being documented
+- the Qt source code containing the documentation of the C++ API
+- handwritten ports to Python of the Qt documentation (in the `descriptions`
+  directory) and code snippets (in the `snippets` directory).
+
+The system is designed so that it can be safely re-based for new versions of
+PyQt and Qt (separately and together) without losing any of the handwritten
+ports.
+
+
+## Building the HTML Documentation
+
+To build the HTML documentation, run the following command:
+
+    sphinx-build docs html
+
+The documentation can be found in the `html` directory.
+
+
+## Re-basing for New Versions of PyQt
+
+If the minor version of PyQt has changed then the `conf.py` file in the
+`docs` directory should be updated with the X.Y version number of the new
+PyQt version.
+
+For each PyQt module (e.g. QtCore), run the following command:
+
+    python sip2rst.py MODULE
+
+`MODULE` is the fully qualified name of the module, e.g. `PyQt6.QtCore`.
+
+This will update the files in the `api` sub-directory of the `docs`
+directory.
+
+The above command assumes that the PyQt .sip files have been installed in their
+default location.  `sip2rst.py` has command line options to override the
+default locations if necessary.
+
+
+## Re-basing for New Versions of Qt
+
+To update the descriptions of the PyQt API in the `descriptions` directory
+for a new version of Qt, run the following command:
+
+    python webxml2rst.py --package PyQt6 --qt-prefix PREFIX
+
+`PREFIX` is the name of the prefix directory if the Qt installation (i.e. the
+architecture-specific directory containing the `bin`, `include` and `lib`
+directories).
+
+This will *not* overwrite any hand-written changes to the descriptions.
+
+This will also update any code snippets and images for updated descriptions.
+
+
+## Updating the Code Snippets
+
+The `snippets` directory contains Python code snippets that are initially
+created from the original C++ code snippets by converting each line to a Python
+comment.
+
+The snippets are included in the documetation by the use of `literalinclude`
+directives in the description files.  The `:lines:` field is used to select
+specific parts of the snippet.  The Qt documentation refers to embedded markers
+in order to select specific parts and these are retained (but unused) in the
+Python version.  Their format is `# #! [marker]`.
+
+The code snippets can be modified in any way, including renaming the file, so
+long as appropriate changes are also made to any description file that includes
+them.  A code snippet file may be included by more than one description file.
+If a code snippet is modified then the `:status:` field of any description
+file must not be `todo` to prevent the code snippet being overwritten when
+re-basing for a new version of Qt.
