@@ -5,8 +5,8 @@ DBus Support
 
 PyQt6 provides two different modules that implement support for DBus.  The
 :sip:ref:`~PyQt6.QtDBus` module provides wrappers for the standard Qt DBus
-classes.  The :sip:ref:`dbus.mainloop.pyqt6` module adds support for the Qt
-event loop to the standard ``dbus-python`` Python module.
+classes.  The ``dbus.mainloop.pyqt6`` module adds support for the Qt event loop
+to the standard ``dbus-python`` Python module.
 
 
 :sip:ref:`~PyQt6.QtDBus`
@@ -65,12 +65,11 @@ require if DBus structures are involved.
 :sip:ref:`dbus.mainloop.pyqt6`
 ------------------------------
 
-The :sip:ref:`dbus.mainloop.pyqt6` module provides support for the Qt event
-loop to ``dbus-python``.  The module's API is almost identical to that of the
-:sip:ref:`dbus.mainloop.glib` modules that provides support for the GLib event
-loop.
+The ``dbus.mainloop.pyqt6`` module provides support for the Qt event loop to
+``dbus-python``.  The module's API is almost identical to that of the
+``dbus.mainloop.glib`` modules that provides support for the GLib event loop.
 
-The :sip:ref:`dbus.mainloop.pyqt6` module contains the following function.
+The ``dbus.mainloop.pyqt6`` module contains the following function.
 
 .. function:: DBusQtMainLoop(set_as_default=False)
 

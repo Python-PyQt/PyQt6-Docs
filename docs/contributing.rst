@@ -23,7 +23,7 @@ cloned using the following command::
 
     git clone git@github.com:Python-PyQt/PyQt6-Docs
 
-The latest version will always be on the ``main`` branch.
+The latest stable version will always be on the ``main`` branch.
 
 
 Repository Structure

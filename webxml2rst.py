@@ -1,4 +1,4 @@
-# Copyright (c) 2021, Riverbank Computing Limited
+# Copyright (c) 2025, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -264,6 +264,9 @@ WebXMLMetadata('qtcore', qdocconf='qtbase/src/corelib/doc/qtcore.qdocconf',
             'pyqtRestoreInputHook': None,
             'pyqtSetPickleProtocol': None,
             'pyqtSlot': None,
+            'QPyAbstractRange': None,
+            'QPySequenceRange': None,
+            'QPyTableRange': None,
         })
 WebXMLMetadata('qtdbus', qdocconf='qtbase/src/dbus/doc/qtdbus.qdocconf',
         locations={

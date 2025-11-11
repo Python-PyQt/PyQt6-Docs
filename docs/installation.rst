@@ -25,7 +25,7 @@ version of Qt v6 so that:
 - The major version will always be **6**.
 
 - For a particular minor version *n* it will build against any version of Qt
-  v6, but will not support any new features introduced in Qt v6.\ *n+1* or
+  v6.  It will not support any new features introduced in Qt v6.\ *n+1* or
   later.
 
 - It will support all the features of supported modules of Qt v6.\ *n* or
@@ -51,9 +51,9 @@ Installing from Wheels
 ----------------------
 
 Wheels are the standard Python packaging format for pure Python or binary
-extension modules such as PyQt6.  Wheels are provide for 64-bit Windows, 64-bit
-macOS (Intel and ARM) and 64-bit Linux.  These correspond to the platforms for
-which The Qt Company provide binary installers.
+extension modules such as PyQt6.  Wheels are provide for 64-bit Windows (Intel
+and ARM), 64-bit macOS (Intel and ARM) and 64-bit Linux (Intel and ARM).  These
+correspond to the platforms for which The Qt Company provide binary installers.
 
 Wheels are installed using Python's :program:`pip` program.
 
@@ -75,7 +75,7 @@ probably fail with a cryptic error message.  There are a number of reasons for
 this:
 
 - there is no wheel available for your platform and version of Python
-- your version of Python is unsupported (e.g. v3.7)
+- your version of Python is unsupported
 - your version of :program:`pip` is too old and doesn't support the current
   standards for naming wheels
 - in order for :program:`pip` to build from source additional options must be

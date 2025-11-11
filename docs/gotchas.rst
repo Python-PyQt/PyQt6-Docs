@@ -16,13 +16,12 @@ CryptoAPI on Windows, Secure Transport on macOS and iOS).  This would mean that
 security updates, including certificate updates, would be handled by the vendor
 of the target operating system and could be ignored by the application.
 Unfortunately there is no common TLS API.  The resolution to this problem is
-the subject of `PEP 543 <https://www.python.org/dev/peps/pep-0543>`__ but that
+the subject of `PEP 748 <https://www.python.org/dev/peps/pep-0748>`__ but that
 has yet to be implemented.
 
-Python uses OpenSSL as its TLS implementation.  Python v3.7.4 and later use
-OpenSSL v1.1.1.  Python v3.7.0 to v3.7.3 use OpenSSL v1.1.0.  Earlier versions
-of Python use OpenSSL v1.0.2.  On Windows and macOS the standard Python binary
-installers include copies of the corresponding OpenSSL libraries.
+Python uses OpenSSL v1.1.1 as its TLS implementation.  On Windows and macOS the
+standard Python binary installers include copies of the corresponding OpenSSL
+libraries.
 
 Qt has support for the native TLS implementation on macOS and iOS but on other
 platforms (except for Linux) a deployed application must include it's own

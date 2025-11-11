@@ -5,5 +5,5 @@ When a Python version reaches it's end-of-life, support for it will be removed
 in the next minor release of PyQt6.  For example, if the current version of
 PyQt6 is v6.x.y then the support will be removed in v6.x+1.0.
 
-On this basis support for Python v3.8 will be removed in the first minor
-release after October 2024.
+On this basis support for Python v3.10 will be removed in the first minor
+release after October 2026.

@@ -9,16 +9,15 @@ Qt is a set of C++ libraries and development tools that includes platform
 independent abstractions for graphical user interfaces, networking, threads,
 regular expressions, SQL databases, SVG, OpenGL, XML, user and application
 settings, positioning and location services, short range communications (NFC
-and Bluetooth), web browsing, 3D animation, charts, 3D data visualisation and
-interfacing with app stores.
+and Bluetooth), web browsing, 3D animation, charts and 3D data visualisation.
 
 PyQt6 comprises PyQt6 itself and a number of add-ons that correspond to Qt's
-additional libraries.  At the moment these are PyQt6-3D and PyQt6-NetworkAuth.
+additional libraries.  At the moment these are PyQt6-3D, PyQt6-Charts,
+PyQt6-DataVisualization, PyQt6-Graphs, PyQt6-NetworkAuth and PyQt6-WebEngine.
 Each is provided as a source distribution (*sdist*) and binary wheels for
-Windows, Linux and macOS.
+Windows (Intel and ARM), Linux (Intel and ARM) and macOS (Intel and ARM).
 
-PyQt6 supports the Windows, Linux and macOS platforms and requires Python v3.8
-or later.
+PyQt6 requires Python v3.9 or later.
 
 The homepage for PyQt6 is https://www.riverbankcomputing.com/software/pyqt/.
 Here you will always find the latest stable version and current development
@@ -57,7 +56,8 @@ hints for the module's API.  This can be used by static type checkers such as
 
 PyQt6 contains plugins that enable Qt Designer and :program:`qmlscene` to be
 extended using Python code.  See :ref:`ref-designer-plugins` and
-:ref:`ref-integrating-qml` respectively for the details.
+:ref:`ref-integrating-qml` respectively for the details.  (Note that these are
+not included in the binary wheels.)
 
 PyQt6 also contains a couple of utility programs.
 
@@ -71,13 +71,13 @@ PyQt6 also contains a couple of utility programs.
   manage the translation of those strings.
 
 The `DBus <http://www.freedesktop.org/wiki/Software/DBusBindings>`__ support
-module is installed as :sip:ref:`dbus.mainloop.pyqt6`.  This module provides
-support for the Qt event loop in the same way that the
-:sip:ref:`dbus.mainloop.glib` included with the standard ``dbus-python``
-bindings package provides support for the GLib event loop.  The API is
-described in :ref:`ref-dbus`.  It is only available if the ``dbus-python``
-v0.80 (or later) bindings package is installed.  The :sip:ref:`~PyQt6.QtDBus`
-module provides a more Qt-like interface to DBus.
+module is installed as ``dbus.mainloop.pyqt6``.  This module provides support
+for the Qt event loop in the same way that the ``dbus.mainloop.glib`` included
+with the standard ``dbus-python`` bindings package provides support for the
+GLib event loop.  The API is described in :ref:`ref-dbus`.  It is only
+available if the ``dbus-python`` v0.80 (or later) bindings package is
+installed.  The :sip:ref:`~PyQt6.QtDBus` module provides a more Qt-like
+interface to DBus.
 
 PyQt6 includes a large number of examples.  These are ports to Python of many
 of the C++ examples provided with Qt.  They can be found in the
