@@ -1,0 +1,8 @@
+v6.10.1 11th November 2025
+
+- The `QRangeModel`, `QPyAbstractRange`, `QPySequenceRange` and
+  `QPyTableRange` classes are documented.
+- The section on contributing to the documentation has been updated in the
+  light of the move to GitHub.
+- The `README` file is now in markdown format.
+- Added the `NEWS` file.
