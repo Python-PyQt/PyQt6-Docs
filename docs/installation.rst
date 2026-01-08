@@ -51,9 +51,10 @@ Installing from Wheels
 ----------------------
 
 Wheels are the standard Python packaging format for pure Python or binary
-extension modules such as PyQt6.  Wheels are provide for 64-bit Windows (Intel
+extension modules such as PyQt6.  Wheels are provided for 64-bit Windows (Intel
 and ARM), 64-bit macOS (Intel and ARM) and 64-bit Linux (Intel and ARM).  These
-correspond to the platforms for which The Qt Company provide binary installers.
+correspond to the platforms for which The Qt Company provides binary
+installers.
 
 Wheels are installed using Python's :program:`pip` program.
 
