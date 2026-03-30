@@ -47,15 +47,15 @@
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.setShaderFileName
         :args:
             :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Stage`
-            Optional[str]
-        :description: QtQuick/QSGMaterialShader-setShaderFileName-f-1.rst
+            str|None
+        :description: QtQuick/QSGMaterialShader-setShaderFileName-f-2.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.setShaderFileName
         :args:
             :sip:ref:`~PyQt6.QtQuick.QSGMaterialShader.Stage`
-            Optional[str]
+            str|None
             int
-        :description: QtQuick/QSGMaterialShader-setShaderFileName-f.rst
+        :description: QtQuick/QSGMaterialShader-setShaderFileName-f-3.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGMaterialShader.updateGraphicsPipelineState
         :args:

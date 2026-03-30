@@ -5,8 +5,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.__init__
         :args:
-            name: Optional[str] = ''
-        :description: QtPositioning/QGeoAreaMonitorInfo-__init__-f-2.rst
+            name: str|None = ''
+        :description: QtPositioning/QGeoAreaMonitorInfo-__init__-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.__init__
         :args:
@@ -74,18 +74,18 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setExpiration
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtPositioning/QGeoAreaMonitorInfo-setExpiration-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtPositioning/QGeoAreaMonitorInfo-setExpiration-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setName
         :args:
-            Optional[str]
-        :description: QtPositioning/QGeoAreaMonitorInfo-setName-f-1.rst
+            str|None
+        :description: QtPositioning/QGeoAreaMonitorInfo-setName-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setNotificationParameters
         :args:
-            dict[Optional[str], Any]
-        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f.rst
+            dict[str|None, Any]
+        :description: QtPositioning/QGeoAreaMonitorInfo-setNotificationParameters-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorInfo.setPersistent
         :args:

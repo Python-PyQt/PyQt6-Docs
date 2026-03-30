@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3f110da1deacfa918fe40d34625c9419
+    :digest: feff6b250d831cb277de4e9b5fcc46ad
 
 This enum describes the HTTP cache type:

@@ -17,9 +17,9 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-__init__-f-3.rst
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.autoScaleY
         :returns:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setHeightMapFile
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setHeightMapFile-f-1.rst
+            str|None
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-setHeightMapFile-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.setMaxXValue
         :args:
@@ -131,8 +131,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.heightMapFileChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-heightMapFileChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QHeightMapSurfaceDataProxy-heightMapFileChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QHeightMapSurfaceDataProxy.maxXValueChanged
         :args:

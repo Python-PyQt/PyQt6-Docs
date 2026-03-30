@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 664d8fa2175f323728d98111738d618e
+    :digest: ef68c51902487fa3ad7464cded5fc649
 
-YUV is not represented by describing the size of the color channels. This is because YUV often use macro pixels, making the concept of separate color channels invalid. Instead the different YUV layouts are described with this enum.
+This enum describes the :sip:ref:`~PyQt6.QtGui.QPixelFormat.yuvLayout` of the pixel format, given that it has a color model of :sip:ref:`~PyQt6.QtGui.QPixelFormat.ColorModel.YUV`.

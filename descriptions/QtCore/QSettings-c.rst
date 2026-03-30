@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Persistent platform-independent application settings
-    :digest: bbd9cc735d009637a51612e651f161dd
+    :digest: 63a0edd23d524fa6bf12c64cebf099d7
 
 The :sip:ref:`~PyQt6.QtCore.QSettings` class provides persistent platform-independent application settings.
 
@@ -281,9 +281,9 @@ On Windows, the following files are used:
 
 The identifiers prefixed by ``FOLDERID_`` are special item ID lists to be passed to the Win32 API function ``SHGetKnownFolderPath()`` to obtain the corresponding path.
 
-``FOLDERID_RoamingAppData`` usually points to ``C:\Users\\ *User Name*\\AppData\\Roaming``, also shown by the environment variable ``%APPDATA%``.
+``FOLDERID_RoamingAppData`` usually points to ``C:``\Users``\\\ *User Name*``\AppData````\Roaming````, also shown by the environment variable ``%APPDATA%``.
 
-``FOLDERID_ProgramData`` usually points to ``C:\ProgramData``.
+``FOLDERID_ProgramData`` usually points to ``C:``\ProgramData````.
 
 If the file format is :sip:ref:`~PyQt6.QtCore.QSettings.Format.IniFormat`, this is "Settings/MySoft/Star Runner.ini" in the application's home directory.
 

@@ -21,10 +21,10 @@
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.select
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QFileSelector-select-f-2.rst
+        :description: QtCore/QFileSelector-select-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.select
         :args:
@@ -35,5 +35,5 @@
 
     .. sip:method:: PyQt6.QtCore.QFileSelector.setExtraSelectors
         :args:
-            Iterable[Optional[str]]
-        :description: QtCore/QFileSelector-setExtraSelectors-f-1.rst
+            Iterable[str|None]
+        :description: QtCore/QFileSelector-setExtraSelectors-f.rst

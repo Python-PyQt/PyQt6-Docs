@@ -34,9 +34,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.__init__
         :args:
-            name: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-            value: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-        :description: QtNetwork/QNetworkCookie-__init__-f-2.rst
+            name: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+            value: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+        :description: QtNetwork/QNetworkCookie-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.domain
         :returns:
@@ -96,11 +96,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.parseCookies
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             list[:sip:ref:`~PyQt6.QtNetwork.QNetworkCookie`]
         :static:
-        :description: QtNetwork/QNetworkCookie-parseCookies-f.rst
+        :description: QtNetwork/QNetworkCookie-parseCookies-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.path
         :returns:
@@ -114,13 +114,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setDomain
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkCookie-setDomain-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkCookie-setDomain-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setExpirationDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtNetwork/QNetworkCookie-setExpirationDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtNetwork/QNetworkCookie-setExpirationDate-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setHttpOnly
         :args:
@@ -129,13 +129,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setName
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkCookie-setName-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkCookie-setName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setPath
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkCookie-setPath-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkCookie-setPath-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setSameSitePolicy
         :args:
@@ -149,8 +149,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.setValue
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkCookie-setValue-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkCookie-setValue-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkCookie.swap
         :args:

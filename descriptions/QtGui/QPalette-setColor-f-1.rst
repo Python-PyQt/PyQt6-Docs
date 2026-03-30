@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 9565b2b8c0467f6eb5793ba27e570367
+    :realsig: (QPalette::ColorGroup, QPalette::ColorRole, const QColor&)
+    :digest: 8fc7240c75114176295a98cf22e15f71
+
+Sets the color in the specified color *group*, used for the given color *role*, to the specified solid *color*.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QPalette.setBrush`, :sip:ref:`~PyQt6.QtGui.QPalette.color`, :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.ColorRole`.

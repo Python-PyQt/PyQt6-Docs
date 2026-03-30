@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.setExtensions
         :args:
-            Iterable[Optional[str]]
-        :description: Qt3DRender/QGraphicsApiFilter-setExtensions-f-1.rst
+            Iterable[str|None]
+        :description: Qt3DRender/QGraphicsApiFilter-setExtensions-f.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.setMajorVersion
         :args:
@@ -91,8 +91,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.setVendor
         :args:
-            Optional[str]
-        :description: Qt3DRender/QGraphicsApiFilter-setVendor-f-1.rst
+            str|None
+        :description: Qt3DRender/QGraphicsApiFilter-setVendor-f.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QGraphicsApiFilter.vendor
         :returns:
@@ -106,8 +106,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QGraphicsApiFilter.extensionsChanged
         :args:
-            Iterable[Optional[str]]
-        :description: Qt3DRender/QGraphicsApiFilter-extensionsChanged-s-1.rst
+            Iterable[str|None]
+        :description: Qt3DRender/QGraphicsApiFilter-extensionsChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QGraphicsApiFilter.graphicsApiFilterChanged
         :description: Qt3DRender/QGraphicsApiFilter-graphicsApiFilterChanged-s.rst
@@ -129,5 +129,5 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QGraphicsApiFilter.vendorChanged
         :args:
-            Optional[str]
-        :description: Qt3DRender/QGraphicsApiFilter-vendorChanged-s-1.rst
+            str|None
+        :description: Qt3DRender/QGraphicsApiFilter-vendorChanged-s.rst

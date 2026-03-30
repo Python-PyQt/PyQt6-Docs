@@ -60,6 +60,14 @@
 
     .. sip:method:: PyQt6.QtGui.QQuaternion.fromAxes
         :args:
+            :sip:ref:`~PyQt6.QtGui.QQuaternion.Axes`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QQuaternion`
+        :static:
+        :description: QtGui/QQuaternion-fromAxes-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QQuaternion.fromAxes
+        :args:
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
@@ -335,6 +343,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
         :description: QtGui/QQuaternion-__sub__-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QQuaternion.toAxes
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QQuaternion.Axes`
+        :description: QtGui/QQuaternion-toAxes-f.rst
 
     .. sip:method:: PyQt6.QtGui.QQuaternion.toEulerAngles
         :returns:

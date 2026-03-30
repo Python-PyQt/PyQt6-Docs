@@ -67,9 +67,9 @@
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2DeviceAuthorizationFlow.authorizeWithUserCode
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QUrl`
-        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-authorizeWithUserCode-s.rst
+        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-authorizeWithUserCode-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2DeviceAuthorizationFlow.completeVerificationUrlChanged
         :args:
@@ -83,13 +83,13 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2DeviceAuthorizationFlow.userCodeChanged
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-userCodeChanged-s.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-userCodeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2DeviceAuthorizationFlow.userCodeExpirationAtChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-userCodeExpirationAtChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtNetworkAuth/QOAuth2DeviceAuthorizationFlow-userCodeExpirationAtChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth2DeviceAuthorizationFlow.verificationUrlChanged
         :args:

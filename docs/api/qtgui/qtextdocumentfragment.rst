@@ -23,29 +23,29 @@
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.fromHtml
         :args:
-            Optional[str]
+            str|None
             resourceProvider: :sip:ref:`~PyQt6.QtGui.QTextDocument` = None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextDocumentFragment`
         :static:
-        :description: QtGui/QTextDocumentFragment-fromHtml-f-1.rst
+        :description: QtGui/QTextDocumentFragment-fromHtml-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.fromMarkdown
         :args:
-            Optional[str]
+            str|None
             features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextDocumentFragment`
         :static:
-        :description: QtGui/QTextDocumentFragment-fromMarkdown-f-1.rst
+        :description: QtGui/QTextDocumentFragment-fromMarkdown-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.fromPlainText
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextDocumentFragment`
         :static:
-        :description: QtGui/QTextDocumentFragment-fromPlainText-f-1.rst
+        :description: QtGui/QTextDocumentFragment-fromPlainText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextDocumentFragment.isEmpty
         :returns:

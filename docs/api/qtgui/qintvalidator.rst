@@ -23,10 +23,10 @@
 
     .. sip:method:: PyQt6.QtGui.QIntValidator.fixup
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtGui/QIntValidator-fixup-f-1.rst
+        :description: QtGui/QIntValidator-fixup-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIntValidator.setBottom
         :args:
@@ -51,10 +51,10 @@
 
     .. sip:method:: PyQt6.QtGui.QIntValidator.validate
         :args:
-            Optional[str]
+            str|None
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtGui/QIntValidator-validate-f-1.rst
+        :description: QtGui/QIntValidator-validate-f.rst

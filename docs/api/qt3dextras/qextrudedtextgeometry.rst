@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QExtrudedTextGeometry.setText
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QExtrudedTextGeometry-setText-f-1.rst
+            str|None
+        :description: Qt3DExtras/QExtrudedTextGeometry-setText-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QExtrudedTextGeometry.text
         :returns:
@@ -66,5 +66,5 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QExtrudedTextGeometry.textChanged
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QExtrudedTextGeometry-textChanged-s-1.rst
+            str|None
+        :description: Qt3DExtras/QExtrudedTextGeometry-textChanged-s.rst

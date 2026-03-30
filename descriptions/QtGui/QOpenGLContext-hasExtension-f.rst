@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: a5eebd9700a92503b29e462d7ec8b406
+    :realsig: (const QByteArray&) const
+    :digest: ee76d8cceb6475c10a441e4a76f82b4f
+
+Returns ``true`` if this OpenGL context supports the specified OpenGL *extension*, ``false`` otherwise.
+
+The context or a sharing context must be current.
+
+.. seealso:: :sip:ref:`~PyQt6.QtGui.QOpenGLContext.extensions`.

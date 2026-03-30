@@ -20,8 +20,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLockFile.__init__
         :args:
-            Optional[str]
-        :description: QtCore/QLockFile-__init__-f-1.rst
+            str|None
+        :description: QtCore/QLockFile-__init__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLockFile.error
         :returns:

@@ -65,14 +65,14 @@
     .. sip:method:: PyQt6.Qt3DCore.QAttribute.__init__
         :args:
             :sip:ref:`~PyQt6.Qt3DCore.QBuffer`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.Qt3DCore.QAttribute.VertexBaseType`
             int
             int
             offset: int = 0
             stride: int = 0
             parent: :sip:ref:`~PyQt6.Qt3DCore.QNode` = None
-        :description: Qt3DCore/QAttribute-__init__-f-3.rst
+        :description: Qt3DCore/QAttribute-__init__-f-2.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAttribute.attributeType
         :returns:
@@ -195,8 +195,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAttribute.setName
         :args:
-            Optional[str]
-        :description: Qt3DCore/QAttribute-setName-f-1.rst
+            str|None
+        :description: Qt3DCore/QAttribute-setName-f.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAttribute.setVertexBaseType
         :args:
@@ -260,8 +260,8 @@
 
     .. sip:signal:: PyQt6.Qt3DCore.QAttribute.nameChanged
         :args:
-            Optional[str]
-        :description: Qt3DCore/QAttribute-nameChanged-s-1.rst
+            str|None
+        :description: Qt3DCore/QAttribute-nameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DCore.QAttribute.vertexBaseTypeChanged
         :args:

@@ -83,12 +83,12 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.findItems
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
             column: int = 0
         :returns:
             list[:sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`]
-        :description: QtWidgets/QTreeWidget-findItems-f.rst
+        :description: QtWidgets/QTreeWidget-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.headerItem
         :returns:
@@ -244,13 +244,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setHeaderLabel
         :args:
-            Optional[str]
-        :description: QtWidgets/QTreeWidget-setHeaderLabel-f-1.rst
+            str|None
+        :description: QtWidgets/QTreeWidget-setHeaderLabel-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setHeaderLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtWidgets/QTreeWidget-setHeaderLabels-f-1.rst
+            Iterable[str|None]
+        :description: QtWidgets/QTreeWidget-setHeaderLabels-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidget.setItemWidget
         :args:

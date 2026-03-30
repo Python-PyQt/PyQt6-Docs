@@ -4,7 +4,7 @@
     :description: QtGui/QVulkanExtension-c.rst
 
     .. sip:attribute:: PyQt6.QtGui.QVulkanExtension.name
-        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :description: QtGui/QVulkanExtension-name-a.rst
 
     .. sip:attribute:: PyQt6.QtGui.QVulkanExtension.version

@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGFlatColorMaterial.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGFlatColorMaterial-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGFlatColorMaterial-setColor-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGFlatColorMaterial.type
         :returns:

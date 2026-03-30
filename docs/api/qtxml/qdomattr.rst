@@ -29,8 +29,8 @@
 
     .. sip:method:: PyQt6.QtXml.QDomAttr.setValue
         :args:
-            Optional[str]
-        :description: QtXml/QDomAttr-setValue-f-1.rst
+            str|None
+        :description: QtXml/QDomAttr-setValue-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomAttr.specified
         :returns:

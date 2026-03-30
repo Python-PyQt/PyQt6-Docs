@@ -1,13 +1,13 @@
 .. sip:class-description::
     :status: todo
     :brief: Splash screen that can be shown during application startup
-    :digest: 514514a370c22643ad01f24bb08e58fc
+    :digest: a46b4894d8ffde4d94843a4ba16b39a8
 
 The :sip:ref:`~PyQt6.QtWidgets.QSplashScreen` widget provides a splash screen that can be shown during application startup.
 
 A splash screen is a widget that is usually displayed when an application is being started. Splash screens are often used for applications that have long start up times (e.g. database or networking applications that take time to establish connections) to provide the user with feedback that the application is loading.
 
-The splash screen appears in the center of the screen. It may be useful to add the :sip:ref:`~PyQt6.QtCore.Qt.WindowFlags.WindowStaysOnTopHint` to the splash widget's window flags if you want to keep it above all the other windows on the desktop.
+The splash screen appears in the center of the screen. It may be useful to add the :sip:ref:`~PyQt6.QtCore.Qt.WindowType.WindowStaysOnTopHint` to the splash widget's window flags if you want to keep it above all the other windows on the desktop.
 
 Some X11 window managers do not support the "stays on top" flag. A solution is to set up a timer that periodically calls raise() on the splash screen to simulate the "stays on top" effect.
 
@@ -15,9 +15,6 @@ The most common usage is to show a splash screen before the main widget is displ
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-qsplashscreen-main.py
     :lines: 59-65
-
-.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-qsplashscreen-main.py
-    :lines: 70-74
 
 The user can hide the splash screen by clicking on it with the mouse. For mouse handling to work, call QApplication::processEvents() periodically during startup.
 

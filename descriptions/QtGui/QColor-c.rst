@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Colors based on RGB, HSV or CMYK values
-    :digest: 9fff87f27ffe1d8951407cc2fd31592b
+    :digest: c4de12f9eb48eccd53db8fe71b9a1e1c
 
 The :sip:ref:`~PyQt6.QtGui.QColor` class provides colors based on RGB, HSV or CMYK values.
 
@@ -23,7 +23,7 @@ The color components can be retrieved individually, e.g with :sip:ref:`~PyQt6.Qt
 
 There are several related non-members: QRgb is a typdef for an unsigned int representing the RGB value triplet (r, g, b). Note that it also can hold a value for the alpha-channel (for more information, see the Alpha-Blended Drawing section). The :sip:ref:`~PyQt6.QtGui.qRed`, :sip:ref:`~PyQt6.QtGui.qBlue` and :sip:ref:`~PyQt6.QtGui.qGreen` functions return the respective component of the given QRgb value, while the :sip:ref:`~PyQt6.QtGui.qRgb` and :sip:ref:`~PyQt6.QtGui.qRgba` functions create and return the QRgb triplet based on the given component values. Finally, the :sip:ref:`~PyQt6.QtGui.qAlpha` function returns the alpha component of the provided QRgb, and the :sip:ref:`~PyQt6.QtGui.qGray` function calculates and return a gray value based on the given value.
 
-:sip:ref:`~PyQt6.QtGui.QColor` is platform and device independent. The QColormap class maps the color to the hardware.
+:sip:ref:`~PyQt6.QtGui.QColor` is platform and device independent.
 
 For more information about painting in general, see the `Paint System <https://doc.qt.io/qt-6/paintsystem.html>`_ documentation.
 

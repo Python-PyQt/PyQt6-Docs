@@ -844,8 +844,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
         :args:
-            Optional[str]
-        :description: QtBluetooth/QBluetoothUuid-__init__-f-10.rst
+            str|None
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothUuid.__init__
         :args:

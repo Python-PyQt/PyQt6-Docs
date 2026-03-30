@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 254
-    :digest: fc5d665e6cbb1b8109178d79b10ab16b
+    :digest: aaaadf19c981a34d970ceec90d5cbb76
 
-A WebSocket request. (Added in Qt 6.4)
+A WebSocket request.

@@ -92,11 +92,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QStatusBar.showMessage
         :args:
-            Optional[str]
+            str|None
             msecs: int = 0
-        :description: QtWidgets/QStatusBar-showMessage-f-1.rst
+        :description: QtWidgets/QStatusBar-showMessage-f.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QStatusBar.messageChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QStatusBar-messageChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QStatusBar-messageChanged-s.rst

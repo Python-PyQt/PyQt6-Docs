@@ -11,6 +11,6 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTimeEdit.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QTimeEdit-__init__-f-1.rst
+        :description: QtWidgets/QTimeEdit-__init__-f-2.rst

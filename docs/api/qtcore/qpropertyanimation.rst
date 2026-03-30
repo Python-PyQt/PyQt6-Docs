@@ -12,9 +12,9 @@
     .. sip:method:: PyQt6.QtCore.QPropertyAnimation.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QPropertyAnimation-__init__-f-2.rst
+        :description: QtCore/QPropertyAnimation-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QPropertyAnimation.event
         :args:
@@ -30,8 +30,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPropertyAnimation.setPropertyName
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QPropertyAnimation-setPropertyName-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QPropertyAnimation-setPropertyName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QPropertyAnimation.setTargetObject
         :args:

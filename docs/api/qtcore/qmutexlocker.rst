@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtCore.QMutexLocker.mutex
         :returns:
-            Union[:sip:ref:`~PyQt6.QtCore.QMutex`, :sip:ref:`~PyQt6.QtCore.QRecursiveMutex`]
-        :description: QtCore/QMutexLocker-mutex-f.rst
+            :sip:ref:`~PyQt6.QtCore.QMutex`|:sip:ref:`~PyQt6.QtCore.QRecursiveMutex`
+        :description: QtCore/QMutexLocker-mutex-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMutexLocker.relock
         :description: QtCore/QMutexLocker-relock-f.rst

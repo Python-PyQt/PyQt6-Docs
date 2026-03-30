@@ -52,8 +52,8 @@
         :args:
             error: :sip:ref:`~PyQt6.QtCore.QJsonParseError` = None
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtCore.QJsonDocument`]
-        :description: QtNetwork/QRestReply-readJson-f.rst
+            :sip:ref:`~PyQt6.QtCore.QJsonDocument`|None
+        :description: QtNetwork/QRestReply-readJson-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestReply.readText
         :returns:

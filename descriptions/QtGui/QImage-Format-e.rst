@@ -1,8 +1,10 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 0c1fa59bf021f72f50d93400ce3a8eea
+    :digest: de0551bcc558c22831adaf8b808c9c36
 
 The following image formats are available in Qt. See the notes after the table.
+
+Byte-ordered formats have a :sip:ref:`~PyQt6.QtGui.QPixelFormat.typeInterpretation` of :sip:ref:`~PyQt6.QtGui.QPixelFormat.TypeInterpretation.UnsignedByte`, meaning the individual color components are stored in memory in a fixed order, e.g 0xRR, 0xGG, 0xBB, 0xAA, regardless of the endianness of the platform. These formats should be read as individual bytes, or interpreted as :sip:ref:`~PyQt6.QtGui.QPixelFormat.ByteOrder.BigEndian` if read in larger chunks.
 
 **Note:** Drawing into a :sip:ref:`~PyQt6.QtGui.QImage` with format QImage::Format_Indexed8 or QImage::Format_CMYK8888 is not supported.
 

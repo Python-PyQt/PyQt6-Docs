@@ -12,7 +12,7 @@
         :description: QtNfc/QNdefFilter-Record-minimum-a.rst
 
     .. sip:attribute:: PyQt6.QtNfc.QNdefFilter.Record.type
-        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :description: QtNfc/QNdefFilter-Record-type-a.rst
 
     .. sip:attribute:: PyQt6.QtNfc.QNdefFilter.Record.typeNameFormat

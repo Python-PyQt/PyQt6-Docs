@@ -44,32 +44,32 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.printToPdf
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineFrame-printToPdf-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineFrame-printToPdf-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.printToPdf
         :args:
-            Callable[[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]], None]
-        :description: QtWebEngineCore/QWebEngineFrame-printToPdf-f-1.rst
+            Callable[[:sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview], None]
+        :description: QtWebEngineCore/QWebEngineFrame-printToPdf-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.runJavaScript
         :args:
-            Optional[str]
+            str|None
             worldId: int = 0
-        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f.rst
+        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f-3.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.runJavaScript
         :args:
-            Optional[str]
+            str|None
             Callable[[Any], None]
-        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f-1.rst
+        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f-4.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.runJavaScript
         :args:
-            Optional[str]
+            str|None
             int
             Callable[[Any], None]
-        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f-2.rst
+        :description: QtWebEngineCore/QWebEngineFrame-runJavaScript-f-5.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineFrame.size
         :returns:

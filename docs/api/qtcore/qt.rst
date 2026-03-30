@@ -1053,6 +1053,9 @@
         .. sip:enum-member:: PyQt6.QtCore.Qt.ItemDataRole.InitialSortOrderRole
             :description: QtCore/Qt-ItemDataRole-InitialSortOrderRole-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.Qt.ItemDataRole.RangeModelAdapterRole
+            :description: QtCore/Qt-ItemDataRole-RangeModelAdapterRole-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.Qt.ItemDataRole.SizeHintRole
             :description: QtCore/Qt-ItemDataRole-SizeHintRole-v.rst
 

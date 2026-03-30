@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 29cd72a210a37398779f60306fe01ac7
+    :realsig: (QAnyStringView) const
+    :digest: cee4d91c401d4a514ad754013f231b02
+
+Returns ``true`` if there is a field in the record called *name*; otherwise returns ``false``.
+
+**Note:** In Qt versions prior to 6.8, this function took QString, not QAnyStringView.

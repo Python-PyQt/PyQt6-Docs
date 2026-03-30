@@ -97,9 +97,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.connectToServer
         :args:
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtNetwork/QLocalSocket-connectToServer-f-4.rst
+        :description: QtNetwork/QLocalSocket-connectToServer-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.disconnectFromServer
         :description: QtNetwork/QLocalSocket-disconnectFromServer-f.rst
@@ -167,8 +167,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.setServerName
         :args:
-            Optional[str]
-        :description: QtNetwork/QLocalSocket-setServerName-f-1.rst
+            str|None
+        :description: QtNetwork/QLocalSocket-setServerName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.setSocketDescriptor
         :args:
@@ -236,10 +236,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QLocalSocket.writeData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtNetwork/QLocalSocket-writeData-f-1.rst
+        :description: QtNetwork/QLocalSocket-writeData-f.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QLocalSocket.connected
         :description: QtNetwork/QLocalSocket-connected-s.rst

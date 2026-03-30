@@ -1,11 +1,11 @@
 .. sip:class-description::
     :status: todo
     :brief: Array of bytes
-    :digest: aa2612d6e5d34691c6553bdcbb381cb8
+    :digest: 1a3d0b522791eef760ea906a0b3c16d7
 
 The :sip:ref:`~PyQt6.QtCore.QByteArray` class provides an array of bytes.
 
-:sip:ref:`~PyQt6.QtCore.QByteArray` can be used to store both raw bytes (including '\\0's) and traditional 8-bit '\\0'-terminated strings. Using :sip:ref:`~PyQt6.QtCore.QByteArray` is much more convenient than using ``const char \*``. Behind the scenes, it always ensures that the data is followed by a '\\0' terminator, and uses `implicit sharing <https://doc.qt.io/qt-6/implicit-sharing.html>`_ (copy-on-write) to reduce memory usage and avoid needless copying of data.
+:sip:ref:`~PyQt6.QtCore.QByteArray` can be used to store both raw bytes (including '``\0``'s) and traditional 8-bit '``\0``'-terminated strings. Using :sip:ref:`~PyQt6.QtCore.QByteArray` is much more convenient than using ``const char \*``. Behind the scenes, it always ensures that the data is followed by a '``\0``' terminator, and uses `implicit sharing <https://doc.qt.io/qt-6/implicit-sharing.html>`_ (copy-on-write) to reduce memory usage and avoid needless copying of data.
 
 In addition to :sip:ref:`~PyQt6.QtCore.QByteArray`, Qt also provides the QString class to store string data. For most purposes, QString is the class you want to use. It understands its content as Unicode text (encoded using UTF-16) where :sip:ref:`~PyQt6.QtCore.QByteArray` aims to avoid assumptions about the encoding or semantics of the bytes it stores (aside from a few legacy cases where it uses ASCII). Furthermore, QString is used throughout in the Qt API. The two main cases where :sip:ref:`~PyQt6.QtCore.QByteArray` is appropriate are when you need to store raw binary data, and when memory conservation is critical (e.g., with Qt for Embedded Linux).
 
@@ -14,7 +14,7 @@ One way to initialize a :sip:ref:`~PyQt6.QtCore.QByteArray` is simply to pass a 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qbytearray.py
     :lines: 58-58
 
-Although the :sip:ref:`~PyQt6.QtCore.QByteArray.size` is 5, the byte array also maintains an extra '\\0' byte at the end so that if a function is used that asks for a pointer to the underlying data (e.g. a call to :sip:ref:`~PyQt6.QtCore.QByteArray.data`), the data pointed to is guaranteed to be '\\0'-terminated.
+Although the :sip:ref:`~PyQt6.QtCore.QByteArray.size` is 5, the byte array also maintains an extra '``\0``' byte at the end so that if a function is used that asks for a pointer to the underlying data (e.g. a call to :sip:ref:`~PyQt6.QtCore.QByteArray.data`), the data pointed to is guaranteed to be '``\0``'-terminated.
 
 :sip:ref:`~PyQt6.QtCore.QByteArray` makes a deep copy of the ``const char \*`` data, so you can modify it later without experiencing side effects. (If, for example for performance reasons, you don't want to take a deep copy of the data, use QByteArray::fromRawData() instead.)
 
@@ -32,16 +32,16 @@ For read-only access, an alternative syntax is to use :sip:ref:`~PyQt6.QtCore.QB
 
 To extract many bytes at a time, use :sip:ref:`~PyQt6.QtCore.QByteArray.first`, :sip:ref:`~PyQt6.QtCore.QByteArray.last`, or :sip:ref:`~PyQt6.QtCore.QByteArray.sliced`.
 
-A :sip:ref:`~PyQt6.QtCore.QByteArray` can embed '\\0' bytes. The :sip:ref:`~PyQt6.QtCore.QByteArray.size` function always returns the size of the whole array, including embedded '\\0' bytes, but excluding the terminating '\\0' added by :sip:ref:`~PyQt6.QtCore.QByteArray`. For example:
+A :sip:ref:`~PyQt6.QtCore.QByteArray` can embed '``\0``' bytes. The :sip:ref:`~PyQt6.QtCore.QByteArray.size` function always returns the size of the whole array, including embedded '``\0``' bytes, but excluding the terminating '``\0``' added by :sip:ref:`~PyQt6.QtCore.QByteArray`. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qbytearray.py
     :lines: 464-479
 
-If you want to obtain the length of the data up to and excluding the first '\\0' byte, call qstrlen() on the byte array.
+If you want to obtain the length of the data up to and excluding the first '``\0``' byte, call qstrlen() on the byte array.
 
 After a call to :sip:ref:`~PyQt6.QtCore.QByteArray.resize`, newly allocated bytes have undefined values. To set all the bytes to a particular value, call :sip:ref:`~PyQt6.QtCore.QByteArray.fill`.
 
-To obtain a pointer to the actual bytes, call :sip:ref:`~PyQt6.QtCore.QByteArray.data` or constData(). These functions return a pointer to the beginning of the data. The pointer is guaranteed to remain valid until a non-const function is called on the :sip:ref:`~PyQt6.QtCore.QByteArray`. It is also guaranteed that the data ends with a '\\0' byte unless the :sip:ref:`~PyQt6.QtCore.QByteArray` was created from raw data. This '\\0' byte is automatically provided by :sip:ref:`~PyQt6.QtCore.QByteArray` and is not counted in :sip:ref:`~PyQt6.QtCore.QByteArray.size`.
+To obtain a pointer to the actual bytes, call :sip:ref:`~PyQt6.QtCore.QByteArray.data` or constData(). These functions return a pointer to the beginning of the data. The pointer is guaranteed to remain valid until a non-const function is called on the :sip:ref:`~PyQt6.QtCore.QByteArray`. It is also guaranteed that the data ends with a '``\0``' byte unless the :sip:ref:`~PyQt6.QtCore.QByteArray` was created from raw data. This '``\0``' byte is automatically provided by :sip:ref:`~PyQt6.QtCore.QByteArray` and is not counted in :sip:ref:`~PyQt6.QtCore.QByteArray.size`.
 
 :sip:ref:`~PyQt6.QtCore.QByteArray` provides the following basic functions for modifying the byte data: :sip:ref:`~PyQt6.QtCore.QByteArray.append`, :sip:ref:`~PyQt6.QtCore.QByteArray.prepend`, :sip:ref:`~PyQt6.QtCore.QByteArray.insert`, :sip:ref:`~PyQt6.QtCore.QByteArray.replace`, and :sip:ref:`~PyQt6.QtCore.QByteArray.remove`. For example:
 
@@ -78,7 +78,7 @@ For historical reasons, :sip:ref:`~PyQt6.QtCore.QByteArray` distinguishes betwee
 .. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_text_qbytearray.py
     :lines: 100-107
 
-All functions except :sip:ref:`~PyQt6.QtCore.QByteArray.isNull` treat null byte arrays the same as empty byte arrays. For example, :sip:ref:`~PyQt6.QtCore.QByteArray.data` returns a valid pointer (\ *not* nullptr) to a '\\0' byte for a null byte array and :sip:ref:`~PyQt6.QtCore.QByteArray` compares equal to :sip:ref:`~PyQt6.QtCore.QByteArray`\ (""). We recommend that you always use :sip:ref:`~PyQt6.QtCore.QByteArray.isEmpty` and avoid :sip:ref:`~PyQt6.QtCore.QByteArray.isNull`.
+All functions except :sip:ref:`~PyQt6.QtCore.QByteArray.isNull` treat null byte arrays the same as empty byte arrays. For example, :sip:ref:`~PyQt6.QtCore.QByteArray.data` returns a valid pointer (\ *not* nullptr) to a '``\0``' byte for a null byte array and :sip:ref:`~PyQt6.QtCore.QByteArray` compares equal to :sip:ref:`~PyQt6.QtCore.QByteArray`\ (""). We recommend that you always use :sip:ref:`~PyQt6.QtCore.QByteArray.isEmpty` and avoid :sip:ref:`~PyQt6.QtCore.QByteArray.isNull`.
 
 .. _qbytearray-maximum-size-and-out-of-memory-conditions:
 
@@ -103,9 +103,9 @@ C locale and ASCII functions
 C Strings
 .........
 
-Traditional C strings, also known as '\\0'-terminated strings, are sequences of bytes, specified by a start-point and implicitly including each byte up to, but not including, the first '\\0' byte thereafter. Methods that accept such a pointer, without a length, will interpret it as this sequence of bytes. Such a sequence, by construction, cannot contain a '\\0' byte.
+Traditional C strings, also known as '``\0``'-terminated strings, are sequences of bytes, specified by a start-point and implicitly including each byte up to, but not including, the first '``\0``' byte thereafter. Methods that accept such a pointer, without a length, will interpret it as this sequence of bytes. Such a sequence, by construction, cannot contain a '``\0``' byte.
 
-Other overloads accept a start-pointer and a byte-count; these use the given number of bytes, following the start address, regardless of whether any of them happen to be '\\0' bytes. In some cases, where there is no overload taking only a pointer, passing a length of -1 will cause the method to use the offset of the first '\\0' byte after the pointer as the length; a length of -1 should only be passed if the method explicitly says it does this (in which case it is typically a default argument).
+Other overloads accept a start-pointer and a byte-count; these use the given number of bytes, following the start address, regardless of whether any of them happen to be '``\0``' bytes. In some cases, where there is no overload taking only a pointer, passing a length of -1 will cause the method to use the offset of the first '``\0``' byte after the pointer as the length; a length of -1 should only be passed if the method explicitly says it does this (in which case it is typically a default argument).
 
 .. _qbytearray-spacing-characters:
 

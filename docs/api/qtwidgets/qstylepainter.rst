@@ -58,9 +58,9 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             bool
-            Optional[str]
+            str|None
             textRole: :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole` = :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.NoRole`
-        :description: QtWidgets/QStylePainter-drawItemText-f-1.rst
+        :description: QtWidgets/QStylePainter-drawItemText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStylePainter.drawPrimitive
         :args:

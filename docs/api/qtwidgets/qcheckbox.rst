@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCheckBox.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QCheckBox-__init__-f-2.rst
+        :description: QtWidgets/QCheckBox-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCheckBox.checkState
         :returns:

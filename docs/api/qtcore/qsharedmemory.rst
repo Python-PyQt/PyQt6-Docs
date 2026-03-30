@@ -56,9 +56,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCore/QSharedMemory-__init__-f-3.rst
+        :description: QtCore/QSharedMemory-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.attach
         :args:
@@ -120,12 +120,12 @@
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.legacyNativeKey
         :args:
-            Optional[str]
+            str|None
             type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.legacyDefaultTypeForOs()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
         :static:
-        :description: QtCore/QSharedMemory-legacyNativeKey-f.rst
+        :description: QtCore/QSharedMemory-legacyNativeKey-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.lock
         :returns:
@@ -144,17 +144,17 @@
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.platformSafeKey
         :args:
-            Optional[str]
+            str|None
             type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.DefaultTypeForOs
         :returns:
             :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
         :static:
-        :description: QtCore/QSharedMemory-platformSafeKey-f.rst
+        :description: QtCore/QSharedMemory-platformSafeKey-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.setKey
         :args:
-            Optional[str]
-        :description: QtCore/QSharedMemory-setKey-f-1.rst
+            str|None
+        :description: QtCore/QSharedMemory-setKey-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.setNativeKey
         :args:
@@ -163,9 +163,9 @@
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.setNativeKey
         :args:
-            Optional[str]
+            str|None
             type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.legacyDefaultTypeForOs()
-        :description: QtCore/QSharedMemory-setNativeKey-f-2.rst
+        :description: QtCore/QSharedMemory-setNativeKey-f.rst
 
     .. sip:method:: PyQt6.QtCore.QSharedMemory.size
         :returns:

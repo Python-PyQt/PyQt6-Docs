@@ -342,11 +342,11 @@
 
     .. sip:method:: PyQt6.QtCore.QMetaType.fromName
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QMetaType`
         :static:
-        :description: QtCore/QMetaType-fromName-f.rst
+        :description: QtCore/QMetaType-fromName-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaType.__hash__
         :returns:

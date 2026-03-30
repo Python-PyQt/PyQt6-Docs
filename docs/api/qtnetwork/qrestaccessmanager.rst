@@ -27,10 +27,10 @@
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.get
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-get-f-1.rst
+        :description: QtNetwork/QRestAccessManager-get-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.get
         :args:
@@ -71,18 +71,18 @@
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.patch
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            dict[Optional[str], Any]
+            dict[str|None, Any]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-patch-f-1.rst
+        :description: QtNetwork/QRestAccessManager-patch-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.patch
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-patch-f-2.rst
+        :description: QtNetwork/QRestAccessManager-patch-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.patch
         :args:
@@ -103,18 +103,18 @@
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.post
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            dict[Optional[str], Any]
+            dict[str|None, Any]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-post-f-1.rst
+        :description: QtNetwork/QRestAccessManager-post-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.post
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-post-f-2.rst
+        :description: QtNetwork/QRestAccessManager-post-f-6.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.post
         :args:
@@ -143,18 +143,18 @@
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.put
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            dict[Optional[str], Any]
+            dict[str|None, Any]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-put-f-1.rst
+        :description: QtNetwork/QRestAccessManager-put-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.put
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-put-f-2.rst
+        :description: QtNetwork/QRestAccessManager-put-f-6.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.put
         :args:
@@ -175,26 +175,26 @@
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f.rst
+        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtCore.QIODevice`
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f-1.rst
+        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QRestAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtNetwork.QHttpMultiPart`
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f-2.rst
+        :description: QtNetwork/QRestAccessManager-sendCustomRequest-f-5.rst

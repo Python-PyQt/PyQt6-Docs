@@ -47,21 +47,21 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDateTimeEdit-__init__-f-1.rst
+        :description: QtWidgets/QDateTimeEdit-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDateTimeEdit-__init__-f-2.rst
+        :description: QtWidgets/QDateTimeEdit-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QDateTimeEdit-__init__-f-3.rst
+        :description: QtWidgets/QDateTimeEdit-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.calendar
         :returns:
@@ -121,10 +121,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.dateTimeFromText
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtWidgets/QDateTimeEdit-dateTimeFromText-f-1.rst
+        :description: QtWidgets/QDateTimeEdit-dateTimeFromText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.displayedSections
         :returns:
@@ -145,10 +145,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.fixup
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtWidgets/QDateTimeEdit-fixup-f-1.rst
+        :description: QtWidgets/QDateTimeEdit-fixup-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.focusInEvent
         :args:
@@ -258,60 +258,60 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QDateTimeEdit-setDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QDateTimeEdit-setDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDateRange
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QDateTimeEdit-setDateRange-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QDateTimeEdit-setDateRange-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDateTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtWidgets/QDateTimeEdit-setDateTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtWidgets/QDateTimeEdit-setDateTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDateTimeRange
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtWidgets/QDateTimeEdit-setDateTimeRange-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtWidgets/QDateTimeEdit-setDateTimeRange-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setDisplayFormat
         :args:
-            Optional[str]
-        :description: QtWidgets/QDateTimeEdit-setDisplayFormat-f-1.rst
+            str|None
+        :description: QtWidgets/QDateTimeEdit-setDisplayFormat-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMaximumDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QDateTimeEdit-setMaximumDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QDateTimeEdit-setMaximumDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMaximumDateTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtWidgets/QDateTimeEdit-setMaximumDateTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtWidgets/QDateTimeEdit-setMaximumDateTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMaximumTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtWidgets/QDateTimeEdit-setMaximumTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+        :description: QtWidgets/QDateTimeEdit-setMaximumTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMinimumDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QDateTimeEdit-setMinimumDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QDateTimeEdit-setMinimumDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMinimumDateTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtWidgets/QDateTimeEdit-setMinimumDateTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtWidgets/QDateTimeEdit-setMinimumDateTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setMinimumTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtWidgets/QDateTimeEdit-setMinimumTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+        :description: QtWidgets/QDateTimeEdit-setMinimumTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setSelectedSection
         :args:
@@ -320,14 +320,14 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtWidgets/QDateTimeEdit-setTime-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+        :description: QtWidgets/QDateTimeEdit-setTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setTimeRange
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtWidgets/QDateTimeEdit-setTimeRange-f.rst
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+        :description: QtWidgets/QDateTimeEdit-setTimeRange-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.setTimeSpec
         :args:
@@ -356,10 +356,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.textFromDateTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             str
-        :description: QtWidgets/QDateTimeEdit-textFromDateTime-f.rst
+        :description: QtWidgets/QDateTimeEdit-textFromDateTime-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.time
         :returns:
@@ -378,13 +378,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.validate
         :args:
-            Optional[str]
+            str|None
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtWidgets/QDateTimeEdit-validate-f-1.rst
+        :description: QtWidgets/QDateTimeEdit-validate-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QDateTimeEdit.wheelEvent
         :args:
@@ -393,15 +393,15 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QDateTimeEdit.dateChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QDateTimeEdit-dateChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QDateTimeEdit-dateChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDateTimeEdit.dateTimeChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtWidgets/QDateTimeEdit-dateTimeChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtWidgets/QDateTimeEdit-dateTimeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QDateTimeEdit.timeChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
-        :description: QtWidgets/QDateTimeEdit-timeChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
+        :description: QtWidgets/QDateTimeEdit-timeChanged-s-1.rst

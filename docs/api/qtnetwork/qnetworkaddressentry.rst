@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAddressEntry.setBroadcast
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QNetworkAddressEntry-setBroadcast-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QNetworkAddressEntry-setBroadcast-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAddressEntry.setDnsEligibility
         :args:
@@ -103,13 +103,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAddressEntry.setIp
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QNetworkAddressEntry-setIp-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QNetworkAddressEntry-setIp-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAddressEntry.setNetmask
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QNetworkAddressEntry-setNetmask-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QNetworkAddressEntry-setNetmask-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAddressEntry.setPrefixLength
         :args:

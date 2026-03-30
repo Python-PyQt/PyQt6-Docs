@@ -48,8 +48,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFontVariableAxis.setName
         :args:
-            Optional[str]
-        :description: QtGui/QFontVariableAxis-setName-f.rst
+            str|None
+        :description: QtGui/QFontVariableAxis-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontVariableAxis.setTag
         :args:

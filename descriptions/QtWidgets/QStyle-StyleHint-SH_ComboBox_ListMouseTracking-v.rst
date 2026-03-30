@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 19
-    :digest: 62a7cbbc82c4b03aca0016a8a5d4cf2c
+    :digest: c8e46ac08be7d07644f79d80a11ce49a
 
-Mouse tracking in combobox drop-down lists.
+Deprecated. Use SH_ComboBox_ListMouseTracking_Current instead.

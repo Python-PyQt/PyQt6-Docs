@@ -13,10 +13,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            destinationAddress: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = QHostAddress()
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            destinationAddress: :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress` = QHostAddress()
             port: int = 0
-        :description: QtNetwork/QNetworkDatagram-__init__-f-3.rst
+        :description: QtNetwork/QNetworkDatagram-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.clear
         :description: QtNetwork/QNetworkDatagram-clear-f.rst
@@ -58,10 +58,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.makeReply
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkDatagram`
-        :description: QtNetwork/QNetworkDatagram-makeReply-f-1.rst
+        :description: QtNetwork/QNetworkDatagram-makeReply-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.senderAddress
         :returns:
@@ -75,14 +75,14 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.setData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkDatagram-setData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkDatagram-setData-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.setDestination
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             int
-        :description: QtNetwork/QNetworkDatagram-setDestination-f.rst
+        :description: QtNetwork/QNetworkDatagram-setDestination-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.setHopLimit
         :args:
@@ -96,9 +96,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.setSender
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             port: int = 0
-        :description: QtNetwork/QNetworkDatagram-setSender-f.rst
+        :description: QtNetwork/QNetworkDatagram-setSender-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkDatagram.swap
         :args:

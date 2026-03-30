@@ -11,19 +11,19 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.addImageProvider
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase`
-        :description: QtQml/QQmlEngine-addImageProvider-f-1.rst
+        :description: QtQml/QQmlEngine-addImageProvider-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.addImportPath
         :args:
-            Optional[str]
-        :description: QtQml/QQmlEngine-addImportPath-f-1.rst
+            str|None
+        :description: QtQml/QQmlEngine-addImportPath-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.addPluginPath
         :args:
-            Optional[str]
-        :description: QtQml/QQmlEngine-addPluginPath-f-1.rst
+            str|None
+        :description: QtQml/QQmlEngine-addPluginPath-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.addUrlInterceptor
         :args:
@@ -58,10 +58,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.imageProvider
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtQml.QQmlImageProviderBase`
-        :description: QtQml/QQmlEngine-imageProvider-f-1.rst
+        :description: QtQml/QQmlEngine-imageProvider-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.importPathList
         :returns:
@@ -70,12 +70,12 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.importPlugin
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             Iterable[:sip:ref:`~PyQt6.QtQml.QQmlError`]
         :returns:
             bool
-        :description: QtQml/QQmlEngine-importPlugin-f-1.rst
+        :description: QtQml/QQmlEngine-importPlugin-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.incubationController
         :returns:
@@ -105,10 +105,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.offlineStorageDatabaseFilePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtQml/QQmlEngine-offlineStorageDatabaseFilePath-f-1.rst
+        :description: QtQml/QQmlEngine-offlineStorageDatabaseFilePath-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.offlineStoragePath
         :returns:
@@ -127,8 +127,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.removeImageProvider
         :args:
-            Optional[str]
-        :description: QtQml/QQmlEngine-removeImageProvider-f-1.rst
+            str|None
+        :description: QtQml/QQmlEngine-removeImageProvider-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.removeUrlInterceptor
         :args:
@@ -157,8 +157,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.setImportPathList
         :args:
-            Iterable[Optional[str]]
-        :description: QtQml/QQmlEngine-setImportPathList-f-1.rst
+            Iterable[str|None]
+        :description: QtQml/QQmlEngine-setImportPathList-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.setIncubationController
         :args:
@@ -172,8 +172,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.setOfflineStoragePath
         :args:
-            Optional[str]
-        :description: QtQml/QQmlEngine-setOfflineStoragePath-f-1.rst
+            str|None
+        :description: QtQml/QQmlEngine-setOfflineStoragePath-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.setOutputWarningsToStandardError
         :args:
@@ -182,8 +182,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.setPluginPathList
         :args:
-            Iterable[Optional[str]]
-        :description: QtQml/QQmlEngine-setPluginPathList-f-1.rst
+            Iterable[str|None]
+        :description: QtQml/QQmlEngine-setPluginPathList-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.singletonInstance
         :args:
@@ -194,11 +194,11 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.singletonInstance
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlEngine-singletonInstance-f-2.rst
+        :description: QtQml/QQmlEngine-singletonInstance-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlEngine.trimComponentCache
         :description: QtQml/QQmlEngine-trimComponentCache-f.rst

@@ -41,8 +41,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.setLabelFormat
         :args:
-            Optional[str]
-        :description: QtGraphs/QValueAxis-setLabelFormat-f.rst
+            str|None
+        :description: QtGraphs/QValueAxis-setLabelFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.setMax
         :args:
@@ -105,6 +105,16 @@
             :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis.AxisType`
         :description: QtGraphs/QValueAxis-type-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.visualMax
+        :returns:
+            float
+        :description: QtGraphs/QValueAxis-visualMax-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QValueAxis.visualMin
+        :returns:
+            float
+        :description: QtGraphs/QValueAxis-visualMin-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QValueAxis.zoom
         :returns:
             float
@@ -117,8 +127,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QValueAxis.labelFormatChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QValueAxis-labelFormatChanged-s.rst
+            str|None
+        :description: QtGraphs/QValueAxis-labelFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QValueAxis.maxChanged
         :args:
@@ -149,6 +159,16 @@
         :args:
             float
         :description: QtGraphs/QValueAxis-tickIntervalChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QValueAxis.visualMaxChanged
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-visualMaxChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QValueAxis.visualMinChanged
+        :args:
+            float
+        :description: QtGraphs/QValueAxis-visualMinChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QValueAxis.zoomChanged
         :args:

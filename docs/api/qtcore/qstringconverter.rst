@@ -34,6 +34,18 @@
         .. sip:enum-member:: PyQt6.QtCore.QStringConverter.Encoding.Utf8
             :description: QtCore/QStringConverter-Encoding-Utf8-v.rst
 
+    .. sip:enum:: PyQt6.QtCore.QStringConverter.FinalizeResultError
+        :description: QtCore/QStringConverter-FinalizeResultError-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QStringConverter.FinalizeResultError.InvalidCharacters
+            :description: QtCore/QStringConverter-FinalizeResultError-InvalidCharacters-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QStringConverter.FinalizeResultError.NoError
+            :description: QtCore/QStringConverter-FinalizeResultError-NoError-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QStringConverter.FinalizeResultError.NotEnoughSpace
+            :description: QtCore/QStringConverter-FinalizeResultError-NotEnoughSpace-v.rst
+
     .. sip:method:: PyQt6.QtCore.QStringConverter.__init__
         :description: QtCore/QStringConverter-__init__-f.rst
 
@@ -45,9 +57,9 @@
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag`
-        :description: QtCore/QStringConverter-__init__-f-1.rst
+        :description: QtCore/QStringConverter-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QStringConverter.availableCodecs
         :returns:

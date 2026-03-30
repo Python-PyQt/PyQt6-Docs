@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7e219fc6e58b7a39f125f48d90372d00
     :realsig: (QMetaType,QMetaType)
-    :digest: bea33350d7f73d2629748f671e9615bb
+    :digest: c4252416a68e6c274ea39c41230e6868
 
 Returns ``true`` if QMetaType::convert can convert from *fromType* to *toType*. Note this is mostly about the ability to execute the conversion, while the actual conversion may fail when attempted (for example, converting a floating point value to an integer outside of its range).
 
@@ -62,4 +62,4 @@ A cast from a sequential container will also return true for this function if th
 
 Similarly, a cast from an associative container will also return true for this function the *toType* is :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QVariantHash` or :sip:ref:`~PyQt6.QtCore.QMetaType.Type.QVariantMap`.
 
-.. seealso:: convert(), QSequentialIterable, Q_DECLARE_SEQUENTIAL_CONTAINER_METATYPE(), QAssociativeIterable, Q_DECLARE_ASSOCIATIVE_CONTAINER_METATYPE().
+.. seealso:: convert(), QMetaSequence::Iterable, Q_DECLARE_SEQUENTIAL_CONTAINER_METATYPE(), QMetaAssociation::Iterable, Q_DECLARE_ASSOCIATIVE_CONTAINER_METATYPE().

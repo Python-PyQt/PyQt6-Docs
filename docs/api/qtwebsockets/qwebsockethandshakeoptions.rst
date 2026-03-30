@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketHandshakeOptions.setSubprotocols
         :args:
-            Iterable[Optional[str]]
-        :description: QtWebSockets/QWebSocketHandshakeOptions-setSubprotocols-f-1.rst
+            Iterable[str|None]
+        :description: QtWebSockets/QWebSocketHandshakeOptions-setSubprotocols-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketHandshakeOptions.subprotocols
         :returns:

@@ -24,5 +24,5 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefNfcIconRecord.setData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNfc/QNdefNfcIconRecord-setData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNfc/QNdefNfcIconRecord-setData-f.rst

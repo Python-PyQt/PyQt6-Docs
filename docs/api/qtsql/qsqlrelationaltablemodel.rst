@@ -102,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRelationalTableModel.setTable
         :args:
-            Optional[str]
-        :description: QtSql/QSqlRelationalTableModel-setTable-f-1.rst
+            str|None
+        :description: QtSql/QSqlRelationalTableModel-setTable-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRelationalTableModel.updateRowInTable
         :args:

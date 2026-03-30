@@ -17,10 +17,20 @@
     .. sip:method:: PyQt6.QtGraphs.QSplineSeries.componentComplete
         :description: QtGraphs/QSplineSeries-componentComplete-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QSplineSeries.isOptimized
+        :returns:
+            bool
+        :description: QtGraphs/QSplineSeries-isOptimized-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QSplineSeries.setCapStyle
         :args:
             :sip:ref:`~PyQt6.QtCore.Qt.PenCapStyle`
         :description: QtGraphs/QSplineSeries-setCapStyle-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSplineSeries.setOptimized
+        :args:
+            bool
+        :description: QtGraphs/QSplineSeries-setOptimized-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QSplineSeries.setWidth
         :args:
@@ -39,6 +49,11 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QSplineSeries.capStyleChanged
         :description: QtGraphs/QSplineSeries-capStyleChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QSplineSeries.optimizedChanged
+        :args:
+            bool
+        :description: QtGraphs/QSplineSeries-optimizedChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QSplineSeries.widthChanged
         :description: QtGraphs/QSplineSeries-widthChanged-s.rst

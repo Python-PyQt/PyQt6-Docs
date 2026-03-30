@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.setRowColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtDataVisualization/QBar3DSeries-setRowColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtDataVisualization/QBar3DSeries-setRowColors-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QBar3DSeries.setSelectedBar
         :args:
@@ -73,8 +73,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QBar3DSeries.rowColorsChanged
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtDataVisualization/QBar3DSeries-rowColorsChanged-s.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtDataVisualization/QBar3DSeries-rowColorsChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QBar3DSeries.selectedBarChanged
         :args:

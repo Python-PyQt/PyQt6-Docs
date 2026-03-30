@@ -39,6 +39,21 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtGraphs/QSurface3DSeries-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.axisX
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.axisY
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.axisZ
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisZ-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.clearArray
         :description: QtGraphs/QSurface3DSeries-clearArray-f.rst
 
@@ -73,10 +88,39 @@
             bool
         :description: QtGraphs/QSurface3DSeries-isFlatShadingSupported-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.resetAxisX
+        :description: QtGraphs/QSurface3DSeries-resetAxisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.resetAxisY
+        :description: QtGraphs/QSurface3DSeries-resetAxisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.resetAxisZ
+        :description: QtGraphs/QSurface3DSeries-resetAxisZ-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.rowsSanitized
+        :returns:
+            bool
+        :description: QtGraphs/QSurface3DSeries-rowsSanitized-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.selectedPoint
         :returns:
             :sip:ref:`~PyQt6.QtCore.QPoint`
         :description: QtGraphs/QSurface3DSeries-selectedPoint-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setAxisX
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-setAxisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setAxisY
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-setAxisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setAxisZ
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-setAxisZ-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setDataArray
         :args:
@@ -92,6 +136,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGraphs.QSurface3DSeries.DrawFlag`
         :description: QtGraphs/QSurface3DSeries-setDrawMode-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setRowsSanitized
+        :args:
+            bool
+        :description: QtGraphs/QSurface3DSeries-setRowsSanitized-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setSelectedPoint
         :args:
@@ -110,13 +159,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setTextureFile
         :args:
-            Optional[str]
-        :description: QtGraphs/QSurface3DSeries-setTextureFile-f.rst
+            str|None
+        :description: QtGraphs/QSurface3DSeries-setTextureFile-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.setWireframeColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QSurface3DSeries-setWireframeColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QSurface3DSeries-setWireframeColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QSurface3DSeries.shading
         :returns:
@@ -138,6 +187,21 @@
             :sip:ref:`~PyQt6.QtGui.QColor`
         :description: QtGraphs/QSurface3DSeries-wireframeColor-f.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.axisXChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisXChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.axisYChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisYChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.axisZChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QSurface3DSeries-axisZChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.dataArrayChanged
         :args:
             Iterable[Iterable[:sip:ref:`~PyQt6.QtGraphs.QSurfaceDataItem`]]
@@ -158,6 +222,11 @@
             bool
         :description: QtGraphs/QSurface3DSeries-flatShadingSupportedChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.rowsSanitizedChanged
+        :args:
+            bool
+        :description: QtGraphs/QSurface3DSeries-rowsSanitizedChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.selectedPointChanged
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
@@ -175,10 +244,10 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.textureFileChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QSurface3DSeries-textureFileChanged-s.rst
+            str|None
+        :description: QtGraphs/QSurface3DSeries-textureFileChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QSurface3DSeries.wireframeColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QSurface3DSeries-wireframeColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QSurface3DSeries-wireframeColorChanged-s-1.rst

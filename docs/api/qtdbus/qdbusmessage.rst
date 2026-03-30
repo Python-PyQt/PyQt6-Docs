@@ -49,21 +49,21 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createError
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
         :static:
-        :description: QtDBus/QDBusMessage-createError-f-3.rst
+        :description: QtDBus/QDBusMessage-createError-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createError
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBusError.ErrorType`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
         :static:
-        :description: QtDBus/QDBusMessage-createError-f-4.rst
+        :description: QtDBus/QDBusMessage-createError-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createErrorReply
         :args:
@@ -74,30 +74,30 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createErrorReply
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusMessage-createErrorReply-f-3.rst
+        :description: QtDBus/QDBusMessage-createErrorReply-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createErrorReply
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBusError.ErrorType`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusMessage-createErrorReply-f-4.rst
+        :description: QtDBus/QDBusMessage-createErrorReply-f-2.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createMethodCall
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
         :static:
-        :description: QtDBus/QDBusMessage-createMethodCall-f-1.rst
+        :description: QtDBus/QDBusMessage-createMethodCall-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createReply
         :args:
@@ -115,24 +115,24 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createSignal
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
         :static:
-        :description: QtDBus/QDBusMessage-createSignal-f-1.rst
+        :description: QtDBus/QDBusMessage-createSignal-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.createTargetedSignal
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
         :static:
-        :description: QtDBus/QDBusMessage-createTargetedSignal-f-1.rst
+        :description: QtDBus/QDBusMessage-createTargetedSignal-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusMessage.errorMessage
         :returns:

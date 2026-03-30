@@ -56,21 +56,21 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.addItem
         :args:
-            Optional[str]
+            str|None
             userData: Any = None
-        :description: QtWidgets/QComboBox-addItem-f-2.rst
+        :description: QtWidgets/QComboBox-addItem-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.addItem
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
             userData: Any = None
-        :description: QtWidgets/QComboBox-addItem-f-3.rst
+        :description: QtWidgets/QComboBox-addItem-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.addItems
         :args:
-            Iterable[Optional[str]]
-        :description: QtWidgets/QComboBox-addItems-f-1.rst
+            Iterable[str|None]
+        :description: QtWidgets/QComboBox-addItems-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.changeEvent
         :args:
@@ -138,11 +138,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.findText
         :args:
-            Optional[str]
+            str|None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = Qt.MatchExactly|Qt.MatchCaseSensitive
         :returns:
             int
-        :description: QtWidgets/QComboBox-findText-f-4.rst
+        :description: QtWidgets/QComboBox-findText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.focusInEvent
         :args:
@@ -200,23 +200,23 @@
     .. sip:method:: PyQt6.QtWidgets.QComboBox.insertItem
         :args:
             int
-            Optional[str]
+            str|None
             userData: Any = None
-        :description: QtWidgets/QComboBox-insertItem-f-2.rst
+        :description: QtWidgets/QComboBox-insertItem-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.insertItem
         :args:
             int
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
             userData: Any = None
-        :description: QtWidgets/QComboBox-insertItem-f-3.rst
+        :description: QtWidgets/QComboBox-insertItem-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.insertItems
         :args:
             int
-            Iterable[Optional[str]]
-        :description: QtWidgets/QComboBox-insertItems-f-1.rst
+            Iterable[str|None]
+        :description: QtWidgets/QComboBox-insertItems-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.insertPolicy
         :returns:
@@ -362,8 +362,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setCurrentText
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-setCurrentText-f-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-setCurrentText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setDuplicatesEnabled
         :args:
@@ -377,8 +377,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setEditText
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-setEditText-f-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-setEditText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setFrame
         :args:
@@ -416,8 +416,8 @@
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setItemText
         :args:
             int
-            Optional[str]
-        :description: QtWidgets/QComboBox-setItemText-f-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-setItemText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setLabelDrawingMode
         :args:
@@ -456,8 +456,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setPlaceholderText
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-setPlaceholderText-f-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-setPlaceholderText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QComboBox.setRootModelIndex
         :args:
@@ -524,13 +524,13 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QComboBox.currentTextChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-currentTextChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-currentTextChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QComboBox.editTextChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-editTextChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-editTextChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QComboBox.highlighted
         :args:
@@ -539,10 +539,10 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QComboBox.textActivated
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-textActivated-s-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-textActivated-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QComboBox.textHighlighted
         :args:
-            Optional[str]
-        :description: QtWidgets/QComboBox-textHighlighted-s-1.rst
+            str|None
+        :description: QtWidgets/QComboBox-textHighlighted-s.rst

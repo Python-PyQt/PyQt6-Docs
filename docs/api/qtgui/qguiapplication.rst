@@ -29,9 +29,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.changeOverrideCursor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
         :static:
-        :description: QtGui/QGuiApplication-changeOverrideCursor-f.rst
+        :description: QtGui/QGuiApplication-changeOverrideCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.clipboard
         :returns:
@@ -226,9 +226,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setApplicationDisplayName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtGui/QGuiApplication-setApplicationDisplayName-f-1.rst
+        :description: QtGui/QGuiApplication-setApplicationDisplayName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setBadgeNumber
         :args:
@@ -237,9 +237,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setDesktopFileName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtGui/QGuiApplication-setDesktopFileName-f-1.rst
+        :description: QtGui/QGuiApplication-setDesktopFileName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setDesktopSettingsAware
         :args:
@@ -267,9 +267,9 @@
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setOverrideCursor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
         :static:
-        :description: QtGui/QGuiApplication-setOverrideCursor-f.rst
+        :description: QtGui/QGuiApplication-setOverrideCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGuiApplication.setPalette
         :args:

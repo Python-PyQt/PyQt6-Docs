@@ -34,17 +34,17 @@
 
     .. sip:method:: PyQt6.QtGui.QRawFont.__init__
         :args:
-            Optional[str]
+            str|None
             float
             hintingPreference: :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference` = :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference.PreferDefaultHinting`
-        :description: QtGui/QRawFont-__init__-f-4.rst
+        :description: QtGui/QRawFont-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             float
             hintingPreference: :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference` = :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference.PreferDefaultHinting`
-        :description: QtGui/QRawFont-__init__-f-5.rst
+        :description: QtGui/QRawFont-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.advancesForGlyphIndexes
         :args:
@@ -132,12 +132,24 @@
         :static:
         :description: QtGui/QRawFont-fromFont-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QRawFont.glyphCount
+        :returns:
+            int
+        :description: QtGui/QRawFont-glyphCount-f.rst
+
     .. sip:method:: PyQt6.QtGui.QRawFont.glyphIndexesForString
         :args:
-            Optional[str]
+            str|None
         :returns:
             list[int]
-        :description: QtGui/QRawFont-glyphIndexesForString-f.rst
+        :description: QtGui/QRawFont-glyphIndexesForString-f-1.rst
+
+    .. sip:method:: PyQt6.QtGui.QRawFont.glyphName
+        :args:
+            int
+        :returns:
+            str
+        :description: QtGui/QRawFont-glyphName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.__hash__
         :returns:
@@ -166,17 +178,17 @@
 
     .. sip:method:: PyQt6.QtGui.QRawFont.loadFromData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             float
             :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference`
-        :description: QtGui/QRawFont-loadFromData-f-1.rst
+        :description: QtGui/QRawFont-loadFromData-f.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.loadFromFile
         :args:
-            Optional[str]
+            str|None
             float
             :sip:ref:`~PyQt6.QtGui.QFont.HintingPreference`
-        :description: QtGui/QRawFont-loadFromFile-f-1.rst
+        :description: QtGui/QRawFont-loadFromFile-f.rst
 
     .. sip:method:: PyQt6.QtGui.QRawFont.maxCharWidth
         :returns:

@@ -154,8 +154,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setBackgroundEnabled
         :args:
@@ -164,8 +164,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setBaseColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtDataVisualization/Q3DTheme-setBaseColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtDataVisualization/Q3DTheme-setBaseColors-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setBaseGradients
         :args:
@@ -189,8 +189,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setGridLineColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setGridLineColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setGridLineColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setHighlightLightStrength
         :args:
@@ -199,8 +199,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setLabelBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setLabelBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setLabelBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setLabelBackgroundEnabled
         :args:
@@ -214,13 +214,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setLabelTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setLabelTextColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setLabelTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setLightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setLightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setLightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setLightStrength
         :args:
@@ -229,8 +229,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setMultiHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setMultiHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setMultiHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setMultiHighlightGradient
         :args:
@@ -239,8 +239,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setSingleHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setSingleHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setSingleHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setSingleHighlightGradient
         :args:
@@ -254,8 +254,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.setWindowColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-setWindowColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-setWindowColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.Q3DTheme.singleHighlightColor
         :returns:
@@ -284,8 +284,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.backgroundColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-backgroundColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-backgroundColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.backgroundEnabledChanged
         :args:
@@ -294,8 +294,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.baseColorsChanged
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtDataVisualization/Q3DTheme-baseColorsChanged-s.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtDataVisualization/Q3DTheme-baseColorsChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.baseGradientsChanged
         :args:
@@ -319,8 +319,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.gridLineColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-gridLineColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-gridLineColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.highlightLightStrengthChanged
         :args:
@@ -329,8 +329,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.labelBackgroundColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-labelBackgroundColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-labelBackgroundColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.labelBackgroundEnabledChanged
         :args:
@@ -344,13 +344,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.labelTextColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-labelTextColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-labelTextColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.lightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-lightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-lightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.lightStrengthChanged
         :args:
@@ -359,8 +359,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.multiHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-multiHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-multiHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.multiHighlightGradientChanged
         :args:
@@ -369,8 +369,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.singleHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-singleHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-singleHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.singleHighlightGradientChanged
         :args:
@@ -384,5 +384,5 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.Q3DTheme.windowColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/Q3DTheme-windowColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/Q3DTheme-windowColorChanged-s-1.rst

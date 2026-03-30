@@ -104,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QPalette-__init__-f-10.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QPalette-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
@@ -124,22 +124,22 @@
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QPalette-__init__-f-11.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QPalette-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-__init__-f-12.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QPalette-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.accent
         :returns:
@@ -303,42 +303,42 @@
     .. sip:method:: PyQt6.QtGui.QPalette.setBrush
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-setBrush-f-4.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QPalette-setBrush-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setBrush
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorGroup`
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-setBrush-f-5.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QPalette-setBrush-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setColor
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QPalette-setColor-f-4.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QPalette-setColor-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setColor
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorGroup`
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QPalette-setColor-f-5.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QPalette-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setColorGroup
         :args:
             :sip:ref:`~PyQt6.QtGui.QPalette.ColorGroup`
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QPalette-setColorGroup-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QPalette-setColorGroup-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPalette.setCurrentColorGroup
         :args:

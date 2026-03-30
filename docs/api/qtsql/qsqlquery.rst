@@ -29,9 +29,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.__init__
         :args:
-            query: Optional[str] = ''
+            query: str|None = ''
             db: :sip:ref:`~PyQt6.QtSql.QSqlDatabase` = QSqlDatabase()
-        :description: QtSql/QSqlQuery-__init__-f-4.rst
+        :description: QtSql/QSqlQuery-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.addBindValue
         :args:
@@ -46,10 +46,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.bindValue
         :args:
-            Optional[str]
+            str|None
             Any
             type: :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag` = :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag.In`
-        :description: QtSql/QSqlQuery-bindValue-f-4.rst
+        :description: QtSql/QSqlQuery-bindValue-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.bindValue
         :args:
@@ -60,10 +60,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValue
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtSql/QSqlQuery-boundValue-f-2.rst
+        :description: QtSql/QSqlQuery-boundValue-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.boundValue
         :args:
@@ -104,10 +104,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.exec
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlQuery-exec-f-2.rst
+        :description: QtSql/QSqlQuery-exec-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.execBatch
         :args:
@@ -148,10 +148,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isNull
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtSql/QSqlQuery-isNull-f-1.rst
+        :description: QtSql/QSqlQuery-isNull-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.isPositionalBindingEnabled
         :returns:
@@ -210,10 +210,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.prepare
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlQuery-prepare-f-1.rst
+        :description: QtSql/QSqlQuery-prepare-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.previous
         :returns:
@@ -272,7 +272,7 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQuery.value
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             Any
-        :description: QtSql/QSqlQuery-value-f-1.rst
+        :description: QtSql/QSqlQuery-value-f-2.rst

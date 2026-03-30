@@ -143,8 +143,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextBrowser.setSearchPaths
         :args:
-            Iterable[Optional[str]]
-        :description: QtWidgets/QTextBrowser-setSearchPaths-f-1.rst
+            Iterable[str|None]
+        :description: QtWidgets/QTextBrowser-setSearchPaths-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextBrowser.setSource
         :args:

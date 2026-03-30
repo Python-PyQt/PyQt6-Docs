@@ -33,24 +33,24 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.compileSourceCode
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShader-compileSourceCode-f-2.rst
+        :description: QtOpenGL/QOpenGLShader-compileSourceCode-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.compileSourceCode
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShader-compileSourceCode-f-3.rst
+        :description: QtOpenGL/QOpenGLShader-compileSourceCode-f-1.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.compileSourceFile
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtOpenGL/QOpenGLShader-compileSourceFile-f-1.rst
+        :description: QtOpenGL/QOpenGLShader-compileSourceFile-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLShader.hasOpenGLShaders
         :args:

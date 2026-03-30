@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 7f3af5685d06b3c562a73c51e37f2a3f
     :realsig: ()
-    :digest: bd42eff62c8af99163f7bafd9fc91a0d
+    :digest: 7e597fa4e277dbd4b1de468db1d7f798
 
 Returns a pointer to the internal :sip:ref:`~PyQt6.QtCore.QIODevice` being used to transfer data from the system's audio input. The device will already be open and :sip:ref:`~PyQt6.QtCore.QIODevice.read` can read data directly from it.
 
@@ -12,4 +12,4 @@ If the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource` is able to access the system'
 
 If a problem occurs during this process, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.error` returns QtAudio::OpenError, :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.state` returns QtAudio::StoppedState and the :sip:ref:`~PyQt6.QtMultimedia.QAudioSource.stateChanged` signal is emitted.
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QIODevice`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QIODevice`, QIODevice interface.

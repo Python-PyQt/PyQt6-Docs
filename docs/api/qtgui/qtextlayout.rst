@@ -15,6 +15,9 @@
     .. sip:enum:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag
         :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-e.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.DefaultRetrievalFlags
+            :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-DefaultRetrievalFlags-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextLayout.GlyphRunRetrievalFlag.RetrieveAll
             :description: QtGui/QTextLayout-GlyphRunRetrievalFlag-RetrieveAll-v.rst
 
@@ -35,8 +38,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
-            Optional[str]
-        :description: QtGui/QTextLayout-__init__-f-4.rst
+            str|None
+        :description: QtGui/QTextLayout-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
@@ -45,10 +48,10 @@
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QFont`
             paintdevice: :sip:ref:`~PyQt6.QtGui.QPaintDevice` = None
-        :description: QtGui/QTextLayout-__init__-f-5.rst
+        :description: QtGui/QTextLayout-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.beginLayout
         :description: QtGui/QTextLayout-beginLayout-f.rst
@@ -241,13 +244,13 @@
     .. sip:method:: PyQt6.QtGui.QTextLayout.setPreeditArea
         :args:
             int
-            Optional[str]
-        :description: QtGui/QTextLayout-setPreeditArea-f-1.rst
+            str|None
+        :description: QtGui/QTextLayout-setPreeditArea-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.setText
         :args:
-            Optional[str]
-        :description: QtGui/QTextLayout-setText-f-1.rst
+            str|None
+        :description: QtGui/QTextLayout-setText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextLayout.setTextOption
         :args:

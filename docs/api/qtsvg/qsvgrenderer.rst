@@ -11,15 +11,15 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtSvg/QSvgRenderer-__init__-f-4.rst
+        :description: QtSvg/QSvgRenderer-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtSvg/QSvgRenderer-__init__-f-5.rst
+        :description: QtSvg/QSvgRenderer-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.__init__
         :args:
@@ -44,10 +44,10 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.boundsOnElement
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRectF`
-        :description: QtSvg/QSvgRenderer-boundsOnElement-f-1.rst
+        :description: QtSvg/QSvgRenderer-boundsOnElement-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.currentFrame
         :returns:
@@ -61,10 +61,10 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.elementExists
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSvg/QSvgRenderer-elementExists-f-1.rst
+        :description: QtSvg/QSvgRenderer-elementExists-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.framesPerSecond
         :returns:
@@ -83,17 +83,17 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.load
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSvg/QSvgRenderer-load-f-3.rst
+        :description: QtSvg/QSvgRenderer-load-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.load
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtSvg/QSvgRenderer-load-f-4.rst
+        :description: QtSvg/QSvgRenderer-load-f-1.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.load
         :args:
@@ -121,9 +121,9 @@
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.render
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
-            Optional[str]
+            str|None
             bounds: :sip:ref:`~PyQt6.QtCore.QRectF` = QRectF()
-        :description: QtSvg/QSvgRenderer-render-f-3.rst
+        :description: QtSvg/QSvgRenderer-render-f-2.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.setAnimationEnabled
         :args:
@@ -168,10 +168,10 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.transformForElement
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTransform`
-        :description: QtSvg/QSvgRenderer-transformForElement-f-1.rst
+        :description: QtSvg/QSvgRenderer-transformForElement-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgRenderer.viewBox
         :returns:

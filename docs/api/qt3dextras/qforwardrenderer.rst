@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QForwardRenderer.setClearColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: Qt3DExtras/QForwardRenderer-setClearColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: Qt3DExtras/QForwardRenderer-setClearColor-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QForwardRenderer.setExternalRenderTargetSize
         :args:
@@ -111,8 +111,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QForwardRenderer.clearColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: Qt3DExtras/QForwardRenderer-clearColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: Qt3DExtras/QForwardRenderer-clearColorChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QForwardRenderer.externalRenderTargetSizeChanged
         :args:

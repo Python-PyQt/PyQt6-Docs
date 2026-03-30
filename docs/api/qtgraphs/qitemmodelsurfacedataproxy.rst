@@ -33,53 +33,53 @@
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-2.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-3.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-4.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-5.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-10.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-6.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-__init__-f-11.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.autoColumnCategories
         :returns:
@@ -98,10 +98,10 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.columnCategoryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtGraphs/QItemModelSurfaceDataProxy-columnCategoryIndex-f.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-columnCategoryIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.columnRole
         :returns:
@@ -130,14 +130,14 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.remap
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-remap-f.rst
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
+        :description: QtGraphs/QItemModelSurfaceDataProxy-remap-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowCategories
         :returns:
@@ -146,10 +146,10 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowCategoryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtGraphs/QItemModelSurfaceDataProxy-rowCategoryIndex-f.rst
+        :description: QtGraphs/QItemModelSurfaceDataProxy-rowCategoryIndex-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowRole
         :returns:
@@ -178,13 +178,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setColumnCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnCategories-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setColumnRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setColumnRolePattern
         :args:
@@ -193,8 +193,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setColumnRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setColumnRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setItemModel
         :args:
@@ -208,13 +208,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setRowCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowCategories-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowCategories-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setRowRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setRowRolePattern
         :args:
@@ -223,8 +223,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setRowRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setRowRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setUseModelCategories
         :args:
@@ -233,8 +233,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setXPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setXPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setXPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setXPosRolePattern
         :args:
@@ -243,13 +243,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setXPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setXPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setXPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setYPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setYPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setYPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setYPosRolePattern
         :args:
@@ -258,13 +258,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setYPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setYPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setYPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setZPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setZPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setZPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setZPosRolePattern
         :args:
@@ -273,8 +273,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.setZPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-setZPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-setZPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.useModelCategories
         :returns:
@@ -341,8 +341,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.columnRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-columnRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-columnRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.columnRolePatternChanged
         :args:
@@ -351,8 +351,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.columnRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-columnRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-columnRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.itemModelChanged
         :args:
@@ -369,8 +369,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-rowRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-rowRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowRolePatternChanged
         :args:
@@ -379,8 +379,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.rowRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-rowRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-rowRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.useModelCategoriesChanged
         :args:
@@ -389,8 +389,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.xPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-xPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-xPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.xPosRolePatternChanged
         :args:
@@ -399,13 +399,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.xPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-xPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-xPosRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.yPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-yPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-yPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.yPosRolePatternChanged
         :args:
@@ -414,13 +414,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.yPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-yPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-yPosRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.zPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-zPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-zPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.zPosRolePatternChanged
         :args:
@@ -429,5 +429,5 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelSurfaceDataProxy.zPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelSurfaceDataProxy-zPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelSurfaceDataProxy-zPosRoleReplaceChanged-s-1.rst

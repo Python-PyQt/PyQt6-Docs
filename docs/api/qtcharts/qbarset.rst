@@ -6,9 +6,9 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCharts/QBarSet-__init__-f-1.rst
+        :description: QtCharts/QBarSet-__init__-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.append
         :args:
@@ -160,33 +160,33 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-setBorderColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-setBorderColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBarSet-setBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QBarSet-setBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-setColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabel
         :args:
-            Optional[str]
-        :description: QtCharts/QBarSet-setLabel-f-1.rst
+            str|None
+        :description: QtCharts/QBarSet-setLabel-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabelBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QBarSet-setLabelBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QBarSet-setLabelBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabelColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-setLabelColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-setLabelColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setLabelFont
         :args:
@@ -195,13 +195,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QBarSet-setPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-setPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.setSelectedColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-setSelectedColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-setSelectedColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarSet.sum
         :returns:
@@ -215,8 +215,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.borderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-borderColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-borderColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.brushChanged
         :description: QtCharts/QBarSet-brushChanged-s.rst
@@ -228,8 +228,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-colorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-colorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.doubleClicked
         :args:
@@ -250,8 +250,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.labelColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-labelColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-labelColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.labelFontChanged
         :description: QtCharts/QBarSet-labelFontChanged-s.rst
@@ -276,8 +276,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.selectedColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QBarSet-selectedColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QBarSet-selectedColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarSet.valueChanged
         :args:

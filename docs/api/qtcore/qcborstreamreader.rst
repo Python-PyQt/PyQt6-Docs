@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QCborStreamReader-__init__-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QCborStreamReader-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.__init__
         :args:
@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.addData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QCborStreamReader-addData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QCborStreamReader-addData-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.clear
         :description: QtCore/QCborStreamReader-clear-f.rst
@@ -270,24 +270,24 @@
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readAndAppendToByteArray
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QCborStreamReader-readAndAppendToByteArray-f.rst
+        :description: QtCore/QCborStreamReader-readAndAppendToByteArray-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readAndAppendToString
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QCborStreamReader-readAndAppendToString-f.rst
+        :description: QtCore/QCborStreamReader-readAndAppendToString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readAndAppendToUtf8String
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QCborStreamReader-readAndAppendToUtf8String-f.rst
+        :description: QtCore/QCborStreamReader-readAndAppendToUtf8String-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCborStreamReader.readByteArray
         :returns:

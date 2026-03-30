@@ -65,8 +65,8 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QUuid-__init__-f-6.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QUuid-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__init__
         :args:
@@ -103,38 +103,38 @@
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV3
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV3-f-2.rst
+        :description: QtCore/QUuid-createUuidV3-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV3
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV3-f-3.rst
+        :description: QtCore/QUuid-createUuidV3-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV5
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV5-f-2.rst
+        :description: QtCore/QUuid-createUuidV5-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV5
         :args:
             :sip:ref:`~PyQt6.QtCore.QUuid`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-createUuidV5-f-3.rst
+        :description: QtCore/QUuid-createUuidV5-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.createUuidV7
         :returns:
@@ -151,19 +151,19 @@
 
     .. sip:method:: PyQt6.QtCore.QUuid.fromRfc4122
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-fromRfc4122-f-1.rst
+        :description: QtCore/QUuid-fromRfc4122-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.fromString
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QUuid`
         :static:
-        :description: QtCore/QUuid-fromString-f-2.rst
+        :description: QtCore/QUuid-fromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QUuid.__ge__
         :args:

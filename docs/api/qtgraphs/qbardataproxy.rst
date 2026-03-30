@@ -19,10 +19,10 @@
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.addRow
         :args:
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtGraphs/QBarDataProxy-addRow-f-1.rst
+        :description: QtGraphs/QBarDataProxy-addRow-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.addRows
         :args:
@@ -34,10 +34,10 @@
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.addRows
         :args:
             Iterable[Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]]
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :returns:
             int
-        :description: QtGraphs/QBarDataProxy-addRows-f-1.rst
+        :description: QtGraphs/QBarDataProxy-addRows-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.colCount
         :returns:
@@ -54,8 +54,8 @@
         :args:
             int
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]
-            Optional[str]
-        :description: QtGraphs/QBarDataProxy-insertRow-f-1.rst
+            str|None
+        :description: QtGraphs/QBarDataProxy-insertRow-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.insertRows
         :args:
@@ -67,8 +67,8 @@
         :args:
             int
             Iterable[Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]]
-            Iterable[Optional[str]]
-        :description: QtGraphs/QBarDataProxy-insertRows-f-1.rst
+            Iterable[str|None]
+        :description: QtGraphs/QBarDataProxy-insertRows-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.itemAt
         :args:
@@ -103,9 +103,9 @@
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.resetArray
         :args:
             Iterable[Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
-        :description: QtGraphs/QBarDataProxy-resetArray-f-2.rst
+            Iterable[str|None]
+            Iterable[str|None]
+        :description: QtGraphs/QBarDataProxy-resetArray-f-3.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.rowAt
         :args:
@@ -147,8 +147,8 @@
         :args:
             int
             Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]
-            Optional[str]
-        :description: QtGraphs/QBarDataProxy-setRow-f-1.rst
+            str|None
+        :description: QtGraphs/QBarDataProxy-setRow-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarDataProxy.setRows
         :args:
@@ -160,8 +160,8 @@
         :args:
             int
             Iterable[Iterable[:sip:ref:`~PyQt6.QtGraphs.QBarDataItem`]]
-            Iterable[Optional[str]]
-        :description: QtGraphs/QBarDataProxy-setRows-f-1.rst
+            Iterable[str|None]
+        :description: QtGraphs/QBarDataProxy-setRows-f-2.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarDataProxy.arrayReset
         :description: QtGraphs/QBarDataProxy-arrayReset-s.rst

@@ -139,8 +139,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setBaseColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-setBaseColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-setBaseColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setBaseGradient
         :args:
@@ -154,8 +154,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setItemLabelFormat
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-setItemLabelFormat-f.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-setItemLabelFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setItemLabelVisible
         :args:
@@ -190,8 +190,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setMultiHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-setMultiHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-setMultiHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setMultiHighlightGradient
         :args:
@@ -200,13 +200,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setName
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-setName-f.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setSingleHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-setSingleHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-setSingleHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setSingleHighlightGradient
         :args:
@@ -215,8 +215,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setUserDefinedMesh
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-setUserDefinedMesh-f.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-setUserDefinedMesh-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DSeries.setVisible
         :args:
@@ -245,8 +245,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.baseColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-baseColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-baseColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.baseGradientChanged
         :args:
@@ -260,13 +260,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.itemLabelChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-itemLabelChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-itemLabelChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.itemLabelFormatChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-itemLabelFormatChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-itemLabelFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.itemLabelVisibleChanged
         :args:
@@ -295,8 +295,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.multiHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-multiHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-multiHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.multiHighlightGradientChanged
         :args:
@@ -305,13 +305,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.nameChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-nameChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-nameChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.singleHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstract3DSeries-singleHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstract3DSeries-singleHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.singleHighlightGradientChanged
         :args:
@@ -320,8 +320,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.userDefinedMeshChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DSeries-userDefinedMeshChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstract3DSeries-userDefinedMeshChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DSeries.visibleChanged
         :args:

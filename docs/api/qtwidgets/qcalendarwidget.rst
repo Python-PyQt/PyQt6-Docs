@@ -65,10 +65,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.dateTextFormat
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             :sip:ref:`~PyQt6.QtGui.QTextCharFormat`
-        :description: QtWidgets/QCalendarWidget-dateTextFormat-f-1.rst
+        :description: QtWidgets/QCalendarWidget-dateTextFormat-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.event
         :args:
@@ -149,8 +149,8 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-paintCell-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-paintCell-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.resizeEvent
         :args:
@@ -190,15 +190,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setDateRange
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-setDateRange-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-setDateRange-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setDateTextFormat
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             :sip:ref:`~PyQt6.QtGui.QTextCharFormat`
-        :description: QtWidgets/QCalendarWidget-setDateTextFormat-f.rst
+        :description: QtWidgets/QCalendarWidget-setDateTextFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setFirstDayOfWeek
         :args:
@@ -222,13 +222,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setMaximumDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-setMaximumDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-setMaximumDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setMinimumDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-setMinimumDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-setMinimumDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setNavigationBarVisible
         :args:
@@ -237,8 +237,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setSelectedDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-setSelectedDate-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-setSelectedDate-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.setSelectionMode
         :args:
@@ -281,8 +281,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.updateCell
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-updateCell-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-updateCell-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QCalendarWidget.updateCells
         :description: QtWidgets/QCalendarWidget-updateCells-f.rst
@@ -306,13 +306,13 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QCalendarWidget.activated
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-activated-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-activated-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QCalendarWidget.clicked
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-        :description: QtWidgets/QCalendarWidget-clicked-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+        :description: QtWidgets/QCalendarWidget-clicked-s-1.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QCalendarWidget.currentPageChanged
         :args:

@@ -28,6 +28,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentCookiesPolicy.NoPersistentCookies
             :description: QtWebEngineCore/QWebEngineProfile-PersistentCookiesPolicy-NoPersistentCookies-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentCookiesPolicy.OnlyPersistentCookies
+            :description: QtWebEngineCore/QWebEngineProfile-PersistentCookiesPolicy-OnlyPersistentCookies-v.rst
+
     .. sip:enum:: PyQt6.QtWebEngineCore.QWebEngineProfile.PersistentPermissionsPolicy
         :description: QtWebEngineCore/QWebEngineProfile-PersistentPermissionsPolicy-e.rst
 
@@ -47,9 +50,9 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWebEngineCore/QWebEngineProfile-__init__-f-2.rst
+        :description: QtWebEngineCore/QWebEngineProfile-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.additionalTrustedCertificates
         :returns:
@@ -125,9 +128,9 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.installUrlSchemeHandler
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`
-        :description: QtWebEngineCore/QWebEngineProfile-installUrlSchemeHandler-f-1.rst
+        :description: QtWebEngineCore/QWebEngineProfile-installUrlSchemeHandler-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.isOffTheRecord
         :returns:
@@ -191,8 +194,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.removeUrlScheme
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtWebEngineCore/QWebEngineProfile-removeUrlScheme-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtWebEngineCore/QWebEngineProfile-removeUrlScheme-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.removeUrlSchemeHandler
         :args:
@@ -220,18 +223,18 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setCachePath
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineProfile-setCachePath-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineProfile-setCachePath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setDownloadPath
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineProfile-setDownloadPath-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineProfile-setDownloadPath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setHttpAcceptLanguage
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineProfile-setHttpAcceptLanguage-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineProfile-setHttpAcceptLanguage-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setHttpCacheMaximumSize
         :args:
@@ -245,8 +248,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setHttpUserAgent
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineProfile-setHttpUserAgent-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineProfile-setHttpUserAgent-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setNotificationPresenter
         :args:
@@ -265,8 +268,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setPersistentStoragePath
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineProfile-setPersistentStoragePath-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineProfile-setPersistentStoragePath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setPushServiceEnabled
         :args:
@@ -280,8 +283,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.setSpellCheckLanguages
         :args:
-            Iterable[Optional[str]]
-        :description: QtWebEngineCore/QWebEngineProfile-setSpellCheckLanguages-f-1.rst
+            Iterable[str|None]
+        :description: QtWebEngineCore/QWebEngineProfile-setSpellCheckLanguages-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.settings
         :returns:
@@ -305,10 +308,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.urlSchemeHandler
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`
-        :description: QtWebEngineCore/QWebEngineProfile-urlSchemeHandler-f-1.rst
+        :description: QtWebEngineCore/QWebEngineProfile-urlSchemeHandler-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfile.visitedLinksContainsUrl
         :args:

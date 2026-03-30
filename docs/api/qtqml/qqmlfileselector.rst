@@ -17,8 +17,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlFileSelector.setExtraSelectors
         :args:
-            Iterable[Optional[str]]
-        :description: QtQml/QQmlFileSelector-setExtraSelectors-f-1.rst
+            Iterable[str|None]
+        :description: QtQml/QQmlFileSelector-setExtraSelectors-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlFileSelector.setSelector
         :args:

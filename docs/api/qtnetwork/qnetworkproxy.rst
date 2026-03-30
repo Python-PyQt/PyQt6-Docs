@@ -59,11 +59,11 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkProxy.ProxyType`
-            hostName: Optional[str] = ''
+            hostName: str|None = ''
             port: int = 0
-            user: Optional[str] = ''
-            password: Optional[str] = ''
-        :description: QtNetwork/QNetworkProxy-__init__-f-3.rst
+            user: str|None = ''
+            password: str|None = ''
+        :description: QtNetwork/QNetworkProxy-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.applicationProxy
         :returns:
@@ -85,10 +85,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.hasRawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtNetwork/QNetworkProxy-hasRawHeader-f-1.rst
+        :description: QtNetwork/QNetworkProxy-hasRawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.header
         :args:
@@ -136,10 +136,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.rawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QNetworkProxy-rawHeader-f-1.rst
+        :description: QtNetwork/QNetworkProxy-rawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.rawHeaderList
         :returns:
@@ -170,13 +170,13 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setHostName
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkProxy-setHostName-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkProxy-setHostName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setPassword
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkProxy-setPassword-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkProxy-setPassword-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setPort
         :args:
@@ -185,9 +185,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setRawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkProxy-setRawHeader-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkProxy-setRawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setType
         :args:
@@ -196,8 +196,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.setUser
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkProxy-setUser-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkProxy-setUser-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxy.swap
         :args:

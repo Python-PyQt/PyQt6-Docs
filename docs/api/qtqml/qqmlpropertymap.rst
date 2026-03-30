@@ -11,41 +11,49 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.clear
         :args:
-            Optional[str]
-        :description: QtQml/QQmlPropertyMap-clear-f-1.rst
+            str|None
+        :description: QtQml/QQmlPropertyMap-clear-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.contains
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtQml/QQmlPropertyMap-contains-f-1.rst
+        :description: QtQml/QQmlPropertyMap-contains-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.count
         :returns:
             int
         :description: QtQml/QQmlPropertyMap-count-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.create
+        :args:
+            parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
+        :returns:
+            QQmlPropertyMap|None
+        :static:
+        :description: QtQml/QQmlPropertyMap-create-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.freeze
         :description: QtQml/QQmlPropertyMap-freeze-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.__getitem__
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtQml/QQmlPropertyMap-__getitem__-f-1.rst
+        :description: QtQml/QQmlPropertyMap-__getitem__-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
         :args:
-            dict[Optional[str], Any]
-        :description: QtQml/QQmlPropertyMap-insert-f.rst
+            dict[str|None, Any]
+        :description: QtQml/QQmlPropertyMap-insert-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.insert
         :args:
-            Optional[str]
+            str|None
             Any
-        :description: QtQml/QQmlPropertyMap-insert-f-3.rst
+        :description: QtQml/QQmlPropertyMap-insert-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.isEmpty
         :returns:
@@ -69,21 +77,21 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.updateValue
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             Any
-        :description: QtQml/QQmlPropertyMap-updateValue-f-1.rst
+        :description: QtQml/QQmlPropertyMap-updateValue-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlPropertyMap.value
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtQml/QQmlPropertyMap-value-f-1.rst
+        :description: QtQml/QQmlPropertyMap-value-f.rst
 
     .. sip:signal:: PyQt6.QtQml.QQmlPropertyMap.valueChanged
         :args:
-            Optional[str]
+            str|None
             Any
-        :description: QtQml/QQmlPropertyMap-valueChanged-s-1.rst
+        :description: QtQml/QQmlPropertyMap-valueChanged-s.rst

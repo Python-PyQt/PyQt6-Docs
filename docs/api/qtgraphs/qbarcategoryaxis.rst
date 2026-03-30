@@ -4,6 +4,15 @@
     :inherits: :sip:ref:`~PyQt6.QtGraphs.QAbstractAxis`
     :description: QtGraphs/QBarCategoryAxis-c.rst
 
+    .. sip:enum:: PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition
+        :description: QtGraphs/QBarCategoryAxis-LabelPosition-e.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition.Center
+            :description: QtGraphs/QBarCategoryAxis-LabelPosition-Center-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition.OnValue
+            :description: QtGraphs/QBarCategoryAxis-LabelPosition-OnValue-v.rst
+
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.__init__
         :args:
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
@@ -11,13 +20,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.append
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QBarCategoryAxis-append-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QBarCategoryAxis-append-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.append
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-append-f-1.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-append-f-3.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.at
         :args:
@@ -42,8 +51,13 @@
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.insert
         :args:
             int
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-insert-f.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-insert-f-1.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.labelPosition
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition`
+        :description: QtGraphs/QBarCategoryAxis-labelPosition-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.__len__
         :returns:
@@ -62,8 +76,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.remove
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-remove-f.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-remove-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.remove
         :args:
@@ -72,30 +86,35 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.replace
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-replace-f.rst
+            str|None
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-replace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.setCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QBarCategoryAxis-setCategories-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QBarCategoryAxis-setCategories-f-1.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.setLabelPosition
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition`
+        :description: QtGraphs/QBarCategoryAxis-setLabelPosition-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.setMax
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-setMax-f.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-setMax-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.setMin
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-setMin-f.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-setMin-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.setRange
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-setRange-f.rst
+            str|None
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-setRange-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarCategoryAxis.type
         :returns:
@@ -108,12 +127,17 @@
     .. sip:signal:: PyQt6.QtGraphs.QBarCategoryAxis.countChanged
         :description: QtGraphs/QBarCategoryAxis-countChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QBarCategoryAxis.labelPositionChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QBarCategoryAxis.LabelPosition`
+        :description: QtGraphs/QBarCategoryAxis-labelPositionChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QBarCategoryAxis.maxChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-maxChanged-s.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-maxChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarCategoryAxis.minChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarCategoryAxis-minChanged-s.rst
+            str|None
+        :description: QtGraphs/QBarCategoryAxis-minChanged-s-1.rst

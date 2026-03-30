@@ -35,10 +35,10 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.backendProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtPositioning/QGeoSatelliteInfoSource-backendProperty-f-1.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-backendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createDefaultSource
         :args:
@@ -50,31 +50,31 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createDefaultSource
         :args:
-            dict[Optional[str], Any]
+            dict[str|None, Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource`
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f-1.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f-2.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createSource
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource`
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f-2.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.createSource
         :args:
-            Optional[str]
-            dict[Optional[str], Any]
+            str|None
+            dict[str|None, Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoSatelliteInfoSource`
         :static:
-        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f-3.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.error
         :returns:
@@ -93,11 +93,11 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.setBackendProperty
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             bool
-        :description: QtPositioning/QGeoSatelliteInfoSource-setBackendProperty-f-1.rst
+        :description: QtPositioning/QGeoSatelliteInfoSource-setBackendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoSatelliteInfoSource.setUpdateInterval
         :args:

@@ -88,8 +88,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.setSearchString
         :args:
-            Optional[str]
-        :description: QtPdf/QPdfSearchModel-setSearchString-f-1.rst
+            str|None
+        :description: QtPdf/QPdfSearchModel-setSearchString-f.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfSearchModel.timerEvent
         :args:

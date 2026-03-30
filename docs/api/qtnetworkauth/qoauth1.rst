@@ -29,11 +29,11 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.__init__
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetworkAuth/QOAuth1-__init__-f-3.rst
+        :description: QtNetworkAuth/QOAuth1-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.clientCredentials
         :returns:
@@ -47,32 +47,32 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.continueGrantWithVerifier
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-continueGrantWithVerifier-f-1.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth1-continueGrantWithVerifier-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.deleteResource
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-deleteResource-f.rst
+        :description: QtNetworkAuth/QOAuth1-deleteResource-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.generateAuthorizationHeader
         :args:
-            dict[Optional[str], Any]
+            dict[str|None, Any]
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtNetworkAuth/QOAuth1-generateAuthorizationHeader-f.rst
+        :description: QtNetworkAuth/QOAuth1-generateAuthorizationHeader-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.get
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-get-f.rst
+        :description: QtNetworkAuth/QOAuth1-get-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.grant
         :description: QtNetworkAuth/QOAuth1-grant-f.rst
@@ -80,10 +80,10 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.head
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-head-f.rst
+        :description: QtNetworkAuth/QOAuth1-head-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.nonce
         :returns:
@@ -94,60 +94,60 @@
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.post
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-post-f.rst
+        :description: QtNetworkAuth/QOAuth1-post-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.prepareRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            body: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-        :description: QtNetworkAuth/QOAuth1-prepareRequest-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            body: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+        :description: QtNetworkAuth/QOAuth1-prepareRequest-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.put
         :args:
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-put-f.rst
+        :description: QtNetworkAuth/QOAuth1-put-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.requestTemporaryCredentials
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager.Operation`
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            parameters: dict[Optional[str], Any] = {}
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-requestTemporaryCredentials-f.rst
+        :description: QtNetworkAuth/QOAuth1-requestTemporaryCredentials-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.requestTokenCredentials
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager.Operation`
             :sip:ref:`~PyQt6.QtCore.QUrl`
-            tuple[Optional[str], Optional[str]]
-            parameters: dict[Optional[str], Any] = {}
+            tuple[str|None, str|None]
+            parameters: dict[str|None, Any] = {}
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetworkAuth/QOAuth1-requestTokenCredentials-f.rst
+        :description: QtNetworkAuth/QOAuth1-requestTokenCredentials-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setClientCredentials
         :args:
-            tuple[Optional[str], Optional[str]]
-        :description: QtNetworkAuth/QOAuth1-setClientCredentials-f.rst
+            tuple[str|None, str|None]
+        :description: QtNetworkAuth/QOAuth1-setClientCredentials-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setClientCredentials
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-setClientCredentials-f-3.rst
+            str|None
+            str|None
+        :description: QtNetworkAuth/QOAuth1-setClientCredentials-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setClientSharedSecret
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-setClientSharedSecret-f-1.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth1-setClientSharedSecret-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setSignatureMethod
         :args:
@@ -161,14 +161,14 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setTokenCredentials
         :args:
-            tuple[Optional[str], Optional[str]]
-        :description: QtNetworkAuth/QOAuth1-setTokenCredentials-f.rst
+            tuple[str|None, str|None]
+        :description: QtNetworkAuth/QOAuth1-setTokenCredentials-f-1.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setTokenCredentials
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-setTokenCredentials-f-3.rst
+            str|None
+            str|None
+        :description: QtNetworkAuth/QOAuth1-setTokenCredentials-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setTokenCredentialsUrl
         :args:
@@ -177,22 +177,22 @@
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setTokenSecret
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-setTokenSecret-f-1.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth1-setTokenSecret-f.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setup
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            dict[Optional[str], Any]
+            dict[str|None, Any]
             :sip:ref:`~PyQt6.QtNetwork.QNetworkAccessManager.Operation`
-        :description: QtNetworkAuth/QOAuth1-setup-f.rst
+        :description: QtNetworkAuth/QOAuth1-setup-f-2.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.setup
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            dict[Optional[str], Any]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetworkAuth/QOAuth1-setup-f-1.rst
+            dict[str|None, Any]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetworkAuth/QOAuth1-setup-f-3.rst
 
     .. sip:method:: PyQt6.QtNetworkAuth.QOAuth1.signatureMethod
         :returns:
@@ -221,8 +221,8 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth1.clientSharedSecretChanged
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-clientSharedSecretChanged-s-1.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth1-clientSharedSecretChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth1.signatureMethodChanged
         :args:
@@ -241,5 +241,5 @@
 
     .. sip:signal:: PyQt6.QtNetworkAuth.QOAuth1.tokenSecretChanged
         :args:
-            Optional[str]
-        :description: QtNetworkAuth/QOAuth1-tokenSecretChanged-s-1.rst
+            str|None
+        :description: QtNetworkAuth/QOAuth1-tokenSecretChanged-s.rst

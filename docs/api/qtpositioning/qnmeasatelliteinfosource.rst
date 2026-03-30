@@ -26,7 +26,7 @@
             :description: QtPositioning/QNmeaSatelliteInfoSource-UpdateMode-SimulationMode-v.rst
 
     .. sip:attribute:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.SimulationUpdateInterval
-        :type: Optional[str]
+        :type: str|None
         :static:
         :description: QtPositioning/QNmeaSatelliteInfoSource-SimulationUpdateInterval-a.rst
 
@@ -38,10 +38,10 @@
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.backendProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtPositioning/QNmeaSatelliteInfoSource-backendProperty-f-1.rst
+        :description: QtPositioning/QNmeaSatelliteInfoSource-backendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.device
         :returns:
@@ -84,11 +84,11 @@
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.setBackendProperty
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             bool
-        :description: QtPositioning/QNmeaSatelliteInfoSource-setBackendProperty-f-1.rst
+        :description: QtPositioning/QNmeaSatelliteInfoSource-setBackendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QNmeaSatelliteInfoSource.setDevice
         :args:

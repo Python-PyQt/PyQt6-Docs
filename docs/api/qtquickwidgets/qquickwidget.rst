@@ -47,10 +47,10 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtQuickWidgets/QQuickWidget-__init__-f-3.rst
+        :description: QtQuickWidgets/QQuickWidget-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.dragEnterEvent
         :args:
@@ -138,9 +138,9 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.loadFromModule
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtQuickWidgets/QQuickWidget-loadFromModule-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtQuickWidgets/QQuickWidget-loadFromModule-f-1.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.mouseDoubleClickEvent
         :args:
@@ -194,8 +194,8 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setClearColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuickWidgets/QQuickWidget-setClearColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuickWidgets/QQuickWidget-setClearColor-f.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setFormat
         :args:
@@ -204,8 +204,8 @@
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setInitialProperties
         :args:
-            dict[Optional[str], Any]
-        :description: QtQuickWidgets/QQuickWidget-setInitialProperties-f.rst
+            dict[str|None, Any]
+        :description: QtQuickWidgets/QQuickWidget-setInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQuickWidgets.QQuickWidget.setResizeMode
         :args:
@@ -250,8 +250,8 @@
     .. sip:signal:: PyQt6.QtQuickWidgets.QQuickWidget.sceneGraphError
         :args:
             :sip:ref:`~PyQt6.QtQuick.QQuickWindow.SceneGraphError`
-            Optional[str]
-        :description: QtQuickWidgets/QQuickWidget-sceneGraphError-s-1.rst
+            str|None
+        :description: QtQuickWidgets/QQuickWidget-sceneGraphError-s.rst
 
     .. sip:signal:: PyQt6.QtQuickWidgets.QQuickWidget.statusChanged
         :args:

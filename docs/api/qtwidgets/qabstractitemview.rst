@@ -436,8 +436,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.keyboardSearch
         :args:
-            Optional[str]
-        :description: QtWidgets/QAbstractItemView-keyboardSearch-f-1.rst
+            str|None
+        :description: QtWidgets/QAbstractItemView-keyboardSearch-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.keyboardSearchFlags
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
+        :description: QtWidgets/QAbstractItemView-keyboardSearchFlags-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.keyPressEvent
         :args:
@@ -660,6 +665,11 @@
             int
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemDelegate`
         :description: QtWidgets/QAbstractItemView-setItemDelegateForRow-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setKeyboardSearchFlags
+        :args:
+            :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag`
+        :description: QtWidgets/QAbstractItemView-setKeyboardSearchFlags-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractItemView.setModel
         :args:

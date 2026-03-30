@@ -5,8 +5,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketCorsAuthenticator.__init__
         :args:
-            Optional[str]
-        :description: QtWebSockets/QWebSocketCorsAuthenticator-__init__-f-2.rst
+            str|None
+        :description: QtWebSockets/QWebSocketCorsAuthenticator-__init__-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketCorsAuthenticator.__init__
         :args:

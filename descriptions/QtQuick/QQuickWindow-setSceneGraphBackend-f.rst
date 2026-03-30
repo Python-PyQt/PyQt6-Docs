@@ -1,0 +1,15 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: db547d59f57d25909df4080d41fbf34a
+    :realsig: (const QString&)
+    :digest: 641b4db0ccaf7819f1db79014e37c27a
+
+Requests a Qt Quick scenegraph *backend*. Backends can either be built-in or be installed in form of dynamically loaded plugins.
+
+**Note:** The call to the function must happen before constructing the first :sip:ref:`~PyQt6.QtQuick.QQuickWindow` in the application. It cannot be changed afterwards.
+
+See `Switch Between Adaptations in Your Application <https://doc.qt.io/qt-6/qtquick-visualcanvas-adaptations.html#switch-between-adaptations-in-your-application>`_ for more information about the list of backends. If *backend* is invalid or an error occurs, the request is ignored.
+
+**Note:** Calling this function is equivalent to setting the ``QT_QUICK_BACKEND`` or ``QMLSCENE_DEVICE`` environment variables. However, this API is safer to use in applications that spawn other processes as there is no need to worry about environment inheritance.
+
+.. seealso:: :sip:ref:`~PyQt6.QtQuick.QQuickWindow.sceneGraphBackend`.

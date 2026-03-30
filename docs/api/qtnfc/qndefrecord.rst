@@ -71,18 +71,18 @@
 
     .. sip:method:: PyQt6.QtNfc.QNdefRecord.setId
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNfc/QNdefRecord-setId-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNfc/QNdefRecord-setId-f.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefRecord.setPayload
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNfc/QNdefRecord-setPayload-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNfc/QNdefRecord-setPayload-f.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefRecord.setType
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNfc/QNdefRecord-setType-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNfc/QNdefRecord-setType-f.rst
 
     .. sip:method:: PyQt6.QtNfc.QNdefRecord.setTypeNameFormat
         :args:

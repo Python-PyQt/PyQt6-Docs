@@ -56,6 +56,11 @@
             bool
         :description: QtCore/QMetaProperty-isFlagType-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QMetaProperty.isOverride
+        :returns:
+            bool
+        :description: QtCore/QMetaProperty-isOverride-f.rst
+
     .. sip:method:: PyQt6.QtCore.QMetaProperty.isReadable
         :returns:
             bool
@@ -90,6 +95,11 @@
         :returns:
             bool
         :description: QtCore/QMetaProperty-isValid-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QMetaProperty.isVirtual
+        :returns:
+            bool
+        :description: QtCore/QMetaProperty-isVirtual-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMetaProperty.isWritable
         :returns:

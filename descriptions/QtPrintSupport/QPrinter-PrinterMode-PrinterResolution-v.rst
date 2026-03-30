@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 1
-    :digest: d66f828887cd91916b2a0555eaf6dd59
+    :digest: 75419bb097af54da55d500fc972bd20a
 
-This value is deprecated. It is equivalent to ScreenResolution on Unix and HighResolution on Windows and Mac. Due to the difference between ScreenResolution and HighResolution, use of this value may lead to non-portable printer code.
+This value is deprecated. For printers, it is equivalent to ScreenResolution on Unix and HighResolution on Windows and macOS. For PDF printing, it is not supported and may result in undefined behavior. Using this value can lead to non-portable printer code.

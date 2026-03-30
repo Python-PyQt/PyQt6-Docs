@@ -11,18 +11,23 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
             :sip:ref:`~PyQt6.QtGui.QImage`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QCustom3DItem-__init__-f-1.rst
+        :description: QtGraphs/QCustom3DItem-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.isPositionAbsolute
         :returns:
             bool
         :description: QtGraphs/QCustom3DItem-isPositionAbsolute-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.isRotationAbsolute
+        :returns:
+            bool
+        :description: QtGraphs/QCustom3DItem-isRotationAbsolute-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.isScalingAbsolute
         :returns:
@@ -61,8 +66,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setMeshFile
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DItem-setMeshFile-f.rst
+            str|None
+        :description: QtGraphs/QCustom3DItem-setMeshFile-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setPosition
         :args:
@@ -78,6 +83,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
         :description: QtGraphs/QCustom3DItem-setRotation-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setRotationAbsolute
+        :args:
+            bool
+        :description: QtGraphs/QCustom3DItem-setRotationAbsolute-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setRotationAxisAndAngle
         :args:
@@ -102,8 +112,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setTextureFile
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DItem-setTextureFile-f.rst
+            str|None
+        :description: QtGraphs/QCustom3DItem-setTextureFile-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DItem.setTextureImage
         :args:
@@ -122,8 +132,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.meshFileChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DItem-meshFileChanged-s.rst
+            str|None
+        :description: QtGraphs/QCustom3DItem-meshFileChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.positionAbsoluteChanged
         :args:
@@ -134,6 +144,11 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QVector3D`
         :description: QtGraphs/QCustom3DItem-positionChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.rotationAbsoluteChanged
+        :args:
+            bool
+        :description: QtGraphs/QCustom3DItem-rotationAbsoluteChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.rotationChanged
         :args:
@@ -157,8 +172,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.textureFileChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DItem-textureFileChanged-s.rst
+            str|None
+        :description: QtGraphs/QCustom3DItem-textureFileChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DItem.visibleChanged
         :args:

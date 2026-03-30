@@ -9,8 +9,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.__init__
         :args:
-            Optional[str]
-        :description: QtCore/QFile-__init__-f-4.rst
+            str|None
+        :description: QtCore/QFile-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.__init__
         :args:
@@ -19,33 +19,33 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QFile-__init__-f-5.rst
+        :description: QtCore/QFile-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.copy
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QFile-copy-f-2.rst
+        :description: QtCore/QFile-copy-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.copy
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-copy-f-3.rst
+        :description: QtCore/QFile-copy-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.decodeName
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             str
         :static:
-        :description: QtCore/QFile-decodeName-f-2.rst
+        :description: QtCore/QFile-decodeName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.decodeName
         :args:
@@ -57,11 +57,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.encodeName
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QFile-encodeName-f-1.rst
+        :description: QtCore/QFile-encodeName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.exists
         :returns:
@@ -70,11 +70,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.exists
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-exists-f-2.rst
+        :description: QtCore/QFile-exists-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.fileName
         :returns:
@@ -83,19 +83,19 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.link
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QFile-link-f-2.rst
+        :description: QtCore/QFile-link-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.link
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-link-f-3.rst
+        :description: QtCore/QFile-link-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.moveToTrash
         :returns:
@@ -104,12 +104,12 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.moveToTrash
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
             str
         :static:
-        :description: QtCore/QFile-moveToTrash-f-2.rst
+        :description: QtCore/QFile-moveToTrash-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.open
         :args:
@@ -142,11 +142,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.permissions
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :static:
-        :description: QtCore/QFile-permissions-f-4.rst
+        :description: QtCore/QFile-permissions-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.remove
         :returns:
@@ -155,27 +155,27 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.remove
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-remove-f-2.rst
+        :description: QtCore/QFile-remove-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.rename
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QFile-rename-f-2.rst
+        :description: QtCore/QFile-rename-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.rename
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-rename-f-3.rst
+        :description: QtCore/QFile-rename-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.resize
         :args:
@@ -186,17 +186,17 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.resize
         :args:
-            Optional[str]
+            str|None
             int
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-resize-f-2.rst
+        :description: QtCore/QFile-resize-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.setFileName
         :args:
-            Optional[str]
-        :description: QtCore/QFile-setFileName-f-1.rst
+            str|None
+        :description: QtCore/QFile-setFileName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.setPermissions
         :args:
@@ -207,12 +207,12 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.setPermissions
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
         :static:
-        :description: QtCore/QFile-setPermissions-f-4.rst
+        :description: QtCore/QFile-setPermissions-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFile.size
         :returns:
@@ -232,8 +232,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFile.symLinkTarget
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
         :static:
-        :description: QtCore/QFile-symLinkTarget-f-2.rst
+        :description: QtCore/QFile-symLinkTarget-f-1.rst

@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: b0b8df8e5f4611743d6b68e0444c49b8
+    :digest: 9cdc7ca379fff0677230a0e51057cc23
 
-Navigation triggered automatically by page content or remote server. (Added in Qt 5.14)
+[since 5.14] Navigation triggered automatically by page content or remote server.

@@ -96,8 +96,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSystemTrayIcon.setToolTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QSystemTrayIcon-setToolTip-f-1.rst
+            str|None
+        :description: QtWidgets/QSystemTrayIcon-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSystemTrayIcon.setVisible
         :args:
@@ -109,19 +109,19 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSystemTrayIcon.showMessage
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             icon: :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon.MessageIcon` = :sip:ref:`~PyQt6.QtWidgets.QSystemTrayIcon.MessageIcon.Information`
             msecs: int = 10000
-        :description: QtWidgets/QSystemTrayIcon-showMessage-f-2.rst
+        :description: QtWidgets/QSystemTrayIcon-showMessage-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSystemTrayIcon.showMessage
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             :sip:ref:`~PyQt6.QtGui.QIcon`
             msecs: int = 10000
-        :description: QtWidgets/QSystemTrayIcon-showMessage-f-3.rst
+        :description: QtWidgets/QSystemTrayIcon-showMessage-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSystemTrayIcon.supportsMessages
         :returns:

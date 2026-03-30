@@ -20,10 +20,10 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.aspect
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.Qt3DCore.QAbstractAspect`
-        :description: Qt3DCore/QAspectEngine-aspect-f-1.rst
+        :description: Qt3DCore/QAspectEngine-aspect-f.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.aspects
         :returns:
@@ -32,10 +32,10 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.executeCommand
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: Qt3DCore/QAspectEngine-executeCommand-f-1.rst
+        :description: Qt3DCore/QAspectEngine-executeCommand-f.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.processFrame
         :description: Qt3DCore/QAspectEngine-processFrame-f.rst
@@ -47,8 +47,8 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.registerAspect
         :args:
-            Optional[str]
-        :description: Qt3DCore/QAspectEngine-registerAspect-f-2.rst
+            str|None
+        :description: Qt3DCore/QAspectEngine-registerAspect-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.rootEntity
         :returns:
@@ -77,5 +77,5 @@
 
     .. sip:method:: PyQt6.Qt3DCore.QAspectEngine.unregisterAspect
         :args:
-            Optional[str]
-        :description: Qt3DCore/QAspectEngine-unregisterAspect-f-2.rst
+            str|None
+        :description: Qt3DCore/QAspectEngine-unregisterAspect-f-1.rst

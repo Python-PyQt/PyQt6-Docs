@@ -165,11 +165,11 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.readLineInto
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             maxSize: int = 0
         :returns:
             bool
-        :description: QtCore/QIODevice-readLineInto-f.rst
+        :description: QtCore/QIODevice-readLineInto-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.reset
         :returns:
@@ -198,8 +198,8 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setErrorString
         :args:
-            Optional[str]
-        :description: QtCore/QIODevice-setErrorString-f-1.rst
+            str|None
+        :description: QtCore/QIODevice-setErrorString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.setOpenMode
         :args:
@@ -254,10 +254,10 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.write
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QIODevice-write-f-1.rst
+        :description: QtCore/QIODevice-write-f.rst
 
     .. sip:method:: PyQt6.QtCore.QIODevice.writeChannelCount
         :returns:
@@ -266,10 +266,10 @@
 
     .. sip:method:: PyQt6.QtCore.QIODevice.writeData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QIODevice-writeData-f-1.rst
+        :description: QtCore/QIODevice-writeData-f.rst
 
     .. sip:signal:: PyQt6.QtCore.QIODevice.aboutToClose
         :description: QtCore/QIODevice-aboutToClose-s.rst

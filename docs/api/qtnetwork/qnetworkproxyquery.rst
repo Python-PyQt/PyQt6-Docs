@@ -41,17 +41,17 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.__init__
         :args:
             int
-            protocolTag: Optional[str] = ''
+            protocolTag: str|None = ''
             type: :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery.QueryType` = :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery.QueryType.TcpServer`
-        :description: QtNetwork/QNetworkProxyQuery-__init__-f-5.rst
+        :description: QtNetwork/QNetworkProxyQuery-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.__init__
         :args:
-            Optional[str]
+            str|None
             int
-            protocolTag: Optional[str] = ''
+            protocolTag: str|None = ''
             type: :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery.QueryType` = :sip:ref:`~PyQt6.QtNetwork.QNetworkProxyQuery.QueryType.TcpSocket`
-        :description: QtNetwork/QNetworkProxyQuery-__init__-f-6.rst
+        :description: QtNetwork/QNetworkProxyQuery-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.__eq__
         :args:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.setPeerHostName
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkProxyQuery-setPeerHostName-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkProxyQuery-setPeerHostName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.setPeerPort
         :args:
@@ -109,8 +109,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.setProtocolTag
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkProxyQuery-setProtocolTag-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkProxyQuery-setProtocolTag-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkProxyQuery.setQueryType
         :args:

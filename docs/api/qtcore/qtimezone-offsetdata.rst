@@ -4,11 +4,11 @@
     :description: QtCore/QTimeZone-OffsetData-c.rst
 
     .. sip:attribute:: PyQt6.QtCore.QTimeZone.OffsetData.abbreviation
-        :type: Optional[str]
+        :type: str|None
         :description: QtCore/QTimeZone-OffsetData-abbreviation-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QTimeZone.OffsetData.atUtc
-        :type: Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+        :type: :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :description: QtCore/QTimeZone-OffsetData-atUtc-a.rst
 
     .. sip:attribute:: PyQt6.QtCore.QTimeZone.OffsetData.daylightTimeOffset

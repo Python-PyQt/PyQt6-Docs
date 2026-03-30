@@ -38,9 +38,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QTextEdit-__init__-f-2.rst
+        :description: QtWidgets/QTextEdit-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.acceptRichText
         :returns:
@@ -61,8 +61,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.append
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-append-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-append-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.autoFormatting
         :returns:
@@ -198,11 +198,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.find
         :args:
-            Optional[str]
+            str|None
             options: :sip:ref:`~PyQt6.QtGui.QTextDocument.FindFlag` = QTextDocument.FindFlags()
         :returns:
             bool
-        :description: QtWidgets/QTextEdit-find-f-4.rst
+        :description: QtWidgets/QTextEdit-find-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.find
         :args:
@@ -281,13 +281,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.insertHtml
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-insertHtml-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-insertHtml-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.insertPlainText
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-insertPlainText-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-insertPlainText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.isReadOnly
         :returns:
@@ -397,8 +397,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.scrollToAnchor
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-scrollToAnchor-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-scrollToAnchor-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.selectAll
         :description: QtWidgets/QTextEdit-selectAll-f.rst
@@ -440,8 +440,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setDocumentTitle
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setDocumentTitle-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setDocumentTitle-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setExtraSelections
         :args:
@@ -450,8 +450,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setFontFamily
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setFontFamily-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setFontFamily-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setFontItalic
         :args:
@@ -475,8 +475,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setHtml
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setHtml-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setHtml-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setLineWrapColumnOrWidth
         :args:
@@ -490,8 +490,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setMarkdown
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setMarkdown-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setMarkdown-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setOverwriteMode
         :args:
@@ -500,13 +500,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setPlaceholderText
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setPlaceholderText-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setPlaceholderText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setPlainText
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setPlainText-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setPlainText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setReadOnly
         :args:
@@ -525,18 +525,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setText
         :args:
-            Optional[str]
-        :description: QtWidgets/QTextEdit-setText-f-1.rst
+            str|None
+        :description: QtWidgets/QTextEdit-setText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtWidgets/QTextEdit-setTextBackgroundColor-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtWidgets/QTextEdit-setTextColor-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtWidgets/QTextEdit-setTextColor-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTextEdit.setTextCursor
         :args:

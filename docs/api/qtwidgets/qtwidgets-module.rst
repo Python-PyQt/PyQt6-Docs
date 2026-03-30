@@ -20,10 +20,10 @@
         :args:
             :sip:ref:`~PyQt6.QtGui.QPainter`
             :sip:ref:`~PyQt6.QtCore.QRect`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawPlainRect-f-6.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawPlainRect-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawPlainRect
         :args:
@@ -32,10 +32,10 @@
             int
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawPlainRect-f-7.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawPlainRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawPlainRoundedRect
         :args:
@@ -43,10 +43,10 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             float
             float
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawPlainRoundedRect-f.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawPlainRoundedRect-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawPlainRoundedRect
         :args:
@@ -57,10 +57,10 @@
             int
             float
             float
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawPlainRoundedRect-f-1.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawPlainRoundedRect-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawShadeLine
         :args:
@@ -93,8 +93,8 @@
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawShadePanel-f-4.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawShadePanel-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawShadePanel
         :args:
@@ -106,8 +106,8 @@
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
             lineWidth: int = 1
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawShadePanel-f-5.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawShadePanel-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawShadeRect
         :args:
@@ -117,8 +117,8 @@
             sunken: bool = False
             lineWidth: int = 1
             midLineWidth: int = 0
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawShadeRect-f-4.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawShadeRect-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawShadeRect
         :args:
@@ -131,8 +131,8 @@
             sunken: bool = False
             lineWidth: int = 1
             midLineWidth: int = 0
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawShadeRect-f-5.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawShadeRect-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawWinButton
         :args:
@@ -140,8 +140,8 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawWinButton-f-4.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawWinButton-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawWinButton
         :args:
@@ -152,8 +152,8 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawWinButton-f-5.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawWinButton-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawWinPanel
         :args:
@@ -161,8 +161,8 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawWinPanel-f-4.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawWinPanel-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.qDrawWinPanel
         :args:
@@ -173,5 +173,5 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             sunken: bool = False
-            fill: Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`] = None
-        :description: QtWidgets/qDrawWinPanel-f-5.rst
+            fill: :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient` = None
+        :description: QtWidgets/qDrawWinPanel-f-1.rst

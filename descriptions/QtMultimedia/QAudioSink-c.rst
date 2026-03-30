@@ -1,13 +1,22 @@
 .. sip:class-description::
     :status: todo
     :brief: Interface for sending audio data to an audio output device
-    :digest: d111de168f6c0012501ecf590bb6674c
+    :digest: f8f4327ef28dc21e7371feb1e5514360
 
 The :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` class provides an interface for sending audio data to an audio output device.
 
 You can construct an audio output with the system's default audio output device. It is also possible to create :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` with a specific :sip:ref:`~PyQt6.QtMultimedia.QAudioDevice`. When you create the audio output, you should also send in the :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat` to be used for the playback (see the :sip:ref:`~PyQt6.QtMultimedia.QAudioFormat` class description for details).
 
-To play a file:
+:sip:ref:`~PyQt6.QtMultimedia.QAudioSink` can be used in two different modes:
+
+* Using a :sip:ref:`~PyQt6.QtCore.QIODevice` from an application thread
+
+* Using a callback-based interface from the audio thread
+
+.. _qaudiosink-qiodevice-interface:
+
+QIODevice interface
+-------------------
 
 Starting to play an audio stream is simply a matter of calling :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.start` with a :sip:ref:`~PyQt6.QtCore.QIODevice`. :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will then fetch the data it needs from the io device. So playing back an audio file is as simple as:
 
@@ -23,9 +32,40 @@ After the file has finished playing, we need to stop the device:
 
 .. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
 
-At any given time, the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will be in one of four states: active, suspended, stopped, or idle. These states are described by the QtAudio::State enum. State changes are reported through the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal. You can use this signal to, for instance, update the GUI of the application; the mundane example here being changing the state of a ``play/pause`` button. You request a state change directly with :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.suspend`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stop`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.reset`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.resume`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.start`.
+At any given time, the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will be in one of four states: active, suspended, stopped, or idle. These states are described by the QtAudio::State enum.
 
-If an error occurs, you can fetch the error type with the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.error` function. Please see the QtAudio::Error enum for a description of the possible errors that are reported. The :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will enter the StoppedState when an error is encountered.
+.. _qaudiosink-threading-model-and-buffering:
+
+Threading model and buffering
+.............................
+
+The :sip:ref:`~PyQt6.QtCore.QIODevice` interface is designed to be used from the application thread. A wait-free ringbuffer is used to communicate to the audio thread. The size of this ringbuffer can be configured with :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.setBufferSize` and defaults to 250ms. The state of this buffer can be queried with :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.bytesFree`. If the ringbuffer runs out of data, the audio thread will send silence to the audio device and the state will change to QtAudio::IdleState and resume to QtAudio::ActiveState when more data is available from the :sip:ref:`~PyQt6.QtCore.QIODevice`.
+
+.. _qaudiosink-callback-interface:
+
+Callback interface
+------------------
+
+The preferred way to achieve low audio latency is to use the callback-based interface. It allows you to write audio data directly to the audio device without having to go through a :sip:ref:`~PyQt6.QtCore.QIODevice`. This is done by calling :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.start` with a callback function that will be called from the audio thread. This callback function will be called with a QSpan<SampleType> whenever the audio backend requires data.
+
+.. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
+
+.. literalinclude:: ../../../snippets/qtmultimedia-src-multimedia-doc-snippets-multimedia-snippets-audio.py
+
+Unlike the :sip:ref:`~PyQt6.QtCore.QIODevice`-based interface, the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` can only be in the states active, suspendend and stopped. The :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.setBufferSize` API is not available when using the callback, the size of the callback argument is determined by the audio backend.
+
+**Note:** This API is only available on platforms that support the callback API: Apple's CoreAudio (macOS, iOS, etc), Windows, Linux (using the PulseAudio or PipeWire backend) and Android.
+
+**Note:** The callback will be called on a soft-realtime audio thread. It is important to ensure that the callback does not block, as this can cause audio glitches or dropouts. This includes performing blocking IO, locking mutexes, allocating memories or any other operations that may block. For best practices consult Ross Bencina's article `Real-time audio programming 101: time waits for nothing <https://doc.qt.io/qt-6/http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing>`_. Also consider using clang's `Realtime sanitizer <https://doc.qt.io/qt-6/https://clang.llvm.org/docs/RealtimeSanitizer.html>`_ to validate the audio callback.
+
+.. _qaudiosink-state-and-error-handling:
+
+State and error handling
+------------------------
+
+State changes are reported through the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal. You can use this signal to, for instance, update the GUI of the application; the mundane example here being changing the state of a ``play/pause`` button. You request a state change directly with :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.suspend`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stop`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.reset`, :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.resume`, and :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.start`.
+
+The :sip:ref:`~PyQt6.QtMultimedia.QAudioSink` will enter the StoppedState when an error is encountered. The error type can be retrieved with the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.error` function. Please see the QtAudio::Error enum for a description of the possible errors that are reported. Calling :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stop` or :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.reset` will reset the error state to NoError.
 
 You can check for errors by connecting to the :sip:ref:`~PyQt6.QtMultimedia.QAudioSink.stateChanged` signal:
 

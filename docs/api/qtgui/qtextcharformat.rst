@@ -107,6 +107,11 @@
             str
         :description: QtGui/QTextCharFormat-fontFamily-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextCharFormat.fontFeatures
+        :returns:
+            dict[:sip:ref:`~PyQt6.QtGui.QFont.Tag`, int]
+        :description: QtGui/QTextCharFormat-fontFeatures-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.fontFixedPitch
         :returns:
             bool
@@ -177,6 +182,11 @@
             bool
         :description: QtGui/QTextCharFormat-fontUnderline-f.rst
 
+    .. sip:method:: PyQt6.QtGui.QTextCharFormat.fontVariableAxes
+        :returns:
+            dict[:sip:ref:`~PyQt6.QtGui.QFont.Tag`, float]
+        :description: QtGui/QTextCharFormat-fontVariableAxes-f.rst
+
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.fontWeight
         :returns:
             int
@@ -204,13 +214,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setAnchorHref
         :args:
-            Optional[str]
-        :description: QtGui/QTextCharFormat-setAnchorHref-f-1.rst
+            str|None
+        :description: QtGui/QTextCharFormat-setAnchorHref-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setAnchorNames
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QTextCharFormat-setAnchorNames-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QTextCharFormat-setAnchorNames-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setBaselineOffset
         :args:
@@ -230,13 +240,18 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontFamilies
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QTextCharFormat-setFontFamilies-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QTextCharFormat-setFontFamilies-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontFamily
         :args:
-            Optional[str]
-        :description: QtGui/QTextCharFormat-setFontFamily-f-1.rst
+            str|None
+        :description: QtGui/QTextCharFormat-setFontFamily-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontFeatures
+        :args:
+            dict[:sip:ref:`~PyQt6.QtGui.QFont.Tag`, int]
+        :description: QtGui/QTextCharFormat-setFontFeatures-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontFixedPitch
         :args:
@@ -296,8 +311,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontStyleName
         :args:
-            Optional[str]
-        :description: QtGui/QTextCharFormat-setFontStyleName-f-1.rst
+            str|None
+        :description: QtGui/QTextCharFormat-setFontStyleName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontStyleStrategy
         :args:
@@ -308,6 +323,11 @@
         :args:
             bool
         :description: QtGui/QTextCharFormat-setFontUnderline-f.rst
+
+    .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontVariableAxes
+        :args:
+            dict[:sip:ref:`~PyQt6.QtGui.QFont.Tag`, float]
+        :description: QtGui/QTextCharFormat-setFontVariableAxes-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setFontWeight
         :args:
@@ -341,18 +361,18 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setTextOutline
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGui/QTextCharFormat-setTextOutline-f-3.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QTextCharFormat-setTextOutline-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setToolTip
         :args:
-            Optional[str]
-        :description: QtGui/QTextCharFormat-setToolTip-f-1.rst
+            str|None
+        :description: QtGui/QTextCharFormat-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setUnderlineColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QTextCharFormat-setUnderlineColor-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QTextCharFormat-setUnderlineColor-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCharFormat.setUnderlineStyle
         :args:

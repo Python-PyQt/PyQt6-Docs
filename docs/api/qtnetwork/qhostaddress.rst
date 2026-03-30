@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
-            Optional[str]
-        :description: QtNetwork/QHostAddress-__init__-f-6.rst
+            str|None
+        :description: QtNetwork/QHostAddress-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
@@ -73,18 +73,18 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QHostAddress-__init__-f-5.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QHostAddress-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.clear
         :description: QtNetwork/QHostAddress-clear-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-__eq__-f.rst
+        :description: QtNetwork/QHostAddress-__eq__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__eq__
         :args:
@@ -105,11 +105,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isEqual
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             mode: :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionModeFlag` = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.ConversionModeFlag.TolerantConversion`
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-isEqual-f-1.rst
+        :description: QtNetwork/QHostAddress-isEqual-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isGlobal
         :returns:
@@ -118,18 +118,18 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isInSubnet
         :args:
-            tuple[Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`], int]
+            tuple[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`, int]
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-isInSubnet-f-2.rst
+        :description: QtNetwork/QHostAddress-isInSubnet-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isInSubnet
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             int
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-isInSubnet-f-1.rst
+        :description: QtNetwork/QHostAddress-isInSubnet-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.isLinkLocal
         :returns:
@@ -168,10 +168,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-__ne__-f.rst
+        :description: QtNetwork/QHostAddress-__ne__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.__ne__
         :args:
@@ -182,11 +182,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.parseSubnet
         :args:
-            Optional[str]
+            str|None
         :returns:
             tuple[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, int]
         :static:
-        :description: QtNetwork/QHostAddress-parseSubnet-f.rst
+        :description: QtNetwork/QHostAddress-parseSubnet-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.protocol
         :returns:
@@ -210,10 +210,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setAddress
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtNetwork/QHostAddress-setAddress-f-4.rst
+        :description: QtNetwork/QHostAddress-setAddress-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setAddress
         :args:
@@ -222,8 +222,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.setScopeId
         :args:
-            Optional[str]
-        :description: QtNetwork/QHostAddress-setScopeId-f-1.rst
+            str|None
+        :description: QtNetwork/QHostAddress-setScopeId-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHostAddress.swap
         :args:

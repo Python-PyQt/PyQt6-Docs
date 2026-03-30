@@ -144,10 +144,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.restoreState
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtWidgets/QSplitter-restoreState-f-1.rst
+        :description: QtWidgets/QSplitter-restoreState-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QSplitter.saveState
         :returns:

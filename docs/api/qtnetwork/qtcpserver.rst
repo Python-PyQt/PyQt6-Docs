@@ -39,11 +39,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.listen
         :args:
-            address: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
+            address: :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress` = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
             port: int = 0
         :returns:
             bool
-        :description: QtNetwork/QTcpServer-listen-f.rst
+        :description: QtNetwork/QTcpServer-listen-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QTcpServer.listenBacklogSize
         :returns:

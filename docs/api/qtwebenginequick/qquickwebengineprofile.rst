@@ -28,6 +28,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentCookiesPolicy.NoPersistentCookies
             :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentCookiesPolicy-NoPersistentCookies-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentCookiesPolicy.OnlyPersistentCookies
+            :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentCookiesPolicy-OnlyPersistentCookies-v.rst
+
     .. sip:enum:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.PersistentPermissionsPolicy
         :description: QtWebEngineQuick/QQuickWebEngineProfile-PersistentPermissionsPolicy-e.rst
 
@@ -47,9 +50,9 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-__init__-f-1.rst
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.cachePath
         :returns:
@@ -112,9 +115,9 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.installUrlSchemeHandler
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-installUrlSchemeHandler-f-1.rst
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-installUrlSchemeHandler-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.isOffTheRecord
         :returns:
@@ -178,8 +181,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.removeUrlScheme
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-removeUrlScheme-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-removeUrlScheme-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.removeUrlSchemeHandler
         :args:
@@ -188,18 +191,18 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setCachePath
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setCachePath-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setCachePath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setDownloadPath
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setDownloadPath-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setDownloadPath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setHttpAcceptLanguage
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setHttpAcceptLanguage-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setHttpAcceptLanguage-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setHttpCacheMaximumSize
         :args:
@@ -213,8 +216,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setHttpUserAgent
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setHttpUserAgent-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setHttpUserAgent-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setOffTheRecord
         :args:
@@ -233,8 +236,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setPersistentStoragePath
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setPersistentStoragePath-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setPersistentStoragePath-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setPushServiceEnabled
         :args:
@@ -248,13 +251,13 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setSpellCheckLanguages
         :args:
-            Iterable[Optional[str]]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setSpellCheckLanguages-f-1.rst
+            Iterable[str|None]
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setSpellCheckLanguages-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setStorageName
         :args:
-            Optional[str]
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-setStorageName-f-1.rst
+            str|None
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-setStorageName-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.setUrlRequestInterceptor
         :args:
@@ -273,10 +276,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.urlSchemeHandler
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineUrlSchemeHandler`
-        :description: QtWebEngineQuick/QQuickWebEngineProfile-urlSchemeHandler-f-1.rst
+        :description: QtWebEngineQuick/QQuickWebEngineProfile-urlSchemeHandler-f.rst
 
     .. sip:signal:: PyQt6.QtWebEngineQuick.QQuickWebEngineProfile.cachePathChanged
         :description: QtWebEngineQuick/QQuickWebEngineProfile-cachePathChanged-s.rst

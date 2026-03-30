@@ -54,8 +54,8 @@
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__init__
         :args:
-            Optional[str]
-        :description: QtQml/QJSPrimitiveValue-__init__-f-8.rst
+            str|None
+        :description: QtQml/QJSPrimitiveValue-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtQml.QJSPrimitiveValue.__init__
         :args:

@@ -112,23 +112,23 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.__init__
         :args:
-            path: Optional[str] = ''
-        :description: QtCore/QDir-__init__-f-4.rst
+            path: str|None = ''
+        :description: QtCore/QDir-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__init__
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = QDir.SortFlags(QDir.Name|QDir.IgnoreCase)
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.AllEntries`
-        :description: QtCore/QDir-__init__-f-5.rst
+        :description: QtCore/QDir-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.absoluteFilePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QDir-absoluteFilePath-f-1.rst
+        :description: QtCore/QDir-absoluteFilePath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.absolutePath
         :returns:
@@ -137,10 +137,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.addSearchPath
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :static:
-        :description: QtCore/QDir-addSearchPath-f-1.rst
+        :description: QtCore/QDir-addSearchPath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.canonicalPath
         :returns:
@@ -149,10 +149,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.cd
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-cd-f-1.rst
+        :description: QtCore/QDir-cd-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.cdUp
         :returns:
@@ -161,18 +161,18 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.cleanPath
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
         :static:
-        :description: QtCore/QDir-cleanPath-f-1.rst
+        :description: QtCore/QDir-cleanPath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__contains__
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtCore/QDir-__contains__-f-1.rst
+        :description: QtCore/QDir-__contains__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.count
         :returns:
@@ -212,12 +212,12 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.entryInfoList
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             list[:sip:ref:`~PyQt6.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f-1.rst
+        :description: QtCore/QDir-entryInfoList-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
@@ -229,12 +229,12 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.entryList
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             sort: :sip:ref:`~PyQt6.QtCore.QDir.SortFlag` = :sip:ref:`~PyQt6.QtCore.QDir.SortFlag.NoSort`
         :returns:
             list[str]
-        :description: QtCore/QDir-entryList-f-1.rst
+        :description: QtCore/QDir-entryList-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__eq__
         :args:
@@ -250,17 +250,17 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.exists
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-exists-f-2.rst
+        :description: QtCore/QDir-exists-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.filePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QDir-filePath-f-1.rst
+        :description: QtCore/QDir-filePath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.filter
         :returns:
@@ -269,11 +269,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.fromNativeSeparators
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
         :static:
-        :description: QtCore/QDir-fromNativeSeparators-f-1.rst
+        :description: QtCore/QDir-fromNativeSeparators-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__getitem__
         :args:
@@ -308,11 +308,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.isAbsolutePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QDir-isAbsolutePath-f-1.rst
+        :description: QtCore/QDir-isAbsolutePath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.isEmpty
         :args:
@@ -333,11 +333,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.isRelativePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QDir-isRelativePath-f-1.rst
+        :description: QtCore/QDir-isRelativePath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.isRoot
         :returns:
@@ -362,51 +362,51 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.match
         :args:
-            Iterable[Optional[str]]
-            Optional[str]
+            Iterable[str|None]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QDir-match-f-2.rst
+        :description: QtCore/QDir-match-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.match
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QDir-match-f-3.rst
+        :description: QtCore/QDir-match-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.mkdir
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-mkdir-f-2.rst
+        :description: QtCore/QDir-mkdir-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.mkdir
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
-        :description: QtCore/QDir-mkdir-f-3.rst
+        :description: QtCore/QDir-mkdir-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.mkpath
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-mkpath-f-1.rst
+        :description: QtCore/QDir-mkpath-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.mkpath
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QFileDevice.Permission`
         :returns:
             bool
-        :description: QtCore/QDir-mkpath-f.rst
+        :description: QtCore/QDir-mkpath-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.nameFilters
         :returns:
@@ -415,11 +415,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.nameFiltersFromString
         :args:
-            Optional[str]
+            str|None
         :returns:
             list[str]
         :static:
-        :description: QtCore/QDir-nameFiltersFromString-f.rst
+        :description: QtCore/QDir-nameFiltersFromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.__ne__
         :args:
@@ -438,17 +438,17 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.relativeFilePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QDir-relativeFilePath-f-1.rst
+        :description: QtCore/QDir-relativeFilePath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.remove
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-remove-f-1.rst
+        :description: QtCore/QDir-remove-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.removeRecursively
         :returns:
@@ -457,25 +457,25 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.rename
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-rename-f-1.rst
+        :description: QtCore/QDir-rename-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.rmdir
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-rmdir-f-1.rst
+        :description: QtCore/QDir-rmdir-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.rmpath
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QDir-rmpath-f-1.rst
+        :description: QtCore/QDir-rmpath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.root
         :returns:
@@ -491,11 +491,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.searchPaths
         :args:
-            Optional[str]
+            str|None
         :returns:
             list[str]
         :static:
-        :description: QtCore/QDir-searchPaths-f.rst
+        :description: QtCore/QDir-searchPaths-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.separator
         :returns:
@@ -505,11 +505,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.setCurrent
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QDir-setCurrent-f-1.rst
+        :description: QtCore/QDir-setCurrent-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.setFilter
         :args:
@@ -518,20 +518,20 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.setNameFilters
         :args:
-            Iterable[Optional[str]]
-        :description: QtCore/QDir-setNameFilters-f-1.rst
+            Iterable[str|None]
+        :description: QtCore/QDir-setNameFilters-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.setPath
         :args:
-            Optional[str]
-        :description: QtCore/QDir-setPath-f-1.rst
+            str|None
+        :description: QtCore/QDir-setPath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.setSearchPaths
         :args:
-            Optional[str]
-            Iterable[Optional[str]]
+            str|None
+            Iterable[str|None]
         :static:
-        :description: QtCore/QDir-setSearchPaths-f-1.rst
+        :description: QtCore/QDir-setSearchPaths-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDir.setSorting
         :args:
@@ -562,8 +562,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDir.toNativeSeparators
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
         :static:
-        :description: QtCore/QDir-toNativeSeparators-f-1.rst
+        :description: QtCore/QDir-toNativeSeparators-f.rst

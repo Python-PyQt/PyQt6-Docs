@@ -138,13 +138,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setGridLineColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setGridLineColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setGridLineColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setGridLinePen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-setGridLinePen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setGridLinePen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setGridLineVisible
         :args:
@@ -158,13 +158,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLabelsBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-setLabelsBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-setLabelsBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLabelsColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setLabelsColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setLabelsColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLabelsEditable
         :args:
@@ -183,13 +183,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLinePen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-setLinePen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setLinePen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLinePenColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setLinePenColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setLinePenColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setLineVisible
         :args:
@@ -208,13 +208,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setMinorGridLineColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setMinorGridLineColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setMinorGridLineColor-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setMinorGridLinePen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-setMinorGridLinePen-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setMinorGridLinePen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setMinorGridLineVisible
         :args:
@@ -234,23 +234,23 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setShadesBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setShadesBorderColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setShadesBorderColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setShadesBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-setShadesBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-setShadesBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setShadesColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-setShadesColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setShadesColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setShadesPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-setShadesPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-setShadesPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setShadesVisible
         :args:
@@ -259,8 +259,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setTitleBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-setTitleBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-setTitleBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setTitleFont
         :args:
@@ -269,8 +269,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setTitleText
         :args:
-            Optional[str]
-        :description: QtCharts/QAbstractAxis-setTitleText-f-1.rst
+            str|None
+        :description: QtCharts/QAbstractAxis-setTitleText-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractAxis.setTitleVisible
         :args:
@@ -342,18 +342,18 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-colorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-colorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.gridLineColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-gridLineColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-gridLineColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.gridLinePenChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-gridLinePenChanged-s-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-gridLinePenChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.gridVisibleChanged
         :args:
@@ -367,13 +367,13 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.labelsBrushChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-labelsBrushChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-labelsBrushChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.labelsColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-labelsColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-labelsColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.labelsEditableChanged
         :args:
@@ -397,8 +397,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.linePenChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-linePenChanged-s-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-linePenChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.lineVisibleChanged
         :args:
@@ -407,13 +407,13 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.minorGridLineColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-minorGridLineColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-minorGridLineColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.minorGridLinePenChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-minorGridLinePenChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-minorGridLinePenChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.minorGridVisibleChanged
         :args:
@@ -427,23 +427,23 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.shadesBorderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-shadesBorderColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-shadesBorderColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.shadesBrushChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-shadesBrushChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-shadesBrushChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.shadesColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QAbstractAxis-shadesColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-shadesColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.shadesPenChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QAbstractAxis-shadesPenChanged-s-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QAbstractAxis-shadesPenChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.shadesVisibleChanged
         :args:
@@ -452,8 +452,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.titleBrushChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QAbstractAxis-titleBrushChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QAbstractAxis-titleBrushChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.titleFontChanged
         :args:
@@ -462,8 +462,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.titleTextChanged
         :args:
-            Optional[str]
-        :description: QtCharts/QAbstractAxis-titleTextChanged-s-1.rst
+            str|None
+        :description: QtCharts/QAbstractAxis-titleTextChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QAbstractAxis.titleVisibleChanged
         :args:

@@ -157,8 +157,8 @@
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: QtCore/QEasingCurve-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: QtCore/QEasingCurve-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.addCubicBezierSegment
         :args:
@@ -187,17 +187,17 @@
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
         :returns:
             bool
-        :description: QtCore/QEasingCurve-__eq__-f.rst
+        :description: QtCore/QEasingCurve-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
         :returns:
             bool
-        :description: QtCore/QEasingCurve-__ne__-f.rst
+        :description: QtCore/QEasingCurve-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QEasingCurve.overshoot
         :returns:

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 341be97d9aff90c9978347f66f945b77
     :realsig: () const
-    :digest: 18b80b9e15a2c278e1bcd93a7b1d8a75
+    :digest: 57a80039b6d0f69113ba63806cbe8c14
 
 Returns a description of the font. The description is a comma-separated list of the attributes, perfectly suited for use in :sip:ref:`~PyQt6.QtCore.QSettings`, and consists of the following:
 
@@ -36,6 +36,10 @@ Returns a description of the font. The description is a comma-separated list of 
 
 * Style strategy
 
-* Font style (omitted when unavailable)
+* Font style
+
+* Font features
+
+* Variable axes
 
 .. seealso:: :sip:ref:`~PyQt6.QtGui.QFont.fromString`.

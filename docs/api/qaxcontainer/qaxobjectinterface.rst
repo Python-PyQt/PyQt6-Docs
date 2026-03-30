@@ -31,7 +31,7 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxObjectInterface.setControl
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QAxContainer/QAxObjectInterface-setControl-f-1.rst
+        :description: QAxContainer/QAxObjectInterface-setControl-f.rst

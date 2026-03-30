@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Represents a single slice in a pie series
-    :digest: 462a6a5fac70d66e6b3268c7d1b3f346
+    :digest: 01c33a490fdd7b0780b5e81d08fa4b82
 
 The :sip:ref:`~PyQt6.QtGraphs.QPieSlice` class represents a single slice in a pie series.
 
@@ -12,5 +12,7 @@ By default, the label is hidden. If it is visible, it can be either located outs
 By default, the visual appearance of the slice is set by a theme, but the theme can be overridden by specifying slice properties. However, if the theme is changed after the slices are customized, all customization will be lost.
 
 To enable user interaction with the pie graph, some basic signals are emitted when users click pie slices or hover the mouse over them.
+
+A pie slice can contain sub slices.
 
 .. seealso:: :sip:ref:`~PyQt6.QtGraphs.QPieSeries`.

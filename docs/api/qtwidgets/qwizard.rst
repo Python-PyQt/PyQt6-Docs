@@ -91,6 +91,9 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.NoDefaultButton
             :description: QtWidgets/QWizard-WizardOption-NoDefaultButton-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QWizard.WizardOption.StretchBanner
+            :description: QtWidgets/QWizard-WizardOption-StretchBanner-v.rst
+
     .. sip:enum:: PyQt6.QtWidgets.QWizard.WizardPixmap
         :description: QtWidgets/QWizard-WizardPixmap-e.rst
 
@@ -180,10 +183,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.field
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtWidgets/QWizard-field-f-1.rst
+        :description: QtWidgets/QWizard-field-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.hasVisitedPage
         :args:
@@ -261,8 +264,8 @@
     .. sip:method:: PyQt6.QtWidgets.QWizard.setButtonText
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QWizard.WizardButton`
-            Optional[str]
-        :description: QtWidgets/QWizard-setButtonText-f-1.rst
+            str|None
+        :description: QtWidgets/QWizard-setButtonText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setCurrentId
         :args:
@@ -278,9 +281,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setField
         :args:
-            Optional[str]
+            str|None
             Any
-        :description: QtWidgets/QWizard-setField-f-1.rst
+        :description: QtWidgets/QWizard-setField-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWizard.setOption
         :args:

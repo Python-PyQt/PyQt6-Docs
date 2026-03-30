@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 2f1ecde80dab8a5c9d0a1483850077ec
     :realsig: (QPointF, QTextLayout*, int, int, int, int)
-    :digest: 33b3568badcc558b7dfe16864fa45583
+    :digest: 11d94fd21b59864392d9ed767b4d4e9c
 
 Adds the contents of *layout* to the text node at *position*. If *selectionStart* is >= 0, then this marks the first character in a selected area of *selectionCount* number of characters. The selection is represented as a background fill with the :sip:ref:`~PyQt6.QtQuick.QSGTextNode.selectionColor` and the selected text is rendered in the :sip:ref:`~PyQt6.QtQuick.QSGTextNode.selectionTextColor`.
 

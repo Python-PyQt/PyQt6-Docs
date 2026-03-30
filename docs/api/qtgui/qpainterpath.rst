@@ -109,16 +109,16 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtGui.QFont`
-            Optional[str]
-        :description: QtGui/QPainterPath-addText-f-2.rst
+            str|None
+        :description: QtGui/QPainterPath-addText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.addText
         :args:
             float
             float
             :sip:ref:`~PyQt6.QtGui.QFont`
-            Optional[str]
-        :description: QtGui/QPainterPath-addText-f-3.rst
+            str|None
+        :description: QtGui/QPainterPath-addText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPainterPath.__and__
         :args:

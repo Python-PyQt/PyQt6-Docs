@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QBarSet-__init__-f-1.rst
+        :description: QtGraphs/QBarSet-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.append
         :args:
@@ -153,8 +153,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-setBorderColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-setBorderColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setBorderWidth
         :args:
@@ -163,23 +163,23 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-setColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setLabel
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarSet-setLabel-f.rst
+            str|None
+        :description: QtGraphs/QBarSet-setLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setLabelColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-setLabelColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-setLabelColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setSelectedColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-setSelectedColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-setSelectedColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSet.setValues
         :args:
@@ -203,8 +203,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.borderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-borderColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-borderColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.borderWidthChanged
         :args:
@@ -213,8 +213,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-colorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.countChanged
         :description: QtGraphs/QBarSet-countChanged-s.rst
@@ -224,8 +224,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.labelColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-labelColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-labelColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.selectedBarsChanged
         :args:
@@ -234,8 +234,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.selectedColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QBarSet-selectedColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QBarSet-selectedColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSet.update
         :description: QtGraphs/QBarSet-update-s.rst

@@ -78,8 +78,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.setInitialProperties
         :args:
-            dict[Optional[str], Any]
-        :description: QtQml/QQmlIncubator-setInitialProperties-f.rst
+            dict[str|None, Any]
+        :description: QtQml/QQmlIncubator-setInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlIncubator.setInitialState
         :args:

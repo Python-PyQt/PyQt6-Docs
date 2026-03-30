@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Authentication object
-    :digest: 6fc7e9b4f329a583b7f8d32d9fe77671
+    :digest: d94e88ce061dc26d2735b0e03e7b8303
 
 The :sip:ref:`~PyQt6.QtNetwork.QAuthenticator` class provides an authentication object.
 
@@ -46,7 +46,7 @@ The Basic authentication mechanism supports no outgoing options.
 NTLM version 2
 ..............
 
-The NTLM authentication mechanism currently supports no incoming or outgoing options. On Windows, if no *user* has been set, domain\\user credentials will be searched for on the local system to enable Single-Sign-On functionality.
+The NTLM authentication mechanism currently supports no incoming or outgoing options. On Windows, if no *user* has been set, domain``\user`` credentials will be searched for on the local system to enable Single-Sign-On functionality.
 
 .. _qauthenticator-digest-md5:
 

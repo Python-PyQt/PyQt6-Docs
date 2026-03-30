@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLCDNumber.display
         :args:
-            Optional[str]
-        :description: QtWidgets/QLCDNumber-display-f-3.rst
+            str|None
+        :description: QtWidgets/QLCDNumber-display-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLCDNumber.display
         :args:

@@ -1,14 +1,16 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 4b62bf4cd26751e4555fc83bb9e2d48b
+    :digest: d4d3153e1dc7ecd49b1168aaf106ee10
 
 This enumeration is used to resolve datetime combinations which fall in :ref:`qdatetime-timezone-transitions`.
 
 When constructing a datetime, specified in terms of local time or a time-zone that has daylight-saving time, or revising one with :sip:ref:`~PyQt6.QtCore.QDateTime.setDate`, :sip:ref:`~PyQt6.QtCore.QDateTime.setTime` or :sip:ref:`~PyQt6.QtCore.QDateTime.setTimeZone`, the given parameters may imply a time representation that either has no meaning or has two meanings in the zone. Such time representations are described as being in the transition. In either case, we can simply return an invalid datetime, to indicate that the operation is ill-defined. In the ambiguous case, we can alternatively select one of the two times that could be meant. When there is no meaning, we can select a time either side of it that might plausibly have been meant. For example, when advancing from an earlier time, we can select the time after the transition that is actually the specified amount of time after the earlier time in question. The options specified here configure how such selection is performed.
 
+An additional constant, ``LegacyBehavior``, is used as a default value for TransitionResolution parameters in some constructors and setter functions. This is an alias for ``RelativeToBefore``, which implements behavior that most closely matches the behavior of :sip:ref:`~PyQt6.QtCore.QDateTime` prior to Qt 6.7.
+
 For :sip:ref:`~PyQt6.QtCore.QDateTime.addDays`, :sip:ref:`~PyQt6.QtCore.QDateTime.addMonths` or :sip:ref:`~PyQt6.QtCore.QDateTime.addYears`, the behavior is and (mostly) was to use ``RelativeToBefore`` if adding a positive adjustment and ``RelativeToAfter`` if adding a negative adjustment.
 
-**Note:** In time zones where daylight-saving increases the offset from UTC in summer (known as "positive DST"), PreferStandard is an alias for RelativeToAfter and PreferDaylightSaving for RelativeToBefore. In time zones where the daylight-saving mechanism is a decrease in offset from UTC in winter (known as "negative DST"), the reverse applies, provided the operating system reports - as it does on most platforms - whether a datetime is in DST or standard time. For some platforms, where transition times are unavailable even for :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone` datetimes, :sip:ref:`~PyQt6.QtCore.QTimeZone` is obliged to presume that the side with lower offset from UTC is standard time, effectively assuming positive DST.
+**Note:** In time zones where daylight-saving increases the offset from UTC in summer (known as "positive DST"), PreferStandard is an alias for RelativeToAfter and PreferDaylightSaving for RelativeToBefore. In time zones where the daylight-saving mechanism is a decrease in offset from UTC in winter (known as "negative DST"), the reverse applies, provided the operating system reports - as it does on most platforms - whether a datetime is in DST or standard time. For some platforms, where transition details are unavailable even for :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.TimeZone` datetimes, :sip:ref:`~PyQt6.QtCore.QTimeZone` is obliged to presume that the side with lower offset from UTC is standard time, effectively assuming positive DST.
 
 The following tables illustrate how a :sip:ref:`~PyQt6.QtCore.QDateTime` constructor resolves a request for 02:30 on a day when local time has a transition between 02:00 and 03:00, with a nominal standard time LST and daylight-saving time LDT on the two sides, in the various possible cases. The transition type may be to skip an hour or repeat it. The type of transition and value of a parameter ``resolve`` determine which actual time on the given date is selected. First, the common case of positive daylight-saving, where:
 
@@ -79,4 +81,4 @@ The Python programming language's datetime APIs have a ``fold`` parameter that c
 
 The ``Temporal`` proposal to replace JavaScript's ``Date`` offers four options for how to resolve a transition, as value for a ``disambiguation`` parameter. Its ``'reject'`` raises an exception, which roughly corresponds to ``Reject`` producing an invalid result. Its ``'earlier'`` and ``'later'`` options correspond to ``PreferBefore`` and ``PreferAfter``. Its ``'compatible'`` option corresponds to ``RelativeToBefore`` (and Python's ``fold = True``).
 
-.. seealso:: :ref:`qdatetime-timezone-transitions`\ .
+.. seealso:: :ref:`qdatetime-timezone-transitions`.

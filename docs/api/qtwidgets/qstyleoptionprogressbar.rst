@@ -37,7 +37,7 @@
         :description: QtWidgets/QStyleOptionProgressBar-progress-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionProgressBar.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionProgressBar-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionProgressBar.textAlignment

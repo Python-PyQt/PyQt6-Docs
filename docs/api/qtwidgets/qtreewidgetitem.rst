@@ -48,9 +48,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.__init__
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
             type: int = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTreeWidgetItem-__init__-f-9.rst
+        :description: QtWidgets/QTreeWidgetItem-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.__init__
         :args:
@@ -62,9 +62,9 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem`
-            Iterable[Optional[str]]
+            Iterable[str|None]
             type: int = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTreeWidgetItem-__init__-f-10.rst
+        :description: QtWidgets/QTreeWidgetItem-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.__init__
         :args:
@@ -76,9 +76,9 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.__init__
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QTreeWidget`
-            Iterable[Optional[str]]
+            Iterable[str|None]
             type: int = :sip:ref:`~PyQt6.QtWidgets.QTreeWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTreeWidgetItem-__init__-f-11.rst
+        :description: QtWidgets/QTreeWidgetItem-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.addChild
         :args:
@@ -244,8 +244,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setBackground
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTreeWidgetItem-setBackground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtWidgets/QTreeWidgetItem-setBackground-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setCheckState
         :args:
@@ -294,8 +294,8 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setForeground
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QTreeWidgetItem-setForeground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtWidgets/QTreeWidgetItem-setForeground-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setHidden
         :args:
@@ -322,14 +322,14 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setStatusTip
         :args:
             int
-            Optional[str]
-        :description: QtWidgets/QTreeWidgetItem-setStatusTip-f-1.rst
+            str|None
+        :description: QtWidgets/QTreeWidgetItem-setStatusTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setText
         :args:
             int
-            Optional[str]
-        :description: QtWidgets/QTreeWidgetItem-setText-f-1.rst
+            str|None
+        :description: QtWidgets/QTreeWidgetItem-setText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setTextAlignment
         :args:
@@ -346,14 +346,14 @@
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setToolTip
         :args:
             int
-            Optional[str]
-        :description: QtWidgets/QTreeWidgetItem-setToolTip-f-1.rst
+            str|None
+        :description: QtWidgets/QTreeWidgetItem-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.setWhatsThis
         :args:
             int
-            Optional[str]
-        :description: QtWidgets/QTreeWidgetItem-setWhatsThis-f-1.rst
+            str|None
+        :description: QtWidgets/QTreeWidgetItem-setWhatsThis-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QTreeWidgetItem.sizeHint
         :args:

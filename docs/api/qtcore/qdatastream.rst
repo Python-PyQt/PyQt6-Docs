@@ -148,6 +148,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_10
             :description: QtCore/QDataStream-Version-Qt_6_10-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_11
+            :description: QtCore/QDataStream-Version-Qt_6_11-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QDataStream.Version.Qt_6_2
             :description: QtCore/QDataStream-Version-Qt_6_2-v.rst
 
@@ -182,8 +185,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QDataStream-__init__-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QDataStream-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__init__
         :args:
@@ -254,24 +257,24 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__lshift__-f-3.rst
+        :description: QtCore/QDataStream-__lshift__-f-28.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__lshift__-f-4.rst
+        :description: QtCore/QDataStream-__lshift__-f-29.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-__lshift__-f-5.rst
+        :description: QtCore/QDataStream-__lshift__-f-30.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.__lshift__
         :args:
@@ -781,10 +784,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeBytes
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDataStream`
-        :description: QtCore/QDataStream-writeBytes-f-1.rst
+        :description: QtCore/QDataStream-writeBytes-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeDouble
         :args:
@@ -823,13 +826,13 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQString
         :args:
-            Optional[str]
-        :description: QtCore/QDataStream-writeQString-f-1.rst
+            str|None
+        :description: QtCore/QDataStream-writeQString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQStringList
         :args:
-            Iterable[Optional[str]]
-        :description: QtCore/QDataStream-writeQStringList-f-1.rst
+            Iterable[str|None]
+        :description: QtCore/QDataStream-writeQStringList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariant
         :args:
@@ -838,8 +841,8 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantHash
         :args:
-            dict[Optional[str], Any]
-        :description: QtCore/QDataStream-writeQVariantHash-f.rst
+            dict[str|None, Any]
+        :description: QtCore/QDataStream-writeQVariantHash-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantList
         :args:
@@ -848,15 +851,15 @@
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeQVariantMap
         :args:
-            dict[Optional[str], Any]
-        :description: QtCore/QDataStream-writeQVariantMap-f.rst
+            dict[str|None, Any]
+        :description: QtCore/QDataStream-writeQVariantMap-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeRawData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QDataStream-writeRawData-f-1.rst
+        :description: QtCore/QDataStream-writeRawData-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDataStream.writeString
         :args:

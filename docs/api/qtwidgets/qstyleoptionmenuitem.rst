@@ -92,7 +92,7 @@
         :description: QtWidgets/QStyleOptionMenuItem-reservedShortcutWidth-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionMenuItem.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionMenuItem-text-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionMenuItem.__init__

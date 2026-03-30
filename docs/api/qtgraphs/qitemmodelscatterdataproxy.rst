@@ -18,21 +18,21 @@
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelScatterDataProxy-__init__-f-2.rst
+        :description: QtGraphs/QItemModelScatterDataProxy-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QItemModelScatterDataProxy-__init__-f-3.rst
+        :description: QtGraphs/QItemModelScatterDataProxy-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.itemModel
         :returns:
@@ -41,20 +41,20 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.remap
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-remap-f.rst
+            str|None
+            str|None
+            str|None
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-remap-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.remap
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-remap-f-1.rst
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-remap-f-3.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.rotationRole
         :returns:
@@ -93,8 +93,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setRotationRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setRotationRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setRotationRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setRotationRolePattern
         :args:
@@ -103,13 +103,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setRotationRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setRotationRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setRotationRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRolePattern
         :args:
@@ -118,13 +118,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setScaleRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setScaleRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setXPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setXPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setXPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setXPosRolePattern
         :args:
@@ -133,13 +133,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setXPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setXPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setXPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setYPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setYPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setYPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setYPosRolePattern
         :args:
@@ -148,13 +148,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setYPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setYPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setYPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setZPosRole
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setZPosRole-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setZPosRole-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setZPosRolePattern
         :args:
@@ -163,8 +163,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.setZPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-setZPosRoleReplace-f.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-setZPosRoleReplace-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QItemModelScatterDataProxy.xPosRole
         :returns:
@@ -218,8 +218,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.rotationRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.rotationRolePatternChanged
         :args:
@@ -228,13 +228,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.rotationRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-rotationRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRolePatternChanged
         :args:
@@ -243,13 +243,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.scaleRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-scaleRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.xPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-xPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-xPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.xPosRolePatternChanged
         :args:
@@ -258,13 +258,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.xPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-xPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-xPosRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.yPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-yPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-yPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.yPosRolePatternChanged
         :args:
@@ -273,13 +273,13 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.yPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-yPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-yPosRoleReplaceChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.zPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-zPosRoleChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-zPosRoleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.zPosRolePatternChanged
         :args:
@@ -288,5 +288,5 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QItemModelScatterDataProxy.zPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QItemModelScatterDataProxy-zPosRoleReplaceChanged-s.rst
+            str|None
+        :description: QtGraphs/QItemModelScatterDataProxy-zPosRoleReplaceChanged-s-1.rst

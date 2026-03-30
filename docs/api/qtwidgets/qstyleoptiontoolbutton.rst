@@ -62,7 +62,7 @@
         :description: QtWidgets/QStyleOptionToolButton-pos-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolButton.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionToolButton-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolButton.toolButtonStyle

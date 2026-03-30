@@ -174,6 +174,9 @@
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.TouchIconsEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-TouchIconsEnabled-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.TrimAccessibilityIdentifiers
+            :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-TrimAccessibilityIdentifiers-v.rst
+
         .. sip:enum-member:: PyQt6.QtWebEngineCore.QWebEngineSettings.WebAttribute.WebGLEnabled
             :description: QtWebEngineCore/QWebEngineSettings-WebAttribute-WebGLEnabled-v.rst
 
@@ -236,14 +239,14 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setDefaultTextEncoding
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineSettings-setDefaultTextEncoding-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineSettings-setDefaultTextEncoding-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setFontFamily
         :args:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineSettings.FontFamily`
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineSettings-setFontFamily-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineSettings-setFontFamily-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineSettings.setFontSize
         :args:

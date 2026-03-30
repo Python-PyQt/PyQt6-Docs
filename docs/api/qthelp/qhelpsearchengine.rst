@@ -31,8 +31,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchEngine.search
         :args:
-            Optional[str]
-        :description: QtHelp/QHelpSearchEngine-search-f-1.rst
+            str|None
+        :description: QtHelp/QHelpSearchEngine-search-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchEngine.searchInput
         :returns:

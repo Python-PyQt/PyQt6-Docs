@@ -83,18 +83,18 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.createRequest
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-        :description: QtNetwork/QNetworkRequestFactory-createRequest-f-2.rst
+        :description: QtNetwork/QNetworkRequestFactory-createRequest-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.createRequest
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QUrlQuery`
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-        :description: QtNetwork/QNetworkRequestFactory-createRequest-f-3.rst
+        :description: QtNetwork/QNetworkRequestFactory-createRequest-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.password
         :returns:
@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.setBearerToken
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkRequestFactory-setBearerToken-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkRequestFactory-setBearerToken-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.setCommonHeaders
         :args:
@@ -134,8 +134,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.setPassword
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkRequestFactory-setPassword-f.rst
+            str|None
+        :description: QtNetwork/QNetworkRequestFactory-setPassword-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.setPriority
         :args:
@@ -159,8 +159,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.setUserName
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkRequestFactory-setUserName-f.rst
+            str|None
+        :description: QtNetwork/QNetworkRequestFactory-setUserName-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequestFactory.sslConfiguration
         :returns:

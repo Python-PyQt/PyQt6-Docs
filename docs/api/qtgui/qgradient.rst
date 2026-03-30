@@ -590,8 +590,8 @@
     .. sip:method:: PyQt6.QtGui.QGradient.setColorAt
         :args:
             float
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QGradient-setColorAt-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QGradient-setColorAt-f.rst
 
     .. sip:method:: PyQt6.QtGui.QGradient.setCoordinateMode
         :args:
@@ -605,8 +605,8 @@
 
     .. sip:method:: PyQt6.QtGui.QGradient.setStops
         :args:
-            Iterable[tuple[float, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]]
-        :description: QtGui/QGradient-setStops-f.rst
+            Iterable[tuple[float, :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]]
+        :description: QtGui/QGradient-setStops-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QGradient.spread
         :returns:

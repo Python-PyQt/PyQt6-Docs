@@ -2,8 +2,8 @@
     :status: todo
     :pysig: a16c58c152a1e49770bdefb6d7c29ecc
     :realsig: (QContactsPermission::AccessMode)
-    :digest: d4b231869b0fb31f0c7ee042a9194af7
+    :digest: 2a85c5bc71ae6e4a1db30f9dce9319d2
 
-Sets whether the request is for read-write (\ *mode* == AccessMode::ReadOnly) or read-only (\ *mode* == AccessMode::ReadOnly) access to the contacts.
+Sets whether the request is for read-write (\ *mode* == :sip:ref:`~PyQt6.QtCore.QContactsPermission.AccessMode.ReadWrite`) or read-only (\ *mode* == :sip:ref:`~PyQt6.QtCore.QContactsPermission.AccessMode.ReadOnly`) access to the contacts.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QContactsPermission.accessMode`.

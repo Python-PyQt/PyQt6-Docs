@@ -118,7 +118,7 @@
             :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-PolygonMode-Line-v.rst
 
     .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.blendConstant
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :type: :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :description: QtQuick/QSGMaterialShader-GraphicsPipelineState-blendConstant-a.rst
 
     .. sip:attribute:: PyQt6.QtQuick.QSGMaterialShader.GraphicsPipelineState.blendEnable

@@ -9,8 +9,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
-            Optional[str]
-        :description: QtCore/QTemporaryFile-__init__-f-4.rst
+            str|None
+        :description: QtCore/QTemporaryFile-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
@@ -19,9 +19,9 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtCore/QTemporaryFile-__init__-f-5.rst
+        :description: QtCore/QTemporaryFile-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.autoRemove
         :returns:
@@ -30,11 +30,11 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.createNativeFile
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTemporaryFile`
         :static:
-        :description: QtCore/QTemporaryFile-createNativeFile-f-2.rst
+        :description: QtCore/QTemporaryFile-createNativeFile-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.createNativeFile
         :args:
@@ -68,10 +68,17 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.rename
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QTemporaryFile-rename-f-1.rst
+        :description: QtCore/QTemporaryFile-rename-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTemporaryFile.renameOverwrite
+        :args:
+            str|None
+        :returns:
+            bool
+        :description: QtCore/QTemporaryFile-renameOverwrite-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.setAutoRemove
         :args:
@@ -80,5 +87,5 @@
 
     .. sip:method:: PyQt6.QtCore.QTemporaryFile.setFileTemplate
         :args:
-            Optional[str]
-        :description: QtCore/QTemporaryFile-setFileTemplate-f-1.rst
+            str|None
+        :description: QtCore/QTemporaryFile-setFileTemplate-f.rst

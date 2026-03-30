@@ -71,8 +71,8 @@
 
     .. sip:method:: PyQt6.QtCore.QBuffer.setData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QBuffer-setData-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QBuffer-setData-f.rst
 
     .. sip:method:: PyQt6.QtCore.QBuffer.setData
         :args:
@@ -86,7 +86,7 @@
 
     .. sip:method:: PyQt6.QtCore.QBuffer.writeData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QBuffer-writeData-f-1.rst
+        :description: QtCore/QBuffer-writeData-f.rst

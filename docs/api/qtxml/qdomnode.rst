@@ -111,11 +111,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.firstChildElement
         :args:
-            tagName: Optional[str] = ''
-            namespaceURI: Optional[str] = ''
+            tagName: str|None = ''
+            namespaceURI: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomNode-firstChildElement-f-1.rst
+        :description: QtXml/QDomNode-firstChildElement-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.hasAttributes
         :returns:
@@ -210,11 +210,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.isSupported
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
-        :description: QtXml/QDomNode-isSupported-f-1.rst
+        :description: QtXml/QDomNode-isSupported-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.isText
         :returns:
@@ -228,11 +228,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.lastChildElement
         :args:
-            tagName: Optional[str] = ''
-            namespaceURI: Optional[str] = ''
+            tagName: str|None = ''
+            namespaceURI: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomNode-lastChildElement-f-1.rst
+        :description: QtXml/QDomNode-lastChildElement-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.lineNumber
         :returns:
@@ -246,10 +246,10 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.namedItem
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNode`
-        :description: QtXml/QDomNode-namedItem-f-1.rst
+        :description: QtXml/QDomNode-namedItem-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.namespaceURI
         :returns:
@@ -270,11 +270,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.nextSiblingElement
         :args:
-            taName: Optional[str] = ''
-            namespaceURI: Optional[str] = ''
+            taName: str|None = ''
+            namespaceURI: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomNode-nextSiblingElement-f-1.rst
+        :description: QtXml/QDomNode-nextSiblingElement-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.nodeName
         :returns:
@@ -316,11 +316,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.previousSiblingElement
         :args:
-            tagName: Optional[str] = ''
-            namespaceURI: Optional[str] = ''
+            tagName: str|None = ''
+            namespaceURI: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomElement`
-        :description: QtXml/QDomNode-previousSiblingElement-f-1.rst
+        :description: QtXml/QDomNode-previousSiblingElement-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.removeChild
         :args:
@@ -346,13 +346,13 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNode.setNodeValue
         :args:
-            Optional[str]
-        :description: QtXml/QDomNode-setNodeValue-f-1.rst
+            str|None
+        :description: QtXml/QDomNode-setNodeValue-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.setPrefix
         :args:
-            Optional[str]
-        :description: QtXml/QDomNode-setPrefix-f-1.rst
+            str|None
+        :description: QtXml/QDomNode-setPrefix-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNode.toAttr
         :returns:

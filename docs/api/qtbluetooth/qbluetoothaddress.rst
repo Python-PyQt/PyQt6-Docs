@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothAddress.__init__
         :args:
-            Optional[str]
-        :description: QtBluetooth/QBluetoothAddress-__init__-f-4.rst
+            str|None
+        :description: QtBluetooth/QBluetoothAddress-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothAddress.__init__
         :args:

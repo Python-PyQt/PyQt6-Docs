@@ -231,8 +231,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setBackgroundVisible
         :args:
@@ -241,8 +241,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setBorderColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGraphs/QGraphsTheme-setBorderColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtGraphs/QGraphsTheme-setBorderColors-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setBorderWidth
         :args:
@@ -271,8 +271,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setLabelBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setLabelBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setLabelBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setLabelBackgroundVisible
         :args:
@@ -296,13 +296,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setLabelTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setLabelTextColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setLabelTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setMultiHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setMultiHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setMultiHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setMultiHighlightGradient
         :args:
@@ -311,8 +311,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setPlotAreaBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setPlotAreaBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setPlotAreaBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setPlotAreaBackgroundVisible
         :args:
@@ -321,8 +321,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setSeriesColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGraphs/QGraphsTheme-setSeriesColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtGraphs/QGraphsTheme-setSeriesColors-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setSeriesGradients
         :args:
@@ -331,8 +331,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setSingleHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-setSingleHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-setSingleHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsTheme.setSingleHighlightGradient
         :args:
@@ -424,8 +424,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.multiHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-multiHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-multiHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.multiHighlightGradientChanged
         :args:
@@ -443,8 +443,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.seriesColorsChanged
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGraphs/QGraphsTheme-seriesColorsChanged-s.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtGraphs/QGraphsTheme-seriesColorsChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.seriesGradientsChanged
         :args:
@@ -453,8 +453,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.singleHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsTheme-singleHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsTheme-singleHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QGraphsTheme.singleHighlightGradientChanged
         :args:

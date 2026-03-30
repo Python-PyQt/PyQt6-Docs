@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Layout where one can anchor widgets together in Graphics View
-    :digest: a848bab3d8d8960ecee1b56c9890cd00
+    :digest: a0b43b806a1c1ceaa737933d9ce0b34c
 
 The :sip:ref:`~PyQt6.QtWidgets.QGraphicsAnchorLayout` class provides a layout where one can anchor widgets together in Graphics View.
 
@@ -10,6 +10,8 @@ The anchor layout allows developers to specify how widgets should be placed rela
 Existing anchors in the layout can be accessed with the :sip:ref:`~PyQt6.QtWidgets.QGraphicsAnchorLayout.anchor` function. Items that are anchored are automatically added to the layout, and if items are removed, all their anchors will be automatically removed.
 
 |image-simpleanchorlayout-example-png|
+
+Using an anchor layout to align simple colored widgets.
 
 Anchors are always set up between edges of an item, where the "center" is also considered to be an edge. Consider the following example:
 
@@ -56,6 +58,6 @@ There are some features that :sip:ref:`~PyQt6.QtWidgets.QGraphicsAnchorLayout` c
 
 * Height for width is not respected.
 
-.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout`, `QGraphicsLayout <https://doc.qt.io/qt-6/graphicsview.html#qgraphicslayout>`_.
+.. seealso:: :sip:ref:`~PyQt6.QtWidgets.QGraphicsLinearLayout`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsGridLayout`, :sip:ref:`~PyQt6.QtWidgets.QGraphicsLayout`.
 
 .. |image-simpleanchorlayout-example-png| image:: ../../../images/simpleanchorlayout-example.png

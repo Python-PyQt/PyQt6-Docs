@@ -136,24 +136,24 @@
 
     .. sip:method:: PyQt6.QtGui.QColor.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :returns:
             bool
-        :description: QtGui/QColor-__eq__-f-1.rst
+        :description: QtGui/QColor-__eq__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
         :returns:
             bool
-        :description: QtGui/QColor-__eq__-f.rst
+        :description: QtGui/QColor-__eq__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :returns:
             bool
-        :description: QtGui/QColor-__eq__-f-2.rst
+        :description: QtGui/QColor-__eq__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.fromCmyk
         :args:
@@ -282,11 +282,11 @@
 
     .. sip:method:: PyQt6.QtGui.QColor.fromString
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColor`
         :static:
-        :description: QtGui/QColor-fromString-f-1.rst
+        :description: QtGui/QColor-fromString-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.getCmyk
         :returns:
@@ -421,19 +421,19 @@
 
     .. sip:method:: PyQt6.QtGui.QColor.isValidColor
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtGui/QColor-isValidColor-f-1.rst
+        :description: QtGui/QColor-isValidColor-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.isValidColorName
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
         :static:
-        :description: QtGui/QColor-isValidColorName-f-1.rst
+        :description: QtGui/QColor-isValidColorName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.lighter
         :args:
@@ -471,24 +471,24 @@
 
     .. sip:method:: PyQt6.QtGui.QColor.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :returns:
             bool
-        :description: QtGui/QColor-__ne__-f-1.rst
+        :description: QtGui/QColor-__ne__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
         :returns:
             bool
-        :description: QtGui/QColor-__ne__-f.rst
+        :description: QtGui/QColor-__ne__-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :returns:
             bool
-        :description: QtGui/QColor-__ne__-f-2.rst
+        :description: QtGui/QColor-__ne__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QColor.red
         :returns:

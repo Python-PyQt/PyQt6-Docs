@@ -38,8 +38,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAbstractAnimation.setAnimationName
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QAbstractAnimation-setAnimationName-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QAbstractAnimation-setAnimationName-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAbstractAnimation.setDuration
         :args:
@@ -53,8 +53,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QAbstractAnimation.animationNameChanged
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QAbstractAnimation-animationNameChanged-s-1.rst
+            str|None
+        :description: Qt3DAnimation/QAbstractAnimation-animationNameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QAbstractAnimation.durationChanged
         :args:

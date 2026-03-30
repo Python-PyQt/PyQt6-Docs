@@ -19,11 +19,11 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
             :sip:ref:`~PyQt6.QtNetwork.QHstsPolicy.PolicyFlag`
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtNetwork/QHstsPolicy-__init__-f-4.rst
+        :description: QtNetwork/QHstsPolicy-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.__eq__
         :args:
@@ -63,14 +63,14 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.setExpiry
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtNetwork/QHstsPolicy-setExpiry-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtNetwork/QHstsPolicy-setExpiry-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.setHost
         :args:
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode` = :sip:ref:`~PyQt6.QtCore.QUrl.ParsingMode.DecodedMode`
-        :description: QtNetwork/QHstsPolicy-setHost-f-1.rst
+        :description: QtNetwork/QHstsPolicy-setHost-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHstsPolicy.setIncludesSubDomains
         :args:

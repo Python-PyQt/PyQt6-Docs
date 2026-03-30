@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 5e6adbc63221b6e23e4becc478db2fa7
+    :digest: 4f73676d310560f80f36d39399a08b08
 
 This enum describes the filtering options available to :sip:ref:`~PyQt6.QtCore.QDir`; e.g. for :sip:ref:`~PyQt6.QtCore.QDir.entryList` and :sip:ref:`~PyQt6.QtCore.QDir.entryInfoList`. The filter value is specified by combining values from the following list using the bitwise OR operator:
 

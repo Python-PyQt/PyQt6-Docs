@@ -2,8 +2,6 @@
     :status: todo
     :pysig: 0ba652ffd65fead53196e036846ba4ac
     :realsig: (QWebEngineDownloadRequest::SavePageFormat)
-    :digest: 118672ef2a8088e2d0d785dba9b8b692
+    :digest: fe57c281c64a38e9d0e6111cd04495eb
 
-Sets the *format* the web page will be saved in if this is a download request for a web page.
-
-.. seealso:: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.savePageFormat`, :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.isSavePageDownload`.
+.. seealso:: :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.savePageFormat`.

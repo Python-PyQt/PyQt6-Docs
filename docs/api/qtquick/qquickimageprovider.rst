@@ -22,27 +22,27 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.requestImage
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QSize`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
             :sip:ref:`~PyQt6.QtCore.QSize`
-        :description: QtQuick/QQuickImageProvider-requestImage-f-1.rst
+        :description: QtQuick/QQuickImageProvider-requestImage-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.requestPixmap
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QSize`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPixmap`
             :sip:ref:`~PyQt6.QtCore.QSize`
-        :description: QtQuick/QQuickImageProvider-requestPixmap-f-1.rst
+        :description: QtQuick/QQuickImageProvider-requestPixmap-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickImageProvider.requestTexture
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QSize`
         :returns:
             :sip:ref:`~PyQt6.QtQuick.QQuickTextureFactory`
             :sip:ref:`~PyQt6.QtCore.QSize`
-        :description: QtQuick/QQuickImageProvider-requestTexture-f-1.rst
+        :description: QtQuick/QQuickImageProvider-requestTexture-f.rst

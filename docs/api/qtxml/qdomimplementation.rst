@@ -25,21 +25,21 @@
 
     .. sip:method:: PyQt6.QtXml.QDomImplementation.createDocument
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             :sip:ref:`~PyQt6.QtXml.QDomDocumentType`
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomDocument`
-        :description: QtXml/QDomImplementation-createDocument-f-1.rst
+        :description: QtXml/QDomImplementation-createDocument-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomImplementation.createDocumentType
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomDocumentType`
-        :description: QtXml/QDomImplementation-createDocumentType-f-1.rst
+        :description: QtXml/QDomImplementation-createDocumentType-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomImplementation.__eq__
         :args:
@@ -50,11 +50,11 @@
 
     .. sip:method:: PyQt6.QtXml.QDomImplementation.hasFeature
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
-        :description: QtXml/QDomImplementation-hasFeature-f-1.rst
+        :description: QtXml/QDomImplementation-hasFeature-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomImplementation.invalidDataPolicy
         :returns:

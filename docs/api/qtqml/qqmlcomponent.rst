@@ -42,9 +42,9 @@
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlComponent-__init__-f-8.rst
+        :description: QtQml/QQmlComponent-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
@@ -56,10 +56,10 @@
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlComponent-__init__-f-9.rst
+        :description: QtQml/QQmlComponent-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
@@ -72,19 +72,19 @@
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlComponent-__init__-f-10.rst
+        :description: QtQml/QQmlComponent-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.__init__
         :args:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtQml/QQmlComponent-__init__-f-11.rst
+        :description: QtQml/QQmlComponent-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.beginCreate
         :args:
@@ -112,11 +112,11 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.createWithInitialProperties
         :args:
-            dict[Optional[str], Any]
+            dict[str|None, Any]
             context: :sip:ref:`~PyQt6.QtQml.QQmlContext` = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlComponent-createWithInitialProperties-f.rst
+        :description: QtQml/QQmlComponent-createWithInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.creationContext
         :returns:
@@ -160,10 +160,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.loadFromModule
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             mode: :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode` = :sip:ref:`~PyQt6.QtQml.QQmlComponent.CompilationMode.PreferSynchronous`
-        :description: QtQml/QQmlComponent-loadFromModule-f-1.rst
+        :description: QtQml/QQmlComponent-loadFromModule-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.loadUrl
         :args:
@@ -183,15 +183,15 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.setData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtCore.QUrl`
-        :description: QtQml/QQmlComponent-setData-f-1.rst
+        :description: QtQml/QQmlComponent-setData-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.setInitialProperties
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            dict[Optional[str], Any]
-        :description: QtQml/QQmlComponent-setInitialProperties-f.rst
+            dict[str|None, Any]
+        :description: QtQml/QQmlComponent-setInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlComponent.status
         :returns:

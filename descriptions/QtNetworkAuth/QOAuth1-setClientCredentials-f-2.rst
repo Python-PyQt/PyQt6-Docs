@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 83852cea65251de4eddd3e1a36b61cca
+    :realsig: (const QString&, const QString&)
+    :digest: 5a66133b151a66ea75d169ff0458f9a0
+
+Sets *clientIdentifier* and *clientSharedSecret* as the pair of QString used to identify the application and sign requests to the web server. *clientIdentifier* identifies the application and *clientSharedSecret* is used to sign requests.
+
+.. seealso:: :sip:ref:`~PyQt6.QtNetworkAuth.QOAuth1.clientCredentials`.

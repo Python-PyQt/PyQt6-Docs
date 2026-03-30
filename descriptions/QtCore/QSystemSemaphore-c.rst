@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: General counting system semaphore
-    :digest: 94f2505d58165b123fc27730668e72de
+    :digest: bfae22e26e2916041ade5a3d805e3287
 
 The :sip:ref:`~PyQt6.QtCore.QSystemSemaphore` class provides a general counting system semaphore.
 
@@ -15,7 +15,7 @@ Semaphores support two fundamental operations, :sip:ref:`~PyQt6.QtCore.QSystemSe
 
 :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.release` releases one resource so it can be acquired by another process. The function can also be called with a parameter n > 1, which releases n resources.
 
-System semaphores are identified by a key, represented by :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`. A key can be created in a cross-platform manner by using platformSafeKey(). A system semaphore is created by the :sip:ref:`~PyQt6.QtCore.QSystemSemaphore` constructor when passed an access mode parameter of AccessMode::Create. Once it is created, other processes may attach to the same semaphore using the same key and an access mode parameter of AccessMode::Open.
+System semaphores are identified by a key, represented by :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`. A key can be created in a cross-platform manner by using platformSafeKey(). A system semaphore is created by the :sip:ref:`~PyQt6.QtCore.QSystemSemaphore` constructor when passed an access mode parameter of :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Create`. Once it is created, other processes may attach to the same semaphore using the same key and an access mode parameter of :sip:ref:`~PyQt6.QtCore.QSystemSemaphore.AccessMode.Open`.
 
 Example: Create a system semaphore
 

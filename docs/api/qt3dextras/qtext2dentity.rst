@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: Qt3DExtras/QText2DEntity-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: Qt3DExtras/QText2DEntity-setColor-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setFont
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setText
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QText2DEntity-setText-f-1.rst
+            str|None
+        :description: Qt3DExtras/QText2DEntity-setText-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QText2DEntity.setWidth
         :args:
@@ -71,8 +71,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: Qt3DExtras/QText2DEntity-colorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: Qt3DExtras/QText2DEntity-colorChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.fontChanged
         :args:
@@ -86,8 +86,8 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.textChanged
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QText2DEntity-textChanged-s-1.rst
+            str|None
+        :description: Qt3DExtras/QText2DEntity-textChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DExtras.QText2DEntity.widthChanged
         :args:

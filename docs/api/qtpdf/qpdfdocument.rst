@@ -122,10 +122,10 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.load
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtPdf.QPdfDocument.Error`
-        :description: QtPdf/QPdfDocument-load-f-2.rst
+        :description: QtPdf/QPdfDocument-load-f.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.load
         :args:
@@ -146,10 +146,10 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.pageIndexForLabel
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtPdf/QPdfDocument-pageIndexForLabel-f.rst
+        :description: QtPdf/QPdfDocument-pageIndexForLabel-f-1.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.pageLabel
         :args:
@@ -186,8 +186,8 @@
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.setPassword
         :args:
-            Optional[str]
-        :description: QtPdf/QPdfDocument-setPassword-f-1.rst
+            str|None
+        :description: QtPdf/QPdfDocument-setPassword-f.rst
 
     .. sip:method:: PyQt6.QtPdf.QPdfDocument.status
         :returns:

@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 6a1bb6ed41f44b60e7bd83b0e9945aa7
     :realsig: (double)
-    :digest: 36b15dc64112ecfc6137faf041de1a0a
+    :digest: 88b8c601e2085e1c12889a42f580ca79
 
 Generates one random double in the range between 0 (inclusive) and *highest* (exclusive). This function is equivalent to and is implemented as:
 
@@ -11,4 +11,4 @@ Generates one random double in the range between 0 (inclusive) and *highest* (ex
 
 If the *highest* parameter is negative, the result will be negative too; if it is infinite or NaN, the result will be infinite or NaN too (that is, not random).
 
-.. seealso:: :sip:ref:`~PyQt6.QtCore.QRandomGenerator.generateDouble`.
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QRandomGenerator.generateDouble`, bounded(quint64).

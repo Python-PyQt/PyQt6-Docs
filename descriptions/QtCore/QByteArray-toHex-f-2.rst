@@ -2,13 +2,13 @@
     :status: todo
     :pysig: 9e6cf921ea536b15e55517c3ea382b7c
     :realsig: (char) const
-    :digest: 042adc0b3e09ebea485d7b76c4a04315
+    :digest: 4763594e5cfdfcb1101f9856435d0d1e
 
 Returns a hex encoded copy of the byte array.
 
 The hex encoding uses the numbers 0-9 and the letters a-f.
 
-If *separator* is not '\\0', the separator character is inserted between the hex bytes.
+If *separator* is not '``\0``', the separator character is inserted between the hex bytes.
 
 Example:
 

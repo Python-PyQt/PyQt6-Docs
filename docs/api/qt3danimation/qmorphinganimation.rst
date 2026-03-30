@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setEasing
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: Qt3DAnimation/QMorphingAnimation-setEasing-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: Qt3DAnimation/QMorphingAnimation-setEasing-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setMethod
         :args:
@@ -77,8 +77,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setTargetName
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QMorphingAnimation-setTargetName-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QMorphingAnimation-setTargetName-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphingAnimation.setTargetPositions
         :args:
@@ -108,8 +108,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.easingChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: Qt3DAnimation/QMorphingAnimation-easingChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: Qt3DAnimation/QMorphingAnimation-easingChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.interpolatorChanged
         :args:
@@ -128,8 +128,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.targetNameChanged
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QMorphingAnimation-targetNameChanged-s-1.rst
+            str|None
+        :description: Qt3DAnimation/QMorphingAnimation-targetNameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphingAnimation.targetPositionsChanged
         :args:

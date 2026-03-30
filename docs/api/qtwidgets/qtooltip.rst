@@ -45,12 +45,12 @@
     .. sip:method:: PyQt6.QtWidgets.QToolTip.showText
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            Optional[str]
+            str|None
             widget: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             rect: :sip:ref:`~PyQt6.QtCore.QRect` = {}
             msecShowTime: int = -1
         :static:
-        :description: QtWidgets/QToolTip-showText-f-1.rst
+        :description: QtWidgets/QToolTip-showText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolTip.text
         :returns:

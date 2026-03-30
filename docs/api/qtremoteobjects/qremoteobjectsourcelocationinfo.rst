@@ -8,7 +8,7 @@
         :description: QtRemoteObjects/QRemoteObjectSourceLocationInfo-hostUrl-a.rst
 
     .. sip:attribute:: PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo.typeName
-        :type: Optional[str]
+        :type: str|None
         :description: QtRemoteObjects/QRemoteObjectSourceLocationInfo-typeName-a.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo.__init__
@@ -21,9 +21,9 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QUrl`
-        :description: QtRemoteObjects/QRemoteObjectSourceLocationInfo-__init__-f-3.rst
+        :description: QtRemoteObjects/QRemoteObjectSourceLocationInfo-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo.__eq__
         :args:

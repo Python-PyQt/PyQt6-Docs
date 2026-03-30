@@ -53,8 +53,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.setEasing
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: Qt3DAnimation/QKeyframeAnimation-setEasing-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: Qt3DAnimation/QKeyframeAnimation-setEasing-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.setEndMode
         :args:
@@ -83,8 +83,8 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.setTargetName
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QKeyframeAnimation-setTargetName-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QKeyframeAnimation-setTargetName-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QKeyframeAnimation.startMode
         :returns:
@@ -103,8 +103,8 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QKeyframeAnimation.easingChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: Qt3DAnimation/QKeyframeAnimation-easingChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: Qt3DAnimation/QKeyframeAnimation-easingChanged-s-1.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QKeyframeAnimation.endModeChanged
         :args:
@@ -128,5 +128,5 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QKeyframeAnimation.targetNameChanged
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QKeyframeAnimation-targetNameChanged-s-1.rst
+            str|None
+        :description: Qt3DAnimation/QKeyframeAnimation-targetNameChanged-s.rst

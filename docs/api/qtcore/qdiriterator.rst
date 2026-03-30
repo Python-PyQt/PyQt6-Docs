@@ -23,24 +23,24 @@
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
-            Optional[str]
+            str|None
             flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-8.rst
+        :description: QtCore/QDirIterator-__init__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QDir.Filter`
             flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-9.rst
+        :description: QtCore/QDirIterator-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.__init__
         :args:
-            Optional[str]
-            Iterable[Optional[str]]
+            str|None
+            Iterable[str|None]
             filters: :sip:ref:`~PyQt6.QtCore.QDir.Filter` = :sip:ref:`~PyQt6.QtCore.QDir.Filter.NoFilter`
             flags: :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag` = :sip:ref:`~PyQt6.QtCore.QDirIterator.IteratorFlag.NoIteratorFlags`
-        :description: QtCore/QDirIterator-__init__-f-10.rst
+        :description: QtCore/QDirIterator-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDirIterator.fileInfo
         :returns:

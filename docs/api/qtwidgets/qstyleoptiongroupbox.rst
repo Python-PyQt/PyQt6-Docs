@@ -29,7 +29,7 @@
         :description: QtWidgets/QStyleOptionGroupBox-midLineWidth-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionGroupBox-text-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.textAlignment
@@ -37,7 +37,7 @@
         :description: QtWidgets/QStyleOptionGroupBox-textAlignment-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionGroupBox.textColor
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :type: :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :description: QtWidgets/QStyleOptionGroupBox-textColor-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionGroupBox.__init__

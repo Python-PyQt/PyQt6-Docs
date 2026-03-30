@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: -215
-    :digest: 1f18b5217babf3a8b6d38892975562ba
+    :digest: 7a997a5bcee1eeb9c024c40d847fb9e7
 
-The certificate is a legacy Symantec one that's no longer valid. (Added in Qt 6.2)
+The certificate is a legacy Symantec one that's no longer valid.

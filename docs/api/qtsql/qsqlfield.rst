@@ -22,10 +22,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.__init__
         :args:
-            fieldName: Optional[str] = ''
+            fieldName: str|None = ''
             type: :sip:ref:`~PyQt6.QtCore.QMetaType` = QMetaType()
-            tableName: Optional[str] = ''
-        :description: QtSql/QSqlField-__init__-f-2.rst
+            tableName: str|None = ''
+        :description: QtSql/QSqlField-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.clear
         :description: QtSql/QSqlField-clear-f.rst
@@ -126,8 +126,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlField-setName-f-1.rst
+            str|None
+        :description: QtSql/QSqlField-setName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setPrecision
         :args:
@@ -156,8 +156,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setTableName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlField-setTableName-f-1.rst
+            str|None
+        :description: QtSql/QSqlField-setTableName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlField.setValue
         :args:

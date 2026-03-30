@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QToolBar-__init__-f-2.rst
+        :description: QtWidgets/QToolBar-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QToolBar.actionAt
         :args:

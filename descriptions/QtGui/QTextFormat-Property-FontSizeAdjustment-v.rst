@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x2002
-    :digest: f6c424a23b0bc1cb68c0d94e9f15e07c
+    :digest: cc1c5802eeba70749206b1494e9a3cd5
 
-Specifies the change in size given to the fontsize already set using FontPointSize or FontPixelSize.
+Specifies an integer adjustment added to the base font size set using ``FontPointSize`` or ``FontPixelSize``.

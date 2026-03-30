@@ -136,10 +136,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.daysTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             int
-        :description: QtCore/QDate-daysTo-f.rst
+        :description: QtCore/QDate-daysTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.endOfDay
         :args:
@@ -158,10 +158,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__eq__-f.rst
+        :description: QtCore/QDate-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.fromJulianDay
         :args:
@@ -173,40 +173,40 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.fromString
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
         :static:
-        :description: QtCore/QDate-fromString-f-2.rst
+        :description: QtCore/QDate-fromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.fromString
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
         :static:
-        :description: QtCore/QDate-fromString-f-3.rst
+        :description: QtCore/QDate-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.fromString
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             int
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
         :static:
-        :description: QtCore/QDate-fromString-f-4.rst
+        :description: QtCore/QDate-fromString-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.__ge__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__ge__-f.rst
+        :description: QtCore/QDate-__ge__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.getDate
         :returns:
@@ -217,10 +217,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.__gt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__gt__-f.rst
+        :description: QtCore/QDate-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.__hash__
         :returns:
@@ -257,17 +257,17 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.__le__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__le__-f.rst
+        :description: QtCore/QDate-__le__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.__lt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__lt__-f.rst
+        :description: QtCore/QDate-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.month
         :returns:
@@ -283,10 +283,10 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             bool
-        :description: QtCore/QDate-__ne__-f.rst
+        :description: QtCore/QDate-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.__repr__
         :returns:
@@ -346,11 +346,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDate.toString
         :args:
-            Optional[str]
+            str|None
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             str
-        :description: QtCore/QDate-toString-f-2.rst
+        :description: QtCore/QDate-toString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDate.weekNumber
         :returns:

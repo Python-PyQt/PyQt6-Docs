@@ -1066,6 +1066,12 @@
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_ComboBox_ListMouseTracking
             :description: QtWidgets/QStyle-StyleHint-SH_ComboBox_ListMouseTracking-v.rst
 
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_ComboBox_ListMouseTracking_Active
+            :description: QtWidgets/QStyle-StyleHint-SH_ComboBox_ListMouseTracking_Active-v.rst
+
+        .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_ComboBox_ListMouseTracking_Current
+            :description: QtWidgets/QStyle-StyleHint-SH_ComboBox_ListMouseTracking_Current-v.rst
+
         .. sip:enum-member:: PyQt6.QtWidgets.QStyle.StyleHint.SH_ComboBox_Popup
             :description: QtWidgets/QStyle-StyleHint-SH_ComboBox_Popup-v.rst
 
@@ -1779,9 +1785,9 @@
             int
             :sip:ref:`~PyQt6.QtGui.QPalette`
             bool
-            Optional[str]
+            str|None
             textRole: :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole` = :sip:ref:`~PyQt6.QtGui.QPalette.ColorRole.NoRole`
-        :description: QtWidgets/QStyle-drawItemText-f-1.rst
+        :description: QtWidgets/QStyle-drawItemText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.drawPrimitive
         :args:
@@ -1825,10 +1831,10 @@
             :sip:ref:`~PyQt6.QtCore.QRect`
             int
             bool
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtWidgets/QStyle-itemTextRect-f-1.rst
+        :description: QtWidgets/QStyle-itemTextRect-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyle.layoutSpacing
         :args:

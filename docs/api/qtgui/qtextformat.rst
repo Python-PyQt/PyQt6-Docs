@@ -117,6 +117,9 @@
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFamilies
             :description: QtGui/QTextFormat-Property-FontFamilies-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFeatures
+            :description: QtGui/QTextFormat-Property-FontFeatures-v.rst
+
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontFixedPitch
             :description: QtGui/QTextFormat-Property-FontFixedPitch-v.rst
 
@@ -167,6 +170,9 @@
 
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontUnderline
             :description: QtGui/QTextFormat-Property-FontUnderline-v.rst
+
+        .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontVariableAxes
+            :description: QtGui/QTextFormat-Property-FontVariableAxes-v.rst
 
         .. sip:enum-member:: PyQt6.QtGui.QTextFormat.Property.FontWeight
             :description: QtGui/QTextFormat-Property-FontWeight-v.rst
@@ -596,13 +602,13 @@
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setBackground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QTextFormat-setBackground-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtGui/QTextFormat-setForeground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtGui/QTextFormat-setForeground-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextFormat.setLayoutDirection
         :args:

@@ -15,28 +15,28 @@
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             flags: :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag` = :sip:ref:`~PyQt6.QtCore.QStringConverterBase.Flag.Default`
-        :description: QtCore/QStringDecoder-__init__-f-1.rst
+        :description: QtCore/QStringDecoder-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.__call__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             str
-        :description: QtCore/QStringDecoder-__call__-f.rst
+        :description: QtCore/QStringDecoder-__call__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.decode
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             str
-        :description: QtCore/QStringDecoder-decode-f.rst
+        :description: QtCore/QStringDecoder-decode-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QStringDecoder.decoderForHtml
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QStringDecoder`
         :static:
-        :description: QtCore/QStringDecoder-decoderForHtml-f.rst
+        :description: QtCore/QStringDecoder-decoderForHtml-f-1.rst

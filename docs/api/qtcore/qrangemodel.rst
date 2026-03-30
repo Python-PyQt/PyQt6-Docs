@@ -4,11 +4,28 @@
     :inherits: :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
     :description: QtCore/QRangeModel-c.rst
 
+    .. sip:enum:: PyQt6.QtCore.QRangeModel.AutoConnectPolicy
+        :description: QtCore/QRangeModel-AutoConnectPolicy-e.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QRangeModel.AutoConnectPolicy.Full
+            :description: QtCore/QRangeModel-AutoConnectPolicy-Full-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QRangeModel.AutoConnectPolicy.None_
+            :description: QtCore/QRangeModel-AutoConnectPolicy-None_-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QRangeModel.AutoConnectPolicy.OnRead
+            :description: QtCore/QRangeModel-AutoConnectPolicy-OnRead-v.rst
+
     .. sip:method:: PyQt6.QtCore.QRangeModel.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QPyAbstractRange`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtCore/QRangeModel-__init__-f-1.rst
+
+    .. sip:method:: PyQt6.QtCore.QRangeModel.autoConnectPolicy
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QRangeModel.AutoConnectPolicy`
+        :description: QtCore/QRangeModel-autoConnectPolicy-f.rst
 
     .. sip:method:: PyQt6.QtCore.QRangeModel.buddy
         :args:
@@ -239,6 +256,11 @@
             int
         :description: QtCore/QRangeModel-rowCount-f.rst
 
+    .. sip:method:: PyQt6.QtCore.QRangeModel.setAutoConnectPolicy
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRangeModel.AutoConnectPolicy`
+        :description: QtCore/QRangeModel-setAutoConnectPolicy-f.rst
+
     .. sip:method:: PyQt6.QtCore.QRangeModel.setData
         :args:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
@@ -268,8 +290,8 @@
 
     .. sip:method:: PyQt6.QtCore.QRangeModel.setRoleNames
         :args:
-            dict[int, Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
-        :description: QtCore/QRangeModel-setRoleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview]
+        :description: QtCore/QRangeModel-setRoleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QRangeModel.sibling
         :args:
@@ -302,6 +324,11 @@
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.DropAction`
         :description: QtCore/QRangeModel-supportedDropActions-f.rst
+
+    .. sip:signal:: PyQt6.QtCore.QRangeModel.autoConnectPolicyChanged
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QRangeModel.AutoConnectPolicy`
+        :description: QtCore/QRangeModel-autoConnectPolicyChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCore.QRangeModel.roleNamesChanged
         :description: QtCore/QRangeModel-roleNamesChanged-s.rst

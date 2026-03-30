@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Acts as a container for Qt/JavaScript data types
-    :digest: 306023fbbfdbecce278595140659f579
+    :digest: 3090b381910fff79393687614378dc95
 
 The :sip:ref:`~PyQt6.QtQml.QJSValue` class acts as a container for Qt/JavaScript data types.
 
@@ -50,7 +50,7 @@ To determine the length of the array, access the ``"length"`` property. To acces
 
 ::
 
-    QVector<int> integers;
+    QList<int> integers;
     const int length = jsArray.property("length").toInt();
     for (int i = 0; i < length; ++i) {
         integers.append(jsArray.property(i).toInt());

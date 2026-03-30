@@ -31,8 +31,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QXmlStreamWriter-__init__-f-3.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QXmlStreamWriter-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.autoFormatting
         :returns:
@@ -66,8 +66,8 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.raiseError
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-raiseError-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-raiseError-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.setAutoFormatting
         :args:
@@ -101,16 +101,16 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeAttribute
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeAttribute-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeAttribute
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeAttribute-f-6.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeAttribute-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeAttributes
         :args:
@@ -119,18 +119,18 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeCDATA
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeCDATA-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeCDATA-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeCharacters
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeCharacters-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeCharacters-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeComment
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeComment-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeComment-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeCurrentToken
         :args:
@@ -139,24 +139,24 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeDefaultNamespace
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeDefaultNamespace-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeDefaultNamespace-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeDTD
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeDTD-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeDTD-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeEmptyElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeEmptyElement-f-4.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeEmptyElement-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeEmptyElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeEmptyElement-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeEmptyElement-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeEndDocument
         :description: QtCore/QXmlStreamWriter-writeEndDocument-f.rst
@@ -166,55 +166,55 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeEntityReference
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeEntityReference-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeEntityReference-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeNamespace
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            prefix: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
-        :description: QtCore/QXmlStreamWriter-writeNamespace-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            prefix: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
+        :description: QtCore/QXmlStreamWriter-writeNamespace-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeProcessingInstruction
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            data: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
-        :description: QtCore/QXmlStreamWriter-writeProcessingInstruction-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            data: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
+        :description: QtCore/QXmlStreamWriter-writeProcessingInstruction-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeStartDocument
         :description: QtCore/QXmlStreamWriter-writeStartDocument-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeStartDocument
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeStartDocument-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeStartDocument-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeStartDocument
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             bool
-        :description: QtCore/QXmlStreamWriter-writeStartDocument-f-6.rst
+        :description: QtCore/QXmlStreamWriter-writeStartDocument-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeStartElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeStartElement-f-4.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeStartElement-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeStartElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeStartElement-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeStartElement-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeTextElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeTextElement-f-4.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeTextElement-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamWriter.writeTextElement
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QXmlStreamWriter-writeTextElement-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QXmlStreamWriter-writeTextElement-f-1.rst

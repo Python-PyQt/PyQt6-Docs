@@ -6,73 +6,73 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.__init__
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             str
             :sip:ref:`~PyQt6.QtDBus.QDBusConnection`
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDBus/QDBusAbstractInterface-__init__-f-1.rst
+        :description: QtDBus/QDBusAbstractInterface-__init__-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.asyncCall
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusPendingCall`
-        :description: QtDBus/QDBusAbstractInterface-asyncCall-f-2.rst
+        :description: QtDBus/QDBusAbstractInterface-asyncCall-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.asyncCallWithArgumentList
         :args:
-            Optional[str]
+            str|None
             Iterable[Any]
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusPendingCall`
-        :description: QtDBus/QDBusAbstractInterface-asyncCallWithArgumentList-f-1.rst
+        :description: QtDBus/QDBusAbstractInterface-asyncCallWithArgumentList-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.call
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusAbstractInterface-call-f-4.rst
+        :description: QtDBus/QDBusAbstractInterface-call-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.call
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBus.CallMode`
-            Optional[str]
+            str|None
             Any
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusAbstractInterface-call-f-5.rst
+        :description: QtDBus/QDBusAbstractInterface-call-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.callWithArgumentList
         :args:
             :sip:ref:`~PyQt6.QtDBus.QDBus.CallMode`
-            Optional[str]
+            str|None
             Iterable[Any]
         :returns:
             :sip:ref:`~PyQt6.QtDBus.QDBusMessage`
-        :description: QtDBus/QDBusAbstractInterface-callWithArgumentList-f-1.rst
+        :description: QtDBus/QDBusAbstractInterface-callWithArgumentList-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.callWithCallback
         :args:
-            Optional[str]
+            str|None
             Iterable[Any]
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusAbstractInterface-callWithCallback-f-2.rst
+        :description: QtDBus/QDBusAbstractInterface-callWithCallback-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.callWithCallback
         :args:
-            Optional[str]
+            str|None
             Iterable[Any]
             PYQT_SLOT
             PYQT_SLOT
         :returns:
             bool
-        :description: QtDBus/QDBusAbstractInterface-callWithCallback-f-3.rst
+        :description: QtDBus/QDBusAbstractInterface-callWithCallback-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusAbstractInterface.connection
         :returns:

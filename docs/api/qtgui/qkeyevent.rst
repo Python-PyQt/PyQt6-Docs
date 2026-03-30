@@ -9,10 +9,10 @@
             :sip:ref:`~PyQt6.QtCore.QEvent.Type`
             int
             :sip:ref:`~PyQt6.QtCore.Qt.KeyboardModifier`
-            text: Optional[str] = ''
+            text: str|None = ''
             autorep: bool = False
             count: int = 1
-        :description: QtGui/QKeyEvent-__init__-f-4.rst
+        :description: QtGui/QKeyEvent-__init__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.__init__
         :args:
@@ -22,11 +22,11 @@
             int
             int
             int
-            text: Optional[str] = ''
+            text: str|None = ''
             autorep: bool = False
             count: int = 1
             device: :sip:ref:`~PyQt6.QtGui.QInputDevice` = QInputDevice.primaryKeyboard()
-        :description: QtGui/QKeyEvent-__init__-f-5.rst
+        :description: QtGui/QKeyEvent-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QKeyEvent.clone
         :returns:

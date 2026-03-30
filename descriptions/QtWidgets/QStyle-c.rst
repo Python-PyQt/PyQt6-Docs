@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Abstract base class that encapsulates the look and feel of a GUI
-    :digest: 1b410580dee309709c24fd5d4a045991
+    :digest: 7cbfdc7981feebd8bf797ee25c47de0b
 
 The :sip:ref:`~PyQt6.QtWidgets.QStyle` class is an abstract base class that encapsulates the look and feel of a GUI.
 
@@ -89,18 +89,12 @@ To draw its up and down arrows, :sip:ref:`~PyQt6.QtWidgets.QSpinBox` uses the :s
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
 
-.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
-
-.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
-
 Notice that we don't use the ``widget`` argument, except to pass it on to the QWindowStyle::drawPrimitive() function. As mentioned earlier, the information about what is to be drawn and how it should be drawn is specified by a :sip:ref:`~PyQt6.QtWidgets.QStyleOption` object, so there is no need to ask the widget.
 
 If you need to use the ``widget`` argument to obtain additional information, be careful to ensure that it isn't 0 and that it is of the correct type before using it. For example:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
     :lines: 59-69
-
-.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-customstyle-customstyle.py
 
 When implementing a custom style, you cannot assume that the widget is a :sip:ref:`~PyQt6.QtWidgets.QSpinBox` just because the enum value is called :sip:ref:`~PyQt6.QtWidgets.QStyle.PrimitiveElement.PE_IndicatorSpinUp` or :sip:ref:`~PyQt6.QtWidgets.QStyle.PrimitiveElement.PE_IndicatorSpinDown`.
 

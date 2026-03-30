@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 464116456943d857ef223b2d24ec328b
+    :realsig: (const QString&)
+    :digest: 5bd20cba27eac5a77d83577d9b2125ac
+
+Sets the message that the system shows to the user. If target detection is running, the *message* will be updated immediately and can be used as a progress message. The last message set before a call to :sip:ref:`~PyQt6.QtNfc.QNearFieldManager.startTargetDetection` without an error message is used as a success message. If target detection is not running, the *message* will be used as the initial message when the next detection is started. By default, no message is shown to the user.
+
+**Note:** Currently, this function only has an effect on iOS because the system shows a popup during the scan. On iOS, this *message* is mapped to the alert message which is shown upon successful completion of the scan. Other platforms will ignore *message*.
+
+.. seealso:: :sip:ref:`~PyQt6.QtNfc.QNearFieldManager.startTargetDetection`, :sip:ref:`~PyQt6.QtNfc.QNearFieldManager.stopTargetDetection`.

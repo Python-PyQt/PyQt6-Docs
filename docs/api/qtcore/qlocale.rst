@@ -1425,6 +1425,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Kyrgyz
             :description: QtCore/QLocale-Language-Kyrgyz-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Ladin
+            :description: QtCore/QLocale-Language-Ladin-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Lakota
             :description: QtCore/QLocale-Language-Lakota-v.rst
 
@@ -1769,6 +1772,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Shambala
             :description: QtCore/QLocale-Language-Shambala-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Shan
+            :description: QtCore/QLocale-Language-Shan-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QLocale.Language.Shona
             :description: QtCore/QLocale-Language-Shona-v.rst
@@ -2561,8 +2567,8 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.__init__
         :args:
-            Optional[str]
-        :description: QtCore/QLocale-__init__-f-5.rst
+            str|None
+        :description: QtCore/QLocale-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.__init__
         :args:
@@ -2661,10 +2667,10 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.createSeparatedList
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :returns:
             str
-        :description: QtCore/QLocale-createSeparatedList-f-1.rst
+        :description: QtCore/QLocale-createSeparatedList-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.currencySymbol
         :args:
@@ -2952,150 +2958,150 @@
     .. sip:method:: PyQt6.QtCore.QLocale.toCurrencyString
         :args:
             int
-            symbol: Optional[str] = ''
+            symbol: str|None = ''
         :returns:
             str
-        :description: QtCore/QLocale-toCurrencyString-f-2.rst
+        :description: QtCore/QLocale-toCurrencyString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toCurrencyString
         :args:
             float
-            symbol: Optional[str] = ''
+            symbol: str|None = ''
             precision: int = -1
         :returns:
             str
-        :description: QtCore/QLocale-toCurrencyString-f-3.rst
+        :description: QtCore/QLocale-toCurrencyString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-8.rst
+        :description: QtCore/QLocale-toDate-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-9.rst
+        :description: QtCore/QLocale-toDate-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             :sip:ref:`~PyQt6.QtCore.QCalendar`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-10.rst
+        :description: QtCore/QLocale-toDate-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDate
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDate`
-        :description: QtCore/QLocale-toDate-f-11.rst
+        :description: QtCore/QLocale-toDate-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-8.rst
+        :description: QtCore/QLocale-toDateTime-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-9.rst
+        :description: QtCore/QLocale-toDateTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             :sip:ref:`~PyQt6.QtCore.QCalendar`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-10.rst
+        :description: QtCore/QLocale-toDateTime-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDateTime
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
             baseYear: int = QLocale.DefaultTwoDigitBaseYear
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
-        :description: QtCore/QLocale-toDateTime-f-11.rst
+        :description: QtCore/QLocale-toDateTime-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toDouble
         :args:
-            Optional[str]
+            str|None
         :returns:
             float
             bool
-        :description: QtCore/QLocale-toDouble-f-1.rst
+        :description: QtCore/QLocale-toDouble-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toFloat
         :args:
-            Optional[str]
+            str|None
         :returns:
             float
             bool
-        :description: QtCore/QLocale-toFloat-f-1.rst
+        :description: QtCore/QLocale-toFloat-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toInt
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toInt-f-1.rst
+        :description: QtCore/QLocale-toInt-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toLong
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toLong-f-1.rst
+        :description: QtCore/QLocale-toLong-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toLongLong
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toLongLong-f-1.rst
+        :description: QtCore/QLocale-toLongLong-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toLower
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QLocale-toLower-f-1.rst
+        :description: QtCore/QLocale-toLower-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toShort
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toShort-f-1.rst
+        :description: QtCore/QLocale-toShort-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
@@ -3106,69 +3112,69 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-1.rst
+        :description: QtCore/QLocale-toString-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             str
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-2.rst
+        :description: QtCore/QLocale-toString-f-11.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-3.rst
+        :description: QtCore/QLocale-toString-f-14.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             str
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-4.rst
+        :description: QtCore/QLocale-toString-f-15.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            str|None
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-12.rst
+        :description: QtCore/QLocale-toString-f-16.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-6.rst
+        :description: QtCore/QLocale-toString-f-17.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-7.rst
+        :description: QtCore/QLocale-toString-f-18.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             str
             :sip:ref:`~PyQt6.QtCore.QCalendar`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-8.rst
+        :description: QtCore/QLocale-toString-f-19.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
@@ -3181,76 +3187,76 @@
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
             :sip:ref:`~PyQt6.QtCore.QLocale.FormatType`
             :sip:ref:`~PyQt6.QtCore.QCalendar`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-10.rst
+        :description: QtCore/QLocale-toString-f-20.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toString
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Optional[str]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            str|None
             :sip:ref:`~PyQt6.QtCore.QCalendar`
         :returns:
             str
-        :description: QtCore/QLocale-toString-f-13.rst
+        :description: QtCore/QLocale-toString-f-21.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toTime
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtCore.QLocale.FormatType` = :sip:ref:`~PyQt6.QtCore.QLocale.FormatType.LongFormat`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
-        :description: QtCore/QLocale-toTime-f-2.rst
+        :description: QtCore/QLocale-toTime-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toTime
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
-        :description: QtCore/QLocale-toTime-f-3.rst
+        :description: QtCore/QLocale-toTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toUInt
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toUInt-f-1.rst
+        :description: QtCore/QLocale-toUInt-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toULong
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toULong-f-1.rst
+        :description: QtCore/QLocale-toULong-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toULongLong
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toULongLong-f-1.rst
+        :description: QtCore/QLocale-toULongLong-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toUpper
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QLocale-toUpper-f-1.rst
+        :description: QtCore/QLocale-toUpper-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.toUShort
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
             bool
-        :description: QtCore/QLocale-toUShort-f-1.rst
+        :description: QtCore/QLocale-toUShort-f.rst
 
     .. sip:method:: PyQt6.QtCore.QLocale.uiLanguages
         :args:

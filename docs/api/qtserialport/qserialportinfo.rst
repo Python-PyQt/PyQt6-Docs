@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.__init__
         :args:
-            Optional[str]
-        :description: QtSerialPort/QSerialPortInfo-__init__-f-4.rst
+            str|None
+        :description: QtSerialPort/QSerialPortInfo-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSerialPort.QSerialPortInfo.__init__
         :args:

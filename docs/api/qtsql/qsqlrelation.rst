@@ -13,10 +13,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlRelation.__init__
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtSql/QSqlRelation-__init__-f-3.rst
+            str|None
+            str|None
+            str|None
+        :description: QtSql/QSqlRelation-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlRelation.displayColumn
         :returns:

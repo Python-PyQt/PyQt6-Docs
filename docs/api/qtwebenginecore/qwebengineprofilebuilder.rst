@@ -13,11 +13,11 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.createProfile
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfile`
-        :description: QtWebEngineCore/QWebEngineProfileBuilder-createProfile-f.rst
+        :description: QtWebEngineCore/QWebEngineProfileBuilder-createProfile-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setAdditionalTrustedCertificates
         :args:
@@ -28,10 +28,10 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setCachePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfileBuilder`
-        :description: QtWebEngineCore/QWebEngineProfileBuilder-setCachePath-f.rst
+        :description: QtWebEngineCore/QWebEngineProfileBuilder-setCachePath-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setHttpCacheMaximumSize
         :args:
@@ -63,7 +63,7 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineProfileBuilder.setPersistentStoragePath
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineProfileBuilder`
-        :description: QtWebEngineCore/QWebEngineProfileBuilder-setPersistentStoragePath-f.rst
+        :description: QtWebEngineCore/QWebEngineProfileBuilder-setPersistentStoragePath-f-1.rst

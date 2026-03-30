@@ -34,10 +34,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.displayFont
         :args:
-            Optional[str]
+            str|None
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtGui.QFont`]
-        :description: QtWidgets/QFontComboBox-displayFont-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QFont`|None
+        :description: QtWidgets/QFontComboBox-displayFont-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.event
         :args:
@@ -53,10 +53,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.sampleTextForFont
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtWidgets/QFontComboBox-sampleTextForFont-f-1.rst
+        :description: QtWidgets/QFontComboBox-sampleTextForFont-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.sampleTextForSystem
         :args:
@@ -72,9 +72,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setDisplayFont
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QFont`
-        :description: QtWidgets/QFontComboBox-setDisplayFont-f-1.rst
+        :description: QtWidgets/QFontComboBox-setDisplayFont-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setFontFilters
         :args:
@@ -83,15 +83,15 @@
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setSampleTextForFont
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtWidgets/QFontComboBox-setSampleTextForFont-f-1.rst
+            str|None
+            str|None
+        :description: QtWidgets/QFontComboBox-setSampleTextForFont-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setSampleTextForSystem
         :args:
             :sip:ref:`~PyQt6.QtGui.QFontDatabase.WritingSystem`
-            Optional[str]
-        :description: QtWidgets/QFontComboBox-setSampleTextForSystem-f-1.rst
+            str|None
+        :description: QtWidgets/QFontComboBox-setSampleTextForSystem-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QFontComboBox.setWritingSystem
         :args:

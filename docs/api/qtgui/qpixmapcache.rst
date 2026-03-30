@@ -23,11 +23,11 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmapCache.find
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QPixmap`
         :static:
-        :description: QtGui/QPixmapCache-find-f-2.rst
+        :description: QtGui/QPixmapCache-find-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmapCache.find
         :args:
@@ -47,18 +47,18 @@
 
     .. sip:method:: PyQt6.QtGui.QPixmapCache.insert
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QPixmap`
         :returns:
             bool
         :static:
-        :description: QtGui/QPixmapCache-insert-f-2.rst
+        :description: QtGui/QPixmapCache-insert-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmapCache.remove
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtGui/QPixmapCache-remove-f-2.rst
+        :description: QtGui/QPixmapCache-remove-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPixmapCache.remove
         :args:

@@ -6,9 +6,9 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngine.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtHelp/QHelpEngine-__init__-f-1.rst
+        :description: QtHelp/QHelpEngine-__init__-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpEngine.contentModel
         :returns:

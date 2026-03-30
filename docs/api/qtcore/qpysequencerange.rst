@@ -6,11 +6,11 @@
 
     .. sip:method:: PyQt6.QtCore.QPySequenceRange.__init__
         :args:
-            data: Any
+            Any
             editable: bool = False
         :description: QtCore/QPySequenceRange-__init__-f.rst
 
     .. sip:signal:: PyQt6.QtCore.QPySequenceRange.dataChanged
         :args:
-            index: int
+            int
         :description: QtCore/QPySequenceRange-dataChanged-s.rst

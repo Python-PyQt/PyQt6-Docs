@@ -15,10 +15,10 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtWebSockets.QWebSocketServer.SslMode`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtWebSockets/QWebSocketServer-__init__-f-1.rst
+        :description: QtWebSockets/QWebSocketServer-__init__-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.close
         :description: QtWebSockets/QWebSocketServer-close-f.rst
@@ -55,11 +55,11 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.listen
         :args:
-            address: Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`] = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
+            address: :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress` = :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress.Any`
             port: int = 0
         :returns:
             bool
-        :description: QtWebSockets/QWebSocketServer-listen-f.rst
+        :description: QtWebSockets/QWebSocketServer-listen-f-1.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.maxPendingConnections
         :returns:
@@ -124,8 +124,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setServerName
         :args:
-            Optional[str]
-        :description: QtWebSockets/QWebSocketServer-setServerName-f-1.rst
+            str|None
+        :description: QtWebSockets/QWebSocketServer-setServerName-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSocketDescriptor
         :args:
@@ -141,8 +141,8 @@
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.setSupportedSubprotocols
         :args:
-            Iterable[Optional[str]]
-        :description: QtWebSockets/QWebSocketServer-setSupportedSubprotocols-f-1.rst
+            Iterable[str|None]
+        :description: QtWebSockets/QWebSocketServer-setSupportedSubprotocols-f.rst
 
     .. sip:method:: PyQt6.QtWebSockets.QWebSocketServer.socketDescriptor
         :returns:
@@ -199,3 +199,9 @@
         :args:
             Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
         :description: QtWebSockets/QWebSocketServer-sslErrors-s.rst
+
+    .. sip:signal:: PyQt6.QtWebSockets.QWebSocketServer.sslErrorsOccurred
+        :args:
+            :sip:ref:`~PyQt6.QtNetwork.QSslSocket`
+            Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
+        :description: QtWebSockets/QWebSocketServer-sslErrorsOccurred-s.rst

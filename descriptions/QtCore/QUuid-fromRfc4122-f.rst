@@ -1,0 +1,15 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: d81774984afcccae475a640b99a40095
+    :realsig: (QByteArrayView)
+    :digest: 863e007c56aa896780c0a70b53038d27
+
+Creates a :sip:ref:`~PyQt6.QtCore.QUuid` object from the binary representation of the UUID, as specified by RFC 4122 section 4.1.2. See :sip:ref:`~PyQt6.QtCore.QUuid.toRfc4122` for a further explanation of the order of *bytes* required.
+
+The byte array accepted is NOT a human readable format.
+
+If the conversion fails, a null UUID is created.
+
+**Note:** In Qt versions prior to 6.3, this function took :sip:ref:`~PyQt6.QtCore.QByteArray`, not QByteArrayView.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QUuid.toRfc4122`, :sip:ref:`~PyQt6.QtCore.QUuid`, fromBytes().

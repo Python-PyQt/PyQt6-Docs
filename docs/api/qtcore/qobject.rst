@@ -89,38 +89,38 @@
     .. sip:method:: PyQt6.QtCore.QObject.findChild
         :args:
             type[QObjectT]
-            name: Optional[str] = ''
+            name: str|None = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             QObjectT
-        :description: QtCore/QObject-findChild-f.rst
+        :description: QtCore/QObject-findChild-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChild
         :args:
             tuple[type[QObjectT], ...]
-            name: Optional[str] = ''
+            name: str|None = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             QObjectT
-        :description: QtCore/QObject-findChild-f-1.rst
+        :description: QtCore/QObject-findChild-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             type[QObjectT]
-            name: Optional[str] = ''
+            name: str|None = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             list[QObjectT]
-        :description: QtCore/QObject-findChildren-f.rst
+        :description: QtCore/QObject-findChildren-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
             tuple[type[QObjectT], ...]
-            name: Optional[str] = ''
+            name: str|None = ''
             options: :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption` = :sip:ref:`~PyQt6.QtCore.Qt.FindChildOption.FindChildrenRecursively`
         :returns:
             list[QObjectT]
-        :description: QtCore/QObject-findChildren-f-1.rst
+        :description: QtCore/QObject-findChildren-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.findChildren
         :args:
@@ -158,6 +158,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
         :description: QtCore/QObject-installEventFilter-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QObject.isQmlExposed
+        :returns:
+            bool
+        :description: QtCore/QObject-isQmlExposed-f.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.isQuickItemType
         :returns:
@@ -242,8 +247,8 @@
 
     .. sip:method:: PyQt6.QtCore.QObject.setObjectName
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QObject-setObjectName-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QObject-setObjectName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QObject.setParent
         :args:
@@ -298,5 +303,5 @@
 
     .. sip:signal:: PyQt6.QtCore.QObject.objectNameChanged
         :args:
-            Optional[str]
-        :description: QtCore/QObject-objectNameChanged-s-1.rst
+            str|None
+        :description: QtCore/QObject-objectNameChanged-s.rst

@@ -31,29 +31,29 @@
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.boundingRect
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-boundingRect-f-6.rst
+        :description: QtGui/QFontMetrics-boundingRect-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.boundingRect
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QTextOption`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-boundingRect-f-7.rst
+        :description: QtGui/QFontMetrics-boundingRect-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.boundingRect
         :args:
             :sip:ref:`~PyQt6.QtCore.QRect`
             int
-            Optional[str]
+            str|None
             tabStops: int = 0
-            tabArray: Optional[list[int]] = None
+            tabArray: list[int]|None = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-boundingRect-f.rst
+        :description: QtGui/QFontMetrics-boundingRect-f-4.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.boundingRect
         :args:
@@ -62,12 +62,12 @@
             int
             int
             int
-            Optional[str]
+            str|None
             tabStops: int = 0
-            tabArray: Optional[list[int]] = None
+            tabArray: list[int]|None = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-boundingRect-f-1.rst
+        :description: QtGui/QFontMetrics-boundingRect-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.boundingRectChar
         :args:
@@ -88,13 +88,13 @@
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.elidedText
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.Qt.TextElideMode`
             int
             flags: int = 0
         :returns:
             str
-        :description: QtGui/QFontMetrics-elidedText-f-1.rst
+        :description: QtGui/QFontMetrics-elidedText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.__eq__
         :args:
@@ -115,19 +115,19 @@
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.horizontalAdvance
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QTextOption`
         :returns:
             int
-        :description: QtGui/QFontMetrics-horizontalAdvance-f-2.rst
+        :description: QtGui/QFontMetrics-horizontalAdvance-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.horizontalAdvance
         :args:
-            Optional[str]
+            str|None
             length: int = -1
         :returns:
             int
-        :description: QtGui/QFontMetrics-horizontalAdvance-f-3.rst
+        :description: QtGui/QFontMetrics-horizontalAdvance-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.inFont
         :args:
@@ -202,12 +202,12 @@
     .. sip:method:: PyQt6.QtGui.QFontMetrics.size
         :args:
             int
-            Optional[str]
+            str|None
             tabStops: int = 0
-            tabArray: Optional[list[int]] = None
+            tabArray: list[int]|None = None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QSize`
-        :description: QtGui/QFontMetrics-size-f.rst
+        :description: QtGui/QFontMetrics-size-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.strikeOutPos
         :returns:
@@ -221,18 +221,18 @@
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.tightBoundingRect
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-tightBoundingRect-f-2.rst
+        :description: QtGui/QFontMetrics-tightBoundingRect-f.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.tightBoundingRect
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QTextOption`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QRect`
-        :description: QtGui/QFontMetrics-tightBoundingRect-f-3.rst
+        :description: QtGui/QFontMetrics-tightBoundingRect-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFontMetrics.underlinePos
         :returns:

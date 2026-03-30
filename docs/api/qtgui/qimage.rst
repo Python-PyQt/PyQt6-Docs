@@ -153,9 +153,9 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
-            Optional[str]
+            str|None
             format: str = None
-        :description: QtGui/QImage-__init__-f-15.rst
+        :description: QtGui/QImage-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.__init__
         :args:
@@ -435,8 +435,8 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fill
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QImage-fill-f-4.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QImage-fill-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.flip
         :args:
@@ -466,12 +466,12 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.fromData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             format: str = None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QImage`
         :static:
-        :description: QtGui/QImage-fromData-f-2.rst
+        :description: QtGui/QImage-fromData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.fromHBITMAP
         :args:
@@ -524,11 +524,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.load
         :args:
-            Optional[str]
+            str|None
             format: str = None
         :returns:
             bool
-        :description: QtGui/QImage-load-f-2.rst
+        :description: QtGui/QImage-load-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.loadFromData
         :args:
@@ -540,11 +540,11 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.loadFromData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             format: str = None
         :returns:
             bool
-        :description: QtGui/QImage-loadFromData-f-2.rst
+        :description: QtGui/QImage-loadFromData-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.mirror
         :args:
@@ -649,12 +649,12 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.save
         :args:
-            Optional[str]
+            str|None
             format: str = None
             quality: int = -1
         :returns:
             bool
-        :description: QtGui/QImage-save-f-2.rst
+        :description: QtGui/QImage-save-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.save
         :args:
@@ -769,21 +769,21 @@
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             :sip:ref:`~PyQt6.QtCore.QPoint`
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QImage-setPixelColor-f-4.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QImage-setPixelColor-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setPixelColor
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QImage-setPixelColor-f-5.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QImage-setPixelColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.setText
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtGui/QImage-setText-f-1.rst
+            str|None
+            str|None
+        :description: QtGui/QImage-setText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.size
         :returns:
@@ -802,10 +802,10 @@
 
     .. sip:method:: PyQt6.QtGui.QImage.text
         :args:
-            key: Optional[str] = ''
+            key: str|None = ''
         :returns:
             str
-        :description: QtGui/QImage-text-f-1.rst
+        :description: QtGui/QImage-text-f.rst
 
     .. sip:method:: PyQt6.QtGui.QImage.textKeys
         :returns:

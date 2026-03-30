@@ -186,13 +186,13 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.setDownloadDirectory
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineDownloadRequest-setDownloadDirectory-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineDownloadRequest-setDownloadDirectory-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.setDownloadFileName
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineDownloadRequest-setDownloadFileName-f-1.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineDownloadRequest-setDownloadFileName-f.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineDownloadRequest.setSavePageFormat
         :args:

@@ -133,18 +133,18 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-setBorderColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-setBorderColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QLegend-setBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QLegend-setBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-setColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setFont
         :args:
@@ -158,13 +158,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setLabelBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QLegend-setLabelBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QLegend-setLabelBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setLabelColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-setLabelColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-setLabelColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setMarkerShape
         :args:
@@ -173,8 +173,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QLegend-setPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-setPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QLegend.setReverseMarkers
         :args:
@@ -208,13 +208,13 @@
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.borderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-borderColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-borderColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-colorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-colorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.fontChanged
         :args:
@@ -228,8 +228,8 @@
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.labelColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QLegend-labelColorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QLegend-labelColorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QLegend.markerShapeChanged
         :args:

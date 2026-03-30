@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtGui.QWhatsThisClickedEvent.__init__
         :args:
-            Optional[str]
-        :description: QtGui/QWhatsThisClickedEvent-__init__-f-1.rst
+            str|None
+        :description: QtGui/QWhatsThisClickedEvent-__init__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QWhatsThisClickedEvent.clone
         :returns:

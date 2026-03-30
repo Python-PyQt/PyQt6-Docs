@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QFilterKey.setName
         :args:
-            Optional[str]
-        :description: Qt3DRender/QFilterKey-setName-f-1.rst
+            str|None
+        :description: Qt3DRender/QFilterKey-setName-f.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QFilterKey.setValue
         :args:
@@ -31,8 +31,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QFilterKey.nameChanged
         :args:
-            Optional[str]
-        :description: Qt3DRender/QFilterKey-nameChanged-s-1.rst
+            str|None
+        :description: Qt3DRender/QFilterKey-nameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QFilterKey.valueChanged
         :args:

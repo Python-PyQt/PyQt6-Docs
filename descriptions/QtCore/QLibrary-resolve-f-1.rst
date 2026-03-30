@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: be4ed1229953949a964cd68cdb40a1b2
+    :realsig: (const QString&, int, const char*)
+    :digest: a46bf786daf161bb688207ca1db1bede
+
+Loads the library *fileName* with major version number *verNum* and returns the address of the exported symbol *symbol*. Note that *fileName* should not include the platform-specific file suffix; (see :sip:ref:`~PyQt6.QtCore.QLibrary.fileName`). The library remains loaded until the application exits. *verNum* is ignored on Windows.
+
+The function returns ``nullptr`` if the symbol could not be resolved or if the library could not be loaded.
+
+.. seealso:: :sip:ref:`~PyQt6.QtCore.QLibrary.resolve`.

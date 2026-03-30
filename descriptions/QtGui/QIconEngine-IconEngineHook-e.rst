@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 7d200743965a514dde2a3450131f6940
+    :digest: 78c347fb7fcf7d8a28d2ba9c9df10926
 
 These enum values are used for virtual_hook() to allow additional queries to icon engine without breaking binary compatibility.
 

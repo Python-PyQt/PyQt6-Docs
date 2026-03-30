@@ -11,6 +11,9 @@
             :sip:ref:`~PyQt6.QtNetwork.QAuthenticator`
         :description: QtNetwork/QAuthenticator-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtNetwork.QAuthenticator.clear
+        :description: QtNetwork/QAuthenticator-clear-f.rst
+
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.__eq__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QAuthenticator`
@@ -32,10 +35,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.option
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtNetwork/QAuthenticator-option-f-1.rst
+        :description: QtNetwork/QAuthenticator-option-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.options
         :returns:
@@ -54,19 +57,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setOption
         :args:
-            Optional[str]
+            str|None
             Any
-        :description: QtNetwork/QAuthenticator-setOption-f-1.rst
+        :description: QtNetwork/QAuthenticator-setOption-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setPassword
         :args:
-            Optional[str]
-        :description: QtNetwork/QAuthenticator-setPassword-f-1.rst
+            str|None
+        :description: QtNetwork/QAuthenticator-setPassword-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.setUser
         :args:
-            Optional[str]
-        :description: QtNetwork/QAuthenticator-setUser-f-1.rst
+            str|None
+        :description: QtNetwork/QAuthenticator-setUser-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QAuthenticator.user
         :returns:

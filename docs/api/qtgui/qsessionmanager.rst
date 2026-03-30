@@ -70,25 +70,25 @@
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.setDiscardCommand
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QSessionManager-setDiscardCommand-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QSessionManager-setDiscardCommand-f.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.setManagerProperty
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtGui/QSessionManager-setManagerProperty-f-2.rst
+            str|None
+            str|None
+        :description: QtGui/QSessionManager-setManagerProperty-f.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.setManagerProperty
         :args:
-            Optional[str]
-            Iterable[Optional[str]]
-        :description: QtGui/QSessionManager-setManagerProperty-f-3.rst
+            str|None
+            Iterable[str|None]
+        :description: QtGui/QSessionManager-setManagerProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.setRestartCommand
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QSessionManager-setRestartCommand-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QSessionManager-setRestartCommand-f.rst
 
     .. sip:method:: PyQt6.QtGui.QSessionManager.setRestartHint
         :args:

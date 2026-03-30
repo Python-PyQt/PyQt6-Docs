@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QAbstractSeries.setName
         :args:
-            Optional[str]
-        :description: QtCharts/QAbstractSeries-setName-f-1.rst
+            str|None
+        :description: QtCharts/QAbstractSeries-setName-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QAbstractSeries.setOpacity
         :args:

@@ -23,10 +23,10 @@
 
     .. sip:method:: PyQt6.QtGui.QValidator.fixup
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtGui/QValidator-fixup-f-1.rst
+        :description: QtGui/QValidator-fixup-f.rst
 
     .. sip:method:: PyQt6.QtGui.QValidator.locale
         :returns:
@@ -40,13 +40,13 @@
 
     .. sip:method:: PyQt6.QtGui.QValidator.validate
         :args:
-            Optional[str]
+            str|None
             int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QValidator.State`
             str
             int
-        :description: QtGui/QValidator-validate-f-1.rst
+        :description: QtGui/QValidator-validate-f.rst
 
     .. sip:signal:: PyQt6.QtGui.QValidator.changed
         :description: QtGui/QValidator-changed-s.rst

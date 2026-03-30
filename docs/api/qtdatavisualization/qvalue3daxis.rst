@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxis.setLabelFormat
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QValue3DAxis-setLabelFormat-f-1.rst
+            str|None
+        :description: QtDataVisualization/QValue3DAxis-setLabelFormat-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QValue3DAxis.setReversed
         :args:
@@ -66,8 +66,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QValue3DAxis.labelFormatChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QValue3DAxis-labelFormatChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QValue3DAxis-labelFormatChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QValue3DAxis.reversedChanged
         :args:

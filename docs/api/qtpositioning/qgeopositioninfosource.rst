@@ -50,10 +50,10 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.backendProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtPositioning/QGeoPositionInfoSource-backendProperty-f-1.rst
+        :description: QtPositioning/QGeoPositionInfoSource-backendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.createDefaultSource
         :args:
@@ -65,31 +65,31 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.createDefaultSource
         :args:
-            dict[Optional[str], Any]
+            dict[str|None, Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoPositionInfoSource`
         :static:
-        :description: QtPositioning/QGeoPositionInfoSource-createDefaultSource-f-1.rst
+        :description: QtPositioning/QGeoPositionInfoSource-createDefaultSource-f-2.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.createSource
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoPositionInfoSource`
         :static:
-        :description: QtPositioning/QGeoPositionInfoSource-createSource-f-2.rst
+        :description: QtPositioning/QGeoPositionInfoSource-createSource-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.createSource
         :args:
-            Optional[str]
-            dict[Optional[str], Any]
+            str|None
+            dict[str|None, Any]
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoPositionInfoSource`
         :static:
-        :description: QtPositioning/QGeoPositionInfoSource-createSource-f.rst
+        :description: QtPositioning/QGeoPositionInfoSource-createSource-f-3.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.error
         :returns:
@@ -120,11 +120,11 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.setBackendProperty
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             bool
-        :description: QtPositioning/QGeoPositionInfoSource-setBackendProperty-f-1.rst
+        :description: QtPositioning/QGeoPositionInfoSource-setBackendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfoSource.setPreferredPositioningMethods
         :args:

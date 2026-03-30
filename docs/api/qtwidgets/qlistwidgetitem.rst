@@ -25,18 +25,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QListWidget` = None
             type: int = :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.ItemType.Type`
-        :description: QtWidgets/QListWidgetItem-__init__-f-4.rst
+        :description: QtWidgets/QListWidgetItem-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QListWidget` = None
             type: int = :sip:ref:`~PyQt6.QtWidgets.QListWidgetItem.ItemType.Type`
-        :description: QtWidgets/QListWidgetItem-__init__-f-5.rst
+        :description: QtWidgets/QListWidgetItem-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.background
         :returns:
@@ -116,8 +116,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setBackground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QListWidgetItem-setBackground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtWidgets/QListWidgetItem-setBackground-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setCheckState
         :args:
@@ -142,8 +142,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setForeground
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtWidgets/QListWidgetItem-setForeground-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtWidgets/QListWidgetItem-setForeground-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setHidden
         :args:
@@ -167,13 +167,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setStatusTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QListWidgetItem-setStatusTip-f-1.rst
+            str|None
+        :description: QtWidgets/QListWidgetItem-setStatusTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setText
         :args:
-            Optional[str]
-        :description: QtWidgets/QListWidgetItem-setText-f-1.rst
+            str|None
+        :description: QtWidgets/QListWidgetItem-setText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setTextAlignment
         :args:
@@ -187,13 +187,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setToolTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QListWidgetItem-setToolTip-f-1.rst
+            str|None
+        :description: QtWidgets/QListWidgetItem-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.setWhatsThis
         :args:
-            Optional[str]
-        :description: QtWidgets/QListWidgetItem-setWhatsThis-f-1.rst
+            str|None
+        :description: QtWidgets/QListWidgetItem-setWhatsThis-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QListWidgetItem.sizeHint
         :returns:

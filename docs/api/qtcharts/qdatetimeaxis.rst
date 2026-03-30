@@ -26,24 +26,24 @@
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setFormat
         :args:
-            Optional[str]
-        :description: QtCharts/QDateTimeAxis-setFormat-f-1.rst
+            str|None
+        :description: QtCharts/QDateTimeAxis-setFormat-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setMax
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-setMax-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-setMax-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setMin
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-setMin-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-setMin-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setRange
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-setRange-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-setRange-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QDateTimeAxis.setTickCount
         :args:
@@ -62,24 +62,24 @@
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.formatChanged
         :args:
-            Optional[str]
-        :description: QtCharts/QDateTimeAxis-formatChanged-s-1.rst
+            str|None
+        :description: QtCharts/QDateTimeAxis-formatChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.maxChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-maxChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-maxChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.minChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-minChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-minChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.rangeChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCharts/QDateTimeAxis-rangeChanged-s.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCharts/QDateTimeAxis-rangeChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtCharts.QDateTimeAxis.tickCountChanged
         :args:

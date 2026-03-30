@@ -44,10 +44,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPicture.load
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtGui/QPicture-load-f-2.rst
+        :description: QtGui/QPicture-load-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPicture.load
         :args:
@@ -77,10 +77,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPicture.save
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtGui/QPicture-save-f-2.rst
+        :description: QtGui/QPicture-save-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPicture.save
         :args:

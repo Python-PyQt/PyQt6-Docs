@@ -142,12 +142,12 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.execute
         :args:
-            Optional[str]
-            arguments: Iterable[Optional[str]] = []
+            str|None
+            arguments: Iterable[str|None] = []
         :returns:
             int
         :static:
-        :description: QtCore/QProcess-execute-f-1.rst
+        :description: QtCore/QProcess-execute-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.exitCode
         :returns:
@@ -234,8 +234,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setArguments
         :args:
-            Iterable[Optional[str]]
-        :description: QtCore/QProcess-setArguments-f-1.rst
+            Iterable[str|None]
+        :description: QtCore/QProcess-setArguments-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setInputChannelMode
         :args:
@@ -244,8 +244,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setNativeArguments
         :args:
-            Optional[str]
-        :description: QtCore/QProcess-setNativeArguments-f.rst
+            str|None
+        :description: QtCore/QProcess-setNativeArguments-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setProcessChannelMode
         :args:
@@ -264,8 +264,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setProgram
         :args:
-            Optional[str]
-        :description: QtCore/QProcess-setProgram-f-1.rst
+            str|None
+        :description: QtCore/QProcess-setProgram-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setReadChannel
         :args:
@@ -274,20 +274,20 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardErrorFile
         :args:
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.Truncate`
-        :description: QtCore/QProcess-setStandardErrorFile-f-2.rst
+        :description: QtCore/QProcess-setStandardErrorFile-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardInputFile
         :args:
-            Optional[str]
-        :description: QtCore/QProcess-setStandardInputFile-f-1.rst
+            str|None
+        :description: QtCore/QProcess-setStandardInputFile-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardOutputFile
         :args:
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.Truncate`
-        :description: QtCore/QProcess-setStandardOutputFile-f-2.rst
+        :description: QtCore/QProcess-setStandardOutputFile-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.setStandardOutputProcess
         :args:
@@ -306,8 +306,8 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.setWorkingDirectory
         :args:
-            Optional[str]
-        :description: QtCore/QProcess-setWorkingDirectory-f-1.rst
+            str|None
+        :description: QtCore/QProcess-setWorkingDirectory-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.start
         :args:
@@ -316,16 +316,16 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.start
         :args:
-            Optional[str]
-            arguments: Iterable[Optional[str]] = []
+            str|None
+            arguments: Iterable[str|None] = []
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtCore/QProcess-start-f-4.rst
+        :description: QtCore/QProcess-start-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.startCommand
         :args:
-            Optional[str]
+            str|None
             mode: :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag` = :sip:ref:`~PyQt6.QtCore.QIODeviceBase.OpenModeFlag.ReadWrite`
-        :description: QtCore/QProcess-startCommand-f-2.rst
+        :description: QtCore/QProcess-startCommand-f.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.startDetached
         :returns:
@@ -335,14 +335,14 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.startDetached
         :args:
-            Optional[str]
-            arguments: Iterable[Optional[str]] = []
-            workingDirectory: Optional[str] = ''
+            str|None
+            arguments: Iterable[str|None] = []
+            workingDirectory: str|None = ''
         :returns:
             bool
             int
         :static:
-        :description: QtCore/QProcess-startDetached-f-2.rst
+        :description: QtCore/QProcess-startDetached-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QProcess.state
         :returns:
@@ -398,10 +398,10 @@
 
     .. sip:method:: PyQt6.QtCore.QProcess.writeData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QProcess-writeData-f-1.rst
+        :description: QtCore/QProcess-writeData-f.rst
 
     .. sip:signal:: PyQt6.QtCore.QProcess.errorOccurred
         :args:

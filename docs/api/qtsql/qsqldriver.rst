@@ -156,11 +156,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.escapeIdentifier
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             str
-        :description: QtSql/QSqlDriver-escapeIdentifier-f-1.rst
+        :description: QtSql/QSqlDriver-escapeIdentifier-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.formatValue
         :args:
@@ -184,11 +184,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.isIdentifierEscaped
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             bool
-        :description: QtSql/QSqlDriver-isIdentifierEscaped-f-1.rst
+        :description: QtSql/QSqlDriver-isIdentifierEscaped-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.isOpen
         :returns:
@@ -219,29 +219,29 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.open
         :args:
-            Optional[str]
-            user: Optional[str] = ''
-            password: Optional[str] = ''
-            host: Optional[str] = ''
+            str|None
+            user: str|None = ''
+            password: str|None = ''
+            host: str|None = ''
             port: int = -1
-            options: Optional[str] = ''
+            options: str|None = ''
         :returns:
             bool
-        :description: QtSql/QSqlDriver-open-f-1.rst
+        :description: QtSql/QSqlDriver-open-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.primaryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlIndex`
-        :description: QtSql/QSqlDriver-primaryIndex-f-1.rst
+        :description: QtSql/QSqlDriver-primaryIndex-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.record
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
-        :description: QtSql/QSqlDriver-record-f-1.rst
+        :description: QtSql/QSqlDriver-record-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.rollbackTransaction
         :returns:
@@ -271,20 +271,20 @@
     .. sip:method:: PyQt6.QtSql.QSqlDriver.sqlStatement
         :args:
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.StatementType`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
             bool
         :returns:
             str
-        :description: QtSql/QSqlDriver-sqlStatement-f-1.rst
+        :description: QtSql/QSqlDriver-sqlStatement-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.stripDelimiters
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.IdentifierType`
         :returns:
             str
-        :description: QtSql/QSqlDriver-stripDelimiters-f-1.rst
+        :description: QtSql/QSqlDriver-stripDelimiters-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribedToNotifications
         :returns:
@@ -293,10 +293,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.subscribeToNotification
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlDriver-subscribeToNotification-f-1.rst
+        :description: QtSql/QSqlDriver-subscribeToNotification-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.tables
         :args:
@@ -307,14 +307,14 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDriver.unsubscribeFromNotification
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlDriver-unsubscribeFromNotification-f-1.rst
+        :description: QtSql/QSqlDriver-unsubscribeFromNotification-f.rst
 
     .. sip:signal:: PyQt6.QtSql.QSqlDriver.notification
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlDriver.NotificationSource`
             Any
-        :description: QtSql/QSqlDriver-notification-s-1.rst
+        :description: QtSql/QSqlDriver-notification-s.rst

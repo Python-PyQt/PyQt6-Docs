@@ -83,8 +83,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.setLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtDataVisualization/QAbstract3DAxis-setLabels-f-1.rst
+            Iterable[str|None]
+        :description: QtDataVisualization/QAbstract3DAxis-setLabels-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.setMax
         :args:
@@ -104,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.setTitle
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DAxis-setTitle-f-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DAxis-setTitle-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DAxis.setTitleFixed
         :args:
@@ -163,8 +163,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DAxis.titleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DAxis-titleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DAxis-titleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DAxis.titleFixedChanged
         :args:

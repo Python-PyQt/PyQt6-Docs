@@ -181,6 +181,6 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlQueryModel.setQuery
         :args:
-            Optional[str]
+            str|None
             db: :sip:ref:`~PyQt6.QtSql.QSqlDatabase` = QSqlDatabase()
-        :description: QtSql/QSqlQueryModel-setQuery-f-2.rst
+        :description: QtSql/QSqlQueryModel-setQuery-f-1.rst

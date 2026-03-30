@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Date functions
-    :digest: 7c409d6962c54814bf4c3a82903f2060
+    :digest: 53134a7520cef84a18709c3fe4b09faf
 
 The :sip:ref:`~PyQt6.QtCore.QDate` class provides date functions.
 
@@ -33,7 +33,7 @@ In the Gregorian calendar, there is no year 0. Dates in that year are considered
 Range of Valid Dates
 ....................
 
-Dates are stored internally as a Julian Day number, an integer count of every day in a contiguous range, with 24 November 4714 BCE in the Gregorian calendar being Julian Day 0 (1 January 4713 BCE in the Julian calendar). As well as being an efficient and accurate way of storing an absolute date, it is suitable for converting a date into other calendar systems such as Hebrew, Islamic or Chinese. The Julian Day number can be obtained using :sip:ref:`~PyQt6.QtCore.QDate.toJulianDay` and can be set using :sip:ref:`~PyQt6.QtCore.QDate.fromJulianDay`.
+Dates are stored internally as a modified Julian Day number, an integer count of every day in a contiguous range, with 24 November 4714 BCE in the Gregorian calendar being Julian Day 0 (1 January 4713 BCE in the Julian calendar). As well as being an efficient and accurate way of storing an absolute date, it is suitable for converting a date into other calendar systems such as Hebrew, Islamic or Chinese. For the purposes of :sip:ref:`~PyQt6.QtCore.QDate`, Julian Days are delimited at midnight and, for those of :sip:ref:`~PyQt6.QtCore.QDateTime`, in the zone used by the datetime. (This departs from the formal definition, which delimits Julian Days at UTC noon.) The Julian Day number can be obtained using :sip:ref:`~PyQt6.QtCore.QDate.toJulianDay` and can be set using :sip:ref:`~PyQt6.QtCore.QDate.fromJulianDay`.
 
 The range of Julian Day numbers that :sip:ref:`~PyQt6.QtCore.QDate` can represent is, for technical reasons, limited to between -784350574879 and 784354017364, which means from before 2 billion BCE to after 2 billion CE. This is more than seven times as wide as the range of dates a :sip:ref:`~PyQt6.QtCore.QDateTime` can represent.
 

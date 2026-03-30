@@ -98,8 +98,8 @@
 
     .. sip:method:: PyQt6.QtCore.QTimeLine.setEasingCurve
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: QtCore/QTimeLine-setEasingCurve-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: QtCore/QTimeLine-setEasingCurve-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTimeLine.setEndFrame
         :args:

@@ -54,10 +54,10 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.isServiceRegistered
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-isServiceRegistered-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-isServiceRegistered-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.registeredServiceNames
         :returns:
@@ -66,54 +66,54 @@
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.registerService
         :args:
-            Optional[str]
+            str|None
             qoption: :sip:ref:`~PyQt6.QtDBus.QDBusConnectionInterface.ServiceQueueOptions` = :sip:ref:`~PyQt6.QtDBus.QDBusConnectionInterface.ServiceQueueOptions.DontQueueService`
             roption: :sip:ref:`~PyQt6.QtDBus.QDBusConnectionInterface.ServiceReplacementOptions` = :sip:ref:`~PyQt6.QtDBus.QDBusConnectionInterface.ServiceReplacementOptions.DontAllowReplacement`
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-registerService-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-registerService-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.serviceCredentials
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-serviceCredentials-f.rst
+        :description: QtDBus/QDBusConnectionInterface-serviceCredentials-f-1.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.serviceOwner
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-serviceOwner-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-serviceOwner-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.servicePid
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-servicePid-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-servicePid-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.serviceUid
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-serviceUid-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-serviceUid-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.startService
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-startService-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-startService-f.rst
 
     .. sip:method:: PyQt6.QtDBus.QDBusConnectionInterface.unregisterService
         :args:
-            Optional[str]
+            str|None
         :returns:
             QDBusReply
-        :description: QtDBus/QDBusConnectionInterface-unregisterService-f-1.rst
+        :description: QtDBus/QDBusConnectionInterface-unregisterService-f.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusConnectionInterface.callWithCallbackFailed
         :args:
@@ -123,17 +123,17 @@
 
     .. sip:signal:: PyQt6.QtDBus.QDBusConnectionInterface.serviceOwnerChanged
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtDBus/QDBusConnectionInterface-serviceOwnerChanged-s-1.rst
+            str|None
+            str|None
+            str|None
+        :description: QtDBus/QDBusConnectionInterface-serviceOwnerChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusConnectionInterface.serviceRegistered
         :args:
-            Optional[str]
-        :description: QtDBus/QDBusConnectionInterface-serviceRegistered-s-1.rst
+            str|None
+        :description: QtDBus/QDBusConnectionInterface-serviceRegistered-s.rst
 
     .. sip:signal:: PyQt6.QtDBus.QDBusConnectionInterface.serviceUnregistered
         :args:
-            Optional[str]
-        :description: QtDBus/QDBusConnectionInterface-serviceUnregistered-s-1.rst
+            str|None
+        :description: QtDBus/QDBusConnectionInterface-serviceUnregistered-s.rst

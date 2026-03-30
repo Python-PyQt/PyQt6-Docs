@@ -125,8 +125,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setBaseColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-setBaseColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-setBaseColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setBaseGradient
         :args:
@@ -140,8 +140,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setItemLabelFormat
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-setItemLabelFormat-f-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-setItemLabelFormat-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setItemLabelVisible
         :args:
@@ -171,8 +171,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setMultiHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-setMultiHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-setMultiHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setMultiHighlightGradient
         :args:
@@ -181,13 +181,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setName
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-setName-f-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-setName-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setSingleHighlightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-setSingleHighlightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-setSingleHighlightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setSingleHighlightGradient
         :args:
@@ -196,8 +196,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setUserDefinedMesh
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-setUserDefinedMesh-f-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-setUserDefinedMesh-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QAbstract3DSeries.setVisible
         :args:
@@ -226,8 +226,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.baseColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-baseColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-baseColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.baseGradientChanged
         :args:
@@ -241,13 +241,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-itemLabelChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-itemLabelChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelFormatChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-itemLabelFormatChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-itemLabelFormatChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.itemLabelVisibilityChanged
         :args:
@@ -271,8 +271,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.multiHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-multiHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-multiHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.multiHighlightGradientChanged
         :args:
@@ -281,13 +281,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.nameChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-nameChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-nameChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.singleHighlightColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QAbstract3DSeries-singleHighlightColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QAbstract3DSeries-singleHighlightColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.singleHighlightGradientChanged
         :args:
@@ -296,8 +296,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.userDefinedMeshChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QAbstract3DSeries-userDefinedMeshChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QAbstract3DSeries-userDefinedMeshChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QAbstract3DSeries.visibilityChanged
         :args:

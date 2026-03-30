@@ -986,8 +986,8 @@
         :args:
             int
         :returns:
-            Union[int, tuple[int, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenBuffers-f-1.rst
+            int|tuple[int, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenBuffers-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGenLists
         :args:
@@ -1000,15 +1000,15 @@
         :args:
             int
         :returns:
-            Union[int, tuple[int, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenQueries-f-1.rst
+            int|tuple[int, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenQueries-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGenTextures
         :args:
             int
         :returns:
-            Union[int, tuple[int, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenTextures-f-1.rst
+            int|tuple[int, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGenTextures-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetActiveAttrib
         :args:
@@ -1045,8 +1045,8 @@
         :args:
             int
         :returns:
-            Union[bool, tuple[bool, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetBooleanv-f-1.rst
+            bool|tuple[bool, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetBooleanv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetBufferParameteriv
         :args:
@@ -1068,39 +1068,39 @@
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetColorTableParameterfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetColorTableParameterfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetColorTableParameteriv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetColorTableParameteriv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetColorTableParameteriv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetConvolutionParameterfv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetConvolutionParameterfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetConvolutionParameterfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetConvolutionParameteriv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetConvolutionParameteriv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetConvolutionParameteriv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetDoublev
         :args:
             int
         :returns:
-            Union[float, tuple[float, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetDoublev-f-1.rst
+            float|tuple[float, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetDoublev-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetError
         :returns:
@@ -1111,47 +1111,47 @@
         :args:
             int
         :returns:
-            Union[float, tuple[float, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetFloatv-f-1.rst
+            float|tuple[float, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetFloatv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetIntegerv
         :args:
             int
         :returns:
-            Union[int, tuple[int, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetIntegerv-f-1.rst
+            int|tuple[int, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetIntegerv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetLightfv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float], tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetLightfv-f-1.rst
+            float|tuple[float, float, float]|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetLightfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetLightiv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int], tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetLightiv-f-1.rst
+            int|tuple[int, int, int]|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetLightiv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetMaterialfv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float], tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetMaterialfv-f-1.rst
+            float|tuple[float, float, float]|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetMaterialfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetMaterialiv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int], tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetMaterialiv-f-1.rst
+            int|tuple[int, int, int]|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetMaterialiv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetProgramInfoLog
         :args:
@@ -1165,8 +1165,8 @@
             int
             int
         :returns:
-            Union[int, tuple[int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetProgramiv-f-1.rst
+            int|tuple[int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetProgramiv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetQueryiv
         :args:
@@ -1210,40 +1210,40 @@
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexEnvfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexEnvfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexEnviv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexEnviv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexEnviv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexGendv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGendv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGendv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexGenfv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGenfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGenfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexGeniv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGeniv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexGeniv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexLevelParameterfv
         :args:
@@ -1268,16 +1268,16 @@
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexParameterfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexParameterfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetTexParameteriv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexParameteriv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetTexParameteriv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetUniformLocation
         :args:
@@ -1292,24 +1292,24 @@
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribdv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribdv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetVertexAttribfv
         :args:
             int
             int
         :returns:
-            Union[float, tuple[float, float, float, float]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribfv-f-1.rst
+            float|tuple[float, float, float, float]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribfv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glGetVertexAttribiv
         :args:
             int
             int
         :returns:
-            Union[int, tuple[int, int, int, int]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribiv-f-1.rst
+            int|tuple[int, int, int, int]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glGetVertexAttribiv-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glHint
         :args:
@@ -2276,8 +2276,8 @@
             int
             int
         :returns:
-            Union[tuple[float, ...], tuple[int, ...]]
-        :description: QtOpenGL/QOpenGLFunctions_2_0-glReadPixels-f-1.rst
+            tuple[float, ...]|tuple[int, ...]
+        :description: QtOpenGL/QOpenGLFunctions_2_0-glReadPixels-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLFunctions_2_0.glRectd
         :args:

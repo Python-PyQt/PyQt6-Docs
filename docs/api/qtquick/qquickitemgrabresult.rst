@@ -18,10 +18,10 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItemGrabResult.saveToFile
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtQuick/QQuickItemGrabResult-saveToFile-f-2.rst
+        :description: QtQuick/QQuickItemGrabResult-saveToFile-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItemGrabResult.saveToFile
         :args:

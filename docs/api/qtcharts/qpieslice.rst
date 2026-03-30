@@ -26,10 +26,10 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.__init__
         :args:
-            Optional[str]
+            str|None
             float
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtCharts/QPieSlice-__init__-f-2.rst
+        :description: QtCharts/QPieSlice-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.angleSpan
         :returns:
@@ -118,8 +118,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QPieSlice-setBorderColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QPieSlice-setBorderColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setBorderWidth
         :args:
@@ -128,13 +128,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QPieSlice-setBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QPieSlice-setBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QPieSlice-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QPieSlice-setColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setExploded
         :args:
@@ -148,8 +148,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setLabel
         :args:
-            Optional[str]
-        :description: QtCharts/QPieSlice-setLabel-f-1.rst
+            str|None
+        :description: QtCharts/QPieSlice-setLabel-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setLabelArmLengthFactor
         :args:
@@ -158,13 +158,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setLabelBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QPieSlice-setLabelBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QPieSlice-setLabelBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setLabelColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtCharts/QPieSlice-setLabelColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QPieSlice-setLabelColor-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setLabelFont
         :args:
@@ -183,8 +183,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QPieSlice-setPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QPieSlice-setPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QPieSlice.setValue
         :args:

@@ -24,8 +24,8 @@
 
     .. sip:method:: PyQt6.QtXml.QDomProcessingInstruction.setData
         :args:
-            Optional[str]
-        :description: QtXml/QDomProcessingInstruction-setData-f-1.rst
+            str|None
+        :description: QtXml/QDomProcessingInstruction-setData-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomProcessingInstruction.target
         :returns:

@@ -134,10 +134,10 @@
             int
             int
             str
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtQml/qmlRegisterTypeNotAvailable-f-1.rst
+        :description: QtQml/qmlRegisterTypeNotAvailable-f.rst
 
     .. sip:method:: PyQt6.QtQml.qmlRegisterUncreatableMetaObject
         :args:
@@ -146,10 +146,10 @@
             int
             int
             str
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtQml/qmlRegisterUncreatableMetaObject-f-1.rst
+        :description: QtQml/qmlRegisterUncreatableMetaObject-f.rst
 
     .. sip:method:: PyQt6.QtQml.qmlRegisterUncreatableType
         :args:
@@ -157,11 +157,11 @@
             str
             int
             int
-            Optional[str]
+            str|None
             qmlName: str = None
         :returns:
             int
-        :description: QtQml/qmlRegisterUncreatableType-f-1.rst
+        :description: QtQml/qmlRegisterUncreatableType-f.rst
 
     .. sip:method:: PyQt6.QtQml.qmlTypeId
         :args:

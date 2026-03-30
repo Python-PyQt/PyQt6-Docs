@@ -14,19 +14,19 @@
     .. sip:method:: PyQt6.QtDesigner.QAbstractExtensionManager.extension
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDesigner/QAbstractExtensionManager-extension-f-1.rst
+        :description: QtDesigner/QAbstractExtensionManager-extension-f.rst
 
     .. sip:method:: PyQt6.QtDesigner.QAbstractExtensionManager.registerExtensions
         :args:
             :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionFactory`
-            Optional[str]
-        :description: QtDesigner/QAbstractExtensionManager-registerExtensions-f-1.rst
+            str|None
+        :description: QtDesigner/QAbstractExtensionManager-registerExtensions-f.rst
 
     .. sip:method:: PyQt6.QtDesigner.QAbstractExtensionManager.unregisterExtensions
         :args:
             :sip:ref:`~PyQt6.QtDesigner.QAbstractExtensionFactory`
-            Optional[str]
-        :description: QtDesigner/QAbstractExtensionManager-unregisterExtensions-f-1.rst
+            str|None
+        :description: QtDesigner/QAbstractExtensionManager-unregisterExtensions-f.rst

@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.highlightBlock
         :args:
-            Optional[str]
-        :description: QtGui/QSyntaxHighlighter-highlightBlock-f-1.rst
+            str|None
+        :description: QtGui/QSyntaxHighlighter-highlightBlock-f.rst
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.previousBlockState
         :returns:
@@ -85,8 +85,8 @@
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGui/QSyntaxHighlighter-setFormat-f-4.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGui/QSyntaxHighlighter-setFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QSyntaxHighlighter.setFormat
         :args:

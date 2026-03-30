@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QByteArray-__init__-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QByteArray-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__init__
         :args:
@@ -55,17 +55,17 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__add__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-__add__-f-1.rst
+        :description: QtCore/QByteArray-__add__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.append
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-append-f.rst
+        :description: QtCore/QByteArray-append-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.append
         :args:
@@ -77,10 +77,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.assign
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-assign-f.rst
+        :description: QtCore/QByteArray-assign-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.at
         :args:
@@ -111,25 +111,25 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.compare
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             cs: :sip:ref:`~PyQt6.QtCore.Qt.CaseSensitivity` = :sip:ref:`~PyQt6.QtCore.Qt.CaseSensitivity.CaseSensitive`
         :returns:
             int
-        :description: QtCore/QByteArray-compare-f.rst
+        :description: QtCore/QByteArray-compare-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.contains
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-contains-f.rst
+        :description: QtCore/QByteArray-contains-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__contains__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             int
-        :description: QtCore/QByteArray-__contains__-f.rst
+        :description: QtCore/QByteArray-__contains__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.count
         :returns:
@@ -138,10 +138,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.count
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             int
-        :description: QtCore/QByteArray-count-f-1.rst
+        :description: QtCore/QByteArray-count-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.data
         :returns:
@@ -150,24 +150,24 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.endsWith
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-endsWith-f.rst
+        :description: QtCore/QByteArray-endsWith-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__eq__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__eq__-f-2.rst
+        :description: QtCore/QByteArray-__eq__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__eq__-f-3.rst
+        :description: QtCore/QByteArray-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fill
         :args:
@@ -186,52 +186,52 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromBase64
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QByteArray-fromBase64-f-2.rst
+        :description: QtCore/QByteArray-fromBase64-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromBase64Encoding
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             options: :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option` = :sip:ref:`~PyQt6.QtCore.QByteArray.Base64Option.Base64Encoding`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray.FromBase64Result`
         :static:
-        :description: QtCore/QByteArray-fromBase64Encoding-f-2.rst
+        :description: QtCore/QByteArray-fromBase64Encoding-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromHex
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QByteArray-fromHex-f-1.rst
+        :description: QtCore/QByteArray-fromHex-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.fromPercentEncoding
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             percent: str = '%'
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
         :static:
-        :description: QtCore/QByteArray-fromPercentEncoding-f-1.rst
+        :description: QtCore/QByteArray-fromPercentEncoding-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__ge__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__ge__-f-2.rst
+        :description: QtCore/QByteArray-__ge__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__ge__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__ge__-f-3.rst
+        :description: QtCore/QByteArray-__ge__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__getitem__
         :args:
@@ -249,17 +249,17 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__gt__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__gt__-f-2.rst
+        :description: QtCore/QByteArray-__gt__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__gt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__gt__-f-3.rst
+        :description: QtCore/QByteArray-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__hash__
         :returns:
@@ -268,10 +268,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__iadd__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-__iadd__-f.rst
+        :description: QtCore/QByteArray-__iadd__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__imul__
         :args:
@@ -282,19 +282,19 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.indexOf
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             from: int = 0
         :returns:
             int
-        :description: QtCore/QByteArray-indexOf-f.rst
+        :description: QtCore/QByteArray-indexOf-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.insert
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-insert-f.rst
+        :description: QtCore/QByteArray-insert-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.insert
         :args:
@@ -339,25 +339,25 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.lastIndexOf
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             from: int = -1
         :returns:
             int
-        :description: QtCore/QByteArray-lastIndexOf-f.rst
+        :description: QtCore/QByteArray-lastIndexOf-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__le__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__le__-f-2.rst
+        :description: QtCore/QByteArray-__le__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__le__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__le__-f-3.rst
+        :description: QtCore/QByteArray-__le__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.left
         :args:
@@ -387,17 +387,17 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__lt__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__lt__-f-2.rst
+        :description: QtCore/QByteArray-__lt__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__lt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__lt__-f-3.rst
+        :description: QtCore/QByteArray-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.max_size
         :returns:
@@ -427,17 +427,17 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__ne__
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QByteArray-__ne__-f-2.rst
+        :description: QtCore/QByteArray-__ne__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-__ne__-f-3.rst
+        :description: QtCore/QByteArray-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.nullTerminate
         :returns:
@@ -477,10 +477,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.prepend
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-prepend-f.rst
+        :description: QtCore/QByteArray-prepend-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.prepend
         :args:
@@ -492,13 +492,13 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.push_back
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QByteArray-push_back-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QByteArray-push_back-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.push_front
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QByteArray-push_front-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QByteArray-push_front-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.remove
         :args:
@@ -534,20 +534,20 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.replace
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-replace-f.rst
+        :description: QtCore/QByteArray-replace-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.replace
         :args:
             int
             int
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-replace-f-1.rst
+        :description: QtCore/QByteArray-replace-f-3.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__repr__
         :returns:
@@ -655,10 +655,10 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.startsWith
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtCore/QByteArray-startsWith-f.rst
+        :description: QtCore/QByteArray-startsWith-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.__str__
         :returns:
@@ -727,12 +727,12 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toPercentEncoding
         :args:
-            exclude: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-            include: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            exclude: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+            include: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
             percent: str = '%'
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/QByteArray-toPercentEncoding-f-1.rst
+        :description: QtCore/QByteArray-toPercentEncoding-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArray.toShort
         :args:

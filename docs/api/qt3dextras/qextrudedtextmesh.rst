@@ -31,8 +31,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.QExtrudedTextMesh.setText
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QExtrudedTextMesh-setText-f-1.rst
+            str|None
+        :description: Qt3DExtras/QExtrudedTextMesh-setText-f.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.QExtrudedTextMesh.text
         :returns:
@@ -51,5 +51,5 @@
 
     .. sip:signal:: PyQt6.Qt3DExtras.QExtrudedTextMesh.textChanged
         :args:
-            Optional[str]
-        :description: Qt3DExtras/QExtrudedTextMesh-textChanged-s-1.rst
+            str|None
+        :description: Qt3DExtras/QExtrudedTextMesh-textChanged-s.rst

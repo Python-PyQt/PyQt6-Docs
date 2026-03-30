@@ -23,11 +23,11 @@
 
     .. sip:method:: PyQt6.QtCore.QCollator.compare
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             int
-        :description: QtCore/QCollator-compare-f-1.rst
+        :description: QtCore/QCollator-compare-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCollator.defaultCompare
         :args:
@@ -83,10 +83,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCollator.sortKey
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QCollatorSortKey`
-        :description: QtCore/QCollator-sortKey-f-1.rst
+        :description: QtCore/QCollator-sortKey-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCollator.swap
         :args:

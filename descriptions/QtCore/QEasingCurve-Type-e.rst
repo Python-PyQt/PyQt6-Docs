@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 936c91e374e52ed163280b5e5d6fa67a
+    :digest: 5ed77d3a9c2d183841bd38add0bfcaf5
 
 The type of easing curve.
 
@@ -145,6 +145,8 @@ Easing curve for a back (overshooting cubic function: (s+1)\*t^3 - s\*t^2) easin
 Easing curve for a back (overshooting cubic function: (s+1)\*t^3 - s\*t^2) easing out: decelerating to zero velocity.
 
 .. image:: ../../../images/qeasingcurve-inoutback.png
+
+InOutBack function}
 
 Easing curve for a back (overshooting cubic function: (s+1)\*t^3 - s\*t^2) easing in/out: acceleration until halfway, then deceleration.
 

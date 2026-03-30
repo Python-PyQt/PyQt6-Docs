@@ -44,31 +44,31 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtCore/QDateTime-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtCore/QDateTime-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution`
-        :description: QtCore/QDateTime-__init__-f-5.rst
+        :description: QtCore/QDateTime-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             spec: :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec` = :sip:ref:`~PyQt6.QtCore.Qt.TimeSpec.LocalTime`
             offsetSeconds: int = 0
-        :description: QtCore/QDateTime-__init__-f-3.rst
+        :description: QtCore/QDateTime-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             :sip:ref:`~PyQt6.QtCore.QTimeZone`
             resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
-        :description: QtCore/QDateTime-__init__-f-6.rst
+        :description: QtCore/QDateTime-__init__-f-9.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__init__
         :args:
@@ -161,17 +161,17 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.daysTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             int
-        :description: QtCore/QDateTime-daysTo-f.rst
+        :description: QtCore/QDateTime-daysTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__eq__-f.rst
+        :description: QtCore/QDateTime-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromMSecsSinceEpoch
         :args:
@@ -213,47 +213,47 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromString
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :static:
-        :description: QtCore/QDateTime-fromString-f-2.rst
+        :description: QtCore/QDateTime-fromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromString
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :static:
-        :description: QtCore/QDateTime-fromString-f-3.rst
+        :description: QtCore/QDateTime-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.fromString
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             int
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QDateTime`
         :static:
-        :description: QtCore/QDateTime-fromString-f-4.rst
+        :description: QtCore/QDateTime-fromString-f-5.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__ge__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__ge__-f.rst
+        :description: QtCore/QDateTime-__ge__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__gt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__gt__-f.rst
+        :description: QtCore/QDateTime-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__hash__
         :returns:
@@ -277,31 +277,31 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__le__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__le__-f.rst
+        :description: QtCore/QDateTime-__le__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__lt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__lt__-f.rst
+        :description: QtCore/QDateTime-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.msecsTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             int
-        :description: QtCore/QDateTime-msecsTo-f.rst
+        :description: QtCore/QDateTime-msecsTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             bool
-        :description: QtCore/QDateTime-__ne__-f.rst
+        :description: QtCore/QDateTime-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.offsetFromUtc
         :returns:
@@ -315,16 +315,16 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.secsTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
         :returns:
             int
-        :description: QtCore/QDateTime-secsTo-f.rst
+        :description: QtCore/QDateTime-secsTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
             resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
-        :description: QtCore/QDateTime-setDate-f-1.rst
+        :description: QtCore/QDateTime-setDate-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setMSecsSinceEpoch
         :args:
@@ -343,9 +343,9 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             resolve: :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution` = :sip:ref:`~PyQt6.QtCore.QDateTime.TransitionResolution.LegacyBehavior`
-        :description: QtCore/QDateTime-setTime-f-1.rst
+        :description: QtCore/QDateTime-setTime-f.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.setTimeSpec
         :args:
@@ -424,11 +424,11 @@
 
     .. sip:method:: PyQt6.QtCore.QDateTime.toString
         :args:
-            Optional[str]
+            str|None
             cal: :sip:ref:`~PyQt6.QtCore.QCalendar` = QCalendar()
         :returns:
             str
-        :description: QtCore/QDateTime-toString-f-2.rst
+        :description: QtCore/QDateTime-toString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QDateTime.toTimeSpec
         :args:

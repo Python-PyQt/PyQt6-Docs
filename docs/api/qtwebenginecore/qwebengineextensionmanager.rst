@@ -18,8 +18,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineExtensionManager.installExtension
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineExtensionManager-installExtension-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineExtensionManager-installExtension-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineExtensionManager.installPath
         :returns:
@@ -28,8 +28,8 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineExtensionManager.loadExtension
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineExtensionManager-loadExtension-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineExtensionManager-loadExtension-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineExtensionManager.setExtensionEnabled
         :args:

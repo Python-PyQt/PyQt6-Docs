@@ -15,6 +15,21 @@
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
         :description: QtGraphs/QScatter3DSeries-__init__-f-1.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.axisX
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.axisY
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.axisZ
+        :returns:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisZ-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.clearArray
         :description: QtGraphs/QScatter3DSeries-clearArray-f.rst
 
@@ -42,6 +57,15 @@
             float
         :description: QtGraphs/QScatter3DSeries-itemSize-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.resetAxisX
+        :description: QtGraphs/QScatter3DSeries-resetAxisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.resetAxisY
+        :description: QtGraphs/QScatter3DSeries-resetAxisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.resetAxisZ
+        :description: QtGraphs/QScatter3DSeries-resetAxisZ-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.scaleArray
         :returns:
             list[:sip:ref:`~PyQt6.QtGui.QVector3D`]
@@ -51,6 +75,21 @@
         :returns:
             int
         :description: QtGraphs/QScatter3DSeries-selectedItem-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setAxisX
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-setAxisX-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setAxisY
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-setAxisY-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setAxisZ
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-setAxisZ-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QScatter3DSeries.setDataArray
         :args:
@@ -76,6 +115,21 @@
         :args:
             int
         :description: QtGraphs/QScatter3DSeries-setSelectedItem-f.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.axisXChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisXChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.axisYChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisYChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.axisZChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGraphs.QValue3DAxis`
+        :description: QtGraphs/QScatter3DSeries-axisZChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QScatter3DSeries.dataArrayChanged
         :args:

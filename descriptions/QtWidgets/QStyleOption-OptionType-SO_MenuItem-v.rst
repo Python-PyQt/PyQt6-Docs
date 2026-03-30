@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 4
-    :digest: e72218443a32d75a889364ee2682e171
+    :digest: bebf434269cb9cdf58d81eefff1f9e22
 
-:sip:ref:`~PyQt6.QtWidgets.QStyleOptionMenuItem`
+:sip:ref:`~PyQt6.QtWidgets.QStyleOptionMenuItemV2`

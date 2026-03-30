@@ -53,24 +53,24 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.connectToHost
         :args:
-            Optional[str]
+            str|None
             port: int = 80
-        :description: QtNetwork/QNetworkAccessManager-connectToHost-f-1.rst
+        :description: QtNetwork/QNetworkAccessManager-connectToHost-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.connectToHostEncrypted
         :args:
-            Optional[str]
+            str|None
             port: int = 443
             sslConfiguration: :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration` = QSslConfiguration.defaultConfiguration()
-        :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f-2.rst
+        :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.connectToHostEncrypted
         :args:
-            Optional[str]
+            str|None
             int
             :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
-            Optional[str]
-        :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f-3.rst
+            str|None
+        :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.cookieJar
         :returns:
@@ -96,8 +96,8 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.enableStrictTransportSecurityStore
         :args:
             bool
-            storeDir: Optional[str] = ''
-        :description: QtNetwork/QNetworkAccessManager-enableStrictTransportSecurityStore-f-1.rst
+            storeDir: str|None = ''
+        :description: QtNetwork/QNetworkAccessManager-enableStrictTransportSecurityStore-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.get
         :args:
@@ -109,10 +109,10 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.get
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-get-f-1.rst
+        :description: QtNetwork/QNetworkAccessManager-get-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.get
         :args:
@@ -150,10 +150,10 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.post
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-post-f-3.rst
+        :description: QtNetwork/QNetworkAccessManager-post-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.post
         :args:
@@ -184,10 +184,10 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.put
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-put-f-3.rst
+        :description: QtNetwork/QNetworkAccessManager-put-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.put
         :args:
@@ -205,29 +205,29 @@
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             data: :sip:ref:`~PyQt6.QtCore.QIODevice` = None
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-3.rst
+        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-4.rst
+        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.sendCustomRequest
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtNetwork.QHttpMultiPart`
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkReply`
-        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-5.rst
+        :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkAccessManager.setAutoDeleteReplies
         :args:

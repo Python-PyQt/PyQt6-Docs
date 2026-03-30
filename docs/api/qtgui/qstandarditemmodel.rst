@@ -69,12 +69,12 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.findItems
         :args:
-            Optional[str]
+            str|None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag` = :sip:ref:`~PyQt6.QtCore.Qt.MatchFlag.MatchExactly`
             column: int = 0
         :returns:
             list[:sip:ref:`~PyQt6.QtGui.QStandardItem`]
-        :description: QtGui/QStandardItemModel-findItems-f.rst
+        :description: QtGui/QStandardItemModel-findItems-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.flags
         :args:
@@ -292,8 +292,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setHorizontalHeaderLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QStandardItemModel-setHorizontalHeaderLabels-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QStandardItemModel-setHorizontalHeaderLabels-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setItem
         :args:
@@ -323,8 +323,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setItemRoleNames
         :args:
-            dict[int, Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
-        :description: QtGui/QStandardItemModel-setItemRoleNames-f.rst
+            dict[int, :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview]
+        :description: QtGui/QStandardItemModel-setItemRoleNames-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setRowCount
         :args:
@@ -344,8 +344,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.setVerticalHeaderLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtGui/QStandardItemModel-setVerticalHeaderLabels-f-1.rst
+            Iterable[str|None]
+        :description: QtGui/QStandardItemModel-setVerticalHeaderLabels-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStandardItemModel.sort
         :args:

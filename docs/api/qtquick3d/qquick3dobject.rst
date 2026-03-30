@@ -27,8 +27,8 @@
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DObject.setState
         :args:
-            Optional[str]
-        :description: QtQuick3D/QQuick3DObject-setState-f-1.rst
+            str|None
+        :description: QtQuick3D/QQuick3DObject-setState-f.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DObject.state
         :returns:

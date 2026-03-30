@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: In-memory store for client certificates
-    :digest: c225bf380fa70e8d739211b435ac9e8d
+    :digest: afdb616517bab8889104f0c7239b2754
 
 The :sip:ref:`~PyQt6.QtWebEngineCore.QWebEngineClientCertificateStore` class provides an in-memory store for client certificates.
 
@@ -11,7 +11,7 @@ The class instance can be obtained with the :sip:ref:`~PyQt6.QtWebEngineCore.QWe
 
 ::
 
-    QFile certFile(":/resouces/certificate.crt");
+    QFile certFile(":/resources/certificate.crt");
     certFile.open(QIODevice::ReadOnly);
     const QSslCertificate cert(certFile.readAll(), QSsl::Pem);
 

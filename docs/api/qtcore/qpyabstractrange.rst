@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtCore.QPyAbstractRange.__init__
         :args:
-            data: Any
-            editable: bool
+            Any
+            bool
         :description: QtCore/QPyAbstractRange-__init__-f.rst
 
     .. sip:method:: PyQt6.QtCore.QPyAbstractRange.data

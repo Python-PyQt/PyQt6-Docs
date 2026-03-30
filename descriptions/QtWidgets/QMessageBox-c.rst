@@ -1,13 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Modal dialog for informing the user or for asking the user a question and receiving an answer
-    :digest: 83eedead3c6864bfa946c1bcd88a7ada
+    :digest: 0c2f35df0b8de7faf9e402a5ade3aace
 
 The :sip:ref:`~PyQt6.QtWidgets.QMessageBox` class provides a modal dialog for informing the user or for asking the user a question and receiving an answer.
 
 A message box displays a primary :sip:ref:`~PyQt6.QtWidgets.QMessageBox.text` to alert the user to a situation, an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.informativeText` to further explain the situation, and an optional :sip:ref:`~PyQt6.QtWidgets.QMessageBox.detailedText` to provide even more data if the user requests it.
 
 A message box can also display an :sip:ref:`~PyQt6.QtWidgets.QMessageBox.icon` and :sip:ref:`~PyQt6.QtWidgets.QMessageBox.standardButtons` for accepting a user response.
+
+While the parent parameter is optional, specifying it gives a hint to the window manager, which can then take care of positioning, and maintain a proper stacking order of the dialog window.
 
 Two APIs for using :sip:ref:`~PyQt6.QtWidgets.QMessageBox` are provided, the property-based API, and the static functions. Calling one of the static functions is the simpler approach, but it is less flexible than using the property-based API, and the result is less informative. Using the property-based API is recommended.
 

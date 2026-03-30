@@ -84,36 +84,36 @@
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-3.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            str|None
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-4.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            str|None
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             int
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-5.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-7.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.__init__
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Type`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             port: int = 0
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtNetwork/QDnsLookup-__init__-f-1.rst
+        :description: QtNetwork/QDnsLookup-__init__-f-8.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.abort
         :description: QtNetwork/QDnsLookup-abort-f.rst
@@ -209,26 +209,26 @@
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setName
         :args:
-            Optional[str]
-        :description: QtNetwork/QDnsLookup-setName-f-1.rst
+            str|None
+        :description: QtNetwork/QDnsLookup-setName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QDnsLookup-setNameserver-f.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QDnsLookup-setNameserver-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             int
-        :description: QtNetwork/QDnsLookup-setNameserver-f-1.rst
+        :description: QtNetwork/QDnsLookup-setNameserver-f-4.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserver
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QDnsLookup.Protocol`
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             port: int = 0
-        :description: QtNetwork/QDnsLookup-setNameserver-f-2.rst
+        :description: QtNetwork/QDnsLookup-setNameserver-f-5.rst
 
     .. sip:method:: PyQt6.QtNetwork.QDnsLookup.setNameserverPort
         :args:
@@ -275,13 +275,13 @@
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameChanged
         :args:
-            Optional[str]
-        :description: QtNetwork/QDnsLookup-nameChanged-s-1.rst
+            str|None
+        :description: QtNetwork/QDnsLookup-nameChanged-s.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameserverChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
-        :description: QtNetwork/QDnsLookup-nameserverChanged-s.rst
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
+        :description: QtNetwork/QDnsLookup-nameserverChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtNetwork.QDnsLookup.nameserverPortChanged
         :args:

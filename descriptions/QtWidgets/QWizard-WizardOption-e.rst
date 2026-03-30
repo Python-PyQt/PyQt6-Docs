@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: fa03f94c8bb4256d214850464874fa07
+    :digest: 20a54a0978471bf8eba9349c530ff19e
 
 This enum specifies various options that affect the look and feel of a wizard.
 

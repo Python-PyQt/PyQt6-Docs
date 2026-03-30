@@ -13,10 +13,10 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.contains
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtXml/QDomNamedNodeMap-contains-f-1.rst
+        :description: QtXml/QDomNamedNodeMap-contains-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.count
         :returns:
@@ -54,18 +54,18 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.namedItem
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNode`
-        :description: QtXml/QDomNamedNodeMap-namedItem-f-1.rst
+        :description: QtXml/QDomNamedNodeMap-namedItem-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.namedItemNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNode`
-        :description: QtXml/QDomNamedNodeMap-namedItemNS-f-1.rst
+        :description: QtXml/QDomNamedNodeMap-namedItemNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.__ne__
         :args:
@@ -76,18 +76,18 @@
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.removeNamedItem
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNode`
-        :description: QtXml/QDomNamedNodeMap-removeNamedItem-f-1.rst
+        :description: QtXml/QDomNamedNodeMap-removeNamedItem-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.removeNamedItemNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNode`
-        :description: QtXml/QDomNamedNodeMap-removeNamedItemNS-f-1.rst
+        :description: QtXml/QDomNamedNodeMap-removeNamedItemNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomNamedNodeMap.setNamedItem
         :args:

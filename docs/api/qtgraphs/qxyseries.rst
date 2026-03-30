@@ -172,8 +172,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QXYSeries.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QXYSeries-setColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QXYSeries-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QXYSeries.setDraggable
         :args:
@@ -193,8 +193,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QXYSeries.setSelectedColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QXYSeries-setSelectedColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QXYSeries-setSelectedColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QXYSeries.take
         :args:
@@ -215,8 +215,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QXYSeries-colorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QXYSeries-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.countChanged
         :description: QtGraphs/QXYSeries-countChanged-s.rst
@@ -258,8 +258,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.selectedColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QXYSeries-selectedColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QXYSeries-selectedColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QXYSeries.selectedPointsChanged
         :description: QtGraphs/QXYSeries-selectedPointsChanged-s.rst

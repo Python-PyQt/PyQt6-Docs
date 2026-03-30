@@ -547,29 +547,29 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.append
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-append-f.rst
+        :description: QtNetwork/QHttpHeaders-append-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.append
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-append-f-1.rst
+        :description: QtNetwork/QHttpHeaders-append-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.clear
         :description: QtNetwork/QHttpHeaders-clear-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.combinedValue
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpHeaders-combinedValue-f.rst
+        :description: QtNetwork/QHttpHeaders-combinedValue-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.combinedValue
         :args:
@@ -580,10 +580,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.contains
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-contains-f.rst
+        :description: QtNetwork/QHttpHeaders-contains-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.contains
         :args:
@@ -596,97 +596,97 @@
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
-        :description: QtNetwork/QHttpHeaders-dateTimeValue-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|None
+        :description: QtNetwork/QHttpHeaders-dateTimeValue-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValue
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
-        :description: QtNetwork/QHttpHeaders-dateTimeValue-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|None
+        :description: QtNetwork/QHttpHeaders-dateTimeValue-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValueAt
         :args:
             int
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtCore.QDateTime`]
-        :description: QtNetwork/QHttpHeaders-dateTimeValueAt-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|None
+        :description: QtNetwork/QHttpHeaders-dateTimeValueAt-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValues
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
         :returns:
-            Optional[list[:sip:ref:`~PyQt6.QtCore.QDateTime`]]
-        :description: QtNetwork/QHttpHeaders-dateTimeValues-f.rst
+            list[:sip:ref:`~PyQt6.QtCore.QDateTime`]|None
+        :description: QtNetwork/QHttpHeaders-dateTimeValues-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.dateTimeValues
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
-            Optional[list[:sip:ref:`~PyQt6.QtCore.QDateTime`]]
-        :description: QtNetwork/QHttpHeaders-dateTimeValues-f-1.rst
+            list[:sip:ref:`~PyQt6.QtCore.QDateTime`]|None
+        :description: QtNetwork/QHttpHeaders-dateTimeValues-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.fromListOfPairs
         :args:
-            Iterable[tuple[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]]
+            Iterable[tuple[:sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview, :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview]]
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders`
         :static:
-        :description: QtNetwork/QHttpHeaders-fromListOfPairs-f-1.rst
+        :description: QtNetwork/QHttpHeaders-fromListOfPairs-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.insert
         :args:
             int
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-insert-f.rst
+        :description: QtNetwork/QHttpHeaders-insert-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.insert
         :args:
             int
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-insert-f-1.rst
+        :description: QtNetwork/QHttpHeaders-insert-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValue
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
         :returns:
-            Optional[int]
-        :description: QtNetwork/QHttpHeaders-intValue-f.rst
+            int|None
+        :description: QtNetwork/QHttpHeaders-intValue-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValue
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
-            Optional[int]
-        :description: QtNetwork/QHttpHeaders-intValue-f-1.rst
+            int|None
+        :description: QtNetwork/QHttpHeaders-intValue-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValueAt
         :args:
             int
         :returns:
-            Optional[int]
-        :description: QtNetwork/QHttpHeaders-intValueAt-f.rst
+            int|None
+        :description: QtNetwork/QHttpHeaders-intValueAt-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValues
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
         :returns:
-            Optional[list[int]]
-        :description: QtNetwork/QHttpHeaders-intValues-f.rst
+            list[int]|None
+        :description: QtNetwork/QHttpHeaders-intValues-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.intValues
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
-            Optional[list[int]]
-        :description: QtNetwork/QHttpHeaders-intValues-f-1.rst
+            list[int]|None
+        :description: QtNetwork/QHttpHeaders-intValues-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.isEmpty
         :returns:
@@ -702,8 +702,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.removeAll
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtNetwork/QHttpHeaders-removeAll-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtNetwork/QHttpHeaders-removeAll-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.removeAll
         :args:
@@ -718,36 +718,36 @@
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replace
         :args:
             int
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-replace-f.rst
+        :description: QtNetwork/QHttpHeaders-replace-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replace
         :args:
             int
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-replace-f-1.rst
+        :description: QtNetwork/QHttpHeaders-replace-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replaceOrAppend
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f.rst
+        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.replaceOrAppend
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f-1.rst
+        :description: QtNetwork/QHttpHeaders-replaceOrAppend-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.reserve
         :args:
@@ -757,14 +757,14 @@
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.setDateTimeValue
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.setDateTimeValue
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtNetwork/QHttpHeaders-setDateTimeValue-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.size
         :returns:
@@ -783,19 +783,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.value
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            defaultValue: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = {}
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            defaultValue: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = {}
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpHeaders-value-f.rst
+        :description: QtNetwork/QHttpHeaders-value-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.value
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QHttpHeaders.WellKnownHeader`
-            defaultValue: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = {}
+            defaultValue: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = {}
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QHttpHeaders-value-f-1.rst
+        :description: QtNetwork/QHttpHeaders-value-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.valueAt
         :args:
@@ -806,10 +806,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.values
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             list[:sip:ref:`~PyQt6.QtCore.QByteArray`]
-        :description: QtNetwork/QHttpHeaders-values-f-2.rst
+        :description: QtNetwork/QHttpHeaders-values-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QHttpHeaders.values
         :args:

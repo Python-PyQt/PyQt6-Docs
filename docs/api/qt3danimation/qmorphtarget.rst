@@ -27,11 +27,11 @@
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphTarget.fromGeometry
         :args:
             :sip:ref:`~PyQt6.Qt3DCore.QGeometry`
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :returns:
             :sip:ref:`~PyQt6.Qt3DAnimation.QMorphTarget`
         :static:
-        :description: Qt3DAnimation/QMorphTarget-fromGeometry-f-1.rst
+        :description: Qt3DAnimation/QMorphTarget-fromGeometry-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QMorphTarget.removeAttribute
         :args:
@@ -45,5 +45,5 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QMorphTarget.attributeNamesChanged
         :args:
-            Iterable[Optional[str]]
-        :description: Qt3DAnimation/QMorphTarget-attributeNamesChanged-s-1.rst
+            Iterable[str|None]
+        :description: Qt3DAnimation/QMorphTarget-attributeNamesChanged-s.rst

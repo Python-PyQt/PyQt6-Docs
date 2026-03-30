@@ -1,4 +1,4 @@
-# Copyright (c) 2025, Riverbank Computing Limited
+# Copyright (c) 2026, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -235,7 +235,7 @@ def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
         encoding = 'UTF-8'
 
         spec, modules, _ = parse(sip_file, hex_version=0x600000,
-                encoding=encoding, target_abi=(13, 1), tags=[],
+                encoding=encoding, target_abi=None, tags=[],
                 disabled_features=['PyQt_OpenGL_ES2'],
                 protected_is_public=False, include_dirs=include_dirs,
                 sip_module='PyQt6.sip', is_strict=False)

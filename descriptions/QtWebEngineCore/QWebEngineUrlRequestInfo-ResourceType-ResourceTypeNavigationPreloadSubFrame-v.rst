@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 20
-    :digest: a800b4d34ce3e4e6bfadf955ac10096b
+    :digest: 83cb9a3dcbee619f937c21dfa11f3f0e
 
-A sub-frame service worker navigation preload request. (Added in Qt 5.14)
+A sub-frame service worker navigation preload request.

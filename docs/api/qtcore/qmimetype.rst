@@ -60,10 +60,10 @@
 
     .. sip:method:: PyQt6.QtCore.QMimeType.inherits
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtCore/QMimeType-inherits-f-1.rst
+        :description: QtCore/QMimeType-inherits-f.rst
 
     .. sip:method:: PyQt6.QtCore.QMimeType.isDefault
         :returns:

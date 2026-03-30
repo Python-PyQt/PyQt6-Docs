@@ -69,6 +69,11 @@
             list[:sip:ref:`~PyQt6.QtGraphs.QCustom3DItem`]
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-customItems-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.cutoffMargin
+        :returns:
+            float
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-cutoffMargin-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.doRayPicking
         :args:
             :sip:ref:`~PyQt6.QtGui.QVector3D`
@@ -329,6 +334,11 @@
             float
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setCameraZoomLevel-f.rst
 
+    .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setCutoffMargin
+        :args:
+            float
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setCutoffMargin-f.rst
+
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setGridLineType
         :args:
             :sip:ref:`~PyQt6.QtGraphs.QtGraphs3D.GridLineType`
@@ -346,8 +356,8 @@
 
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setLightColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setLightColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-setLightColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.setLightStrength
         :args:
@@ -556,6 +566,11 @@
         :args:
             int
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-currentFpsChanged-s.rst
+
+    .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.cutoffMarginChanged
+        :args:
+            float
+        :description: QtGraphsWidgets/Q3DGraphsWidgetItem-cutoffMarginChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphsWidgets.Q3DGraphsWidgetItem.gridLineTypeChanged
         :description: QtGraphsWidgets/Q3DGraphsWidgetItem-gridLineTypeChanged-s.rst

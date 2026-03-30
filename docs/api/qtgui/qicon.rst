@@ -495,8 +495,8 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.__init__
         :args:
-            Optional[str]
-        :description: QtGui/QIcon-__init__-f-6.rst
+            str|None
+        :description: QtGui/QIcon-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.__init__
         :args:
@@ -519,11 +519,11 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.addFile
         :args:
-            Optional[str]
+            str|None
             size: :sip:ref:`~PyQt6.QtCore.QSize` = QSize()
             mode: :sip:ref:`~PyQt6.QtGui.QIcon.Mode` = :sip:ref:`~PyQt6.QtGui.QIcon.Mode.Normal`
             state: :sip:ref:`~PyQt6.QtGui.QIcon.State` = :sip:ref:`~PyQt6.QtGui.QIcon.State.Off`
-        :description: QtGui/QIcon-addFile-f-1.rst
+        :description: QtGui/QIcon-addFile-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.addPixmap
         :args:
@@ -559,11 +559,11 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.fromTheme
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QIcon`
         :static:
-        :description: QtGui/QIcon-fromTheme-f-2.rst
+        :description: QtGui/QIcon-fromTheme-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.fromTheme
         :args:
@@ -575,12 +575,12 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.fromTheme
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QIcon`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QIcon`
         :static:
-        :description: QtGui/QIcon-fromTheme-f-3.rst
+        :description: QtGui/QIcon-fromTheme-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.fromTheme
         :args:
@@ -593,11 +593,11 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.hasThemeIcon
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtGui/QIcon-hasThemeIcon-f-1.rst
+        :description: QtGui/QIcon-hasThemeIcon-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.hasThemeIcon
         :args:
@@ -688,15 +688,15 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.setFallbackSearchPaths
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :static:
-        :description: QtGui/QIcon-setFallbackSearchPaths-f-1.rst
+        :description: QtGui/QIcon-setFallbackSearchPaths-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.setFallbackThemeName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtGui/QIcon-setFallbackThemeName-f-1.rst
+        :description: QtGui/QIcon-setFallbackThemeName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.setIsMask
         :args:
@@ -705,15 +705,15 @@
 
     .. sip:method:: PyQt6.QtGui.QIcon.setThemeName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtGui/QIcon-setThemeName-f-1.rst
+        :description: QtGui/QIcon-setThemeName-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.setThemeSearchPaths
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :static:
-        :description: QtGui/QIcon-setThemeSearchPaths-f-1.rst
+        :description: QtGui/QIcon-setThemeSearchPaths-f.rst
 
     .. sip:method:: PyQt6.QtGui.QIcon.swap
         :args:

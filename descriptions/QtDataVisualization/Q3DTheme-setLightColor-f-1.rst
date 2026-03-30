@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 5237000fc3bc4f513a579caca380c129
+    :realsig: (const QColor&)
+    :digest: 2bf6ac3991696c9abede31f7624172ac
+
+.. seealso:: :sip:ref:`~PyQt6.QtDataVisualization.Q3DTheme.lightColor`.

@@ -189,6 +189,12 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QNetworkRequest.TransferTimeoutConstant.DefaultTransferTimeoutConstant
             :description: QtNetwork/QNetworkRequest-TransferTimeoutConstant-DefaultTransferTimeoutConstant-v.rst
 
+    .. sip:attribute:: PyQt6.QtNetwork.QNetworkRequest.DefaultTransferTimeout
+        :type: int
+        :const:
+        :static:
+        :description: QtNetwork/QNetworkRequest-DefaultTransferTimeout-a.rst
+
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.__init__
         :description: QtNetwork/QNetworkRequest-__init__-f.rst
 
@@ -224,10 +230,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.hasRawHeader
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtNetwork/QNetworkRequest-hasRawHeader-f-2.rst
+        :description: QtNetwork/QNetworkRequest-hasRawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.header
         :args:
@@ -280,10 +286,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.rawHeader
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QNetworkRequest-rawHeader-f-2.rst
+        :description: QtNetwork/QNetworkRequest-rawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.rawHeaderList
         :returns:
@@ -334,8 +340,8 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setPeerVerifyName
         :args:
-            Optional[str]
-        :description: QtNetwork/QNetworkRequest-setPeerVerifyName-f-1.rst
+            str|None
+        :description: QtNetwork/QNetworkRequest-setPeerVerifyName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setPriority
         :args:
@@ -344,14 +350,29 @@
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setRawHeader
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtNetwork/QNetworkRequest-setRawHeader-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtNetwork/QNetworkRequest-setRawHeader-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setSslConfiguration
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QSslConfiguration`
         :description: QtNetwork/QNetworkRequest-setSslConfiguration-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setTcpKeepAliveIdleTimeBeforeProbes
+        :args:
+            int
+        :description: QtNetwork/QNetworkRequest-setTcpKeepAliveIdleTimeBeforeProbes-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setTcpKeepAliveIntervalBetweenProbes
+        :args:
+            int
+        :description: QtNetwork/QNetworkRequest-setTcpKeepAliveIntervalBetweenProbes-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setTcpKeepAliveProbeCount
+        :args:
+            int
+        :description: QtNetwork/QNetworkRequest-setTcpKeepAliveProbeCount-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.setTransferTimeout
         :args:
@@ -372,6 +393,21 @@
         :args:
             :sip:ref:`~PyQt6.QtNetwork.QNetworkRequest`
         :description: QtNetwork/QNetworkRequest-swap-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.tcpKeepAliveIdleTimeBeforeProbes
+        :returns:
+            int
+        :description: QtNetwork/QNetworkRequest-tcpKeepAliveIdleTimeBeforeProbes-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.tcpKeepAliveIntervalBetweenProbes
+        :returns:
+            int
+        :description: QtNetwork/QNetworkRequest-tcpKeepAliveIntervalBetweenProbes-f.rst
+
+    .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.tcpKeepAliveProbeCount
+        :returns:
+            int
+        :description: QtNetwork/QNetworkRequest-tcpKeepAliveProbeCount-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QNetworkRequest.transferTimeout
         :returns:

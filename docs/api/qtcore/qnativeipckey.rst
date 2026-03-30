@@ -36,9 +36,9 @@
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.__init__
         :args:
-            Optional[str]
+            str|None
             type: :sip:ref:`~PyQt6.QtCore.QNativeIpcKey.Type` = QNativeIpcKey.DefaultTypeForOs
-        :description: QtCore/QNativeIpcKey-__init__-f-3.rst
+        :description: QtCore/QNativeIpcKey-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.__eq__
         :args:
@@ -49,11 +49,11 @@
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.fromString
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QNativeIpcKey`
         :static:
-        :description: QtCore/QNativeIpcKey-fromString-f.rst
+        :description: QtCore/QNativeIpcKey-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.__hash__
         :returns:
@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.setNativeKey
         :args:
-            Optional[str]
-        :description: QtCore/QNativeIpcKey-setNativeKey-f.rst
+            str|None
+        :description: QtCore/QNativeIpcKey-setNativeKey-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QNativeIpcKey.setType
         :args:

@@ -42,13 +42,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsLine.setLabelTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsLine-setLabelTextColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsLine-setLabelTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsLine.setMainColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsLine-setMainColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsLine-setMainColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsLine.setMainWidth
         :args:
@@ -57,8 +57,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsLine.setSubColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QGraphsLine-setSubColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QGraphsLine-setSubColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QGraphsLine.setSubWidth
         :args:

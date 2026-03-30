@@ -6,12 +6,12 @@
 
     .. sip:method:: PyQt6.QtCore.QPyTableRange.__init__
         :args:
-            data: Any
+            Any
             editable: bool = False
         :description: QtCore/QPyTableRange-__init__-f.rst
 
     .. sip:signal:: PyQt6.QtCore.QPyTableRange.dataChanged
         :args:
-            row: int
-            column: int
+            int
+            int
         :description: QtCore/QPyTableRange-dataChanged-s.rst

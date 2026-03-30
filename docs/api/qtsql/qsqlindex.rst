@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.__init__
         :args:
-            cursorName: Optional[str] = ''
-            name: Optional[str] = ''
-        :description: QtSql/QSqlIndex-__init__-f-2.rst
+            cursorName: str|None = ''
+            name: str|None = ''
+        :description: QtSql/QSqlIndex-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.append
         :args:
@@ -45,8 +45,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.setCursorName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlIndex-setCursorName-f-1.rst
+            str|None
+        :description: QtSql/QSqlIndex-setCursorName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.setDescending
         :args:
@@ -56,8 +56,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.setName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlIndex-setName-f-1.rst
+            str|None
+        :description: QtSql/QSqlIndex-setName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlIndex.swap
         :args:

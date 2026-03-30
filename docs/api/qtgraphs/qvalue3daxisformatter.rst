@@ -91,8 +91,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QValue3DAxisFormatter.setLabelStrings
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QValue3DAxisFormatter-setLabelStrings-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QValue3DAxisFormatter-setLabelStrings-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QValue3DAxisFormatter.setLocale
         :args:
@@ -107,10 +107,10 @@
     .. sip:method:: PyQt6.QtGraphs.QValue3DAxisFormatter.stringForValue
         :args:
             float
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtGraphs/QValue3DAxisFormatter-stringForValue-f.rst
+        :description: QtGraphs/QValue3DAxisFormatter-stringForValue-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QValue3DAxisFormatter.subGridPositions
         :returns:

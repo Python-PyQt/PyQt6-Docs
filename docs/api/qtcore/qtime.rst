@@ -46,10 +46,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__eq__-f.rst
+        :description: QtCore/QTime-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.fromMSecsSinceStartOfDay
         :args:
@@ -61,35 +61,35 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.fromString
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtCore.Qt.DateFormat` = :sip:ref:`~PyQt6.QtCore.Qt.DateFormat.TextDate`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
         :static:
-        :description: QtCore/QTime-fromString-f-2.rst
+        :description: QtCore/QTime-fromString-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.fromString
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QTime`
         :static:
-        :description: QtCore/QTime-fromString-f-3.rst
+        :description: QtCore/QTime-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__ge__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__ge__-f.rst
+        :description: QtCore/QTime-__ge__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__gt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__gt__-f.rst
+        :description: QtCore/QTime-__gt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__hash__
         :returns:
@@ -124,17 +124,17 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.__le__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__le__-f.rst
+        :description: QtCore/QTime-__le__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__lt__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__lt__-f.rst
+        :description: QtCore/QTime-__lt__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.minute
         :returns:
@@ -153,17 +153,17 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.msecsTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             int
-        :description: QtCore/QTime-msecsTo-f.rst
+        :description: QtCore/QTime-msecsTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             bool
-        :description: QtCore/QTime-__ne__-f.rst
+        :description: QtCore/QTime-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.__repr__
         :returns:
@@ -177,10 +177,10 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.secsTo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
         :returns:
             int
-        :description: QtCore/QTime-secsTo-f.rst
+        :description: QtCore/QTime-secsTo-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QTime.setHMS
         :args:
@@ -206,7 +206,7 @@
 
     .. sip:method:: PyQt6.QtCore.QTime.toString
         :args:
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/QTime-toString-f-2.rst
+        :description: QtCore/QTime-toString-f-1.rst

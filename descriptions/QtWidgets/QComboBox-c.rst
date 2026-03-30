@@ -1,15 +1,15 @@
 .. sip:class-description::
     :status: todo
     :brief: Combines a button with a dropdown list
-    :digest: 881e865febfef44a036db67c5754838e
+    :digest: 61949e20b06574aadc9922223f884c17
 
 The :sip:ref:`~PyQt6.QtWidgets.QComboBox` widget combines a button with a dropdown list.
 
-+--------------------------------+-------------------------------+
-| |image-collapsed_combobox-png| | |image-expanded_combobox-png| |
-|                                |                               |
-| Collapsed QCombobox            | Expanded QCombobox            |
-+--------------------------------+-------------------------------+
++---------------------------------------------------+--------------------------------------------------+
+| .. image:: ../../../images/collapsed_combobox.png | .. image:: ../../../images/expanded_combobox.png |
+|                                                   |                                                  |
+| Collapsed QCombobox                               | Expanded QCombobox                               |
++---------------------------------------------------+--------------------------------------------------+
 
 .. _qcombobox-display-features:
 
@@ -31,7 +31,7 @@ When the user enters a new string in an editable combobox, the widget may or may
 
 It is possible to constrain the input to an editable combobox using :sip:ref:`~PyQt6.QtGui.QValidator`; see :sip:ref:`~PyQt6.QtWidgets.QComboBox.setValidator`. By default, any input is accepted.
 
-A combobox can be populated using the insert functions, :sip:ref:`~PyQt6.QtWidgets.QComboBox.insertItem` and :sip:ref:`~PyQt6.QtWidgets.QComboBox.insertItems` for example. Items can be changed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setItemText`. An item can be removed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.removeItem` and all items can be removed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.clear`. The text of the current item is returned by :sip:ref:`~PyQt6.QtWidgets.QComboBox.currentText`, and the text of a numbered item is returned with text(). The current item can be set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setCurrentIndex`. The number of items in the combobox is returned by :sip:ref:`~PyQt6.QtWidgets.QComboBox.count`; the maximum number of items can be set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setMaxCount`. You can allow editing using setEditable(). For editable comboboxes you can set auto-completion using :sip:ref:`~PyQt6.QtWidgets.QComboBox.setCompleter` and whether or not the user can add duplicates is set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setDuplicatesEnabled`.
+A combobox can be populated using the insert functions, :sip:ref:`~PyQt6.QtWidgets.QComboBox.insertItem` and :sip:ref:`~PyQt6.QtWidgets.QComboBox.insertItems` for example. Items can be changed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setItemText`. An item can be removed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.removeItem` and all items can be removed with :sip:ref:`~PyQt6.QtWidgets.QComboBox.clear`. The text of the current item is returned by :sip:ref:`~PyQt6.QtWidgets.QComboBox.currentText`, and the text of a numbered item is returned with text(). The current item can be set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setCurrentIndex`. The number of items in the combobox is returned by :sip:ref:`~PyQt6.QtWidgets.QComboBox.count`; the maximum number of items can be set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setMaxCount`. You can allow editing using :sip:ref:`~PyQt6.QtWidgets.QComboBox.setEditable`. For editable comboboxes you can set auto-completion using :sip:ref:`~PyQt6.QtWidgets.QComboBox.setCompleter` and whether or not the user can add duplicates is set with :sip:ref:`~PyQt6.QtWidgets.QComboBox.setDuplicatesEnabled`.
 
 .. _qcombobox-signals:
 
@@ -50,6 +50,3 @@ Model/View Framework
 **Note:** You cannot alter the :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.SelectionMode` of the :sip:ref:`~PyQt6.QtWidgets.QComboBox.view`, for example, by using :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.setSelectionMode`.
 
 .. seealso:: :sip:ref:`~PyQt6.QtWidgets.QLineEdit`, :sip:ref:`~PyQt6.QtWidgets.QSpinBox`, :sip:ref:`~PyQt6.QtWidgets.QRadioButton`, :sip:ref:`~PyQt6.QtWidgets.QButtonGroup`.
-
-.. |image-collapsed_combobox-png| image:: ../../../images/collapsed_combobox.png
-.. |image-expanded_combobox-png| image:: ../../../images/expanded_combobox.png

@@ -62,8 +62,8 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlError.setDescription
         :args:
-            Optional[str]
-        :description: QtQml/QQmlError-setDescription-f-1.rst
+            str|None
+        :description: QtQml/QQmlError-setDescription-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlError.setLine
         :args:

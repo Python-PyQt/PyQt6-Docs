@@ -11,16 +11,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QPushButton.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QPushButton-__init__-f-3.rst
+        :description: QtWidgets/QPushButton-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPushButton.__init__
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QPushButton-__init__-f-4.rst
+        :description: QtWidgets/QPushButton-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QPushButton.autoDefault
         :returns:

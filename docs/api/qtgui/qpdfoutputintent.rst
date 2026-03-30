@@ -33,13 +33,13 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfOutputIntent.setOutputCondition
         :args:
-            Optional[str]
-        :description: QtGui/QPdfOutputIntent-setOutputCondition-f.rst
+            str|None
+        :description: QtGui/QPdfOutputIntent-setOutputCondition-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfOutputIntent.setOutputConditionIdentifier
         :args:
-            Optional[str]
-        :description: QtGui/QPdfOutputIntent-setOutputConditionIdentifier-f.rst
+            str|None
+        :description: QtGui/QPdfOutputIntent-setOutputConditionIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfOutputIntent.setOutputProfile
         :args:

@@ -28,20 +28,20 @@
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectHostBase.enableRemoting
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            name: Optional[str] = ''
+            name: str|None = ''
         :returns:
             bool
-        :description: QtRemoteObjects/QRemoteObjectHostBase-enableRemoting-f-2.rst
+        :description: QtRemoteObjects/QRemoteObjectHostBase-enableRemoting-f.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectHostBase.enableRemoting
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
+            str|None
             Iterable[int]
             selectionModel: :sip:ref:`~PyQt6.QtCore.QItemSelectionModel` = None
         :returns:
             bool
-        :description: QtRemoteObjects/QRemoteObjectHostBase-enableRemoting-f-3.rst
+        :description: QtRemoteObjects/QRemoteObjectHostBase-enableRemoting-f-1.rst
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectHostBase.proxy
         :args:
@@ -58,5 +58,5 @@
 
     .. sip:method:: PyQt6.QtRemoteObjects.QRemoteObjectHostBase.setName
         :args:
-            Optional[str]
-        :description: QtRemoteObjects/QRemoteObjectHostBase-setName-f-1.rst
+            str|None
+        :description: QtRemoteObjects/QRemoteObjectHostBase-setName-f.rst

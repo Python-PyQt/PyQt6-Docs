@@ -42,5 +42,5 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QBluetoothHostInfo.setName
         :args:
-            Optional[str]
-        :description: QtBluetooth/QBluetoothHostInfo-setName-f-1.rst
+            str|None
+        :description: QtBluetooth/QBluetoothHostInfo-setName-f.rst

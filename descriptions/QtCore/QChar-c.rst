@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: 16-bit Unicode character
-    :digest: 121220c27ce1438e4ab4d101337ff90e
+    :digest: 3a811f188fcc2031cd873a8f6da2f987
 
 The :sip:ref:`~PyQt6.QtCore.QChar` class provides a 16-bit Unicode character.
 
@@ -9,7 +9,7 @@ In Qt, Unicode characters are 16-bit entities without any markup or structure. T
 
 :sip:ref:`~PyQt6.QtCore.QChar` provides a full complement of testing/classification functions, converting to and from other formats, converting from composed to decomposed Unicode, and trying to compare and case-convert if you ask it to.
 
-The classification functions include functions like those in the standard C++ header <cctype> (formerly <ctype.h>), but operating on the full range of Unicode characters, not just for the ASCII range. They all return true if the character is a certain type of character; otherwise they return false. These classification functions are isNull() (returns ``true`` if the character is '\\0'), isPrint() (true if the character is any sort of printable character, including whitespace), isPunct() (any sort of punctation), isMark() (Unicode Mark), isLetter() (a letter), isNumber() (any sort of numeric character, not just 0-9), isLetterOrNumber(), and isDigit() (decimal digits). All of these are wrappers around category() which return the Unicode-defined category of each character. Some of these also calculate the derived properties (for example isSpace() returns ``true`` if the character is of category Separator_\* or an exceptional code point from Other_Control category).
+The classification functions include functions like those in the standard C++ header <cctype> (formerly <ctype.h>), but operating on the full range of Unicode characters, not just for the ASCII range. They all return true if the character is a certain type of character; otherwise they return false. These classification functions are isNull() (returns ``true`` if the character is '``\0``'), isPrint() (true if the character is any sort of printable character, including whitespace), isPunct() (any sort of punctation), isMark() (Unicode Mark), isLetter() (a letter), isNumber() (any sort of numeric character, not just 0-9), isLetterOrNumber(), and isDigit() (decimal digits). All of these are wrappers around category() which return the Unicode-defined category of each character. Some of these also calculate the derived properties (for example isSpace() returns ``true`` if the character is of category Separator_\* or an exceptional code point from Other_Control category).
 
 :sip:ref:`~PyQt6.QtCore.QChar` also provides direction(), which indicates the "natural" writing direction of this character. The joiningType() function indicates how the character joins with it's neighbors (needed mostly for Arabic or Syriac) and finally hasMirrored(), which indicates whether the character needs to be mirrored when it is printed in it's "unnatural" writing direction.
 

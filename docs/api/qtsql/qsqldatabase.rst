@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.__init__
         :args:
-            Optional[str]
-        :description: QtSql/QSqlDatabase-__init__-f-4.rst
+            str|None
+        :description: QtSql/QSqlDatabase-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.__init__
         :args:
@@ -23,39 +23,39 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.addDatabase
         :args:
-            Optional[str]
-            connectionName: Optional[str] = ''
+            str|None
+            connectionName: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
         :static:
-        :description: QtSql/QSqlDatabase-addDatabase-f-2.rst
+        :description: QtSql/QSqlDatabase-addDatabase-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.addDatabase
         :args:
             :sip:ref:`~PyQt6.QtSql.QSqlDriver`
-            connectionName: Optional[str] = ''
+            connectionName: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
         :static:
-        :description: QtSql/QSqlDatabase-addDatabase-f-3.rst
+        :description: QtSql/QSqlDatabase-addDatabase-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.cloneDatabase
         :args:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
         :static:
-        :description: QtSql/QSqlDatabase-cloneDatabase-f-2.rst
+        :description: QtSql/QSqlDatabase-cloneDatabase-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.cloneDatabase
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
         :static:
-        :description: QtSql/QSqlDatabase-cloneDatabase-f-3.rst
+        :description: QtSql/QSqlDatabase-cloneDatabase-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.close
         :description: QtSql/QSqlDatabase-close-f.rst
@@ -83,20 +83,20 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.contains
         :args:
-            connectionName: Optional[str] = ''
+            connectionName: str|None = ''
         :returns:
             bool
         :static:
-        :description: QtSql/QSqlDatabase-contains-f-1.rst
+        :description: QtSql/QSqlDatabase-contains-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.database
         :args:
-            connectionName: Optional[str] = ''
+            connectionName: str|None = ''
             open: bool = True
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlDatabase`
         :static:
-        :description: QtSql/QSqlDatabase-database-f-1.rst
+        :description: QtSql/QSqlDatabase-database-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.databaseName
         :returns:
@@ -121,10 +121,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.exec
         :args:
-            query: Optional[str] = ''
+            query: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlQuery`
-        :description: QtSql/QSqlDatabase-exec-f-1.rst
+        :description: QtSql/QSqlDatabase-exec-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.hostName
         :returns:
@@ -133,11 +133,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.isDriverAvailable
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtSql/QSqlDatabase-isDriverAvailable-f-1.rst
+        :description: QtSql/QSqlDatabase-isDriverAvailable-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.isOpen
         :returns:
@@ -178,11 +178,11 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.open
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlDatabase-open-f-2.rst
+        :description: QtSql/QSqlDatabase-open-f-1.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.password
         :returns:
@@ -196,30 +196,30 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.primaryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlIndex`
-        :description: QtSql/QSqlDatabase-primaryIndex-f-1.rst
+        :description: QtSql/QSqlDatabase-primaryIndex-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.record
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSqlRecord`
-        :description: QtSql/QSqlDatabase-record-f-1.rst
+        :description: QtSql/QSqlDatabase-record-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.registerSqlDriver
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtSql.QSqlDriverCreatorBase`
         :static:
-        :description: QtSql/QSqlDatabase-registerSqlDriver-f-1.rst
+        :description: QtSql/QSqlDatabase-registerSqlDriver-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.removeDatabase
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtSql/QSqlDatabase-removeDatabase-f-1.rst
+        :description: QtSql/QSqlDatabase-removeDatabase-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.rollback
         :returns:
@@ -228,18 +228,18 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setConnectOptions
         :args:
-            options: Optional[str] = ''
-        :description: QtSql/QSqlDatabase-setConnectOptions-f-1.rst
+            options: str|None = ''
+        :description: QtSql/QSqlDatabase-setConnectOptions-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setDatabaseName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlDatabase-setDatabaseName-f-1.rst
+            str|None
+        :description: QtSql/QSqlDatabase-setDatabaseName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setHostName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlDatabase-setHostName-f-1.rst
+            str|None
+        :description: QtSql/QSqlDatabase-setHostName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setNumericalPrecisionPolicy
         :args:
@@ -248,8 +248,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setPassword
         :args:
-            Optional[str]
-        :description: QtSql/QSqlDatabase-setPassword-f-1.rst
+            str|None
+        :description: QtSql/QSqlDatabase-setPassword-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setPort
         :args:
@@ -258,8 +258,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.setUserName
         :args:
-            Optional[str]
-        :description: QtSql/QSqlDatabase-setUserName-f-1.rst
+            str|None
+        :description: QtSql/QSqlDatabase-setUserName-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlDatabase.tables
         :args:

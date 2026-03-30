@@ -51,6 +51,11 @@
             bool
         :description: QtWidgets/QColumnView-isIndexHidden-f.rst
 
+    .. sip:method:: PyQt6.QtWidgets.QColumnView.isPreviewColumnVisible
+        :returns:
+            bool
+        :description: QtWidgets/QColumnView-isPreviewColumnVisible-f.rst
+
     .. sip:method:: PyQt6.QtWidgets.QColumnView.moveCursor
         :args:
             :sip:ref:`~PyQt6.QtWidgets.QAbstractItemView.CursorAction`
@@ -105,6 +110,11 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
         :description: QtWidgets/QColumnView-setModel-f.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QColumnView.setPreviewColumnVisible
+        :args:
+            bool
+        :description: QtWidgets/QColumnView-setPreviewColumnVisible-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QColumnView.setPreviewWidget
         :args:

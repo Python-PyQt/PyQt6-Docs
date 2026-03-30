@@ -56,7 +56,7 @@
         :description: QtWidgets/QStyleOptionToolBox-selectedPosition-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionToolBox.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionToolBox-text-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionToolBox.__init__

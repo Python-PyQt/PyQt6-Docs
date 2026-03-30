@@ -53,10 +53,10 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.backendProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtPositioning/QGeoAreaMonitorSource-backendProperty-f-1.rst
+        :description: QtPositioning/QGeoAreaMonitorSource-backendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.createDefaultSource
         :args:
@@ -68,12 +68,12 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.createSource
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtPositioning.QGeoAreaMonitorSource`
         :static:
-        :description: QtPositioning/QGeoAreaMonitorSource-createSource-f-1.rst
+        :description: QtPositioning/QGeoAreaMonitorSource-createSource-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.error
         :returns:
@@ -95,11 +95,11 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.setBackendProperty
         :args:
-            Optional[str]
+            str|None
             Any
         :returns:
             bool
-        :description: QtPositioning/QGeoAreaMonitorSource-setBackendProperty-f-1.rst
+        :description: QtPositioning/QGeoAreaMonitorSource-setBackendProperty-f.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoAreaMonitorSource.setPositionInfoSource
         :args:

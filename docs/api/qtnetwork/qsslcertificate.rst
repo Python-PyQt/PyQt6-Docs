@@ -58,9 +58,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.__init__
         :args:
-            data: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            data: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
             format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
-        :description: QtNetwork/QSslCertificate-__init__-f-3.rst
+        :description: QtNetwork/QSslCertificate-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.clear
         :description: QtNetwork/QSslCertificate-clear-f.rst
@@ -96,12 +96,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
         :returns:
             list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
         :static:
-        :description: QtNetwork/QSslCertificate-fromData-f.rst
+        :description: QtNetwork/QSslCertificate-fromData-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromDevice
         :args:
@@ -114,22 +114,22 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromFile
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
         :returns:
             list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
         :static:
-        :description: QtNetwork/QSslCertificate-fromFile-f.rst
+        :description: QtNetwork/QSslCertificate-fromFile-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.fromPath
         :args:
-            Optional[str]
+            str|None
             format: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
             syntax: :sip:ref:`~PyQt6.QtNetwork.QSslCertificate.PatternSyntax` = :sip:ref:`~PyQt6.QtNetwork.QSslCertificate.PatternSyntax.FixedString`
         :returns:
             list[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
         :static:
-        :description: QtNetwork/QSslCertificate-fromPath-f.rst
+        :description: QtNetwork/QSslCertificate-fromPath-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.handle
         :returns:
@@ -147,11 +147,11 @@
             :sip:ref:`~PyQt6.QtNetwork.QSslKey`
             :sip:ref:`~PyQt6.QtNetwork.QSslCertificate`
             caCertificates: Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`] = []
-            passPhrase: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            passPhrase: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
         :returns:
             bool
         :static:
-        :description: QtNetwork/QSslCertificate-importPkcs12-f-1.rst
+        :description: QtNetwork/QSslCertificate-importPkcs12-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.isBlacklisted
         :returns:
@@ -182,10 +182,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.issuerInfo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             list[str]
-        :description: QtNetwork/QSslCertificate-issuerInfo-f-3.rst
+        :description: QtNetwork/QSslCertificate-issuerInfo-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.issuerInfoAttributes
         :returns:
@@ -228,10 +228,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.subjectInfo
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             list[str]
-        :description: QtNetwork/QSslCertificate-subjectInfo-f-3.rst
+        :description: QtNetwork/QSslCertificate-subjectInfo-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.subjectInfoAttributes
         :returns:
@@ -261,11 +261,11 @@
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.verify
         :args:
             Iterable[:sip:ref:`~PyQt6.QtNetwork.QSslCertificate`]
-            hostName: Optional[str] = ''
+            hostName: str|None = ''
         :returns:
             list[:sip:ref:`~PyQt6.QtNetwork.QSslError`]
         :static:
-        :description: QtNetwork/QSslCertificate-verify-f.rst
+        :description: QtNetwork/QSslCertificate-verify-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslCertificate.version
         :returns:

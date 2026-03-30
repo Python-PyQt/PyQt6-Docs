@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a rectangular geographic area
-    :digest: d151733e1926bc35343f4bb459bf6ac5
+    :digest: 5bbee80483e4889a8cdccd57d10cdea2
 
 The :sip:ref:`~PyQt6.QtPositioning.QGeoRectangle` class defines a rectangular geographic area.
 
@@ -15,4 +15,4 @@ Several methods behave as though the geo rectangle is defined in terms of a cent
 
 If the height or center of a geo rectangle is adjusted such that it would cross one of the poles the height is modified such that the geo rectangle touches but does not cross the pole and that the center coordinate is still in the center of the geo rectangle.
 
-This class is a Q_GADGET since Qt 5.5. It can be `directly used from C++ and QML <https://doc.qt.io/qt-6/positioning-cpp-qml.html#cpp-value-integration-positioning>`_.
+This class is also accessible in QML as `geoRectangle <https://doc.qt.io/qt-6/qml-georectangle.html>`_.

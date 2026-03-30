@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 0x00400000
-    :digest: 136665596a4a83a757594a3c38dcde92
+    :digest: 93f50596781c80fef5bdbff9414992d2
 
-Used to indicate if an editor is opened on the widget.
+Deprecated. No longer used as the editor is drawn over the itemview cell.

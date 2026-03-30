@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 3e69feef0ac38787037ab8ad6544dd8f
+    :digest: cfccae30e732f756ce1e5ee513e6bfb7
 
-This enum type is used to describe the color model of the pixelformat. Alpha was added in 5.5.
+This enum describes the :sip:ref:`~PyQt6.QtGui.QPixelFormat.colorModel` of the pixel format.

@@ -177,13 +177,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractButton.setShortcut
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
-        :description: QtWidgets/QAbstractButton-setShortcut-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
+        :description: QtWidgets/QAbstractButton-setShortcut-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractButton.setText
         :args:
-            Optional[str]
-        :description: QtWidgets/QAbstractButton-setText-f-1.rst
+            str|None
+        :description: QtWidgets/QAbstractButton-setText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QAbstractButton.shortcut
         :returns:

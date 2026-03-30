@@ -21,6 +21,11 @@
             :sip:ref:`~PyQt6.QtCore.QUrl`
         :description: QtQml/QQmlContext-baseUrl-f.rst
 
+    .. sip:method:: PyQt6.QtQml.QQmlContext.childContexts
+        :returns:
+            list[:sip:ref:`~PyQt6.QtQml.QQmlContext`]
+        :description: QtQml/QQmlContext-childContexts-f.rst
+
     .. sip:method:: PyQt6.QtQml.QQmlContext.contextObject
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
@@ -28,15 +33,29 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.contextProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtQml/QQmlContext-contextProperty-f-1.rst
+        :description: QtQml/QQmlContext-contextProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.engine
         :returns:
             :sip:ref:`~PyQt6.QtQml.QQmlEngine`
         :description: QtQml/QQmlContext-engine-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlContext.findObjectRecursively
+        :args:
+            str|None
+        :returns:
+            :sip:ref:`~PyQt6.QtCore.QObject`
+        :description: QtQml/QQmlContext-findObjectRecursively-f.rst
+
+    .. sip:method:: PyQt6.QtQml.QQmlContext.findObjectsRecursively
+        :args:
+            str|None
+        :returns:
+            list[:sip:ref:`~PyQt6.QtCore.QObject`]
+        :description: QtQml/QQmlContext-findObjectsRecursively-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.isValid
         :returns:
@@ -52,10 +71,10 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.objectForName
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlContext-objectForName-f-1.rst
+        :description: QtQml/QQmlContext-objectForName-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.parentContext
         :returns:
@@ -86,12 +105,12 @@
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.setContextProperty
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtQml/QQmlContext-setContextProperty-f-2.rst
+        :description: QtQml/QQmlContext-setContextProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QQmlContext.setContextProperty
         :args:
-            Optional[str]
+            str|None
             Any
-        :description: QtQml/QQmlContext-setContextProperty-f-3.rst
+        :description: QtQml/QQmlContext-setContextProperty-f-1.rst

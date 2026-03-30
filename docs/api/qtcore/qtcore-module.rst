@@ -144,8 +144,8 @@
 
     .. sip:method:: PyQt6.QtCore.pyqtPickleProtocol
         :returns:
-            Optional[int]
-        :description: QtCore/pyqtPickleProtocol-f.rst
+            int|None
+        :description: QtCore/pyqtPickleProtocol-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.pyqtRemoveInputHook
         :description: QtCore/pyqtRemoveInputHook-f.rst
@@ -155,8 +155,8 @@
 
     .. sip:method:: PyQt6.QtCore.pyqtSetPickleProtocol
         :args:
-            Optional[int]
-        :description: QtCore/pyqtSetPickleProtocol-f.rst
+            int|None
+        :description: QtCore/pyqtSetPickleProtocol-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.pyqtSlot
         :args:
@@ -201,11 +201,11 @@
 
     .. sip:method:: PyQt6.QtCore.qChecksum
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             standard: :sip:ref:`~PyQt6.QtCore.Qt.ChecksumType` = :sip:ref:`~PyQt6.QtCore.Qt.ChecksumType.ChecksumIso3309`
         :returns:
             int
-        :description: QtCore/qChecksum-f.rst
+        :description: QtCore/qChecksum-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qCompress
         :args:
@@ -217,11 +217,11 @@
 
     .. sip:method:: PyQt6.QtCore.qCompress
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             compressionLevel: int = -1
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/qCompress-f-2.rst
+        :description: QtCore/qCompress-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qCritical
         :args:
@@ -243,17 +243,17 @@
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariable
         :args:
             str
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/qEnvironmentVariable-f-2.rst
+        :description: QtCore/qEnvironmentVariable-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariableIntegerValue
         :args:
             str
         :returns:
-            Optional[int]
-        :description: QtCore/qEnvironmentVariableIntegerValue-f.rst
+            int|None
+        :description: QtCore/qEnvironmentVariableIntegerValue-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qEnvironmentVariableIntValue
         :args:
@@ -294,10 +294,10 @@
         :args:
             :sip:ref:`~PyQt6.QtCore.QtMsgType`
             :sip:ref:`~PyQt6.QtCore.QMessageLogContext`
-            Optional[str]
+            str|None
         :returns:
             str
-        :description: QtCore/qFormatLogMessage-f-1.rst
+        :description: QtCore/qFormatLogMessage-f.rst
 
     .. sip:method:: PyQt6.QtCore.qFuzzyCompare
         :args:
@@ -401,10 +401,10 @@
 
     .. sip:method:: PyQt6.QtCore.qInstallMessageHandler
         :args:
-            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, Optional[str]], None]]
+            Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, str|None], None]|None
         :returns:
-            Optional[Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, Optional[str]], None]]
-        :description: QtCore/qInstallMessageHandler-f-1.rst
+            Callable[[:sip:ref:`~PyQt6.QtCore.QtMsgType`, :sip:ref:`~PyQt6.QtCore.QMessageLogContext`, str|None], None]|None
+        :description: QtCore/qInstallMessageHandler-f.rst
 
     .. sip:method:: PyQt6.QtCore.qIsFinite
         :args:
@@ -470,8 +470,8 @@
 
     .. sip:method:: PyQt6.QtCore.qSetMessagePattern
         :args:
-            Optional[str]
-        :description: QtCore/qSetMessagePattern-f-1.rst
+            str|None
+        :description: QtCore/qSetMessagePattern-f.rst
 
     .. sip:method:: PyQt6.QtCore.qSetPadChar
         :args:
@@ -516,10 +516,10 @@
 
     .. sip:method:: PyQt6.QtCore.qUncompress
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtCore/qUncompress-f-2.rst
+        :description: QtCore/qUncompress-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.qUnregisterResourceData
         :args:

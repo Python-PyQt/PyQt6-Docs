@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 77d9a042f629372f3f11bc588d60655d
+    :digest: 71778b1664f2cc1e51887390ae2b1399
 
 This enum type describes the navigation type of the request:

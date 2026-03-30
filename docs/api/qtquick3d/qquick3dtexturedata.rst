@@ -160,8 +160,8 @@
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.setTextureData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtQuick3D/QQuick3DTextureData-setTextureData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtQuick3D/QQuick3DTextureData-setTextureData-f.rst
 
     .. sip:method:: PyQt6.QtQuick3D.QQuick3DTextureData.size
         :returns:

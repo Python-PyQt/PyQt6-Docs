@@ -82,8 +82,8 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyCharacteristicData.setValue
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtBluetooth/QLowEnergyCharacteristicData-setValue-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtBluetooth/QLowEnergyCharacteristicData-setValue-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyCharacteristicData.setValueLength
         :args:

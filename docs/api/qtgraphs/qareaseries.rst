@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-setBorderColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-setBorderColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setBorderWidth
         :args:
@@ -56,8 +56,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-setColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setLowerSeries
         :args:
@@ -71,13 +71,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setSelectedBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-setSelectedBorderColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-setSelectedBorderColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setSelectedColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-setSelectedColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-setSelectedColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAreaSeries.setUpperSeries
         :args:
@@ -96,8 +96,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.borderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-borderColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-borderColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.borderWidthChanged
         :description: QtGraphs/QAreaSeries-borderWidthChanged-s.rst
@@ -109,8 +109,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-colorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-colorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.doubleClicked
         :args:
@@ -132,16 +132,16 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.selectedBorderColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-selectedBorderColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-selectedBorderColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.selectedChanged
         :description: QtGraphs/QAreaSeries-selectedChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.selectedColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAreaSeries-selectedColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAreaSeries-selectedColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAreaSeries.upperSeriesChanged
         :description: QtGraphs/QAreaSeries-upperSeriesChanged-s.rst

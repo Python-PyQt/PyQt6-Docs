@@ -12,19 +12,19 @@
     .. sip:method:: PyQt6.QtDesigner.QExtensionFactory.createExtension
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QObject`
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDesigner/QExtensionFactory-createExtension-f-1.rst
+        :description: QtDesigner/QExtensionFactory-createExtension-f.rst
 
     .. sip:method:: PyQt6.QtDesigner.QExtensionFactory.extension
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDesigner/QExtensionFactory-extension-f-1.rst
+        :description: QtDesigner/QExtensionFactory-extension-f.rst
 
     .. sip:method:: PyQt6.QtDesigner.QExtensionFactory.extensionManager
         :returns:

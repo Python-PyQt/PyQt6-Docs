@@ -16,33 +16,33 @@
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.joinMulticastGroup
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
         :returns:
             bool
-        :description: QtNetwork/QUdpSocket-joinMulticastGroup-f.rst
+        :description: QtNetwork/QUdpSocket-joinMulticastGroup-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.joinMulticastGroup
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             :sip:ref:`~PyQt6.QtNetwork.QNetworkInterface`
         :returns:
             bool
-        :description: QtNetwork/QUdpSocket-joinMulticastGroup-f-1.rst
+        :description: QtNetwork/QUdpSocket-joinMulticastGroup-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.leaveMulticastGroup
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
         :returns:
             bool
-        :description: QtNetwork/QUdpSocket-leaveMulticastGroup-f.rst
+        :description: QtNetwork/QUdpSocket-leaveMulticastGroup-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.leaveMulticastGroup
         :args:
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             :sip:ref:`~PyQt6.QtNetwork.QNetworkInterface`
         :returns:
             bool
-        :description: QtNetwork/QUdpSocket-leaveMulticastGroup-f-1.rst
+        :description: QtNetwork/QUdpSocket-leaveMulticastGroup-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.multicastInterface
         :returns:
@@ -84,9 +84,9 @@
 
     .. sip:method:: PyQt6.QtNetwork.QUdpSocket.writeDatagram
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
-            Union[:sip:ref:`~PyQt6.QtNetwork.QHostAddress`, :sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
+            :sip:ref:`~PyQt6.QtNetwork.QHostAddress`|:sip:ref:`~PyQt6.QtNetwork.QHostAddress.SpecialAddress`
             int
         :returns:
             int
-        :description: QtNetwork/QUdpSocket-writeDatagram-f-2.rst
+        :description: QtNetwork/QUdpSocket-writeDatagram-f-1.rst

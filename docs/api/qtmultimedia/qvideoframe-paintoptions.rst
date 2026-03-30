@@ -14,7 +14,7 @@
         :description: QtMultimedia/QVideoFrame-PaintOptions-aspectRatioMode-a.rst
 
     .. sip:attribute:: PyQt6.QtMultimedia.QVideoFrame.PaintOptions.backgroundColor
-        :type: Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
+        :type: :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
         :description: QtMultimedia/QVideoFrame-PaintOptions-backgroundColor-a.rst
 
     .. sip:attribute:: PyQt6.QtMultimedia.QVideoFrame.PaintOptions.paintFlags

@@ -47,5 +47,5 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QAnimationClipData.setName
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QAnimationClipData-setName-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QAnimationClipData-setName-f.rst

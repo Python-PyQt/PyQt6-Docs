@@ -50,11 +50,11 @@
 
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.append
         :args:
-            Optional[str]
+            str|None
             float
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
-        :description: QtGraphs/QPieSeries-append-f-2.rst
+        :description: QtGraphs/QPieSeries-append-f-3.rst
 
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.at
         :args:
@@ -81,10 +81,10 @@
 
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.find
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGraphs.QPieSlice`
-        :description: QtGraphs/QPieSeries-find-f.rst
+        :description: QtGraphs/QPieSeries-find-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QPieSeries.holeSize
         :returns:

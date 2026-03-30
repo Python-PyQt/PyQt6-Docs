@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
             :sip:ref:`~PyQt6.QtGui.QImage`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QCustom3DItem-__init__-f-2.rst
+        :description: QtDataVisualization/QCustom3DItem-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.isPositionAbsolute
         :returns:
@@ -61,8 +61,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.setMeshFile
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QCustom3DItem-setMeshFile-f-1.rst
+            str|None
+        :description: QtDataVisualization/QCustom3DItem-setMeshFile-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.setPosition
         :args:
@@ -102,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.setTextureFile
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QCustom3DItem-setTextureFile-f-1.rst
+            str|None
+        :description: QtDataVisualization/QCustom3DItem-setTextureFile-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DItem.setTextureImage
         :args:
@@ -122,8 +122,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DItem.meshFileChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QCustom3DItem-meshFileChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QCustom3DItem-meshFileChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DItem.positionAbsoluteChanged
         :args:
@@ -157,8 +157,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DItem.textureFileChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QCustom3DItem-textureFileChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QCustom3DItem-textureFileChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DItem.visibleChanged
         :args:

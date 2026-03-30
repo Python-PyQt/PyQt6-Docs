@@ -36,8 +36,8 @@
 
     .. sip:method:: PyQt6.QtCore.QCalendar.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtCore/QCalendar-__init__-f-5.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtCore/QCalendar-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.__init__
         :args:
@@ -69,20 +69,20 @@
     .. sip:method:: PyQt6.QtCore.QCalendar.dateTimeToString
         :args:
             str
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
-            Union[:sip:ref:`~PyQt6.QtCore.QTime`, datetime.time]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
+            :sip:ref:`~PyQt6.QtCore.QTime`|datetime.time
             :sip:ref:`~PyQt6.QtCore.QLocale`
         :returns:
             str
-        :description: QtCore/QCalendar-dateTimeToString-f.rst
+        :description: QtCore/QCalendar-dateTimeToString-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.dayOfWeek
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             int
-        :description: QtCore/QCalendar-dayOfWeek-f.rst
+        :description: QtCore/QCalendar-dayOfWeek-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.daysInMonth
         :args:
@@ -192,10 +192,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCalendar.partsFromDate
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt6.QtCore.QDate`|datetime.date
         :returns:
             :sip:ref:`~PyQt6.QtCore.QCalendar.YearMonthDay`
-        :description: QtCore/QCalendar-partsFromDate-f.rst
+        :description: QtCore/QCalendar-partsFromDate-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCalendar.standaloneMonthName
         :args:

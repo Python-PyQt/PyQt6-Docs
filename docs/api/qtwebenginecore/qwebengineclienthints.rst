@@ -69,28 +69,28 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setArch
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setArch-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setArch-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setBitness
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setBitness-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setBitness-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setFormFactors
         :args:
-            Iterable[Optional[str]]
-        :description: QtWebEngineCore/QWebEngineClientHints-setFormFactors-f.rst
+            Iterable[str|None]
+        :description: QtWebEngineCore/QWebEngineClientHints-setFormFactors-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setFullVersion
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setFullVersion-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setFullVersion-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setFullVersionList
         :args:
-            dict[Optional[str], Any]
-        :description: QtWebEngineCore/QWebEngineClientHints-setFullVersionList-f.rst
+            dict[str|None, Any]
+        :description: QtWebEngineCore/QWebEngineClientHints-setFullVersionList-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setIsMobile
         :args:
@@ -104,15 +104,15 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setModel
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setModel-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setModel-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setPlatform
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setPlatform-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setPlatform-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineClientHints.setPlatformVersion
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineClientHints-setPlatformVersion-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineClientHints-setPlatformVersion-f-1.rst

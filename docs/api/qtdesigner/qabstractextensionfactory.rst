@@ -14,7 +14,7 @@
     .. sip:method:: PyQt6.QtDesigner.QAbstractExtensionFactory.extension
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtCore.QObject`
-        :description: QtDesigner/QAbstractExtensionFactory-extension-f-1.rst
+        :description: QtDesigner/QAbstractExtensionFactory-extension-f.rst

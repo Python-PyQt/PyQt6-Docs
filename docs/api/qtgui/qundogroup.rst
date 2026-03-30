@@ -32,18 +32,18 @@
     .. sip:method:: PyQt6.QtGui.QUndoGroup.createRedoAction
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            prefix: Optional[str] = ''
+            prefix: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QUndoGroup-createRedoAction-f-1.rst
+        :description: QtGui/QUndoGroup-createRedoAction-f.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoGroup.createUndoAction
         :args:
             :sip:ref:`~PyQt6.QtCore.QObject`
-            prefix: Optional[str] = ''
+            prefix: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QUndoGroup-createUndoAction-f-1.rst
+        :description: QtGui/QUndoGroup-createUndoAction-f.rst
 
     .. sip:method:: PyQt6.QtGui.QUndoGroup.isClean
         :returns:
@@ -108,10 +108,10 @@
 
     .. sip:signal:: PyQt6.QtGui.QUndoGroup.redoTextChanged
         :args:
-            Optional[str]
-        :description: QtGui/QUndoGroup-redoTextChanged-s-1.rst
+            str|None
+        :description: QtGui/QUndoGroup-redoTextChanged-s.rst
 
     .. sip:signal:: PyQt6.QtGui.QUndoGroup.undoTextChanged
         :args:
-            Optional[str]
-        :description: QtGui/QUndoGroup-undoTextChanged-s-1.rst
+            str|None
+        :description: QtGui/QUndoGroup-undoTextChanged-s.rst

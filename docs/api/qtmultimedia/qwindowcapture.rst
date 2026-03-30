@@ -80,8 +80,8 @@
     .. sip:signal:: PyQt6.QtMultimedia.QWindowCapture.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtMultimedia.QWindowCapture.Error`
-            Optional[str]
-        :description: QtMultimedia/QWindowCapture-errorOccurred-s.rst
+            str|None
+        :description: QtMultimedia/QWindowCapture-errorOccurred-s-1.rst
 
     .. sip:signal:: PyQt6.QtMultimedia.QWindowCapture.windowChanged
         :args:

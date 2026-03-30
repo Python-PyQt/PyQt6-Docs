@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 6
-    :digest: 143a4daa43b479df1abe5409b26ecd6c
+    :digest: 24f0dff7575579a0d2734e8e4db64860
 
-The margin of the menu.
+Deprecated and not used. The margin of the menu.

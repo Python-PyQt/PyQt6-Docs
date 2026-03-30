@@ -203,11 +203,11 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.fromIccProfile
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             :sip:ref:`~PyQt6.QtGui.QColorSpace`
         :static:
-        :description: QtGui/QColorSpace-fromIccProfile-f-1.rst
+        :description: QtGui/QColorSpace-fromIccProfile-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.gamma
         :returns:
@@ -248,8 +248,8 @@
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setDescription
         :args:
-            Optional[str]
-        :description: QtGui/QColorSpace-setDescription-f-1.rst
+            str|None
+        :description: QtGui/QColorSpace-setDescription-f.rst
 
     .. sip:method:: PyQt6.QtGui.QColorSpace.setPrimaries
         :args:

@@ -20,8 +20,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpContentModel.createContents
         :args:
-            Optional[str]
-        :description: QtHelp/QHelpContentModel-createContents-f-1.rst
+            str|None
+        :description: QtHelp/QHelpContentModel-createContents-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpContentModel.createContentsForCurrentFilter
         :description: QtHelp/QHelpContentModel-createContentsForCurrentFilter-f.rst

@@ -41,8 +41,8 @@
 
     .. sip:signal:: PyQt6.QtPdfWidgets.QPdfPageSelector.currentPageLabelChanged
         :args:
-            Optional[str]
-        :description: QtPdfWidgets/QPdfPageSelector-currentPageLabelChanged-s.rst
+            str|None
+        :description: QtPdfWidgets/QPdfPageSelector-currentPageLabelChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtPdfWidgets.QPdfPageSelector.documentChanged
         :args:

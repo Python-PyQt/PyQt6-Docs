@@ -83,8 +83,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setFormat
         :args:
-            Optional[str]
-        :description: QtWidgets/QProgressBar-setFormat-f-1.rst
+            str|None
+        :description: QtWidgets/QProgressBar-setFormat-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressBar.setInvertedAppearance
         :args:

@@ -8,7 +8,7 @@
         :description: QtWebEngineCore/QWebEngineGlobalSettings-DnsMode-secureMode-a.rst
 
     .. sip:attribute:: PyQt6.QtWebEngineCore.QWebEngineGlobalSettings.DnsMode.serverTemplates
-        :type: Iterable[Optional[str]]
+        :type: Iterable[str|None]
         :description: QtWebEngineCore/QWebEngineGlobalSettings-DnsMode-serverTemplates-a.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineGlobalSettings.DnsMode.__init__

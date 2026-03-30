@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtStateMachine.QSignalTransition.setSignal
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtStateMachine/QSignalTransition-setSignal-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtStateMachine/QSignalTransition-setSignal-f-1.rst
 
     .. sip:method:: PyQt6.QtStateMachine.QSignalTransition.signal
         :returns:

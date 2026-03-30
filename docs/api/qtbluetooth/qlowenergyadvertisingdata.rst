@@ -90,19 +90,19 @@
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.setLocalName
         :args:
-            Optional[str]
-        :description: QtBluetooth/QLowEnergyAdvertisingData-setLocalName-f-1.rst
+            str|None
+        :description: QtBluetooth/QLowEnergyAdvertisingData-setLocalName-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.setManufacturerData
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtBluetooth/QLowEnergyAdvertisingData-setManufacturerData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtBluetooth/QLowEnergyAdvertisingData-setManufacturerData-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.setRawData
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtBluetooth/QLowEnergyAdvertisingData-setRawData-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtBluetooth/QLowEnergyAdvertisingData-setRawData-f.rst
 
     .. sip:method:: PyQt6.QtBluetooth.QLowEnergyAdvertisingData.setServices
         :args:

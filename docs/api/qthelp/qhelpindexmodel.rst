@@ -6,19 +6,19 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.createIndex
         :args:
-            Optional[str]
-        :description: QtHelp/QHelpIndexModel-createIndex-f-1.rst
+            str|None
+        :description: QtHelp/QHelpIndexModel-createIndex-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.createIndexForCurrentFilter
         :description: QtHelp/QHelpIndexModel-createIndexForCurrentFilter-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.filter
         :args:
-            Optional[str]
-            wildcard: Optional[str] = ''
+            str|None
+            wildcard: str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtCore.QModelIndex`
-        :description: QtHelp/QHelpIndexModel-filter-f-1.rst
+        :description: QtHelp/QHelpIndexModel-filter-f.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpIndexModel.helpEngine
         :returns:

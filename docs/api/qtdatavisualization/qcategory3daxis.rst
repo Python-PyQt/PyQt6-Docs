@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCategory3DAxis.setLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtDataVisualization/QCategory3DAxis-setLabels-f-1.rst
+            Iterable[str|None]
+        :description: QtDataVisualization/QCategory3DAxis-setLabels-f.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCategory3DAxis.labelsChanged
         :description: QtDataVisualization/QCategory3DAxis-labelsChanged-s.rst

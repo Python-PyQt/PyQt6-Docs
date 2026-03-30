@@ -223,8 +223,8 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setAnimationEasingCurve
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: QtCharts/QChart-setAnimationEasingCurve-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: QtCharts/QChart-setAnimationEasingCurve-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setAnimationOptions
         :args:
@@ -233,13 +233,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setBackgroundBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QChart-setBackgroundBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QChart-setBackgroundPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QChart-setBackgroundPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setBackgroundRoundness
         :args:
@@ -278,13 +278,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setPlotAreaBackgroundBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QChart-setPlotAreaBackgroundBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundPen
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QPen`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QPen`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtCharts/QChart-setPlotAreaBackgroundPen-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setPlotAreaBackgroundVisible
         :args:
@@ -298,13 +298,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitle
         :args:
-            Optional[str]
-        :description: QtCharts/QChart-setTitle-f-1.rst
+            str|None
+        :description: QtCharts/QChart-setTitle-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitleBrush
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QBrush`, Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int], :sip:ref:`~PyQt6.QtGui.QGradient`]
-        :description: QtCharts/QChart-setTitleBrush-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QBrush`|:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int|:sip:ref:`~PyQt6.QtGui.QGradient`
+        :description: QtCharts/QChart-setTitleBrush-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QChart.setTitleFont
         :args:

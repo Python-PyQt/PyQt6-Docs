@@ -27,5 +27,5 @@
 
     .. sip:method:: PyQt6.QtDesigner.QDesignerWidgetBoxInterface.setFileName
         :args:
-            Optional[str]
-        :description: QtDesigner/QDesignerWidgetBoxInterface-setFileName-f-1.rst
+            str|None
+        :description: QtDesigner/QDesignerWidgetBoxInterface-setFileName-f.rst

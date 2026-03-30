@@ -29,7 +29,7 @@
         :description: QtWidgets/QStyleOptionDockWidget-movable-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionDockWidget.title
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionDockWidget-title-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionDockWidget.verticalTitleBar

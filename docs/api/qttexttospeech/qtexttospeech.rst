@@ -83,16 +83,16 @@
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtTextToSpeech/QTextToSpeech-__init__-f-3.rst
+        :description: QtTextToSpeech/QTextToSpeech-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.__init__
         :args:
-            Optional[str]
-            dict[Optional[str], Any]
+            str|None
+            dict[str|None, Any]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtTextToSpeech/QTextToSpeech-__init__-f-1.rst
+        :description: QtTextToSpeech/QTextToSpeech-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.availableEngines
         :returns:
@@ -122,10 +122,10 @@
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.enqueue
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtTextToSpeech/QTextToSpeech-enqueue-f.rst
+        :description: QtTextToSpeech/QTextToSpeech-enqueue-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.errorReason
         :returns:
@@ -162,16 +162,16 @@
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.say
         :args:
-            Optional[str]
-        :description: QtTextToSpeech/QTextToSpeech-say-f-1.rst
+            str|None
+        :description: QtTextToSpeech/QTextToSpeech-say-f.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.setEngine
         :args:
-            Optional[str]
-            params: dict[Optional[str], Any] = {}
+            str|None
+            params: dict[str|None, Any] = {}
         :returns:
             bool
-        :description: QtTextToSpeech/QTextToSpeech-setEngine-f.rst
+        :description: QtTextToSpeech/QTextToSpeech-setEngine-f-1.rst
 
     .. sip:method:: PyQt6.QtTextToSpeech.QTextToSpeech.setLocale
         :args:
@@ -225,14 +225,14 @@
 
     .. sip:signal:: PyQt6.QtTextToSpeech.QTextToSpeech.engineChanged
         :args:
-            Optional[str]
-        :description: QtTextToSpeech/QTextToSpeech-engineChanged-s-1.rst
+            str|None
+        :description: QtTextToSpeech/QTextToSpeech-engineChanged-s.rst
 
     .. sip:signal:: PyQt6.QtTextToSpeech.QTextToSpeech.errorOccurred
         :args:
             :sip:ref:`~PyQt6.QtTextToSpeech.QTextToSpeech.ErrorReason`
-            Optional[str]
-        :description: QtTextToSpeech/QTextToSpeech-errorOccurred-s-1.rst
+            str|None
+        :description: QtTextToSpeech/QTextToSpeech-errorOccurred-s.rst
 
     .. sip:signal:: PyQt6.QtTextToSpeech.QTextToSpeech.localeChanged
         :args:
@@ -251,11 +251,11 @@
 
     .. sip:signal:: PyQt6.QtTextToSpeech.QTextToSpeech.sayingWord
         :args:
-            Optional[str]
+            str|None
             int
             int
             int
-        :description: QtTextToSpeech/QTextToSpeech-sayingWord-s.rst
+        :description: QtTextToSpeech/QTextToSpeech-sayingWord-s-1.rst
 
     .. sip:signal:: PyQt6.QtTextToSpeech.QTextToSpeech.stateChanged
         :args:

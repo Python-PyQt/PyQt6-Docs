@@ -224,16 +224,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.setStyle
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtWidgets.QStyle`
         :static:
-        :description: QtWidgets/QApplication-setStyle-f-2.rst
+        :description: QtWidgets/QApplication-setStyle-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.setStyleSheet
         :args:
-            Optional[str]
-        :description: QtWidgets/QApplication-setStyleSheet-f-1.rst
+            str|None
+        :description: QtWidgets/QApplication-setStyleSheet-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QApplication.setWheelScrollLines
         :args:

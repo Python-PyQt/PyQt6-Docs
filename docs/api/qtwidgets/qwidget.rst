@@ -57,10 +57,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-9.rst
+        :description: QtWidgets/QWidget-addAction-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
@@ -70,67 +70,67 @@
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-10.rst
+        :description: QtWidgets/QWidget-addAction-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            str|None
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-11.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
-        :args:
-            :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-12.rst
-
-    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
-        :args:
-            Optional[str]
-            PYQT_SLOT
-            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
-        :returns:
-            :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-13.rst
+        :description: QtWidgets/QWidget-addAction-f-3.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
-            PYQT_SLOT
-            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+            str|None
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-14.rst
+        :description: QtWidgets/QWidget-addAction-f-4.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            str|None
             PYQT_SLOT
             type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-15.rst
+        :description: QtWidgets/QWidget-addAction-f-5.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            str|None
             PYQT_SLOT
             type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtWidgets/QWidget-addAction-f-16.rst
+        :description: QtWidgets/QWidget-addAction-f-6.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            str|None
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-7.rst
+
+    .. sip:method:: PyQt6.QtWidgets.QWidget.addAction
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QIcon`
+            str|None
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
+            PYQT_SLOT
+            type: :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType` = :sip:ref:`~PyQt6.QtCore.Qt.ConnectionType.AutoConnection`
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QAction`
+        :description: QtWidgets/QWidget-addAction-f-8.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.addActions
         :args:
@@ -407,16 +407,16 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabMouse
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtWidgets/QWidget-grabMouse-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtWidgets/QWidget-grabMouse-f-2.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.grabShortcut
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
             context: :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext` = :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.WindowShortcut`
         :returns:
             int
-        :description: QtWidgets/QWidget-grabShortcut-f-1.rst
+        :description: QtWidgets/QWidget-grabShortcut-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.graphicsEffect
         :returns:
@@ -801,12 +801,12 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.nativeEvent
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :py:class:`~PyQt6.sip.voidptr`
         :returns:
             bool
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QtWidgets/QWidget-nativeEvent-f-2.rst
+        :description: QtWidgets/QWidget-nativeEvent-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.nativeParentWidget
         :returns:
@@ -942,10 +942,10 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.restoreGeometry
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :returns:
             bool
-        :description: QtWidgets/QWidget-restoreGeometry-f-1.rst
+        :description: QtWidgets/QWidget-restoreGeometry-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.saveGeometry
         :returns:
@@ -977,18 +977,18 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setAccessibleDescription
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setAccessibleDescription-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setAccessibleDescription-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setAccessibleIdentifier
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setAccessibleIdentifier-f.rst
+            str|None
+        :description: QtWidgets/QWidget-setAccessibleIdentifier-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setAccessibleName
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setAccessibleName-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setAccessibleName-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setAttribute
         :args:
@@ -1037,8 +1037,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setCursor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtWidgets/QWidget-setCursor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtWidgets/QWidget-setCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setDisabled
         :args:
@@ -1256,8 +1256,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setStatusTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setStatusTip-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setStatusTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setStyle
         :args:
@@ -1266,8 +1266,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setStyleSheet
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setStyleSheet-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setStyleSheet-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setTabletTracking
         :args:
@@ -1283,8 +1283,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setToolTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setToolTip-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setToolTipDuration
         :args:
@@ -1303,13 +1303,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWhatsThis
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setWhatsThis-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setWhatsThis-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowFilePath
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setWindowFilePath-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setWindowFilePath-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowFlag
         :args:
@@ -1329,8 +1329,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowIconText
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setWindowIconText-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setWindowIconText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowModality
         :args:
@@ -1349,8 +1349,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowRole
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setWindowRole-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setWindowRole-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowState
         :args:
@@ -1359,8 +1359,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.setWindowTitle
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-setWindowTitle-f-1.rst
+            str|None
+        :description: QtWidgets/QWidget-setWindowTitle-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QWidget.sharedPainter
         :returns:
@@ -1609,10 +1609,10 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QWidget.windowIconTextChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-windowIconTextChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QWidget-windowIconTextChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QWidget.windowTitleChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QWidget-windowTitleChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QWidget-windowTitleChanged-s.rst

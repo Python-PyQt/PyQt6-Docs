@@ -21,13 +21,13 @@
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelMapping.setChannelName
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QChannelMapping-setChannelName-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QChannelMapping-setChannelName-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelMapping.setProperty
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QChannelMapping-setProperty-f-1.rst
+            str|None
+        :description: Qt3DAnimation/QChannelMapping-setProperty-f.rst
 
     .. sip:method:: PyQt6.Qt3DAnimation.QChannelMapping.setTarget
         :args:
@@ -41,13 +41,13 @@
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QChannelMapping.channelNameChanged
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QChannelMapping-channelNameChanged-s-1.rst
+            str|None
+        :description: Qt3DAnimation/QChannelMapping-channelNameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QChannelMapping.propertyChanged
         :args:
-            Optional[str]
-        :description: Qt3DAnimation/QChannelMapping-propertyChanged-s-1.rst
+            str|None
+        :description: Qt3DAnimation/QChannelMapping-propertyChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DAnimation.QChannelMapping.targetChanged
         :args:

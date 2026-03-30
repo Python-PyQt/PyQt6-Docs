@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtGui.QCursor.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtGui/QCursor-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtGui/QCursor-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtGui.QCursor.__init__
         :args:
@@ -38,10 +38,10 @@
 
     .. sip:method:: PyQt6.QtGui.QCursor.__eq__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
         :returns:
             bool
-        :description: QtGui/QCursor-__eq__-f.rst
+        :description: QtGui/QCursor-__eq__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QCursor.hotSpot
         :returns:
@@ -55,10 +55,10 @@
 
     .. sip:method:: PyQt6.QtGui.QCursor.__ne__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
         :returns:
             bool
-        :description: QtGui/QCursor-__ne__-f.rst
+        :description: QtGui/QCursor-__ne__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QCursor.pixmap
         :returns:
@@ -119,5 +119,5 @@
 
     .. sip:method:: PyQt6.QtGui.QCursor.swap
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtGui/QCursor-swap-f.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtGui/QCursor-swap-f-1.rst

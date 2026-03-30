@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.__init__
         :args:
-            Optional[str]
-        :description: QtGui/QPdfWriter-__init__-f-2.rst
+            str|None
+        :description: QtGui/QPdfWriter-__init__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.__init__
         :args:
@@ -31,10 +31,10 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.addFileAttachment
         :args:
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            mimeType: Optional[str] = ''
-        :description: QtGui/QPdfWriter-addFileAttachment-f-1.rst
+            str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            mimeType: str|None = ''
+        :description: QtGui/QPdfWriter-addFileAttachment-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.author
         :returns:
@@ -95,8 +95,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setAuthor
         :args:
-            Optional[str]
-        :description: QtGui/QPdfWriter-setAuthor-f.rst
+            str|None
+        :description: QtGui/QPdfWriter-setAuthor-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setColorModel
         :args:
@@ -105,8 +105,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setCreator
         :args:
-            Optional[str]
-        :description: QtGui/QPdfWriter-setCreator-f-1.rst
+            str|None
+        :description: QtGui/QPdfWriter-setCreator-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setDocumentId
         :args:
@@ -115,8 +115,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setDocumentXmpMetadata
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setOutputIntent
         :args:
@@ -135,8 +135,8 @@
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.setTitle
         :args:
-            Optional[str]
-        :description: QtGui/QPdfWriter-setTitle-f-1.rst
+            str|None
+        :description: QtGui/QPdfWriter-setTitle-f.rst
 
     .. sip:method:: PyQt6.QtGui.QPdfWriter.title
         :returns:

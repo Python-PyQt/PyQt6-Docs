@@ -21,8 +21,8 @@
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchEngineCore.search
         :args:
-            Optional[str]
-        :description: QtHelp/QHelpSearchEngineCore-search-f.rst
+            str|None
+        :description: QtHelp/QHelpSearchEngineCore-search-f-1.rst
 
     .. sip:method:: PyQt6.QtHelp.QHelpSearchEngineCore.searchInput
         :returns:

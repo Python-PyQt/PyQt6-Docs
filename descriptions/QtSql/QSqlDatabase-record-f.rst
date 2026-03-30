@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: d832fa4718e05d2a902ab89f3b2c62de
+    :realsig: (const QString&) const
+    :digest: 5b489fba5104fe281a1bfcb8b6c0aa15
+
+Returns a :sip:ref:`~PyQt6.QtSql.QSqlRecord` populated with the names of all the fields in the table (or view) called *tablename*. The order in which the fields appear in the record is undefined. If no such table (or view) exists, an empty record is returned.
+
+**Note:** Some drivers, such as the `QPSQL <https://doc.qt.io/qt-6/sql-driver.html#qpsql-case-sensitivity>`_ driver, may may require you to pass *tablename* in lower case if the table was not quoted when created. See the `Qt SQL driver <https://doc.qt.io/qt-6/sql-driver.html>`_ documentation for more information.

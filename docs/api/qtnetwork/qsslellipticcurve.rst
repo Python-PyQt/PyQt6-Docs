@@ -20,19 +20,19 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslEllipticCurve.fromLongName
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`
         :static:
-        :description: QtNetwork/QSslEllipticCurve-fromLongName-f-1.rst
+        :description: QtNetwork/QSslEllipticCurve-fromLongName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslEllipticCurve.fromShortName
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QSslEllipticCurve`
         :static:
-        :description: QtNetwork/QSslEllipticCurve-fromShortName-f-1.rst
+        :description: QtNetwork/QSslEllipticCurve-fromShortName-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslEllipticCurve.__hash__
         :returns:

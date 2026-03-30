@@ -119,7 +119,7 @@
         :description: QtWidgets/QStyleOptionTab-tabIndex-a.rst
 
     .. sip:attribute:: PyQt6.QtWidgets.QStyleOptionTab.text
-        :type: Optional[str]
+        :type: str|None
         :description: QtWidgets/QStyleOptionTab-text-a.rst
 
     .. sip:method:: PyQt6.QtWidgets.QStyleOptionTab.__init__

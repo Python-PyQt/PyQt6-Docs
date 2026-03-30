@@ -577,8 +577,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setCursor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtQuick/QQuickItem-setCursor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtQuick/QQuickItem-setCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setEnabled
         :args:
@@ -674,8 +674,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setState
         :args:
-            Optional[str]
-        :description: QtQuick/QQuickItem-setState-f-1.rst
+            str|None
+        :description: QtQuick/QQuickItem-setState-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickItem.setTransformOrigin
         :args:
@@ -894,8 +894,8 @@
 
     .. sip:signal:: PyQt6.QtQuick.QQuickItem.stateChanged
         :args:
-            Optional[str]
-        :description: QtQuick/QQuickItem-stateChanged-s-1.rst
+            str|None
+        :description: QtQuick/QQuickItem-stateChanged-s.rst
 
     .. sip:signal:: PyQt6.QtQuick.QQuickItem.transformOriginChanged
         :args:

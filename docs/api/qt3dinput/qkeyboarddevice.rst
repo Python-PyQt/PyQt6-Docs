@@ -21,10 +21,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.axisIdentifier
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: Qt3DInput/QKeyboardDevice-axisIdentifier-f-1.rst
+        :description: Qt3DInput/QKeyboardDevice-axisIdentifier-f.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.axisNames
         :returns:
@@ -38,10 +38,10 @@
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.buttonIdentifier
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: Qt3DInput/QKeyboardDevice-buttonIdentifier-f-1.rst
+        :description: Qt3DInput/QKeyboardDevice-buttonIdentifier-f.rst
 
     .. sip:method:: PyQt6.Qt3DInput.QKeyboardDevice.buttonNames
         :returns:

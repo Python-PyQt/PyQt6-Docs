@@ -31,6 +31,11 @@
             str
         :description: QtSvg/QSvgGenerator-fileName-f.rst
 
+    .. sip:method:: PyQt6.QtSvg.QSvgGenerator.initPainter
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QPainter`
+        :description: QtSvg/QSvgGenerator-initPainter-f.rst
+
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.metric
         :args:
             :sip:ref:`~PyQt6.QtGui.QPaintDevice.PaintDeviceMetric`
@@ -55,13 +60,13 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.setDescription
         :args:
-            Optional[str]
-        :description: QtSvg/QSvgGenerator-setDescription-f-1.rst
+            str|None
+        :description: QtSvg/QSvgGenerator-setDescription-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.setFileName
         :args:
-            Optional[str]
-        :description: QtSvg/QSvgGenerator-setFileName-f-1.rst
+            str|None
+        :description: QtSvg/QSvgGenerator-setFileName-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.setOutputDevice
         :args:
@@ -80,8 +85,8 @@
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.setTitle
         :args:
-            Optional[str]
-        :description: QtSvg/QSvgGenerator-setTitle-f-1.rst
+            str|None
+        :description: QtSvg/QSvgGenerator-setTitle-f.rst
 
     .. sip:method:: PyQt6.QtSvg.QSvgGenerator.setViewBox
         :args:

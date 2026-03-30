@@ -50,8 +50,8 @@
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QTextBoundaryFinder.BoundaryType`
-            Optional[str]
-        :description: QtCore/QTextBoundaryFinder-__init__-f-3.rst
+            str|None
+        :description: QtCore/QTextBoundaryFinder-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.boundaryReasons
         :returns:
@@ -82,6 +82,11 @@
         :returns:
             str
         :description: QtCore/QTextBoundaryFinder-string-f.rst
+
+    .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.swap
+        :args:
+            :sip:ref:`~PyQt6.QtCore.QTextBoundaryFinder`
+        :description: QtCore/QTextBoundaryFinder-swap-f.rst
 
     .. sip:method:: PyQt6.QtCore.QTextBoundaryFinder.toEnd
         :description: QtCore/QTextBoundaryFinder-toEnd-f.rst

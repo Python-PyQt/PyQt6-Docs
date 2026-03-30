@@ -126,13 +126,13 @@
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineWebAuthUxRequest.setPin
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineWebAuthUxRequest-setPin-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineWebAuthUxRequest-setPin-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineWebAuthUxRequest.setSelectedAccount
         :args:
-            Optional[str]
-        :description: QtWebEngineCore/QWebEngineWebAuthUxRequest-setSelectedAccount-f.rst
+            str|None
+        :description: QtWebEngineCore/QWebEngineWebAuthUxRequest-setSelectedAccount-f-1.rst
 
     .. sip:method:: PyQt6.QtWebEngineCore.QWebEngineWebAuthUxRequest.state
         :returns:

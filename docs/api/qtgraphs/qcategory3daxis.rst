@@ -16,8 +16,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCategory3DAxis.setLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QCategory3DAxis-setLabels-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QCategory3DAxis-setLabels-f-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCategory3DAxis.columnLabelsChanged
         :description: QtGraphs/QCategory3DAxis-columnLabelsChanged-s.rst

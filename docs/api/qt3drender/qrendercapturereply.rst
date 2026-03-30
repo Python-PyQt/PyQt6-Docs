@@ -16,10 +16,10 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QRenderCaptureReply.saveImage
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: Qt3DRender/QRenderCaptureReply-saveImage-f-1.rst
+        :description: Qt3DRender/QRenderCaptureReply-saveImage-f.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QRenderCaptureReply.completed
         :description: Qt3DRender/QRenderCaptureReply-completed-s.rst

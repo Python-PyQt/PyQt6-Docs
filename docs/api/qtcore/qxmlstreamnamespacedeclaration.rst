@@ -13,9 +13,9 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamNamespaceDeclaration.__init__
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtCore/QXmlStreamNamespaceDeclaration-__init__-f-3.rst
+            str|None
+            str|None
+        :description: QtCore/QXmlStreamNamespaceDeclaration-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamNamespaceDeclaration.__eq__
         :args:

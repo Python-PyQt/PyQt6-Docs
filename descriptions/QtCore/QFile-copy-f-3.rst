@@ -2,11 +2,9 @@
     :status: todo
     :pysig: 036e9c2cff75e17278911a538a7e62f1
     :realsig: (const QString&, const QString&)
-    :digest: 1365726771a2e4065145198ea653dee0
+    :digest: 5eb24f24c66f6d15695a94fe2f56b97c
 
 Copies the file named *fileName* to *newName*.
-
-This file is closed before it is copied.
 
 If the copied file is a symbolic link (symlink), the file it refers to is copied, not the link itself. With the exception of permissions, which are copied, no other file metadata is copied.
 

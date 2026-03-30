@@ -2,7 +2,7 @@
     :status: todo
     :pysig: 547000f13f2e7a3400a249c3cc6ac740
     :realsig: (QAnyStringView)
-    :digest: aacf9677ad1d6402aec2dcd7da76a454
+    :digest: 9ef2d9847c91604e43ad8b0244e1bda1
 
 Appends *prefix* to the current group.
 
@@ -17,7 +17,7 @@ This will set the value of three settings:
 
 * ``mainwindow/size``
 
-* ``mainwindow/fullScreen``
+* ``mainwindow/active``
 
 * ``outputpanel/visible``
 

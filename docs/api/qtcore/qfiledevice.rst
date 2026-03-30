@@ -213,11 +213,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.setFileTime
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
             :sip:ref:`~PyQt6.QtCore.QFileDevice.FileTime`
         :returns:
             bool
-        :description: QtCore/QFileDevice-setFileTime-f.rst
+        :description: QtCore/QFileDevice-setFileTime-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.setPermissions
         :args:
@@ -243,7 +243,7 @@
 
     .. sip:method:: PyQt6.QtCore.QFileDevice.writeData
         :args:
-            Union[bytes, bytearray, memoryview, PyQt6.sip.array, PyQt6.sip.voidptr]
+            bytes|bytearray|memoryview|PyQt6.sip.array|PyQt6.sip.voidptr
         :returns:
             int
-        :description: QtCore/QFileDevice-writeData-f-1.rst
+        :description: QtCore/QFileDevice-writeData-f.rst

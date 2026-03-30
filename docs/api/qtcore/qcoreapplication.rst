@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.addLibraryPath
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-addLibraryPath-f-1.rst
+        :description: QtCore/QCoreApplication-addLibraryPath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.applicationDirPath
         :returns:
@@ -53,10 +53,10 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.checkPermission
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]
+            :sip:ref:`~PyQt6.QtCore.QBluetoothPermission`|:sip:ref:`~PyQt6.QtCore.QCalendarPermission`|:sip:ref:`~PyQt6.QtCore.QCameraPermission`|:sip:ref:`~PyQt6.QtCore.QContactsPermission`|:sip:ref:`~PyQt6.QtCore.QLocationPermission`|:sip:ref:`~PyQt6.QtCore.QMicrophonePermission`
         :returns:
             :sip:ref:`~PyQt6.QtCore.Qt.PermissionStatus`
-        :description: QtCore/QCoreApplication-checkPermission-f.rst
+        :description: QtCore/QCoreApplication-checkPermission-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.closingDown
         :returns:
@@ -192,9 +192,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.removeLibraryPath
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-removeLibraryPath-f-1.rst
+        :description: QtCore/QCoreApplication-removeLibraryPath-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.removeNativeEventFilter
         :args:
@@ -218,9 +218,9 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.requestPermission
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]
-            Callable[[Union[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`, :sip:ref:`~PyQt6.QtCore.QCalendarPermission`, :sip:ref:`~PyQt6.QtCore.QCameraPermission`, :sip:ref:`~PyQt6.QtCore.QContactsPermission`, :sip:ref:`~PyQt6.QtCore.QLocationPermission`, :sip:ref:`~PyQt6.QtCore.QMicrophonePermission`]], None]
-        :description: QtCore/QCoreApplication-requestPermission-f.rst
+            :sip:ref:`~PyQt6.QtCore.QBluetoothPermission`|:sip:ref:`~PyQt6.QtCore.QCalendarPermission`|:sip:ref:`~PyQt6.QtCore.QCameraPermission`|:sip:ref:`~PyQt6.QtCore.QContactsPermission`|:sip:ref:`~PyQt6.QtCore.QLocationPermission`|:sip:ref:`~PyQt6.QtCore.QMicrophonePermission`
+            Callable[[:sip:ref:`~PyQt6.QtCore.QBluetoothPermission`|:sip:ref:`~PyQt6.QtCore.QCalendarPermission`|:sip:ref:`~PyQt6.QtCore.QCameraPermission`|:sip:ref:`~PyQt6.QtCore.QContactsPermission`|:sip:ref:`~PyQt6.QtCore.QLocationPermission`|:sip:ref:`~PyQt6.QtCore.QMicrophonePermission`], None]
+        :description: QtCore/QCoreApplication-requestPermission-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.sendEvent
         :args:
@@ -240,15 +240,15 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setApplicationName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-setApplicationName-f-1.rst
+        :description: QtCore/QCoreApplication-setApplicationName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setApplicationVersion
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-setApplicationVersion-f-1.rst
+        :description: QtCore/QCoreApplication-setApplicationVersion-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setAttribute
         :args:
@@ -265,21 +265,21 @@
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setLibraryPaths
         :args:
-            Iterable[Optional[str]]
+            Iterable[str|None]
         :static:
-        :description: QtCore/QCoreApplication-setLibraryPaths-f-1.rst
+        :description: QtCore/QCoreApplication-setLibraryPaths-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setOrganizationDomain
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-setOrganizationDomain-f-1.rst
+        :description: QtCore/QCoreApplication-setOrganizationDomain-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setOrganizationName
         :args:
-            Optional[str]
+            str|None
         :static:
-        :description: QtCore/QCoreApplication-setOrganizationName-f-1.rst
+        :description: QtCore/QCoreApplication-setOrganizationName-f.rst
 
     .. sip:method:: PyQt6.QtCore.QCoreApplication.setQuitLockEnabled
         :args:

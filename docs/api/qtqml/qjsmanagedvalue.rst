@@ -32,9 +32,9 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
+            :sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None
             :sip:ref:`~PyQt6.QtQml.QJSEngine`
-        :description: QtQml/QJSManagedValue-__init__-f-5.rst
+        :description: QtQml/QJSManagedValue-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.__init__
         :args:
@@ -44,9 +44,9 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtQml.QJSEngine`
-        :description: QtQml/QJSManagedValue-__init__-f-6.rst
+        :description: QtQml/QJSManagedValue-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.__init__
         :args:
@@ -56,32 +56,32 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.call
         :args:
-            arguments: Iterable[Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]] = []
+            arguments: Iterable[:sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None] = []
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSManagedValue-call-f-1.rst
+        :description: QtQml/QJSManagedValue-call-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.callAsConstructor
         :args:
-            arguments: Iterable[Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]] = []
+            arguments: Iterable[:sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None] = []
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSManagedValue-callAsConstructor-f-1.rst
+        :description: QtQml/QJSManagedValue-callAsConstructor-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.callWithInstance
         :args:
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
-            arguments: Iterable[Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]] = []
+            :sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None
+            arguments: Iterable[:sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None] = []
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSManagedValue-callWithInstance-f-1.rst
+        :description: QtQml/QJSManagedValue-callWithInstance-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.deleteProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtQml/QJSManagedValue-deleteProperty-f-2.rst
+        :description: QtQml/QJSManagedValue-deleteProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.deleteProperty
         :args:
@@ -104,10 +104,10 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.hasOwnProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtQml/QJSManagedValue-hasOwnProperty-f-2.rst
+        :description: QtQml/QJSManagedValue-hasOwnProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.hasOwnProperty
         :args:
@@ -118,10 +118,10 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.hasProperty
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtQml/QJSManagedValue-hasProperty-f-2.rst
+        :description: QtQml/QJSManagedValue-hasProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.hasProperty
         :args:
@@ -217,10 +217,10 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.property
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtQml.QJSValue`
-        :description: QtQml/QJSManagedValue-property-f-2.rst
+        :description: QtQml/QJSManagedValue-property-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.property
         :args:
@@ -236,15 +236,15 @@
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.setProperty
         :args:
-            Optional[str]
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
-        :description: QtQml/QJSManagedValue-setProperty-f-2.rst
+            str|None
+            :sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None
+        :description: QtQml/QJSManagedValue-setProperty-f.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.setProperty
         :args:
             int
-            Union[:sip:ref:`~PyQt6.QtQml.QJSValue`, :sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`, bool, int, float, Optional[str]]
-        :description: QtQml/QJSManagedValue-setProperty-f-3.rst
+            :sip:ref:`~PyQt6.QtQml.QJSValue`|:sip:ref:`~PyQt6.QtQml.QJSValue.SpecialValue`|bool|int|float|str|None
+        :description: QtQml/QJSManagedValue-setProperty-f-1.rst
 
     .. sip:method:: PyQt6.QtQml.QJSManagedValue.setPrototype
         :args:

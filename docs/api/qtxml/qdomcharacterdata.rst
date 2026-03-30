@@ -14,8 +14,8 @@
 
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.appendData
         :args:
-            Optional[str]
-        :description: QtXml/QDomCharacterData-appendData-f-1.rst
+            str|None
+        :description: QtXml/QDomCharacterData-appendData-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.data
         :returns:
@@ -31,8 +31,8 @@
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.insertData
         :args:
             int
-            Optional[str]
-        :description: QtXml/QDomCharacterData-insertData-f-1.rst
+            str|None
+        :description: QtXml/QDomCharacterData-insertData-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.length
         :returns:
@@ -48,13 +48,13 @@
         :args:
             int
             int
-            Optional[str]
-        :description: QtXml/QDomCharacterData-replaceData-f-1.rst
+            str|None
+        :description: QtXml/QDomCharacterData-replaceData-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.setData
         :args:
-            Optional[str]
-        :description: QtXml/QDomCharacterData-setData-f-1.rst
+            str|None
+        :description: QtXml/QDomCharacterData-setData-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomCharacterData.substringData
         :args:

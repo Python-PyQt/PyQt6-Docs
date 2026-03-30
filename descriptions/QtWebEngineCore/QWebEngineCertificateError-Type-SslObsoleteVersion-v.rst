@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: -218
-    :digest: 5ade898181cd52c4ea26916fc5188e14
+    :digest: 9ec171300e790b843de19ac47f8a784c
 
-The connection uses an obsolete version of SSL/TLS. (Added in Qt 6.2, deprecated in Qt 6.4)
+The connection uses an obsolete version of SSL/TLS.

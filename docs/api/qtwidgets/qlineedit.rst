@@ -35,9 +35,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
-        :description: QtWidgets/QLineEdit-__init__-f-2.rst
+        :description: QtWidgets/QLineEdit-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.addAction
         :args:
@@ -254,8 +254,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.insert
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-insert-f-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-insert-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.isClearButtonEnabled
         :returns:
@@ -403,8 +403,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setInputMask
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-setInputMask-f-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-setInputMask-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setMaxLength
         :args:
@@ -418,8 +418,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setPlaceholderText
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-setPlaceholderText-f-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-setPlaceholderText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setReadOnly
         :args:
@@ -434,8 +434,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setText
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-setText-f-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-setText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QLineEdit.setTextMargins
         :args:
@@ -503,10 +503,10 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QLineEdit.textChanged
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-textChanged-s-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-textChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QLineEdit.textEdited
         :args:
-            Optional[str]
-        :description: QtWidgets/QLineEdit-textEdited-s-1.rst
+            str|None
+        :description: QtWidgets/QLineEdit-textEdited-s.rst

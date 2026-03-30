@@ -1,8 +1,7 @@
 .. sip:class-description::
-    :status: done
+    :status: review
     :brief: Implements QAbstractItemModel for a Python range
-    :digest: eaddd2ffc711b3e746700c918ceef3e3
-
+    :digest: b9cae762a88c11b443057dcfd21771f5
 :sip:ref:`~PyQt6.QtCore.QRangeModel` implements
 :sip:ref:`~PyQt6.QtCore.QAbstractItemModel` for a Python range.
 
@@ -39,3 +38,4 @@ The following code will create a similar model but one that is editable::
     - the insertion and removal of Python objects from the range
     - the addition of a ``QPyTreeRange`` to be used with
       :sip:ref:`~PyQt6.QtWidgets.QTreeView`.
+

@@ -1147,8 +1147,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setCursor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QCursor`, :sip:ref:`~PyQt6.QtCore.Qt.CursorShape`]
-        :description: QtWidgets/QGraphicsItem-setCursor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QCursor`|:sip:ref:`~PyQt6.QtCore.Qt.CursorShape`
+        :description: QtWidgets/QGraphicsItem-setCursor-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setData
         :args:
@@ -1245,8 +1245,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setToolTip
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsItem-setToolTip-f-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsItem-setToolTip-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsItem.setTransform
         :args:

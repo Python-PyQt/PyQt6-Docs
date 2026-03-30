@@ -89,8 +89,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGTextNode-setColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGTextNode-setColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setFiltering
         :args:
@@ -99,8 +99,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setLinkColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGTextNode-setLinkColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGTextNode-setLinkColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setRenderType
         :args:
@@ -114,18 +114,18 @@
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setSelectionColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGTextNode-setSelectionColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGTextNode-setSelectionColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setSelectionTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGTextNode-setSelectionTextColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGTextNode-setSelectionTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setStyleColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtQuick/QSGTextNode-setStyleColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtQuick/QSGTextNode-setStyleColor-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QSGTextNode.setTextStyle
         :args:

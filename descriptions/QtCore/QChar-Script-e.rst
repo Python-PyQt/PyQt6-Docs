@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 73ee67d0f0fffdaaf3e9bfe735b039b7
+    :digest: 4d5a155daf01272b587fc6b3d650c785
 
 This enum type defines the Unicode script property values.
 

@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.Tag.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtGui/QFont-Tag-__init__-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtGui/QFont-Tag-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.Tag.__init__
         :args:
@@ -25,19 +25,19 @@
 
     .. sip:method:: PyQt6.QtGui.QFont.Tag.fromString
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtGui.QFont.Tag`]
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`|None
         :static:
-        :description: QtGui/QFont-Tag-fromString-f.rst
+        :description: QtGui/QFont-Tag-fromString-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.Tag.fromValue
         :args:
             int
         :returns:
-            Optional[:sip:ref:`~PyQt6.QtGui.QFont.Tag`]
+            :sip:ref:`~PyQt6.QtGui.QFont.Tag`|None
         :static:
-        :description: QtGui/QFont-Tag-fromValue-f.rst
+        :description: QtGui/QFont-Tag-fromValue-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QFont.Tag.__ge__
         :args:

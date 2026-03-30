@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: -213
-    :digest: 6a115fd1c57ae7fb390ce3c36bce307b
+    :digest: 4a2fcd04b56f330a9c281b447315eb9e
 
-The certificate has a validity period that is too long. (Added in Qt 5.7)
+The certificate has a validity period that is too long.

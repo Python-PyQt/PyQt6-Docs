@@ -120,11 +120,11 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.grabShortcut
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
             context: :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext` = :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.WindowShortcut`
         :returns:
             int
-        :description: QtWidgets/QGraphicsWidget-grabShortcut-f-1.rst
+        :description: QtWidgets/QGraphicsWidget-grabShortcut-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.hideEvent
         :args:
@@ -352,8 +352,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.setWindowTitle
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsWidget-setWindowTitle-f-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsWidget-setWindowTitle-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsWidget.shape
         :returns:

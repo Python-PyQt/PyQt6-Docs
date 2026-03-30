@@ -98,8 +98,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setLabels
         :args:
-            Iterable[Optional[str]]
-        :description: QtGraphs/QAbstract3DAxis-setLabels-f.rst
+            Iterable[str|None]
+        :description: QtGraphs/QAbstract3DAxis-setLabels-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setLabelSize
         :args:
@@ -134,8 +134,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setTitle
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DAxis-setTitle-f.rst
+            str|None
+        :description: QtGraphs/QAbstract3DAxis-setTitle-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstract3DAxis.setTitleFixed
         :args:
@@ -218,8 +218,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.titleChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstract3DAxis-titleChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstract3DAxis-titleChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstract3DAxis.titleFixedChanged
         :args:

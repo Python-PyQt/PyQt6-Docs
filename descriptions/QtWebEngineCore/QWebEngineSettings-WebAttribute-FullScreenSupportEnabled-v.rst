@@ -1,6 +1,6 @@
 .. sip:enum-member-description::
     :status: todo
     :value: 14
-    :digest: 8ac3da5956cb4fe3082d7dea9b68775e
+    :digest: bb60b3d8019b1cb2bed33a2c4df579af
 
-Enables fullscreen support in an application. Disabled by default. (Added in Qt 5.6)
+Enables fullscreen support in an application. Disabled by default.

@@ -33,10 +33,10 @@
 
     .. sip:method:: PyQt6.QtNetwork.QFormDataBuilder.part
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QFormDataPartBuilder`
-        :description: QtNetwork/QFormDataBuilder-part-f.rst
+        :description: QtNetwork/QFormDataBuilder-part-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QFormDataBuilder.swap
         :args:

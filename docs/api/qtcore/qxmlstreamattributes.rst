@@ -18,16 +18,16 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.append
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtCore/QXmlStreamAttributes-append-f-3.rst
+            str|None
+            str|None
+        :description: QtCore/QXmlStreamAttributes-append-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.append
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtCore/QXmlStreamAttributes-append-f-4.rst
+            str|None
+            str|None
+            str|None
+        :description: QtCore/QXmlStreamAttributes-append-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.at
         :args:
@@ -114,18 +114,18 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.hasAttribute
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtCore/QXmlStreamAttributes-hasAttribute-f-2.rst
+        :description: QtCore/QXmlStreamAttributes-hasAttribute-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.hasAttribute
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             bool
-        :description: QtCore/QXmlStreamAttributes-hasAttribute-f-3.rst
+        :description: QtCore/QXmlStreamAttributes-hasAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.__iadd__
         :args:
@@ -231,15 +231,15 @@
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.value
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             str
-        :description: QtCore/QXmlStreamAttributes-value-f-2.rst
+        :description: QtCore/QXmlStreamAttributes-value-f.rst
 
     .. sip:method:: PyQt6.QtCore.QXmlStreamAttributes.value
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
         :returns:
             str
-        :description: QtCore/QXmlStreamAttributes-value-f-3.rst
+        :description: QtCore/QXmlStreamAttributes-value-f-1.rst

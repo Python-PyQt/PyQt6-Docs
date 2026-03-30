@@ -1,5 +1,5 @@
 .. sip:enum-description::
     :status: todo
-    :digest: e72719efe5f977c1b7b4d6f4bba50c21
+    :digest: 13fc880ff08e7d14cfb050f71da391a6
 
 This enum describes the type of the series.

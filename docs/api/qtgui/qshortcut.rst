@@ -20,12 +20,12 @@
 
     .. sip:method:: PyQt6.QtGui.QShortcut.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
             :sip:ref:`~PyQt6.QtCore.QObject`
             member: PYQT_SLOT = None
             ambiguousMember: PYQT_SLOT = None
             context: :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext` = :sip:ref:`~PyQt6.QtCore.Qt.ShortcutContext.WindowShortcut`
-        :description: QtGui/QShortcut-__init__-f-5.rst
+        :description: QtGui/QShortcut-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.autoRepeat
         :returns:
@@ -76,13 +76,13 @@
 
     .. sip:method:: PyQt6.QtGui.QShortcut.setKey
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]
-        :description: QtGui/QShortcut-setKey-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int
+        :description: QtGui/QShortcut-setKey-f.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.setKeys
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QKeySequence`, :sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`, Optional[str], int]]
-        :description: QtGui/QShortcut-setKeys-f-2.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QKeySequence`|:sip:ref:`~PyQt6.QtGui.QKeySequence.StandardKey`|str|None|int]
+        :description: QtGui/QShortcut-setKeys-f.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.setKeys
         :args:
@@ -91,8 +91,8 @@
 
     .. sip:method:: PyQt6.QtGui.QShortcut.setWhatsThis
         :args:
-            Optional[str]
-        :description: QtGui/QShortcut-setWhatsThis-f-1.rst
+            str|None
+        :description: QtGui/QShortcut-setWhatsThis-f.rst
 
     .. sip:method:: PyQt6.QtGui.QShortcut.whatsThis
         :returns:

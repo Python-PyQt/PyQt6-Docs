@@ -8,8 +8,8 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QByteArrayMatcher-__init__-f-4.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QByteArrayMatcher-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.__init__
         :args:
@@ -24,11 +24,11 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.indexIn
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             from: int = 0
         :returns:
             int
-        :description: QtCore/QByteArrayMatcher-indexIn-f-2.rst
+        :description: QtCore/QByteArrayMatcher-indexIn-f.rst
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.indexIn
         :args:
@@ -46,5 +46,5 @@
 
     .. sip:method:: PyQt6.QtCore.QByteArrayMatcher.setPattern
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-        :description: QtCore/QByteArrayMatcher-setPattern-f-1.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+        :description: QtCore/QByteArrayMatcher-setPattern-f.rst

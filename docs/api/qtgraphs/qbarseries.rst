@@ -206,8 +206,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.setBorderColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGraphs/QBarSeries-setBorderColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtGraphs/QBarSeries-setBorderColors-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.setLabelsAngle
         :args:
@@ -216,8 +216,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.setLabelsFormat
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarSeries-setLabelsFormat-f.rst
+            str|None
+        :description: QtGraphs/QBarSeries-setLabelsFormat-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.setLabelsMargin
         :args:
@@ -241,8 +241,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.setSeriesColors
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]]
-        :description: QtGraphs/QBarSeries-setSeriesColors-f.rst
+            Iterable[:sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int]
+        :description: QtGraphs/QBarSeries-setSeriesColors-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QBarSeries.take
         :args:
@@ -310,8 +310,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.labelsFormatChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QBarSeries-labelsFormatChanged-s.rst
+            str|None
+        :description: QtGraphs/QBarSeries-labelsFormatChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QBarSeries.labelsMarginChanged
         :args:

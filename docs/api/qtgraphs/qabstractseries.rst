@@ -13,6 +13,9 @@
         .. sip:enum-member:: PyQt6.QtGraphs.QAbstractSeries.SeriesType.Bar
             :description: QtGraphs/QAbstractSeries-SeriesType-Bar-v.rst
 
+        .. sip:enum-member:: PyQt6.QtGraphs.QAbstractSeries.SeriesType.Custom
+            :description: QtGraphs/QAbstractSeries-SeriesType-Custom-v.rst
+
         .. sip:enum-member:: PyQt6.QtGraphs.QAbstractSeries.SeriesType.Line
             :description: QtGraphs/QAbstractSeries-SeriesType-Line-v.rst
 
@@ -101,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setName
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstractSeries-setName-f.rst
+            str|None
+        :description: QtGraphs/QAbstractSeries-setName-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractSeries.setOpacity
         :args:
@@ -159,10 +162,10 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hover
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtGraphs/QAbstractSeries-hover-s.rst
+        :description: QtGraphs/QAbstractSeries-hover-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoverableChanged
         :description: QtGraphs/QAbstractSeries-hoverableChanged-s.rst
@@ -174,16 +177,16 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoverEnter
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QPointF`
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtGraphs/QAbstractSeries-hoverEnter-s.rst
+        :description: QtGraphs/QAbstractSeries-hoverEnter-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.hoverExit
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtCore.QPointF`
-        :description: QtGraphs/QAbstractSeries-hoverExit-s.rst
+        :description: QtGraphs/QAbstractSeries-hoverExit-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractSeries.legendDataChanged
         :description: QtGraphs/QAbstractSeries-legendDataChanged-s.rst

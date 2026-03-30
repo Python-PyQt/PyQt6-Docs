@@ -11,10 +11,10 @@
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectRegistry.remoteObjectAdded
         :args:
-            tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectRegistry-remoteObjectAdded-s.rst
+            tuple[str|None, :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectRegistry-remoteObjectAdded-s-1.rst
 
     .. sip:signal:: PyQt6.QtRemoteObjects.QRemoteObjectRegistry.remoteObjectRemoved
         :args:
-            tuple[Optional[str], :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
-        :description: QtRemoteObjects/QRemoteObjectRegistry-remoteObjectRemoved-s.rst
+            tuple[str|None, :sip:ref:`~PyQt6.QtRemoteObjects.QRemoteObjectSourceLocationInfo`]
+        :description: QtRemoteObjects/QRemoteObjectRegistry-remoteObjectRemoved-s-1.rst

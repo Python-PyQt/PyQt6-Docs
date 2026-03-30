@@ -90,8 +90,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DVolume.setSliceFrameColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QCustom3DVolume-setSliceFrameColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QCustom3DVolume-setSliceFrameColor-f-1.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QCustom3DVolume.setSliceFrameGaps
         :args:
@@ -276,8 +276,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DVolume.sliceFrameColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtDataVisualization/QCustom3DVolume-sliceFrameColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtDataVisualization/QCustom3DVolume-sliceFrameColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QCustom3DVolume.sliceFrameGapsChanged
         :args:

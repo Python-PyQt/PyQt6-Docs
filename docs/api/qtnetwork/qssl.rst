@@ -177,6 +177,9 @@
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.KeyAlgorithm.Ec
             :description: QtNetwork/QSsl-KeyAlgorithm-Ec-v.rst
 
+        .. sip:enum-member:: PyQt6.QtNetwork.QSsl.KeyAlgorithm.MlDsa
+            :description: QtNetwork/QSsl-KeyAlgorithm-MlDsa-v.rst
+
         .. sip:enum-member:: PyQt6.QtNetwork.QSsl.KeyAlgorithm.Opaque
             :description: QtNetwork/QSsl-KeyAlgorithm-Opaque-v.rst
 

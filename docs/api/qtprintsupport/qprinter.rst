@@ -340,13 +340,13 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setCreator
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setCreator-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setCreator-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setDocName
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setDocName-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setDocName-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setDuplex
         :args:
@@ -377,8 +377,8 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setOutputFileName
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setOutputFileName-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setOutputFileName-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setOutputFormat
         :args:
@@ -402,18 +402,18 @@
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setPrinterName
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setPrinterName-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setPrinterName-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setPrinterSelectionOption
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setPrinterSelectionOption-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setPrinterSelectionOption-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setPrintProgram
         :args:
-            Optional[str]
-        :description: QtPrintSupport/QPrinter-setPrintProgram-f-1.rst
+            str|None
+        :description: QtPrintSupport/QPrinter-setPrintProgram-f.rst
 
     .. sip:method:: PyQt6.QtPrintSupport.QPrinter.setPrintRange
         :args:

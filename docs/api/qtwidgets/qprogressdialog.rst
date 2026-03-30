@@ -12,13 +12,13 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.__init__
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             int
             int
             parent: :sip:ref:`~PyQt6.QtWidgets.QWidget` = None
             flags: :sip:ref:`~PyQt6.QtCore.Qt.WindowType` = Qt.WindowFlags()
-        :description: QtWidgets/QProgressDialog-__init__-f-4.rst
+        :description: QtWidgets/QProgressDialog-__init__-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.autoClose
         :returns:
@@ -104,8 +104,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.setCancelButtonText
         :args:
-            Optional[str]
-        :description: QtWidgets/QProgressDialog-setCancelButtonText-f-1.rst
+            str|None
+        :description: QtWidgets/QProgressDialog-setCancelButtonText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.setLabel
         :args:
@@ -114,8 +114,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.setLabelText
         :args:
-            Optional[str]
-        :description: QtWidgets/QProgressDialog-setLabelText-f-1.rst
+            str|None
+        :description: QtWidgets/QProgressDialog-setLabelText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QProgressDialog.setMaximum
         :args:

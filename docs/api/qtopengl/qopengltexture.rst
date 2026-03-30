@@ -1070,8 +1070,8 @@
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.setBorderColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtOpenGL/QOpenGLTexture-setBorderColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtOpenGL/QOpenGLTexture-setBorderColor-f.rst
 
     .. sip:method:: PyQt6.QtOpenGL.QOpenGLTexture.setComparisonFunction
         :args:

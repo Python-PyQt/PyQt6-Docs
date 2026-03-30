@@ -113,15 +113,15 @@
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.setControl
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QAxContainer/QAxBase-setControl-f-1.rst
+        :description: QAxContainer/QAxBase-setControl-f.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.setPropertyBag
         :args:
-            dict[Optional[str], Any]
-        :description: QAxContainer/QAxBase-setPropertyBag-f.rst
+            dict[str|None, Any]
+        :description: QAxContainer/QAxBase-setPropertyBag-f-1.rst
 
     .. sip:method:: PyQt6.QAxContainer.QAxBase.setPropertyWritable
         :args:

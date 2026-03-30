@@ -79,18 +79,18 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setDeviceExtensions
         :args:
-            Iterable[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]]
-        :description: QtQuick/QQuickGraphicsConfiguration-setDeviceExtensions-f-1.rst
+            Iterable[:sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview]
+        :description: QtQuick/QQuickGraphicsConfiguration-setDeviceExtensions-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPipelineCacheLoadFile
         :args:
-            Optional[str]
-        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheLoadFile-f-1.rst
+            str|None
+        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheLoadFile-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPipelineCacheSaveFile
         :args:
-            Optional[str]
-        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheSaveFile-f-1.rst
+            str|None
+        :description: QtQuick/QQuickGraphicsConfiguration-setPipelineCacheSaveFile-f.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickGraphicsConfiguration.setPreferSoftwareDevice
         :args:

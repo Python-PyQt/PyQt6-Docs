@@ -11,9 +11,9 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.__init__
         :args:
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtWidgets.QGraphicsItem` = None
-        :description: QtWidgets/QGraphicsTextItem-__init__-f-2.rst
+        :description: QtWidgets/QGraphicsTextItem-__init__-f-1.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.adjustSize
         :description: QtWidgets/QGraphicsTextItem-adjustSize-f.rst
@@ -170,8 +170,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDefaultTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f-2.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtWidgets/QGraphicsTextItem-setDefaultTextColor-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setDocument
         :args:
@@ -185,8 +185,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setHtml
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsTextItem-setHtml-f-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsTextItem-setHtml-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setOpenExternalLinks
         :args:
@@ -195,8 +195,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setPlainText
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsTextItem-setPlainText-f-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsTextItem-setPlainText-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsTextItem.setTabChangesFocus
         :args:
@@ -260,10 +260,10 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsTextItem.linkActivated
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsTextItem-linkActivated-s-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsTextItem-linkActivated-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsTextItem.linkHovered
         :args:
-            Optional[str]
-        :description: QtWidgets/QGraphicsTextItem-linkHovered-s-1.rst
+            str|None
+        :description: QtWidgets/QGraphicsTextItem-linkHovered-s.rst

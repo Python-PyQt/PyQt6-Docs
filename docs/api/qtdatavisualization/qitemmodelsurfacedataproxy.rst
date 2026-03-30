@@ -33,53 +33,53 @@
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-7.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-8.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-9.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-10.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-5.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QAbstractItemModel`
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-11.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-__init__-f-6.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.autoColumnCategories
         :returns:
@@ -98,10 +98,10 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnCategoryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnCategoryIndex-f-1.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnCategoryIndex-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnRole
         :returns:
@@ -130,14 +130,14 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.remap
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Optional[str]
-            Iterable[Optional[str]]
-            Iterable[Optional[str]]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-remap-f-1.rst
+            str|None
+            str|None
+            str|None
+            str|None
+            str|None
+            Iterable[str|None]
+            Iterable[str|None]
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-remap-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowCategories
         :returns:
@@ -146,10 +146,10 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowCategoryIndex
         :args:
-            Optional[str]
+            str|None
         :returns:
             int
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowCategoryIndex-f-1.rst
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowCategoryIndex-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowRole
         :returns:
@@ -178,13 +178,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setColumnCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnCategories-f-1.rst
+            Iterable[str|None]
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnCategories-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setColumnRole
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnRole-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnRole-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setColumnRolePattern
         :args:
@@ -193,8 +193,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setColumnRoleReplace
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnRoleReplace-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setColumnRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setItemModel
         :args:
@@ -208,13 +208,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setRowCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowCategories-f-1.rst
+            Iterable[str|None]
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowCategories-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setRowRole
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowRole-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowRole-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setRowRolePattern
         :args:
@@ -223,8 +223,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setRowRoleReplace
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowRoleReplace-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setRowRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setUseModelCategories
         :args:
@@ -233,8 +233,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setXPosRole
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setXPosRole-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setXPosRole-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setXPosRolePattern
         :args:
@@ -243,13 +243,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setXPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setXPosRoleReplace-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setXPosRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setYPosRole
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setYPosRole-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setYPosRole-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setYPosRolePattern
         :args:
@@ -258,13 +258,13 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setYPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setYPosRoleReplace-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setYPosRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setZPosRole
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setZPosRole-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setZPosRole-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setZPosRolePattern
         :args:
@@ -273,8 +273,8 @@
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.setZPosRoleReplace
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setZPosRoleReplace-f-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-setZPosRoleReplace-f.rst
 
     .. sip:method:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.useModelCategories
         :returns:
@@ -341,8 +341,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnRoleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnRoleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnRoleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnRolePatternChanged
         :args:
@@ -351,8 +351,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.columnRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnRoleReplaceChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-columnRoleReplaceChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.itemModelChanged
         :args:
@@ -369,8 +369,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowRoleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowRoleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowRoleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowRolePatternChanged
         :args:
@@ -379,8 +379,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.rowRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowRoleReplaceChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-rowRoleReplaceChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.useModelCategoriesChanged
         :args:
@@ -389,8 +389,8 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.xPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-xPosRoleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-xPosRoleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.xPosRolePatternChanged
         :args:
@@ -399,13 +399,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.xPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-xPosRoleReplaceChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-xPosRoleReplaceChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.yPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-yPosRoleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-yPosRoleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.yPosRolePatternChanged
         :args:
@@ -414,13 +414,13 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.yPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-yPosRoleReplaceChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-yPosRoleReplaceChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.zPosRoleChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-zPosRoleChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-zPosRoleChanged-s.rst
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.zPosRolePatternChanged
         :args:
@@ -429,5 +429,5 @@
 
     .. sip:signal:: PyQt6.QtDataVisualization.QItemModelSurfaceDataProxy.zPosRoleReplaceChanged
         :args:
-            Optional[str]
-        :description: QtDataVisualization/QItemModelSurfaceDataProxy-zPosRoleReplaceChanged-s-1.rst
+            str|None
+        :description: QtDataVisualization/QItemModelSurfaceDataProxy-zPosRoleReplaceChanged-s.rst

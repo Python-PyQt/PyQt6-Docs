@@ -6,8 +6,8 @@
 
     .. sip:method:: PyQt6.QtGui.QStatusTipEvent.__init__
         :args:
-            Optional[str]
-        :description: QtGui/QStatusTipEvent-__init__-f-1.rst
+            str|None
+        :description: QtGui/QStatusTipEvent-__init__-f.rst
 
     .. sip:method:: PyQt6.QtGui.QStatusTipEvent.clone
         :returns:

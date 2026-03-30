@@ -31,8 +31,8 @@
 
     .. sip:method:: PyQt6.Qt3DRender.QMesh.setMeshName
         :args:
-            Optional[str]
-        :description: Qt3DRender/QMesh-setMeshName-f-1.rst
+            str|None
+        :description: Qt3DRender/QMesh-setMeshName-f.rst
 
     .. sip:method:: PyQt6.Qt3DRender.QMesh.setSource
         :args:
@@ -51,8 +51,8 @@
 
     .. sip:signal:: PyQt6.Qt3DRender.QMesh.meshNameChanged
         :args:
-            Optional[str]
-        :description: Qt3DRender/QMesh-meshNameChanged-s-1.rst
+            str|None
+        :description: Qt3DRender/QMesh-meshNameChanged-s.rst
 
     .. sip:signal:: PyQt6.Qt3DRender.QMesh.sourceChanged
         :args:

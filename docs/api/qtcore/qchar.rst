@@ -39,6 +39,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Bengali
             :description: QtCore/QChar-Script-Script_Bengali-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_BeriaErfe
+            :description: QtCore/QChar-Script-Script_BeriaErfe-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Bhaiksuki
             :description: QtCore/QChar-Script-Script_Bhaiksuki-v.rst
 
@@ -411,6 +414,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Siddham
             :description: QtCore/QChar-Script-Script_Siddham-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Sidetic
+            :description: QtCore/QChar-Script-Script_Sidetic-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_SignWriting
             :description: QtCore/QChar-Script-Script_SignWriting-v.rst
 
@@ -453,6 +459,9 @@
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_TaiViet
             :description: QtCore/QChar-Script-Script_TaiViet-v.rst
 
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_TaiYo
+            :description: QtCore/QChar-Script-Script_TaiYo-v.rst
+
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Takri
             :description: QtCore/QChar-Script-Script_Takri-v.rst
 
@@ -485,6 +494,9 @@
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Todhri
             :description: QtCore/QChar-Script-Script_Todhri-v.rst
+
+        .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_TolongSiki
+            :description: QtCore/QChar-Script-Script_TolongSiki-v.rst
 
         .. sip:enum-member:: PyQt6.QtCore.QChar.Script.Script_Toto
             :description: QtCore/QChar-Script-Script_Toto-v.rst

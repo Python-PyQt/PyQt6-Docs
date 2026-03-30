@@ -10,19 +10,19 @@
     .. sip:signal:: PyQt6.QAxContainer.QAxBaseWidget.exception
         :args:
             int
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QAxContainer/QAxBaseWidget-exception-s-1.rst
+            str|None
+            str|None
+            str|None
+        :description: QAxContainer/QAxBaseWidget-exception-s.rst
 
     .. sip:signal:: PyQt6.QAxContainer.QAxBaseWidget.propertyChanged
         :args:
-            Optional[str]
-        :description: QAxContainer/QAxBaseWidget-propertyChanged-s-1.rst
+            str|None
+        :description: QAxContainer/QAxBaseWidget-propertyChanged-s.rst
 
     .. sip:signal:: PyQt6.QAxContainer.QAxBaseWidget.signal
         :args:
-            Optional[str]
+            str|None
             int
             :py:class:`~PyQt6.sip.voidptr`
-        :description: QAxContainer/QAxBaseWidget-signal-s-2.rst
+        :description: QAxContainer/QAxBaseWidget-signal-s.rst

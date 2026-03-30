@@ -13,21 +13,21 @@
 
     .. sip:method:: PyQt6.QtNetwork.QFormDataPartBuilder.setBody
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
-            fileName: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
-            mimeType: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
+            fileName: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
+            mimeType: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QFormDataPartBuilder`
-        :description: QtNetwork/QFormDataPartBuilder-setBody-f.rst
+        :description: QtNetwork/QFormDataPartBuilder-setBody-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QFormDataPartBuilder.setBodyDevice
         :args:
             :sip:ref:`~PyQt6.QtCore.QIODevice`
-            fileName: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
-            mimeType: Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]] = ''
+            fileName: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
+            mimeType: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None = ''
         :returns:
             :sip:ref:`~PyQt6.QtNetwork.QFormDataPartBuilder`
-        :description: QtNetwork/QFormDataPartBuilder-setBodyDevice-f.rst
+        :description: QtNetwork/QFormDataPartBuilder-setBodyDevice-f-1.rst
 
     .. sip:method:: PyQt6.QtNetwork.QFormDataPartBuilder.setHeaders
         :args:

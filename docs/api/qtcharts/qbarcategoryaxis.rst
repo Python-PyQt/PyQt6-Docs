@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.append
         :args:
-            Iterable[Optional[str]]
-        :description: QtCharts/QBarCategoryAxis-append-f-2.rst
+            Iterable[str|None]
+        :description: QtCharts/QBarCategoryAxis-append-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.append
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-append-f-3.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-append-f-1.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.at
         :args:
@@ -42,8 +42,8 @@
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.insert
         :args:
             int
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-insert-f-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-insert-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.__len__
         :returns:
@@ -62,35 +62,35 @@
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.remove
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-remove-f-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-remove-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.replace
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-replace-f-1.rst
+            str|None
+            str|None
+        :description: QtCharts/QBarCategoryAxis-replace-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.setCategories
         :args:
-            Iterable[Optional[str]]
-        :description: QtCharts/QBarCategoryAxis-setCategories-f-1.rst
+            Iterable[str|None]
+        :description: QtCharts/QBarCategoryAxis-setCategories-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.setMax
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-setMax-f-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-setMax-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.setMin
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-setMin-f-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-setMin-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.setRange
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-setRange-f-1.rst
+            str|None
+            str|None
+        :description: QtCharts/QBarCategoryAxis-setRange-f.rst
 
     .. sip:method:: PyQt6.QtCharts.QBarCategoryAxis.type
         :returns:
@@ -105,16 +105,16 @@
 
     .. sip:signal:: PyQt6.QtCharts.QBarCategoryAxis.maxChanged
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-maxChanged-s-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-maxChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarCategoryAxis.minChanged
         :args:
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-minChanged-s-1.rst
+            str|None
+        :description: QtCharts/QBarCategoryAxis-minChanged-s.rst
 
     .. sip:signal:: PyQt6.QtCharts.QBarCategoryAxis.rangeChanged
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtCharts/QBarCategoryAxis-rangeChanged-s-1.rst
+            str|None
+            str|None
+        :description: QtCharts/QBarCategoryAxis-rangeChanged-s.rst

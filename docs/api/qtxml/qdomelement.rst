@@ -14,35 +14,35 @@
 
     .. sip:method:: PyQt6.QtXml.QDomElement.attribute
         :args:
-            Optional[str]
-            defaultValue: Optional[str] = ''
+            str|None
+            defaultValue: str|None = ''
         :returns:
             str
-        :description: QtXml/QDomElement-attribute-f-1.rst
+        :description: QtXml/QDomElement-attribute-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.attributeNode
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomAttr`
-        :description: QtXml/QDomElement-attributeNode-f-1.rst
+        :description: QtXml/QDomElement-attributeNode-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.attributeNodeNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomAttr`
-        :description: QtXml/QDomElement-attributeNodeNS-f-1.rst
+        :description: QtXml/QDomElement-attributeNodeNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.attributeNS
         :args:
-            Optional[str]
-            Optional[str]
-            defaultValue: Optional[str] = ''
+            str|None
+            str|None
+            defaultValue: str|None = ''
         :returns:
             str
-        :description: QtXml/QDomElement-attributeNS-f-1.rst
+        :description: QtXml/QDomElement-attributeNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.attributes
         :returns:
@@ -51,33 +51,33 @@
 
     .. sip:method:: PyQt6.QtXml.QDomElement.elementsByTagName
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNodeList`
-        :description: QtXml/QDomElement-elementsByTagName-f-1.rst
+        :description: QtXml/QDomElement-elementsByTagName-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.elementsByTagNameNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtXml.QDomNodeList`
-        :description: QtXml/QDomElement-elementsByTagNameNS-f-1.rst
+        :description: QtXml/QDomElement-elementsByTagNameNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.hasAttribute
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtXml/QDomElement-hasAttribute-f-1.rst
+        :description: QtXml/QDomElement-hasAttribute-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.hasAttributeNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
         :returns:
             bool
-        :description: QtXml/QDomElement-hasAttributeNS-f-1.rst
+        :description: QtXml/QDomElement-hasAttributeNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.nodeType
         :returns:
@@ -86,8 +86,8 @@
 
     .. sip:method:: PyQt6.QtXml.QDomElement.removeAttribute
         :args:
-            Optional[str]
-        :description: QtXml/QDomElement-removeAttribute-f-1.rst
+            str|None
+        :description: QtXml/QDomElement-removeAttribute-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.removeAttributeNode
         :args:
@@ -98,39 +98,39 @@
 
     .. sip:method:: PyQt6.QtXml.QDomElement.removeAttributeNS
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtXml/QDomElement-removeAttributeNS-f-1.rst
+            str|None
+            str|None
+        :description: QtXml/QDomElement-removeAttributeNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttribute
         :args:
-            Optional[str]
-            Optional[str]
-        :description: QtXml/QDomElement-setAttribute-f-3.rst
+            str|None
+            str|None
+        :description: QtXml/QDomElement-setAttribute-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttribute
         :args:
-            Optional[str]
+            str|None
             int
-        :description: QtXml/QDomElement-setAttribute-f-4.rst
+        :description: QtXml/QDomElement-setAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttribute
         :args:
-            Optional[str]
+            str|None
             int
-        :description: QtXml/QDomElement-setAttribute-f-4.rst
+        :description: QtXml/QDomElement-setAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttribute
         :args:
-            Optional[str]
+            str|None
             float
-        :description: QtXml/QDomElement-setAttribute-f-5.rst
+        :description: QtXml/QDomElement-setAttribute-f-2.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttribute
         :args:
-            Optional[str]
+            str|None
             int
-        :description: QtXml/QDomElement-setAttribute-f-4.rst
+        :description: QtXml/QDomElement-setAttribute-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttributeNode
         :args:
@@ -148,29 +148,29 @@
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttributeNS
         :args:
-            Optional[str]
-            Optional[str]
-            Optional[str]
-        :description: QtXml/QDomElement-setAttributeNS-f-3.rst
+            str|None
+            str|None
+            str|None
+        :description: QtXml/QDomElement-setAttributeNS-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttributeNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             float
-        :description: QtXml/QDomElement-setAttributeNS-f-4.rst
+        :description: QtXml/QDomElement-setAttributeNS-f-1.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setAttributeNS
         :args:
-            Optional[str]
-            Optional[str]
+            str|None
+            str|None
             int
-        :description: QtXml/QDomElement-setAttributeNS-f-5.rst
+        :description: QtXml/QDomElement-setAttributeNS-f-2.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.setTagName
         :args:
-            Optional[str]
-        :description: QtXml/QDomElement-setTagName-f-1.rst
+            str|None
+        :description: QtXml/QDomElement-setTagName-f.rst
 
     .. sip:method:: PyQt6.QtXml.QDomElement.tagName
         :returns:

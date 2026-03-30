@@ -21,6 +21,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtGraphs/QAbstractAxis-alignment-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.color
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColor`
+        :description: QtGraphs/QAbstractAxis-color-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.hide
         :description: QtGraphs/QAbstractAxis-hide-f.rst
 
@@ -69,6 +74,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtGraphs/QAbstractAxis-setAlignment-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setColor
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-setColor-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setGridVisible
         :args:
             visible: bool = True
@@ -110,6 +120,11 @@
             Any
         :description: QtGraphs/QAbstractAxis-setRange-f.rst
 
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setSubColor
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-setSubColor-f.rst
+
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setSubGridVisible
         :args:
             visible: bool = True
@@ -122,8 +137,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTitleColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstractAxis-setTitleColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-setTitleColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTitleFont
         :args:
@@ -132,8 +147,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTitleText
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstractAxis-setTitleText-f.rst
+            str|None
+        :description: QtGraphs/QAbstractAxis-setTitleText-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.setTitleVisible
         :args:
@@ -147,6 +162,11 @@
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.show
         :description: QtGraphs/QAbstractAxis-show-f.rst
+
+    .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.subColor
+        :returns:
+            :sip:ref:`~PyQt6.QtGui.QColor`
+        :description: QtGraphs/QAbstractAxis-subColor-f.rst
 
     .. sip:method:: PyQt6.QtGraphs.QAbstractAxis.textElideMode
         :returns:
@@ -178,6 +198,11 @@
             :sip:ref:`~PyQt6.QtCore.Qt.AlignmentFlag`
         :description: QtGraphs/QAbstractAxis-alignmentChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.colorChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-colorChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.gridVisibleChanged
         :args:
             bool
@@ -201,6 +226,11 @@
             bool
         :description: QtGraphs/QAbstractAxis-lineVisibleChanged-s.rst
 
+    .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.subColorChanged
+        :args:
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-subColorChanged-s.rst
+
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.subGridVisibleChanged
         :args:
             bool
@@ -213,8 +243,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.titleColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QAbstractAxis-titleColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QAbstractAxis-titleColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.titleFontChanged
         :args:
@@ -223,8 +253,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.titleTextChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QAbstractAxis-titleTextChanged-s.rst
+            str|None
+        :description: QtGraphs/QAbstractAxis-titleTextChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QAbstractAxis.titleVisibleChanged
         :args:

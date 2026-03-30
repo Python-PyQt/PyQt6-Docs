@@ -47,10 +47,10 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.__init__
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
             parent: :sip:ref:`~PyQt6.QtGui.QWindow` = None
-        :description: QtQuick/QQuickView-__init__-f-3.rst
+        :description: QtQuick/QQuickView-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.engine
         :returns:
@@ -79,9 +79,9 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.loadFromModule
         :args:
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-            Union[Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview], Optional[str]]
-        :description: QtQuick/QQuickView-loadFromModule-f.rst
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview|str|None
+        :description: QtQuick/QQuickView-loadFromModule-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.mouseMoveEvent
         :args:
@@ -120,8 +120,8 @@
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setInitialProperties
         :args:
-            dict[Optional[str], Any]
-        :description: QtQuick/QQuickView-setInitialProperties-f.rst
+            dict[str|None, Any]
+        :description: QtQuick/QQuickView-setInitialProperties-f-1.rst
 
     .. sip:method:: PyQt6.QtQuick.QQuickView.setResizeMode
         :args:

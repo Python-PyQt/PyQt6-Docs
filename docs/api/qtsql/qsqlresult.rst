@@ -42,17 +42,17 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.bindValue
         :args:
-            Optional[str]
+            str|None
             Any
             :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag`
-        :description: QtSql/QSqlResult-bindValue-f-4.rst
+        :description: QtSql/QSqlResult-bindValue-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.bindValueType
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtSql.QSql.ParamTypeFlag`
-        :description: QtSql/QSqlResult-bindValueType-f-4.rst
+        :description: QtSql/QSqlResult-bindValueType-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.bindValueType
         :args:
@@ -63,10 +63,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.boundValue
         :args:
-            Optional[str]
+            str|None
         :returns:
             Any
-        :description: QtSql/QSqlResult-boundValue-f-2.rst
+        :description: QtSql/QSqlResult-boundValue-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.boundValue
         :args:
@@ -213,10 +213,10 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.prepare
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlResult-prepare-f-1.rst
+        :description: QtSql/QSqlResult-prepare-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.record
         :returns:
@@ -225,17 +225,17 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.reset
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlResult-reset-f-1.rst
+        :description: QtSql/QSqlResult-reset-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.savePrepare
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
-        :description: QtSql/QSqlResult-savePrepare-f-1.rst
+        :description: QtSql/QSqlResult-savePrepare-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.setActive
         :args:
@@ -264,8 +264,8 @@
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.setQuery
         :args:
-            Optional[str]
-        :description: QtSql/QSqlResult-setQuery-f-1.rst
+            str|None
+        :description: QtSql/QSqlResult-setQuery-f.rst
 
     .. sip:method:: PyQt6.QtSql.QSqlResult.setSelect
         :args:

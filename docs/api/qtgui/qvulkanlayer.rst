@@ -4,11 +4,11 @@
     :description: QtGui/QVulkanLayer-c.rst
 
     .. sip:attribute:: PyQt6.QtGui.QVulkanLayer.description
-        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :description: QtGui/QVulkanLayer-description-a.rst
 
     .. sip:attribute:: PyQt6.QtGui.QVulkanLayer.name
-        :type: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+        :type: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
         :description: QtGui/QVulkanLayer-name-a.rst
 
     .. sip:attribute:: PyQt6.QtGui.QVulkanLayer.specVersion

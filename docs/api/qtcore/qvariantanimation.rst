@@ -64,8 +64,8 @@
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.setEasingCurve
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QEasingCurve`, :sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`]
-        :description: QtCore/QVariantAnimation-setEasingCurve-f.rst
+            :sip:ref:`~PyQt6.QtCore.QEasingCurve`|:sip:ref:`~PyQt6.QtCore.QEasingCurve.Type`
+        :description: QtCore/QVariantAnimation-setEasingCurve-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QVariantAnimation.setEndValue
         :args:

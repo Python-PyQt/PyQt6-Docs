@@ -1,56 +1,108 @@
 .. sip:class-description::
     :status: todo
-    :brief: Dialog that allows users to select files or directories
-    :digest: 044429574e2bf8afcdc482721827d9d2
+    :brief: Provides a dialog that allows users to select files or directories
+    :digest: 95d58991bb1d786cfcf9adb8ccdc2c27
 
-The :sip:ref:`~PyQt6.QtWidgets.QFileDialog` class provides a dialog that allows users to select files or directories.
+Provides a dialog that allows users to select files or directories.
 
-The :sip:ref:`~PyQt6.QtWidgets.QFileDialog` class enables a user to traverse the file system to select one or many files or a directory.
+The :sip:ref:`~PyQt6.QtWidgets.QFileDialog` class enables users to browse the file system and select one or more files or directories.
 
-.. image:: ../../../images/qtquickdialogs-filedialog-gtk.png
+.. image:: ../../../images/qfiledialog.png
 
-The easiest way to create a :sip:ref:`~PyQt6.QtWidgets.QFileDialog` is to use the static functions, such as :sip:ref:`~PyQt6.QtWidgets.QFileDialog.getOpenFileName`.
+:sip:ref:`~PyQt6.QtWidgets.QFileDialog` is commonly used to prompt users to open or save files, or to select directories. The easiest way to use :sip:ref:`~PyQt6.QtWidgets.QFileDialog` is through its static convenience functions, such as :sip:ref:`~PyQt6.QtWidgets.QFileDialog.getOpenFileName`.
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
     :lines: 54-55
 
-In the above example, a modal :sip:ref:`~PyQt6.QtWidgets.QFileDialog` is created using a static function. The dialog initially displays the contents of the "/home/jana" directory, and displays files matching the patterns given in the string "Image Files (\*.png \*.jpg \*.bmp)". The parent of the file dialog is set to *this*, and the window title is set to "Open Image".
+In this example, a modal :sip:ref:`~PyQt6.QtWidgets.QFileDialog` is created using a static function. The dialog initially displays the contents of the ``/home/jana`` directory and shows files matching the patterns in ``"Image Files (\*.png \*.jpg \*.bmp)"``. The window title is set to ``Open Image``.
 
-If you want to use multiple filters, separate each one with *two* semicolons. For example:
+.. _qfiledialog-file-filters:
+
+File filters
+------------
+
+.. _qfiledialog-filtering-files-by-name-or-extension:
+
+Filtering files by name or extension
+....................................
+
+To filter the displayed files by name or extension, use the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setNameFilter` or :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setNameFilters` functions. Multiple filters can be specified by separating them with two semicolons (;;):
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
     :lines: 60-60
 
-You can create your own :sip:ref:`~PyQt6.QtWidgets.QFileDialog` without using the static functions. By calling :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setFileMode`, you can specify what the user must select in the dialog:
+.. _qfiledialog-filtering-files-by-mime-type:
+
+Filtering files by MIME type
+............................
+
+To filter the displayed files by MIME type, use the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setMimeTypeFilters` function:
+
+.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
+    :lines: 135-142
+
+.. _qfiledialog-file-filter-case-sensitivity:
+
+File filter case sensitivity
+............................
+
+Depending on target platform, file filters can be case-sensitive or case-insensitive.
+
+.. _qfiledialog-file-modes:
+
+File modes
+----------
+
+:sip:ref:`~PyQt6.QtWidgets.QFileDialog` supports several file modes, which determine what the user can select:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
     :lines: 65-66
 
-In the above example, the mode of the file dialog is set to :sip:ref:`~PyQt6.QtWidgets.QFileDialog.FileMode.AnyFile`, meaning that the user can select any file, or even specify a file that doesn't exist. This mode is useful for creating a "Save As" file dialog. Use :sip:ref:`~PyQt6.QtWidgets.QFileDialog.FileMode.ExistingFile` if the user must select an existing file, or :sip:ref:`~PyQt6.QtWidgets.QFileDialog.FileMode.Directory` if only a directory can be selected. See the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.FileMode` enum for the complete list of modes.
+* **AnyFile**: The user can select any file, including files that do not exist (useful for ``Save As`` dialogs).
 
-The :sip:ref:`~PyQt6.QtWidgets.QFileDialog.fileMode` property contains the mode of operation for the dialog; this indicates what types of objects the user is expected to select. Use :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setNameFilter` to set the dialog's file filter. For example:
+* **ExistingFile**: The user must select an existing file.
 
-.. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
-    :lines: 71-71
+* **Directory**: The user can select a directory.
 
-In the above example, the filter is set to ``"Images (\*.png \*.xpm \*.jpg)"``. This means that only files with the extension ``png``, ``xpm``, or ``jpg`` are shown in the :sip:ref:`~PyQt6.QtWidgets.QFileDialog`. You can apply several filters by using :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setNameFilters`. Use :sip:ref:`~PyQt6.QtWidgets.QFileDialog.selectNameFilter` to select one of the filters you've given as the file dialog's default filter.
+See the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.FileMode` enum for the complete list of modes.
 
-The file dialog has two view modes: :sip:ref:`~PyQt6.QtWidgets.QFileDialog.ViewMode.List` and :sip:ref:`~PyQt6.QtWidgets.QFileDialog.ViewMode.Detail`. :sip:ref:`~PyQt6.QtWidgets.QFileDialog.ViewMode.List` presents the contents of the current directory as a list of file and directory names. :sip:ref:`~PyQt6.QtWidgets.QFileDialog.ViewMode.Detail` also displays a list of file and directory names, but provides additional information alongside each name, such as the file size and modification date. Set the mode with :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setViewMode`:
+The :sip:ref:`~PyQt6.QtWidgets.QFileDialog.fileMode` property contains the current mode of operation. Use :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setFileMode` to change it.
+
+.. _qfiledialog-view-modes:
+
+View modes
+----------
+
+:sip:ref:`~PyQt6.QtWidgets.QFileDialog` provides two view modes:
+
+* **List**: Displays files and directories as a simple list.
+
+* **Detail**: Displays additional information such as file size and modification date.
+
+Set the view mode with :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setViewMode`:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
     :lines: 76-76
 
-The last important function you need to use when creating your own file dialog is :sip:ref:`~PyQt6.QtWidgets.QFileDialog.selectedFiles`.
+.. _qfiledialog-retrieving-selected-files:
+
+Retrieving selected files
+-------------------------
+
+After the dialog is accepted, use :sip:ref:`~PyQt6.QtWidgets.QFileDialog.selectedFiles` to retrieve the user's selection:
 
 .. literalinclude:: ../../../snippets/qtbase-src-widgets-doc-snippets-code-src_gui_dialogs_qfiledialog.py
     :lines: 81-83
 
-In the above example, a modal file dialog is created and shown. If the user clicked OK, the file they selected is put in ``fileName``.
+The dialog's working directory can be set with :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setDirectory`. You can pre-select a file using :sip:ref:`~PyQt6.QtWidgets.QFileDialog.selectFile`.
 
-The dialog's working directory can be set with :sip:ref:`~PyQt6.QtWidgets.QFileDialog.setDirectory`. Each file in the current directory can be selected using the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.selectFile` function.
+.. _qfiledialog-platform-notes:
 
-The `Standard Dialogs <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_ example shows how to use :sip:ref:`~PyQt6.QtWidgets.QFileDialog` as well as other built-in Qt dialogs.
+Platform notes
+--------------
 
-By default, a platform-native file dialog is used if the platform has one. In that case, the widgets that would otherwise be used to construct the dialog are not instantiated, so related accessors such as layout() and :sip:ref:`~PyQt6.QtWidgets.QFileDialog.itemDelegate` return null. Also, not all platforms show file dialogs with a title bar, so be aware that the caption text might not be visible to the user. You can set the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontUseNativeDialog` option or set the :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeDialogs` application attribute to ensure that the widget-based implementation is used instead of the native dialog.
+By default, :sip:ref:`~PyQt6.QtWidgets.QFileDialog` uses the platform's native file dialog if available. In this case, some widget-specific APIs (such as layout() and :sip:ref:`~PyQt6.QtWidgets.QFileDialog.itemDelegate`) may return ``null``. Also, not all platforms display file dialogs with a title bar, so the caption text may not be visible.
+
+To force the use of the Qt widget-based dialog, set the :sip:ref:`~PyQt6.QtWidgets.QFileDialog.Option.DontUseNativeDialog` option or the :sip:ref:`~PyQt6.QtCore.Qt.ApplicationAttribute.AA_DontUseNativeDialogs` application attribute.
 
 .. seealso:: :sip:ref:`~PyQt6.QtCore.QDir`, :sip:ref:`~PyQt6.QtCore.QFileInfo`, :sip:ref:`~PyQt6.QtCore.QFile`, :sip:ref:`~PyQt6.QtWidgets.QColorDialog`, :sip:ref:`~PyQt6.QtWidgets.QFontDialog`, `Standard Dialogs Example <https://doc.qt.io/qt-6/qtwidgets-dialogs-standarddialogs-example.html>`_.

@@ -39,8 +39,8 @@
 
     .. sip:method:: PyQt6.Qt3DExtras.Qt3DWindow.registerAspect
         :args:
-            Optional[str]
-        :description: Qt3DExtras/Qt3DWindow-registerAspect-f-2.rst
+            str|None
+        :description: Qt3DExtras/Qt3DWindow-registerAspect-f-1.rst
 
     .. sip:method:: PyQt6.Qt3DExtras.Qt3DWindow.renderSettings
         :returns:

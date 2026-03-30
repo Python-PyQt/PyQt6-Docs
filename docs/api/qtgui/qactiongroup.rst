@@ -35,18 +35,18 @@
 
     .. sip:method:: PyQt6.QtGui.QActionGroup.addAction
         :args:
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QActionGroup-addAction-f-3.rst
+        :description: QtGui/QActionGroup-addAction-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QActionGroup.addAction
         :args:
             :sip:ref:`~PyQt6.QtGui.QIcon`
-            Optional[str]
+            str|None
         :returns:
             :sip:ref:`~PyQt6.QtGui.QAction`
-        :description: QtGui/QActionGroup-addAction-f-4.rst
+        :description: QtGui/QActionGroup-addAction-f-2.rst
 
     .. sip:method:: PyQt6.QtGui.QActionGroup.checkedAction
         :returns:

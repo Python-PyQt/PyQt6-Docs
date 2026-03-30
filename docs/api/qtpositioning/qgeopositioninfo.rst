@@ -38,8 +38,8 @@
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate`
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtPositioning/QGeoPositionInfo-__init__-f-2.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtPositioning/QGeoPositionInfo-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfo.attribute
         :args:
@@ -102,8 +102,8 @@
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfo.setTimestamp
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QDateTime`, datetime.datetime]
-        :description: QtPositioning/QGeoPositionInfo-setTimestamp-f.rst
+            :sip:ref:`~PyQt6.QtCore.QDateTime`|datetime.datetime
+        :description: QtPositioning/QGeoPositionInfo-setTimestamp-f-1.rst
 
     .. sip:method:: PyQt6.QtPositioning.QGeoPositionInfo.swap
         :args:

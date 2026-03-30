@@ -1,7 +1,7 @@
 .. sip:class-description::
     :status: todo
     :brief: Defines a geographical position on the surface of the Earth
-    :digest: a0595328411507c7467c3b28214022f6
+    :digest: 4f89bc6c7802a7ae592fa6fe2caee77d
 
 The :sip:ref:`~PyQt6.QtPositioning.QGeoCoordinate` class defines a geographical position on the surface of the Earth.
 
@@ -13,4 +13,4 @@ The coordinate values should be specified using the WGS84 datum. For more inform
 
 Azimuth in this context is equivalent to a compass bearing based on true north.
 
-This class is a Q_GADGET since Qt 5.5. It can be `directly used from C++ and QML <https://doc.qt.io/qt-6/positioning-cpp-qml.html#cpp-value-integration-positioning>`_.
+This class is also accessible in QML as `geoCoordinate <https://doc.qt.io/qt-6/qml-geocoordinate.html>`_.

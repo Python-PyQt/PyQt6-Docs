@@ -1,6 +1,6 @@
 .. sip:enum-description::
     :status: todo
-    :digest: 1b8ce2cab59781781bcbdcce46b8b6ea
+    :digest: 1ec543be33bd1ad4001c5c91138478a1
 
 This enum represents the options that can be set on a socket. If desired, they can be set after having received the :sip:ref:`~PyQt6.QtNetwork.QAbstractSocket.connected` signal from the socket or after having received a new socket from a :sip:ref:`~PyQt6.QtNetwork.QTcpServer`.
 

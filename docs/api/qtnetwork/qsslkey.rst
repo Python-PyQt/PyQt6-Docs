@@ -19,12 +19,12 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.__init__
         :args:
-            Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview]
+            :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview
             :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyAlgorithm`
             encoding: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
             type: :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType` = :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType.PrivateKey`
-            passPhrase: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-        :description: QtNetwork/QSslKey-__init__-f-6.rst
+            passPhrase: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+        :description: QtNetwork/QSslKey-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.__init__
         :args:
@@ -32,8 +32,8 @@
             :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyAlgorithm`
             encoding: :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt6.QtNetwork.QSsl.EncodingFormat.Pem`
             type: :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType` = :sip:ref:`~PyQt6.QtNetwork.QSsl.KeyType.PrivateKey`
-            passPhrase: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
-        :description: QtNetwork/QSslKey-__init__-f-7.rst
+            passPhrase: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
+        :description: QtNetwork/QSslKey-__init__-f-3.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.algorithm
         :returns:
@@ -79,17 +79,17 @@
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.toDer
         :args:
-            passPhrase: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            passPhrase: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslKey-toDer-f-1.rst
+        :description: QtNetwork/QSslKey-toDer-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.toPem
         :args:
-            passPhrase: Union[:sip:ref:`~PyQt6.QtCore.QByteArray`, bytes, bytearray, memoryview] = QByteArray()
+            passPhrase: :sip:ref:`~PyQt6.QtCore.QByteArray`|bytes|bytearray|memoryview = QByteArray()
         :returns:
             :sip:ref:`~PyQt6.QtCore.QByteArray`
-        :description: QtNetwork/QSslKey-toPem-f-1.rst
+        :description: QtNetwork/QSslKey-toPem-f.rst
 
     .. sip:method:: PyQt6.QtNetwork.QSslKey.type
         :returns:

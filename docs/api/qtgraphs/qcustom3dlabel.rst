@@ -11,13 +11,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.__init__
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QFont`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QVector3D`
             :sip:ref:`~PyQt6.QtGui.QQuaternion`
             parent: :sip:ref:`~PyQt6.QtCore.QObject` = None
-        :description: QtGraphs/QCustom3DLabel-__init__-f-1.rst
+        :description: QtGraphs/QCustom3DLabel-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.backgroundColor
         :returns:
@@ -46,8 +46,8 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.setBackgroundColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QCustom3DLabel-setBackgroundColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QCustom3DLabel-setBackgroundColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.setBackgroundVisible
         :args:
@@ -71,13 +71,13 @@
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.setText
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DLabel-setText-f.rst
+            str|None
+        :description: QtGraphs/QCustom3DLabel-setText-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.setTextColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QCustom3DLabel-setTextColor-f.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QCustom3DLabel-setTextColor-f-1.rst
 
     .. sip:method:: PyQt6.QtGraphs.QCustom3DLabel.text
         :returns:
@@ -91,8 +91,8 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DLabel.backgroundColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QCustom3DLabel-backgroundColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QCustom3DLabel-backgroundColorChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DLabel.backgroundVisibleChanged
         :args:
@@ -116,10 +116,10 @@
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DLabel.textChanged
         :args:
-            Optional[str]
-        :description: QtGraphs/QCustom3DLabel-textChanged-s.rst
+            str|None
+        :description: QtGraphs/QCustom3DLabel-textChanged-s-1.rst
 
     .. sip:signal:: PyQt6.QtGraphs.QCustom3DLabel.textColorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtGraphs/QCustom3DLabel-textColorChanged-s.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtGraphs/QCustom3DLabel-textColorChanged-s-1.rst

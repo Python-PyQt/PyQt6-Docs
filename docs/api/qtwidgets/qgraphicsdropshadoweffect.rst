@@ -43,8 +43,8 @@
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsDropShadowEffect.setColor
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtWidgets/QGraphicsDropShadowEffect-setColor-f-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtWidgets/QGraphicsDropShadowEffect-setColor-f.rst
 
     .. sip:method:: PyQt6.QtWidgets.QGraphicsDropShadowEffect.setOffset
         :args:
@@ -89,8 +89,8 @@
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsDropShadowEffect.colorChanged
         :args:
-            Union[:sip:ref:`~PyQt6.QtGui.QColor`, :sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`, int]
-        :description: QtWidgets/QGraphicsDropShadowEffect-colorChanged-s-1.rst
+            :sip:ref:`~PyQt6.QtGui.QColor`|:sip:ref:`~PyQt6.QtCore.Qt.GlobalColor`|int
+        :description: QtWidgets/QGraphicsDropShadowEffect-colorChanged-s.rst
 
     .. sip:signal:: PyQt6.QtWidgets.QGraphicsDropShadowEffect.offsetChanged
         :args:

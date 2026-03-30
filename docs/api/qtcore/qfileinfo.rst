@@ -13,8 +13,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
-            Optional[str]
-        :description: QtCore/QFileInfo-__init__-f-5.rst
+            str|None
+        :description: QtCore/QFileInfo-__init__-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
@@ -24,8 +24,8 @@
     .. sip:method:: PyQt6.QtCore.QFileInfo.__init__
         :args:
             :sip:ref:`~PyQt6.QtCore.QDir`
-            Optional[str]
-        :description: QtCore/QFileInfo-__init__-f-6.rst
+            str|None
+        :description: QtCore/QFileInfo-__init__-f-4.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.absoluteDir
         :returns:
@@ -108,11 +108,11 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.exists
         :args:
-            Optional[str]
+            str|None
         :returns:
             bool
         :static:
-        :description: QtCore/QFileInfo-exists-f-2.rst
+        :description: QtCore/QFileInfo-exists-f-1.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.fileName
         :returns:
@@ -334,8 +334,8 @@
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
-            Optional[str]
-        :description: QtCore/QFileInfo-setFile-f-3.rst
+            str|None
+        :description: QtCore/QFileInfo-setFile-f.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
@@ -345,8 +345,8 @@
     .. sip:method:: PyQt6.QtCore.QFileInfo.setFile
         :args:
             :sip:ref:`~PyQt6.QtCore.QDir`
-            Optional[str]
-        :description: QtCore/QFileInfo-setFile-f-4.rst
+            str|None
+        :description: QtCore/QFileInfo-setFile-f-2.rst
 
     .. sip:method:: PyQt6.QtCore.QFileInfo.size
         :returns:

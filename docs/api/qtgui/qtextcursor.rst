@@ -291,8 +291,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertHtml
         :args:
-            Optional[str]
-        :description: QtGui/QTextCursor-insertHtml-f-1.rst
+            str|None
+        :description: QtGui/QTextCursor-insertHtml-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertImage
         :args:
@@ -301,8 +301,8 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertImage
         :args:
-            Optional[str]
-        :description: QtGui/QTextCursor-insertImage-f-4.rst
+            str|None
+        :description: QtGui/QTextCursor-insertImage-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertImage
         :args:
@@ -313,8 +313,8 @@
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertImage
         :args:
             :sip:ref:`~PyQt6.QtGui.QImage`
-            name: Optional[str] = ''
-        :description: QtGui/QTextCursor-insertImage-f-5.rst
+            name: str|None = ''
+        :description: QtGui/QTextCursor-insertImage-f-3.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertList
         :args:
@@ -332,9 +332,9 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertMarkdown
         :args:
-            Optional[str]
+            str|None
             features: :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature` = :sip:ref:`~PyQt6.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
-        :description: QtGui/QTextCursor-insertMarkdown-f-1.rst
+        :description: QtGui/QTextCursor-insertMarkdown-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertTable
         :args:
@@ -355,14 +355,14 @@
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertText
         :args:
-            Optional[str]
-        :description: QtGui/QTextCursor-insertText-f-2.rst
+            str|None
+        :description: QtGui/QTextCursor-insertText-f.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.insertText
         :args:
-            Optional[str]
+            str|None
             :sip:ref:`~PyQt6.QtGui.QTextCharFormat`
-        :description: QtGui/QTextCursor-insertText-f-3.rst
+        :description: QtGui/QTextCursor-insertText-f-1.rst
 
     .. sip:method:: PyQt6.QtGui.QTextCursor.isCopyOf
         :args:

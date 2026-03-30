@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: c70916e782d9742b90f37ccdedc4f900
+    :realsig: (QByteArrayView)
+    :digest: 17028d60d1b6ae56e29fd81ea19f76f9
+
+Constructs a byte array matcher that will search for *pattern*. Call :sip:ref:`~PyQt6.QtCore.QByteArrayMatcher.indexIn` to perform a search.
+
+**Note:** the data that *pattern* is referencing must remain valid while this object is used.
